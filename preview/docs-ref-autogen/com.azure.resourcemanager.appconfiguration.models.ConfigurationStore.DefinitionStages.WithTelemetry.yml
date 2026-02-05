@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.DefinitionStages.WithTelemetry"
+fullName: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.DefinitionStages.WithTelemetry"
+name: "ConfigurationStore.DefinitionStages.WithTelemetry"
+nameWithType: "ConfigurationStore.DefinitionStages.WithTelemetry"
+summary: "The stage of the Configuration<wbr>Store definition allowing to specify telemetry."
+syntax: "public static interface **ConfigurationStore.DefinitionStages.WithTelemetry**"
+methods:
+- uid: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.DefinitionStages.WithTelemetry.withTelemetry(com.azure.resourcemanager.appconfiguration.models.TelemetryProperties)"
+  fullName: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.DefinitionStages.WithTelemetry.withTelemetry(TelemetryProperties telemetry)"
+  name: "withTelemetry(TelemetryProperties telemetry)"
+  nameWithType: "ConfigurationStore.DefinitionStages.WithTelemetry.withTelemetry(TelemetryProperties telemetry)"
+  summary: "Specifies the telemetry property: Property specifying the configuration of telemetry for this configuration store."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Property specifying the configuration of telemetry for this configuration store."
+    name: "telemetry"
+    type: "<xref href=\"com.azure.resourcemanager.appconfiguration.models.TelemetryProperties?alt=com.azure.resourcemanager.appconfiguration.models.TelemetryProperties&text=TelemetryProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ConfigurationStore.DefinitionStages.WithCreate withTelemetry(TelemetryProperties telemetry)"
+  desc: "Specifies the telemetry property: Property specifying the configuration of telemetry for this configuration store."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the ConfigurationStore definition allowing to specify telemetry."
+metadata: {}
+package: "com.azure.resourcemanager.appconfiguration.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-appconfiguration:1.2.0-beta.1

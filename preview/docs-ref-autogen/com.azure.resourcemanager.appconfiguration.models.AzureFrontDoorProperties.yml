@@ -1,0 +1,94 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties"
+fullName: "com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties"
+name: "AzureFrontDoorProperties"
+nameWithType: "AzureFrontDoorProperties"
+summary: "Azure Front Door settings."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AzureFrontDoorProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties?alt=com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties&text=AzureFrontDoorProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties.AzureFrontDoorProperties()"
+  fullName: "com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties.AzureFrontDoorProperties()"
+  name: "AzureFrontDoorProperties()"
+  nameWithType: "AzureFrontDoorProperties.AzureFrontDoorProperties()"
+  summary: "Creates an instance of Azure<wbr>Front<wbr>Door<wbr>Properties class."
+  syntax: "public AzureFrontDoorProperties()"
+  desc: "Creates an instance of AzureFrontDoorProperties class."
+methods:
+- uid: "com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "AzureFrontDoorProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Azure<wbr>Front<wbr>Door<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static AzureFrontDoorProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the AzureFrontDoorProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of AzureFrontDoorProperties from the JsonReader."
+  returns:
+    description: "An instance of AzureFrontDoorProperties if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties?alt=com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties&text=AzureFrontDoorProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties.resourceId()"
+  fullName: "com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties.resourceId()"
+  name: "resourceId()"
+  nameWithType: "AzureFrontDoorProperties.resourceId()"
+  summary: "Get the resource<wbr>Id property: Resource ID of an Azure Front Door profile."
+  syntax: "public String resourceId()"
+  desc: "Get the resourceId property: Resource ID of an Azure Front Door profile."
+  returns:
+    description: "the resourceId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "AzureFrontDoorProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties.withResourceId(java.lang.String)"
+  fullName: "com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties.withResourceId(String resourceId)"
+  name: "withResourceId(String resourceId)"
+  nameWithType: "AzureFrontDoorProperties.withResourceId(String resourceId)"
+  summary: "Set the resource<wbr>Id property: Resource ID of an Azure Front Door profile."
+  parameters:
+  - description: "the resourceId value to set."
+    name: "resourceId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public AzureFrontDoorProperties withResourceId(String resourceId)"
+  desc: "Set the resourceId property: Resource ID of an Azure Front Door profile."
+  returns:
+    description: "the AzureFrontDoorProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties?alt=com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties&text=AzureFrontDoorProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Azure Front Door settings."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties?alt=com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties&text=AzureFrontDoorProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.appconfiguration.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-appconfiguration:1.2.0-beta.1

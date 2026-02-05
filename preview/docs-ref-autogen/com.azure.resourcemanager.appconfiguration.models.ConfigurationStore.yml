@@ -6,6 +6,18 @@ nameWithType: "ConfigurationStore"
 summary: "An immutable client-side representation of Configuration<wbr>Store."
 syntax: "public interface **ConfigurationStore**"
 methods:
+- uid: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.azureFrontDoor()"
+  fullName: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.azureFrontDoor()"
+  name: "azureFrontDoor()"
+  nameWithType: "ConfigurationStore.azureFrontDoor()"
+  summary: "Gets the azure<wbr>Front<wbr>Door property: Property specifying the configuration of Azure Front Door for this configuration store."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract AzureFrontDoorProperties azureFrontDoor()"
+  desc: "Gets the azureFrontDoor property: Property specifying the configuration of Azure Front Door for this configuration store."
+  returns:
+    description: "the azureFrontDoor value."
+    type: "<xref href=\"com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties?alt=com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties&text=AzureFrontDoorProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.createMode()"
   fullName: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.createMode()"
   name: "createMode()"
@@ -30,6 +42,30 @@ methods:
   returns:
     description: "the creationDate value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.dataPlaneProxy()"
+  fullName: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.dataPlaneProxy()"
+  name: "dataPlaneProxy()"
+  nameWithType: "ConfigurationStore.dataPlaneProxy()"
+  summary: "Gets the data<wbr>Plane<wbr>Proxy property: Property specifying the configuration of data plane proxy for Azure Resource Manager (ARM)."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract DataPlaneProxyProperties dataPlaneProxy()"
+  desc: "Gets the dataPlaneProxy property: Property specifying the configuration of data plane proxy for Azure Resource Manager (ARM)."
+  returns:
+    description: "the dataPlaneProxy value."
+    type: "<xref href=\"com.azure.resourcemanager.appconfiguration.models.DataPlaneProxyProperties?alt=com.azure.resourcemanager.appconfiguration.models.DataPlaneProxyProperties&text=DataPlaneProxyProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.defaultKeyValueRevisionRetentionPeriodInSeconds()"
+  fullName: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.defaultKeyValueRevisionRetentionPeriodInSeconds()"
+  name: "defaultKeyValueRevisionRetentionPeriodInSeconds()"
+  nameWithType: "ConfigurationStore.defaultKeyValueRevisionRetentionPeriodInSeconds()"
+  summary: "Gets the default<wbr>Key<wbr>Value<wbr>Revision<wbr>Retention<wbr>Period<wbr>InSeconds property: The duration in seconds to retain new key value revisions."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Long defaultKeyValueRevisionRetentionPeriodInSeconds()"
+  desc: "Gets the defaultKeyValueRevisionRetentionPeriodInSeconds property: The duration in seconds to retain new key value revisions. Defaults to 604800 (7 days) for Free SKU stores and 2592000 (30 days) for Standard SKU stores and Premium SKU stores."
+  returns:
+    description: "the defaultKeyValueRevisionRetentionPeriodInSeconds value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
 - uid: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.disableLocalAuth()"
   fullName: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.disableLocalAuth()"
   name: "disableLocalAuth()"
@@ -134,7 +170,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "A skip token is used to continue retrieving items after an operation returns a partial result.\n     If a previous response contains a nextLink element, the value of the nextLink element will include a\n     skipToken parameter that specifies a starting point to use for subsequent calls."
+  - description: "A skip token is used to continue retrieving items after an operation returns a partial result.\n If a previous response contains a nextLink element, the value of the nextLink element will include a skipToken\n parameter that specifies a starting point to use for subsequent calls."
     name: "skipToken"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -157,6 +193,18 @@ methods:
   returns:
     description: "the location value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.managedOnBehalfOfConfiguration()"
+  fullName: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.managedOnBehalfOfConfiguration()"
+  name: "managedOnBehalfOfConfiguration()"
+  nameWithType: "ConfigurationStore.managedOnBehalfOfConfiguration()"
+  summary: "Gets the managed<wbr>OnBehalf<wbr>OfConfiguration property: Managed On Behalf Of Configuration."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ManagedOnBehalfOfConfiguration managedOnBehalfOfConfiguration()"
+  desc: "Gets the managedOnBehalfOfConfiguration property: Managed On Behalf Of Configuration."
+  returns:
+    description: "the managedOnBehalfOfConfiguration value."
+    type: "<xref href=\"com.azure.resourcemanager.appconfiguration.models.ManagedOnBehalfOfConfiguration?alt=com.azure.resourcemanager.appconfiguration.models.ManagedOnBehalfOfConfiguration&text=ManagedOnBehalfOfConfiguration\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.name()"
   fullName: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.name()"
   name: "name()"
@@ -332,11 +380,11 @@ methods:
   fullName: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.systemData()"
   name: "systemData()"
   nameWithType: "ConfigurationStore.systemData()"
-  summary: "Gets the system<wbr>Data property: Resource system metadata."
+  summary: "Gets the system<wbr>Data property: Azure Resource Manager metadata containing created<wbr>By and modified<wbr>By information."
   modifiers:
   - "abstract"
   syntax: "public abstract SystemData systemData()"
-  desc: "Gets the systemData property: Resource system metadata."
+  desc: "Gets the systemData property: Azure Resource Manager metadata containing createdBy and modifiedBy information."
   returns:
     description: "the systemData value."
     type: "<xref href=\"com.azure.core.management.SystemData?alt=com.azure.core.management.SystemData&text=SystemData\" data-throw-if-not-resolved=\"False\" />"
@@ -352,6 +400,18 @@ methods:
   returns:
     description: "the tags value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.telemetry()"
+  fullName: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.telemetry()"
+  name: "telemetry()"
+  nameWithType: "ConfigurationStore.telemetry()"
+  summary: "Gets the telemetry property: Property specifying the configuration of telemetry for this configuration store."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract TelemetryProperties telemetry()"
+  desc: "Gets the telemetry property: Property specifying the configuration of telemetry for this configuration store."
+  returns:
+    description: "the telemetry value."
+    type: "<xref href=\"com.azure.resourcemanager.appconfiguration.models.TelemetryProperties?alt=com.azure.resourcemanager.appconfiguration.models.TelemetryProperties&text=TelemetryProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.type()"
   fullName: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.type()"
   name: "type()"
@@ -380,4 +440,4 @@ type: "interface"
 desc: "An immutable client-side representation of ConfigurationStore."
 metadata: {}
 package: "com.azure.resourcemanager.appconfiguration.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-appconfiguration:1.0.0-beta.7
+artifact: com.azure.resourcemanager:azure-resourcemanager-appconfiguration:1.2.0-beta.1

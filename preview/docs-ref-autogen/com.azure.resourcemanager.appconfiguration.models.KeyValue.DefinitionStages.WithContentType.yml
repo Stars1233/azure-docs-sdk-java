@@ -14,7 +14,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The content type of the key-value's value. Providing a proper content-type can enable\n     transformations of values when they are retrieved by applications."
+  - description: "The content type of the key-value's value.\n Providing a proper content-type can enable transformations of values when they are retrieved by\n applications."
     name: "contentType"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract KeyValue.DefinitionStages.WithCreate withContentType(String contentType)"
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the KeyValue definition allowing to specify contentType."
 metadata: {}
 package: "com.azure.resourcemanager.appconfiguration.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-appconfiguration:1.0.0-beta.7
+artifact: com.azure.resourcemanager:azure-resourcemanager-appconfiguration:1.2.0-beta.1

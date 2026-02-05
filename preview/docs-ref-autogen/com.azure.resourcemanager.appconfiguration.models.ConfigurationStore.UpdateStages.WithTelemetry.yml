@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.UpdateStages.WithTelemetry"
+fullName: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.UpdateStages.WithTelemetry"
+name: "ConfigurationStore.UpdateStages.WithTelemetry"
+nameWithType: "ConfigurationStore.UpdateStages.WithTelemetry"
+summary: "The stage of the Configuration<wbr>Store update allowing to specify telemetry."
+syntax: "public static interface **ConfigurationStore.UpdateStages.WithTelemetry**"
+methods:
+- uid: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.UpdateStages.WithTelemetry.withTelemetry(com.azure.resourcemanager.appconfiguration.models.TelemetryProperties)"
+  fullName: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.UpdateStages.WithTelemetry.withTelemetry(TelemetryProperties telemetry)"
+  name: "withTelemetry(TelemetryProperties telemetry)"
+  nameWithType: "ConfigurationStore.UpdateStages.WithTelemetry.withTelemetry(TelemetryProperties telemetry)"
+  summary: "Specifies the telemetry property: Property specifying the configuration of telemetry to update for this configuration store."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Property specifying the configuration of telemetry to update for this configuration\n store."
+    name: "telemetry"
+    type: "<xref href=\"com.azure.resourcemanager.appconfiguration.models.TelemetryProperties?alt=com.azure.resourcemanager.appconfiguration.models.TelemetryProperties&text=TelemetryProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ConfigurationStore.Update withTelemetry(TelemetryProperties telemetry)"
+  desc: "Specifies the telemetry property: Property specifying the configuration of telemetry to update for this configuration store."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.Update?alt=com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the ConfigurationStore update allowing to specify telemetry."
+metadata: {}
+package: "com.azure.resourcemanager.appconfiguration.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-appconfiguration:1.2.0-beta.1

@@ -20,16 +20,27 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **PrivateEndpointConnectionReference**"
-constructors:
-- uid: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference.PrivateEndpointConnectionReference()"
-  fullName: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference.PrivateEndpointConnectionReference()"
-  name: "PrivateEndpointConnectionReference()"
-  nameWithType: "PrivateEndpointConnectionReference.PrivateEndpointConnectionReference()"
-  summary: "Creates an instance of Private<wbr>Endpoint<wbr>Connection<wbr>Reference class."
-  syntax: "public PrivateEndpointConnectionReference()"
-  desc: "Creates an instance of PrivateEndpointConnectionReference class."
+syntax: "public final class **PrivateEndpointConnectionReference**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference?alt=com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference&text=PrivateEndpointConnectionReference\" data-throw-if-not-resolved=\"False\" />&gt;"
 methods:
+- uid: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "PrivateEndpointConnectionReference.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Private<wbr>Endpoint<wbr>Connection<wbr>Reference from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static PrivateEndpointConnectionReference fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the PrivateEndpointConnectionReference."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of PrivateEndpointConnectionReference from the JsonReader."
+  returns:
+    description: "An instance of PrivateEndpointConnectionReference if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference?alt=com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference&text=PrivateEndpointConnectionReference\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference.id()"
   fullName: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference.id()"
   name: "id()"
@@ -80,6 +91,18 @@ methods:
   returns:
     description: "the provisioningState value."
     type: "<xref href=\"com.azure.resourcemanager.appconfiguration.models.ProvisioningState?alt=com.azure.resourcemanager.appconfiguration.models.ProvisioningState&text=ProvisioningState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "PrivateEndpointConnectionReference.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference.type()"
   fullName: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference.type()"
   name: "type()"
@@ -90,43 +113,10 @@ methods:
   returns:
     description: "the type value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference.validate()"
-  fullName: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference.validate()"
-  name: "validate()"
-  nameWithType: "PrivateEndpointConnectionReference.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference.withPrivateEndpoint(com.azure.resourcemanager.appconfiguration.models.PrivateEndpoint)"
-  fullName: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference.withPrivateEndpoint(PrivateEndpoint privateEndpoint)"
-  name: "withPrivateEndpoint(PrivateEndpoint privateEndpoint)"
-  nameWithType: "PrivateEndpointConnectionReference.withPrivateEndpoint(PrivateEndpoint privateEndpoint)"
-  summary: "Set the private<wbr>Endpoint property: The resource of private endpoint."
-  parameters:
-  - description: "the privateEndpoint value to set."
-    name: "privateEndpoint"
-    type: "<xref href=\"com.azure.resourcemanager.appconfiguration.models.PrivateEndpoint?alt=com.azure.resourcemanager.appconfiguration.models.PrivateEndpoint&text=PrivateEndpoint\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public PrivateEndpointConnectionReference withPrivateEndpoint(PrivateEndpoint privateEndpoint)"
-  desc: "Set the privateEndpoint property: The resource of private endpoint."
-  returns:
-    description: "the PrivateEndpointConnectionReference object itself."
-    type: "<xref href=\"com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference?alt=com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference&text=PrivateEndpointConnectionReference\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference.withPrivateLinkServiceConnectionState(com.azure.resourcemanager.appconfiguration.models.PrivateLinkServiceConnectionState)"
-  fullName: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference.withPrivateLinkServiceConnectionState(PrivateLinkServiceConnectionState privateLinkServiceConnectionState)"
-  name: "withPrivateLinkServiceConnectionState(PrivateLinkServiceConnectionState privateLinkServiceConnectionState)"
-  nameWithType: "PrivateEndpointConnectionReference.withPrivateLinkServiceConnectionState(PrivateLinkServiceConnectionState privateLinkServiceConnectionState)"
-  summary: "Set the private<wbr>Link<wbr>Service<wbr>Connection<wbr>State property: A collection of information about the state of the connection between service consumer and provider."
-  parameters:
-  - description: "the privateLinkServiceConnectionState value to set."
-    name: "privateLinkServiceConnectionState"
-    type: "<xref href=\"com.azure.resourcemanager.appconfiguration.models.PrivateLinkServiceConnectionState?alt=com.azure.resourcemanager.appconfiguration.models.PrivateLinkServiceConnectionState&text=PrivateLinkServiceConnectionState\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public PrivateEndpointConnectionReference withPrivateLinkServiceConnectionState(PrivateLinkServiceConnectionState privateLinkServiceConnectionState)"
-  desc: "Set the privateLinkServiceConnectionState property: A collection of information about the state of the connection between service consumer and provider."
-  returns:
-    description: "the PrivateEndpointConnectionReference object itself."
-    type: "<xref href=\"com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference?alt=com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference&text=PrivateEndpointConnectionReference\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "A reference to a related private endpoint connection."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference?alt=com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnectionReference&text=PrivateEndpointConnectionReference\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.appconfiguration.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-appconfiguration:1.0.0-beta.7
+artifact: com.azure.resourcemanager:azure-resourcemanager-appconfiguration:1.2.0-beta.1

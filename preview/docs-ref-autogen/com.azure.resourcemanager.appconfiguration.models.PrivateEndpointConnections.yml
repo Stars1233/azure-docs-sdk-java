@@ -30,7 +30,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group to which the container registry belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the configuration store."
@@ -49,7 +49,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group to which the container registry belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the configuration store."
@@ -100,7 +100,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group to which the container registry belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the configuration store."
@@ -128,7 +128,7 @@ methods:
   syntax: "public abstract PrivateEndpointConnection getById(String id)"
   desc: "Gets the specified private endpoint connection associated with the configuration store."
   returns:
-    description: "the specified private endpoint connection associated with the configuration store along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    description: "the specified private endpoint connection associated with the configuration store along with\n <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnection?alt=com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnection&text=PrivateEndpointConnection\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnections.getByIdWithResponse(java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnections.getByIdWithResponse(String id, Context context)"
@@ -147,7 +147,7 @@ methods:
   syntax: "public abstract Response<PrivateEndpointConnection> getByIdWithResponse(String id, Context context)"
   desc: "Gets the specified private endpoint connection associated with the configuration store."
   returns:
-    description: "the specified private endpoint connection associated with the configuration store along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    description: "the specified private endpoint connection associated with the configuration store along with\n <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnection?alt=com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnection&text=PrivateEndpointConnection\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnections.getWithResponse(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnections.getWithResponse(String resourceGroupName, String configStoreName, String privateEndpointConnectionName, Context context)"
@@ -157,7 +157,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group to which the container registry belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the configuration store."
@@ -172,7 +172,7 @@ methods:
   syntax: "public abstract Response<PrivateEndpointConnection> getWithResponse(String resourceGroupName, String configStoreName, String privateEndpointConnectionName, Context context)"
   desc: "Gets the specified private endpoint connection associated with the configuration store."
   returns:
-    description: "the specified private endpoint connection associated with the configuration store along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    description: "the specified private endpoint connection associated with the configuration store along with\n <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnection?alt=com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnection&text=PrivateEndpointConnection\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnections.listByConfigurationStore(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnections.listByConfigurationStore(String resourceGroupName, String configStoreName)"
@@ -182,7 +182,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group to which the container registry belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the configuration store."
@@ -191,7 +191,7 @@ methods:
   syntax: "public abstract PagedIterable<PrivateEndpointConnection> listByConfigurationStore(String resourceGroupName, String configStoreName)"
   desc: "Lists all private endpoint connections for a configuration store."
   returns:
-    description: "a list of private endpoint connections as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "the response of a PrivateEndpointConnection list operation as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnection?alt=com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnection&text=PrivateEndpointConnection\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnections.listByConfigurationStore(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnections.listByConfigurationStore(String resourceGroupName, String configStoreName, Context context)"
@@ -201,7 +201,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group to which the container registry belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the configuration store."
@@ -213,10 +213,10 @@ methods:
   syntax: "public abstract PagedIterable<PrivateEndpointConnection> listByConfigurationStore(String resourceGroupName, String configStoreName, Context context)"
   desc: "Lists all private endpoint connections for a configuration store."
   returns:
-    description: "a list of private endpoint connections as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "the response of a PrivateEndpointConnection list operation as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnection?alt=com.azure.resourcemanager.appconfiguration.models.PrivateEndpointConnection&text=PrivateEndpointConnection\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 desc: "Resource collection API of PrivateEndpointConnections."
 metadata: {}
 package: "com.azure.resourcemanager.appconfiguration.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-appconfiguration:1.0.0-beta.7
+artifact: com.azure.resourcemanager:azure-resourcemanager-appconfiguration:1.2.0-beta.1

@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.DefinitionStages.WithAzureFrontDoor"
+fullName: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.DefinitionStages.WithAzureFrontDoor"
+name: "ConfigurationStore.DefinitionStages.WithAzureFrontDoor"
+nameWithType: "ConfigurationStore.DefinitionStages.WithAzureFrontDoor"
+summary: "The stage of the Configuration<wbr>Store definition allowing to specify azure<wbr>Front<wbr>Door."
+syntax: "public static interface **ConfigurationStore.DefinitionStages.WithAzureFrontDoor**"
+methods:
+- uid: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.DefinitionStages.WithAzureFrontDoor.withAzureFrontDoor(com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties)"
+  fullName: "com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.DefinitionStages.WithAzureFrontDoor.withAzureFrontDoor(AzureFrontDoorProperties azureFrontDoor)"
+  name: "withAzureFrontDoor(AzureFrontDoorProperties azureFrontDoor)"
+  nameWithType: "ConfigurationStore.DefinitionStages.WithAzureFrontDoor.withAzureFrontDoor(AzureFrontDoorProperties azureFrontDoor)"
+  summary: "Specifies the azure<wbr>Front<wbr>Door property: Property specifying the configuration of Azure Front Door for this configuration store."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Property specifying the configuration of Azure Front Door for this configuration\n store."
+    name: "azureFrontDoor"
+    type: "<xref href=\"com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties?alt=com.azure.resourcemanager.appconfiguration.models.AzureFrontDoorProperties&text=AzureFrontDoorProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ConfigurationStore.DefinitionStages.WithCreate withAzureFrontDoor(AzureFrontDoorProperties azureFrontDoor)"
+  desc: "Specifies the azureFrontDoor property: Property specifying the configuration of Azure Front Door for this configuration store."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.appconfiguration.models.ConfigurationStore.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the ConfigurationStore definition allowing to specify azureFrontDoor."
+metadata: {}
+package: "com.azure.resourcemanager.appconfiguration.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-appconfiguration:1.2.0-beta.1
