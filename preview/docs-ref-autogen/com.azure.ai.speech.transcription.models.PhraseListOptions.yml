@@ -53,9 +53,9 @@ methods:
   fullName: "com.azure.ai.speech.transcription.models.PhraseListOptions.getBiasingWeight()"
   name: "getBiasingWeight()"
   nameWithType: "PhraseListOptions.getBiasingWeight()"
-  summary: "Get the biasing<wbr>Weight property: Biasing weight for phrase list (1.0 to 20.0)."
+  summary: "Get the biasing<wbr>Weight property: Biasing weight for phrase list (0.0-2.0)."
   syntax: "public Double getBiasingWeight()"
-  desc: "Get the biasingWeight property: Biasing weight for phrase list (1.0 to 20.0)."
+  desc: "Get the biasingWeight property: Biasing weight for phrase list (0.0-2.0)."
   returns:
     description: "the biasingWeight value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html\">Double</a>"
@@ -73,13 +73,13 @@ methods:
   fullName: "com.azure.ai.speech.transcription.models.PhraseListOptions.setBiasingWeight(Double biasingWeight)"
   name: "setBiasingWeight(Double biasingWeight)"
   nameWithType: "PhraseListOptions.setBiasingWeight(Double biasingWeight)"
-  summary: "Set the biasing<wbr>Weight property: Biasing weight for phrase list (1.0 to 20.0)."
+  summary: "Set the biasing<wbr>Weight property: Biasing weight for phrase list (0.0-2.0)."
   parameters:
   - description: "the biasingWeight value to set."
     name: "biasingWeight"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html\">Double</a>"
   syntax: "public PhraseListOptions setBiasingWeight(Double biasingWeight)"
-  desc: "Set the biasingWeight property: Biasing weight for phrase list (1.0 to 20.0)."
+  desc: "Set the biasingWeight property: Biasing weight for phrase list (0.0-2.0)."
   returns:
     description: "the PhraseListOptions object itself."
     type: "<xref href=\"com.azure.ai.speech.transcription.models.PhraseListOptions?alt=com.azure.ai.speech.transcription.models.PhraseListOptions&text=PhraseListOptions\" data-throw-if-not-resolved=\"False\" />"
@@ -115,4 +115,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.speech.transcription.models.PhraseListOptions?alt=com.azure.ai.speech.transcription.models.PhraseListOptions&text=PhraseListOptions\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.speech.transcription.models"
-artifact: com.azure:azure-ai-speech-transcription:1.0.0-beta.1
+artifact: com.azure:azure-ai-speech-transcription:1.0.0-beta.2
