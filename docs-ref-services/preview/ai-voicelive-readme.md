@@ -1,12 +1,12 @@
 ---
 title: Azure VoiceLive client library for Java
 keywords: Azure, java, SDK, API, azure-ai-voicelive, ai
-ms.date: 12/03/2025
+ms.date: 02/10/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: ai
 ---
-# Azure VoiceLive client library for Java - version 1.0.0-beta.3 
+# Azure VoiceLive client library for Java - version 1.0.0-beta.4 
 
 
 The Azure VoiceLive client library for Java enables real-time, bidirectional voice conversations with AI assistants. Built on WebSocket technology, it provides low-latency audio streaming with support for voice activity detection, interruption handling, and flexible authentication.
@@ -134,6 +134,7 @@ The following sections provide code snippets for common scenarios:
 * [Send audio input](#send-audio-input)
 * [Handle event types](#handle-event-types)
 * [Voice configuration](#voice-configuration)
+* [Function calling](#function-calling)
 * [Complete voice assistant with microphone](#complete-voice-assistant-with-microphone)
 
 ### Focused Sample Files
@@ -167,9 +168,16 @@ For easier learning, explore these focused samples in order:
    - Noise reduction and echo cancellation
    - Multi-threaded audio processing
 
-> **Note:** To run audio samples (AudioPlaybackSample, MicrophoneInputSample, VoiceAssistantSample):
+6. **FunctionCallingSample.java** - Voice assistant with custom function tools
+   - Define function tools with parameters
+   - Register functions with the VoiceLive session
+   - Handle function call requests from the AI model
+   - Execute functions locally and return results
+   - Continue conversation with function results
+
+> **Note:** To run audio samples (AudioPlaybackSample, MicrophoneInputSample, VoiceAssistantSample, FunctionCallingSample):
 > ```bash
-> mvn exec:java -Dexec.mainClass=com.azure.ai.voicelive.AudioPlaybackSample -Dexec.classpathScope=test
+> mvn exec:java -Dexec.mainClass=com.azure.ai.voicelive.FunctionCallingSample -Dexec.classpathScope=test
 > ```
 > These samples use `javax.sound.sampled` for audio I/O.
 
@@ -337,6 +345,67 @@ VoiceLiveSessionOptions options3 = new VoiceLiveSessionOptions()
         new AzurePersonalVoice("speakerProfileId", PersonalVoiceModels.PHOENIX_LATEST_NEURAL)));
 ```
 
+### Function calling
+
+Enable your voice assistant to call custom functions during conversations. This allows the AI to request information or perform actions by executing your code:
+
+```java com.azure.ai.voicelive.functioncalling
+// 1. Define function tool with parameters
+VoiceLiveFunctionDefinition getWeatherFunction = new VoiceLiveFunctionDefinition("get_current_weather")
+    .setDescription("Get the current weather in a given location")
+    .setParameters(BinaryData.fromObject(parametersSchema)); // JSON schema
+
+// 2. Configure session with tools
+VoiceLiveSessionOptions options = new VoiceLiveSessionOptions()
+    .setTools(Arrays.asList(getWeatherFunction))
+    .setInstructions("You have access to weather information. Use get_current_weather when asked about weather.");
+
+// 3. Handle function call events
+client.startSession("gpt-4o-realtime-preview")
+    .flatMap(session -> {
+        session.receiveEvents()
+            .subscribe(event -> {
+                if (event instanceof SessionUpdateConversationItemCreated) {
+                    SessionUpdateConversationItemCreated itemCreated = (SessionUpdateConversationItemCreated) event;
+                    if (itemCreated.getItem().getType() == ItemType.FUNCTION_CALL) {
+                        ResponseFunctionCallItem functionCall = (ResponseFunctionCallItem) itemCreated.getItem();
+
+                        // Wait for arguments
+                        String callId = functionCall.getCallId();
+                        String arguments = waitForArguments(session, callId); // Helper method
+
+                        // Execute function
+                        try {
+                            Map<String, Object> result = getCurrentWeather(arguments);
+                            String resultJson = new ObjectMapper().writeValueAsString(result);
+
+                            // Return result
+                            FunctionCallOutputItem output = new FunctionCallOutputItem(callId, resultJson);
+                            ClientEventConversationItemCreate createItem = new ClientEventConversationItemCreate()
+                                .setItem(output)
+                                .setPreviousItemId(functionCall.getId());
+
+                            session.sendEvent(createItem).subscribe();
+                            session.sendEvent(new ClientEventResponseCreate()).subscribe();
+                        } catch (Exception e) {
+                            System.err.println("Error executing function: " + e.getMessage());
+                        }
+                    }
+                }
+            });
+
+        return Mono.just(session);
+    })
+    .block();
+```
+
+**Key points:**
+* Define function tools with JSON schemas describing parameters
+* The AI decides when to call functions based on conversation context
+* Your code executes the function and returns results
+* Results are sent back to continue the conversation
+* See `FunctionCallingSample.java` for a complete working example
+
 ### Complete voice assistant with microphone
 
 A full example demonstrating real-time microphone input and audio playback:
@@ -463,5 +532,5 @@ For details on contributing to this repository, see the [contributing guide][con
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
 [azure_subscription]: https://azure.microsoft.com/free/
-[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-voicelive_1.0.0-beta.3/sdk/identity/azure-identity
+[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-voicelive_1.0.0-beta.4/sdk/identity/azure-identity
 

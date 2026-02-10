@@ -1,6 +1,6 @@
 {
   "Name": "azure-ai-voicelive",
-  "Version": "1.0.0-beta.3",
+  "Version": "1.0.0-beta.4",
   "DevVersion": null,
   "DirectoryPath": "sdk/ai/azure-ai-voicelive",
   "ServiceDirectory": "ai",
@@ -10,16 +10,16 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-ai-voicelive",
-  "ReleaseStatus": "2025-12-03",
+  "ReleaseStatus": "2026-02-09",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "azureaivoicelive",
-    "releaseInBatch": "${{ parameters.release_azureaivoicelive }}",
     "groupId": "com.azure",
+    "releaseInBatch": "${{ parameters.release_azureaivoicelive }}",
     "triggeringPaths": [
       "/sdk/ai/ci.yml"
     ],
+    "safeName": "azureaivoicelive",
     "name": "azure-ai-voicelive"
   },
   "CIParameters": {
