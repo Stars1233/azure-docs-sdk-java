@@ -1,13 +1,19 @@
 ---
 title: Azure Resource Manager MixedReality client library for Java
 keywords: Azure, java, SDK, API, azure-resourcemanager-mixedreality, mixedreality
-ms.date: 12/23/2024
+ms.date: 02/10/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: mixedreality
 ---
-# Azure Resource Manager MixedReality client library for Java - version 1.0.0 
+# Azure Resource Manager MixedReality client library for Java - version 1.0.1 
 
+
+## Disclaimer
+
+Please note, this package has been deprecated and will no longer be maintained after 2025/10/01. There are no replacement packages, as all mixed reality services are deprecated. Refer to our deprecation policy (https://aka.ms/azsdk/support-policies) for more details.
+
+## Overview
 
 Azure Resource Manager MixedReality client library for Java.
 
@@ -41,7 +47,7 @@ Various documentation is available to help you get started
 <dependency>
     <groupId>com.azure.resourcemanager</groupId>
     <artifactId>azure-resourcemanager-mixedreality</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0-beta.1</version>
 </dependency>
 ```
 [//]: # ({x-version-update-end})
@@ -79,7 +85,7 @@ See [API design][design] for general introduction on design and key concepts on 
 
 ## Examples
 
-[Code snippets and samples](https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-mixedreality_1.0.0/sdk/mixedreality/azure-resourcemanager-mixedreality/SAMPLE.md)
+[Code snippets and samples](https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-mixedreality_1.0.1/sdk/mixedreality/azure-resourcemanager-mixedreality/SAMPLE.md)
 
 
 ## Troubleshooting
@@ -101,12 +107,12 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
 [azure_subscription]: https://azure.microsoft.com/free/
-[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-mixedreality_1.0.0/sdk/identity/azure-identity
-[azure_identity_credentials]: https://github.com/Azure/azure-sdk-for-java/tree/azure-resourcemanager-mixedreality_1.0.0/sdk/identity/azure-identity#credentials
-[azure_core_http_netty]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-mixedreality_1.0.0/sdk/core/azure-core-http-netty
-[authenticate]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-mixedreality_1.0.0/sdk/resourcemanager/docs/AUTH.md
-[design]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-mixedreality_1.0.0/sdk/resourcemanager/docs/DESIGN.md
-[cg]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-mixedreality_1.0.0/CONTRIBUTING.md
+[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-mixedreality_1.0.1/sdk/identity/azure-identity
+[azure_identity_credentials]: https://github.com/Azure/azure-sdk-for-java/tree/azure-resourcemanager-mixedreality_1.0.1/sdk/identity/azure-identity#credentials
+[azure_core_http_netty]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-mixedreality_1.0.1/sdk/core/azure-core-http-netty
+[authenticate]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-mixedreality_1.0.1/sdk/resourcemanager/docs/AUTH.md
+[design]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-mixedreality_1.0.1/sdk/resourcemanager/docs/DESIGN.md
+[cg]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-mixedreality_1.0.1/CONTRIBUTING.md
 [coc]: https://opensource.microsoft.com/codeofconduct/
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/
 
