@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-network",
-  "Version": "2.57.1",
+  "Version": "2.58.0",
   "DevVersion": null,
   "DirectoryPath": "sdk/network/azure-resourcemanager-network",
   "ServiceDirectory": "network",
@@ -10,17 +10,17 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-network",
-  "ReleaseStatus": "2026-01-29",
+  "ReleaseStatus": "2026-02-14",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
     "triggeringPaths": [
       "/sdk/network/ci.yml"
     ],
-    "groupId": "com.azure.resourcemanager",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagernetwork }}",
     "safeName": "azureresourcemanagernetwork",
     "name": "azure-resourcemanager-network",
-    "releaseInBatch": "${{ parameters.release_azureresourcemanagernetwork }}"
+    "groupId": "com.azure.resourcemanager"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
