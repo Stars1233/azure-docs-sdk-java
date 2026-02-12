@@ -1,0 +1,35 @@
+{
+  "Name": "azure-resourcemanager-disconnectedoperations",
+  "Version": "1.0.0-beta.1",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/disconnectedoperations/azure-resourcemanager-disconnectedoperations",
+  "ServiceDirectory": "disconnectedoperations",
+  "ReadMePath": "sdk/disconnectedoperations/azure-resourcemanager-disconnectedoperations/README.md",
+  "ChangeLogPath": "sdk/disconnectedoperations/azure-resourcemanager-disconnectedoperations/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-disconnectedoperations",
+  "ReleaseStatus": "2025-09-24",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagerdisconnectedoperations }}",
+    "groupId": "com.azure.resourcemanager",
+    "triggeringPaths": [
+      "/sdk/disconnectedoperations/ci.yml"
+    ],
+    "name": "azure-resourcemanager-disconnectedoperations",
+    "safeName": "azureresourcemanagerdisconnectedoperations"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/edge/Microsoft.Edge.DisconnectedOperations.Management",
+  "Namespaces": [
+    "com.azure.resourcemanager.disconnectedoperations",
+    "com.azure.resourcemanager.disconnectedoperations.fluent",
+    "com.azure.resourcemanager.disconnectedoperations.fluent.models",
+    "com.azure.resourcemanager.disconnectedoperations.models"
+  ]
+}
