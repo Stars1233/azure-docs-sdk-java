@@ -77,11 +77,11 @@ methods:
   fullName: "com.azure.resourcemanager.nginx.models.NginxConfigurationResponse.properties()"
   name: "properties()"
   nameWithType: "NginxConfigurationResponse.properties()"
-  summary: "Gets the properties property: The properties property."
+  summary: "Gets the properties property: Nginx Configuration Response Properties."
   modifiers:
   - "abstract"
   syntax: "public abstract NginxConfigurationResponseProperties properties()"
-  desc: "Gets the properties property: The properties property."
+  desc: "Gets the properties property: Nginx Configuration Response Properties."
   returns:
     description: "the properties value."
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties?alt=com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties&text=NginxConfigurationResponseProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -129,11 +129,11 @@ methods:
   fullName: "com.azure.resourcemanager.nginx.models.NginxConfigurationResponse.systemData()"
   name: "systemData()"
   nameWithType: "NginxConfigurationResponse.systemData()"
-  summary: "Gets the system<wbr>Data property: Metadata pertaining to creation and last modification of the resource."
+  summary: "Gets the system<wbr>Data property: Azure Resource Manager metadata containing created<wbr>By and modified<wbr>By information."
   modifiers:
   - "abstract"
   syntax: "public abstract SystemData systemData()"
-  desc: "Gets the systemData property: Metadata pertaining to creation and last modification of the resource."
+  desc: "Gets the systemData property: Azure Resource Manager metadata containing createdBy and modifiedBy information."
   returns:
     description: "the systemData value."
     type: "<xref href=\"com.azure.core.management.SystemData?alt=com.azure.core.management.SystemData&text=SystemData\" data-throw-if-not-resolved=\"False\" />"
@@ -165,4 +165,4 @@ type: "interface"
 desc: "An immutable client-side representation of NginxConfigurationResponse."
 metadata: {}
 package: "com.azure.resourcemanager.nginx.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.4

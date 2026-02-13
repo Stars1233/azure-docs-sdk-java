@@ -74,6 +74,18 @@ fields:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ActionType?alt=com.azure.resourcemanager.network.models.ActionType&text=ActionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ActionType BLOCK"
   desc: "Static value Block for ActionType."
+- uid: "com.azure.resourcemanager.network.models.ActionType.CAPTCHA"
+  fullName: "com.azure.resourcemanager.network.models.ActionType.CAPTCHA"
+  name: "CAPTCHA"
+  nameWithType: "ActionType.CAPTCHA"
+  summary: "Static value CAPTCHA for Action<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.network.models.ActionType?alt=com.azure.resourcemanager.network.models.ActionType&text=ActionType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ActionType CAPTCHA"
+  desc: "Static value CAPTCHA for ActionType."
 - uid: "com.azure.resourcemanager.network.models.ActionType.JSCHALLENGE"
   fullName: "com.azure.resourcemanager.network.models.ActionType.JSCHALLENGE"
   name: "JSCHALLENGE"
@@ -131,4 +143,4 @@ type: "class"
 desc: "Defines the action to take on rule match."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.57.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.0

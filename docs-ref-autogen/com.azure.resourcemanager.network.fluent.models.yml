@@ -321,6 +321,7 @@ classes:
 - "com.azure.resourcemanager.network.fluent.models.RoutePropertiesFormat"
 - "com.azure.resourcemanager.network.fluent.models.RouteTableInner"
 - "com.azure.resourcemanager.network.fluent.models.RouteTablePropertiesFormat"
+- "com.azure.resourcemanager.network.fluent.models.RouteTargetAddressPropertiesFormatInner"
 - "com.azure.resourcemanager.network.fluent.models.RoutingIntentInner"
 - "com.azure.resourcemanager.network.fluent.models.RoutingIntentProperties"
 - "com.azure.resourcemanager.network.fluent.models.RoutingRuleCollectionInner"
@@ -349,6 +350,12 @@ classes:
 - "com.azure.resourcemanager.network.fluent.models.ServiceEndpointPolicyDefinitionPropertiesFormat"
 - "com.azure.resourcemanager.network.fluent.models.ServiceEndpointPolicyInner"
 - "com.azure.resourcemanager.network.fluent.models.ServiceEndpointPolicyPropertiesFormat"
+- "com.azure.resourcemanager.network.fluent.models.ServiceGatewayAddressLocationResponseInner"
+- "com.azure.resourcemanager.network.fluent.models.ServiceGatewayInner"
+- "com.azure.resourcemanager.network.fluent.models.ServiceGatewayPropertiesFormatInner"
+- "com.azure.resourcemanager.network.fluent.models.ServiceGatewayServiceInner"
+- "com.azure.resourcemanager.network.fluent.models.ServiceGatewayServicePropertiesFormat"
+- "com.azure.resourcemanager.network.fluent.models.ServiceGatewayServiceRequestInner"
 - "com.azure.resourcemanager.network.fluent.models.ServiceTagInformationInner"
 - "com.azure.resourcemanager.network.fluent.models.ServiceTagsListResultInner"
 - "com.azure.resourcemanager.network.fluent.models.SignatureOverridesFilterValuesResponseInner"
@@ -374,6 +381,9 @@ classes:
 - "com.azure.resourcemanager.network.fluent.models.VirtualHubProperties"
 - "com.azure.resourcemanager.network.fluent.models.VirtualHubRouteTableV2Inner"
 - "com.azure.resourcemanager.network.fluent.models.VirtualHubRouteTableV2Properties"
+- "com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceInner"
+- "com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties"
+- "com.azure.resourcemanager.network.fluent.models.VirtualNetworkAppliancePropertiesFormatInner"
 - "com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner"
 - "com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionListEntityInner"
 - "com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionListEntityPropertiesFormat"
@@ -427,4 +437,4 @@ classes:
 desc: "Package containing the inner data models for NetworkManagementClient. Network Client."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.57.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.0

@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.nginx.models.NginxDeploymentUserProfile"
 fullName: "com.azure.resourcemanager.nginx.models.NginxDeploymentUserProfile"
 name: "NginxDeploymentUserProfile"
 nameWithType: "NginxDeploymentUserProfile"
-summary: "The Nginx<wbr>Deployment<wbr>User<wbr>Profile model."
+summary: "Nginx Deployment User Profile."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -71,13 +71,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.nginx.models.NginxDeploymentUserProfile.validate()"
-  fullName: "com.azure.resourcemanager.nginx.models.NginxDeploymentUserProfile.validate()"
-  name: "validate()"
-  nameWithType: "NginxDeploymentUserProfile.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.nginx.models.NginxDeploymentUserProfile.withPreferredEmail(java.lang.String)"
   fullName: "com.azure.resourcemanager.nginx.models.NginxDeploymentUserProfile.withPreferredEmail(String preferredEmail)"
   name: "withPreferredEmail(String preferredEmail)"
@@ -93,9 +86,9 @@ methods:
     description: "the NginxDeploymentUserProfile object itself."
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxDeploymentUserProfile?alt=com.azure.resourcemanager.nginx.models.NginxDeploymentUserProfile&text=NginxDeploymentUserProfile\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The NginxDeploymentUserProfile model."
+desc: "Nginx Deployment User Profile."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.nginx.models.NginxDeploymentUserProfile?alt=com.azure.resourcemanager.nginx.models.NginxDeploymentUserProfile&text=NginxDeploymentUserProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.nginx.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.4

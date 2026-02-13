@@ -72,6 +72,16 @@ methods:
   returns:
     description: "the customLexiconUri value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.ai.voicelive.models.AzureCustomVoice.getCustomTextNormalizationUrl()"
+  fullName: "com.azure.ai.voicelive.models.AzureCustomVoice.getCustomTextNormalizationUrl()"
+  name: "getCustomTextNormalizationUrl()"
+  nameWithType: "AzureCustomVoice.getCustomTextNormalizationUrl()"
+  summary: "Get the custom<wbr>Text<wbr>Normalization<wbr>Url property: The custom\\_text\\_normalization\\_url property."
+  syntax: "public String getCustomTextNormalizationUrl()"
+  desc: "Get the customTextNormalizationUrl property: The custom\\_text\\_normalization\\_url property."
+  returns:
+    description: "the customTextNormalizationUrl value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.ai.voicelive.models.AzureCustomVoice.getEndpointId()"
   fullName: "com.azure.ai.voicelive.models.AzureCustomVoice.getEndpointId()"
   name: "getEndpointId()"
@@ -184,6 +194,20 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public AzureCustomVoice setCustomLexiconUri(String customLexiconUri)"
   desc: "Set the customLexiconUri property: The custom\\_lexicon\\_url property."
+  returns:
+    description: "the AzureCustomVoice object itself."
+    type: "<xref href=\"com.azure.ai.voicelive.models.AzureCustomVoice?alt=com.azure.ai.voicelive.models.AzureCustomVoice&text=AzureCustomVoice\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.voicelive.models.AzureCustomVoice.setCustomTextNormalizationUrl(java.lang.String)"
+  fullName: "com.azure.ai.voicelive.models.AzureCustomVoice.setCustomTextNormalizationUrl(String customTextNormalizationUrl)"
+  name: "setCustomTextNormalizationUrl(String customTextNormalizationUrl)"
+  nameWithType: "AzureCustomVoice.setCustomTextNormalizationUrl(String customTextNormalizationUrl)"
+  summary: "Set the custom<wbr>Text<wbr>Normalization<wbr>Url property: The custom\\_text\\_normalization\\_url property."
+  parameters:
+  - description: "the customTextNormalizationUrl value to set."
+    name: "customTextNormalizationUrl"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public AzureCustomVoice setCustomTextNormalizationUrl(String customTextNormalizationUrl)"
+  desc: "Set the customTextNormalizationUrl property: The custom\\_text\\_normalization\\_url property."
   returns:
     description: "the AzureCustomVoice object itself."
     type: "<xref href=\"com.azure.ai.voicelive.models.AzureCustomVoice?alt=com.azure.ai.voicelive.models.AzureCustomVoice&text=AzureCustomVoice\" data-throw-if-not-resolved=\"False\" />"
@@ -302,4 +326,4 @@ type: "class"
 desc: "Azure custom voice configuration."
 metadata: {}
 package: "com.azure.ai.voicelive.models"
-artifact: com.azure:azure-ai-voicelive:1.0.0-beta.3
+artifact: com.azure:azure-ai-voicelive:1.0.0-beta.4

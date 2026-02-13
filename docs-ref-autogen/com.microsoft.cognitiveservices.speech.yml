@@ -22,6 +22,7 @@ classes:
 - "com.microsoft.cognitiveservices.speech.KeywordRecognitionResult"
 - "com.microsoft.cognitiveservices.speech.KeywordRecognizer"
 - "com.microsoft.cognitiveservices.speech.NoMatchDetails"
+- "com.microsoft.cognitiveservices.speech.PersonalVoiceSynthesisRequest"
 - "com.microsoft.cognitiveservices.speech.PhraseListGrammar"
 - "com.microsoft.cognitiveservices.speech.PronunciationAssessmentConfig"
 - "com.microsoft.cognitiveservices.speech.PronunciationAssessmentResult"
@@ -40,6 +41,8 @@ classes:
 - "com.microsoft.cognitiveservices.speech.SpeechSynthesisBookmarkEventArgs"
 - "com.microsoft.cognitiveservices.speech.SpeechSynthesisCancellationDetails"
 - "com.microsoft.cognitiveservices.speech.SpeechSynthesisEventArgs"
+- "com.microsoft.cognitiveservices.speech.SpeechSynthesisRequest"
+- "com.microsoft.cognitiveservices.speech.SpeechSynthesisRequest.SpeechSynthesisInputStream"
 - "com.microsoft.cognitiveservices.speech.SpeechSynthesisResult"
 - "com.microsoft.cognitiveservices.speech.SpeechSynthesisVisemeEventArgs"
 - "com.microsoft.cognitiveservices.speech.SpeechSynthesisWordBoundaryEventArgs"
@@ -60,10 +63,11 @@ enums:
 - "com.microsoft.cognitiveservices.speech.ServicePropertyChannel"
 - "com.microsoft.cognitiveservices.speech.SpeechSynthesisBoundaryType"
 - "com.microsoft.cognitiveservices.speech.SpeechSynthesisOutputFormat"
+- "com.microsoft.cognitiveservices.speech.SpeechSynthesisRequest.SpeechSynthesisRequestInputType"
 - "com.microsoft.cognitiveservices.speech.StreamStatus"
 - "com.microsoft.cognitiveservices.speech.SynthesisVoiceGender"
 - "com.microsoft.cognitiveservices.speech.SynthesisVoiceStatus"
 - "com.microsoft.cognitiveservices.speech.SynthesisVoiceType"
 metadata: {}
 package: "com.microsoft.cognitiveservices.speech"
-artifact: com.microsoft.cognitiveservices.speech:client-sdk:1.47.0
+artifact: com.microsoft.cognitiveservices.speech:client-sdk:1.48.1

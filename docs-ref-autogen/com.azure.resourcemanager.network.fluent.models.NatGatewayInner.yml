@@ -166,6 +166,16 @@ methods:
   returns:
     description: "the resourceGuid value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.network.fluent.models.NatGatewayInner.serviceGateway()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.NatGatewayInner.serviceGateway()"
+  name: "serviceGateway()"
+  nameWithType: "NatGatewayInner.serviceGateway()"
+  summary: "Get the service<wbr>Gateway property: Reference to an existing service gateway."
+  syntax: "public SubResource serviceGateway()"
+  desc: "Get the serviceGateway property: Reference to an existing service gateway."
+  returns:
+    description: "the serviceGateway value."
+    type: "<xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.NatGatewayInner.sku()"
   fullName: "com.azure.resourcemanager.network.fluent.models.NatGatewayInner.sku()"
   name: "sku()"
@@ -322,6 +332,20 @@ methods:
   returns:
     description: "the NatGatewayInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NatGatewayInner?alt=com.azure.resourcemanager.network.fluent.models.NatGatewayInner&text=NatGatewayInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.models.NatGatewayInner.withServiceGateway(com.azure.core.management.SubResource)"
+  fullName: "com.azure.resourcemanager.network.fluent.models.NatGatewayInner.withServiceGateway(SubResource serviceGateway)"
+  name: "withServiceGateway(SubResource serviceGateway)"
+  nameWithType: "NatGatewayInner.withServiceGateway(SubResource serviceGateway)"
+  summary: "Set the service<wbr>Gateway property: Reference to an existing service gateway."
+  parameters:
+  - description: "the serviceGateway value to set."
+    name: "serviceGateway"
+    type: "<xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public NatGatewayInner withServiceGateway(SubResource serviceGateway)"
+  desc: "Set the serviceGateway property: Reference to an existing service gateway."
+  returns:
+    description: "the NatGatewayInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NatGatewayInner?alt=com.azure.resourcemanager.network.fluent.models.NatGatewayInner&text=NatGatewayInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.NatGatewayInner.withSku(com.azure.resourcemanager.network.models.NatGatewaySku)"
   fullName: "com.azure.resourcemanager.network.fluent.models.NatGatewayInner.withSku(NatGatewaySku sku)"
   name: "withSku(NatGatewaySku sku)"
@@ -389,4 +413,4 @@ type: "class"
 desc: "Nat Gateway resource."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.57.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.0

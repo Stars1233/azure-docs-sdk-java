@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters"
 fullName: "com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters"
 name: "NginxDeploymentUpdateParameters"
 nameWithType: "NginxDeploymentUpdateParameters"
-summary: "The Nginx<wbr>Deployment<wbr>Update<wbr>Parameters model."
+summary: "Nginx Deployment Update Parameters."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -53,9 +53,9 @@ methods:
   fullName: "com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters.identity()"
   name: "identity()"
   nameWithType: "NginxDeploymentUpdateParameters.identity()"
-  summary: "Get the identity property: The identity property."
+  summary: "Get the identity property: Identity Properties."
   syntax: "public IdentityProperties identity()"
-  desc: "Get the identity property: The identity property."
+  desc: "Get the identity property: Identity Properties."
   returns:
     description: "the identity value."
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.IdentityProperties?alt=com.azure.resourcemanager.nginx.models.IdentityProperties&text=IdentityProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -63,9 +63,9 @@ methods:
   fullName: "com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters.location()"
   name: "location()"
   nameWithType: "NginxDeploymentUpdateParameters.location()"
-  summary: "Get the location property: The location property."
+  summary: "Get the location property: The geo-location where the resource lives."
   syntax: "public String location()"
-  desc: "Get the location property: The location property."
+  desc: "Get the location property: The geo-location where the resource lives."
   returns:
     description: "the location value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -73,9 +73,9 @@ methods:
   fullName: "com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters.properties()"
   name: "properties()"
   nameWithType: "NginxDeploymentUpdateParameters.properties()"
-  summary: "Get the properties property: The properties property."
+  summary: "Get the properties property: Nginx Deployment Update Properties."
   syntax: "public NginxDeploymentUpdateProperties properties()"
-  desc: "Get the properties property: The properties property."
+  desc: "Get the properties property: Nginx Deployment Update Properties."
   returns:
     description: "the properties value."
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateProperties?alt=com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateProperties&text=NginxDeploymentUpdateProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -83,9 +83,9 @@ methods:
   fullName: "com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters.sku()"
   name: "sku()"
   nameWithType: "NginxDeploymentUpdateParameters.sku()"
-  summary: "Get the sku property: The sku property."
+  summary: "Get the sku property: Resource Sku."
   syntax: "public ResourceSku sku()"
-  desc: "Get the sku property: The sku property."
+  desc: "Get the sku property: Resource Sku."
   returns:
     description: "the sku value."
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.ResourceSku?alt=com.azure.resourcemanager.nginx.models.ResourceSku&text=ResourceSku\" data-throw-if-not-resolved=\"False\" />"
@@ -111,24 +111,17 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters.validate()"
-  fullName: "com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters.validate()"
-  name: "validate()"
-  nameWithType: "NginxDeploymentUpdateParameters.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters.withIdentity(com.azure.resourcemanager.nginx.models.IdentityProperties)"
   fullName: "com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters.withIdentity(IdentityProperties identity)"
   name: "withIdentity(IdentityProperties identity)"
   nameWithType: "NginxDeploymentUpdateParameters.withIdentity(IdentityProperties identity)"
-  summary: "Set the identity property: The identity property."
+  summary: "Set the identity property: Identity Properties."
   parameters:
   - description: "the identity value to set."
     name: "identity"
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.IdentityProperties?alt=com.azure.resourcemanager.nginx.models.IdentityProperties&text=IdentityProperties\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public NginxDeploymentUpdateParameters withIdentity(IdentityProperties identity)"
-  desc: "Set the identity property: The identity property."
+  desc: "Set the identity property: Identity Properties."
   returns:
     description: "the NginxDeploymentUpdateParameters object itself."
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters?alt=com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters&text=NginxDeploymentUpdateParameters\" data-throw-if-not-resolved=\"False\" />"
@@ -136,13 +129,13 @@ methods:
   fullName: "com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters.withLocation(String location)"
   name: "withLocation(String location)"
   nameWithType: "NginxDeploymentUpdateParameters.withLocation(String location)"
-  summary: "Set the location property: The location property."
+  summary: "Set the location property: The geo-location where the resource lives."
   parameters:
   - description: "the location value to set."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public NginxDeploymentUpdateParameters withLocation(String location)"
-  desc: "Set the location property: The location property."
+  desc: "Set the location property: The geo-location where the resource lives."
   returns:
     description: "the NginxDeploymentUpdateParameters object itself."
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters?alt=com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters&text=NginxDeploymentUpdateParameters\" data-throw-if-not-resolved=\"False\" />"
@@ -150,13 +143,13 @@ methods:
   fullName: "com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters.withProperties(NginxDeploymentUpdateProperties properties)"
   name: "withProperties(NginxDeploymentUpdateProperties properties)"
   nameWithType: "NginxDeploymentUpdateParameters.withProperties(NginxDeploymentUpdateProperties properties)"
-  summary: "Set the properties property: The properties property."
+  summary: "Set the properties property: Nginx Deployment Update Properties."
   parameters:
   - description: "the properties value to set."
     name: "properties"
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateProperties?alt=com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateProperties&text=NginxDeploymentUpdateProperties\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public NginxDeploymentUpdateParameters withProperties(NginxDeploymentUpdateProperties properties)"
-  desc: "Set the properties property: The properties property."
+  desc: "Set the properties property: Nginx Deployment Update Properties."
   returns:
     description: "the NginxDeploymentUpdateParameters object itself."
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters?alt=com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters&text=NginxDeploymentUpdateParameters\" data-throw-if-not-resolved=\"False\" />"
@@ -164,13 +157,13 @@ methods:
   fullName: "com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters.withSku(ResourceSku sku)"
   name: "withSku(ResourceSku sku)"
   nameWithType: "NginxDeploymentUpdateParameters.withSku(ResourceSku sku)"
-  summary: "Set the sku property: The sku property."
+  summary: "Set the sku property: Resource Sku."
   parameters:
   - description: "the sku value to set."
     name: "sku"
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.ResourceSku?alt=com.azure.resourcemanager.nginx.models.ResourceSku&text=ResourceSku\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public NginxDeploymentUpdateParameters withSku(ResourceSku sku)"
-  desc: "Set the sku property: The sku property."
+  desc: "Set the sku property: Resource Sku."
   returns:
     description: "the NginxDeploymentUpdateParameters object itself."
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters?alt=com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters&text=NginxDeploymentUpdateParameters\" data-throw-if-not-resolved=\"False\" />"
@@ -189,9 +182,9 @@ methods:
     description: "the NginxDeploymentUpdateParameters object itself."
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters?alt=com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters&text=NginxDeploymentUpdateParameters\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The NginxDeploymentUpdateParameters model."
+desc: "Nginx Deployment Update Parameters."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters?alt=com.azure.resourcemanager.nginx.models.NginxDeploymentUpdateParameters&text=NginxDeploymentUpdateParameters\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.nginx.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.4

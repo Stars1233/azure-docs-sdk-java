@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResp
 fullName: "com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse"
 name: "NginxConfigurationProtectedFileResponse"
 nameWithType: "NginxConfigurationProtectedFileResponse"
-summary: "The Nginx<wbr>Configuration<wbr>Protected<wbr>File<wbr>Response model."
+summary: "Nginx Configuration Protected File Response."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **NginxConfigurationProtectedFileResponse**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse?alt=com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse&text=NginxConfigurationProtectedFileResponse\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse.NginxConfigurationProtectedFileResponse()"
-  fullName: "com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse.NginxConfigurationProtectedFileResponse()"
-  name: "NginxConfigurationProtectedFileResponse()"
-  nameWithType: "NginxConfigurationProtectedFileResponse.NginxConfigurationProtectedFileResponse()"
-  summary: "Creates an instance of Nginx<wbr>Configuration<wbr>Protected<wbr>File<wbr>Response class."
-  syntax: "public NginxConfigurationProtectedFileResponse()"
-  desc: "Creates an instance of NginxConfigurationProtectedFileResponse class."
 methods:
 - uid: "com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse.contentHash()"
   fullName: "com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse.contentHash()"
@@ -71,13 +63,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse.validate()"
-  fullName: "com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse.validate()"
-  name: "validate()"
-  nameWithType: "NginxConfigurationProtectedFileResponse.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse.virtualPath()"
   fullName: "com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse.virtualPath()"
   name: "virtualPath()"
@@ -88,38 +73,10 @@ methods:
   returns:
     description: "the virtualPath value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse.withContentHash(java.lang.String)"
-  fullName: "com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse.withContentHash(String contentHash)"
-  name: "withContentHash(String contentHash)"
-  nameWithType: "NginxConfigurationProtectedFileResponse.withContentHash(String contentHash)"
-  summary: "Set the content<wbr>Hash property: The hash of the content of the file."
-  parameters:
-  - description: "the contentHash value to set."
-    name: "contentHash"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public NginxConfigurationProtectedFileResponse withContentHash(String contentHash)"
-  desc: "Set the contentHash property: The hash of the content of the file. This value is used to determine if the file has changed."
-  returns:
-    description: "the NginxConfigurationProtectedFileResponse object itself."
-    type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse?alt=com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse&text=NginxConfigurationProtectedFileResponse\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse.withVirtualPath(java.lang.String)"
-  fullName: "com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse.withVirtualPath(String virtualPath)"
-  name: "withVirtualPath(String virtualPath)"
-  nameWithType: "NginxConfigurationProtectedFileResponse.withVirtualPath(String virtualPath)"
-  summary: "Set the virtual<wbr>Path property: The virtual path of the protected file."
-  parameters:
-  - description: "the virtualPath value to set."
-    name: "virtualPath"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public NginxConfigurationProtectedFileResponse withVirtualPath(String virtualPath)"
-  desc: "Set the virtualPath property: The virtual path of the protected file."
-  returns:
-    description: "the NginxConfigurationProtectedFileResponse object itself."
-    type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse?alt=com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse&text=NginxConfigurationProtectedFileResponse\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The NginxConfigurationProtectedFileResponse model."
+desc: "Nginx Configuration Protected File Response."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse?alt=com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse&text=NginxConfigurationProtectedFileResponse\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.nginx.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.4

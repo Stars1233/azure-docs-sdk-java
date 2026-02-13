@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **AnalysisResultData**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.nginx.models.AnalysisResultData?alt=com.azure.resourcemanager.nginx.models.AnalysisResultData&text=AnalysisResultData\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.nginx.models.AnalysisResultData.AnalysisResultData()"
-  fullName: "com.azure.resourcemanager.nginx.models.AnalysisResultData.AnalysisResultData()"
-  name: "AnalysisResultData()"
-  nameWithType: "AnalysisResultData.AnalysisResultData()"
-  summary: "Creates an instance of Analysis<wbr>Result<wbr>Data class."
-  syntax: "public AnalysisResultData()"
-  desc: "Creates an instance of AnalysisResultData class."
 methods:
 - uid: "com.azure.resourcemanager.nginx.models.AnalysisResultData.diagnostics()"
   fullName: "com.azure.resourcemanager.nginx.models.AnalysisResultData.diagnostics()"
@@ -81,45 +73,10 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.nginx.models.AnalysisResultData.validate()"
-  fullName: "com.azure.resourcemanager.nginx.models.AnalysisResultData.validate()"
-  name: "validate()"
-  nameWithType: "AnalysisResultData.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.nginx.models.AnalysisResultData.withDiagnostics(java.util.List<com.azure.resourcemanager.nginx.models.DiagnosticItem>)"
-  fullName: "com.azure.resourcemanager.nginx.models.AnalysisResultData.withDiagnostics(List<DiagnosticItem> diagnostics)"
-  name: "withDiagnostics(List<DiagnosticItem> diagnostics)"
-  nameWithType: "AnalysisResultData.withDiagnostics(List<DiagnosticItem> diagnostics)"
-  summary: "Set the diagnostics property: The diagnostics property."
-  parameters:
-  - description: "the diagnostics value to set."
-    name: "diagnostics"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.nginx.models.DiagnosticItem?alt=com.azure.resourcemanager.nginx.models.DiagnosticItem&text=DiagnosticItem\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public AnalysisResultData withDiagnostics(List<DiagnosticItem> diagnostics)"
-  desc: "Set the diagnostics property: The diagnostics property."
-  returns:
-    description: "the AnalysisResultData object itself."
-    type: "<xref href=\"com.azure.resourcemanager.nginx.models.AnalysisResultData?alt=com.azure.resourcemanager.nginx.models.AnalysisResultData&text=AnalysisResultData\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.nginx.models.AnalysisResultData.withErrors(java.util.List<com.azure.resourcemanager.nginx.models.AnalysisDiagnostic>)"
-  fullName: "com.azure.resourcemanager.nginx.models.AnalysisResultData.withErrors(List<AnalysisDiagnostic> errors)"
-  name: "withErrors(List<AnalysisDiagnostic> errors)"
-  nameWithType: "AnalysisResultData.withErrors(List<AnalysisDiagnostic> errors)"
-  summary: "Set the errors property: The errors property."
-  parameters:
-  - description: "the errors value to set."
-    name: "errors"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.nginx.models.AnalysisDiagnostic?alt=com.azure.resourcemanager.nginx.models.AnalysisDiagnostic&text=AnalysisDiagnostic\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public AnalysisResultData withErrors(List<AnalysisDiagnostic> errors)"
-  desc: "Set the errors property: The errors property."
-  returns:
-    description: "the AnalysisResultData object itself."
-    type: "<xref href=\"com.azure.resourcemanager.nginx.models.AnalysisResultData?alt=com.azure.resourcemanager.nginx.models.AnalysisResultData&text=AnalysisResultData\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The AnalysisResultData model."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.nginx.models.AnalysisResultData?alt=com.azure.resourcemanager.nginx.models.AnalysisResultData&text=AnalysisResultData\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.nginx.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.4

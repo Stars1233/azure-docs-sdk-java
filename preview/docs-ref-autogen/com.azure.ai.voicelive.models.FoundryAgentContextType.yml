@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.voicelive.models.FoundryAgentContextType"
+fullName: "com.azure.ai.voicelive.models.FoundryAgentContextType"
+name: "FoundryAgentContextType"
+nameWithType: "FoundryAgentContextType"
+summary: "The available set of Foundry agent context types."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **FoundryAgentContextType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.voicelive.models.FoundryAgentContextType?alt=com.azure.ai.voicelive.models.FoundryAgentContextType&text=FoundryAgentContextType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.ai.voicelive.models.FoundryAgentContextType.FoundryAgentContextType()"
+  fullName: "com.azure.ai.voicelive.models.FoundryAgentContextType.FoundryAgentContextType()"
+  name: "FoundryAgentContextType()"
+  nameWithType: "FoundryAgentContextType.FoundryAgentContextType()"
+  summary: "Creates a new instance of Foundry<wbr>Agent<wbr>Context<wbr>Type value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.ai.voicelive.models.FoundryAgentContextType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public FoundryAgentContextType()"
+  desc: "Creates a new instance of FoundryAgentContextType value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.ai.voicelive.models.FoundryAgentContextType.AGENT_CONTEXT"
+  fullName: "com.azure.ai.voicelive.models.FoundryAgentContextType.AGENT_CONTEXT"
+  name: "AGENT_CONTEXT"
+  nameWithType: "FoundryAgentContextType.AGENT_CONTEXT"
+  summary: "Agent maintains its own context (thread), only current input sent per call."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.voicelive.models.FoundryAgentContextType?alt=com.azure.ai.voicelive.models.FoundryAgentContextType&text=FoundryAgentContextType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final FoundryAgentContextType AGENT_CONTEXT"
+  desc: "Agent maintains its own context (thread), only current input sent per call."
+- uid: "com.azure.ai.voicelive.models.FoundryAgentContextType.NO_CONTEXT"
+  fullName: "com.azure.ai.voicelive.models.FoundryAgentContextType.NO_CONTEXT"
+  name: "NO_CONTEXT"
+  nameWithType: "FoundryAgentContextType.NO_CONTEXT"
+  summary: "Only the current user input is sent, no context maintained."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.voicelive.models.FoundryAgentContextType?alt=com.azure.ai.voicelive.models.FoundryAgentContextType&text=FoundryAgentContextType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final FoundryAgentContextType NO_CONTEXT"
+  desc: "Only the current user input is sent, no context maintained."
+methods:
+- uid: "com.azure.ai.voicelive.models.FoundryAgentContextType.fromString(java.lang.String)"
+  fullName: "com.azure.ai.voicelive.models.FoundryAgentContextType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "FoundryAgentContextType.fromString(String name)"
+  summary: "Creates or finds a Foundry<wbr>Agent<wbr>Context<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static FoundryAgentContextType fromString(String name)"
+  desc: "Creates or finds a FoundryAgentContextType from its string representation."
+  returns:
+    description: "the corresponding FoundryAgentContextType."
+    type: "<xref href=\"com.azure.ai.voicelive.models.FoundryAgentContextType?alt=com.azure.ai.voicelive.models.FoundryAgentContextType&text=FoundryAgentContextType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.voicelive.models.FoundryAgentContextType.values()"
+  fullName: "com.azure.ai.voicelive.models.FoundryAgentContextType.values()"
+  name: "values()"
+  nameWithType: "FoundryAgentContextType.values()"
+  summary: "Gets known Foundry<wbr>Agent<wbr>Context<wbr>Type values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<FoundryAgentContextType> values()"
+  desc: "Gets known FoundryAgentContextType values."
+  returns:
+    description: "known FoundryAgentContextType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.ai.voicelive.models.FoundryAgentContextType?alt=com.azure.ai.voicelive.models.FoundryAgentContextType&text=FoundryAgentContextType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The available set of Foundry agent context types."
+metadata: {}
+package: "com.azure.ai.voicelive.models"
+artifact: com.azure:azure-ai-voicelive:1.0.0-beta.4

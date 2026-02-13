@@ -1045,6 +1045,27 @@
     - EventGridCloudNativeEventPublisher
   no-loc:
   - com.azure.messaging.eventgrid.cloudnative.cloudevents
+- uid: com.azure.mixedreality.authentication
+  name: com.azure.mixedreality.authentication
+  items:
+  - uid: com.azure.mixedreality.authentication.MixedRealityStsAsyncClient
+    name: MixedRealityStsAsyncClient
+    no-loc:
+    - MixedRealityStsAsyncClient
+  - uid: com.azure.mixedreality.authentication.MixedRealityStsClient
+    name: MixedRealityStsClient
+    no-loc:
+    - MixedRealityStsClient
+  - uid: com.azure.mixedreality.authentication.MixedRealityStsClientBuilder
+    name: MixedRealityStsClientBuilder
+    no-loc:
+    - MixedRealityStsClientBuilder
+  - uid: com.azure.mixedreality.authentication.MixedRealityStsServiceVersion
+    name: MixedRealityStsServiceVersion
+    no-loc:
+    - MixedRealityStsServiceVersion
+  no-loc:
+  - com.azure.mixedreality.authentication
 - uid: com.azure.mixedreality.remoterendering
   name: com.azure.mixedreality.remoterendering
   items:
@@ -1286,6 +1307,558 @@
     - AzureMonitorExporterBuilder
   no-loc:
   - com.azure.opentelemetry.exporter.azuremonitor
+- uid: com.azure.resourcemanager.agrifood
+  name: com.azure.resourcemanager.agrifood
+  items:
+  - uid: com.azure.resourcemanager.agrifood.AgriFoodManager
+    name: AgriFoodManager
+    no-loc:
+    - AgriFoodManager
+  - uid: com.azure.resourcemanager.agrifood.AgriFoodManager.Configurable
+    name: AgriFoodManager.Configurable
+    no-loc:
+    - AgriFoodManager.Configurable
+  no-loc:
+  - com.azure.resourcemanager.agrifood
+- uid: com.azure.resourcemanager.agrifood.fluent
+  name: com.azure.resourcemanager.agrifood.fluent
+  items:
+  - uid: com.azure.resourcemanager.agrifood.fluent.AgriFoodManagementClient
+    name: AgriFoodManagementClient
+    no-loc:
+    - AgriFoodManagementClient
+  - uid: com.azure.resourcemanager.agrifood.fluent.ExtensionsClient
+    name: ExtensionsClient
+    no-loc:
+    - ExtensionsClient
+  - uid: com.azure.resourcemanager.agrifood.fluent.FarmBeatsExtensionsClient
+    name: FarmBeatsExtensionsClient
+    no-loc:
+    - FarmBeatsExtensionsClient
+  - uid: com.azure.resourcemanager.agrifood.fluent.FarmBeatsModelsClient
+    name: FarmBeatsModelsClient
+    no-loc:
+    - FarmBeatsModelsClient
+  - uid: com.azure.resourcemanager.agrifood.fluent.LocationsClient
+    name: LocationsClient
+    no-loc:
+    - LocationsClient
+  - uid: com.azure.resourcemanager.agrifood.fluent.OperationResultsClient
+    name: OperationResultsClient
+    no-loc:
+    - OperationResultsClient
+  - uid: com.azure.resourcemanager.agrifood.fluent.OperationsClient
+    name: OperationsClient
+    no-loc:
+    - OperationsClient
+  - uid: com.azure.resourcemanager.agrifood.fluent.PrivateEndpointConnectionsClient
+    name: PrivateEndpointConnectionsClient
+    no-loc:
+    - PrivateEndpointConnectionsClient
+  - uid: com.azure.resourcemanager.agrifood.fluent.PrivateLinkResourcesClient
+    name: PrivateLinkResourcesClient
+    no-loc:
+    - PrivateLinkResourcesClient
+  - uid: com.azure.resourcemanager.agrifood.fluent.SolutionsClient
+    name: SolutionsClient
+    no-loc:
+    - SolutionsClient
+  - uid: com.azure.resourcemanager.agrifood.fluent.SolutionsDiscoverabilitiesClient
+    name: SolutionsDiscoverabilitiesClient
+    no-loc:
+    - SolutionsDiscoverabilitiesClient
+  no-loc:
+  - com.azure.resourcemanager.agrifood.fluent
+- uid: com.azure.resourcemanager.agrifood.fluent.models
+  name: com.azure.resourcemanager.agrifood.fluent.models
+  items:
+  - uid: com.azure.resourcemanager.agrifood.fluent.models.ArmAsyncOperationInner
+    name: ArmAsyncOperationInner
+    no-loc:
+    - ArmAsyncOperationInner
+  - uid: com.azure.resourcemanager.agrifood.fluent.models.CheckNameAvailabilityResponseInner
+    name: CheckNameAvailabilityResponseInner
+    no-loc:
+    - CheckNameAvailabilityResponseInner
+  - uid: com.azure.resourcemanager.agrifood.fluent.models.ExtensionInner
+    name: ExtensionInner
+    no-loc:
+    - ExtensionInner
+  - uid: com.azure.resourcemanager.agrifood.fluent.models.ExtensionProperties
+    name: ExtensionProperties
+    no-loc:
+    - ExtensionProperties
+  - uid: com.azure.resourcemanager.agrifood.fluent.models.FarmBeatsExtensionInner
+    name: FarmBeatsExtensionInner
+    no-loc:
+    - FarmBeatsExtensionInner
+  - uid: com.azure.resourcemanager.agrifood.fluent.models.FarmBeatsExtensionProperties
+    name: FarmBeatsExtensionProperties
+    no-loc:
+    - FarmBeatsExtensionProperties
+  - uid: com.azure.resourcemanager.agrifood.fluent.models.FarmBeatsInner
+    name: FarmBeatsInner
+    no-loc:
+    - FarmBeatsInner
+  - uid: com.azure.resourcemanager.agrifood.fluent.models.FarmBeatsPropertiesInner
+    name: FarmBeatsPropertiesInner
+    no-loc:
+    - FarmBeatsPropertiesInner
+  - uid: com.azure.resourcemanager.agrifood.fluent.models.FarmBeatsSolutionInner
+    name: FarmBeatsSolutionInner
+    no-loc:
+    - FarmBeatsSolutionInner
+  - uid: com.azure.resourcemanager.agrifood.fluent.models.OperationInner
+    name: OperationInner
+    no-loc:
+    - OperationInner
+  - uid: com.azure.resourcemanager.agrifood.fluent.models.PrivateEndpointConnectionInner
+    name: PrivateEndpointConnectionInner
+    no-loc:
+    - PrivateEndpointConnectionInner
+  - uid: com.azure.resourcemanager.agrifood.fluent.models.PrivateEndpointConnectionProperties
+    name: PrivateEndpointConnectionProperties
+    no-loc:
+    - PrivateEndpointConnectionProperties
+  - uid: com.azure.resourcemanager.agrifood.fluent.models.PrivateLinkResourceInner
+    name: PrivateLinkResourceInner
+    no-loc:
+    - PrivateLinkResourceInner
+  - uid: com.azure.resourcemanager.agrifood.fluent.models.PrivateLinkResourceProperties
+    name: PrivateLinkResourceProperties
+    no-loc:
+    - PrivateLinkResourceProperties
+  - uid: com.azure.resourcemanager.agrifood.fluent.models.SolutionInner
+    name: SolutionInner
+    no-loc:
+    - SolutionInner
+  no-loc:
+  - com.azure.resourcemanager.agrifood.fluent.models
+- uid: com.azure.resourcemanager.agrifood.models
+  name: com.azure.resourcemanager.agrifood.models
+  items:
+  - uid: com.azure.resourcemanager.agrifood.models.ActionType
+    name: ActionType
+    no-loc:
+    - ActionType
+  - uid: com.azure.resourcemanager.agrifood.models.ApiProperties
+    name: ApiProperties
+    no-loc:
+    - ApiProperties
+  - uid: com.azure.resourcemanager.agrifood.models.ArmAsyncOperation
+    name: ArmAsyncOperation
+    no-loc:
+    - ArmAsyncOperation
+  - uid: com.azure.resourcemanager.agrifood.models.ArmAsyncOperationError
+    name: ArmAsyncOperationError
+    no-loc:
+    - ArmAsyncOperationError
+  - uid: com.azure.resourcemanager.agrifood.models.CheckNameAvailabilityReason
+    name: CheckNameAvailabilityReason
+    no-loc:
+    - CheckNameAvailabilityReason
+  - uid: com.azure.resourcemanager.agrifood.models.CheckNameAvailabilityRequest
+    name: CheckNameAvailabilityRequest
+    no-loc:
+    - CheckNameAvailabilityRequest
+  - uid: com.azure.resourcemanager.agrifood.models.CheckNameAvailabilityResponse
+    name: CheckNameAvailabilityResponse
+    no-loc:
+    - CheckNameAvailabilityResponse
+  - uid: com.azure.resourcemanager.agrifood.models.DetailedInformation
+    name: DetailedInformation
+    no-loc:
+    - DetailedInformation
+  - uid: com.azure.resourcemanager.agrifood.models.Extension
+    name: Extension
+    no-loc:
+    - Extension
+  - uid: com.azure.resourcemanager.agrifood.models.Extension.Definition
+    name: Extension.Definition
+    no-loc:
+    - Extension.Definition
+  - uid: com.azure.resourcemanager.agrifood.models.Extension.DefinitionStages
+    name: Extension.DefinitionStages
+    no-loc:
+    - Extension.DefinitionStages
+  - uid: com.azure.resourcemanager.agrifood.models.Extension.DefinitionStages.Blank
+    name: Extension.DefinitionStages.Blank
+    no-loc:
+    - Extension.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.agrifood.models.Extension.DefinitionStages.WithAdditionalApiProperties
+    name: Extension.DefinitionStages.WithAdditionalApiProperties
+    no-loc:
+    - Extension.DefinitionStages.WithAdditionalApiProperties
+  - uid: com.azure.resourcemanager.agrifood.models.Extension.DefinitionStages.WithCreate
+    name: Extension.DefinitionStages.WithCreate
+    no-loc:
+    - Extension.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.agrifood.models.Extension.DefinitionStages.WithExtensionVersion
+    name: Extension.DefinitionStages.WithExtensionVersion
+    no-loc:
+    - Extension.DefinitionStages.WithExtensionVersion
+  - uid: com.azure.resourcemanager.agrifood.models.Extension.DefinitionStages.WithParentResource
+    name: Extension.DefinitionStages.WithParentResource
+    no-loc:
+    - Extension.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.agrifood.models.Extension.Update
+    name: Extension.Update
+    no-loc:
+    - Extension.Update
+  - uid: com.azure.resourcemanager.agrifood.models.Extension.UpdateStages
+    name: Extension.UpdateStages
+    no-loc:
+    - Extension.UpdateStages
+  - uid: com.azure.resourcemanager.agrifood.models.Extension.UpdateStages.WithAdditionalApiProperties
+    name: Extension.UpdateStages.WithAdditionalApiProperties
+    no-loc:
+    - Extension.UpdateStages.WithAdditionalApiProperties
+  - uid: com.azure.resourcemanager.agrifood.models.Extension.UpdateStages.WithExtensionVersion
+    name: Extension.UpdateStages.WithExtensionVersion
+    no-loc:
+    - Extension.UpdateStages.WithExtensionVersion
+  - uid: com.azure.resourcemanager.agrifood.models.ExtensionInstallationRequest
+    name: ExtensionInstallationRequest
+    no-loc:
+    - ExtensionInstallationRequest
+  - uid: com.azure.resourcemanager.agrifood.models.ExtensionListResponse
+    name: ExtensionListResponse
+    no-loc:
+    - ExtensionListResponse
+  - uid: com.azure.resourcemanager.agrifood.models.Extensions
+    name: Extensions
+    no-loc:
+    - Extensions
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeats
+    name: FarmBeats
+    no-loc:
+    - FarmBeats
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeats.Definition
+    name: FarmBeats.Definition
+    no-loc:
+    - FarmBeats.Definition
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeats.DefinitionStages
+    name: FarmBeats.DefinitionStages
+    no-loc:
+    - FarmBeats.DefinitionStages
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeats.DefinitionStages.Blank
+    name: FarmBeats.DefinitionStages.Blank
+    no-loc:
+    - FarmBeats.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeats.DefinitionStages.WithCreate
+    name: FarmBeats.DefinitionStages.WithCreate
+    no-loc:
+    - FarmBeats.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeats.DefinitionStages.WithIdentity
+    name: FarmBeats.DefinitionStages.WithIdentity
+    no-loc:
+    - FarmBeats.DefinitionStages.WithIdentity
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeats.DefinitionStages.WithLocation
+    name: FarmBeats.DefinitionStages.WithLocation
+    no-loc:
+    - FarmBeats.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeats.DefinitionStages.WithPublicNetworkAccess
+    name: FarmBeats.DefinitionStages.WithPublicNetworkAccess
+    no-loc:
+    - FarmBeats.DefinitionStages.WithPublicNetworkAccess
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeats.DefinitionStages.WithResourceGroup
+    name: FarmBeats.DefinitionStages.WithResourceGroup
+    no-loc:
+    - FarmBeats.DefinitionStages.WithResourceGroup
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeats.DefinitionStages.WithSensorIntegration
+    name: FarmBeats.DefinitionStages.WithSensorIntegration
+    no-loc:
+    - FarmBeats.DefinitionStages.WithSensorIntegration
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeats.DefinitionStages.WithTags
+    name: FarmBeats.DefinitionStages.WithTags
+    no-loc:
+    - FarmBeats.DefinitionStages.WithTags
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeats.Update
+    name: FarmBeats.Update
+    no-loc:
+    - FarmBeats.Update
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeats.UpdateStages
+    name: FarmBeats.UpdateStages
+    no-loc:
+    - FarmBeats.UpdateStages
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeats.UpdateStages.WithIdentity
+    name: FarmBeats.UpdateStages.WithIdentity
+    no-loc:
+    - FarmBeats.UpdateStages.WithIdentity
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeats.UpdateStages.WithProperties
+    name: FarmBeats.UpdateStages.WithProperties
+    no-loc:
+    - FarmBeats.UpdateStages.WithProperties
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeats.UpdateStages.WithTags
+    name: FarmBeats.UpdateStages.WithTags
+    no-loc:
+    - FarmBeats.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeatsExtension
+    name: FarmBeatsExtension
+    no-loc:
+    - FarmBeatsExtension
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeatsExtensionListResponse
+    name: FarmBeatsExtensionListResponse
+    no-loc:
+    - FarmBeatsExtensionListResponse
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeatsExtensions
+    name: FarmBeatsExtensions
+    no-loc:
+    - FarmBeatsExtensions
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeatsListResponse
+    name: FarmBeatsListResponse
+    no-loc:
+    - FarmBeatsListResponse
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeatsModels
+    name: FarmBeatsModels
+    no-loc:
+    - FarmBeatsModels
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeatsProperties
+    name: FarmBeatsProperties
+    no-loc:
+    - FarmBeatsProperties
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeatsSolution
+    name: FarmBeatsSolution
+    no-loc:
+    - FarmBeatsSolution
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeatsSolutionListResponse
+    name: FarmBeatsSolutionListResponse
+    no-loc:
+    - FarmBeatsSolutionListResponse
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeatsSolutionProperties
+    name: FarmBeatsSolutionProperties
+    no-loc:
+    - FarmBeatsSolutionProperties
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeatsUpdateProperties
+    name: FarmBeatsUpdateProperties
+    no-loc:
+    - FarmBeatsUpdateProperties
+  - uid: com.azure.resourcemanager.agrifood.models.FarmBeatsUpdateRequestModel
+    name: FarmBeatsUpdateRequestModel
+    no-loc:
+    - FarmBeatsUpdateRequestModel
+  - uid: com.azure.resourcemanager.agrifood.models.Identity
+    name: Identity
+    no-loc:
+    - Identity
+  - uid: com.azure.resourcemanager.agrifood.models.Insight
+    name: Insight
+    no-loc:
+    - Insight
+  - uid: com.azure.resourcemanager.agrifood.models.InsightAttachment
+    name: InsightAttachment
+    no-loc:
+    - InsightAttachment
+  - uid: com.azure.resourcemanager.agrifood.models.Locations
+    name: Locations
+    no-loc:
+    - Locations
+  - uid: com.azure.resourcemanager.agrifood.models.MarketplaceOfferDetails
+    name: MarketplaceOfferDetails
+    no-loc:
+    - MarketplaceOfferDetails
+  - uid: com.azure.resourcemanager.agrifood.models.Measure
+    name: Measure
+    no-loc:
+    - Measure
+  - uid: com.azure.resourcemanager.agrifood.models.Operation
+    name: Operation
+    no-loc:
+    - Operation
+  - uid: com.azure.resourcemanager.agrifood.models.OperationDisplay
+    name: OperationDisplay
+    no-loc:
+    - OperationDisplay
+  - uid: com.azure.resourcemanager.agrifood.models.OperationListResult
+    name: OperationListResult
+    no-loc:
+    - OperationListResult
+  - uid: com.azure.resourcemanager.agrifood.models.OperationResults
+    name: OperationResults
+    no-loc:
+    - OperationResults
+  - uid: com.azure.resourcemanager.agrifood.models.Operations
+    name: Operations
+    no-loc:
+    - Operations
+  - uid: com.azure.resourcemanager.agrifood.models.Origin
+    name: Origin
+    no-loc:
+    - Origin
+  - uid: com.azure.resourcemanager.agrifood.models.PrivateEndpoint
+    name: PrivateEndpoint
+    no-loc:
+    - PrivateEndpoint
+  - uid: com.azure.resourcemanager.agrifood.models.PrivateEndpointConnection
+    name: PrivateEndpointConnection
+    no-loc:
+    - PrivateEndpointConnection
+  - uid: com.azure.resourcemanager.agrifood.models.PrivateEndpointConnection.Definition
+    name: PrivateEndpointConnection.Definition
+    no-loc:
+    - PrivateEndpointConnection.Definition
+  - uid: com.azure.resourcemanager.agrifood.models.PrivateEndpointConnection.DefinitionStages
+    name: PrivateEndpointConnection.DefinitionStages
+    no-loc:
+    - PrivateEndpointConnection.DefinitionStages
+  - uid: com.azure.resourcemanager.agrifood.models.PrivateEndpointConnection.DefinitionStages.Blank
+    name: PrivateEndpointConnection.DefinitionStages.Blank
+    no-loc:
+    - PrivateEndpointConnection.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.agrifood.models.PrivateEndpointConnection.DefinitionStages.WithCreate
+    name: PrivateEndpointConnection.DefinitionStages.WithCreate
+    no-loc:
+    - PrivateEndpointConnection.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.agrifood.models.PrivateEndpointConnection.DefinitionStages.WithParentResource
+    name: PrivateEndpointConnection.DefinitionStages.WithParentResource
+    no-loc:
+    - PrivateEndpointConnection.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.agrifood.models.PrivateEndpointConnection.DefinitionStages.WithPrivateEndpoint
+    name: PrivateEndpointConnection.DefinitionStages.WithPrivateEndpoint
+    no-loc:
+    - PrivateEndpointConnection.DefinitionStages.WithPrivateEndpoint
+  - uid: com.azure.resourcemanager.agrifood.models.PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState
+    name: PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState
+    no-loc:
+    - PrivateEndpointConnection.DefinitionStages.WithPrivateLinkServiceConnectionState
+  - uid: com.azure.resourcemanager.agrifood.models.PrivateEndpointConnection.Update
+    name: PrivateEndpointConnection.Update
+    no-loc:
+    - PrivateEndpointConnection.Update
+  - uid: com.azure.resourcemanager.agrifood.models.PrivateEndpointConnection.UpdateStages
+    name: PrivateEndpointConnection.UpdateStages
+    no-loc:
+    - PrivateEndpointConnection.UpdateStages
+  - uid: com.azure.resourcemanager.agrifood.models.PrivateEndpointConnection.UpdateStages.WithPrivateEndpoint
+    name: PrivateEndpointConnection.UpdateStages.WithPrivateEndpoint
+    no-loc:
+    - PrivateEndpointConnection.UpdateStages.WithPrivateEndpoint
+  - uid: com.azure.resourcemanager.agrifood.models.PrivateEndpointConnection.UpdateStages.WithPrivateLinkServiceConnectionState
+    name: PrivateEndpointConnection.UpdateStages.WithPrivateLinkServiceConnectionState
+    no-loc:
+    - PrivateEndpointConnection.UpdateStages.WithPrivateLinkServiceConnectionState
+  - uid: com.azure.resourcemanager.agrifood.models.PrivateEndpointConnectionListResult
+    name: PrivateEndpointConnectionListResult
+    no-loc:
+    - PrivateEndpointConnectionListResult
+  - uid: com.azure.resourcemanager.agrifood.models.PrivateEndpointConnectionProvisioningState
+    name: PrivateEndpointConnectionProvisioningState
+    no-loc:
+    - PrivateEndpointConnectionProvisioningState
+  - uid: com.azure.resourcemanager.agrifood.models.PrivateEndpointConnections
+    name: PrivateEndpointConnections
+    no-loc:
+    - PrivateEndpointConnections
+  - uid: com.azure.resourcemanager.agrifood.models.PrivateEndpointServiceConnectionStatus
+    name: PrivateEndpointServiceConnectionStatus
+    no-loc:
+    - PrivateEndpointServiceConnectionStatus
+  - uid: com.azure.resourcemanager.agrifood.models.PrivateLinkResource
+    name: PrivateLinkResource
+    no-loc:
+    - PrivateLinkResource
+  - uid: com.azure.resourcemanager.agrifood.models.PrivateLinkResourceListResult
+    name: PrivateLinkResourceListResult
+    no-loc:
+    - PrivateLinkResourceListResult
+  - uid: com.azure.resourcemanager.agrifood.models.PrivateLinkResources
+    name: PrivateLinkResources
+    no-loc:
+    - PrivateLinkResources
+  - uid: com.azure.resourcemanager.agrifood.models.PrivateLinkServiceConnectionState
+    name: PrivateLinkServiceConnectionState
+    no-loc:
+    - PrivateLinkServiceConnectionState
+  - uid: com.azure.resourcemanager.agrifood.models.ProvisioningState
+    name: ProvisioningState
+    no-loc:
+    - ProvisioningState
+  - uid: com.azure.resourcemanager.agrifood.models.PublicNetworkAccess
+    name: PublicNetworkAccess
+    no-loc:
+    - PublicNetworkAccess
+  - uid: com.azure.resourcemanager.agrifood.models.ResourceIdentityType
+    name: ResourceIdentityType
+    no-loc:
+    - ResourceIdentityType
+  - uid: com.azure.resourcemanager.agrifood.models.ResourceParameter
+    name: ResourceParameter
+    no-loc:
+    - ResourceParameter
+  - uid: com.azure.resourcemanager.agrifood.models.SensorIntegration
+    name: SensorIntegration
+    no-loc:
+    - SensorIntegration
+  - uid: com.azure.resourcemanager.agrifood.models.Solution
+    name: Solution
+    no-loc:
+    - Solution
+  - uid: com.azure.resourcemanager.agrifood.models.Solution.Definition
+    name: Solution.Definition
+    no-loc:
+    - Solution.Definition
+  - uid: com.azure.resourcemanager.agrifood.models.Solution.DefinitionStages
+    name: Solution.DefinitionStages
+    no-loc:
+    - Solution.DefinitionStages
+  - uid: com.azure.resourcemanager.agrifood.models.Solution.DefinitionStages.Blank
+    name: Solution.DefinitionStages.Blank
+    no-loc:
+    - Solution.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.agrifood.models.Solution.DefinitionStages.WithCreate
+    name: Solution.DefinitionStages.WithCreate
+    no-loc:
+    - Solution.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.agrifood.models.Solution.DefinitionStages.WithParentResource
+    name: Solution.DefinitionStages.WithParentResource
+    no-loc:
+    - Solution.DefinitionStages.WithParentResource
+  - uid: com.azure.resourcemanager.agrifood.models.Solution.DefinitionStages.WithProperties
+    name: Solution.DefinitionStages.WithProperties
+    no-loc:
+    - Solution.DefinitionStages.WithProperties
+  - uid: com.azure.resourcemanager.agrifood.models.Solution.Update
+    name: Solution.Update
+    no-loc:
+    - Solution.Update
+  - uid: com.azure.resourcemanager.agrifood.models.Solution.UpdateStages
+    name: Solution.UpdateStages
+    no-loc:
+    - Solution.UpdateStages
+  - uid: com.azure.resourcemanager.agrifood.models.Solution.UpdateStages.WithProperties
+    name: Solution.UpdateStages.WithProperties
+    no-loc:
+    - Solution.UpdateStages.WithProperties
+  - uid: com.azure.resourcemanager.agrifood.models.SolutionEvaluatedOutput
+    name: SolutionEvaluatedOutput
+    no-loc:
+    - SolutionEvaluatedOutput
+  - uid: com.azure.resourcemanager.agrifood.models.SolutionInstallationRequest
+    name: SolutionInstallationRequest
+    no-loc:
+    - SolutionInstallationRequest
+  - uid: com.azure.resourcemanager.agrifood.models.SolutionListResponse
+    name: SolutionListResponse
+    no-loc:
+    - SolutionListResponse
+  - uid: com.azure.resourcemanager.agrifood.models.SolutionProperties
+    name: SolutionProperties
+    no-loc:
+    - SolutionProperties
+  - uid: com.azure.resourcemanager.agrifood.models.Solutions
+    name: Solutions
+    no-loc:
+    - Solutions
+  - uid: com.azure.resourcemanager.agrifood.models.SolutionsDiscoverabilities
+    name: SolutionsDiscoverabilities
+    no-loc:
+    - SolutionsDiscoverabilities
+  - uid: com.azure.resourcemanager.agrifood.models.UnitSystemsInfo
+    name: UnitSystemsInfo
+    no-loc:
+    - UnitSystemsInfo
+  no-loc:
+  - com.azure.resourcemanager.agrifood.models
 - uid: com.azure.resourcemanager.appplatform
   name: com.azure.resourcemanager.appplatform
   items:
@@ -9146,6 +9719,342 @@
     - Visibility
   no-loc:
   - com.azure.resourcemanager.mediaservices.models
+- uid: com.azure.resourcemanager.mixedreality
+  name: com.azure.resourcemanager.mixedreality
+  items:
+  - uid: com.azure.resourcemanager.mixedreality.MixedRealityManager
+    name: MixedRealityManager
+    no-loc:
+    - MixedRealityManager
+  - uid: com.azure.resourcemanager.mixedreality.MixedRealityManager.Configurable
+    name: MixedRealityManager.Configurable
+    no-loc:
+    - MixedRealityManager.Configurable
+  no-loc:
+  - com.azure.resourcemanager.mixedreality
+- uid: com.azure.resourcemanager.mixedreality.fluent
+  name: com.azure.resourcemanager.mixedreality.fluent
+  items:
+  - uid: com.azure.resourcemanager.mixedreality.fluent.MixedRealityClient
+    name: MixedRealityClient
+    no-loc:
+    - MixedRealityClient
+  - uid: com.azure.resourcemanager.mixedreality.fluent.OperationsClient
+    name: OperationsClient
+    no-loc:
+    - OperationsClient
+  - uid: com.azure.resourcemanager.mixedreality.fluent.RemoteRenderingAccountsClient
+    name: RemoteRenderingAccountsClient
+    no-loc:
+    - RemoteRenderingAccountsClient
+  - uid: com.azure.resourcemanager.mixedreality.fluent.ResourceProvidersClient
+    name: ResourceProvidersClient
+    no-loc:
+    - ResourceProvidersClient
+  - uid: com.azure.resourcemanager.mixedreality.fluent.SpatialAnchorsAccountsClient
+    name: SpatialAnchorsAccountsClient
+    no-loc:
+    - SpatialAnchorsAccountsClient
+  no-loc:
+  - com.azure.resourcemanager.mixedreality.fluent
+- uid: com.azure.resourcemanager.mixedreality.fluent.models
+  name: com.azure.resourcemanager.mixedreality.fluent.models
+  items:
+  - uid: com.azure.resourcemanager.mixedreality.fluent.models.AccountKeysInner
+    name: AccountKeysInner
+    no-loc:
+    - AccountKeysInner
+  - uid: com.azure.resourcemanager.mixedreality.fluent.models.CheckNameAvailabilityResponseInner
+    name: CheckNameAvailabilityResponseInner
+    no-loc:
+    - CheckNameAvailabilityResponseInner
+  - uid: com.azure.resourcemanager.mixedreality.fluent.models.MixedRealityAccountProperties
+    name: MixedRealityAccountProperties
+    no-loc:
+    - MixedRealityAccountProperties
+  - uid: com.azure.resourcemanager.mixedreality.fluent.models.OperationInner
+    name: OperationInner
+    no-loc:
+    - OperationInner
+  - uid: com.azure.resourcemanager.mixedreality.fluent.models.RemoteRenderingAccountInner
+    name: RemoteRenderingAccountInner
+    no-loc:
+    - RemoteRenderingAccountInner
+  - uid: com.azure.resourcemanager.mixedreality.fluent.models.SpatialAnchorsAccountInner
+    name: SpatialAnchorsAccountInner
+    no-loc:
+    - SpatialAnchorsAccountInner
+  no-loc:
+  - com.azure.resourcemanager.mixedreality.fluent.models
+- uid: com.azure.resourcemanager.mixedreality.models
+  name: com.azure.resourcemanager.mixedreality.models
+  items:
+  - uid: com.azure.resourcemanager.mixedreality.models.AccountKeyRegenerateRequest
+    name: AccountKeyRegenerateRequest
+    no-loc:
+    - AccountKeyRegenerateRequest
+  - uid: com.azure.resourcemanager.mixedreality.models.AccountKeys
+    name: AccountKeys
+    no-loc:
+    - AccountKeys
+  - uid: com.azure.resourcemanager.mixedreality.models.CheckNameAvailabilityRequest
+    name: CheckNameAvailabilityRequest
+    no-loc:
+    - CheckNameAvailabilityRequest
+  - uid: com.azure.resourcemanager.mixedreality.models.CheckNameAvailabilityResponse
+    name: CheckNameAvailabilityResponse
+    no-loc:
+    - CheckNameAvailabilityResponse
+  - uid: com.azure.resourcemanager.mixedreality.models.Identity
+    name: Identity
+    no-loc:
+    - Identity
+  - uid: com.azure.resourcemanager.mixedreality.models.LogSpecification
+    name: LogSpecification
+    no-loc:
+    - LogSpecification
+  - uid: com.azure.resourcemanager.mixedreality.models.MetricDimension
+    name: MetricDimension
+    no-loc:
+    - MetricDimension
+  - uid: com.azure.resourcemanager.mixedreality.models.MetricSpecification
+    name: MetricSpecification
+    no-loc:
+    - MetricSpecification
+  - uid: com.azure.resourcemanager.mixedreality.models.NameUnavailableReason
+    name: NameUnavailableReason
+    no-loc:
+    - NameUnavailableReason
+  - uid: com.azure.resourcemanager.mixedreality.models.Operation
+    name: Operation
+    no-loc:
+    - Operation
+  - uid: com.azure.resourcemanager.mixedreality.models.OperationDisplay
+    name: OperationDisplay
+    no-loc:
+    - OperationDisplay
+  - uid: com.azure.resourcemanager.mixedreality.models.OperationPage
+    name: OperationPage
+    no-loc:
+    - OperationPage
+  - uid: com.azure.resourcemanager.mixedreality.models.OperationProperties
+    name: OperationProperties
+    no-loc:
+    - OperationProperties
+  - uid: com.azure.resourcemanager.mixedreality.models.Operations
+    name: Operations
+    no-loc:
+    - Operations
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccount
+    name: RemoteRenderingAccount
+    no-loc:
+    - RemoteRenderingAccount
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccount.Definition
+    name: RemoteRenderingAccount.Definition
+    no-loc:
+    - RemoteRenderingAccount.Definition
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccount.DefinitionStages
+    name: RemoteRenderingAccount.DefinitionStages
+    no-loc:
+    - RemoteRenderingAccount.DefinitionStages
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccount.DefinitionStages.Blank
+    name: RemoteRenderingAccount.DefinitionStages.Blank
+    no-loc:
+    - RemoteRenderingAccount.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccount.DefinitionStages.WithCreate
+    name: RemoteRenderingAccount.DefinitionStages.WithCreate
+    no-loc:
+    - RemoteRenderingAccount.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccount.DefinitionStages.WithIdentity
+    name: RemoteRenderingAccount.DefinitionStages.WithIdentity
+    no-loc:
+    - RemoteRenderingAccount.DefinitionStages.WithIdentity
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccount.DefinitionStages.WithKind
+    name: RemoteRenderingAccount.DefinitionStages.WithKind
+    no-loc:
+    - RemoteRenderingAccount.DefinitionStages.WithKind
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccount.DefinitionStages.WithLocation
+    name: RemoteRenderingAccount.DefinitionStages.WithLocation
+    no-loc:
+    - RemoteRenderingAccount.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccount.DefinitionStages.WithPlan
+    name: RemoteRenderingAccount.DefinitionStages.WithPlan
+    no-loc:
+    - RemoteRenderingAccount.DefinitionStages.WithPlan
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccount.DefinitionStages.WithResourceGroup
+    name: RemoteRenderingAccount.DefinitionStages.WithResourceGroup
+    no-loc:
+    - RemoteRenderingAccount.DefinitionStages.WithResourceGroup
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccount.DefinitionStages.WithSku
+    name: RemoteRenderingAccount.DefinitionStages.WithSku
+    no-loc:
+    - RemoteRenderingAccount.DefinitionStages.WithSku
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccount.DefinitionStages.WithStorageAccountName
+    name: RemoteRenderingAccount.DefinitionStages.WithStorageAccountName
+    no-loc:
+    - RemoteRenderingAccount.DefinitionStages.WithStorageAccountName
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccount.DefinitionStages.WithTags
+    name: RemoteRenderingAccount.DefinitionStages.WithTags
+    no-loc:
+    - RemoteRenderingAccount.DefinitionStages.WithTags
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccount.Update
+    name: RemoteRenderingAccount.Update
+    no-loc:
+    - RemoteRenderingAccount.Update
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccount.UpdateStages
+    name: RemoteRenderingAccount.UpdateStages
+    no-loc:
+    - RemoteRenderingAccount.UpdateStages
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccount.UpdateStages.WithIdentity
+    name: RemoteRenderingAccount.UpdateStages.WithIdentity
+    no-loc:
+    - RemoteRenderingAccount.UpdateStages.WithIdentity
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccount.UpdateStages.WithKind
+    name: RemoteRenderingAccount.UpdateStages.WithKind
+    no-loc:
+    - RemoteRenderingAccount.UpdateStages.WithKind
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccount.UpdateStages.WithPlan
+    name: RemoteRenderingAccount.UpdateStages.WithPlan
+    no-loc:
+    - RemoteRenderingAccount.UpdateStages.WithPlan
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccount.UpdateStages.WithSku
+    name: RemoteRenderingAccount.UpdateStages.WithSku
+    no-loc:
+    - RemoteRenderingAccount.UpdateStages.WithSku
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccount.UpdateStages.WithStorageAccountName
+    name: RemoteRenderingAccount.UpdateStages.WithStorageAccountName
+    no-loc:
+    - RemoteRenderingAccount.UpdateStages.WithStorageAccountName
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccount.UpdateStages.WithTags
+    name: RemoteRenderingAccount.UpdateStages.WithTags
+    no-loc:
+    - RemoteRenderingAccount.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccountPage
+    name: RemoteRenderingAccountPage
+    no-loc:
+    - RemoteRenderingAccountPage
+  - uid: com.azure.resourcemanager.mixedreality.models.RemoteRenderingAccounts
+    name: RemoteRenderingAccounts
+    no-loc:
+    - RemoteRenderingAccounts
+  - uid: com.azure.resourcemanager.mixedreality.models.ResourceIdentityType
+    name: ResourceIdentityType
+    no-loc:
+    - ResourceIdentityType
+  - uid: com.azure.resourcemanager.mixedreality.models.ResourceProviders
+    name: ResourceProviders
+    no-loc:
+    - ResourceProviders
+  - uid: com.azure.resourcemanager.mixedreality.models.Serial
+    name: Serial
+    no-loc:
+    - Serial
+  - uid: com.azure.resourcemanager.mixedreality.models.ServiceSpecification
+    name: ServiceSpecification
+    no-loc:
+    - ServiceSpecification
+  - uid: com.azure.resourcemanager.mixedreality.models.Sku
+    name: Sku
+    no-loc:
+    - Sku
+  - uid: com.azure.resourcemanager.mixedreality.models.SkuTier
+    name: SkuTier
+    no-loc:
+    - SkuTier
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccount
+    name: SpatialAnchorsAccount
+    no-loc:
+    - SpatialAnchorsAccount
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccount.Definition
+    name: SpatialAnchorsAccount.Definition
+    no-loc:
+    - SpatialAnchorsAccount.Definition
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccount.DefinitionStages
+    name: SpatialAnchorsAccount.DefinitionStages
+    no-loc:
+    - SpatialAnchorsAccount.DefinitionStages
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccount.DefinitionStages.Blank
+    name: SpatialAnchorsAccount.DefinitionStages.Blank
+    no-loc:
+    - SpatialAnchorsAccount.DefinitionStages.Blank
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccount.DefinitionStages.WithCreate
+    name: SpatialAnchorsAccount.DefinitionStages.WithCreate
+    no-loc:
+    - SpatialAnchorsAccount.DefinitionStages.WithCreate
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccount.DefinitionStages.WithIdentity
+    name: SpatialAnchorsAccount.DefinitionStages.WithIdentity
+    no-loc:
+    - SpatialAnchorsAccount.DefinitionStages.WithIdentity
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccount.DefinitionStages.WithKind
+    name: SpatialAnchorsAccount.DefinitionStages.WithKind
+    no-loc:
+    - SpatialAnchorsAccount.DefinitionStages.WithKind
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccount.DefinitionStages.WithLocation
+    name: SpatialAnchorsAccount.DefinitionStages.WithLocation
+    no-loc:
+    - SpatialAnchorsAccount.DefinitionStages.WithLocation
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccount.DefinitionStages.WithPlan
+    name: SpatialAnchorsAccount.DefinitionStages.WithPlan
+    no-loc:
+    - SpatialAnchorsAccount.DefinitionStages.WithPlan
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccount.DefinitionStages.WithResourceGroup
+    name: SpatialAnchorsAccount.DefinitionStages.WithResourceGroup
+    no-loc:
+    - SpatialAnchorsAccount.DefinitionStages.WithResourceGroup
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccount.DefinitionStages.WithSku
+    name: SpatialAnchorsAccount.DefinitionStages.WithSku
+    no-loc:
+    - SpatialAnchorsAccount.DefinitionStages.WithSku
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccount.DefinitionStages.WithStorageAccountName
+    name: SpatialAnchorsAccount.DefinitionStages.WithStorageAccountName
+    no-loc:
+    - SpatialAnchorsAccount.DefinitionStages.WithStorageAccountName
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccount.DefinitionStages.WithTags
+    name: SpatialAnchorsAccount.DefinitionStages.WithTags
+    no-loc:
+    - SpatialAnchorsAccount.DefinitionStages.WithTags
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccount.Update
+    name: SpatialAnchorsAccount.Update
+    no-loc:
+    - SpatialAnchorsAccount.Update
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccount.UpdateStages
+    name: SpatialAnchorsAccount.UpdateStages
+    no-loc:
+    - SpatialAnchorsAccount.UpdateStages
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccount.UpdateStages.WithIdentity
+    name: SpatialAnchorsAccount.UpdateStages.WithIdentity
+    no-loc:
+    - SpatialAnchorsAccount.UpdateStages.WithIdentity
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccount.UpdateStages.WithKind
+    name: SpatialAnchorsAccount.UpdateStages.WithKind
+    no-loc:
+    - SpatialAnchorsAccount.UpdateStages.WithKind
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccount.UpdateStages.WithPlan
+    name: SpatialAnchorsAccount.UpdateStages.WithPlan
+    no-loc:
+    - SpatialAnchorsAccount.UpdateStages.WithPlan
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccount.UpdateStages.WithSku
+    name: SpatialAnchorsAccount.UpdateStages.WithSku
+    no-loc:
+    - SpatialAnchorsAccount.UpdateStages.WithSku
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccount.UpdateStages.WithStorageAccountName
+    name: SpatialAnchorsAccount.UpdateStages.WithStorageAccountName
+    no-loc:
+    - SpatialAnchorsAccount.UpdateStages.WithStorageAccountName
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccount.UpdateStages.WithTags
+    name: SpatialAnchorsAccount.UpdateStages.WithTags
+    no-loc:
+    - SpatialAnchorsAccount.UpdateStages.WithTags
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccountPage
+    name: SpatialAnchorsAccountPage
+    no-loc:
+    - SpatialAnchorsAccountPage
+  - uid: com.azure.resourcemanager.mixedreality.models.SpatialAnchorsAccounts
+    name: SpatialAnchorsAccounts
+    no-loc:
+    - SpatialAnchorsAccounts
+  no-loc:
+  - com.azure.resourcemanager.mixedreality.models
 - uid: com.azure.resourcemanager.mobilenetwork
   name: com.azure.resourcemanager.mobilenetwork
   items:
@@ -13673,6 +14582,459 @@
     - SuggestPagedResponse
   no-loc:
   - com.azure.search.util
+- uid: com.azure.verticals.agrifood.farming
+  name: com.azure.verticals.agrifood.farming
+  items:
+  - uid: com.azure.verticals.agrifood.farming.ApplicationDataAsyncClient
+    name: ApplicationDataAsyncClient
+    no-loc:
+    - ApplicationDataAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.ApplicationDataClient
+    name: ApplicationDataClient
+    no-loc:
+    - ApplicationDataClient
+  - uid: com.azure.verticals.agrifood.farming.ApplicationDataClientBuilder
+    name: ApplicationDataClientBuilder
+    no-loc:
+    - ApplicationDataClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.AttachmentsAsyncClient
+    name: AttachmentsAsyncClient
+    no-loc:
+    - AttachmentsAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.AttachmentsClient
+    name: AttachmentsClient
+    no-loc:
+    - AttachmentsClient
+  - uid: com.azure.verticals.agrifood.farming.AttachmentsClientBuilder
+    name: AttachmentsClientBuilder
+    no-loc:
+    - AttachmentsClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.BoundariesAsyncClient
+    name: BoundariesAsyncClient
+    no-loc:
+    - BoundariesAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.BoundariesClient
+    name: BoundariesClient
+    no-loc:
+    - BoundariesClient
+  - uid: com.azure.verticals.agrifood.farming.BoundariesClientBuilder
+    name: BoundariesClientBuilder
+    no-loc:
+    - BoundariesClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.CropProductsAsyncClient
+    name: CropProductsAsyncClient
+    no-loc:
+    - CropProductsAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.CropProductsClient
+    name: CropProductsClient
+    no-loc:
+    - CropProductsClient
+  - uid: com.azure.verticals.agrifood.farming.CropProductsClientBuilder
+    name: CropProductsClientBuilder
+    no-loc:
+    - CropProductsClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.CropsAsyncClient
+    name: CropsAsyncClient
+    no-loc:
+    - CropsAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.CropsClient
+    name: CropsClient
+    no-loc:
+    - CropsClient
+  - uid: com.azure.verticals.agrifood.farming.CropsClientBuilder
+    name: CropsClientBuilder
+    no-loc:
+    - CropsClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.DeviceDataModelsAsyncClient
+    name: DeviceDataModelsAsyncClient
+    no-loc:
+    - DeviceDataModelsAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.DeviceDataModelsClient
+    name: DeviceDataModelsClient
+    no-loc:
+    - DeviceDataModelsClient
+  - uid: com.azure.verticals.agrifood.farming.DeviceDataModelsClientBuilder
+    name: DeviceDataModelsClientBuilder
+    no-loc:
+    - DeviceDataModelsClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.DevicesAsyncClient
+    name: DevicesAsyncClient
+    no-loc:
+    - DevicesAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.DevicesClient
+    name: DevicesClient
+    no-loc:
+    - DevicesClient
+  - uid: com.azure.verticals.agrifood.farming.DevicesClientBuilder
+    name: DevicesClientBuilder
+    no-loc:
+    - DevicesClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.FarmBeatsServiceVersion
+    name: FarmBeatsServiceVersion
+    no-loc:
+    - FarmBeatsServiceVersion
+  - uid: com.azure.verticals.agrifood.farming.FarmOperationsAsyncClient
+    name: FarmOperationsAsyncClient
+    no-loc:
+    - FarmOperationsAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.FarmOperationsClient
+    name: FarmOperationsClient
+    no-loc:
+    - FarmOperationsClient
+  - uid: com.azure.verticals.agrifood.farming.FarmOperationsClientBuilder
+    name: FarmOperationsClientBuilder
+    no-loc:
+    - FarmOperationsClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.FarmsAsyncClient
+    name: FarmsAsyncClient
+    no-loc:
+    - FarmsAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.FarmsClient
+    name: FarmsClient
+    no-loc:
+    - FarmsClient
+  - uid: com.azure.verticals.agrifood.farming.FarmsClientBuilder
+    name: FarmsClientBuilder
+    no-loc:
+    - FarmsClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.FieldsAsyncClient
+    name: FieldsAsyncClient
+    no-loc:
+    - FieldsAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.FieldsClient
+    name: FieldsClient
+    no-loc:
+    - FieldsClient
+  - uid: com.azure.verticals.agrifood.farming.FieldsClientBuilder
+    name: FieldsClientBuilder
+    no-loc:
+    - FieldsClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.HarvestDataAsyncClient
+    name: HarvestDataAsyncClient
+    no-loc:
+    - HarvestDataAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.HarvestDataClient
+    name: HarvestDataClient
+    no-loc:
+    - HarvestDataClient
+  - uid: com.azure.verticals.agrifood.farming.HarvestDataClientBuilder
+    name: HarvestDataClientBuilder
+    no-loc:
+    - HarvestDataClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.ImageProcessingAsyncClient
+    name: ImageProcessingAsyncClient
+    no-loc:
+    - ImageProcessingAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.ImageProcessingClient
+    name: ImageProcessingClient
+    no-loc:
+    - ImageProcessingClient
+  - uid: com.azure.verticals.agrifood.farming.ImageProcessingClientBuilder
+    name: ImageProcessingClientBuilder
+    no-loc:
+    - ImageProcessingClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.InsightAttachmentsAsyncClient
+    name: InsightAttachmentsAsyncClient
+    no-loc:
+    - InsightAttachmentsAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.InsightAttachmentsClient
+    name: InsightAttachmentsClient
+    no-loc:
+    - InsightAttachmentsClient
+  - uid: com.azure.verticals.agrifood.farming.InsightAttachmentsClientBuilder
+    name: InsightAttachmentsClientBuilder
+    no-loc:
+    - InsightAttachmentsClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.InsightsAsyncClient
+    name: InsightsAsyncClient
+    no-loc:
+    - InsightsAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.InsightsClient
+    name: InsightsClient
+    no-loc:
+    - InsightsClient
+  - uid: com.azure.verticals.agrifood.farming.InsightsClientBuilder
+    name: InsightsClientBuilder
+    no-loc:
+    - InsightsClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.ManagementZonesAsyncClient
+    name: ManagementZonesAsyncClient
+    no-loc:
+    - ManagementZonesAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.ManagementZonesClient
+    name: ManagementZonesClient
+    no-loc:
+    - ManagementZonesClient
+  - uid: com.azure.verticals.agrifood.farming.ManagementZonesClientBuilder
+    name: ManagementZonesClientBuilder
+    no-loc:
+    - ManagementZonesClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.ModelInferenceAsyncClient
+    name: ModelInferenceAsyncClient
+    no-loc:
+    - ModelInferenceAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.ModelInferenceClient
+    name: ModelInferenceClient
+    no-loc:
+    - ModelInferenceClient
+  - uid: com.azure.verticals.agrifood.farming.ModelInferenceClientBuilder
+    name: ModelInferenceClientBuilder
+    no-loc:
+    - ModelInferenceClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.NutrientAnalysesAsyncClient
+    name: NutrientAnalysesAsyncClient
+    no-loc:
+    - NutrientAnalysesAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.NutrientAnalysesClient
+    name: NutrientAnalysesClient
+    no-loc:
+    - NutrientAnalysesClient
+  - uid: com.azure.verticals.agrifood.farming.NutrientAnalysesClientBuilder
+    name: NutrientAnalysesClientBuilder
+    no-loc:
+    - NutrientAnalysesClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.OAuthProvidersAsyncClient
+    name: OAuthProvidersAsyncClient
+    no-loc:
+    - OAuthProvidersAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.OAuthProvidersClient
+    name: OAuthProvidersClient
+    no-loc:
+    - OAuthProvidersClient
+  - uid: com.azure.verticals.agrifood.farming.OAuthProvidersClientBuilder
+    name: OAuthProvidersClientBuilder
+    no-loc:
+    - OAuthProvidersClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.OAuthTokensAsyncClient
+    name: OAuthTokensAsyncClient
+    no-loc:
+    - OAuthTokensAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.OAuthTokensClient
+    name: OAuthTokensClient
+    no-loc:
+    - OAuthTokensClient
+  - uid: com.azure.verticals.agrifood.farming.OAuthTokensClientBuilder
+    name: OAuthTokensClientBuilder
+    no-loc:
+    - OAuthTokensClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.PartiesAsyncClient
+    name: PartiesAsyncClient
+    no-loc:
+    - PartiesAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.PartiesClient
+    name: PartiesClient
+    no-loc:
+    - PartiesClient
+  - uid: com.azure.verticals.agrifood.farming.PartiesClientBuilder
+    name: PartiesClientBuilder
+    no-loc:
+    - PartiesClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.PlantTissueAnalysesAsyncClient
+    name: PlantTissueAnalysesAsyncClient
+    no-loc:
+    - PlantTissueAnalysesAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.PlantTissueAnalysesClient
+    name: PlantTissueAnalysesClient
+    no-loc:
+    - PlantTissueAnalysesClient
+  - uid: com.azure.verticals.agrifood.farming.PlantTissueAnalysesClientBuilder
+    name: PlantTissueAnalysesClientBuilder
+    no-loc:
+    - PlantTissueAnalysesClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.PlantingDataAsyncClient
+    name: PlantingDataAsyncClient
+    no-loc:
+    - PlantingDataAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.PlantingDataClient
+    name: PlantingDataClient
+    no-loc:
+    - PlantingDataClient
+  - uid: com.azure.verticals.agrifood.farming.PlantingDataClientBuilder
+    name: PlantingDataClientBuilder
+    no-loc:
+    - PlantingDataClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.PrescriptionMapsAsyncClient
+    name: PrescriptionMapsAsyncClient
+    no-loc:
+    - PrescriptionMapsAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.PrescriptionMapsClient
+    name: PrescriptionMapsClient
+    no-loc:
+    - PrescriptionMapsClient
+  - uid: com.azure.verticals.agrifood.farming.PrescriptionMapsClientBuilder
+    name: PrescriptionMapsClientBuilder
+    no-loc:
+    - PrescriptionMapsClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.PrescriptionsAsyncClient
+    name: PrescriptionsAsyncClient
+    no-loc:
+    - PrescriptionsAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.PrescriptionsClient
+    name: PrescriptionsClient
+    no-loc:
+    - PrescriptionsClient
+  - uid: com.azure.verticals.agrifood.farming.PrescriptionsClientBuilder
+    name: PrescriptionsClientBuilder
+    no-loc:
+    - PrescriptionsClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.ScenesAsyncClient
+    name: ScenesAsyncClient
+    no-loc:
+    - ScenesAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.ScenesClient
+    name: ScenesClient
+    no-loc:
+    - ScenesClient
+  - uid: com.azure.verticals.agrifood.farming.ScenesClientBuilder
+    name: ScenesClientBuilder
+    no-loc:
+    - ScenesClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.SeasonalFieldsAsyncClient
+    name: SeasonalFieldsAsyncClient
+    no-loc:
+    - SeasonalFieldsAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.SeasonalFieldsClient
+    name: SeasonalFieldsClient
+    no-loc:
+    - SeasonalFieldsClient
+  - uid: com.azure.verticals.agrifood.farming.SeasonalFieldsClientBuilder
+    name: SeasonalFieldsClientBuilder
+    no-loc:
+    - SeasonalFieldsClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.SeasonsAsyncClient
+    name: SeasonsAsyncClient
+    no-loc:
+    - SeasonsAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.SeasonsClient
+    name: SeasonsClient
+    no-loc:
+    - SeasonsClient
+  - uid: com.azure.verticals.agrifood.farming.SeasonsClientBuilder
+    name: SeasonsClientBuilder
+    no-loc:
+    - SeasonsClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.SensorDataModelsAsyncClient
+    name: SensorDataModelsAsyncClient
+    no-loc:
+    - SensorDataModelsAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.SensorDataModelsClient
+    name: SensorDataModelsClient
+    no-loc:
+    - SensorDataModelsClient
+  - uid: com.azure.verticals.agrifood.farming.SensorDataModelsClientBuilder
+    name: SensorDataModelsClientBuilder
+    no-loc:
+    - SensorDataModelsClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.SensorEventsAsyncClient
+    name: SensorEventsAsyncClient
+    no-loc:
+    - SensorEventsAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.SensorEventsClient
+    name: SensorEventsClient
+    no-loc:
+    - SensorEventsClient
+  - uid: com.azure.verticals.agrifood.farming.SensorEventsClientBuilder
+    name: SensorEventsClientBuilder
+    no-loc:
+    - SensorEventsClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.SensorMappingsAsyncClient
+    name: SensorMappingsAsyncClient
+    no-loc:
+    - SensorMappingsAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.SensorMappingsClient
+    name: SensorMappingsClient
+    no-loc:
+    - SensorMappingsClient
+  - uid: com.azure.verticals.agrifood.farming.SensorMappingsClientBuilder
+    name: SensorMappingsClientBuilder
+    no-loc:
+    - SensorMappingsClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.SensorPartnerIntegrationsAsyncClient
+    name: SensorPartnerIntegrationsAsyncClient
+    no-loc:
+    - SensorPartnerIntegrationsAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.SensorPartnerIntegrationsClient
+    name: SensorPartnerIntegrationsClient
+    no-loc:
+    - SensorPartnerIntegrationsClient
+  - uid: com.azure.verticals.agrifood.farming.SensorPartnerIntegrationsClientBuilder
+    name: SensorPartnerIntegrationsClientBuilder
+    no-loc:
+    - SensorPartnerIntegrationsClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.SensorsAsyncClient
+    name: SensorsAsyncClient
+    no-loc:
+    - SensorsAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.SensorsClient
+    name: SensorsClient
+    no-loc:
+    - SensorsClient
+  - uid: com.azure.verticals.agrifood.farming.SensorsClientBuilder
+    name: SensorsClientBuilder
+    no-loc:
+    - SensorsClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.SolutionInferenceAsyncClient
+    name: SolutionInferenceAsyncClient
+    no-loc:
+    - SolutionInferenceAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.SolutionInferenceClient
+    name: SolutionInferenceClient
+    no-loc:
+    - SolutionInferenceClient
+  - uid: com.azure.verticals.agrifood.farming.SolutionInferenceClientBuilder
+    name: SolutionInferenceClientBuilder
+    no-loc:
+    - SolutionInferenceClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.TillageDataAsyncClient
+    name: TillageDataAsyncClient
+    no-loc:
+    - TillageDataAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.TillageDataClient
+    name: TillageDataClient
+    no-loc:
+    - TillageDataClient
+  - uid: com.azure.verticals.agrifood.farming.TillageDataClientBuilder
+    name: TillageDataClientBuilder
+    no-loc:
+    - TillageDataClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.WeatherAsyncClient
+    name: WeatherAsyncClient
+    no-loc:
+    - WeatherAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.WeatherClient
+    name: WeatherClient
+    no-loc:
+    - WeatherClient
+  - uid: com.azure.verticals.agrifood.farming.WeatherClientBuilder
+    name: WeatherClientBuilder
+    no-loc:
+    - WeatherClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.WeatherDataAsyncClient
+    name: WeatherDataAsyncClient
+    no-loc:
+    - WeatherDataAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.WeatherDataClient
+    name: WeatherDataClient
+    no-loc:
+    - WeatherDataClient
+  - uid: com.azure.verticals.agrifood.farming.WeatherDataClientBuilder
+    name: WeatherDataClientBuilder
+    no-loc:
+    - WeatherDataClientBuilder
+  - uid: com.azure.verticals.agrifood.farming.ZonesAsyncClient
+    name: ZonesAsyncClient
+    no-loc:
+    - ZonesAsyncClient
+  - uid: com.azure.verticals.agrifood.farming.ZonesClient
+    name: ZonesClient
+    no-loc:
+    - ZonesClient
+  - uid: com.azure.verticals.agrifood.farming.ZonesClientBuilder
+    name: ZonesClientBuilder
+    no-loc:
+    - ZonesClientBuilder
+  no-loc:
+  - com.azure.verticals.agrifood.farming
 - uid: com.microsoft.azure.cognitiveservices.knowledge.qnamaker
   name: com.microsoft.azure.cognitiveservices.knowledge.qnamaker
   items:

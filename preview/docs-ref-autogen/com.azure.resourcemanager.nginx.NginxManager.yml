@@ -102,6 +102,16 @@ methods:
   returns:
     description: "the Configurable instance allowing configurations."
     type: "<xref href=\"com.azure.resourcemanager.nginx.NginxManager.Configurable?alt=com.azure.resourcemanager.nginx.NginxManager.Configurable&text=Configurable\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.nginx.NginxManager.defaultWafPolicies()"
+  fullName: "com.azure.resourcemanager.nginx.NginxManager.defaultWafPolicies()"
+  name: "defaultWafPolicies()"
+  nameWithType: "NginxManager.defaultWafPolicies()"
+  summary: "Gets the resource collection API of Default<wbr>Waf<wbr>Policies."
+  syntax: "public DefaultWafPolicies defaultWafPolicies()"
+  desc: "Gets the resource collection API of DefaultWafPolicies."
+  returns:
+    description: "Resource collection API of DefaultWafPolicies."
+    type: "<xref href=\"com.azure.resourcemanager.nginx.models.DefaultWafPolicies?alt=com.azure.resourcemanager.nginx.models.DefaultWafPolicies&text=DefaultWafPolicies\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.nginx.NginxManager.deployments()"
   fullName: "com.azure.resourcemanager.nginx.NginxManager.deployments()"
   name: "deployments()"
@@ -132,8 +142,18 @@ methods:
   returns:
     description: "Wrapped service client NginxManagementClient."
     type: "<xref href=\"com.azure.resourcemanager.nginx.fluent.NginxManagementClient?alt=com.azure.resourcemanager.nginx.fluent.NginxManagementClient&text=NginxManagementClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.nginx.NginxManager.wafPolicies()"
+  fullName: "com.azure.resourcemanager.nginx.NginxManager.wafPolicies()"
+  name: "wafPolicies()"
+  nameWithType: "NginxManager.wafPolicies()"
+  summary: "Gets the resource collection API of Waf<wbr>Policies."
+  syntax: "public WafPolicies wafPolicies()"
+  desc: "Gets the resource collection API of WafPolicies. It manages NginxDeploymentWafPolicy."
+  returns:
+    description: "Resource collection API of WafPolicies."
+    type: "<xref href=\"com.azure.resourcemanager.nginx.models.WafPolicies?alt=com.azure.resourcemanager.nginx.models.WafPolicies&text=WafPolicies\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Entry point to NginxManager."
 metadata: {}
 package: "com.azure.resourcemanager.nginx"
-artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.4

@@ -30,6 +30,16 @@ constructors:
   syntax: "public PolicySettings()"
   desc: "Creates an instance of PolicySettings class."
 methods:
+- uid: "com.azure.resourcemanager.network.models.PolicySettings.captchaCookieExpirationInMins()"
+  fullName: "com.azure.resourcemanager.network.models.PolicySettings.captchaCookieExpirationInMins()"
+  name: "captchaCookieExpirationInMins()"
+  nameWithType: "PolicySettings.captchaCookieExpirationInMins()"
+  summary: "Get the captcha<wbr>Cookie<wbr>Expiration<wbr>InMins property: Web Application Firewall CAPTCHA Cookie Expiration time in minutes."
+  syntax: "public Integer captchaCookieExpirationInMins()"
+  desc: "Get the captchaCookieExpirationInMins property: Web Application Firewall CAPTCHA Cookie Expiration time in minutes."
+  returns:
+    description: "the captchaCookieExpirationInMins value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
 - uid: "com.azure.resourcemanager.network.models.PolicySettings.customBlockResponseBody()"
   fullName: "com.azure.resourcemanager.network.models.PolicySettings.customBlockResponseBody()"
   name: "customBlockResponseBody()"
@@ -188,6 +198,20 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.network.models.PolicySettings.withCaptchaCookieExpirationInMins(java.lang.Integer)"
+  fullName: "com.azure.resourcemanager.network.models.PolicySettings.withCaptchaCookieExpirationInMins(Integer captchaCookieExpirationInMins)"
+  name: "withCaptchaCookieExpirationInMins(Integer captchaCookieExpirationInMins)"
+  nameWithType: "PolicySettings.withCaptchaCookieExpirationInMins(Integer captchaCookieExpirationInMins)"
+  summary: "Set the captcha<wbr>Cookie<wbr>Expiration<wbr>InMins property: Web Application Firewall CAPTCHA Cookie Expiration time in minutes."
+  parameters:
+  - description: "the captchaCookieExpirationInMins value to set."
+    name: "captchaCookieExpirationInMins"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+  syntax: "public PolicySettings withCaptchaCookieExpirationInMins(Integer captchaCookieExpirationInMins)"
+  desc: "Set the captchaCookieExpirationInMins property: Web Application Firewall CAPTCHA Cookie Expiration time in minutes."
+  returns:
+    description: "the PolicySettings object itself."
+    type: "<xref href=\"com.azure.resourcemanager.network.models.PolicySettings?alt=com.azure.resourcemanager.network.models.PolicySettings&text=PolicySettings\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.models.PolicySettings.withCustomBlockResponseBody(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.PolicySettings.withCustomBlockResponseBody(String customBlockResponseBody)"
   name: "withCustomBlockResponseBody(String customBlockResponseBody)"
@@ -362,4 +386,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.PolicySettings?alt=com.azure.resourcemanager.network.models.PolicySettings&text=PolicySettings\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.57.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.0

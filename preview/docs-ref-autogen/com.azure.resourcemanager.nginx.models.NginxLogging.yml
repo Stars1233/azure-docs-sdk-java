@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.nginx.models.NginxLogging"
 fullName: "com.azure.resourcemanager.nginx.models.NginxLogging"
 name: "NginxLogging"
 nameWithType: "NginxLogging"
-summary: "The Nginx<wbr>Logging model."
+summary: "Nginx Logging."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -53,9 +53,9 @@ methods:
   fullName: "com.azure.resourcemanager.nginx.models.NginxLogging.storageAccount()"
   name: "storageAccount()"
   nameWithType: "NginxLogging.storageAccount()"
-  summary: "Get the storage<wbr>Account property: The storage<wbr>Account property."
+  summary: "Get the storage<wbr>Account property: Nginx Storage Account."
   syntax: "public NginxStorageAccount storageAccount()"
-  desc: "Get the storageAccount property: The storageAccount property."
+  desc: "Get the storageAccount property: Nginx Storage Account."
   returns:
     description: "the storageAccount value."
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxStorageAccount?alt=com.azure.resourcemanager.nginx.models.NginxStorageAccount&text=NginxStorageAccount\" data-throw-if-not-resolved=\"False\" />"
@@ -71,31 +71,24 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.nginx.models.NginxLogging.validate()"
-  fullName: "com.azure.resourcemanager.nginx.models.NginxLogging.validate()"
-  name: "validate()"
-  nameWithType: "NginxLogging.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.nginx.models.NginxLogging.withStorageAccount(com.azure.resourcemanager.nginx.models.NginxStorageAccount)"
   fullName: "com.azure.resourcemanager.nginx.models.NginxLogging.withStorageAccount(NginxStorageAccount storageAccount)"
   name: "withStorageAccount(NginxStorageAccount storageAccount)"
   nameWithType: "NginxLogging.withStorageAccount(NginxStorageAccount storageAccount)"
-  summary: "Set the storage<wbr>Account property: The storage<wbr>Account property."
+  summary: "Set the storage<wbr>Account property: Nginx Storage Account."
   parameters:
   - description: "the storageAccount value to set."
     name: "storageAccount"
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxStorageAccount?alt=com.azure.resourcemanager.nginx.models.NginxStorageAccount&text=NginxStorageAccount\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public NginxLogging withStorageAccount(NginxStorageAccount storageAccount)"
-  desc: "Set the storageAccount property: The storageAccount property."
+  desc: "Set the storageAccount property: Nginx Storage Account."
   returns:
     description: "the NginxLogging object itself."
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxLogging?alt=com.azure.resourcemanager.nginx.models.NginxLogging&text=NginxLogging\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The NginxLogging model."
+desc: "Nginx Logging."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.nginx.models.NginxLogging?alt=com.azure.resourcemanager.nginx.models.NginxLogging&text=NginxLogging\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.nginx.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.4

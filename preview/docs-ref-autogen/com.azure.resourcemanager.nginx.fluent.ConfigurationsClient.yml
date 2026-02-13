@@ -76,7 +76,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<NginxConfigurationResponseInner>,NginxConfigurationResponseInner> beginCreateOrUpdate(String resourceGroupName, String deploymentName, String configurationName)"
   desc: "Create or update the NGINX configuration for given NGINX deployment."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of nginx Configuration Response."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner?alt=com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner&text=NginxConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner?alt=com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner&text=NginxConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.nginx.fluent.ConfigurationsClient.beginCreateOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.nginx.models.NginxConfigurationRequest,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.nginx.fluent.ConfigurationsClient.beginCreateOrUpdate(String resourceGroupName, String deploymentName, String configurationName, NginxConfigurationRequest body, Context context)"
@@ -104,7 +104,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<NginxConfigurationResponseInner>,NginxConfigurationResponseInner> beginCreateOrUpdate(String resourceGroupName, String deploymentName, String configurationName, NginxConfigurationRequest body, Context context)"
   desc: "Create or update the NGINX configuration for given NGINX deployment."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of nginx Configuration Response."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner?alt=com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner&text=NginxConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner?alt=com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner&text=NginxConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.nginx.fluent.ConfigurationsClient.beginDelete(java.lang.String,java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.nginx.fluent.ConfigurationsClient.beginDelete(String resourceGroupName, String deploymentName, String configurationName)"
@@ -173,7 +173,7 @@ methods:
   syntax: "public abstract NginxConfigurationResponseInner createOrUpdate(String resourceGroupName, String deploymentName, String configurationName)"
   desc: "Create or update the NGINX configuration for given NGINX deployment."
   returns:
-    description: "the response."
+    description: "nginx Configuration Response."
     type: "<xref href=\"com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner?alt=com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner&text=NginxConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.nginx.fluent.ConfigurationsClient.createOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.nginx.models.NginxConfigurationRequest,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.nginx.fluent.ConfigurationsClient.createOrUpdate(String resourceGroupName, String deploymentName, String configurationName, NginxConfigurationRequest body, Context context)"
@@ -201,7 +201,7 @@ methods:
   syntax: "public abstract NginxConfigurationResponseInner createOrUpdate(String resourceGroupName, String deploymentName, String configurationName, NginxConfigurationRequest body, Context context)"
   desc: "Create or update the NGINX configuration for given NGINX deployment."
   returns:
-    description: "the response."
+    description: "nginx Configuration Response."
     type: "<xref href=\"com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner?alt=com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner&text=NginxConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.nginx.fluent.ConfigurationsClient.delete(java.lang.String,java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.nginx.fluent.ConfigurationsClient.delete(String resourceGroupName, String deploymentName, String configurationName)"
@@ -336,4 +336,4 @@ type: "interface"
 desc: "An instance of this class provides access to all the operations defined in ConfigurationsClient."
 metadata: {}
 package: "com.azure.resourcemanager.nginx.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.4

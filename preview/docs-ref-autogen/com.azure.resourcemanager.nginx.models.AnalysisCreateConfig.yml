@@ -63,9 +63,9 @@ methods:
   fullName: "com.azure.resourcemanager.nginx.models.AnalysisCreateConfig.packageProperty()"
   name: "packageProperty()"
   nameWithType: "AnalysisCreateConfig.packageProperty()"
-  summary: "Get the package<wbr>Property property: The package property."
+  summary: "Get the package<wbr>Property property: Nginx Configuration Package."
   syntax: "public NginxConfigurationPackage packageProperty()"
-  desc: "Get the packageProperty property: The package property."
+  desc: "Get the packageProperty property: Nginx Configuration Package."
   returns:
     description: "the packageProperty value."
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxConfigurationPackage?alt=com.azure.resourcemanager.nginx.models.NginxConfigurationPackage&text=NginxConfigurationPackage\" data-throw-if-not-resolved=\"False\" />"
@@ -101,13 +101,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.nginx.models.AnalysisCreateConfig.validate()"
-  fullName: "com.azure.resourcemanager.nginx.models.AnalysisCreateConfig.validate()"
-  name: "validate()"
-  nameWithType: "AnalysisCreateConfig.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.nginx.models.AnalysisCreateConfig.withFiles(java.util.List<com.azure.resourcemanager.nginx.models.NginxConfigurationFile>)"
   fullName: "com.azure.resourcemanager.nginx.models.AnalysisCreateConfig.withFiles(List<NginxConfigurationFile> files)"
   name: "withFiles(List<NginxConfigurationFile> files)"
@@ -126,13 +119,13 @@ methods:
   fullName: "com.azure.resourcemanager.nginx.models.AnalysisCreateConfig.withPackageProperty(NginxConfigurationPackage packageProperty)"
   name: "withPackageProperty(NginxConfigurationPackage packageProperty)"
   nameWithType: "AnalysisCreateConfig.withPackageProperty(NginxConfigurationPackage packageProperty)"
-  summary: "Set the package<wbr>Property property: The package property."
+  summary: "Set the package<wbr>Property property: Nginx Configuration Package."
   parameters:
   - description: "the packageProperty value to set."
     name: "packageProperty"
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxConfigurationPackage?alt=com.azure.resourcemanager.nginx.models.NginxConfigurationPackage&text=NginxConfigurationPackage\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public AnalysisCreateConfig withPackageProperty(NginxConfigurationPackage packageProperty)"
-  desc: "Set the packageProperty property: The package property."
+  desc: "Set the packageProperty property: Nginx Configuration Package."
   returns:
     description: "the AnalysisCreateConfig object itself."
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.AnalysisCreateConfig?alt=com.azure.resourcemanager.nginx.models.AnalysisCreateConfig&text=AnalysisCreateConfig\" data-throw-if-not-resolved=\"False\" />"
@@ -170,4 +163,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.nginx.models.AnalysisCreateConfig?alt=com.azure.resourcemanager.nginx.models.AnalysisCreateConfig&text=AnalysisCreateConfig\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.nginx.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.4

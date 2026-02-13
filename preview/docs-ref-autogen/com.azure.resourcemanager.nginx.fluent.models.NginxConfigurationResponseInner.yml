@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseIn
 fullName: "com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner"
 name: "NginxConfigurationResponseInner"
 nameWithType: "NginxConfigurationResponseInner"
-summary: "The Nginx<wbr>Configuration<wbr>Response model."
+summary: "Nginx Configuration Response."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.core.management.ProxyResource?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -29,14 +29,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **NginxConfigurationResponseInner**</br> extends <xref href=\"com.azure.core.management.ProxyResource?alt=com.azure.core.management.ProxyResource&text=ProxyResource\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner.NginxConfigurationResponseInner()"
-  fullName: "com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner.NginxConfigurationResponseInner()"
-  name: "NginxConfigurationResponseInner()"
-  nameWithType: "NginxConfigurationResponseInner.NginxConfigurationResponseInner()"
-  summary: "Creates an instance of Nginx<wbr>Configuration<wbr>Response<wbr>Inner class."
-  syntax: "public NginxConfigurationResponseInner()"
-  desc: "Creates an instance of NginxConfigurationResponseInner class."
 methods:
 - uid: "com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner.fromJson(JsonReader jsonReader)"
@@ -83,9 +75,9 @@ methods:
   fullName: "com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner.properties()"
   name: "properties()"
   nameWithType: "NginxConfigurationResponseInner.properties()"
-  summary: "Get the properties property: The properties property."
+  summary: "Get the properties property: Nginx Configuration Response Properties."
   syntax: "public NginxConfigurationResponseProperties properties()"
-  desc: "Get the properties property: The properties property."
+  desc: "Get the properties property: Nginx Configuration Response Properties."
   returns:
     description: "the properties value."
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties?alt=com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties&text=NginxConfigurationResponseProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -93,9 +85,9 @@ methods:
   fullName: "com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner.systemData()"
   name: "systemData()"
   nameWithType: "NginxConfigurationResponseInner.systemData()"
-  summary: "Get the system<wbr>Data property: Metadata pertaining to creation and last modification of the resource."
+  summary: "Get the system<wbr>Data property: Azure Resource Manager metadata containing created<wbr>By and modified<wbr>By information."
   syntax: "public SystemData systemData()"
-  desc: "Get the systemData property: Metadata pertaining to creation and last modification of the resource."
+  desc: "Get the systemData property: Azure Resource Manager metadata containing createdBy and modifiedBy information."
   returns:
     description: "the systemData value."
     type: "<xref href=\"com.azure.core.management.SystemData?alt=com.azure.core.management.SystemData&text=SystemData\" data-throw-if-not-resolved=\"False\" />"
@@ -123,29 +115,8 @@ methods:
   returns:
     description: "the type value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner.validate()"
-  fullName: "com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner.validate()"
-  name: "validate()"
-  nameWithType: "NginxConfigurationResponseInner.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner.withProperties(com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties)"
-  fullName: "com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner.withProperties(NginxConfigurationResponseProperties properties)"
-  name: "withProperties(NginxConfigurationResponseProperties properties)"
-  nameWithType: "NginxConfigurationResponseInner.withProperties(NginxConfigurationResponseProperties properties)"
-  summary: "Set the properties property: The properties property."
-  parameters:
-  - description: "the properties value to set."
-    name: "properties"
-    type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties?alt=com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties&text=NginxConfigurationResponseProperties\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public NginxConfigurationResponseInner withProperties(NginxConfigurationResponseProperties properties)"
-  desc: "Set the properties property: The properties property."
-  returns:
-    description: "the NginxConfigurationResponseInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner?alt=com.azure.resourcemanager.nginx.fluent.models.NginxConfigurationResponseInner&text=NginxConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The NginxConfigurationResponse model."
+desc: "Nginx Configuration Response."
 metadata: {}
 package: "com.azure.resourcemanager.nginx.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.4

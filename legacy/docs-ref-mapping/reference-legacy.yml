@@ -2,6 +2,19 @@
   landingPageType: Root
   expanded: false
   items:
+  - name: AgriFood
+    href: ~/docs-ref-services/legacy/agrifood.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - AgriFood (deprecated)
+        href: ~/docs-ref-services/legacy/resourcemanager-agrifood-readme.md
+        children:
+        - com.azure.resourcemanager.agrifood
+        - com.azure.resourcemanager.agrifood.fluent
+        - com.azure.resourcemanager.agrifood.fluent.models
+        - com.azure.resourcemanager.agrifood.models
   - name: App Platform
     href: ~/docs-ref-services/legacy/app-platform.md
     landingPageType: Service
@@ -254,6 +267,14 @@
       href: ~/docs-ref-services/legacy/messaging-eventgrid-cloudnative-cloudevents-readme.md
       children:
       - com.azure.messaging.eventgrid.cloudnative.cloudevents
+  - name: FarmBeats
+    href: ~/docs-ref-services/legacy/farmbeats.md
+    landingPageType: Service
+    items:
+    - name: FarmBeats (deprecated)
+      href: ~/docs-ref-services/legacy/verticals-agrifood-farming-readme.md
+      children:
+      - com.azure.verticals.agrifood.farming
   - name: Graph RBAC
     href: ~/docs-ref-services/legacy/graph-rbac.md
     landingPageType: Service
@@ -392,6 +413,10 @@
     href: ~/docs-ref-services/legacy/mixed-reality.md
     landingPageType: Service
     items:
+    - name: Mixed Reality Authentication (deprecated)
+      href: ~/docs-ref-services/legacy/mixedreality-authentication-readme.md
+      children:
+      - com.azure.mixedreality.authentication
     - name: Azure Remote Rendering (deprecated)
       href: ~/docs-ref-services/legacy/mixedreality-remoterendering-readme.md
       children:
@@ -403,6 +428,13 @@
         children:
         - com.microsoft.azure.management.mixedreality.v2020_05_01
         landingPageType: Service
+      - name: Resource Management - Mixed Reality (deprecated)
+        href: ~/docs-ref-services/legacy/resourcemanager-mixedreality-readme.md
+        children:
+        - com.azure.resourcemanager.mixedreality
+        - com.azure.resourcemanager.mixedreality.fluent
+        - com.azure.resourcemanager.mixedreality.fluent.models
+        - com.azure.resourcemanager.mixedreality.models
   - name: Mobile Network
     href: ~/docs-ref-services/legacy/mobile-network.md
     landingPageType: Service

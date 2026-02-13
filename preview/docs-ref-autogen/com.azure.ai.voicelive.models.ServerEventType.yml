@@ -410,6 +410,66 @@ fields:
     type: "<xref href=\"com.azure.ai.voicelive.models.ServerEventType?alt=com.azure.ai.voicelive.models.ServerEventType&text=ServerEventType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ServerEventType RESPONSE_DONE"
   desc: "Static value response.done for ServerEventType."
+- uid: "com.azure.ai.voicelive.models.ServerEventType.RESPONSE_FOUNDRY_AGENT_CALL_ARGUMENTS_DELTA"
+  fullName: "com.azure.ai.voicelive.models.ServerEventType.RESPONSE_FOUNDRY_AGENT_CALL_ARGUMENTS_DELTA"
+  name: "RESPONSE_FOUNDRY_AGENT_CALL_ARGUMENTS_DELTA"
+  nameWithType: "ServerEventType.RESPONSE_FOUNDRY_AGENT_CALL_ARGUMENTS_DELTA"
+  summary: "Static value response.<wbr>foundry\\_agent\\_call\\_arguments.<wbr>delta for Server<wbr>Event<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.voicelive.models.ServerEventType?alt=com.azure.ai.voicelive.models.ServerEventType&text=ServerEventType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ServerEventType RESPONSE_FOUNDRY_AGENT_CALL_ARGUMENTS_DELTA"
+  desc: "Static value response.foundry\\_agent\\_call\\_arguments.delta for ServerEventType."
+- uid: "com.azure.ai.voicelive.models.ServerEventType.RESPONSE_FOUNDRY_AGENT_CALL_ARGUMENTS_DONE"
+  fullName: "com.azure.ai.voicelive.models.ServerEventType.RESPONSE_FOUNDRY_AGENT_CALL_ARGUMENTS_DONE"
+  name: "RESPONSE_FOUNDRY_AGENT_CALL_ARGUMENTS_DONE"
+  nameWithType: "ServerEventType.RESPONSE_FOUNDRY_AGENT_CALL_ARGUMENTS_DONE"
+  summary: "Static value response.<wbr>foundry\\_agent\\_call\\_arguments.<wbr>done for Server<wbr>Event<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.voicelive.models.ServerEventType?alt=com.azure.ai.voicelive.models.ServerEventType&text=ServerEventType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ServerEventType RESPONSE_FOUNDRY_AGENT_CALL_ARGUMENTS_DONE"
+  desc: "Static value response.foundry\\_agent\\_call\\_arguments.done for ServerEventType."
+- uid: "com.azure.ai.voicelive.models.ServerEventType.RESPONSE_FOUNDRY_AGENT_CALL_COMPLETED"
+  fullName: "com.azure.ai.voicelive.models.ServerEventType.RESPONSE_FOUNDRY_AGENT_CALL_COMPLETED"
+  name: "RESPONSE_FOUNDRY_AGENT_CALL_COMPLETED"
+  nameWithType: "ServerEventType.RESPONSE_FOUNDRY_AGENT_CALL_COMPLETED"
+  summary: "Static value response.<wbr>foundry\\_agent\\_call.<wbr>completed for Server<wbr>Event<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.voicelive.models.ServerEventType?alt=com.azure.ai.voicelive.models.ServerEventType&text=ServerEventType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ServerEventType RESPONSE_FOUNDRY_AGENT_CALL_COMPLETED"
+  desc: "Static value response.foundry\\_agent\\_call.completed for ServerEventType."
+- uid: "com.azure.ai.voicelive.models.ServerEventType.RESPONSE_FOUNDRY_AGENT_CALL_FAILED"
+  fullName: "com.azure.ai.voicelive.models.ServerEventType.RESPONSE_FOUNDRY_AGENT_CALL_FAILED"
+  name: "RESPONSE_FOUNDRY_AGENT_CALL_FAILED"
+  nameWithType: "ServerEventType.RESPONSE_FOUNDRY_AGENT_CALL_FAILED"
+  summary: "Static value response.<wbr>foundry\\_agent\\_call.<wbr>failed for Server<wbr>Event<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.voicelive.models.ServerEventType?alt=com.azure.ai.voicelive.models.ServerEventType&text=ServerEventType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ServerEventType RESPONSE_FOUNDRY_AGENT_CALL_FAILED"
+  desc: "Static value response.foundry\\_agent\\_call.failed for ServerEventType."
+- uid: "com.azure.ai.voicelive.models.ServerEventType.RESPONSE_FOUNDRY_AGENT_CALL_IN_PROGRESS"
+  fullName: "com.azure.ai.voicelive.models.ServerEventType.RESPONSE_FOUNDRY_AGENT_CALL_IN_PROGRESS"
+  name: "RESPONSE_FOUNDRY_AGENT_CALL_IN_PROGRESS"
+  nameWithType: "ServerEventType.RESPONSE_FOUNDRY_AGENT_CALL_IN_PROGRESS"
+  summary: "Static value response.<wbr>foundry\\_agent\\_call.<wbr>in\\_progress for Server<wbr>Event<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.voicelive.models.ServerEventType?alt=com.azure.ai.voicelive.models.ServerEventType&text=ServerEventType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ServerEventType RESPONSE_FOUNDRY_AGENT_CALL_IN_PROGRESS"
+  desc: "Static value response.foundry\\_agent\\_call.in\\_progress for ServerEventType."
 - uid: "com.azure.ai.voicelive.models.ServerEventType.RESPONSE_FUNCTION_CALL_ARGUMENTS_DELTA"
   fullName: "com.azure.ai.voicelive.models.ServerEventType.RESPONSE_FUNCTION_CALL_ARGUMENTS_DELTA"
   name: "RESPONSE_FUNCTION_CALL_ARGUMENTS_DELTA"
@@ -611,4 +671,4 @@ type: "class"
 desc: "Server event types used in VoiceLive protocol."
 metadata: {}
 package: "com.azure.ai.voicelive.models"
-artifact: com.azure:azure-ai-voicelive:1.0.0-beta.3
+artifact: com.azure:azure-ai-voicelive:1.0.0-beta.4

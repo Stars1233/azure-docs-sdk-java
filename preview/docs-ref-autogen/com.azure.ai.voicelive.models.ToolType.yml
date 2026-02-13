@@ -38,6 +38,18 @@ constructors:
   desc: "Creates a new instance of ToolType value."
   hasDeprecatedTag: true
 fields:
+- uid: "com.azure.ai.voicelive.models.ToolType.FOUNDRY_AGENT"
+  fullName: "com.azure.ai.voicelive.models.ToolType.FOUNDRY_AGENT"
+  name: "FOUNDRY_AGENT"
+  nameWithType: "ToolType.FOUNDRY_AGENT"
+  summary: "Static value foundry\\_agent for Tool<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.voicelive.models.ToolType?alt=com.azure.ai.voicelive.models.ToolType&text=ToolType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ToolType FOUNDRY_AGENT"
+  desc: "Static value foundry\\_agent for ToolType."
 - uid: "com.azure.ai.voicelive.models.ToolType.FUNCTION"
   fullName: "com.azure.ai.voicelive.models.ToolType.FUNCTION"
   name: "FUNCTION"
@@ -95,4 +107,4 @@ type: "class"
 desc: "The supported tool type discriminators for voicelive tools. Currently, only 'function' tools are supported."
 metadata: {}
 package: "com.azure.ai.voicelive.models"
-artifact: com.azure:azure-ai-voicelive:1.0.0-beta.3
+artifact: com.azure:azure-ai-voicelive:1.0.0-beta.4

@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.nginx.models.NginxConfigurationResponsePropertie
 fullName: "com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties"
 name: "NginxConfigurationResponseProperties"
 nameWithType: "NginxConfigurationResponseProperties"
-summary: "The Nginx<wbr>Configuration<wbr>Response<wbr>Properties model."
+summary: "Nginx Configuration Response Properties."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **NginxConfigurationResponseProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties?alt=com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties&text=NginxConfigurationResponseProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties.NginxConfigurationResponseProperties()"
-  fullName: "com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties.NginxConfigurationResponseProperties()"
-  name: "NginxConfigurationResponseProperties()"
-  nameWithType: "NginxConfigurationResponseProperties.NginxConfigurationResponseProperties()"
-  summary: "Creates an instance of Nginx<wbr>Configuration<wbr>Response<wbr>Properties class."
-  syntax: "public NginxConfigurationResponseProperties()"
-  desc: "Creates an instance of NginxConfigurationResponseProperties class."
 methods:
 - uid: "com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties.files()"
   fullName: "com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties.files()"
@@ -63,9 +55,9 @@ methods:
   fullName: "com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties.packageProperty()"
   name: "packageProperty()"
   nameWithType: "NginxConfigurationResponseProperties.packageProperty()"
-  summary: "Get the package<wbr>Property property: The package property."
+  summary: "Get the package<wbr>Property property: Nginx Configuration Package."
   syntax: "public NginxConfigurationPackage packageProperty()"
-  desc: "Get the packageProperty property: The package property."
+  desc: "Get the packageProperty property: Nginx Configuration Package."
   returns:
     description: "the packageProperty value."
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxConfigurationPackage?alt=com.azure.resourcemanager.nginx.models.NginxConfigurationPackage&text=NginxConfigurationPackage\" data-throw-if-not-resolved=\"False\" />"
@@ -83,9 +75,9 @@ methods:
   fullName: "com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties.provisioningState()"
   name: "provisioningState()"
   nameWithType: "NginxConfigurationResponseProperties.provisioningState()"
-  summary: "Get the provisioning<wbr>State property: The provisioning<wbr>State property."
+  summary: "Get the provisioning<wbr>State property: Provisioning State."
   syntax: "public ProvisioningState provisioningState()"
-  desc: "Get the provisioningState property: The provisioningState property."
+  desc: "Get the provisioningState property: Provisioning State."
   returns:
     description: "the provisioningState value."
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.ProvisioningState?alt=com.azure.resourcemanager.nginx.models.ProvisioningState&text=ProvisioningState\" data-throw-if-not-resolved=\"False\" />"
@@ -111,73 +103,10 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties.validate()"
-  fullName: "com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties.validate()"
-  name: "validate()"
-  nameWithType: "NginxConfigurationResponseProperties.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties.withFiles(java.util.List<com.azure.resourcemanager.nginx.models.NginxConfigurationFile>)"
-  fullName: "com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties.withFiles(List<NginxConfigurationFile> files)"
-  name: "withFiles(List<NginxConfigurationFile> files)"
-  nameWithType: "NginxConfigurationResponseProperties.withFiles(List<NginxConfigurationFile> files)"
-  summary: "Set the files property: The files property."
-  parameters:
-  - description: "the files value to set."
-    name: "files"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.nginx.models.NginxConfigurationFile?alt=com.azure.resourcemanager.nginx.models.NginxConfigurationFile&text=NginxConfigurationFile\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public NginxConfigurationResponseProperties withFiles(List<NginxConfigurationFile> files)"
-  desc: "Set the files property: The files property."
-  returns:
-    description: "the NginxConfigurationResponseProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties?alt=com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties&text=NginxConfigurationResponseProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties.withPackageProperty(com.azure.resourcemanager.nginx.models.NginxConfigurationPackage)"
-  fullName: "com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties.withPackageProperty(NginxConfigurationPackage packageProperty)"
-  name: "withPackageProperty(NginxConfigurationPackage packageProperty)"
-  nameWithType: "NginxConfigurationResponseProperties.withPackageProperty(NginxConfigurationPackage packageProperty)"
-  summary: "Set the package<wbr>Property property: The package property."
-  parameters:
-  - description: "the packageProperty value to set."
-    name: "packageProperty"
-    type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxConfigurationPackage?alt=com.azure.resourcemanager.nginx.models.NginxConfigurationPackage&text=NginxConfigurationPackage\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public NginxConfigurationResponseProperties withPackageProperty(NginxConfigurationPackage packageProperty)"
-  desc: "Set the packageProperty property: The package property."
-  returns:
-    description: "the NginxConfigurationResponseProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties?alt=com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties&text=NginxConfigurationResponseProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties.withProtectedFiles(java.util.List<com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse>)"
-  fullName: "com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties.withProtectedFiles(List<NginxConfigurationProtectedFileResponse> protectedFiles)"
-  name: "withProtectedFiles(List<NginxConfigurationProtectedFileResponse> protectedFiles)"
-  nameWithType: "NginxConfigurationResponseProperties.withProtectedFiles(List<NginxConfigurationProtectedFileResponse> protectedFiles)"
-  summary: "Set the protected<wbr>Files property: The protected<wbr>Files property."
-  parameters:
-  - description: "the protectedFiles value to set."
-    name: "protectedFiles"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse?alt=com.azure.resourcemanager.nginx.models.NginxConfigurationProtectedFileResponse&text=NginxConfigurationProtectedFileResponse\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public NginxConfigurationResponseProperties withProtectedFiles(List<NginxConfigurationProtectedFileResponse> protectedFiles)"
-  desc: "Set the protectedFiles property: The protectedFiles property."
-  returns:
-    description: "the NginxConfigurationResponseProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties?alt=com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties&text=NginxConfigurationResponseProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties.withRootFile(java.lang.String)"
-  fullName: "com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties.withRootFile(String rootFile)"
-  name: "withRootFile(String rootFile)"
-  nameWithType: "NginxConfigurationResponseProperties.withRootFile(String rootFile)"
-  summary: "Set the root<wbr>File property: The root<wbr>File property."
-  parameters:
-  - description: "the rootFile value to set."
-    name: "rootFile"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public NginxConfigurationResponseProperties withRootFile(String rootFile)"
-  desc: "Set the rootFile property: The rootFile property."
-  returns:
-    description: "the NginxConfigurationResponseProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties?alt=com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties&text=NginxConfigurationResponseProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The NginxConfigurationResponseProperties model."
+desc: "Nginx Configuration Response Properties."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties?alt=com.azure.resourcemanager.nginx.models.NginxConfigurationResponseProperties&text=NginxConfigurationResponseProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.nginx.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.4

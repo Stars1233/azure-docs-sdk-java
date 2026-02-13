@@ -10,15 +10,15 @@ methods:
   fullName: "com.azure.resourcemanager.nginx.models.NginxDeploymentApiKeyResponse.UpdateStages.WithProperties.withProperties(NginxDeploymentApiKeyRequestProperties properties)"
   name: "withProperties(NginxDeploymentApiKeyRequestProperties properties)"
   nameWithType: "NginxDeploymentApiKeyResponse.UpdateStages.WithProperties.withProperties(NginxDeploymentApiKeyRequestProperties properties)"
-  summary: "Specifies the properties property: The properties property.."
+  summary: "Specifies the properties property: Nginx Deployment Api Key Request Properties."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The properties property."
+  - description: "Nginx Deployment Api Key Request Properties."
     name: "properties"
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxDeploymentApiKeyRequestProperties?alt=com.azure.resourcemanager.nginx.models.NginxDeploymentApiKeyRequestProperties&text=NginxDeploymentApiKeyRequestProperties\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract NginxDeploymentApiKeyResponse.Update withProperties(NginxDeploymentApiKeyRequestProperties properties)"
-  desc: "Specifies the properties property: The properties property.."
+  desc: "Specifies the properties property: Nginx Deployment Api Key Request Properties."
   returns:
     description: "the next definition stage."
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxDeploymentApiKeyResponse.Update?alt=com.azure.resourcemanager.nginx.models.NginxDeploymentApiKeyResponse.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the NginxDeploymentApiKeyResponse update allowing to specify properties."
 metadata: {}
 package: "com.azure.resourcemanager.nginx.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.4

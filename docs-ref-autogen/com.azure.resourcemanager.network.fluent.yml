@@ -125,6 +125,7 @@ interfaces:
 - "com.azure.resourcemanager.network.fluent.ServiceAssociationLinksClient"
 - "com.azure.resourcemanager.network.fluent.ServiceEndpointPoliciesClient"
 - "com.azure.resourcemanager.network.fluent.ServiceEndpointPolicyDefinitionsClient"
+- "com.azure.resourcemanager.network.fluent.ServiceGatewaysClient"
 - "com.azure.resourcemanager.network.fluent.ServiceTagInformationsClient"
 - "com.azure.resourcemanager.network.fluent.ServiceTagsClient"
 - "com.azure.resourcemanager.network.fluent.StaticCidrsClient"
@@ -140,6 +141,7 @@ interfaces:
 - "com.azure.resourcemanager.network.fluent.VirtualHubIpConfigurationsClient"
 - "com.azure.resourcemanager.network.fluent.VirtualHubRouteTableV2SClient"
 - "com.azure.resourcemanager.network.fluent.VirtualHubsClient"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkAppliancesClient"
 - "com.azure.resourcemanager.network.fluent.VirtualNetworkGatewayConnectionsClient"
 - "com.azure.resourcemanager.network.fluent.VirtualNetworkGatewayNatRulesClient"
 - "com.azure.resourcemanager.network.fluent.VirtualNetworkGatewaysClient"
@@ -163,4 +165,4 @@ interfaces:
 desc: "Package containing the service clients for NetworkManagementClient. Network Client."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.57.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.0

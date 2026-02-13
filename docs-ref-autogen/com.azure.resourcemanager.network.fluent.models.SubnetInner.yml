@@ -286,6 +286,16 @@ methods:
   returns:
     description: "the serviceEndpoints value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ServiceEndpointPropertiesFormat?alt=com.azure.resourcemanager.network.models.ServiceEndpointPropertiesFormat&text=ServiceEndpointPropertiesFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.network.fluent.models.SubnetInner.serviceGateway()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.SubnetInner.serviceGateway()"
+  name: "serviceGateway()"
+  nameWithType: "SubnetInner.serviceGateway()"
+  summary: "Get the service<wbr>Gateway property: Reference to an existing service gateway."
+  syntax: "public SubResource serviceGateway()"
+  desc: "Get the serviceGateway property: Reference to an existing service gateway."
+  returns:
+    description: "the serviceGateway value."
+    type: "<xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.SubnetInner.sharingScope()"
   fullName: "com.azure.resourcemanager.network.fluent.models.SubnetInner.sharingScope()"
   name: "sharingScope()"
@@ -547,6 +557,20 @@ methods:
   returns:
     description: "the SubnetInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.SubnetInner?alt=com.azure.resourcemanager.network.fluent.models.SubnetInner&text=SubnetInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.models.SubnetInner.withServiceGateway(com.azure.core.management.SubResource)"
+  fullName: "com.azure.resourcemanager.network.fluent.models.SubnetInner.withServiceGateway(SubResource serviceGateway)"
+  name: "withServiceGateway(SubResource serviceGateway)"
+  nameWithType: "SubnetInner.withServiceGateway(SubResource serviceGateway)"
+  summary: "Set the service<wbr>Gateway property: Reference to an existing service gateway."
+  parameters:
+  - description: "the serviceGateway value to set."
+    name: "serviceGateway"
+    type: "<xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SubnetInner withServiceGateway(SubResource serviceGateway)"
+  desc: "Set the serviceGateway property: Reference to an existing service gateway."
+  returns:
+    description: "the SubnetInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.SubnetInner?alt=com.azure.resourcemanager.network.fluent.models.SubnetInner&text=SubnetInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.SubnetInner.withSharingScope(com.azure.resourcemanager.network.models.SharingScope)"
   fullName: "com.azure.resourcemanager.network.fluent.models.SubnetInner.withSharingScope(SharingScope sharingScope)"
   name: "withSharingScope(SharingScope sharingScope)"
@@ -579,4 +603,4 @@ type: "class"
 desc: "Subnet in a virtual network resource."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.57.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.0

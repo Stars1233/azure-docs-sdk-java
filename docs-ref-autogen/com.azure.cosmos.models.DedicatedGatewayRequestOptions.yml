@@ -40,6 +40,16 @@ methods:
   returns:
     description: "Duration of maxIntegratedCacheStaleness"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html\">Duration</a>"
+- uid: "com.azure.cosmos.models.DedicatedGatewayRequestOptions.getShardKey()"
+  fullName: "com.azure.cosmos.models.DedicatedGatewayRequestOptions.getShardKey()"
+  name: "getShardKey()"
+  nameWithType: "DedicatedGatewayRequestOptions.getShardKey()"
+  summary: "Gets the shard key value associated with the request in the Azure CosmosDB service to optionally specify a shard key to use the new sharding feature in dedicated gateway."
+  syntax: "public String getShardKey()"
+  desc: "Gets the shard key value associated with the request in the Azure CosmosDB service to optionally specify a shard key to use the new sharding feature in dedicated gateway.\n\nDefault value is null"
+  returns:
+    description: "shard key value"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.cosmos.models.DedicatedGatewayRequestOptions.isIntegratedCacheBypassed()"
   fullName: "com.azure.cosmos.models.DedicatedGatewayRequestOptions.isIntegratedCacheBypassed()"
   name: "isIntegratedCacheBypassed()"
@@ -78,10 +88,24 @@ methods:
   returns:
     description: "this DedicatedGatewayRequestOptions"
     type: "<xref href=\"com.azure.cosmos.models.DedicatedGatewayRequestOptions?alt=com.azure.cosmos.models.DedicatedGatewayRequestOptions&text=DedicatedGatewayRequestOptions\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.cosmos.models.DedicatedGatewayRequestOptions.setShardKey(java.lang.String)"
+  fullName: "com.azure.cosmos.models.DedicatedGatewayRequestOptions.setShardKey(String shardKey)"
+  name: "setShardKey(String shardKey)"
+  nameWithType: "DedicatedGatewayRequestOptions.setShardKey(String shardKey)"
+  summary: "Sets the shard key value associated with the request in the Azure CosmosDB service to optionally specify a shard key to use the new sharding feature in dedicated gateway."
+  parameters:
+  - description: "shard key value"
+    name: "shardKey"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public DedicatedGatewayRequestOptions setShardKey(String shardKey)"
+  desc: "Sets the shard key value associated with the request in the Azure CosmosDB service to optionally specify a shard key to use the new sharding feature in dedicated gateway.\n\nDefault value is null"
+  returns:
+    description: "this DedicatedGatewayRequestOptions"
+    type: "<xref href=\"com.azure.cosmos.models.DedicatedGatewayRequestOptions?alt=com.azure.cosmos.models.DedicatedGatewayRequestOptions&text=DedicatedGatewayRequestOptions\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Dedicated Gateway Request Options"
 implements:
 - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html\">Serializable</a>"
 metadata: {}
 package: "com.azure.cosmos.models"
-artifact: com.azure:azure-cosmos:4.77.0
+artifact: com.azure:azure-cosmos:4.78.0

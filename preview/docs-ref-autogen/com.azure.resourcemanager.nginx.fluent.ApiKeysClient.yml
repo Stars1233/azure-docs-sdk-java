@@ -26,7 +26,7 @@ methods:
   syntax: "public abstract NginxDeploymentApiKeyResponseInner createOrUpdate(String resourceGroupName, String deploymentName, String apiKeyName)"
   desc: "Create or update an API Key for the Nginx deployment in order to access the dataplane API endpoint."
   returns:
-    description: "the response."
+    description: "nginx Deployment Api Key Response."
     type: "<xref href=\"com.azure.resourcemanager.nginx.fluent.models.NginxDeploymentApiKeyResponseInner?alt=com.azure.resourcemanager.nginx.fluent.models.NginxDeploymentApiKeyResponseInner&text=NginxDeploymentApiKeyResponseInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.nginx.fluent.ApiKeysClient.createOrUpdateWithResponse(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.nginx.models.NginxDeploymentApiKeyRequest,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.nginx.fluent.ApiKeysClient.createOrUpdateWithResponse(String resourceGroupName, String deploymentName, String apiKeyName, NginxDeploymentApiKeyRequest body, Context context)"
@@ -54,7 +54,7 @@ methods:
   syntax: "public abstract Response<NginxDeploymentApiKeyResponseInner> createOrUpdateWithResponse(String resourceGroupName, String deploymentName, String apiKeyName, NginxDeploymentApiKeyRequest body, Context context)"
   desc: "Create or update an API Key for the Nginx deployment in order to access the dataplane API endpoint."
   returns:
-    description: "the response body along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    description: "nginx Deployment Api Key Response along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.nginx.fluent.models.NginxDeploymentApiKeyResponseInner?alt=com.azure.resourcemanager.nginx.fluent.models.NginxDeploymentApiKeyResponseInner&text=NginxDeploymentApiKeyResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.nginx.fluent.ApiKeysClient.delete(java.lang.String,java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.nginx.fluent.ApiKeysClient.delete(String resourceGroupName, String deploymentName, String apiKeyName)"
@@ -164,7 +164,7 @@ methods:
   syntax: "public abstract PagedIterable<NginxDeploymentApiKeyResponseInner> list(String resourceGroupName, String deploymentName)"
   desc: "List all API Keys of the given Nginx deployment."
   returns:
-    description: "the paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "nginx Deployment Api Key List Response as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.nginx.fluent.models.NginxDeploymentApiKeyResponseInner?alt=com.azure.resourcemanager.nginx.fluent.models.NginxDeploymentApiKeyResponseInner&text=NginxDeploymentApiKeyResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.nginx.fluent.ApiKeysClient.list(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.nginx.fluent.ApiKeysClient.list(String resourceGroupName, String deploymentName, Context context)"
@@ -186,10 +186,10 @@ methods:
   syntax: "public abstract PagedIterable<NginxDeploymentApiKeyResponseInner> list(String resourceGroupName, String deploymentName, Context context)"
   desc: "List all API Keys of the given Nginx deployment."
   returns:
-    description: "the paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "nginx Deployment Api Key List Response as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.nginx.fluent.models.NginxDeploymentApiKeyResponseInner?alt=com.azure.resourcemanager.nginx.fluent.models.NginxDeploymentApiKeyResponseInner&text=NginxDeploymentApiKeyResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 desc: "An instance of this class provides access to all the operations defined in ApiKeysClient."
 metadata: {}
 package: "com.azure.resourcemanager.nginx.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.4

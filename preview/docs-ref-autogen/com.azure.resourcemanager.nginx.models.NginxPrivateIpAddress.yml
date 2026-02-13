@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.nginx.models.NginxPrivateIpAddress"
 fullName: "com.azure.resourcemanager.nginx.models.NginxPrivateIpAddress"
 name: "NginxPrivateIpAddress"
 nameWithType: "NginxPrivateIpAddress"
-summary: "The Nginx<wbr>Private<wbr>IpAddress model."
+summary: "Nginx Private IP Address."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -63,9 +63,9 @@ methods:
   fullName: "com.azure.resourcemanager.nginx.models.NginxPrivateIpAddress.privateIpAllocationMethod()"
   name: "privateIpAllocationMethod()"
   nameWithType: "NginxPrivateIpAddress.privateIpAllocationMethod()"
-  summary: "Get the private<wbr>IpAllocation<wbr>Method property: The private<wbr>IPAllocation<wbr>Method property."
+  summary: "Get the private<wbr>IpAllocation<wbr>Method property: Nginx Private IP Allocation Method."
   syntax: "public NginxPrivateIpAllocationMethod privateIpAllocationMethod()"
-  desc: "Get the privateIpAllocationMethod property: The privateIPAllocationMethod property."
+  desc: "Get the privateIpAllocationMethod property: Nginx Private IP Allocation Method."
   returns:
     description: "the privateIpAllocationMethod value."
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxPrivateIpAllocationMethod?alt=com.azure.resourcemanager.nginx.models.NginxPrivateIpAllocationMethod&text=NginxPrivateIpAllocationMethod\" data-throw-if-not-resolved=\"False\" />"
@@ -91,13 +91,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.nginx.models.NginxPrivateIpAddress.validate()"
-  fullName: "com.azure.resourcemanager.nginx.models.NginxPrivateIpAddress.validate()"
-  name: "validate()"
-  nameWithType: "NginxPrivateIpAddress.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.nginx.models.NginxPrivateIpAddress.withPrivateIpAddress(java.lang.String)"
   fullName: "com.azure.resourcemanager.nginx.models.NginxPrivateIpAddress.withPrivateIpAddress(String privateIpAddress)"
   name: "withPrivateIpAddress(String privateIpAddress)"
@@ -116,13 +109,13 @@ methods:
   fullName: "com.azure.resourcemanager.nginx.models.NginxPrivateIpAddress.withPrivateIpAllocationMethod(NginxPrivateIpAllocationMethod privateIpAllocationMethod)"
   name: "withPrivateIpAllocationMethod(NginxPrivateIpAllocationMethod privateIpAllocationMethod)"
   nameWithType: "NginxPrivateIpAddress.withPrivateIpAllocationMethod(NginxPrivateIpAllocationMethod privateIpAllocationMethod)"
-  summary: "Set the private<wbr>IpAllocation<wbr>Method property: The private<wbr>IPAllocation<wbr>Method property."
+  summary: "Set the private<wbr>IpAllocation<wbr>Method property: Nginx Private IP Allocation Method."
   parameters:
   - description: "the privateIpAllocationMethod value to set."
     name: "privateIpAllocationMethod"
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxPrivateIpAllocationMethod?alt=com.azure.resourcemanager.nginx.models.NginxPrivateIpAllocationMethod&text=NginxPrivateIpAllocationMethod\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public NginxPrivateIpAddress withPrivateIpAllocationMethod(NginxPrivateIpAllocationMethod privateIpAllocationMethod)"
-  desc: "Set the privateIpAllocationMethod property: The privateIPAllocationMethod property."
+  desc: "Set the privateIpAllocationMethod property: Nginx Private IP Allocation Method."
   returns:
     description: "the NginxPrivateIpAddress object itself."
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxPrivateIpAddress?alt=com.azure.resourcemanager.nginx.models.NginxPrivateIpAddress&text=NginxPrivateIpAddress\" data-throw-if-not-resolved=\"False\" />"
@@ -141,9 +134,9 @@ methods:
     description: "the NginxPrivateIpAddress object itself."
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxPrivateIpAddress?alt=com.azure.resourcemanager.nginx.models.NginxPrivateIpAddress&text=NginxPrivateIpAddress\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The NginxPrivateIpAddress model."
+desc: "Nginx Private IP Address."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.nginx.models.NginxPrivateIpAddress?alt=com.azure.resourcemanager.nginx.models.NginxPrivateIpAddress&text=NginxPrivateIpAddress\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.nginx.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.4

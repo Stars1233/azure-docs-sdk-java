@@ -71,6 +71,16 @@ methods:
   returns:
     description: "the maxOutputTokens value."
     type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.voicelive.models.SessionResponse.getMetadata()"
+  fullName: "com.azure.ai.voicelive.models.SessionResponse.getMetadata()"
+  name: "getMetadata()"
+  nameWithType: "SessionResponse.getMetadata()"
+  summary: "Get the metadata property: Set of up to 16 key-value pairs that can be attached to an object."
+  syntax: "public Map<String,String> getMetadata()"
+  desc: "Get the metadata property: Set of up to 16 key-value pairs that can be attached to an object. This can be useful for storing additional information about the object in a structured format. Keys can be a maximum of 64 characters long and values can be a maximum of 512 characters long."
+  returns:
+    description: "the metadata value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.ai.voicelive.models.SessionResponse.getModalities()"
   fullName: "com.azure.ai.voicelive.models.SessionResponse.getModalities()"
   name: "getModalities()"
@@ -179,4 +189,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.voicelive.models.SessionResponse?alt=com.azure.ai.voicelive.models.SessionResponse&text=SessionResponse\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.voicelive.models"
-artifact: com.azure:azure-ai-voicelive:1.0.0-beta.3
+artifact: com.azure:azure-ai-voicelive:1.0.0-beta.4

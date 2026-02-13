@@ -1835,23 +1835,6 @@
       - com.azure.ai.metricsadvisor.administration
       - com.azure.ai.metricsadvisor.administration.models
       - com.azure.ai.metricsadvisor.models
-  - name: Mixed Reality
-    href: ~/docs-ref-services/latest/mixed-reality.md
-    landingPageType: Service
-    items:
-    - name: Mixed Reality Authentication
-      href: ~/docs-ref-services/latest/mixedreality-authentication-readme.md
-      children:
-      - com.azure.mixedreality.authentication
-    - name: Management
-      items:
-      - name: Resource Management - Mixed Reality
-        href: ~/docs-ref-services/latest/resourcemanager-mixedreality-readme.md
-        children:
-        - com.azure.resourcemanager.mixedreality
-        - com.azure.resourcemanager.mixedreality.fluent
-        - com.azure.resourcemanager.mixedreality.fluent.models
-        - com.azure.resourcemanager.mixedreality.models
   - name: Mongo Cluster
     href: ~/docs-ref-services/latest/mongo-cluster.md
     landingPageType: Service
@@ -2650,6 +2633,11 @@
       - com.azure.storage.blob.options
       - com.azure.storage.blob.sas
       - com.azure.storage.blob.specialized
+      - com.azure.storage.blob
+      - com.azure.storage.blob.models
+      - com.azure.storage.blob.options
+      - com.azure.storage.blob.sas
+      - com.azure.storage.blob.specialized
     - name: Storage - Blobs Batch
       href: ~/docs-ref-services/latest/storage-blob-batch-readme.md
       children:
@@ -2662,6 +2650,11 @@
     - name: Storage - Files Data Lake
       href: ~/docs-ref-services/latest/storage-file-datalake-readme.md
       children:
+      - com.azure.storage.file.datalake
+      - com.azure.storage.file.datalake.models
+      - com.azure.storage.file.datalake.options
+      - com.azure.storage.file.datalake.sas
+      - com.azure.storage.file.datalake.specialized
       - com.azure.storage.file.datalake
       - com.azure.storage.file.datalake.models
       - com.azure.storage.file.datalake.options

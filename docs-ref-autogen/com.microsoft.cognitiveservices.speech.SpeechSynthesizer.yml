@@ -320,6 +320,20 @@ methods:
     type: "<xref href=\"com.microsoft.cognitiveservices.speech.PropertyCollection?alt=com.microsoft.cognitiveservices.speech.PropertyCollection&text=PropertyCollection\" data-throw-if-not-resolved=\"False\" />"
   syntax: "protected void setUpTokenRefreshCallback(PropertyCollection property)"
   desc: "Sets up a callback for the token refresh event."
+- uid: "com.microsoft.cognitiveservices.speech.SpeechSynthesizer.SpeakRequestAsync(com.microsoft.cognitiveservices.speech.SpeechSynthesisRequest)"
+  fullName: "com.microsoft.cognitiveservices.speech.SpeechSynthesizer.SpeakRequestAsync(SpeechSynthesisRequest request)"
+  name: "SpeakRequestAsync(SpeechSynthesisRequest request)"
+  nameWithType: "SpeechSynthesizer.SpeakRequestAsync(SpeechSynthesisRequest request)"
+  summary: "Execute the speech synthesis on request, asynchronously."
+  parameters:
+  - description: "The speech synthesis request."
+    name: "request"
+    type: "<xref href=\"com.microsoft.cognitiveservices.speech.SpeechSynthesisRequest?alt=com.microsoft.cognitiveservices.speech.SpeechSynthesisRequest&text=SpeechSynthesisRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Future<SpeechSynthesisResult> SpeakRequestAsync(SpeechSynthesisRequest request)"
+  desc: "Execute the speech synthesis on request, asynchronously. This API could be used to synthesize speech from an input text stream, to reduce latency for text generation scenarios. Note: the feature is in preview and is subject to change."
+  returns:
+    description: "A task representing the completed synthesis operation."
+    type: "<xref href=\"java.util.concurrent.Future?alt=java.util.concurrent.Future&text=Future\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.cognitiveservices.speech.SpeechSynthesisResult?alt=com.microsoft.cognitiveservices.speech.SpeechSynthesisResult&text=SpeechSynthesisResult\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.microsoft.cognitiveservices.speech.SpeechSynthesizer.SpeakSsml(java.lang.String)"
   fullName: "com.microsoft.cognitiveservices.speech.SpeechSynthesizer.SpeakSsml(String ssml)"
   name: "SpeakSsml(String ssml)"
@@ -375,6 +389,20 @@ methods:
   desc: "Execute the speech synthesis on plain text, asynchronously."
   returns:
     description: "A task representing the synthesis operation. The task returns a value of SpeechSynthesisResult."
+    type: "<xref href=\"java.util.concurrent.Future?alt=java.util.concurrent.Future&text=Future\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.cognitiveservices.speech.SpeechSynthesisResult?alt=com.microsoft.cognitiveservices.speech.SpeechSynthesisResult&text=SpeechSynthesisResult\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.cognitiveservices.speech.SpeechSynthesizer.StartSpeakingRequestAsync(com.microsoft.cognitiveservices.speech.SpeechSynthesisRequest)"
+  fullName: "com.microsoft.cognitiveservices.speech.SpeechSynthesizer.StartSpeakingRequestAsync(SpeechSynthesisRequest request)"
+  name: "StartSpeakingRequestAsync(SpeechSynthesisRequest request)"
+  nameWithType: "SpeechSynthesizer.StartSpeakingRequestAsync(SpeechSynthesisRequest request)"
+  summary: "Queue the speech synthesis on request, as an asynchronous operation."
+  parameters:
+  - description: "The speech synthesis request."
+    name: "request"
+    type: "<xref href=\"com.microsoft.cognitiveservices.speech.SpeechSynthesisRequest?alt=com.microsoft.cognitiveservices.speech.SpeechSynthesisRequest&text=SpeechSynthesisRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Future<SpeechSynthesisResult> StartSpeakingRequestAsync(SpeechSynthesisRequest request)"
+  desc: "Queue the speech synthesis on request, as an asynchronous operation. This API could be used to synthesize speech from an input text stream, to reduce latency for text generation scenarios. Note: the feature is in preview and is subject to change"
+  returns:
+    description: "A task representing the started synthesis operation."
     type: "<xref href=\"java.util.concurrent.Future?alt=java.util.concurrent.Future&text=Future\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.cognitiveservices.speech.SpeechSynthesisResult?alt=com.microsoft.cognitiveservices.speech.SpeechSynthesisResult&text=SpeechSynthesisResult\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.microsoft.cognitiveservices.speech.SpeechSynthesizer.StartSpeakingSsml(java.lang.String)"
   fullName: "com.microsoft.cognitiveservices.speech.SpeechSynthesizer.StartSpeakingSsml(String ssml)"
@@ -460,4 +488,4 @@ implements:
 - "<xref href=\"java.lang.AutoCloseable?alt=java.lang.AutoCloseable&text=AutoCloseable\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.microsoft.cognitiveservices.speech"
-artifact: com.microsoft.cognitiveservices.speech:client-sdk:1.47.0
+artifact: com.microsoft.cognitiveservices.speech:client-sdk:1.48.1

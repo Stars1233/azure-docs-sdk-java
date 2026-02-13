@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.network.models.UpdateAction"
+fullName: "com.azure.resourcemanager.network.models.UpdateAction"
+name: "UpdateAction"
+nameWithType: "UpdateAction"
+summary: "Specifies the type of update operation to perform on address locations within the service gateway."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **UpdateAction**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.UpdateAction?alt=com.azure.resourcemanager.network.models.UpdateAction&text=UpdateAction\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.network.models.UpdateAction.UpdateAction()"
+  fullName: "com.azure.resourcemanager.network.models.UpdateAction.UpdateAction()"
+  name: "UpdateAction()"
+  nameWithType: "UpdateAction.UpdateAction()"
+  summary: "Creates a new instance of Update<wbr>Action value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.network.models.UpdateAction.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public UpdateAction()"
+  desc: "Creates a new instance of UpdateAction value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.network.models.UpdateAction.FULL_UPDATE"
+  fullName: "com.azure.resourcemanager.network.models.UpdateAction.FULL_UPDATE"
+  name: "FULL_UPDATE"
+  nameWithType: "UpdateAction.FULL_UPDATE"
+  summary: "Static value Full<wbr>Update for Update<wbr>Action."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.network.models.UpdateAction?alt=com.azure.resourcemanager.network.models.UpdateAction&text=UpdateAction\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final UpdateAction FULL_UPDATE"
+  desc: "Static value FullUpdate for UpdateAction."
+- uid: "com.azure.resourcemanager.network.models.UpdateAction.PARTIAL_UPDATE"
+  fullName: "com.azure.resourcemanager.network.models.UpdateAction.PARTIAL_UPDATE"
+  name: "PARTIAL_UPDATE"
+  nameWithType: "UpdateAction.PARTIAL_UPDATE"
+  summary: "Static value Partial<wbr>Update for Update<wbr>Action."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.network.models.UpdateAction?alt=com.azure.resourcemanager.network.models.UpdateAction&text=UpdateAction\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final UpdateAction PARTIAL_UPDATE"
+  desc: "Static value PartialUpdate for UpdateAction."
+methods:
+- uid: "com.azure.resourcemanager.network.models.UpdateAction.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.network.models.UpdateAction.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "UpdateAction.fromString(String name)"
+  summary: "Creates or finds a Update<wbr>Action from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static UpdateAction fromString(String name)"
+  desc: "Creates or finds a UpdateAction from its string representation."
+  returns:
+    description: "the corresponding UpdateAction."
+    type: "<xref href=\"com.azure.resourcemanager.network.models.UpdateAction?alt=com.azure.resourcemanager.network.models.UpdateAction&text=UpdateAction\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.UpdateAction.values()"
+  fullName: "com.azure.resourcemanager.network.models.UpdateAction.values()"
+  name: "values()"
+  nameWithType: "UpdateAction.values()"
+  summary: "Gets known Update<wbr>Action values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<UpdateAction> values()"
+  desc: "Gets known UpdateAction values."
+  returns:
+    description: "known UpdateAction values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.UpdateAction?alt=com.azure.resourcemanager.network.models.UpdateAction&text=UpdateAction\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Specifies the type of update operation to perform on address locations within the service gateway. - FullUpdate: Replaces all existing address location data with the new list provided in the request. Any previously defined locations not included will be removed. - PartialUpdate: Updates only the specified address locations."
+metadata: {}
+package: "com.azure.resourcemanager.network.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.0

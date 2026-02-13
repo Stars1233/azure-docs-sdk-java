@@ -119,6 +119,16 @@ methods:
   returns:
     description: "the resourceGuid value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.network.fluent.models.NatGatewayPropertiesFormat.serviceGateway()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.NatGatewayPropertiesFormat.serviceGateway()"
+  name: "serviceGateway()"
+  nameWithType: "NatGatewayPropertiesFormat.serviceGateway()"
+  summary: "Get the service<wbr>Gateway property: Reference to an existing service gateway."
+  syntax: "public SubResource serviceGateway()"
+  desc: "Get the serviceGateway property: Reference to an existing service gateway."
+  returns:
+    description: "the serviceGateway value."
+    type: "<xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.NatGatewayPropertiesFormat.sourceVirtualNetwork()"
   fullName: "com.azure.resourcemanager.network.fluent.models.NatGatewayPropertiesFormat.sourceVirtualNetwork()"
   name: "sourceVirtualNetwork()"
@@ -228,6 +238,20 @@ methods:
   returns:
     description: "the NatGatewayPropertiesFormat object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NatGatewayPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.NatGatewayPropertiesFormat&text=NatGatewayPropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.models.NatGatewayPropertiesFormat.withServiceGateway(com.azure.core.management.SubResource)"
+  fullName: "com.azure.resourcemanager.network.fluent.models.NatGatewayPropertiesFormat.withServiceGateway(SubResource serviceGateway)"
+  name: "withServiceGateway(SubResource serviceGateway)"
+  nameWithType: "NatGatewayPropertiesFormat.withServiceGateway(SubResource serviceGateway)"
+  summary: "Set the service<wbr>Gateway property: Reference to an existing service gateway."
+  parameters:
+  - description: "the serviceGateway value to set."
+    name: "serviceGateway"
+    type: "<xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public NatGatewayPropertiesFormat withServiceGateway(SubResource serviceGateway)"
+  desc: "Set the serviceGateway property: Reference to an existing service gateway."
+  returns:
+    description: "the NatGatewayPropertiesFormat object itself."
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NatGatewayPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.NatGatewayPropertiesFormat&text=NatGatewayPropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.NatGatewayPropertiesFormat.withSourceVirtualNetwork(com.azure.core.management.SubResource)"
   fullName: "com.azure.resourcemanager.network.fluent.models.NatGatewayPropertiesFormat.withSourceVirtualNetwork(SubResource sourceVirtualNetwork)"
   name: "withSourceVirtualNetwork(SubResource sourceVirtualNetwork)"
@@ -248,4 +272,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.NatGatewayPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.NatGatewayPropertiesFormat&text=NatGatewayPropertiesFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.57.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.0

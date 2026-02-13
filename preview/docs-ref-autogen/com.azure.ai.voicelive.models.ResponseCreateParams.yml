@@ -89,6 +89,16 @@ methods:
   returns:
     description: "the maxOutputTokens value."
     type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.voicelive.models.ResponseCreateParams.getMetadata()"
+  fullName: "com.azure.ai.voicelive.models.ResponseCreateParams.getMetadata()"
+  name: "getMetadata()"
+  nameWithType: "ResponseCreateParams.getMetadata()"
+  summary: "Get the metadata property: Set of up to 16 key-value pairs that can be attached to an object."
+  syntax: "public Map<String,String> getMetadata()"
+  desc: "Get the metadata property: Set of up to 16 key-value pairs that can be attached to an object. This can be useful for storing additional information about the object in a structured format. Keys can be a maximum of 64 characters long and values can be a maximum of 512 characters long."
+  returns:
+    description: "the metadata value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.ai.voicelive.models.ResponseCreateParams.getModalities()"
   fullName: "com.azure.ai.voicelive.models.ResponseCreateParams.getModalities()"
   name: "getModalities()"
@@ -119,6 +129,16 @@ methods:
   returns:
     description: "the preGeneratedAssistantMessage value."
     type: "<xref href=\"com.azure.ai.voicelive.models.AssistantMessageItem?alt=com.azure.ai.voicelive.models.AssistantMessageItem&text=AssistantMessageItem\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.voicelive.models.ResponseCreateParams.getReasoningEffort()"
+  fullName: "com.azure.ai.voicelive.models.ResponseCreateParams.getReasoningEffort()"
+  name: "getReasoningEffort()"
+  nameWithType: "ResponseCreateParams.getReasoningEffort()"
+  summary: "Get the reasoning<wbr>Effort property: Constrains effort on reasoning for reasoning models."
+  syntax: "public ReasoningEffort getReasoningEffort()"
+  desc: "Get the reasoningEffort property: Constrains effort on reasoning for reasoning models. Check model documentation for supported values for each model. Reducing reasoning effort can result in faster responses and fewer tokens used on reasoning in a response."
+  returns:
+    description: "the reasoningEffort value."
+    type: "<xref href=\"com.azure.ai.voicelive.models.ReasoningEffort?alt=com.azure.ai.voicelive.models.ReasoningEffort&text=ReasoningEffort\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.voicelive.models.ResponseCreateParams.getTemperature()"
   fullName: "com.azure.ai.voicelive.models.ResponseCreateParams.getTemperature()"
   name: "getTemperature()"
@@ -263,6 +283,20 @@ methods:
   returns:
     description: "the ResponseCreateParams object itself."
     type: "<xref href=\"com.azure.ai.voicelive.models.ResponseCreateParams?alt=com.azure.ai.voicelive.models.ResponseCreateParams&text=ResponseCreateParams\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.voicelive.models.ResponseCreateParams.setMetadata(java.util.Map<java.lang.String,java.lang.String>)"
+  fullName: "com.azure.ai.voicelive.models.ResponseCreateParams.setMetadata(Map<String,String> metadata)"
+  name: "setMetadata(Map<String,String> metadata)"
+  nameWithType: "ResponseCreateParams.setMetadata(Map<String,String> metadata)"
+  summary: "Set the metadata property: Set of up to 16 key-value pairs that can be attached to an object."
+  parameters:
+  - description: "the metadata value to set."
+    name: "metadata"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public ResponseCreateParams setMetadata(Map<String,String> metadata)"
+  desc: "Set the metadata property: Set of up to 16 key-value pairs that can be attached to an object. This can be useful for storing additional information about the object in a structured format. Keys can be a maximum of 64 characters long and values can be a maximum of 512 characters long."
+  returns:
+    description: "the ResponseCreateParams object itself."
+    type: "<xref href=\"com.azure.ai.voicelive.models.ResponseCreateParams?alt=com.azure.ai.voicelive.models.ResponseCreateParams&text=ResponseCreateParams\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.voicelive.models.ResponseCreateParams.setModalities(java.util.List<com.azure.ai.voicelive.models.InteractionModality>)"
   fullName: "com.azure.ai.voicelive.models.ResponseCreateParams.setModalities(List<InteractionModality> modalities)"
   name: "setModalities(List<InteractionModality> modalities)"
@@ -302,6 +336,20 @@ methods:
     type: "<xref href=\"com.azure.ai.voicelive.models.AssistantMessageItem?alt=com.azure.ai.voicelive.models.AssistantMessageItem&text=AssistantMessageItem\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ResponseCreateParams setPreGeneratedAssistantMessage(AssistantMessageItem preGeneratedAssistantMessage)"
   desc: "Set the preGeneratedAssistantMessage property: Create the response with pre-generated assistant message. The message item would be added into the conversation history and returned with synthesized audio output in the created response."
+  returns:
+    description: "the ResponseCreateParams object itself."
+    type: "<xref href=\"com.azure.ai.voicelive.models.ResponseCreateParams?alt=com.azure.ai.voicelive.models.ResponseCreateParams&text=ResponseCreateParams\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.voicelive.models.ResponseCreateParams.setReasoningEffort(com.azure.ai.voicelive.models.ReasoningEffort)"
+  fullName: "com.azure.ai.voicelive.models.ResponseCreateParams.setReasoningEffort(ReasoningEffort reasoningEffort)"
+  name: "setReasoningEffort(ReasoningEffort reasoningEffort)"
+  nameWithType: "ResponseCreateParams.setReasoningEffort(ReasoningEffort reasoningEffort)"
+  summary: "Set the reasoning<wbr>Effort property: Constrains effort on reasoning for reasoning models."
+  parameters:
+  - description: "the reasoningEffort value to set."
+    name: "reasoningEffort"
+    type: "<xref href=\"com.azure.ai.voicelive.models.ReasoningEffort?alt=com.azure.ai.voicelive.models.ReasoningEffort&text=ReasoningEffort\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ResponseCreateParams setReasoningEffort(ReasoningEffort reasoningEffort)"
+  desc: "Set the reasoningEffort property: Constrains effort on reasoning for reasoning models. Check model documentation for supported values for each model. Reducing reasoning effort can result in faster responses and fewer tokens used on reasoning in a response."
   returns:
     description: "the ResponseCreateParams object itself."
     type: "<xref href=\"com.azure.ai.voicelive.models.ResponseCreateParams?alt=com.azure.ai.voicelive.models.ResponseCreateParams&text=ResponseCreateParams\" data-throw-if-not-resolved=\"False\" />"
@@ -379,4 +427,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.voicelive.models.ResponseCreateParams?alt=com.azure.ai.voicelive.models.ResponseCreateParams&text=ResponseCreateParams\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.voicelive.models"
-artifact: com.azure:azure-ai-voicelive:1.0.0-beta.3
+artifact: com.azure:azure-ai-voicelive:1.0.0-beta.4

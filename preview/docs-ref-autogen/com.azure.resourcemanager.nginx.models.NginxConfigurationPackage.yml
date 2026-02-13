@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.nginx.models.NginxConfigurationPackage"
 fullName: "com.azure.resourcemanager.nginx.models.NginxConfigurationPackage"
 name: "NginxConfigurationPackage"
 nameWithType: "NginxConfigurationPackage"
-summary: "The Nginx<wbr>Configuration<wbr>Package model."
+summary: "Nginx Configuration Package."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -81,13 +81,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.nginx.models.NginxConfigurationPackage.validate()"
-  fullName: "com.azure.resourcemanager.nginx.models.NginxConfigurationPackage.validate()"
-  name: "validate()"
-  nameWithType: "NginxConfigurationPackage.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.nginx.models.NginxConfigurationPackage.withData(java.lang.String)"
   fullName: "com.azure.resourcemanager.nginx.models.NginxConfigurationPackage.withData(String data)"
   name: "withData(String data)"
@@ -117,9 +110,9 @@ methods:
     description: "the NginxConfigurationPackage object itself."
     type: "<xref href=\"com.azure.resourcemanager.nginx.models.NginxConfigurationPackage?alt=com.azure.resourcemanager.nginx.models.NginxConfigurationPackage&text=NginxConfigurationPackage\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The NginxConfigurationPackage model."
+desc: "Nginx Configuration Package."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.nginx.models.NginxConfigurationPackage?alt=com.azure.resourcemanager.nginx.models.NginxConfigurationPackage&text=NginxConfigurationPackage\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.nginx.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-nginx:1.1.0-beta.4

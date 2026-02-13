@@ -79,6 +79,16 @@ methods:
   returns:
     description: "the avatar value."
     type: "<xref href=\"com.azure.ai.voicelive.models.AvatarConfiguration?alt=com.azure.ai.voicelive.models.AvatarConfiguration&text=AvatarConfiguration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.voicelive.models.VoiceLiveSessionResponse.getFillerResponse()"
+  fullName: "com.azure.ai.voicelive.models.VoiceLiveSessionResponse.getFillerResponse()"
+  name: "getFillerResponse()"
+  nameWithType: "VoiceLiveSessionResponse.getFillerResponse()"
+  summary: "Get the filler<wbr>Response property: Configuration for filler response generation during latency or tool calls."
+  syntax: "public BinaryData getFillerResponse()"
+  desc: "Get the fillerResponse property: Configuration for filler response generation during latency or tool calls."
+  returns:
+    description: "the fillerResponse value."
+    type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.voicelive.models.VoiceLiveSessionResponse.getId()"
   fullName: "com.azure.ai.voicelive.models.VoiceLiveSessionResponse.getId()"
   name: "getId()"
@@ -199,6 +209,16 @@ methods:
   returns:
     description: "the outputAudioTimestampTypes value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.voicelive.models.AudioTimestampType?alt=com.azure.ai.voicelive.models.AudioTimestampType&text=AudioTimestampType\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.ai.voicelive.models.VoiceLiveSessionResponse.getReasoningEffort()"
+  fullName: "com.azure.ai.voicelive.models.VoiceLiveSessionResponse.getReasoningEffort()"
+  name: "getReasoningEffort()"
+  nameWithType: "VoiceLiveSessionResponse.getReasoningEffort()"
+  summary: "Get the reasoning<wbr>Effort property: Constrains effort on reasoning for reasoning models."
+  syntax: "public ReasoningEffort getReasoningEffort()"
+  desc: "Get the reasoningEffort property: Constrains effort on reasoning for reasoning models. Check model documentation for supported values for each model. Reducing reasoning effort can result in faster responses and fewer tokens used on reasoning in a response."
+  returns:
+    description: "the reasoningEffort value."
+    type: "<xref href=\"com.azure.ai.voicelive.models.ReasoningEffort?alt=com.azure.ai.voicelive.models.ReasoningEffort&text=ReasoningEffort\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.voicelive.models.VoiceLiveSessionResponse.getTemperature()"
   fullName: "com.azure.ai.voicelive.models.VoiceLiveSessionResponse.getTemperature()"
   name: "getTemperature()"
@@ -288,6 +308,20 @@ methods:
     type: "<xref href=\"com.azure.ai.voicelive.models.AvatarConfiguration?alt=com.azure.ai.voicelive.models.AvatarConfiguration&text=AvatarConfiguration\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public VoiceLiveSessionResponse setAvatar(AvatarConfiguration avatar)"
   desc: "Set the avatar property: Configuration for avatar streaming and behavior during the session."
+  returns:
+    description: "the VoiceLiveSessionResponse object itself."
+    type: "<xref href=\"com.azure.ai.voicelive.models.VoiceLiveSessionResponse?alt=com.azure.ai.voicelive.models.VoiceLiveSessionResponse&text=VoiceLiveSessionResponse\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.voicelive.models.VoiceLiveSessionResponse.setFillerResponse(com.azure.core.util.BinaryData)"
+  fullName: "com.azure.ai.voicelive.models.VoiceLiveSessionResponse.setFillerResponse(BinaryData fillerResponse)"
+  name: "setFillerResponse(BinaryData fillerResponse)"
+  nameWithType: "VoiceLiveSessionResponse.setFillerResponse(BinaryData fillerResponse)"
+  summary: "Set the filler<wbr>Response property: Configuration for filler response generation during latency or tool calls."
+  parameters:
+  - description: "the fillerResponse value to set."
+    name: "fillerResponse"
+    type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public VoiceLiveSessionResponse setFillerResponse(BinaryData fillerResponse)"
+  desc: "Set the fillerResponse property: Configuration for filler response generation during latency or tool calls."
   returns:
     description: "the VoiceLiveSessionResponse object itself."
     type: "<xref href=\"com.azure.ai.voicelive.models.VoiceLiveSessionResponse?alt=com.azure.ai.voicelive.models.VoiceLiveSessionResponse&text=VoiceLiveSessionResponse\" data-throw-if-not-resolved=\"False\" />"
@@ -459,6 +493,20 @@ methods:
   returns:
     description: "the VoiceLiveSessionResponse object itself."
     type: "<xref href=\"com.azure.ai.voicelive.models.VoiceLiveSessionResponse?alt=com.azure.ai.voicelive.models.VoiceLiveSessionResponse&text=VoiceLiveSessionResponse\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.voicelive.models.VoiceLiveSessionResponse.setReasoningEffort(com.azure.ai.voicelive.models.ReasoningEffort)"
+  fullName: "com.azure.ai.voicelive.models.VoiceLiveSessionResponse.setReasoningEffort(ReasoningEffort reasoningEffort)"
+  name: "setReasoningEffort(ReasoningEffort reasoningEffort)"
+  nameWithType: "VoiceLiveSessionResponse.setReasoningEffort(ReasoningEffort reasoningEffort)"
+  summary: "Set the reasoning<wbr>Effort property: Constrains effort on reasoning for reasoning models."
+  parameters:
+  - description: "the reasoningEffort value to set."
+    name: "reasoningEffort"
+    type: "<xref href=\"com.azure.ai.voicelive.models.ReasoningEffort?alt=com.azure.ai.voicelive.models.ReasoningEffort&text=ReasoningEffort\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public VoiceLiveSessionResponse setReasoningEffort(ReasoningEffort reasoningEffort)"
+  desc: "Set the reasoningEffort property: Constrains effort on reasoning for reasoning models. Check model documentation for supported values for each model. Reducing reasoning effort can result in faster responses and fewer tokens used on reasoning in a response."
+  returns:
+    description: "the VoiceLiveSessionResponse object itself."
+    type: "<xref href=\"com.azure.ai.voicelive.models.VoiceLiveSessionResponse?alt=com.azure.ai.voicelive.models.VoiceLiveSessionResponse&text=VoiceLiveSessionResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.voicelive.models.VoiceLiveSessionResponse.setTemperature(java.lang.Double)"
   fullName: "com.azure.ai.voicelive.models.VoiceLiveSessionResponse.setTemperature(Double temperature)"
   name: "setTemperature(Double temperature)"
@@ -547,4 +595,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.voicelive.models.VoiceLiveSessionResponse?alt=com.azure.ai.voicelive.models.VoiceLiveSessionResponse&text=VoiceLiveSessionResponse\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.voicelive.models"
-artifact: com.azure:azure-ai-voicelive:1.0.0-beta.3
+artifact: com.azure:azure-ai-voicelive:1.0.0-beta.4

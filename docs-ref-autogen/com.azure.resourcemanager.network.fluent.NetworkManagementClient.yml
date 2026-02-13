@@ -2294,6 +2294,18 @@ methods:
   returns:
     description: "the ServiceEndpointPolicyDefinitionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.ServiceEndpointPolicyDefinitionsClient?alt=com.azure.resourcemanager.network.fluent.ServiceEndpointPolicyDefinitionsClient&text=ServiceEndpointPolicyDefinitionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getServiceGateways()"
+  fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getServiceGateways()"
+  name: "getServiceGateways()"
+  nameWithType: "NetworkManagementClient.getServiceGateways()"
+  summary: "Gets the Service<wbr>Gateways<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ServiceGatewaysClient getServiceGateways()"
+  desc: "Gets the ServiceGatewaysClient object to access its operations."
+  returns:
+    description: "the ServiceGatewaysClient object."
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.ServiceGatewaysClient?alt=com.azure.resourcemanager.network.fluent.ServiceGatewaysClient&text=ServiceGatewaysClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getServiceTagInformations()"
   fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getServiceTagInformations()"
   name: "getServiceTagInformations()"
@@ -2486,6 +2498,18 @@ methods:
   returns:
     description: "the VirtualHubsClient object."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.VirtualHubsClient?alt=com.azure.resourcemanager.network.fluent.VirtualHubsClient&text=VirtualHubsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getVirtualNetworkAppliances()"
+  fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getVirtualNetworkAppliances()"
+  name: "getVirtualNetworkAppliances()"
+  nameWithType: "NetworkManagementClient.getVirtualNetworkAppliances()"
+  summary: "Gets the Virtual<wbr>Network<wbr>Appliances<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VirtualNetworkAppliancesClient getVirtualNetworkAppliances()"
+  desc: "Gets the VirtualNetworkAppliancesClient object to access its operations."
+  returns:
+    description: "the VirtualNetworkAppliancesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.VirtualNetworkAppliancesClient?alt=com.azure.resourcemanager.network.fluent.VirtualNetworkAppliancesClient&text=VirtualNetworkAppliancesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getVirtualNetworkGatewayConnections()"
   fullName: "com.azure.resourcemanager.network.fluent.NetworkManagementClient.getVirtualNetworkGatewayConnections()"
   name: "getVirtualNetworkGatewayConnections()"
@@ -3266,4 +3290,4 @@ type: "interface"
 desc: "The interface for NetworkManagementClient class."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.57.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.0

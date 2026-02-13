@@ -15,19 +15,6 @@
         - com.azure.resourcemanager.advisor.fluent
         - com.azure.resourcemanager.advisor.fluent.models
         - com.azure.resourcemanager.advisor.models
-  - name: AgriFood
-    href: ~/docs-ref-services/preview/agrifood.md
-    landingPageType: Service
-    items:
-    - name: Management
-      items:
-      - name: Resource Management - AgriFood
-        href: ~/docs-ref-services/preview/resourcemanager-agrifood-readme.md
-        children:
-        - com.azure.resourcemanager.agrifood
-        - com.azure.resourcemanager.agrifood.fluent
-        - com.azure.resourcemanager.agrifood.fluent.models
-        - com.azure.resourcemanager.agrifood.models
   - name: Alerts Management
     href: ~/docs-ref-services/preview/alerts-management.md
     landingPageType: Service
@@ -1331,14 +1318,6 @@
         - com.azure.resourcemanager.fabric.fluent
         - com.azure.resourcemanager.fabric.fluent.models
         - com.azure.resourcemanager.fabric.models
-  - name: FarmBeats
-    href: ~/docs-ref-services/preview/farmbeats.md
-    landingPageType: Service
-    items:
-    - name: FarmBeats
-      href: ~/docs-ref-services/preview/verticals-agrifood-farming-readme.md
-      children:
-      - com.azure.verticals.agrifood.farming
   - name: Front Door
     href: ~/docs-ref-services/preview/front-door.md
     landingPageType: Service
@@ -2048,13 +2027,13 @@
     items:
     - name: Management
       items:
-      - name: Resource Management - Mixed Reality
-        href: ~/docs-ref-services/preview/resourcemanager-mixedreality-readme.md
+      - name: Resource Management - Mixed Reality (deprecated)
         children:
         - com.azure.resourcemanager.mixedreality
         - com.azure.resourcemanager.mixedreality.fluent
         - com.azure.resourcemanager.mixedreality.fluent.models
         - com.azure.resourcemanager.mixedreality.models
+        landingPageType: Service
   - name: Mobile Network
     href: ~/docs-ref-services/preview/mobile-network.md
     landingPageType: Service
@@ -2924,6 +2903,11 @@
       - com.azure.storage.blob.options
       - com.azure.storage.blob.sas
       - com.azure.storage.blob.specialized
+      - com.azure.storage.blob
+      - com.azure.storage.blob.models
+      - com.azure.storage.blob.options
+      - com.azure.storage.blob.sas
+      - com.azure.storage.blob.specialized
     - name: Storage - Blobs Batch
       href: ~/docs-ref-services/preview/storage-blob-batch-readme.md
       children:
@@ -2945,6 +2929,11 @@
     - name: Storage - Files Data Lake
       href: ~/docs-ref-services/preview/storage-file-datalake-readme.md
       children:
+      - com.azure.storage.file.datalake
+      - com.azure.storage.file.datalake.models
+      - com.azure.storage.file.datalake.options
+      - com.azure.storage.file.datalake.sas
+      - com.azure.storage.file.datalake.specialized
       - com.azure.storage.file.datalake
       - com.azure.storage.file.datalake.models
       - com.azure.storage.file.datalake.options
@@ -3166,6 +3155,22 @@
       children:
       - com.azure.analytics.onlineexperimentation
       - com.azure.analytics.onlineexperimentation.models
+    - name: Management
+      items:
+      - name: unknown
+        href: ~/docs-ref-services/preview/resourcemanager-disconnectedoperations-readme.md
+        children:
+        - com.azure.resourcemanager.disconnectedoperations
+        - com.azure.resourcemanager.disconnectedoperations.fluent
+        - com.azure.resourcemanager.disconnectedoperations.fluent.models
+        - com.azure.resourcemanager.disconnectedoperations.models
+      - name: unknown
+        href: ~/docs-ref-services/preview/resourcemanager-edgeactions-readme.md
+        children:
+        - com.azure.resourcemanager.edgeactions
+        - com.azure.resourcemanager.edgeactions.fluent
+        - com.azure.resourcemanager.edgeactions.fluent.models
+        - com.azure.resourcemanager.edgeactions.models
   - name: VMware Solution by CloudSimple
     href: ~/docs-ref-services/preview/vmware-solution-by-cloudsimple.md
     landingPageType: Service
