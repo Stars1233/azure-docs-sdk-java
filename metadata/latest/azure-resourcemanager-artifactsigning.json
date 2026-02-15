@@ -1,0 +1,35 @@
+{
+  "Name": "azure-resourcemanager-artifactsigning",
+  "Version": "1.0.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/artifactsigning/azure-resourcemanager-artifactsigning",
+  "ServiceDirectory": "artifactsigning",
+  "ReadMePath": "sdk/artifactsigning/azure-resourcemanager-artifactsigning/README.md",
+  "ChangeLogPath": "sdk/artifactsigning/azure-resourcemanager-artifactsigning/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-artifactsigning",
+  "ReleaseStatus": "2026-02-11",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-resourcemanager-artifactsigning",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagerartifactsigning }}",
+    "safeName": "azureresourcemanagerartifactsigning",
+    "triggeringPaths": [
+      "/sdk/artifactsigning/ci.yml"
+    ],
+    "groupId": "com.azure.resourcemanager"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/codesigning/CodeSigning.Management",
+  "Namespaces": [
+    "com.azure.resourcemanager.artifactsigning",
+    "com.azure.resourcemanager.artifactsigning.fluent",
+    "com.azure.resourcemanager.artifactsigning.fluent.models",
+    "com.azure.resourcemanager.artifactsigning.models"
+  ]
+}
