@@ -1,0 +1,35 @@
+{
+  "Name": "azure-resourcemanager-managedops",
+  "Version": "1.0.0-beta.1",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/managedops/azure-resourcemanager-managedops",
+  "ServiceDirectory": "managedops",
+  "ReadMePath": "sdk/managedops/azure-resourcemanager-managedops/README.md",
+  "ChangeLogPath": "sdk/managedops/azure-resourcemanager-managedops/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-managedops",
+  "ReleaseStatus": "2026-02-13",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "groupId": "com.azure.resourcemanager",
+    "name": "azure-resourcemanager-managedops",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagermanagedops }}",
+    "safeName": "azureresourcemanagermanagedops",
+    "triggeringPaths": [
+      "/sdk/managedops/ci.yml"
+    ]
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/managedoperations/ManagedOps.Management",
+  "Namespaces": [
+    "com.azure.resourcemanager.managedops",
+    "com.azure.resourcemanager.managedops.fluent",
+    "com.azure.resourcemanager.managedops.fluent.models",
+    "com.azure.resourcemanager.managedops.models"
+  ]
+}
