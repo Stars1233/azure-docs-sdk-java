@@ -1,12 +1,12 @@
 ---
 title: Azure VoiceLive client library for Java
 keywords: Azure, java, SDK, API, azure-ai-voicelive, ai
-ms.date: 02/10/2026
+ms.date: 02/18/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: ai
 ---
-# Azure VoiceLive client library for Java - version 1.0.0-beta.4 
+# Azure VoiceLive client library for Java - version 1.0.0-beta.5 
 
 
 The Azure VoiceLive client library for Java enables real-time, bidirectional voice conversations with AI assistants. Built on WebSocket technology, it provides low-latency audio streaming with support for voice activity detection, interruption handling, and flexible authentication.
@@ -532,5 +532,5 @@ For details on contributing to this repository, see the [contributing guide][con
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
 [azure_subscription]: https://azure.microsoft.com/free/
-[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-voicelive_1.0.0-beta.4/sdk/identity/azure-identity
+[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-voicelive_1.0.0-beta.5/sdk/identity/azure-identity
 
