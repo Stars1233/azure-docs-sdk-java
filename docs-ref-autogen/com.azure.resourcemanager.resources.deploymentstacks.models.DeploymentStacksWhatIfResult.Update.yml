@@ -1,0 +1,44 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult.Update"
+fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult.Update"
+name: "DeploymentStacksWhatIfResult.Update"
+nameWithType: "DeploymentStacksWhatIfResult.Update"
+summary: "The template for Deployment<wbr>Stacks<wbr>What<wbr>IfResult update."
+syntax: "public static interface **DeploymentStacksWhatIfResult.Update**</br> extends <xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult.UpdateStages.WithTags?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult.UpdateStages.WithTags&text=WithTags\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult.UpdateStages.WithProperties?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult.UpdateStages.WithProperties&text=WithProperties\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult.Update.apply()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult.Update.apply()"
+  name: "apply()"
+  nameWithType: "DeploymentStacksWhatIfResult.Update.apply()"
+  summary: "Executes the update request."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract DeploymentStacksWhatIfResult apply()"
+  desc: "Executes the update request."
+  returns:
+    description: "the updated resource."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult&text=DeploymentStacksWhatIfResult\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult.Update.apply(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult.Update.apply(Context context)"
+  name: "apply(Context context)"
+  nameWithType: "DeploymentStacksWhatIfResult.Update.apply(Context context)"
+  summary: "Executes the update request."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract DeploymentStacksWhatIfResult apply(Context context)"
+  desc: "Executes the update request."
+  returns:
+    description: "the updated resource."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult&text=DeploymentStacksWhatIfResult\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The template for DeploymentStacksWhatIfResult update."
+implements:
+- "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult.UpdateStages.WithProperties?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult.UpdateStages.WithProperties&text=WithProperties\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult.UpdateStages.WithTags?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult.UpdateStages.WithTags&text=WithTags\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.resources.deploymentstacks.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deploymentstacks:1.1.0

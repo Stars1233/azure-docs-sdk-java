@@ -1,0 +1,92 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeDeltaRecord"
+fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeDeltaRecord"
+name: "DeploymentStacksChangeDeltaRecord"
+nameWithType: "DeploymentStacksChangeDeltaRecord"
+summary: "Model to show the before-and-after property values, along with the delta between them."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DeploymentStacksChangeDeltaRecord**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeDeltaRecord?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeDeltaRecord&text=DeploymentStacksChangeDeltaRecord\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeDeltaRecord.after()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeDeltaRecord.after()"
+  name: "after()"
+  nameWithType: "DeploymentStacksChangeDeltaRecord.after()"
+  summary: "Get the after property: The predicted value after the deployment is executed."
+  syntax: "public Map<String,Object> after()"
+  desc: "Get the after property: The predicted value after the deployment is executed."
+  returns:
+    description: "the after value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>&gt;"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeDeltaRecord.before()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeDeltaRecord.before()"
+  name: "before()"
+  nameWithType: "DeploymentStacksChangeDeltaRecord.before()"
+  summary: "Get the before property: The predicted value before the deployment is executed."
+  syntax: "public Map<String,Object> before()"
+  desc: "Get the before property: The predicted value before the deployment is executed."
+  returns:
+    description: "the before value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>&gt;"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeDeltaRecord.delta()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeDeltaRecord.delta()"
+  name: "delta()"
+  nameWithType: "DeploymentStacksChangeDeltaRecord.delta()"
+  summary: "Get the delta property: The predicted changes to the properties.\"."
+  syntax: "public List<DeploymentStacksWhatIfPropertyChange> delta()"
+  desc: "Get the delta property: The predicted changes to the properties.\"."
+  returns:
+    description: "the delta value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfPropertyChange?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfPropertyChange&text=DeploymentStacksWhatIfPropertyChange\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeDeltaRecord.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeDeltaRecord.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "DeploymentStacksChangeDeltaRecord.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Deployment<wbr>Stacks<wbr>Change<wbr>Delta<wbr>Record from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static DeploymentStacksChangeDeltaRecord fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the DeploymentStacksChangeDeltaRecord."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of DeploymentStacksChangeDeltaRecord from the JsonReader."
+  returns:
+    description: "An instance of DeploymentStacksChangeDeltaRecord if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeDeltaRecord?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeDeltaRecord&text=DeploymentStacksChangeDeltaRecord\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeDeltaRecord.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeDeltaRecord.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "DeploymentStacksChangeDeltaRecord.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Model to show the before-and-after property values, along with the delta between them."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeDeltaRecord?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeDeltaRecord&text=DeploymentStacksChangeDeltaRecord\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resources.deploymentstacks.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deploymentstacks:1.1.0

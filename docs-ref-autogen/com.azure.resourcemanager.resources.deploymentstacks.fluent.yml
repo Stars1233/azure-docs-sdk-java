@@ -6,7 +6,10 @@ summary: "Package containing the service clients for Deployment<wbr>Stacks<wbr>M
 interfaces:
 - "com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksClient"
 - "com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksManagementClient"
-desc: "Package containing the service clients for DeploymentStacksManagementClient. DeploymentStacks Client."
+- "com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksWhatIfResultsAtManagementGroupsClient"
+- "com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksWhatIfResultsAtResourceGroupsClient"
+- "com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksWhatIfResultsAtSubscriptionsClient"
+desc: "Package containing the service clients for DeploymentStacksManagementClient."
 metadata: {}
 package: "com.azure.resourcemanager.resources.deploymentstacks.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deploymentstacks:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deploymentstacks:1.1.0

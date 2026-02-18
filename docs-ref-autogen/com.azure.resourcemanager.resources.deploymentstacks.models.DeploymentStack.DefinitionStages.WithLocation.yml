@@ -14,7 +14,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location of the Deployment stack. It cannot be changed after creation. It must be one\n of the supported Azure locations."
+  - description: "The geo-location where the resource lives. Required for subscription and management group\n scoped stacks. The location is inherited from the resource group for resource group scoped stacks."
     name: "location"
     type: "<xref href=\"com.azure.core.management.Region?alt=com.azure.core.management.Region&text=Region\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract DeploymentStack.DefinitionStages.WithCreate withRegion(Region location)"
@@ -30,7 +30,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location of the Deployment stack. It cannot be changed after creation. It must be one\n of the supported Azure locations."
+  - description: "The geo-location where the resource lives. Required for subscription and management group\n scoped stacks. The location is inherited from the resource group for resource group scoped stacks."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract DeploymentStack.DefinitionStages.WithCreate withRegion(String location)"
@@ -42,4 +42,4 @@ type: "interface"
 desc: "The stage of the DeploymentStack definition allowing to specify location."
 metadata: {}
 package: "com.azure.resourcemanager.resources.deploymentstacks.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deploymentstacks:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deploymentstacks:1.1.0

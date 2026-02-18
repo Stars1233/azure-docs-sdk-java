@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult.UpdateStages.WithProperties"
+fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult.UpdateStages.WithProperties"
+name: "DeploymentStacksWhatIfResult.UpdateStages.WithProperties"
+nameWithType: "DeploymentStacksWhatIfResult.UpdateStages.WithProperties"
+summary: "The stage of the Deployment<wbr>Stacks<wbr>What<wbr>IfResult update allowing to specify properties."
+syntax: "public static interface **DeploymentStacksWhatIfResult.UpdateStages.WithProperties**"
+methods:
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult.UpdateStages.WithProperties.withProperties(com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResultProperties)"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult.UpdateStages.WithProperties.withProperties(DeploymentStacksWhatIfResultProperties properties)"
+  name: "withProperties(DeploymentStacksWhatIfResultProperties properties)"
+  nameWithType: "DeploymentStacksWhatIfResult.UpdateStages.WithProperties.withProperties(DeploymentStacksWhatIfResultProperties properties)"
+  summary: "Specifies the properties property: The resource-specific properties for this resource.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The resource-specific properties for this resource."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResultProperties?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResultProperties&text=DeploymentStacksWhatIfResultProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract DeploymentStacksWhatIfResult.Update withProperties(DeploymentStacksWhatIfResultProperties properties)"
+  desc: "Specifies the properties property: The resource-specific properties for this resource.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult.Update?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResult.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the DeploymentStacksWhatIfResult update allowing to specify properties."
+metadata: {}
+package: "com.azure.resourcemanager.resources.deploymentstacks.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deploymentstacks:1.1.0

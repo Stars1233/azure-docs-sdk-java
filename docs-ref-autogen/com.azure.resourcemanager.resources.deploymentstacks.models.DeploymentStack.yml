@@ -10,11 +10,11 @@ methods:
   fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStack.exportTemplateAtResourceGroup()"
   name: "exportTemplateAtResourceGroup()"
   nameWithType: "DeploymentStack.exportTemplateAtResourceGroup()"
-  summary: "Exports the template used to create the Deployment stack at Resource Group scope."
+  summary: "Exports the template used to create the Deployment stack at the specified scope."
   modifiers:
   - "abstract"
   syntax: "public abstract DeploymentStackTemplateDefinition exportTemplateAtResourceGroup()"
-  desc: "Exports the template used to create the Deployment stack at Resource Group scope."
+  desc: "Exports the template used to create the Deployment stack at the specified scope."
   returns:
     description: "export Template specific properties of the Deployment stack."
     type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStackTemplateDefinition?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStackTemplateDefinition&text=DeploymentStackTemplateDefinition\" data-throw-if-not-resolved=\"False\" />"
@@ -22,7 +22,7 @@ methods:
   fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStack.exportTemplateAtResourceGroupWithResponse(Context context)"
   name: "exportTemplateAtResourceGroupWithResponse(Context context)"
   nameWithType: "DeploymentStack.exportTemplateAtResourceGroupWithResponse(Context context)"
-  summary: "Exports the template used to create the Deployment stack at Resource Group scope."
+  summary: "Exports the template used to create the Deployment stack at the specified scope."
   modifiers:
   - "abstract"
   parameters:
@@ -30,7 +30,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<DeploymentStackTemplateDefinition> exportTemplateAtResourceGroupWithResponse(Context context)"
-  desc: "Exports the template used to create the Deployment stack at Resource Group scope."
+  desc: "Exports the template used to create the Deployment stack at the specified scope."
   returns:
     description: "export Template specific properties of the Deployment stack along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStackTemplateDefinition?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStackTemplateDefinition&text=DeploymentStackTemplateDefinition\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -62,11 +62,11 @@ methods:
   fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStack.location()"
   name: "location()"
   nameWithType: "DeploymentStack.location()"
-  summary: "Gets the location property: The location of the Deployment stack."
+  summary: "Gets the location property: The geo-location where the resource lives."
   modifiers:
   - "abstract"
   syntax: "public abstract String location()"
-  desc: "Gets the location property: The location of the Deployment stack. It cannot be changed after creation. It must be one of the supported Azure locations."
+  desc: "Gets the location property: The geo-location where the resource lives. Required for subscription and management group scoped stacks. The location is inherited from the resource group for resource group scoped stacks."
   returns:
     description: "the location value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -174,11 +174,11 @@ methods:
   fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStack.tags()"
   name: "tags()"
   nameWithType: "DeploymentStack.tags()"
-  summary: "Gets the tags property: Deployment stack resource tags."
+  summary: "Gets the tags property: Resource tags."
   modifiers:
   - "abstract"
   syntax: "public abstract Map<String,String> tags()"
-  desc: "Gets the tags property: Deployment stack resource tags."
+  desc: "Gets the tags property: Resource tags."
   returns:
     description: "the tags value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
@@ -210,39 +210,39 @@ methods:
   fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStack.validateStackAtResourceGroup(DeploymentStackInner deploymentStack)"
   name: "validateStackAtResourceGroup(DeploymentStackInner deploymentStack)"
   nameWithType: "DeploymentStack.validateStackAtResourceGroup(DeploymentStackInner deploymentStack)"
-  summary: "Runs preflight validation on the Resource Group scoped Deployment stack template to verify its acceptance to Azure Resource Manager."
+  summary: "Runs preflight validation on the Deployment stack template at the specified scope to verify its acceptance to Azure Resource Manager."
   modifiers:
   - "abstract"
   parameters:
-  - description: "Deployment stack to validate."
+  - description: "The content of the action request."
     name: "deploymentStack"
     type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.fluent.models.DeploymentStackInner?alt=com.azure.resourcemanager.resources.deploymentstacks.fluent.models.DeploymentStackInner&text=DeploymentStackInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract DeploymentStackValidateResult validateStackAtResourceGroup(DeploymentStackInner deploymentStack)"
-  desc: "Runs preflight validation on the Resource Group scoped Deployment stack template to verify its acceptance to Azure Resource Manager."
+  desc: "Runs preflight validation on the Deployment stack template at the specified scope to verify its acceptance to Azure Resource Manager."
   returns:
-    description: "the Deployment stack validation result."
+    description: "the response."
     type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStackValidateResult?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStackValidateResult&text=DeploymentStackValidateResult\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStack.validateStackAtResourceGroup(com.azure.resourcemanager.resources.deploymentstacks.fluent.models.DeploymentStackInner,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStack.validateStackAtResourceGroup(DeploymentStackInner deploymentStack, Context context)"
   name: "validateStackAtResourceGroup(DeploymentStackInner deploymentStack, Context context)"
   nameWithType: "DeploymentStack.validateStackAtResourceGroup(DeploymentStackInner deploymentStack, Context context)"
-  summary: "Runs preflight validation on the Resource Group scoped Deployment stack template to verify its acceptance to Azure Resource Manager."
+  summary: "Runs preflight validation on the Deployment stack template at the specified scope to verify its acceptance to Azure Resource Manager."
   modifiers:
   - "abstract"
   parameters:
-  - description: "Deployment stack to validate."
+  - description: "The content of the action request."
     name: "deploymentStack"
     type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.fluent.models.DeploymentStackInner?alt=com.azure.resourcemanager.resources.deploymentstacks.fluent.models.DeploymentStackInner&text=DeploymentStackInner\" data-throw-if-not-resolved=\"False\" />"
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract DeploymentStackValidateResult validateStackAtResourceGroup(DeploymentStackInner deploymentStack, Context context)"
-  desc: "Runs preflight validation on the Resource Group scoped Deployment stack template to verify its acceptance to Azure Resource Manager."
+  desc: "Runs preflight validation on the Deployment stack template at the specified scope to verify its acceptance to Azure Resource Manager."
   returns:
-    description: "the Deployment stack validation result."
+    description: "the response."
     type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStackValidateResult?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStackValidateResult&text=DeploymentStackValidateResult\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "An immutable client-side representation of DeploymentStack."
 metadata: {}
 package: "com.azure.resourcemanager.resources.deploymentstacks.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deploymentstacks:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deploymentstacks:1.1.0

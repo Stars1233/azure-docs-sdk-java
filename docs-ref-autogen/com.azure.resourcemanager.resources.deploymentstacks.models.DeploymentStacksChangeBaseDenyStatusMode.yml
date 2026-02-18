@@ -1,0 +1,82 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeBaseDenyStatusMode"
+fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeBaseDenyStatusMode"
+name: "DeploymentStacksChangeBaseDenyStatusMode"
+nameWithType: "DeploymentStacksChangeBaseDenyStatusMode"
+summary: "Base model for properties with the before-and-after property values."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DeploymentStacksChangeBaseDenyStatusMode**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeBaseDenyStatusMode?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeBaseDenyStatusMode&text=DeploymentStacksChangeBaseDenyStatusMode\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeBaseDenyStatusMode.after()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeBaseDenyStatusMode.after()"
+  name: "after()"
+  nameWithType: "DeploymentStacksChangeBaseDenyStatusMode.after()"
+  summary: "Get the after property: The predicted value after the deployment is executed."
+  syntax: "public DenyStatusMode after()"
+  desc: "Get the after property: The predicted value after the deployment is executed."
+  returns:
+    description: "the after value."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DenyStatusMode?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DenyStatusMode&text=DenyStatusMode\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeBaseDenyStatusMode.before()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeBaseDenyStatusMode.before()"
+  name: "before()"
+  nameWithType: "DeploymentStacksChangeBaseDenyStatusMode.before()"
+  summary: "Get the before property: The predicted value before the deployment is executed."
+  syntax: "public DenyStatusMode before()"
+  desc: "Get the before property: The predicted value before the deployment is executed."
+  returns:
+    description: "the before value."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DenyStatusMode?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DenyStatusMode&text=DenyStatusMode\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeBaseDenyStatusMode.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeBaseDenyStatusMode.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "DeploymentStacksChangeBaseDenyStatusMode.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Deployment<wbr>Stacks<wbr>Change<wbr>Base<wbr>Deny<wbr>Status<wbr>Mode from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static DeploymentStacksChangeBaseDenyStatusMode fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the DeploymentStacksChangeBaseDenyStatusMode."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of DeploymentStacksChangeBaseDenyStatusMode from the JsonReader."
+  returns:
+    description: "An instance of DeploymentStacksChangeBaseDenyStatusMode if the JsonReader was pointing to an instance of\n it, or null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeBaseDenyStatusMode?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeBaseDenyStatusMode&text=DeploymentStacksChangeBaseDenyStatusMode\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeBaseDenyStatusMode.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeBaseDenyStatusMode.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "DeploymentStacksChangeBaseDenyStatusMode.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Base model for properties with the before-and-after property values."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeBaseDenyStatusMode?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeBaseDenyStatusMode&text=DeploymentStacksChangeBaseDenyStatusMode\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resources.deploymentstacks.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deploymentstacks:1.1.0

@@ -1,0 +1,92 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChange"
+fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChange"
+name: "DeploymentStacksWhatIfChange"
+nameWithType: "DeploymentStacksWhatIfChange"
+summary: "Changes predicted to the deployment stack as a result of the what-if operation."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DeploymentStacksWhatIfChange**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChange?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChange&text=DeploymentStacksWhatIfChange\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChange.denySettingsChange()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChange.denySettingsChange()"
+  name: "denySettingsChange()"
+  nameWithType: "DeploymentStacksWhatIfChange.denySettingsChange()"
+  summary: "Get the deny<wbr>Settings<wbr>Change property: Predicted changes to the deployment stack deny settings."
+  syntax: "public DeploymentStacksChangeDeltaDenySettings denySettingsChange()"
+  desc: "Get the denySettingsChange property: Predicted changes to the deployment stack deny settings."
+  returns:
+    description: "the denySettingsChange value."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeDeltaDenySettings?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeDeltaDenySettings&text=DeploymentStacksChangeDeltaDenySettings\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChange.deploymentScopeChange()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChange.deploymentScopeChange()"
+  name: "deploymentScopeChange()"
+  nameWithType: "DeploymentStacksWhatIfChange.deploymentScopeChange()"
+  summary: "Get the deployment<wbr>Scope<wbr>Change property: Predicted changes to the deployment scope for the deployment stack."
+  syntax: "public DeploymentStacksChangeBase deploymentScopeChange()"
+  desc: "Get the deploymentScopeChange property: Predicted changes to the deployment scope for the deployment stack."
+  returns:
+    description: "the deploymentScopeChange value."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeBase?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksChangeBase&text=DeploymentStacksChangeBase\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChange.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChange.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "DeploymentStacksWhatIfChange.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Deployment<wbr>Stacks<wbr>What<wbr>IfChange from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static DeploymentStacksWhatIfChange fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of DeploymentStacksWhatIfChange from the JsonReader."
+  returns:
+    description: "An instance of DeploymentStacksWhatIfChange if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChange?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChange&text=DeploymentStacksWhatIfChange\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChange.resourceChanges()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChange.resourceChanges()"
+  name: "resourceChanges()"
+  nameWithType: "DeploymentStacksWhatIfChange.resourceChanges()"
+  summary: "Get the resource<wbr>Changes property: List of resource changes predicted by What-If operation."
+  syntax: "public List<DeploymentStacksWhatIfResourceChange> resourceChanges()"
+  desc: "Get the resourceChanges property: List of resource changes predicted by What-If operation."
+  returns:
+    description: "the resourceChanges value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResourceChange?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResourceChange&text=DeploymentStacksWhatIfResourceChange\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChange.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChange.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "DeploymentStacksWhatIfChange.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Changes predicted to the deployment stack as a result of the what-if operation."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChange?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChange&text=DeploymentStacksWhatIfChange\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resources.deploymentstacks.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deploymentstacks:1.1.0

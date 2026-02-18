@@ -1,0 +1,102 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtension"
+fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtension"
+name: "DeploymentExtension"
+nameWithType: "DeploymentExtension"
+summary: "Details about the usage of a deployment extension."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DeploymentExtension**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtension?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtension&text=DeploymentExtension\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtension.config()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtension.config()"
+  name: "config()"
+  nameWithType: "DeploymentExtension.config()"
+  summary: "Get the config property: The configuration used for deployment."
+  syntax: "public DeploymentExtensionConfig config()"
+  desc: "Get the config property: The configuration used for deployment. The keys of this object should align with the extension config schema."
+  returns:
+    description: "the config value."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfig?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfig&text=DeploymentExtensionConfig\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtension.configId()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtension.configId()"
+  name: "configId()"
+  nameWithType: "DeploymentExtension.configId()"
+  summary: "Get the config<wbr>Id property: The configuration ID of the extension usage."
+  syntax: "public String configId()"
+  desc: "Get the configId property: The configuration ID of the extension usage. It uniquely identifies a target the extension deploys to."
+  returns:
+    description: "the configId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtension.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtension.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "DeploymentExtension.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Deployment<wbr>Extension from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static DeploymentExtension fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of DeploymentExtension from the JsonReader."
+  returns:
+    description: "An instance of DeploymentExtension if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtension?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtension&text=DeploymentExtension\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtension.name()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtension.name()"
+  name: "name()"
+  nameWithType: "DeploymentExtension.name()"
+  summary: "Get the name property: The extension name."
+  syntax: "public String name()"
+  desc: "Get the name property: The extension name."
+  returns:
+    description: "the name value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtension.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtension.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "DeploymentExtension.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtension.version()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtension.version()"
+  name: "version()"
+  nameWithType: "DeploymentExtension.version()"
+  summary: "Get the version property: The extension version."
+  syntax: "public String version()"
+  desc: "Get the version property: The extension version."
+  returns:
+    description: "the version value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "class"
+desc: "Details about the usage of a deployment extension."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtension?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtension&text=DeploymentExtension\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resources.deploymentstacks.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deploymentstacks:1.1.0

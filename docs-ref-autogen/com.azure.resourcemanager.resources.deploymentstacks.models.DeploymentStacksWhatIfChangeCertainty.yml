@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty"
+fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty"
+name: "DeploymentStacksWhatIfChangeCertainty"
+nameWithType: "DeploymentStacksWhatIfChangeCertainty"
+summary: "Denotes the confidence level of the predicted change."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DeploymentStacksWhatIfChangeCertainty**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty&text=DeploymentStacksWhatIfChangeCertainty\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty.DeploymentStacksWhatIfChangeCertainty()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty.DeploymentStacksWhatIfChangeCertainty()"
+  name: "DeploymentStacksWhatIfChangeCertainty()"
+  nameWithType: "DeploymentStacksWhatIfChangeCertainty.DeploymentStacksWhatIfChangeCertainty()"
+  summary: "Creates a new instance of Deployment<wbr>Stacks<wbr>What<wbr>IfChange<wbr>Certainty value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public DeploymentStacksWhatIfChangeCertainty()"
+  desc: "Creates a new instance of DeploymentStacksWhatIfChangeCertainty value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty.DEFINITE"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty.DEFINITE"
+  name: "DEFINITE"
+  nameWithType: "DeploymentStacksWhatIfChangeCertainty.DEFINITE"
+  summary: "The change is definite."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty&text=DeploymentStacksWhatIfChangeCertainty\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DeploymentStacksWhatIfChangeCertainty DEFINITE"
+  desc: "The change is definite."
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty.POTENTIAL"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty.POTENTIAL"
+  name: "POTENTIAL"
+  nameWithType: "DeploymentStacksWhatIfChangeCertainty.POTENTIAL"
+  summary: "The change may or may not happen, based on deployment-time conditions."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty&text=DeploymentStacksWhatIfChangeCertainty\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DeploymentStacksWhatIfChangeCertainty POTENTIAL"
+  desc: "The change may or may not happen, based on deployment-time conditions."
+methods:
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "DeploymentStacksWhatIfChangeCertainty.fromString(String name)"
+  summary: "Creates or finds a Deployment<wbr>Stacks<wbr>What<wbr>IfChange<wbr>Certainty from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static DeploymentStacksWhatIfChangeCertainty fromString(String name)"
+  desc: "Creates or finds a DeploymentStacksWhatIfChangeCertainty from its string representation."
+  returns:
+    description: "the corresponding DeploymentStacksWhatIfChangeCertainty."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty&text=DeploymentStacksWhatIfChangeCertainty\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty.values()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty.values()"
+  name: "values()"
+  nameWithType: "DeploymentStacksWhatIfChangeCertainty.values()"
+  summary: "Gets known Deployment<wbr>Stacks<wbr>What<wbr>IfChange<wbr>Certainty values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<DeploymentStacksWhatIfChangeCertainty> values()"
+  desc: "Gets known DeploymentStacksWhatIfChangeCertainty values."
+  returns:
+    description: "known DeploymentStacksWhatIfChangeCertainty values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfChangeCertainty&text=DeploymentStacksWhatIfChangeCertainty\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Denotes the confidence level of the predicted change."
+metadata: {}
+package: "com.azure.resourcemanager.resources.deploymentstacks.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deploymentstacks:1.1.0

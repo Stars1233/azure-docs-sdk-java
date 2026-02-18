@@ -1,0 +1,94 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfig"
+fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfig"
+name: "DeploymentExtensionConfig"
+nameWithType: "DeploymentExtensionConfig"
+summary: "The configuration of a deployment extension."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DeploymentExtensionConfig**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfig?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfig&text=DeploymentExtensionConfig\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfig.DeploymentExtensionConfig()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfig.DeploymentExtensionConfig()"
+  name: "DeploymentExtensionConfig()"
+  nameWithType: "DeploymentExtensionConfig.DeploymentExtensionConfig()"
+  summary: "Creates an instance of Deployment<wbr>Extension<wbr>Config class."
+  syntax: "public DeploymentExtensionConfig()"
+  desc: "Creates an instance of DeploymentExtensionConfig class."
+methods:
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfig.additionalProperties()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfig.additionalProperties()"
+  name: "additionalProperties()"
+  nameWithType: "DeploymentExtensionConfig.additionalProperties()"
+  summary: "Get the additional<wbr>Properties property: The configuration of a deployment extension."
+  syntax: "public Map<String,DeploymentExtensionConfigItem> additionalProperties()"
+  desc: "Get the additionalProperties property: The configuration of a deployment extension. The keys of this object should align with the extension config schema."
+  returns:
+    description: "the additionalProperties value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfigItem?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfigItem&text=DeploymentExtensionConfigItem\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfig.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfig.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "DeploymentExtensionConfig.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Deployment<wbr>Extension<wbr>Config from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static DeploymentExtensionConfig fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the DeploymentExtensionConfig."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of DeploymentExtensionConfig from the JsonReader."
+  returns:
+    description: "An instance of DeploymentExtensionConfig if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfig?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfig&text=DeploymentExtensionConfig\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfig.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfig.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "DeploymentExtensionConfig.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfig.withAdditionalProperties(java.util.Map<java.lang.String,com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfigItem>)"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfig.withAdditionalProperties(Map<String,DeploymentExtensionConfigItem> additionalProperties)"
+  name: "withAdditionalProperties(Map<String,DeploymentExtensionConfigItem> additionalProperties)"
+  nameWithType: "DeploymentExtensionConfig.withAdditionalProperties(Map<String,DeploymentExtensionConfigItem> additionalProperties)"
+  summary: "Set the additional<wbr>Properties property: The configuration of a deployment extension."
+  parameters:
+  - description: "the additionalProperties value to set."
+    name: "additionalProperties"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfigItem?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfigItem&text=DeploymentExtensionConfigItem\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public DeploymentExtensionConfig withAdditionalProperties(Map<String,DeploymentExtensionConfigItem> additionalProperties)"
+  desc: "Set the additionalProperties property: The configuration of a deployment extension. The keys of this object should align with the extension config schema."
+  returns:
+    description: "the DeploymentExtensionConfig object itself."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfig?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfig&text=DeploymentExtensionConfig\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The configuration of a deployment extension. The keys of this object should align with the extension config schema."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfig?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentExtensionConfig&text=DeploymentExtensionConfig\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.resources.deploymentstacks.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deploymentstacks:1.1.0

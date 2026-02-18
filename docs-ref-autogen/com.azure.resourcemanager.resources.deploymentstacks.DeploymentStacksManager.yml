@@ -82,6 +82,36 @@ methods:
   returns:
     description: "Resource collection API of DeploymentStacks."
     type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacks?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacks&text=DeploymentStacks\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.DeploymentStacksManager.deploymentStacksWhatIfResultsAtManagementGroups()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.DeploymentStacksManager.deploymentStacksWhatIfResultsAtManagementGroups()"
+  name: "deploymentStacksWhatIfResultsAtManagementGroups()"
+  nameWithType: "DeploymentStacksManager.deploymentStacksWhatIfResultsAtManagementGroups()"
+  summary: "Gets the resource collection API of Deployment<wbr>Stacks<wbr>What<wbr>IfResults<wbr>AtManagement<wbr>Groups."
+  syntax: "public DeploymentStacksWhatIfResultsAtManagementGroups deploymentStacksWhatIfResultsAtManagementGroups()"
+  desc: "Gets the resource collection API of DeploymentStacksWhatIfResultsAtManagementGroups."
+  returns:
+    description: "Resource collection API of DeploymentStacksWhatIfResultsAtManagementGroups."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResultsAtManagementGroups?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResultsAtManagementGroups&text=DeploymentStacksWhatIfResultsAtManagementGroups\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.DeploymentStacksManager.deploymentStacksWhatIfResultsAtResourceGroups()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.DeploymentStacksManager.deploymentStacksWhatIfResultsAtResourceGroups()"
+  name: "deploymentStacksWhatIfResultsAtResourceGroups()"
+  nameWithType: "DeploymentStacksManager.deploymentStacksWhatIfResultsAtResourceGroups()"
+  summary: "Gets the resource collection API of Deployment<wbr>Stacks<wbr>What<wbr>IfResults<wbr>AtResource<wbr>Groups."
+  syntax: "public DeploymentStacksWhatIfResultsAtResourceGroups deploymentStacksWhatIfResultsAtResourceGroups()"
+  desc: "Gets the resource collection API of DeploymentStacksWhatIfResultsAtResourceGroups. It manages DeploymentStacksWhatIfResult."
+  returns:
+    description: "Resource collection API of DeploymentStacksWhatIfResultsAtResourceGroups."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResultsAtResourceGroups?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResultsAtResourceGroups&text=DeploymentStacksWhatIfResultsAtResourceGroups\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.DeploymentStacksManager.deploymentStacksWhatIfResultsAtSubscriptions()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.DeploymentStacksManager.deploymentStacksWhatIfResultsAtSubscriptions()"
+  name: "deploymentStacksWhatIfResultsAtSubscriptions()"
+  nameWithType: "DeploymentStacksManager.deploymentStacksWhatIfResultsAtSubscriptions()"
+  summary: "Gets the resource collection API of Deployment<wbr>Stacks<wbr>What<wbr>IfResults<wbr>AtSubscriptions."
+  syntax: "public DeploymentStacksWhatIfResultsAtSubscriptions deploymentStacksWhatIfResultsAtSubscriptions()"
+  desc: "Gets the resource collection API of DeploymentStacksWhatIfResultsAtSubscriptions."
+  returns:
+    description: "Resource collection API of DeploymentStacksWhatIfResultsAtSubscriptions."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResultsAtSubscriptions?alt=com.azure.resourcemanager.resources.deploymentstacks.models.DeploymentStacksWhatIfResultsAtSubscriptions&text=DeploymentStacksWhatIfResultsAtSubscriptions\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.resources.deploymentstacks.DeploymentStacksManager.serviceClient()"
   fullName: "com.azure.resourcemanager.resources.deploymentstacks.DeploymentStacksManager.serviceClient()"
   name: "serviceClient()"
@@ -93,7 +123,7 @@ methods:
     description: "Wrapped service client DeploymentStacksManagementClient."
     type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksManagementClient?alt=com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksManagementClient&text=DeploymentStacksManagementClient\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "Entry point to DeploymentStacksManager. DeploymentStacks Client."
+desc: "Entry point to DeploymentStacksManager."
 metadata: {}
 package: "com.azure.resourcemanager.resources.deploymentstacks"
-artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deploymentstacks:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deploymentstacks:1.1.0

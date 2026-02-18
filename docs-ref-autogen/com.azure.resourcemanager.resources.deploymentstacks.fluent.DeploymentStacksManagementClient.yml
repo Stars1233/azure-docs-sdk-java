@@ -10,11 +10,11 @@ methods:
   fullName: "com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksManagementClient.getApiVersion()"
   name: "getApiVersion()"
   nameWithType: "DeploymentStacksManagementClient.getApiVersion()"
-  summary: "Gets Api Version."
+  summary: "Gets Version parameter."
   modifiers:
   - "abstract"
   syntax: "public abstract String getApiVersion()"
-  desc: "Gets Api Version."
+  desc: "Gets Version parameter."
   returns:
     description: "the apiVersion value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -42,15 +42,51 @@ methods:
   returns:
     description: "the DeploymentStacksClient object."
     type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksClient?alt=com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksClient&text=DeploymentStacksClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksManagementClient.getDeploymentStacksWhatIfResultsAtManagementGroups()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksManagementClient.getDeploymentStacksWhatIfResultsAtManagementGroups()"
+  name: "getDeploymentStacksWhatIfResultsAtManagementGroups()"
+  nameWithType: "DeploymentStacksManagementClient.getDeploymentStacksWhatIfResultsAtManagementGroups()"
+  summary: "Gets the Deployment<wbr>Stacks<wbr>What<wbr>IfResults<wbr>AtManagement<wbr>Groups<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract DeploymentStacksWhatIfResultsAtManagementGroupsClient getDeploymentStacksWhatIfResultsAtManagementGroups()"
+  desc: "Gets the DeploymentStacksWhatIfResultsAtManagementGroupsClient object to access its operations."
+  returns:
+    description: "the DeploymentStacksWhatIfResultsAtManagementGroupsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksWhatIfResultsAtManagementGroupsClient?alt=com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksWhatIfResultsAtManagementGroupsClient&text=DeploymentStacksWhatIfResultsAtManagementGroupsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksManagementClient.getDeploymentStacksWhatIfResultsAtResourceGroups()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksManagementClient.getDeploymentStacksWhatIfResultsAtResourceGroups()"
+  name: "getDeploymentStacksWhatIfResultsAtResourceGroups()"
+  nameWithType: "DeploymentStacksManagementClient.getDeploymentStacksWhatIfResultsAtResourceGroups()"
+  summary: "Gets the Deployment<wbr>Stacks<wbr>What<wbr>IfResults<wbr>AtResource<wbr>Groups<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract DeploymentStacksWhatIfResultsAtResourceGroupsClient getDeploymentStacksWhatIfResultsAtResourceGroups()"
+  desc: "Gets the DeploymentStacksWhatIfResultsAtResourceGroupsClient object to access its operations."
+  returns:
+    description: "the DeploymentStacksWhatIfResultsAtResourceGroupsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksWhatIfResultsAtResourceGroupsClient?alt=com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksWhatIfResultsAtResourceGroupsClient&text=DeploymentStacksWhatIfResultsAtResourceGroupsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksManagementClient.getDeploymentStacksWhatIfResultsAtSubscriptions()"
+  fullName: "com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksManagementClient.getDeploymentStacksWhatIfResultsAtSubscriptions()"
+  name: "getDeploymentStacksWhatIfResultsAtSubscriptions()"
+  nameWithType: "DeploymentStacksManagementClient.getDeploymentStacksWhatIfResultsAtSubscriptions()"
+  summary: "Gets the Deployment<wbr>Stacks<wbr>What<wbr>IfResults<wbr>AtSubscriptions<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract DeploymentStacksWhatIfResultsAtSubscriptionsClient getDeploymentStacksWhatIfResultsAtSubscriptions()"
+  desc: "Gets the DeploymentStacksWhatIfResultsAtSubscriptionsClient object to access its operations."
+  returns:
+    description: "the DeploymentStacksWhatIfResultsAtSubscriptionsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksWhatIfResultsAtSubscriptionsClient?alt=com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksWhatIfResultsAtSubscriptionsClient&text=DeploymentStacksWhatIfResultsAtSubscriptionsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksManagementClient.getEndpoint()"
   fullName: "com.azure.resourcemanager.resources.deploymentstacks.fluent.DeploymentStacksManagementClient.getEndpoint()"
   name: "getEndpoint()"
   nameWithType: "DeploymentStacksManagementClient.getEndpoint()"
-  summary: "Gets server parameter."
+  summary: "Gets Service host."
   modifiers:
   - "abstract"
   syntax: "public abstract String getEndpoint()"
-  desc: "Gets server parameter."
+  desc: "Gets Service host."
   returns:
     description: "the endpoint value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -82,4 +118,4 @@ type: "interface"
 desc: "The interface for DeploymentStacksManagementClient class."
 metadata: {}
 package: "com.azure.resourcemanager.resources.deploymentstacks.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deploymentstacks:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources-deploymentstacks:1.1.0
