@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeStreetAddress"
+fullName: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeStreetAddress"
+name: "CertificateProfile.DefinitionStages.WithIncludeStreetAddress"
+nameWithType: "CertificateProfile.DefinitionStages.WithIncludeStreetAddress"
+summary: "The stage of the Certificate<wbr>Profile definition allowing to specify include<wbr>Street<wbr>Address."
+syntax: "public static interface **CertificateProfile.DefinitionStages.WithIncludeStreetAddress**"
+methods:
+- uid: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeStreetAddress.withIncludeStreetAddress(java.lang.Boolean)"
+  fullName: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeStreetAddress.withIncludeStreetAddress(Boolean includeStreetAddress)"
+  name: "withIncludeStreetAddress(Boolean includeStreetAddress)"
+  nameWithType: "CertificateProfile.DefinitionStages.WithIncludeStreetAddress.withIncludeStreetAddress(Boolean includeStreetAddress)"
+  summary: "Specifies the include<wbr>Street<wbr>Address property: Whether to include STREET in the certificate subject name.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Whether to include STREET in the certificate subject name."
+    name: "includeStreetAddress"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public abstract CertificateProfile.DefinitionStages.WithCreate withIncludeStreetAddress(Boolean includeStreetAddress)"
+  desc: "Specifies the includeStreetAddress property: Whether to include STREET in the certificate subject name.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the CertificateProfile definition allowing to specify includeStreetAddress."
+metadata: {}
+package: "com.azure.resourcemanager.artifactsigning.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-artifactsigning:1.0.0

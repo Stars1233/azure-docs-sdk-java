@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeCity"
+fullName: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeCity"
+name: "CertificateProfile.DefinitionStages.WithIncludeCity"
+nameWithType: "CertificateProfile.DefinitionStages.WithIncludeCity"
+summary: "The stage of the Certificate<wbr>Profile definition allowing to specify include<wbr>City."
+syntax: "public static interface **CertificateProfile.DefinitionStages.WithIncludeCity**"
+methods:
+- uid: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeCity.withIncludeCity(java.lang.Boolean)"
+  fullName: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeCity.withIncludeCity(Boolean includeCity)"
+  name: "withIncludeCity(Boolean includeCity)"
+  nameWithType: "CertificateProfile.DefinitionStages.WithIncludeCity.withIncludeCity(Boolean includeCity)"
+  summary: "Specifies the include<wbr>City property: Whether to include L in the certificate subject name."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Whether to include L in the certificate subject name. Applicable only for private\n trust, private trust ci profile types."
+    name: "includeCity"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public abstract CertificateProfile.DefinitionStages.WithCreate withIncludeCity(Boolean includeCity)"
+  desc: "Specifies the includeCity property: Whether to include L in the certificate subject name. Applicable only for private trust, private trust ci profile types."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the CertificateProfile definition allowing to specify includeCity."
+metadata: {}
+package: "com.azure.resourcemanager.artifactsigning.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-artifactsigning:1.0.0

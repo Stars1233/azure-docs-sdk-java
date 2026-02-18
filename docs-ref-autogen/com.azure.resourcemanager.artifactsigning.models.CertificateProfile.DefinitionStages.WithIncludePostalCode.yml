@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludePostalCode"
+fullName: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludePostalCode"
+name: "CertificateProfile.DefinitionStages.WithIncludePostalCode"
+nameWithType: "CertificateProfile.DefinitionStages.WithIncludePostalCode"
+summary: "The stage of the Certificate<wbr>Profile definition allowing to specify include<wbr>Postal<wbr>Code."
+syntax: "public static interface **CertificateProfile.DefinitionStages.WithIncludePostalCode**"
+methods:
+- uid: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludePostalCode.withIncludePostalCode(java.lang.Boolean)"
+  fullName: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludePostalCode.withIncludePostalCode(Boolean includePostalCode)"
+  name: "withIncludePostalCode(Boolean includePostalCode)"
+  nameWithType: "CertificateProfile.DefinitionStages.WithIncludePostalCode.withIncludePostalCode(Boolean includePostalCode)"
+  summary: "Specifies the include<wbr>Postal<wbr>Code property: Whether to include PC in the certificate subject name.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Whether to include PC in the certificate subject name."
+    name: "includePostalCode"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public abstract CertificateProfile.DefinitionStages.WithCreate withIncludePostalCode(Boolean includePostalCode)"
+  desc: "Specifies the includePostalCode property: Whether to include PC in the certificate subject name.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the CertificateProfile definition allowing to specify includePostalCode."
+metadata: {}
+package: "com.azure.resourcemanager.artifactsigning.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-artifactsigning:1.0.0

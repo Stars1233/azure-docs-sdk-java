@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithProfileType"
+fullName: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithProfileType"
+name: "CertificateProfile.DefinitionStages.WithProfileType"
+nameWithType: "CertificateProfile.DefinitionStages.WithProfileType"
+summary: "The stage of the Certificate<wbr>Profile definition allowing to specify profile<wbr>Type."
+syntax: "public static interface **CertificateProfile.DefinitionStages.WithProfileType**"
+methods:
+- uid: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithProfileType.withProfileType(com.azure.resourcemanager.artifactsigning.models.ProfileType)"
+  fullName: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithProfileType.withProfileType(ProfileType profileType)"
+  name: "withProfileType(ProfileType profileType)"
+  nameWithType: "CertificateProfile.DefinitionStages.WithProfileType.withProfileType(ProfileType profileType)"
+  summary: "Specifies the profile<wbr>Type property: Profile type of the certificate.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Profile type of the certificate."
+    name: "profileType"
+    type: "<xref href=\"com.azure.resourcemanager.artifactsigning.models.ProfileType?alt=com.azure.resourcemanager.artifactsigning.models.ProfileType&text=ProfileType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract CertificateProfile.DefinitionStages.WithCreate withProfileType(ProfileType profileType)"
+  desc: "Specifies the profileType property: Profile type of the certificate.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the CertificateProfile definition allowing to specify profileType."
+metadata: {}
+package: "com.azure.resourcemanager.artifactsigning.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-artifactsigning:1.0.0

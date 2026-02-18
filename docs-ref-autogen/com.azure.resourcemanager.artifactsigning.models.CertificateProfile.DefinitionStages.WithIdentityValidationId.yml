@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIdentityValidationId"
+fullName: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIdentityValidationId"
+name: "CertificateProfile.DefinitionStages.WithIdentityValidationId"
+nameWithType: "CertificateProfile.DefinitionStages.WithIdentityValidationId"
+summary: "The stage of the Certificate<wbr>Profile definition allowing to specify identity<wbr>Validation<wbr>Id."
+syntax: "public static interface **CertificateProfile.DefinitionStages.WithIdentityValidationId**"
+methods:
+- uid: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIdentityValidationId.withIdentityValidationId(java.lang.String)"
+  fullName: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIdentityValidationId.withIdentityValidationId(String identityValidationId)"
+  name: "withIdentityValidationId(String identityValidationId)"
+  nameWithType: "CertificateProfile.DefinitionStages.WithIdentityValidationId.withIdentityValidationId(String identityValidationId)"
+  summary: "Specifies the identity<wbr>Validation<wbr>Id property: Identity validation id used for the certificate subject name.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Identity validation id used for the certificate subject name."
+    name: "identityValidationId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract CertificateProfile.DefinitionStages.WithCreate withIdentityValidationId(String identityValidationId)"
+  desc: "Specifies the identityValidationId property: Identity validation id used for the certificate subject name.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the CertificateProfile definition allowing to specify identityValidationId."
+metadata: {}
+package: "com.azure.resourcemanager.artifactsigning.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-artifactsigning:1.0.0

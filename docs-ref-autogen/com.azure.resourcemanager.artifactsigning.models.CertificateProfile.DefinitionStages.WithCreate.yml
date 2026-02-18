@@ -1,0 +1,49 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithCreate"
+fullName: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithCreate"
+name: "CertificateProfile.DefinitionStages.WithCreate"
+nameWithType: "CertificateProfile.DefinitionStages.WithCreate"
+summary: "The stage of the Certificate<wbr>Profile definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
+syntax: "public static interface **CertificateProfile.DefinitionStages.WithCreate**</br> extends <xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithProfileType?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithProfileType&text=WithProfileType\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeStreetAddress?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeStreetAddress&text=WithIncludeStreetAddress\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeCity?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeCity&text=WithIncludeCity\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeState?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeState&text=WithIncludeState\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeCountry?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeCountry&text=WithIncludeCountry\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludePostalCode?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludePostalCode&text=WithIncludePostalCode\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIdentityValidationId?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIdentityValidationId&text=WithIdentityValidationId\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithCreate.create()"
+  fullName: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithCreate.create()"
+  name: "create()"
+  nameWithType: "CertificateProfile.DefinitionStages.WithCreate.create()"
+  summary: "Executes the create request."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract CertificateProfile create()"
+  desc: "Executes the create request."
+  returns:
+    description: "the created resource."
+    type: "<xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile&text=CertificateProfile\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithCreate.create(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithCreate.create(Context context)"
+  name: "create(Context context)"
+  nameWithType: "CertificateProfile.DefinitionStages.WithCreate.create(Context context)"
+  summary: "Executes the create request."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract CertificateProfile create(Context context)"
+  desc: "Executes the create request."
+  returns:
+    description: "the created resource."
+    type: "<xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile&text=CertificateProfile\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the CertificateProfile definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
+implements:
+- "<xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIdentityValidationId?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIdentityValidationId&text=WithIdentityValidationId\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeCity?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeCity&text=WithIncludeCity\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeCountry?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeCountry&text=WithIncludeCountry\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludePostalCode?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludePostalCode&text=WithIncludePostalCode\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeState?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeState&text=WithIncludeState\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeStreetAddress?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeStreetAddress&text=WithIncludeStreetAddress\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithProfileType?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithProfileType&text=WithProfileType\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.artifactsigning.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-artifactsigning:1.0.0

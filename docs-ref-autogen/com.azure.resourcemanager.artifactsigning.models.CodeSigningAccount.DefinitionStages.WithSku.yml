@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.DefinitionStages.WithSku"
+fullName: "com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.DefinitionStages.WithSku"
+name: "CodeSigningAccount.DefinitionStages.WithSku"
+nameWithType: "CodeSigningAccount.DefinitionStages.WithSku"
+summary: "The stage of the Code<wbr>Signing<wbr>Account definition allowing to specify sku."
+syntax: "public static interface **CodeSigningAccount.DefinitionStages.WithSku**"
+methods:
+- uid: "com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.DefinitionStages.WithSku.withSku(com.azure.resourcemanager.artifactsigning.models.AccountSku)"
+  fullName: "com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.DefinitionStages.WithSku.withSku(AccountSku sku)"
+  name: "withSku(AccountSku sku)"
+  nameWithType: "CodeSigningAccount.DefinitionStages.WithSku.withSku(AccountSku sku)"
+  summary: "Specifies the sku property: SKU of the artifact signing account.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "SKU of the artifact signing account."
+    name: "sku"
+    type: "<xref href=\"com.azure.resourcemanager.artifactsigning.models.AccountSku?alt=com.azure.resourcemanager.artifactsigning.models.AccountSku&text=AccountSku\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract CodeSigningAccount.DefinitionStages.WithCreate withSku(AccountSku sku)"
+  desc: "Specifies the sku property: SKU of the artifact signing account.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the CodeSigningAccount definition allowing to specify sku."
+metadata: {}
+package: "com.azure.resourcemanager.artifactsigning.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-artifactsigning:1.0.0

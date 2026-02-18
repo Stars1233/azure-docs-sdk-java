@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeState"
+fullName: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeState"
+name: "CertificateProfile.DefinitionStages.WithIncludeState"
+nameWithType: "CertificateProfile.DefinitionStages.WithIncludeState"
+summary: "The stage of the Certificate<wbr>Profile definition allowing to specify include<wbr>State."
+syntax: "public static interface **CertificateProfile.DefinitionStages.WithIncludeState**"
+methods:
+- uid: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeState.withIncludeState(java.lang.Boolean)"
+  fullName: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithIncludeState.withIncludeState(Boolean includeState)"
+  name: "withIncludeState(Boolean includeState)"
+  nameWithType: "CertificateProfile.DefinitionStages.WithIncludeState.withIncludeState(Boolean includeState)"
+  summary: "Specifies the include<wbr>State property: Whether to include S in the certificate subject name."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Whether to include S in the certificate subject name. Applicable only for private\n trust, private trust ci profile types."
+    name: "includeState"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public abstract CertificateProfile.DefinitionStages.WithCreate withIncludeState(Boolean includeState)"
+  desc: "Specifies the includeState property: Whether to include S in the certificate subject name. Applicable only for private trust, private trust ci profile types."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the CertificateProfile definition allowing to specify includeState."
+metadata: {}
+package: "com.azure.resourcemanager.artifactsigning.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-artifactsigning:1.0.0

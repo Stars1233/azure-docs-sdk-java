@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.UpdateStages.WithSku"
+fullName: "com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.UpdateStages.WithSku"
+name: "CodeSigningAccount.UpdateStages.WithSku"
+nameWithType: "CodeSigningAccount.UpdateStages.WithSku"
+summary: "The stage of the Code<wbr>Signing<wbr>Account update allowing to specify sku."
+syntax: "public static interface **CodeSigningAccount.UpdateStages.WithSku**"
+methods:
+- uid: "com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.UpdateStages.WithSku.withSku(com.azure.resourcemanager.artifactsigning.models.AccountSkuPatch)"
+  fullName: "com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.UpdateStages.WithSku.withSku(AccountSkuPatch sku)"
+  name: "withSku(AccountSkuPatch sku)"
+  nameWithType: "CodeSigningAccount.UpdateStages.WithSku.withSku(AccountSkuPatch sku)"
+  summary: "Specifies the sku property: SKU of the artifact signing account.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "SKU of the artifact signing account."
+    name: "sku"
+    type: "<xref href=\"com.azure.resourcemanager.artifactsigning.models.AccountSkuPatch?alt=com.azure.resourcemanager.artifactsigning.models.AccountSkuPatch&text=AccountSkuPatch\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract CodeSigningAccount.Update withSku(AccountSkuPatch sku)"
+  desc: "Specifies the sku property: SKU of the artifact signing account.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.Update?alt=com.azure.resourcemanager.artifactsigning.models.CodeSigningAccount.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the CodeSigningAccount update allowing to specify sku."
+metadata: {}
+package: "com.azure.resourcemanager.artifactsigning.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-artifactsigning:1.0.0
