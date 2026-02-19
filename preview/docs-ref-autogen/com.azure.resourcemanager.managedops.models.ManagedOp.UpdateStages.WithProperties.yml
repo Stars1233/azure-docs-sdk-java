@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managedops.models.ManagedOp.UpdateStages.WithProperties"
+fullName: "com.azure.resourcemanager.managedops.models.ManagedOp.UpdateStages.WithProperties"
+name: "ManagedOp.UpdateStages.WithProperties"
+nameWithType: "ManagedOp.UpdateStages.WithProperties"
+summary: "The stage of the Managed<wbr>Op update allowing to specify properties."
+syntax: "public static interface **ManagedOp.UpdateStages.WithProperties**"
+methods:
+- uid: "com.azure.resourcemanager.managedops.models.ManagedOp.UpdateStages.WithProperties.withProperties(com.azure.resourcemanager.managedops.models.ManagedOpUpdateProperties)"
+  fullName: "com.azure.resourcemanager.managedops.models.ManagedOp.UpdateStages.WithProperties.withProperties(ManagedOpUpdateProperties properties)"
+  name: "withProperties(ManagedOpUpdateProperties properties)"
+  nameWithType: "ManagedOp.UpdateStages.WithProperties.withProperties(ManagedOpUpdateProperties properties)"
+  summary: "Specifies the properties property: Updatable properties in the Managed<wbr>Ops resource.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Updatable properties in the ManagedOps resource."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.managedops.models.ManagedOpUpdateProperties?alt=com.azure.resourcemanager.managedops.models.ManagedOpUpdateProperties&text=ManagedOpUpdateProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ManagedOp.Update withProperties(ManagedOpUpdateProperties properties)"
+  desc: "Specifies the properties property: Updatable properties in the ManagedOps resource.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managedops.models.ManagedOp.Update?alt=com.azure.resourcemanager.managedops.models.ManagedOp.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the ManagedOp update allowing to specify properties."
+metadata: {}
+package: "com.azure.resourcemanager.managedops.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managedops:1.0.0-beta.1

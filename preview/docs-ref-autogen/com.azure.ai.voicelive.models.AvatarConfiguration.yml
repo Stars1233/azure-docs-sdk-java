@@ -96,6 +96,16 @@ methods:
   returns:
     description: "the outputProtocol value."
     type: "<xref href=\"com.azure.ai.voicelive.models.AvatarOutputProtocol?alt=com.azure.ai.voicelive.models.AvatarOutputProtocol&text=AvatarOutputProtocol\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.voicelive.models.AvatarConfiguration.getScene()"
+  fullName: "com.azure.ai.voicelive.models.AvatarConfiguration.getScene()"
+  name: "getScene()"
+  nameWithType: "AvatarConfiguration.getScene()"
+  summary: "Get the scene property: Configuration for the avatar's zoom level, position, rotation and movement amplitude in the video frame."
+  syntax: "public Scene getScene()"
+  desc: "Get the scene property: Configuration for the avatar's zoom level, position, rotation and movement amplitude in the video frame."
+  returns:
+    description: "the scene value."
+    type: "<xref href=\"com.azure.ai.voicelive.models.Scene?alt=com.azure.ai.voicelive.models.Scene&text=Scene\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.voicelive.models.AvatarConfiguration.getStyle()"
   fullName: "com.azure.ai.voicelive.models.AvatarConfiguration.getStyle()"
   name: "getStyle()"
@@ -136,6 +146,16 @@ methods:
   returns:
     description: "the customized value."
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.voicelive.models.AvatarConfiguration.isOutputAuditAudio()"
+  fullName: "com.azure.ai.voicelive.models.AvatarConfiguration.isOutputAuditAudio()"
+  name: "isOutputAuditAudio()"
+  nameWithType: "AvatarConfiguration.isOutputAuditAudio()"
+  summary: "Get the output<wbr>Audit<wbr>Audio property: When enabled, forwards audit audio via Web<wbr>Socket for review/debugging purposes, even when avatar output is delivered via WebRTC."
+  syntax: "public Boolean isOutputAuditAudio()"
+  desc: "Get the outputAuditAudio property: When enabled, forwards audit audio via WebSocket for review/debugging purposes, even when avatar output is delivered via WebRTC."
+  returns:
+    description: "the outputAuditAudio value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
 - uid: "com.azure.ai.voicelive.models.AvatarConfiguration.setIceServers(java.util.List<com.azure.ai.voicelive.models.IceServer>)"
   fullName: "com.azure.ai.voicelive.models.AvatarConfiguration.setIceServers(List<IceServer> iceServers)"
   name: "setIceServers(List<IceServer> iceServers)"
@@ -164,6 +184,20 @@ methods:
   returns:
     description: "the AvatarConfiguration object itself."
     type: "<xref href=\"com.azure.ai.voicelive.models.AvatarConfiguration?alt=com.azure.ai.voicelive.models.AvatarConfiguration&text=AvatarConfiguration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.voicelive.models.AvatarConfiguration.setOutputAuditAudio(java.lang.Boolean)"
+  fullName: "com.azure.ai.voicelive.models.AvatarConfiguration.setOutputAuditAudio(Boolean outputAuditAudio)"
+  name: "setOutputAuditAudio(Boolean outputAuditAudio)"
+  nameWithType: "AvatarConfiguration.setOutputAuditAudio(Boolean outputAuditAudio)"
+  summary: "Set the output<wbr>Audit<wbr>Audio property: When enabled, forwards audit audio via Web<wbr>Socket for review/debugging purposes, even when avatar output is delivered via WebRTC."
+  parameters:
+  - description: "the outputAuditAudio value to set."
+    name: "outputAuditAudio"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public AvatarConfiguration setOutputAuditAudio(Boolean outputAuditAudio)"
+  desc: "Set the outputAuditAudio property: When enabled, forwards audit audio via WebSocket for review/debugging purposes, even when avatar output is delivered via WebRTC."
+  returns:
+    description: "the AvatarConfiguration object itself."
+    type: "<xref href=\"com.azure.ai.voicelive.models.AvatarConfiguration?alt=com.azure.ai.voicelive.models.AvatarConfiguration&text=AvatarConfiguration\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.voicelive.models.AvatarConfiguration.setOutputProtocol(com.azure.ai.voicelive.models.AvatarOutputProtocol)"
   fullName: "com.azure.ai.voicelive.models.AvatarConfiguration.setOutputProtocol(AvatarOutputProtocol outputProtocol)"
   name: "setOutputProtocol(AvatarOutputProtocol outputProtocol)"
@@ -175,6 +209,20 @@ methods:
     type: "<xref href=\"com.azure.ai.voicelive.models.AvatarOutputProtocol?alt=com.azure.ai.voicelive.models.AvatarOutputProtocol&text=AvatarOutputProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public AvatarConfiguration setOutputProtocol(AvatarOutputProtocol outputProtocol)"
   desc: "Set the outputProtocol property: Output protocol for avatar streaming. Default is 'webrtc'."
+  returns:
+    description: "the AvatarConfiguration object itself."
+    type: "<xref href=\"com.azure.ai.voicelive.models.AvatarConfiguration?alt=com.azure.ai.voicelive.models.AvatarConfiguration&text=AvatarConfiguration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.voicelive.models.AvatarConfiguration.setScene(com.azure.ai.voicelive.models.Scene)"
+  fullName: "com.azure.ai.voicelive.models.AvatarConfiguration.setScene(Scene scene)"
+  name: "setScene(Scene scene)"
+  nameWithType: "AvatarConfiguration.setScene(Scene scene)"
+  summary: "Set the scene property: Configuration for the avatar's zoom level, position, rotation and movement amplitude in the video frame."
+  parameters:
+  - description: "the scene value to set."
+    name: "scene"
+    type: "<xref href=\"com.azure.ai.voicelive.models.Scene?alt=com.azure.ai.voicelive.models.Scene&text=Scene\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public AvatarConfiguration setScene(Scene scene)"
+  desc: "Set the scene property: Configuration for the avatar's zoom level, position, rotation and movement amplitude in the video frame."
   returns:
     description: "the AvatarConfiguration object itself."
     type: "<xref href=\"com.azure.ai.voicelive.models.AvatarConfiguration?alt=com.azure.ai.voicelive.models.AvatarConfiguration&text=AvatarConfiguration\" data-throw-if-not-resolved=\"False\" />"
@@ -238,4 +286,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.voicelive.models.AvatarConfiguration?alt=com.azure.ai.voicelive.models.AvatarConfiguration&text=AvatarConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.voicelive.models"
-artifact: com.azure:azure-ai-voicelive:1.0.0-beta.4
+artifact: com.azure:azure-ai-voicelive:1.0.0-beta.5

@@ -69,16 +69,6 @@ methods:
   returns:
     description: "the avatar value."
     type: "<xref href=\"com.azure.ai.voicelive.models.AvatarConfiguration?alt=com.azure.ai.voicelive.models.AvatarConfiguration&text=AvatarConfiguration\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.ai.voicelive.models.VoiceLiveSessionOptions.getFillerResponse()"
-  fullName: "com.azure.ai.voicelive.models.VoiceLiveSessionOptions.getFillerResponse()"
-  name: "getFillerResponse()"
-  nameWithType: "VoiceLiveSessionOptions.getFillerResponse()"
-  summary: "Get the filler<wbr>Response property: Configuration for filler response generation during latency or tool calls."
-  syntax: "public BinaryData getFillerResponse()"
-  desc: "Get the fillerResponse property: Configuration for filler response generation during latency or tool calls."
-  returns:
-    description: "the fillerResponse value."
-    type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.voicelive.models.VoiceLiveSessionOptions.getInputAudioEchoCancellation()"
   fullName: "com.azure.ai.voicelive.models.VoiceLiveSessionOptions.getInputAudioEchoCancellation()"
   name: "getInputAudioEchoCancellation()"
@@ -139,6 +129,16 @@ methods:
   returns:
     description: "the instructions value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.ai.voicelive.models.VoiceLiveSessionOptions.getInterimResponse()"
+  fullName: "com.azure.ai.voicelive.models.VoiceLiveSessionOptions.getInterimResponse()"
+  name: "getInterimResponse()"
+  nameWithType: "VoiceLiveSessionOptions.getInterimResponse()"
+  summary: "Get the interim<wbr>Response property: Configuration for interim response generation during latency or tool calls."
+  syntax: "public BinaryData getInterimResponse()"
+  desc: "Get the interimResponse property: Configuration for interim response generation during latency or tool calls."
+  returns:
+    description: "the interimResponse value."
+    type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.voicelive.models.VoiceLiveSessionOptions.getMaxResponseOutputTokens()"
   fullName: "com.azure.ai.voicelive.models.VoiceLiveSessionOptions.getMaxResponseOutputTokens()"
   name: "getMaxResponseOutputTokens()"
@@ -277,20 +277,6 @@ methods:
   returns:
     description: "the VoiceLiveSessionOptions object itself."
     type: "<xref href=\"com.azure.ai.voicelive.models.VoiceLiveSessionOptions?alt=com.azure.ai.voicelive.models.VoiceLiveSessionOptions&text=VoiceLiveSessionOptions\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.ai.voicelive.models.VoiceLiveSessionOptions.setFillerResponse(com.azure.core.util.BinaryData)"
-  fullName: "com.azure.ai.voicelive.models.VoiceLiveSessionOptions.setFillerResponse(BinaryData fillerResponse)"
-  name: "setFillerResponse(BinaryData fillerResponse)"
-  nameWithType: "VoiceLiveSessionOptions.setFillerResponse(BinaryData fillerResponse)"
-  summary: "Set the filler<wbr>Response property: Configuration for filler response generation during latency or tool calls."
-  parameters:
-  - description: "the fillerResponse value to set."
-    name: "fillerResponse"
-    type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public VoiceLiveSessionOptions setFillerResponse(BinaryData fillerResponse)"
-  desc: "Set the fillerResponse property: Configuration for filler response generation during latency or tool calls."
-  returns:
-    description: "the VoiceLiveSessionOptions object itself."
-    type: "<xref href=\"com.azure.ai.voicelive.models.VoiceLiveSessionOptions?alt=com.azure.ai.voicelive.models.VoiceLiveSessionOptions&text=VoiceLiveSessionOptions\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.voicelive.models.VoiceLiveSessionOptions.setInputAudioEchoCancellation(com.azure.ai.voicelive.models.AudioEchoCancellation)"
   fullName: "com.azure.ai.voicelive.models.VoiceLiveSessionOptions.setInputAudioEchoCancellation(AudioEchoCancellation inputAudioEchoCancellation)"
   name: "setInputAudioEchoCancellation(AudioEchoCancellation inputAudioEchoCancellation)"
@@ -372,6 +358,20 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public VoiceLiveSessionOptions setInstructions(String instructions)"
   desc: "Set the instructions property: Optional instructions to guide the model's behavior throughout the session."
+  returns:
+    description: "the VoiceLiveSessionOptions object itself."
+    type: "<xref href=\"com.azure.ai.voicelive.models.VoiceLiveSessionOptions?alt=com.azure.ai.voicelive.models.VoiceLiveSessionOptions&text=VoiceLiveSessionOptions\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.voicelive.models.VoiceLiveSessionOptions.setInterimResponse(com.azure.core.util.BinaryData)"
+  fullName: "com.azure.ai.voicelive.models.VoiceLiveSessionOptions.setInterimResponse(BinaryData interimResponse)"
+  name: "setInterimResponse(BinaryData interimResponse)"
+  nameWithType: "VoiceLiveSessionOptions.setInterimResponse(BinaryData interimResponse)"
+  summary: "Set the interim<wbr>Response property: Configuration for interim response generation during latency or tool calls."
+  parameters:
+  - description: "the interimResponse value to set."
+    name: "interimResponse"
+    type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public VoiceLiveSessionOptions setInterimResponse(BinaryData interimResponse)"
+  desc: "Set the interimResponse property: Configuration for interim response generation during latency or tool calls."
   returns:
     description: "the VoiceLiveSessionOptions object itself."
     type: "<xref href=\"com.azure.ai.voicelive.models.VoiceLiveSessionOptions?alt=com.azure.ai.voicelive.models.VoiceLiveSessionOptions&text=VoiceLiveSessionOptions\" data-throw-if-not-resolved=\"False\" />"
@@ -547,4 +547,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.voicelive.models.VoiceLiveSessionOptions?alt=com.azure.ai.voicelive.models.VoiceLiveSessionOptions&text=VoiceLiveSessionOptions\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.voicelive.models"
-artifact: com.azure:azure-ai-voicelive:1.0.0-beta.4
+artifact: com.azure:azure-ai-voicelive:1.0.0-beta.5

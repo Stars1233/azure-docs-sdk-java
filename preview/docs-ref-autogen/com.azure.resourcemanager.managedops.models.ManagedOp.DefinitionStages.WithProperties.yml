@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managedops.models.ManagedOp.DefinitionStages.WithProperties"
+fullName: "com.azure.resourcemanager.managedops.models.ManagedOp.DefinitionStages.WithProperties"
+name: "ManagedOp.DefinitionStages.WithProperties"
+nameWithType: "ManagedOp.DefinitionStages.WithProperties"
+summary: "The stage of the Managed<wbr>Op definition allowing to specify properties."
+syntax: "public static interface **ManagedOp.DefinitionStages.WithProperties**"
+methods:
+- uid: "com.azure.resourcemanager.managedops.models.ManagedOp.DefinitionStages.WithProperties.withProperties(com.azure.resourcemanager.managedops.models.ManagedOpsProperties)"
+  fullName: "com.azure.resourcemanager.managedops.models.ManagedOp.DefinitionStages.WithProperties.withProperties(ManagedOpsProperties properties)"
+  name: "withProperties(ManagedOpsProperties properties)"
+  nameWithType: "ManagedOp.DefinitionStages.WithProperties.withProperties(ManagedOpsProperties properties)"
+  summary: "Specifies the properties property: The resource-specific properties for this resource.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The resource-specific properties for this resource."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.managedops.models.ManagedOpsProperties?alt=com.azure.resourcemanager.managedops.models.ManagedOpsProperties&text=ManagedOpsProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ManagedOp.DefinitionStages.WithCreate withProperties(ManagedOpsProperties properties)"
+  desc: "Specifies the properties property: The resource-specific properties for this resource.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managedops.models.ManagedOp.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managedops.models.ManagedOp.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the ManagedOp definition allowing to specify properties."
+metadata: {}
+package: "com.azure.resourcemanager.managedops.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managedops:1.0.0-beta.1
