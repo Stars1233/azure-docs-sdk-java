@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension"
+fullName: "com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension"
+name: "VirtualMachineExtension"
+nameWithType: "VirtualMachineExtension"
+summary: "Defines a virtual machine extension."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **VirtualMachineExtension**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension?alt=com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension&text=VirtualMachineExtension\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension.VirtualMachineExtension()"
+  fullName: "com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension.VirtualMachineExtension()"
+  name: "VirtualMachineExtension()"
+  nameWithType: "VirtualMachineExtension.VirtualMachineExtension()"
+  summary: "Creates an instance of Virtual<wbr>Machine<wbr>Extension class."
+  syntax: "public VirtualMachineExtension()"
+  desc: "Creates an instance of VirtualMachineExtension class."
+methods:
+- uid: "com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "VirtualMachineExtension.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Virtual<wbr>Machine<wbr>Extension from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static VirtualMachineExtension fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of VirtualMachineExtension from the JsonReader."
+  returns:
+    description: "An instance of VirtualMachineExtension if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension?alt=com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension&text=VirtualMachineExtension\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension.name()"
+  fullName: "com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension.name()"
+  name: "name()"
+  nameWithType: "VirtualMachineExtension.name()"
+  summary: "Get the name property: The name of the virtual machine extension."
+  syntax: "public String name()"
+  desc: "Get the name property: The name of the virtual machine extension."
+  returns:
+    description: "the name value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension.properties()"
+  fullName: "com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension.properties()"
+  name: "properties()"
+  nameWithType: "VirtualMachineExtension.properties()"
+  summary: "Get the properties property: Properties of the virtual machine extension."
+  syntax: "public VirtualMachineExtensionProperties properties()"
+  desc: "Get the properties property: Properties of the virtual machine extension."
+  returns:
+    description: "the properties value."
+    type: "<xref href=\"com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtensionProperties?alt=com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtensionProperties&text=VirtualMachineExtensionProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "VirtualMachineExtension.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension.withName(java.lang.String)"
+  fullName: "com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension.withName(String name)"
+  name: "withName(String name)"
+  nameWithType: "VirtualMachineExtension.withName(String name)"
+  summary: "Set the name property: The name of the virtual machine extension."
+  parameters:
+  - description: "the name value to set."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public VirtualMachineExtension withName(String name)"
+  desc: "Set the name property: The name of the virtual machine extension."
+  returns:
+    description: "the VirtualMachineExtension object itself."
+    type: "<xref href=\"com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension?alt=com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension&text=VirtualMachineExtension\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension.withProperties(com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtensionProperties)"
+  fullName: "com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension.withProperties(VirtualMachineExtensionProperties properties)"
+  name: "withProperties(VirtualMachineExtensionProperties properties)"
+  nameWithType: "VirtualMachineExtension.withProperties(VirtualMachineExtensionProperties properties)"
+  summary: "Set the properties property: Properties of the virtual machine extension."
+  parameters:
+  - description: "the properties value to set."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtensionProperties?alt=com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtensionProperties&text=VirtualMachineExtensionProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public VirtualMachineExtension withProperties(VirtualMachineExtensionProperties properties)"
+  desc: "Set the properties property: Properties of the virtual machine extension."
+  returns:
+    description: "the VirtualMachineExtension object itself."
+    type: "<xref href=\"com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension?alt=com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension&text=VirtualMachineExtension\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Defines a virtual machine extension."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension?alt=com.azure.resourcemanager.computebulkactions.models.VirtualMachineExtension&text=VirtualMachineExtension\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.computebulkactions.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-computebulkactions:1.0.0-beta.1
