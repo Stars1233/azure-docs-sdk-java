@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-postgresqlflexibleserver",
-  "Version": "1.2.0-beta.1",
+  "Version": "2.1.0-beta.1",
   "DevVersion": null,
   "DirectoryPath": "sdk/postgresqlflexibleserver/azure-resourcemanager-postgresqlflexibleserver",
   "ServiceDirectory": "postgresqlflexibleserver",
@@ -10,20 +10,21 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-postgresqlflexibleserver",
-  "ReleaseStatus": "2025-05-16",
+  "ReleaseStatus": "2026-02-13",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
     "name": "azure-resourcemanager-postgresqlflexibleserver",
-    "safeName": "azureresourcemanagerpostgresqlflexibleserver",
-    "groupId": "com.azure.resourcemanager",
     "triggeringPaths": [
       "/sdk/postgresqlflexibleserver/ci.yml"
-    ]
+    ],
+    "safeName": "azureresourcemanagerpostgresqlflexibleserver",
+    "groupId": "com.azure.resourcemanager"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": "specification/postgresql/DBforPostgreSQL.Management",
   "Namespaces": [
     "com.azure.resourcemanager.postgresqlflexibleserver",
     "com.azure.resourcemanager.postgresqlflexibleserver.fluent",
