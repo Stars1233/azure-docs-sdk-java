@@ -1,15 +1,17 @@
 ---
 title: Azure Agents client library for Java
 keywords: Azure, java, SDK, API, azure-ai-agents, ai
-ms.date: 11/12/2025
+ms.date: 02/25/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: ai
 ---
-# Azure Agents client library for Java - version 1.0.0-beta.1 
+# Azure Agents client library for Java - version 2.0.0-beta.1 
 
 
 Develop Agents using the Azure AI Foundry platform, leveraging an extensive ecosystem of models, tools, and capabilities from OpenAI, Microsoft, and other LLM providers.
+
+The client library uses a single service version `v1` of the AI Foundry [data plane REST APIs](https://aka.ms/azsdk/azure-ai-projects/ga-rest-api-reference).
 
 ## Documentation
 
@@ -32,7 +34,7 @@ Various documentation is available to help you get started
 <dependency>
     <groupId>com.azure</groupId>
     <artifactId>azure-ai-agents</artifactId>
-    <version>1.0.0-beta.1</version>
+    <version>2.0.0-beta.1</version>
 </dependency>
 ```
 [//]: # ({x-version-update-end})
@@ -67,6 +69,7 @@ The Agents client library has 3 sub-clients which group the different operations
 - `AgentsClient` / `AgentsAsyncClient`: Perform operations related to agents, such as creating, retrieving, updating, and deleting agents.
 - `ConversationsClient` / `ConversationsAsyncClient`: Handle conversation operations. See the [OpenAI's Conversation API documentation][openai_conversations_api_docs] for more information.
 - `ResponsesClient` / `ResponsesAsyncClient`: Handle responses operations. See the [OpenAI's Responses API documentation][openai_responses_api_docs] for more information.
+- `MemoryStoresClient` / `MemoryStoresAsyncClient` **(preview)**: Manage memory stores for agents. This operation group requires the `MemoryStores=V1Preview` feature opt-in flag and is automatically set by the SDK on every request.
 
 To access each sub-client you need to use your `AgentsClientBuilder()`. The Agents client library takes the [Official OpenAI SDK][openai_java_sdk] as a dependency, which is used for all operations, except the ones corresponding to direct Agent management.
 
@@ -88,6 +91,46 @@ ResponsesAsyncClient responsesAsyncClient = builder.buildResponsesAsyncClient();
 
 The [OpenAI Official Java SDK][openai_java_sdk] is imported transitively and can be accessed from either the `ResponsesClient` or the `ConversationsClient` using the `getOpenAIClient()` method.
 
+### Agent tools
+
+The SDK supports a variety of tools that can be attached to agent definitions. Some tools are generally available, while others are in **preview** and may change in future releases.
+
+**Generally available tools:**
+
+| Tool class | Description |
+|---|---|
+| `AzureAISearchTool` | Azure AI Search |
+| `AzureFunctionTool` | Azure Functions |
+| `BingGroundingTool` | Bing grounding |
+| `CodeInterpreterTool` | Code interpreter |
+| `FileSearchTool` | File search |
+| `FunctionTool` | Custom function calling |
+| `ImageGenTool` | Image generation |
+| `OpenApiTool` | OpenAPI spec-based tools |
+
+**Preview tools:**
+
+| Tool class | Description |
+|---|---|
+| `A2APreviewTool` | Agent-to-agent communication |
+| `BingCustomSearchPreviewTool` | Bing custom search |
+| `BrowserAutomationPreviewTool` | Browser automation |
+| `ComputerUsePreviewTool` | Computer use |
+| `McpTool` | Model Context Protocol (MCP) |
+| `MemorySearchPreviewTool` | Memory search |
+| `MicrosoftFabricPreviewTool` | Microsoft Fabric |
+| `SharepointPreviewTool` | SharePoint grounding |
+| `WebSearchPreviewTool` | Web search |
+
+### Experimental features and opt-in flags
+
+Some features require an opt-in via the `Foundry-Features` HTTP header. The SDK provides two enums for these flags:
+
+- **`AgentDefinitionFeatureKeys`** — Used when creating or updating agents. Passed as a parameter to `createAgent`, `updateAgent`, `createAgentVersion`, and related methods. Available keys: `CONTAINER_AGENTS_V1_PREVIEW`, `HOSTED_AGENTS_V1_PREVIEW`, `WORKFLOW_AGENTS_V1_PREVIEW`.
+- **`FoundryFeaturesOptInKeys`** — Defines all known opt-in keys, including: `CONTAINER_AGENTS_V1_PREVIEW`, `HOSTED_AGENTS_V1_PREVIEW`, `WORKFLOW_AGENTS_V1_PREVIEW`, `EVALUATIONS_V1_PREVIEW`, `SCHEDULES_V1_PREVIEW`, `RED_TEAMS_V1_PREVIEW`, `INSIGHTS_V1_PREVIEW`, `MEMORY_STORES_V1_PREVIEW`.
+
+> **Note:** The `MemoryStoresClient` automatically sets the `MemoryStores=V1Preview` opt-in flag on every request.
+
 ```java
 // OpenAI SDK ResponsesService accessed from ResponsesClient
 ResponsesClient responsesClient = builder.buildResponsesClient();
@@ -104,11 +147,9 @@ If you prefer using the [OpenAI official Java client library][openai_java_sdk] i
 
 ```java com.azure.ai.agents.openai_official_library
 OpenAIClient client = OpenAIOkHttpClient.builder()
-    .baseUrl(endpoint.endsWith("/") ? endpoint + "openai" : endpoint + "/openai")
-    .azureUrlPathMode(AzureUrlPathMode.UNIFIED)
+    .baseUrl(endpoint.endsWith("/") ? endpoint + "openai/v1" : endpoint + "/openai/v1")
     .credential(BearerTokenCredential.create(AuthenticationUtil.getBearerTokenSupplier(
-            new DefaultAzureCredentialBuilder().build(), "https://ai.azure.com/.default")))
-    .azureServiceVersion(AzureOpenAIServiceVersion.fromString("2025-11-15-preview"))
+        new DefaultAzureCredentialBuilder().build(), "https://ai.azure.com/.default")))
     .build();
 
 ResponseCreateParams responseRequest = new ResponseCreateParams.Builder()
@@ -119,7 +160,7 @@ ResponseCreateParams responseRequest = new ResponseCreateParams.Builder()
 Response result = client.responses().create(responseRequest);
 ```
 
-Remember to adjust your value for the `AzureOpenAIServiceVersion` in the builder and to postpend to your `endpoint`'s path `openai` (if it's not already there) like it's shown in the above code snippet.
+Remember to adjust your base URL so that your AI Foundry project `endpoint`'s path ends with `openai/v1` like it's shown in the above code snippet.
 
 ## Examples
 
@@ -194,7 +235,7 @@ Always ensure that the chosen API version is fully supported and operational for
 
 ## Contributing
 
-For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-agents_1.0.0-beta.1/CONTRIBUTING.md).
+For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-agents_2.0.0-beta.1/CONTRIBUTING.md).
 
 1. Fork it
 1. Create your feature branch (`git checkout -b my-new-feature`)
@@ -207,7 +248,7 @@ For details on contributing to this repository, see the [contributing guide](htt
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
 [azure_subscription]: https://azure.microsoft.com/free/
-[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-agents_1.0.0-beta.1/sdk/identity/azure-identity
+[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-agents_2.0.0-beta.1/sdk/identity/azure-identity
 [openai_java_sdk]: https://github.com/openai/openai-java/
 [openai_responses_api_docs]: https://platform.openai.com/docs/api-reference/responses
 [openai_conversations_api_docs]: https://platform.openai.com/docs/api-reference/conversations
