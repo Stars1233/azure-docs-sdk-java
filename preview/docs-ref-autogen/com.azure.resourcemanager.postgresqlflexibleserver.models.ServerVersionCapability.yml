@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.ServerVersionCap
 fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.ServerVersionCapability"
 name: "ServerVersionCapability"
 nameWithType: "ServerVersionCapability"
-summary: "Server version capabilities."
+summary: "Capabilities in terms of major versions of PostgreSQL database engine."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -14,7 +14,6 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.reason()?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.reason&text=reason\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.status()?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.status&text=status\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.validate()?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -29,14 +28,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ServerVersionCapability**</br> extends <xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase&text=CapabilityBase\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.ServerVersionCapability.ServerVersionCapability()"
-  fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.ServerVersionCapability.ServerVersionCapability()"
-  name: "ServerVersionCapability()"
-  nameWithType: "ServerVersionCapability.ServerVersionCapability()"
-  summary: "Creates an instance of Server<wbr>Version<wbr>Capability class."
-  syntax: "public ServerVersionCapability()"
-  desc: "Creates an instance of ServerVersionCapability class."
 methods:
 - uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.ServerVersionCapability.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.ServerVersionCapability.fromJson(JsonReader jsonReader)"
@@ -61,9 +52,9 @@ methods:
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.ServerVersionCapability.name()"
   name: "name()"
   nameWithType: "ServerVersionCapability.name()"
-  summary: "Get the name property: Server version."
+  summary: "Get the name property: Major version of PostgreSQL database engine."
   syntax: "public String name()"
-  desc: "Get the name property: Server version."
+  desc: "Get the name property: Major version of PostgreSQL database engine."
   returns:
     description: "the name value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -93,9 +84,9 @@ methods:
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.ServerVersionCapability.supportedFeatures()"
   name: "supportedFeatures()"
   nameWithType: "ServerVersionCapability.supportedFeatures()"
-  summary: "Get the supported<wbr>Features property: The supported features."
+  summary: "Get the supported<wbr>Features property: Features supported."
   syntax: "public List<SupportedFeature> supportedFeatures()"
-  desc: "Get the supportedFeatures property: The supported features."
+  desc: "Get the supportedFeatures property: Features supported."
   returns:
     description: "the supportedFeatures value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.SupportedFeature?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.SupportedFeature&text=SupportedFeature\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -103,9 +94,9 @@ methods:
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.ServerVersionCapability.supportedVersionsToUpgrade()"
   name: "supportedVersionsToUpgrade()"
   nameWithType: "ServerVersionCapability.supportedVersionsToUpgrade()"
-  summary: "Get the supported<wbr>Versions<wbr>ToUpgrade property: Supported servers versions to upgrade."
+  summary: "Get the supported<wbr>Versions<wbr>ToUpgrade property: Major versions of PostgreSQL database engine to which this version can be automatically upgraded."
   syntax: "public List<String> supportedVersionsToUpgrade()"
-  desc: "Get the supportedVersionsToUpgrade property: Supported servers versions to upgrade."
+  desc: "Get the supportedVersionsToUpgrade property: Major versions of PostgreSQL database engine to which this version can be automatically upgraded."
   returns:
     description: "the supportedVersionsToUpgrade value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
@@ -122,16 +113,8 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.ServerVersionCapability.validate()"
-  fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.ServerVersionCapability.validate()"
-  name: "validate()"
-  nameWithType: "ServerVersionCapability.validate()"
-  summary: "Validates the instance."
-  overridden: "com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.validate()"
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 type: "class"
-desc: "Server version capabilities."
+desc: "Capabilities in terms of major versions of PostgreSQL database engine."
 metadata: {}
 package: "com.azure.resourcemanager.postgresqlflexibleserver.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:1.2.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:2.1.0-beta.1

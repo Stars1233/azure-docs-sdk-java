@@ -38,6 +38,18 @@ constructors:
   desc: "Creates a new instance of RecommendationTypeEnum value."
   hasDeprecatedTag: true
 fields:
+- uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.RecommendationTypeEnum.ANALYZE_TABLE"
+  fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.RecommendationTypeEnum.ANALYZE_TABLE"
+  name: "ANALYZE_TABLE"
+  nameWithType: "RecommendationTypeEnum.ANALYZE_TABLE"
+  summary: "Static value Analyze<wbr>Table for Recommendation<wbr>Type<wbr>Enum."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.RecommendationTypeEnum?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.RecommendationTypeEnum&text=RecommendationTypeEnum\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RecommendationTypeEnum ANALYZE_TABLE"
+  desc: "Static value AnalyzeTable for RecommendationTypeEnum."
 - uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.RecommendationTypeEnum.CREATE_INDEX"
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.RecommendationTypeEnum.CREATE_INDEX"
   name: "CREATE_INDEX"
@@ -74,6 +86,18 @@ fields:
     type: "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.RecommendationTypeEnum?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.RecommendationTypeEnum&text=RecommendationTypeEnum\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RecommendationTypeEnum RE_INDEX"
   desc: "Static value ReIndex for RecommendationTypeEnum."
+- uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.RecommendationTypeEnum.VACUUM_TABLE"
+  fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.RecommendationTypeEnum.VACUUM_TABLE"
+  name: "VACUUM_TABLE"
+  nameWithType: "RecommendationTypeEnum.VACUUM_TABLE"
+  summary: "Static value Vacuum<wbr>Table for Recommendation<wbr>Type<wbr>Enum."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.RecommendationTypeEnum?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.RecommendationTypeEnum&text=RecommendationTypeEnum\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RecommendationTypeEnum VACUUM_TABLE"
+  desc: "Static value VacuumTable for RecommendationTypeEnum."
 methods:
 - uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.RecommendationTypeEnum.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.RecommendationTypeEnum.fromString(String name)"
@@ -107,4 +131,4 @@ type: "class"
 desc: "Type for this recommendation."
 metadata: {}
 package: "com.azure.resourcemanager.postgresqlflexibleserver.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:1.2.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:2.1.0-beta.1

@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.SupportedFeature
 fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.SupportedFeature"
 name: "SupportedFeature"
 nameWithType: "SupportedFeature"
-summary: "The supported features."
+summary: "Features supported."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **SupportedFeature**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.SupportedFeature?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.SupportedFeature&text=SupportedFeature\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.SupportedFeature.SupportedFeature()"
-  fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.SupportedFeature.SupportedFeature()"
-  name: "SupportedFeature()"
-  nameWithType: "SupportedFeature.SupportedFeature()"
-  summary: "Creates an instance of Supported<wbr>Feature class."
-  syntax: "public SupportedFeature()"
-  desc: "Creates an instance of SupportedFeature class."
 methods:
 - uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.SupportedFeature.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.SupportedFeature.fromJson(JsonReader jsonReader)"
@@ -53,9 +45,9 @@ methods:
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.SupportedFeature.name()"
   name: "name()"
   nameWithType: "SupportedFeature.name()"
-  summary: "Get the name property: Name of feature."
+  summary: "Get the name property: Name of the feature."
   syntax: "public String name()"
-  desc: "Get the name property: Name of feature."
+  desc: "Get the name property: Name of the feature."
   returns:
     description: "the name value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -63,12 +55,12 @@ methods:
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.SupportedFeature.status()"
   name: "status()"
   nameWithType: "SupportedFeature.status()"
-  summary: "Get the status property: Status of feature."
-  syntax: "public SupportedFeatureStatusEnum status()"
-  desc: "Get the status property: Status of feature."
+  summary: "Get the status property: Status of the feature."
+  syntax: "public FeatureStatus status()"
+  desc: "Get the status property: Status of the feature. Indicates if the feature is enabled or not."
   returns:
     description: "the status value."
-    type: "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.SupportedFeatureStatusEnum?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.SupportedFeatureStatusEnum&text=SupportedFeatureStatusEnum\" data-throw-if-not-resolved=\"False\" />"
+    type: "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.FeatureStatus?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.FeatureStatus&text=FeatureStatus\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.SupportedFeature.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.SupportedFeature.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -81,17 +73,10 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.SupportedFeature.validate()"
-  fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.SupportedFeature.validate()"
-  name: "validate()"
-  nameWithType: "SupportedFeature.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 type: "class"
-desc: "The supported features."
+desc: "Features supported."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.SupportedFeature?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.SupportedFeature&text=SupportedFeature\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.postgresqlflexibleserver.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:1.2.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:2.1.0-beta.1

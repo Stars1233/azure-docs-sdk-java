@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.FastProvisioning
 fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.FastProvisioningEditionCapability"
 name: "FastProvisioningEditionCapability"
 nameWithType: "FastProvisioningEditionCapability"
-summary: "Represents capability of a fast provisioning edition."
+summary: "Capability of a fast provisioning compute tier."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -14,7 +14,6 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.reason()?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.reason&text=reason\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.status()?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.status&text=status\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.validate()?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -29,14 +28,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **FastProvisioningEditionCapability**</br> extends <xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase&text=CapabilityBase\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.FastProvisioningEditionCapability.FastProvisioningEditionCapability()"
-  fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.FastProvisioningEditionCapability.FastProvisioningEditionCapability()"
-  name: "FastProvisioningEditionCapability()"
-  nameWithType: "FastProvisioningEditionCapability.FastProvisioningEditionCapability()"
-  summary: "Creates an instance of Fast<wbr>Provisioning<wbr>Edition<wbr>Capability class."
-  syntax: "public FastProvisioningEditionCapability()"
-  desc: "Creates an instance of FastProvisioningEditionCapability class."
 methods:
 - uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.FastProvisioningEditionCapability.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.FastProvisioningEditionCapability.fromJson(JsonReader jsonReader)"
@@ -72,9 +63,9 @@ methods:
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.FastProvisioningEditionCapability.serverCount()"
   name: "serverCount()"
   nameWithType: "FastProvisioningEditionCapability.serverCount()"
-  summary: "Get the server<wbr>Count property: Count of servers in cache matching the spec."
+  summary: "Get the server<wbr>Count property: Count of servers in cache matching this specification."
   syntax: "public Integer serverCount()"
-  desc: "Get the serverCount property: Count of servers in cache matching the spec."
+  desc: "Get the serverCount property: Count of servers in cache matching this specification."
   returns:
     description: "the serverCount value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
@@ -93,9 +84,9 @@ methods:
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.FastProvisioningEditionCapability.supportedServerVersions()"
   name: "supportedServerVersions()"
   nameWithType: "FastProvisioningEditionCapability.supportedServerVersions()"
-  summary: "Get the supported<wbr>Server<wbr>Versions property: Fast provisioning supported version."
+  summary: "Get the supported<wbr>Server<wbr>Versions property: Major version of PostgreSQL database engine supporting fast provisioning."
   syntax: "public String supportedServerVersions()"
-  desc: "Get the supportedServerVersions property: Fast provisioning supported version."
+  desc: "Get the supportedServerVersions property: Major version of PostgreSQL database engine supporting fast provisioning."
   returns:
     description: "the supportedServerVersions value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -103,9 +94,9 @@ methods:
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.FastProvisioningEditionCapability.supportedSku()"
   name: "supportedSku()"
   nameWithType: "FastProvisioningEditionCapability.supportedSku()"
-  summary: "Get the supported<wbr>Sku property: Fast provisioning supported sku name."
+  summary: "Get the supported<wbr>Sku property: Compute name (SKU) supporting fast provisioning."
   syntax: "public String supportedSku()"
-  desc: "Get the supportedSku property: Fast provisioning supported sku name."
+  desc: "Get the supportedSku property: Compute name (SKU) supporting fast provisioning."
   returns:
     description: "the supportedSku value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -113,9 +104,9 @@ methods:
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.FastProvisioningEditionCapability.supportedStorageGb()"
   name: "supportedStorageGb()"
   nameWithType: "FastProvisioningEditionCapability.supportedStorageGb()"
-  summary: "Get the supported<wbr>Storage<wbr>Gb property: Fast provisioning supported storage in Gb."
+  summary: "Get the supported<wbr>Storage<wbr>Gb property: Storage size (in GB) supporting fast provisioning."
   syntax: "public Integer supportedStorageGb()"
-  desc: "Get the supportedStorageGb property: Fast provisioning supported storage in Gb."
+  desc: "Get the supportedStorageGb property: Storage size (in GB) supporting fast provisioning."
   returns:
     description: "the supportedStorageGb value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
@@ -123,9 +114,9 @@ methods:
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.FastProvisioningEditionCapability.supportedTier()"
   name: "supportedTier()"
   nameWithType: "FastProvisioningEditionCapability.supportedTier()"
-  summary: "Get the supported<wbr>Tier property: Fast provisioning supported tier name."
+  summary: "Get the supported<wbr>Tier property: Compute tier supporting fast provisioning."
   syntax: "public String supportedTier()"
-  desc: "Get the supportedTier property: Fast provisioning supported tier name."
+  desc: "Get the supportedTier property: Compute tier supporting fast provisioning."
   returns:
     description: "the supportedTier value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -142,16 +133,8 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.FastProvisioningEditionCapability.validate()"
-  fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.FastProvisioningEditionCapability.validate()"
-  name: "validate()"
-  nameWithType: "FastProvisioningEditionCapability.validate()"
-  summary: "Validates the instance."
-  overridden: "com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.validate()"
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 type: "class"
-desc: "Represents capability of a fast provisioning edition."
+desc: "Capability of a fast provisioning compute tier."
 metadata: {}
 package: "com.azure.resourcemanager.postgresqlflexibleserver.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:1.2.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:2.1.0-beta.1

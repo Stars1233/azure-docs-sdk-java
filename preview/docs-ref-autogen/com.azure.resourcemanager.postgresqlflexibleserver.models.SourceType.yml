@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.SourceType"
 fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.SourceType"
 name: "SourceType"
 nameWithType: "SourceType"
-summary: "Migration source server type : On<wbr>Premises, AWS, GCP, AzureVM, Postgre<wbr>SQLSingle<wbr>Server, AWS\\_RDS, AWS\\_AURORA, AWS\\_EC2, GCP\\_CloudSQL, GCP\\_AlloyDB, GCP\\_Compute, EDB, EDB\\_Oracle\\_Server, EDB\\_PostgreSQL, Postgre<wbr>SQLFlexible<wbr>Server, Postgre<wbr>SQLCosmosDB, Huawei\\_RDS, Huawei\\_Compute, Heroku\\_PostgreSQL, Crunchy\\_PostgreSQL, ApsaraDB\\_RDS, Digital\\_Ocean\\_Droplets, Digital\\_Ocean\\_PostgreSQL, or Supabase\\_PostgreSQL."
+summary: "Source server type used for the migration: ApsaraDB\\_RDS, AWS, AWS\\_AURORA, AWS\\_EC2, AWS\\_RDS, AzureVM, Crunchy\\_PostgreSQL, Digital\\_Ocean\\_Droplets, Digital\\_Ocean\\_PostgreSQL, EDB, EDB\\_Oracle\\_Server, EDB\\_PostgreSQL, GCP, GCP\\_AlloyDB, GCP\\_CloudSQL, GCP\\_Compute, Heroku\\_PostgreSQL, Huawei\\_Compute, Huawei\\_RDS, On<wbr>Premises, Postgre<wbr>SQLCosmosDB, Postgre<wbr>SQLFlexible<wbr>Server, Postgre<wbr>SQLSingle<wbr>Server, or Supabase\\_PostgreSQL."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -356,7 +356,7 @@ methods:
     description: "known SourceType values."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.SourceType?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.SourceType&text=SourceType\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
-desc: "Migration source server type : OnPremises, AWS, GCP, AzureVM, PostgreSQLSingleServer, AWS\\_RDS, AWS\\_AURORA, AWS\\_EC2, GCP\\_CloudSQL, GCP\\_AlloyDB, GCP\\_Compute, EDB, EDB\\_Oracle\\_Server, EDB\\_PostgreSQL, PostgreSQLFlexibleServer, PostgreSQLCosmosDB, Huawei\\_RDS, Huawei\\_Compute, Heroku\\_PostgreSQL, Crunchy\\_PostgreSQL, ApsaraDB\\_RDS, Digital\\_Ocean\\_Droplets, Digital\\_Ocean\\_PostgreSQL, or Supabase\\_PostgreSQL."
+desc: "Source server type used for the migration: ApsaraDB\\_RDS, AWS, AWS\\_AURORA, AWS\\_EC2, AWS\\_RDS, AzureVM, Crunchy\\_PostgreSQL, Digital\\_Ocean\\_Droplets, Digital\\_Ocean\\_PostgreSQL, EDB, EDB\\_Oracle\\_Server, EDB\\_PostgreSQL, GCP, GCP\\_AlloyDB, GCP\\_CloudSQL, GCP\\_Compute, Heroku\\_PostgreSQL, Huawei\\_Compute, Huawei\\_RDS, OnPremises, PostgreSQLCosmosDB, PostgreSQLFlexibleServer, PostgreSQLSingleServer, or Supabase\\_PostgreSQL."
 metadata: {}
 package: "com.azure.resourcemanager.postgresqlflexibleserver.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:1.2.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:2.1.0-beta.1

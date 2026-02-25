@@ -10,11 +10,11 @@ methods:
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.Operation.display()"
   name: "display()"
   nameWithType: "Operation.display()"
-  summary: "Gets the display property: The localized display information for this particular operation or action."
+  summary: "Gets the display property: Localized display information for this particular operation or action."
   modifiers:
   - "abstract"
   syntax: "public abstract OperationDisplay display()"
-  desc: "Gets the display property: The localized display information for this particular operation or action."
+  desc: "Gets the display property: Localized display information for this particular operation or action."
   returns:
     description: "the display value."
     type: "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.OperationDisplay?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.OperationDisplay&text=OperationDisplay\" data-throw-if-not-resolved=\"False\" />"
@@ -34,11 +34,11 @@ methods:
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.Operation.isDataAction()"
   name: "isDataAction()"
   nameWithType: "Operation.isDataAction()"
-  summary: "Gets the is<wbr>Data<wbr>Action property: Indicates whether the operation is a data action."
+  summary: "Gets the is<wbr>Data<wbr>Action property: Indicates if the operation is a data action."
   modifiers:
   - "abstract"
   syntax: "public abstract Boolean isDataAction()"
-  desc: "Gets the isDataAction property: Indicates whether the operation is a data action."
+  desc: "Gets the isDataAction property: Indicates if the operation is a data action."
   returns:
     description: "the isDataAction value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
@@ -46,11 +46,11 @@ methods:
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.Operation.name()"
   name: "name()"
   nameWithType: "Operation.name()"
-  summary: "Gets the name property: The name of the operation being performed on this particular object."
+  summary: "Gets the name property: Name of the operation being performed on this particular object."
   modifiers:
   - "abstract"
   syntax: "public abstract String name()"
-  desc: "Gets the name property: The name of the operation being performed on this particular object."
+  desc: "Gets the name property: Name of the operation being performed on this particular object."
   returns:
     description: "the name value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -58,11 +58,11 @@ methods:
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.Operation.origin()"
   name: "origin()"
   nameWithType: "Operation.origin()"
-  summary: "Gets the origin property: The intended executor of the operation."
+  summary: "Gets the origin property: Intended executor of the operation."
   modifiers:
   - "abstract"
   syntax: "public abstract OperationOrigin origin()"
-  desc: "Gets the origin property: The intended executor of the operation."
+  desc: "Gets the origin property: Intended executor of the operation."
   returns:
     description: "the origin value."
     type: "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.OperationOrigin?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.OperationOrigin&text=OperationOrigin\" data-throw-if-not-resolved=\"False\" />"
@@ -73,13 +73,13 @@ methods:
   summary: "Gets the properties property: Additional descriptions for the operation."
   modifiers:
   - "abstract"
-  syntax: "public abstract Map<String,Object> properties()"
+  syntax: "public abstract OperationProperties properties()"
   desc: "Gets the properties property: Additional descriptions for the operation."
   returns:
     description: "the properties value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>&gt;"
+    type: "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.OperationProperties?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.OperationProperties&text=OperationProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "An immutable client-side representation of Operation."
 metadata: {}
 package: "com.azure.resourcemanager.postgresqlflexibleserver.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:1.2.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:2.1.0-beta.1

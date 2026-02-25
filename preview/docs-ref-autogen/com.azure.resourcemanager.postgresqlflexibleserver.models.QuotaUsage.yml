@@ -58,11 +58,11 @@ methods:
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.QuotaUsage.name()"
   name: "name()"
   nameWithType: "QuotaUsage.name()"
-  summary: "Gets the name property: Name of quota usage for flexible servers."
+  summary: "Gets the name property: Name of quota usage for servers."
   modifiers:
   - "abstract"
   syntax: "public abstract NameProperty name()"
-  desc: "Gets the name property: Name of quota usage for flexible servers."
+  desc: "Gets the name property: Name of quota usage for servers."
   returns:
     description: "the name value."
     type: "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.NameProperty?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.NameProperty&text=NameProperty\" data-throw-if-not-resolved=\"False\" />"
@@ -82,4 +82,4 @@ type: "interface"
 desc: "An immutable client-side representation of QuotaUsage."
 metadata: {}
 package: "com.azure.resourcemanager.postgresqlflexibleserver.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:1.2.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:2.1.0-beta.1

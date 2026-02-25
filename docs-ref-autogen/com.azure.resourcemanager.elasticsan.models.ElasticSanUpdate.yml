@@ -30,6 +30,16 @@ constructors:
   syntax: "public ElasticSanUpdate()"
   desc: "Creates an instance of ElasticSanUpdate class."
 methods:
+- uid: "com.azure.resourcemanager.elasticsan.models.ElasticSanUpdate.autoScaleProperties()"
+  fullName: "com.azure.resourcemanager.elasticsan.models.ElasticSanUpdate.autoScaleProperties()"
+  name: "autoScaleProperties()"
+  nameWithType: "ElasticSanUpdate.autoScaleProperties()"
+  summary: "Get the auto<wbr>Scale<wbr>Properties property: Auto Scale Properties for Elastic San Appliance."
+  syntax: "public AutoScaleProperties autoScaleProperties()"
+  desc: "Get the autoScaleProperties property: Auto Scale Properties for Elastic San Appliance."
+  returns:
+    description: "the autoScaleProperties value."
+    type: "<xref href=\"com.azure.resourcemanager.elasticsan.models.AutoScaleProperties?alt=com.azure.resourcemanager.elasticsan.models.AutoScaleProperties&text=AutoScaleProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.elasticsan.models.ElasticSanUpdate.baseSizeTiB()"
   fullName: "com.azure.resourcemanager.elasticsan.models.ElasticSanUpdate.baseSizeTiB()"
   name: "baseSizeTiB()"
@@ -108,6 +118,20 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.elasticsan.models.ElasticSanUpdate.withAutoScaleProperties(com.azure.resourcemanager.elasticsan.models.AutoScaleProperties)"
+  fullName: "com.azure.resourcemanager.elasticsan.models.ElasticSanUpdate.withAutoScaleProperties(AutoScaleProperties autoScaleProperties)"
+  name: "withAutoScaleProperties(AutoScaleProperties autoScaleProperties)"
+  nameWithType: "ElasticSanUpdate.withAutoScaleProperties(AutoScaleProperties autoScaleProperties)"
+  summary: "Set the auto<wbr>Scale<wbr>Properties property: Auto Scale Properties for Elastic San Appliance."
+  parameters:
+  - description: "the autoScaleProperties value to set."
+    name: "autoScaleProperties"
+    type: "<xref href=\"com.azure.resourcemanager.elasticsan.models.AutoScaleProperties?alt=com.azure.resourcemanager.elasticsan.models.AutoScaleProperties&text=AutoScaleProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ElasticSanUpdate withAutoScaleProperties(AutoScaleProperties autoScaleProperties)"
+  desc: "Set the autoScaleProperties property: Auto Scale Properties for Elastic San Appliance."
+  returns:
+    description: "the ElasticSanUpdate object itself."
+    type: "<xref href=\"com.azure.resourcemanager.elasticsan.models.ElasticSanUpdate?alt=com.azure.resourcemanager.elasticsan.models.ElasticSanUpdate&text=ElasticSanUpdate\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.elasticsan.models.ElasticSanUpdate.withBaseSizeTiB(java.lang.Long)"
   fullName: "com.azure.resourcemanager.elasticsan.models.ElasticSanUpdate.withBaseSizeTiB(Long baseSizeTiB)"
   name: "withBaseSizeTiB(Long baseSizeTiB)"
@@ -170,4 +194,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.elasticsan.models.ElasticSanUpdate?alt=com.azure.resourcemanager.elasticsan.models.ElasticSanUpdate&text=ElasticSanUpdate\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.elasticsan.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-elasticsan:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-elasticsan:1.2.0

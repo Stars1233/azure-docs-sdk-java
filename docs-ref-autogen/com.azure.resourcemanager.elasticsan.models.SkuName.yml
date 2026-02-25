@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.elasticsan.models.SkuName.PREMIUM_LRS"
   name: "PREMIUM_LRS"
   nameWithType: "SkuName.PREMIUM_LRS"
-  summary: "Static value Premium\\_LRS for Sku<wbr>Name."
+  summary: "Premium locally redundant storage."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.elasticsan.models.SkuName?alt=com.azure.resourcemanager.elasticsan.models.SkuName&text=SkuName\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SkuName PREMIUM_LRS"
-  desc: "Static value Premium\\_LRS for SkuName."
+  desc: "Premium locally redundant storage."
 - uid: "com.azure.resourcemanager.elasticsan.models.SkuName.PREMIUM_ZRS"
   fullName: "com.azure.resourcemanager.elasticsan.models.SkuName.PREMIUM_ZRS"
   name: "PREMIUM_ZRS"
   nameWithType: "SkuName.PREMIUM_ZRS"
-  summary: "Static value Premium\\_ZRS for Sku<wbr>Name."
+  summary: "Premium zone redundant storage."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.elasticsan.models.SkuName?alt=com.azure.resourcemanager.elasticsan.models.SkuName&text=SkuName\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SkuName PREMIUM_ZRS"
-  desc: "Static value Premium\\_ZRS for SkuName."
+  desc: "Premium zone redundant storage."
 methods:
 - uid: "com.azure.resourcemanager.elasticsan.models.SkuName.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.elasticsan.models.SkuName.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The sku name."
 metadata: {}
 package: "com.azure.resourcemanager.elasticsan.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-elasticsan:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-elasticsan:1.2.0

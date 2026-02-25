@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.ServerState"
 fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.ServerState"
 name: "ServerState"
 nameWithType: "ServerState"
-summary: "A state of a server that is visible to user."
+summary: "Possible states of a server."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -188,7 +188,7 @@ methods:
     description: "known ServerState values."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.ServerState?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.ServerState&text=ServerState\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
-desc: "A state of a server that is visible to user."
+desc: "Possible states of a server."
 metadata: {}
 package: "com.azure.resourcemanager.postgresqlflexibleserver.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:1.2.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:2.1.0-beta.1

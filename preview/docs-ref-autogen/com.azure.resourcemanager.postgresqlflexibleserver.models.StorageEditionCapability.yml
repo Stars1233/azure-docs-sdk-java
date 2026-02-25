@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.StorageEditionCa
 fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.StorageEditionCapability"
 name: "StorageEditionCapability"
 nameWithType: "StorageEditionCapability"
-summary: "Storage edition capability."
+summary: "Capabilities in terms of storage tier."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -14,7 +14,6 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.reason()?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.reason&text=reason\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.status()?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.status&text=status\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.validate()?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -29,22 +28,14 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **StorageEditionCapability**</br> extends <xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase&text=CapabilityBase\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.StorageEditionCapability.StorageEditionCapability()"
-  fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.StorageEditionCapability.StorageEditionCapability()"
-  name: "StorageEditionCapability()"
-  nameWithType: "StorageEditionCapability.StorageEditionCapability()"
-  summary: "Creates an instance of Storage<wbr>Edition<wbr>Capability class."
-  syntax: "public StorageEditionCapability()"
-  desc: "Creates an instance of StorageEditionCapability class."
 methods:
 - uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.StorageEditionCapability.defaultStorageSizeMb()"
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.StorageEditionCapability.defaultStorageSizeMb()"
   name: "defaultStorageSizeMb()"
   nameWithType: "StorageEditionCapability.defaultStorageSizeMb()"
-  summary: "Get the default<wbr>Storage<wbr>Size<wbr>Mb property: Default storage size in MB for storage edition."
+  summary: "Get the default<wbr>Storage<wbr>Size<wbr>Mb property: Default storage size (in MB) for this storage tier."
   syntax: "public Long defaultStorageSizeMb()"
-  desc: "Get the defaultStorageSizeMb property: Default storage size in MB for storage edition."
+  desc: "Get the defaultStorageSizeMb property: Default storage size (in MB) for this storage tier."
   returns:
     description: "the defaultStorageSizeMb value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
@@ -71,9 +62,9 @@ methods:
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.StorageEditionCapability.name()"
   name: "name()"
   nameWithType: "StorageEditionCapability.name()"
-  summary: "Get the name property: Storage edition name."
+  summary: "Get the name property: Name of storage tier."
   syntax: "public String name()"
-  desc: "Get the name property: Storage edition name."
+  desc: "Get the name property: Name of storage tier."
   returns:
     description: "the name value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -103,9 +94,9 @@ methods:
   fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.StorageEditionCapability.supportedStorageMb()"
   name: "supportedStorageMb()"
   nameWithType: "StorageEditionCapability.supportedStorageMb()"
-  summary: "Get the supported<wbr>Storage<wbr>Mb property: Flexible server supported storage range in MB."
+  summary: "Get the supported<wbr>Storage<wbr>Mb property: Configurations of storage supported for this storage tier."
   syntax: "public List<StorageMbCapability> supportedStorageMb()"
-  desc: "Get the supportedStorageMb property: Flexible server supported storage range in MB."
+  desc: "Get the supportedStorageMb property: Configurations of storage supported for this storage tier."
   returns:
     description: "the supportedStorageMb value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.postgresqlflexibleserver.models.StorageMbCapability?alt=com.azure.resourcemanager.postgresqlflexibleserver.models.StorageMbCapability&text=StorageMbCapability\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -122,16 +113,8 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.postgresqlflexibleserver.models.StorageEditionCapability.validate()"
-  fullName: "com.azure.resourcemanager.postgresqlflexibleserver.models.StorageEditionCapability.validate()"
-  name: "validate()"
-  nameWithType: "StorageEditionCapability.validate()"
-  summary: "Validates the instance."
-  overridden: "com.azure.resourcemanager.postgresqlflexibleserver.models.CapabilityBase.validate()"
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 type: "class"
-desc: "Storage edition capability."
+desc: "Capabilities in terms of storage tier."
 metadata: {}
 package: "com.azure.resourcemanager.postgresqlflexibleserver.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:1.2.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresqlflexibleserver:2.1.0-beta.1
