@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-compute",
-  "Version": "2.56.1",
+  "Version": "2.56.2",
   "DevVersion": null,
   "DirectoryPath": "sdk/compute/azure-resourcemanager-compute",
   "ServiceDirectory": "compute",
@@ -10,16 +10,16 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-compute",
-  "ReleaseStatus": "2026-01-29",
+  "ReleaseStatus": "2026-02-26",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
+    "groupId": "com.azure.resourcemanager",
+    "name": "azure-resourcemanager-compute",
     "triggeringPaths": [
       "/sdk/compute/ci.yml"
     ],
-    "groupId": "com.azure.resourcemanager",
     "safeName": "azureresourcemanagercompute",
-    "name": "azure-resourcemanager-compute",
     "releaseInBatch": "${{ parameters.release_azureresourcemanagercompute }}"
   },
   "CIParameters": {
