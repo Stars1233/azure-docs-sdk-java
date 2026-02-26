@@ -53,9 +53,9 @@ methods:
   fullName: "com.azure.ai.agents.models.ImageGenToolInputImageMask.getFileId()"
   name: "getFileId()"
   nameWithType: "ImageGenToolInputImageMask.getFileId()"
-  summary: "Get the file<wbr>Id property: File ID for the mask image."
+  summary: "Get the file<wbr>Id property: The file\\_id property."
   syntax: "public String getFileId()"
-  desc: "Get the fileId property: File ID for the mask image."
+  desc: "Get the fileId property: The file\\_id property."
   returns:
     description: "the fileId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -63,9 +63,9 @@ methods:
   fullName: "com.azure.ai.agents.models.ImageGenToolInputImageMask.getImageUrl()"
   name: "getImageUrl()"
   nameWithType: "ImageGenToolInputImageMask.getImageUrl()"
-  summary: "Get the image<wbr>Url property: Base64-encoded mask image."
+  summary: "Get the image<wbr>Url property: The image\\_url property."
   syntax: "public String getImageUrl()"
-  desc: "Get the imageUrl property: Base64-encoded mask image."
+  desc: "Get the imageUrl property: The image\\_url property."
   returns:
     description: "the imageUrl value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -73,13 +73,13 @@ methods:
   fullName: "com.azure.ai.agents.models.ImageGenToolInputImageMask.setFileId(String fileId)"
   name: "setFileId(String fileId)"
   nameWithType: "ImageGenToolInputImageMask.setFileId(String fileId)"
-  summary: "Set the file<wbr>Id property: File ID for the mask image."
+  summary: "Set the file<wbr>Id property: The file\\_id property."
   parameters:
   - description: "the fileId value to set."
     name: "fileId"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public ImageGenToolInputImageMask setFileId(String fileId)"
-  desc: "Set the fileId property: File ID for the mask image."
+  desc: "Set the fileId property: The file\\_id property."
   returns:
     description: "the ImageGenToolInputImageMask object itself."
     type: "<xref href=\"com.azure.ai.agents.models.ImageGenToolInputImageMask?alt=com.azure.ai.agents.models.ImageGenToolInputImageMask&text=ImageGenToolInputImageMask\" data-throw-if-not-resolved=\"False\" />"
@@ -87,13 +87,13 @@ methods:
   fullName: "com.azure.ai.agents.models.ImageGenToolInputImageMask.setImageUrl(String imageUrl)"
   name: "setImageUrl(String imageUrl)"
   nameWithType: "ImageGenToolInputImageMask.setImageUrl(String imageUrl)"
-  summary: "Set the image<wbr>Url property: Base64-encoded mask image."
+  summary: "Set the image<wbr>Url property: The image\\_url property."
   parameters:
   - description: "the imageUrl value to set."
     name: "imageUrl"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public ImageGenToolInputImageMask setImageUrl(String imageUrl)"
-  desc: "Set the imageUrl property: Base64-encoded mask image."
+  desc: "Set the imageUrl property: The image\\_url property."
   returns:
     description: "the ImageGenToolInputImageMask object itself."
     type: "<xref href=\"com.azure.ai.agents.models.ImageGenToolInputImageMask?alt=com.azure.ai.agents.models.ImageGenToolInputImageMask&text=ImageGenToolInputImageMask\" data-throw-if-not-resolved=\"False\" />"
@@ -115,4 +115,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.ImageGenToolInputImageMask?alt=com.azure.ai.agents.models.ImageGenToolInputImageMask&text=ImageGenToolInputImageMask\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:1.0.0-beta.1
+artifact: com.azure:azure-ai-agents:2.0.0-beta.1

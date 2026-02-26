@@ -3,16 +3,10 @@ uid: "com.azure.ai.agents.models.CodeInterpreterOutputLogs"
 fullName: "com.azure.ai.agents.models.CodeInterpreterOutputLogs"
 name: "CodeInterpreterOutputLogs"
 nameWithType: "CodeInterpreterOutputLogs"
-summary: "The logs output from the code interpreter."
+summary: "Code interpreter output logs The logs output from the code interpreter."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.azure.ai.agents.models.CodeInterpreterOutput?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
-- classRef: "<xref href=\"com.azure.ai.agents.models.CodeInterpreterOutput?alt=com.azure.ai.agents.models.CodeInterpreterOutput&text=CodeInterpreterOutput\" data-throw-if-not-resolved=\"False\" />"
-  methodsRef:
-  - "<xref href=\"com.azure.ai.agents.models.CodeInterpreterOutput.fromJson(com.azure.json.JsonReader)?alt=com.azure.ai.agents.models.CodeInterpreterOutput.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.ai.agents.models.CodeInterpreterOutput.getType()?alt=com.azure.ai.agents.models.CodeInterpreterOutput.getType&text=getType\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.ai.agents.models.CodeInterpreterOutput.toJson(com.azure.json.JsonWriter)?alt=com.azure.ai.agents.models.CodeInterpreterOutput.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -26,7 +20,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **CodeInterpreterOutputLogs**</br> extends <xref href=\"com.azure.ai.agents.models.CodeInterpreterOutput?alt=com.azure.ai.agents.models.CodeInterpreterOutput&text=CodeInterpreterOutput\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public final class **CodeInterpreterOutputLogs**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.CodeInterpreterOutputLogs?alt=com.azure.ai.agents.models.CodeInterpreterOutputLogs&text=CodeInterpreterOutputLogs\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.ai.agents.models.CodeInterpreterOutputLogs.CodeInterpreterOutputLogs(java.lang.String)"
   fullName: "com.azure.ai.agents.models.CodeInterpreterOutputLogs.CodeInterpreterOutputLogs(String logs)"
@@ -73,18 +67,16 @@ methods:
   fullName: "com.azure.ai.agents.models.CodeInterpreterOutputLogs.getType()"
   name: "getType()"
   nameWithType: "CodeInterpreterOutputLogs.getType()"
-  summary: "Get the type property: The type property."
-  overridden: "com.azure.ai.agents.models.CodeInterpreterOutput.getType()"
-  syntax: "public CodeInterpreterOutputType getType()"
-  desc: "Get the type property: The type property."
+  summary: "Get the type property: The type of the output."
+  syntax: "public String getType()"
+  desc: "Get the type property: The type of the output. Always \\`logs\\`."
   returns:
     description: "the type value."
-    type: "<xref href=\"com.azure.ai.agents.models.CodeInterpreterOutputType?alt=com.azure.ai.agents.models.CodeInterpreterOutputType&text=CodeInterpreterOutputType\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.ai.agents.models.CodeInterpreterOutputLogs.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.ai.agents.models.CodeInterpreterOutputLogs.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
   nameWithType: "CodeInterpreterOutputLogs.toJson(JsonWriter jsonWriter)"
-  overridden: "com.azure.ai.agents.models.CodeInterpreterOutput.toJson(com.azure.json.JsonWriter)"
   parameters:
   - name: "jsonWriter"
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
@@ -94,7 +86,9 @@ methods:
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The logs output from the code interpreter."
+desc: "Code interpreter output logs The logs output from the code interpreter."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.CodeInterpreterOutputLogs?alt=com.azure.ai.agents.models.CodeInterpreterOutputLogs&text=CodeInterpreterOutputLogs\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:1.0.0-beta.1
+artifact: com.azure:azure-ai-agents:2.0.0-beta.1

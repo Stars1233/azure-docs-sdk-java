@@ -3,7 +3,7 @@ uid: "com.azure.ai.agents.models.LogProb"
 fullName: "com.azure.ai.agents.models.LogProb"
 name: "LogProb"
 nameWithType: "LogProb"
-summary: "The log probability of a token."
+summary: "Log probability The log probability of a token."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -22,10 +22,10 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **LogProb**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.LogProb?alt=com.azure.ai.agents.models.LogProb&text=LogProb\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
-- uid: "com.azure.ai.agents.models.LogProb.LogProb(java.lang.String,double,java.util.List<java.lang.Integer>,java.util.List<com.azure.ai.agents.models.TopLogProb>)"
-  fullName: "com.azure.ai.agents.models.LogProb.LogProb(String token, double logProb, List<Integer> bytes, List<TopLogProb> topLogprobs)"
-  name: "LogProb(String token, double logProb, List<Integer> bytes, List<TopLogProb> topLogprobs)"
-  nameWithType: "LogProb.LogProb(String token, double logProb, List<Integer> bytes, List<TopLogProb> topLogprobs)"
+- uid: "com.azure.ai.agents.models.LogProb.LogProb(java.lang.String,double,java.util.List<java.lang.Long>,java.util.List<com.azure.ai.agents.models.TopLogProb>)"
+  fullName: "com.azure.ai.agents.models.LogProb.LogProb(String token, double logProb, List<Long> bytes, List<TopLogProb> topLogprobs)"
+  name: "LogProb(String token, double logProb, List<Long> bytes, List<TopLogProb> topLogprobs)"
+  nameWithType: "LogProb.LogProb(String token, double logProb, List<Long> bytes, List<TopLogProb> topLogprobs)"
   summary: "Creates an instance of Log<wbr>Prob class."
   parameters:
   - description: "the token value to set."
@@ -36,11 +36,11 @@ constructors:
     type: "<xref href=\"double?alt=double&text=double\" data-throw-if-not-resolved=\"False\" />"
   - description: "the bytes value to set."
     name: "bytes"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>&gt;"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>&gt;"
   - description: "the topLogprobs value to set."
     name: "topLogprobs"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.agents.models.TopLogProb?alt=com.azure.ai.agents.models.TopLogProb&text=TopLogProb\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public LogProb(String token, double logProb, List<Integer> bytes, List<TopLogProb> topLogprobs)"
+  syntax: "public LogProb(String token, double logProb, List<Long> bytes, List<TopLogProb> topLogprobs)"
   desc: "Creates an instance of LogProb class."
 methods:
 - uid: "com.azure.ai.agents.models.LogProb.fromJson(com.azure.json.JsonReader)"
@@ -67,11 +67,11 @@ methods:
   name: "getBytes()"
   nameWithType: "LogProb.getBytes()"
   summary: "Get the bytes property: The bytes property."
-  syntax: "public List<Integer> getBytes()"
+  syntax: "public List<Long> getBytes()"
   desc: "Get the bytes property: The bytes property."
   returns:
     description: "the bytes value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>&gt;"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>&gt;"
 - uid: "com.azure.ai.agents.models.LogProb.getLogProb()"
   fullName: "com.azure.ai.agents.models.LogProb.getLogProb()"
   name: "getLogProb()"
@@ -115,9 +115,9 @@ methods:
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The log probability of a token."
+desc: "Log probability The log probability of a token."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.LogProb?alt=com.azure.ai.agents.models.LogProb&text=LogProb\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:1.0.0-beta.1
+artifact: com.azure:azure-ai-agents:2.0.0-beta.1

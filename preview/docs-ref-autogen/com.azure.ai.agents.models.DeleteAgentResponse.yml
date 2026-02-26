@@ -56,11 +56,11 @@ methods:
   name: "getObject()"
   nameWithType: "DeleteAgentResponse.getObject()"
   summary: "Get the object property: The object type."
-  syntax: "public String getObject()"
+  syntax: "public AgentObjectType getObject()"
   desc: "Get the object property: The object type. Always 'agent.deleted'."
   returns:
     description: "the object value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+    type: "<xref href=\"com.azure.ai.agents.models.AgentObjectType?alt=com.azure.ai.agents.models.AgentObjectType&text=AgentObjectType\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.DeleteAgentResponse.isDeleted()"
   fullName: "com.azure.ai.agents.models.DeleteAgentResponse.isDeleted()"
   name: "isDeleted()"
@@ -89,4 +89,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.DeleteAgentResponse?alt=com.azure.ai.agents.models.DeleteAgentResponse&text=DeleteAgentResponse\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:1.0.0-beta.1
+artifact: com.azure:azure-ai-agents:2.0.0-beta.1

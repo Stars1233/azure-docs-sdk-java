@@ -20,14 +20,14 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public class **EvaluationsClient**"
+syntax: "public final class **EvaluationsClient**"
 methods:
-- uid: "com.azure.ai.projects.EvaluationsClient.getOpenAIClient()"
-  fullName: "com.azure.ai.projects.EvaluationsClient.getOpenAIClient()"
-  name: "getOpenAIClient()"
-  nameWithType: "EvaluationsClient.getOpenAIClient()"
+- uid: "com.azure.ai.projects.EvaluationsClient.getEvalService()"
+  fullName: "com.azure.ai.projects.EvaluationsClient.getEvalService()"
+  name: "getEvalService()"
+  nameWithType: "EvaluationsClient.getEvalService()"
   summary: "Get the OpenAI client for evaluations."
-  syntax: "public EvalService getOpenAIClient()"
+  syntax: "public EvalService getEvalService()"
   desc: "Get the OpenAI client for evaluations."
   returns:
     description: "the OpenAI evals service client."
@@ -36,4 +36,4 @@ type: "class"
 desc: "Initializes a new instance of the asynchronous EvaluationsClient type."
 metadata: {}
 package: "com.azure.ai.projects"
-artifact: com.azure:azure-ai-projects:1.0.0-beta.3
+artifact: com.azure:azure-ai-projects:2.0.0-beta.1

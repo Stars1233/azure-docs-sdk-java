@@ -3,7 +3,7 @@ uid: "com.azure.ai.agents.models.Tool"
 fullName: "com.azure.ai.agents.models.Tool"
 name: "Tool"
 nameWithType: "Tool"
-summary: "The Tool model."
+summary: "A tool that can be used to generate a response."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -72,9 +72,9 @@ methods:
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The Tool model."
+desc: "A tool that can be used to generate a response."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.Tool?alt=com.azure.ai.agents.models.Tool&text=Tool\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:1.0.0-beta.1
+artifact: com.azure:azure-ai-agents:2.0.0-beta.1

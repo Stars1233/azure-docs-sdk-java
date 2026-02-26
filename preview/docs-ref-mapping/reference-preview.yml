@@ -1241,10 +1241,6 @@
         - com.azure.resourcemanager.elasticsan.fluent
         - com.azure.resourcemanager.elasticsan.fluent.models
         - com.azure.resourcemanager.elasticsan.models
-        - com.azure.resourcemanager.elasticsan
-        - com.azure.resourcemanager.elasticsan.fluent
-        - com.azure.resourcemanager.elasticsan.fluent.models
-        - com.azure.resourcemanager.elasticsan.models
   - name: Event Grid
     href: ~/docs-ref-services/preview/event-grid.md
     landingPageType: Service
@@ -2401,6 +2397,10 @@
       - name: Resource Management - PostgreSQL Flexible Server
         href: ~/docs-ref-services/preview/resourcemanager-postgresqlflexibleserver-readme.md
         children:
+        - com.azure.resourcemanager.postgresqlflexibleserver
+        - com.azure.resourcemanager.postgresqlflexibleserver.fluent
+        - com.azure.resourcemanager.postgresqlflexibleserver.fluent.models
+        - com.azure.resourcemanager.postgresqlflexibleserver.models
         - com.azure.resourcemanager.postgresqlflexibleserver
         - com.azure.resourcemanager.postgresqlflexibleserver.fluent
         - com.azure.resourcemanager.postgresqlflexibleserver.fluent.models

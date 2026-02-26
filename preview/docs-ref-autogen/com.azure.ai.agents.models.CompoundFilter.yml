@@ -3,7 +3,7 @@ uid: "com.azure.ai.agents.models.CompoundFilter"
 fullName: "com.azure.ai.agents.models.CompoundFilter"
 name: "CompoundFilter"
 nameWithType: "CompoundFilter"
-summary: "Combine multiple filters using \\`and\\` or \\`or\\`."
+summary: "Compound Filter Combine multiple filters using \\`and\\` or \\`or\\`."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -89,9 +89,9 @@ methods:
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "Combine multiple filters using \\`and\\` or \\`or\\`."
+desc: "Compound Filter Combine multiple filters using \\`and\\` or \\`or\\`."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.CompoundFilter?alt=com.azure.ai.agents.models.CompoundFilter&text=CompoundFilter\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:1.0.0-beta.1
+artifact: com.azure:azure-ai-agents:2.0.0-beta.1

@@ -86,11 +86,11 @@ methods:
   name: "getTriggerTime()"
   nameWithType: "ScheduleRun.getTriggerTime()"
   summary: "Get the trigger<wbr>Time property: Trigger time of the schedule run."
-  syntax: "public String getTriggerTime()"
+  syntax: "public OffsetDateTime getTriggerTime()"
   desc: "Get the triggerTime property: Trigger time of the schedule run."
   returns:
     description: "the triggerTime value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
 - uid: "com.azure.ai.projects.models.ScheduleRun.isSuccess()"
   fullName: "com.azure.ai.projects.models.ScheduleRun.isSuccess()"
   name: "isSuccess()"
@@ -119,4 +119,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.projects.models.ScheduleRun?alt=com.azure.ai.projects.models.ScheduleRun&text=ScheduleRun\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.projects.models"
-artifact: com.azure:azure-ai-projects:1.0.0-beta.3
+artifact: com.azure:azure-ai-projects:2.0.0-beta.1

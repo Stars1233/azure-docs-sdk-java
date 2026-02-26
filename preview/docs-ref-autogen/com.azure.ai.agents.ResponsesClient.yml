@@ -22,6 +22,37 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ResponsesClient**"
 methods:
+- uid: "com.azure.ai.agents.ResponsesClient.createWithAgent(com.azure.ai.agents.models.AgentReference)"
+  fullName: "com.azure.ai.agents.ResponsesClient.createWithAgent(AgentReference agentReference)"
+  name: "createWithAgent(AgentReference agentReference)"
+  nameWithType: "ResponsesClient.createWithAgent(AgentReference agentReference)"
+  summary: "Creates a response with an agent conversation."
+  parameters:
+  - description: "The agent reference."
+    name: "agentReference"
+    type: "<xref href=\"com.azure.ai.agents.models.AgentReference?alt=com.azure.ai.agents.models.AgentReference&text=AgentReference\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Response createWithAgent(AgentReference agentReference)"
+  desc: "Creates a response with an agent conversation."
+  returns:
+    description: "The created Response."
+    type: "<xref href=\"com.openai.models.responses.Response?alt=com.openai.models.responses.Response&text=Response\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.ResponsesClient.createWithAgent(com.azure.ai.agents.models.AgentReference,com.openai.models.responses.ResponseCreateParams.Builder)"
+  fullName: "com.azure.ai.agents.ResponsesClient.createWithAgent(AgentReference agentReference, ResponseCreateParams.Builder params)"
+  name: "createWithAgent(AgentReference agentReference, ResponseCreateParams.Builder params)"
+  nameWithType: "ResponsesClient.createWithAgent(AgentReference agentReference, ResponseCreateParams.Builder params)"
+  summary: "Creates a response with an agent conversation."
+  parameters:
+  - description: "The agent reference."
+    name: "agentReference"
+    type: "<xref href=\"com.azure.ai.agents.models.AgentReference?alt=com.azure.ai.agents.models.AgentReference&text=AgentReference\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The parameters to create the response."
+    name: "params"
+    type: "<xref href=\"com.openai.models.responses.ResponseCreateParams.Builder?alt=com.openai.models.responses.ResponseCreateParams.Builder&text=Builder\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Response createWithAgent(AgentReference agentReference, ResponseCreateParams.Builder params)"
+  desc: "Creates a response with an agent conversation."
+  returns:
+    description: "The created Response."
+    type: "<xref href=\"com.openai.models.responses.Response?alt=com.openai.models.responses.Response&text=Response\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.ResponsesClient.createWithAgentConversation(com.azure.ai.agents.models.AgentReference,java.lang.String)"
   fullName: "com.azure.ai.agents.ResponsesClient.createWithAgentConversation(AgentReference agentReference, String conversationId)"
   name: "createWithAgentConversation(AgentReference agentReference, String conversationId)"
@@ -73,4 +104,4 @@ type: "class"
 desc: "Initializes a new instance of the synchronous AgentsClient type."
 metadata: {}
 package: "com.azure.ai.agents"
-artifact: com.azure:azure-ai-agents:1.0.0-beta.1
+artifact: com.azure:azure-ai-agents:2.0.0-beta.1

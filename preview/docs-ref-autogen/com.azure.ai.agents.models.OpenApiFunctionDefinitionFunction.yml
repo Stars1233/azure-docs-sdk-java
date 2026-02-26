@@ -66,11 +66,11 @@ methods:
   name: "getParameters()"
   nameWithType: "OpenApiFunctionDefinitionFunction.getParameters()"
   summary: "Get the parameters property: The parameters the functions accepts, described as a JSON Schema object."
-  syntax: "public BinaryData getParameters()"
+  syntax: "public Map<String,BinaryData> getParameters()"
   desc: "Get the parameters property: The parameters the functions accepts, described as a JSON Schema object."
   returns:
     description: "the parameters value."
-    type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.ai.agents.models.OpenApiFunctionDefinitionFunction.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.ai.agents.models.OpenApiFunctionDefinitionFunction.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -89,4 +89,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.OpenApiFunctionDefinitionFunction?alt=com.azure.ai.agents.models.OpenApiFunctionDefinitionFunction&text=OpenApiFunctionDefinitionFunction\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:1.0.0-beta.1
+artifact: com.azure:azure-ai-agents:2.0.0-beta.1

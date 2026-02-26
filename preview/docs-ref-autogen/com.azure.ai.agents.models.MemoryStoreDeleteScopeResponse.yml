@@ -56,11 +56,11 @@ methods:
   name: "getObject()"
   nameWithType: "MemoryStoreDeleteScopeResponse.getObject()"
   summary: "Get the object property: The object type."
-  syntax: "public String getObject()"
+  syntax: "public MemoryStoreObjectType getObject()"
   desc: "Get the object property: The object type. Always 'memory\\_store.scope.deleted'."
   returns:
     description: "the object value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+    type: "<xref href=\"com.azure.ai.agents.models.MemoryStoreObjectType?alt=com.azure.ai.agents.models.MemoryStoreObjectType&text=MemoryStoreObjectType\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.MemoryStoreDeleteScopeResponse.getScope()"
   fullName: "com.azure.ai.agents.models.MemoryStoreDeleteScopeResponse.getScope()"
   name: "getScope()"
@@ -99,4 +99,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.MemoryStoreDeleteScopeResponse?alt=com.azure.ai.agents.models.MemoryStoreDeleteScopeResponse&text=MemoryStoreDeleteScopeResponse\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:1.0.0-beta.1
+artifact: com.azure:azure-ai-agents:2.0.0-beta.1

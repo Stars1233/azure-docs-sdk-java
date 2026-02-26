@@ -3,7 +3,7 @@ uid: "com.azure.ai.agents.models.ReasoningEffort"
 fullName: "com.azure.ai.agents.models.ReasoningEffort"
 name: "ReasoningEffort"
 nameWithType: "ReasoningEffort"
-summary: "\\*\\*o-series models only\\*\\* Constrains effort on reasoning for \\[reasoning models\\](https://platform.<wbr>openai.<wbr>com/docs/guides/reasoning)."
+summary: "Defines values for Reasoning<wbr>Effort."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -49,6 +49,24 @@ fields:
   nameWithType: "ReasoningEffort.MEDIUM"
   summary: "Enum value medium."
   desc: "Enum value medium."
+- uid: "com.azure.ai.agents.models.ReasoningEffort.MINIMAL"
+  fullName: "com.azure.ai.agents.models.ReasoningEffort.MINIMAL"
+  name: "MINIMAL"
+  nameWithType: "ReasoningEffort.MINIMAL"
+  summary: "Enum value minimal."
+  desc: "Enum value minimal."
+- uid: "com.azure.ai.agents.models.ReasoningEffort.NONE"
+  fullName: "com.azure.ai.agents.models.ReasoningEffort.NONE"
+  name: "NONE"
+  nameWithType: "ReasoningEffort.NONE"
+  summary: "Enum value none."
+  desc: "Enum value none."
+- uid: "com.azure.ai.agents.models.ReasoningEffort.XHIGH"
+  fullName: "com.azure.ai.agents.models.ReasoningEffort.XHIGH"
+  name: "XHIGH"
+  nameWithType: "ReasoningEffort.XHIGH"
+  summary: "Enum value xhigh."
+  desc: "Enum value xhigh."
 methods:
 - uid: "com.azure.ai.agents.models.ReasoningEffort.fromString(java.lang.String)"
   fullName: "com.azure.ai.agents.models.ReasoningEffort.fromString(String value)"
@@ -95,7 +113,7 @@ methods:
   syntax: "public static ReasoningEffort[] values()"
   returns:
     type: "<xref href=\"com.azure.ai.agents.models.ReasoningEffort?alt=com.azure.ai.agents.models.ReasoningEffort&text=ReasoningEffort\" data-throw-if-not-resolved=\"False\" />[]"
-desc: "\\*\\*o-series models only\\*\\* Constrains effort on reasoning for \\[reasoning models\\](https://platform.openai.com/docs/guides/reasoning). Currently supported values are \\`low\\`, \\`medium\\`, and \\`high\\`. Reducing reasoning effort can result in faster responses and fewer tokens used on reasoning in a response."
+desc: "Defines values for ReasoningEffort."
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:1.0.0-beta.1
+artifact: com.azure:azure-ai-agents:2.0.0-beta.1

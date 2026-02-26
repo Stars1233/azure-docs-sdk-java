@@ -3,7 +3,7 @@ uid: "com.azure.ai.agents.models.ComparisonFilter"
 fullName: "com.azure.ai.agents.models.ComparisonFilter"
 name: "ComparisonFilter"
 nameWithType: "ComparisonFilter"
-summary: "A filter used to compare a specified attribute key to a given value using a defined comparison operation."
+summary: "Comparison Filter A filter used to compare a specified attribute key to a given value using a defined comparison operation."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -73,9 +73,9 @@ methods:
   fullName: "com.azure.ai.agents.models.ComparisonFilter.getType()"
   name: "getType()"
   nameWithType: "ComparisonFilter.getType()"
-  summary: "Get the type property: Specifies the comparison operator: \\`eq\\` (equal), \\`ne\\` (not equal), \\`gt\\` (greater than), \\`gte\\` (greater than or equal), \\`lt\\` (less than), \\`lte\\` (less than or equal)."
+  summary: "Get the type property: Specifies the comparison operator: \\`eq\\`, \\`ne\\`, \\`gt\\`, \\`gte\\`, \\`lt\\`, \\`lte\\`, \\`in\\`, \\`nin\\`."
   syntax: "public ComparisonFilterType getType()"
-  desc: "Get the type property: Specifies the comparison operator: \\`eq\\` (equal), \\`ne\\` (not equal), \\`gt\\` (greater than), \\`gte\\` (greater than or equal), \\`lt\\` (less than), \\`lte\\` (less than or equal)."
+  desc: "Get the type property: Specifies the comparison operator: \\`eq\\`, \\`ne\\`, \\`gt\\`, \\`gte\\`, \\`lt\\`, \\`lte\\`, \\`in\\`, \\`nin\\`. - \\`eq\\`: equals - \\`ne\\`: not equal - \\`gt\\`: greater than - \\`gte\\`: greater than or equal - \\`lt\\`: less than - \\`lte\\`: less than or equal - \\`in\\`: in - \\`nin\\`: not in."
   returns:
     description: "the type value."
     type: "<xref href=\"com.azure.ai.agents.models.ComparisonFilterType?alt=com.azure.ai.agents.models.ComparisonFilterType&text=ComparisonFilterType\" data-throw-if-not-resolved=\"False\" />"
@@ -102,9 +102,9 @@ methods:
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "A filter used to compare a specified attribute key to a given value using a defined comparison operation."
+desc: "Comparison Filter A filter used to compare a specified attribute key to a given value using a defined comparison operation."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.ComparisonFilter?alt=com.azure.ai.agents.models.ComparisonFilter&text=ComparisonFilter\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:1.0.0-beta.1
+artifact: com.azure:azure-ai-agents:2.0.0-beta.1

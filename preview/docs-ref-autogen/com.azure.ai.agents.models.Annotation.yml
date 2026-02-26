@@ -3,7 +3,7 @@ uid: "com.azure.ai.agents.models.Annotation"
 fullName: "com.azure.ai.agents.models.Annotation"
 name: "Annotation"
 nameWithType: "Annotation"
-summary: "The Annotation model."
+summary: "An annotation that applies to a span of output text."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -72,9 +72,9 @@ methods:
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The Annotation model."
+desc: "An annotation that applies to a span of output text."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.Annotation?alt=com.azure.ai.agents.models.Annotation&text=Annotation\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:1.0.0-beta.1
+artifact: com.azure:azure-ai-agents:2.0.0-beta.1

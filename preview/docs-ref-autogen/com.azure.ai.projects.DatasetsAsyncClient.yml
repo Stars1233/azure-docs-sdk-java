@@ -216,26 +216,26 @@ methods:
   returns:
     description: "the specific version of the DatasetVersion along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of\n <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
-- uid: "com.azure.ai.projects.DatasetsAsyncClient.listLatest()"
-  fullName: "com.azure.ai.projects.DatasetsAsyncClient.listLatest()"
-  name: "listLatest()"
-  nameWithType: "DatasetsAsyncClient.listLatest()"
+- uid: "com.azure.ai.projects.DatasetsAsyncClient.listLatestVersion()"
+  fullName: "com.azure.ai.projects.DatasetsAsyncClient.listLatestVersion()"
+  name: "listLatestVersion()"
+  nameWithType: "DatasetsAsyncClient.listLatestVersion()"
   summary: "List the latest version of each Dataset<wbr>Version."
-  syntax: "public PagedFlux<DatasetVersion> listLatest()"
+  syntax: "public PagedFlux<DatasetVersion> listLatestVersion()"
   desc: "List the latest version of each DatasetVersion."
   returns:
     description: "paged collection of DatasetVersion items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.projects.models.DatasetVersion?alt=com.azure.ai.projects.models.DatasetVersion&text=DatasetVersion\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.ai.projects.DatasetsAsyncClient.listLatest(com.azure.core.http.rest.RequestOptions)"
-  fullName: "com.azure.ai.projects.DatasetsAsyncClient.listLatest(RequestOptions requestOptions)"
-  name: "listLatest(RequestOptions requestOptions)"
-  nameWithType: "DatasetsAsyncClient.listLatest(RequestOptions requestOptions)"
+- uid: "com.azure.ai.projects.DatasetsAsyncClient.listLatestVersion(com.azure.core.http.rest.RequestOptions)"
+  fullName: "com.azure.ai.projects.DatasetsAsyncClient.listLatestVersion(RequestOptions requestOptions)"
+  name: "listLatestVersion(RequestOptions requestOptions)"
+  nameWithType: "DatasetsAsyncClient.listLatestVersion(RequestOptions requestOptions)"
   summary: "List the latest version of each Dataset<wbr>Version."
   parameters:
   - description: "The options to configure the HTTP request before HTTP client sends it."
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public PagedFlux<BinaryData> listLatest(RequestOptions requestOptions)"
+  syntax: "public PagedFlux<BinaryData> listLatestVersion(RequestOptions requestOptions)"
   desc: "List the latest version of each DatasetVersion.\n\n**Response Body Schema**\n\n```java\n{\n     type: String(uri_file/uri_folder) (Required)\n     dataUri: String (Optional, Required on create)\n     isReference: Boolean (Optional)\n     connectionName: String (Optional)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```"
   returns:
     description: "paged collection of DatasetVersion items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
@@ -318,4 +318,4 @@ type: "class"
 desc: "Initializes a new instance of the asynchronous AIProjectClient type."
 metadata: {}
 package: "com.azure.ai.projects"
-artifact: com.azure:azure-ai-projects:1.0.0-beta.3
+artifact: com.azure:azure-ai-projects:2.0.0-beta.1

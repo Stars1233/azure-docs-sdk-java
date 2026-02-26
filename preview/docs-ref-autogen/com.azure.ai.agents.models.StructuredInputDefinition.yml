@@ -74,11 +74,11 @@ methods:
   name: "getSchema()"
   nameWithType: "StructuredInputDefinition.getSchema()"
   summary: "Get the schema property: The JSON schema for the structured input (optional)."
-  syntax: "public BinaryData getSchema()"
+  syntax: "public Map<String,BinaryData> getSchema()"
   desc: "Get the schema property: The JSON schema for the structured input (optional)."
   returns:
     description: "the schema value."
-    type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.ai.agents.models.StructuredInputDefinition.isRequired()"
   fullName: "com.azure.ai.agents.models.StructuredInputDefinition.isRequired()"
   name: "isRequired()"
@@ -131,16 +131,16 @@ methods:
   returns:
     description: "the StructuredInputDefinition object itself."
     type: "<xref href=\"com.azure.ai.agents.models.StructuredInputDefinition?alt=com.azure.ai.agents.models.StructuredInputDefinition&text=StructuredInputDefinition\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.ai.agents.models.StructuredInputDefinition.setSchema(com.azure.core.util.BinaryData)"
-  fullName: "com.azure.ai.agents.models.StructuredInputDefinition.setSchema(BinaryData schema)"
-  name: "setSchema(BinaryData schema)"
-  nameWithType: "StructuredInputDefinition.setSchema(BinaryData schema)"
+- uid: "com.azure.ai.agents.models.StructuredInputDefinition.setSchema(java.util.Map<java.lang.String,com.azure.core.util.BinaryData>)"
+  fullName: "com.azure.ai.agents.models.StructuredInputDefinition.setSchema(Map<String,BinaryData> schema)"
+  name: "setSchema(Map<String,BinaryData> schema)"
+  nameWithType: "StructuredInputDefinition.setSchema(Map<String,BinaryData> schema)"
   summary: "Set the schema property: The JSON schema for the structured input (optional)."
   parameters:
   - description: "the schema value to set."
     name: "schema"
-    type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public StructuredInputDefinition setSchema(BinaryData schema)"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public StructuredInputDefinition setSchema(Map<String,BinaryData> schema)"
   desc: "Set the schema property: The JSON schema for the structured input (optional)."
   returns:
     description: "the StructuredInputDefinition object itself."
@@ -163,4 +163,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.StructuredInputDefinition?alt=com.azure.ai.agents.models.StructuredInputDefinition&text=StructuredInputDefinition\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:1.0.0-beta.1
+artifact: com.azure:azure-ai-agents:2.0.0-beta.1

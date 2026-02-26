@@ -222,6 +222,26 @@ methods:
   returns:
     description: "an instance of InsightsClient."
     type: "<xref href=\"com.azure.ai.projects.InsightsClient?alt=com.azure.ai.projects.InsightsClient&text=InsightsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.projects.AIProjectClientBuilder.buildOpenAIAsyncClient()"
+  fullName: "com.azure.ai.projects.AIProjectClientBuilder.buildOpenAIAsyncClient()"
+  name: "buildOpenAIAsyncClient()"
+  nameWithType: "AIProjectClientBuilder.buildOpenAIAsyncClient()"
+  summary: "Builds an instance of Open<wbr>AIAsync<wbr>Client class with a default setup for OpenAI"
+  syntax: "public OpenAIClientAsync buildOpenAIAsyncClient()"
+  desc: "Builds an instance of OpenAIAsyncClient class with a default setup for OpenAI"
+  returns:
+    description: "an instance of OpenAIAsyncClient"
+    type: "<xref href=\"com.openai.client.OpenAIClientAsync?alt=com.openai.client.OpenAIClientAsync&text=OpenAIClientAsync\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.projects.AIProjectClientBuilder.buildOpenAIClient()"
+  fullName: "com.azure.ai.projects.AIProjectClientBuilder.buildOpenAIClient()"
+  name: "buildOpenAIClient()"
+  nameWithType: "AIProjectClientBuilder.buildOpenAIClient()"
+  summary: "Builds an instance of Open<wbr>AIClient class with a default setup for OpenAI"
+  syntax: "public OpenAIClient buildOpenAIClient()"
+  desc: "Builds an instance of OpenAIClient class with a default setup for OpenAI"
+  returns:
+    description: "an instance of OpenAIClient"
+    type: "<xref href=\"com.openai.client.OpenAIClient?alt=com.openai.client.OpenAIClient&text=OpenAIClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.projects.AIProjectClientBuilder.buildRedTeamsAsyncClient()"
   fullName: "com.azure.ai.projects.AIProjectClientBuilder.buildRedTeamsAsyncClient()"
   name: "buildRedTeamsAsyncClient()"
@@ -395,4 +415,4 @@ implements:
 - "<xref href=\"com.azure.core.client.traits.TokenCredentialTrait?alt=com.azure.core.client.traits.TokenCredentialTrait&text=TokenCredentialTrait\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.projects.AIProjectClientBuilder?alt=com.azure.ai.projects.AIProjectClientBuilder&text=AIProjectClientBuilder\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.projects"
-artifact: com.azure:azure-ai-projects:1.0.0-beta.3
+artifact: com.azure:azure-ai-projects:2.0.0-beta.1

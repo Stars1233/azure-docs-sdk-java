@@ -22,10 +22,10 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **IndexesClient**"
 methods:
-- uid: "com.azure.ai.projects.IndexesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.ai.projects.models.Index)"
-  fullName: "com.azure.ai.projects.IndexesClient.createOrUpdate(String name, String version, Index index)"
-  name: "createOrUpdate(String name, String version, Index index)"
-  nameWithType: "IndexesClient.createOrUpdate(String name, String version, Index index)"
+- uid: "com.azure.ai.projects.IndexesClient.createOrUpdateVersion(java.lang.String,java.lang.String,com.azure.ai.projects.models.Index)"
+  fullName: "com.azure.ai.projects.IndexesClient.createOrUpdateVersion(String name, String version, Index index)"
+  name: "createOrUpdateVersion(String name, String version, Index index)"
+  nameWithType: "IndexesClient.createOrUpdateVersion(String name, String version, Index index)"
   summary: "Create a new or update an existing Index with the given version id."
   parameters:
   - description: "The name of the resource."
@@ -37,15 +37,15 @@ methods:
   - description: "The Index to create or update."
     name: "index"
     type: "<xref href=\"com.azure.ai.projects.models.Index?alt=com.azure.ai.projects.models.Index&text=Index\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public Index createOrUpdate(String name, String version, Index index)"
+  syntax: "public Index createOrUpdateVersion(String name, String version, Index index)"
   desc: "Create a new or update an existing Index with the given version id."
   returns:
     description: "index resource Definition."
     type: "<xref href=\"com.azure.ai.projects.models.Index?alt=com.azure.ai.projects.models.Index&text=Index\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.ai.projects.IndexesClient.createOrUpdateWithResponse(java.lang.String,java.lang.String,com.azure.core.util.BinaryData,com.azure.core.http.rest.RequestOptions)"
-  fullName: "com.azure.ai.projects.IndexesClient.createOrUpdateWithResponse(String name, String version, BinaryData index, RequestOptions requestOptions)"
-  name: "createOrUpdateWithResponse(String name, String version, BinaryData index, RequestOptions requestOptions)"
-  nameWithType: "IndexesClient.createOrUpdateWithResponse(String name, String version, BinaryData index, RequestOptions requestOptions)"
+- uid: "com.azure.ai.projects.IndexesClient.createOrUpdateVersionWithResponse(java.lang.String,java.lang.String,com.azure.core.util.BinaryData,com.azure.core.http.rest.RequestOptions)"
+  fullName: "com.azure.ai.projects.IndexesClient.createOrUpdateVersionWithResponse(String name, String version, BinaryData index, RequestOptions requestOptions)"
+  name: "createOrUpdateVersionWithResponse(String name, String version, BinaryData index, RequestOptions requestOptions)"
+  nameWithType: "IndexesClient.createOrUpdateVersionWithResponse(String name, String version, BinaryData index, RequestOptions requestOptions)"
   summary: "Create a new or update an existing Index with the given version id."
   parameters:
   - description: "The name of the resource."
@@ -60,7 +60,7 @@ methods:
   - description: "The options to configure the HTTP request before HTTP client sends it."
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public Response<BinaryData> createOrUpdateWithResponse(String name, String version, BinaryData index, RequestOptions requestOptions)"
+  syntax: "public Response<BinaryData> createOrUpdateVersionWithResponse(String name, String version, BinaryData index, RequestOptions requestOptions)"
   desc: "Create a new or update an existing Index with the given version id.\n\n**Request Body Schema**\n\n```java\n{\n     type: String(AzureSearch/CosmosDBNoSqlVectorStore/ManagedAzureSearch) (Required)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```\n\n**Response Body Schema**\n\n```java\n{\n     type: String(AzureSearch/CosmosDBNoSqlVectorStore/ManagedAzureSearch) (Required)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```"
   returns:
     description: "index resource Definition along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
@@ -195,4 +195,4 @@ type: "class"
 desc: "Initializes a new instance of the synchronous AIProjectClient type."
 metadata: {}
 package: "com.azure.ai.projects"
-artifact: com.azure:azure-ai-projects:1.0.0-beta.3
+artifact: com.azure:azure-ai-projects:2.0.0-beta.1

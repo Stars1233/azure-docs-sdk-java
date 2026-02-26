@@ -38,17 +38,17 @@ constructors:
   desc: "Creates a new instance of ConnectionType value."
   hasDeprecatedTag: true
 fields:
-- uid: "com.azure.ai.projects.models.ConnectionType.APIKEY"
-  fullName: "com.azure.ai.projects.models.ConnectionType.APIKEY"
-  name: "APIKEY"
-  nameWithType: "ConnectionType.APIKEY"
+- uid: "com.azure.ai.projects.models.ConnectionType.API_KEY"
+  fullName: "com.azure.ai.projects.models.ConnectionType.API_KEY"
+  name: "API_KEY"
+  nameWithType: "ConnectionType.API_KEY"
   summary: "Generic connection that uses API Key authentication."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.ai.projects.models.ConnectionType?alt=com.azure.ai.projects.models.ConnectionType&text=ConnectionType\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static final ConnectionType APIKEY"
+  syntax: "public static final ConnectionType API_KEY"
   desc: "Generic connection that uses API Key authentication."
 - uid: "com.azure.ai.projects.models.ConnectionType.APPLICATION_CONFIGURATION"
   fullName: "com.azure.ai.projects.models.ConnectionType.APPLICATION_CONFIGURATION"
@@ -191,4 +191,4 @@ type: "class"
 desc: "The Type (or category) of the connection."
 metadata: {}
 package: "com.azure.ai.projects.models"
-artifact: com.azure:azure-ai-projects:1.0.0-beta.3
+artifact: com.azure:azure-ai-projects:2.0.0-beta.1

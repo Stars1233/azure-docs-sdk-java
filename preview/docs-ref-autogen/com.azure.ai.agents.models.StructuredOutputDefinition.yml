@@ -22,10 +22,10 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **StructuredOutputDefinition**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.StructuredOutputDefinition?alt=com.azure.ai.agents.models.StructuredOutputDefinition&text=StructuredOutputDefinition\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
-- uid: "com.azure.ai.agents.models.StructuredOutputDefinition.StructuredOutputDefinition(java.lang.String,java.lang.String,com.azure.core.util.BinaryData,java.lang.Boolean)"
-  fullName: "com.azure.ai.agents.models.StructuredOutputDefinition.StructuredOutputDefinition(String name, String description, BinaryData schema, Boolean strict)"
-  name: "StructuredOutputDefinition(String name, String description, BinaryData schema, Boolean strict)"
-  nameWithType: "StructuredOutputDefinition.StructuredOutputDefinition(String name, String description, BinaryData schema, Boolean strict)"
+- uid: "com.azure.ai.agents.models.StructuredOutputDefinition.StructuredOutputDefinition(java.lang.String,java.lang.String,java.util.Map<java.lang.String,com.azure.core.util.BinaryData>,java.lang.Boolean)"
+  fullName: "com.azure.ai.agents.models.StructuredOutputDefinition.StructuredOutputDefinition(String name, String description, Map<String,BinaryData> schema, Boolean strict)"
+  name: "StructuredOutputDefinition(String name, String description, Map<String,BinaryData> schema, Boolean strict)"
+  nameWithType: "StructuredOutputDefinition.StructuredOutputDefinition(String name, String description, Map<String,BinaryData> schema, Boolean strict)"
   summary: "Creates an instance of Structured<wbr>Output<wbr>Definition class."
   parameters:
   - description: "the name value to set."
@@ -36,11 +36,11 @@ constructors:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "the schema value to set."
     name: "schema"
-    type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
   - description: "the strict value to set."
     name: "strict"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
-  syntax: "public StructuredOutputDefinition(String name, String description, BinaryData schema, Boolean strict)"
+  syntax: "public StructuredOutputDefinition(String name, String description, Map<String,BinaryData> schema, Boolean strict)"
   desc: "Creates an instance of StructuredOutputDefinition class."
 methods:
 - uid: "com.azure.ai.agents.models.StructuredOutputDefinition.fromJson(com.azure.json.JsonReader)"
@@ -87,11 +87,11 @@ methods:
   name: "getSchema()"
   nameWithType: "StructuredOutputDefinition.getSchema()"
   summary: "Get the schema property: The JSON schema for the structured output."
-  syntax: "public BinaryData getSchema()"
+  syntax: "public Map<String,BinaryData> getSchema()"
   desc: "Get the schema property: The JSON schema for the structured output."
   returns:
     description: "the schema value."
-    type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.ai.agents.models.StructuredOutputDefinition.isStrict()"
   fullName: "com.azure.ai.agents.models.StructuredOutputDefinition.isStrict()"
   name: "isStrict()"
@@ -120,4 +120,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.StructuredOutputDefinition?alt=com.azure.ai.agents.models.StructuredOutputDefinition&text=StructuredOutputDefinition\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:1.0.0-beta.1
+artifact: com.azure:azure-ai-agents:2.0.0-beta.1

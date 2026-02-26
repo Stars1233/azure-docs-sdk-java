@@ -3,7 +3,7 @@ uid: "com.azure.ai.agents.models.Reasoning"
 fullName: "com.azure.ai.agents.models.Reasoning"
 name: "Reasoning"
 nameWithType: "Reasoning"
-summary: "\\*\\*o-series models only\\*\\* Configuration options for \\[reasoning models\\](https://platform.<wbr>openai.<wbr>com/docs/guides/reasoning)."
+summary: "Reasoning \\*\\*gpt-5 and o-series models only\\*\\* Configuration options for \\[reasoning models\\](https://platform.<wbr>openai.<wbr>com/docs/guides/reasoning)."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -63,9 +63,9 @@ methods:
   fullName: "com.azure.ai.agents.models.Reasoning.getGenerateSummary()"
   name: "getGenerateSummary()"
   nameWithType: "Reasoning.getGenerateSummary()"
-  summary: "Get the generate<wbr>Summary property: \\*\\*Deprecated\\*\\*: use \\`summary\\` instead."
+  summary: "Get the generate<wbr>Summary property: The generate\\_summary property."
   syntax: "public ReasoningGenerateSummary getGenerateSummary()"
-  desc: "Get the generateSummary property: \\*\\*Deprecated\\*\\*: use \\`summary\\` instead. A summary of the reasoning performed by the model. This can be useful for debugging and understanding the model's reasoning process. One of \\`auto\\`, \\`concise\\`, or \\`detailed\\`."
+  desc: "Get the generateSummary property: The generate\\_summary property."
   returns:
     description: "the generateSummary value."
     type: "<xref href=\"com.azure.ai.agents.models.ReasoningGenerateSummary?alt=com.azure.ai.agents.models.ReasoningGenerateSummary&text=ReasoningGenerateSummary\" data-throw-if-not-resolved=\"False\" />"
@@ -73,9 +73,9 @@ methods:
   fullName: "com.azure.ai.agents.models.Reasoning.getSummary()"
   name: "getSummary()"
   nameWithType: "Reasoning.getSummary()"
-  summary: "Get the summary property: A summary of the reasoning performed by the model."
+  summary: "Get the summary property: The summary property."
   syntax: "public ReasoningSummary getSummary()"
-  desc: "Get the summary property: A summary of the reasoning performed by the model. This can be useful for debugging and understanding the model's reasoning process. One of \\`auto\\`, \\`concise\\`, or \\`detailed\\`."
+  desc: "Get the summary property: The summary property."
   returns:
     description: "the summary value."
     type: "<xref href=\"com.azure.ai.agents.models.ReasoningSummary?alt=com.azure.ai.agents.models.ReasoningSummary&text=ReasoningSummary\" data-throw-if-not-resolved=\"False\" />"
@@ -97,13 +97,13 @@ methods:
   fullName: "com.azure.ai.agents.models.Reasoning.setGenerateSummary(ReasoningGenerateSummary generateSummary)"
   name: "setGenerateSummary(ReasoningGenerateSummary generateSummary)"
   nameWithType: "Reasoning.setGenerateSummary(ReasoningGenerateSummary generateSummary)"
-  summary: "Set the generate<wbr>Summary property: \\*\\*Deprecated\\*\\*: use \\`summary\\` instead."
+  summary: "Set the generate<wbr>Summary property: The generate\\_summary property."
   parameters:
   - description: "the generateSummary value to set."
     name: "generateSummary"
     type: "<xref href=\"com.azure.ai.agents.models.ReasoningGenerateSummary?alt=com.azure.ai.agents.models.ReasoningGenerateSummary&text=ReasoningGenerateSummary\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Reasoning setGenerateSummary(ReasoningGenerateSummary generateSummary)"
-  desc: "Set the generateSummary property: \\*\\*Deprecated\\*\\*: use \\`summary\\` instead. A summary of the reasoning performed by the model. This can be useful for debugging and understanding the model's reasoning process. One of \\`auto\\`, \\`concise\\`, or \\`detailed\\`."
+  desc: "Set the generateSummary property: The generate\\_summary property."
   returns:
     description: "the Reasoning object itself."
     type: "<xref href=\"com.azure.ai.agents.models.Reasoning?alt=com.azure.ai.agents.models.Reasoning&text=Reasoning\" data-throw-if-not-resolved=\"False\" />"
@@ -111,13 +111,13 @@ methods:
   fullName: "com.azure.ai.agents.models.Reasoning.setSummary(ReasoningSummary summary)"
   name: "setSummary(ReasoningSummary summary)"
   nameWithType: "Reasoning.setSummary(ReasoningSummary summary)"
-  summary: "Set the summary property: A summary of the reasoning performed by the model."
+  summary: "Set the summary property: The summary property."
   parameters:
   - description: "the summary value to set."
     name: "summary"
     type: "<xref href=\"com.azure.ai.agents.models.ReasoningSummary?alt=com.azure.ai.agents.models.ReasoningSummary&text=ReasoningSummary\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Reasoning setSummary(ReasoningSummary summary)"
-  desc: "Set the summary property: A summary of the reasoning performed by the model. This can be useful for debugging and understanding the model's reasoning process. One of \\`auto\\`, \\`concise\\`, or \\`detailed\\`."
+  desc: "Set the summary property: The summary property."
   returns:
     description: "the Reasoning object itself."
     type: "<xref href=\"com.azure.ai.agents.models.Reasoning?alt=com.azure.ai.agents.models.Reasoning&text=Reasoning\" data-throw-if-not-resolved=\"False\" />"
@@ -134,9 +134,9 @@ methods:
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "\\*\\*o-series models only\\*\\* Configuration options for \\[reasoning models\\](https://platform.openai.com/docs/guides/reasoning)."
+desc: "Reasoning \\*\\*gpt-5 and o-series models only\\*\\* Configuration options for \\[reasoning models\\](https://platform.openai.com/docs/guides/reasoning)."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.Reasoning?alt=com.azure.ai.agents.models.Reasoning&text=Reasoning\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:1.0.0-beta.1
+artifact: com.azure:azure-ai-agents:2.0.0-beta.1

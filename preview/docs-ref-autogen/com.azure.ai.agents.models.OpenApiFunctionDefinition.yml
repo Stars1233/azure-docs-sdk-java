@@ -22,10 +22,10 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **OpenApiFunctionDefinition**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.OpenApiFunctionDefinition?alt=com.azure.ai.agents.models.OpenApiFunctionDefinition&text=OpenApiFunctionDefinition\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
-- uid: "com.azure.ai.agents.models.OpenApiFunctionDefinition.OpenApiFunctionDefinition(java.lang.String,com.azure.core.util.BinaryData,com.azure.ai.agents.models.OpenApiAuthDetails)"
-  fullName: "com.azure.ai.agents.models.OpenApiFunctionDefinition.OpenApiFunctionDefinition(String name, BinaryData spec, OpenApiAuthDetails auth)"
-  name: "OpenApiFunctionDefinition(String name, BinaryData spec, OpenApiAuthDetails auth)"
-  nameWithType: "OpenApiFunctionDefinition.OpenApiFunctionDefinition(String name, BinaryData spec, OpenApiAuthDetails auth)"
+- uid: "com.azure.ai.agents.models.OpenApiFunctionDefinition.OpenApiFunctionDefinition(java.lang.String,java.util.Map<java.lang.String,com.azure.core.util.BinaryData>,com.azure.ai.agents.models.OpenApiAuthDetails)"
+  fullName: "com.azure.ai.agents.models.OpenApiFunctionDefinition.OpenApiFunctionDefinition(String name, Map<String,BinaryData> spec, OpenApiAuthDetails auth)"
+  name: "OpenApiFunctionDefinition(String name, Map<String,BinaryData> spec, OpenApiAuthDetails auth)"
+  nameWithType: "OpenApiFunctionDefinition.OpenApiFunctionDefinition(String name, Map<String,BinaryData> spec, OpenApiAuthDetails auth)"
   summary: "Creates an instance of Open<wbr>Api<wbr>Function<wbr>Definition class."
   parameters:
   - description: "the name value to set."
@@ -33,11 +33,11 @@ constructors:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "the spec value to set."
     name: "spec"
-    type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
   - description: "the auth value to set."
     name: "auth"
     type: "<xref href=\"com.azure.ai.agents.models.OpenApiAuthDetails?alt=com.azure.ai.agents.models.OpenApiAuthDetails&text=OpenApiAuthDetails\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public OpenApiFunctionDefinition(String name, BinaryData spec, OpenApiAuthDetails auth)"
+  syntax: "public OpenApiFunctionDefinition(String name, Map<String,BinaryData> spec, OpenApiAuthDetails auth)"
   desc: "Creates an instance of OpenApiFunctionDefinition class."
 methods:
 - uid: "com.azure.ai.agents.models.OpenApiFunctionDefinition.fromJson(com.azure.json.JsonReader)"
@@ -114,11 +114,11 @@ methods:
   name: "getSpec()"
   nameWithType: "OpenApiFunctionDefinition.getSpec()"
   summary: "Get the spec property: The openapi function shape, described as a JSON Schema object."
-  syntax: "public BinaryData getSpec()"
+  syntax: "public Map<String,BinaryData> getSpec()"
   desc: "Get the spec property: The openapi function shape, described as a JSON Schema object."
   returns:
     description: "the spec value."
-    type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.ai.agents.models.OpenApiFunctionDefinition.setDefaultParams(java.util.List<java.lang.String>)"
   fullName: "com.azure.ai.agents.models.OpenApiFunctionDefinition.setDefaultParams(List<String> defaultParams)"
   name: "setDefaultParams(List<String> defaultParams)"
@@ -165,4 +165,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.OpenApiFunctionDefinition?alt=com.azure.ai.agents.models.OpenApiFunctionDefinition&text=OpenApiFunctionDefinition\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:1.0.0-beta.1
+artifact: com.azure:azure-ai-agents:2.0.0-beta.1

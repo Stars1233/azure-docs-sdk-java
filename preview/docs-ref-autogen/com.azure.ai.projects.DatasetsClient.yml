@@ -216,26 +216,26 @@ methods:
   returns:
     description: "the specific version of the DatasetVersion along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.ai.projects.DatasetsClient.listLatest()"
-  fullName: "com.azure.ai.projects.DatasetsClient.listLatest()"
-  name: "listLatest()"
-  nameWithType: "DatasetsClient.listLatest()"
+- uid: "com.azure.ai.projects.DatasetsClient.listLatestVersion()"
+  fullName: "com.azure.ai.projects.DatasetsClient.listLatestVersion()"
+  name: "listLatestVersion()"
+  nameWithType: "DatasetsClient.listLatestVersion()"
   summary: "List the latest version of each Dataset<wbr>Version."
-  syntax: "public PagedIterable<DatasetVersion> listLatest()"
+  syntax: "public PagedIterable<DatasetVersion> listLatestVersion()"
   desc: "List the latest version of each DatasetVersion."
   returns:
     description: "paged collection of DatasetVersion items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.projects.models.DatasetVersion?alt=com.azure.ai.projects.models.DatasetVersion&text=DatasetVersion\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.ai.projects.DatasetsClient.listLatest(com.azure.core.http.rest.RequestOptions)"
-  fullName: "com.azure.ai.projects.DatasetsClient.listLatest(RequestOptions requestOptions)"
-  name: "listLatest(RequestOptions requestOptions)"
-  nameWithType: "DatasetsClient.listLatest(RequestOptions requestOptions)"
+- uid: "com.azure.ai.projects.DatasetsClient.listLatestVersion(com.azure.core.http.rest.RequestOptions)"
+  fullName: "com.azure.ai.projects.DatasetsClient.listLatestVersion(RequestOptions requestOptions)"
+  name: "listLatestVersion(RequestOptions requestOptions)"
+  nameWithType: "DatasetsClient.listLatestVersion(RequestOptions requestOptions)"
   summary: "List the latest version of each Dataset<wbr>Version."
   parameters:
   - description: "The options to configure the HTTP request before HTTP client sends it."
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public PagedIterable<BinaryData> listLatest(RequestOptions requestOptions)"
+  syntax: "public PagedIterable<BinaryData> listLatestVersion(RequestOptions requestOptions)"
   desc: "List the latest version of each DatasetVersion.\n\n**Response Body Schema**\n\n```java\n{\n     type: String(uri_file/uri_folder) (Required)\n     dataUri: String (Optional, Required on create)\n     isReference: Boolean (Optional)\n     connectionName: String (Optional)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```"
   returns:
     description: "paged collection of DatasetVersion items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
@@ -318,4 +318,4 @@ type: "class"
 desc: "Initializes a new instance of the synchronous AIProjectClient type."
 metadata: {}
 package: "com.azure.ai.projects"
-artifact: com.azure:azure-ai-projects:1.0.0-beta.3
+artifact: com.azure:azure-ai-projects:2.0.0-beta.1

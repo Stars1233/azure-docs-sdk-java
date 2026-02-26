@@ -74,11 +74,11 @@ methods:
   name: "getCreatedAt()"
   nameWithType: "EvaluatorVersion.getCreatedAt()"
   summary: "Get the created<wbr>At property: Creation date/time of the evaluator."
-  syntax: "public long getCreatedAt()"
+  syntax: "public OffsetDateTime getCreatedAt()"
   desc: "Get the createdAt property: Creation date/time of the evaluator."
   returns:
     description: "the createdAt value."
-    type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
 - uid: "com.azure.ai.projects.models.EvaluatorVersion.getCreatedBy()"
   fullName: "com.azure.ai.projects.models.EvaluatorVersion.getCreatedBy()"
   name: "getCreatedBy()"
@@ -154,11 +154,11 @@ methods:
   name: "getModifiedAt()"
   nameWithType: "EvaluatorVersion.getModifiedAt()"
   summary: "Get the modified<wbr>At property: Last modified date/time of the evaluator."
-  syntax: "public long getModifiedAt()"
+  syntax: "public OffsetDateTime getModifiedAt()"
   desc: "Get the modifiedAt property: Last modified date/time of the evaluator."
   returns:
     description: "the modifiedAt value."
-    type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
 - uid: "com.azure.ai.projects.models.EvaluatorVersion.getName()"
   fullName: "com.azure.ai.projects.models.EvaluatorVersion.getName()"
   name: "getName()"
@@ -263,4 +263,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.projects.models.EvaluatorVersion?alt=com.azure.ai.projects.models.EvaluatorVersion&text=EvaluatorVersion\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.projects.models"
-artifact: com.azure:azure-ai-projects:1.0.0-beta.3
+artifact: com.azure:azure-ai-projects:2.0.0-beta.1

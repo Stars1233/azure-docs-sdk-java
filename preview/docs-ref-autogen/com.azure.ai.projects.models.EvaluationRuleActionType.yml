@@ -50,18 +50,18 @@ fields:
     type: "<xref href=\"com.azure.ai.projects.models.EvaluationRuleActionType?alt=com.azure.ai.projects.models.EvaluationRuleActionType&text=EvaluationRuleActionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final EvaluationRuleActionType CONTINUOUS_EVALUATION"
   desc: "Continuous evaluation."
-- uid: "com.azure.ai.projects.models.EvaluationRuleActionType.HUMAN_EVALUATION"
-  fullName: "com.azure.ai.projects.models.EvaluationRuleActionType.HUMAN_EVALUATION"
-  name: "HUMAN_EVALUATION"
-  nameWithType: "EvaluationRuleActionType.HUMAN_EVALUATION"
-  summary: "Human evaluation."
+- uid: "com.azure.ai.projects.models.EvaluationRuleActionType.HUMAN_EVALUATION_PREVIEW"
+  fullName: "com.azure.ai.projects.models.EvaluationRuleActionType.HUMAN_EVALUATION_PREVIEW"
+  name: "HUMAN_EVALUATION_PREVIEW"
+  nameWithType: "EvaluationRuleActionType.HUMAN_EVALUATION_PREVIEW"
+  summary: "Human evaluation preview."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.ai.projects.models.EvaluationRuleActionType?alt=com.azure.ai.projects.models.EvaluationRuleActionType&text=EvaluationRuleActionType\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static final EvaluationRuleActionType HUMAN_EVALUATION"
-  desc: "Human evaluation."
+  syntax: "public static final EvaluationRuleActionType HUMAN_EVALUATION_PREVIEW"
+  desc: "Human evaluation preview."
 methods:
 - uid: "com.azure.ai.projects.models.EvaluationRuleActionType.fromString(java.lang.String)"
   fullName: "com.azure.ai.projects.models.EvaluationRuleActionType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Type of the evaluation action."
 metadata: {}
 package: "com.azure.ai.projects.models"
-artifact: com.azure:azure-ai-projects:1.0.0-beta.3
+artifact: com.azure:azure-ai-projects:2.0.0-beta.1

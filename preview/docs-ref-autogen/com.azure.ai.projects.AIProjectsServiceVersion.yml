@@ -31,24 +31,12 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public enum **AIProjectsServiceVersion**</br> extends <a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html\">Enum</a>&lt;<xref href=\"com.azure.ai.projects.AIProjectsServiceVersion?alt=com.azure.ai.projects.AIProjectsServiceVersion&text=AIProjectsServiceVersion\" data-throw-if-not-resolved=\"False\" />&gt;</br> implements <xref href=\"com.azure.core.util.ServiceVersion?alt=com.azure.core.util.ServiceVersion&text=ServiceVersion\" data-throw-if-not-resolved=\"False\" />"
 fields:
-- uid: "com.azure.ai.projects.AIProjectsServiceVersion.V2025_05_01"
-  fullName: "com.azure.ai.projects.AIProjectsServiceVersion.V2025_05_01"
-  name: "V2025_05_01"
-  nameWithType: "AIProjectsServiceVersion.V2025_05_01"
-  summary: "Enum value 2025-05-01."
-  desc: "Enum value 2025-05-01."
-- uid: "com.azure.ai.projects.AIProjectsServiceVersion.V2025_05_15_PREVIEW"
-  fullName: "com.azure.ai.projects.AIProjectsServiceVersion.V2025_05_15_PREVIEW"
-  name: "V2025_05_15_PREVIEW"
-  nameWithType: "AIProjectsServiceVersion.V2025_05_15_PREVIEW"
-  summary: "Enum value 2025-05-15-preview."
-  desc: "Enum value 2025-05-15-preview."
-- uid: "com.azure.ai.projects.AIProjectsServiceVersion.V2025_11_15_PREVIEW"
-  fullName: "com.azure.ai.projects.AIProjectsServiceVersion.V2025_11_15_PREVIEW"
-  name: "V2025_11_15_PREVIEW"
-  nameWithType: "AIProjectsServiceVersion.V2025_11_15_PREVIEW"
-  summary: "Enum value 2025-11-15-preview."
-  desc: "Enum value 2025-11-15-preview."
+- uid: "com.azure.ai.projects.AIProjectsServiceVersion.V1"
+  fullName: "com.azure.ai.projects.AIProjectsServiceVersion.V1"
+  name: "V1"
+  nameWithType: "AIProjectsServiceVersion.V1"
+  summary: "Enum value v1."
+  desc: "Enum value v1."
 methods:
 - uid: "com.azure.ai.projects.AIProjectsServiceVersion.getLatest()"
   fullName: "com.azure.ai.projects.AIProjectsServiceVersion.getLatest()"
@@ -95,4 +83,4 @@ implements:
 - "<xref href=\"com.azure.core.util.ServiceVersion?alt=com.azure.core.util.ServiceVersion&text=ServiceVersion\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.ai.projects"
-artifact: com.azure:azure-ai-projects:1.0.0-beta.3
+artifact: com.azure:azure-ai-projects:2.0.0-beta.1

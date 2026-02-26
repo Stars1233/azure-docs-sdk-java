@@ -38,17 +38,17 @@ constructors:
   desc: "Creates a new instance of AttackStrategy value."
   hasDeprecatedTag: true
 fields:
-- uid: "com.azure.ai.projects.models.AttackStrategy.ANSII_ATTACK"
-  fullName: "com.azure.ai.projects.models.AttackStrategy.ANSII_ATTACK"
-  name: "ANSII_ATTACK"
-  nameWithType: "AttackStrategy.ANSII_ATTACK"
+- uid: "com.azure.ai.projects.models.AttackStrategy.ANSI_ATTACK"
+  fullName: "com.azure.ai.projects.models.AttackStrategy.ANSI_ATTACK"
+  name: "ANSI_ATTACK"
+  nameWithType: "AttackStrategy.ANSI_ATTACK"
   summary: "Utilizes ANSI escape sequences to manipulate text appearance and behavior."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.ai.projects.models.AttackStrategy?alt=com.azure.ai.projects.models.AttackStrategy&text=AttackStrategy\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static final AttackStrategy ANSII_ATTACK"
+  syntax: "public static final AttackStrategy ANSI_ATTACK"
   desc: "Utilizes ANSI escape sequences to manipulate text appearance and behavior."
 - uid: "com.azure.ai.projects.models.AttackStrategy.ASCII_ART"
   fullName: "com.azure.ai.projects.models.AttackStrategy.ASCII_ART"
@@ -407,4 +407,4 @@ type: "class"
 desc: "Strategies for attacks."
 metadata: {}
 package: "com.azure.ai.projects.models"
-artifact: com.azure:azure-ai-projects:1.0.0-beta.3
+artifact: com.azure:azure-ai-projects:2.0.0-beta.1

@@ -3,16 +3,10 @@ uid: "com.azure.ai.agents.models.WebSearchActionSearch"
 fullName: "com.azure.ai.agents.models.WebSearchActionSearch"
 name: "WebSearchActionSearch"
 nameWithType: "WebSearchActionSearch"
-summary: "Action type \"search\" - Performs a web search query."
+summary: "Search action Action type \"search\" - Performs a web search query."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.azure.ai.agents.models.WebSearchAction?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
-- classRef: "<xref href=\"com.azure.ai.agents.models.WebSearchAction?alt=com.azure.ai.agents.models.WebSearchAction&text=WebSearchAction\" data-throw-if-not-resolved=\"False\" />"
-  methodsRef:
-  - "<xref href=\"com.azure.ai.agents.models.WebSearchAction.fromJson(com.azure.json.JsonReader)?alt=com.azure.ai.agents.models.WebSearchAction.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.ai.agents.models.WebSearchAction.getType()?alt=com.azure.ai.agents.models.WebSearchAction.getType&text=getType\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.ai.agents.models.WebSearchAction.toJson(com.azure.json.JsonWriter)?alt=com.azure.ai.agents.models.WebSearchAction.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -26,7 +20,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **WebSearchActionSearch**</br> extends <xref href=\"com.azure.ai.agents.models.WebSearchAction?alt=com.azure.ai.agents.models.WebSearchAction&text=WebSearchAction\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public final class **WebSearchActionSearch**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.WebSearchActionSearch?alt=com.azure.ai.agents.models.WebSearchActionSearch&text=WebSearchActionSearch\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.ai.agents.models.WebSearchActionSearch.WebSearchActionSearch(java.lang.String)"
   fullName: "com.azure.ai.agents.models.WebSearchActionSearch.WebSearchActionSearch(String query)"
@@ -59,13 +53,23 @@ methods:
   returns:
     description: "An instance of WebSearchActionSearch if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
     type: "<xref href=\"com.azure.ai.agents.models.WebSearchActionSearch?alt=com.azure.ai.agents.models.WebSearchActionSearch&text=WebSearchActionSearch\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.WebSearchActionSearch.getQueries()"
+  fullName: "com.azure.ai.agents.models.WebSearchActionSearch.getQueries()"
+  name: "getQueries()"
+  nameWithType: "WebSearchActionSearch.getQueries()"
+  summary: "Get the queries property: Search queries The search queries."
+  syntax: "public List<String> getQueries()"
+  desc: "Get the queries property: Search queries The search queries."
+  returns:
+    description: "the queries value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.ai.agents.models.WebSearchActionSearch.getQuery()"
   fullName: "com.azure.ai.agents.models.WebSearchActionSearch.getQuery()"
   name: "getQuery()"
   nameWithType: "WebSearchActionSearch.getQuery()"
-  summary: "Get the query property: The search query."
+  summary: "Get the query property: \\[DEPRECATED\\] The search query."
   syntax: "public String getQuery()"
-  desc: "Get the query property: The search query."
+  desc: "Get the query property: \\[DEPRECATED\\] The search query."
   returns:
     description: "the query value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -83,13 +87,26 @@ methods:
   fullName: "com.azure.ai.agents.models.WebSearchActionSearch.getType()"
   name: "getType()"
   nameWithType: "WebSearchActionSearch.getType()"
-  summary: "Get the type property: The type property."
-  overridden: "com.azure.ai.agents.models.WebSearchAction.getType()"
-  syntax: "public WebSearchActionType getType()"
-  desc: "Get the type property: The type property."
+  summary: "Get the type property: The action type."
+  syntax: "public String getType()"
+  desc: "Get the type property: The action type."
   returns:
     description: "the type value."
-    type: "<xref href=\"com.azure.ai.agents.models.WebSearchActionType?alt=com.azure.ai.agents.models.WebSearchActionType&text=WebSearchActionType\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.ai.agents.models.WebSearchActionSearch.setQueries(java.util.List<java.lang.String>)"
+  fullName: "com.azure.ai.agents.models.WebSearchActionSearch.setQueries(List<String> queries)"
+  name: "setQueries(List<String> queries)"
+  nameWithType: "WebSearchActionSearch.setQueries(List<String> queries)"
+  summary: "Set the queries property: Search queries The search queries."
+  parameters:
+  - description: "the queries value to set."
+    name: "queries"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public WebSearchActionSearch setQueries(List<String> queries)"
+  desc: "Set the queries property: Search queries The search queries."
+  returns:
+    description: "the WebSearchActionSearch object itself."
+    type: "<xref href=\"com.azure.ai.agents.models.WebSearchActionSearch?alt=com.azure.ai.agents.models.WebSearchActionSearch&text=WebSearchActionSearch\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.WebSearchActionSearch.setSources(java.util.List<com.azure.ai.agents.models.WebSearchActionSearchSources>)"
   fullName: "com.azure.ai.agents.models.WebSearchActionSearch.setSources(List<WebSearchActionSearchSources> sources)"
   name: "setSources(List<WebSearchActionSearchSources> sources)"
@@ -108,7 +125,6 @@ methods:
   fullName: "com.azure.ai.agents.models.WebSearchActionSearch.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
   nameWithType: "WebSearchActionSearch.toJson(JsonWriter jsonWriter)"
-  overridden: "com.azure.ai.agents.models.WebSearchAction.toJson(com.azure.json.JsonWriter)"
   parameters:
   - name: "jsonWriter"
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
@@ -118,7 +134,9 @@ methods:
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "Action type \"search\" - Performs a web search query."
+desc: "Search action Action type \"search\" - Performs a web search query."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.WebSearchActionSearch?alt=com.azure.ai.agents.models.WebSearchActionSearch&text=WebSearchActionSearch\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:1.0.0-beta.1
+artifact: com.azure:azure-ai-agents:2.0.0-beta.1

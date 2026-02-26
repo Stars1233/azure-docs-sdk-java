@@ -28,16 +28,16 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **OneTimeTrigger**</br> extends <xref href=\"com.azure.ai.projects.models.Trigger?alt=com.azure.ai.projects.models.Trigger&text=Trigger\" data-throw-if-not-resolved=\"False\" />"
 constructors:
-- uid: "com.azure.ai.projects.models.OneTimeTrigger.OneTimeTrigger(java.lang.String)"
-  fullName: "com.azure.ai.projects.models.OneTimeTrigger.OneTimeTrigger(String triggerAt)"
-  name: "OneTimeTrigger(String triggerAt)"
-  nameWithType: "OneTimeTrigger.OneTimeTrigger(String triggerAt)"
+- uid: "com.azure.ai.projects.models.OneTimeTrigger.OneTimeTrigger(java.time.OffsetDateTime)"
+  fullName: "com.azure.ai.projects.models.OneTimeTrigger.OneTimeTrigger(OffsetDateTime triggerAt)"
+  name: "OneTimeTrigger(OffsetDateTime triggerAt)"
+  nameWithType: "OneTimeTrigger.OneTimeTrigger(OffsetDateTime triggerAt)"
   summary: "Creates an instance of One<wbr>Time<wbr>Trigger class."
   parameters:
   - description: "the triggerAt value to set."
     name: "triggerAt"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public OneTimeTrigger(String triggerAt)"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+  syntax: "public OneTimeTrigger(OffsetDateTime triggerAt)"
   desc: "Creates an instance of OneTimeTrigger class."
 methods:
 - uid: "com.azure.ai.projects.models.OneTimeTrigger.fromJson(com.azure.json.JsonReader)"
@@ -74,11 +74,11 @@ methods:
   name: "getTriggerAt()"
   nameWithType: "OneTimeTrigger.getTriggerAt()"
   summary: "Get the trigger<wbr>At property: Date and time for the one-time trigger in ISO 8601 format."
-  syntax: "public String getTriggerAt()"
+  syntax: "public OffsetDateTime getTriggerAt()"
   desc: "Get the triggerAt property: Date and time for the one-time trigger in ISO 8601 format."
   returns:
     description: "the triggerAt value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
 - uid: "com.azure.ai.projects.models.OneTimeTrigger.getType()"
   fullName: "com.azure.ai.projects.models.OneTimeTrigger.getType()"
   name: "getType()"
@@ -121,4 +121,4 @@ type: "class"
 desc: "One-time trigger."
 metadata: {}
 package: "com.azure.ai.projects.models"
-artifact: com.azure:azure-ai-projects:1.0.0-beta.3
+artifact: com.azure:azure-ai-projects:2.0.0-beta.1
