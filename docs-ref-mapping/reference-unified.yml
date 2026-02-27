@@ -184,6 +184,19 @@
         - com.azure.resourcemanager.arizeaiobservabilityeval.fluent
         - com.azure.resourcemanager.arizeaiobservabilityeval.fluent.models
         - com.azure.resourcemanager.arizeaiobservabilityeval.models
+  - name: Artifact Signing
+    href: ~/docs-ref-services/{moniker}/artifact-signing.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Artifact Signing
+        href: ~/docs-ref-services/{moniker}/resourcemanager-artifactsigning-readme.md
+        children:
+        - com.azure.resourcemanager.artifactsigning
+        - com.azure.resourcemanager.artifactsigning.fluent
+        - com.azure.resourcemanager.artifactsigning.fluent.models
+        - com.azure.resourcemanager.artifactsigning.models
   - name: Astro
     href: ~/docs-ref-services/{moniker}/astro.md
     landingPageType: Service
@@ -567,6 +580,11 @@
       children:
       - com.azure.ai.vision.imageanalysis
       - com.azure.ai.vision.imageanalysis.models
+    - name: Voice Live
+      href: ~/docs-ref-services/{moniker}/ai-voicelive-readme.md
+      children:
+      - com.azure.ai.voicelive
+      - com.azure.ai.voicelive.models
     - name: Computer Vision (deprecated)
       href: ~/docs-ref-services/{moniker}/cognitiveservices-computervision-readme.md
       children:
@@ -1504,6 +1522,19 @@
         href: ~/docs-ref-services/{moniker}/mgmt-digitaltwins-readme.md
         children:
         - com.microsoft.azure.management.digitaltwins.v2020_12_01
+  - name: Disconnected Operations
+    href: ~/docs-ref-services/{moniker}/disconnected-operations.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Disconnected Operations
+        href: ~/docs-ref-services/{moniker}/resourcemanager-disconnectedoperations-readme.md
+        children:
+        - com.azure.resourcemanager.disconnectedoperations
+        - com.azure.resourcemanager.disconnectedoperations.fluent
+        - com.azure.resourcemanager.disconnectedoperations.fluent.models
+        - com.azure.resourcemanager.disconnectedoperations.models
   - name: DNS
     href: ~/docs-ref-services/{moniker}/dns.md
     landingPageType: Service
@@ -1564,6 +1595,19 @@
         - com.azure.resourcemanager.dynatrace.fluent
         - com.azure.resourcemanager.dynatrace.fluent.models
         - com.azure.resourcemanager.dynatrace.models
+  - name: Edge Actions
+    href: ~/docs-ref-services/{moniker}/edge-actions.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Edge Actions
+        href: ~/docs-ref-services/{moniker}/resourcemanager-edgeactions-readme.md
+        children:
+        - com.azure.resourcemanager.edgeactions
+        - com.azure.resourcemanager.edgeactions.fluent
+        - com.azure.resourcemanager.edgeactions.fluent.models
+        - com.azure.resourcemanager.edgeactions.models
   - name: Edge Gateway
     landingPageType: Service
     items:
@@ -2572,6 +2616,19 @@
         - com.azure.resourcemanager.managednetworkfabric.fluent
         - com.azure.resourcemanager.managednetworkfabric.fluent.models
         - com.azure.resourcemanager.managednetworkfabric.models
+  - name: Managed Ops
+    href: ~/docs-ref-services/{moniker}/managed-ops.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Managed Ops
+        href: ~/docs-ref-services/{moniker}/resourcemanager-managedops-readme.md
+        children:
+        - com.azure.resourcemanager.managedops
+        - com.azure.resourcemanager.managedops.fluent
+        - com.azure.resourcemanager.managedops.fluent.models
+        - com.azure.resourcemanager.managedops.models
   - name: Managed Service Identity
     href: ~/docs-ref-services/{moniker}/managed-service-identity.md
     landingPageType: Service
@@ -2998,6 +3055,15 @@
         - com.azure.resourcemanager.notificationhubs.fluent
         - com.azure.resourcemanager.notificationhubs.fluent.models
         - com.azure.resourcemanager.notificationhubs.models
+  - name: Online Experimentation
+    href: ~/docs-ref-services/{moniker}/online-experimentation.md
+    landingPageType: Service
+    items:
+    - name: Online Experimentation
+      href: ~/docs-ref-services/{moniker}/analytics-onlineexperimentation-readme.md
+      children:
+      - com.azure.analytics.onlineexperimentation
+      - com.azure.analytics.onlineexperimentation.models
   - name: Onlineexperimentation
     href: ~/docs-ref-services/{moniker}/onlineexperimentation.md
     landingPageType: Service
@@ -3504,12 +3570,6 @@
         - com.azure.resourcemanager.resourcehealth.fluent.models
         - com.azure.resourcemanager.resourcehealth.models
   - name: Resource Mover
-    landingPageType: Service
-    items:
-    - name: Resource Management
-      children:
-      - com.microsoft.azure.management.resourcemover.v2021_01_01*
-  - name: Resource Mover
     href: ~/docs-ref-services/{moniker}/resource-mover.md
     landingPageType: Service
     items:
@@ -3526,6 +3586,12 @@
         - com.azure.resourcemanager.resourcemover.fluent
         - com.azure.resourcemanager.resourcemover.fluent.models
         - com.azure.resourcemanager.resourcemover.models
+  - name: Resource Mover
+    landingPageType: Service
+    items:
+    - name: Resource Management
+      children:
+      - com.microsoft.azure.management.resourcemover.v2021_01_01*
   - name: Resources
     href: ~/docs-ref-services/{moniker}/resources.md
     landingPageType: Service
@@ -4240,50 +4306,6 @@
         - com.azure.resourcemanager.trustedsigning.fluent
         - com.azure.resourcemanager.trustedsigning.fluent.models
         - com.azure.resourcemanager.trustedsigning.models
-  - name: unknown
-    href: ~/docs-ref-services/{moniker}/unknown.md
-    landingPageType: Service
-    items:
-    - name: unknown
-      href: ~/docs-ref-services/{moniker}/ai-voicelive-readme.md
-      children:
-      - com.azure.ai.voicelive
-      - com.azure.ai.voicelive.models
-    - name: unknown
-      href: ~/docs-ref-services/{moniker}/analytics-onlineexperimentation-readme.md
-      children:
-      - com.azure.analytics.onlineexperimentation
-      - com.azure.analytics.onlineexperimentation.models
-    - name: Management
-      items:
-      - name: unknown
-        href: ~/docs-ref-services/{moniker}/resourcemanager-artifactsigning-readme.md
-        children:
-        - com.azure.resourcemanager.artifactsigning
-        - com.azure.resourcemanager.artifactsigning.fluent
-        - com.azure.resourcemanager.artifactsigning.fluent.models
-        - com.azure.resourcemanager.artifactsigning.models
-      - name: unknown
-        href: ~/docs-ref-services/{moniker}/resourcemanager-disconnectedoperations-readme.md
-        children:
-        - com.azure.resourcemanager.disconnectedoperations
-        - com.azure.resourcemanager.disconnectedoperations.fluent
-        - com.azure.resourcemanager.disconnectedoperations.fluent.models
-        - com.azure.resourcemanager.disconnectedoperations.models
-      - name: unknown
-        href: ~/docs-ref-services/{moniker}/resourcemanager-edgeactions-readme.md
-        children:
-        - com.azure.resourcemanager.edgeactions
-        - com.azure.resourcemanager.edgeactions.fluent
-        - com.azure.resourcemanager.edgeactions.fluent.models
-        - com.azure.resourcemanager.edgeactions.models
-      - name: unknown
-        href: ~/docs-ref-services/{moniker}/resourcemanager-managedops-readme.md
-        children:
-        - com.azure.resourcemanager.managedops
-        - com.azure.resourcemanager.managedops.fluent
-        - com.azure.resourcemanager.managedops.fluent.models
-        - com.azure.resourcemanager.managedops.models
   - name: Video Analyzer
     href: ~/docs-ref-services/{moniker}/video-analyzer.md
     landingPageType: Service
