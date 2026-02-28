@@ -409,6 +409,11 @@
       children:
       - com.azure.ai.vision.imageanalysis
       - com.azure.ai.vision.imageanalysis.models
+    - name: Voice Live
+      href: ~/docs-ref-services/preview/ai-voicelive-readme.md
+      children:
+      - com.azure.ai.voicelive
+      - com.azure.ai.voicelive.models
     - name: Health Insights Cancer Profiling
       href: ~/docs-ref-services/preview/health-insights-cancerprofiling-readme.md
       children:
@@ -1120,6 +1125,19 @@
         - com.azure.resourcemanager.devtestlabs.fluent
         - com.azure.resourcemanager.devtestlabs.fluent.models
         - com.azure.resourcemanager.devtestlabs.models
+  - name: Disconnected Operations
+    href: ~/docs-ref-services/preview/disconnected-operations.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Disconnected Operations
+        href: ~/docs-ref-services/preview/resourcemanager-disconnectedoperations-readme.md
+        children:
+        - com.azure.resourcemanager.disconnectedoperations
+        - com.azure.resourcemanager.disconnectedoperations.fluent
+        - com.azure.resourcemanager.disconnectedoperations.fluent.models
+        - com.azure.resourcemanager.disconnectedoperations.models
   - name: DNS
     href: ~/docs-ref-services/preview/dns.md
     landingPageType: Service
@@ -1176,6 +1194,19 @@
         - com.azure.resourcemanager.dynatrace.fluent
         - com.azure.resourcemanager.dynatrace.fluent.models
         - com.azure.resourcemanager.dynatrace.models
+  - name: Edge Actions
+    href: ~/docs-ref-services/preview/edge-actions.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Edge Actions
+        href: ~/docs-ref-services/preview/resourcemanager-edgeactions-readme.md
+        children:
+        - com.azure.resourcemanager.edgeactions
+        - com.azure.resourcemanager.edgeactions.fluent
+        - com.azure.resourcemanager.edgeactions.fluent.models
+        - com.azure.resourcemanager.edgeactions.models
   - name: Edge Order
     href: ~/docs-ref-services/preview/edge-order.md
     landingPageType: Service
@@ -1919,6 +1950,19 @@
         - com.azure.resourcemanager.managedapplications.fluent
         - com.azure.resourcemanager.managedapplications.fluent.models
         - com.azure.resourcemanager.managedapplications.models
+  - name: Managed Ops
+    href: ~/docs-ref-services/preview/managed-ops.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Managed Ops
+        href: ~/docs-ref-services/preview/resourcemanager-managedops-readme.md
+        children:
+        - com.azure.resourcemanager.managedops
+        - com.azure.resourcemanager.managedops.fluent
+        - com.azure.resourcemanager.managedops.fluent.models
+        - com.azure.resourcemanager.managedops.models
   - name: Management Groups
     href: ~/docs-ref-services/preview/management-groups.md
     landingPageType: Service
@@ -2228,6 +2272,15 @@
         - com.azure.resourcemanager.notificationhubs.fluent
         - com.azure.resourcemanager.notificationhubs.fluent.models
         - com.azure.resourcemanager.notificationhubs.models
+  - name: Online Experimentation
+    href: ~/docs-ref-services/preview/online-experimentation.md
+    landingPageType: Service
+    items:
+    - name: Online Experimentation
+      href: ~/docs-ref-services/preview/analytics-onlineexperimentation-readme.md
+      children:
+      - com.azure.analytics.onlineexperimentation
+      - com.azure.analytics.onlineexperimentation.models
   - name: Onlineexperimentation
     href: ~/docs-ref-services/preview/onlineexperimentation.md
     landingPageType: Service
@@ -3165,43 +3218,6 @@
         - com.azure.resourcemanager.trustedsigning.fluent
         - com.azure.resourcemanager.trustedsigning.fluent.models
         - com.azure.resourcemanager.trustedsigning.models
-  - name: unknown
-    href: ~/docs-ref-services/preview/unknown.md
-    landingPageType: Service
-    items:
-    - name: unknown
-      href: ~/docs-ref-services/preview/ai-voicelive-readme.md
-      children:
-      - com.azure.ai.voicelive
-      - com.azure.ai.voicelive.models
-    - name: unknown
-      href: ~/docs-ref-services/preview/analytics-onlineexperimentation-readme.md
-      children:
-      - com.azure.analytics.onlineexperimentation
-      - com.azure.analytics.onlineexperimentation.models
-    - name: Management
-      items:
-      - name: unknown
-        href: ~/docs-ref-services/preview/resourcemanager-disconnectedoperations-readme.md
-        children:
-        - com.azure.resourcemanager.disconnectedoperations
-        - com.azure.resourcemanager.disconnectedoperations.fluent
-        - com.azure.resourcemanager.disconnectedoperations.fluent.models
-        - com.azure.resourcemanager.disconnectedoperations.models
-      - name: unknown
-        href: ~/docs-ref-services/preview/resourcemanager-edgeactions-readme.md
-        children:
-        - com.azure.resourcemanager.edgeactions
-        - com.azure.resourcemanager.edgeactions.fluent
-        - com.azure.resourcemanager.edgeactions.fluent.models
-        - com.azure.resourcemanager.edgeactions.models
-      - name: unknown
-        href: ~/docs-ref-services/preview/resourcemanager-managedops-readme.md
-        children:
-        - com.azure.resourcemanager.managedops
-        - com.azure.resourcemanager.managedops.fluent
-        - com.azure.resourcemanager.managedops.fluent.models
-        - com.azure.resourcemanager.managedops.models
   - name: VMware Solution by CloudSimple
     href: ~/docs-ref-services/preview/vmware-solution-by-cloudsimple.md
     landingPageType: Service

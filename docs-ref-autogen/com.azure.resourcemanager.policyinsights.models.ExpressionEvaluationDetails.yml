@@ -7,19 +7,19 @@ summary: "Evaluation details of policy language expressions."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
-- classRef: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
-  - "<xref href=\"java.lang.Object.clone()?alt=java.lang.Object.clone&text=clone\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"java.lang.Object.equals(java.lang.Object)?alt=java.lang.Object.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"java.lang.Object.finalize()?alt=java.lang.Object.finalize&text=finalize\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"java.lang.Object.getClass()?alt=java.lang.Object.getClass&text=getClass\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"java.lang.Object.hashCode()?alt=java.lang.Object.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"java.lang.Object.notify()?alt=java.lang.Object.notify&text=notify\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"java.lang.Object.notifyAll()?alt=java.lang.Object.notifyAll&text=notifyAll\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"java.lang.Object.toString()?alt=java.lang.Object.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ExpressionEvaluationDetails**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.policyinsights.models.ExpressionEvaluationDetails?alt=com.azure.resourcemanager.policyinsights.models.ExpressionEvaluationDetails&text=ExpressionEvaluationDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.resourcemanager.policyinsights.models.ExpressionEvaluationDetails.ExpressionEvaluationDetails()"
@@ -39,7 +39,7 @@ methods:
   desc: "Get the expression property: Expression evaluated."
   returns:
     description: "the expression value."
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.policyinsights.models.ExpressionEvaluationDetails.expressionKind()"
   fullName: "com.azure.resourcemanager.policyinsights.models.ExpressionEvaluationDetails.expressionKind()"
   name: "expressionKind()"
@@ -49,7 +49,7 @@ methods:
   desc: "Get the expressionKind property: The kind of expression that was evaluated."
   returns:
     description: "the expressionKind value."
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.policyinsights.models.ExpressionEvaluationDetails.expressionValue()"
   fullName: "com.azure.resourcemanager.policyinsights.models.ExpressionEvaluationDetails.expressionValue()"
   name: "expressionValue()"
@@ -59,7 +59,7 @@ methods:
   desc: "Get the expressionValue property: Value of the expression."
   returns:
     description: "the expressionValue value."
-    type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
 - uid: "com.azure.resourcemanager.policyinsights.models.ExpressionEvaluationDetails.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.policyinsights.models.ExpressionEvaluationDetails.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -74,7 +74,7 @@ methods:
   syntax: "public static ExpressionEvaluationDetails fromJson(JsonReader jsonReader)"
   exceptions:
   - description: "If an error occurs while reading the ExpressionEvaluationDetails."
-    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   desc: "Reads an instance of ExpressionEvaluationDetails from the JsonReader."
   returns:
     description: "An instance of ExpressionEvaluationDetails if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
@@ -88,7 +88,7 @@ methods:
   desc: "Get the operator property: Operator to compare the expression value and the target value."
   returns:
     description: "the operator value."
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.policyinsights.models.ExpressionEvaluationDetails.path()"
   fullName: "com.azure.resourcemanager.policyinsights.models.ExpressionEvaluationDetails.path()"
   name: "path()"
@@ -98,7 +98,7 @@ methods:
   desc: "Get the path property: Property path if the expression is a field or an alias."
   returns:
     description: "the path value."
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.policyinsights.models.ExpressionEvaluationDetails.result()"
   fullName: "com.azure.resourcemanager.policyinsights.models.ExpressionEvaluationDetails.result()"
   name: "result()"
@@ -108,7 +108,7 @@ methods:
   desc: "Get the result property: Evaluation result."
   returns:
     description: "the result value."
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.policyinsights.models.ExpressionEvaluationDetails.targetValue()"
   fullName: "com.azure.resourcemanager.policyinsights.models.ExpressionEvaluationDetails.targetValue()"
   name: "targetValue()"
@@ -118,7 +118,7 @@ methods:
   desc: "Get the targetValue property: Target value to be compared with the expression value."
   returns:
     description: "the targetValue value."
-    type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
 - uid: "com.azure.resourcemanager.policyinsights.models.ExpressionEvaluationDetails.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.policyinsights.models.ExpressionEvaluationDetails.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -128,7 +128,7 @@ methods:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.policyinsights.models.ExpressionEvaluationDetails.validate()"
@@ -146,7 +146,7 @@ methods:
   parameters:
   - description: "the expression value to set."
     name: "expression"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public ExpressionEvaluationDetails withExpression(String expression)"
   desc: "Set the expression property: Expression evaluated."
   returns:
@@ -160,7 +160,7 @@ methods:
   parameters:
   - description: "the expressionValue value to set."
     name: "expressionValue"
-    type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   syntax: "public ExpressionEvaluationDetails withExpressionValue(Object expressionValue)"
   desc: "Set the expressionValue property: Value of the expression."
   returns:
@@ -174,7 +174,7 @@ methods:
   parameters:
   - description: "the operator value to set."
     name: "operator"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public ExpressionEvaluationDetails withOperator(String operator)"
   desc: "Set the operator property: Operator to compare the expression value and the target value."
   returns:
@@ -188,7 +188,7 @@ methods:
   parameters:
   - description: "the path value to set."
     name: "path"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public ExpressionEvaluationDetails withPath(String path)"
   desc: "Set the path property: Property path if the expression is a field or an alias."
   returns:
@@ -202,7 +202,7 @@ methods:
   parameters:
   - description: "the result value to set."
     name: "result"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public ExpressionEvaluationDetails withResult(String result)"
   desc: "Set the result property: Evaluation result."
   returns:
@@ -216,7 +216,7 @@ methods:
   parameters:
   - description: "the targetValue value to set."
     name: "targetValue"
-    type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   syntax: "public ExpressionEvaluationDetails withTargetValue(Object targetValue)"
   desc: "Set the targetValue property: Target value to be compared with the expression value."
   returns:
