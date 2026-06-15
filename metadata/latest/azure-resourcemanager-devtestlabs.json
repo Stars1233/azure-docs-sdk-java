@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-devtestlabs",
-  "Version": "1.1.0",
+  "Version": "1.2.0",
   "DevVersion": null,
   "DirectoryPath": "sdk/devtestlabs/azure-resourcemanager-devtestlabs",
   "ServiceDirectory": "devtestlabs",
@@ -10,19 +10,26 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-devtestlabs",
-  "ReleaseStatus": "2024-12-13",
+  "ReleaseStatus": "2026-06-11",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/devtestlabs/ci.yml"
+    ],
+    "safeName": "azureresourcemanagerdevtestlabs",
     "groupId": "com.azure.resourcemanager",
-    "name": "azure-resourcemanager-devtestlabs",
-    "safeName": "azureresourcemanagerdevtestlabs"
+    "name": "azure-resourcemanager-devtestlabs"
   },
-  "CIMatrixConfigs": [],
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/devtestlabs/resource-manager/Microsoft.DevTestLab/DevTestLabs",
   "Namespaces": [
     "com.azure.resourcemanager.devtestlabs",
     "com.azure.resourcemanager.devtestlabs.fluent",
     "com.azure.resourcemanager.devtestlabs.fluent.models",
     "com.azure.resourcemanager.devtestlabs.models"
-  ]
+  ],
+  "CIMatrixConfigs": []
 }
