@@ -1,0 +1,35 @@
+{
+  "Name": "azure-resourcemanager-resiliencemanagement",
+  "Version": "1.0.0-beta.1",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/azureresiliencemanagement/azure-resourcemanager-resiliencemanagement",
+  "ServiceDirectory": "azureresiliencemanagement",
+  "ReadMePath": "sdk/azureresiliencemanagement/azure-resourcemanager-resiliencemanagement/README.md",
+  "ChangeLogPath": "sdk/azureresiliencemanagement/azure-resourcemanager-resiliencemanagement/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-resiliencemanagement",
+  "ReleaseStatus": "2026-06-15",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-resourcemanager-resiliencemanagement",
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagerresiliencemanagement",
+    "triggeringPaths": [
+      "/sdk/azureresiliencemanagement/ci.yml"
+    ],
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagerresiliencemanagement }}"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/azureresiliencemanagement/resource-manager/Microsoft.AzureResilienceManagement/AzureResilienceManagement",
+  "Namespaces": [
+    "com.azure.resourcemanager.resiliencemanagement",
+    "com.azure.resourcemanager.resiliencemanagement.fluent",
+    "com.azure.resourcemanager.resiliencemanagement.fluent.models",
+    "com.azure.resourcemanager.resiliencemanagement.models"
+  ]
+}
