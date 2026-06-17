@@ -1,0 +1,35 @@
+{
+  "Name": "azure-resourcemanager-chaos",
+  "Version": "1.4.0-beta.1",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/chaos/azure-resourcemanager-chaos",
+  "ServiceDirectory": "chaos",
+  "ReadMePath": "sdk/chaos/azure-resourcemanager-chaos/README.md",
+  "ChangeLogPath": "sdk/chaos/azure-resourcemanager-chaos/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-chaos",
+  "ReleaseStatus": "2026-05-26",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/chaos/ci.yml"
+    ],
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagerchaos",
+    "name": "azure-resourcemanager-chaos",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagerchaos }}"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/chaos/resource-manager/Microsoft.Chaos/Chaos",
+  "Namespaces": [
+    "com.azure.resourcemanager.chaos",
+    "com.azure.resourcemanager.chaos.fluent",
+    "com.azure.resourcemanager.chaos.fluent.models",
+    "com.azure.resourcemanager.chaos.models"
+  ]
+}
