@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-changeanalysis",
-  "Version": "1.1.0",
+  "Version": "1.1.1",
   "DevVersion": null,
   "DirectoryPath": "sdk/changeanalysis/azure-resourcemanager-changeanalysis",
   "ServiceDirectory": "changeanalysis",
@@ -10,15 +10,21 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-changeanalysis",
-  "ReleaseStatus": "2024-12-06",
+  "ReleaseStatus": "2026-06-01",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
     "name": "azure-resourcemanager-changeanalysis",
-    "groupId": "com.azure.resourcemanager",
-    "safeName": "azureresourcemanagerchangeanalysis"
+    "safeName": "azureresourcemanagerchangeanalysis",
+    "triggeringPaths": [
+      "/sdk/changeanalysis/ci.yml"
+    ],
+    "groupId": "com.azure.resourcemanager"
   },
-  "CIMatrixConfigs": [],
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
   "Namespaces": [
     "com.azure.resourcemanager.changeanalysis",
     "com.azure.resourcemanager.changeanalysis.fluent",

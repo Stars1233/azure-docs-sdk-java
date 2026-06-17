@@ -210,6 +210,10 @@
         - com.azure.resourcemanager.artifactsigning.fluent
         - com.azure.resourcemanager.artifactsigning.fluent.models
         - com.azure.resourcemanager.artifactsigning.models
+        - com.azure.resourcemanager.artifactsigning
+        - com.azure.resourcemanager.artifactsigning.fluent
+        - com.azure.resourcemanager.artifactsigning.fluent.models
+        - com.azure.resourcemanager.artifactsigning.models
   - name: Astro
     href: ~/docs-ref-services/{moniker}/astro.md
     landingPageType: Service
@@ -473,6 +477,10 @@
         - com.azure.resourcemanager.chaos.fluent
         - com.azure.resourcemanager.chaos.fluent.models
         - com.azure.resourcemanager.chaos.models
+        - com.azure.resourcemanager.chaos
+        - com.azure.resourcemanager.chaos.fluent
+        - com.azure.resourcemanager.chaos.fluent.models
+        - com.azure.resourcemanager.chaos.models
   - name: Cloud Health
     href: ~/docs-ref-services/{moniker}/cloud-health.md
     landingPageType: Service
@@ -499,8 +507,6 @@
     - name: AI Agents
       href: ~/docs-ref-services/{moniker}/ai-agents-readme.md
       children:
-      - com.azure.ai.agents
-      - com.azure.ai.agents.models
       - com.azure.ai.agents
       - com.azure.ai.agents.models
     - name: AI Agents Persistent
@@ -560,8 +566,6 @@
       children:
       - com.azure.ai.projects
       - com.azure.ai.projects.models
-      - com.azure.ai.projects
-      - com.azure.ai.projects.models
     - name: Text Analytics
       href: ~/docs-ref-services/{moniker}/ai-textanalytics-readme.md
       children:
@@ -578,8 +582,6 @@
       children:
       - com.azure.ai.translation.text
       - com.azure.ai.translation.text.models
-      - com.azure.ai.translation.text
-      - com.azure.ai.translation.text.models
     - name: Face
       href: ~/docs-ref-services/{moniker}/ai-vision-face-readme.md
       children:
@@ -594,6 +596,8 @@
     - name: Voice Live
       href: ~/docs-ref-services/{moniker}/ai-voicelive-readme.md
       children:
+      - com.azure.ai.voicelive
+      - com.azure.ai.voicelive.models
       - com.azure.ai.voicelive
       - com.azure.ai.voicelive.models
     - name: Computer Vision (deprecated)
@@ -2058,6 +2062,19 @@
         - com.azure.resourcemanager.healthcareapis.fluent
         - com.azure.resourcemanager.healthcareapis.fluent.models
         - com.azure.resourcemanager.healthcareapis.models
+  - name: Horizondb
+    href: ~/docs-ref-services/{moniker}/horizondb.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Horizondb
+        href: ~/docs-ref-services/{moniker}/resourcemanager-horizondb-readme.md
+        children:
+        - com.azure.resourcemanager.horizondb
+        - com.azure.resourcemanager.horizondb.fluent
+        - com.azure.resourcemanager.horizondb.fluent.models
+        - com.azure.resourcemanager.horizondb.models
   - name: Hybrid Compute
     href: ~/docs-ref-services/{moniker}/hybrid-compute.md
     landingPageType: Service
@@ -2422,8 +2439,6 @@
       children:
       - com.azure.security.keyvault.secrets
       - com.azure.security.keyvault.secrets.models
-      - com.azure.security.keyvault.secrets
-      - com.azure.security.keyvault.secrets.models
     - name: Management
       items:
       - name: Management - Key Vault (deprecated)
@@ -2718,6 +2733,10 @@
         - com.azure.resourcemanager.msi.fluent
         - com.azure.resourcemanager.msi.fluent.models
         - com.azure.resourcemanager.msi.models
+        - com.azure.resourcemanager.msi
+        - com.azure.resourcemanager.msi.fluent
+        - com.azure.resourcemanager.msi.fluent.models
+        - com.azure.resourcemanager.msi.models
   - name: Management Groups
     href: ~/docs-ref-services/{moniker}/management-groups.md
     landingPageType: Service
@@ -2910,6 +2929,10 @@
         - com.azure.resourcemanager.mongocluster.fluent
         - com.azure.resourcemanager.mongocluster.fluent.models
         - com.azure.resourcemanager.mongocluster.models
+        - com.azure.resourcemanager.mongocluster
+        - com.azure.resourcemanager.mongocluster.fluent
+        - com.azure.resourcemanager.mongocluster.fluent.models
+        - com.azure.resourcemanager.mongocluster.models
   - name: Mongodbatlas
     href: ~/docs-ref-services/{moniker}/mongodbatlas.md
     landingPageType: Service
@@ -2989,6 +3012,19 @@
         - com.azure.resourcemanager.monitor.slis.fluent
         - com.azure.resourcemanager.monitor.slis.fluent.models
         - com.azure.resourcemanager.monitor.slis.models
+  - name: Monitor-Workspaces
+    href: ~/docs-ref-services/{moniker}/monitor-workspaces.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Monitor-Workspaces
+        href: ~/docs-ref-services/{moniker}/resourcemanager-monitor-workspaces-readme.md
+        children:
+        - com.azure.resourcemanager.monitor.workspaces
+        - com.azure.resourcemanager.monitor.workspaces.fluent
+        - com.azure.resourcemanager.monitor.workspaces.fluent.models
+        - com.azure.resourcemanager.monitor.workspaces.models
   - name: MySQL
     href: ~/docs-ref-services/{moniker}/mysql.md
     landingPageType: Service
@@ -3615,6 +3651,19 @@
         - com.azure.resourcemanager.reservations.fluent
         - com.azure.resourcemanager.reservations.fluent.models
         - com.azure.resourcemanager.reservations.models
+  - name: Resiliencemanagement
+    href: ~/docs-ref-services/{moniker}/resiliencemanagement.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resiliencemanagement
+        href: ~/docs-ref-services/{moniker}/resourcemanager-resiliencemanagement-readme.md
+        children:
+        - com.azure.resourcemanager.resiliencemanagement
+        - com.azure.resourcemanager.resiliencemanagement.fluent
+        - com.azure.resourcemanager.resiliencemanagement.fluent.models
+        - com.azure.resourcemanager.resiliencemanagement.models
   - name: Resource Connector
     href: ~/docs-ref-services/{moniker}/resource-connector.md
     landingPageType: Service
@@ -3791,6 +3840,12 @@
       - com.azure.search.documents.knowledgebases
       - com.azure.search.documents.knowledgebases.models
       - com.azure.search.documents.models
+      - com.azure.search.documents
+      - com.azure.search.documents.indexes
+      - com.azure.search.documents.indexes.models
+      - com.azure.search.documents.knowledgebases
+      - com.azure.search.documents.knowledgebases.models
+      - com.azure.search.documents.models
     - name: Management
       items:
       - name: Management - Cognitive Search (deprecated)
@@ -3927,6 +3982,10 @@
       - name: Resource Management - Service Fabric
         href: ~/docs-ref-services/{moniker}/resourcemanager-servicefabric-readme.md
         children:
+        - com.azure.resourcemanager.servicefabric
+        - com.azure.resourcemanager.servicefabric.fluent
+        - com.azure.resourcemanager.servicefabric.fluent.models
+        - com.azure.resourcemanager.servicefabric.models
         - com.azure.resourcemanager.servicefabric
         - com.azure.resourcemanager.servicefabric.fluent
         - com.azure.resourcemanager.servicefabric.fluent.models
@@ -4108,16 +4167,9 @@
       - com.azure.storage.blob.options
       - com.azure.storage.blob.sas
       - com.azure.storage.blob.specialized
-      - com.azure.storage.blob
-      - com.azure.storage.blob.models
-      - com.azure.storage.blob.options
-      - com.azure.storage.blob.sas
-      - com.azure.storage.blob.specialized
     - name: Storage - Blobs Batch
       href: ~/docs-ref-services/{moniker}/storage-blob-batch-readme.md
       children:
-      - com.azure.storage.blob.batch
-      - com.azure.storage.blob.batch.options
       - com.azure.storage.blob.batch
       - com.azure.storage.blob.batch.options
     - name: Storage - Blobs Changefeed
@@ -4128,7 +4180,6 @@
     - name: Storage - Blobs Cryptography
       href: ~/docs-ref-services/{moniker}/storage-blob-cryptography-readme.md
       children:
-      - com.azure.storage.blob.specialized.cryptography
       - com.azure.storage.blob.specialized.cryptography
     - name: Storage - Blobs NIO
       href: ~/docs-ref-services/{moniker}/storage-blob-nio-readme.md
@@ -4142,11 +4193,6 @@
       - com.azure.storage.file.datalake.options
       - com.azure.storage.file.datalake.sas
       - com.azure.storage.file.datalake.specialized
-      - com.azure.storage.file.datalake
-      - com.azure.storage.file.datalake.models
-      - com.azure.storage.file.datalake.options
-      - com.azure.storage.file.datalake.sas
-      - com.azure.storage.file.datalake.specialized
     - name: Storage - Files Share
       href: ~/docs-ref-services/{moniker}/storage-file-share-readme.md
       children:
@@ -4155,17 +4201,9 @@
       - com.azure.storage.file.share.options
       - com.azure.storage.file.share.sas
       - com.azure.storage.file.share.specialized
-      - com.azure.storage.file.share
-      - com.azure.storage.file.share.models
-      - com.azure.storage.file.share.options
-      - com.azure.storage.file.share.sas
-      - com.azure.storage.file.share.specialized
     - name: Storage - Queues
       href: ~/docs-ref-services/{moniker}/storage-queue-readme.md
       children:
-      - com.azure.storage.queue
-      - com.azure.storage.queue.models
-      - com.azure.storage.queue.sas
       - com.azure.storage.queue
       - com.azure.storage.queue.models
       - com.azure.storage.queue.sas
@@ -4385,6 +4423,10 @@
       - name: Resource Management - Traffic Manager
         href: ~/docs-ref-services/{moniker}/resourcemanager-trafficmanager-readme.md
         children:
+        - com.azure.resourcemanager.trafficmanager
+        - com.azure.resourcemanager.trafficmanager.fluent
+        - com.azure.resourcemanager.trafficmanager.fluent.models
+        - com.azure.resourcemanager.trafficmanager.models
         - com.azure.resourcemanager.trafficmanager
         - com.azure.resourcemanager.trafficmanager.fluent
         - com.azure.resourcemanager.trafficmanager.fluent.models
