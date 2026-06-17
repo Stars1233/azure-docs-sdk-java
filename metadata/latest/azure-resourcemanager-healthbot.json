@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-healthbot",
-  "Version": "1.1.0",
+  "Version": "1.2.0",
   "DevVersion": null,
   "DirectoryPath": "sdk/healthbot/azure-resourcemanager-healthbot",
   "ServiceDirectory": "healthbot",
@@ -10,20 +10,21 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-healthbot",
-  "ReleaseStatus": "2025-07-21",
+  "ReleaseStatus": "2026-01-05",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
     "triggeringPaths": [
       "/sdk/healthbot/ci.yml"
     ],
-    "name": "azure-resourcemanager-healthbot",
     "groupId": "com.azure.resourcemanager",
-    "safeName": "azureresourcemanagerhealthbot"
+    "safeName": "azureresourcemanagerhealthbot",
+    "name": "azure-resourcemanager-healthbot"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": "specification/healthbot/HealthBot.Management",
   "Namespaces": [
     "com.azure.resourcemanager.healthbot",
     "com.azure.resourcemanager.healthbot.fluent",
