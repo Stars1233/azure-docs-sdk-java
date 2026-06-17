@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-computefleet",
-  "Version": "1.1.0-beta.2",
+  "Version": "1.1.0-beta.3",
   "DevVersion": null,
   "DirectoryPath": "sdk/computefleet/azure-resourcemanager-computefleet",
   "ServiceDirectory": "computefleet",
@@ -10,21 +10,22 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-computefleet",
-  "ReleaseStatus": "2025-09-23",
+  "ReleaseStatus": "2026-04-29",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "releaseInBatch": "${{ parameters.release_azureresourcemanagercomputefleet }}",
     "triggeringPaths": [
       "/sdk/computefleet/ci.yml"
     ],
+    "safeName": "azureresourcemanagercomputefleet",
     "groupId": "com.azure.resourcemanager",
-    "name": "azure-resourcemanager-computefleet",
-    "safeName": "azureresourcemanagercomputefleet"
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagercomputefleet }}",
+    "name": "azure-resourcemanager-computefleet"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": "specification/azurefleet/resource-manager/Microsoft.AzureFleet/AzureFleet",
   "Namespaces": [
     "com.azure.resourcemanager.computefleet",
     "com.azure.resourcemanager.computefleet.fluent",
