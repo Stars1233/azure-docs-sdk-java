@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-servicefabric",
-  "Version": "1.0.0-beta.5",
+  "Version": "1.1.0-beta.1",
   "DevVersion": null,
   "DirectoryPath": "sdk/servicefabric/azure-resourcemanager-servicefabric",
   "ServiceDirectory": "servicefabric",
@@ -10,14 +10,21 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-servicefabric",
-  "ReleaseStatus": "2024-10-28",
+  "ReleaseStatus": "2026-05-06",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
     "name": "azure-resourcemanager-servicefabric",
-    "groupId": "com.azure.resourcemanager",
-    "safeName": "azureresourcemanagerservicefabric"
+    "triggeringPaths": [
+      "/sdk/servicefabric/ci.yml"
+    ],
+    "safeName": "azureresourcemanagerservicefabric",
+    "groupId": "com.azure.resourcemanager"
   },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/servicefabric/resource-manager/Microsoft.ServiceFabric/ServiceFabric",
   "Namespaces": [
     "com.azure.resourcemanager.servicefabric",
     "com.azure.resourcemanager.servicefabric.fluent",
