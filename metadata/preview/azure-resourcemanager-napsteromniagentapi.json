@@ -1,0 +1,35 @@
+{
+  "Name": "azure-resourcemanager-napsteromniagentapi",
+  "Version": "1.0.0-beta.1",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/napsteromniagentapi/azure-resourcemanager-napsteromniagentapi",
+  "ServiceDirectory": "napsteromniagentapi",
+  "ReadMePath": "sdk/napsteromniagentapi/azure-resourcemanager-napsteromniagentapi/README.md",
+  "ChangeLogPath": "sdk/napsteromniagentapi/azure-resourcemanager-napsteromniagentapi/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-napsteromniagentapi",
+  "ReleaseStatus": "2026-06-11",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "safeName": "azureresourcemanagernapsteromniagentapi",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagernapsteromniagentapi }}",
+    "groupId": "com.azure.resourcemanager",
+    "name": "azure-resourcemanager-napsteromniagentapi",
+    "triggeringPaths": [
+      "/sdk/napsteromniagentapi/ci.yml"
+    ]
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/napster/Napster.CompanionAPI.Management",
+  "Namespaces": [
+    "com.azure.resourcemanager.napsteromniagentapi",
+    "com.azure.resourcemanager.napsteromniagentapi.fluent",
+    "com.azure.resourcemanager.napsteromniagentapi.fluent.models",
+    "com.azure.resourcemanager.napsteromniagentapi.models"
+  ]
+}
