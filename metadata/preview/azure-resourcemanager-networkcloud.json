@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-networkcloud",
-  "Version": "2.1.0-beta.1",
+  "Version": "2.2.0-beta.1",
   "DevVersion": null,
   "DirectoryPath": "sdk/networkcloud/azure-resourcemanager-networkcloud",
   "ServiceDirectory": "networkcloud",
@@ -10,21 +10,22 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-networkcloud",
-  "ReleaseStatus": "2025-11-18",
+  "ReleaseStatus": "2026-05-06",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagernetworkcloud }}",
     "groupId": "com.azure.resourcemanager",
-    "name": "azure-resourcemanager-networkcloud",
     "safeName": "azureresourcemanagernetworkcloud",
     "triggeringPaths": [
       "/sdk/networkcloud/ci.yml"
     ],
-    "releaseInBatch": "${{ parameters.release_azureresourcemanagernetworkcloud }}"
+    "name": "azure-resourcemanager-networkcloud"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": "specification/networkcloud/NetworkCloud.Management",
   "Namespaces": [
     "com.azure.resourcemanager.networkcloud",
     "com.azure.resourcemanager.networkcloud.fluent",
