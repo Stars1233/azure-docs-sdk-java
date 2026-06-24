@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-qumulo",
-  "Version": "1.1.0",
+  "Version": "1.2.0",
   "DevVersion": null,
   "DirectoryPath": "sdk/qumulo/azure-resourcemanager-qumulo",
   "ServiceDirectory": "qumulo",
@@ -10,8 +10,22 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-qumulo",
-  "ReleaseStatus": "2024-09-10",
+  "ReleaseStatus": "2026-06-22",
+  "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagerqumulo }}",
+    "name": "azure-resourcemanager-qumulo",
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagerqumulo",
+    "triggeringPaths": [
+      "/sdk/qumulo/ci.yml"
+    ]
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/liftrqumulo/Qumulo.Storage.Management",
   "Namespaces": [
     "com.azure.resourcemanager.qumulo",
     "com.azure.resourcemanager.qumulo.fluent",
