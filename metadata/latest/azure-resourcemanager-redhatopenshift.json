@@ -1,0 +1,35 @@
+{
+  "Name": "azure-resourcemanager-redhatopenshift",
+  "Version": "1.0.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/redhatopenshift/azure-resourcemanager-redhatopenshift",
+  "ServiceDirectory": "redhatopenshift",
+  "ReadMePath": "sdk/redhatopenshift/azure-resourcemanager-redhatopenshift/README.md",
+  "ChangeLogPath": "sdk/redhatopenshift/azure-resourcemanager-redhatopenshift/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-redhatopenshift",
+  "ReleaseStatus": "2026-06-23",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagerredhatopenshift }}",
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagerredhatopenshift",
+    "triggeringPaths": [
+      "/sdk/redhatopenshift/ci.yml"
+    ],
+    "name": "azure-resourcemanager-redhatopenshift"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/OpenShiftClusters",
+  "Namespaces": [
+    "com.azure.resourcemanager.redhatopenshift",
+    "com.azure.resourcemanager.redhatopenshift.fluent",
+    "com.azure.resourcemanager.redhatopenshift.fluent.models",
+    "com.azure.resourcemanager.redhatopenshift.models"
+  ]
+}
