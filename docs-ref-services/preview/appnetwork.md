@@ -1,7 +1,7 @@
 ---
 title: Azure Appnetwork SDK for Java
 description: Reference for Azure Appnetwork SDK for Java
-ms.date: 06/24/2026
+ms.date: 06/25/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: appnetwork

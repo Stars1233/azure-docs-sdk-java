@@ -6,6 +6,6 @@ ms.topic: reference
 ms.devlang: java
 ms.service: redhatopenshift
 ---
-# Azure Red Hat OpenShift SDK for Java - preview
-## Packages - preview
+# Azure Red Hat OpenShift SDK for Java - latest
+## Packages - latest
 [!INCLUDE [packages](red-hat-openshift-index.md)]
