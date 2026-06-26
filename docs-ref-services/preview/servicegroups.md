@@ -1,7 +1,7 @@
 ---
 title: Azure Servicegroups SDK for Java
 description: Reference for Azure Servicegroups SDK for Java
-ms.date: 06/25/2026
+ms.date: 06/26/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: servicegroups

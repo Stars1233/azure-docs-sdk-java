@@ -6,6 +6,6 @@ ms.topic: reference
 ms.devlang: java
 ms.service: monitor-workspaces
 ---
-# Azure Monitor-Workspaces SDK for Java - preview
-## Packages - preview
+# Azure Monitor-Workspaces SDK for Java - latest
+## Packages - latest
 [!INCLUDE [packages](monitor-workspaces-index.md)]
