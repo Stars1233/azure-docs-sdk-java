@@ -1,0 +1,39 @@
+{
+  "Name": "azure-resourcemanager-monitor-workspaces",
+  "Version": "1.0.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/monitor/azure-resourcemanager-monitor-workspaces",
+  "ServiceDirectory": "monitor",
+  "ReadMePath": "sdk/monitor/azure-resourcemanager-monitor-workspaces/README.md",
+  "ChangeLogPath": "sdk/monitor/azure-resourcemanager-monitor-workspaces/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-monitor-workspaces",
+  "ReleaseStatus": "2026-06-25",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": [
+    "com.azure:azure-monitor-query-perf",
+    "com.azure:azure-monitor-ingestion-perf",
+    "com.azure:perf-test-core"
+  ],
+  "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/monitor/ci.yml"
+    ],
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagermonitorworkspaces }}",
+    "name": "azure-resourcemanager-monitor-workspaces",
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagermonitorworkspaces"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/monitoringservice/resource-manager/Microsoft.Monitor/Accounts",
+  "Namespaces": [
+    "com.azure.resourcemanager.monitor.workspaces",
+    "com.azure.resourcemanager.monitor.workspaces.fluent",
+    "com.azure.resourcemanager.monitor.workspaces.fluent.models",
+    "com.azure.resourcemanager.monitor.workspaces.models"
+  ]
+}
