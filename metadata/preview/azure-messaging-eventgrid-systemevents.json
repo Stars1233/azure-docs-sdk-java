@@ -1,6 +1,6 @@
 {
   "Name": "azure-messaging-eventgrid-systemevents",
-  "Version": "1.0.0-beta.2",
+  "Version": "1.1.0-beta.1",
   "DevVersion": null,
   "DirectoryPath": "sdk/eventgrid/azure-messaging-eventgrid-systemevents",
   "ServiceDirectory": "eventgrid",
@@ -10,23 +10,24 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-messaging-eventgrid-systemevents",
-  "ReleaseStatus": "2025-05-16",
+  "ReleaseStatus": "2026-06-25",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "azuremessagingeventgridsystemevents",
-    "groupId": "com.azure",
-    "name": "azure-messaging-eventgrid-systemevents",
+    "releaseInBatch": "${{ parameters.release_azuremessagingeventgridsystemevents }}",
     "triggeringPaths": [
       "/sdk/eventgrid/ci.yml"
     ],
-    "releaseInBatch": "${{ parameters.release_azuremessagingeventgridsystemevents }}"
+    "name": "azure-messaging-eventgrid-systemevents",
+    "safeName": "azuremessagingeventgridsystemevents",
+    "groupId": "com.azure"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": "specification/eventgrid/data-plane/EventGridSystemEvents",
   "Namespaces": [
-    "com.azure.messaging.eventgrid",
-    "com.azure.messaging.eventgrid.systemevents"
+    "com.azure.messaging.eventgrid.systemevents",
+    "com.azure.messaging.eventgrid.systemevents.models"
   ]
 }
