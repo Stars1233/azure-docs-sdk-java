@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-mongocluster",
-  "Version": "1.1.0",
+  "Version": "1.2.0",
   "DevVersion": null,
   "DirectoryPath": "sdk/mongocluster/azure-resourcemanager-mongocluster",
   "ServiceDirectory": "mongocluster",
@@ -10,7 +10,7 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-mongocluster",
-  "ReleaseStatus": "2025-10-15",
+  "ReleaseStatus": "2026-06-24",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
@@ -18,13 +18,14 @@
       "/sdk/mongocluster/ci.yml"
     ],
     "groupId": "com.azure.resourcemanager",
-    "safeName": "azureresourcemanagermongocluster",
     "name": "azure-resourcemanager-mongocluster",
+    "safeName": "azureresourcemanagermongocluster",
     "releaseInBatch": "${{ parameters.release_azureresourcemanagermongocluster }}"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": "specification/mongocluster/resource-manager/Microsoft.DocumentDB/MongoCluster",
   "Namespaces": [
     "com.azure.resourcemanager.mongocluster",
     "com.azure.resourcemanager.mongocluster.fluent",
