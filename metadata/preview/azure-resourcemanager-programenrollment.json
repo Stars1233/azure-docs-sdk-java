@@ -1,0 +1,35 @@
+{
+  "Name": "azure-resourcemanager-programenrollment",
+  "Version": "1.0.0-beta.1",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/programenrollment/azure-resourcemanager-programenrollment",
+  "ServiceDirectory": "programenrollment",
+  "ReadMePath": "sdk/programenrollment/azure-resourcemanager-programenrollment/README.md",
+  "ChangeLogPath": "sdk/programenrollment/azure-resourcemanager-programenrollment/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-programenrollment",
+  "ReleaseStatus": "2026-06-10",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/programenrollment/ci.yml"
+    ],
+    "safeName": "azureresourcemanagerprogramenrollment",
+    "name": "azure-resourcemanager-programenrollment",
+    "groupId": "com.azure.resourcemanager",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagerprogramenrollment }}"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/programenrollment/resource-manager/Microsoft.ProgramEnrollment/ProgramEnrollment",
+  "Namespaces": [
+    "com.azure.resourcemanager.programenrollment",
+    "com.azure.resourcemanager.programenrollment.fluent",
+    "com.azure.resourcemanager.programenrollment.fluent.models",
+    "com.azure.resourcemanager.programenrollment.models"
+  ]
+}
