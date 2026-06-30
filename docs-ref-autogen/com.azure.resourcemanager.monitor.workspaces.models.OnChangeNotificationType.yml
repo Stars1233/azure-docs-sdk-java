@@ -1,0 +1,86 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.monitor.workspaces.models.OnChangeNotificationType"
+fullName: "com.azure.resourcemanager.monitor.workspaces.models.OnChangeNotificationType"
+name: "OnChangeNotificationType"
+nameWithType: "OnChangeNotificationType"
+summary: "Notification type for on-change events."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType?alt=com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType&text=IssueNotificationType\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType.fromJson(com.azure.json.JsonReader)?alt=com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType.updateType()?alt=com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType.updateType&text=updateType\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **OnChangeNotificationType**</br> extends <xref href=\"com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType?alt=com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType&text=IssueNotificationType\" data-throw-if-not-resolved=\"False\" />"
+constructors:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.OnChangeNotificationType.OnChangeNotificationType()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.OnChangeNotificationType.OnChangeNotificationType()"
+  name: "OnChangeNotificationType()"
+  nameWithType: "OnChangeNotificationType.OnChangeNotificationType()"
+  summary: "Creates an instance of On<wbr>Change<wbr>Notification<wbr>Type class."
+  syntax: "public OnChangeNotificationType()"
+  desc: "Creates an instance of OnChangeNotificationType class."
+methods:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.OnChangeNotificationType.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.OnChangeNotificationType.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "OnChangeNotificationType.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of On<wbr>Change<wbr>Notification<wbr>Type from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static OnChangeNotificationType fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the OnChangeNotificationType."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of OnChangeNotificationType from the JsonReader."
+  returns:
+    description: "An instance of OnChangeNotificationType if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.OnChangeNotificationType?alt=com.azure.resourcemanager.monitor.workspaces.models.OnChangeNotificationType&text=OnChangeNotificationType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.OnChangeNotificationType.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.OnChangeNotificationType.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "OnChangeNotificationType.toJson(JsonWriter jsonWriter)"
+  overridden: "com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType.toJson(com.azure.json.JsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.OnChangeNotificationType.updateType()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.OnChangeNotificationType.updateType()"
+  name: "updateType()"
+  nameWithType: "OnChangeNotificationType.updateType()"
+  summary: "Get the update<wbr>Type property: The type of update that triggers the notification."
+  overridden: "com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType.updateType()"
+  syntax: "public UpdateType updateType()"
+  desc: "Get the updateType property: The type of update that triggers the notification."
+  returns:
+    description: "the updateType value."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.UpdateType?alt=com.azure.resourcemanager.monitor.workspaces.models.UpdateType&text=UpdateType\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Notification type for on-change events."
+metadata: {}
+package: "com.azure.resourcemanager.monitor.workspaces.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor-workspaces:1.0.0

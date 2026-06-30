@@ -202,6 +202,18 @@ methods:
   returns:
     description: "the subnetOverrides value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.devtestlabs.models.SubnetOverride?alt=com.azure.resourcemanager.devtestlabs.models.SubnetOverride&text=SubnetOverride\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.devtestlabs.models.VirtualNetwork.systemData()"
+  fullName: "com.azure.resourcemanager.devtestlabs.models.VirtualNetwork.systemData()"
+  name: "systemData()"
+  nameWithType: "VirtualNetwork.systemData()"
+  summary: "Gets the system<wbr>Data property: Azure Resource Manager metadata containing created<wbr>By and modified<wbr>By information."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SystemData systemData()"
+  desc: "Gets the systemData property: Azure Resource Manager metadata containing createdBy and modifiedBy information."
+  returns:
+    description: "the systemData value."
+    type: "<xref href=\"com.azure.core.management.SystemData?alt=com.azure.core.management.SystemData&text=SystemData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.devtestlabs.models.VirtualNetwork.tags()"
   fullName: "com.azure.resourcemanager.devtestlabs.models.VirtualNetwork.tags()"
   name: "tags()"
@@ -254,4 +266,4 @@ type: "interface"
 desc: "An immutable client-side representation of VirtualNetwork."
 metadata: {}
 package: "com.azure.resourcemanager.devtestlabs.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-devtestlabs:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-devtestlabs:1.2.0

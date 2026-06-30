@@ -30,6 +30,18 @@ methods:
   returns:
     description: "the id value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController.identity()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController.identity()"
+  name: "identity()"
+  nameWithType: "NetworkFabricController.identity()"
+  summary: "Gets the identity property: The managed service identities assigned to this resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ManagedServiceIdentity identity()"
+  desc: "Gets the identity property: The managed service identities assigned to this resource."
+  returns:
+    description: "the identity value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentity?alt=com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentity&text=ManagedServiceIdentity\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController.infrastructureExpressRouteConnections()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController.infrastructureExpressRouteConnections()"
   name: "infrastructureExpressRouteConnections()"
@@ -102,6 +114,18 @@ methods:
   returns:
     description: "the isWorkloadManagementNetworkEnabled value."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IsWorkloadManagementNetworkEnabled?alt=com.azure.resourcemanager.managednetworkfabric.models.IsWorkloadManagementNetworkEnabled&text=IsWorkloadManagementNetworkEnabled\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController.lastOperation()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController.lastOperation()"
+  name: "lastOperation()"
+  nameWithType: "NetworkFabricController.lastOperation()"
+  summary: "Gets the last<wbr>Operation property: Details of the last operation performed on the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract LastOperationProperties lastOperation()"
+  desc: "Gets the lastOperation property: Details of the last operation performed on the resource."
+  returns:
+    description: "the lastOperation value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties&text=LastOperationProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController.location()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController.location()"
   name: "location()"
@@ -310,18 +334,6 @@ methods:
   returns:
     description: "the workloadExpressRouteConnections value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExpressRouteConnectionInformation?alt=com.azure.resourcemanager.managednetworkfabric.models.ExpressRouteConnectionInformation&text=ExpressRouteConnectionInformation\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController.workloadManagementNetwork()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController.workloadManagementNetwork()"
-  name: "workloadManagementNetwork()"
-  nameWithType: "NetworkFabricController.workloadManagementNetwork()"
-  summary: "Gets the workload<wbr>Management<wbr>Network property: A workload management network is required for all the tenant (workload) traffic."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract Boolean workloadManagementNetwork()"
-  desc: "Gets the workloadManagementNetwork property: A workload management network is required for all the tenant (workload) traffic. This traffic is only dedicated for Tenant workloads which are required to access internet or any other MSFT/Public endpoints. This is used for the backward compatibility."
-  returns:
-    description: "the workloadManagementNetwork value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController.workloadServices()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController.workloadServices()"
   name: "workloadServices()"
@@ -338,4 +350,4 @@ type: "interface"
 desc: "An immutable client-side representation of NetworkFabricController."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

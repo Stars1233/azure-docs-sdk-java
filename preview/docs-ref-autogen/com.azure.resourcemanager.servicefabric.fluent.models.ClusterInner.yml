@@ -175,6 +175,16 @@ methods:
   returns:
     description: "the diagnosticsStorageAccountConfig value."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.DiagnosticsStorageAccountConfig?alt=com.azure.resourcemanager.servicefabric.models.DiagnosticsStorageAccountConfig&text=DiagnosticsStorageAccountConfig\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterInner.enableHttpGatewayExclusiveAuthMode()"
+  fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterInner.enableHttpGatewayExclusiveAuthMode()"
+  name: "enableHttpGatewayExclusiveAuthMode()"
+  nameWithType: "ClusterInner.enableHttpGatewayExclusiveAuthMode()"
+  summary: "Get the enable<wbr>Http<wbr>Gateway<wbr>Exclusive<wbr>Auth<wbr>Mode property: If true, token-based authentication is not allowed on the Http<wbr>Gateway<wbr>Endpoint."
+  syntax: "public Boolean enableHttpGatewayExclusiveAuthMode()"
+  desc: "Get the enableHttpGatewayExclusiveAuthMode property: If true, token-based authentication is not allowed on the HttpGatewayEndpoint. This is required to support TLS versions 1.3 and above. If token-based authentication is used, HttpGatewayTokenAuthEndpointPort must be defined."
+  returns:
+    description: "the enableHttpGatewayExclusiveAuthMode value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
 - uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterInner.etag()"
   fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterInner.etag()"
   name: "etag()"
@@ -340,9 +350,9 @@ methods:
   fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterInner.systemData()"
   name: "systemData()"
   nameWithType: "ClusterInner.systemData()"
-  summary: "Get the system<wbr>Data property: Metadata pertaining to creation and last modification of the resource."
+  summary: "Get the system<wbr>Data property: Azure Resource Manager metadata containing created<wbr>By and modified<wbr>By information."
   syntax: "public SystemData systemData()"
-  desc: "Get the systemData property: Metadata pertaining to creation and last modification of the resource."
+  desc: "Get the systemData property: Azure Resource Manager metadata containing createdBy and modifiedBy information."
   returns:
     description: "the systemData value."
     type: "<xref href=\"com.azure.core.management.SystemData?alt=com.azure.core.management.SystemData&text=SystemData\" data-throw-if-not-resolved=\"False\" />"
@@ -420,13 +430,6 @@ methods:
   returns:
     description: "the upgradeWave value."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ClusterUpgradeCadence?alt=com.azure.resourcemanager.servicefabric.models.ClusterUpgradeCadence&text=ClusterUpgradeCadence\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterInner.validate()"
-  fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterInner.validate()"
-  name: "validate()"
-  nameWithType: "ClusterInner.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterInner.vmImage()"
   fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterInner.vmImage()"
   name: "vmImage()"
@@ -580,6 +583,20 @@ methods:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.DiagnosticsStorageAccountConfig?alt=com.azure.resourcemanager.servicefabric.models.DiagnosticsStorageAccountConfig&text=DiagnosticsStorageAccountConfig\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ClusterInner withDiagnosticsStorageAccountConfig(DiagnosticsStorageAccountConfig diagnosticsStorageAccountConfig)"
   desc: "Set the diagnosticsStorageAccountConfig property: The storage account information for storing Service Fabric diagnostic logs."
+  returns:
+    description: "the ClusterInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ClusterInner?alt=com.azure.resourcemanager.servicefabric.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterInner.withEnableHttpGatewayExclusiveAuthMode(java.lang.Boolean)"
+  fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterInner.withEnableHttpGatewayExclusiveAuthMode(Boolean enableHttpGatewayExclusiveAuthMode)"
+  name: "withEnableHttpGatewayExclusiveAuthMode(Boolean enableHttpGatewayExclusiveAuthMode)"
+  nameWithType: "ClusterInner.withEnableHttpGatewayExclusiveAuthMode(Boolean enableHttpGatewayExclusiveAuthMode)"
+  summary: "Set the enable<wbr>Http<wbr>Gateway<wbr>Exclusive<wbr>Auth<wbr>Mode property: If true, token-based authentication is not allowed on the Http<wbr>Gateway<wbr>Endpoint."
+  parameters:
+  - description: "the enableHttpGatewayExclusiveAuthMode value to set."
+    name: "enableHttpGatewayExclusiveAuthMode"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public ClusterInner withEnableHttpGatewayExclusiveAuthMode(Boolean enableHttpGatewayExclusiveAuthMode)"
+  desc: "Set the enableHttpGatewayExclusiveAuthMode property: If true, token-based authentication is not allowed on the HttpGatewayEndpoint. This is required to support TLS versions 1.3 and above. If token-based authentication is used, HttpGatewayTokenAuthEndpointPort must be defined."
   returns:
     description: "the ClusterInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ClusterInner?alt=com.azure.resourcemanager.servicefabric.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />"
@@ -861,4 +878,4 @@ type: "class"
 desc: "The cluster resource."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

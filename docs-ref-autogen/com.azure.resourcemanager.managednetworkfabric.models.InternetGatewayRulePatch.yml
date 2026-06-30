@@ -6,15 +6,7 @@ nameWithType: "InternetGatewayRulePatch"
 summary: "The Internet Gateway Rules patch resource definition."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
-- classRef: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate&text=TagsUpdate\" data-throw-if-not-resolved=\"False\" />"
-  methodsRef:
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.fromJson(com.azure.json.JsonReader)?alt=com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.tags()?alt=com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.tags&text=tags\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.validate()?alt=com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.withTags(java.util.Map<java.lang.String,java.lang.String>)?alt=com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.withTags&text=withTags\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -28,7 +20,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **InternetGatewayRulePatch**</br> extends <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate&text=TagsUpdate\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public final class **InternetGatewayRulePatch**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.InternetGatewayRulePatch?alt=com.azure.resourcemanager.managednetworkfabric.models.InternetGatewayRulePatch&text=InternetGatewayRulePatch\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.InternetGatewayRulePatch.InternetGatewayRulePatch()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternetGatewayRulePatch.InternetGatewayRulePatch()"
@@ -57,11 +49,20 @@ methods:
   returns:
     description: "An instance of InternetGatewayRulePatch if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.InternetGatewayRulePatch?alt=com.azure.resourcemanager.managednetworkfabric.models.InternetGatewayRulePatch&text=InternetGatewayRulePatch\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.InternetGatewayRulePatch.tags()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternetGatewayRulePatch.tags()"
+  name: "tags()"
+  nameWithType: "InternetGatewayRulePatch.tags()"
+  summary: "Get the tags property: Resource tags."
+  syntax: "public Map<String,String> tags()"
+  desc: "Get the tags property: Resource tags."
+  returns:
+    description: "the tags value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.InternetGatewayRulePatch.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternetGatewayRulePatch.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
   nameWithType: "InternetGatewayRulePatch.toJson(JsonWriter jsonWriter)"
-  overridden: "com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.toJson(com.azure.json.JsonWriter)"
   parameters:
   - name: "jsonWriter"
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
@@ -70,29 +71,24 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.InternetGatewayRulePatch.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternetGatewayRulePatch.validate()"
-  name: "validate()"
-  nameWithType: "InternetGatewayRulePatch.validate()"
-  summary: "Validates the instance."
-  overridden: "com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.validate()"
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.InternetGatewayRulePatch.withTags(java.util.Map<java.lang.String,java.lang.String>)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternetGatewayRulePatch.withTags(Map<String,String> tags)"
   name: "withTags(Map<String,String> tags)"
   nameWithType: "InternetGatewayRulePatch.withTags(Map<String,String> tags)"
   summary: "Set the tags property: Resource tags."
-  overridden: "com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.withTags(java.util.Map<java.lang.String,java.lang.String>)"
   parameters:
-  - name: "tags"
+  - description: "the tags value to set."
+    name: "tags"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
   syntax: "public InternetGatewayRulePatch withTags(Map<String,String> tags)"
   desc: "Set the tags property: Resource tags."
   returns:
+    description: "the InternetGatewayRulePatch object itself."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.InternetGatewayRulePatch?alt=com.azure.resourcemanager.managednetworkfabric.models.InternetGatewayRulePatch&text=InternetGatewayRulePatch\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The Internet Gateway Rules patch resource definition."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.InternetGatewayRulePatch?alt=com.azure.resourcemanager.managednetworkfabric.models.InternetGatewayRulePatch&text=InternetGatewayRulePatch\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

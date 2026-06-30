@@ -6,15 +6,7 @@ nameWithType: "NetworkFabricControllerProperties"
 summary: "Network<wbr>Fabric<wbr>Controller<wbr>Properties defines the resource properties."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
-- classRef: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource?alt=com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource&text=AnnotationResource\" data-throw-if-not-resolved=\"False\" />"
-  methodsRef:
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.annotation()?alt=com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.annotation&text=annotation\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.fromJson(com.azure.json.JsonReader)?alt=com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.validate()?alt=com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.withAnnotation(java.lang.String)?alt=com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.withAnnotation&text=withAnnotation\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -28,7 +20,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **NetworkFabricControllerProperties**</br> extends <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource?alt=com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource&text=AnnotationResource\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public final class **NetworkFabricControllerProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties&text=NetworkFabricControllerProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties.NetworkFabricControllerProperties()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties.NetworkFabricControllerProperties()"
@@ -38,6 +30,16 @@ constructors:
   syntax: "public NetworkFabricControllerProperties()"
   desc: "Creates an instance of NetworkFabricControllerProperties class."
 methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties.annotation()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties.annotation()"
+  name: "annotation()"
+  nameWithType: "NetworkFabricControllerProperties.annotation()"
+  summary: "Get the annotation property: Switch configuration description."
+  syntax: "public String annotation()"
+  desc: "Get the annotation property: Switch configuration description."
+  returns:
+    description: "the annotation value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -107,6 +109,16 @@ methods:
   returns:
     description: "the isWorkloadManagementNetworkEnabled value."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IsWorkloadManagementNetworkEnabled?alt=com.azure.resourcemanager.managednetworkfabric.models.IsWorkloadManagementNetworkEnabled&text=IsWorkloadManagementNetworkEnabled\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties.lastOperation()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties.lastOperation()"
+  name: "lastOperation()"
+  nameWithType: "NetworkFabricControllerProperties.lastOperation()"
+  summary: "Get the last<wbr>Operation property: Details of the last operation performed on the resource."
+  syntax: "public LastOperationProperties lastOperation()"
+  desc: "Get the lastOperation property: Details of the last operation performed on the resource."
+  returns:
+    description: "the lastOperation value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties&text=LastOperationProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties.managedResourceGroupConfiguration()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties.managedResourceGroupConfiguration()"
   name: "managedResourceGroupConfiguration()"
@@ -161,7 +173,6 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
   nameWithType: "NetworkFabricControllerProperties.toJson(JsonWriter jsonWriter)"
-  overridden: "com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.toJson(com.azure.json.JsonWriter)"
   parameters:
   - name: "jsonWriter"
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
@@ -170,26 +181,19 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties.validate()"
-  name: "validate()"
-  nameWithType: "NetworkFabricControllerProperties.validate()"
-  summary: "Validates the instance."
-  overridden: "com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.validate()"
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties.withAnnotation(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties.withAnnotation(String annotation)"
   name: "withAnnotation(String annotation)"
   nameWithType: "NetworkFabricControllerProperties.withAnnotation(String annotation)"
   summary: "Set the annotation property: Switch configuration description."
-  overridden: "com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.withAnnotation(java.lang.String)"
   parameters:
-  - name: "annotation"
+  - description: "the annotation value to set."
+    name: "annotation"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public NetworkFabricControllerProperties withAnnotation(String annotation)"
   desc: "Set the annotation property: Switch configuration description."
   returns:
+    description: "the NetworkFabricControllerProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties&text=NetworkFabricControllerProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties.withInfrastructureExpressRouteConnections(java.util.List<com.azure.resourcemanager.managednetworkfabric.models.ExpressRouteConnectionInformation>)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties.withInfrastructureExpressRouteConnections(List<ExpressRouteConnectionInformation> infrastructureExpressRouteConnections)"
@@ -299,16 +303,6 @@ methods:
   returns:
     description: "the workloadExpressRouteConnections value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExpressRouteConnectionInformation?alt=com.azure.resourcemanager.managednetworkfabric.models.ExpressRouteConnectionInformation&text=ExpressRouteConnectionInformation\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties.workloadManagementNetwork()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties.workloadManagementNetwork()"
-  name: "workloadManagementNetwork()"
-  nameWithType: "NetworkFabricControllerProperties.workloadManagementNetwork()"
-  summary: "Get the workload<wbr>Management<wbr>Network property: A workload management network is required for all the tenant (workload) traffic."
-  syntax: "public Boolean workloadManagementNetwork()"
-  desc: "Get the workloadManagementNetwork property: A workload management network is required for all the tenant (workload) traffic. This traffic is only dedicated for Tenant workloads which are required to access internet or any other MSFT/Public endpoints. This is used for the backward compatibility."
-  returns:
-    description: "the workloadManagementNetwork value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties.workloadServices()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties.workloadServices()"
   name: "workloadServices()"
@@ -321,6 +315,8 @@ methods:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControllerServices?alt=com.azure.resourcemanager.managednetworkfabric.models.ControllerServices&text=ControllerServices\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "NetworkFabricControllerProperties defines the resource properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerProperties&text=NetworkFabricControllerProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

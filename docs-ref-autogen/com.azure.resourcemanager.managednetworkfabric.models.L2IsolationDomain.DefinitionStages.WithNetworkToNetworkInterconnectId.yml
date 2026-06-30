@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.DefinitionStages.WithNetworkToNetworkInterconnectId"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.DefinitionStages.WithNetworkToNetworkInterconnectId"
+name: "L2IsolationDomain.DefinitionStages.WithNetworkToNetworkInterconnectId"
+nameWithType: "L2IsolationDomain.DefinitionStages.WithNetworkToNetworkInterconnectId"
+summary: "The stage of the L2Isolation<wbr>Domain definition allowing to specify network<wbr>ToNetwork<wbr>Interconnect<wbr>Id."
+syntax: "public static interface **L2IsolationDomain.DefinitionStages.WithNetworkToNetworkInterconnectId**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.DefinitionStages.WithNetworkToNetworkInterconnectId.withNetworkToNetworkInterconnectId(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.DefinitionStages.WithNetworkToNetworkInterconnectId.withNetworkToNetworkInterconnectId(String networkToNetworkInterconnectId)"
+  name: "withNetworkToNetworkInterconnectId(String networkToNetworkInterconnectId)"
+  nameWithType: "L2IsolationDomain.DefinitionStages.WithNetworkToNetworkInterconnectId.withNetworkToNetworkInterconnectId(String networkToNetworkInterconnectId)"
+  summary: "Specifies the network<wbr>ToNetwork<wbr>Interconnect<wbr>Id property: ARM Resource ID of the network<wbr>ToNetwork<wbr>Interconnect<wbr>Id of the L2 ISD resource.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "ARM Resource ID of the networkToNetworkInterconnectId of the L2 ISD\n resource."
+    name: "networkToNetworkInterconnectId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract L2IsolationDomain.DefinitionStages.WithCreate withNetworkToNetworkInterconnectId(String networkToNetworkInterconnectId)"
+  desc: "Specifies the networkToNetworkInterconnectId property: ARM Resource ID of the networkToNetworkInterconnectId of the L2 ISD resource.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the L2IsolationDomain definition allowing to specify networkToNetworkInterconnectId."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

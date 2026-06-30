@@ -2,11 +2,12 @@
 uid: "com.azure.resourcemanager.compute.fluent"
 fullName: "com.azure.resourcemanager.compute.fluent"
 name: "com.azure.resourcemanager.compute.fluent"
-summary: "Package containing the service clients for Compute<wbr>Management<wbr>Client."
+summary: "Package containing the service clients for Compute."
 interfaces:
 - "com.azure.resourcemanager.compute.fluent.AvailabilitySetsClient"
 - "com.azure.resourcemanager.compute.fluent.CapacityReservationGroupsClient"
 - "com.azure.resourcemanager.compute.fluent.CapacityReservationsClient"
+- "com.azure.resourcemanager.compute.fluent.CloudServiceManagementClient"
 - "com.azure.resourcemanager.compute.fluent.CloudServiceOperatingSystemsClient"
 - "com.azure.resourcemanager.compute.fluent.CloudServiceRoleInstancesClient"
 - "com.azure.resourcemanager.compute.fluent.CloudServiceRolesClient"
@@ -33,6 +34,7 @@ interfaces:
 - "com.azure.resourcemanager.compute.fluent.GalleryScriptsClient"
 - "com.azure.resourcemanager.compute.fluent.GallerySharingProfilesClient"
 - "com.azure.resourcemanager.compute.fluent.ImagesClient"
+- "com.azure.resourcemanager.compute.fluent.InterconnectBlocksClient"
 - "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient"
 - "com.azure.resourcemanager.compute.fluent.OperationsClient"
 - "com.azure.resourcemanager.compute.fluent.ProximityPlacementGroupsClient"
@@ -52,6 +54,7 @@ interfaces:
 - "com.azure.resourcemanager.compute.fluent.VirtualMachineImagesEdgeZonesClient"
 - "com.azure.resourcemanager.compute.fluent.VirtualMachineRunCommandsClient"
 - "com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetExtensionsClient"
+- "com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetLifeCycleHookEventsClient"
 - "com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetRollingUpgradesClient"
 - "com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetVMExtensionsClient"
 - "com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetVMRunCommandsClient"
@@ -59,7 +62,7 @@ interfaces:
 - "com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetsClient"
 - "com.azure.resourcemanager.compute.fluent.VirtualMachineSizesClient"
 - "com.azure.resourcemanager.compute.fluent.VirtualMachinesClient"
-desc: "Package containing the service clients for ComputeManagementClient. Compute Client."
+desc: "Package containing the service clients for Compute. Compute Client."
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

@@ -14,7 +14,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of Azure region."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The unique name of the Shared Gallery."
@@ -33,7 +33,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of Azure region."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The unique name of the Shared Gallery."
@@ -52,7 +52,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of Azure region."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The unique name of the Shared Gallery."
@@ -74,7 +74,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of Azure region."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The unique name of the Shared Gallery."
@@ -93,7 +93,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of Azure region."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<SharedGalleryInner> list(String location)"
@@ -109,7 +109,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of Azure region."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The query parameter to decide what shared galleries to fetch when doing listing operations."
@@ -131,7 +131,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of Azure region."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedFlux<SharedGalleryInner> listAsync(String location)"
@@ -147,7 +147,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of Azure region."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The query parameter to decide what shared galleries to fetch when doing listing operations."
@@ -162,4 +162,4 @@ type: "interface"
 desc: "An instance of this class provides access to all the operations defined in SharedGalleriesClient."
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

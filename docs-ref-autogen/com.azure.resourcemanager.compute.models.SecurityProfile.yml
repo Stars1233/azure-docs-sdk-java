@@ -85,7 +85,7 @@ methods:
   nameWithType: "SecurityProfile.securityType()"
   summary: "Get the security<wbr>Type property: Specifies the Security<wbr>Type of the virtual machine."
   syntax: "public SecurityTypes securityType()"
-  desc: "Get the securityType property: Specifies the SecurityType of the virtual machine. It has to be set to any specified value to enable UefiSettings. The default behavior is: UefiSettings will not be enabled unless this property is set."
+  desc: "Get the securityType property: Specifies the SecurityType of the virtual machine. It has to be set to any specified value to enable UefiSettings. The default behavior is: UefiSettings will not be enabled unless this property is set and is not Standard. If not specified, Standard will be returned starting api version 2025-11-01."
   returns:
     description: "the securityType value."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.SecurityTypes?alt=com.azure.resourcemanager.compute.models.SecurityTypes&text=SecurityTypes\" data-throw-if-not-resolved=\"False\" />"
@@ -170,7 +170,7 @@ methods:
     name: "securityType"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.SecurityTypes?alt=com.azure.resourcemanager.compute.models.SecurityTypes&text=SecurityTypes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public SecurityProfile withSecurityType(SecurityTypes securityType)"
-  desc: "Set the securityType property: Specifies the SecurityType of the virtual machine. It has to be set to any specified value to enable UefiSettings. The default behavior is: UefiSettings will not be enabled unless this property is set."
+  desc: "Set the securityType property: Specifies the SecurityType of the virtual machine. It has to be set to any specified value to enable UefiSettings. The default behavior is: UefiSettings will not be enabled unless this property is set and is not Standard. If not specified, Standard will be returned starting api version 2025-11-01."
   returns:
     description: "the SecurityProfile object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.SecurityProfile?alt=com.azure.resourcemanager.compute.models.SecurityProfile&text=SecurityProfile\" data-throw-if-not-resolved=\"False\" />"
@@ -194,4 +194,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.SecurityProfile?alt=com.azure.resourcemanager.compute.models.SecurityProfile&text=SecurityProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

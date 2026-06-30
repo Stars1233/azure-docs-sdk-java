@@ -40,6 +40,26 @@ methods:
   returns:
     description: "the address value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborAddress.bfdAdministrativeState()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborAddress.bfdAdministrativeState()"
+  name: "bfdAdministrativeState()"
+  nameWithType: "NeighborAddress.bfdAdministrativeState()"
+  summary: "Get the bfd<wbr>Administrative<wbr>State property: BFD Administrative State for each Neighbor Address."
+  syntax: "public BfdAdministrativeState bfdAdministrativeState()"
+  desc: "Get the bfdAdministrativeState property: BFD Administrative State for each Neighbor Address. Example: Enabled | Disabled."
+  returns:
+    description: "the bfdAdministrativeState value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState&text=BfdAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborAddress.bgpAdministrativeState()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborAddress.bgpAdministrativeState()"
+  name: "bgpAdministrativeState()"
+  nameWithType: "NeighborAddress.bgpAdministrativeState()"
+  summary: "Get the bgp<wbr>Administrative<wbr>State property: BGP Administrative State for each Neighbor Address."
+  syntax: "public BgpAdministrativeState bgpAdministrativeState()"
+  desc: "Get the bgpAdministrativeState property: BGP Administrative State for each Neighbor Address. Example: Enabled | Disabled."
+  returns:
+    description: "the bgpAdministrativeState value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BgpAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.BgpAdministrativeState&text=BgpAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborAddress.configurationState()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborAddress.configurationState()"
   name: "configurationState()"
@@ -81,13 +101,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborAddress.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborAddress.validate()"
-  name: "validate()"
-  nameWithType: "NeighborAddress.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborAddress.withAddress(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborAddress.withAddress(String address)"
   name: "withAddress(String address)"
@@ -108,4 +121,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NeighborAddress?alt=com.azure.resourcemanager.managednetworkfabric.models.NeighborAddress&text=NeighborAddress\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

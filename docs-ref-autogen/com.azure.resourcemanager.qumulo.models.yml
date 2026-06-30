@@ -2,10 +2,9 @@
 uid: "com.azure.resourcemanager.qumulo.models"
 fullName: "com.azure.resourcemanager.qumulo.models"
 name: "com.azure.resourcemanager.qumulo.models"
-summary: "Package containing the data models for Qumulo<wbr>Storage."
+summary: "Package containing the data models for Qumulo."
 classes:
 - "com.azure.resourcemanager.qumulo.models.ActionType"
-- "com.azure.resourcemanager.qumulo.models.FileSystemResourceListResult"
 - "com.azure.resourcemanager.qumulo.models.FileSystemResourceUpdate"
 - "com.azure.resourcemanager.qumulo.models.FileSystemResourceUpdateProperties"
 - "com.azure.resourcemanager.qumulo.models.ManagedServiceIdentity"
@@ -13,7 +12,6 @@ classes:
 - "com.azure.resourcemanager.qumulo.models.MarketplaceDetails"
 - "com.azure.resourcemanager.qumulo.models.MarketplaceSubscriptionStatus"
 - "com.azure.resourcemanager.qumulo.models.OperationDisplay"
-- "com.azure.resourcemanager.qumulo.models.OperationListResult"
 - "com.azure.resourcemanager.qumulo.models.Origin"
 - "com.azure.resourcemanager.qumulo.models.ProvisioningState"
 - "com.azure.resourcemanager.qumulo.models.UserAssignedIdentity"
@@ -31,6 +29,7 @@ interfaces:
 - "com.azure.resourcemanager.qumulo.models.FileSystemResource.DefinitionStages.WithIdentity"
 - "com.azure.resourcemanager.qumulo.models.FileSystemResource.DefinitionStages.WithLocation"
 - "com.azure.resourcemanager.qumulo.models.FileSystemResource.DefinitionStages.WithMarketplaceDetails"
+- "com.azure.resourcemanager.qumulo.models.FileSystemResource.DefinitionStages.WithPerformanceTier"
 - "com.azure.resourcemanager.qumulo.models.FileSystemResource.DefinitionStages.WithPrivateIPs"
 - "com.azure.resourcemanager.qumulo.models.FileSystemResource.DefinitionStages.WithResourceGroup"
 - "com.azure.resourcemanager.qumulo.models.FileSystemResource.DefinitionStages.WithStorageSku"
@@ -44,7 +43,7 @@ interfaces:
 - "com.azure.resourcemanager.qumulo.models.FileSystems"
 - "com.azure.resourcemanager.qumulo.models.Operation"
 - "com.azure.resourcemanager.qumulo.models.Operations"
-desc: "Package containing the data models for QumuloStorage. null."
+desc: "Package containing the data models for Qumulo."
 metadata: {}
 package: "com.azure.resourcemanager.qumulo.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-qumulo:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-qumulo:1.2.0

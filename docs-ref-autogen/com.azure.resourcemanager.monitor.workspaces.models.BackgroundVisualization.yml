@@ -1,0 +1,49 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundVisualization"
+fullName: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundVisualization"
+name: "BackgroundVisualization"
+nameWithType: "BackgroundVisualization"
+summary: "An immutable client-side representation of Background<wbr>Visualization."
+syntax: "public interface **BackgroundVisualization**"
+methods:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundVisualization.innerModel()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundVisualization.innerModel()"
+  name: "innerModel()"
+  nameWithType: "BackgroundVisualization.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>monitor.<wbr>workspaces.<wbr>fluent.<wbr>models.<wbr>Background<wbr>Visualization<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract BackgroundVisualizationInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.monitor.workspaces.fluent.models.BackgroundVisualizationInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.fluent.models.BackgroundVisualizationInner?alt=com.azure.resourcemanager.monitor.workspaces.fluent.models.BackgroundVisualizationInner&text=BackgroundVisualizationInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundVisualization.origin()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundVisualization.origin()"
+  name: "origin()"
+  nameWithType: "BackgroundVisualization.origin()"
+  summary: "Gets the origin property: The background visualization origin."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Origin origin()"
+  desc: "Gets the origin property: The background visualization origin."
+  returns:
+    description: "the origin value."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.Origin?alt=com.azure.resourcemanager.monitor.workspaces.models.Origin&text=Origin\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundVisualization.visualization()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundVisualization.visualization()"
+  name: "visualization()"
+  nameWithType: "BackgroundVisualization.visualization()"
+  summary: "Gets the visualization property: The background visualization content, in Adaptive Card format."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String visualization()"
+  desc: "Gets the visualization property: The background visualization content, in Adaptive Card format."
+  returns:
+    description: "the visualization value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "interface"
+desc: "An immutable client-side representation of BackgroundVisualization."
+metadata: {}
+package: "com.azure.resourcemanager.monitor.workspaces.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor-workspaces:1.0.0

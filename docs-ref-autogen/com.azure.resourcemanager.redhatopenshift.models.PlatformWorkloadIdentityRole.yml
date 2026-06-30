@@ -1,0 +1,92 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRole"
+fullName: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRole"
+name: "PlatformWorkloadIdentityRole"
+nameWithType: "PlatformWorkloadIdentityRole"
+summary: "Platform<wbr>Workload<wbr>Identity<wbr>Role represents a mapping from a particular OCP operator to the built-in role that should be assigned to that operator's corresponding managed identity."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **PlatformWorkloadIdentityRole**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRole?alt=com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRole&text=PlatformWorkloadIdentityRole\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRole.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRole.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "PlatformWorkloadIdentityRole.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Platform<wbr>Workload<wbr>Identity<wbr>Role from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static PlatformWorkloadIdentityRole fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the PlatformWorkloadIdentityRole."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of PlatformWorkloadIdentityRole from the JsonReader."
+  returns:
+    description: "An instance of PlatformWorkloadIdentityRole if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRole?alt=com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRole&text=PlatformWorkloadIdentityRole\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRole.operatorName()"
+  fullName: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRole.operatorName()"
+  name: "operatorName()"
+  nameWithType: "PlatformWorkloadIdentityRole.operatorName()"
+  summary: "Get the operator<wbr>Name property: Operator<wbr>Name represents the name of the operator that this role is for."
+  syntax: "public String operatorName()"
+  desc: "Get the operatorName property: OperatorName represents the name of the operator that this role is for."
+  returns:
+    description: "the operatorName value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRole.roleDefinitionId()"
+  fullName: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRole.roleDefinitionId()"
+  name: "roleDefinitionId()"
+  nameWithType: "PlatformWorkloadIdentityRole.roleDefinitionId()"
+  summary: "Get the role<wbr>Definition<wbr>Id property: Role<wbr>DefinitionID represents the resource ID of the role definition."
+  syntax: "public String roleDefinitionId()"
+  desc: "Get the roleDefinitionId property: RoleDefinitionID represents the resource ID of the role definition."
+  returns:
+    description: "the roleDefinitionId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRole.roleDefinitionName()"
+  fullName: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRole.roleDefinitionName()"
+  name: "roleDefinitionName()"
+  nameWithType: "PlatformWorkloadIdentityRole.roleDefinitionName()"
+  summary: "Get the role<wbr>Definition<wbr>Name property: Role<wbr>Definition<wbr>Name represents the name of the role."
+  syntax: "public String roleDefinitionName()"
+  desc: "Get the roleDefinitionName property: RoleDefinitionName represents the name of the role."
+  returns:
+    description: "the roleDefinitionName value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRole.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRole.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "PlatformWorkloadIdentityRole.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "PlatformWorkloadIdentityRole represents a mapping from a particular OCP operator to the built-in role that should be assigned to that operator's corresponding managed identity."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRole?alt=com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRole&text=PlatformWorkloadIdentityRole\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.redhatopenshift.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-redhatopenshift:1.0.0

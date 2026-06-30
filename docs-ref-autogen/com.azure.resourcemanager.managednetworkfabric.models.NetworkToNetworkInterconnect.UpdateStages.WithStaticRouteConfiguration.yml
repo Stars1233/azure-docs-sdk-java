@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.UpdateStages.WithStaticRouteConfiguration"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.UpdateStages.WithStaticRouteConfiguration"
+name: "NetworkToNetworkInterconnect.UpdateStages.WithStaticRouteConfiguration"
+nameWithType: "NetworkToNetworkInterconnect.UpdateStages.WithStaticRouteConfiguration"
+summary: "The stage of the Network<wbr>ToNetwork<wbr>Interconnect update allowing to specify static<wbr>Route<wbr>Configuration."
+syntax: "public static interface **NetworkToNetworkInterconnect.UpdateStages.WithStaticRouteConfiguration**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.UpdateStages.WithStaticRouteConfiguration.withStaticRouteConfiguration(com.azure.resourcemanager.managednetworkfabric.models.NniStaticRoutePatchConfiguration)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.UpdateStages.WithStaticRouteConfiguration.withStaticRouteConfiguration(NniStaticRoutePatchConfiguration staticRouteConfiguration)"
+  name: "withStaticRouteConfiguration(NniStaticRoutePatchConfiguration staticRouteConfiguration)"
+  nameWithType: "NetworkToNetworkInterconnect.UpdateStages.WithStaticRouteConfiguration.withStaticRouteConfiguration(NniStaticRoutePatchConfiguration staticRouteConfiguration)"
+  summary: "Specifies the static<wbr>Route<wbr>Configuration property: Static Route Configuration.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Static Route Configuration."
+    name: "staticRouteConfiguration"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NniStaticRoutePatchConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.NniStaticRoutePatchConfiguration&text=NniStaticRoutePatchConfiguration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NetworkToNetworkInterconnect.Update withStaticRouteConfiguration(NniStaticRoutePatchConfiguration staticRouteConfiguration)"
+  desc: "Specifies the staticRouteConfiguration property: Static Route Configuration.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.Update?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkToNetworkInterconnect update allowing to specify staticRouteConfiguration."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

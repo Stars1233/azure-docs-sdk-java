@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties"
+name: "VlanGroupPatchProperties"
+nameWithType: "VlanGroupPatchProperties"
+summary: "Vlan group properties."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **VlanGroupPatchProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties&text=VlanGroupPatchProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties.VlanGroupPatchProperties()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties.VlanGroupPatchProperties()"
+  name: "VlanGroupPatchProperties()"
+  nameWithType: "VlanGroupPatchProperties.VlanGroupPatchProperties()"
+  summary: "Creates an instance of Vlan<wbr>Group<wbr>Patch<wbr>Properties class."
+  syntax: "public VlanGroupPatchProperties()"
+  desc: "Creates an instance of VlanGroupPatchProperties class."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "VlanGroupPatchProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Vlan<wbr>Group<wbr>Patch<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static VlanGroupPatchProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the VlanGroupPatchProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of VlanGroupPatchProperties from the JsonReader."
+  returns:
+    description: "An instance of VlanGroupPatchProperties if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties&text=VlanGroupPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties.name()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties.name()"
+  name: "name()"
+  nameWithType: "VlanGroupPatchProperties.name()"
+  summary: "Get the name property: Vlan group name."
+  syntax: "public String name()"
+  desc: "Get the name property: Vlan group name."
+  returns:
+    description: "the name value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "VlanGroupPatchProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties.vlans()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties.vlans()"
+  name: "vlans()"
+  nameWithType: "VlanGroupPatchProperties.vlans()"
+  summary: "Get the vlans property: List of vlans."
+  syntax: "public List<String> vlans()"
+  desc: "Get the vlans property: List of vlans."
+  returns:
+    description: "the vlans value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties.withName(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties.withName(String name)"
+  name: "withName(String name)"
+  nameWithType: "VlanGroupPatchProperties.withName(String name)"
+  summary: "Set the name property: Vlan group name."
+  parameters:
+  - description: "the name value to set."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public VlanGroupPatchProperties withName(String name)"
+  desc: "Set the name property: Vlan group name."
+  returns:
+    description: "the VlanGroupPatchProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties&text=VlanGroupPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties.withVlans(java.util.List<java.lang.String>)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties.withVlans(List<String> vlans)"
+  name: "withVlans(List<String> vlans)"
+  nameWithType: "VlanGroupPatchProperties.withVlans(List<String> vlans)"
+  summary: "Set the vlans property: List of vlans."
+  parameters:
+  - description: "the vlans value to set."
+    name: "vlans"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public VlanGroupPatchProperties withVlans(List<String> vlans)"
+  desc: "Set the vlans property: List of vlans."
+  returns:
+    description: "the VlanGroupPatchProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties&text=VlanGroupPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Vlan group properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.VlanGroupPatchProperties&text=VlanGroupPatchProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

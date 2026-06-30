@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ValidationsProfile**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.ValidationsProfile?alt=com.azure.resourcemanager.compute.models.ValidationsProfile&text=ValidationsProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.compute.models.ValidationsProfile.ValidationsProfile()"
-  fullName: "com.azure.resourcemanager.compute.models.ValidationsProfile.ValidationsProfile()"
-  name: "ValidationsProfile()"
-  nameWithType: "ValidationsProfile.ValidationsProfile()"
-  summary: "Creates an instance of Validations<wbr>Profile class."
-  syntax: "public ValidationsProfile()"
-  desc: "Creates an instance of ValidationsProfile class."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.ValidationsProfile.executedValidations()"
   fullName: "com.azure.resourcemanager.compute.models.ValidationsProfile.executedValidations()"
@@ -98,52 +90,10 @@ methods:
   returns:
     description: "the validationEtag value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.compute.models.ValidationsProfile.withExecutedValidations(java.util.List<com.azure.resourcemanager.compute.models.ExecutedValidation>)"
-  fullName: "com.azure.resourcemanager.compute.models.ValidationsProfile.withExecutedValidations(List<ExecutedValidation> executedValidations)"
-  name: "withExecutedValidations(List<ExecutedValidation> executedValidations)"
-  nameWithType: "ValidationsProfile.withExecutedValidations(List<ExecutedValidation> executedValidations)"
-  summary: "Set the executed<wbr>Validations property: The executed<wbr>Validations property."
-  parameters:
-  - description: "the executedValidations value to set."
-    name: "executedValidations"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.ExecutedValidation?alt=com.azure.resourcemanager.compute.models.ExecutedValidation&text=ExecutedValidation\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public ValidationsProfile withExecutedValidations(List<ExecutedValidation> executedValidations)"
-  desc: "Set the executedValidations property: The executedValidations property."
-  returns:
-    description: "the ValidationsProfile object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.ValidationsProfile?alt=com.azure.resourcemanager.compute.models.ValidationsProfile&text=ValidationsProfile\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.models.ValidationsProfile.withPlatformAttributes(java.util.List<com.azure.resourcemanager.compute.models.PlatformAttribute>)"
-  fullName: "com.azure.resourcemanager.compute.models.ValidationsProfile.withPlatformAttributes(List<PlatformAttribute> platformAttributes)"
-  name: "withPlatformAttributes(List<PlatformAttribute> platformAttributes)"
-  nameWithType: "ValidationsProfile.withPlatformAttributes(List<PlatformAttribute> platformAttributes)"
-  summary: "Set the platform<wbr>Attributes property: This specifies the pub, offer, sku and version of the image version metadata."
-  parameters:
-  - description: "the platformAttributes value to set."
-    name: "platformAttributes"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.PlatformAttribute?alt=com.azure.resourcemanager.compute.models.PlatformAttribute&text=PlatformAttribute\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public ValidationsProfile withPlatformAttributes(List<PlatformAttribute> platformAttributes)"
-  desc: "Set the platformAttributes property: This specifies the pub, offer, sku and version of the image version metadata."
-  returns:
-    description: "the ValidationsProfile object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.ValidationsProfile?alt=com.azure.resourcemanager.compute.models.ValidationsProfile&text=ValidationsProfile\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.models.ValidationsProfile.withValidationEtag(java.lang.String)"
-  fullName: "com.azure.resourcemanager.compute.models.ValidationsProfile.withValidationEtag(String validationEtag)"
-  name: "withValidationEtag(String validationEtag)"
-  nameWithType: "ValidationsProfile.withValidationEtag(String validationEtag)"
-  summary: "Set the validation<wbr>Etag property: The published time of the image version."
-  parameters:
-  - description: "the validationEtag value to set."
-    name: "validationEtag"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ValidationsProfile withValidationEtag(String validationEtag)"
-  desc: "Set the validationEtag property: The published time of the image version."
-  returns:
-    description: "the ValidationsProfile object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.ValidationsProfile?alt=com.azure.resourcemanager.compute.models.ValidationsProfile&text=ValidationsProfile\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "This is the validations profile of a Gallery Image Version."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.ValidationsProfile?alt=com.azure.resourcemanager.compute.models.ValidationsProfile&text=ValidationsProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

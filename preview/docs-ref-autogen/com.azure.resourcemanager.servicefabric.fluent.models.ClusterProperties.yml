@@ -160,6 +160,16 @@ methods:
   returns:
     description: "the diagnosticsStorageAccountConfig value."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.DiagnosticsStorageAccountConfig?alt=com.azure.resourcemanager.servicefabric.models.DiagnosticsStorageAccountConfig&text=DiagnosticsStorageAccountConfig\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterProperties.enableHttpGatewayExclusiveAuthMode()"
+  fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterProperties.enableHttpGatewayExclusiveAuthMode()"
+  name: "enableHttpGatewayExclusiveAuthMode()"
+  nameWithType: "ClusterProperties.enableHttpGatewayExclusiveAuthMode()"
+  summary: "Get the enable<wbr>Http<wbr>Gateway<wbr>Exclusive<wbr>Auth<wbr>Mode property: If true, token-based authentication is not allowed on the Http<wbr>Gateway<wbr>Endpoint."
+  syntax: "public Boolean enableHttpGatewayExclusiveAuthMode()"
+  desc: "Get the enableHttpGatewayExclusiveAuthMode property: If true, token-based authentication is not allowed on the HttpGatewayEndpoint. This is required to support TLS versions 1.3 and above. If token-based authentication is used, HttpGatewayTokenAuthEndpointPort must be defined."
+  returns:
+    description: "the enableHttpGatewayExclusiveAuthMode value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
 - uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterProperties.eventStoreServiceEnabled()"
   fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterProperties.eventStoreServiceEnabled()"
   name: "eventStoreServiceEnabled()"
@@ -351,13 +361,6 @@ methods:
   returns:
     description: "the upgradeWave value."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ClusterUpgradeCadence?alt=com.azure.resourcemanager.servicefabric.models.ClusterUpgradeCadence&text=ClusterUpgradeCadence\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterProperties.validate()"
-  fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterProperties.validate()"
-  name: "validate()"
-  nameWithType: "ClusterProperties.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterProperties.vmImage()"
   fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterProperties.vmImage()"
   name: "vmImage()"
@@ -511,6 +514,20 @@ methods:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.DiagnosticsStorageAccountConfig?alt=com.azure.resourcemanager.servicefabric.models.DiagnosticsStorageAccountConfig&text=DiagnosticsStorageAccountConfig\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ClusterProperties withDiagnosticsStorageAccountConfig(DiagnosticsStorageAccountConfig diagnosticsStorageAccountConfig)"
   desc: "Set the diagnosticsStorageAccountConfig property: The storage account information for storing Service Fabric diagnostic logs."
+  returns:
+    description: "the ClusterProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ClusterProperties?alt=com.azure.resourcemanager.servicefabric.fluent.models.ClusterProperties&text=ClusterProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterProperties.withEnableHttpGatewayExclusiveAuthMode(java.lang.Boolean)"
+  fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterProperties.withEnableHttpGatewayExclusiveAuthMode(Boolean enableHttpGatewayExclusiveAuthMode)"
+  name: "withEnableHttpGatewayExclusiveAuthMode(Boolean enableHttpGatewayExclusiveAuthMode)"
+  nameWithType: "ClusterProperties.withEnableHttpGatewayExclusiveAuthMode(Boolean enableHttpGatewayExclusiveAuthMode)"
+  summary: "Set the enable<wbr>Http<wbr>Gateway<wbr>Exclusive<wbr>Auth<wbr>Mode property: If true, token-based authentication is not allowed on the Http<wbr>Gateway<wbr>Endpoint."
+  parameters:
+  - description: "the enableHttpGatewayExclusiveAuthMode value to set."
+    name: "enableHttpGatewayExclusiveAuthMode"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public ClusterProperties withEnableHttpGatewayExclusiveAuthMode(Boolean enableHttpGatewayExclusiveAuthMode)"
+  desc: "Set the enableHttpGatewayExclusiveAuthMode property: If true, token-based authentication is not allowed on the HttpGatewayEndpoint. This is required to support TLS versions 1.3 and above. If token-based authentication is used, HttpGatewayTokenAuthEndpointPort must be defined."
   returns:
     description: "the ClusterProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ClusterProperties?alt=com.azure.resourcemanager.servicefabric.fluent.models.ClusterProperties&text=ClusterProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -772,4 +789,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ClusterProperties?alt=com.azure.resourcemanager.servicefabric.fluent.models.ClusterProperties&text=ClusterProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

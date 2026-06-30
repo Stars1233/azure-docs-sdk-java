@@ -14,7 +14,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location for the cluster code versions. This is different from cluster location."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The cluster code version."
@@ -23,7 +23,7 @@ methods:
   syntax: "public abstract ClusterCodeVersionsListResult get(String location, String clusterVersion)"
   desc: "Gets information about a Service Fabric cluster code version available in the specified location. Gets information about an available Service Fabric cluster code version."
   returns:
-    description: "information about an available Service Fabric cluster code version."
+    description: "information about a Service Fabric cluster code version available in the specified location.\n \n Gets information about an available Service Fabric cluster code version."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsListResult?alt=com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsListResult&text=ClusterCodeVersionsListResult\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabric.models.ClusterVersions.getByEnvironment(java.lang.String,com.azure.resourcemanager.servicefabric.models.ClusterVersionsEnvironment,java.lang.String)"
   fullName: "com.azure.resourcemanager.servicefabric.models.ClusterVersions.getByEnvironment(String location, ClusterVersionsEnvironment environment, String clusterVersion)"
@@ -33,7 +33,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location for the cluster code versions. This is different from cluster location."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The operating system of the cluster. The default means all."
@@ -45,7 +45,7 @@ methods:
   syntax: "public abstract ClusterCodeVersionsListResult getByEnvironment(String location, ClusterVersionsEnvironment environment, String clusterVersion)"
   desc: "Gets information about a Service Fabric cluster code version available for the specified environment. Gets information about an available Service Fabric cluster code version by environment."
   returns:
-    description: "information about an available Service Fabric cluster code version by environment."
+    description: "information about a Service Fabric cluster code version available for the specified environment.\n \n Gets information about an available Service Fabric cluster code version by environment."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsListResult?alt=com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsListResult&text=ClusterCodeVersionsListResult\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabric.models.ClusterVersions.getByEnvironmentWithResponse(java.lang.String,com.azure.resourcemanager.servicefabric.models.ClusterVersionsEnvironment,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.servicefabric.models.ClusterVersions.getByEnvironmentWithResponse(String location, ClusterVersionsEnvironment environment, String clusterVersion, Context context)"
@@ -55,7 +55,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location for the cluster code versions. This is different from cluster location."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The operating system of the cluster. The default means all."
@@ -70,7 +70,7 @@ methods:
   syntax: "public abstract Response<ClusterCodeVersionsListResult> getByEnvironmentWithResponse(String location, ClusterVersionsEnvironment environment, String clusterVersion, Context context)"
   desc: "Gets information about a Service Fabric cluster code version available for the specified environment. Gets information about an available Service Fabric cluster code version by environment."
   returns:
-    description: "information about an available Service Fabric cluster code version by environment along with\n <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    description: "information about a Service Fabric cluster code version available for the specified environment.\n \n Gets information about an available Service Fabric cluster code version by environment along with\n <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsListResult?alt=com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsListResult&text=ClusterCodeVersionsListResult\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.servicefabric.models.ClusterVersions.getWithResponse(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.servicefabric.models.ClusterVersions.getWithResponse(String location, String clusterVersion, Context context)"
@@ -80,7 +80,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location for the cluster code versions. This is different from cluster location."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The cluster code version."
@@ -92,7 +92,7 @@ methods:
   syntax: "public abstract Response<ClusterCodeVersionsListResult> getWithResponse(String location, String clusterVersion, Context context)"
   desc: "Gets information about a Service Fabric cluster code version available in the specified location. Gets information about an available Service Fabric cluster code version."
   returns:
-    description: "information about an available Service Fabric cluster code version along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    description: "information about a Service Fabric cluster code version available in the specified location.\n \n Gets information about an available Service Fabric cluster code version along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsListResult?alt=com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsListResult&text=ClusterCodeVersionsListResult\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.servicefabric.models.ClusterVersions.list(java.lang.String)"
   fullName: "com.azure.resourcemanager.servicefabric.models.ClusterVersions.list(String location)"
@@ -102,13 +102,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location for the cluster code versions. This is different from cluster location."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract ClusterCodeVersionsListResult list(String location)"
   desc: "Gets the list of Service Fabric cluster code versions available for the specified location. Gets all available code versions for Service Fabric cluster resources by location."
   returns:
-    description: "all available code versions for Service Fabric cluster resources by location."
+    description: "the list of Service Fabric cluster code versions available for the specified location.\n \n Gets all available code versions for Service Fabric cluster resources by location."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsListResult?alt=com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsListResult&text=ClusterCodeVersionsListResult\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabric.models.ClusterVersions.listByEnvironment(java.lang.String,com.azure.resourcemanager.servicefabric.models.ClusterVersionsEnvironment)"
   fullName: "com.azure.resourcemanager.servicefabric.models.ClusterVersions.listByEnvironment(String location, ClusterVersionsEnvironment environment)"
@@ -118,7 +118,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location for the cluster code versions. This is different from cluster location."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The operating system of the cluster. The default means all."
@@ -127,7 +127,7 @@ methods:
   syntax: "public abstract ClusterCodeVersionsListResult listByEnvironment(String location, ClusterVersionsEnvironment environment)"
   desc: "Gets the list of Service Fabric cluster code versions available for the specified environment. Gets all available code versions for Service Fabric cluster resources by environment."
   returns:
-    description: "all available code versions for Service Fabric cluster resources by environment."
+    description: "the list of Service Fabric cluster code versions available for the specified environment.\n \n Gets all available code versions for Service Fabric cluster resources by environment."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsListResult?alt=com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsListResult&text=ClusterCodeVersionsListResult\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabric.models.ClusterVersions.listByEnvironmentWithResponse(java.lang.String,com.azure.resourcemanager.servicefabric.models.ClusterVersionsEnvironment,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.servicefabric.models.ClusterVersions.listByEnvironmentWithResponse(String location, ClusterVersionsEnvironment environment, Context context)"
@@ -137,7 +137,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location for the cluster code versions. This is different from cluster location."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The operating system of the cluster. The default means all."
@@ -149,7 +149,7 @@ methods:
   syntax: "public abstract Response<ClusterCodeVersionsListResult> listByEnvironmentWithResponse(String location, ClusterVersionsEnvironment environment, Context context)"
   desc: "Gets the list of Service Fabric cluster code versions available for the specified environment. Gets all available code versions for Service Fabric cluster resources by environment."
   returns:
-    description: "all available code versions for Service Fabric cluster resources by environment along with\n <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    description: "the list of Service Fabric cluster code versions available for the specified environment.\n \n Gets all available code versions for Service Fabric cluster resources by environment along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsListResult?alt=com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsListResult&text=ClusterCodeVersionsListResult\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.servicefabric.models.ClusterVersions.listWithResponse(java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.servicefabric.models.ClusterVersions.listWithResponse(String location, Context context)"
@@ -159,7 +159,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location for the cluster code versions. This is different from cluster location."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -168,10 +168,10 @@ methods:
   syntax: "public abstract Response<ClusterCodeVersionsListResult> listWithResponse(String location, Context context)"
   desc: "Gets the list of Service Fabric cluster code versions available for the specified location. Gets all available code versions for Service Fabric cluster resources by location."
   returns:
-    description: "all available code versions for Service Fabric cluster resources by location along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    description: "the list of Service Fabric cluster code versions available for the specified location.\n \n Gets all available code versions for Service Fabric cluster resources by location along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsListResult?alt=com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsListResult&text=ClusterCodeVersionsListResult\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 desc: "Resource collection API of ClusterVersions."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

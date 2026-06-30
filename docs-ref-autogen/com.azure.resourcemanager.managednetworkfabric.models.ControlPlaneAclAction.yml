@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction"
+name: "ControlPlaneAclAction"
+nameWithType: "ControlPlaneAclAction"
+summary: "Control Plane Access Control List (ACL) Actions."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ControlPlaneAclAction**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction&text=ControlPlaneAclAction\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction.ControlPlaneAclAction()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction.ControlPlaneAclAction()"
+  name: "ControlPlaneAclAction()"
+  nameWithType: "ControlPlaneAclAction.ControlPlaneAclAction()"
+  summary: "Creates an instance of Control<wbr>Plane<wbr>Acl<wbr>Action class."
+  syntax: "public ControlPlaneAclAction()"
+  desc: "Creates an instance of ControlPlaneAclAction class."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ControlPlaneAclAction.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Control<wbr>Plane<wbr>Acl<wbr>Action from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ControlPlaneAclAction fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ControlPlaneAclAction."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ControlPlaneAclAction from the JsonReader."
+  returns:
+    description: "An instance of ControlPlaneAclAction if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction&text=ControlPlaneAclAction\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction.remarkComment()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction.remarkComment()"
+  name: "remarkComment()"
+  nameWithType: "ControlPlaneAclAction.remarkComment()"
+  summary: "Get the remark<wbr>Comment property: Remark comment."
+  syntax: "public String remarkComment()"
+  desc: "Get the remarkComment property: Remark comment."
+  returns:
+    description: "the remarkComment value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ControlPlaneAclAction.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction.type()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction.type()"
+  name: "type()"
+  nameWithType: "ControlPlaneAclAction.type()"
+  summary: "Get the type property: Type of actions that can be performed."
+  syntax: "public ControlPlaneAclActionType type()"
+  desc: "Get the type property: Type of actions that can be performed."
+  returns:
+    description: "the type value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclActionType?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclActionType&text=ControlPlaneAclActionType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction.withRemarkComment(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction.withRemarkComment(String remarkComment)"
+  name: "withRemarkComment(String remarkComment)"
+  nameWithType: "ControlPlaneAclAction.withRemarkComment(String remarkComment)"
+  summary: "Set the remark<wbr>Comment property: Remark comment."
+  parameters:
+  - description: "the remarkComment value to set."
+    name: "remarkComment"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public ControlPlaneAclAction withRemarkComment(String remarkComment)"
+  desc: "Set the remarkComment property: Remark comment."
+  returns:
+    description: "the ControlPlaneAclAction object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction&text=ControlPlaneAclAction\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction.withType(com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclActionType)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction.withType(ControlPlaneAclActionType type)"
+  name: "withType(ControlPlaneAclActionType type)"
+  nameWithType: "ControlPlaneAclAction.withType(ControlPlaneAclActionType type)"
+  summary: "Set the type property: Type of actions that can be performed."
+  parameters:
+  - description: "the type value to set."
+    name: "type"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclActionType?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclActionType&text=ControlPlaneAclActionType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ControlPlaneAclAction withType(ControlPlaneAclActionType type)"
+  desc: "Set the type property: Type of actions that can be performed."
+  returns:
+    description: "the ControlPlaneAclAction object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction&text=ControlPlaneAclAction\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Control Plane Access Control List (ACL) Actions."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclAction&text=ControlPlaneAclAction\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

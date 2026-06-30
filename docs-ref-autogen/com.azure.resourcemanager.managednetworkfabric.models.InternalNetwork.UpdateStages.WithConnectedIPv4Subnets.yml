@@ -6,18 +6,18 @@ nameWithType: "InternalNetwork.UpdateStages.WithConnectedIPv4Subnets"
 summary: "The stage of the Internal<wbr>Network update allowing to specify connected<wbr>IPv4Subnets."
 syntax: "public static interface **InternalNetwork.UpdateStages.WithConnectedIPv4Subnets**"
 methods:
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.UpdateStages.WithConnectedIPv4Subnets.withConnectedIPv4Subnets(java.util.List<com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnet>)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.UpdateStages.WithConnectedIPv4Subnets.withConnectedIPv4Subnets(List<ConnectedSubnet> connectedIPv4Subnets)"
-  name: "withConnectedIPv4Subnets(List<ConnectedSubnet> connectedIPv4Subnets)"
-  nameWithType: "InternalNetwork.UpdateStages.WithConnectedIPv4Subnets.withConnectedIPv4Subnets(List<ConnectedSubnet> connectedIPv4Subnets)"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.UpdateStages.WithConnectedIPv4Subnets.withConnectedIPv4SubnetsForUpdate(java.util.List<com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetPatch>)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.UpdateStages.WithConnectedIPv4Subnets.withConnectedIPv4SubnetsForUpdate(List<ConnectedSubnetPatch> connectedIPv4Subnets)"
+  name: "withConnectedIPv4SubnetsForUpdate(List<ConnectedSubnetPatch> connectedIPv4Subnets)"
+  nameWithType: "InternalNetwork.UpdateStages.WithConnectedIPv4Subnets.withConnectedIPv4SubnetsForUpdate(List<ConnectedSubnetPatch> connectedIPv4Subnets)"
   summary: "Specifies the connected<wbr>IPv4Subnets property: List of Connected IPv4 Subnets.."
   modifiers:
   - "abstract"
   parameters:
   - description: "List of Connected IPv4 Subnets."
     name: "connectedIPv4Subnets"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnet?alt=com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnet&text=ConnectedSubnet\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract InternalNetwork.Update withConnectedIPv4Subnets(List<ConnectedSubnet> connectedIPv4Subnets)"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetPatch&text=ConnectedSubnetPatch\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract InternalNetwork.Update withConnectedIPv4SubnetsForUpdate(List<ConnectedSubnetPatch> connectedIPv4Subnets)"
   desc: "Specifies the connectedIPv4Subnets property: List of Connected IPv4 Subnets.."
   returns:
     description: "the next definition stage."
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the InternalNetwork update allowing to specify connectedIPv4Subnets."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

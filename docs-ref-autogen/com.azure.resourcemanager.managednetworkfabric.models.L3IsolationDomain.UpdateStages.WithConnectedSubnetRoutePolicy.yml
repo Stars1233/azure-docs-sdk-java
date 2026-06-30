@@ -6,18 +6,18 @@ nameWithType: "L3IsolationDomain.UpdateStages.WithConnectedSubnetRoutePolicy"
 summary: "The stage of the L3Isolation<wbr>Domain update allowing to specify connected<wbr>Subnet<wbr>Route<wbr>Policy."
 syntax: "public static interface **L3IsolationDomain.UpdateStages.WithConnectedSubnetRoutePolicy**"
 methods:
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.UpdateStages.WithConnectedSubnetRoutePolicy.withConnectedSubnetRoutePolicy(com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetRoutePolicy)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.UpdateStages.WithConnectedSubnetRoutePolicy.withConnectedSubnetRoutePolicy(ConnectedSubnetRoutePolicy connectedSubnetRoutePolicy)"
-  name: "withConnectedSubnetRoutePolicy(ConnectedSubnetRoutePolicy connectedSubnetRoutePolicy)"
-  nameWithType: "L3IsolationDomain.UpdateStages.WithConnectedSubnetRoutePolicy.withConnectedSubnetRoutePolicy(ConnectedSubnetRoutePolicy connectedSubnetRoutePolicy)"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.UpdateStages.WithConnectedSubnetRoutePolicy.withConnectedSubnetRoutePolicy(com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetRoutePolicyPatch)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.UpdateStages.WithConnectedSubnetRoutePolicy.withConnectedSubnetRoutePolicy(ConnectedSubnetRoutePolicyPatch connectedSubnetRoutePolicy)"
+  name: "withConnectedSubnetRoutePolicy(ConnectedSubnetRoutePolicyPatch connectedSubnetRoutePolicy)"
+  nameWithType: "L3IsolationDomain.UpdateStages.WithConnectedSubnetRoutePolicy.withConnectedSubnetRoutePolicy(ConnectedSubnetRoutePolicyPatch connectedSubnetRoutePolicy)"
   summary: "Specifies the connected<wbr>Subnet<wbr>Route<wbr>Policy property: Connected Subnet Route<wbr>Policy."
   modifiers:
   - "abstract"
   parameters:
   - description: "Connected Subnet RoutePolicy."
     name: "connectedSubnetRoutePolicy"
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetRoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetRoutePolicy&text=ConnectedSubnetRoutePolicy\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract L3IsolationDomain.Update withConnectedSubnetRoutePolicy(ConnectedSubnetRoutePolicy connectedSubnetRoutePolicy)"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetRoutePolicyPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetRoutePolicyPatch&text=ConnectedSubnetRoutePolicyPatch\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract L3IsolationDomain.Update withConnectedSubnetRoutePolicy(ConnectedSubnetRoutePolicyPatch connectedSubnetRoutePolicy)"
   desc: "Specifies the connectedSubnetRoutePolicy property: Connected Subnet RoutePolicy."
   returns:
     description: "the next definition stage."
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the L3IsolationDomain update allowing to specify connectedSubnetRoutePolicy."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

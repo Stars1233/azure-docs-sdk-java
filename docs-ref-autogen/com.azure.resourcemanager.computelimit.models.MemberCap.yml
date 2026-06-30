@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.computelimit.models.MemberCap"
+fullName: "com.azure.resourcemanager.computelimit.models.MemberCap"
+name: "MemberCap"
+nameWithType: "MemberCap"
+summary: "Per-member cap override."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **MemberCap**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.computelimit.models.MemberCap?alt=com.azure.resourcemanager.computelimit.models.MemberCap&text=MemberCap\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.computelimit.models.MemberCap.MemberCap()"
+  fullName: "com.azure.resourcemanager.computelimit.models.MemberCap.MemberCap()"
+  name: "MemberCap()"
+  nameWithType: "MemberCap.MemberCap()"
+  summary: "Creates an instance of Member<wbr>Cap class."
+  syntax: "public MemberCap()"
+  desc: "Creates an instance of MemberCap class."
+methods:
+- uid: "com.azure.resourcemanager.computelimit.models.MemberCap.cap()"
+  fullName: "com.azure.resourcemanager.computelimit.models.MemberCap.cap()"
+  name: "cap()"
+  nameWithType: "MemberCap.cap()"
+  summary: "Get the cap property: The cap value in count units for this member subscription."
+  syntax: "public int cap()"
+  desc: "Get the cap property: The cap value in count units for this member subscription."
+  returns:
+    description: "the cap value."
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.computelimit.models.MemberCap.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.computelimit.models.MemberCap.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "MemberCap.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Member<wbr>Cap from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static MemberCap fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of MemberCap from the JsonReader."
+  returns:
+    description: "An instance of MemberCap if the JsonReader was pointing to an instance of it, or null if it was pointing\n to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.computelimit.models.MemberCap?alt=com.azure.resourcemanager.computelimit.models.MemberCap&text=MemberCap\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.computelimit.models.MemberCap.subscriptionId()"
+  fullName: "com.azure.resourcemanager.computelimit.models.MemberCap.subscriptionId()"
+  name: "subscriptionId()"
+  nameWithType: "MemberCap.subscriptionId()"
+  summary: "Get the subscription<wbr>Id property: The member subscription identifier this cap applies to."
+  syntax: "public String subscriptionId()"
+  desc: "Get the subscriptionId property: The member subscription identifier this cap applies to."
+  returns:
+    description: "the subscriptionId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.computelimit.models.MemberCap.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.computelimit.models.MemberCap.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "MemberCap.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.computelimit.models.MemberCap.withCap(int)"
+  fullName: "com.azure.resourcemanager.computelimit.models.MemberCap.withCap(int cap)"
+  name: "withCap(int cap)"
+  nameWithType: "MemberCap.withCap(int cap)"
+  summary: "Set the cap property: The cap value in count units for this member subscription."
+  parameters:
+  - description: "the cap value to set."
+    name: "cap"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public MemberCap withCap(int cap)"
+  desc: "Set the cap property: The cap value in count units for this member subscription."
+  returns:
+    description: "the MemberCap object itself."
+    type: "<xref href=\"com.azure.resourcemanager.computelimit.models.MemberCap?alt=com.azure.resourcemanager.computelimit.models.MemberCap&text=MemberCap\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.computelimit.models.MemberCap.withSubscriptionId(java.lang.String)"
+  fullName: "com.azure.resourcemanager.computelimit.models.MemberCap.withSubscriptionId(String subscriptionId)"
+  name: "withSubscriptionId(String subscriptionId)"
+  nameWithType: "MemberCap.withSubscriptionId(String subscriptionId)"
+  summary: "Set the subscription<wbr>Id property: The member subscription identifier this cap applies to."
+  parameters:
+  - description: "the subscriptionId value to set."
+    name: "subscriptionId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public MemberCap withSubscriptionId(String subscriptionId)"
+  desc: "Set the subscriptionId property: The member subscription identifier this cap applies to."
+  returns:
+    description: "the MemberCap object itself."
+    type: "<xref href=\"com.azure.resourcemanager.computelimit.models.MemberCap?alt=com.azure.resourcemanager.computelimit.models.MemberCap&text=MemberCap\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Per-member cap override. Pairs a member subscription with its cap value."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.computelimit.models.MemberCap?alt=com.azure.resourcemanager.computelimit.models.MemberCap&text=MemberCap\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.computelimit.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-computelimit:1.2.0

@@ -10,7 +10,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.beginCreate(String resourceGroupName, String networkRackName, NetworkRackInner body)"
   name: "beginCreate(String resourceGroupName, String networkRackName, NetworkRackInner body)"
   nameWithType: "NetworkRacksClient.beginCreate(String resourceGroupName, String networkRackName, NetworkRackInner body)"
-  summary: "Create Network Rack."
+  summary: "Create Network Rack resource."
   modifiers:
   - "abstract"
   parameters:
@@ -24,7 +24,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner&text=NetworkRackInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<NetworkRackInner>,NetworkRackInner> beginCreate(String resourceGroupName, String networkRackName, NetworkRackInner body)"
-  desc: "Create Network Rack. Create Network Rack resource."
+  desc: "Create Network Rack resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the Network Rack resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner&text=NetworkRackInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner&text=NetworkRackInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -32,7 +32,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.beginCreate(String resourceGroupName, String networkRackName, NetworkRackInner body, Context context)"
   name: "beginCreate(String resourceGroupName, String networkRackName, NetworkRackInner body, Context context)"
   nameWithType: "NetworkRacksClient.beginCreate(String resourceGroupName, String networkRackName, NetworkRackInner body, Context context)"
-  summary: "Create Network Rack."
+  summary: "Create Network Rack resource."
   modifiers:
   - "abstract"
   parameters:
@@ -49,7 +49,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<NetworkRackInner>,NetworkRackInner> beginCreate(String resourceGroupName, String networkRackName, NetworkRackInner body, Context context)"
-  desc: "Create Network Rack. Create Network Rack resource."
+  desc: "Create Network Rack resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the Network Rack resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner&text=NetworkRackInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner&text=NetworkRackInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -57,7 +57,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.beginDelete(String resourceGroupName, String networkRackName)"
   name: "beginDelete(String resourceGroupName, String networkRackName)"
   nameWithType: "NetworkRacksClient.beginDelete(String resourceGroupName, String networkRackName)"
-  summary: "Deletes a Network Rack."
+  summary: "Delete Network Rack resource."
   modifiers:
   - "abstract"
   parameters:
@@ -68,7 +68,7 @@ methods:
     name: "networkRackName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDelete(String resourceGroupName, String networkRackName)"
-  desc: "Deletes a Network Rack. Delete Network Rack resource."
+  desc: "Delete Network Rack resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
@@ -76,7 +76,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.beginDelete(String resourceGroupName, String networkRackName, Context context)"
   name: "beginDelete(String resourceGroupName, String networkRackName, Context context)"
   nameWithType: "NetworkRacksClient.beginDelete(String resourceGroupName, String networkRackName, Context context)"
-  summary: "Deletes a Network Rack."
+  summary: "Delete Network Rack resource."
   modifiers:
   - "abstract"
   parameters:
@@ -90,15 +90,15 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDelete(String resourceGroupName, String networkRackName, Context context)"
-  desc: "Deletes a Network Rack. Delete Network Rack resource."
+  desc: "Delete Network Rack resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.beginUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.beginUpdate(String resourceGroupName, String networkRackName, TagsUpdate body)"
-  name: "beginUpdate(String resourceGroupName, String networkRackName, TagsUpdate body)"
-  nameWithType: "NetworkRacksClient.beginUpdate(String resourceGroupName, String networkRackName, TagsUpdate body)"
-  summary: "Updates a Network Rack."
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.beginUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.NetworkRackPatch)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.beginUpdate(String resourceGroupName, String networkRackName, NetworkRackPatch body)"
+  name: "beginUpdate(String resourceGroupName, String networkRackName, NetworkRackPatch body)"
+  nameWithType: "NetworkRacksClient.beginUpdate(String resourceGroupName, String networkRackName, NetworkRackPatch body)"
+  summary: "Update certain properties of the Network Rack resource."
   modifiers:
   - "abstract"
   parameters:
@@ -110,17 +110,17 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Network Rack properties to update."
     name: "body"
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate&text=TagsUpdate\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract SyncPoller<PollResult<NetworkRackInner>,NetworkRackInner> beginUpdate(String resourceGroupName, String networkRackName, TagsUpdate body)"
-  desc: "Updates a Network Rack. Update certain properties of the Network Rack resource."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkRackPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkRackPatch&text=NetworkRackPatch\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract SyncPoller<PollResult<NetworkRackInner>,NetworkRackInner> beginUpdate(String resourceGroupName, String networkRackName, NetworkRackPatch body)"
+  desc: "Update certain properties of the Network Rack resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the Network Rack resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner&text=NetworkRackInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner&text=NetworkRackInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.beginUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate,com.azure.core.util.Context)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.beginUpdate(String resourceGroupName, String networkRackName, TagsUpdate body, Context context)"
-  name: "beginUpdate(String resourceGroupName, String networkRackName, TagsUpdate body, Context context)"
-  nameWithType: "NetworkRacksClient.beginUpdate(String resourceGroupName, String networkRackName, TagsUpdate body, Context context)"
-  summary: "Updates a Network Rack."
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.beginUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.NetworkRackPatch,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.beginUpdate(String resourceGroupName, String networkRackName, NetworkRackPatch body, Context context)"
+  name: "beginUpdate(String resourceGroupName, String networkRackName, NetworkRackPatch body, Context context)"
+  nameWithType: "NetworkRacksClient.beginUpdate(String resourceGroupName, String networkRackName, NetworkRackPatch body, Context context)"
+  summary: "Update certain properties of the Network Rack resource."
   modifiers:
   - "abstract"
   parameters:
@@ -132,12 +132,12 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Network Rack properties to update."
     name: "body"
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate&text=TagsUpdate\" data-throw-if-not-resolved=\"False\" />"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkRackPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkRackPatch&text=NetworkRackPatch\" data-throw-if-not-resolved=\"False\" />"
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract SyncPoller<PollResult<NetworkRackInner>,NetworkRackInner> beginUpdate(String resourceGroupName, String networkRackName, TagsUpdate body, Context context)"
-  desc: "Updates a Network Rack. Update certain properties of the Network Rack resource."
+  syntax: "public abstract SyncPoller<PollResult<NetworkRackInner>,NetworkRackInner> beginUpdate(String resourceGroupName, String networkRackName, NetworkRackPatch body, Context context)"
+  desc: "Update certain properties of the Network Rack resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the Network Rack resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner&text=NetworkRackInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner&text=NetworkRackInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -145,7 +145,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.create(String resourceGroupName, String networkRackName, NetworkRackInner body)"
   name: "create(String resourceGroupName, String networkRackName, NetworkRackInner body)"
   nameWithType: "NetworkRacksClient.create(String resourceGroupName, String networkRackName, NetworkRackInner body)"
-  summary: "Create Network Rack."
+  summary: "Create Network Rack resource."
   modifiers:
   - "abstract"
   parameters:
@@ -159,7 +159,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner&text=NetworkRackInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract NetworkRackInner create(String resourceGroupName, String networkRackName, NetworkRackInner body)"
-  desc: "Create Network Rack. Create Network Rack resource."
+  desc: "Create Network Rack resource."
   returns:
     description: "the Network Rack resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner&text=NetworkRackInner\" data-throw-if-not-resolved=\"False\" />"
@@ -167,7 +167,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.create(String resourceGroupName, String networkRackName, NetworkRackInner body, Context context)"
   name: "create(String resourceGroupName, String networkRackName, NetworkRackInner body, Context context)"
   nameWithType: "NetworkRacksClient.create(String resourceGroupName, String networkRackName, NetworkRackInner body, Context context)"
-  summary: "Create Network Rack."
+  summary: "Create Network Rack resource."
   modifiers:
   - "abstract"
   parameters:
@@ -184,7 +184,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract NetworkRackInner create(String resourceGroupName, String networkRackName, NetworkRackInner body, Context context)"
-  desc: "Create Network Rack. Create Network Rack resource."
+  desc: "Create Network Rack resource."
   returns:
     description: "the Network Rack resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner&text=NetworkRackInner\" data-throw-if-not-resolved=\"False\" />"
@@ -192,7 +192,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.delete(String resourceGroupName, String networkRackName)"
   name: "delete(String resourceGroupName, String networkRackName)"
   nameWithType: "NetworkRacksClient.delete(String resourceGroupName, String networkRackName)"
-  summary: "Deletes a Network Rack."
+  summary: "Delete Network Rack resource."
   modifiers:
   - "abstract"
   parameters:
@@ -203,12 +203,12 @@ methods:
     name: "networkRackName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void delete(String resourceGroupName, String networkRackName)"
-  desc: "Deletes a Network Rack. Delete Network Rack resource."
+  desc: "Delete Network Rack resource."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.delete(String resourceGroupName, String networkRackName, Context context)"
   name: "delete(String resourceGroupName, String networkRackName, Context context)"
   nameWithType: "NetworkRacksClient.delete(String resourceGroupName, String networkRackName, Context context)"
-  summary: "Deletes a Network Rack."
+  summary: "Delete Network Rack resource."
   modifiers:
   - "abstract"
   parameters:
@@ -222,12 +222,12 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void delete(String resourceGroupName, String networkRackName, Context context)"
-  desc: "Deletes a Network Rack. Delete Network Rack resource."
+  desc: "Delete Network Rack resource."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.getByResourceGroup(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.getByResourceGroup(String resourceGroupName, String networkRackName)"
   name: "getByResourceGroup(String resourceGroupName, String networkRackName)"
   nameWithType: "NetworkRacksClient.getByResourceGroup(String resourceGroupName, String networkRackName)"
-  summary: "Gets a Network Rack."
+  summary: "Get Network Rack resource details."
   modifiers:
   - "abstract"
   parameters:
@@ -238,7 +238,7 @@ methods:
     name: "networkRackName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract NetworkRackInner getByResourceGroup(String resourceGroupName, String networkRackName)"
-  desc: "Gets a Network Rack. Get Network Rack resource details."
+  desc: "Get Network Rack resource details."
   returns:
     description: "network Rack resource details."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner&text=NetworkRackInner\" data-throw-if-not-resolved=\"False\" />"
@@ -246,7 +246,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.getByResourceGroupWithResponse(String resourceGroupName, String networkRackName, Context context)"
   name: "getByResourceGroupWithResponse(String resourceGroupName, String networkRackName, Context context)"
   nameWithType: "NetworkRacksClient.getByResourceGroupWithResponse(String resourceGroupName, String networkRackName, Context context)"
-  summary: "Gets a Network Rack."
+  summary: "Get Network Rack resource details."
   modifiers:
   - "abstract"
   parameters:
@@ -260,7 +260,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<NetworkRackInner> getByResourceGroupWithResponse(String resourceGroupName, String networkRackName, Context context)"
-  desc: "Gets a Network Rack. Get Network Rack resource details."
+  desc: "Get Network Rack resource details."
   returns:
     description: "network Rack resource details along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner&text=NetworkRackInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -268,19 +268,19 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.list()"
   name: "list()"
   nameWithType: "NetworkRacksClient.list()"
-  summary: "List Network Racks by subscription."
+  summary: "List all Network Rack resources in the given subscription."
   modifiers:
   - "abstract"
   syntax: "public abstract PagedIterable<NetworkRackInner> list()"
-  desc: "List Network Racks by subscription. List all Network Rack resources in the given subscription."
+  desc: "List all Network Rack resources in the given subscription."
   returns:
-    description: "list of Network Racks as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NetworkRack items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner&text=NetworkRackInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.list(com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.list(Context context)"
   name: "list(Context context)"
   nameWithType: "NetworkRacksClient.list(Context context)"
-  summary: "List Network Racks by subscription."
+  summary: "List all Network Rack resources in the given subscription."
   modifiers:
   - "abstract"
   parameters:
@@ -288,15 +288,15 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<NetworkRackInner> list(Context context)"
-  desc: "List Network Racks by subscription. List all Network Rack resources in the given subscription."
+  desc: "List all Network Rack resources in the given subscription."
   returns:
-    description: "list of Network Racks as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NetworkRack items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner&text=NetworkRackInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.listByResourceGroup(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.listByResourceGroup(String resourceGroupName)"
   name: "listByResourceGroup(String resourceGroupName)"
   nameWithType: "NetworkRacksClient.listByResourceGroup(String resourceGroupName)"
-  summary: "List Network Racks by resource group."
+  summary: "List all Network Rack resources in the given resource group."
   modifiers:
   - "abstract"
   parameters:
@@ -304,15 +304,15 @@ methods:
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<NetworkRackInner> listByResourceGroup(String resourceGroupName)"
-  desc: "List Network Racks by resource group. List all Network Rack resources in the given resource group."
+  desc: "List all Network Rack resources in the given resource group."
   returns:
-    description: "list of Network Racks as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NetworkRack items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner&text=NetworkRackInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.listByResourceGroup(String resourceGroupName, Context context)"
   name: "listByResourceGroup(String resourceGroupName, Context context)"
   nameWithType: "NetworkRacksClient.listByResourceGroup(String resourceGroupName, Context context)"
-  summary: "List Network Racks by resource group."
+  summary: "List all Network Rack resources in the given resource group."
   modifiers:
   - "abstract"
   parameters:
@@ -323,15 +323,15 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<NetworkRackInner> listByResourceGroup(String resourceGroupName, Context context)"
-  desc: "List Network Racks by resource group. List all Network Rack resources in the given resource group."
+  desc: "List all Network Rack resources in the given resource group."
   returns:
-    description: "list of Network Racks as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NetworkRack items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner&text=NetworkRackInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.update(java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.update(String resourceGroupName, String networkRackName, TagsUpdate body)"
-  name: "update(String resourceGroupName, String networkRackName, TagsUpdate body)"
-  nameWithType: "NetworkRacksClient.update(String resourceGroupName, String networkRackName, TagsUpdate body)"
-  summary: "Updates a Network Rack."
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.update(java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.NetworkRackPatch)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.update(String resourceGroupName, String networkRackName, NetworkRackPatch body)"
+  name: "update(String resourceGroupName, String networkRackName, NetworkRackPatch body)"
+  nameWithType: "NetworkRacksClient.update(String resourceGroupName, String networkRackName, NetworkRackPatch body)"
+  summary: "Update certain properties of the Network Rack resource."
   modifiers:
   - "abstract"
   parameters:
@@ -343,17 +343,17 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Network Rack properties to update."
     name: "body"
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate&text=TagsUpdate\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract NetworkRackInner update(String resourceGroupName, String networkRackName, TagsUpdate body)"
-  desc: "Updates a Network Rack. Update certain properties of the Network Rack resource."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkRackPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkRackPatch&text=NetworkRackPatch\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NetworkRackInner update(String resourceGroupName, String networkRackName, NetworkRackPatch body)"
+  desc: "Update certain properties of the Network Rack resource."
   returns:
     description: "the Network Rack resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner&text=NetworkRackInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.update(java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate,com.azure.core.util.Context)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.update(String resourceGroupName, String networkRackName, TagsUpdate body, Context context)"
-  name: "update(String resourceGroupName, String networkRackName, TagsUpdate body, Context context)"
-  nameWithType: "NetworkRacksClient.update(String resourceGroupName, String networkRackName, TagsUpdate body, Context context)"
-  summary: "Updates a Network Rack."
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.update(java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.NetworkRackPatch,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkRacksClient.update(String resourceGroupName, String networkRackName, NetworkRackPatch body, Context context)"
+  name: "update(String resourceGroupName, String networkRackName, NetworkRackPatch body, Context context)"
+  nameWithType: "NetworkRacksClient.update(String resourceGroupName, String networkRackName, NetworkRackPatch body, Context context)"
+  summary: "Update certain properties of the Network Rack resource."
   modifiers:
   - "abstract"
   parameters:
@@ -365,12 +365,12 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Network Rack properties to update."
     name: "body"
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate&text=TagsUpdate\" data-throw-if-not-resolved=\"False\" />"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkRackPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkRackPatch&text=NetworkRackPatch\" data-throw-if-not-resolved=\"False\" />"
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract NetworkRackInner update(String resourceGroupName, String networkRackName, TagsUpdate body, Context context)"
-  desc: "Updates a Network Rack. Update certain properties of the Network Rack resource."
+  syntax: "public abstract NetworkRackInner update(String resourceGroupName, String networkRackName, NetworkRackPatch body, Context context)"
+  desc: "Update certain properties of the Network Rack resource."
   returns:
     description: "the Network Rack resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackInner&text=NetworkRackInner\" data-throw-if-not-resolved=\"False\" />"
@@ -378,4 +378,4 @@ type: "interface"
 desc: "An instance of this class provides access to all the operations defined in NetworkRacksClient."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

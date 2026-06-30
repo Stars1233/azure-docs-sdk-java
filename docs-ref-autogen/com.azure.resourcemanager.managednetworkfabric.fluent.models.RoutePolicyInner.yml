@@ -125,6 +125,16 @@ methods:
   returns:
     description: "the id value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner.lastOperation()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner.lastOperation()"
+  name: "lastOperation()"
+  nameWithType: "RoutePolicyInner.lastOperation()"
+  summary: "Get the last<wbr>Operation property: Details of the last operation performed on the resource."
+  syntax: "public LastOperationProperties lastOperation()"
+  desc: "Get the lastOperation property: Details of the last operation performed on the resource."
+  returns:
+    description: "the lastOperation value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties&text=LastOperationProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner.name()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner.name()"
   name: "name()"
@@ -200,13 +210,6 @@ methods:
   returns:
     description: "the type value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner.validate()"
-  name: "validate()"
-  nameWithType: "RoutePolicyInner.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner.withAddressFamilyType(com.azure.resourcemanager.managednetworkfabric.models.AddressFamilyType)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner.withAddressFamilyType(AddressFamilyType addressFamilyType)"
   name: "withAddressFamilyType(AddressFamilyType addressFamilyType)"
@@ -303,4 +306,4 @@ type: "class"
 desc: "The RoutePolicy resource definition."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

@@ -78,6 +78,18 @@ methods:
   returns:
     description: "the ipPrefixRules value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpPrefixRule?alt=com.azure.resourcemanager.managednetworkfabric.models.IpPrefixRule&text=IpPrefixRule\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.lastOperation()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.lastOperation()"
+  name: "lastOperation()"
+  nameWithType: "IpPrefix.lastOperation()"
+  summary: "Gets the last<wbr>Operation property: Details of the last operation performed on the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract LastOperationProperties lastOperation()"
+  desc: "Gets the lastOperation property: Details of the last operation performed on the resource."
+  returns:
+    description: "the lastOperation value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties&text=LastOperationProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.location()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.location()"
   name: "location()"
@@ -101,6 +113,18 @@ methods:
   desc: "Gets the name property: The name of the resource."
   returns:
     description: "the name value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.networkFabricId()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.networkFabricId()"
+  name: "networkFabricId()"
+  nameWithType: "IpPrefix.networkFabricId()"
+  summary: "Gets the network<wbr>Fabric<wbr>Id property: ARM Resource ID of the Network Fabric."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String networkFabricId()"
+  desc: "Gets the networkFabricId property: ARM Resource ID of the Network Fabric."
+  returns:
+    description: "the networkFabricId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.provisioningState()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.provisioningState()"
@@ -230,4 +254,4 @@ type: "interface"
 desc: "An immutable client-side representation of IpPrefix."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

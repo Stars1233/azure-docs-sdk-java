@@ -1,0 +1,86 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.monitor.workspaces.models.IssueCreationNotificationType"
+fullName: "com.azure.resourcemanager.monitor.workspaces.models.IssueCreationNotificationType"
+name: "IssueCreationNotificationType"
+nameWithType: "IssueCreationNotificationType"
+summary: "Notification type for issue creation events."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType?alt=com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType&text=IssueNotificationType\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType.fromJson(com.azure.json.JsonReader)?alt=com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType.updateType()?alt=com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType.updateType&text=updateType\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **IssueCreationNotificationType**</br> extends <xref href=\"com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType?alt=com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType&text=IssueNotificationType\" data-throw-if-not-resolved=\"False\" />"
+constructors:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.IssueCreationNotificationType.IssueCreationNotificationType()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.IssueCreationNotificationType.IssueCreationNotificationType()"
+  name: "IssueCreationNotificationType()"
+  nameWithType: "IssueCreationNotificationType.IssueCreationNotificationType()"
+  summary: "Creates an instance of Issue<wbr>Creation<wbr>Notification<wbr>Type class."
+  syntax: "public IssueCreationNotificationType()"
+  desc: "Creates an instance of IssueCreationNotificationType class."
+methods:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.IssueCreationNotificationType.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.IssueCreationNotificationType.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "IssueCreationNotificationType.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Issue<wbr>Creation<wbr>Notification<wbr>Type from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static IssueCreationNotificationType fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the IssueCreationNotificationType."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of IssueCreationNotificationType from the JsonReader."
+  returns:
+    description: "An instance of IssueCreationNotificationType if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.IssueCreationNotificationType?alt=com.azure.resourcemanager.monitor.workspaces.models.IssueCreationNotificationType&text=IssueCreationNotificationType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.IssueCreationNotificationType.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.IssueCreationNotificationType.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "IssueCreationNotificationType.toJson(JsonWriter jsonWriter)"
+  overridden: "com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType.toJson(com.azure.json.JsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.IssueCreationNotificationType.updateType()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.IssueCreationNotificationType.updateType()"
+  name: "updateType()"
+  nameWithType: "IssueCreationNotificationType.updateType()"
+  summary: "Get the update<wbr>Type property: The type of update that triggers the notification."
+  overridden: "com.azure.resourcemanager.monitor.workspaces.models.IssueNotificationType.updateType()"
+  syntax: "public UpdateType updateType()"
+  desc: "Get the updateType property: The type of update that triggers the notification."
+  returns:
+    description: "the updateType value."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.UpdateType?alt=com.azure.resourcemanager.monitor.workspaces.models.UpdateType&text=UpdateType\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Notification type for issue creation events."
+metadata: {}
+package: "com.azure.resourcemanager.monitor.workspaces.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor-workspaces:1.0.0-beta.1

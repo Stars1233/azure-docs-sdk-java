@@ -119,6 +119,16 @@ methods:
   returns:
     description: "the hardwareProfile value."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSetHardwareProfile?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSetHardwareProfile&text=VirtualMachineScaleSetHardwareProfile\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMProfile.interconnectBlockProfile()"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMProfile.interconnectBlockProfile()"
+  name: "interconnectBlockProfile()"
+  nameWithType: "VirtualMachineScaleSetVMProfile.interconnectBlockProfile()"
+  summary: "Get the interconnect<wbr>Block<wbr>Profile property: Specifies the Interconnect Block related details of a Scale Set."
+  syntax: "public InterconnectBlockProfile interconnectBlockProfile()"
+  desc: "Get the interconnectBlockProfile property: Specifies the Interconnect Block related details of a Scale Set. Minimum api-version: 2026-03-01."
+  returns:
+    description: "the interconnectBlockProfile value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.InterconnectBlockProfile?alt=com.azure.resourcemanager.compute.models.InterconnectBlockProfile&text=InterconnectBlockProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMProfile.licenseType()"
   fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMProfile.licenseType()"
   name: "licenseType()"
@@ -346,6 +356,20 @@ methods:
   returns:
     description: "the VirtualMachineScaleSetVMProfile object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMProfile?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMProfile&text=VirtualMachineScaleSetVMProfile\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMProfile.withInterconnectBlockProfile(com.azure.resourcemanager.compute.models.InterconnectBlockProfile)"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMProfile.withInterconnectBlockProfile(InterconnectBlockProfile interconnectBlockProfile)"
+  name: "withInterconnectBlockProfile(InterconnectBlockProfile interconnectBlockProfile)"
+  nameWithType: "VirtualMachineScaleSetVMProfile.withInterconnectBlockProfile(InterconnectBlockProfile interconnectBlockProfile)"
+  summary: "Set the interconnect<wbr>Block<wbr>Profile property: Specifies the Interconnect Block related details of a Scale Set."
+  parameters:
+  - description: "the interconnectBlockProfile value to set."
+    name: "interconnectBlockProfile"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.InterconnectBlockProfile?alt=com.azure.resourcemanager.compute.models.InterconnectBlockProfile&text=InterconnectBlockProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public VirtualMachineScaleSetVMProfile withInterconnectBlockProfile(InterconnectBlockProfile interconnectBlockProfile)"
+  desc: "Set the interconnectBlockProfile property: Specifies the Interconnect Block related details of a Scale Set. Minimum api-version: 2026-03-01."
+  returns:
+    description: "the VirtualMachineScaleSetVMProfile object itself."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMProfile?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMProfile&text=VirtualMachineScaleSetVMProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMProfile.withLicenseType(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMProfile.withLicenseType(String licenseType)"
   name: "withLicenseType(String licenseType)"
@@ -492,4 +516,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMProfile?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMProfile&text=VirtualMachineScaleSetVMProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

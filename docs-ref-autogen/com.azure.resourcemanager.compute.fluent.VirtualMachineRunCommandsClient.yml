@@ -427,7 +427,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of Azure region."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Specifies a commandId of predefined built-in script. Command IDs available for Linux are listed\n at https://aka.ms/RunCommandManagedLinux#available-commands, Windows at\n https://aka.ms/RunCommandManagedWindows#available-commands."
@@ -446,7 +446,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of Azure region."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Specifies a commandId of predefined built-in script. Command IDs available for Linux are listed\n at https://aka.ms/RunCommandManagedLinux#available-commands, Windows at\n https://aka.ms/RunCommandManagedWindows#available-commands."
@@ -562,7 +562,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of Azure region."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Specifies a commandId of predefined built-in script. Command IDs available for Linux are listed\n at https://aka.ms/RunCommandManagedLinux#available-commands, Windows at\n https://aka.ms/RunCommandManagedWindows#available-commands."
@@ -584,7 +584,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of Azure region."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Specifies a commandId of predefined built-in script. Command IDs available for Linux are listed\n at https://aka.ms/RunCommandManagedLinux#available-commands, Windows at\n https://aka.ms/RunCommandManagedWindows#available-commands."
@@ -603,7 +603,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of Azure region."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<RunCommandDocumentBaseInner> list(String location)"
@@ -619,7 +619,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of Azure region."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -638,7 +638,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of Azure region."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedFlux<RunCommandDocumentBaseInner> listAsync(String location)"
@@ -838,4 +838,4 @@ type: "interface"
 desc: "An instance of this class provides access to all the operations defined in VirtualMachineRunCommandsClient."
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsL
 fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsListResultInner"
 name: "ClusterCodeVersionsListResultInner"
 nameWithType: "ClusterCodeVersionsListResultInner"
-summary: "The list results of the Service Fabric runtime versions."
+summary: "The response of a Cluster<wbr>Code<wbr>Versions list operation."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ClusterCodeVersionsListResultInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsListResultInner?alt=com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsListResultInner&text=ClusterCodeVersionsListResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsListResultInner.ClusterCodeVersionsListResultInner()"
-  fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsListResultInner.ClusterCodeVersionsListResultInner()"
-  name: "ClusterCodeVersionsListResultInner()"
-  nameWithType: "ClusterCodeVersionsListResultInner.ClusterCodeVersionsListResultInner()"
-  summary: "Creates an instance of Cluster<wbr>Code<wbr>Versions<wbr>List<wbr>Result<wbr>Inner class."
-  syntax: "public ClusterCodeVersionsListResultInner()"
-  desc: "Creates an instance of ClusterCodeVersionsListResultInner class."
 methods:
 - uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsListResultInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsListResultInner.fromJson(JsonReader jsonReader)"
@@ -43,7 +35,7 @@ methods:
     type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static ClusterCodeVersionsListResultInner fromJson(JsonReader jsonReader)"
   exceptions:
-  - description: "If an error occurs while reading the ClusterCodeVersionsListResultInner."
+  - description: "If the deserialized JSON object was missing any required properties."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   desc: "Reads an instance of ClusterCodeVersionsListResultInner from the JsonReader."
   returns:
@@ -53,9 +45,9 @@ methods:
   fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsListResultInner.nextLink()"
   name: "nextLink()"
   nameWithType: "ClusterCodeVersionsListResultInner.nextLink()"
-  summary: "Get the next<wbr>Link property: The URL to use for getting the next set of results."
+  summary: "Get the next<wbr>Link property: The link to the next page of items."
   syntax: "public String nextLink()"
-  desc: "Get the nextLink property: The URL to use for getting the next set of results."
+  desc: "Get the nextLink property: The link to the next page of items."
   returns:
     description: "the nextLink value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -71,55 +63,20 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsListResultInner.validate()"
-  fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsListResultInner.validate()"
-  name: "validate()"
-  nameWithType: "ClusterCodeVersionsListResultInner.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsListResultInner.value()"
   fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsListResultInner.value()"
   name: "value()"
   nameWithType: "ClusterCodeVersionsListResultInner.value()"
-  summary: "Get the value property: The value property."
+  summary: "Get the value property: The Cluster<wbr>Code<wbr>Versions items on this page."
   syntax: "public List<ClusterCodeVersionsResult> value()"
-  desc: "Get the value property: The value property."
+  desc: "Get the value property: The ClusterCodeVersions items on this page."
   returns:
     description: "the value value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsResult?alt=com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsResult&text=ClusterCodeVersionsResult\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsListResultInner.withNextLink(java.lang.String)"
-  fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsListResultInner.withNextLink(String nextLink)"
-  name: "withNextLink(String nextLink)"
-  nameWithType: "ClusterCodeVersionsListResultInner.withNextLink(String nextLink)"
-  summary: "Set the next<wbr>Link property: The URL to use for getting the next set of results."
-  parameters:
-  - description: "the nextLink value to set."
-    name: "nextLink"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ClusterCodeVersionsListResultInner withNextLink(String nextLink)"
-  desc: "Set the nextLink property: The URL to use for getting the next set of results."
-  returns:
-    description: "the ClusterCodeVersionsListResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsListResultInner?alt=com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsListResultInner&text=ClusterCodeVersionsListResultInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsListResultInner.withValue(java.util.List<com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsResult>)"
-  fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsListResultInner.withValue(List<ClusterCodeVersionsResult> value)"
-  name: "withValue(List<ClusterCodeVersionsResult> value)"
-  nameWithType: "ClusterCodeVersionsListResultInner.withValue(List<ClusterCodeVersionsResult> value)"
-  summary: "Set the value property: The value property."
-  parameters:
-  - description: "the value value to set."
-    name: "value"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsResult?alt=com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsResult&text=ClusterCodeVersionsResult\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public ClusterCodeVersionsListResultInner withValue(List<ClusterCodeVersionsResult> value)"
-  desc: "Set the value property: The value property."
-  returns:
-    description: "the ClusterCodeVersionsListResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsListResultInner?alt=com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsListResultInner&text=ClusterCodeVersionsListResultInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The list results of the Service Fabric runtime versions."
+desc: "The response of a ClusterCodeVersions list operation."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsListResultInner?alt=com.azure.resourcemanager.servicefabric.fluent.models.ClusterCodeVersionsListResultInner&text=ClusterCodeVersionsListResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

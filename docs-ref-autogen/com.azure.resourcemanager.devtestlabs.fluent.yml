@@ -2,14 +2,14 @@
 uid: "com.azure.resourcemanager.devtestlabs.fluent"
 fullName: "com.azure.resourcemanager.devtestlabs.fluent"
 name: "com.azure.resourcemanager.devtestlabs.fluent"
-summary: "Package containing the service clients for Dev<wbr>Test<wbr>Labs<wbr>Client."
+summary: "Package containing the service clients for Dev<wbr>Test<wbr>Labs."
 interfaces:
 - "com.azure.resourcemanager.devtestlabs.fluent.ArmTemplatesClient"
 - "com.azure.resourcemanager.devtestlabs.fluent.ArtifactSourcesClient"
 - "com.azure.resourcemanager.devtestlabs.fluent.ArtifactsClient"
 - "com.azure.resourcemanager.devtestlabs.fluent.CostsClient"
 - "com.azure.resourcemanager.devtestlabs.fluent.CustomImagesClient"
-- "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient"
+- "com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsManagementClient"
 - "com.azure.resourcemanager.devtestlabs.fluent.DisksClient"
 - "com.azure.resourcemanager.devtestlabs.fluent.EnvironmentsClient"
 - "com.azure.resourcemanager.devtestlabs.fluent.FormulasClient"
@@ -30,7 +30,7 @@ interfaces:
 - "com.azure.resourcemanager.devtestlabs.fluent.VirtualMachineSchedulesClient"
 - "com.azure.resourcemanager.devtestlabs.fluent.VirtualMachinesClient"
 - "com.azure.resourcemanager.devtestlabs.fluent.VirtualNetworksClient"
-desc: "Package containing the service clients for DevTestLabsClient. The DevTest Labs Client."
+desc: "Package containing the service clients for DevTestLabs. The DevTest Labs Client."
 metadata: {}
 package: "com.azure.resourcemanager.devtestlabs.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-devtestlabs:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-devtestlabs:1.2.0

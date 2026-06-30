@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition"
+name: "ControlPlanAclIpMatchCondition"
+nameWithType: "ControlPlanAclIpMatchCondition"
+summary: "Control Plane Access Control List (ACL) IP condition properties."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ControlPlanAclIpMatchCondition**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition&text=ControlPlanAclIpMatchCondition\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition.ControlPlanAclIpMatchCondition()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition.ControlPlanAclIpMatchCondition()"
+  name: "ControlPlanAclIpMatchCondition()"
+  nameWithType: "ControlPlanAclIpMatchCondition.ControlPlanAclIpMatchCondition()"
+  summary: "Creates an instance of Control<wbr>Plan<wbr>Acl<wbr>IpMatch<wbr>Condition class."
+  syntax: "public ControlPlanAclIpMatchCondition()"
+  desc: "Creates an instance of ControlPlanAclIpMatchCondition class."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition.destinationIpPrefix()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition.destinationIpPrefix()"
+  name: "destinationIpPrefix()"
+  nameWithType: "ControlPlanAclIpMatchCondition.destinationIpPrefix()"
+  summary: "Get the destination<wbr>IpPrefix property: List of the destination IP addresses that need to be matched."
+  syntax: "public String destinationIpPrefix()"
+  desc: "Get the destinationIpPrefix property: List of the destination IP addresses that need to be matched."
+  returns:
+    description: "the destinationIpPrefix value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ControlPlanAclIpMatchCondition.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Control<wbr>Plan<wbr>Acl<wbr>IpMatch<wbr>Condition from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ControlPlanAclIpMatchCondition fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ControlPlanAclIpMatchCondition."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ControlPlanAclIpMatchCondition from the JsonReader."
+  returns:
+    description: "An instance of ControlPlanAclIpMatchCondition if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition&text=ControlPlanAclIpMatchCondition\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition.sourceIpPrefix()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition.sourceIpPrefix()"
+  name: "sourceIpPrefix()"
+  nameWithType: "ControlPlanAclIpMatchCondition.sourceIpPrefix()"
+  summary: "Get the source<wbr>IpPrefix property: List of the source IP addresses that need to be matched."
+  syntax: "public String sourceIpPrefix()"
+  desc: "Get the sourceIpPrefix property: List of the source IP addresses that need to be matched."
+  returns:
+    description: "the sourceIpPrefix value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ControlPlanAclIpMatchCondition.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition.withDestinationIpPrefix(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition.withDestinationIpPrefix(String destinationIpPrefix)"
+  name: "withDestinationIpPrefix(String destinationIpPrefix)"
+  nameWithType: "ControlPlanAclIpMatchCondition.withDestinationIpPrefix(String destinationIpPrefix)"
+  summary: "Set the destination<wbr>IpPrefix property: List of the destination IP addresses that need to be matched."
+  parameters:
+  - description: "the destinationIpPrefix value to set."
+    name: "destinationIpPrefix"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public ControlPlanAclIpMatchCondition withDestinationIpPrefix(String destinationIpPrefix)"
+  desc: "Set the destinationIpPrefix property: List of the destination IP addresses that need to be matched."
+  returns:
+    description: "the ControlPlanAclIpMatchCondition object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition&text=ControlPlanAclIpMatchCondition\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition.withSourceIpPrefix(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition.withSourceIpPrefix(String sourceIpPrefix)"
+  name: "withSourceIpPrefix(String sourceIpPrefix)"
+  nameWithType: "ControlPlanAclIpMatchCondition.withSourceIpPrefix(String sourceIpPrefix)"
+  summary: "Set the source<wbr>IpPrefix property: List of the source IP addresses that need to be matched."
+  parameters:
+  - description: "the sourceIpPrefix value to set."
+    name: "sourceIpPrefix"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public ControlPlanAclIpMatchCondition withSourceIpPrefix(String sourceIpPrefix)"
+  desc: "Set the sourceIpPrefix property: List of the source IP addresses that need to be matched."
+  returns:
+    description: "the ControlPlanAclIpMatchCondition object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition&text=ControlPlanAclIpMatchCondition\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Control Plane Access Control List (ACL) IP condition properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlanAclIpMatchCondition&text=ControlPlanAclIpMatchCondition\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

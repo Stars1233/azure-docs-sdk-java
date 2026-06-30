@@ -13,7 +13,6 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.annotation()?alt=com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.annotation&text=annotation\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.fromJson(com.azure.json.JsonReader)?alt=com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.validate()?alt=com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.withAnnotation(java.lang.String)?alt=com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.withAnnotation&text=withAnnotation\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
@@ -38,6 +37,16 @@ constructors:
   syntax: "public NetworkRackProperties()"
   desc: "Creates an instance of NetworkRackProperties class."
 methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackProperties.configurationState()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackProperties.configurationState()"
+  name: "configurationState()"
+  nameWithType: "NetworkRackProperties.configurationState()"
+  summary: "Get the configuration<wbr>State property: Configuration state of the resource."
+  syntax: "public ConfigurationState configurationState()"
+  desc: "Get the configurationState property: Configuration state of the resource."
+  returns:
+    description: "the configurationState value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ConfigurationState?alt=com.azure.resourcemanager.managednetworkfabric.models.ConfigurationState&text=ConfigurationState\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackProperties.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackProperties.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -57,6 +66,16 @@ methods:
   returns:
     description: "An instance of NetworkRackProperties if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackProperties&text=NetworkRackProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackProperties.lastOperation()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackProperties.lastOperation()"
+  name: "lastOperation()"
+  nameWithType: "NetworkRackProperties.lastOperation()"
+  summary: "Get the last<wbr>Operation property: Details of the last operation performed on the resource."
+  syntax: "public LastOperationProperties lastOperation()"
+  desc: "Get the lastOperation property: Details of the last operation performed on the resource."
+  returns:
+    description: "the lastOperation value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties&text=LastOperationProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackProperties.networkDevices()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackProperties.networkDevices()"
   name: "networkDevices()"
@@ -110,14 +129,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackProperties.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackProperties.validate()"
-  name: "validate()"
-  nameWithType: "NetworkRackProperties.validate()"
-  summary: "Validates the instance."
-  overridden: "com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.validate()"
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackProperties.withAnnotation(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkRackProperties.withAnnotation(String annotation)"
   name: "withAnnotation(String annotation)"
@@ -163,4 +174,4 @@ type: "class"
 desc: "Network Rack Properties defines the properties of the resource."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

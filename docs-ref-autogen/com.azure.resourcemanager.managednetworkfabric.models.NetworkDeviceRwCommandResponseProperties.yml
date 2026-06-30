@@ -1,0 +1,82 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRwCommandResponseProperties"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRwCommandResponseProperties"
+name: "NetworkDeviceRwCommandResponseProperties"
+nameWithType: "NetworkDeviceRwCommandResponseProperties"
+summary: "Network Device Resource defines the properties of the resource."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **NetworkDeviceRwCommandResponseProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRwCommandResponseProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRwCommandResponseProperties&text=NetworkDeviceRwCommandResponseProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRwCommandResponseProperties.configurationState()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRwCommandResponseProperties.configurationState()"
+  name: "configurationState()"
+  nameWithType: "NetworkDeviceRwCommandResponseProperties.configurationState()"
+  summary: "Get the configuration<wbr>State property: Gets the configuration state."
+  syntax: "public ConfigurationState configurationState()"
+  desc: "Get the configurationState property: Gets the configuration state."
+  returns:
+    description: "the configurationState value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ConfigurationState?alt=com.azure.resourcemanager.managednetworkfabric.models.ConfigurationState&text=ConfigurationState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRwCommandResponseProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRwCommandResponseProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "NetworkDeviceRwCommandResponseProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Network<wbr>Device<wbr>RwCommand<wbr>Response<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static NetworkDeviceRwCommandResponseProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the NetworkDeviceRwCommandResponseProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of NetworkDeviceRwCommandResponseProperties from the JsonReader."
+  returns:
+    description: "An instance of NetworkDeviceRwCommandResponseProperties if the JsonReader was pointing to an instance of\n it, or null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRwCommandResponseProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRwCommandResponseProperties&text=NetworkDeviceRwCommandResponseProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRwCommandResponseProperties.outputUrl()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRwCommandResponseProperties.outputUrl()"
+  name: "outputUrl()"
+  nameWithType: "NetworkDeviceRwCommandResponseProperties.outputUrl()"
+  summary: "Get the output<wbr>Url property: Predefined link containing Device Rw Command output."
+  syntax: "public String outputUrl()"
+  desc: "Get the outputUrl property: Predefined link containing Device Rw Command output."
+  returns:
+    description: "the outputUrl value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRwCommandResponseProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRwCommandResponseProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "NetworkDeviceRwCommandResponseProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Network Device Resource defines the properties of the resource."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRwCommandResponseProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRwCommandResponseProperties&text=NetworkDeviceRwCommandResponseProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

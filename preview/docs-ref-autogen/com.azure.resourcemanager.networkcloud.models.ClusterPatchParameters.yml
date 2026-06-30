@@ -64,9 +64,9 @@ methods:
   fullName: "com.azure.resourcemanager.networkcloud.models.ClusterPatchParameters.clusterServicePrincipal()"
   name: "clusterServicePrincipal()"
   nameWithType: "ClusterPatchParameters.clusterServicePrincipal()"
-  summary: "Get the cluster<wbr>Service<wbr>Principal property: Deprecated: Use managed identity to provide cluster privileges."
+  summary: "Get the cluster<wbr>Service<wbr>Principal property: Field Deprecated: Use managed identity to provide cluster privileges."
   syntax: "public ServicePrincipalInformation clusterServicePrincipal()"
-  desc: "Get the clusterServicePrincipal property: Deprecated: Use managed identity to provide cluster privileges. The service principal to be used by the cluster during Arc Appliance installation."
+  desc: "Get the clusterServicePrincipal property: Field Deprecated: Use managed identity to provide cluster privileges. The service principal to be used by the cluster during Arc Appliance installation."
   returns:
     description: "the clusterServicePrincipal value."
     type: "<xref href=\"com.azure.resourcemanager.networkcloud.models.ServicePrincipalInformation?alt=com.azure.resourcemanager.networkcloud.models.ServicePrincipalInformation&text=ServicePrincipalInformation\" data-throw-if-not-resolved=\"False\" />"
@@ -163,9 +163,9 @@ methods:
   fullName: "com.azure.resourcemanager.networkcloud.models.ClusterPatchParameters.tags()"
   name: "tags()"
   nameWithType: "ClusterPatchParameters.tags()"
-  summary: "Get the tags property: The Azure resource tags that will replace the existing ones."
+  summary: "Get the tags property: Resource tags."
   syntax: "public Map<String,String> tags()"
-  desc: "Get the tags property: The Azure resource tags that will replace the existing ones."
+  desc: "Get the tags property: Resource tags."
   returns:
     description: "the tags value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
@@ -191,13 +191,6 @@ methods:
   returns:
     description: "the updateStrategy value."
     type: "<xref href=\"com.azure.resourcemanager.networkcloud.models.ClusterUpdateStrategy?alt=com.azure.resourcemanager.networkcloud.models.ClusterUpdateStrategy&text=ClusterUpdateStrategy\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.networkcloud.models.ClusterPatchParameters.validate()"
-  fullName: "com.azure.resourcemanager.networkcloud.models.ClusterPatchParameters.validate()"
-  name: "validate()"
-  nameWithType: "ClusterPatchParameters.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.networkcloud.models.ClusterPatchParameters.vulnerabilityScanningSettings()"
   fullName: "com.azure.resourcemanager.networkcloud.models.ClusterPatchParameters.vulnerabilityScanningSettings()"
   name: "vulnerabilityScanningSettings()"
@@ -254,13 +247,13 @@ methods:
   fullName: "com.azure.resourcemanager.networkcloud.models.ClusterPatchParameters.withClusterServicePrincipal(ServicePrincipalInformation clusterServicePrincipal)"
   name: "withClusterServicePrincipal(ServicePrincipalInformation clusterServicePrincipal)"
   nameWithType: "ClusterPatchParameters.withClusterServicePrincipal(ServicePrincipalInformation clusterServicePrincipal)"
-  summary: "Set the cluster<wbr>Service<wbr>Principal property: Deprecated: Use managed identity to provide cluster privileges."
+  summary: "Set the cluster<wbr>Service<wbr>Principal property: Field Deprecated: Use managed identity to provide cluster privileges."
   parameters:
   - description: "the clusterServicePrincipal value to set."
     name: "clusterServicePrincipal"
     type: "<xref href=\"com.azure.resourcemanager.networkcloud.models.ServicePrincipalInformation?alt=com.azure.resourcemanager.networkcloud.models.ServicePrincipalInformation&text=ServicePrincipalInformation\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ClusterPatchParameters withClusterServicePrincipal(ServicePrincipalInformation clusterServicePrincipal)"
-  desc: "Set the clusterServicePrincipal property: Deprecated: Use managed identity to provide cluster privileges. The service principal to be used by the cluster during Arc Appliance installation."
+  desc: "Set the clusterServicePrincipal property: Field Deprecated: Use managed identity to provide cluster privileges. The service principal to be used by the cluster during Arc Appliance installation."
   returns:
     description: "the ClusterPatchParameters object itself."
     type: "<xref href=\"com.azure.resourcemanager.networkcloud.models.ClusterPatchParameters?alt=com.azure.resourcemanager.networkcloud.models.ClusterPatchParameters&text=ClusterPatchParameters\" data-throw-if-not-resolved=\"False\" />"
@@ -366,13 +359,13 @@ methods:
   fullName: "com.azure.resourcemanager.networkcloud.models.ClusterPatchParameters.withTags(Map<String,String> tags)"
   name: "withTags(Map<String,String> tags)"
   nameWithType: "ClusterPatchParameters.withTags(Map<String,String> tags)"
-  summary: "Set the tags property: The Azure resource tags that will replace the existing ones."
+  summary: "Set the tags property: Resource tags."
   parameters:
   - description: "the tags value to set."
     name: "tags"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
   syntax: "public ClusterPatchParameters withTags(Map<String,String> tags)"
-  desc: "Set the tags property: The Azure resource tags that will replace the existing ones."
+  desc: "Set the tags property: Resource tags."
   returns:
     description: "the ClusterPatchParameters object itself."
     type: "<xref href=\"com.azure.resourcemanager.networkcloud.models.ClusterPatchParameters?alt=com.azure.resourcemanager.networkcloud.models.ClusterPatchParameters&text=ClusterPatchParameters\" data-throw-if-not-resolved=\"False\" />"
@@ -410,4 +403,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.networkcloud.models.ClusterPatchParameters?alt=com.azure.resourcemanager.networkcloud.models.ClusterPatchParameters&text=ClusterPatchParameters\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.networkcloud.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-networkcloud:2.1.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-networkcloud:2.2.0-beta.1

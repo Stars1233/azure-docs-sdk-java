@@ -1,0 +1,82 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.FabricLockProperties"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.FabricLockProperties"
+name: "FabricLockProperties"
+nameWithType: "FabricLockProperties"
+summary: "Network Fabric Lock Configuration."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **FabricLockProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.FabricLockProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.FabricLockProperties&text=FabricLockProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.FabricLockProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.FabricLockProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "FabricLockProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Fabric<wbr>Lock<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static FabricLockProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the FabricLockProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of FabricLockProperties from the JsonReader."
+  returns:
+    description: "An instance of FabricLockProperties if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.FabricLockProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.FabricLockProperties&text=FabricLockProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.FabricLockProperties.lockState()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.FabricLockProperties.lockState()"
+  name: "lockState()"
+  nameWithType: "FabricLockProperties.lockState()"
+  summary: "Get the lock<wbr>State property: Network<wbr>Fabric Lock State."
+  syntax: "public LockConfigurationState lockState()"
+  desc: "Get the lockState property: NetworkFabric Lock State."
+  returns:
+    description: "the lockState value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.LockConfigurationState?alt=com.azure.resourcemanager.managednetworkfabric.models.LockConfigurationState&text=LockConfigurationState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.FabricLockProperties.lockType()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.FabricLockProperties.lockType()"
+  name: "lockType()"
+  nameWithType: "FabricLockProperties.lockType()"
+  summary: "Get the lock<wbr>Type property: Network<wbr>Fabric Lock Type."
+  syntax: "public NetworkFabricLockType lockType()"
+  desc: "Get the lockType property: NetworkFabric Lock Type."
+  returns:
+    description: "the lockType value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricLockType?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricLockType&text=NetworkFabricLockType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.FabricLockProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.FabricLockProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "FabricLockProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Network Fabric Lock Configuration."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.FabricLockProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.FabricLockProperties&text=FabricLockProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

@@ -42,14 +42,14 @@ fields:
   fullName: "com.azure.resourcemanager.compute.models.CopyCompletionErrorReason.COPY_SOURCE_NOT_FOUND"
   name: "COPY_SOURCE_NOT_FOUND"
   nameWithType: "CopyCompletionErrorReason.COPY_SOURCE_NOT_FOUND"
-  summary: "Static value Copy<wbr>Source<wbr>Not<wbr>Found for Copy<wbr>Completion<wbr>Error<wbr>Reason."
+  summary: "Indicates that the source snapshot was deleted while the background copy of the resource created via Copy<wbr>Start operation was in progress."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.CopyCompletionErrorReason?alt=com.azure.resourcemanager.compute.models.CopyCompletionErrorReason&text=CopyCompletionErrorReason\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final CopyCompletionErrorReason COPY_SOURCE_NOT_FOUND"
-  desc: "Static value CopySourceNotFound for CopyCompletionErrorReason."
+  desc: "Indicates that the source snapshot was deleted while the background copy of the resource created via CopyStart operation was in progress."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.CopyCompletionErrorReason.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.models.CopyCompletionErrorReason.fromString(String name)"
@@ -83,4 +83,4 @@ type: "class"
 desc: "Indicates the error code if the background copy of a resource created via the CopyStart operation fails."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

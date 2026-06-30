@@ -1,0 +1,94 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.imagebuilder.models.DataDisk"
+fullName: "com.azure.resourcemanager.imagebuilder.models.DataDisk"
+name: "DataDisk"
+nameWithType: "DataDisk"
+summary: "Data disk properties."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DataDisk**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.imagebuilder.models.DataDisk?alt=com.azure.resourcemanager.imagebuilder.models.DataDisk&text=DataDisk\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.imagebuilder.models.DataDisk.DataDisk()"
+  fullName: "com.azure.resourcemanager.imagebuilder.models.DataDisk.DataDisk()"
+  name: "DataDisk()"
+  nameWithType: "DataDisk.DataDisk()"
+  summary: "Creates an instance of Data<wbr>Disk class."
+  syntax: "public DataDisk()"
+  desc: "Creates an instance of DataDisk class."
+methods:
+- uid: "com.azure.resourcemanager.imagebuilder.models.DataDisk.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.imagebuilder.models.DataDisk.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "DataDisk.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Data<wbr>Disk from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static DataDisk fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the DataDisk."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of DataDisk from the JsonReader."
+  returns:
+    description: "An instance of DataDisk if the JsonReader was pointing to an instance of it, or null if it was pointing\n to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.imagebuilder.models.DataDisk?alt=com.azure.resourcemanager.imagebuilder.models.DataDisk&text=DataDisk\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.imagebuilder.models.DataDisk.sizeGB()"
+  fullName: "com.azure.resourcemanager.imagebuilder.models.DataDisk.sizeGB()"
+  name: "sizeGB()"
+  nameWithType: "DataDisk.sizeGB()"
+  summary: "Get the sizeGB property: Size of the data disk in GB."
+  syntax: "public Integer sizeGB()"
+  desc: "Get the sizeGB property: Size of the data disk in GB."
+  returns:
+    description: "the sizeGB value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+- uid: "com.azure.resourcemanager.imagebuilder.models.DataDisk.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.imagebuilder.models.DataDisk.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "DataDisk.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.imagebuilder.models.DataDisk.withSizeGB(java.lang.Integer)"
+  fullName: "com.azure.resourcemanager.imagebuilder.models.DataDisk.withSizeGB(Integer sizeGB)"
+  name: "withSizeGB(Integer sizeGB)"
+  nameWithType: "DataDisk.withSizeGB(Integer sizeGB)"
+  summary: "Set the sizeGB property: Size of the data disk in GB."
+  parameters:
+  - description: "the sizeGB value to set."
+    name: "sizeGB"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+  syntax: "public DataDisk withSizeGB(Integer sizeGB)"
+  desc: "Set the sizeGB property: Size of the data disk in GB."
+  returns:
+    description: "the DataDisk object itself."
+    type: "<xref href=\"com.azure.resourcemanager.imagebuilder.models.DataDisk?alt=com.azure.resourcemanager.imagebuilder.models.DataDisk&text=DataDisk\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Data disk properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.imagebuilder.models.DataDisk?alt=com.azure.resourcemanager.imagebuilder.models.DataDisk&text=DataDisk\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.imagebuilder.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-imagebuilder:1.3.0

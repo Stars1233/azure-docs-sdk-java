@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **GallerySoftDeletedResourceProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties?alt=com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties&text=GallerySoftDeletedResourceProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties.GallerySoftDeletedResourceProperties()"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties.GallerySoftDeletedResourceProperties()"
-  name: "GallerySoftDeletedResourceProperties()"
-  nameWithType: "GallerySoftDeletedResourceProperties.GallerySoftDeletedResourceProperties()"
-  summary: "Creates an instance of Gallery<wbr>Soft<wbr>Deleted<wbr>Resource<wbr>Properties class."
-  syntax: "public GallerySoftDeletedResourceProperties()"
-  desc: "Creates an instance of GallerySoftDeletedResourceProperties class."
 methods:
 - uid: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties.fromJson(JsonReader jsonReader)"
@@ -98,52 +90,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties.withResourceArmId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties.withResourceArmId(String resourceArmId)"
-  name: "withResourceArmId(String resourceArmId)"
-  nameWithType: "GallerySoftDeletedResourceProperties.withResourceArmId(String resourceArmId)"
-  summary: "Set the resource<wbr>Arm<wbr>Id property: arm id of the soft-deleted resource."
-  parameters:
-  - description: "the resourceArmId value to set."
-    name: "resourceArmId"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public GallerySoftDeletedResourceProperties withResourceArmId(String resourceArmId)"
-  desc: "Set the resourceArmId property: arm id of the soft-deleted resource."
-  returns:
-    description: "the GallerySoftDeletedResourceProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties?alt=com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties&text=GallerySoftDeletedResourceProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties.withSoftDeletedArtifactType(com.azure.resourcemanager.compute.models.SoftDeletedArtifactTypes)"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties.withSoftDeletedArtifactType(SoftDeletedArtifactTypes softDeletedArtifactType)"
-  name: "withSoftDeletedArtifactType(SoftDeletedArtifactTypes softDeletedArtifactType)"
-  nameWithType: "GallerySoftDeletedResourceProperties.withSoftDeletedArtifactType(SoftDeletedArtifactTypes softDeletedArtifactType)"
-  summary: "Set the soft<wbr>Deleted<wbr>Artifact<wbr>Type property: artifact type of the soft-deleted resource."
-  parameters:
-  - description: "the softDeletedArtifactType value to set."
-    name: "softDeletedArtifactType"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.SoftDeletedArtifactTypes?alt=com.azure.resourcemanager.compute.models.SoftDeletedArtifactTypes&text=SoftDeletedArtifactTypes\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public GallerySoftDeletedResourceProperties withSoftDeletedArtifactType(SoftDeletedArtifactTypes softDeletedArtifactType)"
-  desc: "Set the softDeletedArtifactType property: artifact type of the soft-deleted resource."
-  returns:
-    description: "the GallerySoftDeletedResourceProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties?alt=com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties&text=GallerySoftDeletedResourceProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties.withSoftDeletedTime(java.lang.String)"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties.withSoftDeletedTime(String softDeletedTime)"
-  name: "withSoftDeletedTime(String softDeletedTime)"
-  nameWithType: "GallerySoftDeletedResourceProperties.withSoftDeletedTime(String softDeletedTime)"
-  summary: "Set the soft<wbr>Deleted<wbr>Time property: The timestamp for when the resource is soft-deleted."
-  parameters:
-  - description: "the softDeletedTime value to set."
-    name: "softDeletedTime"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public GallerySoftDeletedResourceProperties withSoftDeletedTime(String softDeletedTime)"
-  desc: "Set the softDeletedTime property: The timestamp for when the resource is soft-deleted. In dateTime offset format."
-  returns:
-    description: "the GallerySoftDeletedResourceProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties?alt=com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties&text=GallerySoftDeletedResourceProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Describes the properties of a soft-deleted resource."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties?alt=com.azure.resourcemanager.compute.fluent.models.GallerySoftDeletedResourceProperties&text=GallerySoftDeletedResourceProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

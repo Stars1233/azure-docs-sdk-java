@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.UpdateStages.WithStaticRouteRoutePolicy"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.UpdateStages.WithStaticRouteRoutePolicy"
+name: "L3IsolationDomain.UpdateStages.WithStaticRouteRoutePolicy"
+nameWithType: "L3IsolationDomain.UpdateStages.WithStaticRouteRoutePolicy"
+summary: "The stage of the L3Isolation<wbr>Domain update allowing to specify static<wbr>Route<wbr>Route<wbr>Policy."
+syntax: "public static interface **L3IsolationDomain.UpdateStages.WithStaticRouteRoutePolicy**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.UpdateStages.WithStaticRouteRoutePolicy.withStaticRouteRoutePolicy(com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicyPatch)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.UpdateStages.WithStaticRouteRoutePolicy.withStaticRouteRoutePolicy(StaticRouteRoutePolicyPatch staticRouteRoutePolicy)"
+  name: "withStaticRouteRoutePolicy(StaticRouteRoutePolicyPatch staticRouteRoutePolicy)"
+  nameWithType: "L3IsolationDomain.UpdateStages.WithStaticRouteRoutePolicy.withStaticRouteRoutePolicy(StaticRouteRoutePolicyPatch staticRouteRoutePolicy)"
+  summary: "Specifies the static<wbr>Route<wbr>Route<wbr>Policy property: Static Route - route policy.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Static Route - route policy."
+    name: "staticRouteRoutePolicy"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicyPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicyPatch&text=StaticRouteRoutePolicyPatch\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract L3IsolationDomain.Update withStaticRouteRoutePolicy(StaticRouteRoutePolicyPatch staticRouteRoutePolicy)"
+  desc: "Specifies the staticRouteRoutePolicy property: Static Route - route policy.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.Update?alt=com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the L3IsolationDomain update allowing to specify staticRouteRoutePolicy."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

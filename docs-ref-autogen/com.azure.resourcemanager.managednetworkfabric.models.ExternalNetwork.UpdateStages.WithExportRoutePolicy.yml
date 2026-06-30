@@ -6,18 +6,18 @@ nameWithType: "ExternalNetwork.UpdateStages.WithExportRoutePolicy"
 summary: "The stage of the External<wbr>Network update allowing to specify export<wbr>Route<wbr>Policy."
 syntax: "public static interface **ExternalNetwork.UpdateStages.WithExportRoutePolicy**"
 methods:
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.UpdateStages.WithExportRoutePolicy.withExportRoutePolicy(com.azure.resourcemanager.managednetworkfabric.models.ExportRoutePolicy)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.UpdateStages.WithExportRoutePolicy.withExportRoutePolicy(ExportRoutePolicy exportRoutePolicy)"
-  name: "withExportRoutePolicy(ExportRoutePolicy exportRoutePolicy)"
-  nameWithType: "ExternalNetwork.UpdateStages.WithExportRoutePolicy.withExportRoutePolicy(ExportRoutePolicy exportRoutePolicy)"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.UpdateStages.WithExportRoutePolicy.withExportRoutePolicy(com.azure.resourcemanager.managednetworkfabric.models.ExportRoutePolicyPatch)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.UpdateStages.WithExportRoutePolicy.withExportRoutePolicy(ExportRoutePolicyPatch exportRoutePolicy)"
+  name: "withExportRoutePolicy(ExportRoutePolicyPatch exportRoutePolicy)"
+  nameWithType: "ExternalNetwork.UpdateStages.WithExportRoutePolicy.withExportRoutePolicy(ExportRoutePolicyPatch exportRoutePolicy)"
   summary: "Specifies the export<wbr>Route<wbr>Policy property: Export Route Policy either IPv4 or IPv6.."
   modifiers:
   - "abstract"
   parameters:
   - description: "Export Route Policy either IPv4 or IPv6."
     name: "exportRoutePolicy"
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExportRoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.ExportRoutePolicy&text=ExportRoutePolicy\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract ExternalNetwork.Update withExportRoutePolicy(ExportRoutePolicy exportRoutePolicy)"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExportRoutePolicyPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.ExportRoutePolicyPatch&text=ExportRoutePolicyPatch\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ExternalNetwork.Update withExportRoutePolicy(ExportRoutePolicyPatch exportRoutePolicy)"
   desc: "Specifies the exportRoutePolicy property: Export Route Policy either IPv4 or IPv6.."
   returns:
     description: "the next definition stage."
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the ExternalNetwork update allowing to specify exportRoutePolicy."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

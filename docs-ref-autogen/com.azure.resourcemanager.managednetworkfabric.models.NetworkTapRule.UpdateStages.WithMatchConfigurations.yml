@@ -6,18 +6,18 @@ nameWithType: "NetworkTapRule.UpdateStages.WithMatchConfigurations"
 summary: "The stage of the Network<wbr>Tap<wbr>Rule update allowing to specify match<wbr>Configurations."
 syntax: "public static interface **NetworkTapRule.UpdateStages.WithMatchConfigurations**"
 methods:
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRule.UpdateStages.WithMatchConfigurations.withMatchConfigurations(java.util.List<com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRuleMatchConfiguration>)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRule.UpdateStages.WithMatchConfigurations.withMatchConfigurations(List<NetworkTapRuleMatchConfiguration> matchConfigurations)"
-  name: "withMatchConfigurations(List<NetworkTapRuleMatchConfiguration> matchConfigurations)"
-  nameWithType: "NetworkTapRule.UpdateStages.WithMatchConfigurations.withMatchConfigurations(List<NetworkTapRuleMatchConfiguration> matchConfigurations)"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRule.UpdateStages.WithMatchConfigurations.withMatchConfigurationsForUpdate(java.util.List<com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRuleMatchConfigurationPatch>)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRule.UpdateStages.WithMatchConfigurations.withMatchConfigurationsForUpdate(List<NetworkTapRuleMatchConfigurationPatch> matchConfigurations)"
+  name: "withMatchConfigurationsForUpdate(List<NetworkTapRuleMatchConfigurationPatch> matchConfigurations)"
+  nameWithType: "NetworkTapRule.UpdateStages.WithMatchConfigurations.withMatchConfigurationsForUpdate(List<NetworkTapRuleMatchConfigurationPatch> matchConfigurations)"
   summary: "Specifies the match<wbr>Configurations property: List of match configurations.."
   modifiers:
   - "abstract"
   parameters:
   - description: "List of match configurations."
     name: "matchConfigurations"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRuleMatchConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRuleMatchConfiguration&text=NetworkTapRuleMatchConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract NetworkTapRule.Update withMatchConfigurations(List<NetworkTapRuleMatchConfiguration> matchConfigurations)"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRuleMatchConfigurationPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRuleMatchConfigurationPatch&text=NetworkTapRuleMatchConfigurationPatch\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract NetworkTapRule.Update withMatchConfigurationsForUpdate(List<NetworkTapRuleMatchConfigurationPatch> matchConfigurations)"
   desc: "Specifies the matchConfigurations property: List of match configurations.."
   returns:
     description: "the next definition stage."
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the NetworkTapRule update allowing to specify matchConfigurations."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

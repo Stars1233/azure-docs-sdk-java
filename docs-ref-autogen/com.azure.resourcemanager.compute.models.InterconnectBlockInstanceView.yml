@@ -1,0 +1,89 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.compute.models.InterconnectBlockInstanceView"
+fullName: "com.azure.resourcemanager.compute.models.InterconnectBlockInstanceView"
+name: "InterconnectBlockInstanceView"
+nameWithType: "InterconnectBlockInstanceView"
+summary: "The instance view of an Interconnect Block."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **InterconnectBlockInstanceView**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.InterconnectBlockInstanceView?alt=com.azure.resourcemanager.compute.models.InterconnectBlockInstanceView&text=InterconnectBlockInstanceView\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.compute.models.InterconnectBlockInstanceView.currentCapacity()"
+  fullName: "com.azure.resourcemanager.compute.models.InterconnectBlockInstanceView.currentCapacity()"
+  name: "currentCapacity()"
+  nameWithType: "InterconnectBlockInstanceView.currentCapacity()"
+  summary: "Get the current<wbr>Capacity property: The current capacity allocated for this Interconnect Block."
+  syntax: "public Integer currentCapacity()"
+  desc: "Get the currentCapacity property: The current capacity allocated for this Interconnect Block."
+  returns:
+    description: "the currentCapacity value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+- uid: "com.azure.resourcemanager.compute.models.InterconnectBlockInstanceView.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.compute.models.InterconnectBlockInstanceView.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "InterconnectBlockInstanceView.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Interconnect<wbr>Block<wbr>Instance<wbr>View from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static InterconnectBlockInstanceView fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the InterconnectBlockInstanceView."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of InterconnectBlockInstanceView from the JsonReader."
+  returns:
+    description: "An instance of InterconnectBlockInstanceView if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.InterconnectBlockInstanceView?alt=com.azure.resourcemanager.compute.models.InterconnectBlockInstanceView&text=InterconnectBlockInstanceView\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.InterconnectBlockInstanceView.statuses()"
+  fullName: "com.azure.resourcemanager.compute.models.InterconnectBlockInstanceView.statuses()"
+  name: "statuses()"
+  nameWithType: "InterconnectBlockInstanceView.statuses()"
+  summary: "Get the statuses property: The resource status information."
+  syntax: "public List<InstanceViewStatus> statuses()"
+  desc: "Get the statuses property: The resource status information."
+  returns:
+    description: "the statuses value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.InstanceViewStatus?alt=com.azure.resourcemanager.compute.models.InstanceViewStatus&text=InstanceViewStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.compute.models.InterconnectBlockInstanceView.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.compute.models.InterconnectBlockInstanceView.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "InterconnectBlockInstanceView.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.InterconnectBlockInstanceView.validate()"
+  fullName: "com.azure.resourcemanager.compute.models.InterconnectBlockInstanceView.validate()"
+  name: "validate()"
+  nameWithType: "InterconnectBlockInstanceView.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+type: "class"
+desc: "The instance view of an Interconnect Block."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.InterconnectBlockInstanceView?alt=com.azure.resourcemanager.compute.models.InterconnectBlockInstanceView&text=InterconnectBlockInstanceView\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.compute.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

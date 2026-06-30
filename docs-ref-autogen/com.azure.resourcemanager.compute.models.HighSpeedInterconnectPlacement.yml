@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.compute.models.HighSpeedInterconnectPlacement.NONE"
   name: "NONE"
   nameWithType: "HighSpeedInterconnectPlacement.NONE"
-  summary: "Static value None for High<wbr>Speed<wbr>Interconnect<wbr>Placement."
+  summary: "No high speed interconnect placement."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.HighSpeedInterconnectPlacement?alt=com.azure.resourcemanager.compute.models.HighSpeedInterconnectPlacement&text=HighSpeedInterconnectPlacement\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final HighSpeedInterconnectPlacement NONE"
-  desc: "Static value None for HighSpeedInterconnectPlacement."
+  desc: "No high speed interconnect placement."
 - uid: "com.azure.resourcemanager.compute.models.HighSpeedInterconnectPlacement.TRUNK"
   fullName: "com.azure.resourcemanager.compute.models.HighSpeedInterconnectPlacement.TRUNK"
   name: "TRUNK"
   nameWithType: "HighSpeedInterconnectPlacement.TRUNK"
-  summary: "Static value Trunk for High<wbr>Speed<wbr>Interconnect<wbr>Placement."
+  summary: "Trunk high speed interconnect placement."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.HighSpeedInterconnectPlacement?alt=com.azure.resourcemanager.compute.models.HighSpeedInterconnectPlacement&text=HighSpeedInterconnectPlacement\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final HighSpeedInterconnectPlacement TRUNK"
-  desc: "Static value Trunk for HighSpeedInterconnectPlacement."
+  desc: "Trunk high speed interconnect placement."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.HighSpeedInterconnectPlacement.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.models.HighSpeedInterconnectPlacement.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Specifies the high speed interconnect placement for the virtual machine scale set."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

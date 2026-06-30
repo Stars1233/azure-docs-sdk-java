@@ -6,7 +6,13 @@ nameWithType: "CommonPostActionResponseForStateUpdateInner"
 summary: "Common response for the state updates."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse&text=CommonErrorResponse\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.error()?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.error&text=error\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.fromJson(com.azure.json.JsonReader)?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -20,15 +26,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **CommonPostActionResponseForStateUpdateInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner.CommonPostActionResponseForStateUpdateInner()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner.CommonPostActionResponseForStateUpdateInner()"
-  name: "CommonPostActionResponseForStateUpdateInner()"
-  nameWithType: "CommonPostActionResponseForStateUpdateInner.CommonPostActionResponseForStateUpdateInner()"
-  summary: "Creates an instance of Common<wbr>Post<wbr>Action<wbr>Response<wbr>For<wbr>State<wbr>Update<wbr>Inner class."
-  syntax: "public CommonPostActionResponseForStateUpdateInner()"
-  desc: "Creates an instance of CommonPostActionResponseForStateUpdateInner class."
+syntax: "public final class **CommonPostActionResponseForStateUpdateInner**</br> extends <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse&text=CommonErrorResponse\" data-throw-if-not-resolved=\"False\" />"
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner.configurationState()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner.configurationState()"
@@ -45,6 +43,7 @@ methods:
   name: "error()"
   nameWithType: "CommonPostActionResponseForStateUpdateInner.error()"
   summary: "Get the error property: The error object."
+  overridden: "com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.error()"
   syntax: "public ManagementError error()"
   desc: "Get the error property: The error object."
   returns:
@@ -73,6 +72,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
   nameWithType: "CommonPostActionResponseForStateUpdateInner.toJson(JsonWriter jsonWriter)"
+  overridden: "com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.toJson(com.azure.json.JsonWriter)"
   parameters:
   - name: "jsonWriter"
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
@@ -81,31 +81,8 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner.validate()"
-  name: "validate()"
-  nameWithType: "CommonPostActionResponseForStateUpdateInner.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner.withError(com.azure.core.management.exception.ManagementError)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner.withError(ManagementError error)"
-  name: "withError(ManagementError error)"
-  nameWithType: "CommonPostActionResponseForStateUpdateInner.withError(ManagementError error)"
-  summary: "Set the error property: The error object."
-  parameters:
-  - description: "the error value to set."
-    name: "error"
-    type: "<xref href=\"com.azure.core.management.exception.ManagementError?alt=com.azure.core.management.exception.ManagementError&text=ManagementError\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public CommonPostActionResponseForStateUpdateInner withError(ManagementError error)"
-  desc: "Set the error property: The error object."
-  returns:
-    description: "the CommonPostActionResponseForStateUpdateInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Common response for the state updates."
-implements:
-- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.imagebuilder.models.SharedImageStorageAccountType.PREMIUM_LRS"
   name: "PREMIUM_LRS"
   nameWithType: "SharedImageStorageAccountType.PREMIUM_LRS"
-  summary: "Static value Premium\\_LRS for Shared<wbr>Image<wbr>Storage<wbr>Account<wbr>Type."
+  summary: "Premium\\_LRS."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.imagebuilder.models.SharedImageStorageAccountType?alt=com.azure.resourcemanager.imagebuilder.models.SharedImageStorageAccountType&text=SharedImageStorageAccountType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SharedImageStorageAccountType PREMIUM_LRS"
-  desc: "Static value Premium\\_LRS for SharedImageStorageAccountType."
+  desc: "Premium\\_LRS."
 - uid: "com.azure.resourcemanager.imagebuilder.models.SharedImageStorageAccountType.STANDARD_LRS"
   fullName: "com.azure.resourcemanager.imagebuilder.models.SharedImageStorageAccountType.STANDARD_LRS"
   name: "STANDARD_LRS"
   nameWithType: "SharedImageStorageAccountType.STANDARD_LRS"
-  summary: "Static value Standard\\_LRS for Shared<wbr>Image<wbr>Storage<wbr>Account<wbr>Type."
+  summary: "Standard\\_LRS."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.imagebuilder.models.SharedImageStorageAccountType?alt=com.azure.resourcemanager.imagebuilder.models.SharedImageStorageAccountType&text=SharedImageStorageAccountType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SharedImageStorageAccountType STANDARD_LRS"
-  desc: "Static value Standard\\_LRS for SharedImageStorageAccountType."
+  desc: "Standard\\_LRS."
 - uid: "com.azure.resourcemanager.imagebuilder.models.SharedImageStorageAccountType.STANDARD_ZRS"
   fullName: "com.azure.resourcemanager.imagebuilder.models.SharedImageStorageAccountType.STANDARD_ZRS"
   name: "STANDARD_ZRS"
   nameWithType: "SharedImageStorageAccountType.STANDARD_ZRS"
-  summary: "Static value Standard\\_ZRS for Shared<wbr>Image<wbr>Storage<wbr>Account<wbr>Type."
+  summary: "Standard\\_ZRS."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.imagebuilder.models.SharedImageStorageAccountType?alt=com.azure.resourcemanager.imagebuilder.models.SharedImageStorageAccountType&text=SharedImageStorageAccountType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SharedImageStorageAccountType STANDARD_ZRS"
-  desc: "Static value Standard\\_ZRS for SharedImageStorageAccountType."
+  desc: "Standard\\_ZRS."
 methods:
 - uid: "com.azure.resourcemanager.imagebuilder.models.SharedImageStorageAccountType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.imagebuilder.models.SharedImageStorageAccountType.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "Specifies the storage account type to be used to store the Azure Compute Gallery image version in."
 metadata: {}
 package: "com.azure.resourcemanager.imagebuilder.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-imagebuilder:1.2.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-imagebuilder:1.3.0

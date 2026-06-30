@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.DefinitionStages.WithMicroBfdState"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.DefinitionStages.WithMicroBfdState"
+name: "NetworkToNetworkInterconnect.DefinitionStages.WithMicroBfdState"
+nameWithType: "NetworkToNetworkInterconnect.DefinitionStages.WithMicroBfdState"
+summary: "The stage of the Network<wbr>ToNetwork<wbr>Interconnect definition allowing to specify micro<wbr>Bfd<wbr>State."
+syntax: "public static interface **NetworkToNetworkInterconnect.DefinitionStages.WithMicroBfdState**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.DefinitionStages.WithMicroBfdState.withMicroBfdState(com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.DefinitionStages.WithMicroBfdState.withMicroBfdState(MicroBfdState microBfdState)"
+  name: "withMicroBfdState(MicroBfdState microBfdState)"
+  nameWithType: "NetworkToNetworkInterconnect.DefinitionStages.WithMicroBfdState.withMicroBfdState(MicroBfdState microBfdState)"
+  summary: "Specifies the micro<wbr>Bfd<wbr>State property: Micro Bidirectional Forwarding Detection (BFD) enabled/disabled state.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Micro Bidirectional Forwarding Detection (BFD) enabled/disabled state."
+    name: "microBfdState"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState?alt=com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState&text=MicroBfdState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NetworkToNetworkInterconnect.DefinitionStages.WithCreate withMicroBfdState(MicroBfdState microBfdState)"
+  desc: "Specifies the microBfdState property: Micro Bidirectional Forwarding Detection (BFD) enabled/disabled state.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkToNetworkInterconnect definition allowing to specify microBfdState."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

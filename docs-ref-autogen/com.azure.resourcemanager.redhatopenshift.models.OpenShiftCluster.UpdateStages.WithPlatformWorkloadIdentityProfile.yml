@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.redhatopenshift.models.OpenShiftCluster.UpdateStages.WithPlatformWorkloadIdentityProfile"
+fullName: "com.azure.resourcemanager.redhatopenshift.models.OpenShiftCluster.UpdateStages.WithPlatformWorkloadIdentityProfile"
+name: "OpenShiftCluster.UpdateStages.WithPlatformWorkloadIdentityProfile"
+nameWithType: "OpenShiftCluster.UpdateStages.WithPlatformWorkloadIdentityProfile"
+summary: "The stage of the Open<wbr>Shift<wbr>Cluster update allowing to specify platform<wbr>Workload<wbr>Identity<wbr>Profile."
+syntax: "public static interface **OpenShiftCluster.UpdateStages.WithPlatformWorkloadIdentityProfile**"
+methods:
+- uid: "com.azure.resourcemanager.redhatopenshift.models.OpenShiftCluster.UpdateStages.WithPlatformWorkloadIdentityProfile.withPlatformWorkloadIdentityProfile(com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityProfile)"
+  fullName: "com.azure.resourcemanager.redhatopenshift.models.OpenShiftCluster.UpdateStages.WithPlatformWorkloadIdentityProfile.withPlatformWorkloadIdentityProfile(PlatformWorkloadIdentityProfile platformWorkloadIdentityProfile)"
+  name: "withPlatformWorkloadIdentityProfile(PlatformWorkloadIdentityProfile platformWorkloadIdentityProfile)"
+  nameWithType: "OpenShiftCluster.UpdateStages.WithPlatformWorkloadIdentityProfile.withPlatformWorkloadIdentityProfile(PlatformWorkloadIdentityProfile platformWorkloadIdentityProfile)"
+  summary: "Specifies the platform<wbr>Workload<wbr>Identity<wbr>Profile property: The workload identity profile.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The workload identity profile."
+    name: "platformWorkloadIdentityProfile"
+    type: "<xref href=\"com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityProfile?alt=com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityProfile&text=PlatformWorkloadIdentityProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract OpenShiftCluster.Update withPlatformWorkloadIdentityProfile(PlatformWorkloadIdentityProfile platformWorkloadIdentityProfile)"
+  desc: "Specifies the platformWorkloadIdentityProfile property: The workload identity profile.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.redhatopenshift.models.OpenShiftCluster.Update?alt=com.azure.resourcemanager.redhatopenshift.models.OpenShiftCluster.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the OpenShiftCluster update allowing to specify platformWorkloadIdentityProfile."
+metadata: {}
+package: "com.azure.resourcemanager.redhatopenshift.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-redhatopenshift:1.0.0

@@ -63,9 +63,9 @@ methods:
   fullName: "com.azure.resourcemanager.servicefabric.models.ServiceCorrelationDescription.serviceName()"
   name: "serviceName()"
   nameWithType: "ServiceCorrelationDescription.serviceName()"
-  summary: "Get the service<wbr>Name property: The name of the service that the correlation relationship is established with."
+  summary: "Get the service<wbr>Name property: The full name of the service with 'fabric:' URI scheme."
   syntax: "public String serviceName()"
-  desc: "Get the serviceName property: The name of the service that the correlation relationship is established with."
+  desc: "Get the serviceName property: The full name of the service with 'fabric:' URI scheme."
   returns:
     description: "the serviceName value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -81,13 +81,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.servicefabric.models.ServiceCorrelationDescription.validate()"
-  fullName: "com.azure.resourcemanager.servicefabric.models.ServiceCorrelationDescription.validate()"
-  name: "validate()"
-  nameWithType: "ServiceCorrelationDescription.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.servicefabric.models.ServiceCorrelationDescription.withScheme(com.azure.resourcemanager.servicefabric.models.ServiceCorrelationScheme)"
   fullName: "com.azure.resourcemanager.servicefabric.models.ServiceCorrelationDescription.withScheme(ServiceCorrelationScheme scheme)"
   name: "withScheme(ServiceCorrelationScheme scheme)"
@@ -106,13 +99,13 @@ methods:
   fullName: "com.azure.resourcemanager.servicefabric.models.ServiceCorrelationDescription.withServiceName(String serviceName)"
   name: "withServiceName(String serviceName)"
   nameWithType: "ServiceCorrelationDescription.withServiceName(String serviceName)"
-  summary: "Set the service<wbr>Name property: The name of the service that the correlation relationship is established with."
+  summary: "Set the service<wbr>Name property: The full name of the service with 'fabric:' URI scheme."
   parameters:
   - description: "the serviceName value to set."
     name: "serviceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public ServiceCorrelationDescription withServiceName(String serviceName)"
-  desc: "Set the serviceName property: The name of the service that the correlation relationship is established with."
+  desc: "Set the serviceName property: The full name of the service with 'fabric:' URI scheme."
   returns:
     description: "the ServiceCorrelationDescription object itself."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceCorrelationDescription?alt=com.azure.resourcemanager.servicefabric.models.ServiceCorrelationDescription&text=ServiceCorrelationDescription\" data-throw-if-not-resolved=\"False\" />"
@@ -122,4 +115,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceCorrelationDescription?alt=com.azure.resourcemanager.servicefabric.models.ServiceCorrelationDescription&text=ServiceCorrelationDescription\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

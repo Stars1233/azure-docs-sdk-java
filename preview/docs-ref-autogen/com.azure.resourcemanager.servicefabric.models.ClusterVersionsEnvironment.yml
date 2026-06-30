@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.servicefabric.models.ClusterVersionsEnvironment"
 fullName: "com.azure.resourcemanager.servicefabric.models.ClusterVersionsEnvironment"
 name: "ClusterVersionsEnvironment"
 nameWithType: "ClusterVersionsEnvironment"
-summary: "Defines values for Cluster<wbr>Versions<wbr>Environment."
+summary: "The operating system or environment of the cluster version."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.servicefabric.models.ClusterVersionsEnvironment.LINUX"
   name: "LINUX"
   nameWithType: "ClusterVersionsEnvironment.LINUX"
-  summary: "Static value Linux for Cluster<wbr>Versions<wbr>Environment."
+  summary: "Linux operating system."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ClusterVersionsEnvironment?alt=com.azure.resourcemanager.servicefabric.models.ClusterVersionsEnvironment&text=ClusterVersionsEnvironment\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ClusterVersionsEnvironment LINUX"
-  desc: "Static value Linux for ClusterVersionsEnvironment."
+  desc: "Linux operating system."
 - uid: "com.azure.resourcemanager.servicefabric.models.ClusterVersionsEnvironment.WINDOWS"
   fullName: "com.azure.resourcemanager.servicefabric.models.ClusterVersionsEnvironment.WINDOWS"
   name: "WINDOWS"
   nameWithType: "ClusterVersionsEnvironment.WINDOWS"
-  summary: "Static value Windows for Cluster<wbr>Versions<wbr>Environment."
+  summary: "Windows operating system."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ClusterVersionsEnvironment?alt=com.azure.resourcemanager.servicefabric.models.ClusterVersionsEnvironment&text=ClusterVersionsEnvironment\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ClusterVersionsEnvironment WINDOWS"
-  desc: "Static value Windows for ClusterVersionsEnvironment."
+  desc: "Windows operating system."
 methods:
 - uid: "com.azure.resourcemanager.servicefabric.models.ClusterVersionsEnvironment.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.servicefabric.models.ClusterVersionsEnvironment.fromString(String name)"
@@ -92,7 +92,7 @@ methods:
     description: "known ClusterVersionsEnvironment values."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.servicefabric.models.ClusterVersionsEnvironment?alt=com.azure.resourcemanager.servicefabric.models.ClusterVersionsEnvironment&text=ClusterVersionsEnvironment\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
-desc: "Defines values for ClusterVersionsEnvironment."
+desc: "The operating system or environment of the cluster version."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

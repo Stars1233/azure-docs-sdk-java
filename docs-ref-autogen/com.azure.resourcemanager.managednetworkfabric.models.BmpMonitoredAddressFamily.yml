@@ -1,0 +1,134 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily"
+name: "BmpMonitoredAddressFamily"
+nameWithType: "BmpMonitoredAddressFamily"
+summary: "Monitored Address Family."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **BmpMonitoredAddressFamily**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily?alt=com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily&text=BmpMonitoredAddressFamily\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily.BmpMonitoredAddressFamily()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily.BmpMonitoredAddressFamily()"
+  name: "BmpMonitoredAddressFamily()"
+  nameWithType: "BmpMonitoredAddressFamily.BmpMonitoredAddressFamily()"
+  summary: "Creates a new instance of Bmp<wbr>Monitored<wbr>Address<wbr>Family value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public BmpMonitoredAddressFamily()"
+  desc: "Creates a new instance of BmpMonitoredAddressFamily value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily.ALL"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily.ALL"
+  name: "ALL"
+  nameWithType: "BmpMonitoredAddressFamily.ALL"
+  summary: "All Address Families."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily?alt=com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily&text=BmpMonitoredAddressFamily\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final BmpMonitoredAddressFamily ALL"
+  desc: "All Address Families."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily.IPV4UNICAST"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily.IPV4UNICAST"
+  name: "IPV4UNICAST"
+  nameWithType: "BmpMonitoredAddressFamily.IPV4UNICAST"
+  summary: "IPv4 Unicast."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily?alt=com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily&text=BmpMonitoredAddressFamily\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final BmpMonitoredAddressFamily IPV4UNICAST"
+  desc: "IPv4 Unicast."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily.IPV6UNICAST"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily.IPV6UNICAST"
+  name: "IPV6UNICAST"
+  nameWithType: "BmpMonitoredAddressFamily.IPV6UNICAST"
+  summary: "IPv6 Unicast."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily?alt=com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily&text=BmpMonitoredAddressFamily\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final BmpMonitoredAddressFamily IPV6UNICAST"
+  desc: "IPv6 Unicast."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily.VPN_IPV4"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily.VPN_IPV4"
+  name: "VPN_IPV4"
+  nameWithType: "BmpMonitoredAddressFamily.VPN_IPV4"
+  summary: "VPN IPv4."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily?alt=com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily&text=BmpMonitoredAddressFamily\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final BmpMonitoredAddressFamily VPN_IPV4"
+  desc: "VPN IPv4."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily.VPN_IPV6"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily.VPN_IPV6"
+  name: "VPN_IPV6"
+  nameWithType: "BmpMonitoredAddressFamily.VPN_IPV6"
+  summary: "VPN IPv6."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily?alt=com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily&text=BmpMonitoredAddressFamily\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final BmpMonitoredAddressFamily VPN_IPV6"
+  desc: "VPN IPv6."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "BmpMonitoredAddressFamily.fromString(String name)"
+  summary: "Creates or finds a Bmp<wbr>Monitored<wbr>Address<wbr>Family from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static BmpMonitoredAddressFamily fromString(String name)"
+  desc: "Creates or finds a BmpMonitoredAddressFamily from its string representation."
+  returns:
+    description: "the corresponding BmpMonitoredAddressFamily."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily?alt=com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily&text=BmpMonitoredAddressFamily\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily.values()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily.values()"
+  name: "values()"
+  nameWithType: "BmpMonitoredAddressFamily.values()"
+  summary: "Gets known Bmp<wbr>Monitored<wbr>Address<wbr>Family values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<BmpMonitoredAddressFamily> values()"
+  desc: "Gets known BmpMonitoredAddressFamily values."
+  returns:
+    description: "known BmpMonitoredAddressFamily values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily?alt=com.azure.resourcemanager.managednetworkfabric.models.BmpMonitoredAddressFamily&text=BmpMonitoredAddressFamily\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Monitored Address Family."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

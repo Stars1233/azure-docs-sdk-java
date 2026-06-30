@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.servicefabric.models.ArmServicePackageActivationMode.EXCLUSIVE_PROCESS"
   name: "EXCLUSIVE_PROCESS"
   nameWithType: "ArmServicePackageActivationMode.EXCLUSIVE_PROCESS"
-  summary: "Static value Exclusive<wbr>Process for Arm<wbr>Service<wbr>Package<wbr>Activation<wbr>Mode."
+  summary: "Indicates the application package activation mode will use exclusive process."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ArmServicePackageActivationMode?alt=com.azure.resourcemanager.servicefabric.models.ArmServicePackageActivationMode&text=ArmServicePackageActivationMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ArmServicePackageActivationMode EXCLUSIVE_PROCESS"
-  desc: "Static value ExclusiveProcess for ArmServicePackageActivationMode."
+  desc: "Indicates the application package activation mode will use exclusive process."
 - uid: "com.azure.resourcemanager.servicefabric.models.ArmServicePackageActivationMode.SHARED_PROCESS"
   fullName: "com.azure.resourcemanager.servicefabric.models.ArmServicePackageActivationMode.SHARED_PROCESS"
   name: "SHARED_PROCESS"
   nameWithType: "ArmServicePackageActivationMode.SHARED_PROCESS"
-  summary: "Static value Shared<wbr>Process for Arm<wbr>Service<wbr>Package<wbr>Activation<wbr>Mode."
+  summary: "Indicates the application package activation mode will use shared process."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ArmServicePackageActivationMode?alt=com.azure.resourcemanager.servicefabric.models.ArmServicePackageActivationMode&text=ArmServicePackageActivationMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ArmServicePackageActivationMode SHARED_PROCESS"
-  desc: "Static value SharedProcess for ArmServicePackageActivationMode."
+  desc: "Indicates the application package activation mode will use shared process."
 methods:
 - uid: "com.azure.resourcemanager.servicefabric.models.ArmServicePackageActivationMode.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.servicefabric.models.ArmServicePackageActivationMode.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The activation Mode of the service package."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

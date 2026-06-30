@@ -100,6 +100,16 @@ methods:
   returns:
     description: "the exportPolicy value."
     type: "<xref href=\"com.azure.resourcemanager.netapp.models.CachePropertiesExportPolicy?alt=com.azure.resourcemanager.netapp.models.CachePropertiesExportPolicy&text=CachePropertiesExportPolicy\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.netapp.models.CacheProperties.fileAccessLogs()"
+  fullName: "com.azure.resourcemanager.netapp.models.CacheProperties.fileAccessLogs()"
+  name: "fileAccessLogs()"
+  nameWithType: "CacheProperties.fileAccessLogs()"
+  summary: "Get the file<wbr>Access<wbr>Logs property: Flag indicating whether file access logs are enabled for the Cache, based on active diagnostic settings present on the Cache."
+  syntax: "public CacheFileAccessLogs fileAccessLogs()"
+  desc: "Get the fileAccessLogs property: Flag indicating whether file access logs are enabled for the Cache, based on active diagnostic settings present on the Cache."
+  returns:
+    description: "the fileAccessLogs value."
+    type: "<xref href=\"com.azure.resourcemanager.netapp.models.CacheFileAccessLogs?alt=com.azure.resourcemanager.netapp.models.CacheFileAccessLogs&text=CacheFileAccessLogs\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.netapp.models.CacheProperties.filePath()"
   fullName: "com.azure.resourcemanager.netapp.models.CacheProperties.filePath()"
   name: "filePath()"
@@ -552,4 +562,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.netapp.models.CacheProperties?alt=com.azure.resourcemanager.netapp.models.CacheProperties&text=CacheProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.netapp.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-netapp:2.2.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-netapp:2.3.0

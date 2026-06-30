@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.monitor.workspaces.models.Origin"
+fullName: "com.azure.resourcemanager.monitor.workspaces.models.Origin"
+name: "Origin"
+nameWithType: "Origin"
+summary: "Details about the origin of the entity - the source that added it to the issue."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **Origin**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.Origin?alt=com.azure.resourcemanager.monitor.workspaces.models.Origin&text=Origin\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.Origin.Origin()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.Origin.Origin()"
+  name: "Origin()"
+  nameWithType: "Origin.Origin()"
+  summary: "Creates an instance of Origin class."
+  syntax: "public Origin()"
+  desc: "Creates an instance of Origin class."
+methods:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.Origin.addedBy()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.Origin.addedBy()"
+  name: "addedBy()"
+  nameWithType: "Origin.addedBy()"
+  summary: "Get the added<wbr>By property: The ID of the origin - for example, in case of 'Manual', the user ID/app ID, and in case of 'Automatic', the name of the automatic system."
+  syntax: "public String addedBy()"
+  desc: "Get the addedBy property: The ID of the origin - for example, in case of 'Manual', the user ID/app ID, and in case of 'Automatic', the name of the automatic system."
+  returns:
+    description: "the addedBy value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.Origin.addedByType()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.Origin.addedByType()"
+  name: "addedByType()"
+  nameWithType: "Origin.addedByType()"
+  summary: "Get the added<wbr>ByType property: The source of the origin - Manual or Automatic."
+  syntax: "public AddedByType addedByType()"
+  desc: "Get the addedByType property: The source of the origin - Manual or Automatic."
+  returns:
+    description: "the addedByType value."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.AddedByType?alt=com.azure.resourcemanager.monitor.workspaces.models.AddedByType&text=AddedByType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.Origin.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.Origin.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "Origin.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Origin from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static Origin fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of Origin from the JsonReader."
+  returns:
+    description: "An instance of Origin if the JsonReader was pointing to an instance of it, or null if it was pointing to\n JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.Origin?alt=com.azure.resourcemanager.monitor.workspaces.models.Origin&text=Origin\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.Origin.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.Origin.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "Origin.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.Origin.withAddedBy(java.lang.String)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.Origin.withAddedBy(String addedBy)"
+  name: "withAddedBy(String addedBy)"
+  nameWithType: "Origin.withAddedBy(String addedBy)"
+  summary: "Set the added<wbr>By property: The ID of the origin - for example, in case of 'Manual', the user ID/app ID, and in case of 'Automatic', the name of the automatic system."
+  parameters:
+  - description: "the addedBy value to set."
+    name: "addedBy"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public Origin withAddedBy(String addedBy)"
+  desc: "Set the addedBy property: The ID of the origin - for example, in case of 'Manual', the user ID/app ID, and in case of 'Automatic', the name of the automatic system."
+  returns:
+    description: "the Origin object itself."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.Origin?alt=com.azure.resourcemanager.monitor.workspaces.models.Origin&text=Origin\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.Origin.withAddedByType(com.azure.resourcemanager.monitor.workspaces.models.AddedByType)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.Origin.withAddedByType(AddedByType addedByType)"
+  name: "withAddedByType(AddedByType addedByType)"
+  nameWithType: "Origin.withAddedByType(AddedByType addedByType)"
+  summary: "Set the added<wbr>ByType property: The source of the origin - Manual or Automatic."
+  parameters:
+  - description: "the addedByType value to set."
+    name: "addedByType"
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.AddedByType?alt=com.azure.resourcemanager.monitor.workspaces.models.AddedByType&text=AddedByType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Origin withAddedByType(AddedByType addedByType)"
+  desc: "Set the addedByType property: The source of the origin - Manual or Automatic."
+  returns:
+    description: "the Origin object itself."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.Origin?alt=com.azure.resourcemanager.monitor.workspaces.models.Origin&text=Origin\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Details about the origin of the entity - the source that added it to the issue."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.Origin?alt=com.azure.resourcemanager.monitor.workspaces.models.Origin&text=Origin\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.monitor.workspaces.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor-workspaces:1.0.0

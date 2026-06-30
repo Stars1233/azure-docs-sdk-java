@@ -15,7 +15,6 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.resourcemanager.compute.models.SharedGalleryDiskImage.hostCaching()?alt=com.azure.resourcemanager.compute.models.SharedGalleryDiskImage.hostCaching&text=hostCaching\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.compute.models.SharedGalleryDiskImage.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.compute.models.SharedGalleryDiskImage.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.compute.models.SharedGalleryDiskImage.validate()?alt=com.azure.resourcemanager.compute.models.SharedGalleryDiskImage.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.compute.models.SharedGalleryDiskImage.withHostCaching(com.azure.resourcemanager.compute.models.SharedGalleryHostCaching)?alt=com.azure.resourcemanager.compute.models.SharedGalleryDiskImage.withHostCaching&text=withHostCaching\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -30,14 +29,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **SharedGalleryDataDiskImage**</br> extends <xref href=\"com.azure.resourcemanager.compute.models.SharedGalleryDiskImage?alt=com.azure.resourcemanager.compute.models.SharedGalleryDiskImage&text=SharedGalleryDiskImage\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.resourcemanager.compute.models.SharedGalleryDataDiskImage.SharedGalleryDataDiskImage()"
-  fullName: "com.azure.resourcemanager.compute.models.SharedGalleryDataDiskImage.SharedGalleryDataDiskImage()"
-  name: "SharedGalleryDataDiskImage()"
-  nameWithType: "SharedGalleryDataDiskImage.SharedGalleryDataDiskImage()"
-  summary: "Creates an instance of Shared<wbr>Gallery<wbr>Data<wbr>Disk<wbr>Image class."
-  syntax: "public SharedGalleryDataDiskImage()"
-  desc: "Creates an instance of SharedGalleryDataDiskImage class."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.SharedGalleryDataDiskImage.diskSizeGB()"
   fullName: "com.azure.resourcemanager.compute.models.SharedGalleryDataDiskImage.diskSizeGB()"
@@ -69,6 +60,17 @@ methods:
   returns:
     description: "An instance of SharedGalleryDataDiskImage if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.SharedGalleryDataDiskImage?alt=com.azure.resourcemanager.compute.models.SharedGalleryDataDiskImage&text=SharedGalleryDataDiskImage\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.SharedGalleryDataDiskImage.hostCaching()"
+  fullName: "com.azure.resourcemanager.compute.models.SharedGalleryDataDiskImage.hostCaching()"
+  name: "hostCaching()"
+  nameWithType: "SharedGalleryDataDiskImage.hostCaching()"
+  summary: "Get the host<wbr>Caching property: The host caching of the disk."
+  overridden: "com.azure.resourcemanager.compute.models.SharedGalleryDiskImage.hostCaching()"
+  syntax: "public SharedGalleryHostCaching hostCaching()"
+  desc: "Get the hostCaching property: The host caching of the disk. Valid values are 'None', 'ReadOnly', and 'ReadWrite'."
+  returns:
+    description: "the hostCaching value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.SharedGalleryHostCaching?alt=com.azure.resourcemanager.compute.models.SharedGalleryHostCaching&text=SharedGalleryHostCaching\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.SharedGalleryDataDiskImage.lun()"
   fullName: "com.azure.resourcemanager.compute.models.SharedGalleryDataDiskImage.lun()"
   name: "lun()"
@@ -100,35 +102,8 @@ methods:
   overridden: "com.azure.resourcemanager.compute.models.SharedGalleryDiskImage.validate()"
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.compute.models.SharedGalleryDataDiskImage.withHostCaching(com.azure.resourcemanager.compute.models.SharedGalleryHostCaching)"
-  fullName: "com.azure.resourcemanager.compute.models.SharedGalleryDataDiskImage.withHostCaching(SharedGalleryHostCaching hostCaching)"
-  name: "withHostCaching(SharedGalleryHostCaching hostCaching)"
-  nameWithType: "SharedGalleryDataDiskImage.withHostCaching(SharedGalleryHostCaching hostCaching)"
-  summary: "Set the host<wbr>Caching property: The host caching of the disk."
-  overridden: "com.azure.resourcemanager.compute.models.SharedGalleryDiskImage.withHostCaching(com.azure.resourcemanager.compute.models.SharedGalleryHostCaching)"
-  parameters:
-  - name: "hostCaching"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.SharedGalleryHostCaching?alt=com.azure.resourcemanager.compute.models.SharedGalleryHostCaching&text=SharedGalleryHostCaching\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public SharedGalleryDataDiskImage withHostCaching(SharedGalleryHostCaching hostCaching)"
-  desc: "Set the hostCaching property: The host caching of the disk. Valid values are 'None', 'ReadOnly', and 'ReadWrite'."
-  returns:
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.SharedGalleryDataDiskImage?alt=com.azure.resourcemanager.compute.models.SharedGalleryDataDiskImage&text=SharedGalleryDataDiskImage\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.models.SharedGalleryDataDiskImage.withLun(int)"
-  fullName: "com.azure.resourcemanager.compute.models.SharedGalleryDataDiskImage.withLun(int lun)"
-  name: "withLun(int lun)"
-  nameWithType: "SharedGalleryDataDiskImage.withLun(int lun)"
-  summary: "Set the lun property: This property specifies the logical unit number of the data disk."
-  parameters:
-  - description: "the lun value to set."
-    name: "lun"
-    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public SharedGalleryDataDiskImage withLun(int lun)"
-  desc: "Set the lun property: This property specifies the logical unit number of the data disk. This value is used to identify data disks within the Virtual Machine and therefore must be unique for each data disk attached to the Virtual Machine."
-  returns:
-    description: "the SharedGalleryDataDiskImage object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.SharedGalleryDataDiskImage?alt=com.azure.resourcemanager.compute.models.SharedGalleryDataDiskImage&text=SharedGalleryDataDiskImage\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "This is the data disk image."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

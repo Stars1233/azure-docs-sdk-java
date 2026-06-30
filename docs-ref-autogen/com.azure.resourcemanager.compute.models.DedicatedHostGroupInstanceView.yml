@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **DedicatedHostGroupInstanceView**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.DedicatedHostGroupInstanceView?alt=com.azure.resourcemanager.compute.models.DedicatedHostGroupInstanceView&text=DedicatedHostGroupInstanceView\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.compute.models.DedicatedHostGroupInstanceView.DedicatedHostGroupInstanceView()"
-  fullName: "com.azure.resourcemanager.compute.models.DedicatedHostGroupInstanceView.DedicatedHostGroupInstanceView()"
-  name: "DedicatedHostGroupInstanceView()"
-  nameWithType: "DedicatedHostGroupInstanceView.DedicatedHostGroupInstanceView()"
-  summary: "Creates an instance of Dedicated<wbr>Host<wbr>Group<wbr>Instance<wbr>View class."
-  syntax: "public DedicatedHostGroupInstanceView()"
-  desc: "Creates an instance of DedicatedHostGroupInstanceView class."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.DedicatedHostGroupInstanceView.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.compute.models.DedicatedHostGroupInstanceView.fromJson(JsonReader jsonReader)"
@@ -78,24 +70,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.compute.models.DedicatedHostGroupInstanceView.withHosts(java.util.List<com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName>)"
-  fullName: "com.azure.resourcemanager.compute.models.DedicatedHostGroupInstanceView.withHosts(List<DedicatedHostInstanceViewWithName> hosts)"
-  name: "withHosts(List<DedicatedHostInstanceViewWithName> hosts)"
-  nameWithType: "DedicatedHostGroupInstanceView.withHosts(List<DedicatedHostInstanceViewWithName> hosts)"
-  summary: "Set the hosts property: List of instance view of the dedicated hosts under the dedicated host group."
-  parameters:
-  - description: "the hosts value to set."
-    name: "hosts"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName?alt=com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName&text=DedicatedHostInstanceViewWithName\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public DedicatedHostGroupInstanceView withHosts(List<DedicatedHostInstanceViewWithName> hosts)"
-  desc: "Set the hosts property: List of instance view of the dedicated hosts under the dedicated host group."
-  returns:
-    description: "the DedicatedHostGroupInstanceView object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.DedicatedHostGroupInstanceView?alt=com.azure.resourcemanager.compute.models.DedicatedHostGroupInstanceView&text=DedicatedHostGroupInstanceView\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The DedicatedHostGroupInstanceView model."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.DedicatedHostGroupInstanceView?alt=com.azure.resourcemanager.compute.models.DedicatedHostGroupInstanceView&text=DedicatedHostGroupInstanceView\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

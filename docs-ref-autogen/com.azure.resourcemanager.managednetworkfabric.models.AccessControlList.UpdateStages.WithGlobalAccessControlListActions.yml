@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.UpdateStages.WithGlobalAccessControlListActions"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.UpdateStages.WithGlobalAccessControlListActions"
+name: "AccessControlList.UpdateStages.WithGlobalAccessControlListActions"
+nameWithType: "AccessControlList.UpdateStages.WithGlobalAccessControlListActions"
+summary: "The stage of the Access<wbr>Control<wbr>List update allowing to specify global<wbr>Access<wbr>Control<wbr>List<wbr>Actions."
+syntax: "public static interface **AccessControlList.UpdateStages.WithGlobalAccessControlListActions**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.UpdateStages.WithGlobalAccessControlListActions.withGlobalAccessControlListActions(com.azure.resourcemanager.managednetworkfabric.models.GlobalAccessControlListActionPatchProperties)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.UpdateStages.WithGlobalAccessControlListActions.withGlobalAccessControlListActions(GlobalAccessControlListActionPatchProperties globalAccessControlListActions)"
+  name: "withGlobalAccessControlListActions(GlobalAccessControlListActionPatchProperties globalAccessControlListActions)"
+  nameWithType: "AccessControlList.UpdateStages.WithGlobalAccessControlListActions.withGlobalAccessControlListActions(GlobalAccessControlListActionPatchProperties globalAccessControlListActions)"
+  summary: "Specifies the global<wbr>Access<wbr>Control<wbr>List<wbr>Actions property: Global Access Control List (ACL) actions."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Global Access Control List (ACL) actions."
+    name: "globalAccessControlListActions"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.GlobalAccessControlListActionPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.GlobalAccessControlListActionPatchProperties&text=GlobalAccessControlListActionPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract AccessControlList.Update withGlobalAccessControlListActions(GlobalAccessControlListActionPatchProperties globalAccessControlListActions)"
+  desc: "Specifies the globalAccessControlListActions property: Global Access Control List (ACL) actions."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.Update?alt=com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the AccessControlList update allowing to specify globalAccessControlListActions."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

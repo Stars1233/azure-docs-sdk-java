@@ -19,7 +19,6 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties.servicePackageActivationMode()?alt=com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties.servicePackageActivationMode&text=servicePackageActivationMode\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties.serviceTypeName()?alt=com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties.serviceTypeName&text=serviceTypeName\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties.validate()?alt=com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties.withCorrelationScheme(java.util.List<com.azure.resourcemanager.servicefabric.models.ServiceCorrelationDescription>)?alt=com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties.withCorrelationScheme&text=withCorrelationScheme\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties.withDefaultMoveCost(com.azure.resourcemanager.servicefabric.models.MoveCost)?alt=com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties.withDefaultMoveCost&text=withDefaultMoveCost\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties.withPartitionDescription(com.azure.resourcemanager.servicefabric.models.PartitionSchemeDescription)?alt=com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties.withPartitionDescription&text=withPartitionDescription\" data-throw-if-not-resolved=\"False\" />"
@@ -98,17 +97,6 @@ methods:
   returns:
     description: "the minReplicaSetSize value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-- uid: "com.azure.resourcemanager.servicefabric.models.StatefulServiceProperties.provisioningState()"
-  fullName: "com.azure.resourcemanager.servicefabric.models.StatefulServiceProperties.provisioningState()"
-  name: "provisioningState()"
-  nameWithType: "StatefulServiceProperties.provisioningState()"
-  summary: "Get the provisioning<wbr>State property: The current deployment or provisioning state, which only appears in the response."
-  overridden: "com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties.provisioningState()"
-  syntax: "public String provisioningState()"
-  desc: "Get the provisioningState property: The current deployment or provisioning state, which only appears in the response."
-  returns:
-    description: "the provisioningState value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.servicefabric.models.StatefulServiceProperties.quorumLossWaitDuration()"
   fullName: "com.azure.resourcemanager.servicefabric.models.StatefulServiceProperties.quorumLossWaitDuration()"
   name: "quorumLossWaitDuration()"
@@ -173,14 +161,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.servicefabric.models.StatefulServiceProperties.validate()"
-  fullName: "com.azure.resourcemanager.servicefabric.models.StatefulServiceProperties.validate()"
-  name: "validate()"
-  nameWithType: "StatefulServiceProperties.validate()"
-  summary: "Validates the instance."
-  overridden: "com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties.validate()"
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.servicefabric.models.StatefulServiceProperties.withCorrelationScheme(java.util.List<com.azure.resourcemanager.servicefabric.models.ServiceCorrelationDescription>)"
   fullName: "com.azure.resourcemanager.servicefabric.models.StatefulServiceProperties.withCorrelationScheme(List<ServiceCorrelationDescription> correlationScheme)"
   name: "withCorrelationScheme(List<ServiceCorrelationDescription> correlationScheme)"
@@ -299,7 +279,7 @@ methods:
   - name: "serviceDnsName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public StatefulServiceProperties withServiceDnsName(String serviceDnsName)"
-  desc: "Set the serviceDnsName property: Dns name used for the service. If this is specified, then the service can be accessed via its DNS name instead of service name."
+  desc: "Set the serviceDnsName property: Dns name used for the service. If this is specified, then the DNS name can be used to return the IP addresses of service endpoints for application layer protocols (e.g., HTTP). When updating serviceDnsName, old name may be temporarily resolvable. However, rely on new name. When removing serviceDnsName, removed name may temporarily be resolvable. Do not rely on the name being unresolvable."
   returns:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.StatefulServiceProperties?alt=com.azure.resourcemanager.servicefabric.models.StatefulServiceProperties&text=StatefulServiceProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabric.models.StatefulServiceProperties.withServiceLoadMetrics(java.util.List<com.azure.resourcemanager.servicefabric.models.ServiceLoadMetricDescription>)"
@@ -386,4 +366,4 @@ type: "class"
 desc: "The properties of a stateful service resource."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

@@ -6,18 +6,18 @@ nameWithType: "AccessControlList.UpdateStages.WithMatchConfigurations"
 summary: "The stage of the Access<wbr>Control<wbr>List update allowing to specify match<wbr>Configurations."
 syntax: "public static interface **AccessControlList.UpdateStages.WithMatchConfigurations**"
 methods:
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.UpdateStages.WithMatchConfigurations.withMatchConfigurations(java.util.List<com.azure.resourcemanager.managednetworkfabric.models.AccessControlListMatchConfiguration>)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.UpdateStages.WithMatchConfigurations.withMatchConfigurations(List<AccessControlListMatchConfiguration> matchConfigurations)"
-  name: "withMatchConfigurations(List<AccessControlListMatchConfiguration> matchConfigurations)"
-  nameWithType: "AccessControlList.UpdateStages.WithMatchConfigurations.withMatchConfigurations(List<AccessControlListMatchConfiguration> matchConfigurations)"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.UpdateStages.WithMatchConfigurations.withMatchConfigurationsForUpdate(java.util.List<com.azure.resourcemanager.managednetworkfabric.models.AccessControlListMatchConfigurationPatch>)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.UpdateStages.WithMatchConfigurations.withMatchConfigurationsForUpdate(List<AccessControlListMatchConfigurationPatch> matchConfigurations)"
+  name: "withMatchConfigurationsForUpdate(List<AccessControlListMatchConfigurationPatch> matchConfigurations)"
+  nameWithType: "AccessControlList.UpdateStages.WithMatchConfigurations.withMatchConfigurationsForUpdate(List<AccessControlListMatchConfigurationPatch> matchConfigurations)"
   summary: "Specifies the match<wbr>Configurations property: List of match configurations.."
   modifiers:
   - "abstract"
   parameters:
   - description: "List of match configurations."
     name: "matchConfigurations"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AccessControlListMatchConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.AccessControlListMatchConfiguration&text=AccessControlListMatchConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract AccessControlList.Update withMatchConfigurations(List<AccessControlListMatchConfiguration> matchConfigurations)"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AccessControlListMatchConfigurationPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.AccessControlListMatchConfigurationPatch&text=AccessControlListMatchConfigurationPatch\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract AccessControlList.Update withMatchConfigurationsForUpdate(List<AccessControlListMatchConfigurationPatch> matchConfigurations)"
   desc: "Specifies the matchConfigurations property: List of match configurations.."
   returns:
     description: "the next definition stage."
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the AccessControlList update allowing to specify matchConfigurations."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.managednetworkfabric.models.UpgradeNetworkFabric
 fullName: "com.azure.resourcemanager.managednetworkfabric.models.UpgradeNetworkFabricProperties"
 name: "UpgradeNetworkFabricProperties"
 nameWithType: "UpgradeNetworkFabricProperties"
-summary: "The Upgrade<wbr>Network<wbr>Fabric<wbr>Properties model."
+summary: "Model used for Upgrade Network Fabric Properties."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateVersion?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -12,7 +12,6 @@ inheritedClassMethods:
   methodsRef:
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateVersion.fromJson(com.azure.json.JsonReader)?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateVersion.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateVersion.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateVersion.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateVersion.validate()?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateVersion.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateVersion.version()?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateVersion.version&text=version\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateVersion.withVersion(java.lang.String)?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateVersion.withVersion&text=withVersion\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
@@ -80,14 +79,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.UpgradeNetworkFabricProperties.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.UpgradeNetworkFabricProperties.validate()"
-  name: "validate()"
-  nameWithType: "UpgradeNetworkFabricProperties.validate()"
-  summary: "Validates the instance."
-  overridden: "com.azure.resourcemanager.managednetworkfabric.models.UpdateVersion.validate()"
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.UpgradeNetworkFabricProperties.withAction(com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricUpgradeAction)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.UpgradeNetworkFabricProperties.withAction(NetworkFabricUpgradeAction action)"
   name: "withAction(NetworkFabricUpgradeAction action)"
@@ -116,7 +107,7 @@ methods:
   returns:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpgradeNetworkFabricProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.UpgradeNetworkFabricProperties&text=UpgradeNetworkFabricProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The UpgradeNetworkFabricProperties model."
+desc: "Model used for Upgrade Network Fabric Properties."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

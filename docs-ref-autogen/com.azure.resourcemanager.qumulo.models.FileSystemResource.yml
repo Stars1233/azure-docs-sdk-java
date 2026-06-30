@@ -126,6 +126,18 @@ methods:
   returns:
     description: "the name value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.qumulo.models.FileSystemResource.performanceTier()"
+  fullName: "com.azure.resourcemanager.qumulo.models.FileSystemResource.performanceTier()"
+  name: "performanceTier()"
+  nameWithType: "FileSystemResource.performanceTier()"
+  summary: "Gets the performance<wbr>Tier property: Pre-Provisioned Performance of the Resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String performanceTier()"
+  desc: "Gets the performanceTier property: Pre-Provisioned Performance of the Resource."
+  returns:
+    description: "the performanceTier value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.qumulo.models.FileSystemResource.privateIPs()"
   fullName: "com.azure.resourcemanager.qumulo.models.FileSystemResource.privateIPs()"
   name: "privateIPs()"
@@ -290,4 +302,4 @@ type: "interface"
 desc: "An immutable client-side representation of FileSystemResource."
 metadata: {}
 package: "com.azure.resourcemanager.qumulo.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-qumulo:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-qumulo:1.2.0

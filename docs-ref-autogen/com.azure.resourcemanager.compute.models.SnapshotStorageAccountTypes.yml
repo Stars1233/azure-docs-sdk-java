@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.compute.models.SnapshotStorageAccountTypes.PREMIUM_LRS"
   name: "PREMIUM_LRS"
   nameWithType: "SnapshotStorageAccountTypes.PREMIUM_LRS"
-  summary: "Static value Premium\\_LRS for Snapshot<wbr>Storage<wbr>Account<wbr>Types."
+  summary: "Premium SSD locally redundant storage."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.SnapshotStorageAccountTypes?alt=com.azure.resourcemanager.compute.models.SnapshotStorageAccountTypes&text=SnapshotStorageAccountTypes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SnapshotStorageAccountTypes PREMIUM_LRS"
-  desc: "Static value Premium\\_LRS for SnapshotStorageAccountTypes."
+  desc: "Premium SSD locally redundant storage."
 - uid: "com.azure.resourcemanager.compute.models.SnapshotStorageAccountTypes.STANDARD_LRS"
   fullName: "com.azure.resourcemanager.compute.models.SnapshotStorageAccountTypes.STANDARD_LRS"
   name: "STANDARD_LRS"
   nameWithType: "SnapshotStorageAccountTypes.STANDARD_LRS"
-  summary: "Static value Standard\\_LRS for Snapshot<wbr>Storage<wbr>Account<wbr>Types."
+  summary: "Standard HDD locally redundant storage."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.SnapshotStorageAccountTypes?alt=com.azure.resourcemanager.compute.models.SnapshotStorageAccountTypes&text=SnapshotStorageAccountTypes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SnapshotStorageAccountTypes STANDARD_LRS"
-  desc: "Static value Standard\\_LRS for SnapshotStorageAccountTypes."
+  desc: "Standard HDD locally redundant storage."
 - uid: "com.azure.resourcemanager.compute.models.SnapshotStorageAccountTypes.STANDARD_ZRS"
   fullName: "com.azure.resourcemanager.compute.models.SnapshotStorageAccountTypes.STANDARD_ZRS"
   name: "STANDARD_ZRS"
   nameWithType: "SnapshotStorageAccountTypes.STANDARD_ZRS"
-  summary: "Static value Standard\\_ZRS for Snapshot<wbr>Storage<wbr>Account<wbr>Types."
+  summary: "Standard zone redundant storage."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.SnapshotStorageAccountTypes?alt=com.azure.resourcemanager.compute.models.SnapshotStorageAccountTypes&text=SnapshotStorageAccountTypes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SnapshotStorageAccountTypes STANDARD_ZRS"
-  desc: "Static value Standard\\_ZRS for SnapshotStorageAccountTypes."
+  desc: "Standard zone redundant storage."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.SnapshotStorageAccountTypes.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.models.SnapshotStorageAccountTypes.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "The sku name."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

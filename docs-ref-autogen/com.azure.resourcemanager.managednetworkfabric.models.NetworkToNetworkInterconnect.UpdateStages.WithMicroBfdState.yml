@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.UpdateStages.WithMicroBfdState"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.UpdateStages.WithMicroBfdState"
+name: "NetworkToNetworkInterconnect.UpdateStages.WithMicroBfdState"
+nameWithType: "NetworkToNetworkInterconnect.UpdateStages.WithMicroBfdState"
+summary: "The stage of the Network<wbr>ToNetwork<wbr>Interconnect update allowing to specify micro<wbr>Bfd<wbr>State."
+syntax: "public static interface **NetworkToNetworkInterconnect.UpdateStages.WithMicroBfdState**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.UpdateStages.WithMicroBfdState.withMicroBfdState(com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.UpdateStages.WithMicroBfdState.withMicroBfdState(MicroBfdState microBfdState)"
+  name: "withMicroBfdState(MicroBfdState microBfdState)"
+  nameWithType: "NetworkToNetworkInterconnect.UpdateStages.WithMicroBfdState.withMicroBfdState(MicroBfdState microBfdState)"
+  summary: "Specifies the micro<wbr>Bfd<wbr>State property: Micro BFD enabled/disabled state.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Micro BFD enabled/disabled state."
+    name: "microBfdState"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState?alt=com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState&text=MicroBfdState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NetworkToNetworkInterconnect.Update withMicroBfdState(MicroBfdState microBfdState)"
+  desc: "Specifies the microBfdState property: Micro BFD enabled/disabled state.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.Update?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkToNetworkInterconnect update allowing to specify microBfdState."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

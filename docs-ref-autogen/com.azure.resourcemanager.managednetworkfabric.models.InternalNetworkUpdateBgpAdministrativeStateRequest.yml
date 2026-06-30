@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest"
+name: "InternalNetworkUpdateBgpAdministrativeStateRequest"
+nameWithType: "InternalNetworkUpdateBgpAdministrativeStateRequest"
+summary: "Internal Network Administrative State Request."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **InternalNetworkUpdateBgpAdministrativeStateRequest**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest?alt=com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest&text=InternalNetworkUpdateBgpAdministrativeStateRequest\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest.InternalNetworkUpdateBgpAdministrativeStateRequest()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest.InternalNetworkUpdateBgpAdministrativeStateRequest()"
+  name: "InternalNetworkUpdateBgpAdministrativeStateRequest()"
+  nameWithType: "InternalNetworkUpdateBgpAdministrativeStateRequest.InternalNetworkUpdateBgpAdministrativeStateRequest()"
+  summary: "Creates an instance of Internal<wbr>Network<wbr>Update<wbr>Bgp<wbr>Administrative<wbr>State<wbr>Request class."
+  syntax: "public InternalNetworkUpdateBgpAdministrativeStateRequest()"
+  desc: "Creates an instance of InternalNetworkUpdateBgpAdministrativeStateRequest class."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest.administrativeState()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest.administrativeState()"
+  name: "administrativeState()"
+  nameWithType: "InternalNetworkUpdateBgpAdministrativeStateRequest.administrativeState()"
+  summary: "Get the administrative<wbr>State property: BGP Administrative state."
+  syntax: "public BgpAdministrativeState administrativeState()"
+  desc: "Get the administrativeState property: BGP Administrative state."
+  returns:
+    description: "the administrativeState value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BgpAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.BgpAdministrativeState&text=BgpAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "InternalNetworkUpdateBgpAdministrativeStateRequest.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Internal<wbr>Network<wbr>Update<wbr>Bgp<wbr>Administrative<wbr>State<wbr>Request from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static InternalNetworkUpdateBgpAdministrativeStateRequest fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the InternalNetworkUpdateBgpAdministrativeStateRequest."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of InternalNetworkUpdateBgpAdministrativeStateRequest from the JsonReader."
+  returns:
+    description: "An instance of InternalNetworkUpdateBgpAdministrativeStateRequest if the JsonReader was pointing to an\n instance of it, or null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest?alt=com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest&text=InternalNetworkUpdateBgpAdministrativeStateRequest\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest.neighborAddress()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest.neighborAddress()"
+  name: "neighborAddress()"
+  nameWithType: "InternalNetworkUpdateBgpAdministrativeStateRequest.neighborAddress()"
+  summary: "Get the neighbor<wbr>Address property: Neighbor<wbr>Address - Input should be either All or Specific Ipv4 Address or Specific Ipv6 Address."
+  syntax: "public String neighborAddress()"
+  desc: "Get the neighborAddress property: NeighborAddress - Input should be either All or Specific Ipv4 Address or Specific Ipv6 Address."
+  returns:
+    description: "the neighborAddress value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "InternalNetworkUpdateBgpAdministrativeStateRequest.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest.withAdministrativeState(com.azure.resourcemanager.managednetworkfabric.models.BgpAdministrativeState)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest.withAdministrativeState(BgpAdministrativeState administrativeState)"
+  name: "withAdministrativeState(BgpAdministrativeState administrativeState)"
+  nameWithType: "InternalNetworkUpdateBgpAdministrativeStateRequest.withAdministrativeState(BgpAdministrativeState administrativeState)"
+  summary: "Set the administrative<wbr>State property: BGP Administrative state."
+  parameters:
+  - description: "the administrativeState value to set."
+    name: "administrativeState"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BgpAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.BgpAdministrativeState&text=BgpAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public InternalNetworkUpdateBgpAdministrativeStateRequest withAdministrativeState(BgpAdministrativeState administrativeState)"
+  desc: "Set the administrativeState property: BGP Administrative state."
+  returns:
+    description: "the InternalNetworkUpdateBgpAdministrativeStateRequest object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest?alt=com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest&text=InternalNetworkUpdateBgpAdministrativeStateRequest\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest.withNeighborAddress(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest.withNeighborAddress(String neighborAddress)"
+  name: "withNeighborAddress(String neighborAddress)"
+  nameWithType: "InternalNetworkUpdateBgpAdministrativeStateRequest.withNeighborAddress(String neighborAddress)"
+  summary: "Set the neighbor<wbr>Address property: Neighbor<wbr>Address - Input should be either All or Specific Ipv4 Address or Specific Ipv6 Address."
+  parameters:
+  - description: "the neighborAddress value to set."
+    name: "neighborAddress"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public InternalNetworkUpdateBgpAdministrativeStateRequest withNeighborAddress(String neighborAddress)"
+  desc: "Set the neighborAddress property: NeighborAddress - Input should be either All or Specific Ipv4 Address or Specific Ipv6 Address."
+  returns:
+    description: "the InternalNetworkUpdateBgpAdministrativeStateRequest object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest?alt=com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest&text=InternalNetworkUpdateBgpAdministrativeStateRequest\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Internal Network Administrative State Request."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest?alt=com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkUpdateBgpAdministrativeStateRequest&text=InternalNetworkUpdateBgpAdministrativeStateRequest\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

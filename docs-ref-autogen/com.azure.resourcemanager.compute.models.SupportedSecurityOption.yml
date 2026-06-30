@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.compute.models.SupportedSecurityOption.TRUSTED_LAUNCH_AND_CONFIDENTIAL_VMSUPPORTED"
   name: "TRUSTED_LAUNCH_AND_CONFIDENTIAL_VMSUPPORTED"
   nameWithType: "SupportedSecurityOption.TRUSTED_LAUNCH_AND_CONFIDENTIAL_VMSUPPORTED"
-  summary: "Static value Trusted<wbr>Launch<wbr>And<wbr>Confidential<wbr>VMSupported for Supported<wbr>Security<wbr>Option."
+  summary: "The disk supports creating both Trusted Launch and Confidential VMs."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.SupportedSecurityOption?alt=com.azure.resourcemanager.compute.models.SupportedSecurityOption&text=SupportedSecurityOption\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SupportedSecurityOption TRUSTED_LAUNCH_AND_CONFIDENTIAL_VMSUPPORTED"
-  desc: "Static value TrustedLaunchAndConfidentialVMSupported for SupportedSecurityOption."
+  desc: "The disk supports creating both Trusted Launch and Confidential VMs."
 - uid: "com.azure.resourcemanager.compute.models.SupportedSecurityOption.TRUSTED_LAUNCH_SUPPORTED"
   fullName: "com.azure.resourcemanager.compute.models.SupportedSecurityOption.TRUSTED_LAUNCH_SUPPORTED"
   name: "TRUSTED_LAUNCH_SUPPORTED"
   nameWithType: "SupportedSecurityOption.TRUSTED_LAUNCH_SUPPORTED"
-  summary: "Static value Trusted<wbr>Launch<wbr>Supported for Supported<wbr>Security<wbr>Option."
+  summary: "The disk supports creating Trusted Launch VMs."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.SupportedSecurityOption?alt=com.azure.resourcemanager.compute.models.SupportedSecurityOption&text=SupportedSecurityOption\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SupportedSecurityOption TRUSTED_LAUNCH_SUPPORTED"
-  desc: "Static value TrustedLaunchSupported for SupportedSecurityOption."
+  desc: "The disk supports creating Trusted Launch VMs."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.SupportedSecurityOption.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.models.SupportedSecurityOption.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Refers to the security capability of the disk supported to create a Trusted launch or Confidential VM."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

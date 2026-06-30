@@ -14,7 +14,6 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.resourcemanager.imagebuilder.models.ImageTemplateInVMValidator.name()?alt=com.azure.resourcemanager.imagebuilder.models.ImageTemplateInVMValidator.name&text=name\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.imagebuilder.models.ImageTemplateInVMValidator.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.imagebuilder.models.ImageTemplateInVMValidator.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.imagebuilder.models.ImageTemplateInVMValidator.type()?alt=com.azure.resourcemanager.imagebuilder.models.ImageTemplateInVMValidator.type&text=type\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.imagebuilder.models.ImageTemplateInVMValidator.validate()?alt=com.azure.resourcemanager.imagebuilder.models.ImageTemplateInVMValidator.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.imagebuilder.models.ImageTemplateInVMValidator.withName(java.lang.String)?alt=com.azure.resourcemanager.imagebuilder.models.ImageTemplateInVMValidator.withName&text=withName\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
@@ -132,14 +131,6 @@ methods:
   returns:
     description: "the type value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.imagebuilder.models.ImageTemplatePowerShellValidator.validate()"
-  fullName: "com.azure.resourcemanager.imagebuilder.models.ImageTemplatePowerShellValidator.validate()"
-  name: "validate()"
-  nameWithType: "ImageTemplatePowerShellValidator.validate()"
-  summary: "Validates the instance."
-  overridden: "com.azure.resourcemanager.imagebuilder.models.ImageTemplateInVMValidator.validate()"
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.imagebuilder.models.ImageTemplatePowerShellValidator.validExitCodes()"
   fullName: "com.azure.resourcemanager.imagebuilder.models.ImageTemplatePowerShellValidator.validExitCodes()"
   name: "validExitCodes()"
@@ -251,4 +242,4 @@ type: "class"
 desc: "Runs the specified PowerShell script during the validation phase (Windows). Corresponds to Packer powershell provisioner. Exactly one of 'scriptUri' or 'inline' can be specified."
 metadata: {}
 package: "com.azure.resourcemanager.imagebuilder.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-imagebuilder:1.2.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-imagebuilder:1.3.0

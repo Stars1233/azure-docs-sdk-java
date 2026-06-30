@@ -79,6 +79,16 @@ methods:
   returns:
     description: "the statuses value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.InstanceViewStatus?alt=com.azure.resourcemanager.compute.models.InstanceViewStatus&text=InstanceViewStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.compute.models.DiskInstanceView.storageAlignmentStatus()"
+  fullName: "com.azure.resourcemanager.compute.models.DiskInstanceView.storageAlignmentStatus()"
+  name: "storageAlignmentStatus()"
+  nameWithType: "DiskInstanceView.storageAlignmentStatus()"
+  summary: "Get the storage<wbr>Alignment<wbr>Status property: Specifies the storage alignment status for the disk."
+  syntax: "public StorageAlignmentStatus storageAlignmentStatus()"
+  desc: "Get the storageAlignmentStatus property: Specifies the storage alignment status for the disk."
+  returns:
+    description: "the storageAlignmentStatus value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.StorageAlignmentStatus?alt=com.azure.resourcemanager.compute.models.StorageAlignmentStatus&text=StorageAlignmentStatus\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.DiskInstanceView.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.compute.models.DiskInstanceView.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -140,10 +150,24 @@ methods:
   returns:
     description: "the DiskInstanceView object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskInstanceView?alt=com.azure.resourcemanager.compute.models.DiskInstanceView&text=DiskInstanceView\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.DiskInstanceView.withStorageAlignmentStatus(com.azure.resourcemanager.compute.models.StorageAlignmentStatus)"
+  fullName: "com.azure.resourcemanager.compute.models.DiskInstanceView.withStorageAlignmentStatus(StorageAlignmentStatus storageAlignmentStatus)"
+  name: "withStorageAlignmentStatus(StorageAlignmentStatus storageAlignmentStatus)"
+  nameWithType: "DiskInstanceView.withStorageAlignmentStatus(StorageAlignmentStatus storageAlignmentStatus)"
+  summary: "Set the storage<wbr>Alignment<wbr>Status property: Specifies the storage alignment status for the disk."
+  parameters:
+  - description: "the storageAlignmentStatus value to set."
+    name: "storageAlignmentStatus"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.StorageAlignmentStatus?alt=com.azure.resourcemanager.compute.models.StorageAlignmentStatus&text=StorageAlignmentStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public DiskInstanceView withStorageAlignmentStatus(StorageAlignmentStatus storageAlignmentStatus)"
+  desc: "Set the storageAlignmentStatus property: Specifies the storage alignment status for the disk."
+  returns:
+    description: "the DiskInstanceView object itself."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskInstanceView?alt=com.azure.resourcemanager.compute.models.DiskInstanceView&text=DiskInstanceView\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The instance view of the disk."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.DiskInstanceView?alt=com.azure.resourcemanager.compute.models.DiskInstanceView&text=DiskInstanceView\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

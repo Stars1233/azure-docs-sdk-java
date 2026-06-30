@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyConditionType.AND"
   name: "AND"
   nameWithType: "RoutePolicyConditionType.AND"
-  summary: "Static value And for Route<wbr>Policy<wbr>Condition<wbr>Type."
+  summary: "Route<wbr>Policy<wbr>Condition<wbr>Type-And."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyConditionType?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyConditionType&text=RoutePolicyConditionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RoutePolicyConditionType AND"
-  desc: "Static value And for RoutePolicyConditionType."
+  desc: "RoutePolicyConditionType-And."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyConditionType.OR"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyConditionType.OR"
   name: "OR"
   nameWithType: "RoutePolicyConditionType.OR"
-  summary: "Static value Or for Route<wbr>Policy<wbr>Condition<wbr>Type."
+  summary: "Route<wbr>Policy<wbr>Condition<wbr>Type-Or."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyConditionType?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyConditionType&text=RoutePolicyConditionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RoutePolicyConditionType OR"
-  desc: "Static value Or for RoutePolicyConditionType."
+  desc: "RoutePolicyConditionType-Or."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyConditionType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyConditionType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Type of the condition used."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

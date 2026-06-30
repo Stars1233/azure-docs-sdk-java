@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties"
+name: "GlobalNetworkTapRuleActionPatchProperties"
+nameWithType: "GlobalNetworkTapRuleActionPatchProperties"
+summary: "Global network tap rule actions patch properties."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **GlobalNetworkTapRuleActionPatchProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties&text=GlobalNetworkTapRuleActionPatchProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties.GlobalNetworkTapRuleActionPatchProperties()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties.GlobalNetworkTapRuleActionPatchProperties()"
+  name: "GlobalNetworkTapRuleActionPatchProperties()"
+  nameWithType: "GlobalNetworkTapRuleActionPatchProperties.GlobalNetworkTapRuleActionPatchProperties()"
+  summary: "Creates an instance of Global<wbr>Network<wbr>Tap<wbr>Rule<wbr>Action<wbr>Patch<wbr>Properties class."
+  syntax: "public GlobalNetworkTapRuleActionPatchProperties()"
+  desc: "Creates an instance of GlobalNetworkTapRuleActionPatchProperties class."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties.enableCount()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties.enableCount()"
+  name: "enableCount()"
+  nameWithType: "GlobalNetworkTapRuleActionPatchProperties.enableCount()"
+  summary: "Get the enable<wbr>Count property: Configuration to enable network tap rule counter."
+  syntax: "public BooleanEnumProperty enableCount()"
+  desc: "Get the enableCount property: Configuration to enable network tap rule counter."
+  returns:
+    description: "the enableCount value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BooleanEnumProperty?alt=com.azure.resourcemanager.managednetworkfabric.models.BooleanEnumProperty&text=BooleanEnumProperty\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "GlobalNetworkTapRuleActionPatchProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Global<wbr>Network<wbr>Tap<wbr>Rule<wbr>Action<wbr>Patch<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static GlobalNetworkTapRuleActionPatchProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the GlobalNetworkTapRuleActionPatchProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of GlobalNetworkTapRuleActionPatchProperties from the JsonReader."
+  returns:
+    description: "An instance of GlobalNetworkTapRuleActionPatchProperties if the JsonReader was pointing to an instance of\n it, or null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties&text=GlobalNetworkTapRuleActionPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "GlobalNetworkTapRuleActionPatchProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties.truncate()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties.truncate()"
+  name: "truncate()"
+  nameWithType: "GlobalNetworkTapRuleActionPatchProperties.truncate()"
+  summary: "Get the truncate property: Truncate."
+  syntax: "public String truncate()"
+  desc: "Get the truncate property: Truncate. 0 indicates do not truncate."
+  returns:
+    description: "the truncate value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties.withEnableCount(com.azure.resourcemanager.managednetworkfabric.models.BooleanEnumProperty)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties.withEnableCount(BooleanEnumProperty enableCount)"
+  name: "withEnableCount(BooleanEnumProperty enableCount)"
+  nameWithType: "GlobalNetworkTapRuleActionPatchProperties.withEnableCount(BooleanEnumProperty enableCount)"
+  summary: "Set the enable<wbr>Count property: Configuration to enable network tap rule counter."
+  parameters:
+  - description: "the enableCount value to set."
+    name: "enableCount"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BooleanEnumProperty?alt=com.azure.resourcemanager.managednetworkfabric.models.BooleanEnumProperty&text=BooleanEnumProperty\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public GlobalNetworkTapRuleActionPatchProperties withEnableCount(BooleanEnumProperty enableCount)"
+  desc: "Set the enableCount property: Configuration to enable network tap rule counter."
+  returns:
+    description: "the GlobalNetworkTapRuleActionPatchProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties&text=GlobalNetworkTapRuleActionPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties.withTruncate(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties.withTruncate(String truncate)"
+  name: "withTruncate(String truncate)"
+  nameWithType: "GlobalNetworkTapRuleActionPatchProperties.withTruncate(String truncate)"
+  summary: "Set the truncate property: Truncate."
+  parameters:
+  - description: "the truncate value to set."
+    name: "truncate"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public GlobalNetworkTapRuleActionPatchProperties withTruncate(String truncate)"
+  desc: "Set the truncate property: Truncate. 0 indicates do not truncate."
+  returns:
+    description: "the GlobalNetworkTapRuleActionPatchProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties&text=GlobalNetworkTapRuleActionPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Global network tap rule actions patch properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties&text=GlobalNetworkTapRuleActionPatchProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

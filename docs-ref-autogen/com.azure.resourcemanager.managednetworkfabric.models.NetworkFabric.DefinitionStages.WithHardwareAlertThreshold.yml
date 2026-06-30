@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithHardwareAlertThreshold"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithHardwareAlertThreshold"
+name: "NetworkFabric.DefinitionStages.WithHardwareAlertThreshold"
+nameWithType: "NetworkFabric.DefinitionStages.WithHardwareAlertThreshold"
+summary: "The stage of the Network<wbr>Fabric definition allowing to specify hardware<wbr>Alert<wbr>Threshold."
+syntax: "public static interface **NetworkFabric.DefinitionStages.WithHardwareAlertThreshold**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithHardwareAlertThreshold.withHardwareAlertThreshold(java.lang.Integer)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithHardwareAlertThreshold.withHardwareAlertThreshold(Integer hardwareAlertThreshold)"
+  name: "withHardwareAlertThreshold(Integer hardwareAlertThreshold)"
+  nameWithType: "NetworkFabric.DefinitionStages.WithHardwareAlertThreshold.withHardwareAlertThreshold(Integer hardwareAlertThreshold)"
+  summary: "Specifies the hardware<wbr>Alert<wbr>Threshold property: Hardware alert threshold percentage."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Hardware alert threshold percentage. Possible values are from 20 to 100."
+    name: "hardwareAlertThreshold"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+  syntax: "public abstract NetworkFabric.DefinitionStages.WithCreate withHardwareAlertThreshold(Integer hardwareAlertThreshold)"
+  desc: "Specifies the hardwareAlertThreshold property: Hardware alert threshold percentage. Possible values are from 20 to 100.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkFabric definition allowing to specify hardwareAlertThreshold."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

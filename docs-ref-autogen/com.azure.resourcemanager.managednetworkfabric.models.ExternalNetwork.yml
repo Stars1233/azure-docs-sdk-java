@@ -54,18 +54,6 @@ methods:
   returns:
     description: "the exportRoutePolicy value."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExportRoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.ExportRoutePolicy&text=ExportRoutePolicy\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.exportRoutePolicyId()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.exportRoutePolicyId()"
-  name: "exportRoutePolicyId()"
-  nameWithType: "ExternalNetwork.exportRoutePolicyId()"
-  summary: "Gets the export<wbr>Route<wbr>Policy<wbr>Id property: ARM Resource ID of the Route<wbr>Policy."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract String exportRoutePolicyId()"
-  desc: "Gets the exportRoutePolicyId property: ARM Resource ID of the RoutePolicy. This is used for the backward compatibility."
-  returns:
-    description: "the exportRoutePolicyId value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.id()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.id()"
   name: "id()"
@@ -90,18 +78,6 @@ methods:
   returns:
     description: "the importRoutePolicy value."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicy&text=ImportRoutePolicy\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.importRoutePolicyId()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.importRoutePolicyId()"
-  name: "importRoutePolicyId()"
-  nameWithType: "ExternalNetwork.importRoutePolicyId()"
-  summary: "Gets the import<wbr>Route<wbr>Policy<wbr>Id property: ARM Resource ID of the Route<wbr>Policy."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract String importRoutePolicyId()"
-  desc: "Gets the importRoutePolicyId property: ARM Resource ID of the RoutePolicy. This is used for the backward compatibility."
-  returns:
-    description: "the importRoutePolicyId value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.innerModel()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.innerModel()"
   name: "innerModel()"
@@ -114,6 +90,18 @@ methods:
   returns:
     description: "the inner object."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.ExternalNetworkInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.ExternalNetworkInner&text=ExternalNetworkInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.lastOperation()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.lastOperation()"
+  name: "lastOperation()"
+  nameWithType: "ExternalNetwork.lastOperation()"
+  summary: "Gets the last<wbr>Operation property: Details of the last operation performed on the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract LastOperationProperties lastOperation()"
+  desc: "Gets the lastOperation property: Details of the last operation performed on the resource."
+  returns:
+    description: "the lastOperation value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties&text=LastOperationProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.name()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.name()"
   name: "name()"
@@ -125,6 +113,18 @@ methods:
   desc: "Gets the name property: The name of the resource."
   returns:
     description: "the name value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.networkFabricId()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.networkFabricId()"
+  name: "networkFabricId()"
+  nameWithType: "ExternalNetwork.networkFabricId()"
+  summary: "Gets the network<wbr>Fabric<wbr>Id property: Associated Network Fabric Resource ID."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String networkFabricId()"
+  desc: "Gets the networkFabricId property: Associated Network Fabric Resource ID."
+  returns:
+    description: "the networkFabricId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.networkToNetworkInterconnectId()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.networkToNetworkInterconnectId()"
@@ -226,6 +226,18 @@ methods:
   returns:
     description: "the name of the resource group."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.staticRouteConfiguration()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.staticRouteConfiguration()"
+  name: "staticRouteConfiguration()"
+  nameWithType: "ExternalNetwork.staticRouteConfiguration()"
+  summary: "Gets the static<wbr>Route<wbr>Configuration property: Static Route Configuration."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ExternalNetworkStaticRouteConfiguration staticRouteConfiguration()"
+  desc: "Gets the staticRouteConfiguration property: Static Route Configuration."
+  returns:
+    description: "the staticRouteConfiguration value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkStaticRouteConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkStaticRouteConfiguration&text=ExternalNetworkStaticRouteConfiguration\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.systemData()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.systemData()"
   name: "systemData()"
@@ -266,23 +278,23 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.updateAdministrativeState(UpdateAdministrativeState body)"
   name: "updateAdministrativeState(UpdateAdministrativeState body)"
   nameWithType: "ExternalNetwork.updateAdministrativeState(UpdateAdministrativeState body)"
-  summary: "Implements the operation to the underlying resources."
+  summary: "Executes update operation to enable or disable administrative State for external<wbr>Network."
   modifiers:
   - "abstract"
   parameters:
   - description: "Request payload."
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState&text=UpdateAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForStateUpdate updateAdministrativeState(UpdateAdministrativeState body)"
-  desc: "Implements the operation to the underlying resources. Executes update operation to enable or disable administrative State for externalNetwork."
+  syntax: "public abstract UpdateAdministrativeStateResponse updateAdministrativeState(UpdateAdministrativeState body)"
+  desc: "Executes update operation to enable or disable administrative State for externalNetwork."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate&text=CommonPostActionResponseForStateUpdate\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse&text=UpdateAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.updateAdministrativeState(com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.updateAdministrativeState(UpdateAdministrativeState body, Context context)"
   name: "updateAdministrativeState(UpdateAdministrativeState body, Context context)"
   nameWithType: "ExternalNetwork.updateAdministrativeState(UpdateAdministrativeState body, Context context)"
-  summary: "Implements the operation to the underlying resources."
+  summary: "Executes update operation to enable or disable administrative State for external<wbr>Network."
   modifiers:
   - "abstract"
   parameters:
@@ -292,32 +304,67 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForStateUpdate updateAdministrativeState(UpdateAdministrativeState body, Context context)"
-  desc: "Implements the operation to the underlying resources. Executes update operation to enable or disable administrative State for externalNetwork."
+  syntax: "public abstract UpdateAdministrativeStateResponse updateAdministrativeState(UpdateAdministrativeState body, Context context)"
+  desc: "Executes update operation to enable or disable administrative State for externalNetwork."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate&text=CommonPostActionResponseForStateUpdate\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse&text=UpdateAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.updateBfdAdministrativeState(com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.updateBfdAdministrativeState(ExternalNetworkUpdateBfdAdministrativeStateRequest body)"
+  name: "updateBfdAdministrativeState(ExternalNetworkUpdateBfdAdministrativeStateRequest body)"
+  nameWithType: "ExternalNetwork.updateBfdAdministrativeState(ExternalNetworkUpdateBfdAdministrativeStateRequest body)"
+  summary: "BFD administrative state for either static or bgp for internal<wbr>Network."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Request payload."
+    name: "body"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest&text=ExternalNetworkUpdateBfdAdministrativeStateRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ExternalNetworkUpdateBfdAdministrativeStateResponse updateBfdAdministrativeState(ExternalNetworkUpdateBfdAdministrativeStateRequest body)"
+  desc: "BFD administrative state for either static or bgp for internalNetwork."
+  returns:
+    description: "external Network Update Administrative State response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateResponse&text=ExternalNetworkUpdateBfdAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.updateBfdAdministrativeState(com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.updateBfdAdministrativeState(ExternalNetworkUpdateBfdAdministrativeStateRequest body, Context context)"
+  name: "updateBfdAdministrativeState(ExternalNetworkUpdateBfdAdministrativeStateRequest body, Context context)"
+  nameWithType: "ExternalNetwork.updateBfdAdministrativeState(ExternalNetworkUpdateBfdAdministrativeStateRequest body, Context context)"
+  summary: "BFD administrative state for either static or bgp for internal<wbr>Network."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Request payload."
+    name: "body"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest&text=ExternalNetworkUpdateBfdAdministrativeStateRequest\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ExternalNetworkUpdateBfdAdministrativeStateResponse updateBfdAdministrativeState(ExternalNetworkUpdateBfdAdministrativeStateRequest body, Context context)"
+  desc: "BFD administrative state for either static or bgp for internalNetwork."
+  returns:
+    description: "external Network Update Administrative State response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateResponse&text=ExternalNetworkUpdateBfdAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.updateStaticRouteBfdAdministrativeState(com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.updateStaticRouteBfdAdministrativeState(UpdateAdministrativeState body)"
   name: "updateStaticRouteBfdAdministrativeState(UpdateAdministrativeState body)"
   nameWithType: "ExternalNetwork.updateStaticRouteBfdAdministrativeState(UpdateAdministrativeState body)"
-  summary: "Executes Static Route BFD state update operation to the underlying resources."
+  summary: "Update Static Route BFD for external Network."
   modifiers:
   - "abstract"
   parameters:
   - description: "Request payload."
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState&text=UpdateAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForStateUpdate updateStaticRouteBfdAdministrativeState(UpdateAdministrativeState body)"
-  desc: "Executes Static Route BFD state update operation to the underlying resources. Update Static Route BFD for external Network."
+  syntax: "public abstract UpdateAdministrativeStateResponse updateStaticRouteBfdAdministrativeState(UpdateAdministrativeState body)"
+  desc: "Update Static Route BFD for external Network."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate&text=CommonPostActionResponseForStateUpdate\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse&text=UpdateAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.updateStaticRouteBfdAdministrativeState(com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.updateStaticRouteBfdAdministrativeState(UpdateAdministrativeState body, Context context)"
   name: "updateStaticRouteBfdAdministrativeState(UpdateAdministrativeState body, Context context)"
   nameWithType: "ExternalNetwork.updateStaticRouteBfdAdministrativeState(UpdateAdministrativeState body, Context context)"
-  summary: "Executes Static Route BFD state update operation to the underlying resources."
+  summary: "Update Static Route BFD for external Network."
   modifiers:
   - "abstract"
   parameters:
@@ -327,13 +374,13 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForStateUpdate updateStaticRouteBfdAdministrativeState(UpdateAdministrativeState body, Context context)"
-  desc: "Executes Static Route BFD state update operation to the underlying resources. Update Static Route BFD for external Network."
+  syntax: "public abstract UpdateAdministrativeStateResponse updateStaticRouteBfdAdministrativeState(UpdateAdministrativeState body, Context context)"
+  desc: "Update Static Route BFD for external Network."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate&text=CommonPostActionResponseForStateUpdate\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse&text=UpdateAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "An immutable client-side representation of ExternalNetwork."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

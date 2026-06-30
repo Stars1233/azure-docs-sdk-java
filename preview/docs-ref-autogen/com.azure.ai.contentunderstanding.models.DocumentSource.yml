@@ -3,7 +3,7 @@ uid: "com.azure.ai.contentunderstanding.models.DocumentSource"
 fullName: "com.azure.ai.contentunderstanding.models.DocumentSource"
 name: "DocumentSource"
 nameWithType: "DocumentSource"
-summary: "Represents a parsed document grounding source in the format `D(page,x1,y1,x2,y2,x3,y3,x4,y4)`."
+summary: "Represents a parsed document grounding source in the format `D(page,x1,y1,...,xN,yN)` or `D(page)` when only a page number is available."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.ai.contentunderstanding.models.ContentSource?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -32,11 +32,11 @@ methods:
   fullName: "com.azure.ai.contentunderstanding.models.DocumentSource.getBoundingBox()"
   name: "getBoundingBox()"
   nameWithType: "DocumentSource.getBoundingBox()"
-  summary: "Gets the axis-aligned bounding rectangle computed from the polygon coordinates."
+  summary: "Gets the axis-aligned bounding rectangle computed from the polygon coordinates, or `null` when no polygon is available."
   syntax: "public RectangleF getBoundingBox()"
-  desc: "Gets the axis-aligned bounding rectangle computed from the polygon coordinates. Useful for drawing highlight rectangles over extracted fields."
+  desc: "Gets the axis-aligned bounding rectangle computed from the polygon coordinates, or `null` when no polygon is available. Useful for drawing highlight rectangles over extracted fields."
   returns:
-    description: "The bounding box."
+    description: "The bounding box, or <code>null</code>."
     type: "<xref href=\"com.azure.ai.contentunderstanding.models.RectangleF?alt=com.azure.ai.contentunderstanding.models.RectangleF&text=RectangleF\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.contentunderstanding.models.DocumentSource.getPageNumber()"
   fullName: "com.azure.ai.contentunderstanding.models.DocumentSource.getPageNumber()"
@@ -52,11 +52,11 @@ methods:
   fullName: "com.azure.ai.contentunderstanding.models.DocumentSource.getPolygon()"
   name: "getPolygon()"
   nameWithType: "DocumentSource.getPolygon()"
-  summary: "Gets the polygon coordinates as four points defining a quadrilateral region."
+  summary: "Gets the polygon coordinates defining the region, or `null` when only a page number is available (i.<wbr>e., the source was in the form `D(page)`)."
   syntax: "public List<PointF> getPolygon()"
-  desc: "Gets the polygon coordinates as four points defining a quadrilateral region."
+  desc: "Gets the polygon coordinates defining the region, or `null` when only a page number is available (i.e., the source was in the form `D(page)`)."
   returns:
-    description: "An unmodifiable list of four <xref uid=\"com.azure.ai.contentunderstanding.models.PointF\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PointF\"></xref> values."
+    description: "An unmodifiable list of <xref uid=\"com.azure.ai.contentunderstanding.models.PointF\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PointF\"></xref> values, or <code>null</code>."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.contentunderstanding.models.PointF?alt=com.azure.ai.contentunderstanding.models.PointF&text=PointF\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.ai.contentunderstanding.models.DocumentSource.parse(java.lang.String)"
   fullName: "com.azure.ai.contentunderstanding.models.DocumentSource.parse(String source)"
@@ -75,7 +75,7 @@ methods:
     description: "An unmodifiable list of <xref uid=\"com.azure.ai.contentunderstanding.models.DocumentSource\" data-throw-if-not-resolved=\"false\" data-raw-source=\"DocumentSource\"></xref> instances."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.contentunderstanding.models.DocumentSource?alt=com.azure.ai.contentunderstanding.models.DocumentSource&text=DocumentSource\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
-desc: "Represents a parsed document grounding source in the format `D(page,x1,y1,x2,y2,x3,y3,x4,y4)`.\n\nThe page number is 1-based. The polygon is a quadrilateral defined by four points with coordinates in the document's coordinate space."
+desc: "Represents a parsed document grounding source in the format `D(page,x1,y1,...,xN,yN)` or `D(page)` when only a page number is available.\n\nThe page number is 1-based. When coordinates are present, the polygon defines a region with three or more points in the document's coordinate space. When only a page number is provided (no coordinates), <xref uid=\"com.azure.ai.contentunderstanding.models.DocumentSource.getPolygon()\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#getPolygon()\"></xref> and <xref uid=\"com.azure.ai.contentunderstanding.models.DocumentSource.getBoundingBox()\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#getBoundingBox()\"></xref> return `null`."
 metadata: {}
 package: "com.azure.ai.contentunderstanding.models"
-artifact: com.azure:azure-ai-contentunderstanding:1.1.0-beta.1
+artifact: com.azure:azure-ai-contentunderstanding:1.1.0-beta.2

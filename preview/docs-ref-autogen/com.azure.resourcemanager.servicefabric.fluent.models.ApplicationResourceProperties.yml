@@ -20,7 +20,6 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ApplicationResourceUpdateProperties.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.servicefabric.fluent.models.ApplicationResourceUpdateProperties.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ApplicationResourceUpdateProperties.typeVersion()?alt=com.azure.resourcemanager.servicefabric.fluent.models.ApplicationResourceUpdateProperties.typeVersion&text=typeVersion\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ApplicationResourceUpdateProperties.upgradePolicy()?alt=com.azure.resourcemanager.servicefabric.fluent.models.ApplicationResourceUpdateProperties.upgradePolicy&text=upgradePolicy\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ApplicationResourceUpdateProperties.validate()?alt=com.azure.resourcemanager.servicefabric.fluent.models.ApplicationResourceUpdateProperties.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ApplicationResourceUpdateProperties.withManagedIdentities(java.util.List<com.azure.resourcemanager.servicefabric.models.ApplicationUserAssignedIdentity>)?alt=com.azure.resourcemanager.servicefabric.fluent.models.ApplicationResourceUpdateProperties.withManagedIdentities&text=withManagedIdentities\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ApplicationResourceUpdateProperties.withMaximumNodes(java.lang.Long)?alt=com.azure.resourcemanager.servicefabric.fluent.models.ApplicationResourceUpdateProperties.withMaximumNodes&text=withMaximumNodes\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ApplicationResourceUpdateProperties.withMetrics(java.util.List<com.azure.resourcemanager.servicefabric.models.ApplicationMetricDescription>)?alt=com.azure.resourcemanager.servicefabric.fluent.models.ApplicationResourceUpdateProperties.withMetrics&text=withMetrics\" data-throw-if-not-resolved=\"False\" />"
@@ -104,14 +103,6 @@ methods:
   returns:
     description: "the typeName value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.servicefabric.fluent.models.ApplicationResourceProperties.validate()"
-  fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ApplicationResourceProperties.validate()"
-  name: "validate()"
-  nameWithType: "ApplicationResourceProperties.validate()"
-  summary: "Validates the instance."
-  overridden: "com.azure.resourcemanager.servicefabric.fluent.models.ApplicationResourceUpdateProperties.validate()"
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.servicefabric.fluent.models.ApplicationResourceProperties.withManagedIdentities(java.util.List<com.azure.resourcemanager.servicefabric.models.ApplicationUserAssignedIdentity>)"
   fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ApplicationResourceProperties.withManagedIdentities(List<ApplicationUserAssignedIdentity> managedIdentities)"
   name: "withManagedIdentities(List<ApplicationUserAssignedIdentity> managedIdentities)"
@@ -234,4 +225,4 @@ type: "class"
 desc: "The application resource properties."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

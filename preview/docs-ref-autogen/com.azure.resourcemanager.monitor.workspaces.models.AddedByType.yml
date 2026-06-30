@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.monitor.workspaces.models.AddedByType"
+fullName: "com.azure.resourcemanager.monitor.workspaces.models.AddedByType"
+name: "AddedByType"
+nameWithType: "AddedByType"
+summary: "The type of entity that added data to the issue."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AddedByType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.AddedByType?alt=com.azure.resourcemanager.monitor.workspaces.models.AddedByType&text=AddedByType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.AddedByType.AddedByType()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.AddedByType.AddedByType()"
+  name: "AddedByType()"
+  nameWithType: "AddedByType.AddedByType()"
+  summary: "Creates a new instance of Added<wbr>ByType value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.monitor.workspaces.models.AddedByType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public AddedByType()"
+  desc: "Creates a new instance of AddedByType value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.AddedByType.AUTOMATIC"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.AddedByType.AUTOMATIC"
+  name: "AUTOMATIC"
+  nameWithType: "AddedByType.AUTOMATIC"
+  summary: "The data was added automatically."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.AddedByType?alt=com.azure.resourcemanager.monitor.workspaces.models.AddedByType&text=AddedByType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AddedByType AUTOMATIC"
+  desc: "The data was added automatically."
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.AddedByType.MANUAL"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.AddedByType.MANUAL"
+  name: "MANUAL"
+  nameWithType: "AddedByType.MANUAL"
+  summary: "The data was added manually by a user."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.AddedByType?alt=com.azure.resourcemanager.monitor.workspaces.models.AddedByType&text=AddedByType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AddedByType MANUAL"
+  desc: "The data was added manually by a user."
+methods:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.AddedByType.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.AddedByType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "AddedByType.fromString(String name)"
+  summary: "Creates or finds a Added<wbr>ByType from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static AddedByType fromString(String name)"
+  desc: "Creates or finds a AddedByType from its string representation."
+  returns:
+    description: "the corresponding AddedByType."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.AddedByType?alt=com.azure.resourcemanager.monitor.workspaces.models.AddedByType&text=AddedByType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.AddedByType.values()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.AddedByType.values()"
+  name: "values()"
+  nameWithType: "AddedByType.values()"
+  summary: "Gets known Added<wbr>ByType values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<AddedByType> values()"
+  desc: "Gets known AddedByType values."
+  returns:
+    description: "known AddedByType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.AddedByType?alt=com.azure.resourcemanager.monitor.workspaces.models.AddedByType&text=AddedByType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The type of entity that added data to the issue."
+metadata: {}
+package: "com.azure.resourcemanager.monitor.workspaces.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor-workspaces:1.0.0-beta.1

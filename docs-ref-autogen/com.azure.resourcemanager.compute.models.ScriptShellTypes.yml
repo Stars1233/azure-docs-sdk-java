@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.compute.models.ScriptShellTypes.DEFAULT"
   name: "DEFAULT"
   nameWithType: "ScriptShellTypes.DEFAULT"
-  summary: "Static value Default for Script<wbr>Shell<wbr>Types."
+  summary: "Default script shell type."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.ScriptShellTypes?alt=com.azure.resourcemanager.compute.models.ScriptShellTypes&text=ScriptShellTypes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ScriptShellTypes DEFAULT"
-  desc: "Static value Default for ScriptShellTypes."
+  desc: "Default script shell type."
 - uid: "com.azure.resourcemanager.compute.models.ScriptShellTypes.POWERSHELL7"
   fullName: "com.azure.resourcemanager.compute.models.ScriptShellTypes.POWERSHELL7"
   name: "POWERSHELL7"
   nameWithType: "ScriptShellTypes.POWERSHELL7"
-  summary: "Static value Powershell7 for Script<wbr>Shell<wbr>Types."
+  summary: "Powershell7 script shell type."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.ScriptShellTypes?alt=com.azure.resourcemanager.compute.models.ScriptShellTypes&text=ScriptShellTypes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ScriptShellTypes POWERSHELL7"
-  desc: "Static value Powershell7 for ScriptShellTypes."
+  desc: "Powershell7 script shell type."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.ScriptShellTypes.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.models.ScriptShellTypes.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Script shell types."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

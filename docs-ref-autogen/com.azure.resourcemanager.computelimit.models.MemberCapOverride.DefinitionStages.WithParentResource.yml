@@ -1,0 +1,32 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.computelimit.models.MemberCapOverride.DefinitionStages.WithParentResource"
+fullName: "com.azure.resourcemanager.computelimit.models.MemberCapOverride.DefinitionStages.WithParentResource"
+name: "MemberCapOverride.DefinitionStages.WithParentResource"
+nameWithType: "MemberCapOverride.DefinitionStages.WithParentResource"
+summary: "The stage of the Member<wbr>Cap<wbr>Override definition allowing to specify parent resource."
+syntax: "public static interface **MemberCapOverride.DefinitionStages.WithParentResource**"
+methods:
+- uid: "com.azure.resourcemanager.computelimit.models.MemberCapOverride.DefinitionStages.WithParentResource.withExistingSharedLimitCap(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.computelimit.models.MemberCapOverride.DefinitionStages.WithParentResource.withExistingSharedLimitCap(String location, String vmFamilyName)"
+  name: "withExistingSharedLimitCap(String location, String vmFamilyName)"
+  nameWithType: "MemberCapOverride.DefinitionStages.WithParentResource.withExistingSharedLimitCap(String location, String vmFamilyName)"
+  summary: "Specifies location, vm<wbr>Family<wbr>Name."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the Azure region."
+    name: "location"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the SharedLimitCap."
+    name: "vmFamilyName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract MemberCapOverride.DefinitionStages.WithCreate withExistingSharedLimitCap(String location, String vmFamilyName)"
+  desc: "Specifies location, vmFamilyName."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.computelimit.models.MemberCapOverride.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.computelimit.models.MemberCapOverride.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the MemberCapOverride definition allowing to specify parent resource."
+metadata: {}
+package: "com.azure.resourcemanager.computelimit.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-computelimit:1.2.0

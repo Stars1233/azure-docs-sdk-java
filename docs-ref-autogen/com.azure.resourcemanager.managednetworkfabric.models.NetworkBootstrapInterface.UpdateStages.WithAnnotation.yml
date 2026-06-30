@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.UpdateStages.WithAnnotation"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.UpdateStages.WithAnnotation"
+name: "NetworkBootstrapInterface.UpdateStages.WithAnnotation"
+nameWithType: "NetworkBootstrapInterface.UpdateStages.WithAnnotation"
+summary: "The stage of the Network<wbr>Bootstrap<wbr>Interface update allowing to specify annotation."
+syntax: "public static interface **NetworkBootstrapInterface.UpdateStages.WithAnnotation**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.UpdateStages.WithAnnotation.withAnnotation(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.UpdateStages.WithAnnotation.withAnnotation(String annotation)"
+  name: "withAnnotation(String annotation)"
+  nameWithType: "NetworkBootstrapInterface.UpdateStages.WithAnnotation.withAnnotation(String annotation)"
+  summary: "Specifies the annotation property: Switch configuration description.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Switch configuration description."
+    name: "annotation"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract NetworkBootstrapInterface.Update withAnnotation(String annotation)"
+  desc: "Specifies the annotation property: Switch configuration description.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.Update?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkBootstrapInterface update allowing to specify annotation."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

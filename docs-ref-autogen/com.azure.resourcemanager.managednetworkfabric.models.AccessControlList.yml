@@ -18,6 +18,18 @@ methods:
   returns:
     description: "the aclsUrl value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.aclType()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.aclType()"
+  name: "aclType()"
+  nameWithType: "AccessControlList.aclType()"
+  summary: "Gets the acl<wbr>Type property: Access Control List (ACL) Type."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract AclType aclType()"
+  desc: "Gets the aclType property: Access Control List (ACL) Type."
+  returns:
+    description: "the aclType value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AclType?alt=com.azure.resourcemanager.managednetworkfabric.models.AclType&text=AclType\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.administrativeState()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.administrativeState()"
   name: "administrativeState()"
@@ -66,6 +78,18 @@ methods:
   returns:
     description: "the configurationType value."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ConfigurationType?alt=com.azure.resourcemanager.managednetworkfabric.models.ConfigurationType&text=ConfigurationType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.controlPlaneAclConfiguration()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.controlPlaneAclConfiguration()"
+  name: "controlPlaneAclConfiguration()"
+  nameWithType: "AccessControlList.controlPlaneAclConfiguration()"
+  summary: "Gets the control<wbr>Plane<wbr>Acl<wbr>Configuration property: Access Control List (ACL) configurations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<ControlPlaneAclProperties> controlPlaneAclConfiguration()"
+  desc: "Gets the controlPlaneAclConfiguration property: Access Control List (ACL) configurations."
+  returns:
+    description: "the controlPlaneAclConfiguration value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclProperties&text=ControlPlaneAclProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.defaultAction()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.defaultAction()"
   name: "defaultAction()"
@@ -78,6 +102,18 @@ methods:
   returns:
     description: "the defaultAction value."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommunityActionTypes?alt=com.azure.resourcemanager.managednetworkfabric.models.CommunityActionTypes&text=CommunityActionTypes\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.deviceRole()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.deviceRole()"
+  name: "deviceRole()"
+  nameWithType: "AccessControlList.deviceRole()"
+  summary: "Gets the device<wbr>Role property: Device Role."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract DeviceRole deviceRole()"
+  desc: "Gets the deviceRole property: Device Role."
+  returns:
+    description: "the deviceRole value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.DeviceRole?alt=com.azure.resourcemanager.managednetworkfabric.models.DeviceRole&text=DeviceRole\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.dynamicMatchConfigurations()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.dynamicMatchConfigurations()"
   name: "dynamicMatchConfigurations()"
@@ -90,6 +126,18 @@ methods:
   returns:
     description: "the dynamicMatchConfigurations value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonDynamicMatchConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonDynamicMatchConfiguration&text=CommonDynamicMatchConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.globalAccessControlListActions()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.globalAccessControlListActions()"
+  name: "globalAccessControlListActions()"
+  nameWithType: "AccessControlList.globalAccessControlListActions()"
+  summary: "Gets the global<wbr>Access<wbr>Control<wbr>List<wbr>Actions property: Global Access Control List (ACL) actions."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract GlobalAccessControlListActionProperties globalAccessControlListActions()"
+  desc: "Gets the globalAccessControlListActions property: Global Access Control List (ACL) actions."
+  returns:
+    description: "the globalAccessControlListActions value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.GlobalAccessControlListActionProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.GlobalAccessControlListActionProperties&text=GlobalAccessControlListActionProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.id()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.id()"
   name: "id()"
@@ -114,6 +162,18 @@ methods:
   returns:
     description: "the inner object."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner&text=AccessControlListInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.lastOperation()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.lastOperation()"
+  name: "lastOperation()"
+  nameWithType: "AccessControlList.lastOperation()"
+  summary: "Gets the last<wbr>Operation property: Details of the last operation performed on the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract LastOperationProperties lastOperation()"
+  desc: "Gets the lastOperation property: Details of the last operation performed on the resource."
+  returns:
+    description: "the lastOperation value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties&text=LastOperationProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.lastSyncedTime()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.lastSyncedTime()"
   name: "lastSyncedTime()"
@@ -162,6 +222,18 @@ methods:
   returns:
     description: "the name value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.networkFabricIds()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.networkFabricIds()"
+  name: "networkFabricIds()"
+  nameWithType: "AccessControlList.networkFabricIds()"
+  summary: "Gets the network<wbr>Fabric<wbr>Ids property: Associated Network Fabric Resource IDs."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<String> networkFabricIds()"
+  desc: "Gets the networkFabricIds property: Associated Network Fabric Resource IDs."
+  returns:
+    description: "the networkFabricIds value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.provisioningState()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.provisioningState()"
   name: "provisioningState()"
@@ -242,11 +314,11 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.resync()"
   name: "resync()"
   nameWithType: "AccessControlList.resync()"
-  summary: "Resync operation on the Access Control Lists."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   syntax: "public abstract CommonPostActionResponseForStateUpdate resync()"
-  desc: "Resync operation on the Access Control Lists. Implements the operation to the underlying resources."
+  desc: "Implements the operation to the underlying resources."
   returns:
     description: "common response for the state updates."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate&text=CommonPostActionResponseForStateUpdate\" data-throw-if-not-resolved=\"False\" />"
@@ -254,7 +326,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.resync(Context context)"
   name: "resync(Context context)"
   nameWithType: "AccessControlList.resync(Context context)"
-  summary: "Resync operation on the Access Control Lists."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -262,7 +334,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract CommonPostActionResponseForStateUpdate resync(Context context)"
-  desc: "Resync operation on the Access Control Lists. Implements the operation to the underlying resources."
+  desc: "Implements the operation to the underlying resources."
   returns:
     description: "common response for the state updates."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate&text=CommonPostActionResponseForStateUpdate\" data-throw-if-not-resolved=\"False\" />"
@@ -318,23 +390,23 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.updateAdministrativeState(UpdateAdministrativeState body)"
   name: "updateAdministrativeState(UpdateAdministrativeState body)"
   nameWithType: "AccessControlList.updateAdministrativeState(UpdateAdministrativeState body)"
-  summary: "Updates administrative state of Access Control Lists."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
   - description: "Request payload."
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState&text=UpdateAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForStateUpdate updateAdministrativeState(UpdateAdministrativeState body)"
-  desc: "Updates administrative state of Access Control Lists. Implements the operation to the underlying resources."
+  syntax: "public abstract UpdateAdministrativeStateResponse updateAdministrativeState(UpdateAdministrativeState body)"
+  desc: "Implements the operation to the underlying resources."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate&text=CommonPostActionResponseForStateUpdate\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse&text=UpdateAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.updateAdministrativeState(com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.updateAdministrativeState(UpdateAdministrativeState body, Context context)"
   name: "updateAdministrativeState(UpdateAdministrativeState body, Context context)"
   nameWithType: "AccessControlList.updateAdministrativeState(UpdateAdministrativeState body, Context context)"
-  summary: "Updates administrative state of Access Control Lists."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -344,20 +416,20 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForStateUpdate updateAdministrativeState(UpdateAdministrativeState body, Context context)"
-  desc: "Updates administrative state of Access Control Lists. Implements the operation to the underlying resources."
+  syntax: "public abstract UpdateAdministrativeStateResponse updateAdministrativeState(UpdateAdministrativeState body, Context context)"
+  desc: "Implements the operation to the underlying resources."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate&text=CommonPostActionResponseForStateUpdate\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse&text=UpdateAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.validateConfiguration()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.validateConfiguration()"
   name: "validateConfiguration()"
   nameWithType: "AccessControlList.validateConfiguration()"
-  summary: "Validates the configuration of the Access Control Lists."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   syntax: "public abstract ValidateConfigurationResponse validateConfiguration()"
-  desc: "Validates the configuration of the Access Control Lists. Implements the operation to the underlying resources."
+  desc: "Implements the operation to the underlying resources."
   returns:
     description: "the response of the action validate configuration."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ValidateConfigurationResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.ValidateConfigurationResponse&text=ValidateConfigurationResponse\" data-throw-if-not-resolved=\"False\" />"
@@ -365,7 +437,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.validateConfiguration(Context context)"
   name: "validateConfiguration(Context context)"
   nameWithType: "AccessControlList.validateConfiguration(Context context)"
-  summary: "Validates the configuration of the Access Control Lists."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -373,7 +445,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract ValidateConfigurationResponse validateConfiguration(Context context)"
-  desc: "Validates the configuration of the Access Control Lists. Implements the operation to the underlying resources."
+  desc: "Implements the operation to the underlying resources."
   returns:
     description: "the response of the action validate configuration."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ValidateConfigurationResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.ValidateConfigurationResponse&text=ValidateConfigurationResponse\" data-throw-if-not-resolved=\"False\" />"
@@ -381,4 +453,4 @@ type: "interface"
 desc: "An immutable client-side representation of AccessControlList."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

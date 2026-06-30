@@ -579,13 +579,13 @@ methods:
   fullName: "com.azure.resourcemanager.containerservice.models.ManagedClusterAgentPoolProfile.withNodeImageVersion(String nodeImageVersion)"
   name: "withNodeImageVersion(String nodeImageVersion)"
   nameWithType: "ManagedClusterAgentPoolProfile.withNodeImageVersion(String nodeImageVersion)"
-  summary: "Set the node<wbr>Image<wbr>Version property: The version of node image."
+  summary: "Set the node<wbr>Image<wbr>Version property: The version of the node image."
   overridden: "com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterAgentPoolProfileProperties.withNodeImageVersion(java.lang.String)"
   parameters:
   - name: "nodeImageVersion"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public ManagedClusterAgentPoolProfile withNodeImageVersion(String nodeImageVersion)"
-  desc: "Set the nodeImageVersion property: The version of node image."
+  desc: "Set the nodeImageVersion property: The version of the node image. Setting this value triggers an agentPool rollback. Only values from \\`recentlyUsedVersions\\` are allowed."
   returns:
     type: "<xref href=\"com.azure.resourcemanager.containerservice.models.ManagedClusterAgentPoolProfile?alt=com.azure.resourcemanager.containerservice.models.ManagedClusterAgentPoolProfile&text=ManagedClusterAgentPoolProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerservice.models.ManagedClusterAgentPoolProfile.withNodeInitializationTaints(java.util.List<java.lang.String>)"
@@ -995,4 +995,4 @@ type: "class"
 desc: "Profile for the container service agent pool."
 metadata: {}
 package: "com.azure.resourcemanager.containerservice.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.61.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.62.0-beta.1

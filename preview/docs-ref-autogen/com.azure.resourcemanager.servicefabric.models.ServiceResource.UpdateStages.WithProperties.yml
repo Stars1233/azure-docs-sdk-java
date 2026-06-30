@@ -10,15 +10,15 @@ methods:
   fullName: "com.azure.resourcemanager.servicefabric.models.ServiceResource.UpdateStages.WithProperties.withProperties(ServiceResourceUpdateProperties properties)"
   name: "withProperties(ServiceResourceUpdateProperties properties)"
   nameWithType: "ServiceResource.UpdateStages.WithProperties.withProperties(ServiceResourceUpdateProperties properties)"
-  summary: "Specifies the properties property: The service resource properties for patch operations.."
+  summary: "Specifies the properties property: The RP-specific properties for this resource.."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The service resource properties for patch operations."
+  - description: "The RP-specific properties for this resource."
     name: "properties"
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResourceUpdateProperties?alt=com.azure.resourcemanager.servicefabric.models.ServiceResourceUpdateProperties&text=ServiceResourceUpdateProperties\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract ServiceResource.Update withProperties(ServiceResourceUpdateProperties properties)"
-  desc: "Specifies the properties property: The service resource properties for patch operations.."
+  desc: "Specifies the properties property: The RP-specific properties for this resource.."
   returns:
     description: "the next definition stage."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResource.Update?alt=com.azure.resourcemanager.servicefabric.models.ServiceResource.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the ServiceResource update allowing to specify properties."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

@@ -88,6 +88,16 @@ methods:
   returns:
     description: "list of custom context SIP headers"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.communication.callautomation.models.CustomCallingContext.getTeamsPhoneCallDetails()"
+  fullName: "com.azure.communication.callautomation.models.CustomCallingContext.getTeamsPhoneCallDetails()"
+  name: "getTeamsPhoneCallDetails()"
+  nameWithType: "CustomCallingContext.getTeamsPhoneCallDetails()"
+  summary: "Get the teams<wbr>Phone<wbr>Call<wbr>Details property: Custom calling context Teams<wbr>Phone<wbr>Call<wbr>Details."
+  syntax: "public TeamsPhoneCallDetails getTeamsPhoneCallDetails()"
+  desc: "Get the teamsPhoneCallDetails property: Custom calling context TeamsPhoneCallDetails."
+  returns:
+    description: "the teamsPhoneCallDetails value."
+    type: "<xref href=\"com.azure.communication.callautomation.models.TeamsPhoneCallDetails?alt=com.azure.communication.callautomation.models.TeamsPhoneCallDetails&text=TeamsPhoneCallDetails\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.communication.callautomation.models.CustomCallingContext.getVoipHeaders()"
   fullName: "com.azure.communication.callautomation.models.CustomCallingContext.getVoipHeaders()"
   name: "getVoipHeaders()"
@@ -98,8 +108,22 @@ methods:
   returns:
     description: "list of custom context VOIP headers"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.communication.callautomation.models.CustomCallingContext.setTeamsPhoneCallDetails(com.azure.communication.callautomation.models.TeamsPhoneCallDetails)"
+  fullName: "com.azure.communication.callautomation.models.CustomCallingContext.setTeamsPhoneCallDetails(TeamsPhoneCallDetails teamsPhoneCallDetails)"
+  name: "setTeamsPhoneCallDetails(TeamsPhoneCallDetails teamsPhoneCallDetails)"
+  nameWithType: "CustomCallingContext.setTeamsPhoneCallDetails(TeamsPhoneCallDetails teamsPhoneCallDetails)"
+  summary: "Set the teams<wbr>Phone<wbr>Call<wbr>Details property: Custom calling context Teams<wbr>Phone<wbr>Call<wbr>Details."
+  parameters:
+  - description: "the teamsPhoneCallDetails value to set."
+    name: "teamsPhoneCallDetails"
+    type: "<xref href=\"com.azure.communication.callautomation.models.TeamsPhoneCallDetails?alt=com.azure.communication.callautomation.models.TeamsPhoneCallDetails&text=TeamsPhoneCallDetails\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public CustomCallingContext setTeamsPhoneCallDetails(TeamsPhoneCallDetails teamsPhoneCallDetails)"
+  desc: "Set the teamsPhoneCallDetails property: Custom calling context TeamsPhoneCallDetails."
+  returns:
+    description: "the CustomCallingContext object itself."
+    type: "<xref href=\"com.azure.communication.callautomation.models.CustomCallingContext?alt=com.azure.communication.callautomation.models.CustomCallingContext&text=CustomCallingContext\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Custom calling context details."
 metadata: {}
 package: "com.azure.communication.callautomation.models"
-artifact: com.azure:azure-communication-callautomation:1.6.1
+artifact: com.azure:azure-communication-callautomation:1.7.0

@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch"
+name: "ImportRoutePolicyInformationPatch"
+nameWithType: "ImportRoutePolicyInformationPatch"
+summary: "Import Route Policy Configuration."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ImportRoutePolicyInformationPatch**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch&text=ImportRoutePolicyInformationPatch\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch.ImportRoutePolicyInformationPatch()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch.ImportRoutePolicyInformationPatch()"
+  name: "ImportRoutePolicyInformationPatch()"
+  nameWithType: "ImportRoutePolicyInformationPatch.ImportRoutePolicyInformationPatch()"
+  summary: "Creates an instance of Import<wbr>Route<wbr>Policy<wbr>Information<wbr>Patch class."
+  syntax: "public ImportRoutePolicyInformationPatch()"
+  desc: "Creates an instance of ImportRoutePolicyInformationPatch class."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ImportRoutePolicyInformationPatch.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Import<wbr>Route<wbr>Policy<wbr>Information<wbr>Patch from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ImportRoutePolicyInformationPatch fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ImportRoutePolicyInformationPatch."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ImportRoutePolicyInformationPatch from the JsonReader."
+  returns:
+    description: "An instance of ImportRoutePolicyInformationPatch if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch&text=ImportRoutePolicyInformationPatch\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch.importIpv4RoutePolicyId()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch.importIpv4RoutePolicyId()"
+  name: "importIpv4RoutePolicyId()"
+  nameWithType: "ImportRoutePolicyInformationPatch.importIpv4RoutePolicyId()"
+  summary: "Get the import<wbr>Ipv4Route<wbr>Policy<wbr>Id property: Import IPv4 Route Policy Id."
+  syntax: "public String importIpv4RoutePolicyId()"
+  desc: "Get the importIpv4RoutePolicyId property: Import IPv4 Route Policy Id."
+  returns:
+    description: "the importIpv4RoutePolicyId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch.importIpv6RoutePolicyId()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch.importIpv6RoutePolicyId()"
+  name: "importIpv6RoutePolicyId()"
+  nameWithType: "ImportRoutePolicyInformationPatch.importIpv6RoutePolicyId()"
+  summary: "Get the import<wbr>Ipv6Route<wbr>Policy<wbr>Id property: Import IPv6 Route Policy Id."
+  syntax: "public String importIpv6RoutePolicyId()"
+  desc: "Get the importIpv6RoutePolicyId property: Import IPv6 Route Policy Id."
+  returns:
+    description: "the importIpv6RoutePolicyId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ImportRoutePolicyInformationPatch.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch.withImportIpv4RoutePolicyId(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch.withImportIpv4RoutePolicyId(String importIpv4RoutePolicyId)"
+  name: "withImportIpv4RoutePolicyId(String importIpv4RoutePolicyId)"
+  nameWithType: "ImportRoutePolicyInformationPatch.withImportIpv4RoutePolicyId(String importIpv4RoutePolicyId)"
+  summary: "Set the import<wbr>Ipv4Route<wbr>Policy<wbr>Id property: Import IPv4 Route Policy Id."
+  parameters:
+  - description: "the importIpv4RoutePolicyId value to set."
+    name: "importIpv4RoutePolicyId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public ImportRoutePolicyInformationPatch withImportIpv4RoutePolicyId(String importIpv4RoutePolicyId)"
+  desc: "Set the importIpv4RoutePolicyId property: Import IPv4 Route Policy Id."
+  returns:
+    description: "the ImportRoutePolicyInformationPatch object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch&text=ImportRoutePolicyInformationPatch\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch.withImportIpv6RoutePolicyId(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch.withImportIpv6RoutePolicyId(String importIpv6RoutePolicyId)"
+  name: "withImportIpv6RoutePolicyId(String importIpv6RoutePolicyId)"
+  nameWithType: "ImportRoutePolicyInformationPatch.withImportIpv6RoutePolicyId(String importIpv6RoutePolicyId)"
+  summary: "Set the import<wbr>Ipv6Route<wbr>Policy<wbr>Id property: Import IPv6 Route Policy Id."
+  parameters:
+  - description: "the importIpv6RoutePolicyId value to set."
+    name: "importIpv6RoutePolicyId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public ImportRoutePolicyInformationPatch withImportIpv6RoutePolicyId(String importIpv6RoutePolicyId)"
+  desc: "Set the importIpv6RoutePolicyId property: Import IPv6 Route Policy Id."
+  returns:
+    description: "the ImportRoutePolicyInformationPatch object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch&text=ImportRoutePolicyInformationPatch\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Import Route Policy Configuration."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformationPatch&text=ImportRoutePolicyInformationPatch\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

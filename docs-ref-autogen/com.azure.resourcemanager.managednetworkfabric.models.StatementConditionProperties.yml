@@ -6,15 +6,7 @@ nameWithType: "StatementConditionProperties"
 summary: "Route policy statement condition properties."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpCommunityIdList?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
-- classRef: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpCommunityIdList?alt=com.azure.resourcemanager.managednetworkfabric.models.IpCommunityIdList&text=IpCommunityIdList\" data-throw-if-not-resolved=\"False\" />"
-  methodsRef:
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpCommunityIdList.fromJson(com.azure.json.JsonReader)?alt=com.azure.resourcemanager.managednetworkfabric.models.IpCommunityIdList.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpCommunityIdList.ipCommunityIds()?alt=com.azure.resourcemanager.managednetworkfabric.models.IpCommunityIdList.ipCommunityIds&text=ipCommunityIds\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpCommunityIdList.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.managednetworkfabric.models.IpCommunityIdList.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpCommunityIdList.validate()?alt=com.azure.resourcemanager.managednetworkfabric.models.IpCommunityIdList.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpCommunityIdList.withIpCommunityIds(java.util.List<java.lang.String>)?alt=com.azure.resourcemanager.managednetworkfabric.models.IpCommunityIdList.withIpCommunityIds&text=withIpCommunityIds\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -28,7 +20,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **StatementConditionProperties**</br> extends <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpCommunityIdList?alt=com.azure.resourcemanager.managednetworkfabric.models.IpCommunityIdList&text=IpCommunityIdList\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public final class **StatementConditionProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties&text=StatementConditionProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties.StatementConditionProperties()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties.StatementConditionProperties()"
@@ -57,6 +49,16 @@ methods:
   returns:
     description: "An instance of StatementConditionProperties if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties&text=StatementConditionProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties.ipCommunityIds()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties.ipCommunityIds()"
+  name: "ipCommunityIds()"
+  nameWithType: "StatementConditionProperties.ipCommunityIds()"
+  summary: "Get the ip<wbr>Community<wbr>Ids property: List of IP Community resource IDs."
+  syntax: "public List<String> ipCommunityIds()"
+  desc: "Get the ipCommunityIds property: List of IP Community resource IDs."
+  returns:
+    description: "the ipCommunityIds value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties.ipExtendedCommunityIds()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties.ipExtendedCommunityIds()"
   name: "ipExtendedCommunityIds()"
@@ -81,7 +83,6 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
   nameWithType: "StatementConditionProperties.toJson(JsonWriter jsonWriter)"
-  overridden: "com.azure.resourcemanager.managednetworkfabric.models.IpCommunityIdList.toJson(com.azure.json.JsonWriter)"
   parameters:
   - name: "jsonWriter"
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
@@ -100,26 +101,19 @@ methods:
   returns:
     description: "the type value."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyConditionType?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyConditionType&text=RoutePolicyConditionType\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties.validate()"
-  name: "validate()"
-  nameWithType: "StatementConditionProperties.validate()"
-  summary: "Validates the instance."
-  overridden: "com.azure.resourcemanager.managednetworkfabric.models.IpCommunityIdList.validate()"
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties.withIpCommunityIds(java.util.List<java.lang.String>)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties.withIpCommunityIds(List<String> ipCommunityIds)"
   name: "withIpCommunityIds(List<String> ipCommunityIds)"
   nameWithType: "StatementConditionProperties.withIpCommunityIds(List<String> ipCommunityIds)"
   summary: "Set the ip<wbr>Community<wbr>Ids property: List of IP Community resource IDs."
-  overridden: "com.azure.resourcemanager.managednetworkfabric.models.IpCommunityIdList.withIpCommunityIds(java.util.List<java.lang.String>)"
   parameters:
-  - name: "ipCommunityIds"
+  - description: "the ipCommunityIds value to set."
+    name: "ipCommunityIds"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
   syntax: "public StatementConditionProperties withIpCommunityIds(List<String> ipCommunityIds)"
   desc: "Set the ipCommunityIds property: List of IP Community resource IDs."
   returns:
+    description: "the StatementConditionProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties&text=StatementConditionProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties.withIpExtendedCommunityIds(java.util.List<java.lang.String>)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties.withIpExtendedCommunityIds(List<String> ipExtendedCommunityIds)"
@@ -165,6 +159,8 @@ methods:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties&text=StatementConditionProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Route policy statement condition properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.StatementConditionProperties&text=StatementConditionProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

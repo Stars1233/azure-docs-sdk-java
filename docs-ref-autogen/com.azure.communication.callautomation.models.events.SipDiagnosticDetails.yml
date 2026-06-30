@@ -1,0 +1,90 @@
+### YamlMime:JavaType
+uid: "com.azure.communication.callautomation.models.events.SipDiagnosticDetails"
+fullName: "com.azure.communication.callautomation.models.events.SipDiagnosticDetails"
+name: "SipDiagnosticDetails"
+nameWithType: "SipDiagnosticDetails"
+summary: "The Sip<wbr>Diagnostic<wbr>Details model."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **SipDiagnosticDetails**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.communication.callautomation.models.events.SipDiagnosticDetails?alt=com.azure.communication.callautomation.models.events.SipDiagnosticDetails&text=SipDiagnosticDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.communication.callautomation.models.events.SipDiagnosticDetails.SipDiagnosticDetails()"
+  fullName: "com.azure.communication.callautomation.models.events.SipDiagnosticDetails.SipDiagnosticDetails()"
+  name: "SipDiagnosticDetails()"
+  nameWithType: "SipDiagnosticDetails.SipDiagnosticDetails()"
+  summary: "Creates an instance of Sip<wbr>Diagnostic<wbr>Details class."
+  syntax: "public SipDiagnosticDetails()"
+  desc: "Creates an instance of SipDiagnosticDetails class."
+methods:
+- uid: "com.azure.communication.callautomation.models.events.SipDiagnosticDetails.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.communication.callautomation.models.events.SipDiagnosticDetails.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "SipDiagnosticDetails.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Sip<wbr>Diagnostic<wbr>Details from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static SipDiagnosticDetails fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the SipDiagnosticDetails."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of SipDiagnosticDetails from the JsonReader."
+  returns:
+    description: "An instance of SipDiagnosticDetails if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.communication.callautomation.models.events.SipDiagnosticDetails?alt=com.azure.communication.callautomation.models.events.SipDiagnosticDetails&text=SipDiagnosticDetails\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.communication.callautomation.models.events.SipDiagnosticDetails.getCode()"
+  fullName: "com.azure.communication.callautomation.models.events.SipDiagnosticDetails.getCode()"
+  name: "getCode()"
+  nameWithType: "SipDiagnosticDetails.getCode()"
+  summary: "Get the code property: Represents the diagnostic code returned by the SIP service, used for identifying specific issues or statuses."
+  syntax: "public Integer getCode()"
+  desc: "Get the code property: Represents the diagnostic code returned by the SIP service, used for identifying specific issues or statuses."
+  returns:
+    description: "the code value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+- uid: "com.azure.communication.callautomation.models.events.SipDiagnosticDetails.getMessage()"
+  fullName: "com.azure.communication.callautomation.models.events.SipDiagnosticDetails.getMessage()"
+  name: "getMessage()"
+  nameWithType: "SipDiagnosticDetails.getMessage()"
+  summary: "Get the message property: Message associated with the code for diagnosing."
+  syntax: "public String getMessage()"
+  desc: "Get the message property: Message associated with the code for diagnosing."
+  returns:
+    description: "the message value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.communication.callautomation.models.events.SipDiagnosticDetails.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.communication.callautomation.models.events.SipDiagnosticDetails.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "SipDiagnosticDetails.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The SipDiagnosticDetails model."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.communication.callautomation.models.events.SipDiagnosticDetails?alt=com.azure.communication.callautomation.models.events.SipDiagnosticDetails&text=SipDiagnosticDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.communication.callautomation.models.events"
+artifact: com.azure:azure-communication-callautomation:1.7.0

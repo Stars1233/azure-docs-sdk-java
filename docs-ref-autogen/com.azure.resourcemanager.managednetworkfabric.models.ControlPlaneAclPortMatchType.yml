@@ -1,0 +1,134 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType"
+name: "ControlPlaneAclPortMatchType"
+nameWithType: "ControlPlaneAclPortMatchType"
+summary: "Control Plane Access Control List (ACL) port match types."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ControlPlaneAclPortMatchType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType&text=ControlPlaneAclPortMatchType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType.ControlPlaneAclPortMatchType()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType.ControlPlaneAclPortMatchType()"
+  name: "ControlPlaneAclPortMatchType()"
+  nameWithType: "ControlPlaneAclPortMatchType.ControlPlaneAclPortMatchType()"
+  summary: "Creates a new instance of Control<wbr>Plane<wbr>Acl<wbr>Port<wbr>Match<wbr>Type value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public ControlPlaneAclPortMatchType()"
+  desc: "Creates a new instance of ControlPlaneAclPortMatchType value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType.EQUALS"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType.EQUALS"
+  name: "EQUALS"
+  nameWithType: "ControlPlaneAclPortMatchType.EQUALS"
+  summary: "Port-eq."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType&text=ControlPlaneAclPortMatchType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ControlPlaneAclPortMatchType EQUALS"
+  desc: "Port-eq."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType.GREATER_THAN"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType.GREATER_THAN"
+  name: "GREATER_THAN"
+  nameWithType: "ControlPlaneAclPortMatchType.GREATER_THAN"
+  summary: "Port-gt."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType&text=ControlPlaneAclPortMatchType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ControlPlaneAclPortMatchType GREATER_THAN"
+  desc: "Port-gt."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType.LESSER_THAN"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType.LESSER_THAN"
+  name: "LESSER_THAN"
+  nameWithType: "ControlPlaneAclPortMatchType.LESSER_THAN"
+  summary: "Port-lt."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType&text=ControlPlaneAclPortMatchType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ControlPlaneAclPortMatchType LESSER_THAN"
+  desc: "Port-lt."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType.NOT_EQUALS"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType.NOT_EQUALS"
+  name: "NOT_EQUALS"
+  nameWithType: "ControlPlaneAclPortMatchType.NOT_EQUALS"
+  summary: "Port-neq."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType&text=ControlPlaneAclPortMatchType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ControlPlaneAclPortMatchType NOT_EQUALS"
+  desc: "Port-neq."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType.RANGE"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType.RANGE"
+  name: "RANGE"
+  nameWithType: "ControlPlaneAclPortMatchType.RANGE"
+  summary: "Port-gt-eq."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType&text=ControlPlaneAclPortMatchType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ControlPlaneAclPortMatchType RANGE"
+  desc: "Port-gt-eq."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "ControlPlaneAclPortMatchType.fromString(String name)"
+  summary: "Creates or finds a Control<wbr>Plane<wbr>Acl<wbr>Port<wbr>Match<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static ControlPlaneAclPortMatchType fromString(String name)"
+  desc: "Creates or finds a ControlPlaneAclPortMatchType from its string representation."
+  returns:
+    description: "the corresponding ControlPlaneAclPortMatchType."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType&text=ControlPlaneAclPortMatchType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType.values()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType.values()"
+  name: "values()"
+  nameWithType: "ControlPlaneAclPortMatchType.values()"
+  summary: "Gets known Control<wbr>Plane<wbr>Acl<wbr>Port<wbr>Match<wbr>Type values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<ControlPlaneAclPortMatchType> values()"
+  desc: "Gets known ControlPlaneAclPortMatchType values."
+  returns:
+    description: "known ControlPlaneAclPortMatchType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchType&text=ControlPlaneAclPortMatchType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Control Plane Access Control List (ACL) port match types."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

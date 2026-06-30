@@ -38,30 +38,42 @@ constructors:
   desc: "Creates a new instance of SourceDestinationType value."
   hasDeprecatedTag: true
 fields:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.SourceDestinationType.BIDIRECTIONAL"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.SourceDestinationType.BIDIRECTIONAL"
+  name: "BIDIRECTIONAL"
+  nameWithType: "SourceDestinationType.BIDIRECTIONAL"
+  summary: "Source<wbr>Destination<wbr>Type Bidirectional."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.SourceDestinationType?alt=com.azure.resourcemanager.managednetworkfabric.models.SourceDestinationType&text=SourceDestinationType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final SourceDestinationType BIDIRECTIONAL"
+  desc: "SourceDestinationType Bidirectional."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.SourceDestinationType.DESTINATION_IP"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.SourceDestinationType.DESTINATION_IP"
   name: "DESTINATION_IP"
   nameWithType: "SourceDestinationType.DESTINATION_IP"
-  summary: "Static value DestinationIP for Source<wbr>Destination<wbr>Type."
+  summary: "Source<wbr>Destination<wbr>Type DestinationIP."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.SourceDestinationType?alt=com.azure.resourcemanager.managednetworkfabric.models.SourceDestinationType&text=SourceDestinationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SourceDestinationType DESTINATION_IP"
-  desc: "Static value DestinationIP for SourceDestinationType."
+  desc: "SourceDestinationType DestinationIP."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.SourceDestinationType.SOURCE_IP"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.SourceDestinationType.SOURCE_IP"
   name: "SOURCE_IP"
   nameWithType: "SourceDestinationType.SOURCE_IP"
-  summary: "Static value SourceIP for Source<wbr>Destination<wbr>Type."
+  summary: "Source<wbr>Destination<wbr>Type SourceIP."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.SourceDestinationType?alt=com.azure.resourcemanager.managednetworkfabric.models.SourceDestinationType&text=SourceDestinationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SourceDestinationType SOURCE_IP"
-  desc: "Static value SourceIP for SourceDestinationType."
+  desc: "SourceDestinationType SourceIP."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.SourceDestinationType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.SourceDestinationType.fromString(String name)"
@@ -95,4 +107,4 @@ type: "class"
 desc: "IP Address type that needs to be matched."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

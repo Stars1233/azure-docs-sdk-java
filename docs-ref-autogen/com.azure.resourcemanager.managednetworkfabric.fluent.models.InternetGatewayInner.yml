@@ -95,6 +95,16 @@ methods:
   returns:
     description: "the internetGatewayRuleId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.InternetGatewayInner.internetGatewayType()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.InternetGatewayInner.internetGatewayType()"
+  name: "internetGatewayType()"
+  nameWithType: "InternetGatewayInner.internetGatewayType()"
+  summary: "Get the internet<wbr>Gateway<wbr>Type property: Gateway Type of the resource."
+  syntax: "public GatewayType internetGatewayType()"
+  desc: "Get the internetGatewayType property: Gateway Type of the resource."
+  returns:
+    description: "the internetGatewayType value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.GatewayType?alt=com.azure.resourcemanager.managednetworkfabric.models.GatewayType&text=GatewayType\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.InternetGatewayInner.ipv4Address()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.InternetGatewayInner.ipv4Address()"
   name: "ipv4Address()"
@@ -105,6 +115,16 @@ methods:
   returns:
     description: "the ipv4Address value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.InternetGatewayInner.lastOperation()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.InternetGatewayInner.lastOperation()"
+  name: "lastOperation()"
+  nameWithType: "InternetGatewayInner.lastOperation()"
+  summary: "Get the last<wbr>Operation property: Details of the last operation performed on the resource."
+  syntax: "public LastOperationProperties lastOperation()"
+  desc: "Get the lastOperation property: Details of the last operation performed on the resource."
+  returns:
+    description: "the lastOperation value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties&text=LastOperationProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.InternetGatewayInner.name()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.InternetGatewayInner.name()"
   name: "name()"
@@ -190,13 +210,6 @@ methods:
   returns:
     description: "the type value."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.GatewayType?alt=com.azure.resourcemanager.managednetworkfabric.models.GatewayType&text=GatewayType\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.InternetGatewayInner.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.InternetGatewayInner.validate()"
-  name: "validate()"
-  nameWithType: "InternetGatewayInner.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.InternetGatewayInner.withAnnotation(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.InternetGatewayInner.withAnnotation(String annotation)"
   name: "withAnnotation(String annotation)"
@@ -222,6 +235,20 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public InternetGatewayInner withInternetGatewayRuleId(String internetGatewayRuleId)"
   desc: "Set the internetGatewayRuleId property: ARM Resource ID of the Internet Gateway Rule."
+  returns:
+    description: "the InternetGatewayInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.InternetGatewayInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.InternetGatewayInner&text=InternetGatewayInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.InternetGatewayInner.withInternetGatewayType(com.azure.resourcemanager.managednetworkfabric.models.GatewayType)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.InternetGatewayInner.withInternetGatewayType(GatewayType internetGatewayType)"
+  name: "withInternetGatewayType(GatewayType internetGatewayType)"
+  nameWithType: "InternetGatewayInner.withInternetGatewayType(GatewayType internetGatewayType)"
+  summary: "Set the internet<wbr>Gateway<wbr>Type property: Gateway Type of the resource."
+  parameters:
+  - description: "the internetGatewayType value to set."
+    name: "internetGatewayType"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.GatewayType?alt=com.azure.resourcemanager.managednetworkfabric.models.GatewayType&text=GatewayType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public InternetGatewayInner withInternetGatewayType(GatewayType internetGatewayType)"
+  desc: "Set the internetGatewayType property: Gateway Type of the resource."
   returns:
     description: "the InternetGatewayInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.InternetGatewayInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.InternetGatewayInner&text=InternetGatewayInner\" data-throw-if-not-resolved=\"False\" />"
@@ -279,4 +306,4 @@ type: "class"
 desc: "The Internet Gateway resource definition."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

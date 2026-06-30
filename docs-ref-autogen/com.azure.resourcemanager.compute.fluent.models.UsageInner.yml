@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **UsageInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.UsageInner?alt=com.azure.resourcemanager.compute.fluent.models.UsageInner&text=UsageInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.compute.fluent.models.UsageInner.UsageInner()"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.UsageInner.UsageInner()"
-  name: "UsageInner()"
-  nameWithType: "UsageInner.UsageInner()"
-  summary: "Creates an instance of Usage<wbr>Inner class."
-  syntax: "public UsageInner()"
-  desc: "Creates an instance of UsageInner class."
 methods:
 - uid: "com.azure.resourcemanager.compute.fluent.models.UsageInner.currentValue()"
   fullName: "com.azure.resourcemanager.compute.fluent.models.UsageInner.currentValue()"
@@ -108,52 +100,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.compute.fluent.models.UsageInner.withCurrentValue(int)"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.UsageInner.withCurrentValue(int currentValue)"
-  name: "withCurrentValue(int currentValue)"
-  nameWithType: "UsageInner.withCurrentValue(int currentValue)"
-  summary: "Set the current<wbr>Value property: The current usage of the resource."
-  parameters:
-  - description: "the currentValue value to set."
-    name: "currentValue"
-    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public UsageInner withCurrentValue(int currentValue)"
-  desc: "Set the currentValue property: The current usage of the resource."
-  returns:
-    description: "the UsageInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.UsageInner?alt=com.azure.resourcemanager.compute.fluent.models.UsageInner&text=UsageInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.fluent.models.UsageInner.withLimit(long)"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.UsageInner.withLimit(long limit)"
-  name: "withLimit(long limit)"
-  nameWithType: "UsageInner.withLimit(long limit)"
-  summary: "Set the limit property: The maximum permitted usage of the resource."
-  parameters:
-  - description: "the limit value to set."
-    name: "limit"
-    type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public UsageInner withLimit(long limit)"
-  desc: "Set the limit property: The maximum permitted usage of the resource."
-  returns:
-    description: "the UsageInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.UsageInner?alt=com.azure.resourcemanager.compute.fluent.models.UsageInner&text=UsageInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.fluent.models.UsageInner.withName(com.azure.resourcemanager.compute.models.UsageName)"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.UsageInner.withName(UsageName name)"
-  name: "withName(UsageName name)"
-  nameWithType: "UsageInner.withName(UsageName name)"
-  summary: "Set the name property: The name of the type of usage."
-  parameters:
-  - description: "the name value to set."
-    name: "name"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.UsageName?alt=com.azure.resourcemanager.compute.models.UsageName&text=UsageName\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public UsageInner withName(UsageName name)"
-  desc: "Set the name property: The name of the type of usage."
-  returns:
-    description: "the UsageInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.UsageInner?alt=com.azure.resourcemanager.compute.fluent.models.UsageInner&text=UsageInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Describes Compute Resource Usage."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.UsageInner?alt=com.azure.resourcemanager.compute.fluent.models.UsageInner&text=UsageInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

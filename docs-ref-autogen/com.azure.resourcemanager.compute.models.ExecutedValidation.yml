@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ExecutedValidation**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.ExecutedValidation?alt=com.azure.resourcemanager.compute.models.ExecutedValidation&text=ExecutedValidation\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.compute.models.ExecutedValidation.ExecutedValidation()"
-  fullName: "com.azure.resourcemanager.compute.models.ExecutedValidation.ExecutedValidation()"
-  name: "ExecutedValidation()"
-  nameWithType: "ExecutedValidation.ExecutedValidation()"
-  summary: "Creates an instance of Executed<wbr>Validation class."
-  syntax: "public ExecutedValidation()"
-  desc: "Creates an instance of ExecutedValidation class."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.ExecutedValidation.executionTime()"
   fullName: "com.azure.resourcemanager.compute.models.ExecutedValidation.executionTime()"
@@ -108,52 +100,10 @@ methods:
   returns:
     description: "the version value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.compute.models.ExecutedValidation.withExecutionTime(java.time.OffsetDateTime)"
-  fullName: "com.azure.resourcemanager.compute.models.ExecutedValidation.withExecutionTime(OffsetDateTime executionTime)"
-  name: "withExecutionTime(OffsetDateTime executionTime)"
-  nameWithType: "ExecutedValidation.withExecutionTime(OffsetDateTime executionTime)"
-  summary: "Set the execution<wbr>Time property: This property specifies the starting timestamp."
-  parameters:
-  - description: "the executionTime value to set."
-    name: "executionTime"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
-  syntax: "public ExecutedValidation withExecutionTime(OffsetDateTime executionTime)"
-  desc: "Set the executionTime property: This property specifies the starting timestamp."
-  returns:
-    description: "the ExecutedValidation object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.ExecutedValidation?alt=com.azure.resourcemanager.compute.models.ExecutedValidation&text=ExecutedValidation\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.models.ExecutedValidation.withType(java.lang.String)"
-  fullName: "com.azure.resourcemanager.compute.models.ExecutedValidation.withType(String type)"
-  name: "withType(String type)"
-  nameWithType: "ExecutedValidation.withType(String type)"
-  summary: "Set the type property: This property specifies the type of image version validation."
-  parameters:
-  - description: "the type value to set."
-    name: "type"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ExecutedValidation withType(String type)"
-  desc: "Set the type property: This property specifies the type of image version validation."
-  returns:
-    description: "the ExecutedValidation object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.ExecutedValidation?alt=com.azure.resourcemanager.compute.models.ExecutedValidation&text=ExecutedValidation\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.models.ExecutedValidation.withVersion(java.lang.String)"
-  fullName: "com.azure.resourcemanager.compute.models.ExecutedValidation.withVersion(String version)"
-  name: "withVersion(String version)"
-  nameWithType: "ExecutedValidation.withVersion(String version)"
-  summary: "Set the version property: This property specifies the valid version of the validation."
-  parameters:
-  - description: "the version value to set."
-    name: "version"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ExecutedValidation withVersion(String version)"
-  desc: "Set the version property: This property specifies the valid version of the validation."
-  returns:
-    description: "the ExecutedValidation object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.ExecutedValidation?alt=com.azure.resourcemanager.compute.models.ExecutedValidation&text=ExecutedValidation\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "This is the executed Validation."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.ExecutedValidation?alt=com.azure.resourcemanager.compute.models.ExecutedValidation&text=ExecutedValidation\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

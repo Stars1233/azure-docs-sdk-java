@@ -109,6 +109,16 @@ methods:
   returns:
     description: "the hyperVGeneration value."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.HyperVGenerationType?alt=com.azure.resourcemanager.compute.models.HyperVGenerationType&text=HyperVGenerationType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineInstanceViewInner.interconnectInstanceView()"
+  fullName: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineInstanceViewInner.interconnectInstanceView()"
+  name: "interconnectInstanceView()"
+  nameWithType: "VirtualMachineInstanceViewInner.interconnectInstanceView()"
+  summary: "Get the interconnect<wbr>Instance<wbr>View property: The Interconnect runtime view of the Virtual Machine."
+  syntax: "public InterconnectInstanceView interconnectInstanceView()"
+  desc: "Get the interconnectInstanceView property: The Interconnect runtime view of the Virtual Machine. Minimum api-version: 2026-03-01."
+  returns:
+    description: "the interconnectInstanceView value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.InterconnectInstanceView?alt=com.azure.resourcemanager.compute.models.InterconnectInstanceView&text=InterconnectInstanceView\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineInstanceViewInner.isVMInStandbyPool()"
   fullName: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineInstanceViewInner.isVMInStandbyPool()"
   name: "isVMInStandbyPool()"
@@ -440,4 +450,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.VirtualMachineInstanceViewInner?alt=com.azure.resourcemanager.compute.fluent.models.VirtualMachineInstanceViewInner&text=VirtualMachineInstanceViewInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

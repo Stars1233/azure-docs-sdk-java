@@ -34,11 +34,11 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.commitConfiguration()"
   name: "commitConfiguration()"
   nameWithType: "L2IsolationDomain.commitConfiguration()"
-  summary: "Execute the commit on the resources."
+  summary: "Commits the configuration of the given resources."
   modifiers:
   - "abstract"
   syntax: "public abstract CommonPostActionResponseForStateUpdate commitConfiguration()"
-  desc: "Execute the commit on the resources. Commits the configuration of the given resources."
+  desc: "Commits the configuration of the given resources."
   returns:
     description: "common response for the state updates."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate&text=CommonPostActionResponseForStateUpdate\" data-throw-if-not-resolved=\"False\" />"
@@ -46,7 +46,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.commitConfiguration(Context context)"
   name: "commitConfiguration(Context context)"
   nameWithType: "L2IsolationDomain.commitConfiguration(Context context)"
-  summary: "Execute the commit on the resources."
+  summary: "Commits the configuration of the given resources."
   modifiers:
   - "abstract"
   parameters:
@@ -54,7 +54,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract CommonPostActionResponseForStateUpdate commitConfiguration(Context context)"
-  desc: "Execute the commit on the resources. Commits the configuration of the given resources."
+  desc: "Commits the configuration of the given resources."
   returns:
     description: "common response for the state updates."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate&text=CommonPostActionResponseForStateUpdate\" data-throw-if-not-resolved=\"False\" />"
@@ -70,6 +70,18 @@ methods:
   returns:
     description: "the configurationState value."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ConfigurationState?alt=com.azure.resourcemanager.managednetworkfabric.models.ConfigurationState&text=ConfigurationState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.extendedVlan()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.extendedVlan()"
+  name: "extendedVlan()"
+  nameWithType: "L2IsolationDomain.extendedVlan()"
+  summary: "Gets the extended<wbr>Vlan property: Extended VLAN status, default value is Disabled."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ExtendedVlan extendedVlan()"
+  desc: "Gets the extendedVlan property: Extended VLAN status, default value is Disabled."
+  returns:
+    description: "the extendedVlan value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExtendedVlan?alt=com.azure.resourcemanager.managednetworkfabric.models.ExtendedVlan&text=ExtendedVlan\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.id()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.id()"
   name: "id()"
@@ -82,6 +94,18 @@ methods:
   returns:
     description: "the id value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.identity()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.identity()"
+  name: "identity()"
+  nameWithType: "L2IsolationDomain.identity()"
+  summary: "Gets the identity property: The managed service identities assigned to this resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ManagedServiceIdentity identity()"
+  desc: "Gets the identity property: The managed service identities assigned to this resource."
+  returns:
+    description: "the identity value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentity?alt=com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentity&text=ManagedServiceIdentity\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.innerModel()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.innerModel()"
   name: "innerModel()"
@@ -94,6 +118,18 @@ methods:
   returns:
     description: "the inner object."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.L2IsolationDomainInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.L2IsolationDomainInner&text=L2IsolationDomainInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.lastOperation()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.lastOperation()"
+  name: "lastOperation()"
+  nameWithType: "L2IsolationDomain.lastOperation()"
+  summary: "Gets the last<wbr>Operation property: Details of the last operation performed on the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract LastOperationProperties lastOperation()"
+  desc: "Gets the lastOperation property: Details of the last operation performed on the resource."
+  returns:
+    description: "the lastOperation value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties&text=LastOperationProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.location()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.location()"
   name: "location()"
@@ -141,6 +177,18 @@ methods:
   desc: "Gets the networkFabricId property: ARM Resource ID of the Network Fabric."
   returns:
     description: "the networkFabricId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.networkToNetworkInterconnectId()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.networkToNetworkInterconnectId()"
+  name: "networkToNetworkInterconnectId()"
+  nameWithType: "L2IsolationDomain.networkToNetworkInterconnectId()"
+  summary: "Gets the network<wbr>ToNetwork<wbr>Interconnect<wbr>Id property: ARM Resource ID of the network<wbr>ToNetwork<wbr>Interconnect<wbr>Id of the L2 ISD resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String networkToNetworkInterconnectId()"
+  desc: "Gets the networkToNetworkInterconnectId property: ARM Resource ID of the networkToNetworkInterconnectId of the L2 ISD resource."
+  returns:
+    description: "the networkToNetworkInterconnectId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.provisioningState()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.provisioningState()"
@@ -270,23 +318,23 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.updateAdministrativeState(UpdateAdministrativeState body)"
   name: "updateAdministrativeState(UpdateAdministrativeState body)"
   nameWithType: "L2IsolationDomain.updateAdministrativeState(UpdateAdministrativeState body)"
-  summary: "Implements the operation to the underlying resources."
+  summary: "Enables isolation domain across the fabric or on specified racks."
   modifiers:
   - "abstract"
   parameters:
   - description: "Request payload."
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState&text=UpdateAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForDeviceUpdate updateAdministrativeState(UpdateAdministrativeState body)"
-  desc: "Implements the operation to the underlying resources. Enables isolation domain across the fabric or on specified racks."
+  syntax: "public abstract UpdateAdministrativeStateResponse updateAdministrativeState(UpdateAdministrativeState body)"
+  desc: "Enables isolation domain across the fabric or on specified racks."
   returns:
-    description: "common response for device updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate&text=CommonPostActionResponseForDeviceUpdate\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse&text=UpdateAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.updateAdministrativeState(com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.updateAdministrativeState(UpdateAdministrativeState body, Context context)"
   name: "updateAdministrativeState(UpdateAdministrativeState body, Context context)"
   nameWithType: "L2IsolationDomain.updateAdministrativeState(UpdateAdministrativeState body, Context context)"
-  summary: "Implements the operation to the underlying resources."
+  summary: "Enables isolation domain across the fabric or on specified racks."
   modifiers:
   - "abstract"
   parameters:
@@ -296,11 +344,11 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForDeviceUpdate updateAdministrativeState(UpdateAdministrativeState body, Context context)"
-  desc: "Implements the operation to the underlying resources. Enables isolation domain across the fabric or on specified racks."
+  syntax: "public abstract UpdateAdministrativeStateResponse updateAdministrativeState(UpdateAdministrativeState body, Context context)"
+  desc: "Enables isolation domain across the fabric or on specified racks."
   returns:
-    description: "common response for device updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate&text=CommonPostActionResponseForDeviceUpdate\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse&text=UpdateAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.validateConfiguration()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.validateConfiguration()"
   name: "validateConfiguration()"
@@ -345,4 +393,4 @@ type: "interface"
 desc: "An immutable client-side representation of L2IsolationDomain."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

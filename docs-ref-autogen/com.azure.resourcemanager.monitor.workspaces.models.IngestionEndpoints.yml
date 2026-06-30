@@ -1,0 +1,72 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.monitor.workspaces.models.IngestionEndpoints"
+fullName: "com.azure.resourcemanager.monitor.workspaces.models.IngestionEndpoints"
+name: "IngestionEndpoints"
+nameWithType: "IngestionEndpoints"
+summary: "The ingestion endpoints for an Azure Monitor Workspace."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **IngestionEndpoints**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.IngestionEndpoints?alt=com.azure.resourcemanager.monitor.workspaces.models.IngestionEndpoints&text=IngestionEndpoints\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.IngestionEndpoints.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.IngestionEndpoints.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "IngestionEndpoints.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Ingestion<wbr>Endpoints from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static IngestionEndpoints fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the IngestionEndpoints."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of IngestionEndpoints from the JsonReader."
+  returns:
+    description: "An instance of IngestionEndpoints if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.IngestionEndpoints?alt=com.azure.resourcemanager.monitor.workspaces.models.IngestionEndpoints&text=IngestionEndpoints\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.IngestionEndpoints.metrics()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.IngestionEndpoints.metrics()"
+  name: "metrics()"
+  nameWithType: "IngestionEndpoints.metrics()"
+  summary: "Get the metrics property: The metrics ingestion endpoint for this Azure Monitor Workspace."
+  syntax: "public String metrics()"
+  desc: "Get the metrics property: The metrics ingestion endpoint for this Azure Monitor Workspace."
+  returns:
+    description: "the metrics value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.IngestionEndpoints.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.IngestionEndpoints.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "IngestionEndpoints.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The ingestion endpoints for an Azure Monitor Workspace."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.IngestionEndpoints?alt=com.azure.resourcemanager.monitor.workspaces.models.IngestionEndpoints&text=IngestionEndpoints\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.monitor.workspaces.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor-workspaces:1.0.0

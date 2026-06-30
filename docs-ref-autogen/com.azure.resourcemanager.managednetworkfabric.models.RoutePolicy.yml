@@ -46,11 +46,11 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy.commitConfiguration()"
   name: "commitConfiguration()"
   nameWithType: "RoutePolicy.commitConfiguration()"
-  summary: "Execute the commit on the resources."
+  summary: "Commits the configuration of the given resources."
   modifiers:
   - "abstract"
   syntax: "public abstract CommonPostActionResponseForStateUpdate commitConfiguration()"
-  desc: "Execute the commit on the resources. Commits the configuration of the given resources."
+  desc: "Commits the configuration of the given resources."
   returns:
     description: "common response for the state updates."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate&text=CommonPostActionResponseForStateUpdate\" data-throw-if-not-resolved=\"False\" />"
@@ -58,7 +58,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy.commitConfiguration(Context context)"
   name: "commitConfiguration(Context context)"
   nameWithType: "RoutePolicy.commitConfiguration(Context context)"
-  summary: "Execute the commit on the resources."
+  summary: "Commits the configuration of the given resources."
   modifiers:
   - "abstract"
   parameters:
@@ -66,7 +66,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract CommonPostActionResponseForStateUpdate commitConfiguration(Context context)"
-  desc: "Execute the commit on the resources. Commits the configuration of the given resources."
+  desc: "Commits the configuration of the given resources."
   returns:
     description: "common response for the state updates."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate&text=CommonPostActionResponseForStateUpdate\" data-throw-if-not-resolved=\"False\" />"
@@ -118,6 +118,18 @@ methods:
   returns:
     description: "the inner object."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner&text=RoutePolicyInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy.lastOperation()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy.lastOperation()"
+  name: "lastOperation()"
+  nameWithType: "RoutePolicy.lastOperation()"
+  summary: "Gets the last<wbr>Operation property: Details of the last operation performed on the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract LastOperationProperties lastOperation()"
+  desc: "Gets the lastOperation property: Details of the last operation performed on the resource."
+  returns:
+    description: "the lastOperation value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties&text=LastOperationProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy.location()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy.location()"
   name: "location()"
@@ -294,23 +306,23 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy.updateAdministrativeState(UpdateAdministrativeState body)"
   name: "updateAdministrativeState(UpdateAdministrativeState body)"
   nameWithType: "RoutePolicy.updateAdministrativeState(UpdateAdministrativeState body)"
-  summary: "Executes enable operation to the underlying resources."
+  summary: "Updated the admin state for this Route Policy."
   modifiers:
   - "abstract"
   parameters:
   - description: "Request payload."
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState&text=UpdateAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForDeviceUpdate updateAdministrativeState(UpdateAdministrativeState body)"
-  desc: "Executes enable operation to the underlying resources. Updated the admin state for this Route Policy."
+  syntax: "public abstract UpdateAdministrativeStateResponse updateAdministrativeState(UpdateAdministrativeState body)"
+  desc: "Updated the admin state for this Route Policy."
   returns:
-    description: "common response for device updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate&text=CommonPostActionResponseForDeviceUpdate\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse&text=UpdateAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy.updateAdministrativeState(com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy.updateAdministrativeState(UpdateAdministrativeState body, Context context)"
   name: "updateAdministrativeState(UpdateAdministrativeState body, Context context)"
   nameWithType: "RoutePolicy.updateAdministrativeState(UpdateAdministrativeState body, Context context)"
-  summary: "Executes enable operation to the underlying resources."
+  summary: "Updated the admin state for this Route Policy."
   modifiers:
   - "abstract"
   parameters:
@@ -320,11 +332,11 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForDeviceUpdate updateAdministrativeState(UpdateAdministrativeState body, Context context)"
-  desc: "Executes enable operation to the underlying resources. Updated the admin state for this Route Policy."
+  syntax: "public abstract UpdateAdministrativeStateResponse updateAdministrativeState(UpdateAdministrativeState body, Context context)"
+  desc: "Updated the admin state for this Route Policy."
   returns:
-    description: "common response for device updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate&text=CommonPostActionResponseForDeviceUpdate\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse&text=UpdateAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy.validateConfiguration()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy.validateConfiguration()"
   name: "validateConfiguration()"
@@ -357,4 +369,4 @@ type: "interface"
 desc: "An immutable client-side representation of RoutePolicy."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

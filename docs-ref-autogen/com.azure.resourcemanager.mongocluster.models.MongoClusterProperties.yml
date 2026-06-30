@@ -159,6 +159,16 @@ methods:
   returns:
     description: "the infrastructureVersion value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.mongocluster.models.MongoClusterProperties.networkBypassMode()"
+  fullName: "com.azure.resourcemanager.mongocluster.models.MongoClusterProperties.networkBypassMode()"
+  name: "networkBypassMode()"
+  nameWithType: "MongoClusterProperties.networkBypassMode()"
+  summary: "Get the network<wbr>Bypass<wbr>Mode property: The network bypass mode for the cluster."
+  syntax: "public NetworkBypassMode networkBypassMode()"
+  desc: "Get the networkBypassMode property: The network bypass mode for the cluster. Setting to 'AzureCosmosDB' allows Azure Cosmos DB service to bypass network restrictions."
+  returns:
+    description: "the networkBypassMode value."
+    type: "<xref href=\"com.azure.resourcemanager.mongocluster.models.NetworkBypassMode?alt=com.azure.resourcemanager.mongocluster.models.NetworkBypassMode&text=NetworkBypassMode\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.mongocluster.models.MongoClusterProperties.previewFeatures()"
   fullName: "com.azure.resourcemanager.mongocluster.models.MongoClusterProperties.previewFeatures()"
   name: "previewFeatures()"
@@ -383,6 +393,20 @@ methods:
   returns:
     description: "the MongoClusterProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.mongocluster.models.MongoClusterProperties?alt=com.azure.resourcemanager.mongocluster.models.MongoClusterProperties&text=MongoClusterProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mongocluster.models.MongoClusterProperties.withNetworkBypassMode(com.azure.resourcemanager.mongocluster.models.NetworkBypassMode)"
+  fullName: "com.azure.resourcemanager.mongocluster.models.MongoClusterProperties.withNetworkBypassMode(NetworkBypassMode networkBypassMode)"
+  name: "withNetworkBypassMode(NetworkBypassMode networkBypassMode)"
+  nameWithType: "MongoClusterProperties.withNetworkBypassMode(NetworkBypassMode networkBypassMode)"
+  summary: "Set the network<wbr>Bypass<wbr>Mode property: The network bypass mode for the cluster."
+  parameters:
+  - description: "the networkBypassMode value to set."
+    name: "networkBypassMode"
+    type: "<xref href=\"com.azure.resourcemanager.mongocluster.models.NetworkBypassMode?alt=com.azure.resourcemanager.mongocluster.models.NetworkBypassMode&text=NetworkBypassMode\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public MongoClusterProperties withNetworkBypassMode(NetworkBypassMode networkBypassMode)"
+  desc: "Set the networkBypassMode property: The network bypass mode for the cluster. Setting to 'AzureCosmosDB' allows Azure Cosmos DB service to bypass network restrictions."
+  returns:
+    description: "the MongoClusterProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.mongocluster.models.MongoClusterProperties?alt=com.azure.resourcemanager.mongocluster.models.MongoClusterProperties&text=MongoClusterProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.mongocluster.models.MongoClusterProperties.withPreviewFeatures(java.util.List<com.azure.resourcemanager.mongocluster.models.PreviewFeature>)"
   fullName: "com.azure.resourcemanager.mongocluster.models.MongoClusterProperties.withPreviewFeatures(List<PreviewFeature> previewFeatures)"
   name: "withPreviewFeatures(List<PreviewFeature> previewFeatures)"
@@ -487,4 +511,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.mongocluster.models.MongoClusterProperties?alt=com.azure.resourcemanager.mongocluster.models.MongoClusterProperties&text=MongoClusterProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.mongocluster.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-mongocluster:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-mongocluster:1.2.0

@@ -42,50 +42,50 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RebootType.GRACEFUL_REBOOT_WITHOUT_ZTP"
   name: "GRACEFUL_REBOOT_WITHOUT_ZTP"
   nameWithType: "RebootType.GRACEFUL_REBOOT_WITHOUT_ZTP"
-  summary: "Static value Graceful<wbr>Reboot<wbr>WithoutZTP for Reboot<wbr>Type."
+  summary: "Reboot<wbr>Type Graceful<wbr>Reboot<wbr>WithoutZTP."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RebootType?alt=com.azure.resourcemanager.managednetworkfabric.models.RebootType&text=RebootType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RebootType GRACEFUL_REBOOT_WITHOUT_ZTP"
-  desc: "Static value GracefulRebootWithoutZTP for RebootType."
+  desc: "RebootType GracefulRebootWithoutZTP."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RebootType.GRACEFUL_REBOOT_WITH_ZTP"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RebootType.GRACEFUL_REBOOT_WITH_ZTP"
   name: "GRACEFUL_REBOOT_WITH_ZTP"
   nameWithType: "RebootType.GRACEFUL_REBOOT_WITH_ZTP"
-  summary: "Static value Graceful<wbr>Reboot<wbr>WithZTP for Reboot<wbr>Type."
+  summary: "Reboot<wbr>Type Graceful<wbr>Reboot<wbr>WithZTP."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RebootType?alt=com.azure.resourcemanager.managednetworkfabric.models.RebootType&text=RebootType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RebootType GRACEFUL_REBOOT_WITH_ZTP"
-  desc: "Static value GracefulRebootWithZTP for RebootType."
+  desc: "RebootType GracefulRebootWithZTP."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RebootType.UNGRACEFUL_REBOOT_WITHOUT_ZTP"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RebootType.UNGRACEFUL_REBOOT_WITHOUT_ZTP"
   name: "UNGRACEFUL_REBOOT_WITHOUT_ZTP"
   nameWithType: "RebootType.UNGRACEFUL_REBOOT_WITHOUT_ZTP"
-  summary: "Static value Ungraceful<wbr>Reboot<wbr>WithoutZTP for Reboot<wbr>Type."
+  summary: "Reboot<wbr>Type Ungraceful<wbr>Reboot<wbr>WithoutZTP."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RebootType?alt=com.azure.resourcemanager.managednetworkfabric.models.RebootType&text=RebootType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RebootType UNGRACEFUL_REBOOT_WITHOUT_ZTP"
-  desc: "Static value UngracefulRebootWithoutZTP for RebootType."
+  desc: "RebootType UngracefulRebootWithoutZTP."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RebootType.UNGRACEFUL_REBOOT_WITH_ZTP"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RebootType.UNGRACEFUL_REBOOT_WITH_ZTP"
   name: "UNGRACEFUL_REBOOT_WITH_ZTP"
   nameWithType: "RebootType.UNGRACEFUL_REBOOT_WITH_ZTP"
-  summary: "Static value Ungraceful<wbr>Reboot<wbr>WithZTP for Reboot<wbr>Type."
+  summary: "Reboot<wbr>Type Ungraceful<wbr>Reboot<wbr>WithZTP."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RebootType?alt=com.azure.resourcemanager.managednetworkfabric.models.RebootType&text=RebootType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RebootType UNGRACEFUL_REBOOT_WITH_ZTP"
-  desc: "Static value UngracefulRebootWithZTP for RebootType."
+  desc: "RebootType UngracefulRebootWithZTP."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RebootType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RebootType.fromString(String name)"
@@ -119,4 +119,4 @@ type: "class"
 desc: "Type of reboot to be performed. Example: GracefulRebootWithZTP."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

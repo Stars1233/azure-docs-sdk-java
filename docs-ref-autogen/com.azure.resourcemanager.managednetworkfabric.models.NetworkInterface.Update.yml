@@ -4,7 +4,7 @@ fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfac
 name: "NetworkInterface.Update"
 nameWithType: "NetworkInterface.Update"
 summary: "The template for Network<wbr>Interface update."
-syntax: "public static interface **NetworkInterface.Update**</br> extends <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.UpdateStages.WithAnnotation?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.UpdateStages.WithAnnotation&text=WithAnnotation\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public static interface **NetworkInterface.Update**</br> extends <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.UpdateStages.WithIdentity?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.UpdateStages.WithIdentity&text=WithIdentity\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.UpdateStages.WithAdditionalDescription?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.UpdateStages.WithAdditionalDescription&text=WithAdditionalDescription\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.UpdateStages.WithAnnotation?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.UpdateStages.WithAnnotation&text=WithAnnotation\" data-throw-if-not-resolved=\"False\" />"
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.Update.apply()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.Update.apply()"
@@ -37,7 +37,9 @@ methods:
 type: "interface"
 desc: "The template for NetworkInterface update."
 implements:
+- "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.UpdateStages.WithAdditionalDescription?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.UpdateStages.WithAdditionalDescription&text=WithAdditionalDescription\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.UpdateStages.WithAnnotation?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.UpdateStages.WithAnnotation&text=WithAnnotation\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.UpdateStages.WithIdentity?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.UpdateStages.WithIdentity&text=WithIdentity\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

@@ -1,0 +1,94 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.monitor.workspaces.models.ListParameter"
+fullName: "com.azure.resourcemanager.monitor.workspaces.models.ListParameter"
+name: "ListParameter"
+nameWithType: "ListParameter"
+summary: "Parameters for listing related entities."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ListParameter**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.ListParameter?alt=com.azure.resourcemanager.monitor.workspaces.models.ListParameter&text=ListParameter\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.ListParameter.ListParameter()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.ListParameter.ListParameter()"
+  name: "ListParameter()"
+  nameWithType: "ListParameter.ListParameter()"
+  summary: "Creates an instance of List<wbr>Parameter class."
+  syntax: "public ListParameter()"
+  desc: "Creates an instance of ListParameter class."
+methods:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.ListParameter.filter()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.ListParameter.filter()"
+  name: "filter()"
+  nameWithType: "ListParameter.filter()"
+  summary: "Get the filter property: The filter to apply on the operation."
+  syntax: "public String filter()"
+  desc: "Get the filter property: The filter to apply on the operation. For example, to filter by relevance, use \"$filter=relevance eq 'Relevant'\". Note: this property is currently a placeholder and is not in use."
+  returns:
+    description: "the filter value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.ListParameter.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.ListParameter.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ListParameter.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of List<wbr>Parameter from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ListParameter fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ListParameter."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ListParameter from the JsonReader."
+  returns:
+    description: "An instance of ListParameter if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.ListParameter?alt=com.azure.resourcemanager.monitor.workspaces.models.ListParameter&text=ListParameter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.ListParameter.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.ListParameter.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ListParameter.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.ListParameter.withFilter(java.lang.String)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.ListParameter.withFilter(String filter)"
+  name: "withFilter(String filter)"
+  nameWithType: "ListParameter.withFilter(String filter)"
+  summary: "Set the filter property: The filter to apply on the operation."
+  parameters:
+  - description: "the filter value to set."
+    name: "filter"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public ListParameter withFilter(String filter)"
+  desc: "Set the filter property: The filter to apply on the operation. For example, to filter by relevance, use \"$filter=relevance eq 'Relevant'\". Note: this property is currently a placeholder and is not in use."
+  returns:
+    description: "the ListParameter object itself."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.ListParameter?alt=com.azure.resourcemanager.monitor.workspaces.models.ListParameter&text=ListParameter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Parameters for listing related entities."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.ListParameter?alt=com.azure.resourcemanager.monitor.workspaces.models.ListParameter&text=ListParameter\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.monitor.workspaces.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor-workspaces:1.0.0-beta.1

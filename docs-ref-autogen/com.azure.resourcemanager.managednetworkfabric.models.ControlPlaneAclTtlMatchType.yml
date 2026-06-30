@@ -1,0 +1,122 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType"
+name: "ControlPlaneAclTtlMatchType"
+nameWithType: "ControlPlaneAclTtlMatchType"
+summary: "Control Plane Access Control List (ACL) Time To Live (TTL) match conditions properties."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ControlPlaneAclTtlMatchType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType&text=ControlPlaneAclTtlMatchType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType.ControlPlaneAclTtlMatchType()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType.ControlPlaneAclTtlMatchType()"
+  name: "ControlPlaneAclTtlMatchType()"
+  nameWithType: "ControlPlaneAclTtlMatchType.ControlPlaneAclTtlMatchType()"
+  summary: "Creates a new instance of Control<wbr>Plane<wbr>Acl<wbr>Ttl<wbr>Match<wbr>Type value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public ControlPlaneAclTtlMatchType()"
+  desc: "Creates a new instance of ControlPlaneAclTtlMatchType value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType.EQUALS"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType.EQUALS"
+  name: "EQUALS"
+  nameWithType: "ControlPlaneAclTtlMatchType.EQUALS"
+  summary: "TTL-eq."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType&text=ControlPlaneAclTtlMatchType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ControlPlaneAclTtlMatchType EQUALS"
+  desc: "TTL-eq."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType.GREATER_THAN"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType.GREATER_THAN"
+  name: "GREATER_THAN"
+  nameWithType: "ControlPlaneAclTtlMatchType.GREATER_THAN"
+  summary: "TTL-gt."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType&text=ControlPlaneAclTtlMatchType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ControlPlaneAclTtlMatchType GREATER_THAN"
+  desc: "TTL-gt."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType.LESSER_THAN"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType.LESSER_THAN"
+  name: "LESSER_THAN"
+  nameWithType: "ControlPlaneAclTtlMatchType.LESSER_THAN"
+  summary: "TTL-lt."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType&text=ControlPlaneAclTtlMatchType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ControlPlaneAclTtlMatchType LESSER_THAN"
+  desc: "TTL-lt."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType.NOT_EQUALS"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType.NOT_EQUALS"
+  name: "NOT_EQUALS"
+  nameWithType: "ControlPlaneAclTtlMatchType.NOT_EQUALS"
+  summary: "TTL-neq."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType&text=ControlPlaneAclTtlMatchType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ControlPlaneAclTtlMatchType NOT_EQUALS"
+  desc: "TTL-neq."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "ControlPlaneAclTtlMatchType.fromString(String name)"
+  summary: "Creates or finds a Control<wbr>Plane<wbr>Acl<wbr>Ttl<wbr>Match<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static ControlPlaneAclTtlMatchType fromString(String name)"
+  desc: "Creates or finds a ControlPlaneAclTtlMatchType from its string representation."
+  returns:
+    description: "the corresponding ControlPlaneAclTtlMatchType."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType&text=ControlPlaneAclTtlMatchType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType.values()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType.values()"
+  name: "values()"
+  nameWithType: "ControlPlaneAclTtlMatchType.values()"
+  summary: "Gets known Control<wbr>Plane<wbr>Acl<wbr>Ttl<wbr>Match<wbr>Type values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<ControlPlaneAclTtlMatchType> values()"
+  desc: "Gets known ControlPlaneAclTtlMatchType values."
+  returns:
+    description: "known ControlPlaneAclTtlMatchType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType&text=ControlPlaneAclTtlMatchType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Control Plane Access Control List (ACL) Time To Live (TTL) match conditions properties."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

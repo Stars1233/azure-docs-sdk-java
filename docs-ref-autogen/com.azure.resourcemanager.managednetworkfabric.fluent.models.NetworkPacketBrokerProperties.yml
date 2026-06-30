@@ -30,6 +30,16 @@ constructors:
   syntax: "public NetworkPacketBrokerProperties()"
   desc: "Creates an instance of NetworkPacketBrokerProperties class."
 methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkPacketBrokerProperties.configurationState()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkPacketBrokerProperties.configurationState()"
+  name: "configurationState()"
+  nameWithType: "NetworkPacketBrokerProperties.configurationState()"
+  summary: "Get the configuration<wbr>State property: Configuration state of the resource."
+  syntax: "public ConfigurationState configurationState()"
+  desc: "Get the configurationState property: Configuration state of the resource."
+  returns:
+    description: "the configurationState value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ConfigurationState?alt=com.azure.resourcemanager.managednetworkfabric.models.ConfigurationState&text=ConfigurationState\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkPacketBrokerProperties.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkPacketBrokerProperties.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -49,6 +59,16 @@ methods:
   returns:
     description: "An instance of NetworkPacketBrokerProperties if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkPacketBrokerProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkPacketBrokerProperties&text=NetworkPacketBrokerProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkPacketBrokerProperties.lastOperation()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkPacketBrokerProperties.lastOperation()"
+  name: "lastOperation()"
+  nameWithType: "NetworkPacketBrokerProperties.lastOperation()"
+  summary: "Get the last<wbr>Operation property: Details of the last operation performed on the resource."
+  syntax: "public LastOperationProperties lastOperation()"
+  desc: "Get the lastOperation property: Details of the last operation performed on the resource."
+  returns:
+    description: "the lastOperation value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties&text=LastOperationProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkPacketBrokerProperties.neighborGroupIds()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkPacketBrokerProperties.neighborGroupIds()"
   name: "neighborGroupIds()"
@@ -121,13 +141,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkPacketBrokerProperties.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkPacketBrokerProperties.validate()"
-  name: "validate()"
-  nameWithType: "NetworkPacketBrokerProperties.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkPacketBrokerProperties.withNetworkFabricId(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkPacketBrokerProperties.withNetworkFabricId(String networkFabricId)"
   name: "withNetworkFabricId(String networkFabricId)"
@@ -148,4 +161,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkPacketBrokerProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkPacketBrokerProperties&text=NetworkPacketBrokerProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

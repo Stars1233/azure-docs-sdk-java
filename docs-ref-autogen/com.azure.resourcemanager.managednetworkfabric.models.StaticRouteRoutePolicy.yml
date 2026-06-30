@@ -1,0 +1,94 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicy"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicy"
+name: "StaticRouteRoutePolicy"
+nameWithType: "StaticRouteRoutePolicy"
+summary: "Static Route - route policy properties."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **StaticRouteRoutePolicy**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicy&text=StaticRouteRoutePolicy\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicy.StaticRouteRoutePolicy()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicy.StaticRouteRoutePolicy()"
+  name: "StaticRouteRoutePolicy()"
+  nameWithType: "StaticRouteRoutePolicy.StaticRouteRoutePolicy()"
+  summary: "Creates an instance of Static<wbr>Route<wbr>Route<wbr>Policy class."
+  syntax: "public StaticRouteRoutePolicy()"
+  desc: "Creates an instance of StaticRouteRoutePolicy class."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicy.exportRoutePolicy()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicy.exportRoutePolicy()"
+  name: "exportRoutePolicy()"
+  nameWithType: "StaticRouteRoutePolicy.exportRoutePolicy()"
+  summary: "Get the export<wbr>Route<wbr>Policy property: Array of ARM Resource ID of the Route<wbr>Policies."
+  syntax: "public L3ExportRoutePolicy exportRoutePolicy()"
+  desc: "Get the exportRoutePolicy property: Array of ARM Resource ID of the RoutePolicies."
+  returns:
+    description: "the exportRoutePolicy value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.L3ExportRoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.L3ExportRoutePolicy&text=L3ExportRoutePolicy\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicy.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicy.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "StaticRouteRoutePolicy.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Static<wbr>Route<wbr>Route<wbr>Policy from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static StaticRouteRoutePolicy fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the StaticRouteRoutePolicy."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of StaticRouteRoutePolicy from the JsonReader."
+  returns:
+    description: "An instance of StaticRouteRoutePolicy if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicy&text=StaticRouteRoutePolicy\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicy.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicy.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "StaticRouteRoutePolicy.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicy.withExportRoutePolicy(com.azure.resourcemanager.managednetworkfabric.models.L3ExportRoutePolicy)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicy.withExportRoutePolicy(L3ExportRoutePolicy exportRoutePolicy)"
+  name: "withExportRoutePolicy(L3ExportRoutePolicy exportRoutePolicy)"
+  nameWithType: "StaticRouteRoutePolicy.withExportRoutePolicy(L3ExportRoutePolicy exportRoutePolicy)"
+  summary: "Set the export<wbr>Route<wbr>Policy property: Array of ARM Resource ID of the Route<wbr>Policies."
+  parameters:
+  - description: "the exportRoutePolicy value to set."
+    name: "exportRoutePolicy"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.L3ExportRoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.L3ExportRoutePolicy&text=L3ExportRoutePolicy\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public StaticRouteRoutePolicy withExportRoutePolicy(L3ExportRoutePolicy exportRoutePolicy)"
+  desc: "Set the exportRoutePolicy property: Array of ARM Resource ID of the RoutePolicies."
+  returns:
+    description: "the StaticRouteRoutePolicy object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicy&text=StaticRouteRoutePolicy\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Static Route - route policy properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.StaticRouteRoutePolicy&text=StaticRouteRoutePolicy\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

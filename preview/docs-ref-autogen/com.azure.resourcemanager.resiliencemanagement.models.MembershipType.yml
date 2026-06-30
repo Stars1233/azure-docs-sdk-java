@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.MembershipType"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.MembershipType"
+name: "MembershipType"
+nameWithType: "MembershipType"
+summary: "Membership type of the service group to resource."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **MembershipType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.MembershipType?alt=com.azure.resourcemanager.resiliencemanagement.models.MembershipType&text=MembershipType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.MembershipType.MembershipType()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.MembershipType.MembershipType()"
+  name: "MembershipType()"
+  nameWithType: "MembershipType.MembershipType()"
+  summary: "Creates a new instance of Membership<wbr>Type value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.MembershipType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public MembershipType()"
+  desc: "Creates a new instance of MembershipType value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.MembershipType.DIRECT"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.MembershipType.DIRECT"
+  name: "DIRECT"
+  nameWithType: "MembershipType.DIRECT"
+  summary: "Resource is direct member of service group."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.MembershipType?alt=com.azure.resourcemanager.resiliencemanagement.models.MembershipType&text=MembershipType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final MembershipType DIRECT"
+  desc: "Resource is direct member of service group."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.MembershipType.THROUGH_RESOURCE_GROUP"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.MembershipType.THROUGH_RESOURCE_GROUP"
+  name: "THROUGH_RESOURCE_GROUP"
+  nameWithType: "MembershipType.THROUGH_RESOURCE_GROUP"
+  summary: "Resource is member of service group through resource group."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.MembershipType?alt=com.azure.resourcemanager.resiliencemanagement.models.MembershipType&text=MembershipType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final MembershipType THROUGH_RESOURCE_GROUP"
+  desc: "Resource is member of service group through resource group."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.MembershipType.THROUGH_SUBSCRIPTION"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.MembershipType.THROUGH_SUBSCRIPTION"
+  name: "THROUGH_SUBSCRIPTION"
+  nameWithType: "MembershipType.THROUGH_SUBSCRIPTION"
+  summary: "Resource is member of service group through subscription."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.MembershipType?alt=com.azure.resourcemanager.resiliencemanagement.models.MembershipType&text=MembershipType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final MembershipType THROUGH_SUBSCRIPTION"
+  desc: "Resource is member of service group through subscription."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.MembershipType.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.MembershipType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "MembershipType.fromString(String name)"
+  summary: "Creates or finds a Membership<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static MembershipType fromString(String name)"
+  desc: "Creates or finds a MembershipType from its string representation."
+  returns:
+    description: "the corresponding MembershipType."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.MembershipType?alt=com.azure.resourcemanager.resiliencemanagement.models.MembershipType&text=MembershipType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.MembershipType.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.MembershipType.values()"
+  name: "values()"
+  nameWithType: "MembershipType.values()"
+  summary: "Gets known Membership<wbr>Type values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<MembershipType> values()"
+  desc: "Gets known MembershipType values."
+  returns:
+    description: "known MembershipType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.MembershipType?alt=com.azure.resourcemanager.resiliencemanagement.models.MembershipType&text=MembershipType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Membership type of the service group to resource."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0-beta.1

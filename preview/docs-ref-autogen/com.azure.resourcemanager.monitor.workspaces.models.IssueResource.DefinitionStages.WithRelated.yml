@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.monitor.workspaces.models.IssueResource.DefinitionStages.WithRelated"
+fullName: "com.azure.resourcemanager.monitor.workspaces.models.IssueResource.DefinitionStages.WithRelated"
+name: "IssueResource.DefinitionStages.WithRelated"
+nameWithType: "IssueResource.DefinitionStages.WithRelated"
+summary: "The stage of the Issue<wbr>Resource definition allowing to specify related."
+syntax: "public static interface **IssueResource.DefinitionStages.WithRelated**"
+methods:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.IssueResource.DefinitionStages.WithRelated.withRelated(java.lang.String)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.IssueResource.DefinitionStages.WithRelated.withRelated(String related)"
+  name: "withRelated(String related)"
+  nameWithType: "IssueResource.DefinitionStages.WithRelated.withRelated(String related)"
+  summary: "Specifies the related property: Related resource or alert that is to be added to the issue (default: empty - the issue will be created without any related resources or alerts)."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Related resource or alert that is to be added to the issue (default: empty - the issue\n will be created without any related resources or alerts)."
+    name: "related"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract IssueResource.DefinitionStages.WithCreate withRelated(String related)"
+  desc: "Specifies the related property: Related resource or alert that is to be added to the issue (default: empty - the issue will be created without any related resources or alerts)."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.IssueResource.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.monitor.workspaces.models.IssueResource.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the IssueResource definition allowing to specify related."
+metadata: {}
+package: "com.azure.resourcemanager.monitor.workspaces.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor-workspaces:1.0.0-beta.1

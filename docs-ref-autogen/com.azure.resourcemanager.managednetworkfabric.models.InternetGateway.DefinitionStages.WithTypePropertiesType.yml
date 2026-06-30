@@ -17,13 +17,13 @@ methods:
   - description: "Gateway Type of the resource."
     name: "typePropertiesType"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.GatewayType?alt=com.azure.resourcemanager.managednetworkfabric.models.GatewayType&text=GatewayType\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract InternetGateway.DefinitionStages.WithNetworkFabricControllerId withTypePropertiesType(GatewayType typePropertiesType)"
+  syntax: "public abstract InternetGateway.DefinitionStages.WithCreate withTypePropertiesType(GatewayType typePropertiesType)"
   desc: "Specifies the typePropertiesType property: Gateway Type of the resource.."
   returns:
     description: "the next definition stage."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.InternetGateway.DefinitionStages.WithNetworkFabricControllerId?alt=com.azure.resourcemanager.managednetworkfabric.models.InternetGateway.DefinitionStages.WithNetworkFabricControllerId&text=WithNetworkFabricControllerId\" data-throw-if-not-resolved=\"False\" />"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.InternetGateway.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.InternetGateway.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The stage of the InternetGateway definition allowing to specify typePropertiesType."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

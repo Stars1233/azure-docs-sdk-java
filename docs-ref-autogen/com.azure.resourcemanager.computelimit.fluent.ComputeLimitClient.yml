@@ -78,6 +78,18 @@ methods:
   returns:
     description: "the httpPipeline value."
     type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.computelimit.fluent.ComputeLimitClient.getMemberCapOverrides()"
+  fullName: "com.azure.resourcemanager.computelimit.fluent.ComputeLimitClient.getMemberCapOverrides()"
+  name: "getMemberCapOverrides()"
+  nameWithType: "ComputeLimitClient.getMemberCapOverrides()"
+  summary: "Gets the Member<wbr>Cap<wbr>Overrides<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract MemberCapOverridesClient getMemberCapOverrides()"
+  desc: "Gets the MemberCapOverridesClient object to access its operations."
+  returns:
+    description: "the MemberCapOverridesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.computelimit.fluent.MemberCapOverridesClient?alt=com.azure.resourcemanager.computelimit.fluent.MemberCapOverridesClient&text=MemberCapOverridesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.computelimit.fluent.ComputeLimitClient.getOperations()"
   fullName: "com.azure.resourcemanager.computelimit.fluent.ComputeLimitClient.getOperations()"
   name: "getOperations()"
@@ -90,6 +102,18 @@ methods:
   returns:
     description: "the OperationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.computelimit.fluent.OperationsClient?alt=com.azure.resourcemanager.computelimit.fluent.OperationsClient&text=OperationsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.computelimit.fluent.ComputeLimitClient.getSharedLimitCaps()"
+  fullName: "com.azure.resourcemanager.computelimit.fluent.ComputeLimitClient.getSharedLimitCaps()"
+  name: "getSharedLimitCaps()"
+  nameWithType: "ComputeLimitClient.getSharedLimitCaps()"
+  summary: "Gets the Shared<wbr>Limit<wbr>Caps<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SharedLimitCapsClient getSharedLimitCaps()"
+  desc: "Gets the SharedLimitCapsClient object to access its operations."
+  returns:
+    description: "the SharedLimitCapsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.computelimit.fluent.SharedLimitCapsClient?alt=com.azure.resourcemanager.computelimit.fluent.SharedLimitCapsClient&text=SharedLimitCapsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.computelimit.fluent.ComputeLimitClient.getSharedLimits()"
   fullName: "com.azure.resourcemanager.computelimit.fluent.ComputeLimitClient.getSharedLimits()"
   name: "getSharedLimits()"
@@ -130,4 +154,4 @@ type: "interface"
 desc: "The interface for ComputeLimitClient class."
 metadata: {}
 package: "com.azure.resourcemanager.computelimit.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-computelimit:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-computelimit:1.2.0

@@ -10,7 +10,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.commitConfiguration(String resourceGroupName, String routePolicyName)"
   name: "commitConfiguration(String resourceGroupName, String routePolicyName)"
   nameWithType: "RoutePolicies.commitConfiguration(String resourceGroupName, String routePolicyName)"
-  summary: "Execute the commit on the resources."
+  summary: "Commits the configuration of the given resources."
   modifiers:
   - "abstract"
   parameters:
@@ -21,7 +21,7 @@ methods:
     name: "routePolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract CommonPostActionResponseForStateUpdate commitConfiguration(String resourceGroupName, String routePolicyName)"
-  desc: "Execute the commit on the resources. Commits the configuration of the given resources."
+  desc: "Commits the configuration of the given resources."
   returns:
     description: "common response for the state updates."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate&text=CommonPostActionResponseForStateUpdate\" data-throw-if-not-resolved=\"False\" />"
@@ -29,7 +29,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.commitConfiguration(String resourceGroupName, String routePolicyName, Context context)"
   name: "commitConfiguration(String resourceGroupName, String routePolicyName, Context context)"
   nameWithType: "RoutePolicies.commitConfiguration(String resourceGroupName, String routePolicyName, Context context)"
-  summary: "Execute the commit on the resources."
+  summary: "Commits the configuration of the given resources."
   modifiers:
   - "abstract"
   parameters:
@@ -43,7 +43,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract CommonPostActionResponseForStateUpdate commitConfiguration(String resourceGroupName, String routePolicyName, Context context)"
-  desc: "Execute the commit on the resources. Commits the configuration of the given resources."
+  desc: "Commits the configuration of the given resources."
   returns:
     description: "common response for the state updates."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate&text=CommonPostActionResponseForStateUpdate\" data-throw-if-not-resolved=\"False\" />"
@@ -67,7 +67,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.delete(String resourceGroupName, String routePolicyName, Context context)"
   name: "delete(String resourceGroupName, String routePolicyName, Context context)"
   nameWithType: "RoutePolicies.delete(String resourceGroupName, String routePolicyName, Context context)"
-  summary: "Deletes a Route Policy."
+  summary: "Implements Route Policy DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -81,12 +81,12 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void delete(String resourceGroupName, String routePolicyName, Context context)"
-  desc: "Deletes a Route Policy. Implements Route Policy DELETE method."
+  desc: "Implements Route Policy DELETE method."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.deleteById(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.deleteById(String id)"
   name: "deleteById(String id)"
   nameWithType: "RoutePolicies.deleteById(String id)"
-  summary: "Deletes a Route Policy."
+  summary: "Implements Route Policy DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -94,12 +94,12 @@ methods:
     name: "id"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void deleteById(String id)"
-  desc: "Deletes a Route Policy. Implements Route Policy DELETE method."
+  desc: "Implements Route Policy DELETE method."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.deleteByIdWithResponse(java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.deleteByIdWithResponse(String id, Context context)"
   name: "deleteByIdWithResponse(String id, Context context)"
   nameWithType: "RoutePolicies.deleteByIdWithResponse(String id, Context context)"
-  summary: "Deletes a Route Policy."
+  summary: "Implements Route Policy DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -110,12 +110,12 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void deleteByIdWithResponse(String id, Context context)"
-  desc: "Deletes a Route Policy. Implements Route Policy DELETE method."
+  desc: "Implements Route Policy DELETE method."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.deleteByResourceGroup(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.deleteByResourceGroup(String resourceGroupName, String routePolicyName)"
   name: "deleteByResourceGroup(String resourceGroupName, String routePolicyName)"
   nameWithType: "RoutePolicies.deleteByResourceGroup(String resourceGroupName, String routePolicyName)"
-  summary: "Deletes a Route Policy."
+  summary: "Implements Route Policy DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -126,12 +126,12 @@ methods:
     name: "routePolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void deleteByResourceGroup(String resourceGroupName, String routePolicyName)"
-  desc: "Deletes a Route Policy. Implements Route Policy DELETE method."
+  desc: "Implements Route Policy DELETE method."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.getById(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.getById(String id)"
   name: "getById(String id)"
   nameWithType: "RoutePolicies.getById(String id)"
-  summary: "Gets a Route Policy."
+  summary: "Implements Route Policy GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -139,7 +139,7 @@ methods:
     name: "id"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract RoutePolicy getById(String id)"
-  desc: "Gets a Route Policy. Implements Route Policy GET method."
+  desc: "Implements Route Policy GET method."
   returns:
     description: "the RoutePolicy resource definition along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy&text=RoutePolicy\" data-throw-if-not-resolved=\"False\" />"
@@ -147,7 +147,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.getByIdWithResponse(String id, Context context)"
   name: "getByIdWithResponse(String id, Context context)"
   nameWithType: "RoutePolicies.getByIdWithResponse(String id, Context context)"
-  summary: "Gets a Route Policy."
+  summary: "Implements Route Policy GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -158,7 +158,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<RoutePolicy> getByIdWithResponse(String id, Context context)"
-  desc: "Gets a Route Policy. Implements Route Policy GET method."
+  desc: "Implements Route Policy GET method."
   returns:
     description: "the RoutePolicy resource definition along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy&text=RoutePolicy\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -166,7 +166,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.getByResourceGroup(String resourceGroupName, String routePolicyName)"
   name: "getByResourceGroup(String resourceGroupName, String routePolicyName)"
   nameWithType: "RoutePolicies.getByResourceGroup(String resourceGroupName, String routePolicyName)"
-  summary: "Gets a Route Policy."
+  summary: "Implements Route Policy GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -177,7 +177,7 @@ methods:
     name: "routePolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract RoutePolicy getByResourceGroup(String resourceGroupName, String routePolicyName)"
-  desc: "Gets a Route Policy. Implements Route Policy GET method."
+  desc: "Implements Route Policy GET method."
   returns:
     description: "the RoutePolicy resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy&text=RoutePolicy\" data-throw-if-not-resolved=\"False\" />"
@@ -185,7 +185,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.getByResourceGroupWithResponse(String resourceGroupName, String routePolicyName, Context context)"
   name: "getByResourceGroupWithResponse(String resourceGroupName, String routePolicyName, Context context)"
   nameWithType: "RoutePolicies.getByResourceGroupWithResponse(String resourceGroupName, String routePolicyName, Context context)"
-  summary: "Gets a Route Policy."
+  summary: "Implements Route Policy GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -199,7 +199,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<RoutePolicy> getByResourceGroupWithResponse(String resourceGroupName, String routePolicyName, Context context)"
-  desc: "Gets a Route Policy. Implements Route Policy GET method."
+  desc: "Implements Route Policy GET method."
   returns:
     description: "the RoutePolicy resource definition along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy&text=RoutePolicy\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -207,19 +207,19 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.list()"
   name: "list()"
   nameWithType: "RoutePolicies.list()"
-  summary: "List Route<wbr>Policies by subscription."
+  summary: "Implements Route<wbr>Policies list by subscription GET method."
   modifiers:
   - "abstract"
   syntax: "public abstract PagedIterable<RoutePolicy> list()"
-  desc: "List RoutePolicies by subscription. Implements RoutePolicies list by subscription GET method."
+  desc: "Implements RoutePolicies list by subscription GET method."
   returns:
-    description: "list of RoutePolicies as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of RoutePolicy items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy&text=RoutePolicy\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.list(com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.list(Context context)"
   name: "list(Context context)"
   nameWithType: "RoutePolicies.list(Context context)"
-  summary: "List Route<wbr>Policies by subscription."
+  summary: "Implements Route<wbr>Policies list by subscription GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -227,15 +227,15 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<RoutePolicy> list(Context context)"
-  desc: "List RoutePolicies by subscription. Implements RoutePolicies list by subscription GET method."
+  desc: "Implements RoutePolicies list by subscription GET method."
   returns:
-    description: "list of RoutePolicies as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of RoutePolicy items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy&text=RoutePolicy\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.listByResourceGroup(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.listByResourceGroup(String resourceGroupName)"
   name: "listByResourceGroup(String resourceGroupName)"
   nameWithType: "RoutePolicies.listByResourceGroup(String resourceGroupName)"
-  summary: "List Route<wbr>Policies by resource group."
+  summary: "Implements Route<wbr>Policies list by resource group GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -243,15 +243,15 @@ methods:
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<RoutePolicy> listByResourceGroup(String resourceGroupName)"
-  desc: "List RoutePolicies by resource group. Implements RoutePolicies list by resource group GET method."
+  desc: "Implements RoutePolicies list by resource group GET method."
   returns:
-    description: "list of RoutePolicies as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of RoutePolicy items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy&text=RoutePolicy\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.listByResourceGroup(String resourceGroupName, Context context)"
   name: "listByResourceGroup(String resourceGroupName, Context context)"
   nameWithType: "RoutePolicies.listByResourceGroup(String resourceGroupName, Context context)"
-  summary: "List Route<wbr>Policies by resource group."
+  summary: "Implements Route<wbr>Policies list by resource group GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -262,15 +262,15 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<RoutePolicy> listByResourceGroup(String resourceGroupName, Context context)"
-  desc: "List RoutePolicies by resource group. Implements RoutePolicies list by resource group GET method."
+  desc: "Implements RoutePolicies list by resource group GET method."
   returns:
-    description: "list of RoutePolicies as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of RoutePolicy items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy&text=RoutePolicy\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.updateAdministrativeState(java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.updateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body)"
   name: "updateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body)"
   nameWithType: "RoutePolicies.updateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body)"
-  summary: "Executes enable operation to the underlying resources."
+  summary: "Updated the admin state for this Route Policy."
   modifiers:
   - "abstract"
   parameters:
@@ -283,16 +283,16 @@ methods:
   - description: "Request payload."
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState&text=UpdateAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForDeviceUpdate updateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body)"
-  desc: "Executes enable operation to the underlying resources. Updated the admin state for this Route Policy."
+  syntax: "public abstract UpdateAdministrativeStateResponse updateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body)"
+  desc: "Updated the admin state for this Route Policy."
   returns:
-    description: "common response for device updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate&text=CommonPostActionResponseForDeviceUpdate\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse&text=UpdateAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.updateAdministrativeState(java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.updateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body, Context context)"
   name: "updateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body, Context context)"
   nameWithType: "RoutePolicies.updateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body, Context context)"
-  summary: "Executes enable operation to the underlying resources."
+  summary: "Updated the admin state for this Route Policy."
   modifiers:
   - "abstract"
   parameters:
@@ -308,11 +308,11 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForDeviceUpdate updateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body, Context context)"
-  desc: "Executes enable operation to the underlying resources. Updated the admin state for this Route Policy."
+  syntax: "public abstract UpdateAdministrativeStateResponse updateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body, Context context)"
+  desc: "Updated the admin state for this Route Policy."
   returns:
-    description: "common response for device updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate&text=CommonPostActionResponseForDeviceUpdate\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse&text=UpdateAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.validateConfiguration(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicies.validateConfiguration(String resourceGroupName, String routePolicyName)"
   name: "validateConfiguration(String resourceGroupName, String routePolicyName)"
@@ -358,4 +358,4 @@ type: "interface"
 desc: "Resource collection API of RoutePolicies."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

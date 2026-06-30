@@ -27,6 +27,8 @@ classes:
 - "com.azure.communication.callautomation.models.events.MediaStreamingStatusDetails"
 - "com.azure.communication.callautomation.models.events.MediaStreamingStopped"
 - "com.azure.communication.callautomation.models.events.MediaStreamingUpdateResult"
+- "com.azure.communication.callautomation.models.events.MoveParticipantFailed"
+- "com.azure.communication.callautomation.models.events.MoveParticipantSucceeded"
 - "com.azure.communication.callautomation.models.events.ParticipantsUpdated"
 - "com.azure.communication.callautomation.models.events.PlayCanceled"
 - "com.azure.communication.callautomation.models.events.PlayCompleted"
@@ -44,6 +46,7 @@ classes:
 - "com.azure.communication.callautomation.models.events.ResultInformation"
 - "com.azure.communication.callautomation.models.events.SendDtmfTonesCompleted"
 - "com.azure.communication.callautomation.models.events.SendDtmfTonesFailed"
+- "com.azure.communication.callautomation.models.events.SipDiagnosticDetails"
 - "com.azure.communication.callautomation.models.events.StartRecordingFailed"
 - "com.azure.communication.callautomation.models.events.TranscriptionFailed"
 - "com.azure.communication.callautomation.models.events.TranscriptionResumed"
@@ -56,4 +59,4 @@ classes:
 desc: "Package containing events for AzureCommunicationCallingServerService. null."
 metadata: {}
 package: "com.azure.communication.callautomation.models.events"
-artifact: com.azure:azure-communication-callautomation:1.6.1
+artifact: com.azure:azure-communication-callautomation:1.7.0

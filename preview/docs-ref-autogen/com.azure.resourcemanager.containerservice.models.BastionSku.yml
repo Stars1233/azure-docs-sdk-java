@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.containerservice.models.BastionSku"
+fullName: "com.azure.resourcemanager.containerservice.models.BastionSku"
+name: "BastionSku"
+nameWithType: "BastionSku"
+summary: "The SKU of the managed Azure Bastion."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **BastionSku**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.containerservice.models.BastionSku?alt=com.azure.resourcemanager.containerservice.models.BastionSku&text=BastionSku\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.containerservice.models.BastionSku.BastionSku()"
+  fullName: "com.azure.resourcemanager.containerservice.models.BastionSku.BastionSku()"
+  name: "BastionSku()"
+  nameWithType: "BastionSku.BastionSku()"
+  summary: "Creates a new instance of Bastion<wbr>Sku value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.containerservice.models.BastionSku.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public BastionSku()"
+  desc: "Creates a new instance of BastionSku value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.containerservice.models.BastionSku.PREMIUM"
+  fullName: "com.azure.resourcemanager.containerservice.models.BastionSku.PREMIUM"
+  name: "PREMIUM"
+  nameWithType: "BastionSku.PREMIUM"
+  summary: "Use the premium SKU of Azure Bastion."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.containerservice.models.BastionSku?alt=com.azure.resourcemanager.containerservice.models.BastionSku&text=BastionSku\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final BastionSku PREMIUM"
+  desc: "Use the premium SKU of Azure Bastion."
+- uid: "com.azure.resourcemanager.containerservice.models.BastionSku.STANDARD"
+  fullName: "com.azure.resourcemanager.containerservice.models.BastionSku.STANDARD"
+  name: "STANDARD"
+  nameWithType: "BastionSku.STANDARD"
+  summary: "Use the standard SKU of Azure Bastion."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.containerservice.models.BastionSku?alt=com.azure.resourcemanager.containerservice.models.BastionSku&text=BastionSku\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final BastionSku STANDARD"
+  desc: "Use the standard SKU of Azure Bastion."
+methods:
+- uid: "com.azure.resourcemanager.containerservice.models.BastionSku.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.containerservice.models.BastionSku.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "BastionSku.fromString(String name)"
+  summary: "Creates or finds a Bastion<wbr>Sku from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static BastionSku fromString(String name)"
+  desc: "Creates or finds a BastionSku from its string representation."
+  returns:
+    description: "the corresponding BastionSku."
+    type: "<xref href=\"com.azure.resourcemanager.containerservice.models.BastionSku?alt=com.azure.resourcemanager.containerservice.models.BastionSku&text=BastionSku\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerservice.models.BastionSku.values()"
+  fullName: "com.azure.resourcemanager.containerservice.models.BastionSku.values()"
+  name: "values()"
+  nameWithType: "BastionSku.values()"
+  summary: "Gets known Bastion<wbr>Sku values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<BastionSku> values()"
+  desc: "Gets known BastionSku values."
+  returns:
+    description: "known BastionSku values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.containerservice.models.BastionSku?alt=com.azure.resourcemanager.containerservice.models.BastionSku&text=BastionSku\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The SKU of the managed Azure Bastion. The default is 'Standard'. See https://aka.ms/aks/BastionSKUs for more information about the differences between Azure Bastion SKUs."
+metadata: {}
+package: "com.azure.resourcemanager.containerservice.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.62.0-beta.1

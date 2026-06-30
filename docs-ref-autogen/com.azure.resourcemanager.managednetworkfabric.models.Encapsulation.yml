@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.Encapsulation.GRE"
   name: "GRE"
   nameWithType: "Encapsulation.GRE"
-  summary: "Static value GRE for Encapsulation."
+  summary: "Encapsulation-GRE."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.Encapsulation?alt=com.azure.resourcemanager.managednetworkfabric.models.Encapsulation&text=Encapsulation\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final Encapsulation GRE"
-  desc: "Static value GRE for Encapsulation."
+  desc: "Encapsulation-GRE."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.Encapsulation.NONE"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.Encapsulation.NONE"
   name: "NONE"
   nameWithType: "Encapsulation.NONE"
-  summary: "Static value None for Encapsulation."
+  summary: "Encapsulation-None."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.Encapsulation?alt=com.azure.resourcemanager.managednetworkfabric.models.Encapsulation&text=Encapsulation\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final Encapsulation NONE"
-  desc: "Static value None for Encapsulation."
+  desc: "Encapsulation-None."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.Encapsulation.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.Encapsulation.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Type of encapsulation."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

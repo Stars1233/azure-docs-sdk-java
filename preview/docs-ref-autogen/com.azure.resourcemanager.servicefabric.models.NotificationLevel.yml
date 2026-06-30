@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.servicefabric.models.NotificationLevel.ALL"
   name: "ALL"
   nameWithType: "NotificationLevel.ALL"
-  summary: "Static value All for Notification<wbr>Level."
+  summary: "Receive all notifications."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.NotificationLevel?alt=com.azure.resourcemanager.servicefabric.models.NotificationLevel&text=NotificationLevel\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NotificationLevel ALL"
-  desc: "Static value All for NotificationLevel."
+  desc: "Receive all notifications."
 - uid: "com.azure.resourcemanager.servicefabric.models.NotificationLevel.CRITICAL"
   fullName: "com.azure.resourcemanager.servicefabric.models.NotificationLevel.CRITICAL"
   name: "CRITICAL"
   nameWithType: "NotificationLevel.CRITICAL"
-  summary: "Static value Critical for Notification<wbr>Level."
+  summary: "Receive only critical notifications."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.NotificationLevel?alt=com.azure.resourcemanager.servicefabric.models.NotificationLevel&text=NotificationLevel\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NotificationLevel CRITICAL"
-  desc: "Static value Critical for NotificationLevel."
+  desc: "Receive only critical notifications."
 methods:
 - uid: "com.azure.resourcemanager.servicefabric.models.NotificationLevel.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.servicefabric.models.NotificationLevel.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The level of notification."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

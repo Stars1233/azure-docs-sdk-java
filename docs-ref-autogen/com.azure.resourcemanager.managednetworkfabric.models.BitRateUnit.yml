@@ -1,0 +1,134 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit"
+name: "BitRateUnit"
+nameWithType: "BitRateUnit"
+summary: "Bit rate unit."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **BitRateUnit**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit?alt=com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit&text=BitRateUnit\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit.BitRateUnit()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit.BitRateUnit()"
+  name: "BitRateUnit()"
+  nameWithType: "BitRateUnit.BitRateUnit()"
+  summary: "Creates a new instance of Bit<wbr>Rate<wbr>Unit value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public BitRateUnit()"
+  desc: "Creates a new instance of BitRateUnit value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit.BPS"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit.BPS"
+  name: "BPS"
+  nameWithType: "BitRateUnit.BPS"
+  summary: "Bit rate unit in bits per second."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit?alt=com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit&text=BitRateUnit\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final BitRateUnit BPS"
+  desc: "Bit rate unit in bits per second."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit.GBPS"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit.GBPS"
+  name: "GBPS"
+  nameWithType: "BitRateUnit.GBPS"
+  summary: "Bit rate unit in gigabits per second."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit?alt=com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit&text=BitRateUnit\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final BitRateUnit GBPS"
+  desc: "Bit rate unit in gigabits per second."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit.KBPS"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit.KBPS"
+  name: "KBPS"
+  nameWithType: "BitRateUnit.KBPS"
+  summary: "Bit rate unit in kilobits per second."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit?alt=com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit&text=BitRateUnit\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final BitRateUnit KBPS"
+  desc: "Bit rate unit in kilobits per second."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit.MBPS"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit.MBPS"
+  name: "MBPS"
+  nameWithType: "BitRateUnit.MBPS"
+  summary: "Bit rate unit in megabits per second."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit?alt=com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit&text=BitRateUnit\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final BitRateUnit MBPS"
+  desc: "Bit rate unit in megabits per second."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit.PPS"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit.PPS"
+  name: "PPS"
+  nameWithType: "BitRateUnit.PPS"
+  summary: "Bit rate unit in packets per second."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit?alt=com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit&text=BitRateUnit\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final BitRateUnit PPS"
+  desc: "Bit rate unit in packets per second."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "BitRateUnit.fromString(String name)"
+  summary: "Creates or finds a Bit<wbr>Rate<wbr>Unit from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static BitRateUnit fromString(String name)"
+  desc: "Creates or finds a BitRateUnit from its string representation."
+  returns:
+    description: "the corresponding BitRateUnit."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit?alt=com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit&text=BitRateUnit\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit.values()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit.values()"
+  name: "values()"
+  nameWithType: "BitRateUnit.values()"
+  summary: "Gets known Bit<wbr>Rate<wbr>Unit values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<BitRateUnit> values()"
+  desc: "Gets known BitRateUnit values."
+  returns:
+    description: "known BitRateUnit values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit?alt=com.azure.resourcemanager.managednetworkfabric.models.BitRateUnit&text=BitRateUnit\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Bit rate unit."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

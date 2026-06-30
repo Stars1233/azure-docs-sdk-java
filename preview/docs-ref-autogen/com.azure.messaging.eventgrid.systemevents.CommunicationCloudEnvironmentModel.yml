@@ -3,7 +3,7 @@ uid: "com.azure.messaging.eventgrid.systemevents.CommunicationCloudEnvironmentMo
 fullName: "com.azure.messaging.eventgrid.systemevents.CommunicationCloudEnvironmentModel"
 name: "CommunicationCloudEnvironmentModel"
 nameWithType: "CommunicationCloudEnvironmentModel"
-summary: "Communication cloud environment model."
+summary: "The cloud that the identifier belongs to."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -13,7 +13,6 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
@@ -42,38 +41,38 @@ fields:
   fullName: "com.azure.messaging.eventgrid.systemevents.CommunicationCloudEnvironmentModel.DOD"
   name: "DOD"
   nameWithType: "CommunicationCloudEnvironmentModel.DOD"
-  summary: "Dod."
+  summary: "Static value dod for Communication<wbr>Cloud<wbr>Environment<wbr>Model."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationCloudEnvironmentModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationCloudEnvironmentModel&text=CommunicationCloudEnvironmentModel\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final CommunicationCloudEnvironmentModel DOD"
-  desc: "Dod."
+  desc: "Static value dod for CommunicationCloudEnvironmentModel."
 - uid: "com.azure.messaging.eventgrid.systemevents.CommunicationCloudEnvironmentModel.GCCH"
   fullName: "com.azure.messaging.eventgrid.systemevents.CommunicationCloudEnvironmentModel.GCCH"
   name: "GCCH"
   nameWithType: "CommunicationCloudEnvironmentModel.GCCH"
-  summary: "Gcch."
+  summary: "Static value gcch for Communication<wbr>Cloud<wbr>Environment<wbr>Model."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationCloudEnvironmentModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationCloudEnvironmentModel&text=CommunicationCloudEnvironmentModel\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final CommunicationCloudEnvironmentModel GCCH"
-  desc: "Gcch."
+  desc: "Static value gcch for CommunicationCloudEnvironmentModel."
 - uid: "com.azure.messaging.eventgrid.systemevents.CommunicationCloudEnvironmentModel.PUBLIC"
   fullName: "com.azure.messaging.eventgrid.systemevents.CommunicationCloudEnvironmentModel.PUBLIC"
   name: "PUBLIC"
   nameWithType: "CommunicationCloudEnvironmentModel.PUBLIC"
-  summary: "Public."
+  summary: "Static value public for Communication<wbr>Cloud<wbr>Environment<wbr>Model."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationCloudEnvironmentModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationCloudEnvironmentModel&text=CommunicationCloudEnvironmentModel\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final CommunicationCloudEnvironmentModel PUBLIC"
-  desc: "Public."
+  desc: "Static value public for CommunicationCloudEnvironmentModel."
 methods:
 - uid: "com.azure.messaging.eventgrid.systemevents.CommunicationCloudEnvironmentModel.fromString(java.lang.String)"
   fullName: "com.azure.messaging.eventgrid.systemevents.CommunicationCloudEnvironmentModel.fromString(String name)"
@@ -104,7 +103,7 @@ methods:
     description: "known CommunicationCloudEnvironmentModel values."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.CommunicationCloudEnvironmentModel?alt=com.azure.messaging.eventgrid.systemevents.CommunicationCloudEnvironmentModel&text=CommunicationCloudEnvironmentModel\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
-desc: "Communication cloud environment model."
+desc: "The cloud that the identifier belongs to."
 metadata: {}
 package: "com.azure.messaging.eventgrid.systemevents"
-artifact: com.azure:azure-messaging-eventgrid-systemevents:1.0.0-beta.2
+artifact: com.azure:azure-messaging-eventgrid:4.21.0-beta.1

@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **SharingStatus**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.SharingStatus?alt=com.azure.resourcemanager.compute.models.SharingStatus&text=SharingStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.compute.models.SharingStatus.SharingStatus()"
-  fullName: "com.azure.resourcemanager.compute.models.SharingStatus.SharingStatus()"
-  name: "SharingStatus()"
-  nameWithType: "SharingStatus.SharingStatus()"
-  summary: "Creates an instance of Sharing<wbr>Status class."
-  syntax: "public SharingStatus()"
-  desc: "Creates an instance of SharingStatus class."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.SharingStatus.aggregatedState()"
   fullName: "com.azure.resourcemanager.compute.models.SharingStatus.aggregatedState()"
@@ -88,24 +80,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.compute.models.SharingStatus.withSummary(java.util.List<com.azure.resourcemanager.compute.models.RegionalSharingStatus>)"
-  fullName: "com.azure.resourcemanager.compute.models.SharingStatus.withSummary(List<RegionalSharingStatus> summary)"
-  name: "withSummary(List<RegionalSharingStatus> summary)"
-  nameWithType: "SharingStatus.withSummary(List<RegionalSharingStatus> summary)"
-  summary: "Set the summary property: Summary of all regional sharing status."
-  parameters:
-  - description: "the summary value to set."
-    name: "summary"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.RegionalSharingStatus?alt=com.azure.resourcemanager.compute.models.RegionalSharingStatus&text=RegionalSharingStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public SharingStatus withSummary(List<RegionalSharingStatus> summary)"
-  desc: "Set the summary property: Summary of all regional sharing status."
-  returns:
-    description: "the SharingStatus object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.SharingStatus?alt=com.azure.resourcemanager.compute.models.SharingStatus&text=SharingStatus\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Sharing status of current gallery."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.SharingStatus?alt=com.azure.resourcemanager.compute.models.SharingStatus&text=SharingStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

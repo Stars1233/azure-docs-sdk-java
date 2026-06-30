@@ -109,6 +109,16 @@ methods:
   returns:
     description: "the httpGatewayEndpointPort value."
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.servicefabric.models.NodeTypeDescription.httpGatewayTokenAuthEndpointPort()"
+  fullName: "com.azure.resourcemanager.servicefabric.models.NodeTypeDescription.httpGatewayTokenAuthEndpointPort()"
+  name: "httpGatewayTokenAuthEndpointPort()"
+  nameWithType: "NodeTypeDescription.httpGatewayTokenAuthEndpointPort()"
+  summary: "Get the http<wbr>Gateway<wbr>Token<wbr>Auth<wbr>Endpoint<wbr>Port property: The port used for token-auth based HTTPS connections to the cluster."
+  syntax: "public Integer httpGatewayTokenAuthEndpointPort()"
+  desc: "Get the httpGatewayTokenAuthEndpointPort property: The port used for token-auth based HTTPS connections to the cluster. Cannot be set to the same port as HttpGatewayEndpoint."
+  returns:
+    description: "the httpGatewayTokenAuthEndpointPort value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
 - uid: "com.azure.resourcemanager.servicefabric.models.NodeTypeDescription.isPrimary()"
   fullName: "com.azure.resourcemanager.servicefabric.models.NodeTypeDescription.isPrimary()"
   name: "isPrimary()"
@@ -181,13 +191,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.servicefabric.models.NodeTypeDescription.validate()"
-  fullName: "com.azure.resourcemanager.servicefabric.models.NodeTypeDescription.validate()"
-  name: "validate()"
-  nameWithType: "NodeTypeDescription.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.servicefabric.models.NodeTypeDescription.vmInstanceCount()"
   fullName: "com.azure.resourcemanager.servicefabric.models.NodeTypeDescription.vmInstanceCount()"
   name: "vmInstanceCount()"
@@ -279,6 +282,20 @@ methods:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public NodeTypeDescription withHttpGatewayEndpointPort(int httpGatewayEndpointPort)"
   desc: "Set the httpGatewayEndpointPort property: The HTTP cluster management endpoint port."
+  returns:
+    description: "the NodeTypeDescription object itself."
+    type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.NodeTypeDescription?alt=com.azure.resourcemanager.servicefabric.models.NodeTypeDescription&text=NodeTypeDescription\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.servicefabric.models.NodeTypeDescription.withHttpGatewayTokenAuthEndpointPort(java.lang.Integer)"
+  fullName: "com.azure.resourcemanager.servicefabric.models.NodeTypeDescription.withHttpGatewayTokenAuthEndpointPort(Integer httpGatewayTokenAuthEndpointPort)"
+  name: "withHttpGatewayTokenAuthEndpointPort(Integer httpGatewayTokenAuthEndpointPort)"
+  nameWithType: "NodeTypeDescription.withHttpGatewayTokenAuthEndpointPort(Integer httpGatewayTokenAuthEndpointPort)"
+  summary: "Set the http<wbr>Gateway<wbr>Token<wbr>Auth<wbr>Endpoint<wbr>Port property: The port used for token-auth based HTTPS connections to the cluster."
+  parameters:
+  - description: "the httpGatewayTokenAuthEndpointPort value to set."
+    name: "httpGatewayTokenAuthEndpointPort"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+  syntax: "public NodeTypeDescription withHttpGatewayTokenAuthEndpointPort(Integer httpGatewayTokenAuthEndpointPort)"
+  desc: "Set the httpGatewayTokenAuthEndpointPort property: The port used for token-auth based HTTPS connections to the cluster. Cannot be set to the same port as HttpGatewayEndpoint."
   returns:
     description: "the NodeTypeDescription object itself."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.NodeTypeDescription?alt=com.azure.resourcemanager.servicefabric.models.NodeTypeDescription&text=NodeTypeDescription\" data-throw-if-not-resolved=\"False\" />"
@@ -386,4 +403,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.models.NodeTypeDescription?alt=com.azure.resourcemanager.servicefabric.models.NodeTypeDescription&text=NodeTypeDescription\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.compute.models.AvailabilityPolicyDiskDelay.AUTOMATIC_REATTACH"
   name: "AUTOMATIC_REATTACH"
   nameWithType: "AvailabilityPolicyDiskDelay.AUTOMATIC_REATTACH"
-  summary: "Static value Automatic<wbr>Reattach for Availability<wbr>Policy<wbr>Disk<wbr>Delay."
+  summary: "Upon a disk io failure or slow response, try detaching then reattaching the disk."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.AvailabilityPolicyDiskDelay?alt=com.azure.resourcemanager.compute.models.AvailabilityPolicyDiskDelay&text=AvailabilityPolicyDiskDelay\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AvailabilityPolicyDiskDelay AUTOMATIC_REATTACH"
-  desc: "Static value AutomaticReattach for AvailabilityPolicyDiskDelay."
+  desc: "Upon a disk io failure or slow response, try detaching then reattaching the disk."
 - uid: "com.azure.resourcemanager.compute.models.AvailabilityPolicyDiskDelay.NONE"
   fullName: "com.azure.resourcemanager.compute.models.AvailabilityPolicyDiskDelay.NONE"
   name: "NONE"
   nameWithType: "AvailabilityPolicyDiskDelay.NONE"
-  summary: "Static value None for Availability<wbr>Policy<wbr>Disk<wbr>Delay."
+  summary: "Defaults to behavior without av policy specified, which is VM restart upon slow disk io."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.AvailabilityPolicyDiskDelay?alt=com.azure.resourcemanager.compute.models.AvailabilityPolicyDiskDelay&text=AvailabilityPolicyDiskDelay\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AvailabilityPolicyDiskDelay NONE"
-  desc: "Static value None for AvailabilityPolicyDiskDelay."
+  desc: "Defaults to behavior without av policy specified, which is VM restart upon slow disk io."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.AvailabilityPolicyDiskDelay.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.models.AvailabilityPolicyDiskDelay.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Determines on how to handle disks with slow I/O."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

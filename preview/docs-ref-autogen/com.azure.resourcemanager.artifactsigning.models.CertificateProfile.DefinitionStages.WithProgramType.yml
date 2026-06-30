@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithProgramType"
+fullName: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithProgramType"
+name: "CertificateProfile.DefinitionStages.WithProgramType"
+nameWithType: "CertificateProfile.DefinitionStages.WithProgramType"
+summary: "The stage of the Certificate<wbr>Profile definition allowing to specify program<wbr>Type."
+syntax: "public static interface **CertificateProfile.DefinitionStages.WithProgramType**"
+methods:
+- uid: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithProgramType.withProgramType(java.lang.String)"
+  fullName: "com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithProgramType.withProgramType(String programType)"
+  name: "withProgramType(String programType)"
+  nameWithType: "CertificateProfile.DefinitionStages.WithProgramType.withProgramType(String programType)"
+  summary: "Specifies the program<wbr>Type property: Indicates whether the resource is intended for a specific usage scenario.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Indicates whether the resource is intended for a specific usage scenario."
+    name: "programType"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract CertificateProfile.DefinitionStages.WithCreate withProgramType(String programType)"
+  desc: "Specifies the programType property: Indicates whether the resource is intended for a specific usage scenario.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.artifactsigning.models.CertificateProfile.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the CertificateProfile definition allowing to specify programType."
+metadata: {}
+package: "com.azure.resourcemanager.artifactsigning.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-artifactsigning:1.1.0-beta.1

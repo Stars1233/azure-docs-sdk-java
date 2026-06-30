@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **TriggerStatus**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.imagebuilder.models.TriggerStatus?alt=com.azure.resourcemanager.imagebuilder.models.TriggerStatus&text=TriggerStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.imagebuilder.models.TriggerStatus.TriggerStatus()"
-  fullName: "com.azure.resourcemanager.imagebuilder.models.TriggerStatus.TriggerStatus()"
-  name: "TriggerStatus()"
-  nameWithType: "TriggerStatus.TriggerStatus()"
-  summary: "Creates an instance of Trigger<wbr>Status class."
-  syntax: "public TriggerStatus()"
-  desc: "Creates an instance of TriggerStatus class."
 methods:
 - uid: "com.azure.resourcemanager.imagebuilder.models.TriggerStatus.code()"
   fullName: "com.azure.resourcemanager.imagebuilder.models.TriggerStatus.code()"
@@ -91,17 +83,10 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.imagebuilder.models.TriggerStatus.validate()"
-  fullName: "com.azure.resourcemanager.imagebuilder.models.TriggerStatus.validate()"
-  name: "validate()"
-  nameWithType: "TriggerStatus.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 type: "class"
 desc: "Describes the status of a trigger."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.imagebuilder.models.TriggerStatus?alt=com.azure.resourcemanager.imagebuilder.models.TriggerStatus&text=TriggerStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.imagebuilder.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-imagebuilder:1.2.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-imagebuilder:1.3.0

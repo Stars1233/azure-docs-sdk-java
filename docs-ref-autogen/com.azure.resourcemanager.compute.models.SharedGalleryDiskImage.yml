@@ -27,7 +27,9 @@ constructors:
   name: "SharedGalleryDiskImage()"
   nameWithType: "SharedGalleryDiskImage.SharedGalleryDiskImage()"
   summary: "Creates an instance of Shared<wbr>Gallery<wbr>Disk<wbr>Image class."
-  syntax: "public SharedGalleryDiskImage()"
+  modifiers:
+  - "protected"
+  syntax: "protected SharedGalleryDiskImage()"
   desc: "Creates an instance of SharedGalleryDiskImage class."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.SharedGalleryDiskImage.diskSizeGB()"
@@ -88,24 +90,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.compute.models.SharedGalleryDiskImage.withHostCaching(com.azure.resourcemanager.compute.models.SharedGalleryHostCaching)"
-  fullName: "com.azure.resourcemanager.compute.models.SharedGalleryDiskImage.withHostCaching(SharedGalleryHostCaching hostCaching)"
-  name: "withHostCaching(SharedGalleryHostCaching hostCaching)"
-  nameWithType: "SharedGalleryDiskImage.withHostCaching(SharedGalleryHostCaching hostCaching)"
-  summary: "Set the host<wbr>Caching property: The host caching of the disk."
-  parameters:
-  - description: "the hostCaching value to set."
-    name: "hostCaching"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.SharedGalleryHostCaching?alt=com.azure.resourcemanager.compute.models.SharedGalleryHostCaching&text=SharedGalleryHostCaching\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public SharedGalleryDiskImage withHostCaching(SharedGalleryHostCaching hostCaching)"
-  desc: "Set the hostCaching property: The host caching of the disk. Valid values are 'None', 'ReadOnly', and 'ReadWrite'."
-  returns:
-    description: "the SharedGalleryDiskImage object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.SharedGalleryDiskImage?alt=com.azure.resourcemanager.compute.models.SharedGalleryDiskImage&text=SharedGalleryDiskImage\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "This is the disk image base class."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.SharedGalleryDiskImage?alt=com.azure.resourcemanager.compute.models.SharedGalleryDiskImage&text=SharedGalleryDiskImage\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

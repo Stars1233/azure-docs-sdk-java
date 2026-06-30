@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected"
+name: "RequirementSelected"
+nameWithType: "RequirementSelected"
+summary: "Enum for the requirement status of the resource in the goal."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **RequirementSelected**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected?alt=com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected&text=RequirementSelected\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected.RequirementSelected()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected.RequirementSelected()"
+  name: "RequirementSelected()"
+  nameWithType: "RequirementSelected.RequirementSelected()"
+  summary: "Creates a new instance of Requirement<wbr>Selected value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public RequirementSelected()"
+  desc: "Creates a new instance of RequirementSelected value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected.NOT_REQUIRED"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected.NOT_REQUIRED"
+  name: "NOT_REQUIRED"
+  nameWithType: "RequirementSelected.NOT_REQUIRED"
+  summary: "The resource is not required for the specified goal."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected?alt=com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected&text=RequirementSelected\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RequirementSelected NOT_REQUIRED"
+  desc: "The resource is not required for the specified goal."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected.REQUIRED"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected.REQUIRED"
+  name: "REQUIRED"
+  nameWithType: "RequirementSelected.REQUIRED"
+  summary: "The resource is required for the specified goal."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected?alt=com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected&text=RequirementSelected\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RequirementSelected REQUIRED"
+  desc: "The resource is required for the specified goal."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "RequirementSelected.fromString(String name)"
+  summary: "Creates or finds a Requirement<wbr>Selected from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static RequirementSelected fromString(String name)"
+  desc: "Creates or finds a RequirementSelected from its string representation."
+  returns:
+    description: "the corresponding RequirementSelected."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected?alt=com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected&text=RequirementSelected\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected.values()"
+  name: "values()"
+  nameWithType: "RequirementSelected.values()"
+  summary: "Gets known Requirement<wbr>Selected values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<RequirementSelected> values()"
+  desc: "Gets known RequirementSelected values."
+  returns:
+    description: "known RequirementSelected values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected?alt=com.azure.resourcemanager.resiliencemanagement.models.RequirementSelected&text=RequirementSelected\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Enum for the requirement status of the resource in the goal."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0-beta.1

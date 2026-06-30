@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.GatewayType.INFRASTRUCTURE"
   name: "INFRASTRUCTURE"
   nameWithType: "GatewayType.INFRASTRUCTURE"
-  summary: "Static value Infrastructure for Gateway<wbr>Type."
+  summary: "Gateway<wbr>Type Infrastructure."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.GatewayType?alt=com.azure.resourcemanager.managednetworkfabric.models.GatewayType&text=GatewayType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final GatewayType INFRASTRUCTURE"
-  desc: "Static value Infrastructure for GatewayType."
+  desc: "GatewayType Infrastructure."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.GatewayType.WORKLOAD"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.GatewayType.WORKLOAD"
   name: "WORKLOAD"
   nameWithType: "GatewayType.WORKLOAD"
-  summary: "Static value Workload for Gateway<wbr>Type."
+  summary: "Gateway<wbr>Type Workload."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.GatewayType?alt=com.azure.resourcemanager.managednetworkfabric.models.GatewayType&text=GatewayType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final GatewayType WORKLOAD"
-  desc: "Static value Workload for GatewayType."
+  desc: "GatewayType Workload."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.GatewayType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.GatewayType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Gateway Type of the resource."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

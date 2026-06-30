@@ -22,11 +22,11 @@ methods:
   fullName: "com.azure.resourcemanager.servicefabric.models.UpgradableVersionPathResult.supportedPath()"
   name: "supportedPath()"
   nameWithType: "UpgradableVersionPathResult.supportedPath()"
-  summary: "Gets the supported<wbr>Path property: The supported<wbr>Path property."
+  summary: "Gets the supported<wbr>Path property: The list of intermediate cluster code versions for an upgrade or downgrade."
   modifiers:
   - "abstract"
   syntax: "public abstract List<String> supportedPath()"
-  desc: "Gets the supportedPath property: The supportedPath property."
+  desc: "Gets the supportedPath property: The list of intermediate cluster code versions for an upgrade or downgrade."
   returns:
     description: "the supportedPath value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
@@ -34,4 +34,4 @@ type: "interface"
 desc: "An immutable client-side representation of UpgradableVersionPathResult."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

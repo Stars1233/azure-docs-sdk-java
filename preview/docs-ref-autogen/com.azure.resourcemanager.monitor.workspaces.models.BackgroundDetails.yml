@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails"
+fullName: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails"
+name: "BackgroundDetails"
+nameWithType: "BackgroundDetails"
+summary: "A background details element."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **BackgroundDetails**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails?alt=com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails&text=BackgroundDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails.BackgroundDetails()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails.BackgroundDetails()"
+  name: "BackgroundDetails()"
+  nameWithType: "BackgroundDetails.BackgroundDetails()"
+  summary: "Creates an instance of Background<wbr>Details class."
+  syntax: "public BackgroundDetails()"
+  desc: "Creates an instance of BackgroundDetails class."
+methods:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "BackgroundDetails.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Background<wbr>Details from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static BackgroundDetails fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of BackgroundDetails from the JsonReader."
+  returns:
+    description: "An instance of BackgroundDetails if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails?alt=com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails&text=BackgroundDetails\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails.name()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails.name()"
+  name: "name()"
+  nameWithType: "BackgroundDetails.name()"
+  summary: "Get the name property: The background details name."
+  syntax: "public String name()"
+  desc: "Get the name property: The background details name."
+  returns:
+    description: "the name value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "BackgroundDetails.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails.value()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails.value()"
+  name: "value()"
+  nameWithType: "BackgroundDetails.value()"
+  summary: "Get the value property: The background details value."
+  syntax: "public String value()"
+  desc: "Get the value property: The background details value."
+  returns:
+    description: "the value value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails.withName(java.lang.String)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails.withName(String name)"
+  name: "withName(String name)"
+  nameWithType: "BackgroundDetails.withName(String name)"
+  summary: "Set the name property: The background details name."
+  parameters:
+  - description: "the name value to set."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public BackgroundDetails withName(String name)"
+  desc: "Set the name property: The background details name."
+  returns:
+    description: "the BackgroundDetails object itself."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails?alt=com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails&text=BackgroundDetails\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails.withValue(java.lang.String)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails.withValue(String value)"
+  name: "withValue(String value)"
+  nameWithType: "BackgroundDetails.withValue(String value)"
+  summary: "Set the value property: The background details value."
+  parameters:
+  - description: "the value value to set."
+    name: "value"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public BackgroundDetails withValue(String value)"
+  desc: "Set the value property: The background details value."
+  returns:
+    description: "the BackgroundDetails object itself."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails?alt=com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails&text=BackgroundDetails\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "A background details element."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails?alt=com.azure.resourcemanager.monitor.workspaces.models.BackgroundDetails&text=BackgroundDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.monitor.workspaces.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor-workspaces:1.0.0-beta.1

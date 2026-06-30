@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **PrivateLinkResource**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.PrivateLinkResource?alt=com.azure.resourcemanager.compute.models.PrivateLinkResource&text=PrivateLinkResource\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.compute.models.PrivateLinkResource.PrivateLinkResource()"
-  fullName: "com.azure.resourcemanager.compute.models.PrivateLinkResource.PrivateLinkResource()"
-  name: "PrivateLinkResource()"
-  nameWithType: "PrivateLinkResource.PrivateLinkResource()"
-  summary: "Creates an instance of Private<wbr>Link<wbr>Resource class."
-  syntax: "public PrivateLinkResource()"
-  desc: "Creates an instance of PrivateLinkResource class."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.PrivateLinkResource.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.compute.models.PrivateLinkResource.fromJson(JsonReader jsonReader)"
@@ -128,24 +120,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.compute.models.PrivateLinkResource.withRequiredZoneNames(java.util.List<java.lang.String>)"
-  fullName: "com.azure.resourcemanager.compute.models.PrivateLinkResource.withRequiredZoneNames(List<String> requiredZoneNames)"
-  name: "withRequiredZoneNames(List<String> requiredZoneNames)"
-  nameWithType: "PrivateLinkResource.withRequiredZoneNames(List<String> requiredZoneNames)"
-  summary: "Set the required<wbr>Zone<wbr>Names property: The private link resource DNS zone name."
-  parameters:
-  - description: "the requiredZoneNames value to set."
-    name: "requiredZoneNames"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public PrivateLinkResource withRequiredZoneNames(List<String> requiredZoneNames)"
-  desc: "Set the requiredZoneNames property: The private link resource DNS zone name."
-  returns:
-    description: "the PrivateLinkResource object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.PrivateLinkResource?alt=com.azure.resourcemanager.compute.models.PrivateLinkResource&text=PrivateLinkResource\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "A private link resource."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.PrivateLinkResource?alt=com.azure.resourcemanager.compute.models.PrivateLinkResource&text=PrivateLinkResource\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.ConfigurationType.FILE"
   name: "FILE"
   nameWithType: "ConfigurationType.FILE"
-  summary: "Static value File for Configuration<wbr>Type."
+  summary: "File Configuration Type."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ConfigurationType?alt=com.azure.resourcemanager.managednetworkfabric.models.ConfigurationType&text=ConfigurationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ConfigurationType FILE"
-  desc: "Static value File for ConfigurationType."
+  desc: "File Configuration Type."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.ConfigurationType.INLINE"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.ConfigurationType.INLINE"
   name: "INLINE"
   nameWithType: "ConfigurationType.INLINE"
-  summary: "Static value Inline for Configuration<wbr>Type."
+  summary: "Inline Configuration Type."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ConfigurationType?alt=com.azure.resourcemanager.managednetworkfabric.models.ConfigurationType&text=ConfigurationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ConfigurationType INLINE"
-  desc: "Static value Inline for ConfigurationType."
+  desc: "Inline Configuration Type."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.ConfigurationType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.ConfigurationType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Input method to configure Access Control List."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

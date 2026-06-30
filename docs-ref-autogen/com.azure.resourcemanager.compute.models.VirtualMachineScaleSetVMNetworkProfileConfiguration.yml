@@ -49,6 +49,16 @@ methods:
   returns:
     description: "An instance of VirtualMachineScaleSetVMNetworkProfileConfiguration if the JsonReader was pointing to an\n instance of it, or null if it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMNetworkProfileConfiguration?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMNetworkProfileConfiguration&text=VirtualMachineScaleSetVMNetworkProfileConfiguration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMNetworkProfileConfiguration.interconnectGroupProfile()"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMNetworkProfileConfiguration.interconnectGroupProfile()"
+  name: "interconnectGroupProfile()"
+  nameWithType: "VirtualMachineScaleSetVMNetworkProfileConfiguration.interconnectGroupProfile()"
+  summary: "Get the interconnect<wbr>Group<wbr>Profile property: Specifies the interconnect group profile to associate with the scale set vm instance."
+  syntax: "public InterconnectGroupProfile interconnectGroupProfile()"
+  desc: "Get the interconnectGroupProfile property: Specifies the interconnect group profile to associate with the scale set vm instance. Minimum api-version: 2026-03-01."
+  returns:
+    description: "the interconnectGroupProfile value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.InterconnectGroupProfile?alt=com.azure.resourcemanager.compute.models.InterconnectGroupProfile&text=InterconnectGroupProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMNetworkProfileConfiguration.networkInterfaceConfigurations()"
   fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMNetworkProfileConfiguration.networkInterfaceConfigurations()"
   name: "networkInterfaceConfigurations()"
@@ -78,6 +88,20 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMNetworkProfileConfiguration.withInterconnectGroupProfile(com.azure.resourcemanager.compute.models.InterconnectGroupProfile)"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMNetworkProfileConfiguration.withInterconnectGroupProfile(InterconnectGroupProfile interconnectGroupProfile)"
+  name: "withInterconnectGroupProfile(InterconnectGroupProfile interconnectGroupProfile)"
+  nameWithType: "VirtualMachineScaleSetVMNetworkProfileConfiguration.withInterconnectGroupProfile(InterconnectGroupProfile interconnectGroupProfile)"
+  summary: "Set the interconnect<wbr>Group<wbr>Profile property: Specifies the interconnect group profile to associate with the scale set vm instance."
+  parameters:
+  - description: "the interconnectGroupProfile value to set."
+    name: "interconnectGroupProfile"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.InterconnectGroupProfile?alt=com.azure.resourcemanager.compute.models.InterconnectGroupProfile&text=InterconnectGroupProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public VirtualMachineScaleSetVMNetworkProfileConfiguration withInterconnectGroupProfile(InterconnectGroupProfile interconnectGroupProfile)"
+  desc: "Set the interconnectGroupProfile property: Specifies the interconnect group profile to associate with the scale set vm instance. Minimum api-version: 2026-03-01."
+  returns:
+    description: "the VirtualMachineScaleSetVMNetworkProfileConfiguration object itself."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMNetworkProfileConfiguration?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMNetworkProfileConfiguration&text=VirtualMachineScaleSetVMNetworkProfileConfiguration\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMNetworkProfileConfiguration.withNetworkInterfaceConfigurations(java.util.List<com.azure.resourcemanager.compute.models.VirtualMachineScaleSetNetworkConfiguration>)"
   fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMNetworkProfileConfiguration.withNetworkInterfaceConfigurations(List<VirtualMachineScaleSetNetworkConfiguration> networkInterfaceConfigurations)"
   name: "withNetworkInterfaceConfigurations(List<VirtualMachineScaleSetNetworkConfiguration> networkInterfaceConfigurations)"
@@ -98,4 +122,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMNetworkProfileConfiguration?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMNetworkProfileConfiguration&text=VirtualMachineScaleSetVMNetworkProfileConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

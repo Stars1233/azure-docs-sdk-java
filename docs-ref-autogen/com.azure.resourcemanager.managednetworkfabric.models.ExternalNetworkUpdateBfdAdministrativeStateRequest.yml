@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest"
+name: "ExternalNetworkUpdateBfdAdministrativeStateRequest"
+nameWithType: "ExternalNetworkUpdateBfdAdministrativeStateRequest"
+summary: "External Network Update Administrative State request."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ExternalNetworkUpdateBfdAdministrativeStateRequest**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest&text=ExternalNetworkUpdateBfdAdministrativeStateRequest\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest.ExternalNetworkUpdateBfdAdministrativeStateRequest()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest.ExternalNetworkUpdateBfdAdministrativeStateRequest()"
+  name: "ExternalNetworkUpdateBfdAdministrativeStateRequest()"
+  nameWithType: "ExternalNetworkUpdateBfdAdministrativeStateRequest.ExternalNetworkUpdateBfdAdministrativeStateRequest()"
+  summary: "Creates an instance of External<wbr>Network<wbr>Update<wbr>Bfd<wbr>Administrative<wbr>State<wbr>Request class."
+  syntax: "public ExternalNetworkUpdateBfdAdministrativeStateRequest()"
+  desc: "Creates an instance of ExternalNetworkUpdateBfdAdministrativeStateRequest class."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest.administrativeState()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest.administrativeState()"
+  name: "administrativeState()"
+  nameWithType: "ExternalNetworkUpdateBfdAdministrativeStateRequest.administrativeState()"
+  summary: "Get the administrative<wbr>State property: Administrative state."
+  syntax: "public BfdAdministrativeState administrativeState()"
+  desc: "Get the administrativeState property: Administrative state."
+  returns:
+    description: "the administrativeState value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState&text=BfdAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ExternalNetworkUpdateBfdAdministrativeStateRequest.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of External<wbr>Network<wbr>Update<wbr>Bfd<wbr>Administrative<wbr>State<wbr>Request from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ExternalNetworkUpdateBfdAdministrativeStateRequest fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ExternalNetworkUpdateBfdAdministrativeStateRequest."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ExternalNetworkUpdateBfdAdministrativeStateRequest from the JsonReader."
+  returns:
+    description: "An instance of ExternalNetworkUpdateBfdAdministrativeStateRequest if the JsonReader was pointing to an\n instance of it, or null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest&text=ExternalNetworkUpdateBfdAdministrativeStateRequest\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest.routeType()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest.routeType()"
+  name: "routeType()"
+  nameWithType: "ExternalNetworkUpdateBfdAdministrativeStateRequest.routeType()"
+  summary: "Get the route<wbr>Type property: Route Type that helps to know which bfd we are updating."
+  syntax: "public ExternalNetworkRouteType routeType()"
+  desc: "Get the routeType property: Route Type that helps to know which bfd we are updating."
+  returns:
+    description: "the routeType value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType&text=ExternalNetworkRouteType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ExternalNetworkUpdateBfdAdministrativeStateRequest.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest.withAdministrativeState(com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest.withAdministrativeState(BfdAdministrativeState administrativeState)"
+  name: "withAdministrativeState(BfdAdministrativeState administrativeState)"
+  nameWithType: "ExternalNetworkUpdateBfdAdministrativeStateRequest.withAdministrativeState(BfdAdministrativeState administrativeState)"
+  summary: "Set the administrative<wbr>State property: Administrative state."
+  parameters:
+  - description: "the administrativeState value to set."
+    name: "administrativeState"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState&text=BfdAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ExternalNetworkUpdateBfdAdministrativeStateRequest withAdministrativeState(BfdAdministrativeState administrativeState)"
+  desc: "Set the administrativeState property: Administrative state."
+  returns:
+    description: "the ExternalNetworkUpdateBfdAdministrativeStateRequest object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest&text=ExternalNetworkUpdateBfdAdministrativeStateRequest\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest.withRouteType(com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest.withRouteType(ExternalNetworkRouteType routeType)"
+  name: "withRouteType(ExternalNetworkRouteType routeType)"
+  nameWithType: "ExternalNetworkUpdateBfdAdministrativeStateRequest.withRouteType(ExternalNetworkRouteType routeType)"
+  summary: "Set the route<wbr>Type property: Route Type that helps to know which bfd we are updating."
+  parameters:
+  - description: "the routeType value to set."
+    name: "routeType"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType&text=ExternalNetworkRouteType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ExternalNetworkUpdateBfdAdministrativeStateRequest withRouteType(ExternalNetworkRouteType routeType)"
+  desc: "Set the routeType property: Route Type that helps to know which bfd we are updating."
+  returns:
+    description: "the ExternalNetworkUpdateBfdAdministrativeStateRequest object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest&text=ExternalNetworkUpdateBfdAdministrativeStateRequest\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "External Network Update Administrative State request."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkUpdateBfdAdministrativeStateRequest&text=ExternalNetworkUpdateBfdAdministrativeStateRequest\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

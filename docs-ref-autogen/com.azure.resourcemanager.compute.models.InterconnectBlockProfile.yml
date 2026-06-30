@@ -1,0 +1,101 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.compute.models.InterconnectBlockProfile"
+fullName: "com.azure.resourcemanager.compute.models.InterconnectBlockProfile"
+name: "InterconnectBlockProfile"
+nameWithType: "InterconnectBlockProfile"
+summary: "The parameters of an Interconnect Block Profile."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **InterconnectBlockProfile**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.InterconnectBlockProfile?alt=com.azure.resourcemanager.compute.models.InterconnectBlockProfile&text=InterconnectBlockProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.compute.models.InterconnectBlockProfile.InterconnectBlockProfile()"
+  fullName: "com.azure.resourcemanager.compute.models.InterconnectBlockProfile.InterconnectBlockProfile()"
+  name: "InterconnectBlockProfile()"
+  nameWithType: "InterconnectBlockProfile.InterconnectBlockProfile()"
+  summary: "Creates an instance of Interconnect<wbr>Block<wbr>Profile class."
+  syntax: "public InterconnectBlockProfile()"
+  desc: "Creates an instance of InterconnectBlockProfile class."
+methods:
+- uid: "com.azure.resourcemanager.compute.models.InterconnectBlockProfile.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.compute.models.InterconnectBlockProfile.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "InterconnectBlockProfile.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Interconnect<wbr>Block<wbr>Profile from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static InterconnectBlockProfile fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the InterconnectBlockProfile."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of InterconnectBlockProfile from the JsonReader."
+  returns:
+    description: "An instance of InterconnectBlockProfile if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.InterconnectBlockProfile?alt=com.azure.resourcemanager.compute.models.InterconnectBlockProfile&text=InterconnectBlockProfile\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.InterconnectBlockProfile.interconnectBlock()"
+  fullName: "com.azure.resourcemanager.compute.models.InterconnectBlockProfile.interconnectBlock()"
+  name: "interconnectBlock()"
+  nameWithType: "InterconnectBlockProfile.interconnectBlock()"
+  summary: "Get the interconnect<wbr>Block property: Specifies the Interconnect Block resource ID that should be used for allocating the Virtual Machine or Scale Set VM instances provided enough capacity has been reserved."
+  syntax: "public ApiEntityReference interconnectBlock()"
+  desc: "Get the interconnectBlock property: Specifies the Interconnect Block resource ID that should be used for allocating the Virtual Machine or Scale Set VM instances provided enough capacity has been reserved."
+  returns:
+    description: "the interconnectBlock value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.ApiEntityReference?alt=com.azure.resourcemanager.compute.models.ApiEntityReference&text=ApiEntityReference\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.InterconnectBlockProfile.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.compute.models.InterconnectBlockProfile.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "InterconnectBlockProfile.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.InterconnectBlockProfile.validate()"
+  fullName: "com.azure.resourcemanager.compute.models.InterconnectBlockProfile.validate()"
+  name: "validate()"
+  nameWithType: "InterconnectBlockProfile.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.compute.models.InterconnectBlockProfile.withInterconnectBlock(com.azure.resourcemanager.compute.models.ApiEntityReference)"
+  fullName: "com.azure.resourcemanager.compute.models.InterconnectBlockProfile.withInterconnectBlock(ApiEntityReference interconnectBlock)"
+  name: "withInterconnectBlock(ApiEntityReference interconnectBlock)"
+  nameWithType: "InterconnectBlockProfile.withInterconnectBlock(ApiEntityReference interconnectBlock)"
+  summary: "Set the interconnect<wbr>Block property: Specifies the Interconnect Block resource ID that should be used for allocating the Virtual Machine or Scale Set VM instances provided enough capacity has been reserved."
+  parameters:
+  - description: "the interconnectBlock value to set."
+    name: "interconnectBlock"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.ApiEntityReference?alt=com.azure.resourcemanager.compute.models.ApiEntityReference&text=ApiEntityReference\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public InterconnectBlockProfile withInterconnectBlock(ApiEntityReference interconnectBlock)"
+  desc: "Set the interconnectBlock property: Specifies the Interconnect Block resource ID that should be used for allocating the Virtual Machine or Scale Set VM instances provided enough capacity has been reserved."
+  returns:
+    description: "the InterconnectBlockProfile object itself."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.InterconnectBlockProfile?alt=com.azure.resourcemanager.compute.models.InterconnectBlockProfile&text=InterconnectBlockProfile\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The parameters of an Interconnect Block Profile."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.InterconnectBlockProfile?alt=com.azure.resourcemanager.compute.models.InterconnectBlockProfile&text=InterconnectBlockProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.compute.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

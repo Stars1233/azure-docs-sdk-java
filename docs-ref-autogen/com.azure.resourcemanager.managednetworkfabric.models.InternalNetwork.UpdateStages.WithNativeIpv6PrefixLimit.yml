@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.UpdateStages.WithNativeIpv6PrefixLimit"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.UpdateStages.WithNativeIpv6PrefixLimit"
+name: "InternalNetwork.UpdateStages.WithNativeIpv6PrefixLimit"
+nameWithType: "InternalNetwork.UpdateStages.WithNativeIpv6PrefixLimit"
+summary: "The stage of the Internal<wbr>Network update allowing to specify native<wbr>Ipv6Prefix<wbr>Limit."
+syntax: "public static interface **InternalNetwork.UpdateStages.WithNativeIpv6PrefixLimit**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.UpdateStages.WithNativeIpv6PrefixLimit.withNativeIpv6PrefixLimit(com.azure.resourcemanager.managednetworkfabric.models.NativeIpv6PrefixLimitPatchProperties)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.UpdateStages.WithNativeIpv6PrefixLimit.withNativeIpv6PrefixLimit(NativeIpv6PrefixLimitPatchProperties nativeIpv6PrefixLimit)"
+  name: "withNativeIpv6PrefixLimit(NativeIpv6PrefixLimitPatchProperties nativeIpv6PrefixLimit)"
+  nameWithType: "InternalNetwork.UpdateStages.WithNativeIpv6PrefixLimit.withNativeIpv6PrefixLimit(NativeIpv6PrefixLimitPatchProperties nativeIpv6PrefixLimit)"
+  summary: "Specifies the native<wbr>Ipv6Prefix<wbr>Limit property: Native IPv6 Prefix Limit Configuration properties.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Native IPv6 Prefix Limit Configuration properties."
+    name: "nativeIpv6PrefixLimit"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NativeIpv6PrefixLimitPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.NativeIpv6PrefixLimitPatchProperties&text=NativeIpv6PrefixLimitPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract InternalNetwork.Update withNativeIpv6PrefixLimit(NativeIpv6PrefixLimitPatchProperties nativeIpv6PrefixLimit)"
+  desc: "Specifies the nativeIpv6PrefixLimit property: Native IPv6 Prefix Limit Configuration properties.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.Update?alt=com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the InternalNetwork update allowing to specify nativeIpv6PrefixLimit."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

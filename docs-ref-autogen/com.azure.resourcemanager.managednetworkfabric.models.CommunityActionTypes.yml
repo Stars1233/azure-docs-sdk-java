@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.managednetworkfabric.models.CommunityActionTypes
 fullName: "com.azure.resourcemanager.managednetworkfabric.models.CommunityActionTypes"
 name: "CommunityActionTypes"
 nameWithType: "CommunityActionTypes"
-summary: "community action types."
+summary: "Community action types."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.CommunityActionTypes.DENY"
   name: "DENY"
   nameWithType: "CommunityActionTypes.DENY"
-  summary: "Static value Deny for Community<wbr>Action<wbr>Types."
+  summary: "Deny Community Action Types."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommunityActionTypes?alt=com.azure.resourcemanager.managednetworkfabric.models.CommunityActionTypes&text=CommunityActionTypes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final CommunityActionTypes DENY"
-  desc: "Static value Deny for CommunityActionTypes."
+  desc: "Deny Community Action Types."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.CommunityActionTypes.PERMIT"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.CommunityActionTypes.PERMIT"
   name: "PERMIT"
   nameWithType: "CommunityActionTypes.PERMIT"
-  summary: "Static value Permit for Community<wbr>Action<wbr>Types."
+  summary: "Permit Community Action Types."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommunityActionTypes?alt=com.azure.resourcemanager.managednetworkfabric.models.CommunityActionTypes&text=CommunityActionTypes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final CommunityActionTypes PERMIT"
-  desc: "Static value Permit for CommunityActionTypes."
+  desc: "Permit Community Action Types."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.CommunityActionTypes.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.CommunityActionTypes.fromString(String name)"
@@ -92,7 +92,7 @@ methods:
     description: "known CommunityActionTypes values."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommunityActionTypes?alt=com.azure.resourcemanager.managednetworkfabric.models.CommunityActionTypes&text=CommunityActionTypes\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
-desc: "community action types. Example: Permit | Deny."
+desc: "Community action types. Example: Permit | Deny."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

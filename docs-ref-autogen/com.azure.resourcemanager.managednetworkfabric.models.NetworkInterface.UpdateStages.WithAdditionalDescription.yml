@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.UpdateStages.WithAdditionalDescription"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.UpdateStages.WithAdditionalDescription"
+name: "NetworkInterface.UpdateStages.WithAdditionalDescription"
+nameWithType: "NetworkInterface.UpdateStages.WithAdditionalDescription"
+summary: "The stage of the Network<wbr>Interface update allowing to specify additional<wbr>Description."
+syntax: "public static interface **NetworkInterface.UpdateStages.WithAdditionalDescription**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.UpdateStages.WithAdditionalDescription.withAdditionalDescription(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.UpdateStages.WithAdditionalDescription.withAdditionalDescription(String additionalDescription)"
+  name: "withAdditionalDescription(String additionalDescription)"
+  nameWithType: "NetworkInterface.UpdateStages.WithAdditionalDescription.withAdditionalDescription(String additionalDescription)"
+  summary: "Specifies the additional<wbr>Description property: Additional description of the interface.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Additional description of the interface."
+    name: "additionalDescription"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract NetworkInterface.Update withAdditionalDescription(String additionalDescription)"
+  desc: "Specifies the additionalDescription property: Additional description of the interface.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.Update?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkInterface update allowing to specify additionalDescription."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

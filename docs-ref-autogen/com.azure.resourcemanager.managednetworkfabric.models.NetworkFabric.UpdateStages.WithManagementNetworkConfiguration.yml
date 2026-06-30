@@ -6,18 +6,18 @@ nameWithType: "NetworkFabric.UpdateStages.WithManagementNetworkConfiguration"
 summary: "The stage of the Network<wbr>Fabric update allowing to specify management<wbr>Network<wbr>Configuration."
 syntax: "public static interface **NetworkFabric.UpdateStages.WithManagementNetworkConfiguration**"
 methods:
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.UpdateStages.WithManagementNetworkConfiguration.withManagementNetworkConfiguration(com.azure.resourcemanager.managednetworkfabric.models.ManagementNetworkConfigurationPatchableProperties)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.UpdateStages.WithManagementNetworkConfiguration.withManagementNetworkConfiguration(ManagementNetworkConfigurationPatchableProperties managementNetworkConfiguration)"
-  name: "withManagementNetworkConfiguration(ManagementNetworkConfigurationPatchableProperties managementNetworkConfiguration)"
-  nameWithType: "NetworkFabric.UpdateStages.WithManagementNetworkConfiguration.withManagementNetworkConfiguration(ManagementNetworkConfigurationPatchableProperties managementNetworkConfiguration)"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.UpdateStages.WithManagementNetworkConfiguration.withManagementNetworkConfiguration(com.azure.resourcemanager.managednetworkfabric.models.ManagementNetworkPatchConfiguration)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.UpdateStages.WithManagementNetworkConfiguration.withManagementNetworkConfiguration(ManagementNetworkPatchConfiguration managementNetworkConfiguration)"
+  name: "withManagementNetworkConfiguration(ManagementNetworkPatchConfiguration managementNetworkConfiguration)"
+  nameWithType: "NetworkFabric.UpdateStages.WithManagementNetworkConfiguration.withManagementNetworkConfiguration(ManagementNetworkPatchConfiguration managementNetworkConfiguration)"
   summary: "Specifies the management<wbr>Network<wbr>Configuration property: Configuration to be used to setup the management network.."
   modifiers:
   - "abstract"
   parameters:
   - description: "Configuration to be used to setup the management network."
     name: "managementNetworkConfiguration"
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ManagementNetworkConfigurationPatchableProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.ManagementNetworkConfigurationPatchableProperties&text=ManagementNetworkConfigurationPatchableProperties\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract NetworkFabric.Update withManagementNetworkConfiguration(ManagementNetworkConfigurationPatchableProperties managementNetworkConfiguration)"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ManagementNetworkPatchConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.ManagementNetworkPatchConfiguration&text=ManagementNetworkPatchConfiguration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NetworkFabric.Update withManagementNetworkConfiguration(ManagementNetworkPatchConfiguration managementNetworkConfiguration)"
   desc: "Specifies the managementNetworkConfiguration property: Configuration to be used to setup the management network.."
   returns:
     description: "the next definition stage."
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the NetworkFabric update allowing to specify managementNetworkConfiguration."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

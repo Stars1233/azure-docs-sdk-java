@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.UpdateStages.WithDeviceRole"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.UpdateStages.WithDeviceRole"
+name: "AccessControlList.UpdateStages.WithDeviceRole"
+nameWithType: "AccessControlList.UpdateStages.WithDeviceRole"
+summary: "The stage of the Access<wbr>Control<wbr>List update allowing to specify device<wbr>Role."
+syntax: "public static interface **AccessControlList.UpdateStages.WithDeviceRole**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.UpdateStages.WithDeviceRole.withDeviceRole(com.azure.resourcemanager.managednetworkfabric.models.DeviceRole)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.UpdateStages.WithDeviceRole.withDeviceRole(DeviceRole deviceRole)"
+  name: "withDeviceRole(DeviceRole deviceRole)"
+  nameWithType: "AccessControlList.UpdateStages.WithDeviceRole.withDeviceRole(DeviceRole deviceRole)"
+  summary: "Specifies the device<wbr>Role property: Device Role."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Device Role."
+    name: "deviceRole"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.DeviceRole?alt=com.azure.resourcemanager.managednetworkfabric.models.DeviceRole&text=DeviceRole\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract AccessControlList.Update withDeviceRole(DeviceRole deviceRole)"
+  desc: "Specifies the deviceRole property: Device Role."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.Update?alt=com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the AccessControlList update allowing to specify deviceRole."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

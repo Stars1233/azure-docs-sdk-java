@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus"
+name: "ResilienceHealthStatus"
+nameWithType: "ResilienceHealthStatus"
+summary: "enum for Resilience health status."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ResilienceHealthStatus**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus?alt=com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus&text=ResilienceHealthStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus.ResilienceHealthStatus()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus.ResilienceHealthStatus()"
+  name: "ResilienceHealthStatus()"
+  nameWithType: "ResilienceHealthStatus.ResilienceHealthStatus()"
+  summary: "Creates a new instance of Resilience<wbr>Health<wbr>Status value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public ResilienceHealthStatus()"
+  desc: "Creates a new instance of ResilienceHealthStatus value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus.HEALTHY"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus.HEALTHY"
+  name: "HEALTHY"
+  nameWithType: "ResilienceHealthStatus.HEALTHY"
+  summary: "Resource is Healthy."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus?alt=com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus&text=ResilienceHealthStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ResilienceHealthStatus HEALTHY"
+  desc: "Resource is Healthy."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus.NOT_EVALUATED"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus.NOT_EVALUATED"
+  name: "NOT_EVALUATED"
+  nameWithType: "ResilienceHealthStatus.NOT_EVALUATED"
+  summary: "Resource is not evaluated."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus?alt=com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus&text=ResilienceHealthStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ResilienceHealthStatus NOT_EVALUATED"
+  desc: "Resource is not evaluated."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus.UNHEALTHY"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus.UNHEALTHY"
+  name: "UNHEALTHY"
+  nameWithType: "ResilienceHealthStatus.UNHEALTHY"
+  summary: "Resource is Unhealthy."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus?alt=com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus&text=ResilienceHealthStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ResilienceHealthStatus UNHEALTHY"
+  desc: "Resource is Unhealthy."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "ResilienceHealthStatus.fromString(String name)"
+  summary: "Creates or finds a Resilience<wbr>Health<wbr>Status from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static ResilienceHealthStatus fromString(String name)"
+  desc: "Creates or finds a ResilienceHealthStatus from its string representation."
+  returns:
+    description: "the corresponding ResilienceHealthStatus."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus?alt=com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus&text=ResilienceHealthStatus\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus.values()"
+  name: "values()"
+  nameWithType: "ResilienceHealthStatus.values()"
+  summary: "Gets known Resilience<wbr>Health<wbr>Status values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<ResilienceHealthStatus> values()"
+  desc: "Gets known ResilienceHealthStatus values."
+  returns:
+    description: "known ResilienceHealthStatus values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus?alt=com.azure.resourcemanager.resiliencemanagement.models.ResilienceHealthStatus&text=ResilienceHealthStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "enum for Resilience health status."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0-beta.1

@@ -96,14 +96,14 @@ methods:
   fullName: "com.azure.resourcemanager.qumulo.QumuloManager.serviceClient()"
   name: "serviceClient()"
   nameWithType: "QumuloManager.serviceClient()"
-  summary: "Gets wrapped service client Qumulo<wbr>Storage providing direct access to the underlying auto-generated API implementation, based on Azure REST API."
-  syntax: "public QumuloStorage serviceClient()"
-  desc: "Gets wrapped service client QumuloStorage providing direct access to the underlying auto-generated API implementation, based on Azure REST API."
+  summary: "Gets wrapped service client Qumulo<wbr>Management<wbr>Client providing direct access to the underlying auto-generated API implementation, based on Azure REST API."
+  syntax: "public QumuloManagementClient serviceClient()"
+  desc: "Gets wrapped service client QumuloManagementClient providing direct access to the underlying auto-generated API implementation, based on Azure REST API."
   returns:
-    description: "Wrapped service client QumuloStorage."
-    type: "<xref href=\"com.azure.resourcemanager.qumulo.fluent.QumuloStorage?alt=com.azure.resourcemanager.qumulo.fluent.QumuloStorage&text=QumuloStorage\" data-throw-if-not-resolved=\"False\" />"
+    description: "Wrapped service client QumuloManagementClient."
+    type: "<xref href=\"com.azure.resourcemanager.qumulo.fluent.QumuloManagementClient?alt=com.azure.resourcemanager.qumulo.fluent.QumuloManagementClient&text=QumuloManagementClient\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Entry point to QumuloManager."
 metadata: {}
 package: "com.azure.resourcemanager.qumulo"
-artifact: com.azure.resourcemanager:azure-resourcemanager-qumulo:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-qumulo:1.2.0

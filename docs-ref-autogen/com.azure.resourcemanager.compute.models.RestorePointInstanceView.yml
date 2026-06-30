@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **RestorePointInstanceView**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.RestorePointInstanceView?alt=com.azure.resourcemanager.compute.models.RestorePointInstanceView&text=RestorePointInstanceView\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.compute.models.RestorePointInstanceView.RestorePointInstanceView()"
-  fullName: "com.azure.resourcemanager.compute.models.RestorePointInstanceView.RestorePointInstanceView()"
-  name: "RestorePointInstanceView()"
-  nameWithType: "RestorePointInstanceView.RestorePointInstanceView()"
-  summary: "Creates an instance of Restore<wbr>Point<wbr>Instance<wbr>View class."
-  syntax: "public RestorePointInstanceView()"
-  desc: "Creates an instance of RestorePointInstanceView class."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.RestorePointInstanceView.diskRestorePoints()"
   fullName: "com.azure.resourcemanager.compute.models.RestorePointInstanceView.diskRestorePoints()"
@@ -88,38 +80,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.compute.models.RestorePointInstanceView.withDiskRestorePoints(java.util.List<com.azure.resourcemanager.compute.models.DiskRestorePointInstanceView>)"
-  fullName: "com.azure.resourcemanager.compute.models.RestorePointInstanceView.withDiskRestorePoints(List<DiskRestorePointInstanceView> diskRestorePoints)"
-  name: "withDiskRestorePoints(List<DiskRestorePointInstanceView> diskRestorePoints)"
-  nameWithType: "RestorePointInstanceView.withDiskRestorePoints(List<DiskRestorePointInstanceView> diskRestorePoints)"
-  summary: "Set the disk<wbr>Restore<wbr>Points property: The disk restore points information."
-  parameters:
-  - description: "the diskRestorePoints value to set."
-    name: "diskRestorePoints"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.DiskRestorePointInstanceView?alt=com.azure.resourcemanager.compute.models.DiskRestorePointInstanceView&text=DiskRestorePointInstanceView\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public RestorePointInstanceView withDiskRestorePoints(List<DiskRestorePointInstanceView> diskRestorePoints)"
-  desc: "Set the diskRestorePoints property: The disk restore points information."
-  returns:
-    description: "the RestorePointInstanceView object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.RestorePointInstanceView?alt=com.azure.resourcemanager.compute.models.RestorePointInstanceView&text=RestorePointInstanceView\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.models.RestorePointInstanceView.withStatuses(java.util.List<com.azure.resourcemanager.compute.models.InstanceViewStatus>)"
-  fullName: "com.azure.resourcemanager.compute.models.RestorePointInstanceView.withStatuses(List<InstanceViewStatus> statuses)"
-  name: "withStatuses(List<InstanceViewStatus> statuses)"
-  nameWithType: "RestorePointInstanceView.withStatuses(List<InstanceViewStatus> statuses)"
-  summary: "Set the statuses property: The resource status information."
-  parameters:
-  - description: "the statuses value to set."
-    name: "statuses"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.InstanceViewStatus?alt=com.azure.resourcemanager.compute.models.InstanceViewStatus&text=InstanceViewStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public RestorePointInstanceView withStatuses(List<InstanceViewStatus> statuses)"
-  desc: "Set the statuses property: The resource status information."
-  returns:
-    description: "the RestorePointInstanceView object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.RestorePointInstanceView?alt=com.azure.resourcemanager.compute.models.RestorePointInstanceView&text=RestorePointInstanceView\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The instance view of a restore point."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.RestorePointInstanceView?alt=com.azure.resourcemanager.compute.models.RestorePointInstanceView&text=RestorePointInstanceView\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

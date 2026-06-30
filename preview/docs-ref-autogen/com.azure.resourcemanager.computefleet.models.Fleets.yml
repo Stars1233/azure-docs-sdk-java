@@ -6,41 +6,6 @@ nameWithType: "Fleets"
 summary: "Resource collection API of Fleets."
 syntax: "public interface **Fleets**"
 methods:
-- uid: "com.azure.resourcemanager.computefleet.models.Fleets.cancel(java.lang.String,java.lang.String)"
-  fullName: "com.azure.resourcemanager.computefleet.models.Fleets.cancel(String resourceGroupName, String fleetName)"
-  name: "cancel(String resourceGroupName, String fleetName)"
-  nameWithType: "Fleets.cancel(String resourceGroupName, String fleetName)"
-  summary: "Cancels an instance Fleet creation that is in progress."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "The name of the resource group. The name is case insensitive."
-    name: "resourceGroupName"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Compute Fleet."
-    name: "fleetName"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract void cancel(String resourceGroupName, String fleetName)"
-  desc: "Cancels an instance Fleet creation that is in progress."
-- uid: "com.azure.resourcemanager.computefleet.models.Fleets.cancel(java.lang.String,java.lang.String,com.azure.core.util.Context)"
-  fullName: "com.azure.resourcemanager.computefleet.models.Fleets.cancel(String resourceGroupName, String fleetName, Context context)"
-  name: "cancel(String resourceGroupName, String fleetName, Context context)"
-  nameWithType: "Fleets.cancel(String resourceGroupName, String fleetName, Context context)"
-  summary: "Cancels an instance Fleet creation that is in progress."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "The name of the resource group. The name is case insensitive."
-    name: "resourceGroupName"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Compute Fleet."
-    name: "fleetName"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The context to associate with this operation."
-    name: "context"
-    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract void cancel(String resourceGroupName, String fleetName, Context context)"
-  desc: "Cancels an instance Fleet creation that is in progress."
 - uid: "com.azure.resourcemanager.computefleet.models.Fleets.define(java.lang.String)"
   fullName: "com.azure.resourcemanager.computefleet.models.Fleets.define(String name)"
   name: "define(String name)"
@@ -264,7 +229,7 @@ methods:
   fullName: "com.azure.resourcemanager.computefleet.models.Fleets.listVirtualMachines(String resourceGroupName, String name)"
   name: "listVirtualMachines(String resourceGroupName, String name)"
   nameWithType: "Fleets.listVirtualMachines(String resourceGroupName, String name)"
-  summary: "List Virtual<wbr>Machine resources of an instance Fleet."
+  summary: "List Virtual<wbr>Machine resources of a Launch mode Fleet."
   modifiers:
   - "abstract"
   parameters:
@@ -275,7 +240,7 @@ methods:
     name: "name"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<VirtualMachine> listVirtualMachines(String resourceGroupName, String name)"
-  desc: "List VirtualMachine resources of an instance Fleet."
+  desc: "List VirtualMachine resources of a Launch mode Fleet."
   returns:
     description: "the response of a virtual machine list operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.computefleet.models.VirtualMachine?alt=com.azure.resourcemanager.computefleet.models.VirtualMachine&text=VirtualMachine\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -283,7 +248,7 @@ methods:
   fullName: "com.azure.resourcemanager.computefleet.models.Fleets.listVirtualMachines(String resourceGroupName, String name, String filter, String skiptoken, Context context)"
   name: "listVirtualMachines(String resourceGroupName, String name, String filter, String skiptoken, Context context)"
   nameWithType: "Fleets.listVirtualMachines(String resourceGroupName, String name, String filter, String skiptoken, Context context)"
-  summary: "List Virtual<wbr>Machine resources of an instance Fleet."
+  summary: "List Virtual<wbr>Machine resources of a Launch mode Fleet."
   modifiers:
   - "abstract"
   parameters:
@@ -303,7 +268,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<VirtualMachine> listVirtualMachines(String resourceGroupName, String name, String filter, String skiptoken, Context context)"
-  desc: "List VirtualMachine resources of an instance Fleet."
+  desc: "List VirtualMachine resources of a Launch mode Fleet."
   returns:
     description: "the response of a virtual machine list operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.computefleet.models.VirtualMachine?alt=com.azure.resourcemanager.computefleet.models.VirtualMachine&text=VirtualMachine\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -352,4 +317,4 @@ type: "interface"
 desc: "Resource collection API of Fleets."
 metadata: {}
 package: "com.azure.resourcemanager.computefleet.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-computefleet:1.1.0-beta.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-computefleet:1.1.0-beta.3

@@ -6,18 +6,18 @@ nameWithType: "ExternalNetwork.UpdateStages.WithImportRoutePolicy"
 summary: "The stage of the External<wbr>Network update allowing to specify import<wbr>Route<wbr>Policy."
 syntax: "public static interface **ExternalNetwork.UpdateStages.WithImportRoutePolicy**"
 methods:
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.UpdateStages.WithImportRoutePolicy.withImportRoutePolicy(com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicy)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.UpdateStages.WithImportRoutePolicy.withImportRoutePolicy(ImportRoutePolicy importRoutePolicy)"
-  name: "withImportRoutePolicy(ImportRoutePolicy importRoutePolicy)"
-  nameWithType: "ExternalNetwork.UpdateStages.WithImportRoutePolicy.withImportRoutePolicy(ImportRoutePolicy importRoutePolicy)"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.UpdateStages.WithImportRoutePolicy.withImportRoutePolicy(com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyPatch)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.UpdateStages.WithImportRoutePolicy.withImportRoutePolicy(ImportRoutePolicyPatch importRoutePolicy)"
+  name: "withImportRoutePolicy(ImportRoutePolicyPatch importRoutePolicy)"
+  nameWithType: "ExternalNetwork.UpdateStages.WithImportRoutePolicy.withImportRoutePolicy(ImportRoutePolicyPatch importRoutePolicy)"
   summary: "Specifies the import<wbr>Route<wbr>Policy property: Import Route Policy either IPv4 or IPv6.."
   modifiers:
   - "abstract"
   parameters:
   - description: "Import Route Policy either IPv4 or IPv6."
     name: "importRoutePolicy"
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicy&text=ImportRoutePolicy\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract ExternalNetwork.Update withImportRoutePolicy(ImportRoutePolicy importRoutePolicy)"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyPatch&text=ImportRoutePolicyPatch\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ExternalNetwork.Update withImportRoutePolicy(ImportRoutePolicyPatch importRoutePolicy)"
   desc: "Specifies the importRoutePolicy property: Import Route Policy either IPv4 or IPv6.."
   returns:
     description: "the next definition stage."
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the ExternalNetwork update allowing to specify importRoutePolicy."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

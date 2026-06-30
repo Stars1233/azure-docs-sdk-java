@@ -6,18 +6,18 @@ nameWithType: "NetworkToNetworkInterconnect.DefinitionStages.WithOptionBLayer3Co
 summary: "The stage of the Network<wbr>ToNetwork<wbr>Interconnect definition allowing to specify option<wbr>BLayer3Configuration."
 syntax: "public static interface **NetworkToNetworkInterconnect.DefinitionStages.WithOptionBLayer3Configuration**"
 methods:
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.DefinitionStages.WithOptionBLayer3Configuration.withOptionBLayer3Configuration(com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnectPropertiesOptionBLayer3Configuration)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.DefinitionStages.WithOptionBLayer3Configuration.withOptionBLayer3Configuration(NetworkToNetworkInterconnectPropertiesOptionBLayer3Configuration optionBLayer3Configuration)"
-  name: "withOptionBLayer3Configuration(NetworkToNetworkInterconnectPropertiesOptionBLayer3Configuration optionBLayer3Configuration)"
-  nameWithType: "NetworkToNetworkInterconnect.DefinitionStages.WithOptionBLayer3Configuration.withOptionBLayer3Configuration(NetworkToNetworkInterconnectPropertiesOptionBLayer3Configuration optionBLayer3Configuration)"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.DefinitionStages.WithOptionBLayer3Configuration.withOptionBLayer3Configuration(com.azure.resourcemanager.managednetworkfabric.models.OptionBLayer3Configuration)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.DefinitionStages.WithOptionBLayer3Configuration.withOptionBLayer3Configuration(OptionBLayer3Configuration optionBLayer3Configuration)"
+  name: "withOptionBLayer3Configuration(OptionBLayer3Configuration optionBLayer3Configuration)"
+  nameWithType: "NetworkToNetworkInterconnect.DefinitionStages.WithOptionBLayer3Configuration.withOptionBLayer3Configuration(OptionBLayer3Configuration optionBLayer3Configuration)"
   summary: "Specifies the option<wbr>BLayer3Configuration property: Common properties for Layer3Configuration.."
   modifiers:
   - "abstract"
   parameters:
   - description: "Common properties for Layer3Configuration."
     name: "optionBLayer3Configuration"
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnectPropertiesOptionBLayer3Configuration?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnectPropertiesOptionBLayer3Configuration&text=NetworkToNetworkInterconnectPropertiesOptionBLayer3Configuration\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract NetworkToNetworkInterconnect.DefinitionStages.WithCreate withOptionBLayer3Configuration(NetworkToNetworkInterconnectPropertiesOptionBLayer3Configuration optionBLayer3Configuration)"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.OptionBLayer3Configuration?alt=com.azure.resourcemanager.managednetworkfabric.models.OptionBLayer3Configuration&text=OptionBLayer3Configuration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NetworkToNetworkInterconnect.DefinitionStages.WithCreate withOptionBLayer3Configuration(OptionBLayer3Configuration optionBLayer3Configuration)"
   desc: "Specifies the optionBLayer3Configuration property: Common properties for Layer3Configuration.."
   returns:
     description: "the next definition stage."
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the NetworkToNetworkInterconnect definition allowing to specify optionBLayer3Configuration."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

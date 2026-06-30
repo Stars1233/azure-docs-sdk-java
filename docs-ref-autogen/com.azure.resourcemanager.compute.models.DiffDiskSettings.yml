@@ -30,6 +30,16 @@ constructors:
   syntax: "public DiffDiskSettings()"
   desc: "Creates an instance of DiffDiskSettings class."
 methods:
+- uid: "com.azure.resourcemanager.compute.models.DiffDiskSettings.enableFullCaching()"
+  fullName: "com.azure.resourcemanager.compute.models.DiffDiskSettings.enableFullCaching()"
+  name: "enableFullCaching()"
+  nameWithType: "DiffDiskSettings.enableFullCaching()"
+  summary: "Get the enable<wbr>Full<wbr>Caching property: Specifies whether or not to enable full caching for this VM which will cache the OS disk locally on the host and make this VM more resilient to storage outages."
+  syntax: "public Boolean enableFullCaching()"
+  desc: "Get the enableFullCaching property: Specifies whether or not to enable full caching for this VM which will cache the OS disk locally on the host and make this VM more resilient to storage outages."
+  returns:
+    description: "the enableFullCaching value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
 - uid: "com.azure.resourcemanager.compute.models.DiffDiskSettings.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.compute.models.DiffDiskSettings.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -88,6 +98,20 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.compute.models.DiffDiskSettings.withEnableFullCaching(java.lang.Boolean)"
+  fullName: "com.azure.resourcemanager.compute.models.DiffDiskSettings.withEnableFullCaching(Boolean enableFullCaching)"
+  name: "withEnableFullCaching(Boolean enableFullCaching)"
+  nameWithType: "DiffDiskSettings.withEnableFullCaching(Boolean enableFullCaching)"
+  summary: "Set the enable<wbr>Full<wbr>Caching property: Specifies whether or not to enable full caching for this VM which will cache the OS disk locally on the host and make this VM more resilient to storage outages."
+  parameters:
+  - description: "the enableFullCaching value to set."
+    name: "enableFullCaching"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public DiffDiskSettings withEnableFullCaching(Boolean enableFullCaching)"
+  desc: "Set the enableFullCaching property: Specifies whether or not to enable full caching for this VM which will cache the OS disk locally on the host and make this VM more resilient to storage outages."
+  returns:
+    description: "the DiffDiskSettings object itself."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.DiffDiskSettings?alt=com.azure.resourcemanager.compute.models.DiffDiskSettings&text=DiffDiskSettings\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.DiffDiskSettings.withOption(com.azure.resourcemanager.compute.models.DiffDiskOptions)"
   fullName: "com.azure.resourcemanager.compute.models.DiffDiskSettings.withOption(DiffDiskOptions option)"
   name: "withOption(DiffDiskOptions option)"
@@ -122,4 +146,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.DiffDiskSettings?alt=com.azure.resourcemanager.compute.models.DiffDiskSettings&text=DiffDiskSettings\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

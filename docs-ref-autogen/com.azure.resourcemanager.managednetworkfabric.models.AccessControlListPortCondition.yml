@@ -16,7 +16,6 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.PortCondition.portType()?alt=com.azure.resourcemanager.managednetworkfabric.models.PortCondition.portType&text=portType\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.PortCondition.ports()?alt=com.azure.resourcemanager.managednetworkfabric.models.PortCondition.ports&text=ports\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.PortCondition.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.managednetworkfabric.models.PortCondition.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.PortCondition.validate()?alt=com.azure.resourcemanager.managednetworkfabric.models.PortCondition.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.PortCondition.withLayer4Protocol(com.azure.resourcemanager.managednetworkfabric.models.Layer4Protocol)?alt=com.azure.resourcemanager.managednetworkfabric.models.PortCondition.withLayer4Protocol&text=withLayer4Protocol\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.PortCondition.withPortGroupNames(java.util.List<java.lang.String>)?alt=com.azure.resourcemanager.managednetworkfabric.models.PortCondition.withPortGroupNames&text=withPortGroupNames\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.PortCondition.withPortType(com.azure.resourcemanager.managednetworkfabric.models.PortType)?alt=com.azure.resourcemanager.managednetworkfabric.models.PortCondition.withPortType&text=withPortType\" data-throw-if-not-resolved=\"False\" />"
@@ -86,14 +85,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListPortCondition.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListPortCondition.validate()"
-  name: "validate()"
-  nameWithType: "AccessControlListPortCondition.validate()"
-  summary: "Validates the instance."
-  overridden: "com.azure.resourcemanager.managednetworkfabric.models.PortCondition.validate()"
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListPortCondition.withFlags(java.util.List<java.lang.String>)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListPortCondition.withFlags(List<String> flags)"
   name: "withFlags(List<String> flags)"
@@ -164,4 +155,4 @@ type: "class"
 desc: "Defines the port condition that needs to be matched."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

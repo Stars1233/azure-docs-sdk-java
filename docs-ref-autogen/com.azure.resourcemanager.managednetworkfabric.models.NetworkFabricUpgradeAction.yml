@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricUpgradeAction.COMPLETE"
   name: "COMPLETE"
   nameWithType: "NetworkFabricUpgradeAction.COMPLETE"
-  summary: "Static value Complete for Network<wbr>Fabric<wbr>Upgrade<wbr>Action."
+  summary: "Upgrade<wbr>Action -Complete."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricUpgradeAction?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricUpgradeAction&text=NetworkFabricUpgradeAction\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NetworkFabricUpgradeAction COMPLETE"
-  desc: "Static value Complete for NetworkFabricUpgradeAction."
+  desc: "UpgradeAction -Complete."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricUpgradeAction.START"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricUpgradeAction.START"
   name: "START"
   nameWithType: "NetworkFabricUpgradeAction.START"
-  summary: "Static value Start for Network<wbr>Fabric<wbr>Upgrade<wbr>Action."
+  summary: "Upgrade<wbr>Action-Start."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricUpgradeAction?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricUpgradeAction&text=NetworkFabricUpgradeAction\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NetworkFabricUpgradeAction START"
-  desc: "Static value Start for NetworkFabricUpgradeAction."
+  desc: "UpgradeAction-Start."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricUpgradeAction.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricUpgradeAction.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Action to be performed while upgrading the fabric."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.compute.models.ResiliencyPolicy"
 fullName: "com.azure.resourcemanager.compute.models.ResiliencyPolicy"
 name: "ResiliencyPolicy"
 nameWithType: "ResiliencyPolicy"
-summary: "Describes an resiliency policy - Automatic<wbr>Zone<wbr>Rebalancing<wbr>Policy, Resilient<wbr>VMCreation<wbr>Policy and/or Resilient<wbr>VMDeletion<wbr>Policy."
+summary: "Describes an resiliency policy - Automatic<wbr>Zone<wbr>Rebalancing<wbr>Policy, Resilient<wbr>VMCreation<wbr>Policy, Resilient<wbr>VMDeletion<wbr>Policy and Operation<wbr>Recovery<wbr>Settings (version > 2025-11-01)."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -59,6 +59,16 @@ methods:
   returns:
     description: "An instance of ResiliencyPolicy if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.ResiliencyPolicy?alt=com.azure.resourcemanager.compute.models.ResiliencyPolicy&text=ResiliencyPolicy\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.ResiliencyPolicy.operationRecoverySettings()"
+  fullName: "com.azure.resourcemanager.compute.models.ResiliencyPolicy.operationRecoverySettings()"
+  name: "operationRecoverySettings()"
+  nameWithType: "ResiliencyPolicy.operationRecoverySettings()"
+  summary: "Get the operation<wbr>Recovery<wbr>Settings property: The configuration parameters used for operation recovery settings."
+  syntax: "public OperationRecoverySettings operationRecoverySettings()"
+  desc: "Get the operationRecoverySettings property: The configuration parameters used for operation recovery settings."
+  returns:
+    description: "the operationRecoverySettings value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.OperationRecoverySettings?alt=com.azure.resourcemanager.compute.models.OperationRecoverySettings&text=OperationRecoverySettings\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.ResiliencyPolicy.resilientVMCreationPolicy()"
   fullName: "com.azure.resourcemanager.compute.models.ResiliencyPolicy.resilientVMCreationPolicy()"
   name: "resilientVMCreationPolicy()"
@@ -109,6 +119,20 @@ methods:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.AutomaticZoneRebalancingPolicy?alt=com.azure.resourcemanager.compute.models.AutomaticZoneRebalancingPolicy&text=AutomaticZoneRebalancingPolicy\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ResiliencyPolicy withAutomaticZoneRebalancingPolicy(AutomaticZoneRebalancingPolicy automaticZoneRebalancingPolicy)"
   desc: "Set the automaticZoneRebalancingPolicy property: The configuration parameters used while performing automatic AZ balancing."
+  returns:
+    description: "the ResiliencyPolicy object itself."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.ResiliencyPolicy?alt=com.azure.resourcemanager.compute.models.ResiliencyPolicy&text=ResiliencyPolicy\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.ResiliencyPolicy.withOperationRecoverySettings(com.azure.resourcemanager.compute.models.OperationRecoverySettings)"
+  fullName: "com.azure.resourcemanager.compute.models.ResiliencyPolicy.withOperationRecoverySettings(OperationRecoverySettings operationRecoverySettings)"
+  name: "withOperationRecoverySettings(OperationRecoverySettings operationRecoverySettings)"
+  nameWithType: "ResiliencyPolicy.withOperationRecoverySettings(OperationRecoverySettings operationRecoverySettings)"
+  summary: "Set the operation<wbr>Recovery<wbr>Settings property: The configuration parameters used for operation recovery settings."
+  parameters:
+  - description: "the operationRecoverySettings value to set."
+    name: "operationRecoverySettings"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.OperationRecoverySettings?alt=com.azure.resourcemanager.compute.models.OperationRecoverySettings&text=OperationRecoverySettings\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ResiliencyPolicy withOperationRecoverySettings(OperationRecoverySettings operationRecoverySettings)"
+  desc: "Set the operationRecoverySettings property: The configuration parameters used for operation recovery settings."
   returns:
     description: "the ResiliencyPolicy object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.ResiliencyPolicy?alt=com.azure.resourcemanager.compute.models.ResiliencyPolicy&text=ResiliencyPolicy\" data-throw-if-not-resolved=\"False\" />"
@@ -165,9 +189,9 @@ methods:
     description: "the zoneAllocationPolicy value."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.ZoneAllocationPolicy?alt=com.azure.resourcemanager.compute.models.ZoneAllocationPolicy&text=ZoneAllocationPolicy\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "Describes an resiliency policy - AutomaticZoneRebalancingPolicy, ResilientVMCreationPolicy and/or ResilientVMDeletionPolicy."
+desc: "Describes an resiliency policy - AutomaticZoneRebalancingPolicy, ResilientVMCreationPolicy, ResilientVMDeletionPolicy and OperationRecoverySettings (version > 2025-11-01)."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.ResiliencyPolicy?alt=com.azure.resourcemanager.compute.models.ResiliencyPolicy&text=ResiliencyPolicy\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

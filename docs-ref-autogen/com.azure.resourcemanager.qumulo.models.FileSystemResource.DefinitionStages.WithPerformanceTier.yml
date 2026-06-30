@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.qumulo.models.FileSystemResource.DefinitionStages.WithPerformanceTier"
+fullName: "com.azure.resourcemanager.qumulo.models.FileSystemResource.DefinitionStages.WithPerformanceTier"
+name: "FileSystemResource.DefinitionStages.WithPerformanceTier"
+nameWithType: "FileSystemResource.DefinitionStages.WithPerformanceTier"
+summary: "The stage of the File<wbr>System<wbr>Resource definition allowing to specify performance<wbr>Tier."
+syntax: "public static interface **FileSystemResource.DefinitionStages.WithPerformanceTier**"
+methods:
+- uid: "com.azure.resourcemanager.qumulo.models.FileSystemResource.DefinitionStages.WithPerformanceTier.withPerformanceTier(java.lang.String)"
+  fullName: "com.azure.resourcemanager.qumulo.models.FileSystemResource.DefinitionStages.WithPerformanceTier.withPerformanceTier(String performanceTier)"
+  name: "withPerformanceTier(String performanceTier)"
+  nameWithType: "FileSystemResource.DefinitionStages.WithPerformanceTier.withPerformanceTier(String performanceTier)"
+  summary: "Specifies the performance<wbr>Tier property: Pre-Provisioned Performance of the Resource."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Pre-Provisioned Performance of the Resource."
+    name: "performanceTier"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract FileSystemResource.DefinitionStages.WithCreate withPerformanceTier(String performanceTier)"
+  desc: "Specifies the performanceTier property: Pre-Provisioned Performance of the Resource."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.qumulo.models.FileSystemResource.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.qumulo.models.FileSystemResource.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the FileSystemResource definition allowing to specify performanceTier."
+metadata: {}
+package: "com.azure.resourcemanager.qumulo.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-qumulo:1.2.0

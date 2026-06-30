@@ -1,0 +1,43 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.computelimit.models.SharedLimitCap.Update"
+fullName: "com.azure.resourcemanager.computelimit.models.SharedLimitCap.Update"
+name: "SharedLimitCap.Update"
+nameWithType: "SharedLimitCap.Update"
+summary: "The template for Shared<wbr>Limit<wbr>Cap update."
+syntax: "public static interface **SharedLimitCap.Update**</br> extends <xref href=\"com.azure.resourcemanager.computelimit.models.SharedLimitCap.UpdateStages.WithProperties?alt=com.azure.resourcemanager.computelimit.models.SharedLimitCap.UpdateStages.WithProperties&text=WithProperties\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.azure.resourcemanager.computelimit.models.SharedLimitCap.Update.apply()"
+  fullName: "com.azure.resourcemanager.computelimit.models.SharedLimitCap.Update.apply()"
+  name: "apply()"
+  nameWithType: "SharedLimitCap.Update.apply()"
+  summary: "Executes the update request."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SharedLimitCap apply()"
+  desc: "Executes the update request."
+  returns:
+    description: "the updated resource."
+    type: "<xref href=\"com.azure.resourcemanager.computelimit.models.SharedLimitCap?alt=com.azure.resourcemanager.computelimit.models.SharedLimitCap&text=SharedLimitCap\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.computelimit.models.SharedLimitCap.Update.apply(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.computelimit.models.SharedLimitCap.Update.apply(Context context)"
+  name: "apply(Context context)"
+  nameWithType: "SharedLimitCap.Update.apply(Context context)"
+  summary: "Executes the update request."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract SharedLimitCap apply(Context context)"
+  desc: "Executes the update request."
+  returns:
+    description: "the updated resource."
+    type: "<xref href=\"com.azure.resourcemanager.computelimit.models.SharedLimitCap?alt=com.azure.resourcemanager.computelimit.models.SharedLimitCap&text=SharedLimitCap\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The template for SharedLimitCap update."
+implements:
+- "<xref href=\"com.azure.resourcemanager.computelimit.models.SharedLimitCap.UpdateStages.WithProperties?alt=com.azure.resourcemanager.computelimit.models.SharedLimitCap.UpdateStages.WithProperties&text=WithProperties\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.computelimit.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-computelimit:1.2.0

@@ -6,18 +6,18 @@ nameWithType: "InternalNetwork.DefinitionStages.WithBgpConfiguration"
 summary: "The stage of the Internal<wbr>Network definition allowing to specify bgp<wbr>Configuration."
 syntax: "public static interface **InternalNetwork.DefinitionStages.WithBgpConfiguration**"
 methods:
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.DefinitionStages.WithBgpConfiguration.withBgpConfiguration(com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkPropertiesBgpConfiguration)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.DefinitionStages.WithBgpConfiguration.withBgpConfiguration(InternalNetworkPropertiesBgpConfiguration bgpConfiguration)"
-  name: "withBgpConfiguration(InternalNetworkPropertiesBgpConfiguration bgpConfiguration)"
-  nameWithType: "InternalNetwork.DefinitionStages.WithBgpConfiguration.withBgpConfiguration(InternalNetworkPropertiesBgpConfiguration bgpConfiguration)"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.DefinitionStages.WithBgpConfiguration.withBgpConfiguration(com.azure.resourcemanager.managednetworkfabric.models.BgpConfiguration)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.DefinitionStages.WithBgpConfiguration.withBgpConfiguration(BgpConfiguration bgpConfiguration)"
+  name: "withBgpConfiguration(BgpConfiguration bgpConfiguration)"
+  nameWithType: "InternalNetwork.DefinitionStages.WithBgpConfiguration.withBgpConfiguration(BgpConfiguration bgpConfiguration)"
   summary: "Specifies the bgp<wbr>Configuration property: BGP configuration properties.."
   modifiers:
   - "abstract"
   parameters:
   - description: "BGP configuration properties."
     name: "bgpConfiguration"
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkPropertiesBgpConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.InternalNetworkPropertiesBgpConfiguration&text=InternalNetworkPropertiesBgpConfiguration\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract InternalNetwork.DefinitionStages.WithCreate withBgpConfiguration(InternalNetworkPropertiesBgpConfiguration bgpConfiguration)"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BgpConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.BgpConfiguration&text=BgpConfiguration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract InternalNetwork.DefinitionStages.WithCreate withBgpConfiguration(BgpConfiguration bgpConfiguration)"
   desc: "Specifies the bgpConfiguration property: BGP configuration properties.."
   returns:
     description: "the next definition stage."
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the InternalNetwork definition allowing to specify bgpConfiguration."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

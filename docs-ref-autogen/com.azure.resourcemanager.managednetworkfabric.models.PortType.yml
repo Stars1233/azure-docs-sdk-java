@@ -38,30 +38,42 @@ constructors:
   desc: "Creates a new instance of PortType value."
   hasDeprecatedTag: true
 fields:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.PortType.BIDIRECTIONAL"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.PortType.BIDIRECTIONAL"
+  name: "BIDIRECTIONAL"
+  nameWithType: "PortType.BIDIRECTIONAL"
+  summary: "Port<wbr>Type Bidirectional."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.PortType?alt=com.azure.resourcemanager.managednetworkfabric.models.PortType&text=PortType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final PortType BIDIRECTIONAL"
+  desc: "PortType Bidirectional."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.PortType.DESTINATION_PORT"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.PortType.DESTINATION_PORT"
   name: "DESTINATION_PORT"
   nameWithType: "PortType.DESTINATION_PORT"
-  summary: "Static value Destination<wbr>Port for Port<wbr>Type."
+  summary: "Port<wbr>Type Destination<wbr>Port."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.PortType?alt=com.azure.resourcemanager.managednetworkfabric.models.PortType&text=PortType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PortType DESTINATION_PORT"
-  desc: "Static value DestinationPort for PortType."
+  desc: "PortType DestinationPort."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.PortType.SOURCE_PORT"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.PortType.SOURCE_PORT"
   name: "SOURCE_PORT"
   nameWithType: "PortType.SOURCE_PORT"
-  summary: "Static value Source<wbr>Port for Port<wbr>Type."
+  summary: "Port<wbr>Type Source<wbr>Port."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.PortType?alt=com.azure.resourcemanager.managednetworkfabric.models.PortType&text=PortType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PortType SOURCE_PORT"
-  desc: "Static value SourcePort for PortType."
+  desc: "PortType SourcePort."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.PortType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.PortType.fromString(String name)"
@@ -95,4 +107,4 @@ type: "class"
 desc: "Port type that needs to be matched."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

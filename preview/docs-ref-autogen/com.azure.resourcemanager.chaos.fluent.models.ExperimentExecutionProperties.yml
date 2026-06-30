@@ -1,0 +1,102 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionProperties"
+fullName: "com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionProperties"
+name: "ExperimentExecutionProperties"
+nameWithType: "ExperimentExecutionProperties"
+summary: "Model that represents the execution properties of an Experiment."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ExperimentExecutionProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionProperties?alt=com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionProperties&text=ExperimentExecutionProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ExperimentExecutionProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Experiment<wbr>Execution<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ExperimentExecutionProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ExperimentExecutionProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ExperimentExecutionProperties from the JsonReader."
+  returns:
+    description: "An instance of ExperimentExecutionProperties if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionProperties?alt=com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionProperties&text=ExperimentExecutionProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionProperties.provisioningState()"
+  fullName: "com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionProperties.provisioningState()"
+  name: "provisioningState()"
+  nameWithType: "ExperimentExecutionProperties.provisioningState()"
+  summary: "Get the provisioning<wbr>State property: Resource provisioning state."
+  syntax: "public ProvisioningState provisioningState()"
+  desc: "Get the provisioningState property: Resource provisioning state. Not currently in use for executions."
+  returns:
+    description: "the provisioningState value."
+    type: "<xref href=\"com.azure.resourcemanager.chaos.models.ProvisioningState?alt=com.azure.resourcemanager.chaos.models.ProvisioningState&text=ProvisioningState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionProperties.startedAt()"
+  fullName: "com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionProperties.startedAt()"
+  name: "startedAt()"
+  nameWithType: "ExperimentExecutionProperties.startedAt()"
+  summary: "Get the started<wbr>At property: String that represents the start date time."
+  syntax: "public OffsetDateTime startedAt()"
+  desc: "Get the startedAt property: String that represents the start date time."
+  returns:
+    description: "the startedAt value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionProperties.status()"
+  fullName: "com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionProperties.status()"
+  name: "status()"
+  nameWithType: "ExperimentExecutionProperties.status()"
+  summary: "Get the status property: The status of the execution."
+  syntax: "public String status()"
+  desc: "Get the status property: The status of the execution."
+  returns:
+    description: "the status value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionProperties.stoppedAt()"
+  fullName: "com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionProperties.stoppedAt()"
+  name: "stoppedAt()"
+  nameWithType: "ExperimentExecutionProperties.stoppedAt()"
+  summary: "Get the stopped<wbr>At property: String that represents the stop date time."
+  syntax: "public OffsetDateTime stoppedAt()"
+  desc: "Get the stoppedAt property: String that represents the stop date time."
+  returns:
+    description: "the stoppedAt value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ExperimentExecutionProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Model that represents the execution properties of an Experiment."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionProperties?alt=com.azure.resourcemanager.chaos.fluent.models.ExperimentExecutionProperties&text=ExperimentExecutionProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.chaos.fluent.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-chaos:1.4.0-beta.1

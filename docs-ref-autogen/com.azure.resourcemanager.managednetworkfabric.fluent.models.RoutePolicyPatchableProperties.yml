@@ -20,7 +20,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public class **RoutePolicyPatchableProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyPatchableProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyPatchableProperties&text=RoutePolicyPatchableProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+syntax: "public final class **RoutePolicyPatchableProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyPatchableProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyPatchableProperties&text=RoutePolicyPatchableProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyPatchableProperties.RoutePolicyPatchableProperties()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyPatchableProperties.RoutePolicyPatchableProperties()"
@@ -64,11 +64,11 @@ methods:
   name: "statements()"
   nameWithType: "RoutePolicyPatchableProperties.statements()"
   summary: "Get the statements property: Route Policy statements."
-  syntax: "public List<RoutePolicyStatementProperties> statements()"
+  syntax: "public List<RoutePolicyStatementPatchProperties> statements()"
   desc: "Get the statements property: Route Policy statements."
   returns:
     description: "the statements value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyStatementProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyStatementProperties&text=RoutePolicyStatementProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyStatementPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyStatementPatchProperties&text=RoutePolicyStatementPatchProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyPatchableProperties.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyPatchableProperties.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -81,13 +81,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyPatchableProperties.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyPatchableProperties.validate()"
-  name: "validate()"
-  nameWithType: "RoutePolicyPatchableProperties.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyPatchableProperties.withDefaultAction(com.azure.resourcemanager.managednetworkfabric.models.CommunityActionTypes)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyPatchableProperties.withDefaultAction(CommunityActionTypes defaultAction)"
   name: "withDefaultAction(CommunityActionTypes defaultAction)"
@@ -102,16 +95,16 @@ methods:
   returns:
     description: "the RoutePolicyPatchableProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyPatchableProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyPatchableProperties&text=RoutePolicyPatchableProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyPatchableProperties.withStatements(java.util.List<com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyStatementProperties>)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyPatchableProperties.withStatements(List<RoutePolicyStatementProperties> statements)"
-  name: "withStatements(List<RoutePolicyStatementProperties> statements)"
-  nameWithType: "RoutePolicyPatchableProperties.withStatements(List<RoutePolicyStatementProperties> statements)"
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyPatchableProperties.withStatements(java.util.List<com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyStatementPatchProperties>)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyPatchableProperties.withStatements(List<RoutePolicyStatementPatchProperties> statements)"
+  name: "withStatements(List<RoutePolicyStatementPatchProperties> statements)"
+  nameWithType: "RoutePolicyPatchableProperties.withStatements(List<RoutePolicyStatementPatchProperties> statements)"
   summary: "Set the statements property: Route Policy statements."
   parameters:
   - description: "the statements value to set."
     name: "statements"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyStatementProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyStatementProperties&text=RoutePolicyStatementProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public RoutePolicyPatchableProperties withStatements(List<RoutePolicyStatementProperties> statements)"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyStatementPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyStatementPatchProperties&text=RoutePolicyStatementPatchProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public RoutePolicyPatchableProperties withStatements(List<RoutePolicyStatementPatchProperties> statements)"
   desc: "Set the statements property: Route Policy statements."
   returns:
     description: "the RoutePolicyPatchableProperties object itself."
@@ -122,4 +115,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyPatchableProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyPatchableProperties&text=RoutePolicyPatchableProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

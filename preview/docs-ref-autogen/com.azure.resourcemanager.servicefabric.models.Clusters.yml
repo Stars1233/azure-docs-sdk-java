@@ -62,7 +62,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the cluster resource."
@@ -78,7 +78,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the cluster resource."
@@ -106,7 +106,7 @@ methods:
   syntax: "public abstract Cluster getById(String id)"
   desc: "Gets a Service Fabric cluster resource. Get a Service Fabric cluster resource created or in the process of being created in the specified resource group."
   returns:
-    description: "a Service Fabric cluster resource created or in the process of being created in the specified resource\n group along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    description: "a Service Fabric cluster resource.\n \n Get a Service Fabric cluster resource created or in the process of being created in the specified resource group\n along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.Cluster?alt=com.azure.resourcemanager.servicefabric.models.Cluster&text=Cluster\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabric.models.Clusters.getByIdWithResponse(java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.servicefabric.models.Clusters.getByIdWithResponse(String id, Context context)"
@@ -125,7 +125,7 @@ methods:
   syntax: "public abstract Response<Cluster> getByIdWithResponse(String id, Context context)"
   desc: "Gets a Service Fabric cluster resource. Get a Service Fabric cluster resource created or in the process of being created in the specified resource group."
   returns:
-    description: "a Service Fabric cluster resource created or in the process of being created in the specified resource\n group along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    description: "a Service Fabric cluster resource.\n \n Get a Service Fabric cluster resource created or in the process of being created in the specified resource group\n along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.models.Cluster?alt=com.azure.resourcemanager.servicefabric.models.Cluster&text=Cluster\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.servicefabric.models.Clusters.getByResourceGroup(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.servicefabric.models.Clusters.getByResourceGroup(String resourceGroupName, String clusterName)"
@@ -135,7 +135,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the cluster resource."
@@ -144,7 +144,7 @@ methods:
   syntax: "public abstract Cluster getByResourceGroup(String resourceGroupName, String clusterName)"
   desc: "Gets a Service Fabric cluster resource. Get a Service Fabric cluster resource created or in the process of being created in the specified resource group."
   returns:
-    description: "a Service Fabric cluster resource created or in the process of being created in the specified resource\n group."
+    description: "a Service Fabric cluster resource.\n \n Get a Service Fabric cluster resource created or in the process of being created in the specified resource group."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.Cluster?alt=com.azure.resourcemanager.servicefabric.models.Cluster&text=Cluster\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabric.models.Clusters.getByResourceGroupWithResponse(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.servicefabric.models.Clusters.getByResourceGroupWithResponse(String resourceGroupName, String clusterName, Context context)"
@@ -154,7 +154,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the cluster resource."
@@ -166,7 +166,7 @@ methods:
   syntax: "public abstract Response<Cluster> getByResourceGroupWithResponse(String resourceGroupName, String clusterName, Context context)"
   desc: "Gets a Service Fabric cluster resource. Get a Service Fabric cluster resource created or in the process of being created in the specified resource group."
   returns:
-    description: "a Service Fabric cluster resource created or in the process of being created in the specified resource\n group along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    description: "a Service Fabric cluster resource.\n \n Get a Service Fabric cluster resource created or in the process of being created in the specified resource group\n along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.models.Cluster?alt=com.azure.resourcemanager.servicefabric.models.Cluster&text=Cluster\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.servicefabric.models.Clusters.list()"
   fullName: "com.azure.resourcemanager.servicefabric.models.Clusters.list()"
@@ -178,7 +178,7 @@ methods:
   syntax: "public abstract PagedIterable<Cluster> list()"
   desc: "Gets the list of Service Fabric cluster resources created in the specified subscription. Gets all Service Fabric cluster resources created or in the process of being created in the subscription."
   returns:
-    description: "all Service Fabric cluster resources created or in the process of being created in the subscription as\n paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "the list of Service Fabric cluster resources created in the specified subscription.\n \n Gets all Service Fabric cluster resources created or in the process of being created in the subscription as\n paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.models.Cluster?alt=com.azure.resourcemanager.servicefabric.models.Cluster&text=Cluster\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.servicefabric.models.Clusters.list(com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.servicefabric.models.Clusters.list(Context context)"
@@ -194,7 +194,7 @@ methods:
   syntax: "public abstract PagedIterable<Cluster> list(Context context)"
   desc: "Gets the list of Service Fabric cluster resources created in the specified subscription. Gets all Service Fabric cluster resources created or in the process of being created in the subscription."
   returns:
-    description: "all Service Fabric cluster resources created or in the process of being created in the subscription as\n paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "the list of Service Fabric cluster resources created in the specified subscription.\n \n Gets all Service Fabric cluster resources created or in the process of being created in the subscription as\n paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.models.Cluster?alt=com.azure.resourcemanager.servicefabric.models.Cluster&text=Cluster\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.servicefabric.models.Clusters.listByResourceGroup(java.lang.String)"
   fullName: "com.azure.resourcemanager.servicefabric.models.Clusters.listByResourceGroup(String resourceGroupName)"
@@ -204,13 +204,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<Cluster> listByResourceGroup(String resourceGroupName)"
   desc: "Gets the list of Service Fabric cluster resources created in the specified resource group. Gets all Service Fabric cluster resources created or in the process of being created in the resource group."
   returns:
-    description: "all Service Fabric cluster resources created or in the process of being created in the resource group as\n paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "the list of Service Fabric cluster resources created in the specified resource group.\n \n Gets all Service Fabric cluster resources created or in the process of being created in the resource group as\n paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.models.Cluster?alt=com.azure.resourcemanager.servicefabric.models.Cluster&text=Cluster\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.servicefabric.models.Clusters.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.servicefabric.models.Clusters.listByResourceGroup(String resourceGroupName, Context context)"
@@ -220,7 +220,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -229,7 +229,7 @@ methods:
   syntax: "public abstract PagedIterable<Cluster> listByResourceGroup(String resourceGroupName, Context context)"
   desc: "Gets the list of Service Fabric cluster resources created in the specified resource group. Gets all Service Fabric cluster resources created or in the process of being created in the resource group."
   returns:
-    description: "all Service Fabric cluster resources created or in the process of being created in the resource group as\n paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "the list of Service Fabric cluster resources created in the specified resource group.\n \n Gets all Service Fabric cluster resources created or in the process of being created in the resource group as\n paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.models.Cluster?alt=com.azure.resourcemanager.servicefabric.models.Cluster&text=Cluster\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.servicefabric.models.Clusters.listUpgradableVersions(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.servicefabric.models.Clusters.listUpgradableVersions(String resourceGroupName, String clusterName)"
@@ -239,7 +239,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the cluster resource."
@@ -248,7 +248,7 @@ methods:
   syntax: "public abstract UpgradableVersionPathResult listUpgradableVersions(String resourceGroupName, String clusterName)"
   desc: "Operation to get the minimum and maximum upgradable version from the current cluster version, or the required path to get to the an specific target version. If a target is not provided, it will get the minimum and maximum versions available from the current cluster version. If a target is given, it will provide the required path to get from the current cluster version to the target version."
   returns:
-    description: "the list of intermediate cluster code versions for an upgrade or downgrade."
+    description: "the list of intermediate cluster code versions for an upgrade or downgrade, or minimum and maximum\n upgradable version if no target was given."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.UpgradableVersionPathResult?alt=com.azure.resourcemanager.servicefabric.models.UpgradableVersionPathResult&text=UpgradableVersionPathResult\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabric.models.Clusters.listUpgradableVersionsWithResponse(java.lang.String,java.lang.String,com.azure.resourcemanager.servicefabric.models.UpgradableVersionsDescription,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.servicefabric.models.Clusters.listUpgradableVersionsWithResponse(String resourceGroupName, String clusterName, UpgradableVersionsDescription versionsDescription, Context context)"
@@ -258,7 +258,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the cluster resource."
@@ -273,10 +273,10 @@ methods:
   syntax: "public abstract Response<UpgradableVersionPathResult> listUpgradableVersionsWithResponse(String resourceGroupName, String clusterName, UpgradableVersionsDescription versionsDescription, Context context)"
   desc: "Operation to get the minimum and maximum upgradable version from the current cluster version, or the required path to get to the an specific target version. If a target is not provided, it will get the minimum and maximum versions available from the current cluster version. If a target is given, it will provide the required path to get from the current cluster version to the target version."
   returns:
-    description: "the list of intermediate cluster code versions for an upgrade or downgrade along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    description: "the list of intermediate cluster code versions for an upgrade or downgrade, or minimum and maximum\n upgradable version if no target was given along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.models.UpgradableVersionPathResult?alt=com.azure.resourcemanager.servicefabric.models.UpgradableVersionPathResult&text=UpgradableVersionPathResult\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 desc: "Resource collection API of Clusters."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

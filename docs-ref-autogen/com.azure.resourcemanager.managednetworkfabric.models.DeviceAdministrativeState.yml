@@ -38,54 +38,114 @@ constructors:
   desc: "Creates a new instance of DeviceAdministrativeState value."
   hasDeprecatedTag: true
 fields:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState.DISABLE"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState.DISABLE"
+  name: "DISABLE"
+  nameWithType: "DeviceAdministrativeState.DISABLE"
+  summary: "Device Administrative<wbr>State-Disable."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState&text=DeviceAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DeviceAdministrativeState DISABLE"
+  desc: "Device AdministrativeState-Disable."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState.ENABLE"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState.ENABLE"
+  name: "ENABLE"
+  nameWithType: "DeviceAdministrativeState.ENABLE"
+  summary: "Device Administrative<wbr>State-Enable."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState&text=DeviceAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DeviceAdministrativeState ENABLE"
+  desc: "Device AdministrativeState-Enable."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState.GRACEFUL_QUARANTINE"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState.GRACEFUL_QUARANTINE"
   name: "GRACEFUL_QUARANTINE"
   nameWithType: "DeviceAdministrativeState.GRACEFUL_QUARANTINE"
-  summary: "Static value Graceful<wbr>Quarantine for Device<wbr>Administrative<wbr>State."
+  summary: "Device Administrative<wbr>State-Graceful<wbr>Quarantine."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState&text=DeviceAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DeviceAdministrativeState GRACEFUL_QUARANTINE"
-  desc: "Static value GracefulQuarantine for DeviceAdministrativeState."
+  desc: "Device AdministrativeState-GracefulQuarantine."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState.QUARANTINE"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState.QUARANTINE"
   name: "QUARANTINE"
   nameWithType: "DeviceAdministrativeState.QUARANTINE"
-  summary: "Static value Quarantine for Device<wbr>Administrative<wbr>State."
+  summary: "Device Administrative<wbr>State-Quarantine."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState&text=DeviceAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DeviceAdministrativeState QUARANTINE"
-  desc: "Static value Quarantine for DeviceAdministrativeState."
+  desc: "Device AdministrativeState-Quarantine."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState.RESYNC"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState.RESYNC"
   name: "RESYNC"
   nameWithType: "DeviceAdministrativeState.RESYNC"
-  summary: "Static value Resync for Device<wbr>Administrative<wbr>State."
+  summary: "Device Administrative<wbr>State-Resync."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState&text=DeviceAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DeviceAdministrativeState RESYNC"
-  desc: "Static value Resync for DeviceAdministrativeState."
+  desc: "Device AdministrativeState-Resync."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState.RMA"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState.RMA"
   name: "RMA"
   nameWithType: "DeviceAdministrativeState.RMA"
-  summary: "Static value RMA for Device<wbr>Administrative<wbr>State."
+  summary: "Device Administrative<wbr>State-RMA."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState&text=DeviceAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DeviceAdministrativeState RMA"
-  desc: "Static value RMA for DeviceAdministrativeState."
+  desc: "Device AdministrativeState-RMA."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState.UNDER_MAINTENANCE"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState.UNDER_MAINTENANCE"
+  name: "UNDER_MAINTENANCE"
+  nameWithType: "DeviceAdministrativeState.UNDER_MAINTENANCE"
+  summary: "Device Administrative<wbr>State-Under<wbr>Maintenance."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState&text=DeviceAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DeviceAdministrativeState UNDER_MAINTENANCE"
+  desc: "Device AdministrativeState-UnderMaintenance."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState.UNGRACEFUL_QUARANTINE"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState.UNGRACEFUL_QUARANTINE"
+  name: "UNGRACEFUL_QUARANTINE"
+  nameWithType: "DeviceAdministrativeState.UNGRACEFUL_QUARANTINE"
+  summary: "Device Administrative<wbr>State-Ungraceful<wbr>Quarantine."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState&text=DeviceAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DeviceAdministrativeState UNGRACEFUL_QUARANTINE"
+  desc: "Device AdministrativeState-UngracefulQuarantine."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState.UNGRACEFUL_RMA"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState.UNGRACEFUL_RMA"
+  name: "UNGRACEFUL_RMA"
+  nameWithType: "DeviceAdministrativeState.UNGRACEFUL_RMA"
+  summary: "Device Administrative<wbr>State-RMA(Return Material Authorization) Ungraceful."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState&text=DeviceAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final DeviceAdministrativeState UNGRACEFUL_RMA"
+  desc: "Device AdministrativeState-RMA(Return Material Authorization) Ungraceful."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.DeviceAdministrativeState.fromString(String name)"
@@ -119,4 +179,4 @@ type: "class"
 desc: "Administrative state."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

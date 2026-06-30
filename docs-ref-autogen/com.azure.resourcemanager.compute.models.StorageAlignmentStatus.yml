@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.compute.models.StorageAlignmentStatus"
+fullName: "com.azure.resourcemanager.compute.models.StorageAlignmentStatus"
+name: "StorageAlignmentStatus"
+nameWithType: "StorageAlignmentStatus"
+summary: "Specifies the storage alignment status for the disk."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **StorageAlignmentStatus**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.StorageAlignmentStatus?alt=com.azure.resourcemanager.compute.models.StorageAlignmentStatus&text=StorageAlignmentStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.compute.models.StorageAlignmentStatus.StorageAlignmentStatus()"
+  fullName: "com.azure.resourcemanager.compute.models.StorageAlignmentStatus.StorageAlignmentStatus()"
+  name: "StorageAlignmentStatus()"
+  nameWithType: "StorageAlignmentStatus.StorageAlignmentStatus()"
+  summary: "Creates a new instance of Storage<wbr>Alignment<wbr>Status value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.compute.models.StorageAlignmentStatus.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public StorageAlignmentStatus()"
+  desc: "Creates a new instance of StorageAlignmentStatus value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.compute.models.StorageAlignmentStatus.ALIGNED"
+  fullName: "com.azure.resourcemanager.compute.models.StorageAlignmentStatus.ALIGNED"
+  name: "ALIGNED"
+  nameWithType: "StorageAlignmentStatus.ALIGNED"
+  summary: "Disk has Storage Fault Domain to Compute Fault Domain mapping."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.StorageAlignmentStatus?alt=com.azure.resourcemanager.compute.models.StorageAlignmentStatus&text=StorageAlignmentStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final StorageAlignmentStatus ALIGNED"
+  desc: "Disk has Storage Fault Domain to Compute Fault Domain mapping. Storage Fault Domain failure is contained to VMs in a single Compute Fault Domain."
+- uid: "com.azure.resourcemanager.compute.models.StorageAlignmentStatus.UNALIGNED"
+  fullName: "com.azure.resourcemanager.compute.models.StorageAlignmentStatus.UNALIGNED"
+  name: "UNALIGNED"
+  nameWithType: "StorageAlignmentStatus.UNALIGNED"
+  summary: "Disk does not have Storage Fault Domain to Compute Fault Domain mapping."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.StorageAlignmentStatus?alt=com.azure.resourcemanager.compute.models.StorageAlignmentStatus&text=StorageAlignmentStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final StorageAlignmentStatus UNALIGNED"
+  desc: "Disk does not have Storage Fault Domain to Compute Fault Domain mapping. A single Storage Fault Domain failure may impact all VMs that reference this disk profile."
+methods:
+- uid: "com.azure.resourcemanager.compute.models.StorageAlignmentStatus.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.compute.models.StorageAlignmentStatus.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "StorageAlignmentStatus.fromString(String name)"
+  summary: "Creates or finds a Storage<wbr>Alignment<wbr>Status from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static StorageAlignmentStatus fromString(String name)"
+  desc: "Creates or finds a StorageAlignmentStatus from its string representation."
+  returns:
+    description: "the corresponding StorageAlignmentStatus."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.StorageAlignmentStatus?alt=com.azure.resourcemanager.compute.models.StorageAlignmentStatus&text=StorageAlignmentStatus\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.StorageAlignmentStatus.values()"
+  fullName: "com.azure.resourcemanager.compute.models.StorageAlignmentStatus.values()"
+  name: "values()"
+  nameWithType: "StorageAlignmentStatus.values()"
+  summary: "Gets known Storage<wbr>Alignment<wbr>Status values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<StorageAlignmentStatus> values()"
+  desc: "Gets known StorageAlignmentStatus values."
+  returns:
+    description: "known StorageAlignmentStatus values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.StorageAlignmentStatus?alt=com.azure.resourcemanager.compute.models.StorageAlignmentStatus&text=StorageAlignmentStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Specifies the storage alignment status for the disk."
+metadata: {}
+package: "com.azure.resourcemanager.compute.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

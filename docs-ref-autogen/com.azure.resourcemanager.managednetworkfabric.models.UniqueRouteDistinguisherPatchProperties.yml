@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties"
+name: "UniqueRouteDistinguisherPatchProperties"
+nameWithType: "UniqueRouteDistinguisherPatchProperties"
+summary: "Unique Route Distinguisher configuration properties."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **UniqueRouteDistinguisherPatchProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties&text=UniqueRouteDistinguisherPatchProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties.UniqueRouteDistinguisherPatchProperties()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties.UniqueRouteDistinguisherPatchProperties()"
+  name: "UniqueRouteDistinguisherPatchProperties()"
+  nameWithType: "UniqueRouteDistinguisherPatchProperties.UniqueRouteDistinguisherPatchProperties()"
+  summary: "Creates an instance of Unique<wbr>Route<wbr>Distinguisher<wbr>Patch<wbr>Properties class."
+  syntax: "public UniqueRouteDistinguisherPatchProperties()"
+  desc: "Creates an instance of UniqueRouteDistinguisherPatchProperties class."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "UniqueRouteDistinguisherPatchProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Unique<wbr>Route<wbr>Distinguisher<wbr>Patch<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static UniqueRouteDistinguisherPatchProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the UniqueRouteDistinguisherPatchProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of UniqueRouteDistinguisherPatchProperties from the JsonReader."
+  returns:
+    description: "An instance of UniqueRouteDistinguisherPatchProperties if the JsonReader was pointing to an instance of\n it, or null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties&text=UniqueRouteDistinguisherPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties.nniDerivedUniqueRdConfigurationState()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties.nniDerivedUniqueRdConfigurationState()"
+  name: "nniDerivedUniqueRdConfigurationState()"
+  nameWithType: "UniqueRouteDistinguisherPatchProperties.nniDerivedUniqueRdConfigurationState()"
+  summary: "Get the nni<wbr>Derived<wbr>Unique<wbr>RdConfiguration<wbr>State property: NNI derived unique Route Distinguisher state."
+  syntax: "public NNIDerivedUniqueRouteDistinguisherConfigurationState nniDerivedUniqueRdConfigurationState()"
+  desc: "Get the nniDerivedUniqueRdConfigurationState property: NNI derived unique Route Distinguisher state. Default is Disabled."
+  returns:
+    description: "the nniDerivedUniqueRdConfigurationState value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState?alt=com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState&text=NNIDerivedUniqueRouteDistinguisherConfigurationState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "UniqueRouteDistinguisherPatchProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties.uniqueRdConfigurationState()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties.uniqueRdConfigurationState()"
+  name: "uniqueRdConfigurationState()"
+  nameWithType: "UniqueRouteDistinguisherPatchProperties.uniqueRdConfigurationState()"
+  summary: "Get the unique<wbr>RdConfiguration<wbr>State property: Unique Route Distinguisher configuration state."
+  syntax: "public UniqueRouteDistinguisherConfigurationState uniqueRdConfigurationState()"
+  desc: "Get the uniqueRdConfigurationState property: Unique Route Distinguisher configuration state. Default is Enabled."
+  returns:
+    description: "the uniqueRdConfigurationState value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherConfigurationState?alt=com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherConfigurationState&text=UniqueRouteDistinguisherConfigurationState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties.withNniDerivedUniqueRdConfigurationState(com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties.withNniDerivedUniqueRdConfigurationState(NNIDerivedUniqueRouteDistinguisherConfigurationState nniDerivedUniqueRdConfigurationState)"
+  name: "withNniDerivedUniqueRdConfigurationState(NNIDerivedUniqueRouteDistinguisherConfigurationState nniDerivedUniqueRdConfigurationState)"
+  nameWithType: "UniqueRouteDistinguisherPatchProperties.withNniDerivedUniqueRdConfigurationState(NNIDerivedUniqueRouteDistinguisherConfigurationState nniDerivedUniqueRdConfigurationState)"
+  summary: "Set the nni<wbr>Derived<wbr>Unique<wbr>RdConfiguration<wbr>State property: NNI derived unique Route Distinguisher state."
+  parameters:
+  - description: "the nniDerivedUniqueRdConfigurationState value to set."
+    name: "nniDerivedUniqueRdConfigurationState"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState?alt=com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState&text=NNIDerivedUniqueRouteDistinguisherConfigurationState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public UniqueRouteDistinguisherPatchProperties withNniDerivedUniqueRdConfigurationState(NNIDerivedUniqueRouteDistinguisherConfigurationState nniDerivedUniqueRdConfigurationState)"
+  desc: "Set the nniDerivedUniqueRdConfigurationState property: NNI derived unique Route Distinguisher state. Default is Disabled."
+  returns:
+    description: "the UniqueRouteDistinguisherPatchProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties&text=UniqueRouteDistinguisherPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties.withUniqueRdConfigurationState(com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherConfigurationState)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties.withUniqueRdConfigurationState(UniqueRouteDistinguisherConfigurationState uniqueRdConfigurationState)"
+  name: "withUniqueRdConfigurationState(UniqueRouteDistinguisherConfigurationState uniqueRdConfigurationState)"
+  nameWithType: "UniqueRouteDistinguisherPatchProperties.withUniqueRdConfigurationState(UniqueRouteDistinguisherConfigurationState uniqueRdConfigurationState)"
+  summary: "Set the unique<wbr>RdConfiguration<wbr>State property: Unique Route Distinguisher configuration state."
+  parameters:
+  - description: "the uniqueRdConfigurationState value to set."
+    name: "uniqueRdConfigurationState"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherConfigurationState?alt=com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherConfigurationState&text=UniqueRouteDistinguisherConfigurationState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public UniqueRouteDistinguisherPatchProperties withUniqueRdConfigurationState(UniqueRouteDistinguisherConfigurationState uniqueRdConfigurationState)"
+  desc: "Set the uniqueRdConfigurationState property: Unique Route Distinguisher configuration state. Default is Enabled."
+  returns:
+    description: "the UniqueRouteDistinguisherPatchProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties&text=UniqueRouteDistinguisherPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Unique Route Distinguisher configuration properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherPatchProperties&text=UniqueRouteDistinguisherPatchProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

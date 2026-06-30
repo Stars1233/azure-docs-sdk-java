@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.IpAddressType.IPV4"
   name: "IPV4"
   nameWithType: "IpAddressType.IPV4"
-  summary: "Static value IPv4 for Ip<wbr>Address<wbr>Type."
+  summary: "IPv4 IP address."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpAddressType?alt=com.azure.resourcemanager.managednetworkfabric.models.IpAddressType&text=IpAddressType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final IpAddressType IPV4"
-  desc: "Static value IPv4 for IpAddressType."
+  desc: "IPv4 IP address."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.IpAddressType.IPV6"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.IpAddressType.IPV6"
   name: "IPV6"
   nameWithType: "IpAddressType.IPV6"
-  summary: "Static value IPv6 for Ip<wbr>Address<wbr>Type."
+  summary: "IPv6 IP address."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpAddressType?alt=com.azure.resourcemanager.managednetworkfabric.models.IpAddressType&text=IpAddressType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final IpAddressType IPV6"
-  desc: "Static value IPv6 for IpAddressType."
+  desc: "IPv6 IP address."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.IpAddressType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.IpAddressType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "IP Address type."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

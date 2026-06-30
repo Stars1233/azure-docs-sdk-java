@@ -6,18 +6,18 @@ nameWithType: "ExternalNetwork.UpdateStages.WithOptionBProperties"
 summary: "The stage of the External<wbr>Network update allowing to specify option<wbr>BProperties."
 syntax: "public static interface **ExternalNetwork.UpdateStages.WithOptionBProperties**"
 methods:
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.UpdateStages.WithOptionBProperties.withOptionBProperties(com.azure.resourcemanager.managednetworkfabric.models.L3OptionBProperties)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.UpdateStages.WithOptionBProperties.withOptionBProperties(L3OptionBProperties optionBProperties)"
-  name: "withOptionBProperties(L3OptionBProperties optionBProperties)"
-  nameWithType: "ExternalNetwork.UpdateStages.WithOptionBProperties.withOptionBProperties(L3OptionBProperties optionBProperties)"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.UpdateStages.WithOptionBProperties.withOptionBProperties(com.azure.resourcemanager.managednetworkfabric.models.L3OptionBPatchProperties)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.UpdateStages.WithOptionBProperties.withOptionBProperties(L3OptionBPatchProperties optionBProperties)"
+  name: "withOptionBProperties(L3OptionBPatchProperties optionBProperties)"
+  nameWithType: "ExternalNetwork.UpdateStages.WithOptionBProperties.withOptionBProperties(L3OptionBPatchProperties optionBProperties)"
   summary: "Specifies the option<wbr>BProperties property: option B properties object."
   modifiers:
   - "abstract"
   parameters:
   - description: "option B properties object."
     name: "optionBProperties"
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.L3OptionBProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.L3OptionBProperties&text=L3OptionBProperties\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract ExternalNetwork.Update withOptionBProperties(L3OptionBProperties optionBProperties)"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.L3OptionBPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.L3OptionBPatchProperties&text=L3OptionBPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ExternalNetwork.Update withOptionBProperties(L3OptionBPatchProperties optionBProperties)"
   desc: "Specifies the optionBProperties property: option B properties object."
   returns:
     description: "the next definition stage."
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the ExternalNetwork update allowing to specify optionBProperties."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

@@ -54,14 +54,14 @@ fields:
   fullName: "com.azure.resourcemanager.compute.models.ZonePlacementPolicyType.AUTO"
   name: "AUTO"
   nameWithType: "ZonePlacementPolicyType.AUTO"
-  summary: "Static value Auto for Zone<wbr>Placement<wbr>Policy<wbr>Type."
+  summary: "Automatic zone placement in a Virtual Machine Scale Set."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.ZonePlacementPolicyType?alt=com.azure.resourcemanager.compute.models.ZonePlacementPolicyType&text=ZonePlacementPolicyType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ZonePlacementPolicyType AUTO"
-  desc: "Static value Auto for ZonePlacementPolicyType."
+  desc: "Automatic zone placement in a Virtual Machine Scale Set."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.ZonePlacementPolicyType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.models.ZonePlacementPolicyType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Specifies the policy for resource's placement in availability zone. Possible values are: \\*\\*Any\\*\\* (used for Virtual Machines), \\*\\*Auto\\*\\* (used for Virtual Machine Scale Sets) - An availability zone will be automatically picked by system as part of resource creation."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

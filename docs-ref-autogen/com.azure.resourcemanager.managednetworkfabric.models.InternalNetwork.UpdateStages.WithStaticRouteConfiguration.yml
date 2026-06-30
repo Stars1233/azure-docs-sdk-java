@@ -6,18 +6,18 @@ nameWithType: "InternalNetwork.UpdateStages.WithStaticRouteConfiguration"
 summary: "The stage of the Internal<wbr>Network update allowing to specify static<wbr>Route<wbr>Configuration."
 syntax: "public static interface **InternalNetwork.UpdateStages.WithStaticRouteConfiguration**"
 methods:
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.UpdateStages.WithStaticRouteConfiguration.withStaticRouteConfiguration(com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.UpdateStages.WithStaticRouteConfiguration.withStaticRouteConfiguration(StaticRouteConfiguration staticRouteConfiguration)"
-  name: "withStaticRouteConfiguration(StaticRouteConfiguration staticRouteConfiguration)"
-  nameWithType: "InternalNetwork.UpdateStages.WithStaticRouteConfiguration.withStaticRouteConfiguration(StaticRouteConfiguration staticRouteConfiguration)"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.UpdateStages.WithStaticRouteConfiguration.withStaticRouteConfiguration(com.azure.resourcemanager.managednetworkfabric.models.StaticRoutePatchConfiguration)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.UpdateStages.WithStaticRouteConfiguration.withStaticRouteConfiguration(StaticRoutePatchConfiguration staticRouteConfiguration)"
+  name: "withStaticRouteConfiguration(StaticRoutePatchConfiguration staticRouteConfiguration)"
+  nameWithType: "InternalNetwork.UpdateStages.WithStaticRouteConfiguration.withStaticRouteConfiguration(StaticRoutePatchConfiguration staticRouteConfiguration)"
   summary: "Specifies the static<wbr>Route<wbr>Configuration property: Static Route Configuration properties.."
   modifiers:
   - "abstract"
   parameters:
   - description: "Static Route Configuration properties."
     name: "staticRouteConfiguration"
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration&text=StaticRouteConfiguration\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract InternalNetwork.Update withStaticRouteConfiguration(StaticRouteConfiguration staticRouteConfiguration)"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StaticRoutePatchConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.StaticRoutePatchConfiguration&text=StaticRoutePatchConfiguration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract InternalNetwork.Update withStaticRouteConfiguration(StaticRoutePatchConfiguration staticRouteConfiguration)"
   desc: "Specifies the staticRouteConfiguration property: Static Route Configuration properties.."
   returns:
     description: "the next definition stage."
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the InternalNetwork update allowing to specify staticRouteConfiguration."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

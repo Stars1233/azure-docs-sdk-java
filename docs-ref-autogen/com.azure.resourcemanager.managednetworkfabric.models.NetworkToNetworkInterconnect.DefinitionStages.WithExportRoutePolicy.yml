@@ -10,15 +10,15 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.DefinitionStages.WithExportRoutePolicy.withExportRoutePolicy(ExportRoutePolicyInformation exportRoutePolicy)"
   name: "withExportRoutePolicy(ExportRoutePolicyInformation exportRoutePolicy)"
   nameWithType: "NetworkToNetworkInterconnect.DefinitionStages.WithExportRoutePolicy.withExportRoutePolicy(ExportRoutePolicyInformation exportRoutePolicy)"
-  summary: "Specifies the export<wbr>Route<wbr>Policy property: Export Route Policy configuration.."
+  summary: "Specifies the export<wbr>Route<wbr>Policy property: Export Route Policy information."
   modifiers:
   - "abstract"
   parameters:
-  - description: "Export Route Policy configuration."
+  - description: "Export Route Policy information."
     name: "exportRoutePolicy"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExportRoutePolicyInformation?alt=com.azure.resourcemanager.managednetworkfabric.models.ExportRoutePolicyInformation&text=ExportRoutePolicyInformation\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract NetworkToNetworkInterconnect.DefinitionStages.WithCreate withExportRoutePolicy(ExportRoutePolicyInformation exportRoutePolicy)"
-  desc: "Specifies the exportRoutePolicy property: Export Route Policy configuration.."
+  desc: "Specifies the exportRoutePolicy property: Export Route Policy information."
   returns:
     description: "the next definition stage."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the NetworkToNetworkInterconnect definition allowing to specify exportRoutePolicy."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

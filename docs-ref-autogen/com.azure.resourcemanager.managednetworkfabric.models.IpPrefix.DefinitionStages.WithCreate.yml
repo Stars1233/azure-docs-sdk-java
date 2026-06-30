@@ -4,7 +4,7 @@ fullName: "com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.Defini
 name: "IpPrefix.DefinitionStages.WithCreate"
 nameWithType: "IpPrefix.DefinitionStages.WithCreate"
 summary: "The stage of the Ip<wbr>Prefix definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
-syntax: "public static interface **IpPrefix.DefinitionStages.WithCreate**</br> extends <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.DefinitionStages.WithTags?alt=com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.DefinitionStages.WithTags&text=WithTags\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.DefinitionStages.WithIpPrefixRules?alt=com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.DefinitionStages.WithIpPrefixRules&text=WithIpPrefixRules\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.DefinitionStages.WithAnnotation?alt=com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.DefinitionStages.WithAnnotation&text=WithAnnotation\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public static interface **IpPrefix.DefinitionStages.WithCreate**</br> extends <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.DefinitionStages.WithTags?alt=com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.DefinitionStages.WithTags&text=WithTags\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.DefinitionStages.WithAnnotation?alt=com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.DefinitionStages.WithAnnotation&text=WithAnnotation\" data-throw-if-not-resolved=\"False\" />"
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.DefinitionStages.WithCreate.create()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.DefinitionStages.WithCreate.create()"
@@ -38,8 +38,7 @@ type: "interface"
 desc: "The stage of the IpPrefix definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
 implements:
 - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.DefinitionStages.WithAnnotation?alt=com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.DefinitionStages.WithAnnotation&text=WithAnnotation\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.DefinitionStages.WithIpPrefixRules?alt=com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.DefinitionStages.WithIpPrefixRules&text=WithIpPrefixRules\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.DefinitionStages.WithTags?alt=com.azure.resourcemanager.managednetworkfabric.models.IpPrefix.DefinitionStages.WithTags&text=WithTags\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

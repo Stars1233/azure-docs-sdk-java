@@ -20,7 +20,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public class **IpCommunityPatchableProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityPatchableProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityPatchableProperties&text=IpCommunityPatchableProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+syntax: "public final class **IpCommunityPatchableProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityPatchableProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityPatchableProperties&text=IpCommunityPatchableProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityPatchableProperties.IpCommunityPatchableProperties()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityPatchableProperties.IpCommunityPatchableProperties()"
@@ -71,13 +71,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityPatchableProperties.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityPatchableProperties.validate()"
-  name: "validate()"
-  nameWithType: "IpCommunityPatchableProperties.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityPatchableProperties.withIpCommunityRules(java.util.List<com.azure.resourcemanager.managednetworkfabric.models.IpCommunityRule>)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityPatchableProperties.withIpCommunityRules(List<IpCommunityRule> ipCommunityRules)"
   name: "withIpCommunityRules(List<IpCommunityRule> ipCommunityRules)"
@@ -98,4 +91,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityPatchableProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityPatchableProperties&text=IpCommunityPatchableProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

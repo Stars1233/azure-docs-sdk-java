@@ -28,14 +28,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **VirtualMachineCaptureResultInner**</br> extends <xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineCaptureResultInner.VirtualMachineCaptureResultInner()"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineCaptureResultInner.VirtualMachineCaptureResultInner()"
-  name: "VirtualMachineCaptureResultInner()"
-  nameWithType: "VirtualMachineCaptureResultInner.VirtualMachineCaptureResultInner()"
-  summary: "Creates an instance of Virtual<wbr>Machine<wbr>Capture<wbr>Result<wbr>Inner class."
-  syntax: "public VirtualMachineCaptureResultInner()"
-  desc: "Creates an instance of VirtualMachineCaptureResultInner class."
 methods:
 - uid: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineCaptureResultInner.contentVersion()"
   fullName: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineCaptureResultInner.contentVersion()"
@@ -116,19 +108,8 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineCaptureResultInner.withId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineCaptureResultInner.withId(String id)"
-  name: "withId(String id)"
-  nameWithType: "VirtualMachineCaptureResultInner.withId(String id)"
-  overridden: "com.azure.core.management.SubResource.withId(java.lang.String)"
-  parameters:
-  - name: "id"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public VirtualMachineCaptureResultInner withId(String id)"
-  returns:
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.VirtualMachineCaptureResultInner?alt=com.azure.resourcemanager.compute.fluent.models.VirtualMachineCaptureResultInner&text=VirtualMachineCaptureResultInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Output of virtual machine capture operation."
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

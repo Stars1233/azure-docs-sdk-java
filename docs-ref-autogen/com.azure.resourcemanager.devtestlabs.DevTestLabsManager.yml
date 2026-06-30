@@ -256,12 +256,12 @@ methods:
   fullName: "com.azure.resourcemanager.devtestlabs.DevTestLabsManager.serviceClient()"
   name: "serviceClient()"
   nameWithType: "DevTestLabsManager.serviceClient()"
-  summary: "Gets wrapped service client Dev<wbr>Test<wbr>Labs<wbr>Client providing direct access to the underlying auto-generated API implementation, based on Azure REST API."
-  syntax: "public DevTestLabsClient serviceClient()"
-  desc: "Gets wrapped service client DevTestLabsClient providing direct access to the underlying auto-generated API implementation, based on Azure REST API."
+  summary: "Gets wrapped service client Dev<wbr>Test<wbr>Labs<wbr>Management<wbr>Client providing direct access to the underlying auto-generated API implementation, based on Azure REST API."
+  syntax: "public DevTestLabsManagementClient serviceClient()"
+  desc: "Gets wrapped service client DevTestLabsManagementClient providing direct access to the underlying auto-generated API implementation, based on Azure REST API."
   returns:
-    description: "Wrapped service client DevTestLabsClient."
-    type: "<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient?alt=com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsClient&text=DevTestLabsClient\" data-throw-if-not-resolved=\"False\" />"
+    description: "Wrapped service client DevTestLabsManagementClient."
+    type: "<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsManagementClient?alt=com.azure.resourcemanager.devtestlabs.fluent.DevTestLabsManagementClient&text=DevTestLabsManagementClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.devtestlabs.DevTestLabsManager.serviceFabrics()"
   fullName: "com.azure.resourcemanager.devtestlabs.DevTestLabsManager.serviceFabrics()"
   name: "serviceFabrics()"
@@ -336,4 +336,4 @@ type: "class"
 desc: "Entry point to DevTestLabsManager. The DevTest Labs Client."
 metadata: {}
 package: "com.azure.resourcemanager.devtestlabs"
-artifact: com.azure.resourcemanager:azure-resourcemanager-devtestlabs:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-devtestlabs:1.2.0

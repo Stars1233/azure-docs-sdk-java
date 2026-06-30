@@ -146,6 +146,16 @@ methods:
   returns:
     description: "the name value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceInner.performanceTier()"
+  fullName: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceInner.performanceTier()"
+  name: "performanceTier()"
+  nameWithType: "FileSystemResourceInner.performanceTier()"
+  summary: "Get the performance<wbr>Tier property: Pre-Provisioned Performance of the Resource."
+  syntax: "public String performanceTier()"
+  desc: "Get the performanceTier property: Pre-Provisioned Performance of the Resource."
+  returns:
+    description: "the performanceTier value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceInner.privateIPs()"
   fullName: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceInner.privateIPs()"
   name: "privateIPs()"
@@ -220,13 +230,6 @@ methods:
   returns:
     description: "the userDetails value."
     type: "<xref href=\"com.azure.resourcemanager.qumulo.models.UserDetails?alt=com.azure.resourcemanager.qumulo.models.UserDetails&text=UserDetails\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceInner.validate()"
-  fullName: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceInner.validate()"
-  name: "validate()"
-  nameWithType: "FileSystemResourceInner.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceInner.withAdminPassword(java.lang.String)"
   fullName: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceInner.withAdminPassword(String adminPassword)"
   name: "withAdminPassword(String adminPassword)"
@@ -322,6 +325,20 @@ methods:
   returns:
     description: "the FileSystemResourceInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceInner?alt=com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceInner&text=FileSystemResourceInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceInner.withPerformanceTier(java.lang.String)"
+  fullName: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceInner.withPerformanceTier(String performanceTier)"
+  name: "withPerformanceTier(String performanceTier)"
+  nameWithType: "FileSystemResourceInner.withPerformanceTier(String performanceTier)"
+  summary: "Set the performance<wbr>Tier property: Pre-Provisioned Performance of the Resource."
+  parameters:
+  - description: "the performanceTier value to set."
+    name: "performanceTier"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public FileSystemResourceInner withPerformanceTier(String performanceTier)"
+  desc: "Set the performanceTier property: Pre-Provisioned Performance of the Resource."
+  returns:
+    description: "the FileSystemResourceInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceInner?alt=com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceInner&text=FileSystemResourceInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceInner.withPrivateIPs(java.util.List<java.lang.String>)"
   fullName: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceInner.withPrivateIPs(List<String> privateIPs)"
   name: "withPrivateIPs(List<String> privateIPs)"
@@ -379,4 +396,4 @@ type: "class"
 desc: "Concrete tracked resource types can be created by aliasing this type using a specific property type."
 metadata: {}
 package: "com.azure.resourcemanager.qumulo.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-qumulo:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-qumulo:1.2.0

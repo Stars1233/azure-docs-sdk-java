@@ -6,18 +6,18 @@ nameWithType: "NetworkFabric.UpdateStages.WithTerminalServerConfiguration"
 summary: "The stage of the Network<wbr>Fabric update allowing to specify terminal<wbr>Server<wbr>Configuration."
 syntax: "public static interface **NetworkFabric.UpdateStages.WithTerminalServerConfiguration**"
 methods:
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.UpdateStages.WithTerminalServerConfiguration.withTerminalServerConfiguration(com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricPatchablePropertiesTerminalServerConfiguration)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.UpdateStages.WithTerminalServerConfiguration.withTerminalServerConfiguration(NetworkFabricPatchablePropertiesTerminalServerConfiguration terminalServerConfiguration)"
-  name: "withTerminalServerConfiguration(NetworkFabricPatchablePropertiesTerminalServerConfiguration terminalServerConfiguration)"
-  nameWithType: "NetworkFabric.UpdateStages.WithTerminalServerConfiguration.withTerminalServerConfiguration(NetworkFabricPatchablePropertiesTerminalServerConfiguration terminalServerConfiguration)"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.UpdateStages.WithTerminalServerConfiguration.withTerminalServerConfiguration(com.azure.resourcemanager.managednetworkfabric.models.TerminalServerPatchConfiguration)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.UpdateStages.WithTerminalServerConfiguration.withTerminalServerConfiguration(TerminalServerPatchConfiguration terminalServerConfiguration)"
+  name: "withTerminalServerConfiguration(TerminalServerPatchConfiguration terminalServerConfiguration)"
+  nameWithType: "NetworkFabric.UpdateStages.WithTerminalServerConfiguration.withTerminalServerConfiguration(TerminalServerPatchConfiguration terminalServerConfiguration)"
   summary: "Specifies the terminal<wbr>Server<wbr>Configuration property: Network and credentials configuration already applied to terminal server.."
   modifiers:
   - "abstract"
   parameters:
   - description: "Network and credentials configuration already applied to terminal\n server."
     name: "terminalServerConfiguration"
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricPatchablePropertiesTerminalServerConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricPatchablePropertiesTerminalServerConfiguration&text=NetworkFabricPatchablePropertiesTerminalServerConfiguration\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract NetworkFabric.Update withTerminalServerConfiguration(NetworkFabricPatchablePropertiesTerminalServerConfiguration terminalServerConfiguration)"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.TerminalServerPatchConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.TerminalServerPatchConfiguration&text=TerminalServerPatchConfiguration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NetworkFabric.Update withTerminalServerConfiguration(TerminalServerPatchConfiguration terminalServerConfiguration)"
   desc: "Specifies the terminalServerConfiguration property: Network and credentials configuration already applied to terminal server.."
   returns:
     description: "the next definition stage."
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the NetworkFabric update allowing to specify terminalServerConfiguration."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

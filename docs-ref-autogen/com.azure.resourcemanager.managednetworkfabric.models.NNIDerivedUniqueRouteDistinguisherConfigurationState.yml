@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState"
+name: "NNIDerivedUniqueRouteDistinguisherConfigurationState"
+nameWithType: "NNIDerivedUniqueRouteDistinguisherConfigurationState"
+summary: "NNI Derived Unique Route Distinguisher Configuration State."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **NNIDerivedUniqueRouteDistinguisherConfigurationState**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState?alt=com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState&text=NNIDerivedUniqueRouteDistinguisherConfigurationState\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState.NNIDerivedUniqueRouteDistinguisherConfigurationState()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState.NNIDerivedUniqueRouteDistinguisherConfigurationState()"
+  name: "NNIDerivedUniqueRouteDistinguisherConfigurationState()"
+  nameWithType: "NNIDerivedUniqueRouteDistinguisherConfigurationState.NNIDerivedUniqueRouteDistinguisherConfigurationState()"
+  summary: "Creates a new instance of NNIDerived<wbr>Unique<wbr>Route<wbr>Distinguisher<wbr>Configuration<wbr>State value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public NNIDerivedUniqueRouteDistinguisherConfigurationState()"
+  desc: "Creates a new instance of NNIDerivedUniqueRouteDistinguisherConfigurationState value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState.DISABLED"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState.DISABLED"
+  name: "DISABLED"
+  nameWithType: "NNIDerivedUniqueRouteDistinguisherConfigurationState.DISABLED"
+  summary: "NNI derived unique route distinguisher configuration state Disabled."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState?alt=com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState&text=NNIDerivedUniqueRouteDistinguisherConfigurationState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final NNIDerivedUniqueRouteDistinguisherConfigurationState DISABLED"
+  desc: "NNI derived unique route distinguisher configuration state Disabled."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState.ENABLED"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState.ENABLED"
+  name: "ENABLED"
+  nameWithType: "NNIDerivedUniqueRouteDistinguisherConfigurationState.ENABLED"
+  summary: "NNI derived unique route distinguisher configuration state Enabled."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState?alt=com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState&text=NNIDerivedUniqueRouteDistinguisherConfigurationState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final NNIDerivedUniqueRouteDistinguisherConfigurationState ENABLED"
+  desc: "NNI derived unique route distinguisher configuration state Enabled."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "NNIDerivedUniqueRouteDistinguisherConfigurationState.fromString(String name)"
+  summary: "Creates or finds a NNIDerived<wbr>Unique<wbr>Route<wbr>Distinguisher<wbr>Configuration<wbr>State from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static NNIDerivedUniqueRouteDistinguisherConfigurationState fromString(String name)"
+  desc: "Creates or finds a NNIDerivedUniqueRouteDistinguisherConfigurationState from its string representation."
+  returns:
+    description: "the corresponding NNIDerivedUniqueRouteDistinguisherConfigurationState."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState?alt=com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState&text=NNIDerivedUniqueRouteDistinguisherConfigurationState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState.values()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState.values()"
+  name: "values()"
+  nameWithType: "NNIDerivedUniqueRouteDistinguisherConfigurationState.values()"
+  summary: "Gets known NNIDerived<wbr>Unique<wbr>Route<wbr>Distinguisher<wbr>Configuration<wbr>State values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<NNIDerivedUniqueRouteDistinguisherConfigurationState> values()"
+  desc: "Gets known NNIDerivedUniqueRouteDistinguisherConfigurationState values."
+  returns:
+    description: "known NNIDerivedUniqueRouteDistinguisherConfigurationState values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState?alt=com.azure.resourcemanager.managednetworkfabric.models.NNIDerivedUniqueRouteDistinguisherConfigurationState&text=NNIDerivedUniqueRouteDistinguisherConfigurationState\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "NNI Derived Unique Route Distinguisher Configuration State."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

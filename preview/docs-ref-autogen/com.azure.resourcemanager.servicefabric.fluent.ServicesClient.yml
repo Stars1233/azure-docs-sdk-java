@@ -14,7 +14,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the cluster resource."
@@ -42,7 +42,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the cluster resource."
@@ -73,7 +73,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the cluster resource."
@@ -98,7 +98,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the cluster resource."
@@ -126,7 +126,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the cluster resource."
@@ -154,7 +154,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the cluster resource."
@@ -185,7 +185,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the cluster resource."
@@ -213,7 +213,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the cluster resource."
@@ -244,7 +244,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the cluster resource."
@@ -266,7 +266,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the cluster resource."
@@ -291,7 +291,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the cluster resource."
@@ -306,7 +306,7 @@ methods:
   syntax: "public abstract ServiceResourceInner get(String resourceGroupName, String clusterName, String applicationName, String serviceName)"
   desc: "Gets a Service Fabric service resource. Get a Service Fabric service resource created or in the process of being created in the Service Fabric application resource."
   returns:
-    description: "a Service Fabric service resource created or in the process of being created in the Service Fabric\n application resource."
+    description: "a Service Fabric service resource.\n \n Get a Service Fabric service resource created or in the process of being created in the Service Fabric\n application resource."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ServiceResourceInner?alt=com.azure.resourcemanager.servicefabric.fluent.models.ServiceResourceInner&text=ServiceResourceInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabric.fluent.ServicesClient.getWithResponse(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.servicefabric.fluent.ServicesClient.getWithResponse(String resourceGroupName, String clusterName, String applicationName, String serviceName, Context context)"
@@ -316,7 +316,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the cluster resource."
@@ -334,7 +334,7 @@ methods:
   syntax: "public abstract Response<ServiceResourceInner> getWithResponse(String resourceGroupName, String clusterName, String applicationName, String serviceName, Context context)"
   desc: "Gets a Service Fabric service resource. Get a Service Fabric service resource created or in the process of being created in the Service Fabric application resource."
   returns:
-    description: "a Service Fabric service resource created or in the process of being created in the Service Fabric\n application resource along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    description: "a Service Fabric service resource.\n \n Get a Service Fabric service resource created or in the process of being created in the Service Fabric\n application resource along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ServiceResourceInner?alt=com.azure.resourcemanager.servicefabric.fluent.models.ServiceResourceInner&text=ServiceResourceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.servicefabric.fluent.ServicesClient.list(java.lang.String,java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.servicefabric.fluent.ServicesClient.list(String resourceGroupName, String clusterName, String applicationName)"
@@ -344,7 +344,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the cluster resource."
@@ -356,7 +356,7 @@ methods:
   syntax: "public abstract PagedIterable<ServiceResourceInner> list(String resourceGroupName, String clusterName, String applicationName)"
   desc: "Gets the list of service resources created in the specified Service Fabric application resource. Gets all service resources created or in the process of being created in the Service Fabric application resource."
   returns:
-    description: "all service resources created or in the process of being created in the Service Fabric application\n resource as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "the list of service resources created in the specified Service Fabric application resource.\n \n Gets all service resources created or in the process of being created in the Service Fabric application resource\n as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ServiceResourceInner?alt=com.azure.resourcemanager.servicefabric.fluent.models.ServiceResourceInner&text=ServiceResourceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.servicefabric.fluent.ServicesClient.list(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.servicefabric.fluent.ServicesClient.list(String resourceGroupName, String clusterName, String applicationName, Context context)"
@@ -366,7 +366,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the cluster resource."
@@ -381,7 +381,7 @@ methods:
   syntax: "public abstract PagedIterable<ServiceResourceInner> list(String resourceGroupName, String clusterName, String applicationName, Context context)"
   desc: "Gets the list of service resources created in the specified Service Fabric application resource. Gets all service resources created or in the process of being created in the Service Fabric application resource."
   returns:
-    description: "all service resources created or in the process of being created in the Service Fabric application\n resource as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "the list of service resources created in the specified Service Fabric application resource.\n \n Gets all service resources created or in the process of being created in the Service Fabric application resource\n as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ServiceResourceInner?alt=com.azure.resourcemanager.servicefabric.fluent.models.ServiceResourceInner&text=ServiceResourceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.servicefabric.fluent.ServicesClient.update(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.servicefabric.models.ServiceResourceUpdate)"
   fullName: "com.azure.resourcemanager.servicefabric.fluent.ServicesClient.update(String resourceGroupName, String clusterName, String applicationName, String serviceName, ServiceResourceUpdate parameters)"
@@ -391,7 +391,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the cluster resource."
@@ -419,7 +419,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the cluster resource."
@@ -446,4 +446,4 @@ type: "interface"
 desc: "An instance of this class provides access to all the operations defined in ServicesClient."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

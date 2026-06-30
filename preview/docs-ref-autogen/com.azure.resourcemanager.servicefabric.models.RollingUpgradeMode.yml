@@ -42,50 +42,50 @@ fields:
   fullName: "com.azure.resourcemanager.servicefabric.models.RollingUpgradeMode.INVALID"
   name: "INVALID"
   nameWithType: "RollingUpgradeMode.INVALID"
-  summary: "Static value Invalid for Rolling<wbr>Upgrade<wbr>Mode."
+  summary: "Indicates the upgrade mode is invalid."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.RollingUpgradeMode?alt=com.azure.resourcemanager.servicefabric.models.RollingUpgradeMode&text=RollingUpgradeMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RollingUpgradeMode INVALID"
-  desc: "Static value Invalid for RollingUpgradeMode."
+  desc: "Indicates the upgrade mode is invalid. All Service Fabric enumerations have the invalid type. The value is zero."
 - uid: "com.azure.resourcemanager.servicefabric.models.RollingUpgradeMode.MONITORED"
   fullName: "com.azure.resourcemanager.servicefabric.models.RollingUpgradeMode.MONITORED"
   name: "MONITORED"
   nameWithType: "RollingUpgradeMode.MONITORED"
-  summary: "Static value Monitored for Rolling<wbr>Upgrade<wbr>Mode."
+  summary: "The upgrade will stop after completing each upgrade domain and automatically monitor health before proceeding."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.RollingUpgradeMode?alt=com.azure.resourcemanager.servicefabric.models.RollingUpgradeMode&text=RollingUpgradeMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RollingUpgradeMode MONITORED"
-  desc: "Static value Monitored for RollingUpgradeMode."
+  desc: "The upgrade will stop after completing each upgrade domain and automatically monitor health before proceeding. The value is 3."
 - uid: "com.azure.resourcemanager.servicefabric.models.RollingUpgradeMode.UNMONITORED_AUTO"
   fullName: "com.azure.resourcemanager.servicefabric.models.RollingUpgradeMode.UNMONITORED_AUTO"
   name: "UNMONITORED_AUTO"
   nameWithType: "RollingUpgradeMode.UNMONITORED_AUTO"
-  summary: "Static value Unmonitored<wbr>Auto for Rolling<wbr>Upgrade<wbr>Mode."
+  summary: "The upgrade will proceed automatically without performing any health monitoring."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.RollingUpgradeMode?alt=com.azure.resourcemanager.servicefabric.models.RollingUpgradeMode&text=RollingUpgradeMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RollingUpgradeMode UNMONITORED_AUTO"
-  desc: "Static value UnmonitoredAuto for RollingUpgradeMode."
+  desc: "The upgrade will proceed automatically without performing any health monitoring. The value is 1."
 - uid: "com.azure.resourcemanager.servicefabric.models.RollingUpgradeMode.UNMONITORED_MANUAL"
   fullName: "com.azure.resourcemanager.servicefabric.models.RollingUpgradeMode.UNMONITORED_MANUAL"
   name: "UNMONITORED_MANUAL"
   nameWithType: "RollingUpgradeMode.UNMONITORED_MANUAL"
-  summary: "Static value Unmonitored<wbr>Manual for Rolling<wbr>Upgrade<wbr>Mode."
+  summary: "The upgrade will stop after completing each upgrade domain, giving the opportunity to manually monitor health before proceeding."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.RollingUpgradeMode?alt=com.azure.resourcemanager.servicefabric.models.RollingUpgradeMode&text=RollingUpgradeMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RollingUpgradeMode UNMONITORED_MANUAL"
-  desc: "Static value UnmonitoredManual for RollingUpgradeMode."
+  desc: "The upgrade will stop after completing each upgrade domain, giving the opportunity to manually monitor health before proceeding. The value is 2."
 methods:
 - uid: "com.azure.resourcemanager.servicefabric.models.RollingUpgradeMode.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.servicefabric.models.RollingUpgradeMode.fromString(String name)"
@@ -119,4 +119,4 @@ type: "class"
 desc: "The mode used to monitor health during a rolling upgrade. The values are UnmonitoredAuto, UnmonitoredManual, and Monitored."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

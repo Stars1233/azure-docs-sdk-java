@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.redhatopenshift.models.OpenShiftCluster.UpdateStages.WithIdentity"
+fullName: "com.azure.resourcemanager.redhatopenshift.models.OpenShiftCluster.UpdateStages.WithIdentity"
+name: "OpenShiftCluster.UpdateStages.WithIdentity"
+nameWithType: "OpenShiftCluster.UpdateStages.WithIdentity"
+summary: "The stage of the Open<wbr>Shift<wbr>Cluster update allowing to specify identity."
+syntax: "public static interface **OpenShiftCluster.UpdateStages.WithIdentity**"
+methods:
+- uid: "com.azure.resourcemanager.redhatopenshift.models.OpenShiftCluster.UpdateStages.WithIdentity.withIdentity(com.azure.resourcemanager.redhatopenshift.models.ManagedServiceIdentity)"
+  fullName: "com.azure.resourcemanager.redhatopenshift.models.OpenShiftCluster.UpdateStages.WithIdentity.withIdentity(ManagedServiceIdentity identity)"
+  name: "withIdentity(ManagedServiceIdentity identity)"
+  nameWithType: "OpenShiftCluster.UpdateStages.WithIdentity.withIdentity(ManagedServiceIdentity identity)"
+  summary: "Specifies the identity property: Identity stores information about the cluster MSI(s) in a workload identity cluster.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Identity stores information about the cluster MSI(s) in a workload identity cluster."
+    name: "identity"
+    type: "<xref href=\"com.azure.resourcemanager.redhatopenshift.models.ManagedServiceIdentity?alt=com.azure.resourcemanager.redhatopenshift.models.ManagedServiceIdentity&text=ManagedServiceIdentity\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract OpenShiftCluster.Update withIdentity(ManagedServiceIdentity identity)"
+  desc: "Specifies the identity property: Identity stores information about the cluster MSI(s) in a workload identity cluster.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.redhatopenshift.models.OpenShiftCluster.Update?alt=com.azure.resourcemanager.redhatopenshift.models.OpenShiftCluster.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the OpenShiftCluster update allowing to specify identity."
+metadata: {}
+package: "com.azure.resourcemanager.redhatopenshift.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-redhatopenshift:1.0.0

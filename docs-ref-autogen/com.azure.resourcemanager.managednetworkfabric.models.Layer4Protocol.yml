@@ -38,30 +38,42 @@ constructors:
   desc: "Creates a new instance of Layer4Protocol value."
   hasDeprecatedTag: true
 fields:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.Layer4Protocol.SCTP"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.Layer4Protocol.SCTP"
+  name: "SCTP"
+  nameWithType: "Layer4Protocol.SCTP"
+  summary: "SCTP(Streaming Control Transmission Protocol) Protocol."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.Layer4Protocol?alt=com.azure.resourcemanager.managednetworkfabric.models.Layer4Protocol&text=Layer4Protocol\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final Layer4Protocol SCTP"
+  desc: "SCTP(Streaming Control Transmission Protocol) Protocol."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.Layer4Protocol.TCP"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.Layer4Protocol.TCP"
   name: "TCP"
   nameWithType: "Layer4Protocol.TCP"
-  summary: "Static value TCP for Layer4Protocol."
+  summary: "TCP(Transmission Control Protocol) Protocol."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.Layer4Protocol?alt=com.azure.resourcemanager.managednetworkfabric.models.Layer4Protocol&text=Layer4Protocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final Layer4Protocol TCP"
-  desc: "Static value TCP for Layer4Protocol."
+  desc: "TCP(Transmission Control Protocol) Protocol."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.Layer4Protocol.UDP"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.Layer4Protocol.UDP"
   name: "UDP"
   nameWithType: "Layer4Protocol.UDP"
-  summary: "Static value UDP for Layer4Protocol."
+  summary: "UDP(User Datagram Protocol) Protocol."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.Layer4Protocol?alt=com.azure.resourcemanager.managednetworkfabric.models.Layer4Protocol&text=Layer4Protocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final Layer4Protocol UDP"
-  desc: "Static value UDP for Layer4Protocol."
+  desc: "UDP(User Datagram Protocol) Protocol."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.Layer4Protocol.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.Layer4Protocol.fromString(String name)"
@@ -95,4 +107,4 @@ type: "class"
 desc: "Layer4 protocol type that needs to be matched."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

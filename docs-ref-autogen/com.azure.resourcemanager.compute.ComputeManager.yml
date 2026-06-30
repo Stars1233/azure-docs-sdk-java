@@ -89,6 +89,16 @@ methods:
   returns:
     description: "the availability set resource management API entry point"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.AvailabilitySets?alt=com.azure.resourcemanager.compute.models.AvailabilitySets&text=AvailabilitySets\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.ComputeManager.cloudServiceClient()"
+  fullName: "com.azure.resourcemanager.compute.ComputeManager.cloudServiceClient()"
+  name: "cloudServiceClient()"
+  nameWithType: "ComputeManager.cloudServiceClient()"
+  summary: "Gets the cloud service client."
+  syntax: "public CloudServiceManagementClient cloudServiceClient()"
+  desc: "Gets the cloud service client."
+  returns:
+    description: "the cloud service client"
+    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.CloudServiceManagementClient?alt=com.azure.resourcemanager.compute.fluent.CloudServiceManagementClient&text=CloudServiceManagementClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.ComputeManager.computeSkus()"
   fullName: "com.azure.resourcemanager.compute.ComputeManager.computeSkus()"
   name: "computeSkus()"
@@ -255,4 +265,4 @@ type: "class"
 desc: "Entry point to Azure compute resource management."
 metadata: {}
 package: "com.azure.resourcemanager.compute"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

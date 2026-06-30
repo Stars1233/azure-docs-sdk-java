@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDevice.DefinitionStages.WithIdentitySelector"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDevice.DefinitionStages.WithIdentitySelector"
+name: "NetworkDevice.DefinitionStages.WithIdentitySelector"
+nameWithType: "NetworkDevice.DefinitionStages.WithIdentitySelector"
+summary: "The stage of the Network<wbr>Device definition allowing to specify identity<wbr>Selector."
+syntax: "public static interface **NetworkDevice.DefinitionStages.WithIdentitySelector**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDevice.DefinitionStages.WithIdentitySelector.withIdentitySelector(com.azure.resourcemanager.managednetworkfabric.models.IdentitySelector)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDevice.DefinitionStages.WithIdentitySelector.withIdentitySelector(IdentitySelector identitySelector)"
+  name: "withIdentitySelector(IdentitySelector identitySelector)"
+  nameWithType: "NetworkDevice.DefinitionStages.WithIdentitySelector.withIdentitySelector(IdentitySelector identitySelector)"
+  summary: "Specifies the identity<wbr>Selector property: The selection of the managed identity to use with this storage account."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The selection of the managed identity to use with this storage account. The\n identity type must be either system assigned or user assigned."
+    name: "identitySelector"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IdentitySelector?alt=com.azure.resourcemanager.managednetworkfabric.models.IdentitySelector&text=IdentitySelector\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NetworkDevice.DefinitionStages.WithCreate withIdentitySelector(IdentitySelector identitySelector)"
+  desc: "Specifies the identitySelector property: The selection of the managed identity to use with this storage account. The identity type must be either system assigned or user assigned.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkDevice.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkDevice.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkDevice definition allowing to specify identitySelector."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType"
+fullName: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType"
+name: "VMScaleSetLifecycleHookEventType"
+nameWithType: "VMScaleSetLifecycleHookEventType"
+summary: "Specifies the scenario for which the customer is interested in receiving virtual machine scale set lifecycle hook events."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **VMScaleSetLifecycleHookEventType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType?alt=com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType&text=VMScaleSetLifecycleHookEventType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType.VMScaleSetLifecycleHookEventType()"
+  fullName: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType.VMScaleSetLifecycleHookEventType()"
+  name: "VMScaleSetLifecycleHookEventType()"
+  nameWithType: "VMScaleSetLifecycleHookEventType.VMScaleSetLifecycleHookEventType()"
+  summary: "Creates a new instance of VMScale<wbr>Set<wbr>Lifecycle<wbr>Hook<wbr>Event<wbr>Type value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public VMScaleSetLifecycleHookEventType()"
+  desc: "Creates a new instance of VMScaleSetLifecycleHookEventType value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType.UPGRADE_AUTO_OSROLLING_BATCH_STARTING"
+  fullName: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType.UPGRADE_AUTO_OSROLLING_BATCH_STARTING"
+  name: "UPGRADE_AUTO_OSROLLING_BATCH_STARTING"
+  nameWithType: "VMScaleSetLifecycleHookEventType.UPGRADE_AUTO_OSROLLING_BATCH_STARTING"
+  summary: "Lifecycle hook event sent to the customer before upgrade starts on a batch of virtual machines belonging to a virtual machine scale set during an Auto OS Upgrade operation."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType?alt=com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType&text=VMScaleSetLifecycleHookEventType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final VMScaleSetLifecycleHookEventType UPGRADE_AUTO_OSROLLING_BATCH_STARTING"
+  desc: "Lifecycle hook event sent to the customer before upgrade starts on a batch of virtual machines belonging to a virtual machine scale set during an Auto OS Upgrade operation."
+- uid: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType.UPGRADE_AUTO_OSSCHEDULING"
+  fullName: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType.UPGRADE_AUTO_OSSCHEDULING"
+  name: "UPGRADE_AUTO_OSSCHEDULING"
+  nameWithType: "VMScaleSetLifecycleHookEventType.UPGRADE_AUTO_OSSCHEDULING"
+  summary: "Lifecycle hook event sent to the customer before an Auto OS Upgrade operation starts on the virtual machine scale set."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType?alt=com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType&text=VMScaleSetLifecycleHookEventType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final VMScaleSetLifecycleHookEventType UPGRADE_AUTO_OSSCHEDULING"
+  desc: "Lifecycle hook event sent to the customer before an Auto OS Upgrade operation starts on the virtual machine scale set."
+methods:
+- uid: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "VMScaleSetLifecycleHookEventType.fromString(String name)"
+  summary: "Creates or finds a VMScale<wbr>Set<wbr>Lifecycle<wbr>Hook<wbr>Event<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static VMScaleSetLifecycleHookEventType fromString(String name)"
+  desc: "Creates or finds a VMScaleSetLifecycleHookEventType from its string representation."
+  returns:
+    description: "the corresponding VMScaleSetLifecycleHookEventType."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType?alt=com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType&text=VMScaleSetLifecycleHookEventType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType.values()"
+  fullName: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType.values()"
+  name: "values()"
+  nameWithType: "VMScaleSetLifecycleHookEventType.values()"
+  summary: "Gets known VMScale<wbr>Set<wbr>Lifecycle<wbr>Hook<wbr>Event<wbr>Type values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<VMScaleSetLifecycleHookEventType> values()"
+  desc: "Gets known VMScaleSetLifecycleHookEventType values."
+  returns:
+    description: "known VMScaleSetLifecycleHookEventType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType?alt=com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventType&text=VMScaleSetLifecycleHookEventType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Specifies the scenario for which the customer is interested in receiving virtual machine scale set lifecycle hook events."
+metadata: {}
+package: "com.azure.resourcemanager.compute.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

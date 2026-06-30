@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **RdpConnectionInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.models.RdpConnectionInner?alt=com.azure.resourcemanager.devtestlabs.fluent.models.RdpConnectionInner&text=RdpConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.devtestlabs.fluent.models.RdpConnectionInner.RdpConnectionInner()"
-  fullName: "com.azure.resourcemanager.devtestlabs.fluent.models.RdpConnectionInner.RdpConnectionInner()"
-  name: "RdpConnectionInner()"
-  nameWithType: "RdpConnectionInner.RdpConnectionInner()"
-  summary: "Creates an instance of Rdp<wbr>Connection<wbr>Inner class."
-  syntax: "public RdpConnectionInner()"
-  desc: "Creates an instance of RdpConnectionInner class."
 methods:
 - uid: "com.azure.resourcemanager.devtestlabs.fluent.models.RdpConnectionInner.contents()"
   fullName: "com.azure.resourcemanager.devtestlabs.fluent.models.RdpConnectionInner.contents()"
@@ -71,31 +63,10 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.devtestlabs.fluent.models.RdpConnectionInner.validate()"
-  fullName: "com.azure.resourcemanager.devtestlabs.fluent.models.RdpConnectionInner.validate()"
-  name: "validate()"
-  nameWithType: "RdpConnectionInner.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.devtestlabs.fluent.models.RdpConnectionInner.withContents(java.lang.String)"
-  fullName: "com.azure.resourcemanager.devtestlabs.fluent.models.RdpConnectionInner.withContents(String contents)"
-  name: "withContents(String contents)"
-  nameWithType: "RdpConnectionInner.withContents(String contents)"
-  summary: "Set the contents property: The contents of the .rdp file."
-  parameters:
-  - description: "the contents value to set."
-    name: "contents"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public RdpConnectionInner withContents(String contents)"
-  desc: "Set the contents property: The contents of the .rdp file."
-  returns:
-    description: "the RdpConnectionInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.models.RdpConnectionInner?alt=com.azure.resourcemanager.devtestlabs.fluent.models.RdpConnectionInner&text=RdpConnectionInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Represents a .rdp file."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.models.RdpConnectionInner?alt=com.azure.resourcemanager.devtestlabs.fluent.models.RdpConnectionInner&text=RdpConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.devtestlabs.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-devtestlabs:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-devtestlabs:1.2.0

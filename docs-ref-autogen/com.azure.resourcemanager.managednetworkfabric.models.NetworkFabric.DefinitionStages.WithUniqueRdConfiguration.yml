@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithUniqueRdConfiguration"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithUniqueRdConfiguration"
+name: "NetworkFabric.DefinitionStages.WithUniqueRdConfiguration"
+nameWithType: "NetworkFabric.DefinitionStages.WithUniqueRdConfiguration"
+summary: "The stage of the Network<wbr>Fabric definition allowing to specify unique<wbr>RdConfiguration."
+syntax: "public static interface **NetworkFabric.DefinitionStages.WithUniqueRdConfiguration**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithUniqueRdConfiguration.withUniqueRdConfiguration(com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherProperties)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithUniqueRdConfiguration.withUniqueRdConfiguration(UniqueRouteDistinguisherProperties uniqueRdConfiguration)"
+  name: "withUniqueRdConfiguration(UniqueRouteDistinguisherProperties uniqueRdConfiguration)"
+  nameWithType: "NetworkFabric.DefinitionStages.WithUniqueRdConfiguration.withUniqueRdConfiguration(UniqueRouteDistinguisherProperties uniqueRdConfiguration)"
+  summary: "Specifies the unique<wbr>RdConfiguration property: Unique Route Distinguisher configuration."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Unique Route Distinguisher configuration."
+    name: "uniqueRdConfiguration"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.UniqueRouteDistinguisherProperties&text=UniqueRouteDistinguisherProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NetworkFabric.DefinitionStages.WithCreate withUniqueRdConfiguration(UniqueRouteDistinguisherProperties uniqueRdConfiguration)"
+  desc: "Specifies the uniqueRdConfiguration property: Unique Route Distinguisher configuration."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkFabric definition allowing to specify uniqueRdConfiguration."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

@@ -112,7 +112,9 @@ fields:
   name: "UBUNTU_SERVER_18_04_LTS_GEN2"
   nameWithType: "KnownLinuxVirtualMachineImage.UBUNTU_SERVER_18_04_LTS_GEN2"
   summary: "Ubuntu<wbr>Server 18.04LTS Gen2."
+  deprecatedTag: "use UBUNTU\\_SERVER\\_20\\_04\\_LTS."
   desc: "UbuntuServer 18.04LTS Gen2."
+  hasDeprecatedTag: true
 - uid: "com.azure.resourcemanager.compute.models.KnownLinuxVirtualMachineImage.UBUNTU_SERVER_20_04_LTS"
   fullName: "com.azure.resourcemanager.compute.models.KnownLinuxVirtualMachineImage.UBUNTU_SERVER_20_04_LTS"
   name: "UBUNTU_SERVER_20_04_LTS"
@@ -190,4 +192,4 @@ methods:
 desc: "The popular Azure Linux images."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

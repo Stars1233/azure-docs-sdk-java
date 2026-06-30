@@ -42,26 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.EnableDisableState.DISABLE"
   name: "DISABLE"
   nameWithType: "EnableDisableState.DISABLE"
-  summary: "Static value Disable for Enable<wbr>Disable<wbr>State."
+  summary: "Administrative<wbr>State Disable."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.EnableDisableState?alt=com.azure.resourcemanager.managednetworkfabric.models.EnableDisableState&text=EnableDisableState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final EnableDisableState DISABLE"
-  desc: "Static value Disable for EnableDisableState."
+  desc: "AdministrativeState Disable."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.EnableDisableState.ENABLE"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.EnableDisableState.ENABLE"
   name: "ENABLE"
   nameWithType: "EnableDisableState.ENABLE"
-  summary: "Static value Enable for Enable<wbr>Disable<wbr>State."
+  summary: "Administrative<wbr>State Enable."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.EnableDisableState?alt=com.azure.resourcemanager.managednetworkfabric.models.EnableDisableState&text=EnableDisableState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final EnableDisableState ENABLE"
-  desc: "Static value Enable for EnableDisableState."
+  desc: "AdministrativeState Enable."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.EnableDisableState.UNDER_MAINTENANCE"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.EnableDisableState.UNDER_MAINTENANCE"
+  name: "UNDER_MAINTENANCE"
+  nameWithType: "EnableDisableState.UNDER_MAINTENANCE"
+  summary: "Administrative<wbr>State Under<wbr>Maintenance."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.EnableDisableState?alt=com.azure.resourcemanager.managednetworkfabric.models.EnableDisableState&text=EnableDisableState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final EnableDisableState UNDER_MAINTENANCE"
+  desc: "AdministrativeState UnderMaintenance."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.EnableDisableState.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.EnableDisableState.fromString(String name)"
@@ -95,4 +107,4 @@ type: "class"
 desc: "Administrative state."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

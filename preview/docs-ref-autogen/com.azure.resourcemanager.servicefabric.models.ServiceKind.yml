@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.servicefabric.models.ServiceKind.INVALID"
   name: "INVALID"
   nameWithType: "ServiceKind.INVALID"
-  summary: "Static value Invalid for Service<wbr>Kind."
+  summary: "Indicates the service kind is invalid."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceKind?alt=com.azure.resourcemanager.servicefabric.models.ServiceKind&text=ServiceKind\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ServiceKind INVALID"
-  desc: "Static value Invalid for ServiceKind."
+  desc: "Indicates the service kind is invalid. All Service Fabric enumerations have the invalid type. The value is zero."
 - uid: "com.azure.resourcemanager.servicefabric.models.ServiceKind.STATEFUL"
   fullName: "com.azure.resourcemanager.servicefabric.models.ServiceKind.STATEFUL"
   name: "STATEFUL"
   nameWithType: "ServiceKind.STATEFUL"
-  summary: "Static value Stateful for Service<wbr>Kind."
+  summary: "Uses Service Fabric to make its state or part of its state highly available and reliable."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceKind?alt=com.azure.resourcemanager.servicefabric.models.ServiceKind&text=ServiceKind\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ServiceKind STATEFUL"
-  desc: "Static value Stateful for ServiceKind."
+  desc: "Uses Service Fabric to make its state or part of its state highly available and reliable. The value is 2."
 - uid: "com.azure.resourcemanager.servicefabric.models.ServiceKind.STATELESS"
   fullName: "com.azure.resourcemanager.servicefabric.models.ServiceKind.STATELESS"
   name: "STATELESS"
   nameWithType: "ServiceKind.STATELESS"
-  summary: "Static value Stateless for Service<wbr>Kind."
+  summary: "Does not use Service Fabric to make its state highly available or reliable."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceKind?alt=com.azure.resourcemanager.servicefabric.models.ServiceKind&text=ServiceKind\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ServiceKind STATELESS"
-  desc: "Static value Stateless for ServiceKind."
+  desc: "Does not use Service Fabric to make its state highly available or reliable. The value is 1."
 methods:
 - uid: "com.azure.resourcemanager.servicefabric.models.ServiceKind.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.servicefabric.models.ServiceKind.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "The kind of service (Stateless or Stateful)."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

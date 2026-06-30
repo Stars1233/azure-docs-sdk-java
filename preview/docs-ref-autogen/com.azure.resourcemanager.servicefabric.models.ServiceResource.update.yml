@@ -4,7 +4,7 @@ fullName: "com.azure.resourcemanager.servicefabric.models.ServiceResource.Update
 name: "ServiceResource.Update"
 nameWithType: "ServiceResource.Update"
 summary: "The template for Service<wbr>Resource update."
-syntax: "public static interface **ServiceResource.Update**</br> extends <xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResource.UpdateStages.WithProperties?alt=com.azure.resourcemanager.servicefabric.models.ServiceResource.UpdateStages.WithProperties&text=WithProperties\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public static interface **ServiceResource.Update**</br> extends <xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResource.UpdateStages.WithSystemData?alt=com.azure.resourcemanager.servicefabric.models.ServiceResource.UpdateStages.WithSystemData&text=WithSystemData\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResource.UpdateStages.WithProperties?alt=com.azure.resourcemanager.servicefabric.models.ServiceResource.UpdateStages.WithProperties&text=WithProperties\" data-throw-if-not-resolved=\"False\" />"
 methods:
 - uid: "com.azure.resourcemanager.servicefabric.models.ServiceResource.Update.apply()"
   fullName: "com.azure.resourcemanager.servicefabric.models.ServiceResource.Update.apply()"
@@ -38,6 +38,7 @@ type: "interface"
 desc: "The template for ServiceResource update."
 implements:
 - "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResource.UpdateStages.WithProperties?alt=com.azure.resourcemanager.servicefabric.models.ServiceResource.UpdateStages.WithProperties&text=WithProperties\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResource.UpdateStages.WithSystemData?alt=com.azure.resourcemanager.servicefabric.models.ServiceResource.UpdateStages.WithSystemData&text=WithSystemData\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

@@ -153,6 +153,10 @@
         - com.azure.resourcemanager.artifactsigning.fluent
         - com.azure.resourcemanager.artifactsigning.fluent.models
         - com.azure.resourcemanager.artifactsigning.models
+        - com.azure.resourcemanager.artifactsigning
+        - com.azure.resourcemanager.artifactsigning.fluent
+        - com.azure.resourcemanager.artifactsigning.fluent.models
+        - com.azure.resourcemanager.artifactsigning.models
   - name: Attestation
     href: ~/docs-ref-services/latest/attestation.md
     landingPageType: Service
@@ -324,6 +328,10 @@
         - com.azure.resourcemanager.chaos.fluent
         - com.azure.resourcemanager.chaos.fluent.models
         - com.azure.resourcemanager.chaos.models
+        - com.azure.resourcemanager.chaos
+        - com.azure.resourcemanager.chaos.fluent
+        - com.azure.resourcemanager.chaos.fluent.models
+        - com.azure.resourcemanager.chaos.models
   - name: Cognitive Services
     href: ~/docs-ref-services/latest/cognitive-services.md
     landingPageType: Service
@@ -331,8 +339,6 @@
     - name: AI Agents
       href: ~/docs-ref-services/latest/ai-agents-readme.md
       children:
-      - com.azure.ai.agents
-      - com.azure.ai.agents.models
       - com.azure.ai.agents
       - com.azure.ai.agents.models
     - name: Content Safety
@@ -361,8 +367,6 @@
       children:
       - com.azure.ai.projects
       - com.azure.ai.projects.models
-      - com.azure.ai.projects
-      - com.azure.ai.projects.models
     - name: Text Analytics
       href: ~/docs-ref-services/latest/ai-textanalytics-readme.md
       children:
@@ -379,8 +383,6 @@
       children:
       - com.azure.ai.translation.text
       - com.azure.ai.translation.text.models
-      - com.azure.ai.translation.text
-      - com.azure.ai.translation.text.models
     - name: Image Analysis
       href: ~/docs-ref-services/latest/ai-vision-imageanalysis-readme.md
       children:
@@ -389,6 +391,8 @@
     - name: Voice Live
       href: ~/docs-ref-services/latest/ai-voicelive-readme.md
       children:
+      - com.azure.ai.voicelive
+      - com.azure.ai.voicelive.models
       - com.azure.ai.voicelive
       - com.azure.ai.voicelive.models
     - name: Health Insights Radiology Insights
@@ -1141,7 +1145,6 @@
     - name: System Events
       href: ~/docs-ref-services/latest/messaging-eventgrid-systemevents-readme.md
       children:
-      - com.azure.messaging.eventgrid
       - com.azure.messaging.eventgrid.systemevents
       - com.azure.messaging.eventgrid.systemevents.models
     - name: Management
@@ -1702,8 +1705,6 @@
       children:
       - com.azure.security.keyvault.secrets
       - com.azure.security.keyvault.secrets.models
-      - com.azure.security.keyvault.secrets
-      - com.azure.security.keyvault.secrets.models
     - name: Management
       items:
       - name: Resource Management - Key Vault
@@ -1884,6 +1885,10 @@
         - com.azure.resourcemanager.msi.fluent
         - com.azure.resourcemanager.msi.fluent.models
         - com.azure.resourcemanager.msi.models
+        - com.azure.resourcemanager.msi
+        - com.azure.resourcemanager.msi.fluent
+        - com.azure.resourcemanager.msi.fluent.models
+        - com.azure.resourcemanager.msi.models
   - name: Maps
     href: ~/docs-ref-services/latest/maps.md
     landingPageType: Service
@@ -1957,6 +1962,10 @@
         - com.azure.resourcemanager.mongocluster.fluent
         - com.azure.resourcemanager.mongocluster.fluent.models
         - com.azure.resourcemanager.mongocluster.models
+        - com.azure.resourcemanager.mongocluster
+        - com.azure.resourcemanager.mongocluster.fluent
+        - com.azure.resourcemanager.mongocluster.fluent.models
+        - com.azure.resourcemanager.mongocluster.models
   - name: Mongodbatlas
     href: ~/docs-ref-services/latest/mongodbatlas.md
     landingPageType: Service
@@ -2006,6 +2015,19 @@
         - com.azure.resourcemanager.monitor.fluent
         - com.azure.resourcemanager.monitor.fluent.models
         - com.azure.resourcemanager.monitor.models
+  - name: Monitor-Workspaces
+    href: ~/docs-ref-services/latest/monitor-workspaces.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Monitor-Workspaces
+        href: ~/docs-ref-services/latest/resourcemanager-monitor-workspaces-readme.md
+        children:
+        - com.azure.resourcemanager.monitor.workspaces
+        - com.azure.resourcemanager.monitor.workspaces.fluent
+        - com.azure.resourcemanager.monitor.workspaces.fluent.models
+        - com.azure.resourcemanager.monitor.workspaces.models
   - name: MySQL
     href: ~/docs-ref-services/latest/mysql.md
     landingPageType: Service
@@ -2370,6 +2392,19 @@
         - com.azure.resourcemanager.recoveryservicessiterecovery.fluent
         - com.azure.resourcemanager.recoveryservicessiterecovery.fluent.models
         - com.azure.resourcemanager.recoveryservicessiterecovery.models
+  - name: Red Hat OpenShift
+    href: ~/docs-ref-services/latest/red-hat-openshift.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Red Hat OpenShift
+        href: ~/docs-ref-services/latest/resourcemanager-redhatopenshift-readme.md
+        children:
+        - com.azure.resourcemanager.redhatopenshift
+        - com.azure.resourcemanager.redhatopenshift.fluent
+        - com.azure.resourcemanager.redhatopenshift.fluent.models
+        - com.azure.resourcemanager.redhatopenshift.models
   - name: Redis
     href: ~/docs-ref-services/latest/redis.md
     landingPageType: Service
@@ -2536,6 +2571,12 @@
       - com.azure.search.documents.knowledgebases
       - com.azure.search.documents.knowledgebases.models
       - com.azure.search.documents.models
+      - com.azure.search.documents
+      - com.azure.search.documents.indexes
+      - com.azure.search.documents.indexes.models
+      - com.azure.search.documents.knowledgebases
+      - com.azure.search.documents.knowledgebases.models
+      - com.azure.search.documents.models
     - name: Management
       items:
       - name: Resource Management - Azure AI Search
@@ -2629,6 +2670,10 @@
       - name: Resource Management - Service Fabric
         href: ~/docs-ref-services/latest/resourcemanager-servicefabric-readme.md
         children:
+        - com.azure.resourcemanager.servicefabric
+        - com.azure.resourcemanager.servicefabric.fluent
+        - com.azure.resourcemanager.servicefabric.fluent.models
+        - com.azure.resourcemanager.servicefabric.models
         - com.azure.resourcemanager.servicefabric
         - com.azure.resourcemanager.servicefabric.fluent
         - com.azure.resourcemanager.servicefabric.fluent.models
@@ -2753,31 +2798,18 @@
       - com.azure.storage.blob.options
       - com.azure.storage.blob.sas
       - com.azure.storage.blob.specialized
-      - com.azure.storage.blob
-      - com.azure.storage.blob.models
-      - com.azure.storage.blob.options
-      - com.azure.storage.blob.sas
-      - com.azure.storage.blob.specialized
     - name: Storage - Blobs Batch
       href: ~/docs-ref-services/latest/storage-blob-batch-readme.md
       children:
-      - com.azure.storage.blob.batch
-      - com.azure.storage.blob.batch.options
       - com.azure.storage.blob.batch
       - com.azure.storage.blob.batch.options
     - name: Storage - Blobs Cryptography
       href: ~/docs-ref-services/latest/storage-blob-cryptography-readme.md
       children:
       - com.azure.storage.blob.specialized.cryptography
-      - com.azure.storage.blob.specialized.cryptography
     - name: Storage - Files Data Lake
       href: ~/docs-ref-services/latest/storage-file-datalake-readme.md
       children:
-      - com.azure.storage.file.datalake
-      - com.azure.storage.file.datalake.models
-      - com.azure.storage.file.datalake.options
-      - com.azure.storage.file.datalake.sas
-      - com.azure.storage.file.datalake.specialized
       - com.azure.storage.file.datalake
       - com.azure.storage.file.datalake.models
       - com.azure.storage.file.datalake.options
@@ -2791,17 +2823,9 @@
       - com.azure.storage.file.share.options
       - com.azure.storage.file.share.sas
       - com.azure.storage.file.share.specialized
-      - com.azure.storage.file.share
-      - com.azure.storage.file.share.models
-      - com.azure.storage.file.share.options
-      - com.azure.storage.file.share.sas
-      - com.azure.storage.file.share.specialized
     - name: Storage - Queues
       href: ~/docs-ref-services/latest/storage-queue-readme.md
       children:
-      - com.azure.storage.queue
-      - com.azure.storage.queue.models
-      - com.azure.storage.queue.sas
       - com.azure.storage.queue
       - com.azure.storage.queue.models
       - com.azure.storage.queue.sas
@@ -2947,6 +2971,10 @@
       - name: Resource Management - Traffic Manager
         href: ~/docs-ref-services/latest/resourcemanager-trafficmanager-readme.md
         children:
+        - com.azure.resourcemanager.trafficmanager
+        - com.azure.resourcemanager.trafficmanager.fluent
+        - com.azure.resourcemanager.trafficmanager.fluent.models
+        - com.azure.resourcemanager.trafficmanager.models
         - com.azure.resourcemanager.trafficmanager
         - com.azure.resourcemanager.trafficmanager.fluent
         - com.azure.resourcemanager.trafficmanager.fluent.models

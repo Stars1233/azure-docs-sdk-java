@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.chaos.models.PrivateAccess.DefinitionStages.WithProperties"
+fullName: "com.azure.resourcemanager.chaos.models.PrivateAccess.DefinitionStages.WithProperties"
+name: "PrivateAccess.DefinitionStages.WithProperties"
+nameWithType: "PrivateAccess.DefinitionStages.WithProperties"
+summary: "The stage of the Private<wbr>Access definition allowing to specify properties."
+syntax: "public static interface **PrivateAccess.DefinitionStages.WithProperties**"
+methods:
+- uid: "com.azure.resourcemanager.chaos.models.PrivateAccess.DefinitionStages.WithProperties.withProperties(com.azure.resourcemanager.chaos.models.PrivateAccessProperties)"
+  fullName: "com.azure.resourcemanager.chaos.models.PrivateAccess.DefinitionStages.WithProperties.withProperties(PrivateAccessProperties properties)"
+  name: "withProperties(PrivateAccessProperties properties)"
+  nameWithType: "PrivateAccess.DefinitionStages.WithProperties.withProperties(PrivateAccessProperties properties)"
+  summary: "Specifies the properties property: The resource-specific properties for this resource.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The resource-specific properties for this resource."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.chaos.models.PrivateAccessProperties?alt=com.azure.resourcemanager.chaos.models.PrivateAccessProperties&text=PrivateAccessProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PrivateAccess.DefinitionStages.WithCreate withProperties(PrivateAccessProperties properties)"
+  desc: "Specifies the properties property: The resource-specific properties for this resource.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.chaos.models.PrivateAccess.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.chaos.models.PrivateAccess.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the PrivateAccess definition allowing to specify properties."
+metadata: {}
+package: "com.azure.resourcemanager.chaos.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-chaos:1.4.0-beta.1

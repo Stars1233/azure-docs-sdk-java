@@ -27,7 +27,9 @@ constructors:
   name: "CapacityReservationInstanceView()"
   nameWithType: "CapacityReservationInstanceView.CapacityReservationInstanceView()"
   summary: "Creates an instance of Capacity<wbr>Reservation<wbr>Instance<wbr>View class."
-  syntax: "public CapacityReservationInstanceView()"
+  modifiers:
+  - "protected"
+  syntax: "protected CapacityReservationInstanceView()"
   desc: "Creates an instance of CapacityReservationInstanceView class."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.CapacityReservationInstanceView.fromJson(com.azure.json.JsonReader)"
@@ -88,38 +90,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.compute.models.CapacityReservationInstanceView.withStatuses(java.util.List<com.azure.resourcemanager.compute.models.InstanceViewStatus>)"
-  fullName: "com.azure.resourcemanager.compute.models.CapacityReservationInstanceView.withStatuses(List<InstanceViewStatus> statuses)"
-  name: "withStatuses(List<InstanceViewStatus> statuses)"
-  nameWithType: "CapacityReservationInstanceView.withStatuses(List<InstanceViewStatus> statuses)"
-  summary: "Set the statuses property: The resource status information."
-  parameters:
-  - description: "the statuses value to set."
-    name: "statuses"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.InstanceViewStatus?alt=com.azure.resourcemanager.compute.models.InstanceViewStatus&text=InstanceViewStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public CapacityReservationInstanceView withStatuses(List<InstanceViewStatus> statuses)"
-  desc: "Set the statuses property: The resource status information."
-  returns:
-    description: "the CapacityReservationInstanceView object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.CapacityReservationInstanceView?alt=com.azure.resourcemanager.compute.models.CapacityReservationInstanceView&text=CapacityReservationInstanceView\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.models.CapacityReservationInstanceView.withUtilizationInfo(com.azure.resourcemanager.compute.models.CapacityReservationUtilization)"
-  fullName: "com.azure.resourcemanager.compute.models.CapacityReservationInstanceView.withUtilizationInfo(CapacityReservationUtilization utilizationInfo)"
-  name: "withUtilizationInfo(CapacityReservationUtilization utilizationInfo)"
-  nameWithType: "CapacityReservationInstanceView.withUtilizationInfo(CapacityReservationUtilization utilizationInfo)"
-  summary: "Set the utilization<wbr>Info property: Unutilized capacity of the capacity reservation."
-  parameters:
-  - description: "the utilizationInfo value to set."
-    name: "utilizationInfo"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.CapacityReservationUtilization?alt=com.azure.resourcemanager.compute.models.CapacityReservationUtilization&text=CapacityReservationUtilization\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public CapacityReservationInstanceView withUtilizationInfo(CapacityReservationUtilization utilizationInfo)"
-  desc: "Set the utilizationInfo property: Unutilized capacity of the capacity reservation."
-  returns:
-    description: "the CapacityReservationInstanceView object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.CapacityReservationInstanceView?alt=com.azure.resourcemanager.compute.models.CapacityReservationInstanceView&text=CapacityReservationInstanceView\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The instance view of a capacity reservation that provides as snapshot of the runtime properties of the capacity reservation that is managed by the platform and can change outside of control plane operations."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.CapacityReservationInstanceView?alt=com.azure.resourcemanager.compute.models.CapacityReservationInstanceView&text=CapacityReservationInstanceView\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

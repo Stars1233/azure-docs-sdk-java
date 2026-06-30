@@ -4,7 +4,7 @@ fullName: "com.azure.resourcemanager.managednetworkfabric.models.IpCommunity.Def
 name: "IpCommunity.DefinitionStages.WithCreate"
 nameWithType: "IpCommunity.DefinitionStages.WithCreate"
 summary: "The stage of the Ip<wbr>Community definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
-syntax: "public static interface **IpCommunity.DefinitionStages.WithCreate**</br> extends <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpCommunity.DefinitionStages.WithTags?alt=com.azure.resourcemanager.managednetworkfabric.models.IpCommunity.DefinitionStages.WithTags&text=WithTags\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpCommunity.DefinitionStages.WithIpCommunityRules?alt=com.azure.resourcemanager.managednetworkfabric.models.IpCommunity.DefinitionStages.WithIpCommunityRules&text=WithIpCommunityRules\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpCommunity.DefinitionStages.WithAnnotation?alt=com.azure.resourcemanager.managednetworkfabric.models.IpCommunity.DefinitionStages.WithAnnotation&text=WithAnnotation\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public static interface **IpCommunity.DefinitionStages.WithCreate**</br> extends <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpCommunity.DefinitionStages.WithTags?alt=com.azure.resourcemanager.managednetworkfabric.models.IpCommunity.DefinitionStages.WithTags&text=WithTags\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpCommunity.DefinitionStages.WithAnnotation?alt=com.azure.resourcemanager.managednetworkfabric.models.IpCommunity.DefinitionStages.WithAnnotation&text=WithAnnotation\" data-throw-if-not-resolved=\"False\" />"
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.IpCommunity.DefinitionStages.WithCreate.create()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.IpCommunity.DefinitionStages.WithCreate.create()"
@@ -38,8 +38,7 @@ type: "interface"
 desc: "The stage of the IpCommunity definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
 implements:
 - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpCommunity.DefinitionStages.WithAnnotation?alt=com.azure.resourcemanager.managednetworkfabric.models.IpCommunity.DefinitionStages.WithAnnotation&text=WithAnnotation\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpCommunity.DefinitionStages.WithIpCommunityRules?alt=com.azure.resourcemanager.managednetworkfabric.models.IpCommunity.DefinitionStages.WithIpCommunityRules&text=WithIpCommunityRules\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpCommunity.DefinitionStages.WithTags?alt=com.azure.resourcemanager.managednetworkfabric.models.IpCommunity.DefinitionStages.WithTags&text=WithTags\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

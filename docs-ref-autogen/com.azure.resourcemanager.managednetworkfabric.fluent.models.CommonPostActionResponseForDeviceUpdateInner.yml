@@ -6,7 +6,13 @@ nameWithType: "CommonPostActionResponseForDeviceUpdateInner"
 summary: "Common response for device updates."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse&text=CommonErrorResponse\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.error()?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.error&text=error\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.fromJson(com.azure.json.JsonReader)?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -20,15 +26,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **CommonPostActionResponseForDeviceUpdateInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner&text=CommonPostActionResponseForDeviceUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner.CommonPostActionResponseForDeviceUpdateInner()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner.CommonPostActionResponseForDeviceUpdateInner()"
-  name: "CommonPostActionResponseForDeviceUpdateInner()"
-  nameWithType: "CommonPostActionResponseForDeviceUpdateInner.CommonPostActionResponseForDeviceUpdateInner()"
-  summary: "Creates an instance of Common<wbr>Post<wbr>Action<wbr>Response<wbr>For<wbr>Device<wbr>Update<wbr>Inner class."
-  syntax: "public CommonPostActionResponseForDeviceUpdateInner()"
-  desc: "Creates an instance of CommonPostActionResponseForDeviceUpdateInner class."
+syntax: "public final class **CommonPostActionResponseForDeviceUpdateInner**</br> extends <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse&text=CommonErrorResponse\" data-throw-if-not-resolved=\"False\" />"
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner.configurationState()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner.configurationState()"
@@ -45,6 +43,7 @@ methods:
   name: "error()"
   nameWithType: "CommonPostActionResponseForDeviceUpdateInner.error()"
   summary: "Get the error property: The error object."
+  overridden: "com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.error()"
   syntax: "public ManagementError error()"
   desc: "Get the error property: The error object."
   returns:
@@ -93,6 +92,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
   nameWithType: "CommonPostActionResponseForDeviceUpdateInner.toJson(JsonWriter jsonWriter)"
+  overridden: "com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.toJson(com.azure.json.JsonWriter)"
   parameters:
   - name: "jsonWriter"
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
@@ -101,59 +101,8 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner.validate()"
-  name: "validate()"
-  nameWithType: "CommonPostActionResponseForDeviceUpdateInner.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner.withError(com.azure.core.management.exception.ManagementError)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner.withError(ManagementError error)"
-  name: "withError(ManagementError error)"
-  nameWithType: "CommonPostActionResponseForDeviceUpdateInner.withError(ManagementError error)"
-  summary: "Set the error property: The error object."
-  parameters:
-  - description: "the error value to set."
-    name: "error"
-    type: "<xref href=\"com.azure.core.management.exception.ManagementError?alt=com.azure.core.management.exception.ManagementError&text=ManagementError\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public CommonPostActionResponseForDeviceUpdateInner withError(ManagementError error)"
-  desc: "Set the error property: The error object."
-  returns:
-    description: "the CommonPostActionResponseForDeviceUpdateInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner&text=CommonPostActionResponseForDeviceUpdateInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner.withFailedDevices(java.util.List<java.lang.String>)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner.withFailedDevices(List<String> failedDevices)"
-  name: "withFailedDevices(List<String> failedDevices)"
-  nameWithType: "CommonPostActionResponseForDeviceUpdateInner.withFailedDevices(List<String> failedDevices)"
-  summary: "Set the failed<wbr>Devices property: List of ARM Resource IDs for which the given action failed to apply."
-  parameters:
-  - description: "the failedDevices value to set."
-    name: "failedDevices"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public CommonPostActionResponseForDeviceUpdateInner withFailedDevices(List<String> failedDevices)"
-  desc: "Set the failedDevices property: List of ARM Resource IDs for which the given action failed to apply."
-  returns:
-    description: "the CommonPostActionResponseForDeviceUpdateInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner&text=CommonPostActionResponseForDeviceUpdateInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner.withSuccessfulDevices(java.util.List<java.lang.String>)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner.withSuccessfulDevices(List<String> successfulDevices)"
-  name: "withSuccessfulDevices(List<String> successfulDevices)"
-  nameWithType: "CommonPostActionResponseForDeviceUpdateInner.withSuccessfulDevices(List<String> successfulDevices)"
-  summary: "Set the successful<wbr>Devices property: List of ARM Resource IDs for which the given action applied successfully."
-  parameters:
-  - description: "the successfulDevices value to set."
-    name: "successfulDevices"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public CommonPostActionResponseForDeviceUpdateInner withSuccessfulDevices(List<String> successfulDevices)"
-  desc: "Set the successfulDevices property: List of ARM Resource IDs for which the given action applied successfully."
-  returns:
-    description: "the CommonPostActionResponseForDeviceUpdateInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner&text=CommonPostActionResponseForDeviceUpdateInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Common response for device updates."
-implements:
-- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner&text=CommonPostActionResponseForDeviceUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

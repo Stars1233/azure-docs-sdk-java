@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **SharedGalleryIdentifier**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.SharedGalleryIdentifier?alt=com.azure.resourcemanager.compute.fluent.models.SharedGalleryIdentifier&text=SharedGalleryIdentifier\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.compute.fluent.models.SharedGalleryIdentifier.SharedGalleryIdentifier()"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.SharedGalleryIdentifier.SharedGalleryIdentifier()"
-  name: "SharedGalleryIdentifier()"
-  nameWithType: "SharedGalleryIdentifier.SharedGalleryIdentifier()"
-  summary: "Creates an instance of Shared<wbr>Gallery<wbr>Identifier class."
-  syntax: "public SharedGalleryIdentifier()"
-  desc: "Creates an instance of SharedGalleryIdentifier class."
 methods:
 - uid: "com.azure.resourcemanager.compute.fluent.models.SharedGalleryIdentifier.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.compute.fluent.models.SharedGalleryIdentifier.fromJson(JsonReader jsonReader)"
@@ -78,24 +70,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.compute.fluent.models.SharedGalleryIdentifier.withUniqueId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.SharedGalleryIdentifier.withUniqueId(String uniqueId)"
-  name: "withUniqueId(String uniqueId)"
-  nameWithType: "SharedGalleryIdentifier.withUniqueId(String uniqueId)"
-  summary: "Set the unique<wbr>Id property: The unique id of this shared gallery."
-  parameters:
-  - description: "the uniqueId value to set."
-    name: "uniqueId"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public SharedGalleryIdentifier withUniqueId(String uniqueId)"
-  desc: "Set the uniqueId property: The unique id of this shared gallery."
-  returns:
-    description: "the SharedGalleryIdentifier object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.SharedGalleryIdentifier?alt=com.azure.resourcemanager.compute.fluent.models.SharedGalleryIdentifier&text=SharedGalleryIdentifier\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The identifier information of shared gallery."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.SharedGalleryIdentifier?alt=com.azure.resourcemanager.compute.fluent.models.SharedGalleryIdentifier&text=SharedGalleryIdentifier\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

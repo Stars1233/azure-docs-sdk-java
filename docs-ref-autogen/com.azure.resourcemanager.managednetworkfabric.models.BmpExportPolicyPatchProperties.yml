@@ -1,0 +1,94 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties"
+name: "BmpExportPolicyPatchProperties"
+nameWithType: "BmpExportPolicyPatchProperties"
+summary: "BMP Export Policy Configuration properties."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **BmpExportPolicyPatchProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties&text=BmpExportPolicyPatchProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties.BmpExportPolicyPatchProperties()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties.BmpExportPolicyPatchProperties()"
+  name: "BmpExportPolicyPatchProperties()"
+  nameWithType: "BmpExportPolicyPatchProperties.BmpExportPolicyPatchProperties()"
+  summary: "Creates an instance of Bmp<wbr>Export<wbr>Policy<wbr>Patch<wbr>Properties class."
+  syntax: "public BmpExportPolicyPatchProperties()"
+  desc: "Creates an instance of BmpExportPolicyPatchProperties class."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties.exportPolicies()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties.exportPolicies()"
+  name: "exportPolicies()"
+  nameWithType: "BmpExportPolicyPatchProperties.exportPolicies()"
+  summary: "Get the export<wbr>Policies property: Export Policy for the BGP Monitoring Protocol (BMP) Configuration."
+  syntax: "public List<BmpExportPolicy> exportPolicies()"
+  desc: "Get the exportPolicies property: Export Policy for the BGP Monitoring Protocol (BMP) Configuration."
+  returns:
+    description: "the exportPolicies value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicy&text=BmpExportPolicy\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "BmpExportPolicyPatchProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Bmp<wbr>Export<wbr>Policy<wbr>Patch<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static BmpExportPolicyPatchProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the BmpExportPolicyPatchProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of BmpExportPolicyPatchProperties from the JsonReader."
+  returns:
+    description: "An instance of BmpExportPolicyPatchProperties if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties&text=BmpExportPolicyPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "BmpExportPolicyPatchProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties.withExportPolicies(java.util.List<com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicy>)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties.withExportPolicies(List<BmpExportPolicy> exportPolicies)"
+  name: "withExportPolicies(List<BmpExportPolicy> exportPolicies)"
+  nameWithType: "BmpExportPolicyPatchProperties.withExportPolicies(List<BmpExportPolicy> exportPolicies)"
+  summary: "Set the export<wbr>Policies property: Export Policy for the BGP Monitoring Protocol (BMP) Configuration."
+  parameters:
+  - description: "the exportPolicies value to set."
+    name: "exportPolicies"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicy&text=BmpExportPolicy\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public BmpExportPolicyPatchProperties withExportPolicies(List<BmpExportPolicy> exportPolicies)"
+  desc: "Set the exportPolicies property: Export Policy for the BGP Monitoring Protocol (BMP) Configuration."
+  returns:
+    description: "the BmpExportPolicyPatchProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties&text=BmpExportPolicyPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "BMP Export Policy Configuration properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties&text=BmpExportPolicyPatchProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

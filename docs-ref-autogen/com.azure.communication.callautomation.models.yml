@@ -55,6 +55,8 @@ classes:
 - "com.azure.communication.callautomation.models.MediaStreamingSubscription"
 - "com.azure.communication.callautomation.models.MediaStreamingSubscriptionState"
 - "com.azure.communication.callautomation.models.MediaStreamingTransport"
+- "com.azure.communication.callautomation.models.MoveParticipantsOptions"
+- "com.azure.communication.callautomation.models.MoveParticipantsResult"
 - "com.azure.communication.callautomation.models.MuteParticipantOptions"
 - "com.azure.communication.callautomation.models.MuteParticipantResult"
 - "com.azure.communication.callautomation.models.OutStreamingData"
@@ -93,6 +95,9 @@ classes:
 - "com.azure.communication.callautomation.models.StreamingData"
 - "com.azure.communication.callautomation.models.StreamingDataKind"
 - "com.azure.communication.callautomation.models.StreamingTransport"
+- "com.azure.communication.callautomation.models.TeamsPhoneCallDetails"
+- "com.azure.communication.callautomation.models.TeamsPhoneCallerDetails"
+- "com.azure.communication.callautomation.models.TeamsPhoneSourceDetails"
 - "com.azure.communication.callautomation.models.TextFormat"
 - "com.azure.communication.callautomation.models.TextSource"
 - "com.azure.communication.callautomation.models.TranscriptionData"
@@ -110,4 +115,4 @@ classes:
 desc: "Package containing the data models for AzureCommunicationCallAutomationService. Azure Communication Service Call Automation APIs."
 metadata: {}
 package: "com.azure.communication.callautomation.models"
-artifact: com.azure:azure-communication-callautomation:1.6.1
+artifact: com.azure:azure-communication-callautomation:1.7.0

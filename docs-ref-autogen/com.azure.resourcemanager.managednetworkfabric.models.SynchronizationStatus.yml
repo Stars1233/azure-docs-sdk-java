@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus"
+name: "SynchronizationStatus"
+nameWithType: "SynchronizationStatus"
+summary: "Synchronization status of a secret or certificate for a device (Network Device or Terminal Server)."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **SynchronizationStatus**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus?alt=com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus&text=SynchronizationStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus.SynchronizationStatus()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus.SynchronizationStatus()"
+  name: "SynchronizationStatus()"
+  nameWithType: "SynchronizationStatus.SynchronizationStatus()"
+  summary: "Creates a new instance of Synchronization<wbr>Status value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public SynchronizationStatus()"
+  desc: "Creates a new instance of SynchronizationStatus value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus.IN_SYNC"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus.IN_SYNC"
+  name: "IN_SYNC"
+  nameWithType: "SynchronizationStatus.IN_SYNC"
+  summary: "The device has been configured with the latest version of the secret."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus?alt=com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus&text=SynchronizationStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final SynchronizationStatus IN_SYNC"
+  desc: "The device has been configured with the latest version of the secret."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus.OUT_OF_SYNC"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus.OUT_OF_SYNC"
+  name: "OUT_OF_SYNC"
+  nameWithType: "SynchronizationStatus.OUT_OF_SYNC"
+  summary: "The device has not been configured with the latest version of the secret."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus?alt=com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus&text=SynchronizationStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final SynchronizationStatus OUT_OF_SYNC"
+  desc: "The device has not been configured with the latest version of the secret."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus.SYNCHRONIZING"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus.SYNCHRONIZING"
+  name: "SYNCHRONIZING"
+  nameWithType: "SynchronizationStatus.SYNCHRONIZING"
+  summary: "The device is being reconfigured with the latest version of the secret."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus?alt=com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus&text=SynchronizationStatus\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final SynchronizationStatus SYNCHRONIZING"
+  desc: "The device is being reconfigured with the latest version of the secret. While in this state, the secret archive reference may not match the secret configured on the device."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "SynchronizationStatus.fromString(String name)"
+  summary: "Creates or finds a Synchronization<wbr>Status from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static SynchronizationStatus fromString(String name)"
+  desc: "Creates or finds a SynchronizationStatus from its string representation."
+  returns:
+    description: "the corresponding SynchronizationStatus."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus?alt=com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus&text=SynchronizationStatus\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus.values()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus.values()"
+  name: "values()"
+  nameWithType: "SynchronizationStatus.values()"
+  summary: "Gets known Synchronization<wbr>Status values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<SynchronizationStatus> values()"
+  desc: "Gets known SynchronizationStatus values."
+  returns:
+    description: "known SynchronizationStatus values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus?alt=com.azure.resourcemanager.managednetworkfabric.models.SynchronizationStatus&text=SynchronizationStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Synchronization status of a secret or certificate for a device (Network Device or Terminal Server). Whether the device has been configured with the latest version of the secret or certificate."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

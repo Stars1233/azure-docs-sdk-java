@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.DefinitionStages.WithV6routePrefixLimit"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.DefinitionStages.WithV6routePrefixLimit"
+name: "L3IsolationDomain.DefinitionStages.WithV6routePrefixLimit"
+nameWithType: "L3IsolationDomain.DefinitionStages.WithV6routePrefixLimit"
+summary: "The stage of the L3Isolation<wbr>Domain definition allowing to specify v6route<wbr>Prefix<wbr>Limit."
+syntax: "public static interface **L3IsolationDomain.DefinitionStages.WithV6routePrefixLimit**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.DefinitionStages.WithV6routePrefixLimit.withV6routePrefixLimit(com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitProperties)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.DefinitionStages.WithV6routePrefixLimit.withV6routePrefixLimit(RoutePrefixLimitProperties v6routePrefixLimit)"
+  name: "withV6routePrefixLimit(RoutePrefixLimitProperties v6routePrefixLimit)"
+  nameWithType: "L3IsolationDomain.DefinitionStages.WithV6routePrefixLimit.withV6routePrefixLimit(RoutePrefixLimitProperties v6routePrefixLimit)"
+  summary: "Specifies the v6route<wbr>Prefix<wbr>Limit property: IPv6 VRF Limit configuration.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "IPv6 VRF Limit configuration."
+    name: "v6routePrefixLimit"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitProperties&text=RoutePrefixLimitProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract L3IsolationDomain.DefinitionStages.WithCreate withV6routePrefixLimit(RoutePrefixLimitProperties v6routePrefixLimit)"
+  desc: "Specifies the v6routePrefixLimit property: IPv6 VRF Limit configuration.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the L3IsolationDomain definition allowing to specify v6routePrefixLimit."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

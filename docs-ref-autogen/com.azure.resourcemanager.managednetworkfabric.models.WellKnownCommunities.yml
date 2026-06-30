@@ -42,62 +42,62 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.WellKnownCommunities.GSHUT"
   name: "GSHUT"
   nameWithType: "WellKnownCommunities.GSHUT"
-  summary: "Static value GShut for Well<wbr>Known<wbr>Communities."
+  summary: "Well<wbr>Known<wbr>Communities-GShut."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.WellKnownCommunities?alt=com.azure.resourcemanager.managednetworkfabric.models.WellKnownCommunities&text=WellKnownCommunities\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final WellKnownCommunities GSHUT"
-  desc: "Static value GShut for WellKnownCommunities."
+  desc: "WellKnownCommunities-GShut."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.WellKnownCommunities.INTERNET"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.WellKnownCommunities.INTERNET"
   name: "INTERNET"
   nameWithType: "WellKnownCommunities.INTERNET"
-  summary: "Static value Internet for Well<wbr>Known<wbr>Communities."
+  summary: "Well<wbr>Known<wbr>Communities-Internet."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.WellKnownCommunities?alt=com.azure.resourcemanager.managednetworkfabric.models.WellKnownCommunities&text=WellKnownCommunities\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final WellKnownCommunities INTERNET"
-  desc: "Static value Internet for WellKnownCommunities."
+  desc: "WellKnownCommunities-Internet."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.WellKnownCommunities.LOCAL_AS"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.WellKnownCommunities.LOCAL_AS"
   name: "LOCAL_AS"
   nameWithType: "WellKnownCommunities.LOCAL_AS"
-  summary: "Static value LocalAS for Well<wbr>Known<wbr>Communities."
+  summary: "Well<wbr>Known<wbr>Communities-LocalAS."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.WellKnownCommunities?alt=com.azure.resourcemanager.managednetworkfabric.models.WellKnownCommunities&text=WellKnownCommunities\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final WellKnownCommunities LOCAL_AS"
-  desc: "Static value LocalAS for WellKnownCommunities."
+  desc: "WellKnownCommunities-LocalAS."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.WellKnownCommunities.NO_ADVERTISE"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.WellKnownCommunities.NO_ADVERTISE"
   name: "NO_ADVERTISE"
   nameWithType: "WellKnownCommunities.NO_ADVERTISE"
-  summary: "Static value No<wbr>Advertise for Well<wbr>Known<wbr>Communities."
+  summary: "Well<wbr>Known<wbr>Communities-No<wbr>Advertise."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.WellKnownCommunities?alt=com.azure.resourcemanager.managednetworkfabric.models.WellKnownCommunities&text=WellKnownCommunities\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final WellKnownCommunities NO_ADVERTISE"
-  desc: "Static value NoAdvertise for WellKnownCommunities."
+  desc: "WellKnownCommunities-NoAdvertise."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.WellKnownCommunities.NO_EXPORT"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.WellKnownCommunities.NO_EXPORT"
   name: "NO_EXPORT"
   nameWithType: "WellKnownCommunities.NO_EXPORT"
-  summary: "Static value No<wbr>Export for Well<wbr>Known<wbr>Communities."
+  summary: "Well<wbr>Known<wbr>Communities-No<wbr>Export."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.WellKnownCommunities?alt=com.azure.resourcemanager.managednetworkfabric.models.WellKnownCommunities&text=WellKnownCommunities\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final WellKnownCommunities NO_EXPORT"
-  desc: "Static value NoExport for WellKnownCommunities."
+  desc: "WellKnownCommunities-NoExport."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.WellKnownCommunities.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.WellKnownCommunities.fromString(String name)"
@@ -131,4 +131,4 @@ type: "class"
 desc: "\\`Internet\\` - Advertise routes to internet community. \\`LocalAS\\` - Advertise routes to only localAS peers. \\`NoAdvertise\\` - Don't advertise routes to any peer. \\`NoExport\\` - Don't export to next AS. \\`GShut\\` - Graceful Shutdown (GSHUT) withdraw routes before terminating BGP connection."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

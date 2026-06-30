@@ -1,0 +1,102 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.CertificateArchiveReference"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.CertificateArchiveReference"
+name: "CertificateArchiveReference"
+nameWithType: "CertificateArchiveReference"
+summary: "A reference to a version of a certificate in a key vault."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **CertificateArchiveReference**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CertificateArchiveReference?alt=com.azure.resourcemanager.managednetworkfabric.models.CertificateArchiveReference&text=CertificateArchiveReference\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.CertificateArchiveReference.certificateName()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.CertificateArchiveReference.certificateName()"
+  name: "certificateName()"
+  nameWithType: "CertificateArchiveReference.certificateName()"
+  summary: "Get the certificate<wbr>Name property: The name of the certificate in the key vault."
+  syntax: "public String certificateName()"
+  desc: "Get the certificateName property: The name of the certificate in the key vault."
+  returns:
+    description: "the certificateName value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.CertificateArchiveReference.certificateVersion()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.CertificateArchiveReference.certificateVersion()"
+  name: "certificateVersion()"
+  nameWithType: "CertificateArchiveReference.certificateVersion()"
+  summary: "Get the certificate<wbr>Version property: The version of the certificate in the key vault."
+  syntax: "public String certificateVersion()"
+  desc: "Get the certificateVersion property: The version of the certificate in the key vault."
+  returns:
+    description: "the certificateVersion value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.CertificateArchiveReference.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.CertificateArchiveReference.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "CertificateArchiveReference.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Certificate<wbr>Archive<wbr>Reference from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static CertificateArchiveReference fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the CertificateArchiveReference."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of CertificateArchiveReference from the JsonReader."
+  returns:
+    description: "An instance of CertificateArchiveReference if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CertificateArchiveReference?alt=com.azure.resourcemanager.managednetworkfabric.models.CertificateArchiveReference&text=CertificateArchiveReference\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.CertificateArchiveReference.keyVaultId()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.CertificateArchiveReference.keyVaultId()"
+  name: "keyVaultId()"
+  nameWithType: "CertificateArchiveReference.keyVaultId()"
+  summary: "Get the key<wbr>Vault<wbr>Id property: The resource ID of the key vault containing the certificate."
+  syntax: "public String keyVaultId()"
+  desc: "Get the keyVaultId property: The resource ID of the key vault containing the certificate."
+  returns:
+    description: "the keyVaultId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.CertificateArchiveReference.keyVaultUri()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.CertificateArchiveReference.keyVaultUri()"
+  name: "keyVaultUri()"
+  nameWithType: "CertificateArchiveReference.keyVaultUri()"
+  summary: "Get the key<wbr>Vault<wbr>Uri property: A Uniform Resource Identifier (URI) for the certificate in the key vault."
+  syntax: "public String keyVaultUri()"
+  desc: "Get the keyVaultUri property: A Uniform Resource Identifier (URI) for the certificate in the key vault."
+  returns:
+    description: "the keyVaultUri value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.CertificateArchiveReference.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.CertificateArchiveReference.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "CertificateArchiveReference.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "A reference to a version of a certificate in a key vault."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CertificateArchiveReference?alt=com.azure.resourcemanager.managednetworkfabric.models.CertificateArchiveReference&text=CertificateArchiveReference\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

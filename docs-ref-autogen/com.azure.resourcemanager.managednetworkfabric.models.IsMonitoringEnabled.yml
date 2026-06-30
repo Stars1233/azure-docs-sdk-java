@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.IsMonitoringEnabled.FALSE"
   name: "FALSE"
   nameWithType: "IsMonitoringEnabled.FALSE"
-  summary: "Static value False for Is<wbr>Monitoring<wbr>Enabled."
+  summary: "Is<wbr>Monitoring<wbr>Enabled-False."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IsMonitoringEnabled?alt=com.azure.resourcemanager.managednetworkfabric.models.IsMonitoringEnabled&text=IsMonitoringEnabled\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final IsMonitoringEnabled FALSE"
-  desc: "Static value False for IsMonitoringEnabled."
+  desc: "IsMonitoringEnabled-False."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.IsMonitoringEnabled.TRUE"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.IsMonitoringEnabled.TRUE"
   name: "TRUE"
   nameWithType: "IsMonitoringEnabled.TRUE"
-  summary: "Static value True for Is<wbr>Monitoring<wbr>Enabled."
+  summary: "Is<wbr>Monitoring<wbr>Enabled-True."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IsMonitoringEnabled?alt=com.azure.resourcemanager.managednetworkfabric.models.IsMonitoringEnabled&text=IsMonitoringEnabled\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final IsMonitoringEnabled TRUE"
-  desc: "Static value True for IsMonitoringEnabled."
+  desc: "IsMonitoringEnabled-True."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.IsMonitoringEnabled.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.IsMonitoringEnabled.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "To check whether monitoring of internal network is enabled or not."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

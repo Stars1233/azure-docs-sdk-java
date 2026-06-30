@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **NetworkFabricSkuProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuProperties&text=NetworkFabricSkuProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuProperties.NetworkFabricSkuProperties()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuProperties.NetworkFabricSkuProperties()"
-  name: "NetworkFabricSkuProperties()"
-  nameWithType: "NetworkFabricSkuProperties.NetworkFabricSkuProperties()"
-  summary: "Creates an instance of Network<wbr>Fabric<wbr>Sku<wbr>Properties class."
-  syntax: "public NetworkFabricSkuProperties()"
-  desc: "Creates an instance of NetworkFabricSkuProperties class."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuProperties.details()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuProperties.details()"
@@ -121,45 +113,10 @@ methods:
   returns:
     description: "the type value."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.FabricSkuType?alt=com.azure.resourcemanager.managednetworkfabric.models.FabricSkuType&text=FabricSkuType\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuProperties.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuProperties.validate()"
-  name: "validate()"
-  nameWithType: "NetworkFabricSkuProperties.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuProperties.withMaxComputeRacks(java.lang.Integer)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuProperties.withMaxComputeRacks(Integer maxComputeRacks)"
-  name: "withMaxComputeRacks(Integer maxComputeRacks)"
-  nameWithType: "NetworkFabricSkuProperties.withMaxComputeRacks(Integer maxComputeRacks)"
-  summary: "Set the max<wbr>Compute<wbr>Racks property: Maximum number of compute racks available for this Network Fabric SKU."
-  parameters:
-  - description: "the maxComputeRacks value to set."
-    name: "maxComputeRacks"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-  syntax: "public NetworkFabricSkuProperties withMaxComputeRacks(Integer maxComputeRacks)"
-  desc: "Set the maxComputeRacks property: Maximum number of compute racks available for this Network Fabric SKU. The value of max count racks is 4 for 4 rack SKU and 8 for 8 rack SKU."
-  returns:
-    description: "the NetworkFabricSkuProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuProperties&text=NetworkFabricSkuProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuProperties.withMaximumServerCount(java.lang.Integer)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuProperties.withMaximumServerCount(Integer maximumServerCount)"
-  name: "withMaximumServerCount(Integer maximumServerCount)"
-  nameWithType: "NetworkFabricSkuProperties.withMaximumServerCount(Integer maximumServerCount)"
-  summary: "Set the maximum<wbr>Server<wbr>Count property: Maximum number of servers available for this Network Fabric SKU."
-  parameters:
-  - description: "the maximumServerCount value to set."
-    name: "maximumServerCount"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-  syntax: "public NetworkFabricSkuProperties withMaximumServerCount(Integer maximumServerCount)"
-  desc: "Set the maximumServerCount property: Maximum number of servers available for this Network Fabric SKU."
-  returns:
-    description: "the NetworkFabricSkuProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuProperties&text=NetworkFabricSkuProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Network Fabric SKU Properties define properties of the resource."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuProperties&text=NetworkFabricSkuProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

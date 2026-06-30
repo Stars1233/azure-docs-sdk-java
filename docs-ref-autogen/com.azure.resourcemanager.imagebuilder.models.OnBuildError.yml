@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.imagebuilder.models.OnBuildError.ABORT"
   name: "ABORT"
   nameWithType: "OnBuildError.ABORT"
-  summary: "Static value abort for On<wbr>Build<wbr>Error."
+  summary: "abort."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.imagebuilder.models.OnBuildError?alt=com.azure.resourcemanager.imagebuilder.models.OnBuildError&text=OnBuildError\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final OnBuildError ABORT"
-  desc: "Static value abort for OnBuildError."
+  desc: "abort."
 - uid: "com.azure.resourcemanager.imagebuilder.models.OnBuildError.CLEANUP"
   fullName: "com.azure.resourcemanager.imagebuilder.models.OnBuildError.CLEANUP"
   name: "CLEANUP"
   nameWithType: "OnBuildError.CLEANUP"
-  summary: "Static value cleanup for On<wbr>Build<wbr>Error."
+  summary: "cleanup."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.imagebuilder.models.OnBuildError?alt=com.azure.resourcemanager.imagebuilder.models.OnBuildError&text=OnBuildError\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final OnBuildError CLEANUP"
-  desc: "Static value cleanup for OnBuildError."
+  desc: "cleanup."
 methods:
 - uid: "com.azure.resourcemanager.imagebuilder.models.OnBuildError.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.imagebuilder.models.OnBuildError.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Error handling behavior upon build failure."
 metadata: {}
 package: "com.azure.resourcemanager.imagebuilder.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-imagebuilder:1.2.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-imagebuilder:1.3.0

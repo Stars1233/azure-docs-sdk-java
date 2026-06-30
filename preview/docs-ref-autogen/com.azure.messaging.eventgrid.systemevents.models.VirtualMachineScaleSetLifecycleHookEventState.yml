@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState"
+fullName: "com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState"
+name: "VirtualMachineScaleSetLifecycleHookEventState"
+nameWithType: "VirtualMachineScaleSetLifecycleHookEventState"
+summary: "The states that a Virtual Machine Scale Set Lifecycle Hook event can be in."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **VirtualMachineScaleSetLifecycleHookEventState**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState?alt=com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState&text=VirtualMachineScaleSetLifecycleHookEventState\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState.VirtualMachineScaleSetLifecycleHookEventState()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState.VirtualMachineScaleSetLifecycleHookEventState()"
+  name: "VirtualMachineScaleSetLifecycleHookEventState()"
+  nameWithType: "VirtualMachineScaleSetLifecycleHookEventState.VirtualMachineScaleSetLifecycleHookEventState()"
+  summary: "Creates a new instance of Virtual<wbr>Machine<wbr>Scale<wbr>Set<wbr>Lifecycle<wbr>Hook<wbr>Event<wbr>State value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public VirtualMachineScaleSetLifecycleHookEventState()"
+  desc: "Creates a new instance of VirtualMachineScaleSetLifecycleHookEventState value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState.ACTIVE"
+  fullName: "com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState.ACTIVE"
+  name: "ACTIVE"
+  nameWithType: "VirtualMachineScaleSetLifecycleHookEventState.ACTIVE"
+  summary: "The Lifecycle Hook event is active."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState?alt=com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState&text=VirtualMachineScaleSetLifecycleHookEventState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final VirtualMachineScaleSetLifecycleHookEventState ACTIVE"
+  desc: "The Lifecycle Hook event is active. E.g., waiting on a response from the customer."
+- uid: "com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState.COMPLETED"
+  fullName: "com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState.COMPLETED"
+  name: "COMPLETED"
+  nameWithType: "VirtualMachineScaleSetLifecycleHookEventState.COMPLETED"
+  summary: "The Lifecycle Hook event is completed."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState?alt=com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState&text=VirtualMachineScaleSetLifecycleHookEventState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final VirtualMachineScaleSetLifecycleHookEventState COMPLETED"
+  desc: "The Lifecycle Hook event is completed. i.e., all the target resources in the event have moved to a terminal state."
+methods:
+- uid: "com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState.fromString(java.lang.String)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "VirtualMachineScaleSetLifecycleHookEventState.fromString(String name)"
+  summary: "Creates or finds a Virtual<wbr>Machine<wbr>Scale<wbr>Set<wbr>Lifecycle<wbr>Hook<wbr>Event<wbr>State from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static VirtualMachineScaleSetLifecycleHookEventState fromString(String name)"
+  desc: "Creates or finds a VirtualMachineScaleSetLifecycleHookEventState from its string representation."
+  returns:
+    description: "the corresponding VirtualMachineScaleSetLifecycleHookEventState."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState?alt=com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState&text=VirtualMachineScaleSetLifecycleHookEventState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState.values()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState.values()"
+  name: "values()"
+  nameWithType: "VirtualMachineScaleSetLifecycleHookEventState.values()"
+  summary: "Gets known Virtual<wbr>Machine<wbr>Scale<wbr>Set<wbr>Lifecycle<wbr>Hook<wbr>Event<wbr>State values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<VirtualMachineScaleSetLifecycleHookEventState> values()"
+  desc: "Gets known VirtualMachineScaleSetLifecycleHookEventState values."
+  returns:
+    description: "known VirtualMachineScaleSetLifecycleHookEventState values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState?alt=com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventState&text=VirtualMachineScaleSetLifecycleHookEventState\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The states that a Virtual Machine Scale Set Lifecycle Hook event can be in. This is not settable by the customer. It is set only by the platform."
+metadata: {}
+package: "com.azure.messaging.eventgrid.systemevents.models"
+artifact: com.azure:azure-messaging-eventgrid-systemevents:1.1.0-beta.1

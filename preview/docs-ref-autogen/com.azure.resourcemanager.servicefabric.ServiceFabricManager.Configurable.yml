@@ -26,7 +26,7 @@ methods:
   fullName: "com.azure.resourcemanager.servicefabric.ServiceFabricManager.Configurable.authenticate(TokenCredential credential, AzureProfile profile)"
   name: "authenticate(TokenCredential credential, AzureProfile profile)"
   nameWithType: "ServiceFabricManager.Configurable.authenticate(TokenCredential credential, AzureProfile profile)"
-  summary: "Creates an instance of Service<wbr>Fabric service API entry point."
+  summary: "Creates an instance of Service Fabric service API entry point."
   parameters:
   - description: "the credential to use."
     name: "credential"
@@ -35,9 +35,9 @@ methods:
     name: "profile"
     type: "<xref href=\"com.azure.core.management.profile.AzureProfile?alt=com.azure.core.management.profile.AzureProfile&text=AzureProfile\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ServiceFabricManager authenticate(TokenCredential credential, AzureProfile profile)"
-  desc: "Creates an instance of ServiceFabric service API entry point."
+  desc: "Creates an instance of Service Fabric service API entry point."
   returns:
-    description: "the ServiceFabric service API instance."
+    description: "the Service Fabric service API instance."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.ServiceFabricManager?alt=com.azure.resourcemanager.servicefabric.ServiceFabricManager&text=ServiceFabricManager\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabric.ServiceFabricManager.Configurable.withDefaultPollInterval(java.time.Duration)"
   fullName: "com.azure.resourcemanager.servicefabric.ServiceFabricManager.Configurable.withDefaultPollInterval(Duration defaultPollInterval)"
@@ -141,4 +141,4 @@ type: "class"
 desc: "The Configurable allowing configurations to be set."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

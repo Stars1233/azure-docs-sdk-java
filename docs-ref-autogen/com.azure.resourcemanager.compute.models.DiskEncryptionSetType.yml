@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.compute.models.DiskEncryptionSetType.CONFIDENTIAL_VM_ENCRYPTED_WITH_CUSTOMER_KEY"
   name: "CONFIDENTIAL_VM_ENCRYPTED_WITH_CUSTOMER_KEY"
   nameWithType: "DiskEncryptionSetType.CONFIDENTIAL_VM_ENCRYPTED_WITH_CUSTOMER_KEY"
-  summary: "Static value Confidential<wbr>VmEncrypted<wbr>With<wbr>Customer<wbr>Key for Disk<wbr>Encryption<wbr>Set<wbr>Type."
+  summary: "Confidential VM supported disk and VM guest state would be encrypted with customer managed key."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskEncryptionSetType?alt=com.azure.resourcemanager.compute.models.DiskEncryptionSetType&text=DiskEncryptionSetType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DiskEncryptionSetType CONFIDENTIAL_VM_ENCRYPTED_WITH_CUSTOMER_KEY"
-  desc: "Static value ConfidentialVmEncryptedWithCustomerKey for DiskEncryptionSetType."
+  desc: "Confidential VM supported disk and VM guest state would be encrypted with customer managed key."
 - uid: "com.azure.resourcemanager.compute.models.DiskEncryptionSetType.ENCRYPTION_AT_REST_WITH_CUSTOMER_KEY"
   fullName: "com.azure.resourcemanager.compute.models.DiskEncryptionSetType.ENCRYPTION_AT_REST_WITH_CUSTOMER_KEY"
   name: "ENCRYPTION_AT_REST_WITH_CUSTOMER_KEY"
   nameWithType: "DiskEncryptionSetType.ENCRYPTION_AT_REST_WITH_CUSTOMER_KEY"
-  summary: "Static value Encryption<wbr>AtRest<wbr>With<wbr>Customer<wbr>Key for Disk<wbr>Encryption<wbr>Set<wbr>Type."
+  summary: "Resource using disk<wbr>Encryption<wbr>Set would be encrypted at rest with Customer managed key that can be changed and revoked by a customer."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskEncryptionSetType?alt=com.azure.resourcemanager.compute.models.DiskEncryptionSetType&text=DiskEncryptionSetType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DiskEncryptionSetType ENCRYPTION_AT_REST_WITH_CUSTOMER_KEY"
-  desc: "Static value EncryptionAtRestWithCustomerKey for DiskEncryptionSetType."
+  desc: "Resource using diskEncryptionSet would be encrypted at rest with Customer managed key that can be changed and revoked by a customer."
 - uid: "com.azure.resourcemanager.compute.models.DiskEncryptionSetType.ENCRYPTION_AT_REST_WITH_PLATFORM_AND_CUSTOMER_KEYS"
   fullName: "com.azure.resourcemanager.compute.models.DiskEncryptionSetType.ENCRYPTION_AT_REST_WITH_PLATFORM_AND_CUSTOMER_KEYS"
   name: "ENCRYPTION_AT_REST_WITH_PLATFORM_AND_CUSTOMER_KEYS"
   nameWithType: "DiskEncryptionSetType.ENCRYPTION_AT_REST_WITH_PLATFORM_AND_CUSTOMER_KEYS"
-  summary: "Static value Encryption<wbr>AtRest<wbr>With<wbr>Platform<wbr>And<wbr>Customer<wbr>Keys for Disk<wbr>Encryption<wbr>Set<wbr>Type."
+  summary: "Resource using disk<wbr>Encryption<wbr>Set would be encrypted at rest with two layers of encryption."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskEncryptionSetType?alt=com.azure.resourcemanager.compute.models.DiskEncryptionSetType&text=DiskEncryptionSetType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DiskEncryptionSetType ENCRYPTION_AT_REST_WITH_PLATFORM_AND_CUSTOMER_KEYS"
-  desc: "Static value EncryptionAtRestWithPlatformAndCustomerKeys for DiskEncryptionSetType."
+  desc: "Resource using diskEncryptionSet would be encrypted at rest with two layers of encryption. One of the keys is Customer managed and the other key is Platform managed."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.DiskEncryptionSetType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.models.DiskEncryptionSetType.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "The type of key used to encrypt the data of the disk."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

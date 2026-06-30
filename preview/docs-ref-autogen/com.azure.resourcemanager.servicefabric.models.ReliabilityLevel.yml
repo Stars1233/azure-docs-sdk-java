@@ -42,62 +42,62 @@ fields:
   fullName: "com.azure.resourcemanager.servicefabric.models.ReliabilityLevel.BRONZE"
   name: "BRONZE"
   nameWithType: "ReliabilityLevel.BRONZE"
-  summary: "Static value Bronze for Reliability<wbr>Level."
+  summary: "Run the System services with a target replica set count of 3."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ReliabilityLevel?alt=com.azure.resourcemanager.servicefabric.models.ReliabilityLevel&text=ReliabilityLevel\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ReliabilityLevel BRONZE"
-  desc: "Static value Bronze for ReliabilityLevel."
+  desc: "Run the System services with a target replica set count of 3. This should only be used for test clusters."
 - uid: "com.azure.resourcemanager.servicefabric.models.ReliabilityLevel.GOLD"
   fullName: "com.azure.resourcemanager.servicefabric.models.ReliabilityLevel.GOLD"
   name: "GOLD"
   nameWithType: "ReliabilityLevel.GOLD"
-  summary: "Static value Gold for Reliability<wbr>Level."
+  summary: "Run the System services with a target replica set count of 7."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ReliabilityLevel?alt=com.azure.resourcemanager.servicefabric.models.ReliabilityLevel&text=ReliabilityLevel\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ReliabilityLevel GOLD"
-  desc: "Static value Gold for ReliabilityLevel."
+  desc: "Run the System services with a target replica set count of 7."
 - uid: "com.azure.resourcemanager.servicefabric.models.ReliabilityLevel.NONE"
   fullName: "com.azure.resourcemanager.servicefabric.models.ReliabilityLevel.NONE"
   name: "NONE"
   nameWithType: "ReliabilityLevel.NONE"
-  summary: "Static value None for Reliability<wbr>Level."
+  summary: "Run the System services with a target replica set count of 1."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ReliabilityLevel?alt=com.azure.resourcemanager.servicefabric.models.ReliabilityLevel&text=ReliabilityLevel\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ReliabilityLevel NONE"
-  desc: "Static value None for ReliabilityLevel."
+  desc: "Run the System services with a target replica set count of 1. This should only be used for test clusters."
 - uid: "com.azure.resourcemanager.servicefabric.models.ReliabilityLevel.PLATINUM"
   fullName: "com.azure.resourcemanager.servicefabric.models.ReliabilityLevel.PLATINUM"
   name: "PLATINUM"
   nameWithType: "ReliabilityLevel.PLATINUM"
-  summary: "Static value Platinum for Reliability<wbr>Level."
+  summary: "Run the System services with a target replica set count of 9."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ReliabilityLevel?alt=com.azure.resourcemanager.servicefabric.models.ReliabilityLevel&text=ReliabilityLevel\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ReliabilityLevel PLATINUM"
-  desc: "Static value Platinum for ReliabilityLevel."
+  desc: "Run the System services with a target replica set count of 9."
 - uid: "com.azure.resourcemanager.servicefabric.models.ReliabilityLevel.SILVER"
   fullName: "com.azure.resourcemanager.servicefabric.models.ReliabilityLevel.SILVER"
   name: "SILVER"
   nameWithType: "ReliabilityLevel.SILVER"
-  summary: "Static value Silver for Reliability<wbr>Level."
+  summary: "Run the System services with a target replica set count of 5."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ReliabilityLevel?alt=com.azure.resourcemanager.servicefabric.models.ReliabilityLevel&text=ReliabilityLevel\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ReliabilityLevel SILVER"
-  desc: "Static value Silver for ReliabilityLevel."
+  desc: "Run the System services with a target replica set count of 5."
 methods:
 - uid: "com.azure.resourcemanager.servicefabric.models.ReliabilityLevel.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.servicefabric.models.ReliabilityLevel.fromString(String name)"
@@ -128,7 +128,7 @@ methods:
     description: "known ReliabilityLevel values."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.servicefabric.models.ReliabilityLevel?alt=com.azure.resourcemanager.servicefabric.models.ReliabilityLevel&text=ReliabilityLevel\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
-desc: "The reliability level sets the replica set size of system services. Learn about \\[ReliabilityLevel\\](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-capacity). - None - Run the System services with a target replica set count of 1. This should only be used for test clusters. - Bronze - Run the System services with a target replica set count of 3. This should only be used for test clusters. - Silver - Run the System services with a target replica set count of 5. - Gold - Run the System services with a target replica set count of 7. - Platinum - Run the System services with a target replica set count of 9."
+desc: "The reliability level sets the replica set size of system services. Learn about \\[ReliabilityLevel\\](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-capacity)."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

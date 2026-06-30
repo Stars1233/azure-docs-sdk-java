@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **CommunityGalleryProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.CommunityGalleryProperties?alt=com.azure.resourcemanager.compute.fluent.models.CommunityGalleryProperties&text=CommunityGalleryProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.compute.fluent.models.CommunityGalleryProperties.CommunityGalleryProperties()"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.CommunityGalleryProperties.CommunityGalleryProperties()"
-  name: "CommunityGalleryProperties()"
-  nameWithType: "CommunityGalleryProperties.CommunityGalleryProperties()"
-  summary: "Creates an instance of Community<wbr>Gallery<wbr>Properties class."
-  syntax: "public CommunityGalleryProperties()"
-  desc: "Creates an instance of CommunityGalleryProperties class."
 methods:
 - uid: "com.azure.resourcemanager.compute.fluent.models.CommunityGalleryProperties.artifactTags()"
   fullName: "com.azure.resourcemanager.compute.fluent.models.CommunityGalleryProperties.artifactTags()"
@@ -98,52 +90,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.compute.fluent.models.CommunityGalleryProperties.withArtifactTags(java.util.Map<java.lang.String,java.lang.String>)"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.CommunityGalleryProperties.withArtifactTags(Map<String,String> artifactTags)"
-  name: "withArtifactTags(Map<String,String> artifactTags)"
-  nameWithType: "CommunityGalleryProperties.withArtifactTags(Map<String,String> artifactTags)"
-  summary: "Set the artifact<wbr>Tags property: The artifact tags of a community gallery resource."
-  parameters:
-  - description: "the artifactTags value to set."
-    name: "artifactTags"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public CommunityGalleryProperties withArtifactTags(Map<String,String> artifactTags)"
-  desc: "Set the artifactTags property: The artifact tags of a community gallery resource."
-  returns:
-    description: "the CommunityGalleryProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.CommunityGalleryProperties?alt=com.azure.resourcemanager.compute.fluent.models.CommunityGalleryProperties&text=CommunityGalleryProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.fluent.models.CommunityGalleryProperties.withCommunityMetadata(com.azure.resourcemanager.compute.models.CommunityGalleryMetadata)"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.CommunityGalleryProperties.withCommunityMetadata(CommunityGalleryMetadata communityMetadata)"
-  name: "withCommunityMetadata(CommunityGalleryMetadata communityMetadata)"
-  nameWithType: "CommunityGalleryProperties.withCommunityMetadata(CommunityGalleryMetadata communityMetadata)"
-  summary: "Set the community<wbr>Metadata property: The metadata of community gallery."
-  parameters:
-  - description: "the communityMetadata value to set."
-    name: "communityMetadata"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.CommunityGalleryMetadata?alt=com.azure.resourcemanager.compute.models.CommunityGalleryMetadata&text=CommunityGalleryMetadata\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public CommunityGalleryProperties withCommunityMetadata(CommunityGalleryMetadata communityMetadata)"
-  desc: "Set the communityMetadata property: The metadata of community gallery."
-  returns:
-    description: "the CommunityGalleryProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.CommunityGalleryProperties?alt=com.azure.resourcemanager.compute.fluent.models.CommunityGalleryProperties&text=CommunityGalleryProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.fluent.models.CommunityGalleryProperties.withDisclaimer(java.lang.String)"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.CommunityGalleryProperties.withDisclaimer(String disclaimer)"
-  name: "withDisclaimer(String disclaimer)"
-  nameWithType: "CommunityGalleryProperties.withDisclaimer(String disclaimer)"
-  summary: "Set the disclaimer property: The disclaimer for a community gallery resource."
-  parameters:
-  - description: "the disclaimer value to set."
-    name: "disclaimer"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public CommunityGalleryProperties withDisclaimer(String disclaimer)"
-  desc: "Set the disclaimer property: The disclaimer for a community gallery resource."
-  returns:
-    description: "the CommunityGalleryProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.CommunityGalleryProperties?alt=com.azure.resourcemanager.compute.fluent.models.CommunityGalleryProperties&text=CommunityGalleryProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Describes the properties of a community gallery."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.CommunityGalleryProperties?alt=com.azure.resourcemanager.compute.fluent.models.CommunityGalleryProperties&text=CommunityGalleryProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

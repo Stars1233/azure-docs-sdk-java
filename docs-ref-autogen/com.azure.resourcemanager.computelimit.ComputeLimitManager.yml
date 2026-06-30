@@ -92,6 +92,16 @@ methods:
   returns:
     description: "Resource collection API of GuestSubscriptions."
     type: "<xref href=\"com.azure.resourcemanager.computelimit.models.GuestSubscriptions?alt=com.azure.resourcemanager.computelimit.models.GuestSubscriptions&text=GuestSubscriptions\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.computelimit.ComputeLimitManager.memberCapOverrides()"
+  fullName: "com.azure.resourcemanager.computelimit.ComputeLimitManager.memberCapOverrides()"
+  name: "memberCapOverrides()"
+  nameWithType: "ComputeLimitManager.memberCapOverrides()"
+  summary: "Gets the resource collection API of Member<wbr>Cap<wbr>Overrides."
+  syntax: "public MemberCapOverrides memberCapOverrides()"
+  desc: "Gets the resource collection API of MemberCapOverrides. It manages MemberCapOverride."
+  returns:
+    description: "Resource collection API of MemberCapOverrides."
+    type: "<xref href=\"com.azure.resourcemanager.computelimit.models.MemberCapOverrides?alt=com.azure.resourcemanager.computelimit.models.MemberCapOverrides&text=MemberCapOverrides\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.computelimit.ComputeLimitManager.operations()"
   fullName: "com.azure.resourcemanager.computelimit.ComputeLimitManager.operations()"
   name: "operations()"
@@ -112,6 +122,16 @@ methods:
   returns:
     description: "Wrapped service client ComputeLimitClient."
     type: "<xref href=\"com.azure.resourcemanager.computelimit.fluent.ComputeLimitClient?alt=com.azure.resourcemanager.computelimit.fluent.ComputeLimitClient&text=ComputeLimitClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.computelimit.ComputeLimitManager.sharedLimitCaps()"
+  fullName: "com.azure.resourcemanager.computelimit.ComputeLimitManager.sharedLimitCaps()"
+  name: "sharedLimitCaps()"
+  nameWithType: "ComputeLimitManager.sharedLimitCaps()"
+  summary: "Gets the resource collection API of Shared<wbr>Limit<wbr>Caps."
+  syntax: "public SharedLimitCaps sharedLimitCaps()"
+  desc: "Gets the resource collection API of SharedLimitCaps. It manages SharedLimitCap."
+  returns:
+    description: "Resource collection API of SharedLimitCaps."
+    type: "<xref href=\"com.azure.resourcemanager.computelimit.models.SharedLimitCaps?alt=com.azure.resourcemanager.computelimit.models.SharedLimitCaps&text=SharedLimitCaps\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.computelimit.ComputeLimitManager.sharedLimits()"
   fullName: "com.azure.resourcemanager.computelimit.ComputeLimitManager.sharedLimits()"
   name: "sharedLimits()"
@@ -136,4 +156,4 @@ type: "class"
 desc: "Entry point to ComputeLimitManager. Microsoft Azure Compute Limit Resource Provider."
 metadata: {}
 package: "com.azure.resourcemanager.computelimit"
-artifact: com.azure.resourcemanager:azure-resourcemanager-computelimit:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-computelimit:1.2.0

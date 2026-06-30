@@ -40,16 +40,6 @@ methods:
   returns:
     description: "the exportRoutePolicy value."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.L3ExportRoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.L3ExportRoutePolicy&text=L3ExportRoutePolicy\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetRoutePolicy.exportRoutePolicyId()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetRoutePolicy.exportRoutePolicyId()"
-  name: "exportRoutePolicyId()"
-  nameWithType: "ConnectedSubnetRoutePolicy.exportRoutePolicyId()"
-  summary: "Get the export<wbr>Route<wbr>Policy<wbr>Id property: ARM Resource ID of the Route Policy."
-  syntax: "public String exportRoutePolicyId()"
-  desc: "Get the exportRoutePolicyId property: ARM Resource ID of the Route Policy. This is used for the backward compatibility."
-  returns:
-    description: "the exportRoutePolicyId value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetRoutePolicy.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetRoutePolicy.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -81,13 +71,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetRoutePolicy.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetRoutePolicy.validate()"
-  name: "validate()"
-  nameWithType: "ConnectedSubnetRoutePolicy.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetRoutePolicy.withExportRoutePolicy(com.azure.resourcemanager.managednetworkfabric.models.L3ExportRoutePolicy)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetRoutePolicy.withExportRoutePolicy(L3ExportRoutePolicy exportRoutePolicy)"
   name: "withExportRoutePolicy(L3ExportRoutePolicy exportRoutePolicy)"
@@ -102,24 +85,10 @@ methods:
   returns:
     description: "the ConnectedSubnetRoutePolicy object itself."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetRoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetRoutePolicy&text=ConnectedSubnetRoutePolicy\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetRoutePolicy.withExportRoutePolicyId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetRoutePolicy.withExportRoutePolicyId(String exportRoutePolicyId)"
-  name: "withExportRoutePolicyId(String exportRoutePolicyId)"
-  nameWithType: "ConnectedSubnetRoutePolicy.withExportRoutePolicyId(String exportRoutePolicyId)"
-  summary: "Set the export<wbr>Route<wbr>Policy<wbr>Id property: ARM Resource ID of the Route Policy."
-  parameters:
-  - description: "the exportRoutePolicyId value to set."
-    name: "exportRoutePolicyId"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ConnectedSubnetRoutePolicy withExportRoutePolicyId(String exportRoutePolicyId)"
-  desc: "Set the exportRoutePolicyId property: ARM Resource ID of the Route Policy. This is used for the backward compatibility."
-  returns:
-    description: "the ConnectedSubnetRoutePolicy object itself."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetRoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetRoutePolicy&text=ConnectedSubnetRoutePolicy\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Connected Subnet Route Policy properties."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetRoutePolicy?alt=com.azure.resourcemanager.managednetworkfabric.models.ConnectedSubnetRoutePolicy&text=ConnectedSubnetRoutePolicy\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

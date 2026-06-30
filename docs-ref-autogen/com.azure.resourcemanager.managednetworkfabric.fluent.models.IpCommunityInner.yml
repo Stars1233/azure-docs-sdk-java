@@ -115,6 +115,16 @@ methods:
   returns:
     description: "the ipCommunityRules value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpCommunityRule?alt=com.azure.resourcemanager.managednetworkfabric.models.IpCommunityRule&text=IpCommunityRule\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner.lastOperation()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner.lastOperation()"
+  name: "lastOperation()"
+  nameWithType: "IpCommunityInner.lastOperation()"
+  summary: "Get the last<wbr>Operation property: Details of the last operation performed on the resource."
+  syntax: "public LastOperationProperties lastOperation()"
+  desc: "Get the lastOperation property: Details of the last operation performed on the resource."
+  returns:
+    description: "the lastOperation value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties&text=LastOperationProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner.name()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner.name()"
   name: "name()"
@@ -125,6 +135,16 @@ methods:
   desc: "Get the name property: The name of the resource."
   returns:
     description: "the name value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner.networkFabricId()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner.networkFabricId()"
+  name: "networkFabricId()"
+  nameWithType: "IpCommunityInner.networkFabricId()"
+  summary: "Get the network<wbr>Fabric<wbr>Id property: ARM Resource ID of the Network Fabric."
+  syntax: "public String networkFabricId()"
+  desc: "Get the networkFabricId property: ARM Resource ID of the Network Fabric."
+  returns:
+    description: "the networkFabricId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner.provisioningState()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner.provisioningState()"
@@ -170,13 +190,6 @@ methods:
   returns:
     description: "the type value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner.validate()"
-  name: "validate()"
-  nameWithType: "IpCommunityInner.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner.withAnnotation(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner.withAnnotation(String annotation)"
   name: "withAnnotation(String annotation)"
@@ -231,4 +244,4 @@ type: "class"
 desc: "The IP Community resource definition."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.servicefabric.models.SfZonalUpgradeMode.HIERARCHICAL"
   name: "HIERARCHICAL"
   nameWithType: "SfZonalUpgradeMode.HIERARCHICAL"
-  summary: "Static value Hierarchical for Sf<wbr>Zonal<wbr>Upgrade<wbr>Mode."
+  summary: "If this value is omitted or set to Hierarchical, VMs are grouped to reflect the zonal distribution in up to 15 UDs."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.SfZonalUpgradeMode?alt=com.azure.resourcemanager.servicefabric.models.SfZonalUpgradeMode&text=SfZonalUpgradeMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SfZonalUpgradeMode HIERARCHICAL"
-  desc: "Static value Hierarchical for SfZonalUpgradeMode."
+  desc: "If this value is omitted or set to Hierarchical, VMs are grouped to reflect the zonal distribution in up to 15 UDs. Each of the three zones has five UDs. This ensures that the zones are updated one at a time, moving to next zone only after completing five UDs within the first zone. This update process is safer for the cluster and the user application."
 - uid: "com.azure.resourcemanager.servicefabric.models.SfZonalUpgradeMode.PARALLEL"
   fullName: "com.azure.resourcemanager.servicefabric.models.SfZonalUpgradeMode.PARALLEL"
   name: "PARALLEL"
   nameWithType: "SfZonalUpgradeMode.PARALLEL"
-  summary: "Static value Parallel for Sf<wbr>Zonal<wbr>Upgrade<wbr>Mode."
+  summary: "VMs under the node type are grouped into UDs and ignore the zone info in five UDs."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.SfZonalUpgradeMode?alt=com.azure.resourcemanager.servicefabric.models.SfZonalUpgradeMode&text=SfZonalUpgradeMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SfZonalUpgradeMode PARALLEL"
-  desc: "Static value Parallel for SfZonalUpgradeMode."
+  desc: "VMs under the node type are grouped into UDs and ignore the zone info in five UDs. This setting causes UDs across all zones to be upgraded at the same time. This deployment mode is faster for upgrades, we don't recommend it because it goes against the SDP guidelines, which state that the updates should be applied to one zone at a time."
 methods:
 - uid: "com.azure.resourcemanager.servicefabric.models.SfZonalUpgradeMode.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.servicefabric.models.SfZonalUpgradeMode.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "This property controls the logical grouping of VMs in upgrade domains (UDs). This property can't be modified if a node type with multiple Availability Zones is already present in the cluster."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

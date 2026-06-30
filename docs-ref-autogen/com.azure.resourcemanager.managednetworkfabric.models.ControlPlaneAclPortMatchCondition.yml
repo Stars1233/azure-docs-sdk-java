@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition"
+name: "ControlPlaneAclPortMatchCondition"
+nameWithType: "ControlPlaneAclPortMatchCondition"
+summary: "Control Plane Access Control List (ACL) Port Match conditions properties."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ControlPlaneAclPortMatchCondition**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition&text=ControlPlaneAclPortMatchCondition\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition.ControlPlaneAclPortMatchCondition()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition.ControlPlaneAclPortMatchCondition()"
+  name: "ControlPlaneAclPortMatchCondition()"
+  nameWithType: "ControlPlaneAclPortMatchCondition.ControlPlaneAclPortMatchCondition()"
+  summary: "Creates an instance of Control<wbr>Plane<wbr>Acl<wbr>Port<wbr>Match<wbr>Condition class."
+  syntax: "public ControlPlaneAclPortMatchCondition()"
+  desc: "Creates an instance of ControlPlaneAclPortMatchCondition class."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition.destinationPorts()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition.destinationPorts()"
+  name: "destinationPorts()"
+  nameWithType: "ControlPlaneAclPortMatchCondition.destinationPorts()"
+  summary: "Get the destination<wbr>Ports property: List of the destination ports that need to be matched."
+  syntax: "public ControlPlaneAclPortCondition destinationPorts()"
+  desc: "Get the destinationPorts property: List of the destination ports that need to be matched."
+  returns:
+    description: "the destinationPorts value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortCondition&text=ControlPlaneAclPortCondition\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ControlPlaneAclPortMatchCondition.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Control<wbr>Plane<wbr>Acl<wbr>Port<wbr>Match<wbr>Condition from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ControlPlaneAclPortMatchCondition fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ControlPlaneAclPortMatchCondition."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ControlPlaneAclPortMatchCondition from the JsonReader."
+  returns:
+    description: "An instance of ControlPlaneAclPortMatchCondition if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition&text=ControlPlaneAclPortMatchCondition\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition.sourcePorts()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition.sourcePorts()"
+  name: "sourcePorts()"
+  nameWithType: "ControlPlaneAclPortMatchCondition.sourcePorts()"
+  summary: "Get the source<wbr>Ports property: List of the ports that need to be matched."
+  syntax: "public ControlPlaneAclPortCondition sourcePorts()"
+  desc: "Get the sourcePorts property: List of the ports that need to be matched."
+  returns:
+    description: "the sourcePorts value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortCondition&text=ControlPlaneAclPortCondition\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ControlPlaneAclPortMatchCondition.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition.withDestinationPorts(com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortCondition)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition.withDestinationPorts(ControlPlaneAclPortCondition destinationPorts)"
+  name: "withDestinationPorts(ControlPlaneAclPortCondition destinationPorts)"
+  nameWithType: "ControlPlaneAclPortMatchCondition.withDestinationPorts(ControlPlaneAclPortCondition destinationPorts)"
+  summary: "Set the destination<wbr>Ports property: List of the destination ports that need to be matched."
+  parameters:
+  - description: "the destinationPorts value to set."
+    name: "destinationPorts"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortCondition&text=ControlPlaneAclPortCondition\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ControlPlaneAclPortMatchCondition withDestinationPorts(ControlPlaneAclPortCondition destinationPorts)"
+  desc: "Set the destinationPorts property: List of the destination ports that need to be matched."
+  returns:
+    description: "the ControlPlaneAclPortMatchCondition object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition&text=ControlPlaneAclPortMatchCondition\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition.withSourcePorts(com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortCondition)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition.withSourcePorts(ControlPlaneAclPortCondition sourcePorts)"
+  name: "withSourcePorts(ControlPlaneAclPortCondition sourcePorts)"
+  nameWithType: "ControlPlaneAclPortMatchCondition.withSourcePorts(ControlPlaneAclPortCondition sourcePorts)"
+  summary: "Set the source<wbr>Ports property: List of the ports that need to be matched."
+  parameters:
+  - description: "the sourcePorts value to set."
+    name: "sourcePorts"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortCondition&text=ControlPlaneAclPortCondition\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ControlPlaneAclPortMatchCondition withSourcePorts(ControlPlaneAclPortCondition sourcePorts)"
+  desc: "Set the sourcePorts property: List of the ports that need to be matched."
+  returns:
+    description: "the ControlPlaneAclPortMatchCondition object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition&text=ControlPlaneAclPortMatchCondition\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Control Plane Access Control List (ACL) Port Match conditions properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPortMatchCondition&text=ControlPlaneAclPortMatchCondition\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

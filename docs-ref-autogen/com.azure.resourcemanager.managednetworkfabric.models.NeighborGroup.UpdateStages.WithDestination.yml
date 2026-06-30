@@ -6,18 +6,18 @@ nameWithType: "NeighborGroup.UpdateStages.WithDestination"
 summary: "The stage of the Neighbor<wbr>Group update allowing to specify destination."
 syntax: "public static interface **NeighborGroup.UpdateStages.WithDestination**"
 methods:
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.UpdateStages.WithDestination.withDestination(com.azure.resourcemanager.managednetworkfabric.models.NeighborGroupDestination)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.UpdateStages.WithDestination.withDestination(NeighborGroupDestination destination)"
-  name: "withDestination(NeighborGroupDestination destination)"
-  nameWithType: "NeighborGroup.UpdateStages.WithDestination.withDestination(NeighborGroupDestination destination)"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.UpdateStages.WithDestination.withDestination(com.azure.resourcemanager.managednetworkfabric.models.NeighborGroupDestinationPatch)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.UpdateStages.WithDestination.withDestination(NeighborGroupDestinationPatch destination)"
+  name: "withDestination(NeighborGroupDestinationPatch destination)"
+  nameWithType: "NeighborGroup.UpdateStages.WithDestination.withDestination(NeighborGroupDestinationPatch destination)"
   summary: "Specifies the destination property: An array of destination IPv4 Addresses or IPv6 Addresses.."
   modifiers:
   - "abstract"
   parameters:
   - description: "An array of destination IPv4 Addresses or IPv6 Addresses."
     name: "destination"
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NeighborGroupDestination?alt=com.azure.resourcemanager.managednetworkfabric.models.NeighborGroupDestination&text=NeighborGroupDestination\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract NeighborGroup.Update withDestination(NeighborGroupDestination destination)"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NeighborGroupDestinationPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.NeighborGroupDestinationPatch&text=NeighborGroupDestinationPatch\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NeighborGroup.Update withDestination(NeighborGroupDestinationPatch destination)"
   desc: "Specifies the destination property: An array of destination IPv4 Addresses or IPv6 Addresses.."
   returns:
     description: "the next definition stage."
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the NeighborGroup update allowing to specify destination."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

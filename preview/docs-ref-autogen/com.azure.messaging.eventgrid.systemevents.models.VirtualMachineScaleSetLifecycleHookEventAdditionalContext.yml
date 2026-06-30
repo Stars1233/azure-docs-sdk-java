@@ -1,0 +1,72 @@
+### YamlMime:JavaType
+uid: "com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventAdditionalContext"
+fullName: "com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventAdditionalContext"
+name: "VirtualMachineScaleSetLifecycleHookEventAdditionalContext"
+nameWithType: "VirtualMachineScaleSetLifecycleHookEventAdditionalContext"
+summary: "Additional key-value pairs set on the Lifecycle Hook event that gives customer some useful context/data."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **VirtualMachineScaleSetLifecycleHookEventAdditionalContext**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventAdditionalContext?alt=com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventAdditionalContext&text=VirtualMachineScaleSetLifecycleHookEventAdditionalContext\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventAdditionalContext.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventAdditionalContext.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "VirtualMachineScaleSetLifecycleHookEventAdditionalContext.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Virtual<wbr>Machine<wbr>Scale<wbr>Set<wbr>Lifecycle<wbr>Hook<wbr>Event<wbr>Additional<wbr>Context from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static VirtualMachineScaleSetLifecycleHookEventAdditionalContext fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the\n VirtualMachineScaleSetLifecycleHookEventAdditionalContext."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of VirtualMachineScaleSetLifecycleHookEventAdditionalContext from the JsonReader."
+  returns:
+    description: "An instance of VirtualMachineScaleSetLifecycleHookEventAdditionalContext if the JsonReader was pointing\n to an instance of it, or null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventAdditionalContext?alt=com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventAdditionalContext&text=VirtualMachineScaleSetLifecycleHookEventAdditionalContext\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventAdditionalContext.getPriority()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventAdditionalContext.getPriority()"
+  name: "getPriority()"
+  nameWithType: "VirtualMachineScaleSetLifecycleHookEventAdditionalContext.getPriority()"
+  summary: "Get the priority property: Can only be present for a Lifecycle Hook event of type \"Upgrade<wbr>Auto<wbr>OSScheduling\"."
+  syntax: "public String getPriority()"
+  desc: "Get the priority property: Can only be present for a Lifecycle Hook event of type \"UpgradeAutoOSScheduling\". Denotes the priority of the Virtual Machine Scale Set Lifecycle Hook event for the Auto OS Upgrade scheduled on the Virtual Machine Scale Set."
+  returns:
+    description: "the priority value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventAdditionalContext.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventAdditionalContext.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "VirtualMachineScaleSetLifecycleHookEventAdditionalContext.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Additional key-value pairs set on the Lifecycle Hook event that gives customer some useful context/data. The keys in this dictionary are specific to the Lifecycle Hook type. Different Lifecycle Hook events can have different sets of keys in the additional context depending on the Lifecycle Hook type. For example, for a Lifecycle Hook event with UpgradeAutoOSScheduling type, the additional context can contain the key \"priority\" that helps customer identify the priority of the Auto OS Upgrade operation triggered on the Virtual Machine Scale Set."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventAdditionalContext?alt=com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventAdditionalContext&text=VirtualMachineScaleSetLifecycleHookEventAdditionalContext\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.messaging.eventgrid.systemevents.models"
+artifact: com.azure:azure-messaging-eventgrid-systemevents:1.1.0-beta.1

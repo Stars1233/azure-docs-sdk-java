@@ -358,6 +358,16 @@ methods:
   returns:
     description: "the version of the service this SAS will target. If not specified, it will default to the version\n targeted by the library."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.storage.blob.sas.BlobServiceSasSignatureValues.isDirectory()"
+  fullName: "com.azure.storage.blob.sas.BlobServiceSasSignatureValues.isDirectory()"
+  name: "isDirectory()"
+  nameWithType: "BlobServiceSasSignatureValues.isDirectory()"
+  summary: "Gets whether the `blobName` is a virtual directory."
+  syntax: "public Boolean isDirectory()"
+  desc: "Gets whether the `blobName` is a virtual directory. Required when the `resource` is set to \"d\"."
+  returns:
+    description: "Whether the <code>blobName</code> is a virtual directory. Required when the resource is set to \"d\"."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
 - uid: "com.azure.storage.blob.sas.BlobServiceSasSignatureValues.setBlobName(java.lang.String)"
   fullName: "com.azure.storage.blob.sas.BlobServiceSasSignatureValues.setBlobName(String blobName)"
   name: "setBlobName(String blobName)"
@@ -485,6 +495,20 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public BlobServiceSasSignatureValues setDelegatedUserObjectId(String delegatedUserObjectId)"
   desc: "Optional. Beginning in version 2025-07-05, this value specifies the Entra ID of the user that is authorized to use the resulting SAS URL. The resulting SAS URL must be used in conjunction with an Entra ID token that has been issued to the user specified in this value."
+  returns:
+    description: "the updated BlobServiceSasSignatureValues object"
+    type: "<xref href=\"com.azure.storage.blob.sas.BlobServiceSasSignatureValues?alt=com.azure.storage.blob.sas.BlobServiceSasSignatureValues&text=BlobServiceSasSignatureValues\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.storage.blob.sas.BlobServiceSasSignatureValues.setDirectory(java.lang.Boolean)"
+  fullName: "com.azure.storage.blob.sas.BlobServiceSasSignatureValues.setDirectory(Boolean isDirectory)"
+  name: "setDirectory(Boolean isDirectory)"
+  nameWithType: "BlobServiceSasSignatureValues.setDirectory(Boolean isDirectory)"
+  summary: "Beginning in version 2020-02-10, this value defines whether the `blobName` is a virtual directory."
+  parameters:
+  - description: "Whether the <code>blobName</code> is a virtual directory. Required when the resource is set to \"d\"."
+    name: "isDirectory"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public BlobServiceSasSignatureValues setDirectory(Boolean isDirectory)"
+  desc: "Beginning in version 2020-02-10, this value defines whether the `blobName` is a virtual directory. Required when the `resource` is set to \"d\"."
   returns:
     description: "the updated BlobServiceSasSignatureValues object"
     type: "<xref href=\"com.azure.storage.blob.sas.BlobServiceSasSignatureValues?alt=com.azure.storage.blob.sas.BlobServiceSasSignatureValues&text=BlobServiceSasSignatureValues\" data-throw-if-not-resolved=\"False\" />"
@@ -664,4 +688,4 @@ type: "class"
 desc: "Used to initialize parameters for a Shared Access Signature (SAS) for an Azure Blob Storage service. Once all the values here are set, use the appropriate SAS generation method on the desired container/blob client to obtain a representation of the SAS which can then be applied to a new client using the .sasToken(String) method on the desired client builder."
 metadata: {}
 package: "com.azure.storage.blob.sas"
-artifact: com.azure:azure-storage-blob:12.34.0
+artifact: com.azure:azure-storage-blob:12.35.0

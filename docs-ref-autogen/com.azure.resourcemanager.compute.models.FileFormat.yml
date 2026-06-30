@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.compute.models.FileFormat.VHD"
   name: "VHD"
   nameWithType: "FileFormat.VHD"
-  summary: "Static value VHD for File<wbr>Format."
+  summary: "A VHD file is a disk image file in the Virtual Hard Disk file format."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.FileFormat?alt=com.azure.resourcemanager.compute.models.FileFormat&text=FileFormat\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FileFormat VHD"
-  desc: "Static value VHD for FileFormat."
+  desc: "A VHD file is a disk image file in the Virtual Hard Disk file format."
 - uid: "com.azure.resourcemanager.compute.models.FileFormat.VHDX"
   fullName: "com.azure.resourcemanager.compute.models.FileFormat.VHDX"
   name: "VHDX"
   nameWithType: "FileFormat.VHDX"
-  summary: "Static value VHDX for File<wbr>Format."
+  summary: "A VHDX file is a disk image file in the Virtual Hard Disk v2 file format."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.FileFormat?alt=com.azure.resourcemanager.compute.models.FileFormat&text=FileFormat\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FileFormat VHDX"
-  desc: "Static value VHDX for FileFormat."
+  desc: "A VHDX file is a disk image file in the Virtual Hard Disk v2 file format."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.FileFormat.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.models.FileFormat.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Used to specify the file format when making request for SAS on a VHDX file format snapshot."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

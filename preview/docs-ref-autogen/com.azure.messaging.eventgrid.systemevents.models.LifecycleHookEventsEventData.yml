@@ -1,0 +1,102 @@
+### YamlMime:JavaType
+uid: "com.azure.messaging.eventgrid.systemevents.models.LifecycleHookEventsEventData"
+fullName: "com.azure.messaging.eventgrid.systemevents.models.LifecycleHookEventsEventData"
+name: "LifecycleHookEventsEventData"
+nameWithType: "LifecycleHookEventsEventData"
+summary: "Schema of the Data property of an Event<wbr>Grid<wbr>Event for a Microsoft.<wbr>Compute.<wbr>Virtual<wbr>Machine<wbr>Scale<wbr>Sets.<wbr>Lifecycle<wbr>Hook<wbr>Events preview event."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **LifecycleHookEventsEventData**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.models.LifecycleHookEventsEventData?alt=com.azure.messaging.eventgrid.systemevents.models.LifecycleHookEventsEventData&text=LifecycleHookEventsEventData\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.messaging.eventgrid.systemevents.models.LifecycleHookEventsEventData.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.models.LifecycleHookEventsEventData.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "LifecycleHookEventsEventData.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Lifecycle<wbr>Hook<wbr>Events<wbr>Event<wbr>Data from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static LifecycleHookEventsEventData fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of LifecycleHookEventsEventData from the JsonReader."
+  returns:
+    description: "An instance of LifecycleHookEventsEventData if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.models.LifecycleHookEventsEventData?alt=com.azure.messaging.eventgrid.systemevents.models.LifecycleHookEventsEventData&text=LifecycleHookEventsEventData\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.models.LifecycleHookEventsEventData.getId()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.models.LifecycleHookEventsEventData.getId()"
+  name: "getId()"
+  nameWithType: "LifecycleHookEventsEventData.getId()"
+  summary: "Get the id property: The ARM resource ID of the Lifecycle Hook event entity created by the platform for this event."
+  syntax: "public String getId()"
+  desc: "Get the id property: The ARM resource ID of the Lifecycle Hook event entity created by the platform for this event. Customers can use this ARM resource ID to query more details about the event through Azure Resource Manager APIs."
+  returns:
+    description: "the id value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.messaging.eventgrid.systemevents.models.LifecycleHookEventsEventData.getName()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.models.LifecycleHookEventsEventData.getName()"
+  name: "getName()"
+  nameWithType: "LifecycleHookEventsEventData.getName()"
+  summary: "Get the name property: The name of the Lifecycle Hook event."
+  syntax: "public String getName()"
+  desc: "Get the name property: The name of the Lifecycle Hook event. This is a unique identifier for the Lifecycle Hook event."
+  returns:
+    description: "the name value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.messaging.eventgrid.systemevents.models.LifecycleHookEventsEventData.getOperationalInfo()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.models.LifecycleHookEventsEventData.getOperationalInfo()"
+  name: "getOperationalInfo()"
+  nameWithType: "LifecycleHookEventsEventData.getOperationalInfo()"
+  summary: "Get the operational<wbr>Info property: Operational information related to the Lifecycle Hook event."
+  syntax: "public OperationalInfo getOperationalInfo()"
+  desc: "Get the operationalInfo property: Operational information related to the Lifecycle Hook event."
+  returns:
+    description: "the operationalInfo value."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.models.OperationalInfo?alt=com.azure.messaging.eventgrid.systemevents.models.OperationalInfo&text=OperationalInfo\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.models.LifecycleHookEventsEventData.getProperties()"
+  fullName: "com.azure.messaging.eventgrid.systemevents.models.LifecycleHookEventsEventData.getProperties()"
+  name: "getProperties()"
+  nameWithType: "LifecycleHookEventsEventData.getProperties()"
+  summary: "Get the properties property: The properties of the Virtual Machine Scale Set Lifecycle Hook event."
+  syntax: "public VirtualMachineScaleSetLifecycleHookEventProperties getProperties()"
+  desc: "Get the properties property: The properties of the Virtual Machine Scale Set Lifecycle Hook event."
+  returns:
+    description: "the properties value."
+    type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventProperties?alt=com.azure.messaging.eventgrid.systemevents.models.VirtualMachineScaleSetLifecycleHookEventProperties&text=VirtualMachineScaleSetLifecycleHookEventProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.messaging.eventgrid.systemevents.models.LifecycleHookEventsEventData.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.messaging.eventgrid.systemevents.models.LifecycleHookEventsEventData.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "LifecycleHookEventsEventData.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Schema of the Data property of an EventGridEvent for a Microsoft.Compute.VirtualMachineScaleSets.LifecycleHookEvents preview event."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.models.LifecycleHookEventsEventData?alt=com.azure.messaging.eventgrid.systemevents.models.LifecycleHookEventsEventData&text=LifecycleHookEventsEventData\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.messaging.eventgrid.systemevents.models"
+artifact: com.azure:azure-messaging-eventgrid-systemevents:1.1.0-beta.1

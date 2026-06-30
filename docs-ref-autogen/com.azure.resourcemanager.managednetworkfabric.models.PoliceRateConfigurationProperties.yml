@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties"
+name: "PoliceRateConfigurationProperties"
+nameWithType: "PoliceRateConfigurationProperties"
+summary: "Police rate configuration properties."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **PoliceRateConfigurationProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties&text=PoliceRateConfigurationProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties.PoliceRateConfigurationProperties()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties.PoliceRateConfigurationProperties()"
+  name: "PoliceRateConfigurationProperties()"
+  nameWithType: "PoliceRateConfigurationProperties.PoliceRateConfigurationProperties()"
+  summary: "Creates an instance of Police<wbr>Rate<wbr>Configuration<wbr>Properties class."
+  syntax: "public PoliceRateConfigurationProperties()"
+  desc: "Creates an instance of PoliceRateConfigurationProperties class."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties.bitRate()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties.bitRate()"
+  name: "bitRate()"
+  nameWithType: "PoliceRateConfigurationProperties.bitRate()"
+  summary: "Get the bit<wbr>Rate property: Rate limit in bits per second."
+  syntax: "public BitRate bitRate()"
+  desc: "Get the bitRate property: Rate limit in bits per second."
+  returns:
+    description: "the bitRate value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BitRate?alt=com.azure.resourcemanager.managednetworkfabric.models.BitRate&text=BitRate\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties.burstSize()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties.burstSize()"
+  name: "burstSize()"
+  nameWithType: "PoliceRateConfigurationProperties.burstSize()"
+  summary: "Get the burst<wbr>Size property: Burst size in packets."
+  syntax: "public BurstSize burstSize()"
+  desc: "Get the burstSize property: Burst size in packets."
+  returns:
+    description: "the burstSize value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BurstSize?alt=com.azure.resourcemanager.managednetworkfabric.models.BurstSize&text=BurstSize\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "PoliceRateConfigurationProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Police<wbr>Rate<wbr>Configuration<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static PoliceRateConfigurationProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the PoliceRateConfigurationProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of PoliceRateConfigurationProperties from the JsonReader."
+  returns:
+    description: "An instance of PoliceRateConfigurationProperties if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties&text=PoliceRateConfigurationProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "PoliceRateConfigurationProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties.withBitRate(com.azure.resourcemanager.managednetworkfabric.models.BitRate)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties.withBitRate(BitRate bitRate)"
+  name: "withBitRate(BitRate bitRate)"
+  nameWithType: "PoliceRateConfigurationProperties.withBitRate(BitRate bitRate)"
+  summary: "Set the bit<wbr>Rate property: Rate limit in bits per second."
+  parameters:
+  - description: "the bitRate value to set."
+    name: "bitRate"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BitRate?alt=com.azure.resourcemanager.managednetworkfabric.models.BitRate&text=BitRate\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public PoliceRateConfigurationProperties withBitRate(BitRate bitRate)"
+  desc: "Set the bitRate property: Rate limit in bits per second."
+  returns:
+    description: "the PoliceRateConfigurationProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties&text=PoliceRateConfigurationProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties.withBurstSize(com.azure.resourcemanager.managednetworkfabric.models.BurstSize)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties.withBurstSize(BurstSize burstSize)"
+  name: "withBurstSize(BurstSize burstSize)"
+  nameWithType: "PoliceRateConfigurationProperties.withBurstSize(BurstSize burstSize)"
+  summary: "Set the burst<wbr>Size property: Burst size in packets."
+  parameters:
+  - description: "the burstSize value to set."
+    name: "burstSize"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BurstSize?alt=com.azure.resourcemanager.managednetworkfabric.models.BurstSize&text=BurstSize\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public PoliceRateConfigurationProperties withBurstSize(BurstSize burstSize)"
+  desc: "Set the burstSize property: Burst size in packets."
+  returns:
+    description: "the PoliceRateConfigurationProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties&text=PoliceRateConfigurationProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Police rate configuration properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties&text=PoliceRateConfigurationProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

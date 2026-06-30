@@ -30,6 +30,16 @@ constructors:
   syntax: "public NetworkInterfacePatch()"
   desc: "Creates an instance of NetworkInterfacePatch class."
 methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch.additionalDescription()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch.additionalDescription()"
+  name: "additionalDescription()"
+  nameWithType: "NetworkInterfacePatch.additionalDescription()"
+  summary: "Get the additional<wbr>Description property: Additional description of the interface."
+  syntax: "public String additionalDescription()"
+  desc: "Get the additionalDescription property: Additional description of the interface."
+  returns:
+    description: "the additionalDescription value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch.annotation()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch.annotation()"
   name: "annotation()"
@@ -59,6 +69,16 @@ methods:
   returns:
     description: "An instance of NetworkInterfacePatch if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch&text=NetworkInterfacePatch\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch.identity()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch.identity()"
+  name: "identity()"
+  nameWithType: "NetworkInterfacePatch.identity()"
+  summary: "Get the identity property: The managed service identities assigned to this resource."
+  syntax: "public ManagedServiceIdentityPatch identity()"
+  desc: "Get the identity property: The managed service identities assigned to this resource."
+  returns:
+    description: "the identity value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentityPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentityPatch&text=ManagedServiceIdentityPatch\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -71,13 +91,20 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch.validate()"
-  name: "validate()"
-  nameWithType: "NetworkInterfacePatch.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch.withAdditionalDescription(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch.withAdditionalDescription(String additionalDescription)"
+  name: "withAdditionalDescription(String additionalDescription)"
+  nameWithType: "NetworkInterfacePatch.withAdditionalDescription(String additionalDescription)"
+  summary: "Set the additional<wbr>Description property: Additional description of the interface."
+  parameters:
+  - description: "the additionalDescription value to set."
+    name: "additionalDescription"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public NetworkInterfacePatch withAdditionalDescription(String additionalDescription)"
+  desc: "Set the additionalDescription property: Additional description of the interface."
+  returns:
+    description: "the NetworkInterfacePatch object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch&text=NetworkInterfacePatch\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch.withAnnotation(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch.withAnnotation(String annotation)"
   name: "withAnnotation(String annotation)"
@@ -92,10 +119,24 @@ methods:
   returns:
     description: "the NetworkInterfacePatch object itself."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch&text=NetworkInterfacePatch\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch.withIdentity(com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentityPatch)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch.withIdentity(ManagedServiceIdentityPatch identity)"
+  name: "withIdentity(ManagedServiceIdentityPatch identity)"
+  nameWithType: "NetworkInterfacePatch.withIdentity(ManagedServiceIdentityPatch identity)"
+  summary: "Set the identity property: The managed service identities assigned to this resource."
+  parameters:
+  - description: "the identity value to set."
+    name: "identity"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentityPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentityPatch&text=ManagedServiceIdentityPatch\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public NetworkInterfacePatch withIdentity(ManagedServiceIdentityPatch identity)"
+  desc: "Set the identity property: The managed service identities assigned to this resource."
+  returns:
+    description: "the NetworkInterfacePatch object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch&text=NetworkInterfacePatch\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The NetworkInterfacePatch resource definition."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch&text=NetworkInterfacePatch\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

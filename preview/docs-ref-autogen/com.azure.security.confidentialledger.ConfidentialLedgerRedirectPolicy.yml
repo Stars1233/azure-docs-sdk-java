@@ -1,0 +1,63 @@
+### YamlMime:JavaType
+uid: "com.azure.security.confidentialledger.ConfidentialLedgerRedirectPolicy"
+fullName: "com.azure.security.confidentialledger.ConfidentialLedgerRedirectPolicy"
+name: "ConfidentialLedgerRedirectPolicy"
+nameWithType: "ConfidentialLedgerRedirectPolicy"
+summary: "A redirect policy for Confidential Ledger that preserves the Authorization header on trusted redirects while enforcing a strict redirect destination policy."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ConfidentialLedgerRedirectPolicy**</br> implements <xref href=\"com.azure.core.http.policy.HttpPipelinePolicy?alt=com.azure.core.http.policy.HttpPipelinePolicy&text=HttpPipelinePolicy\" data-throw-if-not-resolved=\"False\" />"
+constructors:
+- uid: "com.azure.security.confidentialledger.ConfidentialLedgerRedirectPolicy.ConfidentialLedgerRedirectPolicy()"
+  fullName: "com.azure.security.confidentialledger.ConfidentialLedgerRedirectPolicy.ConfidentialLedgerRedirectPolicy()"
+  name: "ConfidentialLedgerRedirectPolicy()"
+  nameWithType: "ConfidentialLedgerRedirectPolicy.ConfidentialLedgerRedirectPolicy()"
+  summary: "Creates an instance of <xref uid=\"com.azure.security.confidentialledger.ConfidentialLedgerRedirectPolicy\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ConfidentialLedgerRedirectPolicy\"></xref>."
+  syntax: "public ConfidentialLedgerRedirectPolicy()"
+  desc: "Creates an instance of <xref uid=\"com.azure.security.confidentialledger.ConfidentialLedgerRedirectPolicy\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ConfidentialLedgerRedirectPolicy\"></xref>."
+methods:
+- uid: "com.azure.security.confidentialledger.ConfidentialLedgerRedirectPolicy.process(com.azure.core.http.HttpPipelineCallContext,com.azure.core.http.HttpPipelineNextPolicy)"
+  fullName: "com.azure.security.confidentialledger.ConfidentialLedgerRedirectPolicy.process(HttpPipelineCallContext context, HttpPipelineNextPolicy next)"
+  name: "process(HttpPipelineCallContext context, HttpPipelineNextPolicy next)"
+  nameWithType: "ConfidentialLedgerRedirectPolicy.process(HttpPipelineCallContext context, HttpPipelineNextPolicy next)"
+  parameters:
+  - name: "context"
+    type: "<xref href=\"com.azure.core.http.HttpPipelineCallContext?alt=com.azure.core.http.HttpPipelineCallContext&text=HttpPipelineCallContext\" data-throw-if-not-resolved=\"False\" />"
+  - name: "next"
+    type: "<xref href=\"com.azure.core.http.HttpPipelineNextPolicy?alt=com.azure.core.http.HttpPipelineNextPolicy&text=HttpPipelineNextPolicy\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<HttpResponse> process(HttpPipelineCallContext context, HttpPipelineNextPolicy next)"
+  returns:
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.HttpResponse?alt=com.azure.core.http.HttpResponse&text=HttpResponse\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.security.confidentialledger.ConfidentialLedgerRedirectPolicy.processSync(com.azure.core.http.HttpPipelineCallContext,com.azure.core.http.HttpPipelineNextSyncPolicy)"
+  fullName: "com.azure.security.confidentialledger.ConfidentialLedgerRedirectPolicy.processSync(HttpPipelineCallContext context, HttpPipelineNextSyncPolicy next)"
+  name: "processSync(HttpPipelineCallContext context, HttpPipelineNextSyncPolicy next)"
+  nameWithType: "ConfidentialLedgerRedirectPolicy.processSync(HttpPipelineCallContext context, HttpPipelineNextSyncPolicy next)"
+  parameters:
+  - name: "context"
+    type: "<xref href=\"com.azure.core.http.HttpPipelineCallContext?alt=com.azure.core.http.HttpPipelineCallContext&text=HttpPipelineCallContext\" data-throw-if-not-resolved=\"False\" />"
+  - name: "next"
+    type: "<xref href=\"com.azure.core.http.HttpPipelineNextSyncPolicy?alt=com.azure.core.http.HttpPipelineNextSyncPolicy&text=HttpPipelineNextSyncPolicy\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public HttpResponse processSync(HttpPipelineCallContext context, HttpPipelineNextSyncPolicy next)"
+  returns:
+    type: "<xref href=\"com.azure.core.http.HttpResponse?alt=com.azure.core.http.HttpResponse&text=HttpResponse\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "A redirect policy for Confidential Ledger that preserves the Authorization header on trusted redirects while enforcing a strict redirect destination policy.\n\nThe Confidential Ledger service uses a distributed network of nodes. Write operations (POST) may be redirected from the load-balanced endpoint to a specific node via HTTP 307/308 redirects. The standard <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"RedirectPolicy\"></xref> in azure-core strips the Authorization header on redirect for security, and only allows GET/HEAD methods by default. This policy addresses both issues for Confidential Ledger by:\n\n *  Following redirects for all HTTP methods including POST\n *  Preserving the Authorization header when the redirect target is a trusted Confidential Ledger destination\n\n**Redirect destination policy.** A redirect is only followed when the target uses the same scheme and the target host is the original ledger host or one of its subdomains (e.g., `accledger-2.myledger.confidential-ledger.azure.com` is a subdomain of `myledger.confidential-ledger.azure.com`). The host comparison is case-insensitive and ignores the port. Redirects to sibling ledgers, parent domains, unrelated hosts, or look-alike suffix domains are refused: they are logged at the warning level and never followed, so the sensitive Authorization header is never forwarded to an unintended destination. This prevents a misconfigured or malicious load balancer from redirecting a request — along with its sensitive headers — to a destination outside the original ledger.\n\nThis class is intended to be used internally by the Confidential Ledger client builders."
+implements:
+- "<xref href=\"com.azure.core.http.policy.HttpPipelinePolicy?alt=com.azure.core.http.policy.HttpPipelinePolicy&text=HttpPipelinePolicy\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.security.confidentialledger"
+artifact: com.azure:azure-security-confidentialledger:1.1.0-beta.3

@@ -18,6 +18,18 @@ methods:
   returns:
     description: "the annotation value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.configurationState()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.configurationState()"
+  name: "configurationState()"
+  nameWithType: "NeighborGroup.configurationState()"
+  summary: "Gets the configuration<wbr>State property: Configuration state of the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ConfigurationState configurationState()"
+  desc: "Gets the configurationState property: Configuration state of the resource."
+  returns:
+    description: "the configurationState value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ConfigurationState?alt=com.azure.resourcemanager.managednetworkfabric.models.ConfigurationState&text=ConfigurationState\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.destination()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.destination()"
   name: "destination()"
@@ -42,6 +54,18 @@ methods:
   returns:
     description: "the id value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.identity()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.identity()"
+  name: "identity()"
+  nameWithType: "NeighborGroup.identity()"
+  summary: "Gets the identity property: The managed service identities assigned to this resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ManagedServiceIdentity identity()"
+  desc: "Gets the identity property: The managed service identities assigned to this resource."
+  returns:
+    description: "the identity value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentity?alt=com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentity&text=ManagedServiceIdentity\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.innerModel()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.innerModel()"
   name: "innerModel()"
@@ -54,6 +78,18 @@ methods:
   returns:
     description: "the inner object."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NeighborGroupInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NeighborGroupInner&text=NeighborGroupInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.lastOperation()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.lastOperation()"
+  name: "lastOperation()"
+  nameWithType: "NeighborGroup.lastOperation()"
+  summary: "Gets the last<wbr>Operation property: Details of the last operation performed on the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract LastOperationProperties lastOperation()"
+  desc: "Gets the lastOperation property: Details of the last operation performed on the resource."
+  returns:
+    description: "the lastOperation value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties&text=LastOperationProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.location()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.location()"
   name: "location()"
@@ -78,6 +114,18 @@ methods:
   returns:
     description: "the name value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.networkFabricIds()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.networkFabricIds()"
+  name: "networkFabricIds()"
+  nameWithType: "NeighborGroup.networkFabricIds()"
+  summary: "Gets the network<wbr>Fabric<wbr>Ids property: Associated Network Fabric Resource IDs."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<String> networkFabricIds()"
+  desc: "Gets the networkFabricIds property: Associated Network Fabric Resource IDs."
+  returns:
+    description: "the networkFabricIds value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.networkTapIds()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.networkTapIds()"
   name: "networkTapIds()"
@@ -178,6 +226,34 @@ methods:
   returns:
     description: "the name of the resource group."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.resync()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.resync()"
+  name: "resync()"
+  nameWithType: "NeighborGroup.resync()"
+  summary: "Resync the Neighbor Group after a configuration change."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract NeighborGroupResyncResponse resync()"
+  desc: "Resync the Neighbor Group after a configuration change."
+  returns:
+    description: "response for Neighbor Group Resync operation."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NeighborGroupResyncResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.NeighborGroupResyncResponse&text=NeighborGroupResyncResponse\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.resync(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.resync(Context context)"
+  name: "resync(Context context)"
+  nameWithType: "NeighborGroup.resync(Context context)"
+  summary: "Resync the Neighbor Group after a configuration change."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NeighborGroupResyncResponse resync(Context context)"
+  desc: "Resync the Neighbor Group after a configuration change."
+  returns:
+    description: "response for Neighbor Group Resync operation."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NeighborGroupResyncResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.NeighborGroupResyncResponse&text=NeighborGroupResyncResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.systemData()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup.systemData()"
   name: "systemData()"
@@ -230,4 +306,4 @@ type: "interface"
 desc: "An immutable client-side representation of NeighborGroup."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

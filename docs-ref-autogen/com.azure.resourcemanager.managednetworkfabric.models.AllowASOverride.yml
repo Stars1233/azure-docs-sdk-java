@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AllowASOverride.DISABLE"
   name: "DISABLE"
   nameWithType: "AllowASOverride.DISABLE"
-  summary: "Static value Disable for Allow<wbr>ASOverride."
+  summary: "Allow<wbr>ASOverride-Disable."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AllowASOverride?alt=com.azure.resourcemanager.managednetworkfabric.models.AllowASOverride&text=AllowASOverride\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AllowASOverride DISABLE"
-  desc: "Static value Disable for AllowASOverride."
+  desc: "AllowASOverride-Disable."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AllowASOverride.ENABLE"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AllowASOverride.ENABLE"
   name: "ENABLE"
   nameWithType: "AllowASOverride.ENABLE"
-  summary: "Static value Enable for Allow<wbr>ASOverride."
+  summary: "Allow<wbr>ASOverride-Enable."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AllowASOverride?alt=com.azure.resourcemanager.managednetworkfabric.models.AllowASOverride&text=AllowASOverride\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AllowASOverride ENABLE"
-  desc: "Static value Enable for AllowASOverride."
+  desc: "AllowASOverride-Enable."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AllowASOverride.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AllowASOverride.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Enable Or Disable state."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

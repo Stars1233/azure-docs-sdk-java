@@ -45,6 +45,16 @@ constructors:
   syntax: "public ImageTemplateInner()"
   desc: "Creates an instance of ImageTemplateInner class."
 methods:
+- uid: "com.azure.resourcemanager.imagebuilder.fluent.models.ImageTemplateInner.additionalDataDisks()"
+  fullName: "com.azure.resourcemanager.imagebuilder.fluent.models.ImageTemplateInner.additionalDataDisks()"
+  name: "additionalDataDisks()"
+  nameWithType: "ImageTemplateInner.additionalDataDisks()"
+  summary: "Get the additional<wbr>Data<wbr>Disks property: Optional array of additional data disks to be added to the image."
+  syntax: "public List<DataDisk> additionalDataDisks()"
+  desc: "Get the additionalDataDisks property: Optional array of additional data disks to be added to the image."
+  returns:
+    description: "the additionalDataDisks value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.imagebuilder.models.DataDisk?alt=com.azure.resourcemanager.imagebuilder.models.DataDisk&text=DataDisk\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.imagebuilder.fluent.models.ImageTemplateInner.autoRun()"
   fullName: "com.azure.resourcemanager.imagebuilder.fluent.models.ImageTemplateInner.autoRun()"
   name: "autoRun()"
@@ -260,13 +270,6 @@ methods:
   returns:
     description: "the type value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.imagebuilder.fluent.models.ImageTemplateInner.validate()"
-  fullName: "com.azure.resourcemanager.imagebuilder.fluent.models.ImageTemplateInner.validate()"
-  name: "validate()"
-  nameWithType: "ImageTemplateInner.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.imagebuilder.fluent.models.ImageTemplateInner.validation()"
   fullName: "com.azure.resourcemanager.imagebuilder.fluent.models.ImageTemplateInner.validation()"
   name: "validation()"
@@ -287,6 +290,20 @@ methods:
   returns:
     description: "the vmProfile value."
     type: "<xref href=\"com.azure.resourcemanager.imagebuilder.models.ImageTemplateVmProfile?alt=com.azure.resourcemanager.imagebuilder.models.ImageTemplateVmProfile&text=ImageTemplateVmProfile\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.imagebuilder.fluent.models.ImageTemplateInner.withAdditionalDataDisks(java.util.List<com.azure.resourcemanager.imagebuilder.models.DataDisk>)"
+  fullName: "com.azure.resourcemanager.imagebuilder.fluent.models.ImageTemplateInner.withAdditionalDataDisks(List<DataDisk> additionalDataDisks)"
+  name: "withAdditionalDataDisks(List<DataDisk> additionalDataDisks)"
+  nameWithType: "ImageTemplateInner.withAdditionalDataDisks(List<DataDisk> additionalDataDisks)"
+  summary: "Set the additional<wbr>Data<wbr>Disks property: Optional array of additional data disks to be added to the image."
+  parameters:
+  - description: "the additionalDataDisks value to set."
+    name: "additionalDataDisks"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.imagebuilder.models.DataDisk?alt=com.azure.resourcemanager.imagebuilder.models.DataDisk&text=DataDisk\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public ImageTemplateInner withAdditionalDataDisks(List<DataDisk> additionalDataDisks)"
+  desc: "Set the additionalDataDisks property: Optional array of additional data disks to be added to the image."
+  returns:
+    description: "the ImageTemplateInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.imagebuilder.fluent.models.ImageTemplateInner?alt=com.azure.resourcemanager.imagebuilder.fluent.models.ImageTemplateInner&text=ImageTemplateInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.imagebuilder.fluent.models.ImageTemplateInner.withAutoRun(com.azure.resourcemanager.imagebuilder.models.ImageTemplateAutoRun)"
   fullName: "com.azure.resourcemanager.imagebuilder.fluent.models.ImageTemplateInner.withAutoRun(ImageTemplateAutoRun autoRun)"
   name: "withAutoRun(ImageTemplateAutoRun autoRun)"
@@ -481,4 +498,4 @@ type: "class"
 desc: "Image template is an ARM resource managed by Microsoft.VirtualMachineImages provider."
 metadata: {}
 package: "com.azure.resourcemanager.imagebuilder.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-imagebuilder:1.2.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-imagebuilder:1.3.0

@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.EncapsulationType.GTPV1"
   name: "GTPV1"
   nameWithType: "EncapsulationType.GTPV1"
-  summary: "Static value GTPv1 for Encapsulation<wbr>Type."
+  summary: "GTPv1 Encapsulation<wbr>Type."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.EncapsulationType?alt=com.azure.resourcemanager.managednetworkfabric.models.EncapsulationType&text=EncapsulationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final EncapsulationType GTPV1"
-  desc: "Static value GTPv1 for EncapsulationType."
+  desc: "GTPv1 EncapsulationType."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.EncapsulationType.NONE"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.EncapsulationType.NONE"
   name: "NONE"
   nameWithType: "EncapsulationType.NONE"
-  summary: "Static value None for Encapsulation<wbr>Type."
+  summary: "None Encapsulation<wbr>Type."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.EncapsulationType?alt=com.azure.resourcemanager.managednetworkfabric.models.EncapsulationType&text=EncapsulationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final EncapsulationType NONE"
-  desc: "Static value None for EncapsulationType."
+  desc: "None EncapsulationType."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.EncapsulationType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.EncapsulationType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Encapsulation Type that needs to be matched."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

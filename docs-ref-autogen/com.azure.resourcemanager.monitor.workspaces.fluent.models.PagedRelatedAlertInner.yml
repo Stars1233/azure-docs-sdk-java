@@ -1,0 +1,82 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.monitor.workspaces.fluent.models.PagedRelatedAlertInner"
+fullName: "com.azure.resourcemanager.monitor.workspaces.fluent.models.PagedRelatedAlertInner"
+name: "PagedRelatedAlertInner"
+nameWithType: "PagedRelatedAlertInner"
+summary: "Paged collection of Related<wbr>Alert items."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **PagedRelatedAlertInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.monitor.workspaces.fluent.models.PagedRelatedAlertInner?alt=com.azure.resourcemanager.monitor.workspaces.fluent.models.PagedRelatedAlertInner&text=PagedRelatedAlertInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.monitor.workspaces.fluent.models.PagedRelatedAlertInner.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.fluent.models.PagedRelatedAlertInner.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "PagedRelatedAlertInner.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Paged<wbr>Related<wbr>Alert<wbr>Inner from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static PagedRelatedAlertInner fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of PagedRelatedAlertInner from the JsonReader."
+  returns:
+    description: "An instance of PagedRelatedAlertInner if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.fluent.models.PagedRelatedAlertInner?alt=com.azure.resourcemanager.monitor.workspaces.fluent.models.PagedRelatedAlertInner&text=PagedRelatedAlertInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.fluent.models.PagedRelatedAlertInner.nextLink()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.fluent.models.PagedRelatedAlertInner.nextLink()"
+  name: "nextLink()"
+  nameWithType: "PagedRelatedAlertInner.nextLink()"
+  summary: "Get the next<wbr>Link property: The link to the next page of items."
+  syntax: "public String nextLink()"
+  desc: "Get the nextLink property: The link to the next page of items."
+  returns:
+    description: "the nextLink value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.monitor.workspaces.fluent.models.PagedRelatedAlertInner.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.fluent.models.PagedRelatedAlertInner.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "PagedRelatedAlertInner.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.fluent.models.PagedRelatedAlertInner.value()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.fluent.models.PagedRelatedAlertInner.value()"
+  name: "value()"
+  nameWithType: "PagedRelatedAlertInner.value()"
+  summary: "Get the value property: The Related<wbr>Alert items on this page."
+  syntax: "public List<RelatedAlert> value()"
+  desc: "Get the value property: The RelatedAlert items on this page."
+  returns:
+    description: "the value value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.RelatedAlert?alt=com.azure.resourcemanager.monitor.workspaces.models.RelatedAlert&text=RelatedAlert\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Paged collection of RelatedAlert items."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.monitor.workspaces.fluent.models.PagedRelatedAlertInner?alt=com.azure.resourcemanager.monitor.workspaces.fluent.models.PagedRelatedAlertInner&text=PagedRelatedAlertInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.monitor.workspaces.fluent.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor-workspaces:1.0.0

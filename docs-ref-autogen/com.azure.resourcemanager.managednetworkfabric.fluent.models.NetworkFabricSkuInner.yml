@@ -29,14 +29,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **NetworkFabricSkuInner**</br> extends <xref href=\"com.azure.core.management.ProxyResource?alt=com.azure.core.management.ProxyResource&text=ProxyResource\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuInner.NetworkFabricSkuInner()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuInner.NetworkFabricSkuInner()"
-  name: "NetworkFabricSkuInner()"
-  nameWithType: "NetworkFabricSkuInner.NetworkFabricSkuInner()"
-  summary: "Creates an instance of Network<wbr>Fabric<wbr>Sku<wbr>Inner class."
-  syntax: "public NetworkFabricSkuInner()"
-  desc: "Creates an instance of NetworkFabricSkuInner class."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuInner.details()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuInner.details()"
@@ -173,43 +165,8 @@ methods:
   returns:
     description: "the type value."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.FabricSkuType?alt=com.azure.resourcemanager.managednetworkfabric.models.FabricSkuType&text=FabricSkuType\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuInner.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuInner.validate()"
-  name: "validate()"
-  nameWithType: "NetworkFabricSkuInner.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuInner.withMaxComputeRacks(java.lang.Integer)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuInner.withMaxComputeRacks(Integer maxComputeRacks)"
-  name: "withMaxComputeRacks(Integer maxComputeRacks)"
-  nameWithType: "NetworkFabricSkuInner.withMaxComputeRacks(Integer maxComputeRacks)"
-  summary: "Set the max<wbr>Compute<wbr>Racks property: Maximum number of compute racks available for this Network Fabric SKU."
-  parameters:
-  - description: "the maxComputeRacks value to set."
-    name: "maxComputeRacks"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-  syntax: "public NetworkFabricSkuInner withMaxComputeRacks(Integer maxComputeRacks)"
-  desc: "Set the maxComputeRacks property: Maximum number of compute racks available for this Network Fabric SKU. The value of max count racks is 4 for 4 rack SKU and 8 for 8 rack SKU."
-  returns:
-    description: "the NetworkFabricSkuInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuInner&text=NetworkFabricSkuInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuInner.withMaximumServerCount(java.lang.Integer)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuInner.withMaximumServerCount(Integer maximumServerCount)"
-  name: "withMaximumServerCount(Integer maximumServerCount)"
-  nameWithType: "NetworkFabricSkuInner.withMaximumServerCount(Integer maximumServerCount)"
-  summary: "Set the maximum<wbr>Server<wbr>Count property: Maximum number of servers available for this Network Fabric SKU."
-  parameters:
-  - description: "the maximumServerCount value to set."
-    name: "maximumServerCount"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-  syntax: "public NetworkFabricSkuInner withMaximumServerCount(Integer maximumServerCount)"
-  desc: "Set the maximumServerCount property: Maximum number of servers available for this Network Fabric SKU."
-  returns:
-    description: "the NetworkFabricSkuInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricSkuInner&text=NetworkFabricSkuInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The Network Fabric SKU resource definition."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

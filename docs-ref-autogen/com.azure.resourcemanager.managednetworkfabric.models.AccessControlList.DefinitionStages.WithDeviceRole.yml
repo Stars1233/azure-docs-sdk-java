@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.DefinitionStages.WithDeviceRole"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.DefinitionStages.WithDeviceRole"
+name: "AccessControlList.DefinitionStages.WithDeviceRole"
+nameWithType: "AccessControlList.DefinitionStages.WithDeviceRole"
+summary: "The stage of the Access<wbr>Control<wbr>List definition allowing to specify device<wbr>Role."
+syntax: "public static interface **AccessControlList.DefinitionStages.WithDeviceRole**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.DefinitionStages.WithDeviceRole.withDeviceRole(com.azure.resourcemanager.managednetworkfabric.models.DeviceRole)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.DefinitionStages.WithDeviceRole.withDeviceRole(DeviceRole deviceRole)"
+  name: "withDeviceRole(DeviceRole deviceRole)"
+  nameWithType: "AccessControlList.DefinitionStages.WithDeviceRole.withDeviceRole(DeviceRole deviceRole)"
+  summary: "Specifies the device<wbr>Role property: Device Role."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Device Role."
+    name: "deviceRole"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.DeviceRole?alt=com.azure.resourcemanager.managednetworkfabric.models.DeviceRole&text=DeviceRole\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract AccessControlList.DefinitionStages.WithCreate withDeviceRole(DeviceRole deviceRole)"
+  desc: "Specifies the deviceRole property: Device Role."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the AccessControlList definition allowing to specify deviceRole."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

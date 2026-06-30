@@ -1,0 +1,102 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceDefaultIngestionSettings"
+fullName: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceDefaultIngestionSettings"
+name: "AzureMonitorWorkspaceDefaultIngestionSettings"
+nameWithType: "AzureMonitorWorkspaceDefaultIngestionSettings"
+summary: "The Data Collection Rule and Endpoint used for ingestion by default."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AzureMonitorWorkspaceDefaultIngestionSettings**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceDefaultIngestionSettings?alt=com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceDefaultIngestionSettings&text=AzureMonitorWorkspaceDefaultIngestionSettings\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceDefaultIngestionSettings.dataCollectionEndpointResourceId()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceDefaultIngestionSettings.dataCollectionEndpointResourceId()"
+  name: "dataCollectionEndpointResourceId()"
+  nameWithType: "AzureMonitorWorkspaceDefaultIngestionSettings.dataCollectionEndpointResourceId()"
+  summary: "Get the data<wbr>Collection<wbr>Endpoint<wbr>Resource<wbr>Id property: The Azure resource Id of the default data collection endpoint for this Azure Monitor Workspace."
+  syntax: "public String dataCollectionEndpointResourceId()"
+  desc: "Get the dataCollectionEndpointResourceId property: The Azure resource Id of the default data collection endpoint for this Azure Monitor Workspace."
+  returns:
+    description: "the dataCollectionEndpointResourceId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceDefaultIngestionSettings.dataCollectionRuleImmutableId()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceDefaultIngestionSettings.dataCollectionRuleImmutableId()"
+  name: "dataCollectionRuleImmutableId()"
+  nameWithType: "AzureMonitorWorkspaceDefaultIngestionSettings.dataCollectionRuleImmutableId()"
+  summary: "Get the data<wbr>Collection<wbr>Rule<wbr>Immutable<wbr>Id property: The immutable Id of the default data collection rule for this Azure Monitor Workspace."
+  syntax: "public String dataCollectionRuleImmutableId()"
+  desc: "Get the dataCollectionRuleImmutableId property: The immutable Id of the default data collection rule for this Azure Monitor Workspace."
+  returns:
+    description: "the dataCollectionRuleImmutableId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceDefaultIngestionSettings.dataCollectionRuleResourceId()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceDefaultIngestionSettings.dataCollectionRuleResourceId()"
+  name: "dataCollectionRuleResourceId()"
+  nameWithType: "AzureMonitorWorkspaceDefaultIngestionSettings.dataCollectionRuleResourceId()"
+  summary: "Get the data<wbr>Collection<wbr>Rule<wbr>Resource<wbr>Id property: The Azure resource Id of the default data collection rule for this Azure Monitor Workspace."
+  syntax: "public String dataCollectionRuleResourceId()"
+  desc: "Get the dataCollectionRuleResourceId property: The Azure resource Id of the default data collection rule for this Azure Monitor Workspace."
+  returns:
+    description: "the dataCollectionRuleResourceId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceDefaultIngestionSettings.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceDefaultIngestionSettings.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "AzureMonitorWorkspaceDefaultIngestionSettings.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Azure<wbr>Monitor<wbr>Workspace<wbr>Default<wbr>Ingestion<wbr>Settings from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static AzureMonitorWorkspaceDefaultIngestionSettings fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the AzureMonitorWorkspaceDefaultIngestionSettings."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of AzureMonitorWorkspaceDefaultIngestionSettings from the JsonReader."
+  returns:
+    description: "An instance of AzureMonitorWorkspaceDefaultIngestionSettings if the JsonReader was pointing to an\n instance of it, or null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceDefaultIngestionSettings?alt=com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceDefaultIngestionSettings&text=AzureMonitorWorkspaceDefaultIngestionSettings\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceDefaultIngestionSettings.ingestionEndpoints()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceDefaultIngestionSettings.ingestionEndpoints()"
+  name: "ingestionEndpoints()"
+  nameWithType: "AzureMonitorWorkspaceDefaultIngestionSettings.ingestionEndpoints()"
+  summary: "Get the ingestion<wbr>Endpoints property: The ingestion endpoints for this Azure Monitor Workspace."
+  syntax: "public IngestionEndpoints ingestionEndpoints()"
+  desc: "Get the ingestionEndpoints property: The ingestion endpoints for this Azure Monitor Workspace."
+  returns:
+    description: "the ingestionEndpoints value."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.IngestionEndpoints?alt=com.azure.resourcemanager.monitor.workspaces.models.IngestionEndpoints&text=IngestionEndpoints\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceDefaultIngestionSettings.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceDefaultIngestionSettings.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "AzureMonitorWorkspaceDefaultIngestionSettings.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The Data Collection Rule and Endpoint used for ingestion by default."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceDefaultIngestionSettings?alt=com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceDefaultIngestionSettings&text=AzureMonitorWorkspaceDefaultIngestionSettings\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.monitor.workspaces.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor-workspaces:1.0.0-beta.1

@@ -161,6 +161,16 @@ methods:
   returns:
     description: "the vmAttributes value."
     type: "<xref href=\"com.azure.resourcemanager.computefleet.models.VMAttributes?alt=com.azure.resourcemanager.computefleet.models.VMAttributes&text=VMAttributes\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.computefleet.models.FleetProperties.vmNamePrefix()"
+  fullName: "com.azure.resourcemanager.computefleet.models.FleetProperties.vmNamePrefix()"
+  name: "vmNamePrefix()"
+  nameWithType: "FleetProperties.vmNamePrefix()"
+  summary: "Get the vm<wbr>Name<wbr>Prefix property: Virtual<wbr>Machine prefix to be used for the virtual machines launched by Fleet."
+  syntax: "public String vmNamePrefix()"
+  desc: "Get the vmNamePrefix property: VirtualMachine prefix to be used for the virtual machines launched by Fleet. Can be used only with Launch mode."
+  returns:
+    description: "the vmNamePrefix value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.computefleet.models.FleetProperties.vmSizesProfile()"
   fullName: "com.azure.resourcemanager.computefleet.models.FleetProperties.vmSizesProfile()"
   name: "vmSizesProfile()"
@@ -269,6 +279,20 @@ methods:
   returns:
     description: "the FleetProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.computefleet.models.FleetProperties?alt=com.azure.resourcemanager.computefleet.models.FleetProperties&text=FleetProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.computefleet.models.FleetProperties.withVmNamePrefix(java.lang.String)"
+  fullName: "com.azure.resourcemanager.computefleet.models.FleetProperties.withVmNamePrefix(String vmNamePrefix)"
+  name: "withVmNamePrefix(String vmNamePrefix)"
+  nameWithType: "FleetProperties.withVmNamePrefix(String vmNamePrefix)"
+  summary: "Set the vm<wbr>Name<wbr>Prefix property: Virtual<wbr>Machine prefix to be used for the virtual machines launched by Fleet."
+  parameters:
+  - description: "the vmNamePrefix value to set."
+    name: "vmNamePrefix"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public FleetProperties withVmNamePrefix(String vmNamePrefix)"
+  desc: "Set the vmNamePrefix property: VirtualMachine prefix to be used for the virtual machines launched by Fleet. Can be used only with Launch mode."
+  returns:
+    description: "the FleetProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.computefleet.models.FleetProperties?alt=com.azure.resourcemanager.computefleet.models.FleetProperties&text=FleetProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.computefleet.models.FleetProperties.withVmSizesProfile(java.util.List<com.azure.resourcemanager.computefleet.models.VmSizeProfile>)"
   fullName: "com.azure.resourcemanager.computefleet.models.FleetProperties.withVmSizesProfile(List<VmSizeProfile> vmSizesProfile)"
   name: "withVmSizesProfile(List<VmSizeProfile> vmSizesProfile)"
@@ -313,4 +337,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.computefleet.models.FleetProperties?alt=com.azure.resourcemanager.computefleet.models.FleetProperties&text=FleetProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.computefleet.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-computefleet:1.1.0-beta.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-computefleet:1.1.0-beta.3

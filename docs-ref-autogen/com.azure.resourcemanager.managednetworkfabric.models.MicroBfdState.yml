@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState"
+name: "MicroBfdState"
+nameWithType: "MicroBfdState"
+summary: "Micro Bidirectional Forwarding Detection (BFD) enabled/disabled state."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **MicroBfdState**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState?alt=com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState&text=MicroBfdState\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState.MicroBfdState()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState.MicroBfdState()"
+  name: "MicroBfdState()"
+  nameWithType: "MicroBfdState.MicroBfdState()"
+  summary: "Creates a new instance of Micro<wbr>Bfd<wbr>State value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public MicroBfdState()"
+  desc: "Creates a new instance of MicroBfdState value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState.DISABLED"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState.DISABLED"
+  name: "DISABLED"
+  nameWithType: "MicroBfdState.DISABLED"
+  summary: "Micro<wbr>Bfd<wbr>State-Disabled."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState?alt=com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState&text=MicroBfdState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final MicroBfdState DISABLED"
+  desc: "MicroBfdState-Disabled."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState.ENABLED"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState.ENABLED"
+  name: "ENABLED"
+  nameWithType: "MicroBfdState.ENABLED"
+  summary: "Micro<wbr>Bfd<wbr>State-Enabled."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState?alt=com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState&text=MicroBfdState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final MicroBfdState ENABLED"
+  desc: "MicroBfdState-Enabled."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "MicroBfdState.fromString(String name)"
+  summary: "Creates or finds a Micro<wbr>Bfd<wbr>State from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static MicroBfdState fromString(String name)"
+  desc: "Creates or finds a MicroBfdState from its string representation."
+  returns:
+    description: "the corresponding MicroBfdState."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState?alt=com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState&text=MicroBfdState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState.values()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState.values()"
+  name: "values()"
+  nameWithType: "MicroBfdState.values()"
+  summary: "Gets known Micro<wbr>Bfd<wbr>State values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<MicroBfdState> values()"
+  desc: "Gets known MicroBfdState values."
+  returns:
+    description: "known MicroBfdState values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState?alt=com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState&text=MicroBfdState\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Micro Bidirectional Forwarding Detection (BFD) enabled/disabled state."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

@@ -4,7 +4,7 @@ fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBr
 name: "NetworkPacketBroker.DefinitionStages.WithCreate"
 nameWithType: "NetworkPacketBroker.DefinitionStages.WithCreate"
 summary: "The stage of the Network<wbr>Packet<wbr>Broker definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
-syntax: "public static interface **NetworkPacketBroker.DefinitionStages.WithCreate**</br> extends <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.DefinitionStages.WithTags?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.DefinitionStages.WithTags&text=WithTags\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public static interface **NetworkPacketBroker.DefinitionStages.WithCreate**</br> extends <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.DefinitionStages.WithTags?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.DefinitionStages.WithTags&text=WithTags\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.DefinitionStages.WithIdentity?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.DefinitionStages.WithIdentity&text=WithIdentity\" data-throw-if-not-resolved=\"False\" />"
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.DefinitionStages.WithCreate.create()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.DefinitionStages.WithCreate.create()"
@@ -37,7 +37,8 @@ methods:
 type: "interface"
 desc: "The stage of the NetworkPacketBroker definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
 implements:
+- "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.DefinitionStages.WithIdentity?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.DefinitionStages.WithIdentity&text=WithIdentity\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.DefinitionStages.WithTags?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.DefinitionStages.WithTags&text=WithTags\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

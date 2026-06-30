@@ -1,0 +1,32 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.monitor.workspaces.models.MetricsContainerResource.DefinitionStages.WithParentResource"
+fullName: "com.azure.resourcemanager.monitor.workspaces.models.MetricsContainerResource.DefinitionStages.WithParentResource"
+name: "MetricsContainerResource.DefinitionStages.WithParentResource"
+nameWithType: "MetricsContainerResource.DefinitionStages.WithParentResource"
+summary: "The stage of the Metrics<wbr>Container<wbr>Resource definition allowing to specify parent resource."
+syntax: "public static interface **MetricsContainerResource.DefinitionStages.WithParentResource**"
+methods:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.MetricsContainerResource.DefinitionStages.WithParentResource.withExistingAccount(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.MetricsContainerResource.DefinitionStages.WithParentResource.withExistingAccount(String resourceGroupName, String azureMonitorWorkspaceName)"
+  name: "withExistingAccount(String resourceGroupName, String azureMonitorWorkspaceName)"
+  nameWithType: "MetricsContainerResource.DefinitionStages.WithParentResource.withExistingAccount(String resourceGroupName, String azureMonitorWorkspaceName)"
+  summary: "Specifies resource<wbr>Group<wbr>Name, azure<wbr>Monitor<wbr>Workspace<wbr>Name."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the Azure Monitor Workspace. The name is case insensitive."
+    name: "azureMonitorWorkspaceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract MetricsContainerResource.DefinitionStages.WithCreate withExistingAccount(String resourceGroupName, String azureMonitorWorkspaceName)"
+  desc: "Specifies resourceGroupName, azureMonitorWorkspaceName."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.MetricsContainerResource.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.monitor.workspaces.models.MetricsContainerResource.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the MetricsContainerResource definition allowing to specify parent resource."
+metadata: {}
+package: "com.azure.resourcemanager.monitor.workspaces.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor-workspaces:1.0.0

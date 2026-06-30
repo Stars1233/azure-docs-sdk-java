@@ -153,6 +153,23 @@
         - com.azure.resourcemanager.arizeaiobservabilityeval.fluent
         - com.azure.resourcemanager.arizeaiobservabilityeval.fluent.models
         - com.azure.resourcemanager.arizeaiobservabilityeval.models
+  - name: Artifact Signing
+    href: ~/docs-ref-services/preview/artifact-signing.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Artifact Signing
+        href: ~/docs-ref-services/preview/resourcemanager-artifactsigning-readme.md
+        children:
+        - com.azure.resourcemanager.artifactsigning
+        - com.azure.resourcemanager.artifactsigning.fluent
+        - com.azure.resourcemanager.artifactsigning.fluent.models
+        - com.azure.resourcemanager.artifactsigning.models
+        - com.azure.resourcemanager.artifactsigning
+        - com.azure.resourcemanager.artifactsigning.fluent
+        - com.azure.resourcemanager.artifactsigning.fluent.models
+        - com.azure.resourcemanager.artifactsigning.models
   - name: Astro
     href: ~/docs-ref-services/preview/astro.md
     landingPageType: Service
@@ -367,6 +384,23 @@
         - com.azure.resourcemanager.carbonoptimization.fluent
         - com.azure.resourcemanager.carbonoptimization.fluent.models
         - com.azure.resourcemanager.carbonoptimization.models
+  - name: Chaos
+    href: ~/docs-ref-services/preview/chaos.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Chaos
+        href: ~/docs-ref-services/preview/resourcemanager-chaos-readme.md
+        children:
+        - com.azure.resourcemanager.chaos
+        - com.azure.resourcemanager.chaos.fluent
+        - com.azure.resourcemanager.chaos.fluent.models
+        - com.azure.resourcemanager.chaos.models
+        - com.azure.resourcemanager.chaos
+        - com.azure.resourcemanager.chaos.fluent
+        - com.azure.resourcemanager.chaos.fluent.models
+        - com.azure.resourcemanager.chaos.models
   - name: Cloud Health
     href: ~/docs-ref-services/preview/cloud-health.md
     landingPageType: Service
@@ -387,8 +421,6 @@
     - name: AI Agents
       href: ~/docs-ref-services/preview/ai-agents-readme.md
       children:
-      - com.azure.ai.agents
-      - com.azure.ai.agents.models
       - com.azure.ai.agents
       - com.azure.ai.agents.models
     - name: AI Agents Persistent
@@ -428,8 +460,6 @@
       children:
       - com.azure.ai.projects
       - com.azure.ai.projects.models
-      - com.azure.ai.projects
-      - com.azure.ai.projects.models
     - name: Document Translation
       href: ~/docs-ref-services/preview/ai-translation-document-readme.md
       children:
@@ -438,8 +468,6 @@
     - name: Text Translation
       href: ~/docs-ref-services/preview/ai-translation-text-readme.md
       children:
-      - com.azure.ai.translation.text
-      - com.azure.ai.translation.text.models
       - com.azure.ai.translation.text
       - com.azure.ai.translation.text.models
     - name: Face
@@ -456,6 +484,8 @@
     - name: Voice Live
       href: ~/docs-ref-services/preview/ai-voicelive-readme.md
       children:
+      - com.azure.ai.voicelive
+      - com.azure.ai.voicelive.models
       - com.azure.ai.voicelive
       - com.azure.ai.voicelive.models
     - name: Health Insights Cancer Profiling
@@ -1387,7 +1417,6 @@
     - name: System Events
       href: ~/docs-ref-services/preview/messaging-eventgrid-systemevents-readme.md
       children:
-      - com.azure.messaging.eventgrid
       - com.azure.messaging.eventgrid.systemevents
       - com.azure.messaging.eventgrid.systemevents.models
     - name: Management
@@ -1591,6 +1620,19 @@
         - com.azure.resourcemanager.healthcareapis.fluent
         - com.azure.resourcemanager.healthcareapis.fluent.models
         - com.azure.resourcemanager.healthcareapis.models
+  - name: Horizondb
+    href: ~/docs-ref-services/preview/horizondb.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Horizondb
+        href: ~/docs-ref-services/preview/resourcemanager-horizondb-readme.md
+        children:
+        - com.azure.resourcemanager.horizondb
+        - com.azure.resourcemanager.horizondb.fluent
+        - com.azure.resourcemanager.horizondb.fluent.models
+        - com.azure.resourcemanager.horizondb.models
   - name: Hybrid Compute
     href: ~/docs-ref-services/preview/hybrid-compute.md
     landingPageType: Service
@@ -1895,8 +1937,6 @@
       children:
       - com.azure.security.keyvault.secrets
       - com.azure.security.keyvault.secrets.models
-      - com.azure.security.keyvault.secrets
-      - com.azure.security.keyvault.secrets.models
   - name: Kubernetes Configuration
     href: ~/docs-ref-services/preview/kubernetes-configuration.md
     landingPageType: Service
@@ -2094,6 +2134,10 @@
         - com.azure.resourcemanager.msi.fluent
         - com.azure.resourcemanager.msi.fluent.models
         - com.azure.resourcemanager.msi.models
+        - com.azure.resourcemanager.msi
+        - com.azure.resourcemanager.msi.fluent
+        - com.azure.resourcemanager.msi.fluent.models
+        - com.azure.resourcemanager.msi.models
   - name: Management Groups
     href: ~/docs-ref-services/preview/management-groups.md
     landingPageType: Service
@@ -2244,6 +2288,10 @@
         - com.azure.resourcemanager.mongocluster.fluent
         - com.azure.resourcemanager.mongocluster.fluent.models
         - com.azure.resourcemanager.mongocluster.models
+        - com.azure.resourcemanager.mongocluster
+        - com.azure.resourcemanager.mongocluster.fluent
+        - com.azure.resourcemanager.mongocluster.fluent.models
+        - com.azure.resourcemanager.mongocluster.models
   - name: Mongodbatlas
     href: ~/docs-ref-services/preview/mongodbatlas.md
     landingPageType: Service
@@ -2300,6 +2348,19 @@
         - com.azure.resourcemanager.monitor.slis.fluent
         - com.azure.resourcemanager.monitor.slis.fluent.models
         - com.azure.resourcemanager.monitor.slis.models
+  - name: Monitor-Workspaces
+    href: ~/docs-ref-services/preview/monitor-workspaces.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Monitor-Workspaces
+        href: ~/docs-ref-services/preview/resourcemanager-monitor-workspaces-readme.md
+        children:
+        - com.azure.resourcemanager.monitor.workspaces
+        - com.azure.resourcemanager.monitor.workspaces.fluent
+        - com.azure.resourcemanager.monitor.workspaces.fluent.models
+        - com.azure.resourcemanager.monitor.workspaces.models
   - name: MySQL
     href: ~/docs-ref-services/preview/mysql.md
     landingPageType: Service
@@ -2313,6 +2374,19 @@
         - com.azure.resourcemanager.mysqlflexibleserver.fluent
         - com.azure.resourcemanager.mysqlflexibleserver.fluent.models
         - com.azure.resourcemanager.mysqlflexibleserver.models
+  - name: Napsteromniagentapi
+    href: ~/docs-ref-services/preview/napsteromniagentapi.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Napsteromniagentapi
+        href: ~/docs-ref-services/preview/resourcemanager-napsteromniagentapi-readme.md
+        children:
+        - com.azure.resourcemanager.napsteromniagentapi
+        - com.azure.resourcemanager.napsteromniagentapi.fluent
+        - com.azure.resourcemanager.napsteromniagentapi.fluent.models
+        - com.azure.resourcemanager.napsteromniagentapi.models
   - name: Neon Postgres
     href: ~/docs-ref-services/preview/neon-postgres.md
     landingPageType: Service
@@ -2785,6 +2859,19 @@
         - com.azure.resourcemanager.reservations.fluent
         - com.azure.resourcemanager.reservations.fluent.models
         - com.azure.resourcemanager.reservations.models
+  - name: Resiliencemanagement
+    href: ~/docs-ref-services/preview/resiliencemanagement.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resiliencemanagement
+        href: ~/docs-ref-services/preview/resourcemanager-resiliencemanagement-readme.md
+        children:
+        - com.azure.resourcemanager.resiliencemanagement
+        - com.azure.resourcemanager.resiliencemanagement.fluent
+        - com.azure.resourcemanager.resiliencemanagement.fluent.models
+        - com.azure.resourcemanager.resiliencemanagement.models
   - name: Resource Connector
     href: ~/docs-ref-services/preview/resource-connector.md
     landingPageType: Service
@@ -2874,6 +2961,12 @@
     - name: Azure AI Search
       href: ~/docs-ref-services/preview/search-documents-readme.md
       children:
+      - com.azure.search.documents
+      - com.azure.search.documents.indexes
+      - com.azure.search.documents.indexes.models
+      - com.azure.search.documents.knowledgebases
+      - com.azure.search.documents.knowledgebases.models
+      - com.azure.search.documents.models
       - com.azure.search.documents
       - com.azure.search.documents.indexes
       - com.azure.search.documents.indexes.models
@@ -2990,6 +3083,10 @@
       - name: Resource Management - Service Fabric
         href: ~/docs-ref-services/preview/resourcemanager-servicefabric-readme.md
         children:
+        - com.azure.resourcemanager.servicefabric
+        - com.azure.resourcemanager.servicefabric.fluent
+        - com.azure.resourcemanager.servicefabric.fluent.models
+        - com.azure.resourcemanager.servicefabric.models
         - com.azure.resourcemanager.servicefabric
         - com.azure.resourcemanager.servicefabric.fluent
         - com.azure.resourcemanager.servicefabric.fluent.models
@@ -3140,16 +3237,9 @@
       - com.azure.storage.blob.options
       - com.azure.storage.blob.sas
       - com.azure.storage.blob.specialized
-      - com.azure.storage.blob
-      - com.azure.storage.blob.models
-      - com.azure.storage.blob.options
-      - com.azure.storage.blob.sas
-      - com.azure.storage.blob.specialized
     - name: Storage - Blobs Batch
       href: ~/docs-ref-services/preview/storage-blob-batch-readme.md
       children:
-      - com.azure.storage.blob.batch
-      - com.azure.storage.blob.batch.options
       - com.azure.storage.blob.batch
       - com.azure.storage.blob.batch.options
     - name: Storage - Blobs Changefeed
@@ -3160,7 +3250,6 @@
     - name: Storage - Blobs Cryptography
       href: ~/docs-ref-services/preview/storage-blob-cryptography-readme.md
       children:
-      - com.azure.storage.blob.specialized.cryptography
       - com.azure.storage.blob.specialized.cryptography
     - name: Storage - Blobs NIO
       href: ~/docs-ref-services/preview/storage-blob-nio-readme.md
@@ -3174,11 +3263,6 @@
       - com.azure.storage.file.datalake.options
       - com.azure.storage.file.datalake.sas
       - com.azure.storage.file.datalake.specialized
-      - com.azure.storage.file.datalake
-      - com.azure.storage.file.datalake.models
-      - com.azure.storage.file.datalake.options
-      - com.azure.storage.file.datalake.sas
-      - com.azure.storage.file.datalake.specialized
     - name: Storage - Files Share
       href: ~/docs-ref-services/preview/storage-file-share-readme.md
       children:
@@ -3187,17 +3271,9 @@
       - com.azure.storage.file.share.options
       - com.azure.storage.file.share.sas
       - com.azure.storage.file.share.specialized
-      - com.azure.storage.file.share
-      - com.azure.storage.file.share.models
-      - com.azure.storage.file.share.options
-      - com.azure.storage.file.share.sas
-      - com.azure.storage.file.share.specialized
     - name: Storage - Queues
       href: ~/docs-ref-services/preview/storage-queue-readme.md
       children:
-      - com.azure.storage.queue
-      - com.azure.storage.queue.models
-      - com.azure.storage.queue.sas
       - com.azure.storage.queue
       - com.azure.storage.queue.models
       - com.azure.storage.queue.sas
@@ -3376,6 +3452,10 @@
       - name: Resource Management - Traffic Manager
         href: ~/docs-ref-services/preview/resourcemanager-trafficmanager-readme.md
         children:
+        - com.azure.resourcemanager.trafficmanager
+        - com.azure.resourcemanager.trafficmanager.fluent
+        - com.azure.resourcemanager.trafficmanager.fluent.models
+        - com.azure.resourcemanager.trafficmanager.models
         - com.azure.resourcemanager.trafficmanager
         - com.azure.resourcemanager.trafficmanager.fluent
         - com.azure.resourcemanager.trafficmanager.fluent.models

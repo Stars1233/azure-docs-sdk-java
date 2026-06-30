@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.UpdateStages.WithExportPolicyConfiguration"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.UpdateStages.WithExportPolicyConfiguration"
+name: "L3IsolationDomain.UpdateStages.WithExportPolicyConfiguration"
+nameWithType: "L3IsolationDomain.UpdateStages.WithExportPolicyConfiguration"
+summary: "The stage of the L3Isolation<wbr>Domain update allowing to specify export<wbr>Policy<wbr>Configuration."
+syntax: "public static interface **L3IsolationDomain.UpdateStages.WithExportPolicyConfiguration**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.UpdateStages.WithExportPolicyConfiguration.withExportPolicyConfiguration(com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.UpdateStages.WithExportPolicyConfiguration.withExportPolicyConfiguration(BmpExportPolicyPatchProperties exportPolicyConfiguration)"
+  name: "withExportPolicyConfiguration(BmpExportPolicyPatchProperties exportPolicyConfiguration)"
+  nameWithType: "L3IsolationDomain.UpdateStages.WithExportPolicyConfiguration.withExportPolicyConfiguration(BmpExportPolicyPatchProperties exportPolicyConfiguration)"
+  summary: "Specifies the export<wbr>Policy<wbr>Configuration property: BMP Export Policy configuration.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "BMP Export Policy configuration."
+    name: "exportPolicyConfiguration"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.BmpExportPolicyPatchProperties&text=BmpExportPolicyPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract L3IsolationDomain.Update withExportPolicyConfiguration(BmpExportPolicyPatchProperties exportPolicyConfiguration)"
+  desc: "Specifies the exportPolicyConfiguration property: BMP Export Policy configuration.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.Update?alt=com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the L3IsolationDomain update allowing to specify exportPolicyConfiguration."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

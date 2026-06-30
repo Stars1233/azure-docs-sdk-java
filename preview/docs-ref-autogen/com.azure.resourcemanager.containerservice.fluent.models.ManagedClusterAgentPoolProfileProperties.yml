@@ -323,9 +323,9 @@ methods:
   fullName: "com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterAgentPoolProfileProperties.nodeImageVersion()"
   name: "nodeImageVersion()"
   nameWithType: "ManagedClusterAgentPoolProfileProperties.nodeImageVersion()"
-  summary: "Get the node<wbr>Image<wbr>Version property: The version of node image."
+  summary: "Get the node<wbr>Image<wbr>Version property: The version of the node image."
   syntax: "public String nodeImageVersion()"
-  desc: "Get the nodeImageVersion property: The version of node image."
+  desc: "Get the nodeImageVersion property: The version of the node image. Setting this value triggers an agentPool rollback. Only values from \\`recentlyUsedVersions\\` are allowed."
   returns:
     description: "the nodeImageVersion value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -1012,13 +1012,13 @@ methods:
   fullName: "com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterAgentPoolProfileProperties.withNodeImageVersion(String nodeImageVersion)"
   name: "withNodeImageVersion(String nodeImageVersion)"
   nameWithType: "ManagedClusterAgentPoolProfileProperties.withNodeImageVersion(String nodeImageVersion)"
-  summary: "Set the node<wbr>Image<wbr>Version property: The version of node image."
+  summary: "Set the node<wbr>Image<wbr>Version property: The version of the node image."
   parameters:
   - description: "the nodeImageVersion value to set."
     name: "nodeImageVersion"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public ManagedClusterAgentPoolProfileProperties withNodeImageVersion(String nodeImageVersion)"
-  desc: "Set the nodeImageVersion property: The version of node image."
+  desc: "Set the nodeImageVersion property: The version of the node image. Setting this value triggers an agentPool rollback. Only values from \\`recentlyUsedVersions\\` are allowed."
   returns:
     description: "the ManagedClusterAgentPoolProfileProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterAgentPoolProfileProperties?alt=com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterAgentPoolProfileProperties&text=ManagedClusterAgentPoolProfileProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -1472,4 +1472,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterAgentPoolProfileProperties?alt=com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterAgentPoolProfileProperties&text=ManagedClusterAgentPoolProfileProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.containerservice.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.61.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.62.0-beta.1

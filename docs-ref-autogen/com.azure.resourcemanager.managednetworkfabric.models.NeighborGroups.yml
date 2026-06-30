@@ -26,7 +26,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.delete(String resourceGroupName, String neighborGroupName, Context context)"
   name: "delete(String resourceGroupName, String neighborGroupName, Context context)"
   nameWithType: "NeighborGroups.delete(String resourceGroupName, String neighborGroupName, Context context)"
-  summary: "Deletes a Neighbor Group."
+  summary: "Implements Neighbor Group DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -40,12 +40,12 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void delete(String resourceGroupName, String neighborGroupName, Context context)"
-  desc: "Deletes a Neighbor Group. Implements Neighbor Group DELETE method."
+  desc: "Implements Neighbor Group DELETE method."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.deleteById(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.deleteById(String id)"
   name: "deleteById(String id)"
   nameWithType: "NeighborGroups.deleteById(String id)"
-  summary: "Deletes a Neighbor Group."
+  summary: "Implements Neighbor Group DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -53,12 +53,12 @@ methods:
     name: "id"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void deleteById(String id)"
-  desc: "Deletes a Neighbor Group. Implements Neighbor Group DELETE method."
+  desc: "Implements Neighbor Group DELETE method."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.deleteByIdWithResponse(java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.deleteByIdWithResponse(String id, Context context)"
   name: "deleteByIdWithResponse(String id, Context context)"
   nameWithType: "NeighborGroups.deleteByIdWithResponse(String id, Context context)"
-  summary: "Deletes a Neighbor Group."
+  summary: "Implements Neighbor Group DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -69,12 +69,12 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void deleteByIdWithResponse(String id, Context context)"
-  desc: "Deletes a Neighbor Group. Implements Neighbor Group DELETE method."
+  desc: "Implements Neighbor Group DELETE method."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.deleteByResourceGroup(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.deleteByResourceGroup(String resourceGroupName, String neighborGroupName)"
   name: "deleteByResourceGroup(String resourceGroupName, String neighborGroupName)"
   nameWithType: "NeighborGroups.deleteByResourceGroup(String resourceGroupName, String neighborGroupName)"
-  summary: "Deletes a Neighbor Group."
+  summary: "Implements Neighbor Group DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -85,12 +85,12 @@ methods:
     name: "neighborGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void deleteByResourceGroup(String resourceGroupName, String neighborGroupName)"
-  desc: "Deletes a Neighbor Group. Implements Neighbor Group DELETE method."
+  desc: "Implements Neighbor Group DELETE method."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.getById(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.getById(String id)"
   name: "getById(String id)"
   nameWithType: "NeighborGroups.getById(String id)"
-  summary: "Retrieves details of neighbor Group using GET method."
+  summary: "Gets the Neighbor Group."
   modifiers:
   - "abstract"
   parameters:
@@ -98,7 +98,7 @@ methods:
     name: "id"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract NeighborGroup getById(String id)"
-  desc: "Retrieves details of neighbor Group using GET method. Gets the Neighbor Group."
+  desc: "Gets the Neighbor Group."
   returns:
     description: "the Neighbor Group along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup?alt=com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup&text=NeighborGroup\" data-throw-if-not-resolved=\"False\" />"
@@ -106,7 +106,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.getByIdWithResponse(String id, Context context)"
   name: "getByIdWithResponse(String id, Context context)"
   nameWithType: "NeighborGroups.getByIdWithResponse(String id, Context context)"
-  summary: "Retrieves details of neighbor Group using GET method."
+  summary: "Gets the Neighbor Group."
   modifiers:
   - "abstract"
   parameters:
@@ -117,7 +117,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<NeighborGroup> getByIdWithResponse(String id, Context context)"
-  desc: "Retrieves details of neighbor Group using GET method. Gets the Neighbor Group."
+  desc: "Gets the Neighbor Group."
   returns:
     description: "the Neighbor Group along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup?alt=com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup&text=NeighborGroup\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -125,7 +125,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.getByResourceGroup(String resourceGroupName, String neighborGroupName)"
   name: "getByResourceGroup(String resourceGroupName, String neighborGroupName)"
   nameWithType: "NeighborGroups.getByResourceGroup(String resourceGroupName, String neighborGroupName)"
-  summary: "Retrieves details of neighbor Group using GET method."
+  summary: "Gets the Neighbor Group."
   modifiers:
   - "abstract"
   parameters:
@@ -136,7 +136,7 @@ methods:
     name: "neighborGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract NeighborGroup getByResourceGroup(String resourceGroupName, String neighborGroupName)"
-  desc: "Retrieves details of neighbor Group using GET method. Gets the Neighbor Group."
+  desc: "Gets the Neighbor Group."
   returns:
     description: "the Neighbor Group."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup?alt=com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup&text=NeighborGroup\" data-throw-if-not-resolved=\"False\" />"
@@ -144,7 +144,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.getByResourceGroupWithResponse(String resourceGroupName, String neighborGroupName, Context context)"
   name: "getByResourceGroupWithResponse(String resourceGroupName, String neighborGroupName, Context context)"
   nameWithType: "NeighborGroups.getByResourceGroupWithResponse(String resourceGroupName, String neighborGroupName, Context context)"
-  summary: "Retrieves details of neighbor Group using GET method."
+  summary: "Gets the Neighbor Group."
   modifiers:
   - "abstract"
   parameters:
@@ -158,7 +158,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<NeighborGroup> getByResourceGroupWithResponse(String resourceGroupName, String neighborGroupName, Context context)"
-  desc: "Retrieves details of neighbor Group using GET method. Gets the Neighbor Group."
+  desc: "Gets the Neighbor Group."
   returns:
     description: "the Neighbor Group along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup?alt=com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup&text=NeighborGroup\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -166,19 +166,19 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.list()"
   name: "list()"
   nameWithType: "NeighborGroups.list()"
-  summary: "List Neighbor Groups by subscription."
+  summary: "Displays Neighbor<wbr>Groups list by subscription GET method."
   modifiers:
   - "abstract"
   syntax: "public abstract PagedIterable<NeighborGroup> list()"
-  desc: "List Neighbor Groups by subscription. Displays NeighborGroups list by subscription GET method."
+  desc: "Displays NeighborGroups list by subscription GET method."
   returns:
-    description: "list of Neighbor Group as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NeighborGroup items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup?alt=com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup&text=NeighborGroup\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.list(com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.list(Context context)"
   name: "list(Context context)"
   nameWithType: "NeighborGroups.list(Context context)"
-  summary: "List Neighbor Groups by subscription."
+  summary: "Displays Neighbor<wbr>Groups list by subscription GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -186,15 +186,15 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<NeighborGroup> list(Context context)"
-  desc: "List Neighbor Groups by subscription. Displays NeighborGroups list by subscription GET method."
+  desc: "Displays NeighborGroups list by subscription GET method."
   returns:
-    description: "list of Neighbor Group as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NeighborGroup items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup?alt=com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup&text=NeighborGroup\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.listByResourceGroup(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.listByResourceGroup(String resourceGroupName)"
   name: "listByResourceGroup(String resourceGroupName)"
   nameWithType: "NeighborGroups.listByResourceGroup(String resourceGroupName)"
-  summary: "List Neighbor Groups by resource group."
+  summary: "Displays Neighbor<wbr>Groups list by resource group GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -202,15 +202,15 @@ methods:
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<NeighborGroup> listByResourceGroup(String resourceGroupName)"
-  desc: "List Neighbor Groups by resource group. Displays NeighborGroups list by resource group GET method."
+  desc: "Displays NeighborGroups list by resource group GET method."
   returns:
-    description: "list of Neighbor Group as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NeighborGroup items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup?alt=com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup&text=NeighborGroup\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.listByResourceGroup(String resourceGroupName, Context context)"
   name: "listByResourceGroup(String resourceGroupName, Context context)"
   nameWithType: "NeighborGroups.listByResourceGroup(String resourceGroupName, Context context)"
-  summary: "List Neighbor Groups by resource group."
+  summary: "Displays Neighbor<wbr>Groups list by resource group GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -221,12 +221,53 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<NeighborGroup> listByResourceGroup(String resourceGroupName, Context context)"
-  desc: "List Neighbor Groups by resource group. Displays NeighborGroups list by resource group GET method."
+  desc: "Displays NeighborGroups list by resource group GET method."
   returns:
-    description: "list of Neighbor Group as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NeighborGroup items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup?alt=com.azure.resourcemanager.managednetworkfabric.models.NeighborGroup&text=NeighborGroup\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.resync(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.resync(String resourceGroupName, String neighborGroupName)"
+  name: "resync(String resourceGroupName, String neighborGroupName)"
+  nameWithType: "NeighborGroups.resync(String resourceGroupName, String neighborGroupName)"
+  summary: "Resync the Neighbor Group after a configuration change."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "Name of the Neighbor Group."
+    name: "neighborGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract NeighborGroupResyncResponse resync(String resourceGroupName, String neighborGroupName)"
+  desc: "Resync the Neighbor Group after a configuration change."
+  returns:
+    description: "response for Neighbor Group Resync operation."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NeighborGroupResyncResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.NeighborGroupResyncResponse&text=NeighborGroupResyncResponse\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.resync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NeighborGroups.resync(String resourceGroupName, String neighborGroupName, Context context)"
+  name: "resync(String resourceGroupName, String neighborGroupName, Context context)"
+  nameWithType: "NeighborGroups.resync(String resourceGroupName, String neighborGroupName, Context context)"
+  summary: "Resync the Neighbor Group after a configuration change."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "Name of the Neighbor Group."
+    name: "neighborGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NeighborGroupResyncResponse resync(String resourceGroupName, String neighborGroupName, Context context)"
+  desc: "Resync the Neighbor Group after a configuration change."
+  returns:
+    description: "response for Neighbor Group Resync operation."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NeighborGroupResyncResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.NeighborGroupResyncResponse&text=NeighborGroupResyncResponse\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "Resource collection API of NeighborGroups."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ParametersValueFileInfo**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.devtestlabs.models.ParametersValueFileInfo?alt=com.azure.resourcemanager.devtestlabs.models.ParametersValueFileInfo&text=ParametersValueFileInfo\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.devtestlabs.models.ParametersValueFileInfo.ParametersValueFileInfo()"
-  fullName: "com.azure.resourcemanager.devtestlabs.models.ParametersValueFileInfo.ParametersValueFileInfo()"
-  name: "ParametersValueFileInfo()"
-  nameWithType: "ParametersValueFileInfo.ParametersValueFileInfo()"
-  summary: "Creates an instance of Parameters<wbr>Value<wbr>File<wbr>Info class."
-  syntax: "public ParametersValueFileInfo()"
-  desc: "Creates an instance of ParametersValueFileInfo class."
 methods:
 - uid: "com.azure.resourcemanager.devtestlabs.models.ParametersValueFileInfo.fileName()"
   fullName: "com.azure.resourcemanager.devtestlabs.models.ParametersValueFileInfo.fileName()"
@@ -81,45 +73,10 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.devtestlabs.models.ParametersValueFileInfo.validate()"
-  fullName: "com.azure.resourcemanager.devtestlabs.models.ParametersValueFileInfo.validate()"
-  name: "validate()"
-  nameWithType: "ParametersValueFileInfo.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.devtestlabs.models.ParametersValueFileInfo.withFileName(java.lang.String)"
-  fullName: "com.azure.resourcemanager.devtestlabs.models.ParametersValueFileInfo.withFileName(String fileName)"
-  name: "withFileName(String fileName)"
-  nameWithType: "ParametersValueFileInfo.withFileName(String fileName)"
-  summary: "Set the file<wbr>Name property: File name."
-  parameters:
-  - description: "the fileName value to set."
-    name: "fileName"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ParametersValueFileInfo withFileName(String fileName)"
-  desc: "Set the fileName property: File name."
-  returns:
-    description: "the ParametersValueFileInfo object itself."
-    type: "<xref href=\"com.azure.resourcemanager.devtestlabs.models.ParametersValueFileInfo?alt=com.azure.resourcemanager.devtestlabs.models.ParametersValueFileInfo&text=ParametersValueFileInfo\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.devtestlabs.models.ParametersValueFileInfo.withParametersValueInfo(java.lang.Object)"
-  fullName: "com.azure.resourcemanager.devtestlabs.models.ParametersValueFileInfo.withParametersValueInfo(Object parametersValueInfo)"
-  name: "withParametersValueInfo(Object parametersValueInfo)"
-  nameWithType: "ParametersValueFileInfo.withParametersValueInfo(Object parametersValueInfo)"
-  summary: "Set the parameters<wbr>Value<wbr>Info property: Contents of the file."
-  parameters:
-  - description: "the parametersValueInfo value to set."
-    name: "parametersValueInfo"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
-  syntax: "public ParametersValueFileInfo withParametersValueInfo(Object parametersValueInfo)"
-  desc: "Set the parametersValueInfo property: Contents of the file."
-  returns:
-    description: "the ParametersValueFileInfo object itself."
-    type: "<xref href=\"com.azure.resourcemanager.devtestlabs.models.ParametersValueFileInfo?alt=com.azure.resourcemanager.devtestlabs.models.ParametersValueFileInfo&text=ParametersValueFileInfo\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "A file containing a set of parameter values for an ARM template."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.devtestlabs.models.ParametersValueFileInfo?alt=com.azure.resourcemanager.devtestlabs.models.ParametersValueFileInfo&text=ParametersValueFileInfo\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.devtestlabs.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-devtestlabs:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-devtestlabs:1.2.0

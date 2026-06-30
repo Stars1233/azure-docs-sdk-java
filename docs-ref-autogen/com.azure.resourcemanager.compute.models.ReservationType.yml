@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.compute.models.ReservationType.BLOCK"
   name: "BLOCK"
   nameWithType: "ReservationType.BLOCK"
-  summary: "Static value Block for Reservation<wbr>Type."
+  summary: "To consume scheduled allocated block capacity reservation when a capacity reservation group is provided."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.ReservationType?alt=com.azure.resourcemanager.compute.models.ReservationType&text=ReservationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ReservationType BLOCK"
-  desc: "Static value Block for ReservationType."
+  desc: "To consume scheduled allocated block capacity reservation when a capacity reservation group is provided."
 - uid: "com.azure.resourcemanager.compute.models.ReservationType.TARGETED"
   fullName: "com.azure.resourcemanager.compute.models.ReservationType.TARGETED"
   name: "TARGETED"
   nameWithType: "ReservationType.TARGETED"
-  summary: "Static value Targeted for Reservation<wbr>Type."
+  summary: "To consume on demand allocated capacity reservation when a capacity reservation group is provided."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.ReservationType?alt=com.azure.resourcemanager.compute.models.ReservationType&text=ReservationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ReservationType TARGETED"
-  desc: "Static value Targeted for ReservationType."
+  desc: "To consume on demand allocated capacity reservation when a capacity reservation group is provided."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.ReservationType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.models.ReservationType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Indicates the type of capacity reservation. Allowed values are 'Block' for block capacity reservations and 'Targeted' for reservations that enable a VM to consume a specific capacity reservation when a capacity reservation group is provided. The reservation type is immutable and cannot be changed after it is assigned."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

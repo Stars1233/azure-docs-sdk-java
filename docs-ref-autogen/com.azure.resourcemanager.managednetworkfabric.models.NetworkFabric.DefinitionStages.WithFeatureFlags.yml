@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithFeatureFlags"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithFeatureFlags"
+name: "NetworkFabric.DefinitionStages.WithFeatureFlags"
+nameWithType: "NetworkFabric.DefinitionStages.WithFeatureFlags"
+summary: "The stage of the Network<wbr>Fabric definition allowing to specify feature<wbr>Flags."
+syntax: "public static interface **NetworkFabric.DefinitionStages.WithFeatureFlags**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithFeatureFlags.withFeatureFlags(java.util.List<com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties>)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithFeatureFlags.withFeatureFlags(List<FeatureFlagProperties> featureFlags)"
+  name: "withFeatureFlags(List<FeatureFlagProperties> featureFlags)"
+  nameWithType: "NetworkFabric.DefinitionStages.WithFeatureFlags.withFeatureFlags(List<FeatureFlagProperties> featureFlags)"
+  summary: "Specifies the feature<wbr>Flags property: Network<wbr>Fabric feature flag configuration information."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "NetworkFabric feature flag configuration information."
+    name: "featureFlags"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties&text=FeatureFlagProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract NetworkFabric.DefinitionStages.WithCreate withFeatureFlags(List<FeatureFlagProperties> featureFlags)"
+  desc: "Specifies the featureFlags property: NetworkFabric feature flag configuration information."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkFabric definition allowing to specify featureFlags."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.servicefabric.models.ServiceResource.UpdateStages.WithSystemData"
+fullName: "com.azure.resourcemanager.servicefabric.models.ServiceResource.UpdateStages.WithSystemData"
+name: "ServiceResource.UpdateStages.WithSystemData"
+nameWithType: "ServiceResource.UpdateStages.WithSystemData"
+summary: "The stage of the Service<wbr>Resource update allowing to specify system<wbr>Data."
+syntax: "public static interface **ServiceResource.UpdateStages.WithSystemData**"
+methods:
+- uid: "com.azure.resourcemanager.servicefabric.models.ServiceResource.UpdateStages.WithSystemData.withSystemData(com.azure.core.management.SystemData)"
+  fullName: "com.azure.resourcemanager.servicefabric.models.ServiceResource.UpdateStages.WithSystemData.withSystemData(SystemData systemData)"
+  name: "withSystemData(SystemData systemData)"
+  nameWithType: "ServiceResource.UpdateStages.WithSystemData.withSystemData(SystemData systemData)"
+  summary: "Specifies the system<wbr>Data property: Metadata pertaining to creation and last modification of the resource.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Metadata pertaining to creation and last modification of the resource."
+    name: "systemData"
+    type: "<xref href=\"com.azure.core.management.SystemData?alt=com.azure.core.management.SystemData&text=SystemData\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ServiceResource.Update withSystemData(SystemData systemData)"
+  desc: "Specifies the systemData property: Metadata pertaining to creation and last modification of the resource.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResource.Update?alt=com.azure.resourcemanager.servicefabric.models.ServiceResource.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the ServiceResource update allowing to specify systemData."
+metadata: {}
+package: "com.azure.resourcemanager.servicefabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

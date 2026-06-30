@@ -10,7 +10,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.beginCreate(String resourceGroupName, String ipCommunityName, IpCommunityInner body)"
   name: "beginCreate(String resourceGroupName, String ipCommunityName, IpCommunityInner body)"
   nameWithType: "IpCommunitiesClient.beginCreate(String resourceGroupName, String ipCommunityName, IpCommunityInner body)"
-  summary: "Create an IP Community."
+  summary: "Implements an IP Community PUT method."
   modifiers:
   - "abstract"
   parameters:
@@ -24,7 +24,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner&text=IpCommunityInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<IpCommunityInner>,IpCommunityInner> beginCreate(String resourceGroupName, String ipCommunityName, IpCommunityInner body)"
-  desc: "Create an IP Community. Implements an IP Community PUT method."
+  desc: "Implements an IP Community PUT method."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the IP Community resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner&text=IpCommunityInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner&text=IpCommunityInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -32,7 +32,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.beginCreate(String resourceGroupName, String ipCommunityName, IpCommunityInner body, Context context)"
   name: "beginCreate(String resourceGroupName, String ipCommunityName, IpCommunityInner body, Context context)"
   nameWithType: "IpCommunitiesClient.beginCreate(String resourceGroupName, String ipCommunityName, IpCommunityInner body, Context context)"
-  summary: "Create an IP Community."
+  summary: "Implements an IP Community PUT method."
   modifiers:
   - "abstract"
   parameters:
@@ -49,7 +49,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<IpCommunityInner>,IpCommunityInner> beginCreate(String resourceGroupName, String ipCommunityName, IpCommunityInner body, Context context)"
-  desc: "Create an IP Community. Implements an IP Community PUT method."
+  desc: "Implements an IP Community PUT method."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the IP Community resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner&text=IpCommunityInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner&text=IpCommunityInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -57,7 +57,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.beginDelete(String resourceGroupName, String ipCommunityName)"
   name: "beginDelete(String resourceGroupName, String ipCommunityName)"
   nameWithType: "IpCommunitiesClient.beginDelete(String resourceGroupName, String ipCommunityName)"
-  summary: "Deletes an IP Community."
+  summary: "Implements IP Community DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -68,7 +68,7 @@ methods:
     name: "ipCommunityName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDelete(String resourceGroupName, String ipCommunityName)"
-  desc: "Deletes an IP Community. Implements IP Community DELETE method."
+  desc: "Implements IP Community DELETE method."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
@@ -76,7 +76,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.beginDelete(String resourceGroupName, String ipCommunityName, Context context)"
   name: "beginDelete(String resourceGroupName, String ipCommunityName, Context context)"
   nameWithType: "IpCommunitiesClient.beginDelete(String resourceGroupName, String ipCommunityName, Context context)"
-  summary: "Deletes an IP Community."
+  summary: "Implements IP Community DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -90,7 +90,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDelete(String resourceGroupName, String ipCommunityName, Context context)"
-  desc: "Deletes an IP Community. Implements IP Community DELETE method."
+  desc: "Implements IP Community DELETE method."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
@@ -98,7 +98,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.beginUpdate(String resourceGroupName, String ipCommunityName, IpCommunityPatch body)"
   name: "beginUpdate(String resourceGroupName, String ipCommunityName, IpCommunityPatch body)"
   nameWithType: "IpCommunitiesClient.beginUpdate(String resourceGroupName, String ipCommunityName, IpCommunityPatch body)"
-  summary: "Updates an IP Community."
+  summary: "API to update certain properties of the IP Community resource."
   modifiers:
   - "abstract"
   parameters:
@@ -112,7 +112,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpCommunityPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.IpCommunityPatch&text=IpCommunityPatch\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<IpCommunityInner>,IpCommunityInner> beginUpdate(String resourceGroupName, String ipCommunityName, IpCommunityPatch body)"
-  desc: "Updates an IP Community. API to update certain properties of the IP Community resource."
+  desc: "API to update certain properties of the IP Community resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the IP Community resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner&text=IpCommunityInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner&text=IpCommunityInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -120,7 +120,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.beginUpdate(String resourceGroupName, String ipCommunityName, IpCommunityPatch body, Context context)"
   name: "beginUpdate(String resourceGroupName, String ipCommunityName, IpCommunityPatch body, Context context)"
   nameWithType: "IpCommunitiesClient.beginUpdate(String resourceGroupName, String ipCommunityName, IpCommunityPatch body, Context context)"
-  summary: "Updates an IP Community."
+  summary: "API to update certain properties of the IP Community resource."
   modifiers:
   - "abstract"
   parameters:
@@ -137,7 +137,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<IpCommunityInner>,IpCommunityInner> beginUpdate(String resourceGroupName, String ipCommunityName, IpCommunityPatch body, Context context)"
-  desc: "Updates an IP Community. API to update certain properties of the IP Community resource."
+  desc: "API to update certain properties of the IP Community resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the IP Community resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner&text=IpCommunityInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner&text=IpCommunityInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -145,7 +145,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.create(String resourceGroupName, String ipCommunityName, IpCommunityInner body)"
   name: "create(String resourceGroupName, String ipCommunityName, IpCommunityInner body)"
   nameWithType: "IpCommunitiesClient.create(String resourceGroupName, String ipCommunityName, IpCommunityInner body)"
-  summary: "Create an IP Community."
+  summary: "Implements an IP Community PUT method."
   modifiers:
   - "abstract"
   parameters:
@@ -159,7 +159,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner&text=IpCommunityInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract IpCommunityInner create(String resourceGroupName, String ipCommunityName, IpCommunityInner body)"
-  desc: "Create an IP Community. Implements an IP Community PUT method."
+  desc: "Implements an IP Community PUT method."
   returns:
     description: "the IP Community resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner&text=IpCommunityInner\" data-throw-if-not-resolved=\"False\" />"
@@ -167,7 +167,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.create(String resourceGroupName, String ipCommunityName, IpCommunityInner body, Context context)"
   name: "create(String resourceGroupName, String ipCommunityName, IpCommunityInner body, Context context)"
   nameWithType: "IpCommunitiesClient.create(String resourceGroupName, String ipCommunityName, IpCommunityInner body, Context context)"
-  summary: "Create an IP Community."
+  summary: "Implements an IP Community PUT method."
   modifiers:
   - "abstract"
   parameters:
@@ -184,7 +184,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract IpCommunityInner create(String resourceGroupName, String ipCommunityName, IpCommunityInner body, Context context)"
-  desc: "Create an IP Community. Implements an IP Community PUT method."
+  desc: "Implements an IP Community PUT method."
   returns:
     description: "the IP Community resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner&text=IpCommunityInner\" data-throw-if-not-resolved=\"False\" />"
@@ -192,7 +192,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.delete(String resourceGroupName, String ipCommunityName)"
   name: "delete(String resourceGroupName, String ipCommunityName)"
   nameWithType: "IpCommunitiesClient.delete(String resourceGroupName, String ipCommunityName)"
-  summary: "Deletes an IP Community."
+  summary: "Implements IP Community DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -203,12 +203,12 @@ methods:
     name: "ipCommunityName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void delete(String resourceGroupName, String ipCommunityName)"
-  desc: "Deletes an IP Community. Implements IP Community DELETE method."
+  desc: "Implements IP Community DELETE method."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.delete(String resourceGroupName, String ipCommunityName, Context context)"
   name: "delete(String resourceGroupName, String ipCommunityName, Context context)"
   nameWithType: "IpCommunitiesClient.delete(String resourceGroupName, String ipCommunityName, Context context)"
-  summary: "Deletes an IP Community."
+  summary: "Implements IP Community DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -222,12 +222,12 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void delete(String resourceGroupName, String ipCommunityName, Context context)"
-  desc: "Deletes an IP Community. Implements IP Community DELETE method."
+  desc: "Implements IP Community DELETE method."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.getByResourceGroup(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.getByResourceGroup(String resourceGroupName, String ipCommunityName)"
   name: "getByResourceGroup(String resourceGroupName, String ipCommunityName)"
   nameWithType: "IpCommunitiesClient.getByResourceGroup(String resourceGroupName, String ipCommunityName)"
-  summary: "Gets an IP Community."
+  summary: "Implements an IP Community GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -238,7 +238,7 @@ methods:
     name: "ipCommunityName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract IpCommunityInner getByResourceGroup(String resourceGroupName, String ipCommunityName)"
-  desc: "Gets an IP Community. Implements an IP Community GET method."
+  desc: "Implements an IP Community GET method."
   returns:
     description: "the IP Community resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner&text=IpCommunityInner\" data-throw-if-not-resolved=\"False\" />"
@@ -246,7 +246,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.getByResourceGroupWithResponse(String resourceGroupName, String ipCommunityName, Context context)"
   name: "getByResourceGroupWithResponse(String resourceGroupName, String ipCommunityName, Context context)"
   nameWithType: "IpCommunitiesClient.getByResourceGroupWithResponse(String resourceGroupName, String ipCommunityName, Context context)"
-  summary: "Gets an IP Community."
+  summary: "Implements an IP Community GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -260,7 +260,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<IpCommunityInner> getByResourceGroupWithResponse(String resourceGroupName, String ipCommunityName, Context context)"
-  desc: "Gets an IP Community. Implements an IP Community GET method."
+  desc: "Implements an IP Community GET method."
   returns:
     description: "the IP Community resource definition along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner&text=IpCommunityInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -268,19 +268,19 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.list()"
   name: "list()"
   nameWithType: "IpCommunitiesClient.list()"
-  summary: "List IP Communities by subscription."
+  summary: "Implements IP Communities list by subscription GET method."
   modifiers:
   - "abstract"
   syntax: "public abstract PagedIterable<IpCommunityInner> list()"
-  desc: "List IP Communities by subscription. Implements IP Communities list by subscription GET method."
+  desc: "Implements IP Communities list by subscription GET method."
   returns:
-    description: "list of IP Communities as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of IpCommunity items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner&text=IpCommunityInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.list(com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.list(Context context)"
   name: "list(Context context)"
   nameWithType: "IpCommunitiesClient.list(Context context)"
-  summary: "List IP Communities by subscription."
+  summary: "Implements IP Communities list by subscription GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -288,15 +288,15 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<IpCommunityInner> list(Context context)"
-  desc: "List IP Communities by subscription. Implements IP Communities list by subscription GET method."
+  desc: "Implements IP Communities list by subscription GET method."
   returns:
-    description: "list of IP Communities as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of IpCommunity items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner&text=IpCommunityInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.listByResourceGroup(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.listByResourceGroup(String resourceGroupName)"
   name: "listByResourceGroup(String resourceGroupName)"
   nameWithType: "IpCommunitiesClient.listByResourceGroup(String resourceGroupName)"
-  summary: "List IP Communities by resource group."
+  summary: "Implements IP Communities list by resource group GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -304,15 +304,15 @@ methods:
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<IpCommunityInner> listByResourceGroup(String resourceGroupName)"
-  desc: "List IP Communities by resource group. Implements IP Communities list by resource group GET method."
+  desc: "Implements IP Communities list by resource group GET method."
   returns:
-    description: "list of IP Communities as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of IpCommunity items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner&text=IpCommunityInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.listByResourceGroup(String resourceGroupName, Context context)"
   name: "listByResourceGroup(String resourceGroupName, Context context)"
   nameWithType: "IpCommunitiesClient.listByResourceGroup(String resourceGroupName, Context context)"
-  summary: "List IP Communities by resource group."
+  summary: "Implements IP Communities list by resource group GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -323,15 +323,15 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<IpCommunityInner> listByResourceGroup(String resourceGroupName, Context context)"
-  desc: "List IP Communities by resource group. Implements IP Communities list by resource group GET method."
+  desc: "Implements IP Communities list by resource group GET method."
   returns:
-    description: "list of IP Communities as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of IpCommunity items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner&text=IpCommunityInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.update(java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.IpCommunityPatch)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.update(String resourceGroupName, String ipCommunityName, IpCommunityPatch body)"
   name: "update(String resourceGroupName, String ipCommunityName, IpCommunityPatch body)"
   nameWithType: "IpCommunitiesClient.update(String resourceGroupName, String ipCommunityName, IpCommunityPatch body)"
-  summary: "Updates an IP Community."
+  summary: "API to update certain properties of the IP Community resource."
   modifiers:
   - "abstract"
   parameters:
@@ -345,7 +345,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpCommunityPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.IpCommunityPatch&text=IpCommunityPatch\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract IpCommunityInner update(String resourceGroupName, String ipCommunityName, IpCommunityPatch body)"
-  desc: "Updates an IP Community. API to update certain properties of the IP Community resource."
+  desc: "API to update certain properties of the IP Community resource."
   returns:
     description: "the IP Community resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner&text=IpCommunityInner\" data-throw-if-not-resolved=\"False\" />"
@@ -353,7 +353,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpCommunitiesClient.update(String resourceGroupName, String ipCommunityName, IpCommunityPatch body, Context context)"
   name: "update(String resourceGroupName, String ipCommunityName, IpCommunityPatch body, Context context)"
   nameWithType: "IpCommunitiesClient.update(String resourceGroupName, String ipCommunityName, IpCommunityPatch body, Context context)"
-  summary: "Updates an IP Community."
+  summary: "API to update certain properties of the IP Community resource."
   modifiers:
   - "abstract"
   parameters:
@@ -370,7 +370,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract IpCommunityInner update(String resourceGroupName, String ipCommunityName, IpCommunityPatch body, Context context)"
-  desc: "Updates an IP Community. API to update certain properties of the IP Community resource."
+  desc: "API to update certain properties of the IP Community resource."
   returns:
     description: "the IP Community resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpCommunityInner&text=IpCommunityInner\" data-throw-if-not-resolved=\"False\" />"
@@ -378,4 +378,4 @@ type: "interface"
 desc: "An instance of this class provides access to all the operations defined in IpCommunitiesClient."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

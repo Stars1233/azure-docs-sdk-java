@@ -42,50 +42,50 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState.DISABLED"
   name: "DISABLED"
   nameWithType: "BfdAdministrativeState.DISABLED"
-  summary: "Static value Disabled for Bfd<wbr>Administrative<wbr>State."
+  summary: "Represents the disabled state of BFD administrative state."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState&text=BfdAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final BfdAdministrativeState DISABLED"
-  desc: "Static value Disabled for BfdAdministrativeState."
+  desc: "Represents the disabled state of BFD administrative state."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState.ENABLED"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState.ENABLED"
   name: "ENABLED"
   nameWithType: "BfdAdministrativeState.ENABLED"
-  summary: "Static value Enabled for Bfd<wbr>Administrative<wbr>State."
+  summary: "Represents the enabled state of BFD administrative state."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState&text=BfdAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final BfdAdministrativeState ENABLED"
-  desc: "Static value Enabled for BfdAdministrativeState."
+  desc: "Represents the enabled state of BFD administrative state."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState.MAT"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState.MAT"
   name: "MAT"
   nameWithType: "BfdAdministrativeState.MAT"
-  summary: "Static value MAT for Bfd<wbr>Administrative<wbr>State."
+  summary: "Represents the MAT(Manual Action Taken) state of BFD administrative state."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState&text=BfdAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final BfdAdministrativeState MAT"
-  desc: "Static value MAT for BfdAdministrativeState."
+  desc: "Represents the MAT(Manual Action Taken) state of BFD administrative state."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState.RMA"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState.RMA"
   name: "RMA"
   nameWithType: "BfdAdministrativeState.RMA"
-  summary: "Static value RMA for Bfd<wbr>Administrative<wbr>State."
+  summary: "Represents the RMA(Return Material Authorization) state of BFD administrative state."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState&text=BfdAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final BfdAdministrativeState RMA"
-  desc: "Static value RMA for BfdAdministrativeState."
+  desc: "Represents the RMA(Return Material Authorization) state of BFD administrative state."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.BfdAdministrativeState.fromString(String name)"
@@ -119,4 +119,4 @@ type: "class"
 desc: "Administrative state of the BfdConfiguration. Example: Enabled | Disabled."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

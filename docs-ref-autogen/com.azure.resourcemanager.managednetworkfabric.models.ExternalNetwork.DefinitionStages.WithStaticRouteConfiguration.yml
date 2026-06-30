@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.DefinitionStages.WithStaticRouteConfiguration"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.DefinitionStages.WithStaticRouteConfiguration"
+name: "ExternalNetwork.DefinitionStages.WithStaticRouteConfiguration"
+nameWithType: "ExternalNetwork.DefinitionStages.WithStaticRouteConfiguration"
+summary: "The stage of the External<wbr>Network definition allowing to specify static<wbr>Route<wbr>Configuration."
+syntax: "public static interface **ExternalNetwork.DefinitionStages.WithStaticRouteConfiguration**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.DefinitionStages.WithStaticRouteConfiguration.withStaticRouteConfiguration(com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkStaticRouteConfiguration)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.DefinitionStages.WithStaticRouteConfiguration.withStaticRouteConfiguration(ExternalNetworkStaticRouteConfiguration staticRouteConfiguration)"
+  name: "withStaticRouteConfiguration(ExternalNetworkStaticRouteConfiguration staticRouteConfiguration)"
+  nameWithType: "ExternalNetwork.DefinitionStages.WithStaticRouteConfiguration.withStaticRouteConfiguration(ExternalNetworkStaticRouteConfiguration staticRouteConfiguration)"
+  summary: "Specifies the static<wbr>Route<wbr>Configuration property: Static Route Configuration.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Static Route Configuration."
+    name: "staticRouteConfiguration"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkStaticRouteConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkStaticRouteConfiguration&text=ExternalNetworkStaticRouteConfiguration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ExternalNetwork.DefinitionStages.WithCreate withStaticRouteConfiguration(ExternalNetworkStaticRouteConfiguration staticRouteConfiguration)"
+  desc: "Specifies the staticRouteConfiguration property: Static Route Configuration.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetwork.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the ExternalNetwork definition allowing to specify staticRouteConfiguration."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

@@ -31,14 +31,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ApiError**</br> extends <xref href=\"com.azure.core.management.exception.ManagementError?alt=com.azure.core.management.exception.ManagementError&text=ManagementError\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.resourcemanager.compute.models.ApiError.ApiError()"
-  fullName: "com.azure.resourcemanager.compute.models.ApiError.ApiError()"
-  name: "ApiError()"
-  nameWithType: "ApiError.ApiError()"
-  summary: "Creates an instance of Api<wbr>Error class."
-  syntax: "public ApiError()"
-  desc: "Creates an instance of ApiError class."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.ApiError.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.compute.models.ApiError.fromJson(JsonReader jsonReader)"
@@ -148,4 +140,4 @@ type: "class"
 desc: "An error response from the Compute service."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

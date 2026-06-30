@@ -10,7 +10,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.beginCreate(String resourceGroupName, String accessControlListName, AccessControlListInner body)"
   name: "beginCreate(String resourceGroupName, String accessControlListName, AccessControlListInner body)"
   nameWithType: "AccessControlListsClient.beginCreate(String resourceGroupName, String accessControlListName, AccessControlListInner body)"
-  summary: "Creates Access Control List."
+  summary: "Implements Access Control List PUT method."
   modifiers:
   - "abstract"
   parameters:
@@ -24,7 +24,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner&text=AccessControlListInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<AccessControlListInner>,AccessControlListInner> beginCreate(String resourceGroupName, String accessControlListName, AccessControlListInner body)"
-  desc: "Creates Access Control List. Implements Access Control List PUT method."
+  desc: "Implements Access Control List PUT method."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the Access Control List resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner&text=AccessControlListInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner&text=AccessControlListInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -32,7 +32,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.beginCreate(String resourceGroupName, String accessControlListName, AccessControlListInner body, Context context)"
   name: "beginCreate(String resourceGroupName, String accessControlListName, AccessControlListInner body, Context context)"
   nameWithType: "AccessControlListsClient.beginCreate(String resourceGroupName, String accessControlListName, AccessControlListInner body, Context context)"
-  summary: "Creates Access Control List."
+  summary: "Implements Access Control List PUT method."
   modifiers:
   - "abstract"
   parameters:
@@ -49,7 +49,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<AccessControlListInner>,AccessControlListInner> beginCreate(String resourceGroupName, String accessControlListName, AccessControlListInner body, Context context)"
-  desc: "Creates Access Control List. Implements Access Control List PUT method."
+  desc: "Implements Access Control List PUT method."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the Access Control List resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner&text=AccessControlListInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner&text=AccessControlListInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -57,7 +57,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.beginDelete(String resourceGroupName, String accessControlListName)"
   name: "beginDelete(String resourceGroupName, String accessControlListName)"
   nameWithType: "AccessControlListsClient.beginDelete(String resourceGroupName, String accessControlListName)"
-  summary: "Deletes a Access Control List."
+  summary: "Implements Access Control List DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -68,7 +68,7 @@ methods:
     name: "accessControlListName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDelete(String resourceGroupName, String accessControlListName)"
-  desc: "Deletes a Access Control List. Implements Access Control List DELETE method."
+  desc: "Implements Access Control List DELETE method."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
@@ -76,7 +76,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.beginDelete(String resourceGroupName, String accessControlListName, Context context)"
   name: "beginDelete(String resourceGroupName, String accessControlListName, Context context)"
   nameWithType: "AccessControlListsClient.beginDelete(String resourceGroupName, String accessControlListName, Context context)"
-  summary: "Deletes a Access Control List."
+  summary: "Implements Access Control List DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -90,7 +90,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDelete(String resourceGroupName, String accessControlListName, Context context)"
-  desc: "Deletes a Access Control List. Implements Access Control List DELETE method."
+  desc: "Implements Access Control List DELETE method."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
@@ -98,7 +98,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.beginResync(String resourceGroupName, String accessControlListName)"
   name: "beginResync(String resourceGroupName, String accessControlListName)"
   nameWithType: "AccessControlListsClient.beginResync(String resourceGroupName, String accessControlListName)"
-  summary: "Resync operation on the Access Control Lists."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -109,7 +109,7 @@ methods:
     name: "accessControlListName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<CommonPostActionResponseForStateUpdateInner>,CommonPostActionResponseForStateUpdateInner> beginResync(String resourceGroupName, String accessControlListName)"
-  desc: "Resync operation on the Access Control Lists. Implements the operation to the underlying resources."
+  desc: "Implements the operation to the underlying resources."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of common response for the state updates."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -117,7 +117,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.beginResync(String resourceGroupName, String accessControlListName, Context context)"
   name: "beginResync(String resourceGroupName, String accessControlListName, Context context)"
   nameWithType: "AccessControlListsClient.beginResync(String resourceGroupName, String accessControlListName, Context context)"
-  summary: "Resync operation on the Access Control Lists."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -131,7 +131,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<CommonPostActionResponseForStateUpdateInner>,CommonPostActionResponseForStateUpdateInner> beginResync(String resourceGroupName, String accessControlListName, Context context)"
-  desc: "Resync operation on the Access Control Lists. Implements the operation to the underlying resources."
+  desc: "Implements the operation to the underlying resources."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of common response for the state updates."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -139,7 +139,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.beginUpdate(String resourceGroupName, String accessControlListName, AccessControlListPatch body)"
   name: "beginUpdate(String resourceGroupName, String accessControlListName, AccessControlListPatch body)"
   nameWithType: "AccessControlListsClient.beginUpdate(String resourceGroupName, String accessControlListName, AccessControlListPatch body)"
-  summary: "Updates the Access Control List."
+  summary: "API to update certain properties of the Access Control List resource."
   modifiers:
   - "abstract"
   parameters:
@@ -153,7 +153,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AccessControlListPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.AccessControlListPatch&text=AccessControlListPatch\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<AccessControlListInner>,AccessControlListInner> beginUpdate(String resourceGroupName, String accessControlListName, AccessControlListPatch body)"
-  desc: "Updates the Access Control List. API to update certain properties of the Access Control List resource."
+  desc: "API to update certain properties of the Access Control List resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the Access Control List resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner&text=AccessControlListInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner&text=AccessControlListInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -161,7 +161,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.beginUpdate(String resourceGroupName, String accessControlListName, AccessControlListPatch body, Context context)"
   name: "beginUpdate(String resourceGroupName, String accessControlListName, AccessControlListPatch body, Context context)"
   nameWithType: "AccessControlListsClient.beginUpdate(String resourceGroupName, String accessControlListName, AccessControlListPatch body, Context context)"
-  summary: "Updates the Access Control List."
+  summary: "API to update certain properties of the Access Control List resource."
   modifiers:
   - "abstract"
   parameters:
@@ -178,7 +178,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<AccessControlListInner>,AccessControlListInner> beginUpdate(String resourceGroupName, String accessControlListName, AccessControlListPatch body, Context context)"
-  desc: "Updates the Access Control List. API to update certain properties of the Access Control List resource."
+  desc: "API to update certain properties of the Access Control List resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the Access Control List resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner&text=AccessControlListInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner&text=AccessControlListInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -186,7 +186,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.beginUpdateAdministrativeState(String resourceGroupName, String accessControlListName, UpdateAdministrativeState body)"
   name: "beginUpdateAdministrativeState(String resourceGroupName, String accessControlListName, UpdateAdministrativeState body)"
   nameWithType: "AccessControlListsClient.beginUpdateAdministrativeState(String resourceGroupName, String accessControlListName, UpdateAdministrativeState body)"
-  summary: "Updates administrative state of Access Control Lists."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -199,16 +199,16 @@ methods:
   - description: "Request payload."
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState&text=UpdateAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract SyncPoller<PollResult<CommonPostActionResponseForStateUpdateInner>,CommonPostActionResponseForStateUpdateInner> beginUpdateAdministrativeState(String resourceGroupName, String accessControlListName, UpdateAdministrativeState body)"
-  desc: "Updates administrative state of Access Control Lists. Implements the operation to the underlying resources."
+  syntax: "public abstract SyncPoller<PollResult<UpdateAdministrativeStateResponseInner>,UpdateAdministrativeStateResponseInner> beginUpdateAdministrativeState(String resourceGroupName, String accessControlListName, UpdateAdministrativeState body)"
+  desc: "Implements the operation to the underlying resources."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of common response for the state updates."
-    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of update Administrative State Response."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.beginUpdateAdministrativeState(java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.beginUpdateAdministrativeState(String resourceGroupName, String accessControlListName, UpdateAdministrativeState body, Context context)"
   name: "beginUpdateAdministrativeState(String resourceGroupName, String accessControlListName, UpdateAdministrativeState body, Context context)"
   nameWithType: "AccessControlListsClient.beginUpdateAdministrativeState(String resourceGroupName, String accessControlListName, UpdateAdministrativeState body, Context context)"
-  summary: "Updates administrative state of Access Control Lists."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -224,16 +224,16 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract SyncPoller<PollResult<CommonPostActionResponseForStateUpdateInner>,CommonPostActionResponseForStateUpdateInner> beginUpdateAdministrativeState(String resourceGroupName, String accessControlListName, UpdateAdministrativeState body, Context context)"
-  desc: "Updates administrative state of Access Control Lists. Implements the operation to the underlying resources."
+  syntax: "public abstract SyncPoller<PollResult<UpdateAdministrativeStateResponseInner>,UpdateAdministrativeStateResponseInner> beginUpdateAdministrativeState(String resourceGroupName, String accessControlListName, UpdateAdministrativeState body, Context context)"
+  desc: "Implements the operation to the underlying resources."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of common response for the state updates."
-    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of update Administrative State Response."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.beginValidateConfiguration(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.beginValidateConfiguration(String resourceGroupName, String accessControlListName)"
   name: "beginValidateConfiguration(String resourceGroupName, String accessControlListName)"
   nameWithType: "AccessControlListsClient.beginValidateConfiguration(String resourceGroupName, String accessControlListName)"
-  summary: "Validates the configuration of the Access Control Lists."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -244,7 +244,7 @@ methods:
     name: "accessControlListName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<ValidateConfigurationResponseInner>,ValidateConfigurationResponseInner> beginValidateConfiguration(String resourceGroupName, String accessControlListName)"
-  desc: "Validates the configuration of the Access Control Lists. Implements the operation to the underlying resources."
+  desc: "Implements the operation to the underlying resources."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the response of the action validate configuration."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner&text=ValidateConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner&text=ValidateConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -252,7 +252,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.beginValidateConfiguration(String resourceGroupName, String accessControlListName, Context context)"
   name: "beginValidateConfiguration(String resourceGroupName, String accessControlListName, Context context)"
   nameWithType: "AccessControlListsClient.beginValidateConfiguration(String resourceGroupName, String accessControlListName, Context context)"
-  summary: "Validates the configuration of the Access Control Lists."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -266,7 +266,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<ValidateConfigurationResponseInner>,ValidateConfigurationResponseInner> beginValidateConfiguration(String resourceGroupName, String accessControlListName, Context context)"
-  desc: "Validates the configuration of the Access Control Lists. Implements the operation to the underlying resources."
+  desc: "Implements the operation to the underlying resources."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the response of the action validate configuration."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner&text=ValidateConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner&text=ValidateConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -274,7 +274,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.create(String resourceGroupName, String accessControlListName, AccessControlListInner body)"
   name: "create(String resourceGroupName, String accessControlListName, AccessControlListInner body)"
   nameWithType: "AccessControlListsClient.create(String resourceGroupName, String accessControlListName, AccessControlListInner body)"
-  summary: "Creates Access Control List."
+  summary: "Implements Access Control List PUT method."
   modifiers:
   - "abstract"
   parameters:
@@ -288,7 +288,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner&text=AccessControlListInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract AccessControlListInner create(String resourceGroupName, String accessControlListName, AccessControlListInner body)"
-  desc: "Creates Access Control List. Implements Access Control List PUT method."
+  desc: "Implements Access Control List PUT method."
   returns:
     description: "the Access Control List resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner&text=AccessControlListInner\" data-throw-if-not-resolved=\"False\" />"
@@ -296,7 +296,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.create(String resourceGroupName, String accessControlListName, AccessControlListInner body, Context context)"
   name: "create(String resourceGroupName, String accessControlListName, AccessControlListInner body, Context context)"
   nameWithType: "AccessControlListsClient.create(String resourceGroupName, String accessControlListName, AccessControlListInner body, Context context)"
-  summary: "Creates Access Control List."
+  summary: "Implements Access Control List PUT method."
   modifiers:
   - "abstract"
   parameters:
@@ -313,7 +313,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract AccessControlListInner create(String resourceGroupName, String accessControlListName, AccessControlListInner body, Context context)"
-  desc: "Creates Access Control List. Implements Access Control List PUT method."
+  desc: "Implements Access Control List PUT method."
   returns:
     description: "the Access Control List resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner&text=AccessControlListInner\" data-throw-if-not-resolved=\"False\" />"
@@ -321,7 +321,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.delete(String resourceGroupName, String accessControlListName)"
   name: "delete(String resourceGroupName, String accessControlListName)"
   nameWithType: "AccessControlListsClient.delete(String resourceGroupName, String accessControlListName)"
-  summary: "Deletes a Access Control List."
+  summary: "Implements Access Control List DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -332,12 +332,12 @@ methods:
     name: "accessControlListName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void delete(String resourceGroupName, String accessControlListName)"
-  desc: "Deletes a Access Control List. Implements Access Control List DELETE method."
+  desc: "Implements Access Control List DELETE method."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.delete(String resourceGroupName, String accessControlListName, Context context)"
   name: "delete(String resourceGroupName, String accessControlListName, Context context)"
   nameWithType: "AccessControlListsClient.delete(String resourceGroupName, String accessControlListName, Context context)"
-  summary: "Deletes a Access Control List."
+  summary: "Implements Access Control List DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -351,12 +351,12 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void delete(String resourceGroupName, String accessControlListName, Context context)"
-  desc: "Deletes a Access Control List. Implements Access Control List DELETE method."
+  desc: "Implements Access Control List DELETE method."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.getByResourceGroup(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.getByResourceGroup(String resourceGroupName, String accessControlListName)"
   name: "getByResourceGroup(String resourceGroupName, String accessControlListName)"
   nameWithType: "AccessControlListsClient.getByResourceGroup(String resourceGroupName, String accessControlListName)"
-  summary: "Gets a Access Control List."
+  summary: "Implements Access Control List GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -367,7 +367,7 @@ methods:
     name: "accessControlListName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract AccessControlListInner getByResourceGroup(String resourceGroupName, String accessControlListName)"
-  desc: "Gets a Access Control List. Implements Access Control List GET method."
+  desc: "Implements Access Control List GET method."
   returns:
     description: "the Access Control List resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner&text=AccessControlListInner\" data-throw-if-not-resolved=\"False\" />"
@@ -375,7 +375,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.getByResourceGroupWithResponse(String resourceGroupName, String accessControlListName, Context context)"
   name: "getByResourceGroupWithResponse(String resourceGroupName, String accessControlListName, Context context)"
   nameWithType: "AccessControlListsClient.getByResourceGroupWithResponse(String resourceGroupName, String accessControlListName, Context context)"
-  summary: "Gets a Access Control List."
+  summary: "Implements Access Control List GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -389,7 +389,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<AccessControlListInner> getByResourceGroupWithResponse(String resourceGroupName, String accessControlListName, Context context)"
-  desc: "Gets a Access Control List. Implements Access Control List GET method."
+  desc: "Implements Access Control List GET method."
   returns:
     description: "the Access Control List resource definition along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner&text=AccessControlListInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -397,19 +397,19 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.list()"
   name: "list()"
   nameWithType: "AccessControlListsClient.list()"
-  summary: "List Access<wbr>Control<wbr>Lists by subscription."
+  summary: "Implements Access<wbr>Control<wbr>Lists list by subscription GET method."
   modifiers:
   - "abstract"
   syntax: "public abstract PagedIterable<AccessControlListInner> list()"
-  desc: "List AccessControlLists by subscription. Implements AccessControlLists list by subscription GET method."
+  desc: "Implements AccessControlLists list by subscription GET method."
   returns:
-    description: "list of Access Control Lists as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of AccessControlList items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner&text=AccessControlListInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.list(com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.list(Context context)"
   name: "list(Context context)"
   nameWithType: "AccessControlListsClient.list(Context context)"
-  summary: "List Access<wbr>Control<wbr>Lists by subscription."
+  summary: "Implements Access<wbr>Control<wbr>Lists list by subscription GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -417,15 +417,15 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<AccessControlListInner> list(Context context)"
-  desc: "List AccessControlLists by subscription. Implements AccessControlLists list by subscription GET method."
+  desc: "Implements AccessControlLists list by subscription GET method."
   returns:
-    description: "list of Access Control Lists as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of AccessControlList items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner&text=AccessControlListInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.listByResourceGroup(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.listByResourceGroup(String resourceGroupName)"
   name: "listByResourceGroup(String resourceGroupName)"
   nameWithType: "AccessControlListsClient.listByResourceGroup(String resourceGroupName)"
-  summary: "List Access<wbr>Control<wbr>Lists by resource group."
+  summary: "Implements Access<wbr>Control<wbr>Lists list by resource group GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -433,15 +433,15 @@ methods:
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<AccessControlListInner> listByResourceGroup(String resourceGroupName)"
-  desc: "List AccessControlLists by resource group. Implements AccessControlLists list by resource group GET method."
+  desc: "Implements AccessControlLists list by resource group GET method."
   returns:
-    description: "list of Access Control Lists as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of AccessControlList items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner&text=AccessControlListInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.listByResourceGroup(String resourceGroupName, Context context)"
   name: "listByResourceGroup(String resourceGroupName, Context context)"
   nameWithType: "AccessControlListsClient.listByResourceGroup(String resourceGroupName, Context context)"
-  summary: "List Access<wbr>Control<wbr>Lists by resource group."
+  summary: "Implements Access<wbr>Control<wbr>Lists list by resource group GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -452,15 +452,15 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<AccessControlListInner> listByResourceGroup(String resourceGroupName, Context context)"
-  desc: "List AccessControlLists by resource group. Implements AccessControlLists list by resource group GET method."
+  desc: "Implements AccessControlLists list by resource group GET method."
   returns:
-    description: "list of Access Control Lists as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of AccessControlList items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner&text=AccessControlListInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.resync(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.resync(String resourceGroupName, String accessControlListName)"
   name: "resync(String resourceGroupName, String accessControlListName)"
   nameWithType: "AccessControlListsClient.resync(String resourceGroupName, String accessControlListName)"
-  summary: "Resync operation on the Access Control Lists."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -471,7 +471,7 @@ methods:
     name: "accessControlListName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract CommonPostActionResponseForStateUpdateInner resync(String resourceGroupName, String accessControlListName)"
-  desc: "Resync operation on the Access Control Lists. Implements the operation to the underlying resources."
+  desc: "Implements the operation to the underlying resources."
   returns:
     description: "common response for the state updates."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />"
@@ -479,7 +479,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.resync(String resourceGroupName, String accessControlListName, Context context)"
   name: "resync(String resourceGroupName, String accessControlListName, Context context)"
   nameWithType: "AccessControlListsClient.resync(String resourceGroupName, String accessControlListName, Context context)"
-  summary: "Resync operation on the Access Control Lists."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -493,7 +493,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract CommonPostActionResponseForStateUpdateInner resync(String resourceGroupName, String accessControlListName, Context context)"
-  desc: "Resync operation on the Access Control Lists. Implements the operation to the underlying resources."
+  desc: "Implements the operation to the underlying resources."
   returns:
     description: "common response for the state updates."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />"
@@ -501,7 +501,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.update(String resourceGroupName, String accessControlListName, AccessControlListPatch body)"
   name: "update(String resourceGroupName, String accessControlListName, AccessControlListPatch body)"
   nameWithType: "AccessControlListsClient.update(String resourceGroupName, String accessControlListName, AccessControlListPatch body)"
-  summary: "Updates the Access Control List."
+  summary: "API to update certain properties of the Access Control List resource."
   modifiers:
   - "abstract"
   parameters:
@@ -515,7 +515,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AccessControlListPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.AccessControlListPatch&text=AccessControlListPatch\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract AccessControlListInner update(String resourceGroupName, String accessControlListName, AccessControlListPatch body)"
-  desc: "Updates the Access Control List. API to update certain properties of the Access Control List resource."
+  desc: "API to update certain properties of the Access Control List resource."
   returns:
     description: "the Access Control List resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner&text=AccessControlListInner\" data-throw-if-not-resolved=\"False\" />"
@@ -523,7 +523,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.update(String resourceGroupName, String accessControlListName, AccessControlListPatch body, Context context)"
   name: "update(String resourceGroupName, String accessControlListName, AccessControlListPatch body, Context context)"
   nameWithType: "AccessControlListsClient.update(String resourceGroupName, String accessControlListName, AccessControlListPatch body, Context context)"
-  summary: "Updates the Access Control List."
+  summary: "API to update certain properties of the Access Control List resource."
   modifiers:
   - "abstract"
   parameters:
@@ -540,7 +540,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract AccessControlListInner update(String resourceGroupName, String accessControlListName, AccessControlListPatch body, Context context)"
-  desc: "Updates the Access Control List. API to update certain properties of the Access Control List resource."
+  desc: "API to update certain properties of the Access Control List resource."
   returns:
     description: "the Access Control List resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.AccessControlListInner&text=AccessControlListInner\" data-throw-if-not-resolved=\"False\" />"
@@ -548,7 +548,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.updateAdministrativeState(String resourceGroupName, String accessControlListName, UpdateAdministrativeState body)"
   name: "updateAdministrativeState(String resourceGroupName, String accessControlListName, UpdateAdministrativeState body)"
   nameWithType: "AccessControlListsClient.updateAdministrativeState(String resourceGroupName, String accessControlListName, UpdateAdministrativeState body)"
-  summary: "Updates administrative state of Access Control Lists."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -561,16 +561,16 @@ methods:
   - description: "Request payload."
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState&text=UpdateAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForStateUpdateInner updateAdministrativeState(String resourceGroupName, String accessControlListName, UpdateAdministrativeState body)"
-  desc: "Updates administrative state of Access Control Lists. Implements the operation to the underlying resources."
+  syntax: "public abstract UpdateAdministrativeStateResponseInner updateAdministrativeState(String resourceGroupName, String accessControlListName, UpdateAdministrativeState body)"
+  desc: "Implements the operation to the underlying resources."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.updateAdministrativeState(java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.updateAdministrativeState(String resourceGroupName, String accessControlListName, UpdateAdministrativeState body, Context context)"
   name: "updateAdministrativeState(String resourceGroupName, String accessControlListName, UpdateAdministrativeState body, Context context)"
   nameWithType: "AccessControlListsClient.updateAdministrativeState(String resourceGroupName, String accessControlListName, UpdateAdministrativeState body, Context context)"
-  summary: "Updates administrative state of Access Control Lists."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -586,16 +586,16 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForStateUpdateInner updateAdministrativeState(String resourceGroupName, String accessControlListName, UpdateAdministrativeState body, Context context)"
-  desc: "Updates administrative state of Access Control Lists. Implements the operation to the underlying resources."
+  syntax: "public abstract UpdateAdministrativeStateResponseInner updateAdministrativeState(String resourceGroupName, String accessControlListName, UpdateAdministrativeState body, Context context)"
+  desc: "Implements the operation to the underlying resources."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.validateConfiguration(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.validateConfiguration(String resourceGroupName, String accessControlListName)"
   name: "validateConfiguration(String resourceGroupName, String accessControlListName)"
   nameWithType: "AccessControlListsClient.validateConfiguration(String resourceGroupName, String accessControlListName)"
-  summary: "Validates the configuration of the Access Control Lists."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -606,7 +606,7 @@ methods:
     name: "accessControlListName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract ValidateConfigurationResponseInner validateConfiguration(String resourceGroupName, String accessControlListName)"
-  desc: "Validates the configuration of the Access Control Lists. Implements the operation to the underlying resources."
+  desc: "Implements the operation to the underlying resources."
   returns:
     description: "the response of the action validate configuration."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner&text=ValidateConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />"
@@ -614,7 +614,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.AccessControlListsClient.validateConfiguration(String resourceGroupName, String accessControlListName, Context context)"
   name: "validateConfiguration(String resourceGroupName, String accessControlListName, Context context)"
   nameWithType: "AccessControlListsClient.validateConfiguration(String resourceGroupName, String accessControlListName, Context context)"
-  summary: "Validates the configuration of the Access Control Lists."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -628,7 +628,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract ValidateConfigurationResponseInner validateConfiguration(String resourceGroupName, String accessControlListName, Context context)"
-  desc: "Validates the configuration of the Access Control Lists. Implements the operation to the underlying resources."
+  desc: "Implements the operation to the underlying resources."
   returns:
     description: "the response of the action validate configuration."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner&text=ValidateConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />"
@@ -636,4 +636,4 @@ type: "interface"
 desc: "An instance of this class provides access to all the operations defined in AccessControlListsClient."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

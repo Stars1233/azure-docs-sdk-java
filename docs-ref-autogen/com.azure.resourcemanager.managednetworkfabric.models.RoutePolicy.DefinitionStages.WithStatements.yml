@@ -17,13 +17,13 @@ methods:
   - description: "Route Policy statements."
     name: "statements"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyStatementProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyStatementProperties&text=RoutePolicyStatementProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract RoutePolicy.DefinitionStages.WithCreate withStatements(List<RoutePolicyStatementProperties> statements)"
+  syntax: "public abstract RoutePolicy.DefinitionStages.WithNetworkFabricId withStatements(List<RoutePolicyStatementProperties> statements)"
   desc: "Specifies the statements property: Route Policy statements.."
   returns:
     description: "the next definition stage."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy.DefinitionStages.WithNetworkFabricId?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicy.DefinitionStages.WithNetworkFabricId&text=WithNetworkFabricId\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The stage of the RoutePolicy definition allowing to specify statements."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

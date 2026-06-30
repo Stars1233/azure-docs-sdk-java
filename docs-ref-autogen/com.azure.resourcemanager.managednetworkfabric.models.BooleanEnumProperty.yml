@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.managednetworkfabric.models.BooleanEnumProperty"
 fullName: "com.azure.resourcemanager.managednetworkfabric.models.BooleanEnumProperty"
 name: "BooleanEnumProperty"
 nameWithType: "BooleanEnumProperty"
-summary: "Boolean Enum."
+summary: "Boolean union."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.BooleanEnumProperty.FALSE"
   name: "FALSE"
   nameWithType: "BooleanEnumProperty.FALSE"
-  summary: "Static value False for Boolean<wbr>Enum<wbr>Property."
+  summary: "Enum<wbr>Property-False."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BooleanEnumProperty?alt=com.azure.resourcemanager.managednetworkfabric.models.BooleanEnumProperty&text=BooleanEnumProperty\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final BooleanEnumProperty FALSE"
-  desc: "Static value False for BooleanEnumProperty."
+  desc: "EnumProperty-False."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.BooleanEnumProperty.TRUE"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.BooleanEnumProperty.TRUE"
   name: "TRUE"
   nameWithType: "BooleanEnumProperty.TRUE"
-  summary: "Static value True for Boolean<wbr>Enum<wbr>Property."
+  summary: "Enum<wbr>Property-True."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BooleanEnumProperty?alt=com.azure.resourcemanager.managednetworkfabric.models.BooleanEnumProperty&text=BooleanEnumProperty\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final BooleanEnumProperty TRUE"
-  desc: "Static value True for BooleanEnumProperty."
+  desc: "EnumProperty-True."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.BooleanEnumProperty.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.BooleanEnumProperty.fromString(String name)"
@@ -92,7 +92,7 @@ methods:
     description: "known BooleanEnumProperty values."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BooleanEnumProperty?alt=com.azure.resourcemanager.managednetworkfabric.models.BooleanEnumProperty&text=BooleanEnumProperty\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
-desc: "Boolean Enum. Example- True/False."
+desc: "Boolean union. Example- True/False."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

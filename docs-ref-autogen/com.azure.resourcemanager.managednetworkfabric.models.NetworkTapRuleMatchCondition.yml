@@ -14,7 +14,6 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonMatchConditions.ipCondition()?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonMatchConditions.ipCondition&text=ipCondition\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonMatchConditions.protocolTypes()?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonMatchConditions.protocolTypes&text=protocolTypes\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonMatchConditions.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonMatchConditions.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonMatchConditions.validate()?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonMatchConditions.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonMatchConditions.vlanMatchCondition()?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonMatchConditions.vlanMatchCondition&text=vlanMatchCondition\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonMatchConditions.withIpCondition(com.azure.resourcemanager.managednetworkfabric.models.IpMatchCondition)?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonMatchConditions.withIpCondition&text=withIpCondition\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonMatchConditions.withProtocolTypes(java.util.List<java.lang.String>)?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonMatchConditions.withProtocolTypes&text=withProtocolTypes\" data-throw-if-not-resolved=\"False\" />"
@@ -94,14 +93,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRuleMatchCondition.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRuleMatchCondition.validate()"
-  name: "validate()"
-  nameWithType: "NetworkTapRuleMatchCondition.validate()"
-  summary: "Validates the instance."
-  overridden: "com.azure.resourcemanager.managednetworkfabric.models.CommonMatchConditions.validate()"
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRuleMatchCondition.withEncapsulationType(com.azure.resourcemanager.managednetworkfabric.models.EncapsulationType)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRuleMatchCondition.withEncapsulationType(EncapsulationType encapsulationType)"
   name: "withEncapsulationType(EncapsulationType encapsulationType)"
@@ -173,4 +164,4 @@ type: "class"
 desc: "Defines the match condition that is supported to filter the traffic."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

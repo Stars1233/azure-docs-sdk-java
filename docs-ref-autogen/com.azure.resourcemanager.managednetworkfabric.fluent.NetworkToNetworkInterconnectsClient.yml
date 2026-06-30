@@ -10,7 +10,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.beginCreate(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectInner body)"
   name: "beginCreate(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectInner body)"
   nameWithType: "NetworkToNetworkInterconnectsClient.beginCreate(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectInner body)"
-  summary: "Configuration used to setup CE-PE connectivity."
+  summary: "Configuration used to setup CE-PE connectivity PUT Method."
   modifiers:
   - "abstract"
   parameters:
@@ -27,7 +27,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner&text=NetworkToNetworkInterconnectInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<NetworkToNetworkInterconnectInner>,NetworkToNetworkInterconnectInner> beginCreate(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectInner body)"
-  desc: "Configuration used to setup CE-PE connectivity. Configuration used to setup CE-PE connectivity PUT Method."
+  desc: "Configuration used to setup CE-PE connectivity PUT Method."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the Network To Network Interconnect resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner&text=NetworkToNetworkInterconnectInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner&text=NetworkToNetworkInterconnectInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -35,7 +35,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.beginCreate(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectInner body, Context context)"
   name: "beginCreate(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectInner body, Context context)"
   nameWithType: "NetworkToNetworkInterconnectsClient.beginCreate(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectInner body, Context context)"
-  summary: "Configuration used to setup CE-PE connectivity."
+  summary: "Configuration used to setup CE-PE connectivity PUT Method."
   modifiers:
   - "abstract"
   parameters:
@@ -55,7 +55,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<NetworkToNetworkInterconnectInner>,NetworkToNetworkInterconnectInner> beginCreate(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectInner body, Context context)"
-  desc: "Configuration used to setup CE-PE connectivity. Configuration used to setup CE-PE connectivity PUT Method."
+  desc: "Configuration used to setup CE-PE connectivity PUT Method."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the Network To Network Interconnect resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner&text=NetworkToNetworkInterconnectInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner&text=NetworkToNetworkInterconnectInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -63,7 +63,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.beginDelete(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName)"
   name: "beginDelete(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName)"
   nameWithType: "NetworkToNetworkInterconnectsClient.beginDelete(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName)"
-  summary: "Deletes a Network<wbr>ToNetwork<wbr>Interconnects."
+  summary: "Implements Network<wbr>ToNetwork<wbr>Interconnects DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -77,7 +77,7 @@ methods:
     name: "networkToNetworkInterconnectName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDelete(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName)"
-  desc: "Deletes a NetworkToNetworkInterconnects. Implements NetworkToNetworkInterconnects DELETE method."
+  desc: "Implements NetworkToNetworkInterconnects DELETE method."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
@@ -85,7 +85,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.beginDelete(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, Context context)"
   name: "beginDelete(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, Context context)"
   nameWithType: "NetworkToNetworkInterconnectsClient.beginDelete(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, Context context)"
-  summary: "Deletes a Network<wbr>ToNetwork<wbr>Interconnects."
+  summary: "Implements Network<wbr>ToNetwork<wbr>Interconnects DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -102,7 +102,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDelete(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, Context context)"
-  desc: "Deletes a NetworkToNetworkInterconnects. Implements NetworkToNetworkInterconnects DELETE method."
+  desc: "Implements NetworkToNetworkInterconnects DELETE method."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
@@ -110,7 +110,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.beginUpdate(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectPatch body)"
   name: "beginUpdate(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectPatch body)"
   nameWithType: "NetworkToNetworkInterconnectsClient.beginUpdate(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectPatch body)"
-  summary: "Updates a Network To Network<wbr>Interconnects."
+  summary: "Update certain properties of the Network To Network<wbr>Interconnects resource."
   modifiers:
   - "abstract"
   parameters:
@@ -127,7 +127,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnectPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnectPatch&text=NetworkToNetworkInterconnectPatch\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<NetworkToNetworkInterconnectInner>,NetworkToNetworkInterconnectInner> beginUpdate(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectPatch body)"
-  desc: "Updates a Network To NetworkInterconnects. Update certain properties of the Network To NetworkInterconnects resource."
+  desc: "Update certain properties of the Network To NetworkInterconnects resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the Network To Network Interconnect resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner&text=NetworkToNetworkInterconnectInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner&text=NetworkToNetworkInterconnectInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -135,7 +135,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.beginUpdate(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectPatch body, Context context)"
   name: "beginUpdate(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectPatch body, Context context)"
   nameWithType: "NetworkToNetworkInterconnectsClient.beginUpdate(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectPatch body, Context context)"
-  summary: "Updates a Network To Network<wbr>Interconnects."
+  summary: "Update certain properties of the Network To Network<wbr>Interconnects resource."
   modifiers:
   - "abstract"
   parameters:
@@ -155,7 +155,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<NetworkToNetworkInterconnectInner>,NetworkToNetworkInterconnectInner> beginUpdate(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectPatch body, Context context)"
-  desc: "Updates a Network To NetworkInterconnects. Update certain properties of the Network To NetworkInterconnects resource."
+  desc: "Update certain properties of the Network To NetworkInterconnects resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the Network To Network Interconnect resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner&text=NetworkToNetworkInterconnectInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner&text=NetworkToNetworkInterconnectInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -163,7 +163,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.beginUpdateAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body)"
   name: "beginUpdateAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body)"
   nameWithType: "NetworkToNetworkInterconnectsClient.beginUpdateAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body)"
-  summary: "Implements the operation to the underlying resources."
+  summary: "Updates the Admin State."
   modifiers:
   - "abstract"
   parameters:
@@ -179,16 +179,16 @@ methods:
   - description: "Request payload."
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState&text=UpdateAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract SyncPoller<PollResult<CommonPostActionResponseForStateUpdateInner>,CommonPostActionResponseForStateUpdateInner> beginUpdateAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body)"
-  desc: "Implements the operation to the underlying resources. Updates the Admin State."
+  syntax: "public abstract SyncPoller<PollResult<UpdateAdministrativeStateResponseInner>,UpdateAdministrativeStateResponseInner> beginUpdateAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body)"
+  desc: "Updates the Admin State."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of common response for the state updates."
-    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of update Administrative State Response."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.beginUpdateAdministrativeState(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.beginUpdateAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body, Context context)"
   name: "beginUpdateAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body, Context context)"
   nameWithType: "NetworkToNetworkInterconnectsClient.beginUpdateAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body, Context context)"
-  summary: "Implements the operation to the underlying resources."
+  summary: "Updates the Admin State."
   modifiers:
   - "abstract"
   parameters:
@@ -207,16 +207,69 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract SyncPoller<PollResult<CommonPostActionResponseForStateUpdateInner>,CommonPostActionResponseForStateUpdateInner> beginUpdateAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body, Context context)"
-  desc: "Implements the operation to the underlying resources. Updates the Admin State."
+  syntax: "public abstract SyncPoller<PollResult<UpdateAdministrativeStateResponseInner>,UpdateAdministrativeStateResponseInner> beginUpdateAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body, Context context)"
+  desc: "Updates the Admin State."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of common response for the state updates."
-    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of update Administrative State Response."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.beginUpdateBfdAdministrativeState(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.NniUpdateBfdAdministrativeStateRequest)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.beginUpdateBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NniUpdateBfdAdministrativeStateRequest body)"
+  name: "beginUpdateBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NniUpdateBfdAdministrativeStateRequest body)"
+  nameWithType: "NetworkToNetworkInterconnectsClient.beginUpdateBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NniUpdateBfdAdministrativeStateRequest body)"
+  summary: "Updates the Admin State."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "Name of the Network Fabric."
+    name: "networkFabricName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "Name of the Network to Network Interconnect."
+    name: "networkToNetworkInterconnectName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "Request payload."
+    name: "body"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NniUpdateBfdAdministrativeStateRequest?alt=com.azure.resourcemanager.managednetworkfabric.models.NniUpdateBfdAdministrativeStateRequest&text=NniUpdateBfdAdministrativeStateRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract SyncPoller<PollResult<NniUpdateBfdAdministrativeStateResponseInner>,NniUpdateBfdAdministrativeStateResponseInner> beginUpdateBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NniUpdateBfdAdministrativeStateRequest body)"
+  desc: "Updates the Admin State."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of nNI Bidirectional Forwarding Detection (BFD) Administrative State\n response."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NniUpdateBfdAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NniUpdateBfdAdministrativeStateResponseInner&text=NniUpdateBfdAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NniUpdateBfdAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NniUpdateBfdAdministrativeStateResponseInner&text=NniUpdateBfdAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.beginUpdateBfdAdministrativeState(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.NniUpdateBfdAdministrativeStateRequest,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.beginUpdateBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NniUpdateBfdAdministrativeStateRequest body, Context context)"
+  name: "beginUpdateBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NniUpdateBfdAdministrativeStateRequest body, Context context)"
+  nameWithType: "NetworkToNetworkInterconnectsClient.beginUpdateBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NniUpdateBfdAdministrativeStateRequest body, Context context)"
+  summary: "Updates the Admin State."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "Name of the Network Fabric."
+    name: "networkFabricName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "Name of the Network to Network Interconnect."
+    name: "networkToNetworkInterconnectName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "Request payload."
+    name: "body"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NniUpdateBfdAdministrativeStateRequest?alt=com.azure.resourcemanager.managednetworkfabric.models.NniUpdateBfdAdministrativeStateRequest&text=NniUpdateBfdAdministrativeStateRequest\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract SyncPoller<PollResult<NniUpdateBfdAdministrativeStateResponseInner>,NniUpdateBfdAdministrativeStateResponseInner> beginUpdateBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NniUpdateBfdAdministrativeStateRequest body, Context context)"
+  desc: "Updates the Admin State."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of nNI Bidirectional Forwarding Detection (BFD) Administrative State\n response."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NniUpdateBfdAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NniUpdateBfdAdministrativeStateResponseInner&text=NniUpdateBfdAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NniUpdateBfdAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NniUpdateBfdAdministrativeStateResponseInner&text=NniUpdateBfdAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.beginUpdateNpbStaticRouteBfdAdministrativeState(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.beginUpdateNpbStaticRouteBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body)"
   name: "beginUpdateNpbStaticRouteBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body)"
   nameWithType: "NetworkToNetworkInterconnectsClient.beginUpdateNpbStaticRouteBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body)"
-  summary: "Implements the operation to the underlying resources."
+  summary: "Updates the NPB Static Route BFD Administrative State."
   modifiers:
   - "abstract"
   parameters:
@@ -232,16 +285,16 @@ methods:
   - description: "Request payload."
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState&text=UpdateAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract SyncPoller<PollResult<CommonPostActionResponseForStateUpdateInner>,CommonPostActionResponseForStateUpdateInner> beginUpdateNpbStaticRouteBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body)"
-  desc: "Implements the operation to the underlying resources. Updates the NPB Static Route BFD Administrative State."
+  syntax: "public abstract SyncPoller<PollResult<UpdateAdministrativeStateResponseInner>,UpdateAdministrativeStateResponseInner> beginUpdateNpbStaticRouteBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body)"
+  desc: "Updates the NPB Static Route BFD Administrative State."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of common response for the state updates."
-    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of update Administrative State Response."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.beginUpdateNpbStaticRouteBfdAdministrativeState(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.beginUpdateNpbStaticRouteBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body, Context context)"
   name: "beginUpdateNpbStaticRouteBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body, Context context)"
   nameWithType: "NetworkToNetworkInterconnectsClient.beginUpdateNpbStaticRouteBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body, Context context)"
-  summary: "Implements the operation to the underlying resources."
+  summary: "Updates the NPB Static Route BFD Administrative State."
   modifiers:
   - "abstract"
   parameters:
@@ -260,16 +313,16 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract SyncPoller<PollResult<CommonPostActionResponseForStateUpdateInner>,CommonPostActionResponseForStateUpdateInner> beginUpdateNpbStaticRouteBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body, Context context)"
-  desc: "Implements the operation to the underlying resources. Updates the NPB Static Route BFD Administrative State."
+  syntax: "public abstract SyncPoller<PollResult<UpdateAdministrativeStateResponseInner>,UpdateAdministrativeStateResponseInner> beginUpdateNpbStaticRouteBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body, Context context)"
+  desc: "Updates the NPB Static Route BFD Administrative State."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of common response for the state updates."
-    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of update Administrative State Response."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.create(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.create(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectInner body)"
   name: "create(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectInner body)"
   nameWithType: "NetworkToNetworkInterconnectsClient.create(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectInner body)"
-  summary: "Configuration used to setup CE-PE connectivity."
+  summary: "Configuration used to setup CE-PE connectivity PUT Method."
   modifiers:
   - "abstract"
   parameters:
@@ -286,7 +339,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner&text=NetworkToNetworkInterconnectInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract NetworkToNetworkInterconnectInner create(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectInner body)"
-  desc: "Configuration used to setup CE-PE connectivity. Configuration used to setup CE-PE connectivity PUT Method."
+  desc: "Configuration used to setup CE-PE connectivity PUT Method."
   returns:
     description: "the Network To Network Interconnect resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner&text=NetworkToNetworkInterconnectInner\" data-throw-if-not-resolved=\"False\" />"
@@ -294,7 +347,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.create(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectInner body, Context context)"
   name: "create(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectInner body, Context context)"
   nameWithType: "NetworkToNetworkInterconnectsClient.create(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectInner body, Context context)"
-  summary: "Configuration used to setup CE-PE connectivity."
+  summary: "Configuration used to setup CE-PE connectivity PUT Method."
   modifiers:
   - "abstract"
   parameters:
@@ -314,7 +367,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract NetworkToNetworkInterconnectInner create(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectInner body, Context context)"
-  desc: "Configuration used to setup CE-PE connectivity. Configuration used to setup CE-PE connectivity PUT Method."
+  desc: "Configuration used to setup CE-PE connectivity PUT Method."
   returns:
     description: "the Network To Network Interconnect resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner&text=NetworkToNetworkInterconnectInner\" data-throw-if-not-resolved=\"False\" />"
@@ -322,7 +375,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.delete(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName)"
   name: "delete(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName)"
   nameWithType: "NetworkToNetworkInterconnectsClient.delete(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName)"
-  summary: "Deletes a Network<wbr>ToNetwork<wbr>Interconnects."
+  summary: "Implements Network<wbr>ToNetwork<wbr>Interconnects DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -336,12 +389,12 @@ methods:
     name: "networkToNetworkInterconnectName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void delete(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName)"
-  desc: "Deletes a NetworkToNetworkInterconnects. Implements NetworkToNetworkInterconnects DELETE method."
+  desc: "Implements NetworkToNetworkInterconnects DELETE method."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.delete(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.delete(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, Context context)"
   name: "delete(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, Context context)"
   nameWithType: "NetworkToNetworkInterconnectsClient.delete(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, Context context)"
-  summary: "Deletes a Network<wbr>ToNetwork<wbr>Interconnects."
+  summary: "Implements Network<wbr>ToNetwork<wbr>Interconnects DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -358,12 +411,12 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void delete(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, Context context)"
-  desc: "Deletes a NetworkToNetworkInterconnects. Implements NetworkToNetworkInterconnects DELETE method."
+  desc: "Implements NetworkToNetworkInterconnects DELETE method."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.get(java.lang.String,java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.get(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName)"
   name: "get(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName)"
   nameWithType: "NetworkToNetworkInterconnectsClient.get(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName)"
-  summary: "Configuration used to setup CE-PE connectivity."
+  summary: "Implements Network<wbr>ToNetwork<wbr>Interconnects GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -377,7 +430,7 @@ methods:
     name: "networkToNetworkInterconnectName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract NetworkToNetworkInterconnectInner get(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName)"
-  desc: "Configuration used to setup CE-PE connectivity. Implements NetworkToNetworkInterconnects GET method."
+  desc: "Implements NetworkToNetworkInterconnects GET method."
   returns:
     description: "the Network To Network Interconnect resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner&text=NetworkToNetworkInterconnectInner\" data-throw-if-not-resolved=\"False\" />"
@@ -385,7 +438,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.getWithResponse(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, Context context)"
   name: "getWithResponse(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, Context context)"
   nameWithType: "NetworkToNetworkInterconnectsClient.getWithResponse(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, Context context)"
-  summary: "Configuration used to setup CE-PE connectivity."
+  summary: "Implements Network<wbr>ToNetwork<wbr>Interconnects GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -402,7 +455,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<NetworkToNetworkInterconnectInner> getWithResponse(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, Context context)"
-  desc: "Configuration used to setup CE-PE connectivity. Implements NetworkToNetworkInterconnects GET method."
+  desc: "Implements NetworkToNetworkInterconnects GET method."
   returns:
     description: "the Network To Network Interconnect resource definition along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner&text=NetworkToNetworkInterconnectInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -410,7 +463,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.listByNetworkFabric(String resourceGroupName, String networkFabricName)"
   name: "listByNetworkFabric(String resourceGroupName, String networkFabricName)"
   nameWithType: "NetworkToNetworkInterconnectsClient.listByNetworkFabric(String resourceGroupName, String networkFabricName)"
-  summary: "Executes list operation to display Network To Network Interconnects within a Network Fabric."
+  summary: "Implements Network To Network Interconnects list by Network Fabric GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -421,15 +474,15 @@ methods:
     name: "networkFabricName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<NetworkToNetworkInterconnectInner> listByNetworkFabric(String resourceGroupName, String networkFabricName)"
-  desc: "Executes list operation to display Network To Network Interconnects within a Network Fabric. Implements Network To Network Interconnects list by Network Fabric GET method."
+  desc: "Implements Network To Network Interconnects list by Network Fabric GET method."
   returns:
-    description: "list of Network To Network Interconnects as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NetworkToNetworkInterconnect items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner&text=NetworkToNetworkInterconnectInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.listByNetworkFabric(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.listByNetworkFabric(String resourceGroupName, String networkFabricName, Context context)"
   name: "listByNetworkFabric(String resourceGroupName, String networkFabricName, Context context)"
   nameWithType: "NetworkToNetworkInterconnectsClient.listByNetworkFabric(String resourceGroupName, String networkFabricName, Context context)"
-  summary: "Executes list operation to display Network To Network Interconnects within a Network Fabric."
+  summary: "Implements Network To Network Interconnects list by Network Fabric GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -443,15 +496,15 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<NetworkToNetworkInterconnectInner> listByNetworkFabric(String resourceGroupName, String networkFabricName, Context context)"
-  desc: "Executes list operation to display Network To Network Interconnects within a Network Fabric. Implements Network To Network Interconnects list by Network Fabric GET method."
+  desc: "Implements Network To Network Interconnects list by Network Fabric GET method."
   returns:
-    description: "list of Network To Network Interconnects as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NetworkToNetworkInterconnect items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner&text=NetworkToNetworkInterconnectInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.update(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnectPatch)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.update(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectPatch body)"
   name: "update(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectPatch body)"
   nameWithType: "NetworkToNetworkInterconnectsClient.update(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectPatch body)"
-  summary: "Updates a Network To Network<wbr>Interconnects."
+  summary: "Update certain properties of the Network To Network<wbr>Interconnects resource."
   modifiers:
   - "abstract"
   parameters:
@@ -468,7 +521,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnectPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnectPatch&text=NetworkToNetworkInterconnectPatch\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract NetworkToNetworkInterconnectInner update(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectPatch body)"
-  desc: "Updates a Network To NetworkInterconnects. Update certain properties of the Network To NetworkInterconnects resource."
+  desc: "Update certain properties of the Network To NetworkInterconnects resource."
   returns:
     description: "the Network To Network Interconnect resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner&text=NetworkToNetworkInterconnectInner\" data-throw-if-not-resolved=\"False\" />"
@@ -476,7 +529,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.update(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectPatch body, Context context)"
   name: "update(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectPatch body, Context context)"
   nameWithType: "NetworkToNetworkInterconnectsClient.update(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectPatch body, Context context)"
-  summary: "Updates a Network To Network<wbr>Interconnects."
+  summary: "Update certain properties of the Network To Network<wbr>Interconnects resource."
   modifiers:
   - "abstract"
   parameters:
@@ -496,7 +549,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract NetworkToNetworkInterconnectInner update(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NetworkToNetworkInterconnectPatch body, Context context)"
-  desc: "Updates a Network To NetworkInterconnects. Update certain properties of the Network To NetworkInterconnects resource."
+  desc: "Update certain properties of the Network To NetworkInterconnects resource."
   returns:
     description: "the Network To Network Interconnect resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkToNetworkInterconnectInner&text=NetworkToNetworkInterconnectInner\" data-throw-if-not-resolved=\"False\" />"
@@ -504,7 +557,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.updateAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body)"
   name: "updateAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body)"
   nameWithType: "NetworkToNetworkInterconnectsClient.updateAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body)"
-  summary: "Implements the operation to the underlying resources."
+  summary: "Updates the Admin State."
   modifiers:
   - "abstract"
   parameters:
@@ -520,16 +573,16 @@ methods:
   - description: "Request payload."
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState&text=UpdateAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForStateUpdateInner updateAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body)"
-  desc: "Implements the operation to the underlying resources. Updates the Admin State."
+  syntax: "public abstract UpdateAdministrativeStateResponseInner updateAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body)"
+  desc: "Updates the Admin State."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.updateAdministrativeState(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.updateAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body, Context context)"
   name: "updateAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body, Context context)"
   nameWithType: "NetworkToNetworkInterconnectsClient.updateAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body, Context context)"
-  summary: "Implements the operation to the underlying resources."
+  summary: "Updates the Admin State."
   modifiers:
   - "abstract"
   parameters:
@@ -548,16 +601,69 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForStateUpdateInner updateAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body, Context context)"
-  desc: "Implements the operation to the underlying resources. Updates the Admin State."
+  syntax: "public abstract UpdateAdministrativeStateResponseInner updateAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body, Context context)"
+  desc: "Updates the Admin State."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.updateBfdAdministrativeState(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.NniUpdateBfdAdministrativeStateRequest)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.updateBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NniUpdateBfdAdministrativeStateRequest body)"
+  name: "updateBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NniUpdateBfdAdministrativeStateRequest body)"
+  nameWithType: "NetworkToNetworkInterconnectsClient.updateBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NniUpdateBfdAdministrativeStateRequest body)"
+  summary: "Updates the Admin State."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "Name of the Network Fabric."
+    name: "networkFabricName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "Name of the Network to Network Interconnect."
+    name: "networkToNetworkInterconnectName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "Request payload."
+    name: "body"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NniUpdateBfdAdministrativeStateRequest?alt=com.azure.resourcemanager.managednetworkfabric.models.NniUpdateBfdAdministrativeStateRequest&text=NniUpdateBfdAdministrativeStateRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NniUpdateBfdAdministrativeStateResponseInner updateBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NniUpdateBfdAdministrativeStateRequest body)"
+  desc: "Updates the Admin State."
+  returns:
+    description: "nNI Bidirectional Forwarding Detection (BFD) Administrative State response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NniUpdateBfdAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NniUpdateBfdAdministrativeStateResponseInner&text=NniUpdateBfdAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.updateBfdAdministrativeState(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.NniUpdateBfdAdministrativeStateRequest,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.updateBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NniUpdateBfdAdministrativeStateRequest body, Context context)"
+  name: "updateBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NniUpdateBfdAdministrativeStateRequest body, Context context)"
+  nameWithType: "NetworkToNetworkInterconnectsClient.updateBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NniUpdateBfdAdministrativeStateRequest body, Context context)"
+  summary: "Updates the Admin State."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "Name of the Network Fabric."
+    name: "networkFabricName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "Name of the Network to Network Interconnect."
+    name: "networkToNetworkInterconnectName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "Request payload."
+    name: "body"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NniUpdateBfdAdministrativeStateRequest?alt=com.azure.resourcemanager.managednetworkfabric.models.NniUpdateBfdAdministrativeStateRequest&text=NniUpdateBfdAdministrativeStateRequest\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NniUpdateBfdAdministrativeStateResponseInner updateBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, NniUpdateBfdAdministrativeStateRequest body, Context context)"
+  desc: "Updates the Admin State."
+  returns:
+    description: "nNI Bidirectional Forwarding Detection (BFD) Administrative State response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NniUpdateBfdAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NniUpdateBfdAdministrativeStateResponseInner&text=NniUpdateBfdAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.updateNpbStaticRouteBfdAdministrativeState(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.updateNpbStaticRouteBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body)"
   name: "updateNpbStaticRouteBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body)"
   nameWithType: "NetworkToNetworkInterconnectsClient.updateNpbStaticRouteBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body)"
-  summary: "Implements the operation to the underlying resources."
+  summary: "Updates the NPB Static Route BFD Administrative State."
   modifiers:
   - "abstract"
   parameters:
@@ -573,16 +679,16 @@ methods:
   - description: "Request payload."
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState&text=UpdateAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForStateUpdateInner updateNpbStaticRouteBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body)"
-  desc: "Implements the operation to the underlying resources. Updates the NPB Static Route BFD Administrative State."
+  syntax: "public abstract UpdateAdministrativeStateResponseInner updateNpbStaticRouteBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body)"
+  desc: "Updates the NPB Static Route BFD Administrative State."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.updateNpbStaticRouteBfdAdministrativeState(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkToNetworkInterconnectsClient.updateNpbStaticRouteBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body, Context context)"
   name: "updateNpbStaticRouteBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body, Context context)"
   nameWithType: "NetworkToNetworkInterconnectsClient.updateNpbStaticRouteBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body, Context context)"
-  summary: "Implements the operation to the underlying resources."
+  summary: "Updates the NPB Static Route BFD Administrative State."
   modifiers:
   - "abstract"
   parameters:
@@ -601,13 +707,13 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForStateUpdateInner updateNpbStaticRouteBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body, Context context)"
-  desc: "Implements the operation to the underlying resources. Updates the NPB Static Route BFD Administrative State."
+  syntax: "public abstract UpdateAdministrativeStateResponseInner updateNpbStaticRouteBfdAdministrativeState(String resourceGroupName, String networkFabricName, String networkToNetworkInterconnectName, UpdateAdministrativeState body, Context context)"
+  desc: "Updates the NPB Static Route BFD Administrative State."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "An instance of this class provides access to all the operations defined in NetworkToNetworkInterconnectsClient."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

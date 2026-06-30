@@ -13,7 +13,6 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.resourcemanager.imagebuilder.models.ImageTemplateSource.fromJson(com.azure.json.JsonReader)?alt=com.azure.resourcemanager.imagebuilder.models.ImageTemplateSource.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.imagebuilder.models.ImageTemplateSource.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.imagebuilder.models.ImageTemplateSource.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.imagebuilder.models.ImageTemplateSource.type()?alt=com.azure.resourcemanager.imagebuilder.models.ImageTemplateSource.type&text=type\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.imagebuilder.models.ImageTemplateSource.validate()?alt=com.azure.resourcemanager.imagebuilder.models.ImageTemplateSource.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -130,14 +129,6 @@ methods:
   returns:
     description: "the type value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.imagebuilder.models.ImageTemplatePlatformImageSource.validate()"
-  fullName: "com.azure.resourcemanager.imagebuilder.models.ImageTemplatePlatformImageSource.validate()"
-  name: "validate()"
-  nameWithType: "ImageTemplatePlatformImageSource.validate()"
-  summary: "Validates the instance."
-  overridden: "com.azure.resourcemanager.imagebuilder.models.ImageTemplateSource.validate()"
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.imagebuilder.models.ImageTemplatePlatformImageSource.version()"
   fullName: "com.azure.resourcemanager.imagebuilder.models.ImageTemplatePlatformImageSource.version()"
   name: "version()"
@@ -222,4 +213,4 @@ type: "class"
 desc: "Describes an image source from \\[Azure Gallery Images\\](https://docs.microsoft.com/en-us/rest/api/compute/virtualmachineimages)."
 metadata: {}
 package: "com.azure.resourcemanager.imagebuilder.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-imagebuilder:1.2.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-imagebuilder:1.3.0

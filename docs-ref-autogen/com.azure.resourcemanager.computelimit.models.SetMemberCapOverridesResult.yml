@@ -1,0 +1,37 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesResult"
+fullName: "com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesResult"
+name: "SetMemberCapOverridesResult"
+nameWithType: "SetMemberCapOverridesResult"
+summary: "An immutable client-side representation of Set<wbr>Member<wbr>Cap<wbr>Overrides<wbr>Result."
+syntax: "public interface **SetMemberCapOverridesResult**"
+methods:
+- uid: "com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesResult.innerModel()"
+  fullName: "com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesResult.innerModel()"
+  name: "innerModel()"
+  nameWithType: "SetMemberCapOverridesResult.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>computelimit.<wbr>fluent.<wbr>models.<wbr>Set<wbr>Member<wbr>Cap<wbr>Overrides<wbr>Result<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SetMemberCapOverridesResultInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.computelimit.fluent.models.SetMemberCapOverridesResultInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.computelimit.fluent.models.SetMemberCapOverridesResultInner?alt=com.azure.resourcemanager.computelimit.fluent.models.SetMemberCapOverridesResultInner&text=SetMemberCapOverridesResultInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesResult.memberCapOverrides()"
+  fullName: "com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesResult.memberCapOverrides()"
+  name: "memberCapOverrides()"
+  nameWithType: "SetMemberCapOverridesResult.memberCapOverrides()"
+  summary: "Gets the member<wbr>Cap<wbr>Overrides property: The per-member cap overrides as persisted after the action completed."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<MemberCap> memberCapOverrides()"
+  desc: "Gets the memberCapOverrides property: The per-member cap overrides as persisted after the action completed."
+  returns:
+    description: "the memberCapOverrides value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.computelimit.models.MemberCap?alt=com.azure.resourcemanager.computelimit.models.MemberCap&text=MemberCap\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
+desc: "An immutable client-side representation of SetMemberCapOverridesResult."
+metadata: {}
+package: "com.azure.resourcemanager.computelimit.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-computelimit:1.2.0

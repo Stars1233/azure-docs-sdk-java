@@ -162,6 +162,18 @@ methods:
   returns:
     description: "the diagnosticsStorageAccountConfig value."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.DiagnosticsStorageAccountConfig?alt=com.azure.resourcemanager.servicefabric.models.DiagnosticsStorageAccountConfig&text=DiagnosticsStorageAccountConfig\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.servicefabric.models.Cluster.enableHttpGatewayExclusiveAuthMode()"
+  fullName: "com.azure.resourcemanager.servicefabric.models.Cluster.enableHttpGatewayExclusiveAuthMode()"
+  name: "enableHttpGatewayExclusiveAuthMode()"
+  nameWithType: "Cluster.enableHttpGatewayExclusiveAuthMode()"
+  summary: "Gets the enable<wbr>Http<wbr>Gateway<wbr>Exclusive<wbr>Auth<wbr>Mode property: If true, token-based authentication is not allowed on the Http<wbr>Gateway<wbr>Endpoint."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Boolean enableHttpGatewayExclusiveAuthMode()"
+  desc: "Gets the enableHttpGatewayExclusiveAuthMode property: If true, token-based authentication is not allowed on the HttpGatewayEndpoint. This is required to support TLS versions 1.3 and above. If token-based authentication is used, HttpGatewayTokenAuthEndpointPort must be defined."
+  returns:
+    description: "the enableHttpGatewayExclusiveAuthMode value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
 - uid: "com.azure.resourcemanager.servicefabric.models.Cluster.etag()"
   fullName: "com.azure.resourcemanager.servicefabric.models.Cluster.etag()"
   name: "etag()"
@@ -244,7 +256,7 @@ methods:
   syntax: "public abstract UpgradableVersionPathResult listUpgradableVersions()"
   desc: "Operation to get the minimum and maximum upgradable version from the current cluster version, or the required path to get to the an specific target version. If a target is not provided, it will get the minimum and maximum versions available from the current cluster version. If a target is given, it will provide the required path to get from the current cluster version to the target version."
   returns:
-    description: "the list of intermediate cluster code versions for an upgrade or downgrade."
+    description: "the list of intermediate cluster code versions for an upgrade or downgrade, or minimum and maximum\n upgradable version if no target was given."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.UpgradableVersionPathResult?alt=com.azure.resourcemanager.servicefabric.models.UpgradableVersionPathResult&text=UpgradableVersionPathResult\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabric.models.Cluster.listUpgradableVersionsWithResponse(com.azure.resourcemanager.servicefabric.models.UpgradableVersionsDescription,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.servicefabric.models.Cluster.listUpgradableVersionsWithResponse(UpgradableVersionsDescription versionsDescription, Context context)"
@@ -263,7 +275,7 @@ methods:
   syntax: "public abstract Response<UpgradableVersionPathResult> listUpgradableVersionsWithResponse(UpgradableVersionsDescription versionsDescription, Context context)"
   desc: "Operation to get the minimum and maximum upgradable version from the current cluster version, or the required path to get to the an specific target version. If a target is not provided, it will get the minimum and maximum versions available from the current cluster version. If a target is given, it will provide the required path to get from the current cluster version to the target version."
   returns:
-    description: "the list of intermediate cluster code versions for an upgrade or downgrade along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    description: "the list of intermediate cluster code versions for an upgrade or downgrade, or minimum and maximum\n upgradable version if no target was given along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.models.UpgradableVersionPathResult?alt=com.azure.resourcemanager.servicefabric.models.UpgradableVersionPathResult&text=UpgradableVersionPathResult\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.servicefabric.models.Cluster.location()"
   fullName: "com.azure.resourcemanager.servicefabric.models.Cluster.location()"
@@ -453,11 +465,11 @@ methods:
   fullName: "com.azure.resourcemanager.servicefabric.models.Cluster.systemData()"
   name: "systemData()"
   nameWithType: "Cluster.systemData()"
-  summary: "Gets the system<wbr>Data property: Metadata pertaining to creation and last modification of the resource."
+  summary: "Gets the system<wbr>Data property: Azure Resource Manager metadata containing created<wbr>By and modified<wbr>By information."
   modifiers:
   - "abstract"
   syntax: "public abstract SystemData systemData()"
-  desc: "Gets the systemData property: Metadata pertaining to creation and last modification of the resource."
+  desc: "Gets the systemData property: Azure Resource Manager metadata containing createdBy and modifiedBy information."
   returns:
     description: "the systemData value."
     type: "<xref href=\"com.azure.core.management.SystemData?alt=com.azure.core.management.SystemData&text=SystemData\" data-throw-if-not-resolved=\"False\" />"
@@ -597,4 +609,4 @@ type: "interface"
 desc: "An immutable client-side representation of Cluster."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.InternetGateway.DefinitionStages.WithInternetGatewayType"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternetGateway.DefinitionStages.WithInternetGatewayType"
+name: "InternetGateway.DefinitionStages.WithInternetGatewayType"
+nameWithType: "InternetGateway.DefinitionStages.WithInternetGatewayType"
+summary: "The stage of the Internet<wbr>Gateway definition allowing to specify internet<wbr>Gateway<wbr>Type."
+syntax: "public static interface **InternetGateway.DefinitionStages.WithInternetGatewayType**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.InternetGateway.DefinitionStages.WithInternetGatewayType.withInternetGatewayType(com.azure.resourcemanager.managednetworkfabric.models.GatewayType)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternetGateway.DefinitionStages.WithInternetGatewayType.withInternetGatewayType(GatewayType internetGatewayType)"
+  name: "withInternetGatewayType(GatewayType internetGatewayType)"
+  nameWithType: "InternetGateway.DefinitionStages.WithInternetGatewayType.withInternetGatewayType(GatewayType internetGatewayType)"
+  summary: "Specifies the internet<wbr>Gateway<wbr>Type property: Gateway Type of the resource.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Gateway Type of the resource."
+    name: "internetGatewayType"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.GatewayType?alt=com.azure.resourcemanager.managednetworkfabric.models.GatewayType&text=GatewayType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract InternetGateway.DefinitionStages.WithCreate withInternetGatewayType(GatewayType internetGatewayType)"
+  desc: "Specifies the internetGatewayType property: Gateway Type of the resource.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.InternetGateway.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.InternetGateway.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the InternetGateway definition allowing to specify internetGatewayType."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

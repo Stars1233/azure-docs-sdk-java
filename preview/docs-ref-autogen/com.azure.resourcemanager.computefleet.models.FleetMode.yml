@@ -38,18 +38,18 @@ constructors:
   desc: "Creates a new instance of FleetMode value."
   hasDeprecatedTag: true
 fields:
-- uid: "com.azure.resourcemanager.computefleet.models.FleetMode.INSTANCE"
-  fullName: "com.azure.resourcemanager.computefleet.models.FleetMode.INSTANCE"
-  name: "INSTANCE"
-  nameWithType: "FleetMode.INSTANCE"
-  summary: "Instance mode for Compute Fleet will directly provision VM instances."
+- uid: "com.azure.resourcemanager.computefleet.models.FleetMode.LAUNCH"
+  fullName: "com.azure.resourcemanager.computefleet.models.FleetMode.LAUNCH"
+  name: "LAUNCH"
+  nameWithType: "FleetMode.LAUNCH"
+  summary: "Launch mode for Compute Fleet will directly launch VM instances to be managed by the customer."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.computefleet.models.FleetMode?alt=com.azure.resourcemanager.computefleet.models.FleetMode&text=FleetMode\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static final FleetMode INSTANCE"
-  desc: "Instance mode for Compute Fleet will directly provision VM instances."
+  syntax: "public static final FleetMode LAUNCH"
+  desc: "Launch mode for Compute Fleet will directly launch VM instances to be managed by the customer."
 - uid: "com.azure.resourcemanager.computefleet.models.FleetMode.MANAGED"
   fullName: "com.azure.resourcemanager.computefleet.models.FleetMode.MANAGED"
   name: "MANAGED"
@@ -61,7 +61,7 @@ fields:
   field:
     type: "<xref href=\"com.azure.resourcemanager.computefleet.models.FleetMode?alt=com.azure.resourcemanager.computefleet.models.FleetMode&text=FleetMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FleetMode MANAGED"
-  desc: "Default. Managed is the default mode for Compute Fleet where VMs are provisioned via VMSS."
+  desc: "Default. Managed is the default mode for Compute Fleet where VMs are provisioned via virtual machine scale sets."
 methods:
 - uid: "com.azure.resourcemanager.computefleet.models.FleetMode.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.computefleet.models.FleetMode.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Modes for Compute Fleet."
 metadata: {}
 package: "com.azure.resourcemanager.computefleet.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-computefleet:1.1.0-beta.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-computefleet:1.1.0-beta.3

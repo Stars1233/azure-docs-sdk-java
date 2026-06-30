@@ -10,7 +10,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.beginCreate(String resourceGroupName, String ipPrefixName, IpPrefixInner body)"
   name: "beginCreate(String resourceGroupName, String ipPrefixName, IpPrefixInner body)"
   nameWithType: "IpPrefixesClient.beginCreate(String resourceGroupName, String ipPrefixName, IpPrefixInner body)"
-  summary: "Create an IP Prefix."
+  summary: "Implements IP Prefix PUT method."
   modifiers:
   - "abstract"
   parameters:
@@ -24,7 +24,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner&text=IpPrefixInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<IpPrefixInner>,IpPrefixInner> beginCreate(String resourceGroupName, String ipPrefixName, IpPrefixInner body)"
-  desc: "Create an IP Prefix. Implements IP Prefix PUT method."
+  desc: "Implements IP Prefix PUT method."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the IP Prefix resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner&text=IpPrefixInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner&text=IpPrefixInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -32,7 +32,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.beginCreate(String resourceGroupName, String ipPrefixName, IpPrefixInner body, Context context)"
   name: "beginCreate(String resourceGroupName, String ipPrefixName, IpPrefixInner body, Context context)"
   nameWithType: "IpPrefixesClient.beginCreate(String resourceGroupName, String ipPrefixName, IpPrefixInner body, Context context)"
-  summary: "Create an IP Prefix."
+  summary: "Implements IP Prefix PUT method."
   modifiers:
   - "abstract"
   parameters:
@@ -49,7 +49,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<IpPrefixInner>,IpPrefixInner> beginCreate(String resourceGroupName, String ipPrefixName, IpPrefixInner body, Context context)"
-  desc: "Create an IP Prefix. Implements IP Prefix PUT method."
+  desc: "Implements IP Prefix PUT method."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the IP Prefix resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner&text=IpPrefixInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner&text=IpPrefixInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -57,7 +57,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.beginDelete(String resourceGroupName, String ipPrefixName)"
   name: "beginDelete(String resourceGroupName, String ipPrefixName)"
   nameWithType: "IpPrefixesClient.beginDelete(String resourceGroupName, String ipPrefixName)"
-  summary: "Deletes the IP Prefix."
+  summary: "Implements IP Prefix DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -68,7 +68,7 @@ methods:
     name: "ipPrefixName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDelete(String resourceGroupName, String ipPrefixName)"
-  desc: "Deletes the IP Prefix. Implements IP Prefix DELETE method."
+  desc: "Implements IP Prefix DELETE method."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
@@ -76,7 +76,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.beginDelete(String resourceGroupName, String ipPrefixName, Context context)"
   name: "beginDelete(String resourceGroupName, String ipPrefixName, Context context)"
   nameWithType: "IpPrefixesClient.beginDelete(String resourceGroupName, String ipPrefixName, Context context)"
-  summary: "Deletes the IP Prefix."
+  summary: "Implements IP Prefix DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -90,7 +90,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDelete(String resourceGroupName, String ipPrefixName, Context context)"
-  desc: "Deletes the IP Prefix. Implements IP Prefix DELETE method."
+  desc: "Implements IP Prefix DELETE method."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
@@ -98,7 +98,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.beginUpdate(String resourceGroupName, String ipPrefixName, IpPrefixPatch body)"
   name: "beginUpdate(String resourceGroupName, String ipPrefixName, IpPrefixPatch body)"
   nameWithType: "IpPrefixesClient.beginUpdate(String resourceGroupName, String ipPrefixName, IpPrefixPatch body)"
-  summary: "Updates the IP Prefix."
+  summary: "API to update certain properties of the IP Prefix resource."
   modifiers:
   - "abstract"
   parameters:
@@ -112,7 +112,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpPrefixPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.IpPrefixPatch&text=IpPrefixPatch\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<IpPrefixInner>,IpPrefixInner> beginUpdate(String resourceGroupName, String ipPrefixName, IpPrefixPatch body)"
-  desc: "Updates the IP Prefix. API to update certain properties of the IP Prefix resource."
+  desc: "API to update certain properties of the IP Prefix resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the IP Prefix resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner&text=IpPrefixInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner&text=IpPrefixInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -120,7 +120,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.beginUpdate(String resourceGroupName, String ipPrefixName, IpPrefixPatch body, Context context)"
   name: "beginUpdate(String resourceGroupName, String ipPrefixName, IpPrefixPatch body, Context context)"
   nameWithType: "IpPrefixesClient.beginUpdate(String resourceGroupName, String ipPrefixName, IpPrefixPatch body, Context context)"
-  summary: "Updates the IP Prefix."
+  summary: "API to update certain properties of the IP Prefix resource."
   modifiers:
   - "abstract"
   parameters:
@@ -137,7 +137,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<IpPrefixInner>,IpPrefixInner> beginUpdate(String resourceGroupName, String ipPrefixName, IpPrefixPatch body, Context context)"
-  desc: "Updates the IP Prefix. API to update certain properties of the IP Prefix resource."
+  desc: "API to update certain properties of the IP Prefix resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the IP Prefix resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner&text=IpPrefixInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner&text=IpPrefixInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -145,7 +145,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.create(String resourceGroupName, String ipPrefixName, IpPrefixInner body)"
   name: "create(String resourceGroupName, String ipPrefixName, IpPrefixInner body)"
   nameWithType: "IpPrefixesClient.create(String resourceGroupName, String ipPrefixName, IpPrefixInner body)"
-  summary: "Create an IP Prefix."
+  summary: "Implements IP Prefix PUT method."
   modifiers:
   - "abstract"
   parameters:
@@ -159,7 +159,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner&text=IpPrefixInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract IpPrefixInner create(String resourceGroupName, String ipPrefixName, IpPrefixInner body)"
-  desc: "Create an IP Prefix. Implements IP Prefix PUT method."
+  desc: "Implements IP Prefix PUT method."
   returns:
     description: "the IP Prefix resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner&text=IpPrefixInner\" data-throw-if-not-resolved=\"False\" />"
@@ -167,7 +167,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.create(String resourceGroupName, String ipPrefixName, IpPrefixInner body, Context context)"
   name: "create(String resourceGroupName, String ipPrefixName, IpPrefixInner body, Context context)"
   nameWithType: "IpPrefixesClient.create(String resourceGroupName, String ipPrefixName, IpPrefixInner body, Context context)"
-  summary: "Create an IP Prefix."
+  summary: "Implements IP Prefix PUT method."
   modifiers:
   - "abstract"
   parameters:
@@ -184,7 +184,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract IpPrefixInner create(String resourceGroupName, String ipPrefixName, IpPrefixInner body, Context context)"
-  desc: "Create an IP Prefix. Implements IP Prefix PUT method."
+  desc: "Implements IP Prefix PUT method."
   returns:
     description: "the IP Prefix resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner&text=IpPrefixInner\" data-throw-if-not-resolved=\"False\" />"
@@ -192,7 +192,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.delete(String resourceGroupName, String ipPrefixName)"
   name: "delete(String resourceGroupName, String ipPrefixName)"
   nameWithType: "IpPrefixesClient.delete(String resourceGroupName, String ipPrefixName)"
-  summary: "Deletes the IP Prefix."
+  summary: "Implements IP Prefix DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -203,12 +203,12 @@ methods:
     name: "ipPrefixName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void delete(String resourceGroupName, String ipPrefixName)"
-  desc: "Deletes the IP Prefix. Implements IP Prefix DELETE method."
+  desc: "Implements IP Prefix DELETE method."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.delete(String resourceGroupName, String ipPrefixName, Context context)"
   name: "delete(String resourceGroupName, String ipPrefixName, Context context)"
   nameWithType: "IpPrefixesClient.delete(String resourceGroupName, String ipPrefixName, Context context)"
-  summary: "Deletes the IP Prefix."
+  summary: "Implements IP Prefix DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -222,12 +222,12 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void delete(String resourceGroupName, String ipPrefixName, Context context)"
-  desc: "Deletes the IP Prefix. Implements IP Prefix DELETE method."
+  desc: "Implements IP Prefix DELETE method."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.getByResourceGroup(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.getByResourceGroup(String resourceGroupName, String ipPrefixName)"
   name: "getByResourceGroup(String resourceGroupName, String ipPrefixName)"
   nameWithType: "IpPrefixesClient.getByResourceGroup(String resourceGroupName, String ipPrefixName)"
-  summary: "Gets an IP Prefix."
+  summary: "Implements IP Prefix GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -238,7 +238,7 @@ methods:
     name: "ipPrefixName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract IpPrefixInner getByResourceGroup(String resourceGroupName, String ipPrefixName)"
-  desc: "Gets an IP Prefix. Implements IP Prefix GET method."
+  desc: "Implements IP Prefix GET method."
   returns:
     description: "the IP Prefix resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner&text=IpPrefixInner\" data-throw-if-not-resolved=\"False\" />"
@@ -246,7 +246,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.getByResourceGroupWithResponse(String resourceGroupName, String ipPrefixName, Context context)"
   name: "getByResourceGroupWithResponse(String resourceGroupName, String ipPrefixName, Context context)"
   nameWithType: "IpPrefixesClient.getByResourceGroupWithResponse(String resourceGroupName, String ipPrefixName, Context context)"
-  summary: "Gets an IP Prefix."
+  summary: "Implements IP Prefix GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -260,7 +260,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<IpPrefixInner> getByResourceGroupWithResponse(String resourceGroupName, String ipPrefixName, Context context)"
-  desc: "Gets an IP Prefix. Implements IP Prefix GET method."
+  desc: "Implements IP Prefix GET method."
   returns:
     description: "the IP Prefix resource definition along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner&text=IpPrefixInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -268,19 +268,19 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.list()"
   name: "list()"
   nameWithType: "IpPrefixesClient.list()"
-  summary: "List Ip<wbr>Prefixes by subscription."
+  summary: "Implements Ip<wbr>Prefixes list by subscription GET method."
   modifiers:
   - "abstract"
   syntax: "public abstract PagedIterable<IpPrefixInner> list()"
-  desc: "List IpPrefixes by subscription. Implements IpPrefixes list by subscription GET method."
+  desc: "Implements IpPrefixes list by subscription GET method."
   returns:
-    description: "list of IP Prefixes as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of IpPrefix items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner&text=IpPrefixInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.list(com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.list(Context context)"
   name: "list(Context context)"
   nameWithType: "IpPrefixesClient.list(Context context)"
-  summary: "List Ip<wbr>Prefixes by subscription."
+  summary: "Implements Ip<wbr>Prefixes list by subscription GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -288,15 +288,15 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<IpPrefixInner> list(Context context)"
-  desc: "List IpPrefixes by subscription. Implements IpPrefixes list by subscription GET method."
+  desc: "Implements IpPrefixes list by subscription GET method."
   returns:
-    description: "list of IP Prefixes as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of IpPrefix items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner&text=IpPrefixInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.listByResourceGroup(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.listByResourceGroup(String resourceGroupName)"
   name: "listByResourceGroup(String resourceGroupName)"
   nameWithType: "IpPrefixesClient.listByResourceGroup(String resourceGroupName)"
-  summary: "List Ip<wbr>Prefixes by resource group."
+  summary: "Implements Ip<wbr>Prefixes list by resource group GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -304,15 +304,15 @@ methods:
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<IpPrefixInner> listByResourceGroup(String resourceGroupName)"
-  desc: "List IpPrefixes by resource group. Implements IpPrefixes list by resource group GET method."
+  desc: "Implements IpPrefixes list by resource group GET method."
   returns:
-    description: "list of IP Prefixes as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of IpPrefix items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner&text=IpPrefixInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.listByResourceGroup(String resourceGroupName, Context context)"
   name: "listByResourceGroup(String resourceGroupName, Context context)"
   nameWithType: "IpPrefixesClient.listByResourceGroup(String resourceGroupName, Context context)"
-  summary: "List Ip<wbr>Prefixes by resource group."
+  summary: "Implements Ip<wbr>Prefixes list by resource group GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -323,15 +323,15 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<IpPrefixInner> listByResourceGroup(String resourceGroupName, Context context)"
-  desc: "List IpPrefixes by resource group. Implements IpPrefixes list by resource group GET method."
+  desc: "Implements IpPrefixes list by resource group GET method."
   returns:
-    description: "list of IP Prefixes as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of IpPrefix items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner&text=IpPrefixInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.update(java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.IpPrefixPatch)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.update(String resourceGroupName, String ipPrefixName, IpPrefixPatch body)"
   name: "update(String resourceGroupName, String ipPrefixName, IpPrefixPatch body)"
   nameWithType: "IpPrefixesClient.update(String resourceGroupName, String ipPrefixName, IpPrefixPatch body)"
-  summary: "Updates the IP Prefix."
+  summary: "API to update certain properties of the IP Prefix resource."
   modifiers:
   - "abstract"
   parameters:
@@ -345,7 +345,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpPrefixPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.IpPrefixPatch&text=IpPrefixPatch\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract IpPrefixInner update(String resourceGroupName, String ipPrefixName, IpPrefixPatch body)"
-  desc: "Updates the IP Prefix. API to update certain properties of the IP Prefix resource."
+  desc: "API to update certain properties of the IP Prefix resource."
   returns:
     description: "the IP Prefix resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner&text=IpPrefixInner\" data-throw-if-not-resolved=\"False\" />"
@@ -353,7 +353,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.IpPrefixesClient.update(String resourceGroupName, String ipPrefixName, IpPrefixPatch body, Context context)"
   name: "update(String resourceGroupName, String ipPrefixName, IpPrefixPatch body, Context context)"
   nameWithType: "IpPrefixesClient.update(String resourceGroupName, String ipPrefixName, IpPrefixPatch body, Context context)"
-  summary: "Updates the IP Prefix."
+  summary: "API to update certain properties of the IP Prefix resource."
   modifiers:
   - "abstract"
   parameters:
@@ -370,7 +370,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract IpPrefixInner update(String resourceGroupName, String ipPrefixName, IpPrefixPatch body, Context context)"
-  desc: "Updates the IP Prefix. API to update certain properties of the IP Prefix resource."
+  desc: "API to update certain properties of the IP Prefix resource."
   returns:
     description: "the IP Prefix resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixInner&text=IpPrefixInner\" data-throw-if-not-resolved=\"False\" />"
@@ -378,4 +378,4 @@ type: "interface"
 desc: "An instance of this class provides access to all the operations defined in IpPrefixesClient."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

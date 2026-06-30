@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.UpdateStages.WithStorageAccountConfiguration"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.UpdateStages.WithStorageAccountConfiguration"
+name: "NetworkFabric.UpdateStages.WithStorageAccountConfiguration"
+nameWithType: "NetworkFabric.UpdateStages.WithStorageAccountConfiguration"
+summary: "The stage of the Network<wbr>Fabric update allowing to specify storage<wbr>Account<wbr>Configuration."
+syntax: "public static interface **NetworkFabric.UpdateStages.WithStorageAccountConfiguration**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.UpdateStages.WithStorageAccountConfiguration.withStorageAccountConfiguration(com.azure.resourcemanager.managednetworkfabric.models.StorageAccountPatchConfiguration)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.UpdateStages.WithStorageAccountConfiguration.withStorageAccountConfiguration(StorageAccountPatchConfiguration storageAccountConfiguration)"
+  name: "withStorageAccountConfiguration(StorageAccountPatchConfiguration storageAccountConfiguration)"
+  nameWithType: "NetworkFabric.UpdateStages.WithStorageAccountConfiguration.withStorageAccountConfiguration(StorageAccountPatchConfiguration storageAccountConfiguration)"
+  summary: "Specifies the storage<wbr>Account<wbr>Configuration property: Bring your own storage account configurations for Network Fabric.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Bring your own storage account configurations for Network Fabric."
+    name: "storageAccountConfiguration"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StorageAccountPatchConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.StorageAccountPatchConfiguration&text=StorageAccountPatchConfiguration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NetworkFabric.Update withStorageAccountConfiguration(StorageAccountPatchConfiguration storageAccountConfiguration)"
+  desc: "Specifies the storageAccountConfiguration property: Bring your own storage account configurations for Network Fabric.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.Update?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkFabric update allowing to specify storageAccountConfiguration."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

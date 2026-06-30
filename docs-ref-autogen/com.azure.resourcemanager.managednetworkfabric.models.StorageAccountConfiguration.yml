@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration"
+name: "StorageAccountConfiguration"
+nameWithType: "StorageAccountConfiguration"
+summary: "Storage account configuration."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **StorageAccountConfiguration**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration&text=StorageAccountConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration.StorageAccountConfiguration()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration.StorageAccountConfiguration()"
+  name: "StorageAccountConfiguration()"
+  nameWithType: "StorageAccountConfiguration.StorageAccountConfiguration()"
+  summary: "Creates an instance of Storage<wbr>Account<wbr>Configuration class."
+  syntax: "public StorageAccountConfiguration()"
+  desc: "Creates an instance of StorageAccountConfiguration class."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "StorageAccountConfiguration.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Storage<wbr>Account<wbr>Configuration from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static StorageAccountConfiguration fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the StorageAccountConfiguration."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of StorageAccountConfiguration from the JsonReader."
+  returns:
+    description: "An instance of StorageAccountConfiguration if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration&text=StorageAccountConfiguration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration.storageAccountId()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration.storageAccountId()"
+  name: "storageAccountId()"
+  nameWithType: "StorageAccountConfiguration.storageAccountId()"
+  summary: "Get the storage<wbr>Account<wbr>Id property: Network Fabric storage account resource identifier."
+  syntax: "public String storageAccountId()"
+  desc: "Get the storageAccountId property: Network Fabric storage account resource identifier."
+  returns:
+    description: "the storageAccountId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration.storageAccountIdentity()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration.storageAccountIdentity()"
+  name: "storageAccountIdentity()"
+  nameWithType: "StorageAccountConfiguration.storageAccountIdentity()"
+  summary: "Get the storage<wbr>Account<wbr>Identity property: The selection of the managed identity to use with this storage account."
+  syntax: "public IdentitySelector storageAccountIdentity()"
+  desc: "Get the storageAccountIdentity property: The selection of the managed identity to use with this storage account. The identity type must be either system assigned or user assigned."
+  returns:
+    description: "the storageAccountIdentity value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IdentitySelector?alt=com.azure.resourcemanager.managednetworkfabric.models.IdentitySelector&text=IdentitySelector\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "StorageAccountConfiguration.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration.withStorageAccountId(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration.withStorageAccountId(String storageAccountId)"
+  name: "withStorageAccountId(String storageAccountId)"
+  nameWithType: "StorageAccountConfiguration.withStorageAccountId(String storageAccountId)"
+  summary: "Set the storage<wbr>Account<wbr>Id property: Network Fabric storage account resource identifier."
+  parameters:
+  - description: "the storageAccountId value to set."
+    name: "storageAccountId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public StorageAccountConfiguration withStorageAccountId(String storageAccountId)"
+  desc: "Set the storageAccountId property: Network Fabric storage account resource identifier."
+  returns:
+    description: "the StorageAccountConfiguration object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration&text=StorageAccountConfiguration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration.withStorageAccountIdentity(com.azure.resourcemanager.managednetworkfabric.models.IdentitySelector)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration.withStorageAccountIdentity(IdentitySelector storageAccountIdentity)"
+  name: "withStorageAccountIdentity(IdentitySelector storageAccountIdentity)"
+  nameWithType: "StorageAccountConfiguration.withStorageAccountIdentity(IdentitySelector storageAccountIdentity)"
+  summary: "Set the storage<wbr>Account<wbr>Identity property: The selection of the managed identity to use with this storage account."
+  parameters:
+  - description: "the storageAccountIdentity value to set."
+    name: "storageAccountIdentity"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IdentitySelector?alt=com.azure.resourcemanager.managednetworkfabric.models.IdentitySelector&text=IdentitySelector\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public StorageAccountConfiguration withStorageAccountIdentity(IdentitySelector storageAccountIdentity)"
+  desc: "Set the storageAccountIdentity property: The selection of the managed identity to use with this storage account. The identity type must be either system assigned or user assigned."
+  returns:
+    description: "the StorageAccountConfiguration object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration&text=StorageAccountConfiguration\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Storage account configuration."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.StorageAccountConfiguration&text=StorageAccountConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

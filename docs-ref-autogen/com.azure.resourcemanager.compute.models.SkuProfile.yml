@@ -40,6 +40,16 @@ methods:
   returns:
     description: "the allocationStrategy value."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.AllocationStrategy?alt=com.azure.resourcemanager.compute.models.AllocationStrategy&text=AllocationStrategy\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.SkuProfile.automaticSkuMigrationPolicy()"
+  fullName: "com.azure.resourcemanager.compute.models.SkuProfile.automaticSkuMigrationPolicy()"
+  name: "automaticSkuMigrationPolicy()"
+  nameWithType: "SkuProfile.automaticSkuMigrationPolicy()"
+  summary: "Get the automatic<wbr>Sku<wbr>Migration<wbr>Policy property: Specifies the policy that controls whether the platform may automatically migrate scale set instances to a different VM size from the SKU profile depending on platform demands."
+  syntax: "public AutomaticSkuMigrationPolicy automaticSkuMigrationPolicy()"
+  desc: "Get the automaticSkuMigrationPolicy property: Specifies the policy that controls whether the platform may automatically migrate scale set instances to a different VM size from the SKU profile depending on platform demands. When omitted, automatic SKU migration is disabled."
+  returns:
+    description: "the automaticSkuMigrationPolicy value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.AutomaticSkuMigrationPolicy?alt=com.azure.resourcemanager.compute.models.AutomaticSkuMigrationPolicy&text=AutomaticSkuMigrationPolicy\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.SkuProfile.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.compute.models.SkuProfile.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -102,6 +112,20 @@ methods:
   returns:
     description: "the SkuProfile object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.SkuProfile?alt=com.azure.resourcemanager.compute.models.SkuProfile&text=SkuProfile\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.SkuProfile.withAutomaticSkuMigrationPolicy(com.azure.resourcemanager.compute.models.AutomaticSkuMigrationPolicy)"
+  fullName: "com.azure.resourcemanager.compute.models.SkuProfile.withAutomaticSkuMigrationPolicy(AutomaticSkuMigrationPolicy automaticSkuMigrationPolicy)"
+  name: "withAutomaticSkuMigrationPolicy(AutomaticSkuMigrationPolicy automaticSkuMigrationPolicy)"
+  nameWithType: "SkuProfile.withAutomaticSkuMigrationPolicy(AutomaticSkuMigrationPolicy automaticSkuMigrationPolicy)"
+  summary: "Set the automatic<wbr>Sku<wbr>Migration<wbr>Policy property: Specifies the policy that controls whether the platform may automatically migrate scale set instances to a different VM size from the SKU profile depending on platform demands."
+  parameters:
+  - description: "the automaticSkuMigrationPolicy value to set."
+    name: "automaticSkuMigrationPolicy"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.AutomaticSkuMigrationPolicy?alt=com.azure.resourcemanager.compute.models.AutomaticSkuMigrationPolicy&text=AutomaticSkuMigrationPolicy\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SkuProfile withAutomaticSkuMigrationPolicy(AutomaticSkuMigrationPolicy automaticSkuMigrationPolicy)"
+  desc: "Set the automaticSkuMigrationPolicy property: Specifies the policy that controls whether the platform may automatically migrate scale set instances to a different VM size from the SKU profile depending on platform demands. When omitted, automatic SKU migration is disabled."
+  returns:
+    description: "the SkuProfile object itself."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.SkuProfile?alt=com.azure.resourcemanager.compute.models.SkuProfile&text=SkuProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.SkuProfile.withVmSizes(java.util.List<com.azure.resourcemanager.compute.models.SkuProfileVMSize>)"
   fullName: "com.azure.resourcemanager.compute.models.SkuProfile.withVmSizes(List<SkuProfileVMSize> vmSizes)"
   name: "withVmSizes(List<SkuProfileVMSize> vmSizes)"
@@ -122,4 +146,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.SkuProfile?alt=com.azure.resourcemanager.compute.models.SkuProfile&text=SkuProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

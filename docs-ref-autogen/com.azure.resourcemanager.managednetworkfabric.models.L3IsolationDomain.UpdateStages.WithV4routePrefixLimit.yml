@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.UpdateStages.WithV4routePrefixLimit"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.UpdateStages.WithV4routePrefixLimit"
+name: "L3IsolationDomain.UpdateStages.WithV4routePrefixLimit"
+nameWithType: "L3IsolationDomain.UpdateStages.WithV4routePrefixLimit"
+summary: "The stage of the L3Isolation<wbr>Domain update allowing to specify v4route<wbr>Prefix<wbr>Limit."
+syntax: "public static interface **L3IsolationDomain.UpdateStages.WithV4routePrefixLimit**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.UpdateStages.WithV4routePrefixLimit.withV4routePrefixLimit(com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.UpdateStages.WithV4routePrefixLimit.withV4routePrefixLimit(RoutePrefixLimitPatchProperties v4routePrefixLimit)"
+  name: "withV4routePrefixLimit(RoutePrefixLimitPatchProperties v4routePrefixLimit)"
+  nameWithType: "L3IsolationDomain.UpdateStages.WithV4routePrefixLimit.withV4routePrefixLimit(RoutePrefixLimitPatchProperties v4routePrefixLimit)"
+  summary: "Specifies the v4route<wbr>Prefix<wbr>Limit property: IPv4 VRF Limit configuration.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "IPv4 VRF Limit configuration."
+    name: "v4routePrefixLimit"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties&text=RoutePrefixLimitPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract L3IsolationDomain.Update withV4routePrefixLimit(RoutePrefixLimitPatchProperties v4routePrefixLimit)"
+  desc: "Specifies the v4routePrefixLimit property: IPv4 VRF Limit configuration.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.Update?alt=com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the L3IsolationDomain update allowing to specify v4routePrefixLimit."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

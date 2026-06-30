@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.DefinitionStages.WithSerialNumber"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.DefinitionStages.WithSerialNumber"
+name: "NetworkBootstrapInterface.DefinitionStages.WithSerialNumber"
+nameWithType: "NetworkBootstrapInterface.DefinitionStages.WithSerialNumber"
+summary: "The stage of the Network<wbr>Bootstrap<wbr>Interface definition allowing to specify serial<wbr>Number."
+syntax: "public static interface **NetworkBootstrapInterface.DefinitionStages.WithSerialNumber**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.DefinitionStages.WithSerialNumber.withSerialNumber(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.DefinitionStages.WithSerialNumber.withSerialNumber(String serialNumber)"
+  name: "withSerialNumber(String serialNumber)"
+  nameWithType: "NetworkBootstrapInterface.DefinitionStages.WithSerialNumber.withSerialNumber(String serialNumber)"
+  summary: "Specifies the serial<wbr>Number property: Serial number of the interface."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Serial number of the interface. Format of serial Number -\n Make;Model;HardwareRevisionId;SerialNumber."
+    name: "serialNumber"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract NetworkBootstrapInterface.DefinitionStages.WithCreate withSerialNumber(String serialNumber)"
+  desc: "Specifies the serialNumber property: Serial number of the interface. Format of serial Number - Make;Model;HardwareRevisionId;SerialNumber.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkBootstrapInterface definition allowing to specify serialNumber."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

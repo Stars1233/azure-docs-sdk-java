@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.UpdateStages.WithExtendedVlan"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.UpdateStages.WithExtendedVlan"
+name: "L2IsolationDomain.UpdateStages.WithExtendedVlan"
+nameWithType: "L2IsolationDomain.UpdateStages.WithExtendedVlan"
+summary: "The stage of the L2Isolation<wbr>Domain update allowing to specify extended<wbr>Vlan."
+syntax: "public static interface **L2IsolationDomain.UpdateStages.WithExtendedVlan**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.UpdateStages.WithExtendedVlan.withExtendedVlan(com.azure.resourcemanager.managednetworkfabric.models.ExtendedVlan)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.UpdateStages.WithExtendedVlan.withExtendedVlan(ExtendedVlan extendedVlan)"
+  name: "withExtendedVlan(ExtendedVlan extendedVlan)"
+  nameWithType: "L2IsolationDomain.UpdateStages.WithExtendedVlan.withExtendedVlan(ExtendedVlan extendedVlan)"
+  summary: "Specifies the extended<wbr>Vlan property: Extended VLAN status.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Extended VLAN status."
+    name: "extendedVlan"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExtendedVlan?alt=com.azure.resourcemanager.managednetworkfabric.models.ExtendedVlan&text=ExtendedVlan\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract L2IsolationDomain.Update withExtendedVlan(ExtendedVlan extendedVlan)"
+  desc: "Specifies the extendedVlan property: Extended VLAN status.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.Update?alt=com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the L2IsolationDomain update allowing to specify extendedVlan."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

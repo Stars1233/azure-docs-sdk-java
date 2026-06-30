@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithQosConfiguration"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithQosConfiguration"
+name: "NetworkFabric.DefinitionStages.WithQosConfiguration"
+nameWithType: "NetworkFabric.DefinitionStages.WithQosConfiguration"
+summary: "The stage of the Network<wbr>Fabric definition allowing to specify qos<wbr>Configuration."
+syntax: "public static interface **NetworkFabric.DefinitionStages.WithQosConfiguration**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithQosConfiguration.withQosConfiguration(com.azure.resourcemanager.managednetworkfabric.models.QosProperties)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithQosConfiguration.withQosConfiguration(QosProperties qosConfiguration)"
+  name: "withQosConfiguration(QosProperties qosConfiguration)"
+  nameWithType: "NetworkFabric.DefinitionStages.WithQosConfiguration.withQosConfiguration(QosProperties qosConfiguration)"
+  summary: "Specifies the qos<wbr>Configuration property: Network<wbr>Fabric QoS Configuration."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "NetworkFabric QoS Configuration."
+    name: "qosConfiguration"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.QosProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.QosProperties&text=QosProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NetworkFabric.DefinitionStages.WithCreate withQosConfiguration(QosProperties qosConfiguration)"
+  desc: "Specifies the qosConfiguration property: NetworkFabric QoS Configuration."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkFabric definition allowing to specify qosConfiguration."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

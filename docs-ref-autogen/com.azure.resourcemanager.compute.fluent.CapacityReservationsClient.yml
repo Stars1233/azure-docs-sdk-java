@@ -535,10 +535,10 @@ methods:
   returns:
     description: "the list capacity reservation operation response as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.CapacityReservationInner?alt=com.azure.resourcemanager.compute.fluent.models.CapacityReservationInner&text=CapacityReservationInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.compute.fluent.CapacityReservationsClient.listByCapacityReservationGroup(java.lang.String,java.lang.String,com.azure.core.util.Context)"
-  fullName: "com.azure.resourcemanager.compute.fluent.CapacityReservationsClient.listByCapacityReservationGroup(String resourceGroupName, String capacityReservationGroupName, Context context)"
-  name: "listByCapacityReservationGroup(String resourceGroupName, String capacityReservationGroupName, Context context)"
-  nameWithType: "CapacityReservationsClient.listByCapacityReservationGroup(String resourceGroupName, String capacityReservationGroupName, Context context)"
+- uid: "com.azure.resourcemanager.compute.fluent.CapacityReservationsClient.listByCapacityReservationGroup(java.lang.String,java.lang.String,com.azure.resourcemanager.compute.models.ExpandTypesForGetCapacityReservationGroups,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.compute.fluent.CapacityReservationsClient.listByCapacityReservationGroup(String resourceGroupName, String capacityReservationGroupName, ExpandTypesForGetCapacityReservationGroups expand, Context context)"
+  name: "listByCapacityReservationGroup(String resourceGroupName, String capacityReservationGroupName, ExpandTypesForGetCapacityReservationGroups expand, Context context)"
+  nameWithType: "CapacityReservationsClient.listByCapacityReservationGroup(String resourceGroupName, String capacityReservationGroupName, ExpandTypesForGetCapacityReservationGroups expand, Context context)"
   summary: "Lists all of the capacity reservations in the specified capacity reservation group."
   modifiers:
   - "abstract"
@@ -549,10 +549,13 @@ methods:
   - description: "The name of the capacity reservation group."
     name: "capacityReservationGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The expand expression to apply on the operation. Based on the expand param(s) specified we return\n Virtual Machine or ScaleSet VM Instance or both resource Ids which are associated to capacity reservation group\n in the response."
+    name: "expand"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.ExpandTypesForGetCapacityReservationGroups?alt=com.azure.resourcemanager.compute.models.ExpandTypesForGetCapacityReservationGroups&text=ExpandTypesForGetCapacityReservationGroups\" data-throw-if-not-resolved=\"False\" />"
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract PagedIterable<CapacityReservationInner> listByCapacityReservationGroup(String resourceGroupName, String capacityReservationGroupName, Context context)"
+  syntax: "public abstract PagedIterable<CapacityReservationInner> listByCapacityReservationGroup(String resourceGroupName, String capacityReservationGroupName, ExpandTypesForGetCapacityReservationGroups expand, Context context)"
   desc: "Lists all of the capacity reservations in the specified capacity reservation group. Use the nextLink property in the response to get the next page of capacity reservations."
   returns:
     description: "the list capacity reservation operation response as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
@@ -572,6 +575,28 @@ methods:
     name: "capacityReservationGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedFlux<CapacityReservationInner> listByCapacityReservationGroupAsync(String resourceGroupName, String capacityReservationGroupName)"
+  desc: "Lists all of the capacity reservations in the specified capacity reservation group. Use the nextLink property in the response to get the next page of capacity reservations."
+  returns:
+    description: "the list capacity reservation operation response as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.CapacityReservationInner?alt=com.azure.resourcemanager.compute.fluent.models.CapacityReservationInner&text=CapacityReservationInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.compute.fluent.CapacityReservationsClient.listByCapacityReservationGroupAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.compute.models.ExpandTypesForGetCapacityReservationGroups)"
+  fullName: "com.azure.resourcemanager.compute.fluent.CapacityReservationsClient.listByCapacityReservationGroupAsync(String resourceGroupName, String capacityReservationGroupName, ExpandTypesForGetCapacityReservationGroups expand)"
+  name: "listByCapacityReservationGroupAsync(String resourceGroupName, String capacityReservationGroupName, ExpandTypesForGetCapacityReservationGroups expand)"
+  nameWithType: "CapacityReservationsClient.listByCapacityReservationGroupAsync(String resourceGroupName, String capacityReservationGroupName, ExpandTypesForGetCapacityReservationGroups expand)"
+  summary: "Lists all of the capacity reservations in the specified capacity reservation group."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the capacity reservation group."
+    name: "capacityReservationGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The expand expression to apply on the operation. Based on the expand param(s) specified we return\n Virtual Machine or ScaleSet VM Instance or both resource Ids which are associated to capacity reservation group\n in the response."
+    name: "expand"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.ExpandTypesForGetCapacityReservationGroups?alt=com.azure.resourcemanager.compute.models.ExpandTypesForGetCapacityReservationGroups&text=ExpandTypesForGetCapacityReservationGroups\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PagedFlux<CapacityReservationInner> listByCapacityReservationGroupAsync(String resourceGroupName, String capacityReservationGroupName, ExpandTypesForGetCapacityReservationGroups expand)"
   desc: "Lists all of the capacity reservations in the specified capacity reservation group. Use the nextLink property in the response to get the next page of capacity reservations."
   returns:
     description: "the list capacity reservation operation response as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
@@ -683,4 +708,4 @@ type: "interface"
 desc: "An instance of this class provides access to all the operations defined in CapacityReservationsClient."
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

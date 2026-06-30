@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithAuthorizedTransceiver"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithAuthorizedTransceiver"
+name: "NetworkFabric.DefinitionStages.WithAuthorizedTransceiver"
+nameWithType: "NetworkFabric.DefinitionStages.WithAuthorizedTransceiver"
+summary: "The stage of the Network<wbr>Fabric definition allowing to specify authorized<wbr>Transceiver."
+syntax: "public static interface **NetworkFabric.DefinitionStages.WithAuthorizedTransceiver**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithAuthorizedTransceiver.withAuthorizedTransceiver(com.azure.resourcemanager.managednetworkfabric.models.AuthorizedTransceiverProperties)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithAuthorizedTransceiver.withAuthorizedTransceiver(AuthorizedTransceiverProperties authorizedTransceiver)"
+  name: "withAuthorizedTransceiver(AuthorizedTransceiverProperties authorizedTransceiver)"
+  nameWithType: "NetworkFabric.DefinitionStages.WithAuthorizedTransceiver.withAuthorizedTransceiver(AuthorizedTransceiverProperties authorizedTransceiver)"
+  summary: "Specifies the authorized<wbr>Transceiver property: Authorized transciever configuration for Network<wbr>Fabric.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Authorized transciever configuration for NetworkFabric."
+    name: "authorizedTransceiver"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AuthorizedTransceiverProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.AuthorizedTransceiverProperties&text=AuthorizedTransceiverProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NetworkFabric.DefinitionStages.WithCreate withAuthorizedTransceiver(AuthorizedTransceiverProperties authorizedTransceiver)"
+  desc: "Specifies the authorizedTransceiver property: Authorized transciever configuration for NetworkFabric.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkFabric definition allowing to specify authorizedTransceiver."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

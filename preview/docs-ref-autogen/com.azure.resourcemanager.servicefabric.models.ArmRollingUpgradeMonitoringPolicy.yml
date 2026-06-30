@@ -65,7 +65,7 @@ methods:
   nameWithType: "ArmRollingUpgradeMonitoringPolicy.healthCheckRetryTimeout()"
   summary: "Get the health<wbr>Check<wbr>Retry<wbr>Timeout property: The amount of time to retry health evaluation when the application or cluster is unhealthy before Failure<wbr>Action is executed."
   syntax: "public String healthCheckRetryTimeout()"
-  desc: "Get the healthCheckRetryTimeout property: The amount of time to retry health evaluation when the application or cluster is unhealthy before FailureAction is executed. It is first interpreted as a string representing an ISO 8601 duration. If that fails, then it is interpreted as a number representing the total number of milliseconds."
+  desc: "Get the healthCheckRetryTimeout property: The amount of time to retry health evaluation when the application or cluster is unhealthy before FailureAction is executed. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\"."
   returns:
     description: "the healthCheckRetryTimeout value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -75,7 +75,7 @@ methods:
   nameWithType: "ArmRollingUpgradeMonitoringPolicy.healthCheckStableDuration()"
   summary: "Get the health<wbr>Check<wbr>Stable<wbr>Duration property: The amount of time that the application or cluster must remain healthy before the upgrade proceeds to the next upgrade domain."
   syntax: "public String healthCheckStableDuration()"
-  desc: "Get the healthCheckStableDuration property: The amount of time that the application or cluster must remain healthy before the upgrade proceeds to the next upgrade domain. It is first interpreted as a string representing an ISO 8601 duration. If that fails, then it is interpreted as a number representing the total number of milliseconds."
+  desc: "Get the healthCheckStableDuration property: The amount of time that the application or cluster must remain healthy before the upgrade proceeds to the next upgrade domain. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\"."
   returns:
     description: "the healthCheckStableDuration value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -85,7 +85,7 @@ methods:
   nameWithType: "ArmRollingUpgradeMonitoringPolicy.healthCheckWaitDuration()"
   summary: "Get the health<wbr>Check<wbr>Wait<wbr>Duration property: The amount of time to wait after completing an upgrade domain before applying health policies."
   syntax: "public String healthCheckWaitDuration()"
-  desc: "Get the healthCheckWaitDuration property: The amount of time to wait after completing an upgrade domain before applying health policies. It is first interpreted as a string representing an ISO 8601 duration. If that fails, then it is interpreted as a number representing the total number of milliseconds."
+  desc: "Get the healthCheckWaitDuration property: The amount of time to wait after completing an upgrade domain before applying health policies. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\"."
   returns:
     description: "the healthCheckWaitDuration value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -107,7 +107,7 @@ methods:
   nameWithType: "ArmRollingUpgradeMonitoringPolicy.upgradeDomainTimeout()"
   summary: "Get the upgrade<wbr>Domain<wbr>Timeout property: The amount of time each upgrade domain has to complete before Failure<wbr>Action is executed."
   syntax: "public String upgradeDomainTimeout()"
-  desc: "Get the upgradeDomainTimeout property: The amount of time each upgrade domain has to complete before FailureAction is executed. It is first interpreted as a string representing an ISO 8601 duration. If that fails, then it is interpreted as a number representing the total number of milliseconds."
+  desc: "Get the upgradeDomainTimeout property: The amount of time each upgrade domain has to complete before FailureAction is executed. Cannot be larger than 12 hours. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\"."
   returns:
     description: "the upgradeDomainTimeout value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -117,17 +117,10 @@ methods:
   nameWithType: "ArmRollingUpgradeMonitoringPolicy.upgradeTimeout()"
   summary: "Get the upgrade<wbr>Timeout property: The amount of time the overall upgrade has to complete before Failure<wbr>Action is executed."
   syntax: "public String upgradeTimeout()"
-  desc: "Get the upgradeTimeout property: The amount of time the overall upgrade has to complete before FailureAction is executed. It is first interpreted as a string representing an ISO 8601 duration. If that fails, then it is interpreted as a number representing the total number of milliseconds."
+  desc: "Get the upgradeTimeout property: The amount of time the overall upgrade has to complete before FailureAction is executed. Cannot be larger than 12 hours. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\"."
   returns:
     description: "the upgradeTimeout value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.servicefabric.models.ArmRollingUpgradeMonitoringPolicy.validate()"
-  fullName: "com.azure.resourcemanager.servicefabric.models.ArmRollingUpgradeMonitoringPolicy.validate()"
-  name: "validate()"
-  nameWithType: "ArmRollingUpgradeMonitoringPolicy.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.servicefabric.models.ArmRollingUpgradeMonitoringPolicy.withFailureAction(com.azure.resourcemanager.servicefabric.models.ArmUpgradeFailureAction)"
   fullName: "com.azure.resourcemanager.servicefabric.models.ArmRollingUpgradeMonitoringPolicy.withFailureAction(ArmUpgradeFailureAction failureAction)"
   name: "withFailureAction(ArmUpgradeFailureAction failureAction)"
@@ -152,7 +145,7 @@ methods:
     name: "healthCheckRetryTimeout"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public ArmRollingUpgradeMonitoringPolicy withHealthCheckRetryTimeout(String healthCheckRetryTimeout)"
-  desc: "Set the healthCheckRetryTimeout property: The amount of time to retry health evaluation when the application or cluster is unhealthy before FailureAction is executed. It is first interpreted as a string representing an ISO 8601 duration. If that fails, then it is interpreted as a number representing the total number of milliseconds."
+  desc: "Set the healthCheckRetryTimeout property: The amount of time to retry health evaluation when the application or cluster is unhealthy before FailureAction is executed. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\"."
   returns:
     description: "the ArmRollingUpgradeMonitoringPolicy object itself."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ArmRollingUpgradeMonitoringPolicy?alt=com.azure.resourcemanager.servicefabric.models.ArmRollingUpgradeMonitoringPolicy&text=ArmRollingUpgradeMonitoringPolicy\" data-throw-if-not-resolved=\"False\" />"
@@ -166,7 +159,7 @@ methods:
     name: "healthCheckStableDuration"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public ArmRollingUpgradeMonitoringPolicy withHealthCheckStableDuration(String healthCheckStableDuration)"
-  desc: "Set the healthCheckStableDuration property: The amount of time that the application or cluster must remain healthy before the upgrade proceeds to the next upgrade domain. It is first interpreted as a string representing an ISO 8601 duration. If that fails, then it is interpreted as a number representing the total number of milliseconds."
+  desc: "Set the healthCheckStableDuration property: The amount of time that the application or cluster must remain healthy before the upgrade proceeds to the next upgrade domain. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\"."
   returns:
     description: "the ArmRollingUpgradeMonitoringPolicy object itself."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ArmRollingUpgradeMonitoringPolicy?alt=com.azure.resourcemanager.servicefabric.models.ArmRollingUpgradeMonitoringPolicy&text=ArmRollingUpgradeMonitoringPolicy\" data-throw-if-not-resolved=\"False\" />"
@@ -180,7 +173,7 @@ methods:
     name: "healthCheckWaitDuration"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public ArmRollingUpgradeMonitoringPolicy withHealthCheckWaitDuration(String healthCheckWaitDuration)"
-  desc: "Set the healthCheckWaitDuration property: The amount of time to wait after completing an upgrade domain before applying health policies. It is first interpreted as a string representing an ISO 8601 duration. If that fails, then it is interpreted as a number representing the total number of milliseconds."
+  desc: "Set the healthCheckWaitDuration property: The amount of time to wait after completing an upgrade domain before applying health policies. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\"."
   returns:
     description: "the ArmRollingUpgradeMonitoringPolicy object itself."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ArmRollingUpgradeMonitoringPolicy?alt=com.azure.resourcemanager.servicefabric.models.ArmRollingUpgradeMonitoringPolicy&text=ArmRollingUpgradeMonitoringPolicy\" data-throw-if-not-resolved=\"False\" />"
@@ -194,7 +187,7 @@ methods:
     name: "upgradeDomainTimeout"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public ArmRollingUpgradeMonitoringPolicy withUpgradeDomainTimeout(String upgradeDomainTimeout)"
-  desc: "Set the upgradeDomainTimeout property: The amount of time each upgrade domain has to complete before FailureAction is executed. It is first interpreted as a string representing an ISO 8601 duration. If that fails, then it is interpreted as a number representing the total number of milliseconds."
+  desc: "Set the upgradeDomainTimeout property: The amount of time each upgrade domain has to complete before FailureAction is executed. Cannot be larger than 12 hours. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\"."
   returns:
     description: "the ArmRollingUpgradeMonitoringPolicy object itself."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ArmRollingUpgradeMonitoringPolicy?alt=com.azure.resourcemanager.servicefabric.models.ArmRollingUpgradeMonitoringPolicy&text=ArmRollingUpgradeMonitoringPolicy\" data-throw-if-not-resolved=\"False\" />"
@@ -208,7 +201,7 @@ methods:
     name: "upgradeTimeout"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public ArmRollingUpgradeMonitoringPolicy withUpgradeTimeout(String upgradeTimeout)"
-  desc: "Set the upgradeTimeout property: The amount of time the overall upgrade has to complete before FailureAction is executed. It is first interpreted as a string representing an ISO 8601 duration. If that fails, then it is interpreted as a number representing the total number of milliseconds."
+  desc: "Set the upgradeTimeout property: The amount of time the overall upgrade has to complete before FailureAction is executed. Cannot be larger than 12 hours. It is interpreted as a string representing an ISO 8601 duration with following format \"hh:mm:ss.fff\"."
   returns:
     description: "the ArmRollingUpgradeMonitoringPolicy object itself."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ArmRollingUpgradeMonitoringPolicy?alt=com.azure.resourcemanager.servicefabric.models.ArmRollingUpgradeMonitoringPolicy&text=ArmRollingUpgradeMonitoringPolicy\" data-throw-if-not-resolved=\"False\" />"
@@ -218,4 +211,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.models.ArmRollingUpgradeMonitoringPolicy?alt=com.azure.resourcemanager.servicefabric.models.ArmRollingUpgradeMonitoringPolicy&text=ArmRollingUpgradeMonitoringPolicy\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

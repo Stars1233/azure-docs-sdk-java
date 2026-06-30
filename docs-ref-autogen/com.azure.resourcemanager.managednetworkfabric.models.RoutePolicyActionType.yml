@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyActionType.CONTINUE"
   name: "CONTINUE"
   nameWithType: "RoutePolicyActionType.CONTINUE"
-  summary: "Static value Continue for Route<wbr>Policy<wbr>Action<wbr>Type."
+  summary: "Route<wbr>Policy<wbr>Action<wbr>Type-Continue."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyActionType?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyActionType&text=RoutePolicyActionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RoutePolicyActionType CONTINUE"
-  desc: "Static value Continue for RoutePolicyActionType."
+  desc: "RoutePolicyActionType-Continue."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyActionType.DENY"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyActionType.DENY"
   name: "DENY"
   nameWithType: "RoutePolicyActionType.DENY"
-  summary: "Static value Deny for Route<wbr>Policy<wbr>Action<wbr>Type."
+  summary: "Route<wbr>Policy<wbr>Action<wbr>Type-Deny."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyActionType?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyActionType&text=RoutePolicyActionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RoutePolicyActionType DENY"
-  desc: "Static value Deny for RoutePolicyActionType."
+  desc: "RoutePolicyActionType-Deny."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyActionType.PERMIT"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyActionType.PERMIT"
   name: "PERMIT"
   nameWithType: "RoutePolicyActionType.PERMIT"
-  summary: "Static value Permit for Route<wbr>Policy<wbr>Action<wbr>Type."
+  summary: "Route<wbr>Policy<wbr>Action<wbr>Type-Permit."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyActionType?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyActionType&text=RoutePolicyActionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RoutePolicyActionType PERMIT"
-  desc: "Static value Permit for RoutePolicyActionType."
+  desc: "RoutePolicyActionType-Permit."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyActionType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyActionType.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "Action type. Example: Permit | Deny | Continue."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

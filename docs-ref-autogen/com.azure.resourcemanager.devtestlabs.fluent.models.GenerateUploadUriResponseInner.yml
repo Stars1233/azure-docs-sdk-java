@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **GenerateUploadUriResponseInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.models.GenerateUploadUriResponseInner?alt=com.azure.resourcemanager.devtestlabs.fluent.models.GenerateUploadUriResponseInner&text=GenerateUploadUriResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.devtestlabs.fluent.models.GenerateUploadUriResponseInner.GenerateUploadUriResponseInner()"
-  fullName: "com.azure.resourcemanager.devtestlabs.fluent.models.GenerateUploadUriResponseInner.GenerateUploadUriResponseInner()"
-  name: "GenerateUploadUriResponseInner()"
-  nameWithType: "GenerateUploadUriResponseInner.GenerateUploadUriResponseInner()"
-  summary: "Creates an instance of Generate<wbr>Upload<wbr>Uri<wbr>Response<wbr>Inner class."
-  syntax: "public GenerateUploadUriResponseInner()"
-  desc: "Creates an instance of GenerateUploadUriResponseInner class."
 methods:
 - uid: "com.azure.resourcemanager.devtestlabs.fluent.models.GenerateUploadUriResponseInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.devtestlabs.fluent.models.GenerateUploadUriResponseInner.fromJson(JsonReader jsonReader)"
@@ -71,31 +63,10 @@ methods:
   returns:
     description: "the uploadUri value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.devtestlabs.fluent.models.GenerateUploadUriResponseInner.validate()"
-  fullName: "com.azure.resourcemanager.devtestlabs.fluent.models.GenerateUploadUriResponseInner.validate()"
-  name: "validate()"
-  nameWithType: "GenerateUploadUriResponseInner.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.devtestlabs.fluent.models.GenerateUploadUriResponseInner.withUploadUri(java.lang.String)"
-  fullName: "com.azure.resourcemanager.devtestlabs.fluent.models.GenerateUploadUriResponseInner.withUploadUri(String uploadUri)"
-  name: "withUploadUri(String uploadUri)"
-  nameWithType: "GenerateUploadUriResponseInner.withUploadUri(String uploadUri)"
-  summary: "Set the upload<wbr>Uri property: The upload URI for the VHD."
-  parameters:
-  - description: "the uploadUri value to set."
-    name: "uploadUri"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public GenerateUploadUriResponseInner withUploadUri(String uploadUri)"
-  desc: "Set the uploadUri property: The upload URI for the VHD."
-  returns:
-    description: "the GenerateUploadUriResponseInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.models.GenerateUploadUriResponseInner?alt=com.azure.resourcemanager.devtestlabs.fluent.models.GenerateUploadUriResponseInner&text=GenerateUploadUriResponseInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Response body for generating an upload URI."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.models.GenerateUploadUriResponseInner?alt=com.azure.resourcemanager.devtestlabs.fluent.models.GenerateUploadUriResponseInner&text=GenerateUploadUriResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.devtestlabs.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-devtestlabs:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-devtestlabs:1.2.0

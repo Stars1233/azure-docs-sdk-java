@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties"
+name: "RoutePrefixLimitPatchProperties"
+nameWithType: "RoutePrefixLimitPatchProperties"
+summary: "VRP Limit patch configuration."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **RoutePrefixLimitPatchProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties&text=RoutePrefixLimitPatchProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties.RoutePrefixLimitPatchProperties()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties.RoutePrefixLimitPatchProperties()"
+  name: "RoutePrefixLimitPatchProperties()"
+  nameWithType: "RoutePrefixLimitPatchProperties.RoutePrefixLimitPatchProperties()"
+  summary: "Creates an instance of Route<wbr>Prefix<wbr>Limit<wbr>Patch<wbr>Properties class."
+  syntax: "public RoutePrefixLimitPatchProperties()"
+  desc: "Creates an instance of RoutePrefixLimitPatchProperties class."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "RoutePrefixLimitPatchProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Route<wbr>Prefix<wbr>Limit<wbr>Patch<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static RoutePrefixLimitPatchProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the RoutePrefixLimitPatchProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of RoutePrefixLimitPatchProperties from the JsonReader."
+  returns:
+    description: "An instance of RoutePrefixLimitPatchProperties if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties&text=RoutePrefixLimitPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties.hardLimit()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties.hardLimit()"
+  name: "hardLimit()"
+  nameWithType: "RoutePrefixLimitPatchProperties.hardLimit()"
+  summary: "Get the hard<wbr>Limit property: Hard limit for the routes."
+  syntax: "public Integer hardLimit()"
+  desc: "Get the hardLimit property: Hard limit for the routes."
+  returns:
+    description: "the hardLimit value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties.threshold()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties.threshold()"
+  name: "threshold()"
+  nameWithType: "RoutePrefixLimitPatchProperties.threshold()"
+  summary: "Get the threshold property: Threshold for the routes."
+  syntax: "public Integer threshold()"
+  desc: "Get the threshold property: Threshold for the routes."
+  returns:
+    description: "the threshold value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "RoutePrefixLimitPatchProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties.withHardLimit(java.lang.Integer)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties.withHardLimit(Integer hardLimit)"
+  name: "withHardLimit(Integer hardLimit)"
+  nameWithType: "RoutePrefixLimitPatchProperties.withHardLimit(Integer hardLimit)"
+  summary: "Set the hard<wbr>Limit property: Hard limit for the routes."
+  parameters:
+  - description: "the hardLimit value to set."
+    name: "hardLimit"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+  syntax: "public RoutePrefixLimitPatchProperties withHardLimit(Integer hardLimit)"
+  desc: "Set the hardLimit property: Hard limit for the routes."
+  returns:
+    description: "the RoutePrefixLimitPatchProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties&text=RoutePrefixLimitPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties.withThreshold(java.lang.Integer)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties.withThreshold(Integer threshold)"
+  name: "withThreshold(Integer threshold)"
+  nameWithType: "RoutePrefixLimitPatchProperties.withThreshold(Integer threshold)"
+  summary: "Set the threshold property: Threshold for the routes."
+  parameters:
+  - description: "the threshold value to set."
+    name: "threshold"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+  syntax: "public RoutePrefixLimitPatchProperties withThreshold(Integer threshold)"
+  desc: "Set the threshold property: Threshold for the routes."
+  returns:
+    description: "the RoutePrefixLimitPatchProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties&text=RoutePrefixLimitPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "VRP Limit patch configuration."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePrefixLimitPatchProperties&text=RoutePrefixLimitPatchProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

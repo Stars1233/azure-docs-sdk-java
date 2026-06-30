@@ -27,7 +27,9 @@ constructors:
   name: "RunCommandDocumentBaseInner()"
   nameWithType: "RunCommandDocumentBaseInner.RunCommandDocumentBaseInner()"
   summary: "Creates an instance of Run<wbr>Command<wbr>Document<wbr>Base<wbr>Inner class."
-  syntax: "public RunCommandDocumentBaseInner()"
+  modifiers:
+  - "protected"
+  syntax: "protected RunCommandDocumentBaseInner()"
   desc: "Creates an instance of RunCommandDocumentBaseInner class."
 methods:
 - uid: "com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner.description()"
@@ -118,80 +120,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner.withDescription(java.lang.String)"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner.withDescription(String description)"
-  name: "withDescription(String description)"
-  nameWithType: "RunCommandDocumentBaseInner.withDescription(String description)"
-  summary: "Set the description property: The VM run command description."
-  parameters:
-  - description: "the description value to set."
-    name: "description"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public RunCommandDocumentBaseInner withDescription(String description)"
-  desc: "Set the description property: The VM run command description."
-  returns:
-    description: "the RunCommandDocumentBaseInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner?alt=com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner&text=RunCommandDocumentBaseInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner.withId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner.withId(String id)"
-  name: "withId(String id)"
-  nameWithType: "RunCommandDocumentBaseInner.withId(String id)"
-  summary: "Set the id property: The VM run command id."
-  parameters:
-  - description: "the id value to set."
-    name: "id"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public RunCommandDocumentBaseInner withId(String id)"
-  desc: "Set the id property: The VM run command id."
-  returns:
-    description: "the RunCommandDocumentBaseInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner?alt=com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner&text=RunCommandDocumentBaseInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner.withLabel(java.lang.String)"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner.withLabel(String label)"
-  name: "withLabel(String label)"
-  nameWithType: "RunCommandDocumentBaseInner.withLabel(String label)"
-  summary: "Set the label property: The VM run command label."
-  parameters:
-  - description: "the label value to set."
-    name: "label"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public RunCommandDocumentBaseInner withLabel(String label)"
-  desc: "Set the label property: The VM run command label."
-  returns:
-    description: "the RunCommandDocumentBaseInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner?alt=com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner&text=RunCommandDocumentBaseInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner.withOsType(com.azure.resourcemanager.compute.models.OperatingSystemTypes)"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner.withOsType(OperatingSystemTypes osType)"
-  name: "withOsType(OperatingSystemTypes osType)"
-  nameWithType: "RunCommandDocumentBaseInner.withOsType(OperatingSystemTypes osType)"
-  summary: "Set the os<wbr>Type property: The Operating System type."
-  parameters:
-  - description: "the osType value to set."
-    name: "osType"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.OperatingSystemTypes?alt=com.azure.resourcemanager.compute.models.OperatingSystemTypes&text=OperatingSystemTypes\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public RunCommandDocumentBaseInner withOsType(OperatingSystemTypes osType)"
-  desc: "Set the osType property: The Operating System type."
-  returns:
-    description: "the RunCommandDocumentBaseInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner?alt=com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner&text=RunCommandDocumentBaseInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner.withSchema(java.lang.String)"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner.withSchema(String schema)"
-  name: "withSchema(String schema)"
-  nameWithType: "RunCommandDocumentBaseInner.withSchema(String schema)"
-  summary: "Set the schema property: The VM run command schema."
-  parameters:
-  - description: "the schema value to set."
-    name: "schema"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public RunCommandDocumentBaseInner withSchema(String schema)"
-  desc: "Set the schema property: The VM run command schema."
-  returns:
-    description: "the RunCommandDocumentBaseInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner?alt=com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner&text=RunCommandDocumentBaseInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Describes the properties of a Run Command metadata."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner?alt=com.azure.resourcemanager.compute.fluent.models.RunCommandDocumentBaseInner&text=RunCommandDocumentBaseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

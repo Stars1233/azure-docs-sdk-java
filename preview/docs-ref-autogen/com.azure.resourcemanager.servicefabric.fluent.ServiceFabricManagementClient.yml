@@ -10,11 +10,11 @@ methods:
   fullName: "com.azure.resourcemanager.servicefabric.fluent.ServiceFabricManagementClient.getApiVersion()"
   name: "getApiVersion()"
   nameWithType: "ServiceFabricManagementClient.getApiVersion()"
-  summary: "Gets Api Version."
+  summary: "Gets Version parameter."
   modifiers:
   - "abstract"
   syntax: "public abstract String getApiVersion()"
-  desc: "Gets Api Version."
+  desc: "Gets Version parameter."
   returns:
     description: "the apiVersion value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -94,11 +94,11 @@ methods:
   fullName: "com.azure.resourcemanager.servicefabric.fluent.ServiceFabricManagementClient.getEndpoint()"
   name: "getEndpoint()"
   nameWithType: "ServiceFabricManagementClient.getEndpoint()"
-  summary: "Gets server parameter."
+  summary: "Gets Service host."
   modifiers:
   - "abstract"
   syntax: "public abstract String getEndpoint()"
-  desc: "Gets server parameter."
+  desc: "Gets Service host."
   returns:
     description: "the endpoint value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -142,16 +142,28 @@ methods:
   fullName: "com.azure.resourcemanager.servicefabric.fluent.ServiceFabricManagementClient.getSubscriptionId()"
   name: "getSubscriptionId()"
   nameWithType: "ServiceFabricManagementClient.getSubscriptionId()"
-  summary: "Gets The customer subscription identifier."
+  summary: "Gets The ID of the target subscription."
   modifiers:
   - "abstract"
   syntax: "public abstract String getSubscriptionId()"
-  desc: "Gets The customer subscription identifier."
+  desc: "Gets The ID of the target subscription. The value must be an UUID."
   returns:
     description: "the subscriptionId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.servicefabric.fluent.ServiceFabricManagementClient.getUnsupportedVmSizes()"
+  fullName: "com.azure.resourcemanager.servicefabric.fluent.ServiceFabricManagementClient.getUnsupportedVmSizes()"
+  name: "getUnsupportedVmSizes()"
+  nameWithType: "ServiceFabricManagementClient.getUnsupportedVmSizes()"
+  summary: "Gets the Unsupported<wbr>VmSizes<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract UnsupportedVmSizesClient getUnsupportedVmSizes()"
+  desc: "Gets the UnsupportedVmSizesClient object to access its operations."
+  returns:
+    description: "the UnsupportedVmSizesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.servicefabric.fluent.UnsupportedVmSizesClient?alt=com.azure.resourcemanager.servicefabric.fluent.UnsupportedVmSizesClient&text=UnsupportedVmSizesClient\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "The interface for ServiceFabricManagementClient class."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

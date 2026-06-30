@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType"
+name: "ExternalNetworkRouteType"
+nameWithType: "ExternalNetworkRouteType"
+summary: "External Network Route<wbr>Type."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ExternalNetworkRouteType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType&text=ExternalNetworkRouteType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType.ExternalNetworkRouteType()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType.ExternalNetworkRouteType()"
+  name: "ExternalNetworkRouteType()"
+  nameWithType: "ExternalNetworkRouteType.ExternalNetworkRouteType()"
+  summary: "Creates a new instance of External<wbr>Network<wbr>Route<wbr>Type value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public ExternalNetworkRouteType()"
+  desc: "Creates a new instance of ExternalNetworkRouteType value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType.OPTIONA"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType.OPTIONA"
+  name: "OPTIONA"
+  nameWithType: "ExternalNetworkRouteType.OPTIONA"
+  summary: "External<wbr>Network OptionA."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType&text=ExternalNetworkRouteType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ExternalNetworkRouteType OPTIONA"
+  desc: "ExternalNetwork OptionA."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType.STATIC"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType.STATIC"
+  name: "STATIC"
+  nameWithType: "ExternalNetworkRouteType.STATIC"
+  summary: "External<wbr>Network Static."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType&text=ExternalNetworkRouteType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ExternalNetworkRouteType STATIC"
+  desc: "ExternalNetwork Static."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "ExternalNetworkRouteType.fromString(String name)"
+  summary: "Creates or finds a External<wbr>Network<wbr>Route<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static ExternalNetworkRouteType fromString(String name)"
+  desc: "Creates or finds a ExternalNetworkRouteType from its string representation."
+  returns:
+    description: "the corresponding ExternalNetworkRouteType."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType&text=ExternalNetworkRouteType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType.values()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType.values()"
+  name: "values()"
+  nameWithType: "ExternalNetworkRouteType.values()"
+  summary: "Gets known External<wbr>Network<wbr>Route<wbr>Type values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<ExternalNetworkRouteType> values()"
+  desc: "Gets known ExternalNetworkRouteType values."
+  returns:
+    description: "known ExternalNetworkRouteType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkRouteType&text=ExternalNetworkRouteType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "External Network RouteType."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

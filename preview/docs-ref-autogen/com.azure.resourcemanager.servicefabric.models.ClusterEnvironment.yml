@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.servicefabric.models.ClusterEnvironment.LINUX"
   name: "LINUX"
   nameWithType: "ClusterEnvironment.LINUX"
-  summary: "Static value Linux for Cluster<wbr>Environment."
+  summary: "Linux operating system."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ClusterEnvironment?alt=com.azure.resourcemanager.servicefabric.models.ClusterEnvironment&text=ClusterEnvironment\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ClusterEnvironment LINUX"
-  desc: "Static value Linux for ClusterEnvironment."
+  desc: "Linux operating system."
 - uid: "com.azure.resourcemanager.servicefabric.models.ClusterEnvironment.WINDOWS"
   fullName: "com.azure.resourcemanager.servicefabric.models.ClusterEnvironment.WINDOWS"
   name: "WINDOWS"
   nameWithType: "ClusterEnvironment.WINDOWS"
-  summary: "Static value Windows for Cluster<wbr>Environment."
+  summary: "Windows operating system."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ClusterEnvironment?alt=com.azure.resourcemanager.servicefabric.models.ClusterEnvironment&text=ClusterEnvironment\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ClusterEnvironment WINDOWS"
-  desc: "Static value Windows for ClusterEnvironment."
+  desc: "Windows operating system."
 methods:
 - uid: "com.azure.resourcemanager.servicefabric.models.ClusterEnvironment.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.servicefabric.models.ClusterEnvironment.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Cluster operating system, the default will be Windows."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

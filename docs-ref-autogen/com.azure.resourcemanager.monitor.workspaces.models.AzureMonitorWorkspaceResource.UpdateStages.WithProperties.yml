@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.UpdateStages.WithProperties"
+fullName: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.UpdateStages.WithProperties"
+name: "AzureMonitorWorkspaceResource.UpdateStages.WithProperties"
+nameWithType: "AzureMonitorWorkspaceResource.UpdateStages.WithProperties"
+summary: "The stage of the Azure<wbr>Monitor<wbr>Workspace<wbr>Resource update allowing to specify properties."
+syntax: "public static interface **AzureMonitorWorkspaceResource.UpdateStages.WithProperties**"
+methods:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.UpdateStages.WithProperties.withProperties(com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspace)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.UpdateStages.WithProperties.withProperties(AzureMonitorWorkspace properties)"
+  name: "withProperties(AzureMonitorWorkspace properties)"
+  nameWithType: "AzureMonitorWorkspaceResource.UpdateStages.WithProperties.withProperties(AzureMonitorWorkspace properties)"
+  summary: "Specifies the properties property: Resource properties."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Resource properties."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspace?alt=com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspace&text=AzureMonitorWorkspace\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract AzureMonitorWorkspaceResource.Update withProperties(AzureMonitorWorkspace properties)"
+  desc: "Specifies the properties property: Resource properties."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.Update?alt=com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the AzureMonitorWorkspaceResource update allowing to specify properties."
+metadata: {}
+package: "com.azure.resourcemanager.monitor.workspaces.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor-workspaces:1.0.0

@@ -26,7 +26,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllers.delete(String resourceGroupName, String networkFabricControllerName, Context context)"
   name: "delete(String resourceGroupName, String networkFabricControllerName, Context context)"
   nameWithType: "NetworkFabricControllers.delete(String resourceGroupName, String networkFabricControllerName, Context context)"
-  summary: "Deletes a Network Fabric Controller."
+  summary: "Deletes the Network Fabric Controller resource."
   modifiers:
   - "abstract"
   parameters:
@@ -40,12 +40,12 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void delete(String resourceGroupName, String networkFabricControllerName, Context context)"
-  desc: "Deletes a Network Fabric Controller. Deletes the Network Fabric Controller resource."
+  desc: "Deletes the Network Fabric Controller resource."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllers.deleteById(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllers.deleteById(String id)"
   name: "deleteById(String id)"
   nameWithType: "NetworkFabricControllers.deleteById(String id)"
-  summary: "Deletes a Network Fabric Controller."
+  summary: "Deletes the Network Fabric Controller resource."
   modifiers:
   - "abstract"
   parameters:
@@ -53,12 +53,12 @@ methods:
     name: "id"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void deleteById(String id)"
-  desc: "Deletes a Network Fabric Controller. Deletes the Network Fabric Controller resource."
+  desc: "Deletes the Network Fabric Controller resource."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllers.deleteByIdWithResponse(java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllers.deleteByIdWithResponse(String id, Context context)"
   name: "deleteByIdWithResponse(String id, Context context)"
   nameWithType: "NetworkFabricControllers.deleteByIdWithResponse(String id, Context context)"
-  summary: "Deletes a Network Fabric Controller."
+  summary: "Deletes the Network Fabric Controller resource."
   modifiers:
   - "abstract"
   parameters:
@@ -69,12 +69,12 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void deleteByIdWithResponse(String id, Context context)"
-  desc: "Deletes a Network Fabric Controller. Deletes the Network Fabric Controller resource."
+  desc: "Deletes the Network Fabric Controller resource."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllers.deleteByResourceGroup(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllers.deleteByResourceGroup(String resourceGroupName, String networkFabricControllerName)"
   name: "deleteByResourceGroup(String resourceGroupName, String networkFabricControllerName)"
   nameWithType: "NetworkFabricControllers.deleteByResourceGroup(String resourceGroupName, String networkFabricControllerName)"
-  summary: "Deletes a Network Fabric Controller."
+  summary: "Deletes the Network Fabric Controller resource."
   modifiers:
   - "abstract"
   parameters:
@@ -85,12 +85,12 @@ methods:
     name: "networkFabricControllerName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void deleteByResourceGroup(String resourceGroupName, String networkFabricControllerName)"
-  desc: "Deletes a Network Fabric Controller. Deletes the Network Fabric Controller resource."
+  desc: "Deletes the Network Fabric Controller resource."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllers.getById(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllers.getById(String id)"
   name: "getById(String id)"
   nameWithType: "NetworkFabricControllers.getById(String id)"
-  summary: "Gets a Network Fabric Controller."
+  summary: "Shows the provisioning status of Network Fabric Controller."
   modifiers:
   - "abstract"
   parameters:
@@ -98,7 +98,7 @@ methods:
     name: "id"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract NetworkFabricController getById(String id)"
-  desc: "Gets a Network Fabric Controller. Shows the provisioning status of Network Fabric Controller."
+  desc: "Shows the provisioning status of Network Fabric Controller."
   returns:
     description: "the Network Fabric Controller resource definition along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController&text=NetworkFabricController\" data-throw-if-not-resolved=\"False\" />"
@@ -106,7 +106,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllers.getByIdWithResponse(String id, Context context)"
   name: "getByIdWithResponse(String id, Context context)"
   nameWithType: "NetworkFabricControllers.getByIdWithResponse(String id, Context context)"
-  summary: "Gets a Network Fabric Controller."
+  summary: "Shows the provisioning status of Network Fabric Controller."
   modifiers:
   - "abstract"
   parameters:
@@ -117,7 +117,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<NetworkFabricController> getByIdWithResponse(String id, Context context)"
-  desc: "Gets a Network Fabric Controller. Shows the provisioning status of Network Fabric Controller."
+  desc: "Shows the provisioning status of Network Fabric Controller."
   returns:
     description: "the Network Fabric Controller resource definition along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController&text=NetworkFabricController\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -125,7 +125,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllers.getByResourceGroup(String resourceGroupName, String networkFabricControllerName)"
   name: "getByResourceGroup(String resourceGroupName, String networkFabricControllerName)"
   nameWithType: "NetworkFabricControllers.getByResourceGroup(String resourceGroupName, String networkFabricControllerName)"
-  summary: "Gets a Network Fabric Controller."
+  summary: "Shows the provisioning status of Network Fabric Controller."
   modifiers:
   - "abstract"
   parameters:
@@ -136,7 +136,7 @@ methods:
     name: "networkFabricControllerName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract NetworkFabricController getByResourceGroup(String resourceGroupName, String networkFabricControllerName)"
-  desc: "Gets a Network Fabric Controller. Shows the provisioning status of Network Fabric Controller."
+  desc: "Shows the provisioning status of Network Fabric Controller."
   returns:
     description: "the Network Fabric Controller resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController&text=NetworkFabricController\" data-throw-if-not-resolved=\"False\" />"
@@ -144,7 +144,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllers.getByResourceGroupWithResponse(String resourceGroupName, String networkFabricControllerName, Context context)"
   name: "getByResourceGroupWithResponse(String resourceGroupName, String networkFabricControllerName, Context context)"
   nameWithType: "NetworkFabricControllers.getByResourceGroupWithResponse(String resourceGroupName, String networkFabricControllerName, Context context)"
-  summary: "Gets a Network Fabric Controller."
+  summary: "Shows the provisioning status of Network Fabric Controller."
   modifiers:
   - "abstract"
   parameters:
@@ -158,7 +158,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<NetworkFabricController> getByResourceGroupWithResponse(String resourceGroupName, String networkFabricControllerName, Context context)"
-  desc: "Gets a Network Fabric Controller. Shows the provisioning status of Network Fabric Controller."
+  desc: "Shows the provisioning status of Network Fabric Controller."
   returns:
     description: "the Network Fabric Controller resource definition along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController&text=NetworkFabricController\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -166,19 +166,19 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllers.list()"
   name: "list()"
   nameWithType: "NetworkFabricControllers.list()"
-  summary: "List Network<wbr>Fabric<wbr>Controllers by subscription."
+  summary: "Lists all the Network<wbr>Fabric<wbr>Controllers by subscription."
   modifiers:
   - "abstract"
   syntax: "public abstract PagedIterable<NetworkFabricController> list()"
-  desc: "List NetworkFabricControllers by subscription. Lists all the NetworkFabricControllers by subscription."
+  desc: "Lists all the NetworkFabricControllers by subscription."
   returns:
-    description: "list of Network Fabric Controllers as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NetworkFabricController items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController&text=NetworkFabricController\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllers.list(com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllers.list(Context context)"
   name: "list(Context context)"
   nameWithType: "NetworkFabricControllers.list(Context context)"
-  summary: "List Network<wbr>Fabric<wbr>Controllers by subscription."
+  summary: "Lists all the Network<wbr>Fabric<wbr>Controllers by subscription."
   modifiers:
   - "abstract"
   parameters:
@@ -186,15 +186,15 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<NetworkFabricController> list(Context context)"
-  desc: "List NetworkFabricControllers by subscription. Lists all the NetworkFabricControllers by subscription."
+  desc: "Lists all the NetworkFabricControllers by subscription."
   returns:
-    description: "list of Network Fabric Controllers as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NetworkFabricController items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController&text=NetworkFabricController\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllers.listByResourceGroup(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllers.listByResourceGroup(String resourceGroupName)"
   name: "listByResourceGroup(String resourceGroupName)"
   nameWithType: "NetworkFabricControllers.listByResourceGroup(String resourceGroupName)"
-  summary: "List Network<wbr>Fabric<wbr>Controllers by resource group."
+  summary: "Lists all the Network<wbr>Fabric<wbr>Controllers thats available in the resource group."
   modifiers:
   - "abstract"
   parameters:
@@ -202,15 +202,15 @@ methods:
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<NetworkFabricController> listByResourceGroup(String resourceGroupName)"
-  desc: "List NetworkFabricControllers by resource group. Lists all the NetworkFabricControllers thats available in the resource group."
+  desc: "Lists all the NetworkFabricControllers thats available in the resource group."
   returns:
-    description: "list of Network Fabric Controllers as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NetworkFabricController items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController&text=NetworkFabricController\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllers.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllers.listByResourceGroup(String resourceGroupName, Context context)"
   name: "listByResourceGroup(String resourceGroupName, Context context)"
   nameWithType: "NetworkFabricControllers.listByResourceGroup(String resourceGroupName, Context context)"
-  summary: "List Network<wbr>Fabric<wbr>Controllers by resource group."
+  summary: "Lists all the Network<wbr>Fabric<wbr>Controllers thats available in the resource group."
   modifiers:
   - "abstract"
   parameters:
@@ -221,12 +221,12 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<NetworkFabricController> listByResourceGroup(String resourceGroupName, Context context)"
-  desc: "List NetworkFabricControllers by resource group. Lists all the NetworkFabricControllers thats available in the resource group."
+  desc: "Lists all the NetworkFabricControllers thats available in the resource group."
   returns:
-    description: "list of Network Fabric Controllers as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NetworkFabricController items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricController&text=NetworkFabricController\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 desc: "Resource collection API of NetworkFabricControllers."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

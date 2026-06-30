@@ -1,0 +1,85 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.servicefabric.models.VMSizeResource"
+fullName: "com.azure.resourcemanager.servicefabric.models.VMSizeResource"
+name: "VMSizeResource"
+nameWithType: "VMSizeResource"
+summary: "An immutable client-side representation of VMSize<wbr>Resource."
+syntax: "public interface **VMSizeResource**"
+methods:
+- uid: "com.azure.resourcemanager.servicefabric.models.VMSizeResource.id()"
+  fullName: "com.azure.resourcemanager.servicefabric.models.VMSizeResource.id()"
+  name: "id()"
+  nameWithType: "VMSizeResource.id()"
+  summary: "Gets the id property: Fully qualified resource Id for the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String id()"
+  desc: "Gets the id property: Fully qualified resource Id for the resource."
+  returns:
+    description: "the id value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.servicefabric.models.VMSizeResource.innerModel()"
+  fullName: "com.azure.resourcemanager.servicefabric.models.VMSizeResource.innerModel()"
+  name: "innerModel()"
+  nameWithType: "VMSizeResource.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>servicefabric.<wbr>fluent.<wbr>models.<wbr>VMSize<wbr>Resource<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VMSizeResourceInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.servicefabric.fluent.models.VMSizeResourceInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.VMSizeResourceInner?alt=com.azure.resourcemanager.servicefabric.fluent.models.VMSizeResourceInner&text=VMSizeResourceInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.servicefabric.models.VMSizeResource.name()"
+  fullName: "com.azure.resourcemanager.servicefabric.models.VMSizeResource.name()"
+  name: "name()"
+  nameWithType: "VMSizeResource.name()"
+  summary: "Gets the name property: The name of the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String name()"
+  desc: "Gets the name property: The name of the resource."
+  returns:
+    description: "the name value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.servicefabric.models.VMSizeResource.properties()"
+  fullName: "com.azure.resourcemanager.servicefabric.models.VMSizeResource.properties()"
+  name: "properties()"
+  nameWithType: "VMSizeResource.properties()"
+  summary: "Gets the properties property: VM Size properties."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VMSize properties()"
+  desc: "Gets the properties property: VM Size properties."
+  returns:
+    description: "the properties value."
+    type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.VMSize?alt=com.azure.resourcemanager.servicefabric.models.VMSize&text=VMSize\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.servicefabric.models.VMSizeResource.systemData()"
+  fullName: "com.azure.resourcemanager.servicefabric.models.VMSizeResource.systemData()"
+  name: "systemData()"
+  nameWithType: "VMSizeResource.systemData()"
+  summary: "Gets the system<wbr>Data property: Azure Resource Manager metadata containing created<wbr>By and modified<wbr>By information."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SystemData systemData()"
+  desc: "Gets the systemData property: Azure Resource Manager metadata containing createdBy and modifiedBy information."
+  returns:
+    description: "the systemData value."
+    type: "<xref href=\"com.azure.core.management.SystemData?alt=com.azure.core.management.SystemData&text=SystemData\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.servicefabric.models.VMSizeResource.type()"
+  fullName: "com.azure.resourcemanager.servicefabric.models.VMSizeResource.type()"
+  name: "type()"
+  nameWithType: "VMSizeResource.type()"
+  summary: "Gets the type property: The type of the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String type()"
+  desc: "Gets the type property: The type of the resource."
+  returns:
+    description: "the type value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "interface"
+desc: "An immutable client-side representation of VMSizeResource."
+metadata: {}
+package: "com.azure.resourcemanager.servicefabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

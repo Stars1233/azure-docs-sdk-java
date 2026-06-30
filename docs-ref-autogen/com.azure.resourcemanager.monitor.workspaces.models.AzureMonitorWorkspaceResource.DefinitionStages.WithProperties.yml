@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.DefinitionStages.WithProperties"
+fullName: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.DefinitionStages.WithProperties"
+name: "AzureMonitorWorkspaceResource.DefinitionStages.WithProperties"
+nameWithType: "AzureMonitorWorkspaceResource.DefinitionStages.WithProperties"
+summary: "The stage of the Azure<wbr>Monitor<wbr>Workspace<wbr>Resource definition allowing to specify properties."
+syntax: "public static interface **AzureMonitorWorkspaceResource.DefinitionStages.WithProperties**"
+methods:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.DefinitionStages.WithProperties.withProperties(com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspace)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.DefinitionStages.WithProperties.withProperties(AzureMonitorWorkspace properties)"
+  name: "withProperties(AzureMonitorWorkspace properties)"
+  nameWithType: "AzureMonitorWorkspaceResource.DefinitionStages.WithProperties.withProperties(AzureMonitorWorkspace properties)"
+  summary: "Specifies the properties property: Resource properties."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Resource properties."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspace?alt=com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspace&text=AzureMonitorWorkspace\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract AzureMonitorWorkspaceResource.DefinitionStages.WithCreate withProperties(AzureMonitorWorkspace properties)"
+  desc: "Specifies the properties property: Resource properties."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the AzureMonitorWorkspaceResource definition allowing to specify properties."
+metadata: {}
+package: "com.azure.resourcemanager.monitor.workspaces.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor-workspaces:1.0.0

@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapDevice.DefinitionStages.WithHostName"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapDevice.DefinitionStages.WithHostName"
+name: "NetworkBootstrapDevice.DefinitionStages.WithHostName"
+nameWithType: "NetworkBootstrapDevice.DefinitionStages.WithHostName"
+summary: "The stage of the Network<wbr>Bootstrap<wbr>Device definition allowing to specify host<wbr>Name."
+syntax: "public static interface **NetworkBootstrapDevice.DefinitionStages.WithHostName**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapDevice.DefinitionStages.WithHostName.withHostName(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapDevice.DefinitionStages.WithHostName.withHostName(String hostName)"
+  name: "withHostName(String hostName)"
+  nameWithType: "NetworkBootstrapDevice.DefinitionStages.WithHostName.withHostName(String hostName)"
+  summary: "Specifies the host<wbr>Name property: The host name of the device.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The host name of the device."
+    name: "hostName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract NetworkBootstrapDevice.DefinitionStages.WithCreate withHostName(String hostName)"
+  desc: "Specifies the hostName property: The host name of the device.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapDevice.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapDevice.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkBootstrapDevice definition allowing to specify hostName."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

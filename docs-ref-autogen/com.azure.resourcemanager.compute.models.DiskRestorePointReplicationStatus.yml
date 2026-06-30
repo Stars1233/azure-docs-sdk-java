@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **DiskRestorePointReplicationStatus**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.DiskRestorePointReplicationStatus?alt=com.azure.resourcemanager.compute.models.DiskRestorePointReplicationStatus&text=DiskRestorePointReplicationStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.compute.models.DiskRestorePointReplicationStatus.DiskRestorePointReplicationStatus()"
-  fullName: "com.azure.resourcemanager.compute.models.DiskRestorePointReplicationStatus.DiskRestorePointReplicationStatus()"
-  name: "DiskRestorePointReplicationStatus()"
-  nameWithType: "DiskRestorePointReplicationStatus.DiskRestorePointReplicationStatus()"
-  summary: "Creates an instance of Disk<wbr>Restore<wbr>Point<wbr>Replication<wbr>Status class."
-  syntax: "public DiskRestorePointReplicationStatus()"
-  desc: "Creates an instance of DiskRestorePointReplicationStatus class."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.DiskRestorePointReplicationStatus.completionPercent()"
   fullName: "com.azure.resourcemanager.compute.models.DiskRestorePointReplicationStatus.completionPercent()"
@@ -88,38 +80,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.compute.models.DiskRestorePointReplicationStatus.withCompletionPercent(java.lang.Integer)"
-  fullName: "com.azure.resourcemanager.compute.models.DiskRestorePointReplicationStatus.withCompletionPercent(Integer completionPercent)"
-  name: "withCompletionPercent(Integer completionPercent)"
-  nameWithType: "DiskRestorePointReplicationStatus.withCompletionPercent(Integer completionPercent)"
-  summary: "Set the completion<wbr>Percent property: Replication completion percentage."
-  parameters:
-  - description: "the completionPercent value to set."
-    name: "completionPercent"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-  syntax: "public DiskRestorePointReplicationStatus withCompletionPercent(Integer completionPercent)"
-  desc: "Set the completionPercent property: Replication completion percentage."
-  returns:
-    description: "the DiskRestorePointReplicationStatus object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskRestorePointReplicationStatus?alt=com.azure.resourcemanager.compute.models.DiskRestorePointReplicationStatus&text=DiskRestorePointReplicationStatus\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.models.DiskRestorePointReplicationStatus.withStatus(com.azure.resourcemanager.compute.models.InstanceViewStatus)"
-  fullName: "com.azure.resourcemanager.compute.models.DiskRestorePointReplicationStatus.withStatus(InstanceViewStatus status)"
-  name: "withStatus(InstanceViewStatus status)"
-  nameWithType: "DiskRestorePointReplicationStatus.withStatus(InstanceViewStatus status)"
-  summary: "Set the status property: The resource status information."
-  parameters:
-  - description: "the status value to set."
-    name: "status"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.InstanceViewStatus?alt=com.azure.resourcemanager.compute.models.InstanceViewStatus&text=InstanceViewStatus\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public DiskRestorePointReplicationStatus withStatus(InstanceViewStatus status)"
-  desc: "Set the status property: The resource status information."
-  returns:
-    description: "the DiskRestorePointReplicationStatus object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskRestorePointReplicationStatus?alt=com.azure.resourcemanager.compute.models.DiskRestorePointReplicationStatus&text=DiskRestorePointReplicationStatus\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The instance view of a disk restore point."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.DiskRestorePointReplicationStatus?alt=com.azure.resourcemanager.compute.models.DiskRestorePointReplicationStatus&text=DiskRestorePointReplicationStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

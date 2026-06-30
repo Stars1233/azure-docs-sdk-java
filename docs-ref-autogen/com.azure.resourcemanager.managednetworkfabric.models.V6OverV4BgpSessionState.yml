@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState"
+name: "V6OverV4BgpSessionState"
+nameWithType: "V6OverV4BgpSessionState"
+summary: "V6 over V4 BGP session state."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **V6OverV4BgpSessionState**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState?alt=com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState&text=V6OverV4BgpSessionState\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState.V6OverV4BgpSessionState()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState.V6OverV4BgpSessionState()"
+  name: "V6OverV4BgpSessionState()"
+  nameWithType: "V6OverV4BgpSessionState.V6OverV4BgpSessionState()"
+  summary: "Creates a new instance of V6OverV4Bgp<wbr>Session<wbr>State value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public V6OverV4BgpSessionState()"
+  desc: "Creates a new instance of V6OverV4BgpSessionState value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState.DISABLED"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState.DISABLED"
+  name: "DISABLED"
+  nameWithType: "V6OverV4BgpSessionState.DISABLED"
+  summary: "V6OverV4Bgp<wbr>Session<wbr>State-Disabled."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState?alt=com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState&text=V6OverV4BgpSessionState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final V6OverV4BgpSessionState DISABLED"
+  desc: "V6OverV4BgpSessionState-Disabled."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState.ENABLED"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState.ENABLED"
+  name: "ENABLED"
+  nameWithType: "V6OverV4BgpSessionState.ENABLED"
+  summary: "V6OverV4Bgp<wbr>Session<wbr>State-Enabled."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState?alt=com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState&text=V6OverV4BgpSessionState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final V6OverV4BgpSessionState ENABLED"
+  desc: "V6OverV4BgpSessionState-Enabled."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "V6OverV4BgpSessionState.fromString(String name)"
+  summary: "Creates or finds a V6OverV4Bgp<wbr>Session<wbr>State from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static V6OverV4BgpSessionState fromString(String name)"
+  desc: "Creates or finds a V6OverV4BgpSessionState from its string representation."
+  returns:
+    description: "the corresponding V6OverV4BgpSessionState."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState?alt=com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState&text=V6OverV4BgpSessionState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState.values()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState.values()"
+  name: "values()"
+  nameWithType: "V6OverV4BgpSessionState.values()"
+  summary: "Gets known V6OverV4Bgp<wbr>Session<wbr>State values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<V6OverV4BgpSessionState> values()"
+  desc: "Gets known V6OverV4BgpSessionState values."
+  returns:
+    description: "known V6OverV4BgpSessionState values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState?alt=com.azure.resourcemanager.managednetworkfabric.models.V6OverV4BgpSessionState&text=V6OverV4BgpSessionState\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "V6 over V4 BGP session state."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

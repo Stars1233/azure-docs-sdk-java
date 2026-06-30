@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.DefinitionStages.WithAdditionalDescription"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.DefinitionStages.WithAdditionalDescription"
+name: "NetworkBootstrapInterface.DefinitionStages.WithAdditionalDescription"
+nameWithType: "NetworkBootstrapInterface.DefinitionStages.WithAdditionalDescription"
+summary: "The stage of the Network<wbr>Bootstrap<wbr>Interface definition allowing to specify additional<wbr>Description."
+syntax: "public static interface **NetworkBootstrapInterface.DefinitionStages.WithAdditionalDescription**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.DefinitionStages.WithAdditionalDescription.withAdditionalDescription(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.DefinitionStages.WithAdditionalDescription.withAdditionalDescription(String additionalDescription)"
+  name: "withAdditionalDescription(String additionalDescription)"
+  nameWithType: "NetworkBootstrapInterface.DefinitionStages.WithAdditionalDescription.withAdditionalDescription(String additionalDescription)"
+  summary: "Specifies the additional<wbr>Description property: Additional description of the interface.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Additional description of the interface."
+    name: "additionalDescription"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract NetworkBootstrapInterface.DefinitionStages.WithCreate withAdditionalDescription(String additionalDescription)"
+  desc: "Specifies the additionalDescription property: Additional description of the interface.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkBootstrapInterface definition allowing to specify additionalDescription."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

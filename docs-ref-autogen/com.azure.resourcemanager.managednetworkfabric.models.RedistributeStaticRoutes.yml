@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RedistributeStaticRoutes.FALSE"
   name: "FALSE"
   nameWithType: "RedistributeStaticRoutes.FALSE"
-  summary: "Static value False for Redistribute<wbr>Static<wbr>Routes."
+  summary: "Redistribute<wbr>Static<wbr>Routes-False."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RedistributeStaticRoutes?alt=com.azure.resourcemanager.managednetworkfabric.models.RedistributeStaticRoutes&text=RedistributeStaticRoutes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RedistributeStaticRoutes FALSE"
-  desc: "Static value False for RedistributeStaticRoutes."
+  desc: "RedistributeStaticRoutes-False."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RedistributeStaticRoutes.TRUE"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RedistributeStaticRoutes.TRUE"
   name: "TRUE"
   nameWithType: "RedistributeStaticRoutes.TRUE"
-  summary: "Static value True for Redistribute<wbr>Static<wbr>Routes."
+  summary: "Redistribute<wbr>Static<wbr>Routes-True."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RedistributeStaticRoutes?alt=com.azure.resourcemanager.managednetworkfabric.models.RedistributeStaticRoutes&text=RedistributeStaticRoutes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RedistributeStaticRoutes TRUE"
-  desc: "Static value True for RedistributeStaticRoutes."
+  desc: "RedistributeStaticRoutes-True."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RedistributeStaticRoutes.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RedistributeStaticRoutes.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Advertise Static Routes. Ex: \"True\" | \"False\"."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

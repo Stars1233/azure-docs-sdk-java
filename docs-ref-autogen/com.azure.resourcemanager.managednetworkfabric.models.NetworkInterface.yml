@@ -6,6 +6,18 @@ nameWithType: "NetworkInterface"
 summary: "An immutable client-side representation of Network<wbr>Interface."
 syntax: "public interface **NetworkInterface**"
 methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.additionalDescription()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.additionalDescription()"
+  name: "additionalDescription()"
+  nameWithType: "NetworkInterface.additionalDescription()"
+  summary: "Gets the additional<wbr>Description property: Additional description of the interface."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String additionalDescription()"
+  desc: "Gets the additionalDescription property: Additional description of the interface."
+  returns:
+    description: "the additionalDescription value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.administrativeState()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.administrativeState()"
   name: "administrativeState()"
@@ -30,6 +42,18 @@ methods:
   returns:
     description: "the annotation value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.configurationState()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.configurationState()"
+  name: "configurationState()"
+  nameWithType: "NetworkInterface.configurationState()"
+  summary: "Gets the configuration<wbr>State property: Configuration state of the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ConfigurationState configurationState()"
+  desc: "Gets the configurationState property: Configuration state of the resource."
+  returns:
+    description: "the configurationState value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ConfigurationState?alt=com.azure.resourcemanager.managednetworkfabric.models.ConfigurationState&text=ConfigurationState\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.connectedTo()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.connectedTo()"
   name: "connectedTo()"
@@ -41,6 +65,18 @@ methods:
   desc: "Gets the connectedTo property: The ARM resource id of the interface or compute server its connected to."
   returns:
     description: "the connectedTo value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.description()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.description()"
+  name: "description()"
+  nameWithType: "NetworkInterface.description()"
+  summary: "Gets the description property: Description of the interface."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String description()"
+  desc: "Gets the description property: Description of the interface."
+  returns:
+    description: "the description value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.id()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.id()"
@@ -54,6 +90,18 @@ methods:
   returns:
     description: "the id value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.identity()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.identity()"
+  name: "identity()"
+  nameWithType: "NetworkInterface.identity()"
+  summary: "Gets the identity property: The managed service identities assigned to this resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ManagedServiceIdentity identity()"
+  desc: "Gets the identity property: The managed service identities assigned to this resource."
+  returns:
+    description: "the identity value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentity?alt=com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentity&text=ManagedServiceIdentity\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.innerModel()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.innerModel()"
   name: "innerModel()"
@@ -102,6 +150,18 @@ methods:
   returns:
     description: "the ipv6Address value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.lastOperation()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.lastOperation()"
+  name: "lastOperation()"
+  nameWithType: "NetworkInterface.lastOperation()"
+  summary: "Gets the last<wbr>Operation property: Details of the last operation performed on the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract LastOperationProperties lastOperation()"
+  desc: "Gets the lastOperation property: Details of the last operation performed on the resource."
+  returns:
+    description: "the lastOperation value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties&text=LastOperationProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.name()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.name()"
   name: "name()"
@@ -113,6 +173,18 @@ methods:
   desc: "Gets the name property: The name of the resource."
   returns:
     description: "the name value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.networkFabricId()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.networkFabricId()"
+  name: "networkFabricId()"
+  nameWithType: "NetworkInterface.networkFabricId()"
+  summary: "Gets the network<wbr>Fabric<wbr>Id property: Associated Network Fabric Resource ID."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String networkFabricId()"
+  desc: "Gets the networkFabricId property: Associated Network Fabric Resource ID."
+  returns:
+    description: "the networkFabricId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.physicalIdentifier()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.physicalIdentifier()"
@@ -218,23 +290,23 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.updateAdministrativeState(UpdateAdministrativeState body)"
   name: "updateAdministrativeState(UpdateAdministrativeState body)"
   nameWithType: "NetworkInterface.updateAdministrativeState(UpdateAdministrativeState body)"
-  summary: "Updates the admin state of the network interface."
+  summary: "Update the admin state of the Network Interface."
   modifiers:
   - "abstract"
   parameters:
   - description: "Request payload."
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState&text=UpdateAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForStateUpdate updateAdministrativeState(UpdateAdministrativeState body)"
-  desc: "Updates the admin state of the network interface. Update the admin state of the Network Interface."
+  syntax: "public abstract UpdateAdministrativeStateResponse updateAdministrativeState(UpdateAdministrativeState body)"
+  desc: "Update the admin state of the Network Interface."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate&text=CommonPostActionResponseForStateUpdate\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse&text=UpdateAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.updateAdministrativeState(com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkInterface.updateAdministrativeState(UpdateAdministrativeState body, Context context)"
   name: "updateAdministrativeState(UpdateAdministrativeState body, Context context)"
   nameWithType: "NetworkInterface.updateAdministrativeState(UpdateAdministrativeState body, Context context)"
-  summary: "Updates the admin state of the network interface."
+  summary: "Update the admin state of the Network Interface."
   modifiers:
   - "abstract"
   parameters:
@@ -244,13 +316,13 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForStateUpdate updateAdministrativeState(UpdateAdministrativeState body, Context context)"
-  desc: "Updates the admin state of the network interface. Update the admin state of the Network Interface."
+  syntax: "public abstract UpdateAdministrativeStateResponse updateAdministrativeState(UpdateAdministrativeState body, Context context)"
+  desc: "Update the admin state of the Network Interface."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate&text=CommonPostActionResponseForStateUpdate\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse&text=UpdateAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "An immutable client-side representation of NetworkInterface."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

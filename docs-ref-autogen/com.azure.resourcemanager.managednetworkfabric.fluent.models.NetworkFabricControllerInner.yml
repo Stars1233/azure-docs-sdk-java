@@ -85,6 +85,16 @@ methods:
   returns:
     description: "the id value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerInner.identity()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerInner.identity()"
+  name: "identity()"
+  nameWithType: "NetworkFabricControllerInner.identity()"
+  summary: "Get the identity property: The managed service identities assigned to this resource."
+  syntax: "public ManagedServiceIdentity identity()"
+  desc: "Get the identity property: The managed service identities assigned to this resource."
+  returns:
+    description: "the identity value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentity?alt=com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentity&text=ManagedServiceIdentity\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerInner.infrastructureExpressRouteConnections()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerInner.infrastructureExpressRouteConnections()"
   name: "infrastructureExpressRouteConnections()"
@@ -135,6 +145,16 @@ methods:
   returns:
     description: "the isWorkloadManagementNetworkEnabled value."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IsWorkloadManagementNetworkEnabled?alt=com.azure.resourcemanager.managednetworkfabric.models.IsWorkloadManagementNetworkEnabled&text=IsWorkloadManagementNetworkEnabled\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerInner.lastOperation()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerInner.lastOperation()"
+  name: "lastOperation()"
+  nameWithType: "NetworkFabricControllerInner.lastOperation()"
+  summary: "Get the last<wbr>Operation property: Details of the last operation performed on the resource."
+  syntax: "public LastOperationProperties lastOperation()"
+  desc: "Get the lastOperation property: Details of the last operation performed on the resource."
+  returns:
+    description: "the lastOperation value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties&text=LastOperationProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerInner.managedResourceGroupConfiguration()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerInner.managedResourceGroupConfiguration()"
   name: "managedResourceGroupConfiguration()"
@@ -230,13 +250,6 @@ methods:
   returns:
     description: "the type value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerInner.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerInner.validate()"
-  name: "validate()"
-  nameWithType: "NetworkFabricControllerInner.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerInner.withAnnotation(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerInner.withAnnotation(String annotation)"
   name: "withAnnotation(String annotation)"
@@ -248,6 +261,20 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public NetworkFabricControllerInner withAnnotation(String annotation)"
   desc: "Set the annotation property: Switch configuration description."
+  returns:
+    description: "the NetworkFabricControllerInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerInner&text=NetworkFabricControllerInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerInner.withIdentity(com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentity)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerInner.withIdentity(ManagedServiceIdentity identity)"
+  name: "withIdentity(ManagedServiceIdentity identity)"
+  nameWithType: "NetworkFabricControllerInner.withIdentity(ManagedServiceIdentity identity)"
+  summary: "Set the identity property: The managed service identities assigned to this resource."
+  parameters:
+  - description: "the identity value to set."
+    name: "identity"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentity?alt=com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentity&text=ManagedServiceIdentity\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public NetworkFabricControllerInner withIdentity(ManagedServiceIdentity identity)"
+  desc: "Set the identity property: The managed service identities assigned to this resource."
   returns:
     description: "the NetworkFabricControllerInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerInner&text=NetworkFabricControllerInner\" data-throw-if-not-resolved=\"False\" />"
@@ -381,16 +408,6 @@ methods:
   returns:
     description: "the workloadExpressRouteConnections value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExpressRouteConnectionInformation?alt=com.azure.resourcemanager.managednetworkfabric.models.ExpressRouteConnectionInformation&text=ExpressRouteConnectionInformation\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerInner.workloadManagementNetwork()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerInner.workloadManagementNetwork()"
-  name: "workloadManagementNetwork()"
-  nameWithType: "NetworkFabricControllerInner.workloadManagementNetwork()"
-  summary: "Get the workload<wbr>Management<wbr>Network property: A workload management network is required for all the tenant (workload) traffic."
-  syntax: "public Boolean workloadManagementNetwork()"
-  desc: "Get the workloadManagementNetwork property: A workload management network is required for all the tenant (workload) traffic. This traffic is only dedicated for Tenant workloads which are required to access internet or any other MSFT/Public endpoints. This is used for the backward compatibility."
-  returns:
-    description: "the workloadManagementNetwork value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerInner.workloadServices()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkFabricControllerInner.workloadServices()"
   name: "workloadServices()"
@@ -405,4 +422,4 @@ type: "class"
 desc: "The Network Fabric Controller resource definition."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

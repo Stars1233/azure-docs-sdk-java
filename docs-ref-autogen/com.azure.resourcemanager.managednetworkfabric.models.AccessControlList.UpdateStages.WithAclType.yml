@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.UpdateStages.WithAclType"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.UpdateStages.WithAclType"
+name: "AccessControlList.UpdateStages.WithAclType"
+nameWithType: "AccessControlList.UpdateStages.WithAclType"
+summary: "The stage of the Access<wbr>Control<wbr>List update allowing to specify acl<wbr>Type."
+syntax: "public static interface **AccessControlList.UpdateStages.WithAclType**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.UpdateStages.WithAclType.withAclType(com.azure.resourcemanager.managednetworkfabric.models.AclType)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.UpdateStages.WithAclType.withAclType(AclType aclType)"
+  name: "withAclType(AclType aclType)"
+  nameWithType: "AccessControlList.UpdateStages.WithAclType.withAclType(AclType aclType)"
+  summary: "Specifies the acl<wbr>Type property: Access Control List (ACL) Type."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Access Control List (ACL) Type."
+    name: "aclType"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AclType?alt=com.azure.resourcemanager.managednetworkfabric.models.AclType&text=AclType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract AccessControlList.Update withAclType(AclType aclType)"
+  desc: "Specifies the aclType property: Access Control List (ACL) Type."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.Update?alt=com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the AccessControlList update allowing to specify aclType."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

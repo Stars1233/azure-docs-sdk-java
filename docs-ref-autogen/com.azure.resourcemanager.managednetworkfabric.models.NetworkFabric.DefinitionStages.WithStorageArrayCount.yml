@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithStorageArrayCount"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithStorageArrayCount"
+name: "NetworkFabric.DefinitionStages.WithStorageArrayCount"
+nameWithType: "NetworkFabric.DefinitionStages.WithStorageArrayCount"
+summary: "The stage of the Network<wbr>Fabric definition allowing to specify storage<wbr>Array<wbr>Count."
+syntax: "public static interface **NetworkFabric.DefinitionStages.WithStorageArrayCount**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithStorageArrayCount.withStorageArrayCount(java.lang.Integer)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithStorageArrayCount.withStorageArrayCount(Integer storageArrayCount)"
+  name: "withStorageArrayCount(Integer storageArrayCount)"
+  nameWithType: "NetworkFabric.DefinitionStages.WithStorageArrayCount.withStorageArrayCount(Integer storageArrayCount)"
+  summary: "Specifies the storage<wbr>Array<wbr>Count property: Number of Storage arrays associated with the Network Fabric.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Number of Storage arrays associated with the Network Fabric."
+    name: "storageArrayCount"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+  syntax: "public abstract NetworkFabric.DefinitionStages.WithCreate withStorageArrayCount(Integer storageArrayCount)"
+  desc: "Specifies the storageArrayCount property: Number of Storage arrays associated with the Network Fabric.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkFabric definition allowing to specify storageArrayCount."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

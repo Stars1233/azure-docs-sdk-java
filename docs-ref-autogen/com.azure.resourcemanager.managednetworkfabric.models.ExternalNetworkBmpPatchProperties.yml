@@ -1,0 +1,94 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkBmpPatchProperties"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkBmpPatchProperties"
+name: "ExternalNetworkBmpPatchProperties"
+nameWithType: "ExternalNetworkBmpPatchProperties"
+summary: "BMP Monitoring Configuration patch properties."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ExternalNetworkBmpPatchProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkBmpPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkBmpPatchProperties&text=ExternalNetworkBmpPatchProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkBmpPatchProperties.ExternalNetworkBmpPatchProperties()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkBmpPatchProperties.ExternalNetworkBmpPatchProperties()"
+  name: "ExternalNetworkBmpPatchProperties()"
+  nameWithType: "ExternalNetworkBmpPatchProperties.ExternalNetworkBmpPatchProperties()"
+  summary: "Creates an instance of External<wbr>Network<wbr>Bmp<wbr>Patch<wbr>Properties class."
+  syntax: "public ExternalNetworkBmpPatchProperties()"
+  desc: "Creates an instance of ExternalNetworkBmpPatchProperties class."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkBmpPatchProperties.configurationState()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkBmpPatchProperties.configurationState()"
+  name: "configurationState()"
+  nameWithType: "ExternalNetworkBmpPatchProperties.configurationState()"
+  summary: "Get the configuration<wbr>State property: BMP Configuration State."
+  syntax: "public BmpConfigurationState configurationState()"
+  desc: "Get the configurationState property: BMP Configuration State."
+  returns:
+    description: "the configurationState value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BmpConfigurationState?alt=com.azure.resourcemanager.managednetworkfabric.models.BmpConfigurationState&text=BmpConfigurationState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkBmpPatchProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkBmpPatchProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ExternalNetworkBmpPatchProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of External<wbr>Network<wbr>Bmp<wbr>Patch<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ExternalNetworkBmpPatchProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ExternalNetworkBmpPatchProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ExternalNetworkBmpPatchProperties from the JsonReader."
+  returns:
+    description: "An instance of ExternalNetworkBmpPatchProperties if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkBmpPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkBmpPatchProperties&text=ExternalNetworkBmpPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkBmpPatchProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkBmpPatchProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ExternalNetworkBmpPatchProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkBmpPatchProperties.withConfigurationState(com.azure.resourcemanager.managednetworkfabric.models.BmpConfigurationState)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkBmpPatchProperties.withConfigurationState(BmpConfigurationState configurationState)"
+  name: "withConfigurationState(BmpConfigurationState configurationState)"
+  nameWithType: "ExternalNetworkBmpPatchProperties.withConfigurationState(BmpConfigurationState configurationState)"
+  summary: "Set the configuration<wbr>State property: BMP Configuration State."
+  parameters:
+  - description: "the configurationState value to set."
+    name: "configurationState"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BmpConfigurationState?alt=com.azure.resourcemanager.managednetworkfabric.models.BmpConfigurationState&text=BmpConfigurationState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ExternalNetworkBmpPatchProperties withConfigurationState(BmpConfigurationState configurationState)"
+  desc: "Set the configurationState property: BMP Configuration State."
+  returns:
+    description: "the ExternalNetworkBmpPatchProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkBmpPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkBmpPatchProperties&text=ExternalNetworkBmpPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "BMP Monitoring Configuration patch properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkBmpPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.ExternalNetworkBmpPatchProperties&text=ExternalNetworkBmpPatchProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

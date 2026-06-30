@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AddressFamilyType.IPV4"
   name: "IPV4"
   nameWithType: "AddressFamilyType.IPV4"
-  summary: "Static value IPv4 for Address<wbr>Family<wbr>Type."
+  summary: "Address<wbr>Type-IPv4."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AddressFamilyType?alt=com.azure.resourcemanager.managednetworkfabric.models.AddressFamilyType&text=AddressFamilyType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AddressFamilyType IPV4"
-  desc: "Static value IPv4 for AddressFamilyType."
+  desc: "AddressType-IPv4."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AddressFamilyType.IPV6"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AddressFamilyType.IPV6"
   name: "IPV6"
   nameWithType: "AddressFamilyType.IPV6"
-  summary: "Static value IPv6 for Address<wbr>Family<wbr>Type."
+  summary: "Address<wbr>Type-IPv6."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AddressFamilyType?alt=com.azure.resourcemanager.managednetworkfabric.models.AddressFamilyType&text=AddressFamilyType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AddressFamilyType IPV6"
-  desc: "Static value IPv6 for AddressFamilyType."
+  desc: "AddressType-IPv6."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AddressFamilyType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AddressFamilyType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "AddressFamilyType. This parameter decides whether the given ipv4 or ipv6 route policy."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

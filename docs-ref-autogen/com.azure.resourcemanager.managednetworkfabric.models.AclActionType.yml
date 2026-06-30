@@ -42,38 +42,62 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AclActionType.COUNT"
   name: "COUNT"
   nameWithType: "AclActionType.COUNT"
-  summary: "Static value Count for Acl<wbr>Action<wbr>Type."
+  summary: "Acl<wbr>Action<wbr>Type Count."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AclActionType?alt=com.azure.resourcemanager.managednetworkfabric.models.AclActionType&text=AclActionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AclActionType COUNT"
-  desc: "Static value Count for AclActionType."
+  desc: "AclActionType Count."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AclActionType.DROP"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AclActionType.DROP"
   name: "DROP"
   nameWithType: "AclActionType.DROP"
-  summary: "Static value Drop for Acl<wbr>Action<wbr>Type."
+  summary: "Acl<wbr>Action<wbr>Type Drop."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AclActionType?alt=com.azure.resourcemanager.managednetworkfabric.models.AclActionType&text=AclActionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AclActionType DROP"
-  desc: "Static value Drop for AclActionType."
+  desc: "AclActionType Drop."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AclActionType.LOG"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AclActionType.LOG"
   name: "LOG"
   nameWithType: "AclActionType.LOG"
-  summary: "Static value Log for Acl<wbr>Action<wbr>Type."
+  summary: "Acl<wbr>Action<wbr>Type Log."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AclActionType?alt=com.azure.resourcemanager.managednetworkfabric.models.AclActionType&text=AclActionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AclActionType LOG"
-  desc: "Static value Log for AclActionType."
+  desc: "AclActionType Log."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AclActionType.POLICE_RATE"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AclActionType.POLICE_RATE"
+  name: "POLICE_RATE"
+  nameWithType: "AclActionType.POLICE_RATE"
+  summary: "Acl<wbr>Action<wbr>Type Police<wbr>Rate."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AclActionType?alt=com.azure.resourcemanager.managednetworkfabric.models.AclActionType&text=AclActionType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AclActionType POLICE_RATE"
+  desc: "AclActionType PoliceRate."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AclActionType.REMARK"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AclActionType.REMARK"
+  name: "REMARK"
+  nameWithType: "AclActionType.REMARK"
+  summary: "Acl<wbr>Action<wbr>Type Remark."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AclActionType?alt=com.azure.resourcemanager.managednetworkfabric.models.AclActionType&text=AclActionType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AclActionType REMARK"
+  desc: "AclActionType Remark."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AclActionType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AclActionType.fromString(String name)"
@@ -107,4 +131,4 @@ type: "class"
 desc: "Type of actions that can be performed."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

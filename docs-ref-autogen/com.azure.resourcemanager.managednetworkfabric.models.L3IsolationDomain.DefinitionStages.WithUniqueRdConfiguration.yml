@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.DefinitionStages.WithUniqueRdConfiguration"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.DefinitionStages.WithUniqueRdConfiguration"
+name: "L3IsolationDomain.DefinitionStages.WithUniqueRdConfiguration"
+nameWithType: "L3IsolationDomain.DefinitionStages.WithUniqueRdConfiguration"
+summary: "The stage of the L3Isolation<wbr>Domain definition allowing to specify unique<wbr>RdConfiguration."
+syntax: "public static interface **L3IsolationDomain.DefinitionStages.WithUniqueRdConfiguration**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.DefinitionStages.WithUniqueRdConfiguration.withUniqueRdConfiguration(com.azure.resourcemanager.managednetworkfabric.models.L3UniqueRouteDistinguisherProperties)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.DefinitionStages.WithUniqueRdConfiguration.withUniqueRdConfiguration(L3UniqueRouteDistinguisherProperties uniqueRdConfiguration)"
+  name: "withUniqueRdConfiguration(L3UniqueRouteDistinguisherProperties uniqueRdConfiguration)"
+  nameWithType: "L3IsolationDomain.DefinitionStages.WithUniqueRdConfiguration.withUniqueRdConfiguration(L3UniqueRouteDistinguisherProperties uniqueRdConfiguration)"
+  summary: "Specifies the unique<wbr>RdConfiguration property: Unique Route Distinguisher configuration."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Unique Route Distinguisher configuration."
+    name: "uniqueRdConfiguration"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.L3UniqueRouteDistinguisherProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.L3UniqueRouteDistinguisherProperties&text=L3UniqueRouteDistinguisherProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract L3IsolationDomain.DefinitionStages.WithCreate withUniqueRdConfiguration(L3UniqueRouteDistinguisherProperties uniqueRdConfiguration)"
+  desc: "Specifies the uniqueRdConfiguration property: Unique Route Distinguisher configuration."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the L3IsolationDomain definition allowing to specify uniqueRdConfiguration."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

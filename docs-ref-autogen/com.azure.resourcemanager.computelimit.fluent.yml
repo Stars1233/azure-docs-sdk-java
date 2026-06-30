@@ -7,10 +7,12 @@ interfaces:
 - "com.azure.resourcemanager.computelimit.fluent.ComputeLimitClient"
 - "com.azure.resourcemanager.computelimit.fluent.FeaturesClient"
 - "com.azure.resourcemanager.computelimit.fluent.GuestSubscriptionsClient"
+- "com.azure.resourcemanager.computelimit.fluent.MemberCapOverridesClient"
 - "com.azure.resourcemanager.computelimit.fluent.OperationsClient"
+- "com.azure.resourcemanager.computelimit.fluent.SharedLimitCapsClient"
 - "com.azure.resourcemanager.computelimit.fluent.SharedLimitsClient"
 - "com.azure.resourcemanager.computelimit.fluent.VmFamiliesClient"
 desc: "Package containing the service clients for ComputeLimit. Microsoft Azure Compute Limit Resource Provider."
 metadata: {}
 package: "com.azure.resourcemanager.computelimit.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-computelimit:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-computelimit:1.2.0

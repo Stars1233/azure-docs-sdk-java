@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkMonitor.UpdateStages.WithBmpConfiguration"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkMonitor.UpdateStages.WithBmpConfiguration"
+name: "NetworkMonitor.UpdateStages.WithBmpConfiguration"
+nameWithType: "NetworkMonitor.UpdateStages.WithBmpConfiguration"
+summary: "The stage of the Network<wbr>Monitor update allowing to specify bmp<wbr>Configuration."
+syntax: "public static interface **NetworkMonitor.UpdateStages.WithBmpConfiguration**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkMonitor.UpdateStages.WithBmpConfiguration.withBmpConfiguration(com.azure.resourcemanager.managednetworkfabric.models.BmpConfigurationPatchProperties)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkMonitor.UpdateStages.WithBmpConfiguration.withBmpConfiguration(BmpConfigurationPatchProperties bmpConfiguration)"
+  name: "withBmpConfiguration(BmpConfigurationPatchProperties bmpConfiguration)"
+  nameWithType: "NetworkMonitor.UpdateStages.WithBmpConfiguration.withBmpConfiguration(BmpConfigurationPatchProperties bmpConfiguration)"
+  summary: "Specifies the bmp<wbr>Configuration property: BGP Monitoring Protocol (BMP) Configurations for the Network Monitor.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "BGP Monitoring Protocol (BMP) Configurations for the Network Monitor."
+    name: "bmpConfiguration"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BmpConfigurationPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.BmpConfigurationPatchProperties&text=BmpConfigurationPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NetworkMonitor.Update withBmpConfiguration(BmpConfigurationPatchProperties bmpConfiguration)"
+  desc: "Specifies the bmpConfiguration property: BGP Monitoring Protocol (BMP) Configurations for the Network Monitor.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkMonitor.Update?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkMonitor.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkMonitor update allowing to specify bmpConfiguration."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

@@ -96,14 +96,14 @@ methods:
   fullName: "com.azure.resourcemanager.healthbot.HealthbotManager.serviceClient()"
   name: "serviceClient()"
   nameWithType: "HealthbotManager.serviceClient()"
-  summary: "Gets wrapped service client Healthbot<wbr>Client providing direct access to the underlying auto-generated API implementation, based on Azure REST API."
-  syntax: "public HealthbotClient serviceClient()"
-  desc: "Gets wrapped service client HealthbotClient providing direct access to the underlying auto-generated API implementation, based on Azure REST API."
+  summary: "Gets wrapped service client Healthbot<wbr>Management<wbr>Client providing direct access to the underlying auto-generated API implementation, based on Azure REST API."
+  syntax: "public HealthbotManagementClient serviceClient()"
+  desc: "Gets wrapped service client HealthbotManagementClient providing direct access to the underlying auto-generated API implementation, based on Azure REST API."
   returns:
-    description: "Wrapped service client HealthbotClient."
-    type: "<xref href=\"com.azure.resourcemanager.healthbot.fluent.HealthbotClient?alt=com.azure.resourcemanager.healthbot.fluent.HealthbotClient&text=HealthbotClient\" data-throw-if-not-resolved=\"False\" />"
+    description: "Wrapped service client HealthbotManagementClient."
+    type: "<xref href=\"com.azure.resourcemanager.healthbot.fluent.HealthbotManagementClient?alt=com.azure.resourcemanager.healthbot.fluent.HealthbotManagementClient&text=HealthbotManagementClient\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Entry point to HealthbotManager. Azure Health Bot is a cloud platform that empowers developers in Healthcare organizations to build and deploy their compliant, AI-powered virtual health assistants and health bots, that help them improve processes and reduce costs."
 metadata: {}
 package: "com.azure.resourcemanager.healthbot"
-artifact: com.azure.resourcemanager:azure-resourcemanager-healthbot:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-healthbot:1.2.0

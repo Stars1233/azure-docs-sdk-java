@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRule.UpdateStages.WithGlobalNetworkTapRuleActions"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRule.UpdateStages.WithGlobalNetworkTapRuleActions"
+name: "NetworkTapRule.UpdateStages.WithGlobalNetworkTapRuleActions"
+nameWithType: "NetworkTapRule.UpdateStages.WithGlobalNetworkTapRuleActions"
+summary: "The stage of the Network<wbr>Tap<wbr>Rule update allowing to specify global<wbr>Network<wbr>Tap<wbr>Rule<wbr>Actions."
+syntax: "public static interface **NetworkTapRule.UpdateStages.WithGlobalNetworkTapRuleActions**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRule.UpdateStages.WithGlobalNetworkTapRuleActions.withGlobalNetworkTapRuleActions(com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRule.UpdateStages.WithGlobalNetworkTapRuleActions.withGlobalNetworkTapRuleActions(GlobalNetworkTapRuleActionPatchProperties globalNetworkTapRuleActions)"
+  name: "withGlobalNetworkTapRuleActions(GlobalNetworkTapRuleActionPatchProperties globalNetworkTapRuleActions)"
+  nameWithType: "NetworkTapRule.UpdateStages.WithGlobalNetworkTapRuleActions.withGlobalNetworkTapRuleActions(GlobalNetworkTapRuleActionPatchProperties globalNetworkTapRuleActions)"
+  summary: "Specifies the global<wbr>Network<wbr>Tap<wbr>Rule<wbr>Actions property: Global network tap rule actions."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Global network tap rule actions."
+    name: "globalNetworkTapRuleActions"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.GlobalNetworkTapRuleActionPatchProperties&text=GlobalNetworkTapRuleActionPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NetworkTapRule.Update withGlobalNetworkTapRuleActions(GlobalNetworkTapRuleActionPatchProperties globalNetworkTapRuleActions)"
+  desc: "Specifies the globalNetworkTapRuleActions property: Global network tap rule actions."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRule.Update?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRule.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkTapRule update allowing to specify globalNetworkTapRuleActions."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

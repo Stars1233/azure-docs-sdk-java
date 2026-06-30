@@ -1,0 +1,100 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.ProxyResourceBase"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.ProxyResourceBase"
+name: "ProxyResourceBase"
+nameWithType: "ProxyResourceBase"
+summary: "Proxy<wbr>Resource<wbr>Base with no property bag."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public class **ProxyResourceBase**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ProxyResourceBase?alt=com.azure.resourcemanager.managednetworkfabric.models.ProxyResourceBase&text=ProxyResourceBase\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ProxyResourceBase.ProxyResourceBase()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ProxyResourceBase.ProxyResourceBase()"
+  name: "ProxyResourceBase()"
+  nameWithType: "ProxyResourceBase.ProxyResourceBase()"
+  summary: "Creates an instance of Proxy<wbr>Resource<wbr>Base class."
+  syntax: "public ProxyResourceBase()"
+  desc: "Creates an instance of ProxyResourceBase class."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ProxyResourceBase.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ProxyResourceBase.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ProxyResourceBase.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Proxy<wbr>Resource<wbr>Base from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ProxyResourceBase fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ProxyResourceBase."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ProxyResourceBase from the JsonReader."
+  returns:
+    description: "An instance of ProxyResourceBase if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ProxyResourceBase?alt=com.azure.resourcemanager.managednetworkfabric.models.ProxyResourceBase&text=ProxyResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ProxyResourceBase.id()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ProxyResourceBase.id()"
+  name: "id()"
+  nameWithType: "ProxyResourceBase.id()"
+  summary: "Get the id property: Fully qualified resource ID for the resource."
+  syntax: "public String id()"
+  desc: "Get the id property: Fully qualified resource ID for the resource. E.g. '/subscriptions/\\{subscriptionId\\}/resourceGroups/\\{resourceGroupName\\}/providers/\\{resourceProviderNamespace\\}/\\{resourceType\\}/\\{resourceName\\}'."
+  returns:
+    description: "the id value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ProxyResourceBase.systemData()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ProxyResourceBase.systemData()"
+  name: "systemData()"
+  nameWithType: "ProxyResourceBase.systemData()"
+  summary: "Get the system<wbr>Data property: Azure Resource Manager metadata containing created<wbr>By and modified<wbr>By information."
+  syntax: "public SystemData systemData()"
+  desc: "Get the systemData property: Azure Resource Manager metadata containing createdBy and modifiedBy information."
+  returns:
+    description: "the systemData value."
+    type: "<xref href=\"com.azure.core.management.SystemData?alt=com.azure.core.management.SystemData&text=SystemData\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ProxyResourceBase.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ProxyResourceBase.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ProxyResourceBase.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ProxyResourceBase.type()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ProxyResourceBase.type()"
+  name: "type()"
+  nameWithType: "ProxyResourceBase.type()"
+  summary: "Get the type property: The type of the resource."
+  syntax: "public String type()"
+  desc: "Get the type property: The type of the resource. E.g. 'Microsoft.Compute/virtualMachines' or 'Microsoft.Storage/storageAccounts'."
+  returns:
+    description: "the type value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "class"
+desc: "ProxyResourceBase with no property bag."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ProxyResourceBase?alt=com.azure.resourcemanager.managednetworkfabric.models.ProxyResourceBase&text=ProxyResourceBase\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

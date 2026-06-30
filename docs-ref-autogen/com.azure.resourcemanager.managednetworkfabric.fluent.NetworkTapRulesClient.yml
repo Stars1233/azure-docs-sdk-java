@@ -10,7 +10,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.beginCreate(String resourceGroupName, String networkTapRuleName, NetworkTapRuleInner body)"
   name: "beginCreate(String resourceGroupName, String networkTapRuleName, NetworkTapRuleInner body)"
   nameWithType: "NetworkTapRulesClient.beginCreate(String resourceGroupName, String networkTapRuleName, NetworkTapRuleInner body)"
-  summary: "Create Network Tap Rule."
+  summary: "Create Network Tap Rule resource."
   modifiers:
   - "abstract"
   parameters:
@@ -24,7 +24,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner&text=NetworkTapRuleInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<NetworkTapRuleInner>,NetworkTapRuleInner> beginCreate(String resourceGroupName, String networkTapRuleName, NetworkTapRuleInner body)"
-  desc: "Create Network Tap Rule. Create Network Tap Rule resource."
+  desc: "Create Network Tap Rule resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the NetworkTapRule resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner&text=NetworkTapRuleInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner&text=NetworkTapRuleInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -32,7 +32,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.beginCreate(String resourceGroupName, String networkTapRuleName, NetworkTapRuleInner body, Context context)"
   name: "beginCreate(String resourceGroupName, String networkTapRuleName, NetworkTapRuleInner body, Context context)"
   nameWithType: "NetworkTapRulesClient.beginCreate(String resourceGroupName, String networkTapRuleName, NetworkTapRuleInner body, Context context)"
-  summary: "Create Network Tap Rule."
+  summary: "Create Network Tap Rule resource."
   modifiers:
   - "abstract"
   parameters:
@@ -49,7 +49,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<NetworkTapRuleInner>,NetworkTapRuleInner> beginCreate(String resourceGroupName, String networkTapRuleName, NetworkTapRuleInner body, Context context)"
-  desc: "Create Network Tap Rule. Create Network Tap Rule resource."
+  desc: "Create Network Tap Rule resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the NetworkTapRule resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner&text=NetworkTapRuleInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner&text=NetworkTapRuleInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -57,7 +57,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.beginDelete(String resourceGroupName, String networkTapRuleName)"
   name: "beginDelete(String resourceGroupName, String networkTapRuleName)"
   nameWithType: "NetworkTapRulesClient.beginDelete(String resourceGroupName, String networkTapRuleName)"
-  summary: "Deletes a Network Tap Rule."
+  summary: "Delete Network Tap Rule resource."
   modifiers:
   - "abstract"
   parameters:
@@ -68,7 +68,7 @@ methods:
     name: "networkTapRuleName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDelete(String resourceGroupName, String networkTapRuleName)"
-  desc: "Deletes a Network Tap Rule. Delete Network Tap Rule resource."
+  desc: "Delete Network Tap Rule resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
@@ -76,7 +76,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.beginDelete(String resourceGroupName, String networkTapRuleName, Context context)"
   name: "beginDelete(String resourceGroupName, String networkTapRuleName, Context context)"
   nameWithType: "NetworkTapRulesClient.beginDelete(String resourceGroupName, String networkTapRuleName, Context context)"
-  summary: "Deletes a Network Tap Rule."
+  summary: "Delete Network Tap Rule resource."
   modifiers:
   - "abstract"
   parameters:
@@ -90,7 +90,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDelete(String resourceGroupName, String networkTapRuleName, Context context)"
-  desc: "Deletes a Network Tap Rule. Delete Network Tap Rule resource."
+  desc: "Delete Network Tap Rule resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
@@ -98,7 +98,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.beginResync(String resourceGroupName, String networkTapRuleName)"
   name: "beginResync(String resourceGroupName, String networkTapRuleName)"
   nameWithType: "NetworkTapRulesClient.beginResync(String resourceGroupName, String networkTapRuleName)"
-  summary: "Resync the Network Tap Rule."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -108,16 +108,16 @@ methods:
   - description: "Name of the Network Tap Rule."
     name: "networkTapRuleName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract SyncPoller<PollResult<CommonPostActionResponseForStateUpdateInner>,CommonPostActionResponseForStateUpdateInner> beginResync(String resourceGroupName, String networkTapRuleName)"
-  desc: "Resync the Network Tap Rule. Implements the operation to the underlying resources."
+  syntax: "public abstract SyncPoller<PollResult<NetworkTapRuleResyncResponseInner>,NetworkTapRuleResyncResponseInner> beginResync(String resourceGroupName, String networkTapRuleName)"
+  desc: "Implements the operation to the underlying resources."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of common response for the state updates."
-    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of response for Network Tap Rule resync operation."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleResyncResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleResyncResponseInner&text=NetworkTapRuleResyncResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleResyncResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleResyncResponseInner&text=NetworkTapRuleResyncResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.beginResync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.beginResync(String resourceGroupName, String networkTapRuleName, Context context)"
   name: "beginResync(String resourceGroupName, String networkTapRuleName, Context context)"
   nameWithType: "NetworkTapRulesClient.beginResync(String resourceGroupName, String networkTapRuleName, Context context)"
-  summary: "Resync the Network Tap Rule."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -130,16 +130,16 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract SyncPoller<PollResult<CommonPostActionResponseForStateUpdateInner>,CommonPostActionResponseForStateUpdateInner> beginResync(String resourceGroupName, String networkTapRuleName, Context context)"
-  desc: "Resync the Network Tap Rule. Implements the operation to the underlying resources."
+  syntax: "public abstract SyncPoller<PollResult<NetworkTapRuleResyncResponseInner>,NetworkTapRuleResyncResponseInner> beginResync(String resourceGroupName, String networkTapRuleName, Context context)"
+  desc: "Implements the operation to the underlying resources."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of common response for the state updates."
-    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of response for Network Tap Rule resync operation."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleResyncResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleResyncResponseInner&text=NetworkTapRuleResyncResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleResyncResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleResyncResponseInner&text=NetworkTapRuleResyncResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.beginUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRulePatch)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.beginUpdate(String resourceGroupName, String networkTapRuleName, NetworkTapRulePatch body)"
   name: "beginUpdate(String resourceGroupName, String networkTapRuleName, NetworkTapRulePatch body)"
   nameWithType: "NetworkTapRulesClient.beginUpdate(String resourceGroupName, String networkTapRuleName, NetworkTapRulePatch body)"
-  summary: "Updates a Network Tap Rule."
+  summary: "Update certain properties of the Network Tap Rule resource."
   modifiers:
   - "abstract"
   parameters:
@@ -153,7 +153,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRulePatch?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRulePatch&text=NetworkTapRulePatch\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<NetworkTapRuleInner>,NetworkTapRuleInner> beginUpdate(String resourceGroupName, String networkTapRuleName, NetworkTapRulePatch body)"
-  desc: "Updates a Network Tap Rule. Update certain properties of the Network Tap Rule resource."
+  desc: "Update certain properties of the Network Tap Rule resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the NetworkTapRule resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner&text=NetworkTapRuleInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner&text=NetworkTapRuleInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -161,7 +161,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.beginUpdate(String resourceGroupName, String networkTapRuleName, NetworkTapRulePatch body, Context context)"
   name: "beginUpdate(String resourceGroupName, String networkTapRuleName, NetworkTapRulePatch body, Context context)"
   nameWithType: "NetworkTapRulesClient.beginUpdate(String resourceGroupName, String networkTapRuleName, NetworkTapRulePatch body, Context context)"
-  summary: "Updates a Network Tap Rule."
+  summary: "Update certain properties of the Network Tap Rule resource."
   modifiers:
   - "abstract"
   parameters:
@@ -178,7 +178,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<NetworkTapRuleInner>,NetworkTapRuleInner> beginUpdate(String resourceGroupName, String networkTapRuleName, NetworkTapRulePatch body, Context context)"
-  desc: "Updates a Network Tap Rule. Update certain properties of the Network Tap Rule resource."
+  desc: "Update certain properties of the Network Tap Rule resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the NetworkTapRule resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner&text=NetworkTapRuleInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner&text=NetworkTapRuleInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -186,7 +186,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.beginUpdateAdministrativeState(String resourceGroupName, String networkTapRuleName, UpdateAdministrativeState body)"
   name: "beginUpdateAdministrativeState(String resourceGroupName, String networkTapRuleName, UpdateAdministrativeState body)"
   nameWithType: "NetworkTapRulesClient.beginUpdateAdministrativeState(String resourceGroupName, String networkTapRuleName, UpdateAdministrativeState body)"
-  summary: "Updates administrative state of Network Tap Rules."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -200,7 +200,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState&text=UpdateAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<CommonPostActionResponseForStateUpdateInner>,CommonPostActionResponseForStateUpdateInner> beginUpdateAdministrativeState(String resourceGroupName, String networkTapRuleName, UpdateAdministrativeState body)"
-  desc: "Updates administrative state of Network Tap Rules. Implements the operation to the underlying resources."
+  desc: "Implements the operation to the underlying resources."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of common response for the state updates."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -208,7 +208,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.beginUpdateAdministrativeState(String resourceGroupName, String networkTapRuleName, UpdateAdministrativeState body, Context context)"
   name: "beginUpdateAdministrativeState(String resourceGroupName, String networkTapRuleName, UpdateAdministrativeState body, Context context)"
   nameWithType: "NetworkTapRulesClient.beginUpdateAdministrativeState(String resourceGroupName, String networkTapRuleName, UpdateAdministrativeState body, Context context)"
-  summary: "Updates administrative state of Network Tap Rules."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -225,7 +225,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<CommonPostActionResponseForStateUpdateInner>,CommonPostActionResponseForStateUpdateInner> beginUpdateAdministrativeState(String resourceGroupName, String networkTapRuleName, UpdateAdministrativeState body, Context context)"
-  desc: "Updates administrative state of Network Tap Rules. Implements the operation to the underlying resources."
+  desc: "Implements the operation to the underlying resources."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of common response for the state updates."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -233,7 +233,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.beginValidateConfiguration(String resourceGroupName, String networkTapRuleName)"
   name: "beginValidateConfiguration(String resourceGroupName, String networkTapRuleName)"
   nameWithType: "NetworkTapRulesClient.beginValidateConfiguration(String resourceGroupName, String networkTapRuleName)"
-  summary: "Validates the configuration of the Network Tap Rule."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -244,7 +244,7 @@ methods:
     name: "networkTapRuleName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<ValidateConfigurationResponseInner>,ValidateConfigurationResponseInner> beginValidateConfiguration(String resourceGroupName, String networkTapRuleName)"
-  desc: "Validates the configuration of the Network Tap Rule. Implements the operation to the underlying resources."
+  desc: "Implements the operation to the underlying resources."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the response of the action validate configuration."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner&text=ValidateConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner&text=ValidateConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -252,7 +252,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.beginValidateConfiguration(String resourceGroupName, String networkTapRuleName, Context context)"
   name: "beginValidateConfiguration(String resourceGroupName, String networkTapRuleName, Context context)"
   nameWithType: "NetworkTapRulesClient.beginValidateConfiguration(String resourceGroupName, String networkTapRuleName, Context context)"
-  summary: "Validates the configuration of the Network Tap Rule."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -266,7 +266,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<ValidateConfigurationResponseInner>,ValidateConfigurationResponseInner> beginValidateConfiguration(String resourceGroupName, String networkTapRuleName, Context context)"
-  desc: "Validates the configuration of the Network Tap Rule. Implements the operation to the underlying resources."
+  desc: "Implements the operation to the underlying resources."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the response of the action validate configuration."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner&text=ValidateConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner&text=ValidateConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -274,7 +274,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.create(String resourceGroupName, String networkTapRuleName, NetworkTapRuleInner body)"
   name: "create(String resourceGroupName, String networkTapRuleName, NetworkTapRuleInner body)"
   nameWithType: "NetworkTapRulesClient.create(String resourceGroupName, String networkTapRuleName, NetworkTapRuleInner body)"
-  summary: "Create Network Tap Rule."
+  summary: "Create Network Tap Rule resource."
   modifiers:
   - "abstract"
   parameters:
@@ -288,7 +288,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner&text=NetworkTapRuleInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract NetworkTapRuleInner create(String resourceGroupName, String networkTapRuleName, NetworkTapRuleInner body)"
-  desc: "Create Network Tap Rule. Create Network Tap Rule resource."
+  desc: "Create Network Tap Rule resource."
   returns:
     description: "the NetworkTapRule resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner&text=NetworkTapRuleInner\" data-throw-if-not-resolved=\"False\" />"
@@ -296,7 +296,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.create(String resourceGroupName, String networkTapRuleName, NetworkTapRuleInner body, Context context)"
   name: "create(String resourceGroupName, String networkTapRuleName, NetworkTapRuleInner body, Context context)"
   nameWithType: "NetworkTapRulesClient.create(String resourceGroupName, String networkTapRuleName, NetworkTapRuleInner body, Context context)"
-  summary: "Create Network Tap Rule."
+  summary: "Create Network Tap Rule resource."
   modifiers:
   - "abstract"
   parameters:
@@ -313,7 +313,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract NetworkTapRuleInner create(String resourceGroupName, String networkTapRuleName, NetworkTapRuleInner body, Context context)"
-  desc: "Create Network Tap Rule. Create Network Tap Rule resource."
+  desc: "Create Network Tap Rule resource."
   returns:
     description: "the NetworkTapRule resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner&text=NetworkTapRuleInner\" data-throw-if-not-resolved=\"False\" />"
@@ -321,7 +321,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.delete(String resourceGroupName, String networkTapRuleName)"
   name: "delete(String resourceGroupName, String networkTapRuleName)"
   nameWithType: "NetworkTapRulesClient.delete(String resourceGroupName, String networkTapRuleName)"
-  summary: "Deletes a Network Tap Rule."
+  summary: "Delete Network Tap Rule resource."
   modifiers:
   - "abstract"
   parameters:
@@ -332,12 +332,12 @@ methods:
     name: "networkTapRuleName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void delete(String resourceGroupName, String networkTapRuleName)"
-  desc: "Deletes a Network Tap Rule. Delete Network Tap Rule resource."
+  desc: "Delete Network Tap Rule resource."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.delete(String resourceGroupName, String networkTapRuleName, Context context)"
   name: "delete(String resourceGroupName, String networkTapRuleName, Context context)"
   nameWithType: "NetworkTapRulesClient.delete(String resourceGroupName, String networkTapRuleName, Context context)"
-  summary: "Deletes a Network Tap Rule."
+  summary: "Delete Network Tap Rule resource."
   modifiers:
   - "abstract"
   parameters:
@@ -351,12 +351,12 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void delete(String resourceGroupName, String networkTapRuleName, Context context)"
-  desc: "Deletes a Network Tap Rule. Delete Network Tap Rule resource."
+  desc: "Delete Network Tap Rule resource."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.getByResourceGroup(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.getByResourceGroup(String resourceGroupName, String networkTapRuleName)"
   name: "getByResourceGroup(String resourceGroupName, String networkTapRuleName)"
   nameWithType: "NetworkTapRulesClient.getByResourceGroup(String resourceGroupName, String networkTapRuleName)"
-  summary: "Gets a Network Tap Rule."
+  summary: "Get Network Tap Rule resource details."
   modifiers:
   - "abstract"
   parameters:
@@ -367,7 +367,7 @@ methods:
     name: "networkTapRuleName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract NetworkTapRuleInner getByResourceGroup(String resourceGroupName, String networkTapRuleName)"
-  desc: "Gets a Network Tap Rule. Get Network Tap Rule resource details."
+  desc: "Get Network Tap Rule resource details."
   returns:
     description: "network Tap Rule resource details."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner&text=NetworkTapRuleInner\" data-throw-if-not-resolved=\"False\" />"
@@ -375,7 +375,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.getByResourceGroupWithResponse(String resourceGroupName, String networkTapRuleName, Context context)"
   name: "getByResourceGroupWithResponse(String resourceGroupName, String networkTapRuleName, Context context)"
   nameWithType: "NetworkTapRulesClient.getByResourceGroupWithResponse(String resourceGroupName, String networkTapRuleName, Context context)"
-  summary: "Gets a Network Tap Rule."
+  summary: "Get Network Tap Rule resource details."
   modifiers:
   - "abstract"
   parameters:
@@ -389,7 +389,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<NetworkTapRuleInner> getByResourceGroupWithResponse(String resourceGroupName, String networkTapRuleName, Context context)"
-  desc: "Gets a Network Tap Rule. Get Network Tap Rule resource details."
+  desc: "Get Network Tap Rule resource details."
   returns:
     description: "network Tap Rule resource details along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner&text=NetworkTapRuleInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -397,19 +397,19 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.list()"
   name: "list()"
   nameWithType: "NetworkTapRulesClient.list()"
-  summary: "List Network<wbr>Tap<wbr>Rules by subscription."
+  summary: "List all the Network Tap Rule resources in the given subscription."
   modifiers:
   - "abstract"
   syntax: "public abstract PagedIterable<NetworkTapRuleInner> list()"
-  desc: "List NetworkTapRules by subscription. List all the Network Tap Rule resources in the given subscription."
+  desc: "List all the Network Tap Rule resources in the given subscription."
   returns:
-    description: "list of NetworkTapRules as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NetworkTapRule items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner&text=NetworkTapRuleInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.list(com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.list(Context context)"
   name: "list(Context context)"
   nameWithType: "NetworkTapRulesClient.list(Context context)"
-  summary: "List Network<wbr>Tap<wbr>Rules by subscription."
+  summary: "List all the Network Tap Rule resources in the given subscription."
   modifiers:
   - "abstract"
   parameters:
@@ -417,15 +417,15 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<NetworkTapRuleInner> list(Context context)"
-  desc: "List NetworkTapRules by subscription. List all the Network Tap Rule resources in the given subscription."
+  desc: "List all the Network Tap Rule resources in the given subscription."
   returns:
-    description: "list of NetworkTapRules as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NetworkTapRule items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner&text=NetworkTapRuleInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.listByResourceGroup(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.listByResourceGroup(String resourceGroupName)"
   name: "listByResourceGroup(String resourceGroupName)"
   nameWithType: "NetworkTapRulesClient.listByResourceGroup(String resourceGroupName)"
-  summary: "List Network Tap Rules by resource group."
+  summary: "List all the Network Tap Rule resources in the given resource group."
   modifiers:
   - "abstract"
   parameters:
@@ -433,15 +433,15 @@ methods:
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<NetworkTapRuleInner> listByResourceGroup(String resourceGroupName)"
-  desc: "List Network Tap Rules by resource group. List all the Network Tap Rule resources in the given resource group."
+  desc: "List all the Network Tap Rule resources in the given resource group."
   returns:
-    description: "list of NetworkTapRules as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NetworkTapRule items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner&text=NetworkTapRuleInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.listByResourceGroup(String resourceGroupName, Context context)"
   name: "listByResourceGroup(String resourceGroupName, Context context)"
   nameWithType: "NetworkTapRulesClient.listByResourceGroup(String resourceGroupName, Context context)"
-  summary: "List Network Tap Rules by resource group."
+  summary: "List all the Network Tap Rule resources in the given resource group."
   modifiers:
   - "abstract"
   parameters:
@@ -452,15 +452,15 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<NetworkTapRuleInner> listByResourceGroup(String resourceGroupName, Context context)"
-  desc: "List Network Tap Rules by resource group. List all the Network Tap Rule resources in the given resource group."
+  desc: "List all the Network Tap Rule resources in the given resource group."
   returns:
-    description: "list of NetworkTapRules as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NetworkTapRule items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner&text=NetworkTapRuleInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.resync(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.resync(String resourceGroupName, String networkTapRuleName)"
   name: "resync(String resourceGroupName, String networkTapRuleName)"
   nameWithType: "NetworkTapRulesClient.resync(String resourceGroupName, String networkTapRuleName)"
-  summary: "Resync the Network Tap Rule."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -470,16 +470,16 @@ methods:
   - description: "Name of the Network Tap Rule."
     name: "networkTapRuleName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract CommonPostActionResponseForStateUpdateInner resync(String resourceGroupName, String networkTapRuleName)"
-  desc: "Resync the Network Tap Rule. Implements the operation to the underlying resources."
+  syntax: "public abstract NetworkTapRuleResyncResponseInner resync(String resourceGroupName, String networkTapRuleName)"
+  desc: "Implements the operation to the underlying resources."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />"
+    description: "response for Network Tap Rule resync operation."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleResyncResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleResyncResponseInner&text=NetworkTapRuleResyncResponseInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.resync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.resync(String resourceGroupName, String networkTapRuleName, Context context)"
   name: "resync(String resourceGroupName, String networkTapRuleName, Context context)"
   nameWithType: "NetworkTapRulesClient.resync(String resourceGroupName, String networkTapRuleName, Context context)"
-  summary: "Resync the Network Tap Rule."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -492,16 +492,16 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForStateUpdateInner resync(String resourceGroupName, String networkTapRuleName, Context context)"
-  desc: "Resync the Network Tap Rule. Implements the operation to the underlying resources."
+  syntax: "public abstract NetworkTapRuleResyncResponseInner resync(String resourceGroupName, String networkTapRuleName, Context context)"
+  desc: "Implements the operation to the underlying resources."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />"
+    description: "response for Network Tap Rule resync operation."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleResyncResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleResyncResponseInner&text=NetworkTapRuleResyncResponseInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.update(java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRulePatch)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.update(String resourceGroupName, String networkTapRuleName, NetworkTapRulePatch body)"
   name: "update(String resourceGroupName, String networkTapRuleName, NetworkTapRulePatch body)"
   nameWithType: "NetworkTapRulesClient.update(String resourceGroupName, String networkTapRuleName, NetworkTapRulePatch body)"
-  summary: "Updates a Network Tap Rule."
+  summary: "Update certain properties of the Network Tap Rule resource."
   modifiers:
   - "abstract"
   parameters:
@@ -515,7 +515,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRulePatch?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRulePatch&text=NetworkTapRulePatch\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract NetworkTapRuleInner update(String resourceGroupName, String networkTapRuleName, NetworkTapRulePatch body)"
-  desc: "Updates a Network Tap Rule. Update certain properties of the Network Tap Rule resource."
+  desc: "Update certain properties of the Network Tap Rule resource."
   returns:
     description: "the NetworkTapRule resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner&text=NetworkTapRuleInner\" data-throw-if-not-resolved=\"False\" />"
@@ -523,7 +523,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.update(String resourceGroupName, String networkTapRuleName, NetworkTapRulePatch body, Context context)"
   name: "update(String resourceGroupName, String networkTapRuleName, NetworkTapRulePatch body, Context context)"
   nameWithType: "NetworkTapRulesClient.update(String resourceGroupName, String networkTapRuleName, NetworkTapRulePatch body, Context context)"
-  summary: "Updates a Network Tap Rule."
+  summary: "Update certain properties of the Network Tap Rule resource."
   modifiers:
   - "abstract"
   parameters:
@@ -540,7 +540,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract NetworkTapRuleInner update(String resourceGroupName, String networkTapRuleName, NetworkTapRulePatch body, Context context)"
-  desc: "Updates a Network Tap Rule. Update certain properties of the Network Tap Rule resource."
+  desc: "Update certain properties of the Network Tap Rule resource."
   returns:
     description: "the NetworkTapRule resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapRuleInner&text=NetworkTapRuleInner\" data-throw-if-not-resolved=\"False\" />"
@@ -548,7 +548,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.updateAdministrativeState(String resourceGroupName, String networkTapRuleName, UpdateAdministrativeState body)"
   name: "updateAdministrativeState(String resourceGroupName, String networkTapRuleName, UpdateAdministrativeState body)"
   nameWithType: "NetworkTapRulesClient.updateAdministrativeState(String resourceGroupName, String networkTapRuleName, UpdateAdministrativeState body)"
-  summary: "Updates administrative state of Network Tap Rules."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -562,7 +562,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState&text=UpdateAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract CommonPostActionResponseForStateUpdateInner updateAdministrativeState(String resourceGroupName, String networkTapRuleName, UpdateAdministrativeState body)"
-  desc: "Updates administrative state of Network Tap Rules. Implements the operation to the underlying resources."
+  desc: "Implements the operation to the underlying resources."
   returns:
     description: "common response for the state updates."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />"
@@ -570,7 +570,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.updateAdministrativeState(String resourceGroupName, String networkTapRuleName, UpdateAdministrativeState body, Context context)"
   name: "updateAdministrativeState(String resourceGroupName, String networkTapRuleName, UpdateAdministrativeState body, Context context)"
   nameWithType: "NetworkTapRulesClient.updateAdministrativeState(String resourceGroupName, String networkTapRuleName, UpdateAdministrativeState body, Context context)"
-  summary: "Updates administrative state of Network Tap Rules."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -587,7 +587,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract CommonPostActionResponseForStateUpdateInner updateAdministrativeState(String resourceGroupName, String networkTapRuleName, UpdateAdministrativeState body, Context context)"
-  desc: "Updates administrative state of Network Tap Rules. Implements the operation to the underlying resources."
+  desc: "Implements the operation to the underlying resources."
   returns:
     description: "common response for the state updates."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />"
@@ -595,7 +595,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.validateConfiguration(String resourceGroupName, String networkTapRuleName)"
   name: "validateConfiguration(String resourceGroupName, String networkTapRuleName)"
   nameWithType: "NetworkTapRulesClient.validateConfiguration(String resourceGroupName, String networkTapRuleName)"
-  summary: "Validates the configuration of the Network Tap Rule."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -606,7 +606,7 @@ methods:
     name: "networkTapRuleName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract ValidateConfigurationResponseInner validateConfiguration(String resourceGroupName, String networkTapRuleName)"
-  desc: "Validates the configuration of the Network Tap Rule. Implements the operation to the underlying resources."
+  desc: "Implements the operation to the underlying resources."
   returns:
     description: "the response of the action validate configuration."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner&text=ValidateConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />"
@@ -614,7 +614,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkTapRulesClient.validateConfiguration(String resourceGroupName, String networkTapRuleName, Context context)"
   name: "validateConfiguration(String resourceGroupName, String networkTapRuleName, Context context)"
   nameWithType: "NetworkTapRulesClient.validateConfiguration(String resourceGroupName, String networkTapRuleName, Context context)"
-  summary: "Validates the configuration of the Network Tap Rule."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -628,7 +628,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract ValidateConfigurationResponseInner validateConfiguration(String resourceGroupName, String networkTapRuleName, Context context)"
-  desc: "Validates the configuration of the Network Tap Rule. Implements the operation to the underlying resources."
+  desc: "Implements the operation to the underlying resources."
   returns:
     description: "the response of the action validate configuration."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner&text=ValidateConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />"
@@ -636,4 +636,4 @@ type: "interface"
 desc: "An instance of this class provides access to all the operations defined in NetworkTapRulesClient."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

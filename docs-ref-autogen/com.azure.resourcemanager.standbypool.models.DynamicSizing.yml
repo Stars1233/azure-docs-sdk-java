@@ -1,0 +1,94 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.standbypool.models.DynamicSizing"
+fullName: "com.azure.resourcemanager.standbypool.models.DynamicSizing"
+name: "DynamicSizing"
+nameWithType: "DynamicSizing"
+summary: "Specifies the dynamic sizing configuration."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DynamicSizing**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.standbypool.models.DynamicSizing?alt=com.azure.resourcemanager.standbypool.models.DynamicSizing&text=DynamicSizing\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.standbypool.models.DynamicSizing.DynamicSizing()"
+  fullName: "com.azure.resourcemanager.standbypool.models.DynamicSizing.DynamicSizing()"
+  name: "DynamicSizing()"
+  nameWithType: "DynamicSizing.DynamicSizing()"
+  summary: "Creates an instance of Dynamic<wbr>Sizing class."
+  syntax: "public DynamicSizing()"
+  desc: "Creates an instance of DynamicSizing class."
+methods:
+- uid: "com.azure.resourcemanager.standbypool.models.DynamicSizing.enabled()"
+  fullName: "com.azure.resourcemanager.standbypool.models.DynamicSizing.enabled()"
+  name: "enabled()"
+  nameWithType: "DynamicSizing.enabled()"
+  summary: "Get the enabled property: Indicates whether dynamic sizing is enabled for the standby pool."
+  syntax: "public Boolean enabled()"
+  desc: "Get the enabled property: Indicates whether dynamic sizing is enabled for the standby pool."
+  returns:
+    description: "the enabled value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+- uid: "com.azure.resourcemanager.standbypool.models.DynamicSizing.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.standbypool.models.DynamicSizing.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "DynamicSizing.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Dynamic<wbr>Sizing from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static DynamicSizing fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the DynamicSizing."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of DynamicSizing from the JsonReader."
+  returns:
+    description: "An instance of DynamicSizing if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.standbypool.models.DynamicSizing?alt=com.azure.resourcemanager.standbypool.models.DynamicSizing&text=DynamicSizing\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.standbypool.models.DynamicSizing.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.standbypool.models.DynamicSizing.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "DynamicSizing.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.standbypool.models.DynamicSizing.withEnabled(java.lang.Boolean)"
+  fullName: "com.azure.resourcemanager.standbypool.models.DynamicSizing.withEnabled(Boolean enabled)"
+  name: "withEnabled(Boolean enabled)"
+  nameWithType: "DynamicSizing.withEnabled(Boolean enabled)"
+  summary: "Set the enabled property: Indicates whether dynamic sizing is enabled for the standby pool."
+  parameters:
+  - description: "the enabled value to set."
+    name: "enabled"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public DynamicSizing withEnabled(Boolean enabled)"
+  desc: "Set the enabled property: Indicates whether dynamic sizing is enabled for the standby pool."
+  returns:
+    description: "the DynamicSizing object itself."
+    type: "<xref href=\"com.azure.resourcemanager.standbypool.models.DynamicSizing?alt=com.azure.resourcemanager.standbypool.models.DynamicSizing&text=DynamicSizing\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Specifies the dynamic sizing configuration."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.standbypool.models.DynamicSizing?alt=com.azure.resourcemanager.standbypool.models.DynamicSizing&text=DynamicSizing\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.standbypool.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-standbypool:1.2.0

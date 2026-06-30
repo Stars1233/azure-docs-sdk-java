@@ -494,6 +494,18 @@ methods:
   returns:
     description: "the support value."
     type: "<xref href=\"com.azure.resourcemanager.devtestlabs.models.LabSupportProperties?alt=com.azure.resourcemanager.devtestlabs.models.LabSupportProperties&text=LabSupportProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.devtestlabs.models.Lab.systemData()"
+  fullName: "com.azure.resourcemanager.devtestlabs.models.Lab.systemData()"
+  name: "systemData()"
+  nameWithType: "Lab.systemData()"
+  summary: "Gets the system<wbr>Data property: Azure Resource Manager metadata containing created<wbr>By and modified<wbr>By information."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SystemData systemData()"
+  desc: "Gets the systemData property: Azure Resource Manager metadata containing createdBy and modifiedBy information."
+  returns:
+    description: "the systemData value."
+    type: "<xref href=\"com.azure.core.management.SystemData?alt=com.azure.core.management.SystemData&text=SystemData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.devtestlabs.models.Lab.tags()"
   fullName: "com.azure.resourcemanager.devtestlabs.models.Lab.tags()"
   name: "tags()"
@@ -570,4 +582,4 @@ type: "interface"
 desc: "An immutable client-side representation of Lab."
 metadata: {}
 package: "com.azure.resourcemanager.devtestlabs.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-devtestlabs:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-devtestlabs:1.2.0

@@ -1,0 +1,97 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.healthbot.fluent.HealthbotManagementClient"
+fullName: "com.azure.resourcemanager.healthbot.fluent.HealthbotManagementClient"
+name: "HealthbotManagementClient"
+nameWithType: "HealthbotManagementClient"
+summary: "The interface for Healthbot<wbr>Management<wbr>Client class."
+syntax: "public interface **HealthbotManagementClient**"
+methods:
+- uid: "com.azure.resourcemanager.healthbot.fluent.HealthbotManagementClient.getApiVersion()"
+  fullName: "com.azure.resourcemanager.healthbot.fluent.HealthbotManagementClient.getApiVersion()"
+  name: "getApiVersion()"
+  nameWithType: "HealthbotManagementClient.getApiVersion()"
+  summary: "Gets Version parameter."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String getApiVersion()"
+  desc: "Gets Version parameter."
+  returns:
+    description: "the apiVersion value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.healthbot.fluent.HealthbotManagementClient.getBots()"
+  fullName: "com.azure.resourcemanager.healthbot.fluent.HealthbotManagementClient.getBots()"
+  name: "getBots()"
+  nameWithType: "HealthbotManagementClient.getBots()"
+  summary: "Gets the Bots<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract BotsClient getBots()"
+  desc: "Gets the BotsClient object to access its operations."
+  returns:
+    description: "the BotsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.healthbot.fluent.BotsClient?alt=com.azure.resourcemanager.healthbot.fluent.BotsClient&text=BotsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.healthbot.fluent.HealthbotManagementClient.getDefaultPollInterval()"
+  fullName: "com.azure.resourcemanager.healthbot.fluent.HealthbotManagementClient.getDefaultPollInterval()"
+  name: "getDefaultPollInterval()"
+  nameWithType: "HealthbotManagementClient.getDefaultPollInterval()"
+  summary: "Gets The default poll interval for long-running operation."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Duration getDefaultPollInterval()"
+  desc: "Gets The default poll interval for long-running operation."
+  returns:
+    description: "the defaultPollInterval value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html\">Duration</a>"
+- uid: "com.azure.resourcemanager.healthbot.fluent.HealthbotManagementClient.getEndpoint()"
+  fullName: "com.azure.resourcemanager.healthbot.fluent.HealthbotManagementClient.getEndpoint()"
+  name: "getEndpoint()"
+  nameWithType: "HealthbotManagementClient.getEndpoint()"
+  summary: "Gets Service host."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String getEndpoint()"
+  desc: "Gets Service host."
+  returns:
+    description: "the endpoint value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.healthbot.fluent.HealthbotManagementClient.getHttpPipeline()"
+  fullName: "com.azure.resourcemanager.healthbot.fluent.HealthbotManagementClient.getHttpPipeline()"
+  name: "getHttpPipeline()"
+  nameWithType: "HealthbotManagementClient.getHttpPipeline()"
+  summary: "Gets The HTTP pipeline to send requests through."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract HttpPipeline getHttpPipeline()"
+  desc: "Gets The HTTP pipeline to send requests through."
+  returns:
+    description: "the httpPipeline value."
+    type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.healthbot.fluent.HealthbotManagementClient.getOperations()"
+  fullName: "com.azure.resourcemanager.healthbot.fluent.HealthbotManagementClient.getOperations()"
+  name: "getOperations()"
+  nameWithType: "HealthbotManagementClient.getOperations()"
+  summary: "Gets the Operations<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract OperationsClient getOperations()"
+  desc: "Gets the OperationsClient object to access its operations."
+  returns:
+    description: "the OperationsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.healthbot.fluent.OperationsClient?alt=com.azure.resourcemanager.healthbot.fluent.OperationsClient&text=OperationsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.healthbot.fluent.HealthbotManagementClient.getSubscriptionId()"
+  fullName: "com.azure.resourcemanager.healthbot.fluent.HealthbotManagementClient.getSubscriptionId()"
+  name: "getSubscriptionId()"
+  nameWithType: "HealthbotManagementClient.getSubscriptionId()"
+  summary: "Gets The ID of the target subscription."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String getSubscriptionId()"
+  desc: "Gets The ID of the target subscription. The value must be an UUID."
+  returns:
+    description: "the subscriptionId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "interface"
+desc: "The interface for HealthbotManagementClient class."
+metadata: {}
+package: "com.azure.resourcemanager.healthbot.fluent"
+artifact: com.azure.resourcemanager:azure-resourcemanager-healthbot:1.2.0

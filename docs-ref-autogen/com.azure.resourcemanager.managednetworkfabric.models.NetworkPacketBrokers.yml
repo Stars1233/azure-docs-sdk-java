@@ -26,7 +26,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBrokers.delete(String resourceGroupName, String networkPacketBrokerName, Context context)"
   name: "delete(String resourceGroupName, String networkPacketBrokerName, Context context)"
   nameWithType: "NetworkPacketBrokers.delete(String resourceGroupName, String networkPacketBrokerName, Context context)"
-  summary: "Deletes a Network Packet Broker."
+  summary: "Deletes Network Packet Broker."
   modifiers:
   - "abstract"
   parameters:
@@ -40,12 +40,12 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void delete(String resourceGroupName, String networkPacketBrokerName, Context context)"
-  desc: "Deletes a Network Packet Broker. Deletes Network Packet Broker."
+  desc: "Deletes Network Packet Broker."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBrokers.deleteById(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBrokers.deleteById(String id)"
   name: "deleteById(String id)"
   nameWithType: "NetworkPacketBrokers.deleteById(String id)"
-  summary: "Deletes a Network Packet Broker."
+  summary: "Deletes Network Packet Broker."
   modifiers:
   - "abstract"
   parameters:
@@ -53,12 +53,12 @@ methods:
     name: "id"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void deleteById(String id)"
-  desc: "Deletes a Network Packet Broker. Deletes Network Packet Broker."
+  desc: "Deletes Network Packet Broker."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBrokers.deleteByIdWithResponse(java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBrokers.deleteByIdWithResponse(String id, Context context)"
   name: "deleteByIdWithResponse(String id, Context context)"
   nameWithType: "NetworkPacketBrokers.deleteByIdWithResponse(String id, Context context)"
-  summary: "Deletes a Network Packet Broker."
+  summary: "Deletes Network Packet Broker."
   modifiers:
   - "abstract"
   parameters:
@@ -69,12 +69,12 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void deleteByIdWithResponse(String id, Context context)"
-  desc: "Deletes a Network Packet Broker. Deletes Network Packet Broker."
+  desc: "Deletes Network Packet Broker."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBrokers.deleteByResourceGroup(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBrokers.deleteByResourceGroup(String resourceGroupName, String networkPacketBrokerName)"
   name: "deleteByResourceGroup(String resourceGroupName, String networkPacketBrokerName)"
   nameWithType: "NetworkPacketBrokers.deleteByResourceGroup(String resourceGroupName, String networkPacketBrokerName)"
-  summary: "Deletes a Network Packet Broker."
+  summary: "Deletes Network Packet Broker."
   modifiers:
   - "abstract"
   parameters:
@@ -85,12 +85,12 @@ methods:
     name: "networkPacketBrokerName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void deleteByResourceGroup(String resourceGroupName, String networkPacketBrokerName)"
-  desc: "Deletes a Network Packet Broker. Deletes Network Packet Broker."
+  desc: "Deletes Network Packet Broker."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBrokers.getById(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBrokers.getById(String id)"
   name: "getById(String id)"
   nameWithType: "NetworkPacketBrokers.getById(String id)"
-  summary: "Gets a Network Packet Broker."
+  summary: "Retrieves details of this Network Packet Broker."
   modifiers:
   - "abstract"
   parameters:
@@ -98,7 +98,7 @@ methods:
     name: "id"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract NetworkPacketBroker getById(String id)"
-  desc: "Gets a Network Packet Broker. Retrieves details of this Network Packet Broker."
+  desc: "Retrieves details of this Network Packet Broker."
   returns:
     description: "the NetworkPacketBroker resource definition along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker&text=NetworkPacketBroker\" data-throw-if-not-resolved=\"False\" />"
@@ -106,7 +106,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBrokers.getByIdWithResponse(String id, Context context)"
   name: "getByIdWithResponse(String id, Context context)"
   nameWithType: "NetworkPacketBrokers.getByIdWithResponse(String id, Context context)"
-  summary: "Gets a Network Packet Broker."
+  summary: "Retrieves details of this Network Packet Broker."
   modifiers:
   - "abstract"
   parameters:
@@ -117,7 +117,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<NetworkPacketBroker> getByIdWithResponse(String id, Context context)"
-  desc: "Gets a Network Packet Broker. Retrieves details of this Network Packet Broker."
+  desc: "Retrieves details of this Network Packet Broker."
   returns:
     description: "the NetworkPacketBroker resource definition along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker&text=NetworkPacketBroker\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -125,7 +125,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBrokers.getByResourceGroup(String resourceGroupName, String networkPacketBrokerName)"
   name: "getByResourceGroup(String resourceGroupName, String networkPacketBrokerName)"
   nameWithType: "NetworkPacketBrokers.getByResourceGroup(String resourceGroupName, String networkPacketBrokerName)"
-  summary: "Gets a Network Packet Broker."
+  summary: "Retrieves details of this Network Packet Broker."
   modifiers:
   - "abstract"
   parameters:
@@ -136,7 +136,7 @@ methods:
     name: "networkPacketBrokerName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract NetworkPacketBroker getByResourceGroup(String resourceGroupName, String networkPacketBrokerName)"
-  desc: "Gets a Network Packet Broker. Retrieves details of this Network Packet Broker."
+  desc: "Retrieves details of this Network Packet Broker."
   returns:
     description: "the NetworkPacketBroker resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker&text=NetworkPacketBroker\" data-throw-if-not-resolved=\"False\" />"
@@ -144,7 +144,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBrokers.getByResourceGroupWithResponse(String resourceGroupName, String networkPacketBrokerName, Context context)"
   name: "getByResourceGroupWithResponse(String resourceGroupName, String networkPacketBrokerName, Context context)"
   nameWithType: "NetworkPacketBrokers.getByResourceGroupWithResponse(String resourceGroupName, String networkPacketBrokerName, Context context)"
-  summary: "Gets a Network Packet Broker."
+  summary: "Retrieves details of this Network Packet Broker."
   modifiers:
   - "abstract"
   parameters:
@@ -158,7 +158,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<NetworkPacketBroker> getByResourceGroupWithResponse(String resourceGroupName, String networkPacketBrokerName, Context context)"
-  desc: "Gets a Network Packet Broker. Retrieves details of this Network Packet Broker."
+  desc: "Retrieves details of this Network Packet Broker."
   returns:
     description: "the NetworkPacketBroker resource definition along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker&text=NetworkPacketBroker\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -166,19 +166,19 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBrokers.list()"
   name: "list()"
   nameWithType: "NetworkPacketBrokers.list()"
-  summary: "List Network Packet Brokers by subscription."
+  summary: "Displays Network Packet Brokers list by subscription GET method."
   modifiers:
   - "abstract"
   syntax: "public abstract PagedIterable<NetworkPacketBroker> list()"
-  desc: "List Network Packet Brokers by subscription. Displays Network Packet Brokers list by subscription GET method."
+  desc: "Displays Network Packet Brokers list by subscription GET method."
   returns:
-    description: "list of NetworkPacketBrokers as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NetworkPacketBroker items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker&text=NetworkPacketBroker\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBrokers.list(com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBrokers.list(Context context)"
   name: "list(Context context)"
   nameWithType: "NetworkPacketBrokers.list(Context context)"
-  summary: "List Network Packet Brokers by subscription."
+  summary: "Displays Network Packet Brokers list by subscription GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -186,15 +186,15 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<NetworkPacketBroker> list(Context context)"
-  desc: "List Network Packet Brokers by subscription. Displays Network Packet Brokers list by subscription GET method."
+  desc: "Displays Network Packet Brokers list by subscription GET method."
   returns:
-    description: "list of NetworkPacketBrokers as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NetworkPacketBroker items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker&text=NetworkPacketBroker\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBrokers.listByResourceGroup(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBrokers.listByResourceGroup(String resourceGroupName)"
   name: "listByResourceGroup(String resourceGroupName)"
   nameWithType: "NetworkPacketBrokers.listByResourceGroup(String resourceGroupName)"
-  summary: "List all Network Packet Brokers under resource group."
+  summary: "Displays Network<wbr>Packet<wbr>Brokers list by resource group GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -202,15 +202,15 @@ methods:
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<NetworkPacketBroker> listByResourceGroup(String resourceGroupName)"
-  desc: "List all Network Packet Brokers under resource group. Displays NetworkPacketBrokers list by resource group GET method."
+  desc: "Displays NetworkPacketBrokers list by resource group GET method."
   returns:
-    description: "list of NetworkPacketBrokers as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NetworkPacketBroker items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker&text=NetworkPacketBroker\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBrokers.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBrokers.listByResourceGroup(String resourceGroupName, Context context)"
   name: "listByResourceGroup(String resourceGroupName, Context context)"
   nameWithType: "NetworkPacketBrokers.listByResourceGroup(String resourceGroupName, Context context)"
-  summary: "List all Network Packet Brokers under resource group."
+  summary: "Displays Network<wbr>Packet<wbr>Brokers list by resource group GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -221,12 +221,12 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<NetworkPacketBroker> listByResourceGroup(String resourceGroupName, Context context)"
-  desc: "List all Network Packet Brokers under resource group. Displays NetworkPacketBrokers list by resource group GET method."
+  desc: "Displays NetworkPacketBrokers list by resource group GET method."
   returns:
-    description: "list of NetworkPacketBrokers as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NetworkPacketBroker items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker&text=NetworkPacketBroker\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 desc: "Resource collection API of NetworkPacketBrokers."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

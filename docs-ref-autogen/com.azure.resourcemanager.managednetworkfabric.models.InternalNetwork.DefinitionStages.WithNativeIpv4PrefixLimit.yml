@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.DefinitionStages.WithNativeIpv4PrefixLimit"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.DefinitionStages.WithNativeIpv4PrefixLimit"
+name: "InternalNetwork.DefinitionStages.WithNativeIpv4PrefixLimit"
+nameWithType: "InternalNetwork.DefinitionStages.WithNativeIpv4PrefixLimit"
+summary: "The stage of the Internal<wbr>Network definition allowing to specify native<wbr>Ipv4Prefix<wbr>Limit."
+syntax: "public static interface **InternalNetwork.DefinitionStages.WithNativeIpv4PrefixLimit**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.DefinitionStages.WithNativeIpv4PrefixLimit.withNativeIpv4PrefixLimit(com.azure.resourcemanager.managednetworkfabric.models.NativeIpv4PrefixLimitProperties)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.DefinitionStages.WithNativeIpv4PrefixLimit.withNativeIpv4PrefixLimit(NativeIpv4PrefixLimitProperties nativeIpv4PrefixLimit)"
+  name: "withNativeIpv4PrefixLimit(NativeIpv4PrefixLimitProperties nativeIpv4PrefixLimit)"
+  nameWithType: "InternalNetwork.DefinitionStages.WithNativeIpv4PrefixLimit.withNativeIpv4PrefixLimit(NativeIpv4PrefixLimitProperties nativeIpv4PrefixLimit)"
+  summary: "Specifies the native<wbr>Ipv4Prefix<wbr>Limit property: Native IPv4 Prefix Limit Configuration properties.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Native IPv4 Prefix Limit Configuration properties."
+    name: "nativeIpv4PrefixLimit"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NativeIpv4PrefixLimitProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.NativeIpv4PrefixLimitProperties&text=NativeIpv4PrefixLimitProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract InternalNetwork.DefinitionStages.WithCreate withNativeIpv4PrefixLimit(NativeIpv4PrefixLimitProperties nativeIpv4PrefixLimit)"
+  desc: "Specifies the nativeIpv4PrefixLimit property: Native IPv4 Prefix Limit Configuration properties.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the InternalNetwork definition allowing to specify nativeIpv4PrefixLimit."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

@@ -30,6 +30,16 @@ constructors:
   syntax: "public StandbyVirtualMachinePoolElasticityProfile()"
   desc: "Creates an instance of StandbyVirtualMachinePoolElasticityProfile class."
 methods:
+- uid: "com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile.dynamicSizing()"
+  fullName: "com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile.dynamicSizing()"
+  name: "dynamicSizing()"
+  nameWithType: "StandbyVirtualMachinePoolElasticityProfile.dynamicSizing()"
+  summary: "Get the dynamic<wbr>Sizing property: Specifies the dynamic sizing configuration."
+  syntax: "public DynamicSizing dynamicSizing()"
+  desc: "Get the dynamicSizing property: Specifies the dynamic sizing configuration."
+  returns:
+    description: "the dynamicSizing value."
+    type: "<xref href=\"com.azure.resourcemanager.standbypool.models.DynamicSizing?alt=com.azure.resourcemanager.standbypool.models.DynamicSizing&text=DynamicSizing\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -69,6 +79,16 @@ methods:
   returns:
     description: "the minReadyCapacity value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
+- uid: "com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile.postProvisioningDelay()"
+  fullName: "com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile.postProvisioningDelay()"
+  name: "postProvisioningDelay()"
+  nameWithType: "StandbyVirtualMachinePoolElasticityProfile.postProvisioningDelay()"
+  summary: "Get the post<wbr>Provisioning<wbr>Delay property: Specifies the duration to wait after virtual machine provisioning before the virtual machine becomes available for use."
+  syntax: "public String postProvisioningDelay()"
+  desc: "Get the postProvisioningDelay property: Specifies the duration to wait after virtual machine provisioning before the virtual machine becomes available for use. The duration should be specified in ISO 8601 format (e.g., PT2S for 2 seconds)."
+  returns:
+    description: "the postProvisioningDelay value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -81,13 +101,20 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile.validate()"
-  fullName: "com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile.validate()"
-  name: "validate()"
-  nameWithType: "StandbyVirtualMachinePoolElasticityProfile.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile.withDynamicSizing(com.azure.resourcemanager.standbypool.models.DynamicSizing)"
+  fullName: "com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile.withDynamicSizing(DynamicSizing dynamicSizing)"
+  name: "withDynamicSizing(DynamicSizing dynamicSizing)"
+  nameWithType: "StandbyVirtualMachinePoolElasticityProfile.withDynamicSizing(DynamicSizing dynamicSizing)"
+  summary: "Set the dynamic<wbr>Sizing property: Specifies the dynamic sizing configuration."
+  parameters:
+  - description: "the dynamicSizing value to set."
+    name: "dynamicSizing"
+    type: "<xref href=\"com.azure.resourcemanager.standbypool.models.DynamicSizing?alt=com.azure.resourcemanager.standbypool.models.DynamicSizing&text=DynamicSizing\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public StandbyVirtualMachinePoolElasticityProfile withDynamicSizing(DynamicSizing dynamicSizing)"
+  desc: "Set the dynamicSizing property: Specifies the dynamic sizing configuration."
+  returns:
+    description: "the StandbyVirtualMachinePoolElasticityProfile object itself."
+    type: "<xref href=\"com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile?alt=com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile&text=StandbyVirtualMachinePoolElasticityProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile.withMaxReadyCapacity(long)"
   fullName: "com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile.withMaxReadyCapacity(long maxReadyCapacity)"
   name: "withMaxReadyCapacity(long maxReadyCapacity)"
@@ -116,10 +143,24 @@ methods:
   returns:
     description: "the StandbyVirtualMachinePoolElasticityProfile object itself."
     type: "<xref href=\"com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile?alt=com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile&text=StandbyVirtualMachinePoolElasticityProfile\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile.withPostProvisioningDelay(java.lang.String)"
+  fullName: "com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile.withPostProvisioningDelay(String postProvisioningDelay)"
+  name: "withPostProvisioningDelay(String postProvisioningDelay)"
+  nameWithType: "StandbyVirtualMachinePoolElasticityProfile.withPostProvisioningDelay(String postProvisioningDelay)"
+  summary: "Set the post<wbr>Provisioning<wbr>Delay property: Specifies the duration to wait after virtual machine provisioning before the virtual machine becomes available for use."
+  parameters:
+  - description: "the postProvisioningDelay value to set."
+    name: "postProvisioningDelay"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public StandbyVirtualMachinePoolElasticityProfile withPostProvisioningDelay(String postProvisioningDelay)"
+  desc: "Set the postProvisioningDelay property: Specifies the duration to wait after virtual machine provisioning before the virtual machine becomes available for use. The duration should be specified in ISO 8601 format (e.g., PT2S for 2 seconds)."
+  returns:
+    description: "the StandbyVirtualMachinePoolElasticityProfile object itself."
+    type: "<xref href=\"com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile?alt=com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile&text=StandbyVirtualMachinePoolElasticityProfile\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Details of the elasticity profile."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile?alt=com.azure.resourcemanager.standbypool.models.StandbyVirtualMachinePoolElasticityProfile&text=StandbyVirtualMachinePoolElasticityProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.standbypool.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-standbypool:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-standbypool:1.2.0

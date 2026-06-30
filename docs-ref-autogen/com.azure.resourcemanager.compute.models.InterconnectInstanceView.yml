@@ -1,0 +1,79 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.compute.models.InterconnectInstanceView"
+fullName: "com.azure.resourcemanager.compute.models.InterconnectInstanceView"
+name: "InterconnectInstanceView"
+nameWithType: "InterconnectInstanceView"
+summary: "The Interconnect Block instance view details for a Virtual Machine or Scale Set VM instance."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **InterconnectInstanceView**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.InterconnectInstanceView?alt=com.azure.resourcemanager.compute.models.InterconnectInstanceView&text=InterconnectInstanceView\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.compute.models.InterconnectInstanceView.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.compute.models.InterconnectInstanceView.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "InterconnectInstanceView.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Interconnect<wbr>Instance<wbr>View from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static InterconnectInstanceView fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the InterconnectInstanceView."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of InterconnectInstanceView from the JsonReader."
+  returns:
+    description: "An instance of InterconnectInstanceView if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.InterconnectInstanceView?alt=com.azure.resourcemanager.compute.models.InterconnectInstanceView&text=InterconnectInstanceView\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.InterconnectInstanceView.interconnectSubgroupId()"
+  fullName: "com.azure.resourcemanager.compute.models.InterconnectInstanceView.interconnectSubgroupId()"
+  name: "interconnectSubgroupId()"
+  nameWithType: "InterconnectInstanceView.interconnectSubgroupId()"
+  summary: "Get the interconnect<wbr>Subgroup<wbr>Id property: The ID (GUID) of the Interconnect subgroup in which the Virtual Machine was placed."
+  syntax: "public String interconnectSubgroupId()"
+  desc: "Get the interconnectSubgroupId property: The ID (GUID) of the Interconnect subgroup in which the Virtual Machine was placed."
+  returns:
+    description: "the interconnectSubgroupId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.compute.models.InterconnectInstanceView.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.compute.models.InterconnectInstanceView.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "InterconnectInstanceView.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.InterconnectInstanceView.validate()"
+  fullName: "com.azure.resourcemanager.compute.models.InterconnectInstanceView.validate()"
+  name: "validate()"
+  nameWithType: "InterconnectInstanceView.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+type: "class"
+desc: "The Interconnect Block instance view details for a Virtual Machine or Scale Set VM instance."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.InterconnectInstanceView?alt=com.azure.resourcemanager.compute.models.InterconnectInstanceView&text=InterconnectInstanceView\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.compute.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

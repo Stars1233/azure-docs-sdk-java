@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NniType.CE"
   name: "CE"
   nameWithType: "NniType.CE"
-  summary: "Static value CE for Nni<wbr>Type."
+  summary: "Nni<wbr>Type-CE(Customer Edge)."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NniType?alt=com.azure.resourcemanager.managednetworkfabric.models.NniType&text=NniType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NniType CE"
-  desc: "Static value CE for NniType."
+  desc: "NniType-CE(Customer Edge)."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NniType.NPB"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NniType.NPB"
   name: "NPB"
   nameWithType: "NniType.NPB"
-  summary: "Static value NPB for Nni<wbr>Type."
+  summary: "Nni<wbr>Type-NPB(Network Packet Broker)."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NniType?alt=com.azure.resourcemanager.managednetworkfabric.models.NniType&text=NniType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NniType NPB"
-  desc: "Static value NPB for NniType."
+  desc: "NniType-NPB(Network Packet Broker)."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NniType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NniType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Type of NNI used. Example: CE | NPB."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

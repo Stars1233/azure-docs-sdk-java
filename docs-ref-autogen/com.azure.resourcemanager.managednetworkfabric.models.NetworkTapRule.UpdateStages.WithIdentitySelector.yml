@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRule.UpdateStages.WithIdentitySelector"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRule.UpdateStages.WithIdentitySelector"
+name: "NetworkTapRule.UpdateStages.WithIdentitySelector"
+nameWithType: "NetworkTapRule.UpdateStages.WithIdentitySelector"
+summary: "The stage of the Network<wbr>Tap<wbr>Rule update allowing to specify identity<wbr>Selector."
+syntax: "public static interface **NetworkTapRule.UpdateStages.WithIdentitySelector**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRule.UpdateStages.WithIdentitySelector.withIdentitySelector(com.azure.resourcemanager.managednetworkfabric.models.IdentitySelectorPatch)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRule.UpdateStages.WithIdentitySelector.withIdentitySelector(IdentitySelectorPatch identitySelector)"
+  name: "withIdentitySelector(IdentitySelectorPatch identitySelector)"
+  nameWithType: "NetworkTapRule.UpdateStages.WithIdentitySelector.withIdentitySelector(IdentitySelectorPatch identitySelector)"
+  summary: "Specifies the identity<wbr>Selector property: The selection of the managed identity to use with this storage account."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The selection of the managed identity to use with this storage account. The\n identity type must be either system assigned or user assigned."
+    name: "identitySelector"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IdentitySelectorPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.IdentitySelectorPatch&text=IdentitySelectorPatch\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NetworkTapRule.Update withIdentitySelector(IdentitySelectorPatch identitySelector)"
+  desc: "Specifies the identitySelector property: The selection of the managed identity to use with this storage account. The identity type must be either system assigned or user assigned.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRule.Update?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRule.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkTapRule update allowing to specify identitySelector."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

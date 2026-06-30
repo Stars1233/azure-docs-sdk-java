@@ -2460,7 +2460,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of Azure region."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<VirtualMachineScaleSetInner> listByLocation(String location)"
@@ -2476,7 +2476,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of Azure region."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -2495,7 +2495,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of Azure region."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedFlux<VirtualMachineScaleSetInner> listByLocationAsync(String location)"
@@ -3797,4 +3797,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.VirtualMachineScaleSetInner?alt=com.azure.resourcemanager.compute.fluent.models.VirtualMachineScaleSetInner&text=VirtualMachineScaleSetInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

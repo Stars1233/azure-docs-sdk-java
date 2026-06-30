@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.DefinitionStages.WithConditionalDefaultRouteConfiguration"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.DefinitionStages.WithConditionalDefaultRouteConfiguration"
+name: "NetworkToNetworkInterconnect.DefinitionStages.WithConditionalDefaultRouteConfiguration"
+nameWithType: "NetworkToNetworkInterconnect.DefinitionStages.WithConditionalDefaultRouteConfiguration"
+summary: "The stage of the Network<wbr>ToNetwork<wbr>Interconnect definition allowing to specify conditional<wbr>Default<wbr>Route<wbr>Configuration."
+syntax: "public static interface **NetworkToNetworkInterconnect.DefinitionStages.WithConditionalDefaultRouteConfiguration**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.DefinitionStages.WithConditionalDefaultRouteConfiguration.withConditionalDefaultRouteConfiguration(com.azure.resourcemanager.managednetworkfabric.models.ConditionalDefaultRouteProperties)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.DefinitionStages.WithConditionalDefaultRouteConfiguration.withConditionalDefaultRouteConfiguration(ConditionalDefaultRouteProperties conditionalDefaultRouteConfiguration)"
+  name: "withConditionalDefaultRouteConfiguration(ConditionalDefaultRouteProperties conditionalDefaultRouteConfiguration)"
+  nameWithType: "NetworkToNetworkInterconnect.DefinitionStages.WithConditionalDefaultRouteConfiguration.withConditionalDefaultRouteConfiguration(ConditionalDefaultRouteProperties conditionalDefaultRouteConfiguration)"
+  summary: "Specifies the conditional<wbr>Default<wbr>Route<wbr>Configuration property: Conditional Default Route Configuration properties.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Conditional Default Route Configuration properties."
+    name: "conditionalDefaultRouteConfiguration"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ConditionalDefaultRouteProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.ConditionalDefaultRouteProperties&text=ConditionalDefaultRouteProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NetworkToNetworkInterconnect.DefinitionStages.WithCreate withConditionalDefaultRouteConfiguration(ConditionalDefaultRouteProperties conditionalDefaultRouteConfiguration)"
+  desc: "Specifies the conditionalDefaultRouteConfiguration property: Conditional Default Route Configuration properties.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkToNetworkInterconnect definition allowing to specify conditionalDefaultRouteConfiguration."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

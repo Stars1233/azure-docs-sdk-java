@@ -36,6 +36,8 @@ classes:
 - "com.azure.resourcemanager.containerservice.models.AutoScaleProfile"
 - "com.azure.resourcemanager.containerservice.models.AzureKeyVaultKms"
 - "com.azure.resourcemanager.containerservice.models.BackendPoolType"
+- "com.azure.resourcemanager.containerservice.models.BastionProfile"
+- "com.azure.resourcemanager.containerservice.models.BastionSku"
 - "com.azure.resourcemanager.containerservice.models.ClusterServiceLoadBalancerHealthProbeMode"
 - "com.azure.resourcemanager.containerservice.models.ClusterUpgradeSettings"
 - "com.azure.resourcemanager.containerservice.models.Code"
@@ -130,6 +132,7 @@ classes:
 - "com.azure.resourcemanager.containerservice.models.MachineSecurityProfile"
 - "com.azure.resourcemanager.containerservice.models.MachineStatus"
 - "com.azure.resourcemanager.containerservice.models.MaintenanceWindow"
+- "com.azure.resourcemanager.containerservice.models.MaintenanceWindowResourceProperties"
 - "com.azure.resourcemanager.containerservice.models.ManagedClusterAIToolchainOperatorProfile"
 - "com.azure.resourcemanager.containerservice.models.ManagedClusterAadProfile"
 - "com.azure.resourcemanager.containerservice.models.ManagedClusterAddonProfile"
@@ -271,6 +274,7 @@ classes:
 - "com.azure.resourcemanager.containerservice.models.PurchasePlan"
 - "com.azure.resourcemanager.containerservice.models.RebalanceLoadBalancersRequestBody"
 - "com.azure.resourcemanager.containerservice.models.RelativeMonthlySchedule"
+- "com.azure.resourcemanager.containerservice.models.ResourceProvisioningState"
 - "com.azure.resourcemanager.containerservice.models.ResourceQuota"
 - "com.azure.resourcemanager.containerservice.models.ResourceReference"
 - "com.azure.resourcemanager.containerservice.models.ResourceSkuCapabilities"
@@ -407,4 +411,4 @@ interfaces:
 desc: "Package containing the data models for ContainerService. The Container Service Client."
 metadata: {}
 package: "com.azure.resourcemanager.containerservice.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.61.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.62.0-beta.1

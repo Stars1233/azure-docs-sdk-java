@@ -18,6 +18,18 @@ methods:
   returns:
     description: "the administrativeState value."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState&text=AdministrativeState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.conditionalDefaultRouteConfiguration()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.conditionalDefaultRouteConfiguration()"
+  name: "conditionalDefaultRouteConfiguration()"
+  nameWithType: "NetworkToNetworkInterconnect.conditionalDefaultRouteConfiguration()"
+  summary: "Gets the conditional<wbr>Default<wbr>Route<wbr>Configuration property: Conditional Default Route Configuration properties."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ConditionalDefaultRouteProperties conditionalDefaultRouteConfiguration()"
+  desc: "Gets the conditionalDefaultRouteConfiguration property: Conditional Default Route Configuration properties."
+  returns:
+    description: "the conditionalDefaultRouteConfiguration value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ConditionalDefaultRouteProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.ConditionalDefaultRouteProperties&text=ConditionalDefaultRouteProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.configurationState()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.configurationState()"
   name: "configurationState()"
@@ -46,11 +58,11 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.exportRoutePolicy()"
   name: "exportRoutePolicy()"
   nameWithType: "NetworkToNetworkInterconnect.exportRoutePolicy()"
-  summary: "Gets the export<wbr>Route<wbr>Policy property: Export Route Policy configuration."
+  summary: "Gets the export<wbr>Route<wbr>Policy property: Export Route Policy information."
   modifiers:
   - "abstract"
   syntax: "public abstract ExportRoutePolicyInformation exportRoutePolicy()"
-  desc: "Gets the exportRoutePolicy property: Export Route Policy configuration."
+  desc: "Gets the exportRoutePolicy property: Export Route Policy information."
   returns:
     description: "the exportRoutePolicy value."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExportRoutePolicyInformation?alt=com.azure.resourcemanager.managednetworkfabric.models.ExportRoutePolicyInformation&text=ExportRoutePolicyInformation\" data-throw-if-not-resolved=\"False\" />"
@@ -70,11 +82,11 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.importRoutePolicy()"
   name: "importRoutePolicy()"
   nameWithType: "NetworkToNetworkInterconnect.importRoutePolicy()"
-  summary: "Gets the import<wbr>Route<wbr>Policy property: Import Route Policy configuration."
+  summary: "Gets the import<wbr>Route<wbr>Policy property: Import Route Policy information."
   modifiers:
   - "abstract"
   syntax: "public abstract ImportRoutePolicyInformation importRoutePolicy()"
-  desc: "Gets the importRoutePolicy property: Import Route Policy configuration."
+  desc: "Gets the importRoutePolicy property: Import Route Policy information."
   returns:
     description: "the importRoutePolicy value."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformation?alt=com.azure.resourcemanager.managednetworkfabric.models.ImportRoutePolicyInformation&text=ImportRoutePolicyInformation\" data-throw-if-not-resolved=\"False\" />"
@@ -114,6 +126,18 @@ methods:
   returns:
     description: "the isManagementType value."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IsManagementType?alt=com.azure.resourcemanager.managednetworkfabric.models.IsManagementType&text=IsManagementType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.lastOperation()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.lastOperation()"
+  name: "lastOperation()"
+  nameWithType: "NetworkToNetworkInterconnect.lastOperation()"
+  summary: "Gets the last<wbr>Operation property: Details of the last operation performed on the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract LastOperationProperties lastOperation()"
+  desc: "Gets the lastOperation property: Details of the last operation performed on the resource."
+  returns:
+    description: "the lastOperation value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties&text=LastOperationProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.layer2Configuration()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.layer2Configuration()"
   name: "layer2Configuration()"
@@ -126,6 +150,18 @@ methods:
   returns:
     description: "the layer2Configuration value."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.Layer2Configuration?alt=com.azure.resourcemanager.managednetworkfabric.models.Layer2Configuration&text=Layer2Configuration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.microBfdState()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.microBfdState()"
+  name: "microBfdState()"
+  nameWithType: "NetworkToNetworkInterconnect.microBfdState()"
+  summary: "Gets the micro<wbr>Bfd<wbr>State property: Micro Bidirectional Forwarding Detection (BFD) enabled/disabled state."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract MicroBfdState microBfdState()"
+  desc: "Gets the microBfdState property: Micro Bidirectional Forwarding Detection (BFD) enabled/disabled state."
+  returns:
+    description: "the microBfdState value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState?alt=com.azure.resourcemanager.managednetworkfabric.models.MicroBfdState&text=MicroBfdState\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.name()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.name()"
   name: "name()"
@@ -169,11 +205,11 @@ methods:
   summary: "Gets the option<wbr>BLayer3Configuration property: Common properties for Layer3Configuration."
   modifiers:
   - "abstract"
-  syntax: "public abstract NetworkToNetworkInterconnectPropertiesOptionBLayer3Configuration optionBLayer3Configuration()"
+  syntax: "public abstract OptionBLayer3Configuration optionBLayer3Configuration()"
   desc: "Gets the optionBLayer3Configuration property: Common properties for Layer3Configuration."
   returns:
     description: "the optionBLayer3Configuration value."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnectPropertiesOptionBLayer3Configuration?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnectPropertiesOptionBLayer3Configuration&text=NetworkToNetworkInterconnectPropertiesOptionBLayer3Configuration\" data-throw-if-not-resolved=\"False\" />"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.OptionBLayer3Configuration?alt=com.azure.resourcemanager.managednetworkfabric.models.OptionBLayer3Configuration&text=OptionBLayer3Configuration\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.provisioningState()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.provisioningState()"
   name: "provisioningState()"
@@ -226,6 +262,18 @@ methods:
   returns:
     description: "the name of the resource group."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.staticRouteConfiguration()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.staticRouteConfiguration()"
+  name: "staticRouteConfiguration()"
+  nameWithType: "NetworkToNetworkInterconnect.staticRouteConfiguration()"
+  summary: "Gets the static<wbr>Route<wbr>Configuration property: Static Route Configuration."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract NniStaticRouteConfiguration staticRouteConfiguration()"
+  desc: "Gets the staticRouteConfiguration property: Static Route Configuration."
+  returns:
+    description: "the staticRouteConfiguration value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NniStaticRouteConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.NniStaticRouteConfiguration&text=NniStaticRouteConfiguration\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.systemData()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.systemData()"
   name: "systemData()"
@@ -266,23 +314,23 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.updateAdministrativeState(UpdateAdministrativeState body)"
   name: "updateAdministrativeState(UpdateAdministrativeState body)"
   nameWithType: "NetworkToNetworkInterconnect.updateAdministrativeState(UpdateAdministrativeState body)"
-  summary: "Implements the operation to the underlying resources."
+  summary: "Updates the Admin State."
   modifiers:
   - "abstract"
   parameters:
   - description: "Request payload."
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState&text=UpdateAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForStateUpdate updateAdministrativeState(UpdateAdministrativeState body)"
-  desc: "Implements the operation to the underlying resources. Updates the Admin State."
+  syntax: "public abstract UpdateAdministrativeStateResponse updateAdministrativeState(UpdateAdministrativeState body)"
+  desc: "Updates the Admin State."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate&text=CommonPostActionResponseForStateUpdate\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse&text=UpdateAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.updateAdministrativeState(com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.updateAdministrativeState(UpdateAdministrativeState body, Context context)"
   name: "updateAdministrativeState(UpdateAdministrativeState body, Context context)"
   nameWithType: "NetworkToNetworkInterconnect.updateAdministrativeState(UpdateAdministrativeState body, Context context)"
-  summary: "Implements the operation to the underlying resources."
+  summary: "Updates the Admin State."
   modifiers:
   - "abstract"
   parameters:
@@ -292,32 +340,67 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForStateUpdate updateAdministrativeState(UpdateAdministrativeState body, Context context)"
-  desc: "Implements the operation to the underlying resources. Updates the Admin State."
+  syntax: "public abstract UpdateAdministrativeStateResponse updateAdministrativeState(UpdateAdministrativeState body, Context context)"
+  desc: "Updates the Admin State."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate&text=CommonPostActionResponseForStateUpdate\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse&text=UpdateAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.updateBfdAdministrativeState(com.azure.resourcemanager.managednetworkfabric.models.NniUpdateBfdAdministrativeStateRequest)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.updateBfdAdministrativeState(NniUpdateBfdAdministrativeStateRequest body)"
+  name: "updateBfdAdministrativeState(NniUpdateBfdAdministrativeStateRequest body)"
+  nameWithType: "NetworkToNetworkInterconnect.updateBfdAdministrativeState(NniUpdateBfdAdministrativeStateRequest body)"
+  summary: "Updates the Admin State."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Request payload."
+    name: "body"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NniUpdateBfdAdministrativeStateRequest?alt=com.azure.resourcemanager.managednetworkfabric.models.NniUpdateBfdAdministrativeStateRequest&text=NniUpdateBfdAdministrativeStateRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NniUpdateBfdAdministrativeStateResponse updateBfdAdministrativeState(NniUpdateBfdAdministrativeStateRequest body)"
+  desc: "Updates the Admin State."
+  returns:
+    description: "nNI Bidirectional Forwarding Detection (BFD) Administrative State response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NniUpdateBfdAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.NniUpdateBfdAdministrativeStateResponse&text=NniUpdateBfdAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.updateBfdAdministrativeState(com.azure.resourcemanager.managednetworkfabric.models.NniUpdateBfdAdministrativeStateRequest,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.updateBfdAdministrativeState(NniUpdateBfdAdministrativeStateRequest body, Context context)"
+  name: "updateBfdAdministrativeState(NniUpdateBfdAdministrativeStateRequest body, Context context)"
+  nameWithType: "NetworkToNetworkInterconnect.updateBfdAdministrativeState(NniUpdateBfdAdministrativeStateRequest body, Context context)"
+  summary: "Updates the Admin State."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Request payload."
+    name: "body"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NniUpdateBfdAdministrativeStateRequest?alt=com.azure.resourcemanager.managednetworkfabric.models.NniUpdateBfdAdministrativeStateRequest&text=NniUpdateBfdAdministrativeStateRequest\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NniUpdateBfdAdministrativeStateResponse updateBfdAdministrativeState(NniUpdateBfdAdministrativeStateRequest body, Context context)"
+  desc: "Updates the Admin State."
+  returns:
+    description: "nNI Bidirectional Forwarding Detection (BFD) Administrative State response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NniUpdateBfdAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.NniUpdateBfdAdministrativeStateResponse&text=NniUpdateBfdAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.updateNpbStaticRouteBfdAdministrativeState(com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.updateNpbStaticRouteBfdAdministrativeState(UpdateAdministrativeState body)"
   name: "updateNpbStaticRouteBfdAdministrativeState(UpdateAdministrativeState body)"
   nameWithType: "NetworkToNetworkInterconnect.updateNpbStaticRouteBfdAdministrativeState(UpdateAdministrativeState body)"
-  summary: "Implements the operation to the underlying resources."
+  summary: "Updates the NPB Static Route BFD Administrative State."
   modifiers:
   - "abstract"
   parameters:
   - description: "Request payload."
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState&text=UpdateAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForStateUpdate updateNpbStaticRouteBfdAdministrativeState(UpdateAdministrativeState body)"
-  desc: "Implements the operation to the underlying resources. Updates the NPB Static Route BFD Administrative State."
+  syntax: "public abstract UpdateAdministrativeStateResponse updateNpbStaticRouteBfdAdministrativeState(UpdateAdministrativeState body)"
+  desc: "Updates the NPB Static Route BFD Administrative State."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate&text=CommonPostActionResponseForStateUpdate\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse&text=UpdateAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.updateNpbStaticRouteBfdAdministrativeState(com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.updateNpbStaticRouteBfdAdministrativeState(UpdateAdministrativeState body, Context context)"
   name: "updateNpbStaticRouteBfdAdministrativeState(UpdateAdministrativeState body, Context context)"
   nameWithType: "NetworkToNetworkInterconnect.updateNpbStaticRouteBfdAdministrativeState(UpdateAdministrativeState body, Context context)"
-  summary: "Implements the operation to the underlying resources."
+  summary: "Updates the NPB Static Route BFD Administrative State."
   modifiers:
   - "abstract"
   parameters:
@@ -327,11 +410,11 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForStateUpdate updateNpbStaticRouteBfdAdministrativeState(UpdateAdministrativeState body, Context context)"
-  desc: "Implements the operation to the underlying resources. Updates the NPB Static Route BFD Administrative State."
+  syntax: "public abstract UpdateAdministrativeStateResponse updateNpbStaticRouteBfdAdministrativeState(UpdateAdministrativeState body, Context context)"
+  desc: "Updates the NPB Static Route BFD Administrative State."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate&text=CommonPostActionResponseForStateUpdate\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse&text=UpdateAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.useOptionB()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.useOptionB()"
   name: "useOptionB()"
@@ -348,4 +431,4 @@ type: "interface"
 desc: "An immutable client-side representation of NetworkToNetworkInterconnect."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

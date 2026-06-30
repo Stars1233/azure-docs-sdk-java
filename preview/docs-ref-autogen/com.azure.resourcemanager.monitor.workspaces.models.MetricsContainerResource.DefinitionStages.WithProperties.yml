@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.monitor.workspaces.models.MetricsContainerResource.DefinitionStages.WithProperties"
+fullName: "com.azure.resourcemanager.monitor.workspaces.models.MetricsContainerResource.DefinitionStages.WithProperties"
+name: "MetricsContainerResource.DefinitionStages.WithProperties"
+nameWithType: "MetricsContainerResource.DefinitionStages.WithProperties"
+summary: "The stage of the Metrics<wbr>Container<wbr>Resource definition allowing to specify properties."
+syntax: "public static interface **MetricsContainerResource.DefinitionStages.WithProperties**"
+methods:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.MetricsContainerResource.DefinitionStages.WithProperties.withProperties(com.azure.resourcemanager.monitor.workspaces.models.MetricsContainer)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.MetricsContainerResource.DefinitionStages.WithProperties.withProperties(MetricsContainer properties)"
+  name: "withProperties(MetricsContainer properties)"
+  nameWithType: "MetricsContainerResource.DefinitionStages.WithProperties.withProperties(MetricsContainer properties)"
+  summary: "Specifies the properties property: The resource-specific properties for this resource.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The resource-specific properties for this resource."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.MetricsContainer?alt=com.azure.resourcemanager.monitor.workspaces.models.MetricsContainer&text=MetricsContainer\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract MetricsContainerResource.DefinitionStages.WithCreate withProperties(MetricsContainer properties)"
+  desc: "Specifies the properties property: The resource-specific properties for this resource.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.MetricsContainerResource.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.monitor.workspaces.models.MetricsContainerResource.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the MetricsContainerResource definition allowing to specify properties."
+metadata: {}
+package: "com.azure.resourcemanager.monitor.workspaces.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor-workspaces:1.0.0-beta.1

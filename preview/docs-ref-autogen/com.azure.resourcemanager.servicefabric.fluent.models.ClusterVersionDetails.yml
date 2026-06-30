@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ClusterVersionDetails**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ClusterVersionDetails?alt=com.azure.resourcemanager.servicefabric.fluent.models.ClusterVersionDetails&text=ClusterVersionDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterVersionDetails.ClusterVersionDetails()"
-  fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterVersionDetails.ClusterVersionDetails()"
-  name: "ClusterVersionDetails()"
-  nameWithType: "ClusterVersionDetails.ClusterVersionDetails()"
-  summary: "Creates an instance of Cluster<wbr>Version<wbr>Details class."
-  syntax: "public ClusterVersionDetails()"
-  desc: "Creates an instance of ClusterVersionDetails class."
 methods:
 - uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterVersionDetails.codeVersion()"
   fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterVersionDetails.codeVersion()"
@@ -91,59 +83,10 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterVersionDetails.validate()"
-  fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterVersionDetails.validate()"
-  name: "validate()"
-  nameWithType: "ClusterVersionDetails.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterVersionDetails.withCodeVersion(java.lang.String)"
-  fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterVersionDetails.withCodeVersion(String codeVersion)"
-  name: "withCodeVersion(String codeVersion)"
-  nameWithType: "ClusterVersionDetails.withCodeVersion(String codeVersion)"
-  summary: "Set the code<wbr>Version property: The Service Fabric runtime version of the cluster."
-  parameters:
-  - description: "the codeVersion value to set."
-    name: "codeVersion"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ClusterVersionDetails withCodeVersion(String codeVersion)"
-  desc: "Set the codeVersion property: The Service Fabric runtime version of the cluster."
-  returns:
-    description: "the ClusterVersionDetails object itself."
-    type: "<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ClusterVersionDetails?alt=com.azure.resourcemanager.servicefabric.fluent.models.ClusterVersionDetails&text=ClusterVersionDetails\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterVersionDetails.withEnvironment(com.azure.resourcemanager.servicefabric.models.ClusterEnvironment)"
-  fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterVersionDetails.withEnvironment(ClusterEnvironment environment)"
-  name: "withEnvironment(ClusterEnvironment environment)"
-  nameWithType: "ClusterVersionDetails.withEnvironment(ClusterEnvironment environment)"
-  summary: "Set the environment property: Indicates if this version is for Windows or Linux operating system."
-  parameters:
-  - description: "the environment value to set."
-    name: "environment"
-    type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ClusterEnvironment?alt=com.azure.resourcemanager.servicefabric.models.ClusterEnvironment&text=ClusterEnvironment\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public ClusterVersionDetails withEnvironment(ClusterEnvironment environment)"
-  desc: "Set the environment property: Indicates if this version is for Windows or Linux operating system."
-  returns:
-    description: "the ClusterVersionDetails object itself."
-    type: "<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ClusterVersionDetails?alt=com.azure.resourcemanager.servicefabric.fluent.models.ClusterVersionDetails&text=ClusterVersionDetails\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterVersionDetails.withSupportExpiryUtc(java.lang.String)"
-  fullName: "com.azure.resourcemanager.servicefabric.fluent.models.ClusterVersionDetails.withSupportExpiryUtc(String supportExpiryUtc)"
-  name: "withSupportExpiryUtc(String supportExpiryUtc)"
-  nameWithType: "ClusterVersionDetails.withSupportExpiryUtc(String supportExpiryUtc)"
-  summary: "Set the support<wbr>Expiry<wbr>Utc property: The date of expiry of support of the version."
-  parameters:
-  - description: "the supportExpiryUtc value to set."
-    name: "supportExpiryUtc"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ClusterVersionDetails withSupportExpiryUtc(String supportExpiryUtc)"
-  desc: "Set the supportExpiryUtc property: The date of expiry of support of the version."
-  returns:
-    description: "the ClusterVersionDetails object itself."
-    type: "<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ClusterVersionDetails?alt=com.azure.resourcemanager.servicefabric.fluent.models.ClusterVersionDetails&text=ClusterVersionDetails\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The detail of the Service Fabric runtime version result."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.ClusterVersionDetails?alt=com.azure.resourcemanager.servicefabric.fluent.models.ClusterVersionDetails&text=ClusterVersionDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

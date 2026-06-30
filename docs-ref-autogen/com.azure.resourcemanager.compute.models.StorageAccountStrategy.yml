@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.compute.models.StorageAccountStrategy.DEFAULT_STANDARD_LRS"
   name: "DEFAULT_STANDARD_LRS"
   nameWithType: "StorageAccountStrategy.DEFAULT_STANDARD_LRS"
-  summary: "Static value Default<wbr>Standard\\_LRS for Storage<wbr>Account<wbr>Strategy."
+  summary: "Choose Standard\\_LRS storage unless overridden by specifying regional storage<wbr>Account<wbr>Type."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.StorageAccountStrategy?alt=com.azure.resourcemanager.compute.models.StorageAccountStrategy&text=StorageAccountStrategy\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final StorageAccountStrategy DEFAULT_STANDARD_LRS"
-  desc: "Static value DefaultStandard\\_LRS for StorageAccountStrategy."
+  desc: "Choose Standard\\_LRS storage unless overridden by specifying regional storageAccountType."
 - uid: "com.azure.resourcemanager.compute.models.StorageAccountStrategy.PREFER_STANDARD_ZRS"
   fullName: "com.azure.resourcemanager.compute.models.StorageAccountStrategy.PREFER_STANDARD_ZRS"
   name: "PREFER_STANDARD_ZRS"
   nameWithType: "StorageAccountStrategy.PREFER_STANDARD_ZRS"
-  summary: "Static value Prefer<wbr>Standard\\_ZRS for Storage<wbr>Account<wbr>Strategy."
+  summary: "Choose Standard\\_ZRS storage if the region supports it, else choose Standard\\_LRS storage, unless overridden by specifying regional storage<wbr>Account<wbr>Type."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.StorageAccountStrategy?alt=com.azure.resourcemanager.compute.models.StorageAccountStrategy&text=StorageAccountStrategy\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final StorageAccountStrategy PREFER_STANDARD_ZRS"
-  desc: "Static value PreferStandard\\_ZRS for StorageAccountStrategy."
+  desc: "Choose Standard\\_ZRS storage if the region supports it, else choose Standard\\_LRS storage, unless overridden by specifying regional storageAccountType. If no storageAccountStrategy is specified, this is the default strategy (from API version 2025-03-03 onwards)."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.StorageAccountStrategy.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.models.StorageAccountStrategy.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Specifies the strategy to be used when selecting the storage account type. Cannot be specified along with storageAccountType, but can be overridden per region by specifying targetRegions\\[\\].storageAccountType. This property is not updatable."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

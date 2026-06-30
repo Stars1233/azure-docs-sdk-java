@@ -22,11 +22,11 @@ methods:
   fullName: "com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsListResult.nextLink()"
   name: "nextLink()"
   nameWithType: "ClusterCodeVersionsListResult.nextLink()"
-  summary: "Gets the next<wbr>Link property: The URL to use for getting the next set of results."
+  summary: "Gets the next<wbr>Link property: The link to the next page of items."
   modifiers:
   - "abstract"
   syntax: "public abstract String nextLink()"
-  desc: "Gets the nextLink property: The URL to use for getting the next set of results."
+  desc: "Gets the nextLink property: The link to the next page of items."
   returns:
     description: "the nextLink value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -34,11 +34,11 @@ methods:
   fullName: "com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsListResult.value()"
   name: "value()"
   nameWithType: "ClusterCodeVersionsListResult.value()"
-  summary: "Gets the value property: The value property."
+  summary: "Gets the value property: The Cluster<wbr>Code<wbr>Versions items on this page."
   modifiers:
   - "abstract"
   syntax: "public abstract List<ClusterCodeVersionsResult> value()"
-  desc: "Gets the value property: The value property."
+  desc: "Gets the value property: The ClusterCodeVersions items on this page."
   returns:
     description: "the value value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsResult?alt=com.azure.resourcemanager.servicefabric.models.ClusterCodeVersionsResult&text=ClusterCodeVersionsResult\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -46,4 +46,4 @@ type: "interface"
 desc: "An immutable client-side representation of ClusterCodeVersionsListResult."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

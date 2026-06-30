@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithTrustedIpPrefixes"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithTrustedIpPrefixes"
+name: "NetworkFabric.DefinitionStages.WithTrustedIpPrefixes"
+nameWithType: "NetworkFabric.DefinitionStages.WithTrustedIpPrefixes"
+summary: "The stage of the Network<wbr>Fabric definition allowing to specify trusted<wbr>IpPrefixes."
+syntax: "public static interface **NetworkFabric.DefinitionStages.WithTrustedIpPrefixes**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithTrustedIpPrefixes.withTrustedIpPrefixes(java.util.List<java.lang.String>)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithTrustedIpPrefixes.withTrustedIpPrefixes(List<String> trustedIpPrefixes)"
+  name: "withTrustedIpPrefixes(List<String> trustedIpPrefixes)"
+  nameWithType: "NetworkFabric.DefinitionStages.WithTrustedIpPrefixes.withTrustedIpPrefixes(List<String> trustedIpPrefixes)"
+  summary: "Specifies the trusted<wbr>IpPrefixes property: Trusted IP Prefixes ARM resource IDs.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Trusted IP Prefixes ARM resource IDs."
+    name: "trustedIpPrefixes"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public abstract NetworkFabric.DefinitionStages.WithCreate withTrustedIpPrefixes(List<String> trustedIpPrefixes)"
+  desc: "Specifies the trustedIpPrefixes property: Trusted IP Prefixes ARM resource IDs.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkFabric definition allowing to specify trustedIpPrefixes."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

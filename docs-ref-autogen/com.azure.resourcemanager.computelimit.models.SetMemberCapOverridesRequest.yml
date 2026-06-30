@@ -1,0 +1,94 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesRequest"
+fullName: "com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesRequest"
+name: "SetMemberCapOverridesRequest"
+nameWithType: "SetMemberCapOverridesRequest"
+summary: "Request body for the \\`set<wbr>Member<wbr>Cap<wbr>Overrides\\` action."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **SetMemberCapOverridesRequest**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesRequest?alt=com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesRequest&text=SetMemberCapOverridesRequest\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesRequest.SetMemberCapOverridesRequest()"
+  fullName: "com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesRequest.SetMemberCapOverridesRequest()"
+  name: "SetMemberCapOverridesRequest()"
+  nameWithType: "SetMemberCapOverridesRequest.SetMemberCapOverridesRequest()"
+  summary: "Creates an instance of Set<wbr>Member<wbr>Cap<wbr>Overrides<wbr>Request class."
+  syntax: "public SetMemberCapOverridesRequest()"
+  desc: "Creates an instance of SetMemberCapOverridesRequest class."
+methods:
+- uid: "com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesRequest.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesRequest.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "SetMemberCapOverridesRequest.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Set<wbr>Member<wbr>Cap<wbr>Overrides<wbr>Request from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static SetMemberCapOverridesRequest fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of SetMemberCapOverridesRequest from the JsonReader."
+  returns:
+    description: "An instance of SetMemberCapOverridesRequest if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesRequest?alt=com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesRequest&text=SetMemberCapOverridesRequest\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesRequest.memberCapOverrides()"
+  fullName: "com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesRequest.memberCapOverrides()"
+  name: "memberCapOverrides()"
+  nameWithType: "SetMemberCapOverridesRequest.memberCapOverrides()"
+  summary: "Get the member<wbr>Cap<wbr>Overrides property: The full set of per-member cap overrides to persist for this resource."
+  syntax: "public List<MemberCap> memberCapOverrides()"
+  desc: "Get the memberCapOverrides property: The full set of per-member cap overrides to persist for this resource. This call replaces the existing set entirely; supply an empty array (\\`\\[\\]\\`) to clear all overrides."
+  returns:
+    description: "the memberCapOverrides value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.computelimit.models.MemberCap?alt=com.azure.resourcemanager.computelimit.models.MemberCap&text=MemberCap\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesRequest.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesRequest.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "SetMemberCapOverridesRequest.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesRequest.withMemberCapOverrides(java.util.List<com.azure.resourcemanager.computelimit.models.MemberCap>)"
+  fullName: "com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesRequest.withMemberCapOverrides(List<MemberCap> memberCapOverrides)"
+  name: "withMemberCapOverrides(List<MemberCap> memberCapOverrides)"
+  nameWithType: "SetMemberCapOverridesRequest.withMemberCapOverrides(List<MemberCap> memberCapOverrides)"
+  summary: "Set the member<wbr>Cap<wbr>Overrides property: The full set of per-member cap overrides to persist for this resource."
+  parameters:
+  - description: "the memberCapOverrides value to set."
+    name: "memberCapOverrides"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.computelimit.models.MemberCap?alt=com.azure.resourcemanager.computelimit.models.MemberCap&text=MemberCap\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public SetMemberCapOverridesRequest withMemberCapOverrides(List<MemberCap> memberCapOverrides)"
+  desc: "Set the memberCapOverrides property: The full set of per-member cap overrides to persist for this resource. This call replaces the existing set entirely; supply an empty array (\\`\\[\\]\\`) to clear all overrides."
+  returns:
+    description: "the SetMemberCapOverridesRequest object itself."
+    type: "<xref href=\"com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesRequest?alt=com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesRequest&text=SetMemberCapOverridesRequest\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Request body for the \\`setMemberCapOverrides\\` action."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesRequest?alt=com.azure.resourcemanager.computelimit.models.SetMemberCapOverridesRequest&text=SetMemberCapOverridesRequest\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.computelimit.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-computelimit:1.2.0

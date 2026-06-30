@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **AutomaticOSUpgradeProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.AutomaticOSUpgradeProperties?alt=com.azure.resourcemanager.compute.models.AutomaticOSUpgradeProperties&text=AutomaticOSUpgradeProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.compute.models.AutomaticOSUpgradeProperties.AutomaticOSUpgradeProperties()"
-  fullName: "com.azure.resourcemanager.compute.models.AutomaticOSUpgradeProperties.AutomaticOSUpgradeProperties()"
-  name: "AutomaticOSUpgradeProperties()"
-  nameWithType: "AutomaticOSUpgradeProperties.AutomaticOSUpgradeProperties()"
-  summary: "Creates an instance of Automatic<wbr>OSUpgrade<wbr>Properties class."
-  syntax: "public AutomaticOSUpgradeProperties()"
-  desc: "Creates an instance of AutomaticOSUpgradeProperties class."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.AutomaticOSUpgradeProperties.automaticOSUpgradeSupported()"
   fullName: "com.azure.resourcemanager.compute.models.AutomaticOSUpgradeProperties.automaticOSUpgradeSupported()"
@@ -78,24 +70,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.compute.models.AutomaticOSUpgradeProperties.withAutomaticOSUpgradeSupported(boolean)"
-  fullName: "com.azure.resourcemanager.compute.models.AutomaticOSUpgradeProperties.withAutomaticOSUpgradeSupported(boolean automaticOSUpgradeSupported)"
-  name: "withAutomaticOSUpgradeSupported(boolean automaticOSUpgradeSupported)"
-  nameWithType: "AutomaticOSUpgradeProperties.withAutomaticOSUpgradeSupported(boolean automaticOSUpgradeSupported)"
-  summary: "Set the automatic<wbr>OSUpgrade<wbr>Supported property: Specifies whether automatic OS upgrade is supported on the image."
-  parameters:
-  - description: "the automaticOSUpgradeSupported value to set."
-    name: "automaticOSUpgradeSupported"
-    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public AutomaticOSUpgradeProperties withAutomaticOSUpgradeSupported(boolean automaticOSUpgradeSupported)"
-  desc: "Set the automaticOSUpgradeSupported property: Specifies whether automatic OS upgrade is supported on the image."
-  returns:
-    description: "the AutomaticOSUpgradeProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.AutomaticOSUpgradeProperties?alt=com.azure.resourcemanager.compute.models.AutomaticOSUpgradeProperties&text=AutomaticOSUpgradeProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Describes automatic OS upgrade properties on the image."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.AutomaticOSUpgradeProperties?alt=com.azure.resourcemanager.compute.models.AutomaticOSUpgradeProperties&text=AutomaticOSUpgradeProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

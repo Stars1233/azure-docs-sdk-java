@@ -612,7 +612,7 @@ methods:
   syntax: "public abstract GetGroupIdListForLdapUserResponse listGetGroupIdListForLdapUser(String resourceGroupName, String accountName, String poolName, String volumeName, GetGroupIdListForLdapUserRequest body)"
   desc: "Returns the list of group Ids for a specific LDAP User."
   returns:
-    description: "the response."
+    description: "group Id list for Ldap user."
     type: "<xref href=\"com.azure.resourcemanager.netapp.models.GetGroupIdListForLdapUserResponse?alt=com.azure.resourcemanager.netapp.models.GetGroupIdListForLdapUserResponse&text=GetGroupIdListForLdapUserResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.netapp.models.Volumes.listGetGroupIdListForLdapUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.netapp.models.GetGroupIdListForLdapUserRequest,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.netapp.models.Volumes.listGetGroupIdListForLdapUser(String resourceGroupName, String accountName, String poolName, String volumeName, GetGroupIdListForLdapUserRequest body, Context context)"
@@ -643,7 +643,7 @@ methods:
   syntax: "public abstract GetGroupIdListForLdapUserResponse listGetGroupIdListForLdapUser(String resourceGroupName, String accountName, String poolName, String volumeName, GetGroupIdListForLdapUserRequest body, Context context)"
   desc: "Returns the list of group Ids for a specific LDAP User."
   returns:
-    description: "the response."
+    description: "group Id list for Ldap user."
     type: "<xref href=\"com.azure.resourcemanager.netapp.models.GetGroupIdListForLdapUserResponse?alt=com.azure.resourcemanager.netapp.models.GetGroupIdListForLdapUserResponse&text=GetGroupIdListForLdapUserResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.netapp.models.Volumes.listQuotaReport(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.netapp.models.Volumes.listQuotaReport(String resourceGroupName, String accountName, String poolName, String volumeName)"
@@ -939,7 +939,7 @@ methods:
   syntax: "public abstract Volume populateAvailabilityZone(String resourceGroupName, String accountName, String poolName, String volumeName)"
   desc: "This operation will populate availability zone information for a volume."
   returns:
-    description: "the response."
+    description: "volume resource."
     type: "<xref href=\"com.azure.resourcemanager.netapp.models.Volume?alt=com.azure.resourcemanager.netapp.models.Volume&text=Volume\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.netapp.models.Volumes.populateAvailabilityZone(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.netapp.models.Volumes.populateAvailabilityZone(String resourceGroupName, String accountName, String poolName, String volumeName, Context context)"
@@ -967,7 +967,7 @@ methods:
   syntax: "public abstract Volume populateAvailabilityZone(String resourceGroupName, String accountName, String poolName, String volumeName, Context context)"
   desc: "This operation will populate availability zone information for a volume."
   returns:
-    description: "the response."
+    description: "volume resource."
     type: "<xref href=\"com.azure.resourcemanager.netapp.models.Volume?alt=com.azure.resourcemanager.netapp.models.Volume&text=Volume\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.netapp.models.Volumes.reestablishReplication(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.netapp.models.ReestablishReplicationRequest)"
   fullName: "com.azure.resourcemanager.netapp.models.Volumes.reestablishReplication(String resourceGroupName, String accountName, String poolName, String volumeName, ReestablishReplicationRequest body)"
@@ -1389,7 +1389,7 @@ methods:
   syntax: "public abstract Volume splitCloneFromParent(String resourceGroupName, String accountName, String poolName, String volumeName)"
   desc: "Split operation to convert clone volume to an independent volume."
   returns:
-    description: "the response."
+    description: "volume resource."
     type: "<xref href=\"com.azure.resourcemanager.netapp.models.Volume?alt=com.azure.resourcemanager.netapp.models.Volume&text=Volume\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.netapp.models.Volumes.splitCloneFromParent(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.netapp.models.Volumes.splitCloneFromParent(String resourceGroupName, String accountName, String poolName, String volumeName, Context context)"
@@ -1417,10 +1417,10 @@ methods:
   syntax: "public abstract Volume splitCloneFromParent(String resourceGroupName, String accountName, String poolName, String volumeName, Context context)"
   desc: "Split operation to convert clone volume to an independent volume."
   returns:
-    description: "the response."
+    description: "volume resource."
     type: "<xref href=\"com.azure.resourcemanager.netapp.models.Volume?alt=com.azure.resourcemanager.netapp.models.Volume&text=Volume\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "Resource collection API of Volumes."
 metadata: {}
 package: "com.azure.resourcemanager.netapp.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-netapp:2.2.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-netapp:2.3.0

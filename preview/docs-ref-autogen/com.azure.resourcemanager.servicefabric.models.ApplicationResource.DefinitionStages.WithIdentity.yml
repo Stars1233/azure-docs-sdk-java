@@ -10,15 +10,15 @@ methods:
   fullName: "com.azure.resourcemanager.servicefabric.models.ApplicationResource.DefinitionStages.WithIdentity.withIdentity(ManagedIdentity identity)"
   name: "withIdentity(ManagedIdentity identity)"
   nameWithType: "ApplicationResource.DefinitionStages.WithIdentity.withIdentity(ManagedIdentity identity)"
-  summary: "Specifies the identity property: Describes the managed identities for an Azure resource.."
+  summary: "Specifies the identity property: The managed service identities assigned to this resource.."
   modifiers:
   - "abstract"
   parameters:
-  - description: "Describes the managed identities for an Azure resource."
+  - description: "The managed service identities assigned to this resource."
     name: "identity"
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ManagedIdentity?alt=com.azure.resourcemanager.servicefabric.models.ManagedIdentity&text=ManagedIdentity\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract ApplicationResource.DefinitionStages.WithCreate withIdentity(ManagedIdentity identity)"
-  desc: "Specifies the identity property: Describes the managed identities for an Azure resource.."
+  desc: "Specifies the identity property: The managed service identities assigned to this resource.."
   returns:
     description: "the next definition stage."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ApplicationResource.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.servicefabric.models.ApplicationResource.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the ApplicationResource definition allowing to specify identity."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

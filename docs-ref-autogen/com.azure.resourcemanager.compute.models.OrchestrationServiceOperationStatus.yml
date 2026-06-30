@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.compute.models.OrchestrationServiceOperationStatus.COMPLETED"
   name: "COMPLETED"
   nameWithType: "OrchestrationServiceOperationStatus.COMPLETED"
-  summary: "Static value Completed for Orchestration<wbr>Service<wbr>Operation<wbr>Status."
+  summary: "Completed orchestration service operation status."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.OrchestrationServiceOperationStatus?alt=com.azure.resourcemanager.compute.models.OrchestrationServiceOperationStatus&text=OrchestrationServiceOperationStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final OrchestrationServiceOperationStatus COMPLETED"
-  desc: "Static value Completed for OrchestrationServiceOperationStatus."
+  desc: "Completed orchestration service operation status."
 - uid: "com.azure.resourcemanager.compute.models.OrchestrationServiceOperationStatus.IN_PROGRESS"
   fullName: "com.azure.resourcemanager.compute.models.OrchestrationServiceOperationStatus.IN_PROGRESS"
   name: "IN_PROGRESS"
   nameWithType: "OrchestrationServiceOperationStatus.IN_PROGRESS"
-  summary: "Static value In<wbr>Progress for Orchestration<wbr>Service<wbr>Operation<wbr>Status."
+  summary: "In<wbr>Progress orchestration service operation status."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.OrchestrationServiceOperationStatus?alt=com.azure.resourcemanager.compute.models.OrchestrationServiceOperationStatus&text=OrchestrationServiceOperationStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final OrchestrationServiceOperationStatus IN_PROGRESS"
-  desc: "Static value InProgress for OrchestrationServiceOperationStatus."
+  desc: "InProgress orchestration service operation status."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.OrchestrationServiceOperationStatus.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.models.OrchestrationServiceOperationStatus.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The latest operation status of the service."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

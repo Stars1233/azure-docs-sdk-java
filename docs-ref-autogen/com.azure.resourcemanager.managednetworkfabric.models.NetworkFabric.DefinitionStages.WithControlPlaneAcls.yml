@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithControlPlaneAcls"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithControlPlaneAcls"
+name: "NetworkFabric.DefinitionStages.WithControlPlaneAcls"
+nameWithType: "NetworkFabric.DefinitionStages.WithControlPlaneAcls"
+summary: "The stage of the Network<wbr>Fabric definition allowing to specify control<wbr>Plane<wbr>Acls."
+syntax: "public static interface **NetworkFabric.DefinitionStages.WithControlPlaneAcls**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithControlPlaneAcls.withControlPlaneAcls(java.util.List<java.lang.String>)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithControlPlaneAcls.withControlPlaneAcls(List<String> controlPlaneAcls)"
+  name: "withControlPlaneAcls(List<String> controlPlaneAcls)"
+  nameWithType: "NetworkFabric.DefinitionStages.WithControlPlaneAcls.withControlPlaneAcls(List<String> controlPlaneAcls)"
+  summary: "Specifies the control<wbr>Plane<wbr>Acls property: Control Plane Access Control List ARM resource IDs.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Control Plane Access Control List ARM resource IDs."
+    name: "controlPlaneAcls"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public abstract NetworkFabric.DefinitionStages.WithCreate withControlPlaneAcls(List<String> controlPlaneAcls)"
+  desc: "Specifies the controlPlaneAcls property: Control Plane Access Control List ARM resource IDs.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkFabric definition allowing to specify controlPlaneAcls."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

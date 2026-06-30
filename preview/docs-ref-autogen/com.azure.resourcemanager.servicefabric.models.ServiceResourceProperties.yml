@@ -17,7 +17,6 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResourcePropertiesBase.serviceLoadMetrics()?alt=com.azure.resourcemanager.servicefabric.models.ServiceResourcePropertiesBase.serviceLoadMetrics&text=serviceLoadMetrics\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResourcePropertiesBase.servicePlacementPolicies()?alt=com.azure.resourcemanager.servicefabric.models.ServiceResourcePropertiesBase.servicePlacementPolicies&text=servicePlacementPolicies\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResourcePropertiesBase.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.servicefabric.models.ServiceResourcePropertiesBase.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResourcePropertiesBase.validate()?alt=com.azure.resourcemanager.servicefabric.models.ServiceResourcePropertiesBase.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResourcePropertiesBase.withCorrelationScheme(java.util.List<com.azure.resourcemanager.servicefabric.models.ServiceCorrelationDescription>)?alt=com.azure.resourcemanager.servicefabric.models.ServiceResourcePropertiesBase.withCorrelationScheme&text=withCorrelationScheme\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResourcePropertiesBase.withDefaultMoveCost(com.azure.resourcemanager.servicefabric.models.MoveCost)?alt=com.azure.resourcemanager.servicefabric.models.ServiceResourcePropertiesBase.withDefaultMoveCost&text=withDefaultMoveCost\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResourcePropertiesBase.withPlacementConstraints(java.lang.String)?alt=com.azure.resourcemanager.servicefabric.models.ServiceResourcePropertiesBase.withPlacementConstraints&text=withPlacementConstraints\" data-throw-if-not-resolved=\"False\" />"
@@ -91,7 +90,7 @@ methods:
   nameWithType: "ServiceResourceProperties.serviceDnsName()"
   summary: "Get the service<wbr>Dns<wbr>Name property: Dns name used for the service."
   syntax: "public String serviceDnsName()"
-  desc: "Get the serviceDnsName property: Dns name used for the service. If this is specified, then the service can be accessed via its DNS name instead of service name."
+  desc: "Get the serviceDnsName property: Dns name used for the service. If this is specified, then the DNS name can be used to return the IP addresses of service endpoints for application layer protocols (e.g., HTTP). When updating serviceDnsName, old name may be temporarily resolvable. However, rely on new name. When removing serviceDnsName, removed name may temporarily be resolvable. Do not rely on the name being unresolvable."
   returns:
     description: "the serviceDnsName value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -138,14 +137,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties.validate()"
-  fullName: "com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties.validate()"
-  name: "validate()"
-  nameWithType: "ServiceResourceProperties.validate()"
-  summary: "Validates the instance."
-  overridden: "com.azure.resourcemanager.servicefabric.models.ServiceResourcePropertiesBase.validate()"
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties.withCorrelationScheme(java.util.List<com.azure.resourcemanager.servicefabric.models.ServiceCorrelationDescription>)"
   fullName: "com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties.withCorrelationScheme(List<ServiceCorrelationDescription> correlationScheme)"
   name: "withCorrelationScheme(List<ServiceCorrelationDescription> correlationScheme)"
@@ -209,7 +200,7 @@ methods:
     name: "serviceDnsName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public ServiceResourceProperties withServiceDnsName(String serviceDnsName)"
-  desc: "Set the serviceDnsName property: Dns name used for the service. If this is specified, then the service can be accessed via its DNS name instead of service name."
+  desc: "Set the serviceDnsName property: Dns name used for the service. If this is specified, then the DNS name can be used to return the IP addresses of service endpoints for application layer protocols (e.g., HTTP). When updating serviceDnsName, old name may be temporarily resolvable. However, rely on new name. When removing serviceDnsName, removed name may temporarily be resolvable. Do not rely on the name being unresolvable."
   returns:
     description: "the ServiceResourceProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties?alt=com.azure.resourcemanager.servicefabric.models.ServiceResourceProperties&text=ServiceResourceProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -271,4 +262,4 @@ type: "class"
 desc: "The service resource properties."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

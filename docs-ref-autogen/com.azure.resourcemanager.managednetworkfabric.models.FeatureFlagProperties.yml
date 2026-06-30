@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties"
+name: "FeatureFlagProperties"
+nameWithType: "FeatureFlagProperties"
+summary: "Feature flag properties."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **FeatureFlagProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties&text=FeatureFlagProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties.FeatureFlagProperties()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties.FeatureFlagProperties()"
+  name: "FeatureFlagProperties()"
+  nameWithType: "FeatureFlagProperties.FeatureFlagProperties()"
+  summary: "Creates an instance of Feature<wbr>Flag<wbr>Properties class."
+  syntax: "public FeatureFlagProperties()"
+  desc: "Creates an instance of FeatureFlagProperties class."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties.featureFlagName()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties.featureFlagName()"
+  name: "featureFlagName()"
+  nameWithType: "FeatureFlagProperties.featureFlagName()"
+  summary: "Get the feature<wbr>Flag<wbr>Name property: Feature flag name."
+  syntax: "public String featureFlagName()"
+  desc: "Get the featureFlagName property: Feature flag name."
+  returns:
+    description: "the featureFlagName value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties.featureFlagValue()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties.featureFlagValue()"
+  name: "featureFlagValue()"
+  nameWithType: "FeatureFlagProperties.featureFlagValue()"
+  summary: "Get the feature<wbr>Flag<wbr>Value property: Feature flag value."
+  syntax: "public String featureFlagValue()"
+  desc: "Get the featureFlagValue property: Feature flag value."
+  returns:
+    description: "the featureFlagValue value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "FeatureFlagProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Feature<wbr>Flag<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static FeatureFlagProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the FeatureFlagProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of FeatureFlagProperties from the JsonReader."
+  returns:
+    description: "An instance of FeatureFlagProperties if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties&text=FeatureFlagProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "FeatureFlagProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties.withFeatureFlagName(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties.withFeatureFlagName(String featureFlagName)"
+  name: "withFeatureFlagName(String featureFlagName)"
+  nameWithType: "FeatureFlagProperties.withFeatureFlagName(String featureFlagName)"
+  summary: "Set the feature<wbr>Flag<wbr>Name property: Feature flag name."
+  parameters:
+  - description: "the featureFlagName value to set."
+    name: "featureFlagName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public FeatureFlagProperties withFeatureFlagName(String featureFlagName)"
+  desc: "Set the featureFlagName property: Feature flag name."
+  returns:
+    description: "the FeatureFlagProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties&text=FeatureFlagProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties.withFeatureFlagValue(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties.withFeatureFlagValue(String featureFlagValue)"
+  name: "withFeatureFlagValue(String featureFlagValue)"
+  nameWithType: "FeatureFlagProperties.withFeatureFlagValue(String featureFlagValue)"
+  summary: "Set the feature<wbr>Flag<wbr>Value property: Feature flag value."
+  parameters:
+  - description: "the featureFlagValue value to set."
+    name: "featureFlagValue"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public FeatureFlagProperties withFeatureFlagValue(String featureFlagValue)"
+  desc: "Set the featureFlagValue property: Feature flag value."
+  returns:
+    description: "the FeatureFlagProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties&text=FeatureFlagProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Feature flag properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.FeatureFlagProperties&text=FeatureFlagProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

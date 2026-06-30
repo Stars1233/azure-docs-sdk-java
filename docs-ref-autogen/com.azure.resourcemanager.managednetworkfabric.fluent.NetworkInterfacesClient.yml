@@ -10,7 +10,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.beginCreate(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfaceInner body)"
   name: "beginCreate(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfaceInner body)"
   nameWithType: "NetworkInterfacesClient.beginCreate(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfaceInner body)"
-  summary: "Create Network<wbr>Interface."
+  summary: "Create a Network Interface resource."
   modifiers:
   - "abstract"
   parameters:
@@ -27,7 +27,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner&text=NetworkInterfaceInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<NetworkInterfaceInner>,NetworkInterfaceInner> beginCreate(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfaceInner body)"
-  desc: "Create NetworkInterface. Create a Network Interface resource."
+  desc: "Create a Network Interface resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of defines the NetworkInterface resource."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner&text=NetworkInterfaceInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner&text=NetworkInterfaceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -35,7 +35,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.beginCreate(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfaceInner body, Context context)"
   name: "beginCreate(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfaceInner body, Context context)"
   nameWithType: "NetworkInterfacesClient.beginCreate(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfaceInner body, Context context)"
-  summary: "Create Network<wbr>Interface."
+  summary: "Create a Network Interface resource."
   modifiers:
   - "abstract"
   parameters:
@@ -55,7 +55,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<NetworkInterfaceInner>,NetworkInterfaceInner> beginCreate(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfaceInner body, Context context)"
-  desc: "Create NetworkInterface. Create a Network Interface resource."
+  desc: "Create a Network Interface resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of defines the NetworkInterface resource."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner&text=NetworkInterfaceInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner&text=NetworkInterfaceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -63,7 +63,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.beginDelete(String resourceGroupName, String networkDeviceName, String networkInterfaceName)"
   name: "beginDelete(String resourceGroupName, String networkDeviceName, String networkInterfaceName)"
   nameWithType: "NetworkInterfacesClient.beginDelete(String resourceGroupName, String networkDeviceName, String networkInterfaceName)"
-  summary: "Deletes a Network<wbr>Interface."
+  summary: "Delete the Network Interface resource."
   modifiers:
   - "abstract"
   parameters:
@@ -77,7 +77,7 @@ methods:
     name: "networkInterfaceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDelete(String resourceGroupName, String networkDeviceName, String networkInterfaceName)"
-  desc: "Deletes a NetworkInterface. Delete the Network Interface resource."
+  desc: "Delete the Network Interface resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
@@ -85,7 +85,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.beginDelete(String resourceGroupName, String networkDeviceName, String networkInterfaceName, Context context)"
   name: "beginDelete(String resourceGroupName, String networkDeviceName, String networkInterfaceName, Context context)"
   nameWithType: "NetworkInterfacesClient.beginDelete(String resourceGroupName, String networkDeviceName, String networkInterfaceName, Context context)"
-  summary: "Deletes a Network<wbr>Interface."
+  summary: "Delete the Network Interface resource."
   modifiers:
   - "abstract"
   parameters:
@@ -102,7 +102,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDelete(String resourceGroupName, String networkDeviceName, String networkInterfaceName, Context context)"
-  desc: "Deletes a NetworkInterface. Delete the Network Interface resource."
+  desc: "Delete the Network Interface resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
@@ -110,7 +110,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.beginUpdate(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfacePatch body)"
   name: "beginUpdate(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfacePatch body)"
   nameWithType: "NetworkInterfacesClient.beginUpdate(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfacePatch body)"
-  summary: "Updates a Network<wbr>Interface."
+  summary: "Update certain properties of the Network Interface resource."
   modifiers:
   - "abstract"
   parameters:
@@ -127,7 +127,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch&text=NetworkInterfacePatch\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<NetworkInterfaceInner>,NetworkInterfaceInner> beginUpdate(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfacePatch body)"
-  desc: "Updates a NetworkInterface. Update certain properties of the Network Interface resource."
+  desc: "Update certain properties of the Network Interface resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of defines the NetworkInterface resource."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner&text=NetworkInterfaceInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner&text=NetworkInterfaceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -135,7 +135,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.beginUpdate(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfacePatch body, Context context)"
   name: "beginUpdate(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfacePatch body, Context context)"
   nameWithType: "NetworkInterfacesClient.beginUpdate(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfacePatch body, Context context)"
-  summary: "Updates a Network<wbr>Interface."
+  summary: "Update certain properties of the Network Interface resource."
   modifiers:
   - "abstract"
   parameters:
@@ -155,7 +155,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<NetworkInterfaceInner>,NetworkInterfaceInner> beginUpdate(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfacePatch body, Context context)"
-  desc: "Updates a NetworkInterface. Update certain properties of the Network Interface resource."
+  desc: "Update certain properties of the Network Interface resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of defines the NetworkInterface resource."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner&text=NetworkInterfaceInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner&text=NetworkInterfaceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -163,7 +163,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.beginUpdateAdministrativeState(String resourceGroupName, String networkDeviceName, String networkInterfaceName, UpdateAdministrativeState body)"
   name: "beginUpdateAdministrativeState(String resourceGroupName, String networkDeviceName, String networkInterfaceName, UpdateAdministrativeState body)"
   nameWithType: "NetworkInterfacesClient.beginUpdateAdministrativeState(String resourceGroupName, String networkDeviceName, String networkInterfaceName, UpdateAdministrativeState body)"
-  summary: "Updates the admin state of the network interface."
+  summary: "Update the admin state of the Network Interface."
   modifiers:
   - "abstract"
   parameters:
@@ -179,16 +179,16 @@ methods:
   - description: "Request payload."
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState&text=UpdateAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract SyncPoller<PollResult<CommonPostActionResponseForStateUpdateInner>,CommonPostActionResponseForStateUpdateInner> beginUpdateAdministrativeState(String resourceGroupName, String networkDeviceName, String networkInterfaceName, UpdateAdministrativeState body)"
-  desc: "Updates the admin state of the network interface. Update the admin state of the Network Interface."
+  syntax: "public abstract SyncPoller<PollResult<UpdateAdministrativeStateResponseInner>,UpdateAdministrativeStateResponseInner> beginUpdateAdministrativeState(String resourceGroupName, String networkDeviceName, String networkInterfaceName, UpdateAdministrativeState body)"
+  desc: "Update the admin state of the Network Interface."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of common response for the state updates."
-    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of update Administrative State Response."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.beginUpdateAdministrativeState(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.beginUpdateAdministrativeState(String resourceGroupName, String networkDeviceName, String networkInterfaceName, UpdateAdministrativeState body, Context context)"
   name: "beginUpdateAdministrativeState(String resourceGroupName, String networkDeviceName, String networkInterfaceName, UpdateAdministrativeState body, Context context)"
   nameWithType: "NetworkInterfacesClient.beginUpdateAdministrativeState(String resourceGroupName, String networkDeviceName, String networkInterfaceName, UpdateAdministrativeState body, Context context)"
-  summary: "Updates the admin state of the network interface."
+  summary: "Update the admin state of the Network Interface."
   modifiers:
   - "abstract"
   parameters:
@@ -207,16 +207,16 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract SyncPoller<PollResult<CommonPostActionResponseForStateUpdateInner>,CommonPostActionResponseForStateUpdateInner> beginUpdateAdministrativeState(String resourceGroupName, String networkDeviceName, String networkInterfaceName, UpdateAdministrativeState body, Context context)"
-  desc: "Updates the admin state of the network interface. Update the admin state of the Network Interface."
+  syntax: "public abstract SyncPoller<PollResult<UpdateAdministrativeStateResponseInner>,UpdateAdministrativeStateResponseInner> beginUpdateAdministrativeState(String resourceGroupName, String networkDeviceName, String networkInterfaceName, UpdateAdministrativeState body, Context context)"
+  desc: "Update the admin state of the Network Interface."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of common response for the state updates."
-    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of update Administrative State Response."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.create(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.create(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfaceInner body)"
   name: "create(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfaceInner body)"
   nameWithType: "NetworkInterfacesClient.create(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfaceInner body)"
-  summary: "Create Network<wbr>Interface."
+  summary: "Create a Network Interface resource."
   modifiers:
   - "abstract"
   parameters:
@@ -233,7 +233,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner&text=NetworkInterfaceInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract NetworkInterfaceInner create(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfaceInner body)"
-  desc: "Create NetworkInterface. Create a Network Interface resource."
+  desc: "Create a Network Interface resource."
   returns:
     description: "defines the NetworkInterface resource."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner&text=NetworkInterfaceInner\" data-throw-if-not-resolved=\"False\" />"
@@ -241,7 +241,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.create(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfaceInner body, Context context)"
   name: "create(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfaceInner body, Context context)"
   nameWithType: "NetworkInterfacesClient.create(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfaceInner body, Context context)"
-  summary: "Create Network<wbr>Interface."
+  summary: "Create a Network Interface resource."
   modifiers:
   - "abstract"
   parameters:
@@ -261,7 +261,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract NetworkInterfaceInner create(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfaceInner body, Context context)"
-  desc: "Create NetworkInterface. Create a Network Interface resource."
+  desc: "Create a Network Interface resource."
   returns:
     description: "defines the NetworkInterface resource."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner&text=NetworkInterfaceInner\" data-throw-if-not-resolved=\"False\" />"
@@ -269,7 +269,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.delete(String resourceGroupName, String networkDeviceName, String networkInterfaceName)"
   name: "delete(String resourceGroupName, String networkDeviceName, String networkInterfaceName)"
   nameWithType: "NetworkInterfacesClient.delete(String resourceGroupName, String networkDeviceName, String networkInterfaceName)"
-  summary: "Deletes a Network<wbr>Interface."
+  summary: "Delete the Network Interface resource."
   modifiers:
   - "abstract"
   parameters:
@@ -283,12 +283,12 @@ methods:
     name: "networkInterfaceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void delete(String resourceGroupName, String networkDeviceName, String networkInterfaceName)"
-  desc: "Deletes a NetworkInterface. Delete the Network Interface resource."
+  desc: "Delete the Network Interface resource."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.delete(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.delete(String resourceGroupName, String networkDeviceName, String networkInterfaceName, Context context)"
   name: "delete(String resourceGroupName, String networkDeviceName, String networkInterfaceName, Context context)"
   nameWithType: "NetworkInterfacesClient.delete(String resourceGroupName, String networkDeviceName, String networkInterfaceName, Context context)"
-  summary: "Deletes a Network<wbr>Interface."
+  summary: "Delete the Network Interface resource."
   modifiers:
   - "abstract"
   parameters:
@@ -305,12 +305,12 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void delete(String resourceGroupName, String networkDeviceName, String networkInterfaceName, Context context)"
-  desc: "Deletes a NetworkInterface. Delete the Network Interface resource."
+  desc: "Delete the Network Interface resource."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.get(java.lang.String,java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.get(String resourceGroupName, String networkDeviceName, String networkInterfaceName)"
   name: "get(String resourceGroupName, String networkDeviceName, String networkInterfaceName)"
   nameWithType: "NetworkInterfacesClient.get(String resourceGroupName, String networkDeviceName, String networkInterfaceName)"
-  summary: "Gets a Network<wbr>Interface."
+  summary: "Get the Network Interface resource details."
   modifiers:
   - "abstract"
   parameters:
@@ -324,7 +324,7 @@ methods:
     name: "networkInterfaceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract NetworkInterfaceInner get(String resourceGroupName, String networkDeviceName, String networkInterfaceName)"
-  desc: "Gets a NetworkInterface. Get the Network Interface resource details."
+  desc: "Get the Network Interface resource details."
   returns:
     description: "the Network Interface resource details."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner&text=NetworkInterfaceInner\" data-throw-if-not-resolved=\"False\" />"
@@ -332,7 +332,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.getWithResponse(String resourceGroupName, String networkDeviceName, String networkInterfaceName, Context context)"
   name: "getWithResponse(String resourceGroupName, String networkDeviceName, String networkInterfaceName, Context context)"
   nameWithType: "NetworkInterfacesClient.getWithResponse(String resourceGroupName, String networkDeviceName, String networkInterfaceName, Context context)"
-  summary: "Gets a Network<wbr>Interface."
+  summary: "Get the Network Interface resource details."
   modifiers:
   - "abstract"
   parameters:
@@ -349,7 +349,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<NetworkInterfaceInner> getWithResponse(String resourceGroupName, String networkDeviceName, String networkInterfaceName, Context context)"
-  desc: "Gets a NetworkInterface. Get the Network Interface resource details."
+  desc: "Get the Network Interface resource details."
   returns:
     description: "the Network Interface resource details along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner&text=NetworkInterfaceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -357,7 +357,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.listByNetworkDevice(String resourceGroupName, String networkDeviceName)"
   name: "listByNetworkDevice(String resourceGroupName, String networkDeviceName)"
   nameWithType: "NetworkInterfacesClient.listByNetworkDevice(String resourceGroupName, String networkDeviceName)"
-  summary: "List all Network Interfaces that are available using an Network Device."
+  summary: "List all the Network Interface resources in a given resource group."
   modifiers:
   - "abstract"
   parameters:
@@ -368,15 +368,15 @@ methods:
     name: "networkDeviceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<NetworkInterfaceInner> listByNetworkDevice(String resourceGroupName, String networkDeviceName)"
-  desc: "List all Network Interfaces that are available using an Network Device. List all the Network Interface resources in a given resource group."
+  desc: "List all the Network Interface resources in a given resource group."
   returns:
-    description: "list of NetworkInterfaces as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NetworkInterface items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner&text=NetworkInterfaceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.listByNetworkDevice(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.listByNetworkDevice(String resourceGroupName, String networkDeviceName, Context context)"
   name: "listByNetworkDevice(String resourceGroupName, String networkDeviceName, Context context)"
   nameWithType: "NetworkInterfacesClient.listByNetworkDevice(String resourceGroupName, String networkDeviceName, Context context)"
-  summary: "List all Network Interfaces that are available using an Network Device."
+  summary: "List all the Network Interface resources in a given resource group."
   modifiers:
   - "abstract"
   parameters:
@@ -390,15 +390,15 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<NetworkInterfaceInner> listByNetworkDevice(String resourceGroupName, String networkDeviceName, Context context)"
-  desc: "List all Network Interfaces that are available using an Network Device. List all the Network Interface resources in a given resource group."
+  desc: "List all the Network Interface resources in a given resource group."
   returns:
-    description: "list of NetworkInterfaces as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of NetworkInterface items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner&text=NetworkInterfaceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.update(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.update(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfacePatch body)"
   name: "update(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfacePatch body)"
   nameWithType: "NetworkInterfacesClient.update(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfacePatch body)"
-  summary: "Updates a Network<wbr>Interface."
+  summary: "Update certain properties of the Network Interface resource."
   modifiers:
   - "abstract"
   parameters:
@@ -415,7 +415,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkInterfacePatch&text=NetworkInterfacePatch\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract NetworkInterfaceInner update(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfacePatch body)"
-  desc: "Updates a NetworkInterface. Update certain properties of the Network Interface resource."
+  desc: "Update certain properties of the Network Interface resource."
   returns:
     description: "defines the NetworkInterface resource."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner&text=NetworkInterfaceInner\" data-throw-if-not-resolved=\"False\" />"
@@ -423,7 +423,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.update(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfacePatch body, Context context)"
   name: "update(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfacePatch body, Context context)"
   nameWithType: "NetworkInterfacesClient.update(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfacePatch body, Context context)"
-  summary: "Updates a Network<wbr>Interface."
+  summary: "Update certain properties of the Network Interface resource."
   modifiers:
   - "abstract"
   parameters:
@@ -443,7 +443,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract NetworkInterfaceInner update(String resourceGroupName, String networkDeviceName, String networkInterfaceName, NetworkInterfacePatch body, Context context)"
-  desc: "Updates a NetworkInterface. Update certain properties of the Network Interface resource."
+  desc: "Update certain properties of the Network Interface resource."
   returns:
     description: "defines the NetworkInterface resource."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkInterfaceInner&text=NetworkInterfaceInner\" data-throw-if-not-resolved=\"False\" />"
@@ -451,7 +451,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.updateAdministrativeState(String resourceGroupName, String networkDeviceName, String networkInterfaceName, UpdateAdministrativeState body)"
   name: "updateAdministrativeState(String resourceGroupName, String networkDeviceName, String networkInterfaceName, UpdateAdministrativeState body)"
   nameWithType: "NetworkInterfacesClient.updateAdministrativeState(String resourceGroupName, String networkDeviceName, String networkInterfaceName, UpdateAdministrativeState body)"
-  summary: "Updates the admin state of the network interface."
+  summary: "Update the admin state of the Network Interface."
   modifiers:
   - "abstract"
   parameters:
@@ -467,16 +467,16 @@ methods:
   - description: "Request payload."
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState&text=UpdateAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForStateUpdateInner updateAdministrativeState(String resourceGroupName, String networkDeviceName, String networkInterfaceName, UpdateAdministrativeState body)"
-  desc: "Updates the admin state of the network interface. Update the admin state of the Network Interface."
+  syntax: "public abstract UpdateAdministrativeStateResponseInner updateAdministrativeState(String resourceGroupName, String networkDeviceName, String networkInterfaceName, UpdateAdministrativeState body)"
+  desc: "Update the admin state of the Network Interface."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.updateAdministrativeState(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.NetworkInterfacesClient.updateAdministrativeState(String resourceGroupName, String networkDeviceName, String networkInterfaceName, UpdateAdministrativeState body, Context context)"
   name: "updateAdministrativeState(String resourceGroupName, String networkDeviceName, String networkInterfaceName, UpdateAdministrativeState body, Context context)"
   nameWithType: "NetworkInterfacesClient.updateAdministrativeState(String resourceGroupName, String networkDeviceName, String networkInterfaceName, UpdateAdministrativeState body, Context context)"
-  summary: "Updates the admin state of the network interface."
+  summary: "Update the admin state of the Network Interface."
   modifiers:
   - "abstract"
   parameters:
@@ -495,13 +495,13 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForStateUpdateInner updateAdministrativeState(String resourceGroupName, String networkDeviceName, String networkInterfaceName, UpdateAdministrativeState body, Context context)"
-  desc: "Updates the admin state of the network interface. Update the admin state of the Network Interface."
+  syntax: "public abstract UpdateAdministrativeStateResponseInner updateAdministrativeState(String resourceGroupName, String networkDeviceName, String networkInterfaceName, UpdateAdministrativeState body, Context context)"
+  desc: "Update the admin state of the Network Interface."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "An instance of this class provides access to all the operations defined in NetworkInterfacesClient."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

@@ -27,7 +27,9 @@ constructors:
   name: "PirCommunityGalleryResource()"
   nameWithType: "PirCommunityGalleryResource.PirCommunityGalleryResource()"
   summary: "Creates an instance of Pir<wbr>Community<wbr>Gallery<wbr>Resource class."
-  syntax: "public PirCommunityGalleryResource()"
+  modifiers:
+  - "protected"
+  syntax: "protected PirCommunityGalleryResource()"
   desc: "Creates an instance of PirCommunityGalleryResource class."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.PirCommunityGalleryResource.fromJson(com.azure.json.JsonReader)"
@@ -108,24 +110,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.compute.models.PirCommunityGalleryResource.withUniqueId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.compute.models.PirCommunityGalleryResource.withUniqueId(String uniqueId)"
-  name: "withUniqueId(String uniqueId)"
-  nameWithType: "PirCommunityGalleryResource.withUniqueId(String uniqueId)"
-  summary: "Set the unique<wbr>Id property: The unique id of this community gallery."
-  parameters:
-  - description: "the uniqueId value to set."
-    name: "uniqueId"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public PirCommunityGalleryResource withUniqueId(String uniqueId)"
-  desc: "Set the uniqueId property: The unique id of this community gallery."
-  returns:
-    description: "the PirCommunityGalleryResource object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.PirCommunityGalleryResource?alt=com.azure.resourcemanager.compute.models.PirCommunityGalleryResource&text=PirCommunityGalleryResource\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Base information about the community gallery resource in azure compute gallery."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.PirCommunityGalleryResource?alt=com.azure.resourcemanager.compute.models.PirCommunityGalleryResource&text=PirCommunityGalleryResource\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

@@ -17,7 +17,6 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.resourcemanager.compute.models.PirSharedGalleryResource.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.compute.models.PirSharedGalleryResource.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.compute.models.PirSharedGalleryResource.uniqueId()?alt=com.azure.resourcemanager.compute.models.PirSharedGalleryResource.uniqueId&text=uniqueId\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.compute.models.PirSharedGalleryResource.validate()?alt=com.azure.resourcemanager.compute.models.PirSharedGalleryResource.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.compute.models.PirSharedGalleryResource.withUniqueId(java.lang.String)?alt=com.azure.resourcemanager.compute.models.PirSharedGalleryResource.withUniqueId&text=withUniqueId\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -32,14 +31,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **SharedGalleryInner**</br> extends <xref href=\"com.azure.resourcemanager.compute.models.PirSharedGalleryResource?alt=com.azure.resourcemanager.compute.models.PirSharedGalleryResource&text=PirSharedGalleryResource\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.resourcemanager.compute.fluent.models.SharedGalleryInner.SharedGalleryInner()"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.SharedGalleryInner.SharedGalleryInner()"
-  name: "SharedGalleryInner()"
-  nameWithType: "SharedGalleryInner.SharedGalleryInner()"
-  summary: "Creates an instance of Shared<wbr>Gallery<wbr>Inner class."
-  syntax: "public SharedGalleryInner()"
-  desc: "Creates an instance of SharedGalleryInner class."
 methods:
 - uid: "com.azure.resourcemanager.compute.fluent.models.SharedGalleryInner.artifactTags()"
   fullName: "com.azure.resourcemanager.compute.fluent.models.SharedGalleryInner.artifactTags()"
@@ -124,23 +115,8 @@ methods:
   overridden: "com.azure.resourcemanager.compute.models.PirSharedGalleryResource.validate()"
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.compute.fluent.models.SharedGalleryInner.withUniqueId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.SharedGalleryInner.withUniqueId(String uniqueId)"
-  name: "withUniqueId(String uniqueId)"
-  nameWithType: "SharedGalleryInner.withUniqueId(String uniqueId)"
-  summary: "Set the unique<wbr>Id property: The unique id of this shared gallery."
-  overridden: "com.azure.resourcemanager.compute.models.PirSharedGalleryResource.withUniqueId(java.lang.String)"
-  parameters:
-  - description: "the uniqueId value to set."
-    name: "uniqueId"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public SharedGalleryInner withUniqueId(String uniqueId)"
-  desc: "Set the uniqueId property: The unique id of this shared gallery."
-  returns:
-    description: "the SharedGalleryInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.SharedGalleryInner?alt=com.azure.resourcemanager.compute.fluent.models.SharedGalleryInner&text=SharedGalleryInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Specifies information about the Shared Gallery that you want to create or update."
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

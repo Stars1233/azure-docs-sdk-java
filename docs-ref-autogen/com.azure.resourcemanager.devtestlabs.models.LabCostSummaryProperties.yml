@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **LabCostSummaryProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.devtestlabs.models.LabCostSummaryProperties?alt=com.azure.resourcemanager.devtestlabs.models.LabCostSummaryProperties&text=LabCostSummaryProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.devtestlabs.models.LabCostSummaryProperties.LabCostSummaryProperties()"
-  fullName: "com.azure.resourcemanager.devtestlabs.models.LabCostSummaryProperties.LabCostSummaryProperties()"
-  name: "LabCostSummaryProperties()"
-  nameWithType: "LabCostSummaryProperties.LabCostSummaryProperties()"
-  summary: "Creates an instance of Lab<wbr>Cost<wbr>Summary<wbr>Properties class."
-  syntax: "public LabCostSummaryProperties()"
-  desc: "Creates an instance of LabCostSummaryProperties class."
 methods:
 - uid: "com.azure.resourcemanager.devtestlabs.models.LabCostSummaryProperties.estimatedLabCost()"
   fullName: "com.azure.resourcemanager.devtestlabs.models.LabCostSummaryProperties.estimatedLabCost()"
@@ -71,31 +63,10 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.devtestlabs.models.LabCostSummaryProperties.validate()"
-  fullName: "com.azure.resourcemanager.devtestlabs.models.LabCostSummaryProperties.validate()"
-  name: "validate()"
-  nameWithType: "LabCostSummaryProperties.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.devtestlabs.models.LabCostSummaryProperties.withEstimatedLabCost(java.lang.Double)"
-  fullName: "com.azure.resourcemanager.devtestlabs.models.LabCostSummaryProperties.withEstimatedLabCost(Double estimatedLabCost)"
-  name: "withEstimatedLabCost(Double estimatedLabCost)"
-  nameWithType: "LabCostSummaryProperties.withEstimatedLabCost(Double estimatedLabCost)"
-  summary: "Set the estimated<wbr>Lab<wbr>Cost property: The cost component of the cost item."
-  parameters:
-  - description: "the estimatedLabCost value to set."
-    name: "estimatedLabCost"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html\">Double</a>"
-  syntax: "public LabCostSummaryProperties withEstimatedLabCost(Double estimatedLabCost)"
-  desc: "Set the estimatedLabCost property: The cost component of the cost item."
-  returns:
-    description: "the LabCostSummaryProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.devtestlabs.models.LabCostSummaryProperties?alt=com.azure.resourcemanager.devtestlabs.models.LabCostSummaryProperties&text=LabCostSummaryProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The properties of the cost summary."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.devtestlabs.models.LabCostSummaryProperties?alt=com.azure.resourcemanager.devtestlabs.models.LabCostSummaryProperties&text=LabCostSummaryProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.devtestlabs.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-devtestlabs:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-devtestlabs:1.2.0

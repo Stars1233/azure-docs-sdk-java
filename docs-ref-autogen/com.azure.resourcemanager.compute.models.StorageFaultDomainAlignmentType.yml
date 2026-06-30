@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType"
+fullName: "com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType"
+name: "StorageFaultDomainAlignmentType"
+nameWithType: "StorageFaultDomainAlignmentType"
+summary: "Specifies the storage fault domain alignment type for the disk."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **StorageFaultDomainAlignmentType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType?alt=com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType&text=StorageFaultDomainAlignmentType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType.StorageFaultDomainAlignmentType()"
+  fullName: "com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType.StorageFaultDomainAlignmentType()"
+  name: "StorageFaultDomainAlignmentType()"
+  nameWithType: "StorageFaultDomainAlignmentType.StorageFaultDomainAlignmentType()"
+  summary: "Creates a new instance of Storage<wbr>Fault<wbr>Domain<wbr>Alignment<wbr>Type value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public StorageFaultDomainAlignmentType()"
+  desc: "Creates a new instance of StorageFaultDomainAlignmentType value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType.ALIGNED"
+  fullName: "com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType.ALIGNED"
+  name: "ALIGNED"
+  nameWithType: "StorageFaultDomainAlignmentType.ALIGNED"
+  summary: "Disk Storage Fault Domains are mapped to Compute Fault Domains."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType?alt=com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType&text=StorageFaultDomainAlignmentType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final StorageFaultDomainAlignmentType ALIGNED"
+  desc: "Disk Storage Fault Domains are mapped to Compute Fault Domains. Deployment fails if disk does not support enough Fault Domains."
+- uid: "com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType.BEST_EFFORT_ALIGNED"
+  fullName: "com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType.BEST_EFFORT_ALIGNED"
+  name: "BEST_EFFORT_ALIGNED"
+  nameWithType: "StorageFaultDomainAlignmentType.BEST_EFFORT_ALIGNED"
+  summary: "Attempt to map Storage Fault Domains to Compute Fault Domains."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType?alt=com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType&text=StorageFaultDomainAlignmentType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final StorageFaultDomainAlignmentType BEST_EFFORT_ALIGNED"
+  desc: "Attempt to map Storage Fault Domains to Compute Fault Domains. Disks are unaligned if disk does not support enough Fault Domains."
+methods:
+- uid: "com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "StorageFaultDomainAlignmentType.fromString(String name)"
+  summary: "Creates or finds a Storage<wbr>Fault<wbr>Domain<wbr>Alignment<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static StorageFaultDomainAlignmentType fromString(String name)"
+  desc: "Creates or finds a StorageFaultDomainAlignmentType from its string representation."
+  returns:
+    description: "the corresponding StorageFaultDomainAlignmentType."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType?alt=com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType&text=StorageFaultDomainAlignmentType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType.values()"
+  fullName: "com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType.values()"
+  name: "values()"
+  nameWithType: "StorageFaultDomainAlignmentType.values()"
+  summary: "Gets known Storage<wbr>Fault<wbr>Domain<wbr>Alignment<wbr>Type values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<StorageFaultDomainAlignmentType> values()"
+  desc: "Gets known StorageFaultDomainAlignmentType values."
+  returns:
+    description: "known StorageFaultDomainAlignmentType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType?alt=com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType&text=StorageFaultDomainAlignmentType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Specifies the storage fault domain alignment type for the disk."
+metadata: {}
+package: "com.azure.resourcemanager.compute.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

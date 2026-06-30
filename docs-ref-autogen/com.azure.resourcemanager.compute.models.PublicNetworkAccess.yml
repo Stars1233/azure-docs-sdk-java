@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.compute.models.PublicNetworkAccess.DISABLED"
   name: "DISABLED"
   nameWithType: "PublicNetworkAccess.DISABLED"
-  summary: "Static value Disabled for Public<wbr>Network<wbr>Access."
+  summary: "You cannot access the underlying data of the disk publicly on the internet even when Network<wbr>Access<wbr>Policy is set to Allow<wbr>All."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.PublicNetworkAccess?alt=com.azure.resourcemanager.compute.models.PublicNetworkAccess&text=PublicNetworkAccess\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PublicNetworkAccess DISABLED"
-  desc: "Static value Disabled for PublicNetworkAccess."
+  desc: "You cannot access the underlying data of the disk publicly on the internet even when NetworkAccessPolicy is set to AllowAll. You can access the data via the SAS URI only from your trusted Azure VNET when NetworkAccessPolicy is set to AllowPrivate."
 - uid: "com.azure.resourcemanager.compute.models.PublicNetworkAccess.ENABLED"
   fullName: "com.azure.resourcemanager.compute.models.PublicNetworkAccess.ENABLED"
   name: "ENABLED"
   nameWithType: "PublicNetworkAccess.ENABLED"
-  summary: "Static value Enabled for Public<wbr>Network<wbr>Access."
+  summary: "You can generate a SAS URI to access the underlying data of the disk publicly on the internet when Network<wbr>Access<wbr>Policy is set to Allow<wbr>All."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.PublicNetworkAccess?alt=com.azure.resourcemanager.compute.models.PublicNetworkAccess&text=PublicNetworkAccess\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PublicNetworkAccess ENABLED"
-  desc: "Static value Enabled for PublicNetworkAccess."
+  desc: "You can generate a SAS URI to access the underlying data of the disk publicly on the internet when NetworkAccessPolicy is set to AllowAll. You can access the data via the SAS URI only from your trusted Azure VNET when NetworkAccessPolicy is set to AllowPrivate."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.PublicNetworkAccess.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.models.PublicNetworkAccess.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Policy for controlling export on the disk."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

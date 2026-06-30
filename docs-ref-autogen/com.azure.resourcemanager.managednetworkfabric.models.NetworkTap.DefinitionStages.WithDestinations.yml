@@ -6,18 +6,18 @@ nameWithType: "NetworkTap.DefinitionStages.WithDestinations"
 summary: "The stage of the Network<wbr>Tap definition allowing to specify destinations."
 syntax: "public static interface **NetworkTap.DefinitionStages.WithDestinations**"
 methods:
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.DefinitionStages.WithDestinations.withDestinations(java.util.List<com.azure.resourcemanager.managednetworkfabric.models.NetworkTapPropertiesDestinationsItem>)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.DefinitionStages.WithDestinations.withDestinations(List<NetworkTapPropertiesDestinationsItem> destinations)"
-  name: "withDestinations(List<NetworkTapPropertiesDestinationsItem> destinations)"
-  nameWithType: "NetworkTap.DefinitionStages.WithDestinations.withDestinations(List<NetworkTapPropertiesDestinationsItem> destinations)"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.DefinitionStages.WithDestinations.withDestinations(java.util.List<com.azure.resourcemanager.managednetworkfabric.models.DestinationProperties>)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.DefinitionStages.WithDestinations.withDestinations(List<DestinationProperties> destinations)"
+  name: "withDestinations(List<DestinationProperties> destinations)"
+  nameWithType: "NetworkTap.DefinitionStages.WithDestinations.withDestinations(List<DestinationProperties> destinations)"
   summary: "Specifies the destinations property: List of destinations to send the filter traffic.."
   modifiers:
   - "abstract"
   parameters:
   - description: "List of destinations to send the filter traffic."
     name: "destinations"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkTapPropertiesDestinationsItem?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkTapPropertiesDestinationsItem&text=NetworkTapPropertiesDestinationsItem\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public abstract NetworkTap.DefinitionStages.WithCreate withDestinations(List<NetworkTapPropertiesDestinationsItem> destinations)"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.DestinationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.DestinationProperties&text=DestinationProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract NetworkTap.DefinitionStages.WithCreate withDestinations(List<DestinationProperties> destinations)"
   desc: "Specifies the destinations property: List of destinations to send the filter traffic.."
   returns:
     description: "the next definition stage."
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the NetworkTap definition allowing to specify destinations."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

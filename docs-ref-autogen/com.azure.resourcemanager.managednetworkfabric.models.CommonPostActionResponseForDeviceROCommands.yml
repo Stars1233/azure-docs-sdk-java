@@ -1,0 +1,92 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceROCommands"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceROCommands"
+name: "CommonPostActionResponseForDeviceROCommands"
+nameWithType: "CommonPostActionResponseForDeviceROCommands"
+summary: "Common response for device Ro Commands."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **CommonPostActionResponseForDeviceROCommands**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceROCommands?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceROCommands&text=CommonPostActionResponseForDeviceROCommands\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceROCommands.configurationState()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceROCommands.configurationState()"
+  name: "configurationState()"
+  nameWithType: "CommonPostActionResponseForDeviceROCommands.configurationState()"
+  summary: "Get the configuration<wbr>State property: Gets the configuration state."
+  syntax: "public ConfigurationState configurationState()"
+  desc: "Get the configurationState property: Gets the configuration state."
+  returns:
+    description: "the configurationState value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ConfigurationState?alt=com.azure.resourcemanager.managednetworkfabric.models.ConfigurationState&text=ConfigurationState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceROCommands.deviceConfigurationPreview()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceROCommands.deviceConfigurationPreview()"
+  name: "deviceConfigurationPreview()"
+  nameWithType: "CommonPostActionResponseForDeviceROCommands.deviceConfigurationPreview()"
+  summary: "Get the device<wbr>Configuration<wbr>Preview property: Device RO command Response limited to 4000 characters."
+  syntax: "public String deviceConfigurationPreview()"
+  desc: "Get the deviceConfigurationPreview property: Device RO command Response limited to 4000 characters."
+  returns:
+    description: "the deviceConfigurationPreview value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceROCommands.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceROCommands.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "CommonPostActionResponseForDeviceROCommands.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Common<wbr>Post<wbr>Action<wbr>Response<wbr>For<wbr>Device<wbr>ROCommands from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static CommonPostActionResponseForDeviceROCommands fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the CommonPostActionResponseForDeviceROCommands."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of CommonPostActionResponseForDeviceROCommands from the JsonReader."
+  returns:
+    description: "An instance of CommonPostActionResponseForDeviceROCommands if the JsonReader was pointing to an instance\n of it, or null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceROCommands?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceROCommands&text=CommonPostActionResponseForDeviceROCommands\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceROCommands.outputUrl()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceROCommands.outputUrl()"
+  name: "outputUrl()"
+  nameWithType: "CommonPostActionResponseForDeviceROCommands.outputUrl()"
+  summary: "Get the output<wbr>Url property: Predefined link containing Device RO Command output."
+  syntax: "public String outputUrl()"
+  desc: "Get the outputUrl property: Predefined link containing Device RO Command output."
+  returns:
+    description: "the outputUrl value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceROCommands.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceROCommands.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "CommonPostActionResponseForDeviceROCommands.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Common response for device Ro Commands."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceROCommands?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceROCommands&text=CommonPostActionResponseForDeviceROCommands\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

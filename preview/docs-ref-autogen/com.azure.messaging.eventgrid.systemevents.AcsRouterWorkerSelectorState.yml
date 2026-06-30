@@ -3,7 +3,7 @@ uid: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerSelectorState"
 fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerSelectorState"
 name: "AcsRouterWorkerSelectorState"
 nameWithType: "AcsRouterWorkerSelectorState"
-summary: "Router Worker Selector State."
+summary: "Router Job Worker Selector State."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -13,7 +13,6 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
@@ -42,26 +41,26 @@ fields:
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerSelectorState.ACTIVE"
   name: "ACTIVE"
   nameWithType: "AcsRouterWorkerSelectorState.ACTIVE"
-  summary: "Router Worker Selector State Active."
+  summary: "Router Job Worker Selector is Active."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerSelectorState?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerSelectorState&text=AcsRouterWorkerSelectorState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AcsRouterWorkerSelectorState ACTIVE"
-  desc: "Router Worker Selector State Active."
+  desc: "Router Job Worker Selector is Active."
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerSelectorState.EXPIRED"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerSelectorState.EXPIRED"
   name: "EXPIRED"
   nameWithType: "AcsRouterWorkerSelectorState.EXPIRED"
-  summary: "Router Worker Selector State Expired."
+  summary: "Router Job Worker Selector has Expire."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerSelectorState?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerSelectorState&text=AcsRouterWorkerSelectorState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AcsRouterWorkerSelectorState EXPIRED"
-  desc: "Router Worker Selector State Expired."
+  desc: "Router Job Worker Selector has Expire."
 methods:
 - uid: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerSelectorState.fromString(java.lang.String)"
   fullName: "com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerSelectorState.fromString(String name)"
@@ -92,7 +91,7 @@ methods:
     description: "known AcsRouterWorkerSelectorState values."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerSelectorState?alt=com.azure.messaging.eventgrid.systemevents.AcsRouterWorkerSelectorState&text=AcsRouterWorkerSelectorState\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
-desc: "Router Worker Selector State."
+desc: "Router Job Worker Selector State."
 metadata: {}
 package: "com.azure.messaging.eventgrid.systemevents"
-artifact: com.azure:azure-messaging-eventgrid-systemevents:1.0.0-beta.2
+artifact: com.azure:azure-messaging-eventgrid:4.21.0-beta.1

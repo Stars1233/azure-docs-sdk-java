@@ -149,6 +149,16 @@ methods:
   returns:
     description: "the osType value."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.OperatingSystemTypes?alt=com.azure.resourcemanager.compute.models.OperatingSystemTypes&text=OperatingSystemTypes\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.OSDisk.storageFaultDomainAlignment()"
+  fullName: "com.azure.resourcemanager.compute.models.OSDisk.storageFaultDomainAlignment()"
+  name: "storageFaultDomainAlignment()"
+  nameWithType: "OSDisk.storageFaultDomainAlignment()"
+  summary: "Get the storage<wbr>Fault<wbr>Domain<wbr>Alignment property: Specifies the storage fault domain alignment type for the disk."
+  syntax: "public StorageFaultDomainAlignmentType storageFaultDomainAlignment()"
+  desc: "Get the storageFaultDomainAlignment property: Specifies the storage fault domain alignment type for the disk."
+  returns:
+    description: "the storageFaultDomainAlignment value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType?alt=com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType&text=StorageFaultDomainAlignmentType\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.OSDisk.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.compute.models.OSDisk.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -318,6 +328,20 @@ methods:
   returns:
     description: "the OSDisk object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.OSDisk?alt=com.azure.resourcemanager.compute.models.OSDisk&text=OSDisk\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.OSDisk.withStorageFaultDomainAlignment(com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType)"
+  fullName: "com.azure.resourcemanager.compute.models.OSDisk.withStorageFaultDomainAlignment(StorageFaultDomainAlignmentType storageFaultDomainAlignment)"
+  name: "withStorageFaultDomainAlignment(StorageFaultDomainAlignmentType storageFaultDomainAlignment)"
+  nameWithType: "OSDisk.withStorageFaultDomainAlignment(StorageFaultDomainAlignmentType storageFaultDomainAlignment)"
+  summary: "Set the storage<wbr>Fault<wbr>Domain<wbr>Alignment property: Specifies the storage fault domain alignment type for the disk."
+  parameters:
+  - description: "the storageFaultDomainAlignment value to set."
+    name: "storageFaultDomainAlignment"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType?alt=com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType&text=StorageFaultDomainAlignmentType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public OSDisk withStorageFaultDomainAlignment(StorageFaultDomainAlignmentType storageFaultDomainAlignment)"
+  desc: "Set the storageFaultDomainAlignment property: Specifies the storage fault domain alignment type for the disk."
+  returns:
+    description: "the OSDisk object itself."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.OSDisk?alt=com.azure.resourcemanager.compute.models.OSDisk&text=OSDisk\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.OSDisk.withVhd(com.azure.resourcemanager.compute.models.VirtualHardDisk)"
   fullName: "com.azure.resourcemanager.compute.models.OSDisk.withVhd(VirtualHardDisk vhd)"
   name: "withVhd(VirtualHardDisk vhd)"
@@ -362,4 +386,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.OSDisk?alt=com.azure.resourcemanager.compute.models.OSDisk&text=OSDisk\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

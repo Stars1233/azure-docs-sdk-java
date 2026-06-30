@@ -1,0 +1,102 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.chaos.models.BranchStatus"
+fullName: "com.azure.resourcemanager.chaos.models.BranchStatus"
+name: "BranchStatus"
+nameWithType: "BranchStatus"
+summary: "Model that represents the a list of actions and action statuses."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **BranchStatus**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.chaos.models.BranchStatus?alt=com.azure.resourcemanager.chaos.models.BranchStatus&text=BranchStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.chaos.models.BranchStatus.actions()"
+  fullName: "com.azure.resourcemanager.chaos.models.BranchStatus.actions()"
+  name: "actions()"
+  nameWithType: "BranchStatus.actions()"
+  summary: "Get the actions property: The array of actions."
+  syntax: "public List<ActionStatus> actions()"
+  desc: "Get the actions property: The array of actions."
+  returns:
+    description: "the actions value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.chaos.models.ActionStatus?alt=com.azure.resourcemanager.chaos.models.ActionStatus&text=ActionStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.chaos.models.BranchStatus.branchId()"
+  fullName: "com.azure.resourcemanager.chaos.models.BranchStatus.branchId()"
+  name: "branchId()"
+  nameWithType: "BranchStatus.branchId()"
+  summary: "Get the branch<wbr>Id property: The id of the branch status."
+  syntax: "public String branchId()"
+  desc: "Get the branchId property: The id of the branch status."
+  returns:
+    description: "the branchId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.chaos.models.BranchStatus.branchName()"
+  fullName: "com.azure.resourcemanager.chaos.models.BranchStatus.branchName()"
+  name: "branchName()"
+  nameWithType: "BranchStatus.branchName()"
+  summary: "Get the branch<wbr>Name property: The name of the branch status."
+  syntax: "public String branchName()"
+  desc: "Get the branchName property: The name of the branch status."
+  returns:
+    description: "the branchName value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.chaos.models.BranchStatus.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.chaos.models.BranchStatus.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "BranchStatus.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Branch<wbr>Status from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static BranchStatus fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the BranchStatus."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of BranchStatus from the JsonReader."
+  returns:
+    description: "An instance of BranchStatus if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.chaos.models.BranchStatus?alt=com.azure.resourcemanager.chaos.models.BranchStatus&text=BranchStatus\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.chaos.models.BranchStatus.status()"
+  fullName: "com.azure.resourcemanager.chaos.models.BranchStatus.status()"
+  name: "status()"
+  nameWithType: "BranchStatus.status()"
+  summary: "Get the status property: The status of the branch."
+  syntax: "public String status()"
+  desc: "Get the status property: The status of the branch."
+  returns:
+    description: "the status value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.chaos.models.BranchStatus.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.chaos.models.BranchStatus.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "BranchStatus.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Model that represents the a list of actions and action statuses."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.chaos.models.BranchStatus?alt=com.azure.resourcemanager.chaos.models.BranchStatus&text=BranchStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.chaos.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-chaos:1.4.0-beta.1

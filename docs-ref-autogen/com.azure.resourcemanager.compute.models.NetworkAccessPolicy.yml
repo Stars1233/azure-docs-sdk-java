@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.compute.models.NetworkAccessPolicy.ALLOW_ALL"
   name: "ALLOW_ALL"
   nameWithType: "NetworkAccessPolicy.ALLOW_ALL"
-  summary: "Static value Allow<wbr>All for Network<wbr>Access<wbr>Policy."
+  summary: "The disk can be exported or uploaded to from any network."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.NetworkAccessPolicy?alt=com.azure.resourcemanager.compute.models.NetworkAccessPolicy&text=NetworkAccessPolicy\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NetworkAccessPolicy ALLOW_ALL"
-  desc: "Static value AllowAll for NetworkAccessPolicy."
+  desc: "The disk can be exported or uploaded to from any network."
 - uid: "com.azure.resourcemanager.compute.models.NetworkAccessPolicy.ALLOW_PRIVATE"
   fullName: "com.azure.resourcemanager.compute.models.NetworkAccessPolicy.ALLOW_PRIVATE"
   name: "ALLOW_PRIVATE"
   nameWithType: "NetworkAccessPolicy.ALLOW_PRIVATE"
-  summary: "Static value Allow<wbr>Private for Network<wbr>Access<wbr>Policy."
+  summary: "The disk can be exported or uploaded to using a Disk<wbr>Access resource's private endpoints."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.NetworkAccessPolicy?alt=com.azure.resourcemanager.compute.models.NetworkAccessPolicy&text=NetworkAccessPolicy\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NetworkAccessPolicy ALLOW_PRIVATE"
-  desc: "Static value AllowPrivate for NetworkAccessPolicy."
+  desc: "The disk can be exported or uploaded to using a DiskAccess resource's private endpoints."
 - uid: "com.azure.resourcemanager.compute.models.NetworkAccessPolicy.DENY_ALL"
   fullName: "com.azure.resourcemanager.compute.models.NetworkAccessPolicy.DENY_ALL"
   name: "DENY_ALL"
   nameWithType: "NetworkAccessPolicy.DENY_ALL"
-  summary: "Static value Deny<wbr>All for Network<wbr>Access<wbr>Policy."
+  summary: "The disk cannot be exported."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.NetworkAccessPolicy?alt=com.azure.resourcemanager.compute.models.NetworkAccessPolicy&text=NetworkAccessPolicy\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NetworkAccessPolicy DENY_ALL"
-  desc: "Static value DenyAll for NetworkAccessPolicy."
+  desc: "The disk cannot be exported."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.NetworkAccessPolicy.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.models.NetworkAccessPolicy.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "Policy for accessing the disk via network."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

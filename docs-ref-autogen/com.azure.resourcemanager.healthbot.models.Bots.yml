@@ -30,7 +30,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Bot resource group in the user subscription."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Bot resource."
@@ -78,7 +78,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Bot resource group in the user subscription."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Bot resource."
@@ -129,7 +129,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Bot resource group in the user subscription."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Bot resource."
@@ -148,7 +148,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Bot resource group in the user subscription."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Bot resource."
@@ -198,7 +198,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Bot resource group in the user subscription."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<HealthBot> listByResourceGroup(String resourceGroupName)"
@@ -214,7 +214,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Bot resource group in the user subscription."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -233,7 +233,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Bot resource group in the user subscription."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Bot resource."
@@ -252,7 +252,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Bot resource group in the user subscription."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Bot resource."
@@ -274,7 +274,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Bot resource group in the user subscription."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Bot resource."
@@ -293,7 +293,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Bot resource group in the user subscription."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Bot resource."
@@ -311,4 +311,4 @@ type: "interface"
 desc: "Resource collection API of Bots."
 metadata: {}
 package: "com.azure.resourcemanager.healthbot.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-healthbot:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-healthbot:1.2.0

@@ -1,0 +1,43 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.computelimit.models.SharedLimitCap.DefinitionStages.WithCreate"
+fullName: "com.azure.resourcemanager.computelimit.models.SharedLimitCap.DefinitionStages.WithCreate"
+name: "SharedLimitCap.DefinitionStages.WithCreate"
+nameWithType: "SharedLimitCap.DefinitionStages.WithCreate"
+summary: "The stage of the Shared<wbr>Limit<wbr>Cap definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
+syntax: "public static interface **SharedLimitCap.DefinitionStages.WithCreate**</br> extends <xref href=\"com.azure.resourcemanager.computelimit.models.SharedLimitCap.DefinitionStages.WithProperties?alt=com.azure.resourcemanager.computelimit.models.SharedLimitCap.DefinitionStages.WithProperties&text=WithProperties\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.azure.resourcemanager.computelimit.models.SharedLimitCap.DefinitionStages.WithCreate.create()"
+  fullName: "com.azure.resourcemanager.computelimit.models.SharedLimitCap.DefinitionStages.WithCreate.create()"
+  name: "create()"
+  nameWithType: "SharedLimitCap.DefinitionStages.WithCreate.create()"
+  summary: "Executes the create request."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SharedLimitCap create()"
+  desc: "Executes the create request."
+  returns:
+    description: "the created resource."
+    type: "<xref href=\"com.azure.resourcemanager.computelimit.models.SharedLimitCap?alt=com.azure.resourcemanager.computelimit.models.SharedLimitCap&text=SharedLimitCap\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.computelimit.models.SharedLimitCap.DefinitionStages.WithCreate.create(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.computelimit.models.SharedLimitCap.DefinitionStages.WithCreate.create(Context context)"
+  name: "create(Context context)"
+  nameWithType: "SharedLimitCap.DefinitionStages.WithCreate.create(Context context)"
+  summary: "Executes the create request."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract SharedLimitCap create(Context context)"
+  desc: "Executes the create request."
+  returns:
+    description: "the created resource."
+    type: "<xref href=\"com.azure.resourcemanager.computelimit.models.SharedLimitCap?alt=com.azure.resourcemanager.computelimit.models.SharedLimitCap&text=SharedLimitCap\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the SharedLimitCap definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
+implements:
+- "<xref href=\"com.azure.resourcemanager.computelimit.models.SharedLimitCap.DefinitionStages.WithProperties?alt=com.azure.resourcemanager.computelimit.models.SharedLimitCap.DefinitionStages.WithProperties&text=WithProperties\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.computelimit.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-computelimit:1.2.0

@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.UpdateStages.WithIdentity"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.UpdateStages.WithIdentity"
+name: "NetworkTap.UpdateStages.WithIdentity"
+nameWithType: "NetworkTap.UpdateStages.WithIdentity"
+summary: "The stage of the Network<wbr>Tap update allowing to specify identity."
+syntax: "public static interface **NetworkTap.UpdateStages.WithIdentity**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.UpdateStages.WithIdentity.withIdentity(com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentityPatch)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.UpdateStages.WithIdentity.withIdentity(ManagedServiceIdentityPatch identity)"
+  name: "withIdentity(ManagedServiceIdentityPatch identity)"
+  nameWithType: "NetworkTap.UpdateStages.WithIdentity.withIdentity(ManagedServiceIdentityPatch identity)"
+  summary: "Specifies the identity property: The managed service identities assigned to this resource.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The managed service identities assigned to this resource."
+    name: "identity"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentityPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentityPatch&text=ManagedServiceIdentityPatch\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NetworkTap.Update withIdentity(ManagedServiceIdentityPatch identity)"
+  desc: "Specifies the identity property: The managed service identities assigned to this resource.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.Update?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkTap update allowing to specify identity."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

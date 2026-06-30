@@ -99,6 +99,16 @@ methods:
   returns:
     description: "the marketplaceDetails value."
     type: "<xref href=\"com.azure.resourcemanager.qumulo.models.MarketplaceDetails?alt=com.azure.resourcemanager.qumulo.models.MarketplaceDetails&text=MarketplaceDetails\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceProperties.performanceTier()"
+  fullName: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceProperties.performanceTier()"
+  name: "performanceTier()"
+  nameWithType: "FileSystemResourceProperties.performanceTier()"
+  summary: "Get the performance<wbr>Tier property: Pre-Provisioned Performance of the Resource."
+  syntax: "public String performanceTier()"
+  desc: "Get the performanceTier property: Pre-Provisioned Performance of the Resource."
+  returns:
+    description: "the performanceTier value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceProperties.privateIPs()"
   fullName: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceProperties.privateIPs()"
   name: "privateIPs()"
@@ -151,13 +161,6 @@ methods:
   returns:
     description: "the userDetails value."
     type: "<xref href=\"com.azure.resourcemanager.qumulo.models.UserDetails?alt=com.azure.resourcemanager.qumulo.models.UserDetails&text=UserDetails\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceProperties.validate()"
-  fullName: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceProperties.validate()"
-  name: "validate()"
-  nameWithType: "FileSystemResourceProperties.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceProperties.withAdminPassword(java.lang.String)"
   fullName: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceProperties.withAdminPassword(String adminPassword)"
   name: "withAdminPassword(String adminPassword)"
@@ -228,6 +231,20 @@ methods:
   returns:
     description: "the FileSystemResourceProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceProperties?alt=com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceProperties&text=FileSystemResourceProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceProperties.withPerformanceTier(java.lang.String)"
+  fullName: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceProperties.withPerformanceTier(String performanceTier)"
+  name: "withPerformanceTier(String performanceTier)"
+  nameWithType: "FileSystemResourceProperties.withPerformanceTier(String performanceTier)"
+  summary: "Set the performance<wbr>Tier property: Pre-Provisioned Performance of the Resource."
+  parameters:
+  - description: "the performanceTier value to set."
+    name: "performanceTier"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public FileSystemResourceProperties withPerformanceTier(String performanceTier)"
+  desc: "Set the performanceTier property: Pre-Provisioned Performance of the Resource."
+  returns:
+    description: "the FileSystemResourceProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceProperties?alt=com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceProperties&text=FileSystemResourceProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceProperties.withPrivateIPs(java.util.List<java.lang.String>)"
   fullName: "com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceProperties.withPrivateIPs(List<String> privateIPs)"
   name: "withPrivateIPs(List<String> privateIPs)"
@@ -276,4 +293,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceProperties?alt=com.azure.resourcemanager.qumulo.fluent.models.FileSystemResourceProperties&text=FileSystemResourceProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.qumulo.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-qumulo:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-qumulo:1.2.0

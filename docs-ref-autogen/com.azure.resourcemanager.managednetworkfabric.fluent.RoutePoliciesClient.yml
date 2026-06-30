@@ -10,7 +10,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.beginCommitConfiguration(String resourceGroupName, String routePolicyName)"
   name: "beginCommitConfiguration(String resourceGroupName, String routePolicyName)"
   nameWithType: "RoutePoliciesClient.beginCommitConfiguration(String resourceGroupName, String routePolicyName)"
-  summary: "Execute the commit on the resources."
+  summary: "Commits the configuration of the given resources."
   modifiers:
   - "abstract"
   parameters:
@@ -21,7 +21,7 @@ methods:
     name: "routePolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<CommonPostActionResponseForStateUpdateInner>,CommonPostActionResponseForStateUpdateInner> beginCommitConfiguration(String resourceGroupName, String routePolicyName)"
-  desc: "Execute the commit on the resources. Commits the configuration of the given resources."
+  desc: "Commits the configuration of the given resources."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of common response for the state updates."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -29,7 +29,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.beginCommitConfiguration(String resourceGroupName, String routePolicyName, Context context)"
   name: "beginCommitConfiguration(String resourceGroupName, String routePolicyName, Context context)"
   nameWithType: "RoutePoliciesClient.beginCommitConfiguration(String resourceGroupName, String routePolicyName, Context context)"
-  summary: "Execute the commit on the resources."
+  summary: "Commits the configuration of the given resources."
   modifiers:
   - "abstract"
   parameters:
@@ -43,7 +43,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<CommonPostActionResponseForStateUpdateInner>,CommonPostActionResponseForStateUpdateInner> beginCommitConfiguration(String resourceGroupName, String routePolicyName, Context context)"
-  desc: "Execute the commit on the resources. Commits the configuration of the given resources."
+  desc: "Commits the configuration of the given resources."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of common response for the state updates."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -51,7 +51,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.beginCreate(String resourceGroupName, String routePolicyName, RoutePolicyInner body)"
   name: "beginCreate(String resourceGroupName, String routePolicyName, RoutePolicyInner body)"
   nameWithType: "RoutePoliciesClient.beginCreate(String resourceGroupName, String routePolicyName, RoutePolicyInner body)"
-  summary: "Create Route Policy."
+  summary: "Implements Route Policy PUT method."
   modifiers:
   - "abstract"
   parameters:
@@ -65,7 +65,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner&text=RoutePolicyInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<RoutePolicyInner>,RoutePolicyInner> beginCreate(String resourceGroupName, String routePolicyName, RoutePolicyInner body)"
-  desc: "Create Route Policy. Implements Route Policy PUT method."
+  desc: "Implements Route Policy PUT method."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the RoutePolicy resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner&text=RoutePolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner&text=RoutePolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -73,7 +73,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.beginCreate(String resourceGroupName, String routePolicyName, RoutePolicyInner body, Context context)"
   name: "beginCreate(String resourceGroupName, String routePolicyName, RoutePolicyInner body, Context context)"
   nameWithType: "RoutePoliciesClient.beginCreate(String resourceGroupName, String routePolicyName, RoutePolicyInner body, Context context)"
-  summary: "Create Route Policy."
+  summary: "Implements Route Policy PUT method."
   modifiers:
   - "abstract"
   parameters:
@@ -90,7 +90,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<RoutePolicyInner>,RoutePolicyInner> beginCreate(String resourceGroupName, String routePolicyName, RoutePolicyInner body, Context context)"
-  desc: "Create Route Policy. Implements Route Policy PUT method."
+  desc: "Implements Route Policy PUT method."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the RoutePolicy resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner&text=RoutePolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner&text=RoutePolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -98,7 +98,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.beginDelete(String resourceGroupName, String routePolicyName)"
   name: "beginDelete(String resourceGroupName, String routePolicyName)"
   nameWithType: "RoutePoliciesClient.beginDelete(String resourceGroupName, String routePolicyName)"
-  summary: "Deletes a Route Policy."
+  summary: "Implements Route Policy DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -109,7 +109,7 @@ methods:
     name: "routePolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDelete(String resourceGroupName, String routePolicyName)"
-  desc: "Deletes a Route Policy. Implements Route Policy DELETE method."
+  desc: "Implements Route Policy DELETE method."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
@@ -117,7 +117,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.beginDelete(String resourceGroupName, String routePolicyName, Context context)"
   name: "beginDelete(String resourceGroupName, String routePolicyName, Context context)"
   nameWithType: "RoutePoliciesClient.beginDelete(String resourceGroupName, String routePolicyName, Context context)"
-  summary: "Deletes a Route Policy."
+  summary: "Implements Route Policy DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -131,7 +131,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDelete(String resourceGroupName, String routePolicyName, Context context)"
-  desc: "Deletes a Route Policy. Implements Route Policy DELETE method."
+  desc: "Implements Route Policy DELETE method."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
@@ -139,7 +139,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.beginUpdate(String resourceGroupName, String routePolicyName, RoutePolicyPatch body)"
   name: "beginUpdate(String resourceGroupName, String routePolicyName, RoutePolicyPatch body)"
   nameWithType: "RoutePoliciesClient.beginUpdate(String resourceGroupName, String routePolicyName, RoutePolicyPatch body)"
-  summary: "Updates a Route Policy."
+  summary: "API to update certain properties of the Route Policy resource."
   modifiers:
   - "abstract"
   parameters:
@@ -153,7 +153,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyPatch&text=RoutePolicyPatch\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<RoutePolicyInner>,RoutePolicyInner> beginUpdate(String resourceGroupName, String routePolicyName, RoutePolicyPatch body)"
-  desc: "Updates a Route Policy. API to update certain properties of the Route Policy resource."
+  desc: "API to update certain properties of the Route Policy resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the RoutePolicy resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner&text=RoutePolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner&text=RoutePolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -161,7 +161,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.beginUpdate(String resourceGroupName, String routePolicyName, RoutePolicyPatch body, Context context)"
   name: "beginUpdate(String resourceGroupName, String routePolicyName, RoutePolicyPatch body, Context context)"
   nameWithType: "RoutePoliciesClient.beginUpdate(String resourceGroupName, String routePolicyName, RoutePolicyPatch body, Context context)"
-  summary: "Updates a Route Policy."
+  summary: "API to update certain properties of the Route Policy resource."
   modifiers:
   - "abstract"
   parameters:
@@ -178,7 +178,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<RoutePolicyInner>,RoutePolicyInner> beginUpdate(String resourceGroupName, String routePolicyName, RoutePolicyPatch body, Context context)"
-  desc: "Updates a Route Policy. API to update certain properties of the Route Policy resource."
+  desc: "API to update certain properties of the Route Policy resource."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of the RoutePolicy resource definition."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner&text=RoutePolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner&text=RoutePolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -186,7 +186,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.beginUpdateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body)"
   name: "beginUpdateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body)"
   nameWithType: "RoutePoliciesClient.beginUpdateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body)"
-  summary: "Executes enable operation to the underlying resources."
+  summary: "Updated the admin state for this Route Policy."
   modifiers:
   - "abstract"
   parameters:
@@ -199,16 +199,16 @@ methods:
   - description: "Request payload."
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState&text=UpdateAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract SyncPoller<PollResult<CommonPostActionResponseForDeviceUpdateInner>,CommonPostActionResponseForDeviceUpdateInner> beginUpdateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body)"
-  desc: "Executes enable operation to the underlying resources. Updated the admin state for this Route Policy."
+  syntax: "public abstract SyncPoller<PollResult<UpdateAdministrativeStateResponseInner>,UpdateAdministrativeStateResponseInner> beginUpdateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body)"
+  desc: "Updated the admin state for this Route Policy."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of common response for device updates."
-    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner&text=CommonPostActionResponseForDeviceUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner&text=CommonPostActionResponseForDeviceUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of update Administrative State Response."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.beginUpdateAdministrativeState(java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.beginUpdateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body, Context context)"
   name: "beginUpdateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body, Context context)"
   nameWithType: "RoutePoliciesClient.beginUpdateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body, Context context)"
-  summary: "Executes enable operation to the underlying resources."
+  summary: "Updated the admin state for this Route Policy."
   modifiers:
   - "abstract"
   parameters:
@@ -224,11 +224,11 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract SyncPoller<PollResult<CommonPostActionResponseForDeviceUpdateInner>,CommonPostActionResponseForDeviceUpdateInner> beginUpdateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body, Context context)"
-  desc: "Executes enable operation to the underlying resources. Updated the admin state for this Route Policy."
+  syntax: "public abstract SyncPoller<PollResult<UpdateAdministrativeStateResponseInner>,UpdateAdministrativeStateResponseInner> beginUpdateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body, Context context)"
+  desc: "Updated the admin state for this Route Policy."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of common response for device updates."
-    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner&text=CommonPostActionResponseForDeviceUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner&text=CommonPostActionResponseForDeviceUpdateInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of update Administrative State Response."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.beginValidateConfiguration(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.beginValidateConfiguration(String resourceGroupName, String routePolicyName)"
   name: "beginValidateConfiguration(String resourceGroupName, String routePolicyName)"
@@ -274,7 +274,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.commitConfiguration(String resourceGroupName, String routePolicyName)"
   name: "commitConfiguration(String resourceGroupName, String routePolicyName)"
   nameWithType: "RoutePoliciesClient.commitConfiguration(String resourceGroupName, String routePolicyName)"
-  summary: "Execute the commit on the resources."
+  summary: "Commits the configuration of the given resources."
   modifiers:
   - "abstract"
   parameters:
@@ -285,7 +285,7 @@ methods:
     name: "routePolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract CommonPostActionResponseForStateUpdateInner commitConfiguration(String resourceGroupName, String routePolicyName)"
-  desc: "Execute the commit on the resources. Commits the configuration of the given resources."
+  desc: "Commits the configuration of the given resources."
   returns:
     description: "common response for the state updates."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />"
@@ -293,7 +293,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.commitConfiguration(String resourceGroupName, String routePolicyName, Context context)"
   name: "commitConfiguration(String resourceGroupName, String routePolicyName, Context context)"
   nameWithType: "RoutePoliciesClient.commitConfiguration(String resourceGroupName, String routePolicyName, Context context)"
-  summary: "Execute the commit on the resources."
+  summary: "Commits the configuration of the given resources."
   modifiers:
   - "abstract"
   parameters:
@@ -307,7 +307,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract CommonPostActionResponseForStateUpdateInner commitConfiguration(String resourceGroupName, String routePolicyName, Context context)"
-  desc: "Execute the commit on the resources. Commits the configuration of the given resources."
+  desc: "Commits the configuration of the given resources."
   returns:
     description: "common response for the state updates."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForStateUpdateInner&text=CommonPostActionResponseForStateUpdateInner\" data-throw-if-not-resolved=\"False\" />"
@@ -315,7 +315,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.create(String resourceGroupName, String routePolicyName, RoutePolicyInner body)"
   name: "create(String resourceGroupName, String routePolicyName, RoutePolicyInner body)"
   nameWithType: "RoutePoliciesClient.create(String resourceGroupName, String routePolicyName, RoutePolicyInner body)"
-  summary: "Create Route Policy."
+  summary: "Implements Route Policy PUT method."
   modifiers:
   - "abstract"
   parameters:
@@ -329,7 +329,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner&text=RoutePolicyInner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract RoutePolicyInner create(String resourceGroupName, String routePolicyName, RoutePolicyInner body)"
-  desc: "Create Route Policy. Implements Route Policy PUT method."
+  desc: "Implements Route Policy PUT method."
   returns:
     description: "the RoutePolicy resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner&text=RoutePolicyInner\" data-throw-if-not-resolved=\"False\" />"
@@ -337,7 +337,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.create(String resourceGroupName, String routePolicyName, RoutePolicyInner body, Context context)"
   name: "create(String resourceGroupName, String routePolicyName, RoutePolicyInner body, Context context)"
   nameWithType: "RoutePoliciesClient.create(String resourceGroupName, String routePolicyName, RoutePolicyInner body, Context context)"
-  summary: "Create Route Policy."
+  summary: "Implements Route Policy PUT method."
   modifiers:
   - "abstract"
   parameters:
@@ -354,7 +354,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract RoutePolicyInner create(String resourceGroupName, String routePolicyName, RoutePolicyInner body, Context context)"
-  desc: "Create Route Policy. Implements Route Policy PUT method."
+  desc: "Implements Route Policy PUT method."
   returns:
     description: "the RoutePolicy resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner&text=RoutePolicyInner\" data-throw-if-not-resolved=\"False\" />"
@@ -362,7 +362,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.delete(String resourceGroupName, String routePolicyName)"
   name: "delete(String resourceGroupName, String routePolicyName)"
   nameWithType: "RoutePoliciesClient.delete(String resourceGroupName, String routePolicyName)"
-  summary: "Deletes a Route Policy."
+  summary: "Implements Route Policy DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -373,12 +373,12 @@ methods:
     name: "routePolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void delete(String resourceGroupName, String routePolicyName)"
-  desc: "Deletes a Route Policy. Implements Route Policy DELETE method."
+  desc: "Implements Route Policy DELETE method."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.delete(String resourceGroupName, String routePolicyName, Context context)"
   name: "delete(String resourceGroupName, String routePolicyName, Context context)"
   nameWithType: "RoutePoliciesClient.delete(String resourceGroupName, String routePolicyName, Context context)"
-  summary: "Deletes a Route Policy."
+  summary: "Implements Route Policy DELETE method."
   modifiers:
   - "abstract"
   parameters:
@@ -392,12 +392,12 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void delete(String resourceGroupName, String routePolicyName, Context context)"
-  desc: "Deletes a Route Policy. Implements Route Policy DELETE method."
+  desc: "Implements Route Policy DELETE method."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.getByResourceGroup(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.getByResourceGroup(String resourceGroupName, String routePolicyName)"
   name: "getByResourceGroup(String resourceGroupName, String routePolicyName)"
   nameWithType: "RoutePoliciesClient.getByResourceGroup(String resourceGroupName, String routePolicyName)"
-  summary: "Gets a Route Policy."
+  summary: "Implements Route Policy GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -408,7 +408,7 @@ methods:
     name: "routePolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract RoutePolicyInner getByResourceGroup(String resourceGroupName, String routePolicyName)"
-  desc: "Gets a Route Policy. Implements Route Policy GET method."
+  desc: "Implements Route Policy GET method."
   returns:
     description: "the RoutePolicy resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner&text=RoutePolicyInner\" data-throw-if-not-resolved=\"False\" />"
@@ -416,7 +416,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.getByResourceGroupWithResponse(String resourceGroupName, String routePolicyName, Context context)"
   name: "getByResourceGroupWithResponse(String resourceGroupName, String routePolicyName, Context context)"
   nameWithType: "RoutePoliciesClient.getByResourceGroupWithResponse(String resourceGroupName, String routePolicyName, Context context)"
-  summary: "Gets a Route Policy."
+  summary: "Implements Route Policy GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -430,7 +430,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Response<RoutePolicyInner> getByResourceGroupWithResponse(String resourceGroupName, String routePolicyName, Context context)"
-  desc: "Gets a Route Policy. Implements Route Policy GET method."
+  desc: "Implements Route Policy GET method."
   returns:
     description: "the RoutePolicy resource definition along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner&text=RoutePolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -438,19 +438,19 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.list()"
   name: "list()"
   nameWithType: "RoutePoliciesClient.list()"
-  summary: "List Route<wbr>Policies by subscription."
+  summary: "Implements Route<wbr>Policies list by subscription GET method."
   modifiers:
   - "abstract"
   syntax: "public abstract PagedIterable<RoutePolicyInner> list()"
-  desc: "List RoutePolicies by subscription. Implements RoutePolicies list by subscription GET method."
+  desc: "Implements RoutePolicies list by subscription GET method."
   returns:
-    description: "list of RoutePolicies as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of RoutePolicy items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner&text=RoutePolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.list(com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.list(Context context)"
   name: "list(Context context)"
   nameWithType: "RoutePoliciesClient.list(Context context)"
-  summary: "List Route<wbr>Policies by subscription."
+  summary: "Implements Route<wbr>Policies list by subscription GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -458,15 +458,15 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<RoutePolicyInner> list(Context context)"
-  desc: "List RoutePolicies by subscription. Implements RoutePolicies list by subscription GET method."
+  desc: "Implements RoutePolicies list by subscription GET method."
   returns:
-    description: "list of RoutePolicies as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of RoutePolicy items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner&text=RoutePolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.listByResourceGroup(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.listByResourceGroup(String resourceGroupName)"
   name: "listByResourceGroup(String resourceGroupName)"
   nameWithType: "RoutePoliciesClient.listByResourceGroup(String resourceGroupName)"
-  summary: "List Route<wbr>Policies by resource group."
+  summary: "Implements Route<wbr>Policies list by resource group GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -474,15 +474,15 @@ methods:
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<RoutePolicyInner> listByResourceGroup(String resourceGroupName)"
-  desc: "List RoutePolicies by resource group. Implements RoutePolicies list by resource group GET method."
+  desc: "Implements RoutePolicies list by resource group GET method."
   returns:
-    description: "list of RoutePolicies as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of RoutePolicy items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner&text=RoutePolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.listByResourceGroup(String resourceGroupName, Context context)"
   name: "listByResourceGroup(String resourceGroupName, Context context)"
   nameWithType: "RoutePoliciesClient.listByResourceGroup(String resourceGroupName, Context context)"
-  summary: "List Route<wbr>Policies by resource group."
+  summary: "Implements Route<wbr>Policies list by resource group GET method."
   modifiers:
   - "abstract"
   parameters:
@@ -493,15 +493,15 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<RoutePolicyInner> listByResourceGroup(String resourceGroupName, Context context)"
-  desc: "List RoutePolicies by resource group. Implements RoutePolicies list by resource group GET method."
+  desc: "Implements RoutePolicies list by resource group GET method."
   returns:
-    description: "list of RoutePolicies as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "paged collection of RoutePolicy items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner&text=RoutePolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.update(java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyPatch)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.update(String resourceGroupName, String routePolicyName, RoutePolicyPatch body)"
   name: "update(String resourceGroupName, String routePolicyName, RoutePolicyPatch body)"
   nameWithType: "RoutePoliciesClient.update(String resourceGroupName, String routePolicyName, RoutePolicyPatch body)"
-  summary: "Updates a Route Policy."
+  summary: "API to update certain properties of the Route Policy resource."
   modifiers:
   - "abstract"
   parameters:
@@ -515,7 +515,7 @@ methods:
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.RoutePolicyPatch&text=RoutePolicyPatch\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract RoutePolicyInner update(String resourceGroupName, String routePolicyName, RoutePolicyPatch body)"
-  desc: "Updates a Route Policy. API to update certain properties of the Route Policy resource."
+  desc: "API to update certain properties of the Route Policy resource."
   returns:
     description: "the RoutePolicy resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner&text=RoutePolicyInner\" data-throw-if-not-resolved=\"False\" />"
@@ -523,7 +523,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.update(String resourceGroupName, String routePolicyName, RoutePolicyPatch body, Context context)"
   name: "update(String resourceGroupName, String routePolicyName, RoutePolicyPatch body, Context context)"
   nameWithType: "RoutePoliciesClient.update(String resourceGroupName, String routePolicyName, RoutePolicyPatch body, Context context)"
-  summary: "Updates a Route Policy."
+  summary: "API to update certain properties of the Route Policy resource."
   modifiers:
   - "abstract"
   parameters:
@@ -540,7 +540,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract RoutePolicyInner update(String resourceGroupName, String routePolicyName, RoutePolicyPatch body, Context context)"
-  desc: "Updates a Route Policy. API to update certain properties of the Route Policy resource."
+  desc: "API to update certain properties of the Route Policy resource."
   returns:
     description: "the RoutePolicy resource definition."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.RoutePolicyInner&text=RoutePolicyInner\" data-throw-if-not-resolved=\"False\" />"
@@ -548,7 +548,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.updateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body)"
   name: "updateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body)"
   nameWithType: "RoutePoliciesClient.updateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body)"
-  summary: "Executes enable operation to the underlying resources."
+  summary: "Updated the admin state for this Route Policy."
   modifiers:
   - "abstract"
   parameters:
@@ -561,16 +561,16 @@ methods:
   - description: "Request payload."
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState&text=UpdateAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForDeviceUpdateInner updateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body)"
-  desc: "Executes enable operation to the underlying resources. Updated the admin state for this Route Policy."
+  syntax: "public abstract UpdateAdministrativeStateResponseInner updateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body)"
+  desc: "Updated the admin state for this Route Policy."
   returns:
-    description: "common response for device updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner&text=CommonPostActionResponseForDeviceUpdateInner\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.updateAdministrativeState(java.lang.String,java.lang.String,com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.updateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body, Context context)"
   name: "updateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body, Context context)"
   nameWithType: "RoutePoliciesClient.updateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body, Context context)"
-  summary: "Executes enable operation to the underlying resources."
+  summary: "Updated the admin state for this Route Policy."
   modifiers:
   - "abstract"
   parameters:
@@ -586,11 +586,11 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForDeviceUpdateInner updateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body, Context context)"
-  desc: "Executes enable operation to the underlying resources. Updated the admin state for this Route Policy."
+  syntax: "public abstract UpdateAdministrativeStateResponseInner updateAdministrativeState(String resourceGroupName, String routePolicyName, UpdateAdministrativeState body, Context context)"
+  desc: "Updated the admin state for this Route Policy."
   returns:
-    description: "common response for device updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.CommonPostActionResponseForDeviceUpdateInner&text=CommonPostActionResponseForDeviceUpdateInner\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.UpdateAdministrativeStateResponseInner&text=UpdateAdministrativeStateResponseInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.validateConfiguration(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.RoutePoliciesClient.validateConfiguration(String resourceGroupName, String routePolicyName)"
   name: "validateConfiguration(String resourceGroupName, String routePolicyName)"
@@ -636,4 +636,4 @@ type: "interface"
 desc: "An instance of this class provides access to all the operations defined in RoutePoliciesClient."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

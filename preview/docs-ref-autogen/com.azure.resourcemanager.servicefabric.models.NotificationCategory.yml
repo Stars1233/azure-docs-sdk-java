@@ -42,14 +42,14 @@ fields:
   fullName: "com.azure.resourcemanager.servicefabric.models.NotificationCategory.WAVE_PROGRESS"
   name: "WAVE_PROGRESS"
   nameWithType: "NotificationCategory.WAVE_PROGRESS"
-  summary: "Static value Wave<wbr>Progress for Notification<wbr>Category."
+  summary: "Notification will be regarding wave progress."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.NotificationCategory?alt=com.azure.resourcemanager.servicefabric.models.NotificationCategory&text=NotificationCategory\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NotificationCategory WAVE_PROGRESS"
-  desc: "Static value WaveProgress for NotificationCategory."
+  desc: "Notification will be regarding wave progress."
 methods:
 - uid: "com.azure.resourcemanager.servicefabric.models.NotificationCategory.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.servicefabric.models.NotificationCategory.fromString(String name)"
@@ -83,4 +83,4 @@ type: "class"
 desc: "The category of notification."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

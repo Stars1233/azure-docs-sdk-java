@@ -4,7 +4,7 @@ fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBr
 name: "NetworkPacketBroker.Update"
 nameWithType: "NetworkPacketBroker.Update"
 summary: "The template for Network<wbr>Packet<wbr>Broker update."
-syntax: "public static interface **NetworkPacketBroker.Update**</br> extends <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.UpdateStages.WithTags?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.UpdateStages.WithTags&text=WithTags\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public static interface **NetworkPacketBroker.Update**</br> extends <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.UpdateStages.WithTags?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.UpdateStages.WithTags&text=WithTags\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.UpdateStages.WithIdentity?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.UpdateStages.WithIdentity&text=WithIdentity\" data-throw-if-not-resolved=\"False\" />"
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.Update.apply()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.Update.apply()"
@@ -37,7 +37,8 @@ methods:
 type: "interface"
 desc: "The template for NetworkPacketBroker update."
 implements:
+- "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.UpdateStages.WithIdentity?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.UpdateStages.WithIdentity&text=WithIdentity\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.UpdateStages.WithTags?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkPacketBroker.UpdateStages.WithTags&text=WithTags\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

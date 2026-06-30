@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.PollingType.PULL"
   name: "PULL"
   nameWithType: "PollingType.PULL"
-  summary: "Static value Pull for Polling<wbr>Type."
+  summary: "Polling<wbr>Type-Pull."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.PollingType?alt=com.azure.resourcemanager.managednetworkfabric.models.PollingType&text=PollingType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PollingType PULL"
-  desc: "Static value Pull for PollingType."
+  desc: "PollingType-Pull."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.PollingType.PUSH"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.PollingType.PUSH"
   name: "PUSH"
   nameWithType: "PollingType.PUSH"
-  summary: "Static value Push for Polling<wbr>Type."
+  summary: "Polling<wbr>Type-Push."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.PollingType?alt=com.azure.resourcemanager.managednetworkfabric.models.PollingType&text=PollingType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PollingType PUSH"
-  desc: "Static value Push for PollingType."
+  desc: "PollingType-Push."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.PollingType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.PollingType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Polling type."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

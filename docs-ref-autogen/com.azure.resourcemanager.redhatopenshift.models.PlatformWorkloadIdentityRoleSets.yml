@@ -1,0 +1,48 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSets"
+fullName: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSets"
+name: "PlatformWorkloadIdentityRoleSets"
+nameWithType: "PlatformWorkloadIdentityRoleSets"
+summary: "Resource collection API of Platform<wbr>Workload<wbr>Identity<wbr>Role<wbr>Sets."
+syntax: "public interface **PlatformWorkloadIdentityRoleSets**"
+methods:
+- uid: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSets.list(java.lang.String)"
+  fullName: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSets.list(String location)"
+  name: "list(String location)"
+  nameWithType: "PlatformWorkloadIdentityRoleSets.list(String location)"
+  summary: "Lists a mapping of Open<wbr>Shift versions to identity requirements, which include operator<wbr>Name, role<wbr>Definition<wbr>Name, role<wbr>Definition<wbr>Id, and service<wbr>Accounts."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the Azure region."
+    name: "location"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract PagedIterable<PlatformWorkloadIdentityRoleSet> list(String location)"
+  desc: "Lists a mapping of OpenShift versions to identity requirements, which include operatorName, roleDefinitionName, roleDefinitionId, and serviceAccounts. This operation returns a list of Platform Workload Identity Role Sets as a string."
+  returns:
+    description: "platformWorkloadIdentityRoleSetList represents a List of role sets as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSet?alt=com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSet&text=PlatformWorkloadIdentityRoleSet\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSets.list(java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSets.list(String location, Context context)"
+  name: "list(String location, Context context)"
+  nameWithType: "PlatformWorkloadIdentityRoleSets.list(String location, Context context)"
+  summary: "Lists a mapping of Open<wbr>Shift versions to identity requirements, which include operator<wbr>Name, role<wbr>Definition<wbr>Name, role<wbr>Definition<wbr>Id, and service<wbr>Accounts."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the Azure region."
+    name: "location"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PagedIterable<PlatformWorkloadIdentityRoleSet> list(String location, Context context)"
+  desc: "Lists a mapping of OpenShift versions to identity requirements, which include operatorName, roleDefinitionName, roleDefinitionId, and serviceAccounts. This operation returns a list of Platform Workload Identity Role Sets as a string."
+  returns:
+    description: "platformWorkloadIdentityRoleSetList represents a List of role sets as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSet?alt=com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSet&text=PlatformWorkloadIdentityRoleSet\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
+desc: "Resource collection API of PlatformWorkloadIdentityRoleSets."
+metadata: {}
+package: "com.azure.resourcemanager.redhatopenshift.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-redhatopenshift:1.0.0

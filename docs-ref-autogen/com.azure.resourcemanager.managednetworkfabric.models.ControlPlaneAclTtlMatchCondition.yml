@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition"
+name: "ControlPlaneAclTtlMatchCondition"
+nameWithType: "ControlPlaneAclTtlMatchCondition"
+summary: "TTL \\[Time To Live\\] match conditions properties."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ControlPlaneAclTtlMatchCondition**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition&text=ControlPlaneAclTtlMatchCondition\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition.ControlPlaneAclTtlMatchCondition()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition.ControlPlaneAclTtlMatchCondition()"
+  name: "ControlPlaneAclTtlMatchCondition()"
+  nameWithType: "ControlPlaneAclTtlMatchCondition.ControlPlaneAclTtlMatchCondition()"
+  summary: "Creates an instance of Control<wbr>Plane<wbr>Acl<wbr>Ttl<wbr>Match<wbr>Condition class."
+  syntax: "public ControlPlaneAclTtlMatchCondition()"
+  desc: "Creates an instance of ControlPlaneAclTtlMatchCondition class."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ControlPlaneAclTtlMatchCondition.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Control<wbr>Plane<wbr>Acl<wbr>Ttl<wbr>Match<wbr>Condition from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ControlPlaneAclTtlMatchCondition fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ControlPlaneAclTtlMatchCondition."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ControlPlaneAclTtlMatchCondition from the JsonReader."
+  returns:
+    description: "An instance of ControlPlaneAclTtlMatchCondition if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition&text=ControlPlaneAclTtlMatchCondition\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ControlPlaneAclTtlMatchCondition.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition.ttlMatchType()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition.ttlMatchType()"
+  name: "ttlMatchType()"
+  nameWithType: "ControlPlaneAclTtlMatchCondition.ttlMatchType()"
+  summary: "Get the ttl<wbr>Match<wbr>Type property: TTL \\[Time To Live\\] match type."
+  syntax: "public ControlPlaneAclTtlMatchType ttlMatchType()"
+  desc: "Get the ttlMatchType property: TTL \\[Time To Live\\] match type. Example: eq | neq | gt | lt | range."
+  returns:
+    description: "the ttlMatchType value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType&text=ControlPlaneAclTtlMatchType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition.ttlValue()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition.ttlValue()"
+  name: "ttlValue()"
+  nameWithType: "ControlPlaneAclTtlMatchCondition.ttlValue()"
+  summary: "Get the ttl<wbr>Value property: TTL \\[Time To Live\\] values that need to be matched."
+  syntax: "public String ttlValue()"
+  desc: "Get the ttlValue property: TTL \\[Time To Live\\] values that need to be matched."
+  returns:
+    description: "the ttlValue value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition.withTtlMatchType(com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition.withTtlMatchType(ControlPlaneAclTtlMatchType ttlMatchType)"
+  name: "withTtlMatchType(ControlPlaneAclTtlMatchType ttlMatchType)"
+  nameWithType: "ControlPlaneAclTtlMatchCondition.withTtlMatchType(ControlPlaneAclTtlMatchType ttlMatchType)"
+  summary: "Set the ttl<wbr>Match<wbr>Type property: TTL \\[Time To Live\\] match type."
+  parameters:
+  - description: "the ttlMatchType value to set."
+    name: "ttlMatchType"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchType&text=ControlPlaneAclTtlMatchType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ControlPlaneAclTtlMatchCondition withTtlMatchType(ControlPlaneAclTtlMatchType ttlMatchType)"
+  desc: "Set the ttlMatchType property: TTL \\[Time To Live\\] match type. Example: eq | neq | gt | lt | range."
+  returns:
+    description: "the ControlPlaneAclTtlMatchCondition object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition&text=ControlPlaneAclTtlMatchCondition\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition.withTtlValue(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition.withTtlValue(String ttlValue)"
+  name: "withTtlValue(String ttlValue)"
+  nameWithType: "ControlPlaneAclTtlMatchCondition.withTtlValue(String ttlValue)"
+  summary: "Set the ttl<wbr>Value property: TTL \\[Time To Live\\] values that need to be matched."
+  parameters:
+  - description: "the ttlValue value to set."
+    name: "ttlValue"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public ControlPlaneAclTtlMatchCondition withTtlValue(String ttlValue)"
+  desc: "Set the ttlValue property: TTL \\[Time To Live\\] values that need to be matched."
+  returns:
+    description: "the ControlPlaneAclTtlMatchCondition object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition&text=ControlPlaneAclTtlMatchCondition\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "TTL \\[Time To Live\\] match conditions properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclTtlMatchCondition&text=ControlPlaneAclTtlMatchCondition\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

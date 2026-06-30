@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.servicefabric.models.ApplicationResource.UpdateStages.WithSystemData"
+fullName: "com.azure.resourcemanager.servicefabric.models.ApplicationResource.UpdateStages.WithSystemData"
+name: "ApplicationResource.UpdateStages.WithSystemData"
+nameWithType: "ApplicationResource.UpdateStages.WithSystemData"
+summary: "The stage of the Application<wbr>Resource update allowing to specify system<wbr>Data."
+syntax: "public static interface **ApplicationResource.UpdateStages.WithSystemData**"
+methods:
+- uid: "com.azure.resourcemanager.servicefabric.models.ApplicationResource.UpdateStages.WithSystemData.withSystemData(com.azure.core.management.SystemData)"
+  fullName: "com.azure.resourcemanager.servicefabric.models.ApplicationResource.UpdateStages.WithSystemData.withSystemData(SystemData systemData)"
+  name: "withSystemData(SystemData systemData)"
+  nameWithType: "ApplicationResource.UpdateStages.WithSystemData.withSystemData(SystemData systemData)"
+  summary: "Specifies the system<wbr>Data property: Metadata pertaining to creation and last modification of the resource.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Metadata pertaining to creation and last modification of the resource."
+    name: "systemData"
+    type: "<xref href=\"com.azure.core.management.SystemData?alt=com.azure.core.management.SystemData&text=SystemData\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ApplicationResource.Update withSystemData(SystemData systemData)"
+  desc: "Specifies the systemData property: Metadata pertaining to creation and last modification of the resource.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ApplicationResource.Update?alt=com.azure.resourcemanager.servicefabric.models.ApplicationResource.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the ApplicationResource update allowing to specify systemData."
+metadata: {}
+package: "com.azure.resourcemanager.servicefabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

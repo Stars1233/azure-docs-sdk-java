@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.servicefabric.models.ApplicationTypeVersionsClea
 fullName: "com.azure.resourcemanager.servicefabric.models.ApplicationTypeVersionsCleanupPolicy"
 name: "ApplicationTypeVersionsCleanupPolicy"
 nameWithType: "ApplicationTypeVersionsCleanupPolicy"
-summary: "The Application<wbr>Type<wbr>Versions<wbr>Cleanup<wbr>Policy model."
+summary: "The policy used to clean up unused versions."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -71,13 +71,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.servicefabric.models.ApplicationTypeVersionsCleanupPolicy.validate()"
-  fullName: "com.azure.resourcemanager.servicefabric.models.ApplicationTypeVersionsCleanupPolicy.validate()"
-  name: "validate()"
-  nameWithType: "ApplicationTypeVersionsCleanupPolicy.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.servicefabric.models.ApplicationTypeVersionsCleanupPolicy.withMaxUnusedVersionsToKeep(long)"
   fullName: "com.azure.resourcemanager.servicefabric.models.ApplicationTypeVersionsCleanupPolicy.withMaxUnusedVersionsToKeep(long maxUnusedVersionsToKeep)"
   name: "withMaxUnusedVersionsToKeep(long maxUnusedVersionsToKeep)"
@@ -93,9 +86,9 @@ methods:
     description: "the ApplicationTypeVersionsCleanupPolicy object itself."
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.ApplicationTypeVersionsCleanupPolicy?alt=com.azure.resourcemanager.servicefabric.models.ApplicationTypeVersionsCleanupPolicy&text=ApplicationTypeVersionsCleanupPolicy\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The ApplicationTypeVersionsCleanupPolicy model."
+desc: "The policy used to clean up unused versions."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.models.ApplicationTypeVersionsCleanupPolicy?alt=com.azure.resourcemanager.servicefabric.models.ApplicationTypeVersionsCleanupPolicy&text=ApplicationTypeVersionsCleanupPolicy\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

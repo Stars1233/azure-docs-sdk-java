@@ -1,0 +1,95 @@
+### YamlMime:JavaEnum
+uid: "com.azure.resourcemanager.imagebuilder.models.WorkloadOptimizationState"
+fullName: "com.azure.resourcemanager.imagebuilder.models.WorkloadOptimizationState"
+name: "WorkloadOptimizationState"
+nameWithType: "WorkloadOptimizationState"
+summary: "Enabling this field will optimize vm images for specific workloads."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html\">Enum</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#valueOf-java.lang.Class-java.lang.String-\">valueOf</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#compareTo-E-\">compareTo</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#describeConstable--\">describeConstable</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#getDeclaringClass--\">getDeclaringClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#name--\">name</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#ordinal--\">ordinal</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#toString--\">toString</a>"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public enum **WorkloadOptimizationState**</br> extends <a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html\">Enum</a>&lt;<xref href=\"com.azure.resourcemanager.imagebuilder.models.WorkloadOptimizationState?alt=com.azure.resourcemanager.imagebuilder.models.WorkloadOptimizationState&text=WorkloadOptimizationState\" data-throw-if-not-resolved=\"False\" />&gt;"
+fields:
+- uid: "com.azure.resourcemanager.imagebuilder.models.WorkloadOptimizationState.DISABLED"
+  fullName: "com.azure.resourcemanager.imagebuilder.models.WorkloadOptimizationState.DISABLED"
+  name: "DISABLED"
+  nameWithType: "WorkloadOptimizationState.DISABLED"
+  summary: "Workload optimization is disabled."
+  desc: "Workload optimization is disabled."
+- uid: "com.azure.resourcemanager.imagebuilder.models.WorkloadOptimizationState.ENABLED"
+  fullName: "com.azure.resourcemanager.imagebuilder.models.WorkloadOptimizationState.ENABLED"
+  name: "ENABLED"
+  nameWithType: "WorkloadOptimizationState.ENABLED"
+  summary: "Workload optimization is enabled."
+  desc: "Workload optimization is enabled."
+methods:
+- uid: "com.azure.resourcemanager.imagebuilder.models.WorkloadOptimizationState.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.imagebuilder.models.WorkloadOptimizationState.fromString(String value)"
+  name: "fromString(String value)"
+  nameWithType: "WorkloadOptimizationState.fromString(String value)"
+  summary: "Parses a serialized value to a Workload<wbr>Optimization<wbr>State instance."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "the serialized value to parse."
+    name: "value"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static WorkloadOptimizationState fromString(String value)"
+  desc: "Parses a serialized value to a WorkloadOptimizationState instance."
+  returns:
+    description: "the parsed WorkloadOptimizationState object, or null if unable to parse."
+    type: "<xref href=\"com.azure.resourcemanager.imagebuilder.models.WorkloadOptimizationState?alt=com.azure.resourcemanager.imagebuilder.models.WorkloadOptimizationState&text=WorkloadOptimizationState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.imagebuilder.models.WorkloadOptimizationState.toString()"
+  fullName: "com.azure.resourcemanager.imagebuilder.models.WorkloadOptimizationState.toString()"
+  name: "toString()"
+  nameWithType: "WorkloadOptimizationState.toString()"
+  overridden: "java.lang.Enum.toString()"
+  syntax: "public String toString()"
+  returns:
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.imagebuilder.models.WorkloadOptimizationState.valueOf(java.lang.String)"
+  fullName: "com.azure.resourcemanager.imagebuilder.models.WorkloadOptimizationState.valueOf(String name)"
+  name: "valueOf(String name)"
+  nameWithType: "WorkloadOptimizationState.valueOf(String name)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static WorkloadOptimizationState valueOf(String name)"
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.imagebuilder.models.WorkloadOptimizationState?alt=com.azure.resourcemanager.imagebuilder.models.WorkloadOptimizationState&text=WorkloadOptimizationState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.imagebuilder.models.WorkloadOptimizationState.values()"
+  fullName: "com.azure.resourcemanager.imagebuilder.models.WorkloadOptimizationState.values()"
+  name: "values()"
+  nameWithType: "WorkloadOptimizationState.values()"
+  modifiers:
+  - "static"
+  syntax: "public static WorkloadOptimizationState[] values()"
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.imagebuilder.models.WorkloadOptimizationState?alt=com.azure.resourcemanager.imagebuilder.models.WorkloadOptimizationState&text=WorkloadOptimizationState\" data-throw-if-not-resolved=\"False\" />[]"
+desc: "Enabling this field will optimize vm images for specific workloads."
+metadata: {}
+package: "com.azure.resourcemanager.imagebuilder.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-imagebuilder:1.3.0

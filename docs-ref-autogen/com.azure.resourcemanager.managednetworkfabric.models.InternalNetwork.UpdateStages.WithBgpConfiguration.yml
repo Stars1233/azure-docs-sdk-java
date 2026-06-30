@@ -6,18 +6,18 @@ nameWithType: "InternalNetwork.UpdateStages.WithBgpConfiguration"
 summary: "The stage of the Internal<wbr>Network update allowing to specify bgp<wbr>Configuration."
 syntax: "public static interface **InternalNetwork.UpdateStages.WithBgpConfiguration**"
 methods:
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.UpdateStages.WithBgpConfiguration.withBgpConfiguration(com.azure.resourcemanager.managednetworkfabric.models.BgpConfiguration)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.UpdateStages.WithBgpConfiguration.withBgpConfiguration(BgpConfiguration bgpConfiguration)"
-  name: "withBgpConfiguration(BgpConfiguration bgpConfiguration)"
-  nameWithType: "InternalNetwork.UpdateStages.WithBgpConfiguration.withBgpConfiguration(BgpConfiguration bgpConfiguration)"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.UpdateStages.WithBgpConfiguration.withBgpConfiguration(com.azure.resourcemanager.managednetworkfabric.models.BgpPatchConfiguration)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.InternalNetwork.UpdateStages.WithBgpConfiguration.withBgpConfiguration(BgpPatchConfiguration bgpConfiguration)"
+  name: "withBgpConfiguration(BgpPatchConfiguration bgpConfiguration)"
+  nameWithType: "InternalNetwork.UpdateStages.WithBgpConfiguration.withBgpConfiguration(BgpPatchConfiguration bgpConfiguration)"
   summary: "Specifies the bgp<wbr>Configuration property: BGP configuration properties.."
   modifiers:
   - "abstract"
   parameters:
   - description: "BGP configuration properties."
     name: "bgpConfiguration"
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BgpConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.BgpConfiguration&text=BgpConfiguration\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract InternalNetwork.Update withBgpConfiguration(BgpConfiguration bgpConfiguration)"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BgpPatchConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.BgpPatchConfiguration&text=BgpPatchConfiguration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract InternalNetwork.Update withBgpConfiguration(BgpPatchConfiguration bgpConfiguration)"
   desc: "Specifies the bgpConfiguration property: BGP configuration properties.."
   returns:
     description: "the next definition stage."
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the InternalNetwork update allowing to specify bgpConfiguration."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

@@ -139,6 +139,16 @@ methods:
   returns:
     description: "the name value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetDataDisk.storageFaultDomainAlignment()"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetDataDisk.storageFaultDomainAlignment()"
+  name: "storageFaultDomainAlignment()"
+  nameWithType: "VirtualMachineScaleSetDataDisk.storageFaultDomainAlignment()"
+  summary: "Get the storage<wbr>Fault<wbr>Domain<wbr>Alignment property: Specifies the storage fault domain alignment type for the disk."
+  syntax: "public StorageFaultDomainAlignmentType storageFaultDomainAlignment()"
+  desc: "Get the storageFaultDomainAlignment property: Specifies the storage fault domain alignment type for the disk."
+  returns:
+    description: "the storageFaultDomainAlignment value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType?alt=com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType&text=StorageFaultDomainAlignmentType\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetDataDisk.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetDataDisk.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -284,6 +294,20 @@ methods:
   returns:
     description: "the VirtualMachineScaleSetDataDisk object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSetDataDisk?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSetDataDisk&text=VirtualMachineScaleSetDataDisk\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetDataDisk.withStorageFaultDomainAlignment(com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType)"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetDataDisk.withStorageFaultDomainAlignment(StorageFaultDomainAlignmentType storageFaultDomainAlignment)"
+  name: "withStorageFaultDomainAlignment(StorageFaultDomainAlignmentType storageFaultDomainAlignment)"
+  nameWithType: "VirtualMachineScaleSetDataDisk.withStorageFaultDomainAlignment(StorageFaultDomainAlignmentType storageFaultDomainAlignment)"
+  summary: "Set the storage<wbr>Fault<wbr>Domain<wbr>Alignment property: Specifies the storage fault domain alignment type for the disk."
+  parameters:
+  - description: "the storageFaultDomainAlignment value to set."
+    name: "storageFaultDomainAlignment"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType?alt=com.azure.resourcemanager.compute.models.StorageFaultDomainAlignmentType&text=StorageFaultDomainAlignmentType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public VirtualMachineScaleSetDataDisk withStorageFaultDomainAlignment(StorageFaultDomainAlignmentType storageFaultDomainAlignment)"
+  desc: "Set the storageFaultDomainAlignment property: Specifies the storage fault domain alignment type for the disk."
+  returns:
+    description: "the VirtualMachineScaleSetDataDisk object itself."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSetDataDisk?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSetDataDisk&text=VirtualMachineScaleSetDataDisk\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetDataDisk.withWriteAcceleratorEnabled(java.lang.Boolean)"
   fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetDataDisk.withWriteAcceleratorEnabled(Boolean writeAcceleratorEnabled)"
   name: "withWriteAcceleratorEnabled(Boolean writeAcceleratorEnabled)"
@@ -314,4 +338,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSetDataDisk?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSetDataDisk&text=VirtualMachineScaleSetDataDisk\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

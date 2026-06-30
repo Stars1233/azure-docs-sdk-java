@@ -42,62 +42,62 @@ fields:
   fullName: "com.azure.resourcemanager.compute.models.DiskSecurityTypes.CONFIDENTIAL_VM_DISK_ENCRYPTED_WITH_CUSTOMER_KEY"
   name: "CONFIDENTIAL_VM_DISK_ENCRYPTED_WITH_CUSTOMER_KEY"
   nameWithType: "DiskSecurityTypes.CONFIDENTIAL_VM_DISK_ENCRYPTED_WITH_CUSTOMER_KEY"
-  summary: "Static value ConfidentialVM\\_Disk<wbr>Encrypted<wbr>With<wbr>Customer<wbr>Key for Disk<wbr>Security<wbr>Types."
+  summary: "Indicates Confidential VM disk with both OS disk and VM guest state encrypted with a customer managed key."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskSecurityTypes?alt=com.azure.resourcemanager.compute.models.DiskSecurityTypes&text=DiskSecurityTypes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DiskSecurityTypes CONFIDENTIAL_VM_DISK_ENCRYPTED_WITH_CUSTOMER_KEY"
-  desc: "Static value ConfidentialVM\\_DiskEncryptedWithCustomerKey for DiskSecurityTypes."
+  desc: "Indicates Confidential VM disk with both OS disk and VM guest state encrypted with a customer managed key."
 - uid: "com.azure.resourcemanager.compute.models.DiskSecurityTypes.CONFIDENTIAL_VM_DISK_ENCRYPTED_WITH_PLATFORM_KEY"
   fullName: "com.azure.resourcemanager.compute.models.DiskSecurityTypes.CONFIDENTIAL_VM_DISK_ENCRYPTED_WITH_PLATFORM_KEY"
   name: "CONFIDENTIAL_VM_DISK_ENCRYPTED_WITH_PLATFORM_KEY"
   nameWithType: "DiskSecurityTypes.CONFIDENTIAL_VM_DISK_ENCRYPTED_WITH_PLATFORM_KEY"
-  summary: "Static value ConfidentialVM\\_Disk<wbr>Encrypted<wbr>With<wbr>Platform<wbr>Key for Disk<wbr>Security<wbr>Types."
+  summary: "Indicates Confidential VM disk with both OS disk and VM guest state encrypted with a platform managed key."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskSecurityTypes?alt=com.azure.resourcemanager.compute.models.DiskSecurityTypes&text=DiskSecurityTypes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DiskSecurityTypes CONFIDENTIAL_VM_DISK_ENCRYPTED_WITH_PLATFORM_KEY"
-  desc: "Static value ConfidentialVM\\_DiskEncryptedWithPlatformKey for DiskSecurityTypes."
+  desc: "Indicates Confidential VM disk with both OS disk and VM guest state encrypted with a platform managed key."
 - uid: "com.azure.resourcemanager.compute.models.DiskSecurityTypes.CONFIDENTIAL_VM_NON_PERSISTED_TPM"
   fullName: "com.azure.resourcemanager.compute.models.DiskSecurityTypes.CONFIDENTIAL_VM_NON_PERSISTED_TPM"
   name: "CONFIDENTIAL_VM_NON_PERSISTED_TPM"
   nameWithType: "DiskSecurityTypes.CONFIDENTIAL_VM_NON_PERSISTED_TPM"
-  summary: "Static value ConfidentialVM\\_Non<wbr>PersistedTPM for Disk<wbr>Security<wbr>Types."
+  summary: "Indicates Confidential VM disk with a ephemeral vTPM."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskSecurityTypes?alt=com.azure.resourcemanager.compute.models.DiskSecurityTypes&text=DiskSecurityTypes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DiskSecurityTypes CONFIDENTIAL_VM_NON_PERSISTED_TPM"
-  desc: "Static value ConfidentialVM\\_NonPersistedTPM for DiskSecurityTypes."
+  desc: "Indicates Confidential VM disk with a ephemeral vTPM. vTPM state is not persisted across VM reboots."
 - uid: "com.azure.resourcemanager.compute.models.DiskSecurityTypes.CONFIDENTIAL_VM_VMGUEST_STATE_ONLY_ENCRYPTED_WITH_PLATFORM_KEY"
   fullName: "com.azure.resourcemanager.compute.models.DiskSecurityTypes.CONFIDENTIAL_VM_VMGUEST_STATE_ONLY_ENCRYPTED_WITH_PLATFORM_KEY"
   name: "CONFIDENTIAL_VM_VMGUEST_STATE_ONLY_ENCRYPTED_WITH_PLATFORM_KEY"
   nameWithType: "DiskSecurityTypes.CONFIDENTIAL_VM_VMGUEST_STATE_ONLY_ENCRYPTED_WITH_PLATFORM_KEY"
-  summary: "Static value ConfidentialVM\\_VMGuest<wbr>State<wbr>Only<wbr>Encrypted<wbr>With<wbr>Platform<wbr>Key for Disk<wbr>Security<wbr>Types."
+  summary: "Indicates Confidential VM disk with only VM guest state encrypted."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskSecurityTypes?alt=com.azure.resourcemanager.compute.models.DiskSecurityTypes&text=DiskSecurityTypes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DiskSecurityTypes CONFIDENTIAL_VM_VMGUEST_STATE_ONLY_ENCRYPTED_WITH_PLATFORM_KEY"
-  desc: "Static value ConfidentialVM\\_VMGuestStateOnlyEncryptedWithPlatformKey for DiskSecurityTypes."
+  desc: "Indicates Confidential VM disk with only VM guest state encrypted."
 - uid: "com.azure.resourcemanager.compute.models.DiskSecurityTypes.TRUSTED_LAUNCH"
   fullName: "com.azure.resourcemanager.compute.models.DiskSecurityTypes.TRUSTED_LAUNCH"
   name: "TRUSTED_LAUNCH"
   nameWithType: "DiskSecurityTypes.TRUSTED_LAUNCH"
-  summary: "Static value Trusted<wbr>Launch for Disk<wbr>Security<wbr>Types."
+  summary: "Trusted Launch provides security features such as secure boot and virtual Trusted Platform Module (vTPM)."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskSecurityTypes?alt=com.azure.resourcemanager.compute.models.DiskSecurityTypes&text=DiskSecurityTypes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DiskSecurityTypes TRUSTED_LAUNCH"
-  desc: "Static value TrustedLaunch for DiskSecurityTypes."
+  desc: "Trusted Launch provides security features such as secure boot and virtual Trusted Platform Module (vTPM)."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.DiskSecurityTypes.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.models.DiskSecurityTypes.fromString(String name)"
@@ -131,4 +131,4 @@ type: "class"
 desc: "Specifies the SecurityType of the VM. Applicable for OS disks only."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

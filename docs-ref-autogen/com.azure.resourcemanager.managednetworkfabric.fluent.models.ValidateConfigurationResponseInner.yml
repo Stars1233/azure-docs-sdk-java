@@ -6,7 +6,13 @@ nameWithType: "ValidateConfigurationResponseInner"
 summary: "The response of the action validate configuration."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse&text=CommonErrorResponse\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.error()?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.error&text=error\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.fromJson(com.azure.json.JsonReader)?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -20,15 +26,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **ValidateConfigurationResponseInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner&text=ValidateConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner.ValidateConfigurationResponseInner()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner.ValidateConfigurationResponseInner()"
-  name: "ValidateConfigurationResponseInner()"
-  nameWithType: "ValidateConfigurationResponseInner.ValidateConfigurationResponseInner()"
-  summary: "Creates an instance of Validate<wbr>Configuration<wbr>Response<wbr>Inner class."
-  syntax: "public ValidateConfigurationResponseInner()"
-  desc: "Creates an instance of ValidateConfigurationResponseInner class."
+syntax: "public final class **ValidateConfigurationResponseInner**</br> extends <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse&text=CommonErrorResponse\" data-throw-if-not-resolved=\"False\" />"
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner.configurationState()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner.configurationState()"
@@ -45,6 +43,7 @@ methods:
   name: "error()"
   nameWithType: "ValidateConfigurationResponseInner.error()"
   summary: "Get the error property: The error object."
+  overridden: "com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.error()"
   syntax: "public ManagementError error()"
   desc: "Get the error property: The error object."
   returns:
@@ -73,6 +72,7 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
   nameWithType: "ValidateConfigurationResponseInner.toJson(JsonWriter jsonWriter)"
+  overridden: "com.azure.resourcemanager.managednetworkfabric.models.CommonErrorResponse.toJson(com.azure.json.JsonWriter)"
   parameters:
   - name: "jsonWriter"
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
@@ -91,45 +91,8 @@ methods:
   returns:
     description: "the url value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner.validate()"
-  name: "validate()"
-  nameWithType: "ValidateConfigurationResponseInner.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner.withError(com.azure.core.management.exception.ManagementError)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner.withError(ManagementError error)"
-  name: "withError(ManagementError error)"
-  nameWithType: "ValidateConfigurationResponseInner.withError(ManagementError error)"
-  summary: "Set the error property: The error object."
-  parameters:
-  - description: "the error value to set."
-    name: "error"
-    type: "<xref href=\"com.azure.core.management.exception.ManagementError?alt=com.azure.core.management.exception.ManagementError&text=ManagementError\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public ValidateConfigurationResponseInner withError(ManagementError error)"
-  desc: "Set the error property: The error object."
-  returns:
-    description: "the ValidateConfigurationResponseInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner&text=ValidateConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner.withUrl(java.lang.String)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner.withUrl(String url)"
-  name: "withUrl(String url)"
-  nameWithType: "ValidateConfigurationResponseInner.withUrl(String url)"
-  summary: "Set the url property: URL for the details of the response."
-  parameters:
-  - description: "the url value to set."
-    name: "url"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ValidateConfigurationResponseInner withUrl(String url)"
-  desc: "Set the url property: URL for the details of the response."
-  returns:
-    description: "the ValidateConfigurationResponseInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner&text=ValidateConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The response of the action validate configuration."
-implements:
-- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.ValidateConfigurationResponseInner&text=ValidateConfigurationResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

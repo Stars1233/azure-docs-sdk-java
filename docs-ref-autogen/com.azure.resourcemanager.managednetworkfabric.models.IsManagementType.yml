@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.IsManagementType.FALSE"
   name: "FALSE"
   nameWithType: "IsManagementType.FALSE"
-  summary: "Static value False for Is<wbr>Management<wbr>Type."
+  summary: "Is<wbr>Management<wbr>Type-False."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IsManagementType?alt=com.azure.resourcemanager.managednetworkfabric.models.IsManagementType&text=IsManagementType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final IsManagementType FALSE"
-  desc: "Static value False for IsManagementType."
+  desc: "IsManagementType-False."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.IsManagementType.TRUE"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.IsManagementType.TRUE"
   name: "TRUE"
   nameWithType: "IsManagementType.TRUE"
-  summary: "Static value True for Is<wbr>Management<wbr>Type."
+  summary: "Is<wbr>Management<wbr>Type-True."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IsManagementType?alt=com.azure.resourcemanager.managednetworkfabric.models.IsManagementType&text=IsManagementType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final IsManagementType TRUE"
-  desc: "Static value True for IsManagementType."
+  desc: "IsManagementType-True."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.IsManagementType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.IsManagementType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Configuration to use NNI for Infrastructure Management. Example: True/False."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.DefinitionStages.WithIdentity"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.DefinitionStages.WithIdentity"
+name: "L2IsolationDomain.DefinitionStages.WithIdentity"
+nameWithType: "L2IsolationDomain.DefinitionStages.WithIdentity"
+summary: "The stage of the L2Isolation<wbr>Domain definition allowing to specify identity."
+syntax: "public static interface **L2IsolationDomain.DefinitionStages.WithIdentity**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.DefinitionStages.WithIdentity.withIdentity(com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentity)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.DefinitionStages.WithIdentity.withIdentity(ManagedServiceIdentity identity)"
+  name: "withIdentity(ManagedServiceIdentity identity)"
+  nameWithType: "L2IsolationDomain.DefinitionStages.WithIdentity.withIdentity(ManagedServiceIdentity identity)"
+  summary: "Specifies the identity property: The managed service identities assigned to this resource.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The managed service identities assigned to this resource."
+    name: "identity"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentity?alt=com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentity&text=ManagedServiceIdentity\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract L2IsolationDomain.DefinitionStages.WithCreate withIdentity(ManagedServiceIdentity identity)"
+  desc: "Specifies the identity property: The managed service identities assigned to this resource.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the L2IsolationDomain definition allowing to specify identity."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

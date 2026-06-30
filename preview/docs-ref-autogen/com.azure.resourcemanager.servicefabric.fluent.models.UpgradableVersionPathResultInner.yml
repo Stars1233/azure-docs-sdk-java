@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.servicefabric.fluent.models.UpgradableVersionPat
 fullName: "com.azure.resourcemanager.servicefabric.fluent.models.UpgradableVersionPathResultInner"
 name: "UpgradableVersionPathResultInner"
 nameWithType: "UpgradableVersionPathResultInner"
-summary: "The list of intermediate cluster code versions for an upgrade or downgrade."
+summary: "The list of intermediate cluster code versions for an upgrade or downgrade, or minimum and maximum upgradable version if no target was given."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **UpgradableVersionPathResultInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.UpgradableVersionPathResultInner?alt=com.azure.resourcemanager.servicefabric.fluent.models.UpgradableVersionPathResultInner&text=UpgradableVersionPathResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.servicefabric.fluent.models.UpgradableVersionPathResultInner.UpgradableVersionPathResultInner()"
-  fullName: "com.azure.resourcemanager.servicefabric.fluent.models.UpgradableVersionPathResultInner.UpgradableVersionPathResultInner()"
-  name: "UpgradableVersionPathResultInner()"
-  nameWithType: "UpgradableVersionPathResultInner.UpgradableVersionPathResultInner()"
-  summary: "Creates an instance of Upgradable<wbr>Version<wbr>Path<wbr>Result<wbr>Inner class."
-  syntax: "public UpgradableVersionPathResultInner()"
-  desc: "Creates an instance of UpgradableVersionPathResultInner class."
 methods:
 - uid: "com.azure.resourcemanager.servicefabric.fluent.models.UpgradableVersionPathResultInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.servicefabric.fluent.models.UpgradableVersionPathResultInner.fromJson(JsonReader jsonReader)"
@@ -53,9 +45,9 @@ methods:
   fullName: "com.azure.resourcemanager.servicefabric.fluent.models.UpgradableVersionPathResultInner.supportedPath()"
   name: "supportedPath()"
   nameWithType: "UpgradableVersionPathResultInner.supportedPath()"
-  summary: "Get the supported<wbr>Path property: The supported<wbr>Path property."
+  summary: "Get the supported<wbr>Path property: The list of intermediate cluster code versions for an upgrade or downgrade."
   syntax: "public List<String> supportedPath()"
-  desc: "Get the supportedPath property: The supportedPath property."
+  desc: "Get the supportedPath property: The list of intermediate cluster code versions for an upgrade or downgrade."
   returns:
     description: "the supportedPath value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
@@ -71,31 +63,10 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.servicefabric.fluent.models.UpgradableVersionPathResultInner.validate()"
-  fullName: "com.azure.resourcemanager.servicefabric.fluent.models.UpgradableVersionPathResultInner.validate()"
-  name: "validate()"
-  nameWithType: "UpgradableVersionPathResultInner.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.servicefabric.fluent.models.UpgradableVersionPathResultInner.withSupportedPath(java.util.List<java.lang.String>)"
-  fullName: "com.azure.resourcemanager.servicefabric.fluent.models.UpgradableVersionPathResultInner.withSupportedPath(List<String> supportedPath)"
-  name: "withSupportedPath(List<String> supportedPath)"
-  nameWithType: "UpgradableVersionPathResultInner.withSupportedPath(List<String> supportedPath)"
-  summary: "Set the supported<wbr>Path property: The supported<wbr>Path property."
-  parameters:
-  - description: "the supportedPath value to set."
-    name: "supportedPath"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public UpgradableVersionPathResultInner withSupportedPath(List<String> supportedPath)"
-  desc: "Set the supportedPath property: The supportedPath property."
-  returns:
-    description: "the UpgradableVersionPathResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.UpgradableVersionPathResultInner?alt=com.azure.resourcemanager.servicefabric.fluent.models.UpgradableVersionPathResultInner&text=UpgradableVersionPathResultInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The list of intermediate cluster code versions for an upgrade or downgrade. Or minimum and maximum upgradable version if no target was given."
+desc: "The list of intermediate cluster code versions for an upgrade or downgrade, or minimum and maximum upgradable version if no target was given."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabric.fluent.models.UpgradableVersionPathResultInner?alt=com.azure.resourcemanager.servicefabric.fluent.models.UpgradableVersionPathResultInner&text=UpgradableVersionPathResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

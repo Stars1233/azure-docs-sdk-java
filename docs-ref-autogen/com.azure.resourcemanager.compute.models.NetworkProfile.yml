@@ -49,6 +49,16 @@ methods:
   returns:
     description: "An instance of NetworkProfile if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.NetworkProfile?alt=com.azure.resourcemanager.compute.models.NetworkProfile&text=NetworkProfile\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.NetworkProfile.interconnectGroupProfile()"
+  fullName: "com.azure.resourcemanager.compute.models.NetworkProfile.interconnectGroupProfile()"
+  name: "interconnectGroupProfile()"
+  nameWithType: "NetworkProfile.interconnectGroupProfile()"
+  summary: "Get the interconnect<wbr>Group<wbr>Profile property: Specifies the interconnect group profile to associate with the virtual machine."
+  syntax: "public InterconnectGroupProfile interconnectGroupProfile()"
+  desc: "Get the interconnectGroupProfile property: Specifies the interconnect group profile to associate with the virtual machine. Minimum api-version: 2026-03-01."
+  returns:
+    description: "the interconnectGroupProfile value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.InterconnectGroupProfile?alt=com.azure.resourcemanager.compute.models.InterconnectGroupProfile&text=InterconnectGroupProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.NetworkProfile.networkApiVersion()"
   fullName: "com.azure.resourcemanager.compute.models.NetworkProfile.networkApiVersion()"
   name: "networkApiVersion()"
@@ -98,6 +108,20 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.compute.models.NetworkProfile.withInterconnectGroupProfile(com.azure.resourcemanager.compute.models.InterconnectGroupProfile)"
+  fullName: "com.azure.resourcemanager.compute.models.NetworkProfile.withInterconnectGroupProfile(InterconnectGroupProfile interconnectGroupProfile)"
+  name: "withInterconnectGroupProfile(InterconnectGroupProfile interconnectGroupProfile)"
+  nameWithType: "NetworkProfile.withInterconnectGroupProfile(InterconnectGroupProfile interconnectGroupProfile)"
+  summary: "Set the interconnect<wbr>Group<wbr>Profile property: Specifies the interconnect group profile to associate with the virtual machine."
+  parameters:
+  - description: "the interconnectGroupProfile value to set."
+    name: "interconnectGroupProfile"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.InterconnectGroupProfile?alt=com.azure.resourcemanager.compute.models.InterconnectGroupProfile&text=InterconnectGroupProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public NetworkProfile withInterconnectGroupProfile(InterconnectGroupProfile interconnectGroupProfile)"
+  desc: "Set the interconnectGroupProfile property: Specifies the interconnect group profile to associate with the virtual machine. Minimum api-version: 2026-03-01."
+  returns:
+    description: "the NetworkProfile object itself."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.NetworkProfile?alt=com.azure.resourcemanager.compute.models.NetworkProfile&text=NetworkProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.NetworkProfile.withNetworkApiVersion(com.azure.resourcemanager.compute.models.NetworkApiVersion)"
   fullName: "com.azure.resourcemanager.compute.models.NetworkProfile.withNetworkApiVersion(NetworkApiVersion networkApiVersion)"
   name: "withNetworkApiVersion(NetworkApiVersion networkApiVersion)"
@@ -146,4 +170,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.NetworkProfile?alt=com.azure.resourcemanager.compute.models.NetworkProfile&text=NetworkProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.UpdateStages.WithQosConfiguration"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.UpdateStages.WithQosConfiguration"
+name: "NetworkFabric.UpdateStages.WithQosConfiguration"
+nameWithType: "NetworkFabric.UpdateStages.WithQosConfiguration"
+summary: "The stage of the Network<wbr>Fabric update allowing to specify qos<wbr>Configuration."
+syntax: "public static interface **NetworkFabric.UpdateStages.WithQosConfiguration**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.UpdateStages.WithQosConfiguration.withQosConfiguration(com.azure.resourcemanager.managednetworkfabric.models.QosPatchProperties)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.UpdateStages.WithQosConfiguration.withQosConfiguration(QosPatchProperties qosConfiguration)"
+  name: "withQosConfiguration(QosPatchProperties qosConfiguration)"
+  nameWithType: "NetworkFabric.UpdateStages.WithQosConfiguration.withQosConfiguration(QosPatchProperties qosConfiguration)"
+  summary: "Specifies the qos<wbr>Configuration property: Network<wbr>Fabric QoS Configuration."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "NetworkFabric QoS Configuration."
+    name: "qosConfiguration"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.QosPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.QosPatchProperties&text=QosPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NetworkFabric.Update withQosConfiguration(QosPatchProperties qosConfiguration)"
+  desc: "Specifies the qosConfiguration property: NetworkFabric QoS Configuration."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.Update?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkFabric update allowing to specify qosConfiguration."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

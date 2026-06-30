@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **PolicyViolation**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.PolicyViolation?alt=com.azure.resourcemanager.compute.models.PolicyViolation&text=PolicyViolation\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.compute.models.PolicyViolation.PolicyViolation()"
-  fullName: "com.azure.resourcemanager.compute.models.PolicyViolation.PolicyViolation()"
-  name: "PolicyViolation()"
-  nameWithType: "PolicyViolation.PolicyViolation()"
-  summary: "Creates an instance of Policy<wbr>Violation class."
-  syntax: "public PolicyViolation()"
-  desc: "Creates an instance of PolicyViolation class."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.PolicyViolation.category()"
   fullName: "com.azure.resourcemanager.compute.models.PolicyViolation.category()"
@@ -88,38 +80,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.compute.models.PolicyViolation.withCategory(com.azure.resourcemanager.compute.models.PolicyViolationCategory)"
-  fullName: "com.azure.resourcemanager.compute.models.PolicyViolation.withCategory(PolicyViolationCategory category)"
-  name: "withCategory(PolicyViolationCategory category)"
-  nameWithType: "PolicyViolation.withCategory(PolicyViolationCategory category)"
-  summary: "Set the category property: Describes the nature of the policy violation."
-  parameters:
-  - description: "the category value to set."
-    name: "category"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.PolicyViolationCategory?alt=com.azure.resourcemanager.compute.models.PolicyViolationCategory&text=PolicyViolationCategory\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public PolicyViolation withCategory(PolicyViolationCategory category)"
-  desc: "Set the category property: Describes the nature of the policy violation."
-  returns:
-    description: "the PolicyViolation object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.PolicyViolation?alt=com.azure.resourcemanager.compute.models.PolicyViolation&text=PolicyViolation\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.models.PolicyViolation.withDetails(java.lang.String)"
-  fullName: "com.azure.resourcemanager.compute.models.PolicyViolation.withDetails(String details)"
-  name: "withDetails(String details)"
-  nameWithType: "PolicyViolation.withDetails(String details)"
-  summary: "Set the details property: Describes specific details about why this policy violation was reported."
-  parameters:
-  - description: "the details value to set."
-    name: "details"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public PolicyViolation withDetails(String details)"
-  desc: "Set the details property: Describes specific details about why this policy violation was reported."
-  returns:
-    description: "the PolicyViolation object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.PolicyViolation?alt=com.azure.resourcemanager.compute.models.PolicyViolation&text=PolicyViolation\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "A policy violation reported against a gallery artifact."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.PolicyViolation?alt=com.azure.resourcemanager.compute.models.PolicyViolation&text=PolicyViolation\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

@@ -155,6 +155,16 @@ methods:
   returns:
     description: "the instanceView value."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.VirtualMachineScaleSetVMInstanceViewInner?alt=com.azure.resourcemanager.compute.fluent.models.VirtualMachineScaleSetVMInstanceViewInner&text=VirtualMachineScaleSetVMInstanceViewInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineScaleSetVMInner.interconnectBlockProfile()"
+  fullName: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineScaleSetVMInner.interconnectBlockProfile()"
+  name: "interconnectBlockProfile()"
+  nameWithType: "VirtualMachineScaleSetVMInner.interconnectBlockProfile()"
+  summary: "Get the interconnect<wbr>Block<wbr>Profile property: Specifies the Interconnect Block related details of a Scale Set VM instance."
+  syntax: "public InterconnectBlockProfile interconnectBlockProfile()"
+  desc: "Get the interconnectBlockProfile property: Specifies the Interconnect Block related details of a Scale Set VM instance. Minimum api-version: 2026-03-01."
+  returns:
+    description: "the interconnectBlockProfile value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.InterconnectBlockProfile?alt=com.azure.resourcemanager.compute.models.InterconnectBlockProfile&text=InterconnectBlockProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineScaleSetVMInner.latestModelApplied()"
   fullName: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineScaleSetVMInner.latestModelApplied()"
   name: "latestModelApplied()"
@@ -322,7 +332,7 @@ methods:
   nameWithType: "VirtualMachineScaleSetVMInner.timeCreated()"
   summary: "Get the time<wbr>Created property: Specifies the time at which the Virtual Machine resource was created."
   syntax: "public OffsetDateTime timeCreated()"
-  desc: "Get the timeCreated property: Specifies the time at which the Virtual Machine resource was created."
+  desc: "Get the timeCreated property: Specifies the time at which the Virtual Machine resource was created. Minimum api-version: 2021-11-01."
   returns:
     description: "the timeCreated value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
@@ -367,6 +377,16 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineScaleSetVMInner.virtualMachineResourceId()"
+  fullName: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineScaleSetVMInner.virtualMachineResourceId()"
+  name: "virtualMachineResourceId()"
+  nameWithType: "VirtualMachineScaleSetVMInner.virtualMachineResourceId()"
+  summary: "Get the virtual<wbr>Machine<wbr>Resource<wbr>Id property: Specifies the ARM resource ID of the standalone virtual machine associated with this VMSS VM."
+  syntax: "public String virtualMachineResourceId()"
+  desc: "Get the virtualMachineResourceId property: Specifies the ARM resource ID of the standalone virtual machine associated with this VMSS VM. This property is only applicable to Virtual Machine Scale Sets with Flexible orchestration mode. Minimum api-version: 2025-11-01."
+  returns:
+    description: "the virtualMachineResourceId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineScaleSetVMInner.vmId()"
   fullName: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineScaleSetVMInner.vmId()"
   name: "vmId()"
@@ -444,6 +464,20 @@ methods:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineIdentity?alt=com.azure.resourcemanager.compute.models.VirtualMachineIdentity&text=VirtualMachineIdentity\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public VirtualMachineScaleSetVMInner withIdentity(VirtualMachineIdentity identity)"
   desc: "Set the identity property: The identity of the virtual machine, if configured."
+  returns:
+    description: "the VirtualMachineScaleSetVMInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.VirtualMachineScaleSetVMInner?alt=com.azure.resourcemanager.compute.fluent.models.VirtualMachineScaleSetVMInner&text=VirtualMachineScaleSetVMInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineScaleSetVMInner.withInterconnectBlockProfile(com.azure.resourcemanager.compute.models.InterconnectBlockProfile)"
+  fullName: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineScaleSetVMInner.withInterconnectBlockProfile(InterconnectBlockProfile interconnectBlockProfile)"
+  name: "withInterconnectBlockProfile(InterconnectBlockProfile interconnectBlockProfile)"
+  nameWithType: "VirtualMachineScaleSetVMInner.withInterconnectBlockProfile(InterconnectBlockProfile interconnectBlockProfile)"
+  summary: "Set the interconnect<wbr>Block<wbr>Profile property: Specifies the Interconnect Block related details of a Scale Set VM instance."
+  parameters:
+  - description: "the interconnectBlockProfile value to set."
+    name: "interconnectBlockProfile"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.InterconnectBlockProfile?alt=com.azure.resourcemanager.compute.models.InterconnectBlockProfile&text=InterconnectBlockProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public VirtualMachineScaleSetVMInner withInterconnectBlockProfile(InterconnectBlockProfile interconnectBlockProfile)"
+  desc: "Set the interconnectBlockProfile property: Specifies the Interconnect Block related details of a Scale Set VM instance. Minimum api-version: 2026-03-01."
   returns:
     description: "the VirtualMachineScaleSetVMInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.VirtualMachineScaleSetVMInner?alt=com.azure.resourcemanager.compute.fluent.models.VirtualMachineScaleSetVMInner&text=VirtualMachineScaleSetVMInner\" data-throw-if-not-resolved=\"False\" />"
@@ -623,4 +657,4 @@ type: "class"
 desc: "Describes a virtual machine scale set virtual machine."
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

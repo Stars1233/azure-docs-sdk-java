@@ -1,0 +1,97 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSet"
+fullName: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSet"
+name: "PlatformWorkloadIdentityRoleSet"
+nameWithType: "PlatformWorkloadIdentityRoleSet"
+summary: "An immutable client-side representation of Platform<wbr>Workload<wbr>Identity<wbr>Role<wbr>Set."
+syntax: "public interface **PlatformWorkloadIdentityRoleSet**"
+methods:
+- uid: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSet.id()"
+  fullName: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSet.id()"
+  name: "id()"
+  nameWithType: "PlatformWorkloadIdentityRoleSet.id()"
+  summary: "Gets the id property: Fully qualified resource Id for the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String id()"
+  desc: "Gets the id property: Fully qualified resource Id for the resource."
+  returns:
+    description: "the id value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSet.innerModel()"
+  fullName: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSet.innerModel()"
+  name: "innerModel()"
+  nameWithType: "PlatformWorkloadIdentityRoleSet.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>redhatopenshift.<wbr>fluent.<wbr>models.<wbr>Platform<wbr>Workload<wbr>Identity<wbr>Role<wbr>Set<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PlatformWorkloadIdentityRoleSetInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.redhatopenshift.fluent.models.PlatformWorkloadIdentityRoleSetInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.redhatopenshift.fluent.models.PlatformWorkloadIdentityRoleSetInner?alt=com.azure.resourcemanager.redhatopenshift.fluent.models.PlatformWorkloadIdentityRoleSetInner&text=PlatformWorkloadIdentityRoleSetInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSet.name()"
+  fullName: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSet.name()"
+  name: "name()"
+  nameWithType: "PlatformWorkloadIdentityRoleSet.name()"
+  summary: "Gets the name property: The name of the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String name()"
+  desc: "Gets the name property: The name of the resource."
+  returns:
+    description: "the name value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSet.openShiftVersion()"
+  fullName: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSet.openShiftVersion()"
+  name: "openShiftVersion()"
+  nameWithType: "PlatformWorkloadIdentityRoleSet.openShiftVersion()"
+  summary: "Gets the open<wbr>Shift<wbr>Version property: Open<wbr>Shift<wbr>Version represents the version associated with this set of roles."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String openShiftVersion()"
+  desc: "Gets the openShiftVersion property: OpenShiftVersion represents the version associated with this set of roles."
+  returns:
+    description: "the openShiftVersion value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSet.platformWorkloadIdentityRoles()"
+  fullName: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSet.platformWorkloadIdentityRoles()"
+  name: "platformWorkloadIdentityRoles()"
+  nameWithType: "PlatformWorkloadIdentityRoleSet.platformWorkloadIdentityRoles()"
+  summary: "Gets the platform<wbr>Workload<wbr>Identity<wbr>Roles property: Platform<wbr>Workload<wbr>Identity<wbr>Roles represents the set of roles associated with this version."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<PlatformWorkloadIdentityRole> platformWorkloadIdentityRoles()"
+  desc: "Gets the platformWorkloadIdentityRoles property: PlatformWorkloadIdentityRoles represents the set of roles associated with this version."
+  returns:
+    description: "the platformWorkloadIdentityRoles value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRole?alt=com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRole&text=PlatformWorkloadIdentityRole\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSet.systemData()"
+  fullName: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSet.systemData()"
+  name: "systemData()"
+  nameWithType: "PlatformWorkloadIdentityRoleSet.systemData()"
+  summary: "Gets the system<wbr>Data property: Azure Resource Manager metadata containing created<wbr>By and modified<wbr>By information."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SystemData systemData()"
+  desc: "Gets the systemData property: Azure Resource Manager metadata containing createdBy and modifiedBy information."
+  returns:
+    description: "the systemData value."
+    type: "<xref href=\"com.azure.core.management.SystemData?alt=com.azure.core.management.SystemData&text=SystemData\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSet.type()"
+  fullName: "com.azure.resourcemanager.redhatopenshift.models.PlatformWorkloadIdentityRoleSet.type()"
+  name: "type()"
+  nameWithType: "PlatformWorkloadIdentityRoleSet.type()"
+  summary: "Gets the type property: The type of the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String type()"
+  desc: "Gets the type property: The type of the resource."
+  returns:
+    description: "the type value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "interface"
+desc: "An immutable client-side representation of PlatformWorkloadIdentityRoleSet."
+metadata: {}
+package: "com.azure.resourcemanager.redhatopenshift.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-redhatopenshift:1.0.0

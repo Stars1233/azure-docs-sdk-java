@@ -42,50 +42,74 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState.DISABLED"
   name: "DISABLED"
   nameWithType: "AdministrativeState.DISABLED"
-  summary: "Static value Disabled for Administrative<wbr>State."
+  summary: "Disabled Administrative State."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState&text=AdministrativeState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AdministrativeState DISABLED"
-  desc: "Static value Disabled for AdministrativeState."
+  desc: "Disabled Administrative State."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState.ENABLED"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState.ENABLED"
   name: "ENABLED"
   nameWithType: "AdministrativeState.ENABLED"
-  summary: "Static value Enabled for Administrative<wbr>State."
+  summary: "Enabled Administrative State."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState&text=AdministrativeState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AdministrativeState ENABLED"
-  desc: "Static value Enabled for AdministrativeState."
+  desc: "Enabled Administrative State."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState.ENABLED_DEGRADED"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState.ENABLED_DEGRADED"
+  name: "ENABLED_DEGRADED"
+  nameWithType: "AdministrativeState.ENABLED_DEGRADED"
+  summary: "Enabled<wbr>Degraded Administrative State."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState&text=AdministrativeState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AdministrativeState ENABLED_DEGRADED"
+  desc: "EnabledDegraded Administrative State."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState.MAT"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState.MAT"
   name: "MAT"
   nameWithType: "AdministrativeState.MAT"
-  summary: "Static value MAT for Administrative<wbr>State."
+  summary: "MAT(Manual Action Taken) Administrative State."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState&text=AdministrativeState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AdministrativeState MAT"
-  desc: "Static value MAT for AdministrativeState."
+  desc: "MAT(Manual Action Taken) Administrative State."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState.RMA"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState.RMA"
   name: "RMA"
   nameWithType: "AdministrativeState.RMA"
-  summary: "Static value RMA for Administrative<wbr>State."
+  summary: "RMA(Return Material Authorization) Administrative State."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState&text=AdministrativeState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AdministrativeState RMA"
-  desc: "Static value RMA for AdministrativeState."
+  desc: "RMA(Return Material Authorization) Administrative State."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState.UNDER_MAINTENANCE"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState.UNDER_MAINTENANCE"
+  name: "UNDER_MAINTENANCE"
+  nameWithType: "AdministrativeState.UNDER_MAINTENANCE"
+  summary: "Under<wbr>Maintenance Administrative State."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState&text=AdministrativeState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AdministrativeState UNDER_MAINTENANCE"
+  desc: "UnderMaintenance Administrative State."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AdministrativeState.fromString(String name)"
@@ -119,4 +143,4 @@ type: "class"
 desc: "State defined to represent administrative actions or post actions on a particular resource."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

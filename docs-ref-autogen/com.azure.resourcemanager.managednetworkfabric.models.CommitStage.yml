@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.CommitStage"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.CommitStage"
+name: "CommitStage"
+nameWithType: "CommitStage"
+summary: "Commit stage Action to be performed."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **CommitStage**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommitStage?alt=com.azure.resourcemanager.managednetworkfabric.models.CommitStage&text=CommitStage\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.CommitStage.CommitStage()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.CommitStage.CommitStage()"
+  name: "CommitStage()"
+  nameWithType: "CommitStage.CommitStage()"
+  summary: "Creates a new instance of Commit<wbr>Stage value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.managednetworkfabric.models.CommitStage.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public CommitStage()"
+  desc: "Creates a new instance of CommitStage value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.CommitStage.CONTINUE"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.CommitStage.CONTINUE"
+  name: "CONTINUE"
+  nameWithType: "CommitStage.CONTINUE"
+  summary: "Commit<wbr>Stage-Continue indicates to push the configuration to the devices provided."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommitStage?alt=com.azure.resourcemanager.managednetworkfabric.models.CommitStage&text=CommitStage\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final CommitStage CONTINUE"
+  desc: "CommitStage-Continue indicates to push the configuration to the devices provided. Either CE1 or CE2 is allowed."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.CommitStage.ROLLBACK"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.CommitStage.ROLLBACK"
+  name: "ROLLBACK"
+  nameWithType: "CommitStage.ROLLBACK"
+  summary: "Commit<wbr>Stage-Rollback indicates to revert to the previous configuration for the devices to which configuration is pushed as part of staging."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommitStage?alt=com.azure.resourcemanager.managednetworkfabric.models.CommitStage&text=CommitStage\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final CommitStage ROLLBACK"
+  desc: "CommitStage-Rollback indicates to revert to the previous configuration for the devices to which configuration is pushed as part of staging."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.CommitStage.START"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.CommitStage.START"
+  name: "START"
+  nameWithType: "CommitStage.START"
+  summary: "Commit<wbr>Stage-Start indicates to prepare the device configuration for the devices which is decided by policy type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommitStage?alt=com.azure.resourcemanager.managednetworkfabric.models.CommitStage&text=CommitStage\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final CommitStage START"
+  desc: "CommitStage-Start indicates to prepare the device configuration for the devices which is decided by policy type."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.CommitStage.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.CommitStage.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "CommitStage.fromString(String name)"
+  summary: "Creates or finds a Commit<wbr>Stage from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static CommitStage fromString(String name)"
+  desc: "Creates or finds a CommitStage from its string representation."
+  returns:
+    description: "the corresponding CommitStage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommitStage?alt=com.azure.resourcemanager.managednetworkfabric.models.CommitStage&text=CommitStage\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.CommitStage.values()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.CommitStage.values()"
+  name: "values()"
+  nameWithType: "CommitStage.values()"
+  summary: "Gets known Commit<wbr>Stage values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<CommitStage> values()"
+  desc: "Gets known CommitStage values."
+  returns:
+    description: "known CommitStage values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommitStage?alt=com.azure.resourcemanager.managednetworkfabric.models.CommitStage&text=CommitStage\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Commit stage Action to be performed."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

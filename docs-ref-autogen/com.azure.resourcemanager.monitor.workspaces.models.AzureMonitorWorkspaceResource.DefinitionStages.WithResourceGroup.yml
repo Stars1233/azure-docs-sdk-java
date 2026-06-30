@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.DefinitionStages.WithResourceGroup"
+fullName: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.DefinitionStages.WithResourceGroup"
+name: "AzureMonitorWorkspaceResource.DefinitionStages.WithResourceGroup"
+nameWithType: "AzureMonitorWorkspaceResource.DefinitionStages.WithResourceGroup"
+summary: "The stage of the Azure<wbr>Monitor<wbr>Workspace<wbr>Resource definition allowing to specify parent resource."
+syntax: "public static interface **AzureMonitorWorkspaceResource.DefinitionStages.WithResourceGroup**"
+methods:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.DefinitionStages.WithResourceGroup.withExistingResourceGroup(java.lang.String)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.DefinitionStages.WithResourceGroup.withExistingResourceGroup(String resourceGroupName)"
+  name: "withExistingResourceGroup(String resourceGroupName)"
+  nameWithType: "AzureMonitorWorkspaceResource.DefinitionStages.WithResourceGroup.withExistingResourceGroup(String resourceGroupName)"
+  summary: "Specifies resource<wbr>Group<wbr>Name."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract AzureMonitorWorkspaceResource.DefinitionStages.WithCreate withExistingResourceGroup(String resourceGroupName)"
+  desc: "Specifies resourceGroupName."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.monitor.workspaces.models.AzureMonitorWorkspaceResource.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the AzureMonitorWorkspaceResource definition allowing to specify parent resource."
+metadata: {}
+package: "com.azure.resourcemanager.monitor.workspaces.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor-workspaces:1.0.0

@@ -14,7 +14,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the lab."
@@ -29,7 +29,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<UserInner>,UserInner> beginCreateOrUpdate(String resourceGroupName, String labName, String name, UserInner user)"
   desc: "Create or replace an existing user profile. This operation can take a while to complete."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of profile of a lab user."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of a user profile."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.models.UserInner?alt=com.azure.resourcemanager.devtestlabs.fluent.models.UserInner&text=UserInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.models.UserInner?alt=com.azure.resourcemanager.devtestlabs.fluent.models.UserInner&text=UserInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.devtestlabs.fluent.UsersClient.beginCreateOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.devtestlabs.fluent.models.UserInner,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.devtestlabs.fluent.UsersClient.beginCreateOrUpdate(String resourceGroupName, String labName, String name, UserInner user, Context context)"
@@ -39,7 +39,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the lab."
@@ -57,7 +57,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<UserInner>,UserInner> beginCreateOrUpdate(String resourceGroupName, String labName, String name, UserInner user, Context context)"
   desc: "Create or replace an existing user profile. This operation can take a while to complete."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of profile of a lab user."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of a user profile."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.models.UserInner?alt=com.azure.resourcemanager.devtestlabs.fluent.models.UserInner&text=UserInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.models.UserInner?alt=com.azure.resourcemanager.devtestlabs.fluent.models.UserInner&text=UserInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.devtestlabs.fluent.UsersClient.beginDelete(java.lang.String,java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.devtestlabs.fluent.UsersClient.beginDelete(String resourceGroupName, String labName, String name)"
@@ -67,7 +67,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the lab."
@@ -89,7 +89,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the lab."
@@ -114,7 +114,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the lab."
@@ -129,7 +129,7 @@ methods:
   syntax: "public abstract UserInner createOrUpdate(String resourceGroupName, String labName, String name, UserInner user)"
   desc: "Create or replace an existing user profile. This operation can take a while to complete."
   returns:
-    description: "profile of a lab user."
+    description: "a user profile."
     type: "<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.models.UserInner?alt=com.azure.resourcemanager.devtestlabs.fluent.models.UserInner&text=UserInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.devtestlabs.fluent.UsersClient.createOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.devtestlabs.fluent.models.UserInner,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.devtestlabs.fluent.UsersClient.createOrUpdate(String resourceGroupName, String labName, String name, UserInner user, Context context)"
@@ -139,7 +139,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the lab."
@@ -157,7 +157,7 @@ methods:
   syntax: "public abstract UserInner createOrUpdate(String resourceGroupName, String labName, String name, UserInner user, Context context)"
   desc: "Create or replace an existing user profile. This operation can take a while to complete."
   returns:
-    description: "profile of a lab user."
+    description: "a user profile."
     type: "<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.models.UserInner?alt=com.azure.resourcemanager.devtestlabs.fluent.models.UserInner&text=UserInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.devtestlabs.fluent.UsersClient.delete(java.lang.String,java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.devtestlabs.fluent.UsersClient.delete(String resourceGroupName, String labName, String name)"
@@ -167,7 +167,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the lab."
@@ -186,7 +186,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the lab."
@@ -208,7 +208,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the lab."
@@ -230,7 +230,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the lab."
@@ -258,7 +258,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the lab."
@@ -277,7 +277,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the lab."
@@ -311,7 +311,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the lab."
@@ -326,7 +326,7 @@ methods:
   syntax: "public abstract UserInner update(String resourceGroupName, String labName, String name, UserFragment user)"
   desc: "Allows modifying tags of user profiles. All other properties will be ignored."
   returns:
-    description: "profile of a lab user."
+    description: "a user profile."
     type: "<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.models.UserInner?alt=com.azure.resourcemanager.devtestlabs.fluent.models.UserInner&text=UserInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.devtestlabs.fluent.UsersClient.updateWithResponse(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.devtestlabs.models.UserFragment,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.devtestlabs.fluent.UsersClient.updateWithResponse(String resourceGroupName, String labName, String name, UserFragment user, Context context)"
@@ -336,7 +336,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the lab."
@@ -354,10 +354,10 @@ methods:
   syntax: "public abstract Response<UserInner> updateWithResponse(String resourceGroupName, String labName, String name, UserFragment user, Context context)"
   desc: "Allows modifying tags of user profiles. All other properties will be ignored."
   returns:
-    description: "profile of a lab user along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    description: "a user profile along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.devtestlabs.fluent.models.UserInner?alt=com.azure.resourcemanager.devtestlabs.fluent.models.UserInner&text=UserInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 desc: "An instance of this class provides access to all the operations defined in UsersClient."
 metadata: {}
 package: "com.azure.resourcemanager.devtestlabs.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-devtestlabs:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-devtestlabs:1.2.0

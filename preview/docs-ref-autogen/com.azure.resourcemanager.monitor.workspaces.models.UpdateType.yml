@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.monitor.workspaces.models.UpdateType"
+fullName: "com.azure.resourcemanager.monitor.workspaces.models.UpdateType"
+name: "UpdateType"
+nameWithType: "UpdateType"
+summary: "The type of update that triggers a notification."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **UpdateType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.UpdateType?alt=com.azure.resourcemanager.monitor.workspaces.models.UpdateType&text=UpdateType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.UpdateType.UpdateType()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.UpdateType.UpdateType()"
+  name: "UpdateType()"
+  nameWithType: "UpdateType.UpdateType()"
+  summary: "Creates a new instance of Update<wbr>Type value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.monitor.workspaces.models.UpdateType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public UpdateType()"
+  desc: "Creates a new instance of UpdateType value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.UpdateType.ISSUE_CREATION"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.UpdateType.ISSUE_CREATION"
+  name: "ISSUE_CREATION"
+  nameWithType: "UpdateType.ISSUE_CREATION"
+  summary: "Notification sent when an issue is created."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.UpdateType?alt=com.azure.resourcemanager.monitor.workspaces.models.UpdateType&text=UpdateType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final UpdateType ISSUE_CREATION"
+  desc: "Notification sent when an issue is created."
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.UpdateType.ON_CHANGE"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.UpdateType.ON_CHANGE"
+  name: "ON_CHANGE"
+  nameWithType: "UpdateType.ON_CHANGE"
+  summary: "Notification sent when the issue changes."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.UpdateType?alt=com.azure.resourcemanager.monitor.workspaces.models.UpdateType&text=UpdateType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final UpdateType ON_CHANGE"
+  desc: "Notification sent when the issue changes."
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.UpdateType.TIME_BASED"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.UpdateType.TIME_BASED"
+  name: "TIME_BASED"
+  nameWithType: "UpdateType.TIME_BASED"
+  summary: "Notification sent based on time intervals."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.UpdateType?alt=com.azure.resourcemanager.monitor.workspaces.models.UpdateType&text=UpdateType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final UpdateType TIME_BASED"
+  desc: "Notification sent based on time intervals."
+methods:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.UpdateType.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.UpdateType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "UpdateType.fromString(String name)"
+  summary: "Creates or finds a Update<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static UpdateType fromString(String name)"
+  desc: "Creates or finds a UpdateType from its string representation."
+  returns:
+    description: "the corresponding UpdateType."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.UpdateType?alt=com.azure.resourcemanager.monitor.workspaces.models.UpdateType&text=UpdateType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.UpdateType.values()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.UpdateType.values()"
+  name: "values()"
+  nameWithType: "UpdateType.values()"
+  summary: "Gets known Update<wbr>Type values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<UpdateType> values()"
+  desc: "Gets known UpdateType values."
+  returns:
+    description: "known UpdateType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.UpdateType?alt=com.azure.resourcemanager.monitor.workspaces.models.UpdateType&text=UpdateType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The type of update that triggers a notification."
+metadata: {}
+package: "com.azure.resourcemanager.monitor.workspaces.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor-workspaces:1.0.0-beta.1

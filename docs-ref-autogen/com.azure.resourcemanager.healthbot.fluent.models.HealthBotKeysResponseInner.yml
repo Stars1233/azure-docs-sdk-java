@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **HealthBotKeysResponseInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.healthbot.fluent.models.HealthBotKeysResponseInner?alt=com.azure.resourcemanager.healthbot.fluent.models.HealthBotKeysResponseInner&text=HealthBotKeysResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.healthbot.fluent.models.HealthBotKeysResponseInner.HealthBotKeysResponseInner()"
-  fullName: "com.azure.resourcemanager.healthbot.fluent.models.HealthBotKeysResponseInner.HealthBotKeysResponseInner()"
-  name: "HealthBotKeysResponseInner()"
-  nameWithType: "HealthBotKeysResponseInner.HealthBotKeysResponseInner()"
-  summary: "Creates an instance of Health<wbr>Bot<wbr>Keys<wbr>Response<wbr>Inner class."
-  syntax: "public HealthBotKeysResponseInner()"
-  desc: "Creates an instance of HealthBotKeysResponseInner class."
 methods:
 - uid: "com.azure.resourcemanager.healthbot.fluent.models.HealthBotKeysResponseInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.healthbot.fluent.models.HealthBotKeysResponseInner.fromJson(JsonReader jsonReader)"
@@ -71,31 +63,10 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.healthbot.fluent.models.HealthBotKeysResponseInner.validate()"
-  fullName: "com.azure.resourcemanager.healthbot.fluent.models.HealthBotKeysResponseInner.validate()"
-  name: "validate()"
-  nameWithType: "HealthBotKeysResponseInner.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.healthbot.fluent.models.HealthBotKeysResponseInner.withSecrets(java.util.List<com.azure.resourcemanager.healthbot.fluent.models.HealthBotKeyInner>)"
-  fullName: "com.azure.resourcemanager.healthbot.fluent.models.HealthBotKeysResponseInner.withSecrets(List<HealthBotKeyInner> secrets)"
-  name: "withSecrets(List<HealthBotKeyInner> secrets)"
-  nameWithType: "HealthBotKeysResponseInner.withSecrets(List<HealthBotKeyInner> secrets)"
-  summary: "Set the secrets property: Array of Azure Health Bot Secrets."
-  parameters:
-  - description: "the secrets value to set."
-    name: "secrets"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.healthbot.fluent.models.HealthBotKeyInner?alt=com.azure.resourcemanager.healthbot.fluent.models.HealthBotKeyInner&text=HealthBotKeyInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public HealthBotKeysResponseInner withSecrets(List<HealthBotKeyInner> secrets)"
-  desc: "Set the secrets property: Array of Azure Health Bot Secrets."
-  returns:
-    description: "the HealthBotKeysResponseInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.healthbot.fluent.models.HealthBotKeysResponseInner?alt=com.azure.resourcemanager.healthbot.fluent.models.HealthBotKeysResponseInner&text=HealthBotKeysResponseInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Health Bot Keys Response."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.healthbot.fluent.models.HealthBotKeysResponseInner?alt=com.azure.resourcemanager.healthbot.fluent.models.HealthBotKeysResponseInner&text=HealthBotKeysResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.healthbot.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-healthbot:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-healthbot:1.2.0

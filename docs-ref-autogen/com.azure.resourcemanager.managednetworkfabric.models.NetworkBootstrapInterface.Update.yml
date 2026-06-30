@@ -1,0 +1,45 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.Update"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.Update"
+name: "NetworkBootstrapInterface.Update"
+nameWithType: "NetworkBootstrapInterface.Update"
+summary: "The template for Network<wbr>Bootstrap<wbr>Interface update."
+syntax: "public static interface **NetworkBootstrapInterface.Update**</br> extends <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.UpdateStages.WithSerialNumber?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.UpdateStages.WithSerialNumber&text=WithSerialNumber\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.UpdateStages.WithAdditionalDescription?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.UpdateStages.WithAdditionalDescription&text=WithAdditionalDescription\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.UpdateStages.WithAnnotation?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.UpdateStages.WithAnnotation&text=WithAnnotation\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.Update.apply()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.Update.apply()"
+  name: "apply()"
+  nameWithType: "NetworkBootstrapInterface.Update.apply()"
+  summary: "Executes the update request."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract NetworkBootstrapInterface apply()"
+  desc: "Executes the update request."
+  returns:
+    description: "the updated resource."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface&text=NetworkBootstrapInterface\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.Update.apply(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.Update.apply(Context context)"
+  name: "apply(Context context)"
+  nameWithType: "NetworkBootstrapInterface.Update.apply(Context context)"
+  summary: "Executes the update request."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NetworkBootstrapInterface apply(Context context)"
+  desc: "Executes the update request."
+  returns:
+    description: "the updated resource."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface&text=NetworkBootstrapInterface\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The template for NetworkBootstrapInterface update."
+implements:
+- "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.UpdateStages.WithAdditionalDescription?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.UpdateStages.WithAdditionalDescription&text=WithAdditionalDescription\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.UpdateStages.WithAnnotation?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.UpdateStages.WithAnnotation&text=WithAnnotation\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.UpdateStages.WithSerialNumber?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkBootstrapInterface.UpdateStages.WithSerialNumber&text=WithSerialNumber\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

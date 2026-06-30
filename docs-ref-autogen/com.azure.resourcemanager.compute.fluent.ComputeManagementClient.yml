@@ -42,66 +42,6 @@ methods:
   returns:
     description: "the CapacityReservationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.CapacityReservationsClient?alt=com.azure.resourcemanager.compute.fluent.CapacityReservationsClient&text=CapacityReservationsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getCloudServiceOperatingSystems()"
-  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getCloudServiceOperatingSystems()"
-  name: "getCloudServiceOperatingSystems()"
-  nameWithType: "ComputeManagementClient.getCloudServiceOperatingSystems()"
-  summary: "Gets the Cloud<wbr>Service<wbr>Operating<wbr>Systems<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract CloudServiceOperatingSystemsClient getCloudServiceOperatingSystems()"
-  desc: "Gets the CloudServiceOperatingSystemsClient object to access its operations."
-  returns:
-    description: "the CloudServiceOperatingSystemsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.CloudServiceOperatingSystemsClient?alt=com.azure.resourcemanager.compute.fluent.CloudServiceOperatingSystemsClient&text=CloudServiceOperatingSystemsClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getCloudServiceRoleInstances()"
-  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getCloudServiceRoleInstances()"
-  name: "getCloudServiceRoleInstances()"
-  nameWithType: "ComputeManagementClient.getCloudServiceRoleInstances()"
-  summary: "Gets the Cloud<wbr>Service<wbr>Role<wbr>Instances<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract CloudServiceRoleInstancesClient getCloudServiceRoleInstances()"
-  desc: "Gets the CloudServiceRoleInstancesClient object to access its operations."
-  returns:
-    description: "the CloudServiceRoleInstancesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.CloudServiceRoleInstancesClient?alt=com.azure.resourcemanager.compute.fluent.CloudServiceRoleInstancesClient&text=CloudServiceRoleInstancesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getCloudServiceRoles()"
-  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getCloudServiceRoles()"
-  name: "getCloudServiceRoles()"
-  nameWithType: "ComputeManagementClient.getCloudServiceRoles()"
-  summary: "Gets the Cloud<wbr>Service<wbr>Roles<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract CloudServiceRolesClient getCloudServiceRoles()"
-  desc: "Gets the CloudServiceRolesClient object to access its operations."
-  returns:
-    description: "the CloudServiceRolesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.CloudServiceRolesClient?alt=com.azure.resourcemanager.compute.fluent.CloudServiceRolesClient&text=CloudServiceRolesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getCloudServices()"
-  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getCloudServices()"
-  name: "getCloudServices()"
-  nameWithType: "ComputeManagementClient.getCloudServices()"
-  summary: "Gets the Cloud<wbr>Services<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract CloudServicesClient getCloudServices()"
-  desc: "Gets the CloudServicesClient object to access its operations."
-  returns:
-    description: "the CloudServicesClient object."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.CloudServicesClient?alt=com.azure.resourcemanager.compute.fluent.CloudServicesClient&text=CloudServicesClient\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getCloudServicesUpdateDomains()"
-  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getCloudServicesUpdateDomains()"
-  name: "getCloudServicesUpdateDomains()"
-  nameWithType: "ComputeManagementClient.getCloudServicesUpdateDomains()"
-  summary: "Gets the Cloud<wbr>Services<wbr>Update<wbr>Domains<wbr>Client object to access its operations."
-  modifiers:
-  - "abstract"
-  syntax: "public abstract CloudServicesUpdateDomainsClient getCloudServicesUpdateDomains()"
-  desc: "Gets the CloudServicesUpdateDomainsClient object to access its operations."
-  returns:
-    description: "the CloudServicesUpdateDomainsClient object."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.CloudServicesUpdateDomainsClient?alt=com.azure.resourcemanager.compute.fluent.CloudServicesUpdateDomainsClient&text=CloudServicesUpdateDomainsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getCommunityGalleries()"
   fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getCommunityGalleries()"
   name: "getCommunityGalleries()"
@@ -226,11 +166,11 @@ methods:
   fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getEndpoint()"
   name: "getEndpoint()"
   nameWithType: "ComputeManagementClient.getEndpoint()"
-  summary: "Gets server parameter."
+  summary: "Gets Service host."
   modifiers:
   - "abstract"
   syntax: "public abstract String getEndpoint()"
-  desc: "Gets server parameter."
+  desc: "Gets Service host."
   returns:
     description: "the endpoint value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -378,6 +318,18 @@ methods:
   returns:
     description: "the ImagesClient object."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.ImagesClient?alt=com.azure.resourcemanager.compute.fluent.ImagesClient&text=ImagesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getInterconnectBlocks()"
+  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getInterconnectBlocks()"
+  name: "getInterconnectBlocks()"
+  nameWithType: "ComputeManagementClient.getInterconnectBlocks()"
+  summary: "Gets the Interconnect<wbr>Blocks<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract InterconnectBlocksClient getInterconnectBlocks()"
+  desc: "Gets the InterconnectBlocksClient object to access its operations."
+  returns:
+    description: "the InterconnectBlocksClient object."
+    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.InterconnectBlocksClient?alt=com.azure.resourcemanager.compute.fluent.InterconnectBlocksClient&text=InterconnectBlocksClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getLogAnalytics()"
   fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getLogAnalytics()"
   name: "getLogAnalytics()"
@@ -530,7 +482,7 @@ methods:
   modifiers:
   - "abstract"
   syntax: "public abstract String getSubscriptionId()"
-  desc: "Gets The ID of the target subscription."
+  desc: "Gets The ID of the target subscription. The value must be an UUID."
   returns:
     description: "the subscriptionId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -630,6 +582,18 @@ methods:
   returns:
     description: "the VirtualMachineScaleSetExtensionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetExtensionsClient?alt=com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetExtensionsClient&text=VirtualMachineScaleSetExtensionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getVirtualMachineScaleSetLifeCycleHookEvents()"
+  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getVirtualMachineScaleSetLifeCycleHookEvents()"
+  name: "getVirtualMachineScaleSetLifeCycleHookEvents()"
+  nameWithType: "ComputeManagementClient.getVirtualMachineScaleSetLifeCycleHookEvents()"
+  summary: "Gets the Virtual<wbr>Machine<wbr>Scale<wbr>Set<wbr>Life<wbr>Cycle<wbr>Hook<wbr>Events<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VirtualMachineScaleSetLifeCycleHookEventsClient getVirtualMachineScaleSetLifeCycleHookEvents()"
+  desc: "Gets the VirtualMachineScaleSetLifeCycleHookEventsClient object to access its operations."
+  returns:
+    description: "the VirtualMachineScaleSetLifeCycleHookEventsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetLifeCycleHookEventsClient?alt=com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetLifeCycleHookEventsClient&text=VirtualMachineScaleSetLifeCycleHookEventsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getVirtualMachineScaleSetRollingUpgrades()"
   fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getVirtualMachineScaleSetRollingUpgrades()"
   name: "getVirtualMachineScaleSetRollingUpgrades()"
@@ -706,4 +670,4 @@ type: "interface"
 desc: "The interface for ComputeManagementClient class."
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

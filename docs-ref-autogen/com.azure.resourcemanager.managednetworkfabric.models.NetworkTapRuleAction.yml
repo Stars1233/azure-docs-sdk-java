@@ -75,7 +75,7 @@ methods:
   nameWithType: "NetworkTapRuleAction.matchConfigurationName()"
   summary: "Get the match<wbr>Configuration<wbr>Name property: The name of the match configuration."
   syntax: "public String matchConfigurationName()"
-  desc: "Get the matchConfigurationName property: The name of the match configuration. This is used when Goto type is provided. If Goto type is selected and no match configuration name is provided. It goes to next configuration."
+  desc: "Get the matchConfigurationName property: The name of the match configuration. This is used when Goto type is provided."
   returns:
     description: "the matchConfigurationName value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -111,13 +111,6 @@ methods:
   returns:
     description: "the type value."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.TapRuleActionType?alt=com.azure.resourcemanager.managednetworkfabric.models.TapRuleActionType&text=TapRuleActionType\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRuleAction.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRuleAction.validate()"
-  name: "validate()"
-  nameWithType: "NetworkTapRuleAction.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRuleAction.withDestinationId(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRuleAction.withDestinationId(String destinationId)"
   name: "withDestinationId(String destinationId)"
@@ -156,7 +149,7 @@ methods:
     name: "matchConfigurationName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public NetworkTapRuleAction withMatchConfigurationName(String matchConfigurationName)"
-  desc: "Set the matchConfigurationName property: The name of the match configuration. This is used when Goto type is provided. If Goto type is selected and no match configuration name is provided. It goes to next configuration."
+  desc: "Set the matchConfigurationName property: The name of the match configuration. This is used when Goto type is provided."
   returns:
     description: "the NetworkTapRuleAction object itself."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRuleAction?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRuleAction&text=NetworkTapRuleAction\" data-throw-if-not-resolved=\"False\" />"
@@ -194,4 +187,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRuleAction?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkTapRuleAction&text=NetworkTapRuleAction\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

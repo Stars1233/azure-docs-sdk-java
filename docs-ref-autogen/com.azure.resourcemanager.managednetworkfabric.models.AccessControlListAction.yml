@@ -59,6 +59,26 @@ methods:
   returns:
     description: "An instance of AccessControlListAction if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction?alt=com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction&text=AccessControlListAction\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction.policeRateConfiguration()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction.policeRateConfiguration()"
+  name: "policeRateConfiguration()"
+  nameWithType: "AccessControlListAction.policeRateConfiguration()"
+  summary: "Get the police<wbr>Rate<wbr>Configuration property: Police rate configuration."
+  syntax: "public PoliceRateConfigurationProperties policeRateConfiguration()"
+  desc: "Get the policeRateConfiguration property: Police rate configuration."
+  returns:
+    description: "the policeRateConfiguration value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties&text=PoliceRateConfigurationProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction.remarkComment()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction.remarkComment()"
+  name: "remarkComment()"
+  nameWithType: "AccessControlListAction.remarkComment()"
+  summary: "Get the remark<wbr>Comment property: Remark comment."
+  syntax: "public String remarkComment()"
+  desc: "Get the remarkComment property: Remark comment."
+  returns:
+    description: "the remarkComment value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -81,13 +101,6 @@ methods:
   returns:
     description: "the type value."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AclActionType?alt=com.azure.resourcemanager.managednetworkfabric.models.AclActionType&text=AclActionType\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction.validate()"
-  name: "validate()"
-  nameWithType: "AccessControlListAction.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction.withCounterName(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction.withCounterName(String counterName)"
   name: "withCounterName(String counterName)"
@@ -99,6 +112,34 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public AccessControlListAction withCounterName(String counterName)"
   desc: "Set the counterName property: Name of the counter block to get match count information."
+  returns:
+    description: "the AccessControlListAction object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction?alt=com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction&text=AccessControlListAction\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction.withPoliceRateConfiguration(com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction.withPoliceRateConfiguration(PoliceRateConfigurationProperties policeRateConfiguration)"
+  name: "withPoliceRateConfiguration(PoliceRateConfigurationProperties policeRateConfiguration)"
+  nameWithType: "AccessControlListAction.withPoliceRateConfiguration(PoliceRateConfigurationProperties policeRateConfiguration)"
+  summary: "Set the police<wbr>Rate<wbr>Configuration property: Police rate configuration."
+  parameters:
+  - description: "the policeRateConfiguration value to set."
+    name: "policeRateConfiguration"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.PoliceRateConfigurationProperties&text=PoliceRateConfigurationProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public AccessControlListAction withPoliceRateConfiguration(PoliceRateConfigurationProperties policeRateConfiguration)"
+  desc: "Set the policeRateConfiguration property: Police rate configuration."
+  returns:
+    description: "the AccessControlListAction object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction?alt=com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction&text=AccessControlListAction\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction.withRemarkComment(java.lang.String)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction.withRemarkComment(String remarkComment)"
+  name: "withRemarkComment(String remarkComment)"
+  nameWithType: "AccessControlListAction.withRemarkComment(String remarkComment)"
+  summary: "Set the remark<wbr>Comment property: Remark comment."
+  parameters:
+  - description: "the remarkComment value to set."
+    name: "remarkComment"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public AccessControlListAction withRemarkComment(String remarkComment)"
+  desc: "Set the remarkComment property: Remark comment."
   returns:
     description: "the AccessControlListAction object itself."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction?alt=com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction&text=AccessControlListAction\" data-throw-if-not-resolved=\"False\" />"
@@ -122,4 +163,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction?alt=com.azure.resourcemanager.managednetworkfabric.models.AccessControlListAction&text=AccessControlListAction\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

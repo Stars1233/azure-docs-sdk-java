@@ -42,62 +42,62 @@ fields:
   fullName: "com.azure.resourcemanager.compute.models.SnapshotAccessState.AVAILABLE"
   name: "AVAILABLE"
   nameWithType: "SnapshotAccessState.AVAILABLE"
-  summary: "Static value Available for Snapshot<wbr>Access<wbr>State."
+  summary: "The snapshot can be used for restore, copy to different region, and download to offline."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.SnapshotAccessState?alt=com.azure.resourcemanager.compute.models.SnapshotAccessState&text=SnapshotAccessState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SnapshotAccessState AVAILABLE"
-  desc: "Static value Available for SnapshotAccessState."
+  desc: "The snapshot can be used for restore, copy to different region, and download to offline."
 - uid: "com.azure.resourcemanager.compute.models.SnapshotAccessState.AVAILABLE_WITH_INSTANT_ACCESS"
   fullName: "com.azure.resourcemanager.compute.models.SnapshotAccessState.AVAILABLE_WITH_INSTANT_ACCESS"
   name: "AVAILABLE_WITH_INSTANT_ACCESS"
   nameWithType: "SnapshotAccessState.AVAILABLE_WITH_INSTANT_ACCESS"
-  summary: "Static value Available<wbr>With<wbr>Instant<wbr>Access for Snapshot<wbr>Access<wbr>State."
+  summary: "The snapshot can be used for restoring disks with fast performance, copied and downloaded."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.SnapshotAccessState?alt=com.azure.resourcemanager.compute.models.SnapshotAccessState&text=SnapshotAccessState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SnapshotAccessState AVAILABLE_WITH_INSTANT_ACCESS"
-  desc: "Static value AvailableWithInstantAccess for SnapshotAccessState."
+  desc: "The snapshot can be used for restoring disks with fast performance, copied and downloaded."
 - uid: "com.azure.resourcemanager.compute.models.SnapshotAccessState.INSTANT_ACCESS"
   fullName: "com.azure.resourcemanager.compute.models.SnapshotAccessState.INSTANT_ACCESS"
   name: "INSTANT_ACCESS"
   nameWithType: "SnapshotAccessState.INSTANT_ACCESS"
-  summary: "Static value Instant<wbr>Access for Snapshot<wbr>Access<wbr>State."
+  summary: "The snapshot can be used for restoring disks with fast performance but cannot be copied or downloaded."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.SnapshotAccessState?alt=com.azure.resourcemanager.compute.models.SnapshotAccessState&text=SnapshotAccessState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SnapshotAccessState INSTANT_ACCESS"
-  desc: "Static value InstantAccess for SnapshotAccessState."
+  desc: "The snapshot can be used for restoring disks with fast performance but cannot be copied or downloaded."
 - uid: "com.azure.resourcemanager.compute.models.SnapshotAccessState.PENDING"
   fullName: "com.azure.resourcemanager.compute.models.SnapshotAccessState.PENDING"
   name: "PENDING"
   nameWithType: "SnapshotAccessState.PENDING"
-  summary: "Static value Pending for Snapshot<wbr>Access<wbr>State."
+  summary: "The snapshot cannot be used for restore, copy or download to offline."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.SnapshotAccessState?alt=com.azure.resourcemanager.compute.models.SnapshotAccessState&text=SnapshotAccessState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SnapshotAccessState PENDING"
-  desc: "Static value Pending for SnapshotAccessState."
+  desc: "The snapshot cannot be used for restore, copy or download to offline."
 - uid: "com.azure.resourcemanager.compute.models.SnapshotAccessState.UNKNOWN"
   fullName: "com.azure.resourcemanager.compute.models.SnapshotAccessState.UNKNOWN"
   name: "UNKNOWN"
   nameWithType: "SnapshotAccessState.UNKNOWN"
-  summary: "Static value Unknown for Snapshot<wbr>Access<wbr>State."
+  summary: "Default value."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.SnapshotAccessState?alt=com.azure.resourcemanager.compute.models.SnapshotAccessState&text=SnapshotAccessState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SnapshotAccessState UNKNOWN"
-  desc: "Static value Unknown for SnapshotAccessState."
+  desc: "Default value."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.SnapshotAccessState.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.models.SnapshotAccessState.fromString(String name)"
@@ -131,4 +131,4 @@ type: "class"
 desc: "The state of snapshot which determines the access availability of the snapshot."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

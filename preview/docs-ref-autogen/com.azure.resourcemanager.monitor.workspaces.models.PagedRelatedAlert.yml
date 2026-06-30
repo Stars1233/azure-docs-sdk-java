@@ -1,0 +1,49 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.monitor.workspaces.models.PagedRelatedAlert"
+fullName: "com.azure.resourcemanager.monitor.workspaces.models.PagedRelatedAlert"
+name: "PagedRelatedAlert"
+nameWithType: "PagedRelatedAlert"
+summary: "An immutable client-side representation of Paged<wbr>Related<wbr>Alert."
+syntax: "public interface **PagedRelatedAlert**"
+methods:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.PagedRelatedAlert.innerModel()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.PagedRelatedAlert.innerModel()"
+  name: "innerModel()"
+  nameWithType: "PagedRelatedAlert.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>monitor.<wbr>workspaces.<wbr>fluent.<wbr>models.<wbr>Paged<wbr>Related<wbr>Alert<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PagedRelatedAlertInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.monitor.workspaces.fluent.models.PagedRelatedAlertInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.fluent.models.PagedRelatedAlertInner?alt=com.azure.resourcemanager.monitor.workspaces.fluent.models.PagedRelatedAlertInner&text=PagedRelatedAlertInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.PagedRelatedAlert.nextLink()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.PagedRelatedAlert.nextLink()"
+  name: "nextLink()"
+  nameWithType: "PagedRelatedAlert.nextLink()"
+  summary: "Gets the next<wbr>Link property: The link to the next page of items."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String nextLink()"
+  desc: "Gets the nextLink property: The link to the next page of items."
+  returns:
+    description: "the nextLink value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.PagedRelatedAlert.value()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.PagedRelatedAlert.value()"
+  name: "value()"
+  nameWithType: "PagedRelatedAlert.value()"
+  summary: "Gets the value property: The Related<wbr>Alert items on this page."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<RelatedAlert> value()"
+  desc: "Gets the value property: The RelatedAlert items on this page."
+  returns:
+    description: "the value value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.RelatedAlert?alt=com.azure.resourcemanager.monitor.workspaces.models.RelatedAlert&text=RelatedAlert\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
+desc: "An immutable client-side representation of PagedRelatedAlert."
+metadata: {}
+package: "com.azure.resourcemanager.monitor.workspaces.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor-workspaces:1.0.0-beta.1

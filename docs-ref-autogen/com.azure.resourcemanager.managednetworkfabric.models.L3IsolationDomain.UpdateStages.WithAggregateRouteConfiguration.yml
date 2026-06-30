@@ -6,18 +6,18 @@ nameWithType: "L3IsolationDomain.UpdateStages.WithAggregateRouteConfiguration"
 summary: "The stage of the L3Isolation<wbr>Domain update allowing to specify aggregate<wbr>Route<wbr>Configuration."
 syntax: "public static interface **L3IsolationDomain.UpdateStages.WithAggregateRouteConfiguration**"
 methods:
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.UpdateStages.WithAggregateRouteConfiguration.withAggregateRouteConfiguration(com.azure.resourcemanager.managednetworkfabric.models.AggregateRouteConfiguration)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.UpdateStages.WithAggregateRouteConfiguration.withAggregateRouteConfiguration(AggregateRouteConfiguration aggregateRouteConfiguration)"
-  name: "withAggregateRouteConfiguration(AggregateRouteConfiguration aggregateRouteConfiguration)"
-  nameWithType: "L3IsolationDomain.UpdateStages.WithAggregateRouteConfiguration.withAggregateRouteConfiguration(AggregateRouteConfiguration aggregateRouteConfiguration)"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.UpdateStages.WithAggregateRouteConfiguration.withAggregateRouteConfiguration(com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.L3IsolationDomain.UpdateStages.WithAggregateRouteConfiguration.withAggregateRouteConfiguration(AggregateRoutePatchConfiguration aggregateRouteConfiguration)"
+  name: "withAggregateRouteConfiguration(AggregateRoutePatchConfiguration aggregateRouteConfiguration)"
+  nameWithType: "L3IsolationDomain.UpdateStages.WithAggregateRouteConfiguration.withAggregateRouteConfiguration(AggregateRoutePatchConfiguration aggregateRouteConfiguration)"
   summary: "Specifies the aggregate<wbr>Route<wbr>Configuration property: Aggregate route configurations.."
   modifiers:
   - "abstract"
   parameters:
   - description: "Aggregate route configurations."
     name: "aggregateRouteConfiguration"
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AggregateRouteConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.AggregateRouteConfiguration&text=AggregateRouteConfiguration\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract L3IsolationDomain.Update withAggregateRouteConfiguration(AggregateRouteConfiguration aggregateRouteConfiguration)"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration&text=AggregateRoutePatchConfiguration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract L3IsolationDomain.Update withAggregateRouteConfiguration(AggregateRoutePatchConfiguration aggregateRouteConfiguration)"
   desc: "Specifies the aggregateRouteConfiguration property: Aggregate route configurations.."
   returns:
     description: "the next definition stage."
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the L3IsolationDomain update allowing to specify aggregateRouteConfiguration."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

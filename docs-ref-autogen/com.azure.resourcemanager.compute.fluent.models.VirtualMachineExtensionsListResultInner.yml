@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **VirtualMachineExtensionsListResultInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.VirtualMachineExtensionsListResultInner?alt=com.azure.resourcemanager.compute.fluent.models.VirtualMachineExtensionsListResultInner&text=VirtualMachineExtensionsListResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineExtensionsListResultInner.VirtualMachineExtensionsListResultInner()"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineExtensionsListResultInner.VirtualMachineExtensionsListResultInner()"
-  name: "VirtualMachineExtensionsListResultInner()"
-  nameWithType: "VirtualMachineExtensionsListResultInner.VirtualMachineExtensionsListResultInner()"
-  summary: "Creates an instance of Virtual<wbr>Machine<wbr>Extensions<wbr>List<wbr>Result<wbr>Inner class."
-  syntax: "public VirtualMachineExtensionsListResultInner()"
-  desc: "Creates an instance of VirtualMachineExtensionsListResultInner class."
 methods:
 - uid: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineExtensionsListResultInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineExtensionsListResultInner.fromJson(JsonReader jsonReader)"
@@ -78,24 +70,10 @@ methods:
   returns:
     description: "the value value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.VirtualMachineExtensionInner?alt=com.azure.resourcemanager.compute.fluent.models.VirtualMachineExtensionInner&text=VirtualMachineExtensionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineExtensionsListResultInner.withValue(java.util.List<com.azure.resourcemanager.compute.fluent.models.VirtualMachineExtensionInner>)"
-  fullName: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineExtensionsListResultInner.withValue(List<VirtualMachineExtensionInner> value)"
-  name: "withValue(List<VirtualMachineExtensionInner> value)"
-  nameWithType: "VirtualMachineExtensionsListResultInner.withValue(List<VirtualMachineExtensionInner> value)"
-  summary: "Set the value property: The list of extensions."
-  parameters:
-  - description: "the value value to set."
-    name: "value"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.VirtualMachineExtensionInner?alt=com.azure.resourcemanager.compute.fluent.models.VirtualMachineExtensionInner&text=VirtualMachineExtensionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public VirtualMachineExtensionsListResultInner withValue(List<VirtualMachineExtensionInner> value)"
-  desc: "Set the value property: The list of extensions."
-  returns:
-    description: "the VirtualMachineExtensionsListResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.VirtualMachineExtensionsListResultInner?alt=com.azure.resourcemanager.compute.fluent.models.VirtualMachineExtensionsListResultInner&text=VirtualMachineExtensionsListResultInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The List Extension operation response."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.VirtualMachineExtensionsListResultInner?alt=com.azure.resourcemanager.compute.fluent.models.VirtualMachineExtensionsListResultInner&text=VirtualMachineExtensionsListResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

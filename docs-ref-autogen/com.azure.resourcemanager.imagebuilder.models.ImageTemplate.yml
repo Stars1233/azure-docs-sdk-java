@@ -6,6 +6,18 @@ nameWithType: "ImageTemplate"
 summary: "An immutable client-side representation of Image<wbr>Template."
 syntax: "public interface **ImageTemplate**"
 methods:
+- uid: "com.azure.resourcemanager.imagebuilder.models.ImageTemplate.additionalDataDisks()"
+  fullName: "com.azure.resourcemanager.imagebuilder.models.ImageTemplate.additionalDataDisks()"
+  name: "additionalDataDisks()"
+  nameWithType: "ImageTemplate.additionalDataDisks()"
+  summary: "Gets the additional<wbr>Data<wbr>Disks property: Optional array of additional data disks to be added to the image."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<DataDisk> additionalDataDisks()"
+  desc: "Gets the additionalDataDisks property: Optional array of additional data disks to be added to the image."
+  returns:
+    description: "the additionalDataDisks value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.imagebuilder.models.DataDisk?alt=com.azure.resourcemanager.imagebuilder.models.DataDisk&text=DataDisk\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.imagebuilder.models.ImageTemplate.autoRun()"
   fullName: "com.azure.resourcemanager.imagebuilder.models.ImageTemplate.autoRun()"
   name: "autoRun()"
@@ -406,4 +418,4 @@ type: "interface"
 desc: "An immutable client-side representation of ImageTemplate."
 metadata: {}
 package: "com.azure.resourcemanager.imagebuilder.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-imagebuilder:1.2.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-imagebuilder:1.3.0

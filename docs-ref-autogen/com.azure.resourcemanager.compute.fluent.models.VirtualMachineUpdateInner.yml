@@ -187,6 +187,16 @@ methods:
   returns:
     description: "the instanceView value."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.VirtualMachineInstanceViewInner?alt=com.azure.resourcemanager.compute.fluent.models.VirtualMachineInstanceViewInner&text=VirtualMachineInstanceViewInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineUpdateInner.interconnectBlockProfile()"
+  fullName: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineUpdateInner.interconnectBlockProfile()"
+  name: "interconnectBlockProfile()"
+  nameWithType: "VirtualMachineUpdateInner.interconnectBlockProfile()"
+  summary: "Get the interconnect<wbr>Block<wbr>Profile property: Specifies information about the Interconnect Block that is used to allocate the Virtual Machine."
+  syntax: "public InterconnectBlockProfile interconnectBlockProfile()"
+  desc: "Get the interconnectBlockProfile property: Specifies information about the Interconnect Block that is used to allocate the Virtual Machine. Minimum api-version: 2026-03-01."
+  returns:
+    description: "the interconnectBlockProfile value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.InterconnectBlockProfile?alt=com.azure.resourcemanager.compute.models.InterconnectBlockProfile&text=InterconnectBlockProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineUpdateInner.licenseType()"
   fullName: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineUpdateInner.licenseType()"
   name: "licenseType()"
@@ -267,6 +277,16 @@ methods:
   returns:
     description: "the proximityPlacementGroup value."
     type: "<xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineUpdateInner.resiliencyProfile()"
+  fullName: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineUpdateInner.resiliencyProfile()"
+  name: "resiliencyProfile()"
+  nameWithType: "VirtualMachineUpdateInner.resiliencyProfile()"
+  summary: "Get the resiliency<wbr>Profile property: Resiliency profile for the virtual machine."
+  syntax: "public ResiliencyProfile resiliencyProfile()"
+  desc: "Get the resiliencyProfile property: Resiliency profile for the virtual machine."
+  returns:
+    description: "the resiliencyProfile value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.ResiliencyProfile?alt=com.azure.resourcemanager.compute.models.ResiliencyProfile&text=ResiliencyProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineUpdateInner.scheduledEventsPolicy()"
   fullName: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineUpdateInner.scheduledEventsPolicy()"
   name: "scheduledEventsPolicy()"
@@ -536,6 +556,20 @@ methods:
   returns:
     description: "the VirtualMachineUpdateInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.VirtualMachineUpdateInner?alt=com.azure.resourcemanager.compute.fluent.models.VirtualMachineUpdateInner&text=VirtualMachineUpdateInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineUpdateInner.withInterconnectBlockProfile(com.azure.resourcemanager.compute.models.InterconnectBlockProfile)"
+  fullName: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineUpdateInner.withInterconnectBlockProfile(InterconnectBlockProfile interconnectBlockProfile)"
+  name: "withInterconnectBlockProfile(InterconnectBlockProfile interconnectBlockProfile)"
+  nameWithType: "VirtualMachineUpdateInner.withInterconnectBlockProfile(InterconnectBlockProfile interconnectBlockProfile)"
+  summary: "Set the interconnect<wbr>Block<wbr>Profile property: Specifies information about the Interconnect Block that is used to allocate the Virtual Machine."
+  parameters:
+  - description: "the interconnectBlockProfile value to set."
+    name: "interconnectBlockProfile"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.InterconnectBlockProfile?alt=com.azure.resourcemanager.compute.models.InterconnectBlockProfile&text=InterconnectBlockProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public VirtualMachineUpdateInner withInterconnectBlockProfile(InterconnectBlockProfile interconnectBlockProfile)"
+  desc: "Set the interconnectBlockProfile property: Specifies information about the Interconnect Block that is used to allocate the Virtual Machine. Minimum api-version: 2026-03-01."
+  returns:
+    description: "the VirtualMachineUpdateInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.VirtualMachineUpdateInner?alt=com.azure.resourcemanager.compute.fluent.models.VirtualMachineUpdateInner&text=VirtualMachineUpdateInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineUpdateInner.withLicenseType(java.lang.String)"
   fullName: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineUpdateInner.withLicenseType(String licenseType)"
   name: "withLicenseType(String licenseType)"
@@ -631,6 +665,20 @@ methods:
     type: "<xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public VirtualMachineUpdateInner withProximityPlacementGroup(SubResource proximityPlacementGroup)"
   desc: "Set the proximityPlacementGroup property: Specifies information about the proximity placement group that the virtual machine should be assigned to. Minimum api-version: 2018-04-01."
+  returns:
+    description: "the VirtualMachineUpdateInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.VirtualMachineUpdateInner?alt=com.azure.resourcemanager.compute.fluent.models.VirtualMachineUpdateInner&text=VirtualMachineUpdateInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineUpdateInner.withResiliencyProfile(com.azure.resourcemanager.compute.models.ResiliencyProfile)"
+  fullName: "com.azure.resourcemanager.compute.fluent.models.VirtualMachineUpdateInner.withResiliencyProfile(ResiliencyProfile resiliencyProfile)"
+  name: "withResiliencyProfile(ResiliencyProfile resiliencyProfile)"
+  nameWithType: "VirtualMachineUpdateInner.withResiliencyProfile(ResiliencyProfile resiliencyProfile)"
+  summary: "Set the resiliency<wbr>Profile property: Resiliency profile for the virtual machine."
+  parameters:
+  - description: "the resiliencyProfile value to set."
+    name: "resiliencyProfile"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.ResiliencyProfile?alt=com.azure.resourcemanager.compute.models.ResiliencyProfile&text=ResiliencyProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public VirtualMachineUpdateInner withResiliencyProfile(ResiliencyProfile resiliencyProfile)"
+  desc: "Set the resiliencyProfile property: Resiliency profile for the virtual machine."
   returns:
     description: "the VirtualMachineUpdateInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.models.VirtualMachineUpdateInner?alt=com.azure.resourcemanager.compute.fluent.models.VirtualMachineUpdateInner&text=VirtualMachineUpdateInner\" data-throw-if-not-resolved=\"False\" />"
@@ -759,4 +807,4 @@ type: "class"
 desc: "Describes a Virtual Machine Update."
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

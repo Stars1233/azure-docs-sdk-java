@@ -15,7 +15,6 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.resourcemanager.imagebuilder.models.ImageTemplateDistributor.runOutputName()?alt=com.azure.resourcemanager.imagebuilder.models.ImageTemplateDistributor.runOutputName&text=runOutputName\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.imagebuilder.models.ImageTemplateDistributor.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.imagebuilder.models.ImageTemplateDistributor.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.imagebuilder.models.ImageTemplateDistributor.type()?alt=com.azure.resourcemanager.imagebuilder.models.ImageTemplateDistributor.type&text=type\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.imagebuilder.models.ImageTemplateDistributor.validate()?alt=com.azure.resourcemanager.imagebuilder.models.ImageTemplateDistributor.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.imagebuilder.models.ImageTemplateDistributor.withArtifactTags(java.util.Map<java.lang.String,java.lang.String>)?alt=com.azure.resourcemanager.imagebuilder.models.ImageTemplateDistributor.withArtifactTags&text=withArtifactTags\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.imagebuilder.models.ImageTemplateDistributor.withRunOutputName(java.lang.String)?alt=com.azure.resourcemanager.imagebuilder.models.ImageTemplateDistributor.withRunOutputName&text=withRunOutputName\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
@@ -94,14 +93,6 @@ methods:
   returns:
     description: "the uri value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.imagebuilder.models.ImageTemplateVhdDistributor.validate()"
-  fullName: "com.azure.resourcemanager.imagebuilder.models.ImageTemplateVhdDistributor.validate()"
-  name: "validate()"
-  nameWithType: "ImageTemplateVhdDistributor.validate()"
-  summary: "Validates the instance."
-  overridden: "com.azure.resourcemanager.imagebuilder.models.ImageTemplateDistributor.validate()"
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.imagebuilder.models.ImageTemplateVhdDistributor.withArtifactTags(java.util.Map<java.lang.String,java.lang.String>)"
   fullName: "com.azure.resourcemanager.imagebuilder.models.ImageTemplateVhdDistributor.withArtifactTags(Map<String,String> artifactTags)"
   name: "withArtifactTags(Map<String,String> artifactTags)"
@@ -146,4 +137,4 @@ type: "class"
 desc: "Distribute via VHD in a storage account."
 metadata: {}
 package: "com.azure.resourcemanager.imagebuilder.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-imagebuilder:1.2.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-imagebuilder:1.3.0

@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration"
+name: "AggregateRoutePatchConfiguration"
+nameWithType: "AggregateRoutePatchConfiguration"
+summary: "List of IPv4 and IPv6 aggregate routes."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AggregateRoutePatchConfiguration**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration&text=AggregateRoutePatchConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration.AggregateRoutePatchConfiguration()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration.AggregateRoutePatchConfiguration()"
+  name: "AggregateRoutePatchConfiguration()"
+  nameWithType: "AggregateRoutePatchConfiguration.AggregateRoutePatchConfiguration()"
+  summary: "Creates an instance of Aggregate<wbr>Route<wbr>Patch<wbr>Configuration class."
+  syntax: "public AggregateRoutePatchConfiguration()"
+  desc: "Creates an instance of AggregateRoutePatchConfiguration class."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "AggregateRoutePatchConfiguration.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Aggregate<wbr>Route<wbr>Patch<wbr>Configuration from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static AggregateRoutePatchConfiguration fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the AggregateRoutePatchConfiguration."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of AggregateRoutePatchConfiguration from the JsonReader."
+  returns:
+    description: "An instance of AggregateRoutePatchConfiguration if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration&text=AggregateRoutePatchConfiguration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration.ipv4Routes()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration.ipv4Routes()"
+  name: "ipv4Routes()"
+  nameWithType: "AggregateRoutePatchConfiguration.ipv4Routes()"
+  summary: "Get the ipv4Routes property: List of IPv4 Route prefixes."
+  syntax: "public List<AggregateRoute> ipv4Routes()"
+  desc: "Get the ipv4Routes property: List of IPv4 Route prefixes."
+  returns:
+    description: "the ipv4Routes value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AggregateRoute?alt=com.azure.resourcemanager.managednetworkfabric.models.AggregateRoute&text=AggregateRoute\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration.ipv6Routes()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration.ipv6Routes()"
+  name: "ipv6Routes()"
+  nameWithType: "AggregateRoutePatchConfiguration.ipv6Routes()"
+  summary: "Get the ipv6Routes property: List of Ipv6Routes prefixes."
+  syntax: "public List<AggregateRoute> ipv6Routes()"
+  desc: "Get the ipv6Routes property: List of Ipv6Routes prefixes."
+  returns:
+    description: "the ipv6Routes value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AggregateRoute?alt=com.azure.resourcemanager.managednetworkfabric.models.AggregateRoute&text=AggregateRoute\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "AggregateRoutePatchConfiguration.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration.withIpv4Routes(java.util.List<com.azure.resourcemanager.managednetworkfabric.models.AggregateRoute>)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration.withIpv4Routes(List<AggregateRoute> ipv4Routes)"
+  name: "withIpv4Routes(List<AggregateRoute> ipv4Routes)"
+  nameWithType: "AggregateRoutePatchConfiguration.withIpv4Routes(List<AggregateRoute> ipv4Routes)"
+  summary: "Set the ipv4Routes property: List of IPv4 Route prefixes."
+  parameters:
+  - description: "the ipv4Routes value to set."
+    name: "ipv4Routes"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AggregateRoute?alt=com.azure.resourcemanager.managednetworkfabric.models.AggregateRoute&text=AggregateRoute\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public AggregateRoutePatchConfiguration withIpv4Routes(List<AggregateRoute> ipv4Routes)"
+  desc: "Set the ipv4Routes property: List of IPv4 Route prefixes."
+  returns:
+    description: "the AggregateRoutePatchConfiguration object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration&text=AggregateRoutePatchConfiguration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration.withIpv6Routes(java.util.List<com.azure.resourcemanager.managednetworkfabric.models.AggregateRoute>)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration.withIpv6Routes(List<AggregateRoute> ipv6Routes)"
+  name: "withIpv6Routes(List<AggregateRoute> ipv6Routes)"
+  nameWithType: "AggregateRoutePatchConfiguration.withIpv6Routes(List<AggregateRoute> ipv6Routes)"
+  summary: "Set the ipv6Routes property: List of Ipv6Routes prefixes."
+  parameters:
+  - description: "the ipv6Routes value to set."
+    name: "ipv6Routes"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AggregateRoute?alt=com.azure.resourcemanager.managednetworkfabric.models.AggregateRoute&text=AggregateRoute\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public AggregateRoutePatchConfiguration withIpv6Routes(List<AggregateRoute> ipv6Routes)"
+  desc: "Set the ipv6Routes property: List of Ipv6Routes prefixes."
+  returns:
+    description: "the AggregateRoutePatchConfiguration object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration&text=AggregateRoutePatchConfiguration\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "List of IPv4 and IPv6 aggregate routes."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.AggregateRoutePatchConfiguration&text=AggregateRoutePatchConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

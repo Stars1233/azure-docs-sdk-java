@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.UpdateStages.WithControlPlaneAclConfiguration"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.UpdateStages.WithControlPlaneAclConfiguration"
+name: "AccessControlList.UpdateStages.WithControlPlaneAclConfiguration"
+nameWithType: "AccessControlList.UpdateStages.WithControlPlaneAclConfiguration"
+summary: "The stage of the Access<wbr>Control<wbr>List update allowing to specify control<wbr>Plane<wbr>Acl<wbr>Configuration."
+syntax: "public static interface **AccessControlList.UpdateStages.WithControlPlaneAclConfiguration**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.UpdateStages.WithControlPlaneAclConfiguration.withControlPlaneAclConfigurationForUpdate(java.util.List<com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPatchProperties>)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.UpdateStages.WithControlPlaneAclConfiguration.withControlPlaneAclConfigurationForUpdate(List<ControlPlaneAclPatchProperties> controlPlaneAclConfiguration)"
+  name: "withControlPlaneAclConfigurationForUpdate(List<ControlPlaneAclPatchProperties> controlPlaneAclConfiguration)"
+  nameWithType: "AccessControlList.UpdateStages.WithControlPlaneAclConfiguration.withControlPlaneAclConfigurationForUpdate(List<ControlPlaneAclPatchProperties> controlPlaneAclConfiguration)"
+  summary: "Specifies the control<wbr>Plane<wbr>Acl<wbr>Configuration property: Access Control List (ACL) configurations.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Access Control List (ACL) configurations."
+    name: "controlPlaneAclConfiguration"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.ControlPlaneAclPatchProperties&text=ControlPlaneAclPatchProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract AccessControlList.Update withControlPlaneAclConfigurationForUpdate(List<ControlPlaneAclPatchProperties> controlPlaneAclConfiguration)"
+  desc: "Specifies the controlPlaneAclConfiguration property: Access Control List (ACL) configurations.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.Update?alt=com.azure.resourcemanager.managednetworkfabric.models.AccessControlList.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the AccessControlList update allowing to specify controlPlaneAclConfiguration."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

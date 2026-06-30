@@ -50,6 +50,18 @@ fields:
     type: "<xref href=\"com.azure.resourcemanager.compute.models.ZonalPlatformFaultDomainAlignMode?alt=com.azure.resourcemanager.compute.models.ZonalPlatformFaultDomainAlignMode&text=ZonalPlatformFaultDomainAlignMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ZonalPlatformFaultDomainAlignMode ALIGNED"
   desc: "Static value Aligned for ZonalPlatformFaultDomainAlignMode."
+- uid: "com.azure.resourcemanager.compute.models.ZonalPlatformFaultDomainAlignMode.BEST_EFFORT_ALIGNED"
+  fullName: "com.azure.resourcemanager.compute.models.ZonalPlatformFaultDomainAlignMode.BEST_EFFORT_ALIGNED"
+  name: "BEST_EFFORT_ALIGNED"
+  nameWithType: "ZonalPlatformFaultDomainAlignMode.BEST_EFFORT_ALIGNED"
+  summary: "Offload Alignment to VMSS."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.ZonalPlatformFaultDomainAlignMode?alt=com.azure.resourcemanager.compute.models.ZonalPlatformFaultDomainAlignMode&text=ZonalPlatformFaultDomainAlignMode\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ZonalPlatformFaultDomainAlignMode BEST_EFFORT_ALIGNED"
+  desc: "Offload Alignment to VMSS. VMSS aligns disks that support enough Storage Fault Domains, while keeping others unaligned."
 - uid: "com.azure.resourcemanager.compute.models.ZonalPlatformFaultDomainAlignMode.UNALIGNED"
   fullName: "com.azure.resourcemanager.compute.models.ZonalPlatformFaultDomainAlignMode.UNALIGNED"
   name: "UNALIGNED"
@@ -95,4 +107,4 @@ type: "class"
 desc: "Specifies the align mode between Virtual Machine Scale Set compute and storage Fault Domain count."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

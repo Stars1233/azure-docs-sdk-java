@@ -42,62 +42,62 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRole.CE"
   name: "CE"
   nameWithType: "NetworkDeviceRole.CE"
-  summary: "Static value CE for Network<wbr>Device<wbr>Role."
+  summary: "Network<wbr>Device<wbr>Role-CE(Customer Edge)."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRole?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRole&text=NetworkDeviceRole\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NetworkDeviceRole CE"
-  desc: "Static value CE for NetworkDeviceRole."
+  desc: "NetworkDeviceRole-CE(Customer Edge)."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRole.MANAGEMENT"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRole.MANAGEMENT"
   name: "MANAGEMENT"
   nameWithType: "NetworkDeviceRole.MANAGEMENT"
-  summary: "Static value Management for Network<wbr>Device<wbr>Role."
+  summary: "Network<wbr>Device<wbr>Role-Management."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRole?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRole&text=NetworkDeviceRole\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NetworkDeviceRole MANAGEMENT"
-  desc: "Static value Management for NetworkDeviceRole."
+  desc: "NetworkDeviceRole-Management."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRole.NPB"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRole.NPB"
   name: "NPB"
   nameWithType: "NetworkDeviceRole.NPB"
-  summary: "Static value NPB for Network<wbr>Device<wbr>Role."
+  summary: "Network<wbr>Device<wbr>Role-NPB(Network Packet Broker)."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRole?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRole&text=NetworkDeviceRole\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NetworkDeviceRole NPB"
-  desc: "Static value NPB for NetworkDeviceRole."
+  desc: "NetworkDeviceRole-NPB(Network Packet Broker)."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRole.TOR"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRole.TOR"
   name: "TOR"
   nameWithType: "NetworkDeviceRole.TOR"
-  summary: "Static value ToR for Network<wbr>Device<wbr>Role."
+  summary: "Network<wbr>Device<wbr>Role-ToR(top of rack)."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRole?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRole&text=NetworkDeviceRole\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NetworkDeviceRole TOR"
-  desc: "Static value ToR for NetworkDeviceRole."
+  desc: "NetworkDeviceRole-ToR(top of rack)."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRole.TS"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRole.TS"
   name: "TS"
   nameWithType: "NetworkDeviceRole.TS"
-  summary: "Static value TS for Network<wbr>Device<wbr>Role."
+  summary: "Network<wbr>Device<wbr>Role-TS(Terminal Server)."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRole?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRole&text=NetworkDeviceRole\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NetworkDeviceRole TS"
-  desc: "Static value TS for NetworkDeviceRole."
+  desc: "NetworkDeviceRole-TS(Terminal Server)."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRole.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkDeviceRole.fromString(String name)"
@@ -131,4 +131,4 @@ type: "class"
 desc: "NetworkDeviceRole is the device role: Example: CE | ToR."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

@@ -49,11 +49,11 @@ methods:
   summary: "Gets the destinations property: List of destinations to send the filter traffic."
   modifiers:
   - "abstract"
-  syntax: "public abstract List<NetworkTapPropertiesDestinationsItem> destinations()"
+  syntax: "public abstract List<DestinationProperties> destinations()"
   desc: "Gets the destinations property: List of destinations to send the filter traffic."
   returns:
     description: "the destinations value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkTapPropertiesDestinationsItem?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkTapPropertiesDestinationsItem&text=NetworkTapPropertiesDestinationsItem\" data-throw-if-not-resolved=\"False\" />&gt;"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.DestinationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.DestinationProperties&text=DestinationProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.id()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.id()"
   name: "id()"
@@ -66,6 +66,18 @@ methods:
   returns:
     description: "the id value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.identity()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.identity()"
+  name: "identity()"
+  nameWithType: "NetworkTap.identity()"
+  summary: "Gets the identity property: The managed service identities assigned to this resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ManagedServiceIdentity identity()"
+  desc: "Gets the identity property: The managed service identities assigned to this resource."
+  returns:
+    description: "the identity value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentity?alt=com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentity&text=ManagedServiceIdentity\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.innerModel()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.innerModel()"
   name: "innerModel()"
@@ -78,6 +90,18 @@ methods:
   returns:
     description: "the inner object."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapInner?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkTapInner&text=NetworkTapInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.lastOperation()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.lastOperation()"
+  name: "lastOperation()"
+  nameWithType: "NetworkTap.lastOperation()"
+  summary: "Gets the last<wbr>Operation property: Details of the last operation performed on the resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract LastOperationProperties lastOperation()"
+  desc: "Gets the lastOperation property: Details of the last operation performed on the resource."
+  returns:
+    description: "the lastOperation value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.LastOperationProperties&text=LastOperationProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.location()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.location()"
   name: "location()"
@@ -102,6 +126,18 @@ methods:
   returns:
     description: "the name value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.networkFabricIds()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.networkFabricIds()"
+  name: "networkFabricIds()"
+  nameWithType: "NetworkTap.networkFabricIds()"
+  summary: "Gets the network<wbr>Fabric<wbr>Ids property: Associated Network Fabric Resource IDs."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<String> networkFabricIds()"
+  desc: "Gets the networkFabricIds property: Associated Network Fabric Resource IDs."
+  returns:
+    description: "the networkFabricIds value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.networkPacketBrokerId()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.networkPacketBrokerId()"
   name: "networkPacketBrokerId()"
@@ -206,30 +242,30 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.resync()"
   name: "resync()"
   nameWithType: "NetworkTap.resync()"
-  summary: "Resync operation on the Network Tap."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
-  syntax: "public abstract CommonPostActionResponseForStateUpdate resync()"
-  desc: "Resync operation on the Network Tap. Implements the operation to the underlying resources."
+  syntax: "public abstract NetworkTapResyncResponse resync()"
+  desc: "Implements the operation to the underlying resources."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate&text=CommonPostActionResponseForStateUpdate\" data-throw-if-not-resolved=\"False\" />"
+    description: "response for NetworkTap Resync operation."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkTapResyncResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkTapResyncResponse&text=NetworkTapResyncResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.resync(com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.resync(Context context)"
   name: "resync(Context context)"
   nameWithType: "NetworkTap.resync(Context context)"
-  summary: "Resync operation on the Network Tap."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForStateUpdate resync(Context context)"
-  desc: "Resync operation on the Network Tap. Implements the operation to the underlying resources."
+  syntax: "public abstract NetworkTapResyncResponse resync(Context context)"
+  desc: "Implements the operation to the underlying resources."
   returns:
-    description: "common response for the state updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForStateUpdate&text=CommonPostActionResponseForStateUpdate\" data-throw-if-not-resolved=\"False\" />"
+    description: "response for NetworkTap Resync operation."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkTapResyncResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkTapResyncResponse&text=NetworkTapResyncResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.sourceTapRuleId()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.sourceTapRuleId()"
   name: "sourceTapRuleId()"
@@ -294,23 +330,23 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.updateAdministrativeState(UpdateAdministrativeState body)"
   name: "updateAdministrativeState(UpdateAdministrativeState body)"
   nameWithType: "NetworkTap.updateAdministrativeState(UpdateAdministrativeState body)"
-  summary: "Updates administrative state of Network Tap."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
   - description: "Request payload."
     name: "body"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState&text=UpdateAdministrativeState\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForDeviceUpdate updateAdministrativeState(UpdateAdministrativeState body)"
-  desc: "Updates administrative state of Network Tap. Implements the operation to the underlying resources."
+  syntax: "public abstract UpdateAdministrativeStateResponse updateAdministrativeState(UpdateAdministrativeState body)"
+  desc: "Implements the operation to the underlying resources."
   returns:
-    description: "common response for device updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate&text=CommonPostActionResponseForDeviceUpdate\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse&text=UpdateAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.updateAdministrativeState(com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeState,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkTap.updateAdministrativeState(UpdateAdministrativeState body, Context context)"
   name: "updateAdministrativeState(UpdateAdministrativeState body, Context context)"
   nameWithType: "NetworkTap.updateAdministrativeState(UpdateAdministrativeState body, Context context)"
-  summary: "Updates administrative state of Network Tap."
+  summary: "Implements the operation to the underlying resources."
   modifiers:
   - "abstract"
   parameters:
@@ -320,13 +356,13 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract CommonPostActionResponseForDeviceUpdate updateAdministrativeState(UpdateAdministrativeState body, Context context)"
-  desc: "Updates administrative state of Network Tap. Implements the operation to the underlying resources."
+  syntax: "public abstract UpdateAdministrativeStateResponse updateAdministrativeState(UpdateAdministrativeState body, Context context)"
+  desc: "Implements the operation to the underlying resources."
   returns:
-    description: "common response for device updates."
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate?alt=com.azure.resourcemanager.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate&text=CommonPostActionResponseForDeviceUpdate\" data-throw-if-not-resolved=\"False\" />"
+    description: "update Administrative State Response."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse?alt=com.azure.resourcemanager.managednetworkfabric.models.UpdateAdministrativeStateResponse&text=UpdateAdministrativeStateResponse\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "An immutable client-side representation of NetworkTap."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

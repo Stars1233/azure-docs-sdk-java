@@ -1,0 +1,122 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.resiliencemanagement.models.IsoDuration"
+fullName: "com.azure.resourcemanager.resiliencemanagement.models.IsoDuration"
+name: "IsoDuration"
+nameWithType: "IsoDuration"
+summary: "ISO 8601 duration formats."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **IsoDuration**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.IsoDuration?alt=com.azure.resourcemanager.resiliencemanagement.models.IsoDuration&text=IsoDuration\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.IsoDuration.IsoDuration()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.IsoDuration.IsoDuration()"
+  name: "IsoDuration()"
+  nameWithType: "IsoDuration.IsoDuration()"
+  summary: "Creates a new instance of Iso<wbr>Duration value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.resiliencemanagement.models.IsoDuration.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public IsoDuration()"
+  desc: "Creates a new instance of IsoDuration value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.IsoDuration.PT15M"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.IsoDuration.PT15M"
+  name: "PT15M"
+  nameWithType: "IsoDuration.PT15M"
+  summary: "15 minutes."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.IsoDuration?alt=com.azure.resourcemanager.resiliencemanagement.models.IsoDuration&text=IsoDuration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final IsoDuration PT15M"
+  desc: "15 minutes."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.IsoDuration.PT1H"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.IsoDuration.PT1H"
+  name: "PT1H"
+  nameWithType: "IsoDuration.PT1H"
+  summary: "1 hour."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.IsoDuration?alt=com.azure.resourcemanager.resiliencemanagement.models.IsoDuration&text=IsoDuration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final IsoDuration PT1H"
+  desc: "1 hour."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.IsoDuration.PT24H"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.IsoDuration.PT24H"
+  name: "PT24H"
+  nameWithType: "IsoDuration.PT24H"
+  summary: "24 hours."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.IsoDuration?alt=com.azure.resourcemanager.resiliencemanagement.models.IsoDuration&text=IsoDuration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final IsoDuration PT24H"
+  desc: "24 hours."
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.IsoDuration.PT4H"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.IsoDuration.PT4H"
+  name: "PT4H"
+  nameWithType: "IsoDuration.PT4H"
+  summary: "4 hours."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.IsoDuration?alt=com.azure.resourcemanager.resiliencemanagement.models.IsoDuration&text=IsoDuration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final IsoDuration PT4H"
+  desc: "4 hours."
+methods:
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.IsoDuration.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.IsoDuration.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "IsoDuration.fromString(String name)"
+  summary: "Creates or finds a Iso<wbr>Duration from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static IsoDuration fromString(String name)"
+  desc: "Creates or finds a IsoDuration from its string representation."
+  returns:
+    description: "the corresponding IsoDuration."
+    type: "<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.IsoDuration?alt=com.azure.resourcemanager.resiliencemanagement.models.IsoDuration&text=IsoDuration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.resiliencemanagement.models.IsoDuration.values()"
+  fullName: "com.azure.resourcemanager.resiliencemanagement.models.IsoDuration.values()"
+  name: "values()"
+  nameWithType: "IsoDuration.values()"
+  summary: "Gets known Iso<wbr>Duration values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<IsoDuration> values()"
+  desc: "Gets known IsoDuration values."
+  returns:
+    description: "known IsoDuration values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.resiliencemanagement.models.IsoDuration?alt=com.azure.resourcemanager.resiliencemanagement.models.IsoDuration&text=IsoDuration\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "ISO 8601 duration formats."
+metadata: {}
+package: "com.azure.resourcemanager.resiliencemanagement.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-resiliencemanagement:1.0.0-beta.1

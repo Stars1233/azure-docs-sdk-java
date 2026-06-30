@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RedistributeConnectedSubnets.FALSE"
   name: "FALSE"
   nameWithType: "RedistributeConnectedSubnets.FALSE"
-  summary: "Static value False for Redistribute<wbr>Connected<wbr>Subnets."
+  summary: "Redistribute<wbr>Connected<wbr>Subnets-False."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RedistributeConnectedSubnets?alt=com.azure.resourcemanager.managednetworkfabric.models.RedistributeConnectedSubnets&text=RedistributeConnectedSubnets\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RedistributeConnectedSubnets FALSE"
-  desc: "Static value False for RedistributeConnectedSubnets."
+  desc: "RedistributeConnectedSubnets-False."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RedistributeConnectedSubnets.TRUE"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RedistributeConnectedSubnets.TRUE"
   name: "TRUE"
   nameWithType: "RedistributeConnectedSubnets.TRUE"
-  summary: "Static value True for Redistribute<wbr>Connected<wbr>Subnets."
+  summary: "Redistribute<wbr>Connected<wbr>Subnets-True."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.RedistributeConnectedSubnets?alt=com.azure.resourcemanager.managednetworkfabric.models.RedistributeConnectedSubnets&text=RedistributeConnectedSubnets\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RedistributeConnectedSubnets TRUE"
-  desc: "Static value True for RedistributeConnectedSubnets."
+  desc: "RedistributeConnectedSubnets-True."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.RedistributeConnectedSubnets.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.RedistributeConnectedSubnets.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Advertise Connected Subnets. Ex: \"True\" | \"False\"."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

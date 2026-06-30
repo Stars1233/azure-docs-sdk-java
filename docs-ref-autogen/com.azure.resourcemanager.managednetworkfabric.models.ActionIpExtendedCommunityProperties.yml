@@ -6,15 +6,7 @@ nameWithType: "ActionIpExtendedCommunityProperties"
 summary: "IP Extended Community Properties."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityAddOperationProperties?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
-- classRef: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityAddOperationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityAddOperationProperties&text=IpExtendedCommunityAddOperationProperties\" data-throw-if-not-resolved=\"False\" />"
-  methodsRef:
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityAddOperationProperties.add()?alt=com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityAddOperationProperties.add&text=add\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityAddOperationProperties.fromJson(com.azure.json.JsonReader)?alt=com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityAddOperationProperties.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityAddOperationProperties.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityAddOperationProperties.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityAddOperationProperties.validate()?alt=com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityAddOperationProperties.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityAddOperationProperties.withAdd(com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityIdList)?alt=com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityAddOperationProperties.withAdd&text=withAdd\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -28,7 +20,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **ActionIpExtendedCommunityProperties**</br> extends <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityAddOperationProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityAddOperationProperties&text=IpExtendedCommunityAddOperationProperties\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public final class **ActionIpExtendedCommunityProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ActionIpExtendedCommunityProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.ActionIpExtendedCommunityProperties&text=ActionIpExtendedCommunityProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.ActionIpExtendedCommunityProperties.ActionIpExtendedCommunityProperties()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.ActionIpExtendedCommunityProperties.ActionIpExtendedCommunityProperties()"
@@ -38,6 +30,16 @@ constructors:
   syntax: "public ActionIpExtendedCommunityProperties()"
   desc: "Creates an instance of ActionIpExtendedCommunityProperties class."
 methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.ActionIpExtendedCommunityProperties.add()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ActionIpExtendedCommunityProperties.add()"
+  name: "add()"
+  nameWithType: "ActionIpExtendedCommunityProperties.add()"
+  summary: "Get the add property: List of IP Extended Community IDs."
+  syntax: "public IpExtendedCommunityIdList add()"
+  desc: "Get the add property: List of IP Extended Community IDs."
+  returns:
+    description: "the add value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityIdList?alt=com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityIdList&text=IpExtendedCommunityIdList\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.ActionIpExtendedCommunityProperties.delete()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.ActionIpExtendedCommunityProperties.delete()"
   name: "delete()"
@@ -81,7 +83,6 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.ActionIpExtendedCommunityProperties.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
   nameWithType: "ActionIpExtendedCommunityProperties.toJson(JsonWriter jsonWriter)"
-  overridden: "com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityAddOperationProperties.toJson(com.azure.json.JsonWriter)"
   parameters:
   - name: "jsonWriter"
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
@@ -90,26 +91,19 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.ActionIpExtendedCommunityProperties.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.ActionIpExtendedCommunityProperties.validate()"
-  name: "validate()"
-  nameWithType: "ActionIpExtendedCommunityProperties.validate()"
-  summary: "Validates the instance."
-  overridden: "com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityAddOperationProperties.validate()"
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.ActionIpExtendedCommunityProperties.withAdd(com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityIdList)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.ActionIpExtendedCommunityProperties.withAdd(IpExtendedCommunityIdList add)"
   name: "withAdd(IpExtendedCommunityIdList add)"
   nameWithType: "ActionIpExtendedCommunityProperties.withAdd(IpExtendedCommunityIdList add)"
   summary: "Set the add property: List of IP Extended Community IDs."
-  overridden: "com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityAddOperationProperties.withAdd(com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityIdList)"
   parameters:
-  - name: "add"
+  - description: "the add value to set."
+    name: "add"
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityIdList?alt=com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityIdList&text=IpExtendedCommunityIdList\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ActionIpExtendedCommunityProperties withAdd(IpExtendedCommunityIdList add)"
   desc: "Set the add property: List of IP Extended Community IDs."
   returns:
+    description: "the ActionIpExtendedCommunityProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ActionIpExtendedCommunityProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.ActionIpExtendedCommunityProperties&text=ActionIpExtendedCommunityProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.ActionIpExtendedCommunityProperties.withDelete(com.azure.resourcemanager.managednetworkfabric.models.IpExtendedCommunityIdList)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.ActionIpExtendedCommunityProperties.withDelete(IpExtendedCommunityIdList delete)"
@@ -141,6 +135,8 @@ methods:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ActionIpExtendedCommunityProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.ActionIpExtendedCommunityProperties&text=ActionIpExtendedCommunityProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "IP Extended Community Properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ActionIpExtendedCommunityProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.ActionIpExtendedCommunityProperties&text=ActionIpExtendedCommunityProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

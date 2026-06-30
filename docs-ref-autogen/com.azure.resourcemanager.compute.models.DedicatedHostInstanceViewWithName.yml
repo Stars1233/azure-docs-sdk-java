@@ -16,8 +16,6 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.resourcemanager.compute.models.DedicatedHostInstanceView.statuses()?alt=com.azure.resourcemanager.compute.models.DedicatedHostInstanceView.statuses&text=statuses\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.compute.models.DedicatedHostInstanceView.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.compute.models.DedicatedHostInstanceView.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.compute.models.DedicatedHostInstanceView.validate()?alt=com.azure.resourcemanager.compute.models.DedicatedHostInstanceView.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.compute.models.DedicatedHostInstanceView.withAvailableCapacity(com.azure.resourcemanager.compute.models.DedicatedHostAvailableCapacity)?alt=com.azure.resourcemanager.compute.models.DedicatedHostInstanceView.withAvailableCapacity&text=withAvailableCapacity\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.compute.models.DedicatedHostInstanceView.withStatuses(java.util.List<com.azure.resourcemanager.compute.models.InstanceViewStatus>)?alt=com.azure.resourcemanager.compute.models.DedicatedHostInstanceView.withStatuses&text=withStatuses\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -32,14 +30,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **DedicatedHostInstanceViewWithName**</br> extends <xref href=\"com.azure.resourcemanager.compute.models.DedicatedHostInstanceView?alt=com.azure.resourcemanager.compute.models.DedicatedHostInstanceView&text=DedicatedHostInstanceView\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName.DedicatedHostInstanceViewWithName()"
-  fullName: "com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName.DedicatedHostInstanceViewWithName()"
-  name: "DedicatedHostInstanceViewWithName()"
-  nameWithType: "DedicatedHostInstanceViewWithName.DedicatedHostInstanceViewWithName()"
-  summary: "Creates an instance of Dedicated<wbr>Host<wbr>Instance<wbr>View<wbr>With<wbr>Name class."
-  syntax: "public DedicatedHostInstanceViewWithName()"
-  desc: "Creates an instance of DedicatedHostInstanceViewWithName class."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName.assetId()"
   fullName: "com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName.assetId()"
@@ -52,6 +42,17 @@ methods:
   returns:
     description: "the assetId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName.availableCapacity()"
+  fullName: "com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName.availableCapacity()"
+  name: "availableCapacity()"
+  nameWithType: "DedicatedHostInstanceViewWithName.availableCapacity()"
+  summary: "Get the available<wbr>Capacity property: Unutilized capacity of the dedicated host."
+  overridden: "com.azure.resourcemanager.compute.models.DedicatedHostInstanceView.availableCapacity()"
+  syntax: "public DedicatedHostAvailableCapacity availableCapacity()"
+  desc: "Get the availableCapacity property: Unutilized capacity of the dedicated host."
+  returns:
+    description: "the availableCapacity value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.DedicatedHostAvailableCapacity?alt=com.azure.resourcemanager.compute.models.DedicatedHostAvailableCapacity&text=DedicatedHostAvailableCapacity\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -81,6 +82,17 @@ methods:
   returns:
     description: "the name value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName.statuses()"
+  fullName: "com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName.statuses()"
+  name: "statuses()"
+  nameWithType: "DedicatedHostInstanceViewWithName.statuses()"
+  summary: "Get the statuses property: The resource status information."
+  overridden: "com.azure.resourcemanager.compute.models.DedicatedHostInstanceView.statuses()"
+  syntax: "public List<InstanceViewStatus> statuses()"
+  desc: "Get the statuses property: The resource status information."
+  returns:
+    description: "the statuses value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.InstanceViewStatus?alt=com.azure.resourcemanager.compute.models.InstanceViewStatus&text=InstanceViewStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -102,34 +114,8 @@ methods:
   overridden: "com.azure.resourcemanager.compute.models.DedicatedHostInstanceView.validate()"
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName.withAvailableCapacity(com.azure.resourcemanager.compute.models.DedicatedHostAvailableCapacity)"
-  fullName: "com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName.withAvailableCapacity(DedicatedHostAvailableCapacity availableCapacity)"
-  name: "withAvailableCapacity(DedicatedHostAvailableCapacity availableCapacity)"
-  nameWithType: "DedicatedHostInstanceViewWithName.withAvailableCapacity(DedicatedHostAvailableCapacity availableCapacity)"
-  summary: "Set the available<wbr>Capacity property: Unutilized capacity of the dedicated host."
-  overridden: "com.azure.resourcemanager.compute.models.DedicatedHostInstanceView.withAvailableCapacity(com.azure.resourcemanager.compute.models.DedicatedHostAvailableCapacity)"
-  parameters:
-  - name: "availableCapacity"
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.DedicatedHostAvailableCapacity?alt=com.azure.resourcemanager.compute.models.DedicatedHostAvailableCapacity&text=DedicatedHostAvailableCapacity\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public DedicatedHostInstanceViewWithName withAvailableCapacity(DedicatedHostAvailableCapacity availableCapacity)"
-  desc: "Set the availableCapacity property: Unutilized capacity of the dedicated host."
-  returns:
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName?alt=com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName&text=DedicatedHostInstanceViewWithName\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName.withStatuses(java.util.List<com.azure.resourcemanager.compute.models.InstanceViewStatus>)"
-  fullName: "com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName.withStatuses(List<InstanceViewStatus> statuses)"
-  name: "withStatuses(List<InstanceViewStatus> statuses)"
-  nameWithType: "DedicatedHostInstanceViewWithName.withStatuses(List<InstanceViewStatus> statuses)"
-  summary: "Set the statuses property: The resource status information."
-  overridden: "com.azure.resourcemanager.compute.models.DedicatedHostInstanceView.withStatuses(java.util.List<com.azure.resourcemanager.compute.models.InstanceViewStatus>)"
-  parameters:
-  - name: "statuses"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.InstanceViewStatus?alt=com.azure.resourcemanager.compute.models.InstanceViewStatus&text=InstanceViewStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public DedicatedHostInstanceViewWithName withStatuses(List<InstanceViewStatus> statuses)"
-  desc: "Set the statuses property: The resource status information."
-  returns:
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName?alt=com.azure.resourcemanager.compute.models.DedicatedHostInstanceViewWithName&text=DedicatedHostInstanceViewWithName\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The instance view of a dedicated host that includes the name of the dedicated host. It is used for the response to the instance view of a dedicated host group."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

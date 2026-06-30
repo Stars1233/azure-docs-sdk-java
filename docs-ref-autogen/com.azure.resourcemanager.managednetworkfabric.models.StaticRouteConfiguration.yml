@@ -20,7 +20,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public class **StaticRouteConfiguration**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration&text=StaticRouteConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
+syntax: "public final class **StaticRouteConfiguration**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration&text=StaticRouteConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration.StaticRouteConfiguration()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration.StaticRouteConfiguration()"
@@ -40,6 +40,16 @@ methods:
   returns:
     description: "the bfdConfiguration value."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BfdConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.BfdConfiguration&text=BfdConfiguration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration.extension()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration.extension()"
+  name: "extension()"
+  nameWithType: "StaticRouteConfiguration.extension()"
+  summary: "Get the extension property: Extension."
+  syntax: "public Extension extension()"
+  desc: "Get the extension property: Extension. Example: NoExtension | NPB."
+  returns:
+    description: "the extension value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.Extension?alt=com.azure.resourcemanager.managednetworkfabric.models.Extension&text=Extension\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -91,13 +101,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration.validate()"
-  name: "validate()"
-  nameWithType: "StaticRouteConfiguration.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration.withBfdConfiguration(com.azure.resourcemanager.managednetworkfabric.models.BfdConfiguration)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration.withBfdConfiguration(BfdConfiguration bfdConfiguration)"
   name: "withBfdConfiguration(BfdConfiguration bfdConfiguration)"
@@ -109,6 +112,20 @@ methods:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BfdConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.BfdConfiguration&text=BfdConfiguration\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public StaticRouteConfiguration withBfdConfiguration(BfdConfiguration bfdConfiguration)"
   desc: "Set the bfdConfiguration property: BFD configuration properties."
+  returns:
+    description: "the StaticRouteConfiguration object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration&text=StaticRouteConfiguration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration.withExtension(com.azure.resourcemanager.managednetworkfabric.models.Extension)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration.withExtension(Extension extension)"
+  name: "withExtension(Extension extension)"
+  nameWithType: "StaticRouteConfiguration.withExtension(Extension extension)"
+  summary: "Set the extension property: Extension."
+  parameters:
+  - description: "the extension value to set."
+    name: "extension"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.Extension?alt=com.azure.resourcemanager.managednetworkfabric.models.Extension&text=Extension\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public StaticRouteConfiguration withExtension(Extension extension)"
+  desc: "Set the extension property: Extension. Example: NoExtension | NPB."
   returns:
     description: "the StaticRouteConfiguration object itself."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration&text=StaticRouteConfiguration\" data-throw-if-not-resolved=\"False\" />"
@@ -146,4 +163,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration?alt=com.azure.resourcemanager.managednetworkfabric.models.StaticRouteConfiguration&text=StaticRouteConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

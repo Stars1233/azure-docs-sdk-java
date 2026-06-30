@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.DefinitionStages.WithExtendedVlan"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.DefinitionStages.WithExtendedVlan"
+name: "L2IsolationDomain.DefinitionStages.WithExtendedVlan"
+nameWithType: "L2IsolationDomain.DefinitionStages.WithExtendedVlan"
+summary: "The stage of the L2Isolation<wbr>Domain definition allowing to specify extended<wbr>Vlan."
+syntax: "public static interface **L2IsolationDomain.DefinitionStages.WithExtendedVlan**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.DefinitionStages.WithExtendedVlan.withExtendedVlan(com.azure.resourcemanager.managednetworkfabric.models.ExtendedVlan)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.DefinitionStages.WithExtendedVlan.withExtendedVlan(ExtendedVlan extendedVlan)"
+  name: "withExtendedVlan(ExtendedVlan extendedVlan)"
+  nameWithType: "L2IsolationDomain.DefinitionStages.WithExtendedVlan.withExtendedVlan(ExtendedVlan extendedVlan)"
+  summary: "Specifies the extended<wbr>Vlan property: Extended VLAN status, default value is Disabled.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Extended VLAN status, default value is Disabled."
+    name: "extendedVlan"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExtendedVlan?alt=com.azure.resourcemanager.managednetworkfabric.models.ExtendedVlan&text=ExtendedVlan\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract L2IsolationDomain.DefinitionStages.WithCreate withExtendedVlan(ExtendedVlan extendedVlan)"
+  desc: "Specifies the extendedVlan property: Extended VLAN status, default value is Disabled.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.managednetworkfabric.models.L2IsolationDomain.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the L2IsolationDomain definition allowing to specify extendedVlan."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

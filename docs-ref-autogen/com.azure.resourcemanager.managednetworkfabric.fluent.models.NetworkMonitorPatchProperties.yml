@@ -1,0 +1,94 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkMonitorPatchProperties"
+fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkMonitorPatchProperties"
+name: "NetworkMonitorPatchProperties"
+nameWithType: "NetworkMonitorPatchProperties"
+summary: "The Network Monitor Patch Properties."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **NetworkMonitorPatchProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkMonitorPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkMonitorPatchProperties&text=NetworkMonitorPatchProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkMonitorPatchProperties.NetworkMonitorPatchProperties()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkMonitorPatchProperties.NetworkMonitorPatchProperties()"
+  name: "NetworkMonitorPatchProperties()"
+  nameWithType: "NetworkMonitorPatchProperties.NetworkMonitorPatchProperties()"
+  summary: "Creates an instance of Network<wbr>Monitor<wbr>Patch<wbr>Properties class."
+  syntax: "public NetworkMonitorPatchProperties()"
+  desc: "Creates an instance of NetworkMonitorPatchProperties class."
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkMonitorPatchProperties.bmpConfiguration()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkMonitorPatchProperties.bmpConfiguration()"
+  name: "bmpConfiguration()"
+  nameWithType: "NetworkMonitorPatchProperties.bmpConfiguration()"
+  summary: "Get the bmp<wbr>Configuration property: BGP Monitoring Protocol (BMP) Configurations for the Network Monitor."
+  syntax: "public BmpConfigurationPatchProperties bmpConfiguration()"
+  desc: "Get the bmpConfiguration property: BGP Monitoring Protocol (BMP) Configurations for the Network Monitor."
+  returns:
+    description: "the bmpConfiguration value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BmpConfigurationPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.BmpConfigurationPatchProperties&text=BmpConfigurationPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkMonitorPatchProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkMonitorPatchProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "NetworkMonitorPatchProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Network<wbr>Monitor<wbr>Patch<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static NetworkMonitorPatchProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the NetworkMonitorPatchProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of NetworkMonitorPatchProperties from the JsonReader."
+  returns:
+    description: "An instance of NetworkMonitorPatchProperties if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkMonitorPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkMonitorPatchProperties&text=NetworkMonitorPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkMonitorPatchProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkMonitorPatchProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "NetworkMonitorPatchProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkMonitorPatchProperties.withBmpConfiguration(com.azure.resourcemanager.managednetworkfabric.models.BmpConfigurationPatchProperties)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkMonitorPatchProperties.withBmpConfiguration(BmpConfigurationPatchProperties bmpConfiguration)"
+  name: "withBmpConfiguration(BmpConfigurationPatchProperties bmpConfiguration)"
+  nameWithType: "NetworkMonitorPatchProperties.withBmpConfiguration(BmpConfigurationPatchProperties bmpConfiguration)"
+  summary: "Set the bmp<wbr>Configuration property: BGP Monitoring Protocol (BMP) Configurations for the Network Monitor."
+  parameters:
+  - description: "the bmpConfiguration value to set."
+    name: "bmpConfiguration"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.BmpConfigurationPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.models.BmpConfigurationPatchProperties&text=BmpConfigurationPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public NetworkMonitorPatchProperties withBmpConfiguration(BmpConfigurationPatchProperties bmpConfiguration)"
+  desc: "Set the bmpConfiguration property: BGP Monitoring Protocol (BMP) Configurations for the Network Monitor."
+  returns:
+    description: "the NetworkMonitorPatchProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkMonitorPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkMonitorPatchProperties&text=NetworkMonitorPatchProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The Network Monitor Patch Properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkMonitorPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.NetworkMonitorPatchProperties&text=NetworkMonitorPatchProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.fluent.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

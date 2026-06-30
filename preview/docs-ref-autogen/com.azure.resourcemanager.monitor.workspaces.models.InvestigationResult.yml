@@ -1,0 +1,85 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.monitor.workspaces.models.InvestigationResult"
+fullName: "com.azure.resourcemanager.monitor.workspaces.models.InvestigationResult"
+name: "InvestigationResult"
+nameWithType: "InvestigationResult"
+summary: "An immutable client-side representation of Investigation<wbr>Result."
+syntax: "public interface **InvestigationResult**"
+methods:
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.InvestigationResult.createdAt()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.InvestigationResult.createdAt()"
+  name: "createdAt()"
+  nameWithType: "InvestigationResult.createdAt()"
+  summary: "Gets the created<wbr>At property: The creation time of the investigation (in UTC)."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract OffsetDateTime createdAt()"
+  desc: "Gets the createdAt property: The creation time of the investigation (in UTC)."
+  returns:
+    description: "the createdAt value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.InvestigationResult.id()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.InvestigationResult.id()"
+  name: "id()"
+  nameWithType: "InvestigationResult.id()"
+  summary: "Gets the id property: The identifier of the investigation."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String id()"
+  desc: "Gets the id property: The identifier of the investigation."
+  returns:
+    description: "the id value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.InvestigationResult.innerModel()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.InvestigationResult.innerModel()"
+  name: "innerModel()"
+  nameWithType: "InvestigationResult.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>monitor.<wbr>workspaces.<wbr>fluent.<wbr>models.<wbr>Investigation<wbr>Result<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract InvestigationResultInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.monitor.workspaces.fluent.models.InvestigationResultInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.fluent.models.InvestigationResultInner?alt=com.azure.resourcemanager.monitor.workspaces.fluent.models.InvestigationResultInner&text=InvestigationResultInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.InvestigationResult.lastModifiedAt()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.InvestigationResult.lastModifiedAt()"
+  name: "lastModifiedAt()"
+  nameWithType: "InvestigationResult.lastModifiedAt()"
+  summary: "Gets the last<wbr>Modified<wbr>At property: The last update time of the investigation (in UTC)."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract OffsetDateTime lastModifiedAt()"
+  desc: "Gets the lastModifiedAt property: The last update time of the investigation (in UTC)."
+  returns:
+    description: "the lastModifiedAt value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.InvestigationResult.origin()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.InvestigationResult.origin()"
+  name: "origin()"
+  nameWithType: "InvestigationResult.origin()"
+  summary: "Gets the origin property: The origin of the investigation."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Origin origin()"
+  desc: "Gets the origin property: The origin of the investigation."
+  returns:
+    description: "the origin value."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.workspaces.models.Origin?alt=com.azure.resourcemanager.monitor.workspaces.models.Origin&text=Origin\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.workspaces.models.InvestigationResult.result()"
+  fullName: "com.azure.resourcemanager.monitor.workspaces.models.InvestigationResult.result()"
+  name: "result()"
+  nameWithType: "InvestigationResult.result()"
+  summary: "Gets the result property: The result of this investigation."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String result()"
+  desc: "Gets the result property: The result of this investigation."
+  returns:
+    description: "the result value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "interface"
+desc: "An immutable client-side representation of InvestigationResult."
+metadata: {}
+package: "com.azure.resourcemanager.monitor.workspaces.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor-workspaces:1.0.0-beta.1

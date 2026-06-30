@@ -6,18 +6,18 @@ nameWithType: "NetworkToNetworkInterconnect.UpdateStages.WithExportRoutePolicy"
 summary: "The stage of the Network<wbr>ToNetwork<wbr>Interconnect update allowing to specify export<wbr>Route<wbr>Policy."
 syntax: "public static interface **NetworkToNetworkInterconnect.UpdateStages.WithExportRoutePolicy**"
 methods:
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.UpdateStages.WithExportRoutePolicy.withExportRoutePolicy(com.azure.resourcemanager.managednetworkfabric.models.ExportRoutePolicyInformation)"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.UpdateStages.WithExportRoutePolicy.withExportRoutePolicy(ExportRoutePolicyInformation exportRoutePolicy)"
-  name: "withExportRoutePolicy(ExportRoutePolicyInformation exportRoutePolicy)"
-  nameWithType: "NetworkToNetworkInterconnect.UpdateStages.WithExportRoutePolicy.withExportRoutePolicy(ExportRoutePolicyInformation exportRoutePolicy)"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.UpdateStages.WithExportRoutePolicy.withExportRoutePolicy(com.azure.resourcemanager.managednetworkfabric.models.ExportRoutePolicyInformationPatch)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkToNetworkInterconnect.UpdateStages.WithExportRoutePolicy.withExportRoutePolicy(ExportRoutePolicyInformationPatch exportRoutePolicy)"
+  name: "withExportRoutePolicy(ExportRoutePolicyInformationPatch exportRoutePolicy)"
+  nameWithType: "NetworkToNetworkInterconnect.UpdateStages.WithExportRoutePolicy.withExportRoutePolicy(ExportRoutePolicyInformationPatch exportRoutePolicy)"
   summary: "Specifies the export<wbr>Route<wbr>Policy property: Export Route Policy information."
   modifiers:
   - "abstract"
   parameters:
   - description: "Export Route Policy information."
     name: "exportRoutePolicy"
-    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExportRoutePolicyInformation?alt=com.azure.resourcemanager.managednetworkfabric.models.ExportRoutePolicyInformation&text=ExportRoutePolicyInformation\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract NetworkToNetworkInterconnect.Update withExportRoutePolicy(ExportRoutePolicyInformation exportRoutePolicy)"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExportRoutePolicyInformationPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.ExportRoutePolicyInformationPatch&text=ExportRoutePolicyInformationPatch\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NetworkToNetworkInterconnect.Update withExportRoutePolicy(ExportRoutePolicyInformationPatch exportRoutePolicy)"
   desc: "Specifies the exportRoutePolicy property: Export Route Policy information."
   returns:
     description: "the next definition stage."
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the NetworkToNetworkInterconnect update allowing to specify exportRoutePolicy."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

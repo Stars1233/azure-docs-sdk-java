@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.DestinationType.DIRECT"
   name: "DIRECT"
   nameWithType: "DestinationType.DIRECT"
-  summary: "Static value Direct for Destination<wbr>Type."
+  summary: "Destination<wbr>Type-Direct."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.DestinationType?alt=com.azure.resourcemanager.managednetworkfabric.models.DestinationType&text=DestinationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DestinationType DIRECT"
-  desc: "Static value Direct for DestinationType."
+  desc: "DestinationType-Direct."
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.DestinationType.ISOLATION_DOMAIN"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.DestinationType.ISOLATION_DOMAIN"
   name: "ISOLATION_DOMAIN"
   nameWithType: "DestinationType.ISOLATION_DOMAIN"
-  summary: "Static value Isolation<wbr>Domain for Destination<wbr>Type."
+  summary: "Destination<wbr>Type-Isolation<wbr>Domain."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.DestinationType?alt=com.azure.resourcemanager.managednetworkfabric.models.DestinationType&text=DestinationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DestinationType ISOLATION_DOMAIN"
-  desc: "Static value IsolationDomain for DestinationType."
+  desc: "DestinationType-IsolationDomain."
 methods:
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.DestinationType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.DestinationType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Type of destination. Input can be IsolationDomain or Direct."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

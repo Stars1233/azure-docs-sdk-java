@@ -1,0 +1,101 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventAdditionalContext"
+fullName: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventAdditionalContext"
+name: "VMScaleSetLifecycleHookEventAdditionalContext"
+nameWithType: "VMScaleSetLifecycleHookEventAdditionalContext"
+summary: "Additional key-value pairs set on the lifecycle hook event that gives customer some useful context/data."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **VMScaleSetLifecycleHookEventAdditionalContext**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventAdditionalContext?alt=com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventAdditionalContext&text=VMScaleSetLifecycleHookEventAdditionalContext\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventAdditionalContext.VMScaleSetLifecycleHookEventAdditionalContext()"
+  fullName: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventAdditionalContext.VMScaleSetLifecycleHookEventAdditionalContext()"
+  name: "VMScaleSetLifecycleHookEventAdditionalContext()"
+  nameWithType: "VMScaleSetLifecycleHookEventAdditionalContext.VMScaleSetLifecycleHookEventAdditionalContext()"
+  summary: "Creates an instance of VMScale<wbr>Set<wbr>Lifecycle<wbr>Hook<wbr>Event<wbr>Additional<wbr>Context class."
+  syntax: "public VMScaleSetLifecycleHookEventAdditionalContext()"
+  desc: "Creates an instance of VMScaleSetLifecycleHookEventAdditionalContext class."
+methods:
+- uid: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventAdditionalContext.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventAdditionalContext.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "VMScaleSetLifecycleHookEventAdditionalContext.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of VMScale<wbr>Set<wbr>Lifecycle<wbr>Hook<wbr>Event<wbr>Additional<wbr>Context from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static VMScaleSetLifecycleHookEventAdditionalContext fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the VMScaleSetLifecycleHookEventAdditionalContext."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of VMScaleSetLifecycleHookEventAdditionalContext from the JsonReader."
+  returns:
+    description: "An instance of VMScaleSetLifecycleHookEventAdditionalContext if the JsonReader was pointing to an\n instance of it, or null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventAdditionalContext?alt=com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventAdditionalContext&text=VMScaleSetLifecycleHookEventAdditionalContext\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventAdditionalContext.priority()"
+  fullName: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventAdditionalContext.priority()"
+  name: "priority()"
+  nameWithType: "VMScaleSetLifecycleHookEventAdditionalContext.priority()"
+  summary: "Get the priority property: Can only be present for a lifecycle hook event of type \"Upgrade<wbr>Auto<wbr>OSScheduling\"."
+  syntax: "public String priority()"
+  desc: "Get the priority property: Can only be present for a lifecycle hook event of type \"UpgradeAutoOSScheduling\". Denotes the priority of the virtual machine scale set lifecycle hook event for the Auto OS Upgrade scheduled on the virtual machine scale set."
+  returns:
+    description: "the priority value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventAdditionalContext.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventAdditionalContext.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "VMScaleSetLifecycleHookEventAdditionalContext.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventAdditionalContext.validate()"
+  fullName: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventAdditionalContext.validate()"
+  name: "validate()"
+  nameWithType: "VMScaleSetLifecycleHookEventAdditionalContext.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventAdditionalContext.withPriority(java.lang.String)"
+  fullName: "com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventAdditionalContext.withPriority(String priority)"
+  name: "withPriority(String priority)"
+  nameWithType: "VMScaleSetLifecycleHookEventAdditionalContext.withPriority(String priority)"
+  summary: "Set the priority property: Can only be present for a lifecycle hook event of type \"Upgrade<wbr>Auto<wbr>OSScheduling\"."
+  parameters:
+  - description: "the priority value to set."
+    name: "priority"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public VMScaleSetLifecycleHookEventAdditionalContext withPriority(String priority)"
+  desc: "Set the priority property: Can only be present for a lifecycle hook event of type \"UpgradeAutoOSScheduling\". Denotes the priority of the virtual machine scale set lifecycle hook event for the Auto OS Upgrade scheduled on the virtual machine scale set."
+  returns:
+    description: "the VMScaleSetLifecycleHookEventAdditionalContext object itself."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventAdditionalContext?alt=com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventAdditionalContext&text=VMScaleSetLifecycleHookEventAdditionalContext\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Additional key-value pairs set on the lifecycle hook event that gives customer some useful context/data. The keys in this dictionary are specific to the lifecycle hook type. Different lifecycle hook events can have different sets of keys in the additional context depending on the lifecycle hook type. For example, for a lifecycle hook event with UpgradeAutoOSScheduling type, the additional context can contain the key \"priority\" that helps customer identify the priority of the Auto OS Upgrade operation triggered on the virtual machine scale set."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventAdditionalContext?alt=com.azure.resourcemanager.compute.models.VMScaleSetLifecycleHookEventAdditionalContext&text=VMScaleSetLifecycleHookEventAdditionalContext\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.compute.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

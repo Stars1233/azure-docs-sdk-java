@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.servicefabric.models.NotificationChannel.EMAIL_SUBSCRIPTION"
   name: "EMAIL_SUBSCRIPTION"
   nameWithType: "NotificationChannel.EMAIL_SUBSCRIPTION"
-  summary: "Static value Email<wbr>Subscription for Notification<wbr>Channel."
+  summary: "For subscription receivers."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.NotificationChannel?alt=com.azure.resourcemanager.servicefabric.models.NotificationChannel&text=NotificationChannel\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NotificationChannel EMAIL_SUBSCRIPTION"
-  desc: "Static value EmailSubscription for NotificationChannel."
+  desc: "For subscription receivers. In this case, the parameter receivers should be a list of roles of the subscription for the cluster (eg. Owner, AccountAdmin, etc) that will receive the notifications."
 - uid: "com.azure.resourcemanager.servicefabric.models.NotificationChannel.EMAIL_USER"
   fullName: "com.azure.resourcemanager.servicefabric.models.NotificationChannel.EMAIL_USER"
   name: "EMAIL_USER"
   nameWithType: "NotificationChannel.EMAIL_USER"
-  summary: "Static value Email<wbr>User for Notification<wbr>Channel."
+  summary: "For email user receivers."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.NotificationChannel?alt=com.azure.resourcemanager.servicefabric.models.NotificationChannel&text=NotificationChannel\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NotificationChannel EMAIL_USER"
-  desc: "Static value EmailUser for NotificationChannel."
+  desc: "For email user receivers. In this case, the parameter receivers should be a list of email addresses that will receive the notifications."
 methods:
 - uid: "com.azure.resourcemanager.servicefabric.models.NotificationChannel.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.servicefabric.models.NotificationChannel.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The notification channel indicates the type of receivers subscribed to the notification, either user or subscription."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1

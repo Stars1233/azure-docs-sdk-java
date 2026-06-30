@@ -6,15 +6,7 @@ nameWithType: "IpPrefixPatchProperties"
 summary: "IP Prefix patchable properties."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
-- classRef: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource?alt=com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource&text=AnnotationResource\" data-throw-if-not-resolved=\"False\" />"
-  methodsRef:
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.annotation()?alt=com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.annotation&text=annotation\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.fromJson(com.azure.json.JsonReader)?alt=com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.validate()?alt=com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.withAnnotation(java.lang.String)?alt=com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.withAnnotation&text=withAnnotation\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -28,7 +20,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **IpPrefixPatchProperties**</br> extends <xref href=\"com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource?alt=com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource&text=AnnotationResource\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public final class **IpPrefixPatchProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixPatchProperties&text=IpPrefixPatchProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixPatchProperties.IpPrefixPatchProperties()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixPatchProperties.IpPrefixPatchProperties()"
@@ -38,6 +30,16 @@ constructors:
   syntax: "public IpPrefixPatchProperties()"
   desc: "Creates an instance of IpPrefixPatchProperties class."
 methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixPatchProperties.annotation()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixPatchProperties.annotation()"
+  name: "annotation()"
+  nameWithType: "IpPrefixPatchProperties.annotation()"
+  summary: "Get the annotation property: Switch configuration description."
+  syntax: "public String annotation()"
+  desc: "Get the annotation property: Switch configuration description."
+  returns:
+    description: "the annotation value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixPatchProperties.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixPatchProperties.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -71,7 +73,6 @@ methods:
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixPatchProperties.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
   nameWithType: "IpPrefixPatchProperties.toJson(JsonWriter jsonWriter)"
-  overridden: "com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.toJson(com.azure.json.JsonWriter)"
   parameters:
   - name: "jsonWriter"
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
@@ -80,26 +81,19 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixPatchProperties.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixPatchProperties.validate()"
-  name: "validate()"
-  nameWithType: "IpPrefixPatchProperties.validate()"
-  summary: "Validates the instance."
-  overridden: "com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.validate()"
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixPatchProperties.withAnnotation(java.lang.String)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixPatchProperties.withAnnotation(String annotation)"
   name: "withAnnotation(String annotation)"
   nameWithType: "IpPrefixPatchProperties.withAnnotation(String annotation)"
   summary: "Set the annotation property: Switch configuration description."
-  overridden: "com.azure.resourcemanager.managednetworkfabric.models.AnnotationResource.withAnnotation(java.lang.String)"
   parameters:
-  - name: "annotation"
+  - description: "the annotation value to set."
+    name: "annotation"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public IpPrefixPatchProperties withAnnotation(String annotation)"
   desc: "Set the annotation property: Switch configuration description."
   returns:
+    description: "the IpPrefixPatchProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixPatchProperties&text=IpPrefixPatchProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixPatchProperties.withIpPrefixRules(java.util.List<com.azure.resourcemanager.managednetworkfabric.models.IpPrefixRule>)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixPatchProperties.withIpPrefixRules(List<IpPrefixRule> ipPrefixRules)"
@@ -117,6 +111,8 @@ methods:
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixPatchProperties&text=IpPrefixPatchProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "IP Prefix patchable properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixPatchProperties?alt=com.azure.resourcemanager.managednetworkfabric.fluent.models.IpPrefixPatchProperties&text=IpPrefixPatchProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

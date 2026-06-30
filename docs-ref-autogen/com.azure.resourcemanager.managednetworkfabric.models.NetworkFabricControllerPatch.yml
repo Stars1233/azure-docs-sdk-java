@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControl
 fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllerPatch"
 name: "NetworkFabricControllerPatch"
 nameWithType: "NetworkFabricControllerPatch"
-summary: "Network Fabric Controller patch parameters The Network Fabric Controller Patch payload definition."
+summary: "The Network Fabric Controller Patch payload definition."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -13,7 +13,6 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.fromJson(com.azure.json.JsonReader)?alt=com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.tags()?alt=com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.tags&text=tags\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.validate()?alt=com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.withTags(java.util.Map<java.lang.String,java.lang.String>)?alt=com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.withTags&text=withTags\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
@@ -57,6 +56,16 @@ methods:
   returns:
     description: "An instance of NetworkFabricControllerPatch if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllerPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllerPatch&text=NetworkFabricControllerPatch\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllerPatch.identity()"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllerPatch.identity()"
+  name: "identity()"
+  nameWithType: "NetworkFabricControllerPatch.identity()"
+  summary: "Get the identity property: The managed service identities assigned to this resource."
+  syntax: "public ManagedServiceIdentityPatch identity()"
+  desc: "Get the identity property: The managed service identities assigned to this resource."
+  returns:
+    description: "the identity value."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentityPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentityPatch&text=ManagedServiceIdentityPatch\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllerPatch.infrastructureExpressRouteConnections()"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllerPatch.infrastructureExpressRouteConnections()"
   name: "infrastructureExpressRouteConnections()"
@@ -80,14 +89,20 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllerPatch.validate()"
-  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllerPatch.validate()"
-  name: "validate()"
-  nameWithType: "NetworkFabricControllerPatch.validate()"
-  summary: "Validates the instance."
-  overridden: "com.azure.resourcemanager.managednetworkfabric.models.TagsUpdate.validate()"
-  syntax: "public void validate()"
-  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllerPatch.withIdentity(com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentityPatch)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllerPatch.withIdentity(ManagedServiceIdentityPatch identity)"
+  name: "withIdentity(ManagedServiceIdentityPatch identity)"
+  nameWithType: "NetworkFabricControllerPatch.withIdentity(ManagedServiceIdentityPatch identity)"
+  summary: "Set the identity property: The managed service identities assigned to this resource."
+  parameters:
+  - description: "the identity value to set."
+    name: "identity"
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentityPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.ManagedServiceIdentityPatch&text=ManagedServiceIdentityPatch\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public NetworkFabricControllerPatch withIdentity(ManagedServiceIdentityPatch identity)"
+  desc: "Set the identity property: The managed service identities assigned to this resource."
+  returns:
+    description: "the NetworkFabricControllerPatch object itself."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllerPatch?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllerPatch&text=NetworkFabricControllerPatch\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllerPatch.withInfrastructureExpressRouteConnections(java.util.List<com.azure.resourcemanager.managednetworkfabric.models.ExpressRouteConnectionInformation>)"
   fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabricControllerPatch.withInfrastructureExpressRouteConnections(List<ExpressRouteConnectionInformation> infrastructureExpressRouteConnections)"
   name: "withInfrastructureExpressRouteConnections(List<ExpressRouteConnectionInformation> infrastructureExpressRouteConnections)"
@@ -140,7 +155,7 @@ methods:
     description: "the workloadExpressRouteConnections value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.ExpressRouteConnectionInformation?alt=com.azure.resourcemanager.managednetworkfabric.models.ExpressRouteConnectionInformation&text=ExpressRouteConnectionInformation\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
-desc: "Network Fabric Controller patch parameters The Network Fabric Controller Patch payload definition."
+desc: "The Network Fabric Controller Patch payload definition."
 metadata: {}
 package: "com.azure.resourcemanager.managednetworkfabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

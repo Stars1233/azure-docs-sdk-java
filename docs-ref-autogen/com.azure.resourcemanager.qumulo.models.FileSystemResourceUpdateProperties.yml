@@ -69,6 +69,16 @@ methods:
   returns:
     description: "the marketplaceDetails value."
     type: "<xref href=\"com.azure.resourcemanager.qumulo.models.MarketplaceDetails?alt=com.azure.resourcemanager.qumulo.models.MarketplaceDetails&text=MarketplaceDetails\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.qumulo.models.FileSystemResourceUpdateProperties.performanceTier()"
+  fullName: "com.azure.resourcemanager.qumulo.models.FileSystemResourceUpdateProperties.performanceTier()"
+  name: "performanceTier()"
+  nameWithType: "FileSystemResourceUpdateProperties.performanceTier()"
+  summary: "Get the performance<wbr>Tier property: Pre-Provisioned Performance of the Resource."
+  syntax: "public String performanceTier()"
+  desc: "Get the performanceTier property: Pre-Provisioned Performance of the Resource."
+  returns:
+    description: "the performanceTier value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.qumulo.models.FileSystemResourceUpdateProperties.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.qumulo.models.FileSystemResourceUpdateProperties.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -91,13 +101,6 @@ methods:
   returns:
     description: "the userDetails value."
     type: "<xref href=\"com.azure.resourcemanager.qumulo.models.UserDetails?alt=com.azure.resourcemanager.qumulo.models.UserDetails&text=UserDetails\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.qumulo.models.FileSystemResourceUpdateProperties.validate()"
-  fullName: "com.azure.resourcemanager.qumulo.models.FileSystemResourceUpdateProperties.validate()"
-  name: "validate()"
-  nameWithType: "FileSystemResourceUpdateProperties.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.qumulo.models.FileSystemResourceUpdateProperties.withDelegatedSubnetId(java.lang.String)"
   fullName: "com.azure.resourcemanager.qumulo.models.FileSystemResourceUpdateProperties.withDelegatedSubnetId(String delegatedSubnetId)"
   name: "withDelegatedSubnetId(String delegatedSubnetId)"
@@ -126,6 +129,20 @@ methods:
   returns:
     description: "the FileSystemResourceUpdateProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.qumulo.models.FileSystemResourceUpdateProperties?alt=com.azure.resourcemanager.qumulo.models.FileSystemResourceUpdateProperties&text=FileSystemResourceUpdateProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.qumulo.models.FileSystemResourceUpdateProperties.withPerformanceTier(java.lang.String)"
+  fullName: "com.azure.resourcemanager.qumulo.models.FileSystemResourceUpdateProperties.withPerformanceTier(String performanceTier)"
+  name: "withPerformanceTier(String performanceTier)"
+  nameWithType: "FileSystemResourceUpdateProperties.withPerformanceTier(String performanceTier)"
+  summary: "Set the performance<wbr>Tier property: Pre-Provisioned Performance of the Resource."
+  parameters:
+  - description: "the performanceTier value to set."
+    name: "performanceTier"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public FileSystemResourceUpdateProperties withPerformanceTier(String performanceTier)"
+  desc: "Set the performanceTier property: Pre-Provisioned Performance of the Resource."
+  returns:
+    description: "the FileSystemResourceUpdateProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.qumulo.models.FileSystemResourceUpdateProperties?alt=com.azure.resourcemanager.qumulo.models.FileSystemResourceUpdateProperties&text=FileSystemResourceUpdateProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.qumulo.models.FileSystemResourceUpdateProperties.withUserDetails(com.azure.resourcemanager.qumulo.models.UserDetails)"
   fullName: "com.azure.resourcemanager.qumulo.models.FileSystemResourceUpdateProperties.withUserDetails(UserDetails userDetails)"
   name: "withUserDetails(UserDetails userDetails)"
@@ -146,4 +163,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.qumulo.models.FileSystemResourceUpdateProperties?alt=com.azure.resourcemanager.qumulo.models.FileSystemResourceUpdateProperties&text=FileSystemResourceUpdateProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.qumulo.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-qumulo:1.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-qumulo:1.2.0

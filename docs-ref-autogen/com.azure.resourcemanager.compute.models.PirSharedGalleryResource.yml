@@ -35,7 +35,9 @@ constructors:
   name: "PirSharedGalleryResource()"
   nameWithType: "PirSharedGalleryResource.PirSharedGalleryResource()"
   summary: "Creates an instance of Pir<wbr>Shared<wbr>Gallery<wbr>Resource class."
-  syntax: "public PirSharedGalleryResource()"
+  modifiers:
+  - "protected"
+  syntax: "protected PirSharedGalleryResource()"
   desc: "Creates an instance of PirSharedGalleryResource class."
 methods:
 - uid: "com.azure.resourcemanager.compute.models.PirSharedGalleryResource.fromJson(com.azure.json.JsonReader)"
@@ -110,22 +112,8 @@ methods:
   overridden: "com.azure.resourcemanager.compute.models.PirResource.validate()"
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.compute.models.PirSharedGalleryResource.withUniqueId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.compute.models.PirSharedGalleryResource.withUniqueId(String uniqueId)"
-  name: "withUniqueId(String uniqueId)"
-  nameWithType: "PirSharedGalleryResource.withUniqueId(String uniqueId)"
-  summary: "Set the unique<wbr>Id property: The unique id of this shared gallery."
-  parameters:
-  - description: "the uniqueId value to set."
-    name: "uniqueId"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public PirSharedGalleryResource withUniqueId(String uniqueId)"
-  desc: "Set the uniqueId property: The unique id of this shared gallery."
-  returns:
-    description: "the PirSharedGalleryResource object itself."
-    type: "<xref href=\"com.azure.resourcemanager.compute.models.PirSharedGalleryResource?alt=com.azure.resourcemanager.compute.models.PirSharedGalleryResource&text=PirSharedGalleryResource\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Base information about the shared gallery resource in pir."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.56.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.0

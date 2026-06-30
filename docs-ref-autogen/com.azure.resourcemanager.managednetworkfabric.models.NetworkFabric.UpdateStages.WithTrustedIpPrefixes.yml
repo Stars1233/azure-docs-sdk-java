@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.UpdateStages.WithTrustedIpPrefixes"
+fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.UpdateStages.WithTrustedIpPrefixes"
+name: "NetworkFabric.UpdateStages.WithTrustedIpPrefixes"
+nameWithType: "NetworkFabric.UpdateStages.WithTrustedIpPrefixes"
+summary: "The stage of the Network<wbr>Fabric update allowing to specify trusted<wbr>IpPrefixes."
+syntax: "public static interface **NetworkFabric.UpdateStages.WithTrustedIpPrefixes**"
+methods:
+- uid: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.UpdateStages.WithTrustedIpPrefixes.withTrustedIpPrefixes(java.util.List<java.lang.String>)"
+  fullName: "com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.UpdateStages.WithTrustedIpPrefixes.withTrustedIpPrefixes(List<String> trustedIpPrefixes)"
+  name: "withTrustedIpPrefixes(List<String> trustedIpPrefixes)"
+  nameWithType: "NetworkFabric.UpdateStages.WithTrustedIpPrefixes.withTrustedIpPrefixes(List<String> trustedIpPrefixes)"
+  summary: "Specifies the trusted<wbr>IpPrefixes property: Trusted IP Prefix ARM resource IDs.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Trusted IP Prefix ARM resource IDs."
+    name: "trustedIpPrefixes"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public abstract NetworkFabric.Update withTrustedIpPrefixes(List<String> trustedIpPrefixes)"
+  desc: "Specifies the trustedIpPrefixes property: Trusted IP Prefix ARM resource IDs.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.Update?alt=com.azure.resourcemanager.managednetworkfabric.models.NetworkFabric.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NetworkFabric update allowing to specify trustedIpPrefixes."
+metadata: {}
+package: "com.azure.resourcemanager.managednetworkfabric.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-managednetworkfabric:2.0.0

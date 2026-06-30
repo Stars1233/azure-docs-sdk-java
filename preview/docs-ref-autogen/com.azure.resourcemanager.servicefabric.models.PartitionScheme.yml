@@ -42,50 +42,50 @@ fields:
   fullName: "com.azure.resourcemanager.servicefabric.models.PartitionScheme.INVALID"
   name: "INVALID"
   nameWithType: "PartitionScheme.INVALID"
-  summary: "Static value Invalid for Partition<wbr>Scheme."
+  summary: "Indicates the partition kind is invalid."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.PartitionScheme?alt=com.azure.resourcemanager.servicefabric.models.PartitionScheme&text=PartitionScheme\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PartitionScheme INVALID"
-  desc: "Static value Invalid for PartitionScheme."
+  desc: "Indicates the partition kind is invalid. All Service Fabric enumerations have the invalid type. The value is zero."
 - uid: "com.azure.resourcemanager.servicefabric.models.PartitionScheme.NAMED"
   fullName: "com.azure.resourcemanager.servicefabric.models.PartitionScheme.NAMED"
   name: "NAMED"
   nameWithType: "PartitionScheme.NAMED"
-  summary: "Static value Named for Partition<wbr>Scheme."
+  summary: "Indicates that the partition is based on string names, and is a Named<wbr>Partition<wbr>Scheme<wbr>Description object."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.PartitionScheme?alt=com.azure.resourcemanager.servicefabric.models.PartitionScheme&text=PartitionScheme\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PartitionScheme NAMED"
-  desc: "Static value Named for PartitionScheme."
+  desc: "Indicates that the partition is based on string names, and is a NamedPartitionSchemeDescription object. The value is 3."
 - uid: "com.azure.resourcemanager.servicefabric.models.PartitionScheme.SINGLETON"
   fullName: "com.azure.resourcemanager.servicefabric.models.PartitionScheme.SINGLETON"
   name: "SINGLETON"
   nameWithType: "PartitionScheme.SINGLETON"
-  summary: "Static value Singleton for Partition<wbr>Scheme."
+  summary: "Indicates that the partition is based on string names, and is a Singleton<wbr>Partition<wbr>Scheme<wbr>Description object, The value is 1."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.PartitionScheme?alt=com.azure.resourcemanager.servicefabric.models.PartitionScheme&text=PartitionScheme\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PartitionScheme SINGLETON"
-  desc: "Static value Singleton for PartitionScheme."
+  desc: "Indicates that the partition is based on string names, and is a SingletonPartitionSchemeDescription object, The value is 1."
 - uid: "com.azure.resourcemanager.servicefabric.models.PartitionScheme.UNIFORM_INT64RANGE"
   fullName: "com.azure.resourcemanager.servicefabric.models.PartitionScheme.UNIFORM_INT64RANGE"
   name: "UNIFORM_INT64RANGE"
   nameWithType: "PartitionScheme.UNIFORM_INT64RANGE"
-  summary: "Static value Uniform<wbr>Int64Range for Partition<wbr>Scheme."
+  summary: "Indicates that the partition is based on Int64 key ranges, and is a Uniform<wbr>Int64Range<wbr>Partition<wbr>Scheme<wbr>Description object."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.servicefabric.models.PartitionScheme?alt=com.azure.resourcemanager.servicefabric.models.PartitionScheme&text=PartitionScheme\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PartitionScheme UNIFORM_INT64RANGE"
-  desc: "Static value UniformInt64Range for PartitionScheme."
+  desc: "Indicates that the partition is based on Int64 key ranges, and is a UniformInt64RangePartitionSchemeDescription object. The value is 2."
 methods:
 - uid: "com.azure.resourcemanager.servicefabric.models.PartitionScheme.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.servicefabric.models.PartitionScheme.fromString(String name)"
@@ -119,4 +119,4 @@ type: "class"
 desc: "Enumerates the ways that a service can be partitioned."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabric.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.0.0-beta.5
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabric:1.1.0-beta.1
