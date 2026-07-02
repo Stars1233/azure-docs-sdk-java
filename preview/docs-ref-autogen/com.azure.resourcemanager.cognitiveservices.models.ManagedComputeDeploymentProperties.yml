@@ -50,6 +50,16 @@ methods:
   returns:
     description: "the acceleratorType value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.cognitiveservices.models.ManagedComputeDeploymentProperties.capabilities()"
+  fullName: "com.azure.resourcemanager.cognitiveservices.models.ManagedComputeDeploymentProperties.capabilities()"
+  name: "capabilities()"
+  nameWithType: "ManagedComputeDeploymentProperties.capabilities()"
+  summary: "Get the capabilities property: Deployment capabilities represented as key-value pairs."
+  syntax: "public Map<String,String> capabilities()"
+  desc: "Get the capabilities property: Deployment capabilities represented as key-value pairs. Example: \\{ assetsV2: \"true\" \\}."
+  returns:
+    description: "the capabilities value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.cognitiveservices.models.ManagedComputeDeploymentProperties.computeId()"
   fullName: "com.azure.resourcemanager.cognitiveservices.models.ManagedComputeDeploymentProperties.computeId()"
   name: "computeId()"
@@ -261,4 +271,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.cognitiveservices.models.ManagedComputeDeploymentProperties?alt=com.azure.resourcemanager.cognitiveservices.models.ManagedComputeDeploymentProperties&text=ManagedComputeDeploymentProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.cognitiveservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-cognitiveservices:1.5.0-beta.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-cognitiveservices:1.5.0-beta.3

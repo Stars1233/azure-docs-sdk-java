@@ -189,6 +189,16 @@ methods:
   returns:
     description: "the serviceTier value."
     type: "<xref href=\"com.azure.resourcemanager.cognitiveservices.models.ServiceTier?alt=com.azure.resourcemanager.cognitiveservices.models.ServiceTier&text=ServiceTier\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.cognitiveservices.models.DeploymentProperties.speculativeDecoding()"
+  fullName: "com.azure.resourcemanager.cognitiveservices.models.DeploymentProperties.speculativeDecoding()"
+  name: "speculativeDecoding()"
+  nameWithType: "DeploymentProperties.speculativeDecoding()"
+  summary: "Get the speculative<wbr>Decoding property: Speculative decoding settings for the deployment."
+  syntax: "public DeploymentSpeculativeDecoding speculativeDecoding()"
+  desc: "Get the speculativeDecoding property: Speculative decoding settings for the deployment. This configuration applies to Fireworks model formats."
+  returns:
+    description: "the speculativeDecoding value."
+    type: "<xref href=\"com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding?alt=com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding&text=DeploymentSpeculativeDecoding\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.cognitiveservices.models.DeploymentProperties.spilloverDeploymentName()"
   fullName: "com.azure.resourcemanager.cognitiveservices.models.DeploymentProperties.spilloverDeploymentName()"
   name: "spilloverDeploymentName()"
@@ -347,6 +357,20 @@ methods:
   returns:
     description: "the DeploymentProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.cognitiveservices.models.DeploymentProperties?alt=com.azure.resourcemanager.cognitiveservices.models.DeploymentProperties&text=DeploymentProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.cognitiveservices.models.DeploymentProperties.withSpeculativeDecoding(com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding)"
+  fullName: "com.azure.resourcemanager.cognitiveservices.models.DeploymentProperties.withSpeculativeDecoding(DeploymentSpeculativeDecoding speculativeDecoding)"
+  name: "withSpeculativeDecoding(DeploymentSpeculativeDecoding speculativeDecoding)"
+  nameWithType: "DeploymentProperties.withSpeculativeDecoding(DeploymentSpeculativeDecoding speculativeDecoding)"
+  summary: "Set the speculative<wbr>Decoding property: Speculative decoding settings for the deployment."
+  parameters:
+  - description: "the speculativeDecoding value to set."
+    name: "speculativeDecoding"
+    type: "<xref href=\"com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding?alt=com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding&text=DeploymentSpeculativeDecoding\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public DeploymentProperties withSpeculativeDecoding(DeploymentSpeculativeDecoding speculativeDecoding)"
+  desc: "Set the speculativeDecoding property: Speculative decoding settings for the deployment. This configuration applies to Fireworks model formats."
+  returns:
+    description: "the DeploymentProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.cognitiveservices.models.DeploymentProperties?alt=com.azure.resourcemanager.cognitiveservices.models.DeploymentProperties&text=DeploymentProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.cognitiveservices.models.DeploymentProperties.withSpilloverDeploymentName(java.lang.String)"
   fullName: "com.azure.resourcemanager.cognitiveservices.models.DeploymentProperties.withSpilloverDeploymentName(String spilloverDeploymentName)"
   name: "withSpilloverDeploymentName(String spilloverDeploymentName)"
@@ -381,4 +405,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.cognitiveservices.models.DeploymentProperties?alt=com.azure.resourcemanager.cognitiveservices.models.DeploymentProperties&text=DeploymentProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.cognitiveservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-cognitiveservices:1.5.0-beta.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-cognitiveservices:1.5.0-beta.3

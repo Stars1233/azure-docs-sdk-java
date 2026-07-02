@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding"
+fullName: "com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding"
+name: "DeploymentSpeculativeDecoding"
+nameWithType: "DeploymentSpeculativeDecoding"
+summary: "Speculative decoding settings for a deployment."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DeploymentSpeculativeDecoding**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding?alt=com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding&text=DeploymentSpeculativeDecoding\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding.DeploymentSpeculativeDecoding()"
+  fullName: "com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding.DeploymentSpeculativeDecoding()"
+  name: "DeploymentSpeculativeDecoding()"
+  nameWithType: "DeploymentSpeculativeDecoding.DeploymentSpeculativeDecoding()"
+  summary: "Creates an instance of Deployment<wbr>Speculative<wbr>Decoding class."
+  syntax: "public DeploymentSpeculativeDecoding()"
+  desc: "Creates an instance of DeploymentSpeculativeDecoding class."
+methods:
+- uid: "com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding.draftModel()"
+  fullName: "com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding.draftModel()"
+  name: "draftModel()"
+  nameWithType: "DeploymentSpeculativeDecoding.draftModel()"
+  summary: "Get the draft<wbr>Model property: Draft model used to generate speculative decoding tokens."
+  syntax: "public DeploymentModel draftModel()"
+  desc: "Get the draftModel property: Draft model used to generate speculative decoding tokens."
+  returns:
+    description: "the draftModel value."
+    type: "<xref href=\"com.azure.resourcemanager.cognitiveservices.models.DeploymentModel?alt=com.azure.resourcemanager.cognitiveservices.models.DeploymentModel&text=DeploymentModel\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding.draftTokenCount()"
+  fullName: "com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding.draftTokenCount()"
+  name: "draftTokenCount()"
+  nameWithType: "DeploymentSpeculativeDecoding.draftTokenCount()"
+  summary: "Get the draft<wbr>Token<wbr>Count property: The number of draft tokens attempted per speculation step."
+  syntax: "public Integer draftTokenCount()"
+  desc: "Get the draftTokenCount property: The number of draft tokens attempted per speculation step."
+  returns:
+    description: "the draftTokenCount value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+- uid: "com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "DeploymentSpeculativeDecoding.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Deployment<wbr>Speculative<wbr>Decoding from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static DeploymentSpeculativeDecoding fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of DeploymentSpeculativeDecoding from the JsonReader."
+  returns:
+    description: "An instance of DeploymentSpeculativeDecoding if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding?alt=com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding&text=DeploymentSpeculativeDecoding\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "DeploymentSpeculativeDecoding.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding.withDraftModel(com.azure.resourcemanager.cognitiveservices.models.DeploymentModel)"
+  fullName: "com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding.withDraftModel(DeploymentModel draftModel)"
+  name: "withDraftModel(DeploymentModel draftModel)"
+  nameWithType: "DeploymentSpeculativeDecoding.withDraftModel(DeploymentModel draftModel)"
+  summary: "Set the draft<wbr>Model property: Draft model used to generate speculative decoding tokens."
+  parameters:
+  - description: "the draftModel value to set."
+    name: "draftModel"
+    type: "<xref href=\"com.azure.resourcemanager.cognitiveservices.models.DeploymentModel?alt=com.azure.resourcemanager.cognitiveservices.models.DeploymentModel&text=DeploymentModel\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public DeploymentSpeculativeDecoding withDraftModel(DeploymentModel draftModel)"
+  desc: "Set the draftModel property: Draft model used to generate speculative decoding tokens."
+  returns:
+    description: "the DeploymentSpeculativeDecoding object itself."
+    type: "<xref href=\"com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding?alt=com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding&text=DeploymentSpeculativeDecoding\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding.withDraftTokenCount(java.lang.Integer)"
+  fullName: "com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding.withDraftTokenCount(Integer draftTokenCount)"
+  name: "withDraftTokenCount(Integer draftTokenCount)"
+  nameWithType: "DeploymentSpeculativeDecoding.withDraftTokenCount(Integer draftTokenCount)"
+  summary: "Set the draft<wbr>Token<wbr>Count property: The number of draft tokens attempted per speculation step."
+  parameters:
+  - description: "the draftTokenCount value to set."
+    name: "draftTokenCount"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
+  syntax: "public DeploymentSpeculativeDecoding withDraftTokenCount(Integer draftTokenCount)"
+  desc: "Set the draftTokenCount property: The number of draft tokens attempted per speculation step."
+  returns:
+    description: "the DeploymentSpeculativeDecoding object itself."
+    type: "<xref href=\"com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding?alt=com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding&text=DeploymentSpeculativeDecoding\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Speculative decoding settings for a deployment."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding?alt=com.azure.resourcemanager.cognitiveservices.models.DeploymentSpeculativeDecoding&text=DeploymentSpeculativeDecoding\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.cognitiveservices.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-cognitiveservices:1.5.0-beta.3

@@ -71,16 +71,6 @@ methods:
   returns:
     description: "An instance of ManagedComputeCapacityProperties if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.cognitiveservices.models.ManagedComputeCapacityProperties?alt=com.azure.resourcemanager.cognitiveservices.models.ManagedComputeCapacityProperties&text=ManagedComputeCapacityProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.cognitiveservices.models.ManagedComputeCapacityProperties.location()"
-  fullName: "com.azure.resourcemanager.cognitiveservices.models.ManagedComputeCapacityProperties.location()"
-  name: "location()"
-  nameWithType: "ManagedComputeCapacityProperties.location()"
-  summary: "Get the location property: The Azure region where the capacity is available."
-  syntax: "public String location()"
-  desc: "Get the location property: The Azure region where the capacity is available."
-  returns:
-    description: "the location value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.cognitiveservices.models.ManagedComputeCapacityProperties.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.cognitiveservices.models.ManagedComputeCapacityProperties.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -99,4 +89,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.cognitiveservices.models.ManagedComputeCapacityProperties?alt=com.azure.resourcemanager.cognitiveservices.models.ManagedComputeCapacityProperties&text=ManagedComputeCapacityProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.cognitiveservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-cognitiveservices:1.5.0-beta.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-cognitiveservices:1.5.0-beta.3
