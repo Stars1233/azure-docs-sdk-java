@@ -71,16 +71,6 @@ methods:
   returns:
     description: "the candidateId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.ai.agents.models.OptimizationCandidate.getConfig()"
-  fullName: "com.azure.ai.agents.models.OptimizationCandidate.getConfig()"
-  name: "getConfig()"
-  nameWithType: "OptimizationCandidate.getConfig()"
-  summary: "Get the config property: The agent configuration that produced this candidate."
-  syntax: "public OptimizationAgentDefinition getConfig()"
-  desc: "Get the config property: The agent configuration that produced this candidate."
-  returns:
-    description: "the config value."
-    type: "<xref href=\"com.azure.ai.agents.models.OptimizationAgentDefinition?alt=com.azure.ai.agents.models.OptimizationAgentDefinition&text=OptimizationAgentDefinition\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.OptimizationCandidate.getEvaluationId()"
   fullName: "com.azure.ai.agents.models.OptimizationCandidate.getEvaluationId()"
   name: "getEvaluationId()"
@@ -121,16 +111,6 @@ methods:
   returns:
     description: "the name value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.ai.agents.models.OptimizationCandidate.getPassRate()"
-  fullName: "com.azure.ai.agents.models.OptimizationCandidate.getPassRate()"
-  name: "getPassRate()"
-  nameWithType: "OptimizationCandidate.getPassRate()"
-  summary: "Get the pass<wbr>Rate property: Fraction of tasks that met the pass threshold."
-  syntax: "public double getPassRate()"
-  desc: "Get the passRate property: Fraction of tasks that met the pass threshold."
-  returns:
-    description: "the passRate value."
-    type: "<xref href=\"double?alt=double&text=double\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.OptimizationCandidate.getPromotion()"
   fullName: "com.azure.ai.agents.models.OptimizationCandidate.getPromotion()"
   name: "getPromotion()"
@@ -141,26 +121,6 @@ methods:
   returns:
     description: "the promotion value."
     type: "<xref href=\"com.azure.ai.agents.models.PromotionInfo?alt=com.azure.ai.agents.models.PromotionInfo&text=PromotionInfo\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.ai.agents.models.OptimizationCandidate.getTaskScores()"
-  fullName: "com.azure.ai.agents.models.OptimizationCandidate.getTaskScores()"
-  name: "getTaskScores()"
-  nameWithType: "OptimizationCandidate.getTaskScores()"
-  summary: "Get the task<wbr>Scores property: Individual task-level scores."
-  syntax: "public List<OptimizationTaskResult> getTaskScores()"
-  desc: "Get the taskScores property: Individual task-level scores."
-  returns:
-    description: "the taskScores value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.agents.models.OptimizationTaskResult?alt=com.azure.ai.agents.models.OptimizationTaskResult&text=OptimizationTaskResult\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.ai.agents.models.OptimizationCandidate.isParetoOptimal()"
-  fullName: "com.azure.ai.agents.models.OptimizationCandidate.isParetoOptimal()"
-  name: "isParetoOptimal()"
-  nameWithType: "OptimizationCandidate.isParetoOptimal()"
-  summary: "Get the is<wbr>Pareto<wbr>Optimal property: Whether this candidate is on the Pareto frontier (score vs cost)."
-  syntax: "public boolean isParetoOptimal()"
-  desc: "Get the isParetoOptimal property: Whether this candidate is on the Pareto frontier (score vs cost)."
-  returns:
-    description: "the isParetoOptimal value."
-    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.OptimizationCandidate.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.ai.agents.models.OptimizationCandidate.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -179,4 +139,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.OptimizationCandidate?alt=com.azure.ai.agents.models.OptimizationCandidate&text=OptimizationCandidate\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.1.0
+artifact: com.azure:azure-ai-agents:2.2.0

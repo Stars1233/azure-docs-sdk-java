@@ -210,7 +210,7 @@ methods:
   fullName: "com.azure.ai.projects.DatasetsClient.createOrUpdateDatasetVersion(String name, String version, DatasetVersion datasetVersion)"
   name: "createOrUpdateDatasetVersion(String name, String version, DatasetVersion datasetVersion)"
   nameWithType: "DatasetsClient.createOrUpdateDatasetVersion(String name, String version, DatasetVersion datasetVersion)"
-  summary: "Create a new or update an existing Dataset<wbr>Version with the given version id."
+  summary: "Create or update a version Create a new or update an existing Dataset<wbr>Version with the given version id."
   parameters:
   - description: "The name of the resource."
     name: "name"
@@ -222,7 +222,7 @@ methods:
     name: "datasetVersion"
     type: "<xref href=\"com.azure.ai.projects.models.DatasetVersion?alt=com.azure.ai.projects.models.DatasetVersion&text=DatasetVersion\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public DatasetVersion createOrUpdateDatasetVersion(String name, String version, DatasetVersion datasetVersion)"
-  desc: "Create a new or update an existing DatasetVersion with the given version id."
+  desc: "Create or update a version Create a new or update an existing DatasetVersion with the given version id."
   returns:
     description: "datasetVersion Definition."
     type: "<xref href=\"com.azure.ai.projects.models.DatasetVersion?alt=com.azure.ai.projects.models.DatasetVersion&text=DatasetVersion\" data-throw-if-not-resolved=\"False\" />"
@@ -230,7 +230,7 @@ methods:
   fullName: "com.azure.ai.projects.DatasetsClient.createOrUpdateDatasetVersionWithResponse(String name, String version, BinaryData datasetVersion, RequestOptions requestOptions)"
   name: "createOrUpdateDatasetVersionWithResponse(String name, String version, BinaryData datasetVersion, RequestOptions requestOptions)"
   nameWithType: "DatasetsClient.createOrUpdateDatasetVersionWithResponse(String name, String version, BinaryData datasetVersion, RequestOptions requestOptions)"
-  summary: "Create a new or update an existing Dataset<wbr>Version with the given version id."
+  summary: "Create or update a version Create a new or update an existing Dataset<wbr>Version with the given version id."
   parameters:
   - description: "The name of the resource."
     name: "name"
@@ -245,7 +245,7 @@ methods:
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Response<BinaryData> createOrUpdateDatasetVersionWithResponse(String name, String version, BinaryData datasetVersion, RequestOptions requestOptions)"
-  desc: "Create a new or update an existing DatasetVersion with the given version id.\n\n**Request Body Schema**\n\n```java\n{\n     type: String(uri_file/uri_folder) (Required)\n     dataUri: String (Optional, Required on create)\n     isReference: Boolean (Optional)\n     connectionName: String (Optional)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```\n\n**Response Body Schema**\n\n```java\n{\n     type: String(uri_file/uri_folder) (Required)\n     dataUri: String (Optional, Required on create)\n     isReference: Boolean (Optional)\n     connectionName: String (Optional)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```"
+  desc: "Create or update a version Create a new or update an existing DatasetVersion with the given version id.\n\n**Request Body Schema**\n\n```java\n{\n     type: String(uri_file/uri_folder) (Required)\n     dataUri: String (Optional, Required on create)\n     isReference: Boolean (Optional)\n     connectionName: String (Optional)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```\n\n**Response Body Schema**\n\n```java\n{\n     type: String(uri_file/uri_folder) (Required)\n     dataUri: String (Optional, Required on create)\n     isReference: Boolean (Optional)\n     connectionName: String (Optional)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```"
   returns:
     description: "datasetVersion Definition along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -253,7 +253,7 @@ methods:
   fullName: "com.azure.ai.projects.DatasetsClient.deleteDatasetVersion(String name, String version)"
   name: "deleteDatasetVersion(String name, String version)"
   nameWithType: "DatasetsClient.deleteDatasetVersion(String name, String version)"
-  summary: "Delete the specific version of the Dataset<wbr>Version."
+  summary: "Delete a version Delete the specific version of the Dataset<wbr>Version."
   parameters:
   - description: "The name of the resource."
     name: "name"
@@ -262,12 +262,12 @@ methods:
     name: "version"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public void deleteDatasetVersion(String name, String version)"
-  desc: "Delete the specific version of the DatasetVersion. The service returns 204 No Content if the DatasetVersion was deleted successfully or if the DatasetVersion does not exist."
+  desc: "Delete a version Delete the specific version of the DatasetVersion. The service returns 204 No Content if the DatasetVersion was deleted successfully or if the DatasetVersion does not exist."
 - uid: "com.azure.ai.projects.DatasetsClient.deleteDatasetVersionWithResponse(java.lang.String,java.lang.String,com.azure.core.http.rest.RequestOptions)"
   fullName: "com.azure.ai.projects.DatasetsClient.deleteDatasetVersionWithResponse(String name, String version, RequestOptions requestOptions)"
   name: "deleteDatasetVersionWithResponse(String name, String version, RequestOptions requestOptions)"
   nameWithType: "DatasetsClient.deleteDatasetVersionWithResponse(String name, String version, RequestOptions requestOptions)"
-  summary: "Delete the specific version of the Dataset<wbr>Version."
+  summary: "Delete a version Delete the specific version of the Dataset<wbr>Version."
   parameters:
   - description: "The name of the resource."
     name: "name"
@@ -279,7 +279,7 @@ methods:
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Response<Void> deleteDatasetVersionWithResponse(String name, String version, RequestOptions requestOptions)"
-  desc: "Delete the specific version of the DatasetVersion. The service returns 204 No Content if the DatasetVersion was deleted successfully or if the DatasetVersion does not exist."
+  desc: "Delete a version Delete the specific version of the DatasetVersion. The service returns 204 No Content if the DatasetVersion was deleted successfully or if the DatasetVersion does not exist."
   returns:
     description: "the <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
@@ -287,7 +287,7 @@ methods:
   fullName: "com.azure.ai.projects.DatasetsClient.getCredentials(String name, String version)"
   name: "getCredentials(String name, String version)"
   nameWithType: "DatasetsClient.getCredentials(String name, String version)"
-  summary: "Get the SAS credential to access the storage account associated with a Dataset version."
+  summary: "Get dataset credentials Gets the SAS credential to access the storage account associated with a Dataset version."
   parameters:
   - description: "The name of the resource."
     name: "name"
@@ -296,15 +296,15 @@ methods:
     name: "version"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public DatasetCredential getCredentials(String name, String version)"
-  desc: "Get the SAS credential to access the storage account associated with a Dataset version."
+  desc: "Get dataset credentials Gets the SAS credential to access the storage account associated with a Dataset version."
   returns:
-    description: "the SAS credential to access the storage account associated with a Dataset version."
+    description: "dataset credentials\n\n Gets the SAS credential to access the storage account associated with a Dataset version."
     type: "<xref href=\"com.azure.ai.projects.models.DatasetCredential?alt=com.azure.ai.projects.models.DatasetCredential&text=DatasetCredential\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.projects.DatasetsClient.getCredentialsWithResponse(java.lang.String,java.lang.String,com.azure.core.http.rest.RequestOptions)"
   fullName: "com.azure.ai.projects.DatasetsClient.getCredentialsWithResponse(String name, String version, RequestOptions requestOptions)"
   name: "getCredentialsWithResponse(String name, String version, RequestOptions requestOptions)"
   nameWithType: "DatasetsClient.getCredentialsWithResponse(String name, String version, RequestOptions requestOptions)"
-  summary: "Get the SAS credential to access the storage account associated with a Dataset version."
+  summary: "Get dataset credentials Gets the SAS credential to access the storage account associated with a Dataset version."
   parameters:
   - description: "The name of the resource."
     name: "name"
@@ -316,15 +316,15 @@ methods:
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Response<BinaryData> getCredentialsWithResponse(String name, String version, RequestOptions requestOptions)"
-  desc: "Get the SAS credential to access the storage account associated with a Dataset version.\n\n**Response Body Schema**\n\n```java\n{\n     blobReference (Required): {\n         blobUri: String (Required)\n         storageAccountArmId: String (Required)\n         credential (Required): {\n             sasUri: String (Required)\n             type: String(ApiKey/AAD/SAS/CustomKeys/None/AgenticIdentityToken_Preview) (Required)\n         }\n     }\n }\n```"
+  desc: "Get dataset credentials Gets the SAS credential to access the storage account associated with a Dataset version.\n\n**Response Body Schema**\n\n```java\n{\n     blobReference (Required): {\n         blobUri: String (Required)\n         storageAccountArmId: String (Required)\n         credential (Required): {\n             sasUri: String (Required)\n             type: String(ApiKey/AAD/SAS/CustomKeys/None/AgenticIdentityToken_Preview) (Required)\n         }\n     }\n }\n```"
   returns:
-    description: "the SAS credential to access the storage account associated with a Dataset version along with\n <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    description: "dataset credentials\n\n Gets the SAS credential to access the storage account associated with a Dataset version along with\n <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.ai.projects.DatasetsClient.getDatasetVersion(java.lang.String,java.lang.String)"
   fullName: "com.azure.ai.projects.DatasetsClient.getDatasetVersion(String name, String version)"
   name: "getDatasetVersion(String name, String version)"
   nameWithType: "DatasetsClient.getDatasetVersion(String name, String version)"
-  summary: "Get the specific version of the Dataset<wbr>Version."
+  summary: "Get a version Get the specific version of the Dataset<wbr>Version."
   parameters:
   - description: "The name of the resource."
     name: "name"
@@ -333,15 +333,15 @@ methods:
     name: "version"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public DatasetVersion getDatasetVersion(String name, String version)"
-  desc: "Get the specific version of the DatasetVersion. The service returns 404 Not Found error if the DatasetVersion does not exist."
+  desc: "Get a version Get the specific version of the DatasetVersion. The service returns 404 Not Found error if the DatasetVersion does not exist."
   returns:
-    description: "the specific version of the DatasetVersion."
+    description: "a version\n\n Get the specific version of the DatasetVersion."
     type: "<xref href=\"com.azure.ai.projects.models.DatasetVersion?alt=com.azure.ai.projects.models.DatasetVersion&text=DatasetVersion\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.projects.DatasetsClient.getDatasetVersionWithResponse(java.lang.String,java.lang.String,com.azure.core.http.rest.RequestOptions)"
   fullName: "com.azure.ai.projects.DatasetsClient.getDatasetVersionWithResponse(String name, String version, RequestOptions requestOptions)"
   name: "getDatasetVersionWithResponse(String name, String version, RequestOptions requestOptions)"
   nameWithType: "DatasetsClient.getDatasetVersionWithResponse(String name, String version, RequestOptions requestOptions)"
-  summary: "Get the specific version of the Dataset<wbr>Version."
+  summary: "Get a version Get the specific version of the Dataset<wbr>Version."
   parameters:
   - description: "The name of the resource."
     name: "name"
@@ -353,21 +353,21 @@ methods:
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Response<BinaryData> getDatasetVersionWithResponse(String name, String version, RequestOptions requestOptions)"
-  desc: "Get the specific version of the DatasetVersion. The service returns 404 Not Found error if the DatasetVersion does not exist.\n\n**Response Body Schema**\n\n```java\n{\n     type: String(uri_file/uri_folder) (Required)\n     dataUri: String (Optional, Required on create)\n     isReference: Boolean (Optional)\n     connectionName: String (Optional)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```"
+  desc: "Get a version Get the specific version of the DatasetVersion. The service returns 404 Not Found error if the DatasetVersion does not exist.\n\n**Response Body Schema**\n\n```java\n{\n     type: String(uri_file/uri_folder) (Required)\n     dataUri: String (Optional, Required on create)\n     isReference: Boolean (Optional)\n     connectionName: String (Optional)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```"
   returns:
-    description: "the specific version of the DatasetVersion along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    description: "a version\n\n Get the specific version of the DatasetVersion along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.ai.projects.DatasetsClient.listDatasetVersions(java.lang.String)"
   fullName: "com.azure.ai.projects.DatasetsClient.listDatasetVersions(String name)"
   name: "listDatasetVersions(String name)"
   nameWithType: "DatasetsClient.listDatasetVersions(String name)"
-  summary: "List all versions of the given Dataset<wbr>Version."
+  summary: "List versions List all versions of the given Dataset<wbr>Version."
   parameters:
   - description: "The name of the resource."
     name: "name"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public PagedIterable<DatasetVersion> listDatasetVersions(String name)"
-  desc: "List all versions of the given DatasetVersion."
+  desc: "List versions List all versions of the given DatasetVersion."
   returns:
     description: "paged collection of DatasetVersion items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.projects.models.DatasetVersion?alt=com.azure.ai.projects.models.DatasetVersion&text=DatasetVersion\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -375,7 +375,7 @@ methods:
   fullName: "com.azure.ai.projects.DatasetsClient.listDatasetVersions(String name, RequestOptions requestOptions)"
   name: "listDatasetVersions(String name, RequestOptions requestOptions)"
   nameWithType: "DatasetsClient.listDatasetVersions(String name, RequestOptions requestOptions)"
-  summary: "List all versions of the given Dataset<wbr>Version."
+  summary: "List versions List all versions of the given Dataset<wbr>Version."
   parameters:
   - description: "The name of the resource."
     name: "name"
@@ -384,7 +384,7 @@ methods:
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public PagedIterable<BinaryData> listDatasetVersions(String name, RequestOptions requestOptions)"
-  desc: "List all versions of the given DatasetVersion.\n\n**Response Body Schema**\n\n```java\n{\n     type: String(uri_file/uri_folder) (Required)\n     dataUri: String (Optional, Required on create)\n     isReference: Boolean (Optional)\n     connectionName: String (Optional)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```"
+  desc: "List versions List all versions of the given DatasetVersion.\n\n**Response Body Schema**\n\n```java\n{\n     type: String(uri_file/uri_folder) (Required)\n     dataUri: String (Optional, Required on create)\n     isReference: Boolean (Optional)\n     connectionName: String (Optional)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```"
   returns:
     description: "paged collection of DatasetVersion items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -392,9 +392,9 @@ methods:
   fullName: "com.azure.ai.projects.DatasetsClient.listLatestDatasetVersions()"
   name: "listLatestDatasetVersions()"
   nameWithType: "DatasetsClient.listLatestDatasetVersions()"
-  summary: "List the latest version of each Dataset<wbr>Version."
+  summary: "List latest versions List the latest version of each Dataset<wbr>Version."
   syntax: "public PagedIterable<DatasetVersion> listLatestDatasetVersions()"
-  desc: "List the latest version of each DatasetVersion."
+  desc: "List latest versions List the latest version of each DatasetVersion."
   returns:
     description: "paged collection of DatasetVersion items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.projects.models.DatasetVersion?alt=com.azure.ai.projects.models.DatasetVersion&text=DatasetVersion\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -402,13 +402,13 @@ methods:
   fullName: "com.azure.ai.projects.DatasetsClient.listLatestDatasetVersions(RequestOptions requestOptions)"
   name: "listLatestDatasetVersions(RequestOptions requestOptions)"
   nameWithType: "DatasetsClient.listLatestDatasetVersions(RequestOptions requestOptions)"
-  summary: "List the latest version of each Dataset<wbr>Version."
+  summary: "List latest versions List the latest version of each Dataset<wbr>Version."
   parameters:
   - description: "The options to configure the HTTP request before HTTP client sends it."
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public PagedIterable<BinaryData> listLatestDatasetVersions(RequestOptions requestOptions)"
-  desc: "List the latest version of each DatasetVersion.\n\n**Response Body Schema**\n\n```java\n{\n     type: String(uri_file/uri_folder) (Required)\n     dataUri: String (Optional, Required on create)\n     isReference: Boolean (Optional)\n     connectionName: String (Optional)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```"
+  desc: "List latest versions List the latest version of each DatasetVersion.\n\n**Response Body Schema**\n\n```java\n{\n     type: String(uri_file/uri_folder) (Required)\n     dataUri: String (Optional, Required on create)\n     isReference: Boolean (Optional)\n     connectionName: String (Optional)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```"
   returns:
     description: "paged collection of DatasetVersion items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -416,7 +416,7 @@ methods:
   fullName: "com.azure.ai.projects.DatasetsClient.pendingUpload(String name, String version, PendingUploadRequest pendingUploadRequest)"
   name: "pendingUpload(String name, String version, PendingUploadRequest pendingUploadRequest)"
   nameWithType: "DatasetsClient.pendingUpload(String name, String version, PendingUploadRequest pendingUploadRequest)"
-  summary: "Start a new or get an existing pending upload of a dataset for a specific version."
+  summary: "Start a pending upload Initiates a new pending upload or retrieves an existing one for the specified dataset version."
   parameters:
   - description: "The name of the resource."
     name: "name"
@@ -428,7 +428,7 @@ methods:
     name: "pendingUploadRequest"
     type: "<xref href=\"com.azure.ai.projects.models.PendingUploadRequest?alt=com.azure.ai.projects.models.PendingUploadRequest&text=PendingUploadRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public PendingUploadResponse pendingUpload(String name, String version, PendingUploadRequest pendingUploadRequest)"
-  desc: "Start a new or get an existing pending upload of a dataset for a specific version."
+  desc: "Start a pending upload Initiates a new pending upload or retrieves an existing one for the specified dataset version."
   returns:
     description: "represents the response for a pending upload request."
     type: "<xref href=\"com.azure.ai.projects.models.PendingUploadResponse?alt=com.azure.ai.projects.models.PendingUploadResponse&text=PendingUploadResponse\" data-throw-if-not-resolved=\"False\" />"
@@ -436,7 +436,7 @@ methods:
   fullName: "com.azure.ai.projects.DatasetsClient.pendingUploadWithResponse(String name, String version, BinaryData pendingUploadRequest, RequestOptions requestOptions)"
   name: "pendingUploadWithResponse(String name, String version, BinaryData pendingUploadRequest, RequestOptions requestOptions)"
   nameWithType: "DatasetsClient.pendingUploadWithResponse(String name, String version, BinaryData pendingUploadRequest, RequestOptions requestOptions)"
-  summary: "Start a new or get an existing pending upload of a dataset for a specific version."
+  summary: "Start a pending upload Initiates a new pending upload or retrieves an existing one for the specified dataset version."
   parameters:
   - description: "The name of the resource."
     name: "name"
@@ -451,7 +451,7 @@ methods:
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Response<BinaryData> pendingUploadWithResponse(String name, String version, BinaryData pendingUploadRequest, RequestOptions requestOptions)"
-  desc: "Start a new or get an existing pending upload of a dataset for a specific version.\n\n**Request Body Schema**\n\n```java\n{\n     pendingUploadId: String (Optional)\n     connectionName: String (Optional)\n     pendingUploadType: String(None/BlobReference/TemporaryBlobReference) (Required)\n }\n```\n\n**Response Body Schema**\n\n```java\n{\n     blobReference (Required): {\n         blobUri: String (Required)\n         storageAccountArmId: String (Required)\n         credential (Required): {\n             sasUri: String (Required)\n             type: String(ApiKey/AAD/SAS/CustomKeys/None/AgenticIdentityToken_Preview) (Required)\n         }\n     }\n     pendingUploadId: String (Required)\n     version: String (Optional)\n     pendingUploadType: String(None/BlobReference/TemporaryBlobReference) (Required)\n }\n```"
+  desc: "Start a pending upload Initiates a new pending upload or retrieves an existing one for the specified dataset version.\n\n**Request Body Schema**\n\n```java\n{\n     pendingUploadId: String (Optional)\n     connectionName: String (Optional)\n     pendingUploadType: String(None/BlobReference/TemporaryBlobReference) (Required)\n }\n```\n\n**Response Body Schema**\n\n```java\n{\n     blobReference (Required): {\n         blobUri: String (Required)\n         storageAccountArmId: String (Required)\n         credential (Required): {\n             sasUri: String (Required)\n             type: String(ApiKey/AAD/SAS/CustomKeys/None/AgenticIdentityToken_Preview) (Required)\n         }\n     }\n     pendingUploadId: String (Required)\n     version: String (Optional)\n     pendingUploadType: String(None/BlobReference/TemporaryBlobReference) (Required)\n }\n```"
   returns:
     description: "represents the response for a pending upload request along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -459,4 +459,4 @@ type: "class"
 desc: "Initializes a new instance of the synchronous AIProjectClient type."
 metadata: {}
 package: "com.azure.ai.projects"
-artifact: com.azure:azure-ai-projects:2.1.0
+artifact: com.azure:azure-ai-projects:2.2.0

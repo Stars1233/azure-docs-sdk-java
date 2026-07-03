@@ -55,6 +55,16 @@ methods:
   returns:
     description: "An instance of WebSearchPreviewTool if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
     type: "<xref href=\"com.azure.ai.agents.models.WebSearchPreviewTool?alt=com.azure.ai.agents.models.WebSearchPreviewTool&text=WebSearchPreviewTool\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.WebSearchPreviewTool.getSearchContentTypes()"
+  fullName: "com.azure.ai.agents.models.WebSearchPreviewTool.getSearchContentTypes()"
+  name: "getSearchContentTypes()"
+  nameWithType: "WebSearchPreviewTool.getSearchContentTypes()"
+  summary: "Get the search<wbr>Content<wbr>Types property: The search\\_content\\_types property."
+  syntax: "public List<SearchContentType> getSearchContentTypes()"
+  desc: "Get the searchContentTypes property: The search\\_content\\_types property."
+  returns:
+    description: "the searchContentTypes value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.agents.models.SearchContentType?alt=com.azure.ai.agents.models.SearchContentType&text=SearchContentType\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.ai.agents.models.WebSearchPreviewTool.getSearchContextSize()"
   fullName: "com.azure.ai.agents.models.WebSearchPreviewTool.getSearchContextSize()"
   name: "getSearchContextSize()"
@@ -86,6 +96,20 @@ methods:
   returns:
     description: "the userLocation value."
     type: "<xref href=\"com.azure.ai.agents.models.ApproximateLocation?alt=com.azure.ai.agents.models.ApproximateLocation&text=ApproximateLocation\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.WebSearchPreviewTool.setSearchContentTypes(java.util.List<com.azure.ai.agents.models.SearchContentType>)"
+  fullName: "com.azure.ai.agents.models.WebSearchPreviewTool.setSearchContentTypes(List<SearchContentType> searchContentTypes)"
+  name: "setSearchContentTypes(List<SearchContentType> searchContentTypes)"
+  nameWithType: "WebSearchPreviewTool.setSearchContentTypes(List<SearchContentType> searchContentTypes)"
+  summary: "Set the search<wbr>Content<wbr>Types property: The search\\_content\\_types property."
+  parameters:
+  - description: "the searchContentTypes value to set."
+    name: "searchContentTypes"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.agents.models.SearchContentType?alt=com.azure.ai.agents.models.SearchContentType&text=SearchContentType\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public WebSearchPreviewTool setSearchContentTypes(List<SearchContentType> searchContentTypes)"
+  desc: "Set the searchContentTypes property: The search\\_content\\_types property."
+  returns:
+    description: "the WebSearchPreviewTool object itself."
+    type: "<xref href=\"com.azure.ai.agents.models.WebSearchPreviewTool?alt=com.azure.ai.agents.models.WebSearchPreviewTool&text=WebSearchPreviewTool\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.WebSearchPreviewTool.setSearchContextSize(com.azure.ai.agents.models.SearchContextSize)"
   fullName: "com.azure.ai.agents.models.WebSearchPreviewTool.setSearchContextSize(SearchContextSize searchContextSize)"
   name: "setSearchContextSize(SearchContextSize searchContextSize)"
@@ -131,4 +155,4 @@ type: "class"
 desc: "Web search preview This tool searches the web for relevant results to use in a response. Learn more about the \\[web search tool\\](https://platform.openai.com/docs/guides/tools-web-search)."
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.1.0
+artifact: com.azure:azure-ai-agents:2.2.0

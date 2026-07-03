@@ -106,6 +106,16 @@ methods:
   returns:
     description: "the type value."
     type: "<xref href=\"com.azure.ai.agents.models.ToolType?alt=com.azure.ai.agents.models.ToolType&text=ToolType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.FunctionTool.isDeferLoading()"
+  fullName: "com.azure.ai.agents.models.FunctionTool.isDeferLoading()"
+  name: "isDeferLoading()"
+  nameWithType: "FunctionTool.isDeferLoading()"
+  summary: "Get the defer<wbr>Loading property: Whether this function is deferred and loaded via tool search."
+  syntax: "public Boolean isDeferLoading()"
+  desc: "Get the deferLoading property: Whether this function is deferred and loaded via tool search."
+  returns:
+    description: "the deferLoading value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
 - uid: "com.azure.ai.agents.models.FunctionTool.isStrict()"
   fullName: "com.azure.ai.agents.models.FunctionTool.isStrict()"
   name: "isStrict()"
@@ -116,6 +126,20 @@ methods:
   returns:
     description: "the strict value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+- uid: "com.azure.ai.agents.models.FunctionTool.setDeferLoading(java.lang.Boolean)"
+  fullName: "com.azure.ai.agents.models.FunctionTool.setDeferLoading(Boolean deferLoading)"
+  name: "setDeferLoading(Boolean deferLoading)"
+  nameWithType: "FunctionTool.setDeferLoading(Boolean deferLoading)"
+  summary: "Set the defer<wbr>Loading property: Whether this function is deferred and loaded via tool search."
+  parameters:
+  - description: "the deferLoading value to set."
+    name: "deferLoading"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public FunctionTool setDeferLoading(Boolean deferLoading)"
+  desc: "Set the deferLoading property: Whether this function is deferred and loaded via tool search."
+  returns:
+    description: "the FunctionTool object itself."
+    type: "<xref href=\"com.azure.ai.agents.models.FunctionTool?alt=com.azure.ai.agents.models.FunctionTool&text=FunctionTool\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.FunctionTool.setDescription(java.lang.String)"
   fullName: "com.azure.ai.agents.models.FunctionTool.setDescription(String description)"
   name: "setDescription(String description)"
@@ -147,4 +171,4 @@ type: "class"
 desc: "Function Defines a function in your own code the model can choose to call. Learn more about \\[function calling\\](https://platform.openai.com/docs/guides/function-calling)."
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.1.0
+artifact: com.azure:azure-ai-agents:2.2.0

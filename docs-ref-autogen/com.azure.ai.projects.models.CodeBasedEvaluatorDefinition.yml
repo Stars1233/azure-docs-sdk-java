@@ -12,11 +12,11 @@ inheritedClassMethods:
   methodsRef:
   - "<xref href=\"com.azure.ai.projects.models.EvaluatorDefinition.fromJson(com.azure.json.JsonReader)?alt=com.azure.ai.projects.models.EvaluatorDefinition.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.ai.projects.models.EvaluatorDefinition.getDataSchema()?alt=com.azure.ai.projects.models.EvaluatorDefinition.getDataSchema&text=getDataSchema\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.ai.projects.models.EvaluatorDefinition.getInitParameters()?alt=com.azure.ai.projects.models.EvaluatorDefinition.getInitParameters&text=getInitParameters\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.ai.projects.models.EvaluatorDefinition.getInitializationParameters()?alt=com.azure.ai.projects.models.EvaluatorDefinition.getInitializationParameters&text=getInitializationParameters\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.ai.projects.models.EvaluatorDefinition.getMetrics()?alt=com.azure.ai.projects.models.EvaluatorDefinition.getMetrics&text=getMetrics\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.ai.projects.models.EvaluatorDefinition.getType()?alt=com.azure.ai.projects.models.EvaluatorDefinition.getType&text=getType\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.ai.projects.models.EvaluatorDefinition.setDataSchema(java.util.Map<java.lang.String,com.azure.core.util.BinaryData>)?alt=com.azure.ai.projects.models.EvaluatorDefinition.setDataSchema&text=setDataSchema\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.ai.projects.models.EvaluatorDefinition.setInitParameters(java.util.Map<java.lang.String,com.azure.core.util.BinaryData>)?alt=com.azure.ai.projects.models.EvaluatorDefinition.setInitParameters&text=setInitParameters\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.ai.projects.models.EvaluatorDefinition.setInitializationParameters(java.util.Map<java.lang.String,com.azure.core.util.BinaryData>)?alt=com.azure.ai.projects.models.EvaluatorDefinition.setInitializationParameters&text=setInitializationParameters\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.ai.projects.models.EvaluatorDefinition.setMetrics(java.util.Map<java.lang.String,com.azure.ai.projects.models.EvaluatorMetric>)?alt=com.azure.ai.projects.models.EvaluatorDefinition.setMetrics&text=setMetrics\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.ai.projects.models.EvaluatorDefinition.toJson(com.azure.json.JsonWriter)?alt=com.azure.ai.projects.models.EvaluatorDefinition.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
@@ -192,17 +192,17 @@ methods:
   returns:
     description: "the CodeBasedEvaluatorDefinition object itself."
     type: "<xref href=\"com.azure.ai.projects.models.CodeBasedEvaluatorDefinition?alt=com.azure.ai.projects.models.CodeBasedEvaluatorDefinition&text=CodeBasedEvaluatorDefinition\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.ai.projects.models.CodeBasedEvaluatorDefinition.setInitParameters(java.util.Map<java.lang.String,com.azure.core.util.BinaryData>)"
-  fullName: "com.azure.ai.projects.models.CodeBasedEvaluatorDefinition.setInitParameters(Map<String,BinaryData> initParameters)"
-  name: "setInitParameters(Map<String,BinaryData> initParameters)"
-  nameWithType: "CodeBasedEvaluatorDefinition.setInitParameters(Map<String,BinaryData> initParameters)"
-  summary: "Set the init<wbr>Parameters property: The JSON schema (Draft 2020-12) for the evaluator's input parameters."
-  overridden: "com.azure.ai.projects.models.EvaluatorDefinition.setInitParameters(java.util.Map<java.lang.String,com.azure.core.util.BinaryData>)"
+- uid: "com.azure.ai.projects.models.CodeBasedEvaluatorDefinition.setInitializationParameters(java.util.Map<java.lang.String,com.azure.core.util.BinaryData>)"
+  fullName: "com.azure.ai.projects.models.CodeBasedEvaluatorDefinition.setInitializationParameters(Map<String,BinaryData> initializationParameters)"
+  name: "setInitializationParameters(Map<String,BinaryData> initializationParameters)"
+  nameWithType: "CodeBasedEvaluatorDefinition.setInitializationParameters(Map<String,BinaryData> initializationParameters)"
+  summary: "Set the initialization<wbr>Parameters property: The JSON schema (Draft 2020-12) for the evaluator's input parameters."
+  overridden: "com.azure.ai.projects.models.EvaluatorDefinition.setInitializationParameters(java.util.Map<java.lang.String,com.azure.core.util.BinaryData>)"
   parameters:
-  - name: "initParameters"
+  - name: "initializationParameters"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public CodeBasedEvaluatorDefinition setInitParameters(Map<String,BinaryData> initParameters)"
-  desc: "Set the initParameters property: The JSON schema (Draft 2020-12) for the evaluator's input parameters. This includes parameters like type, properties, required."
+  syntax: "public CodeBasedEvaluatorDefinition setInitializationParameters(Map<String,BinaryData> initializationParameters)"
+  desc: "Set the initializationParameters property: The JSON schema (Draft 2020-12) for the evaluator's input parameters. This includes parameters like type, properties, required."
   returns:
     type: "<xref href=\"com.azure.ai.projects.models.CodeBasedEvaluatorDefinition?alt=com.azure.ai.projects.models.CodeBasedEvaluatorDefinition&text=CodeBasedEvaluatorDefinition\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.projects.models.CodeBasedEvaluatorDefinition.setMetrics(java.util.Map<java.lang.String,com.azure.ai.projects.models.EvaluatorMetric>)"
@@ -235,4 +235,4 @@ type: "class"
 desc: "Code-based evaluator definition using python code."
 metadata: {}
 package: "com.azure.ai.projects.models"
-artifact: com.azure:azure-ai-projects:2.1.0
+artifact: com.azure:azure-ai-projects:2.2.0

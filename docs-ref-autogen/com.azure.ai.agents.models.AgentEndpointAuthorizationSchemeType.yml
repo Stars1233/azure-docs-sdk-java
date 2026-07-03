@@ -62,6 +62,18 @@ fields:
     type: "<xref href=\"com.azure.ai.agents.models.AgentEndpointAuthorizationSchemeType?alt=com.azure.ai.agents.models.AgentEndpointAuthorizationSchemeType&text=AgentEndpointAuthorizationSchemeType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AgentEndpointAuthorizationSchemeType BOT_SERVICE_RBAC"
   desc: "Static value BotServiceRbac for AgentEndpointAuthorizationSchemeType."
+- uid: "com.azure.ai.agents.models.AgentEndpointAuthorizationSchemeType.BOT_SERVICE_TENANT"
+  fullName: "com.azure.ai.agents.models.AgentEndpointAuthorizationSchemeType.BOT_SERVICE_TENANT"
+  name: "BOT_SERVICE_TENANT"
+  nameWithType: "AgentEndpointAuthorizationSchemeType.BOT_SERVICE_TENANT"
+  summary: "Static value Bot<wbr>Service<wbr>Tenant for Agent<wbr>Endpoint<wbr>Authorization<wbr>Scheme<wbr>Type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.agents.models.AgentEndpointAuthorizationSchemeType?alt=com.azure.ai.agents.models.AgentEndpointAuthorizationSchemeType&text=AgentEndpointAuthorizationSchemeType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AgentEndpointAuthorizationSchemeType BOT_SERVICE_TENANT"
+  desc: "Static value BotServiceTenant for AgentEndpointAuthorizationSchemeType."
 - uid: "com.azure.ai.agents.models.AgentEndpointAuthorizationSchemeType.ENTRA"
   fullName: "com.azure.ai.agents.models.AgentEndpointAuthorizationSchemeType.ENTRA"
   name: "ENTRA"
@@ -107,4 +119,4 @@ type: "class"
 desc: "Defines values for AgentEndpointAuthorizationSchemeType."
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.1.0
+artifact: com.azure:azure-ai-agents:2.2.0

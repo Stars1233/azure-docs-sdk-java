@@ -100,6 +100,30 @@ methods:
   returns:
     description: "the type value."
     type: "<xref href=\"com.azure.ai.agents.models.ToolType?alt=com.azure.ai.agents.models.ToolType&text=ToolType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.CustomToolParameter.isDeferLoading()"
+  fullName: "com.azure.ai.agents.models.CustomToolParameter.isDeferLoading()"
+  name: "isDeferLoading()"
+  nameWithType: "CustomToolParameter.isDeferLoading()"
+  summary: "Get the defer<wbr>Loading property: Whether this tool should be deferred and discovered via tool search."
+  syntax: "public Boolean isDeferLoading()"
+  desc: "Get the deferLoading property: Whether this tool should be deferred and discovered via tool search."
+  returns:
+    description: "the deferLoading value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+- uid: "com.azure.ai.agents.models.CustomToolParameter.setDeferLoading(java.lang.Boolean)"
+  fullName: "com.azure.ai.agents.models.CustomToolParameter.setDeferLoading(Boolean deferLoading)"
+  name: "setDeferLoading(Boolean deferLoading)"
+  nameWithType: "CustomToolParameter.setDeferLoading(Boolean deferLoading)"
+  summary: "Set the defer<wbr>Loading property: Whether this tool should be deferred and discovered via tool search."
+  parameters:
+  - description: "the deferLoading value to set."
+    name: "deferLoading"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public CustomToolParameter setDeferLoading(Boolean deferLoading)"
+  desc: "Set the deferLoading property: Whether this tool should be deferred and discovered via tool search."
+  returns:
+    description: "the CustomToolParameter object itself."
+    type: "<xref href=\"com.azure.ai.agents.models.CustomToolParameter?alt=com.azure.ai.agents.models.CustomToolParameter&text=CustomToolParameter\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.CustomToolParameter.setDescription(java.lang.String)"
   fullName: "com.azure.ai.agents.models.CustomToolParameter.setDescription(String description)"
   name: "setDescription(String description)"
@@ -145,4 +169,4 @@ type: "class"
 desc: "Custom tool A custom tool that processes input using a specified format. Learn more about \\[custom tools\\](/docs/guides/function-calling\\#custom-tools)."
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.1.0
+artifact: com.azure:azure-ai-agents:2.2.0

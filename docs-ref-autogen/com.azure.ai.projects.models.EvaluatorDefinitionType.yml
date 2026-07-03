@@ -50,6 +50,18 @@ fields:
     type: "<xref href=\"com.azure.ai.projects.models.EvaluatorDefinitionType?alt=com.azure.ai.projects.models.EvaluatorDefinitionType&text=EvaluatorDefinitionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final EvaluatorDefinitionType CODE"
   desc: "Code-based definition."
+- uid: "com.azure.ai.projects.models.EvaluatorDefinitionType.ENDPOINT"
+  fullName: "com.azure.ai.projects.models.EvaluatorDefinitionType.ENDPOINT"
+  name: "ENDPOINT"
+  nameWithType: "EvaluatorDefinitionType.ENDPOINT"
+  summary: "Endpoint-based evaluator definition."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.projects.models.EvaluatorDefinitionType?alt=com.azure.ai.projects.models.EvaluatorDefinitionType&text=EvaluatorDefinitionType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final EvaluatorDefinitionType ENDPOINT"
+  desc: "Endpoint-based evaluator definition. References a customer-owned HTTP endpoint via a Project Connection."
 - uid: "com.azure.ai.projects.models.EvaluatorDefinitionType.OPENAI_GRADERS"
   fullName: "com.azure.ai.projects.models.EvaluatorDefinitionType.OPENAI_GRADERS"
   name: "OPENAI_GRADERS"
@@ -143,4 +155,4 @@ type: "class"
 desc: "The type of evaluator definition."
 metadata: {}
 package: "com.azure.ai.projects.models"
-artifact: com.azure:azure-ai-projects:2.1.0
+artifact: com.azure:azure-ai-projects:2.2.0

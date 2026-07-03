@@ -22,19 +22,19 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ProtocolVersionRecord**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.ProtocolVersionRecord?alt=com.azure.ai.agents.models.ProtocolVersionRecord&text=ProtocolVersionRecord\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
-- uid: "com.azure.ai.agents.models.ProtocolVersionRecord.ProtocolVersionRecord(com.azure.ai.agents.models.AgentProtocol,java.lang.String)"
-  fullName: "com.azure.ai.agents.models.ProtocolVersionRecord.ProtocolVersionRecord(AgentProtocol protocol, String version)"
-  name: "ProtocolVersionRecord(AgentProtocol protocol, String version)"
-  nameWithType: "ProtocolVersionRecord.ProtocolVersionRecord(AgentProtocol protocol, String version)"
+- uid: "com.azure.ai.agents.models.ProtocolVersionRecord.ProtocolVersionRecord(com.azure.ai.agents.models.AgentEndpointProtocol,java.lang.String)"
+  fullName: "com.azure.ai.agents.models.ProtocolVersionRecord.ProtocolVersionRecord(AgentEndpointProtocol protocol, String version)"
+  name: "ProtocolVersionRecord(AgentEndpointProtocol protocol, String version)"
+  nameWithType: "ProtocolVersionRecord.ProtocolVersionRecord(AgentEndpointProtocol protocol, String version)"
   summary: "Creates an instance of Protocol<wbr>Version<wbr>Record class."
   parameters:
   - description: "the protocol value to set."
     name: "protocol"
-    type: "<xref href=\"com.azure.ai.agents.models.AgentProtocol?alt=com.azure.ai.agents.models.AgentProtocol&text=AgentProtocol\" data-throw-if-not-resolved=\"False\" />"
+    type: "<xref href=\"com.azure.ai.agents.models.AgentEndpointProtocol?alt=com.azure.ai.agents.models.AgentEndpointProtocol&text=AgentEndpointProtocol\" data-throw-if-not-resolved=\"False\" />"
   - description: "the version value to set."
     name: "version"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ProtocolVersionRecord(AgentProtocol protocol, String version)"
+  syntax: "public ProtocolVersionRecord(AgentEndpointProtocol protocol, String version)"
   desc: "Creates an instance of ProtocolVersionRecord class."
 methods:
 - uid: "com.azure.ai.agents.models.ProtocolVersionRecord.fromJson(com.azure.json.JsonReader)"
@@ -61,11 +61,11 @@ methods:
   name: "getProtocol()"
   nameWithType: "ProtocolVersionRecord.getProtocol()"
   summary: "Get the protocol property: The protocol type."
-  syntax: "public AgentProtocol getProtocol()"
+  syntax: "public AgentEndpointProtocol getProtocol()"
   desc: "Get the protocol property: The protocol type."
   returns:
     description: "the protocol value."
-    type: "<xref href=\"com.azure.ai.agents.models.AgentProtocol?alt=com.azure.ai.agents.models.AgentProtocol&text=AgentProtocol\" data-throw-if-not-resolved=\"False\" />"
+    type: "<xref href=\"com.azure.ai.agents.models.AgentEndpointProtocol?alt=com.azure.ai.agents.models.AgentEndpointProtocol&text=AgentEndpointProtocol\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.ProtocolVersionRecord.getVersion()"
   fullName: "com.azure.ai.agents.models.ProtocolVersionRecord.getVersion()"
   name: "getVersion()"
@@ -94,4 +94,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.ProtocolVersionRecord?alt=com.azure.ai.agents.models.ProtocolVersionRecord&text=ProtocolVersionRecord\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.1.0
+artifact: com.azure:azure-ai-agents:2.2.0

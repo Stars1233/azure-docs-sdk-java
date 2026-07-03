@@ -26,7 +26,7 @@ methods:
   fullName: "com.azure.ai.projects.IndexesClient.createOrUpdateIndexVersion(String name, String version, AIProjectIndex index)"
   name: "createOrUpdateIndexVersion(String name, String version, AIProjectIndex index)"
   nameWithType: "IndexesClient.createOrUpdateIndexVersion(String name, String version, AIProjectIndex index)"
-  summary: "Create a new or update an existing Index with the given version id."
+  summary: "Create or update a version Create a new or update an existing Index with the given version id."
   parameters:
   - description: "The name of the resource."
     name: "name"
@@ -38,7 +38,7 @@ methods:
     name: "index"
     type: "<xref href=\"com.azure.ai.projects.models.AIProjectIndex?alt=com.azure.ai.projects.models.AIProjectIndex&text=AIProjectIndex\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public AIProjectIndex createOrUpdateIndexVersion(String name, String version, AIProjectIndex index)"
-  desc: "Create a new or update an existing Index with the given version id."
+  desc: "Create or update a version Create a new or update an existing Index with the given version id."
   returns:
     description: "index resource Definition."
     type: "<xref href=\"com.azure.ai.projects.models.AIProjectIndex?alt=com.azure.ai.projects.models.AIProjectIndex&text=AIProjectIndex\" data-throw-if-not-resolved=\"False\" />"
@@ -46,7 +46,7 @@ methods:
   fullName: "com.azure.ai.projects.IndexesClient.createOrUpdateIndexVersionWithResponse(String name, String version, BinaryData index, RequestOptions requestOptions)"
   name: "createOrUpdateIndexVersionWithResponse(String name, String version, BinaryData index, RequestOptions requestOptions)"
   nameWithType: "IndexesClient.createOrUpdateIndexVersionWithResponse(String name, String version, BinaryData index, RequestOptions requestOptions)"
-  summary: "Create a new or update an existing Index with the given version id."
+  summary: "Create or update a version Create a new or update an existing Index with the given version id."
   parameters:
   - description: "The name of the resource."
     name: "name"
@@ -61,7 +61,7 @@ methods:
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Response<BinaryData> createOrUpdateIndexVersionWithResponse(String name, String version, BinaryData index, RequestOptions requestOptions)"
-  desc: "Create a new or update an existing Index with the given version id.\n\n**Request Body Schema**\n\n```java\n{\n     type: String(AzureSearch/CosmosDBNoSqlVectorStore/ManagedAzureSearch) (Required)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```\n\n**Response Body Schema**\n\n```java\n{\n     type: String(AzureSearch/CosmosDBNoSqlVectorStore/ManagedAzureSearch) (Required)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```"
+  desc: "Create or update a version Create a new or update an existing Index with the given version id.\n\n**Request Body Schema**\n\n```java\n{\n     type: String(AzureSearch/CosmosDBNoSqlVectorStore/ManagedAzureSearch) (Required)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```\n\n**Response Body Schema**\n\n```java\n{\n     type: String(AzureSearch/CosmosDBNoSqlVectorStore/ManagedAzureSearch) (Required)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```"
   returns:
     description: "index resource Definition along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -69,7 +69,7 @@ methods:
   fullName: "com.azure.ai.projects.IndexesClient.deleteIndexVersion(String name, String version)"
   name: "deleteIndexVersion(String name, String version)"
   nameWithType: "IndexesClient.deleteIndexVersion(String name, String version)"
-  summary: "Delete the specific version of the Index."
+  summary: "Delete a version Delete the specific version of the Index."
   parameters:
   - description: "The name of the resource."
     name: "name"
@@ -78,12 +78,12 @@ methods:
     name: "version"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public void deleteIndexVersion(String name, String version)"
-  desc: "Delete the specific version of the Index. The service returns 204 No Content if the Index was deleted successfully or if the Index does not exist."
+  desc: "Delete a version Delete the specific version of the Index. The service returns 204 No Content if the Index was deleted successfully or if the Index does not exist."
 - uid: "com.azure.ai.projects.IndexesClient.deleteIndexVersionWithResponse(java.lang.String,java.lang.String,com.azure.core.http.rest.RequestOptions)"
   fullName: "com.azure.ai.projects.IndexesClient.deleteIndexVersionWithResponse(String name, String version, RequestOptions requestOptions)"
   name: "deleteIndexVersionWithResponse(String name, String version, RequestOptions requestOptions)"
   nameWithType: "IndexesClient.deleteIndexVersionWithResponse(String name, String version, RequestOptions requestOptions)"
-  summary: "Delete the specific version of the Index."
+  summary: "Delete a version Delete the specific version of the Index."
   parameters:
   - description: "The name of the resource."
     name: "name"
@@ -95,7 +95,7 @@ methods:
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Response<Void> deleteIndexVersionWithResponse(String name, String version, RequestOptions requestOptions)"
-  desc: "Delete the specific version of the Index. The service returns 204 No Content if the Index was deleted successfully or if the Index does not exist."
+  desc: "Delete a version Delete the specific version of the Index. The service returns 204 No Content if the Index was deleted successfully or if the Index does not exist."
   returns:
     description: "the <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
@@ -103,7 +103,7 @@ methods:
   fullName: "com.azure.ai.projects.IndexesClient.getIndexVersion(String name, String version)"
   name: "getIndexVersion(String name, String version)"
   nameWithType: "IndexesClient.getIndexVersion(String name, String version)"
-  summary: "Get the specific version of the Index."
+  summary: "Get a version Get the specific version of the Index."
   parameters:
   - description: "The name of the resource."
     name: "name"
@@ -112,15 +112,15 @@ methods:
     name: "version"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public AIProjectIndex getIndexVersion(String name, String version)"
-  desc: "Get the specific version of the Index. The service returns 404 Not Found error if the Index does not exist."
+  desc: "Get a version Get the specific version of the Index. The service returns 404 Not Found error if the Index does not exist."
   returns:
-    description: "the specific version of the Index."
+    description: "a version\n\n Get the specific version of the Index."
     type: "<xref href=\"com.azure.ai.projects.models.AIProjectIndex?alt=com.azure.ai.projects.models.AIProjectIndex&text=AIProjectIndex\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.projects.IndexesClient.getIndexVersionWithResponse(java.lang.String,java.lang.String,com.azure.core.http.rest.RequestOptions)"
   fullName: "com.azure.ai.projects.IndexesClient.getIndexVersionWithResponse(String name, String version, RequestOptions requestOptions)"
   name: "getIndexVersionWithResponse(String name, String version, RequestOptions requestOptions)"
   nameWithType: "IndexesClient.getIndexVersionWithResponse(String name, String version, RequestOptions requestOptions)"
-  summary: "Get the specific version of the Index."
+  summary: "Get a version Get the specific version of the Index."
   parameters:
   - description: "The name of the resource."
     name: "name"
@@ -132,21 +132,21 @@ methods:
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Response<BinaryData> getIndexVersionWithResponse(String name, String version, RequestOptions requestOptions)"
-  desc: "Get the specific version of the Index. The service returns 404 Not Found error if the Index does not exist.\n\n**Response Body Schema**\n\n```java\n{\n     type: String(AzureSearch/CosmosDBNoSqlVectorStore/ManagedAzureSearch) (Required)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```"
+  desc: "Get a version Get the specific version of the Index. The service returns 404 Not Found error if the Index does not exist.\n\n**Response Body Schema**\n\n```java\n{\n     type: String(AzureSearch/CosmosDBNoSqlVectorStore/ManagedAzureSearch) (Required)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```"
   returns:
-    description: "the specific version of the Index along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    description: "a version\n\n Get the specific version of the Index along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.ai.projects.IndexesClient.listIndexVersions(java.lang.String)"
   fullName: "com.azure.ai.projects.IndexesClient.listIndexVersions(String name)"
   name: "listIndexVersions(String name)"
   nameWithType: "IndexesClient.listIndexVersions(String name)"
-  summary: "List all versions of the given Index."
+  summary: "List versions List all versions of the given Index."
   parameters:
   - description: "The name of the resource."
     name: "name"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public PagedIterable<AIProjectIndex> listIndexVersions(String name)"
-  desc: "List all versions of the given Index."
+  desc: "List versions List all versions of the given Index."
   returns:
     description: "paged collection of Index items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.projects.models.AIProjectIndex?alt=com.azure.ai.projects.models.AIProjectIndex&text=AIProjectIndex\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -154,7 +154,7 @@ methods:
   fullName: "com.azure.ai.projects.IndexesClient.listIndexVersions(String name, RequestOptions requestOptions)"
   name: "listIndexVersions(String name, RequestOptions requestOptions)"
   nameWithType: "IndexesClient.listIndexVersions(String name, RequestOptions requestOptions)"
-  summary: "List all versions of the given Index."
+  summary: "List versions List all versions of the given Index."
   parameters:
   - description: "The name of the resource."
     name: "name"
@@ -163,7 +163,7 @@ methods:
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public PagedIterable<BinaryData> listIndexVersions(String name, RequestOptions requestOptions)"
-  desc: "List all versions of the given Index.\n\n**Response Body Schema**\n\n```java\n{\n     type: String(AzureSearch/CosmosDBNoSqlVectorStore/ManagedAzureSearch) (Required)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```"
+  desc: "List versions List all versions of the given Index.\n\n**Response Body Schema**\n\n```java\n{\n     type: String(AzureSearch/CosmosDBNoSqlVectorStore/ManagedAzureSearch) (Required)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```"
   returns:
     description: "paged collection of Index items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -171,9 +171,9 @@ methods:
   fullName: "com.azure.ai.projects.IndexesClient.listLatestIndexVersions()"
   name: "listLatestIndexVersions()"
   nameWithType: "IndexesClient.listLatestIndexVersions()"
-  summary: "List the latest version of each Index."
+  summary: "List latest versions List the latest version of each Index."
   syntax: "public PagedIterable<AIProjectIndex> listLatestIndexVersions()"
-  desc: "List the latest version of each Index."
+  desc: "List latest versions List the latest version of each Index."
   returns:
     description: "paged collection of Index items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.projects.models.AIProjectIndex?alt=com.azure.ai.projects.models.AIProjectIndex&text=AIProjectIndex\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -181,13 +181,13 @@ methods:
   fullName: "com.azure.ai.projects.IndexesClient.listLatestIndexVersions(RequestOptions requestOptions)"
   name: "listLatestIndexVersions(RequestOptions requestOptions)"
   nameWithType: "IndexesClient.listLatestIndexVersions(RequestOptions requestOptions)"
-  summary: "List the latest version of each Index."
+  summary: "List latest versions List the latest version of each Index."
   parameters:
   - description: "The options to configure the HTTP request before HTTP client sends it."
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public PagedIterable<BinaryData> listLatestIndexVersions(RequestOptions requestOptions)"
-  desc: "List the latest version of each Index.\n\n**Response Body Schema**\n\n```java\n{\n     type: String(AzureSearch/CosmosDBNoSqlVectorStore/ManagedAzureSearch) (Required)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```"
+  desc: "List latest versions List the latest version of each Index.\n\n**Response Body Schema**\n\n```java\n{\n     type: String(AzureSearch/CosmosDBNoSqlVectorStore/ManagedAzureSearch) (Required)\n     id: String (Optional)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     tags (Optional): {\n         String: String (Required)\n     }\n }\n```"
   returns:
     description: "paged collection of Index items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -195,4 +195,4 @@ type: "class"
 desc: "Initializes a new instance of the synchronous AIProjectClient type."
 metadata: {}
 package: "com.azure.ai.projects"
-artifact: com.azure:azure-ai-projects:2.1.0
+artifact: com.azure:azure-ai-projects:2.2.0

@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.agents.models.AgentState"
+fullName: "com.azure.ai.agents.models.AgentState"
+name: "AgentState"
+nameWithType: "AgentState"
+summary: "The operational state of an agent."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AgentState**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.AgentState?alt=com.azure.ai.agents.models.AgentState&text=AgentState\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.ai.agents.models.AgentState.AgentState()"
+  fullName: "com.azure.ai.agents.models.AgentState.AgentState()"
+  name: "AgentState()"
+  nameWithType: "AgentState.AgentState()"
+  summary: "Creates a new instance of Agent<wbr>State value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.ai.agents.models.AgentState.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public AgentState()"
+  desc: "Creates a new instance of AgentState value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.ai.agents.models.AgentState.DISABLED"
+  fullName: "com.azure.ai.agents.models.AgentState.DISABLED"
+  name: "DISABLED"
+  nameWithType: "AgentState.DISABLED"
+  summary: "Agent endpoint rejects all requests."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.agents.models.AgentState?alt=com.azure.ai.agents.models.AgentState&text=AgentState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AgentState DISABLED"
+  desc: "Agent endpoint rejects all requests."
+- uid: "com.azure.ai.agents.models.AgentState.ENABLED"
+  fullName: "com.azure.ai.agents.models.AgentState.ENABLED"
+  name: "ENABLED"
+  nameWithType: "AgentState.ENABLED"
+  summary: "Agent endpoint accepts requests."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.ai.agents.models.AgentState?alt=com.azure.ai.agents.models.AgentState&text=AgentState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AgentState ENABLED"
+  desc: "Agent endpoint accepts requests. This is the default state on creation."
+methods:
+- uid: "com.azure.ai.agents.models.AgentState.fromString(java.lang.String)"
+  fullName: "com.azure.ai.agents.models.AgentState.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "AgentState.fromString(String name)"
+  summary: "Creates or finds a Agent<wbr>State from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static AgentState fromString(String name)"
+  desc: "Creates or finds a AgentState from its string representation."
+  returns:
+    description: "the corresponding AgentState."
+    type: "<xref href=\"com.azure.ai.agents.models.AgentState?alt=com.azure.ai.agents.models.AgentState&text=AgentState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.AgentState.values()"
+  fullName: "com.azure.ai.agents.models.AgentState.values()"
+  name: "values()"
+  nameWithType: "AgentState.values()"
+  summary: "Gets known Agent<wbr>State values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<AgentState> values()"
+  desc: "Gets known AgentState values."
+  returns:
+    description: "known AgentState values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.ai.agents.models.AgentState?alt=com.azure.ai.agents.models.AgentState&text=AgentState\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The operational state of an agent."
+metadata: {}
+package: "com.azure.ai.agents.models"
+artifact: com.azure:azure-ai-agents:2.2.0

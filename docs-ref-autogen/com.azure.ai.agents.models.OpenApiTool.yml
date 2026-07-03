@@ -73,9 +73,9 @@ methods:
   fullName: "com.azure.ai.agents.models.OpenApiTool.getToolConfigs()"
   name: "getToolConfigs()"
   nameWithType: "OpenApiTool.getToolConfigs()"
-  summary: "Get the tool<wbr>Configs property: Per-tool configuration map."
+  summary: "Get the tool<wbr>Configs property: Deprecated."
   syntax: "public Map<String,ToolConfig> getToolConfigs()"
-  desc: "Get the toolConfigs property: Per-tool configuration map. Keys are tool names or \\`\\*\\` (catch-all default). Resolution order: exact tool name match takes priority over \\`\\*\\`. Unknown tool names are silently ignored at runtime."
+  desc: "Get the toolConfigs property: Deprecated. This property is deprecated and will be removed in a future version."
   returns:
     description: "the toolConfigs value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.ai.agents.models.ToolConfig?alt=com.azure.ai.agents.models.ToolConfig&text=ToolConfig\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -94,13 +94,13 @@ methods:
   fullName: "com.azure.ai.agents.models.OpenApiTool.setToolConfigs(Map<String,ToolConfig> toolConfigs)"
   name: "setToolConfigs(Map<String,ToolConfig> toolConfigs)"
   nameWithType: "OpenApiTool.setToolConfigs(Map<String,ToolConfig> toolConfigs)"
-  summary: "Set the tool<wbr>Configs property: Per-tool configuration map."
+  summary: "Set the tool<wbr>Configs property: Deprecated."
   parameters:
   - description: "the toolConfigs value to set."
     name: "toolConfigs"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.ai.agents.models.ToolConfig?alt=com.azure.ai.agents.models.ToolConfig&text=ToolConfig\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public OpenApiTool setToolConfigs(Map<String,ToolConfig> toolConfigs)"
-  desc: "Set the toolConfigs property: Per-tool configuration map. Keys are tool names or \\`\\*\\` (catch-all default). Resolution order: exact tool name match takes priority over \\`\\*\\`. Unknown tool names are silently ignored at runtime."
+  desc: "Set the toolConfigs property: Deprecated. This property is deprecated and will be removed in a future version."
   returns:
     description: "the OpenApiTool object itself."
     type: "<xref href=\"com.azure.ai.agents.models.OpenApiTool?alt=com.azure.ai.agents.models.OpenApiTool&text=OpenApiTool\" data-throw-if-not-resolved=\"False\" />"
@@ -121,4 +121,4 @@ type: "class"
 desc: "The input definition information for an OpenAPI tool as used to configure an agent."
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.1.0
+artifact: com.azure:azure-ai-agents:2.2.0

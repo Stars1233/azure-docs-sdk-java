@@ -69,15 +69,15 @@ methods:
   returns:
     description: "the evaluationLevel value."
     type: "<xref href=\"com.azure.ai.agents.models.EvaluationLevel?alt=com.azure.ai.agents.models.EvaluationLevel&text=EvaluationLevel\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.ai.agents.models.OptimizationOptions.getMaxIterations()"
-  fullName: "com.azure.ai.agents.models.OptimizationOptions.getMaxIterations()"
-  name: "getMaxIterations()"
-  nameWithType: "OptimizationOptions.getMaxIterations()"
-  summary: "Get the max<wbr>Iterations property: Maximum optimization iterations per strategy."
-  syntax: "public Integer getMaxIterations()"
-  desc: "Get the maxIterations property: Maximum optimization iterations per strategy. Must be >= 1. Default: 5."
+- uid: "com.azure.ai.agents.models.OptimizationOptions.getMaxCandidates()"
+  fullName: "com.azure.ai.agents.models.OptimizationOptions.getMaxCandidates()"
+  name: "getMaxCandidates()"
+  nameWithType: "OptimizationOptions.getMaxCandidates()"
+  summary: "Get the max<wbr>Candidates property: Maximum number of optimization candidates to generate."
+  syntax: "public Integer getMaxCandidates()"
+  desc: "Get the maxCandidates property: Maximum number of optimization candidates to generate. Must be >= 1. Default: 5."
   returns:
-    description: "the maxIterations value."
+    description: "the maxCandidates value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
 - uid: "com.azure.ai.agents.models.OptimizationOptions.getOptimizationConfig()"
   fullName: "com.azure.ai.agents.models.OptimizationOptions.getOptimizationConfig()"
@@ -127,17 +127,17 @@ methods:
   returns:
     description: "the OptimizationOptions object itself."
     type: "<xref href=\"com.azure.ai.agents.models.OptimizationOptions?alt=com.azure.ai.agents.models.OptimizationOptions&text=OptimizationOptions\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.ai.agents.models.OptimizationOptions.setMaxIterations(java.lang.Integer)"
-  fullName: "com.azure.ai.agents.models.OptimizationOptions.setMaxIterations(Integer maxIterations)"
-  name: "setMaxIterations(Integer maxIterations)"
-  nameWithType: "OptimizationOptions.setMaxIterations(Integer maxIterations)"
-  summary: "Set the max<wbr>Iterations property: Maximum optimization iterations per strategy."
+- uid: "com.azure.ai.agents.models.OptimizationOptions.setMaxCandidates(java.lang.Integer)"
+  fullName: "com.azure.ai.agents.models.OptimizationOptions.setMaxCandidates(Integer maxCandidates)"
+  name: "setMaxCandidates(Integer maxCandidates)"
+  nameWithType: "OptimizationOptions.setMaxCandidates(Integer maxCandidates)"
+  summary: "Set the max<wbr>Candidates property: Maximum number of optimization candidates to generate."
   parameters:
-  - description: "the maxIterations value to set."
-    name: "maxIterations"
+  - description: "the maxCandidates value to set."
+    name: "maxCandidates"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-  syntax: "public OptimizationOptions setMaxIterations(Integer maxIterations)"
-  desc: "Set the maxIterations property: Maximum optimization iterations per strategy. Must be >= 1. Default: 5."
+  syntax: "public OptimizationOptions setMaxCandidates(Integer maxCandidates)"
+  desc: "Set the maxCandidates property: Maximum number of optimization candidates to generate. Must be >= 1. Default: 5."
   returns:
     description: "the OptimizationOptions object itself."
     type: "<xref href=\"com.azure.ai.agents.models.OptimizationOptions?alt=com.azure.ai.agents.models.OptimizationOptions&text=OptimizationOptions\" data-throw-if-not-resolved=\"False\" />"
@@ -187,4 +187,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.OptimizationOptions?alt=com.azure.ai.agents.models.OptimizationOptions&text=OptimizationOptions\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.1.0
+artifact: com.azure:azure-ai-agents:2.2.0

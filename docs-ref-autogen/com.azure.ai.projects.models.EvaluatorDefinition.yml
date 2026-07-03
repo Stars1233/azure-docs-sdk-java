@@ -59,15 +59,15 @@ methods:
   returns:
     description: "the dataSchema value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.ai.projects.models.EvaluatorDefinition.getInitParameters()"
-  fullName: "com.azure.ai.projects.models.EvaluatorDefinition.getInitParameters()"
-  name: "getInitParameters()"
-  nameWithType: "EvaluatorDefinition.getInitParameters()"
-  summary: "Get the init<wbr>Parameters property: The JSON schema (Draft 2020-12) for the evaluator's input parameters."
-  syntax: "public Map<String,BinaryData> getInitParameters()"
-  desc: "Get the initParameters property: The JSON schema (Draft 2020-12) for the evaluator's input parameters. This includes parameters like type, properties, required."
+- uid: "com.azure.ai.projects.models.EvaluatorDefinition.getInitializationParameters()"
+  fullName: "com.azure.ai.projects.models.EvaluatorDefinition.getInitializationParameters()"
+  name: "getInitializationParameters()"
+  nameWithType: "EvaluatorDefinition.getInitializationParameters()"
+  summary: "Get the initialization<wbr>Parameters property: The JSON schema (Draft 2020-12) for the evaluator's input parameters."
+  syntax: "public Map<String,BinaryData> getInitializationParameters()"
+  desc: "Get the initializationParameters property: The JSON schema (Draft 2020-12) for the evaluator's input parameters. This includes parameters like type, properties, required."
   returns:
-    description: "the initParameters value."
+    description: "the initializationParameters value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.ai.projects.models.EvaluatorDefinition.getMetrics()"
   fullName: "com.azure.ai.projects.models.EvaluatorDefinition.getMetrics()"
@@ -103,17 +103,17 @@ methods:
   returns:
     description: "the EvaluatorDefinition object itself."
     type: "<xref href=\"com.azure.ai.projects.models.EvaluatorDefinition?alt=com.azure.ai.projects.models.EvaluatorDefinition&text=EvaluatorDefinition\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.ai.projects.models.EvaluatorDefinition.setInitParameters(java.util.Map<java.lang.String,com.azure.core.util.BinaryData>)"
-  fullName: "com.azure.ai.projects.models.EvaluatorDefinition.setInitParameters(Map<String,BinaryData> initParameters)"
-  name: "setInitParameters(Map<String,BinaryData> initParameters)"
-  nameWithType: "EvaluatorDefinition.setInitParameters(Map<String,BinaryData> initParameters)"
-  summary: "Set the init<wbr>Parameters property: The JSON schema (Draft 2020-12) for the evaluator's input parameters."
+- uid: "com.azure.ai.projects.models.EvaluatorDefinition.setInitializationParameters(java.util.Map<java.lang.String,com.azure.core.util.BinaryData>)"
+  fullName: "com.azure.ai.projects.models.EvaluatorDefinition.setInitializationParameters(Map<String,BinaryData> initializationParameters)"
+  name: "setInitializationParameters(Map<String,BinaryData> initializationParameters)"
+  nameWithType: "EvaluatorDefinition.setInitializationParameters(Map<String,BinaryData> initializationParameters)"
+  summary: "Set the initialization<wbr>Parameters property: The JSON schema (Draft 2020-12) for the evaluator's input parameters."
   parameters:
-  - description: "the initParameters value to set."
-    name: "initParameters"
+  - description: "the initializationParameters value to set."
+    name: "initializationParameters"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public EvaluatorDefinition setInitParameters(Map<String,BinaryData> initParameters)"
-  desc: "Set the initParameters property: The JSON schema (Draft 2020-12) for the evaluator's input parameters. This includes parameters like type, properties, required."
+  syntax: "public EvaluatorDefinition setInitializationParameters(Map<String,BinaryData> initializationParameters)"
+  desc: "Set the initializationParameters property: The JSON schema (Draft 2020-12) for the evaluator's input parameters. This includes parameters like type, properties, required."
   returns:
     description: "the EvaluatorDefinition object itself."
     type: "<xref href=\"com.azure.ai.projects.models.EvaluatorDefinition?alt=com.azure.ai.projects.models.EvaluatorDefinition&text=EvaluatorDefinition\" data-throw-if-not-resolved=\"False\" />"
@@ -149,4 +149,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.projects.models.EvaluatorDefinition?alt=com.azure.ai.projects.models.EvaluatorDefinition&text=EvaluatorDefinition\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.projects.models"
-artifact: com.azure:azure-ai-projects:2.1.0
+artifact: com.azure:azure-ai-projects:2.2.0

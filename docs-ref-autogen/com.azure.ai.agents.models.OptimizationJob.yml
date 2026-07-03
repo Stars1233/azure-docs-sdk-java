@@ -21,6 +21,14 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **OptimizationJob**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.OptimizationJob?alt=com.azure.ai.agents.models.OptimizationJob&text=OptimizationJob\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.ai.agents.models.OptimizationJob.OptimizationJob()"
+  fullName: "com.azure.ai.agents.models.OptimizationJob.OptimizationJob()"
+  name: "OptimizationJob()"
+  nameWithType: "OptimizationJob.OptimizationJob()"
+  summary: "Creates an instance of Optimization<wbr>Job class."
+  syntax: "public OptimizationJob()"
+  desc: "Creates an instance of OptimizationJob class."
 methods:
 - uid: "com.azure.ai.agents.models.OptimizationJob.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.ai.agents.models.OptimizationJob.fromJson(JsonReader jsonReader)"
@@ -51,16 +59,6 @@ methods:
   returns:
     description: "the createdAt value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
-- uid: "com.azure.ai.agents.models.OptimizationJob.getDataset()"
-  fullName: "com.azure.ai.agents.models.OptimizationJob.getDataset()"
-  name: "getDataset()"
-  nameWithType: "OptimizationJob.getDataset()"
-  summary: "Get the dataset property: Metadata about the dataset used for this optimization job."
-  syntax: "public DatasetInfo getDataset()"
-  desc: "Get the dataset property: Metadata about the dataset used for this optimization job."
-  returns:
-    description: "the dataset value."
-    type: "<xref href=\"com.azure.ai.agents.models.DatasetInfo?alt=com.azure.ai.agents.models.DatasetInfo&text=DatasetInfo\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.OptimizationJob.getError()"
   fullName: "com.azure.ai.agents.models.OptimizationJob.getError()"
   name: "getError()"
@@ -95,9 +93,9 @@ methods:
   fullName: "com.azure.ai.agents.models.OptimizationJob.getProgress()"
   name: "getProgress()"
   nameWithType: "OptimizationJob.getProgress()"
-  summary: "Get the progress property: Progress while in flight."
+  summary: "Get the progress property: Progress snapshot."
   syntax: "public OptimizationJobProgress getProgress()"
-  desc: "Get the progress property: Progress while in flight. Absent in terminal states."
+  desc: "Get the progress property: Progress snapshot. May be present in terminal states reflecting last-known progress."
   returns:
     description: "the progress value."
     type: "<xref href=\"com.azure.ai.agents.models.OptimizationJobProgress?alt=com.azure.ai.agents.models.OptimizationJobProgress&text=OptimizationJobProgress\" data-throw-if-not-resolved=\"False\" />"
@@ -125,12 +123,36 @@ methods:
   fullName: "com.azure.ai.agents.models.OptimizationJob.getUpdatedAt()"
   name: "getUpdatedAt()"
   nameWithType: "OptimizationJob.getUpdatedAt()"
-  summary: "Get the updated<wbr>At property: The timestamp when the job was last updated (status, progress, or result change), represented in Unix time."
+  summary: "Get the updated<wbr>At property: The timestamp when the job was last updated, represented in Unix time."
   syntax: "public OffsetDateTime getUpdatedAt()"
-  desc: "Get the updatedAt property: The timestamp when the job was last updated (status, progress, or result change), represented in Unix time."
+  desc: "Get the updatedAt property: The timestamp when the job was last updated, represented in Unix time."
   returns:
     description: "the updatedAt value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.ai.agents.models.OptimizationJob.getWarnings()"
+  fullName: "com.azure.ai.agents.models.OptimizationJob.getWarnings()"
+  name: "getWarnings()"
+  nameWithType: "OptimizationJob.getWarnings()"
+  summary: "Get the warnings property: Non-fatal warnings emitted at any point during optimization."
+  syntax: "public List<String> getWarnings()"
+  desc: "Get the warnings property: Non-fatal warnings emitted at any point during optimization."
+  returns:
+    description: "the warnings value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.ai.agents.models.OptimizationJob.setInputs(com.azure.ai.agents.models.OptimizationJobInputs)"
+  fullName: "com.azure.ai.agents.models.OptimizationJob.setInputs(OptimizationJobInputs inputs)"
+  name: "setInputs(OptimizationJobInputs inputs)"
+  nameWithType: "OptimizationJob.setInputs(OptimizationJobInputs inputs)"
+  summary: "Set the inputs property: Caller-supplied inputs."
+  parameters:
+  - description: "the inputs value to set."
+    name: "inputs"
+    type: "<xref href=\"com.azure.ai.agents.models.OptimizationJobInputs?alt=com.azure.ai.agents.models.OptimizationJobInputs&text=OptimizationJobInputs\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public OptimizationJob setInputs(OptimizationJobInputs inputs)"
+  desc: "Set the inputs property: Caller-supplied inputs."
+  returns:
+    description: "the OptimizationJob object itself."
+    type: "<xref href=\"com.azure.ai.agents.models.OptimizationJob?alt=com.azure.ai.agents.models.OptimizationJob&text=OptimizationJob\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.OptimizationJob.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.ai.agents.models.OptimizationJob.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -149,4 +171,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.OptimizationJob?alt=com.azure.ai.agents.models.OptimizationJob&text=OptimizationJob\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.1.0
+artifact: com.azure:azure-ai-agents:2.2.0

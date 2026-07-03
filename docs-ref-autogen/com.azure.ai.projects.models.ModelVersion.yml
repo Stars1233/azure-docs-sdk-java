@@ -133,16 +133,6 @@ methods:
   returns:
     description: "the source value."
     type: "<xref href=\"com.azure.ai.projects.models.ModelSourceData?alt=com.azure.ai.projects.models.ModelSourceData&text=ModelSourceData\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.ai.projects.models.ModelVersion.getSystemData()"
-  fullName: "com.azure.ai.projects.models.ModelVersion.getSystemData()"
-  name: "getSystemData()"
-  nameWithType: "ModelVersion.getSystemData()"
-  summary: "Get the system<wbr>Data property: System related metadata."
-  syntax: "public SystemDataV3 getSystemData()"
-  desc: "Get the systemData property: System related metadata."
-  returns:
-    description: "the systemData value."
-    type: "<xref href=\"com.azure.ai.projects.models.SystemDataV3?alt=com.azure.ai.projects.models.SystemDataV3&text=SystemDataV3\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.projects.models.ModelVersion.getTags()"
   fullName: "com.azure.ai.projects.models.ModelVersion.getTags()"
   name: "getTags()"
@@ -285,4 +275,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.projects.models.ModelVersion?alt=com.azure.ai.projects.models.ModelVersion&text=ModelVersion\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.projects.models"
-artifact: com.azure:azure-ai-projects:2.1.0
+artifact: com.azure:azure-ai-projects:2.2.0

@@ -22,35 +22,35 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ToolboxesAsyncClient**"
 methods:
-- uid: "com.azure.ai.agents.ToolboxesAsyncClient.createToolboxVersion(java.lang.String,java.util.List<com.azure.ai.agents.models.Tool>)"
-  fullName: "com.azure.ai.agents.ToolboxesAsyncClient.createToolboxVersion(String name, List<Tool> tools)"
-  name: "createToolboxVersion(String name, List<Tool> tools)"
-  nameWithType: "ToolboxesAsyncClient.createToolboxVersion(String name, List<Tool> tools)"
-  summary: "Create a new version of a toolbox."
+- uid: "com.azure.ai.agents.ToolboxesAsyncClient.createToolboxVersion(java.lang.String,java.util.List<com.azure.ai.agents.models.ToolboxTool>)"
+  fullName: "com.azure.ai.agents.ToolboxesAsyncClient.createToolboxVersion(String name, List<ToolboxTool> tools)"
+  name: "createToolboxVersion(String name, List<ToolboxTool> tools)"
+  nameWithType: "ToolboxesAsyncClient.createToolboxVersion(String name, List<ToolboxTool> tools)"
+  summary: "Create a new version of a toolbox Creates a new toolbox version, provisioning the toolbox itself if it does not already exist."
   parameters:
   - description: "The name of the toolbox. If the toolbox does not exist, it will be created."
     name: "name"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The list of tools to include in this version."
     name: "tools"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.agents.models.Tool?alt=com.azure.ai.agents.models.Tool&text=Tool\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public Mono<ToolboxVersionDetails> createToolboxVersion(String name, List<Tool> tools)"
-  desc: "Create a new version of a toolbox. If the toolbox does not exist, it will be created."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.agents.models.ToolboxTool?alt=com.azure.ai.agents.models.ToolboxTool&text=ToolboxTool\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public Mono<ToolboxVersionDetails> createToolboxVersion(String name, List<ToolboxTool> tools)"
+  desc: "Create a new version of a toolbox Creates a new toolbox version, provisioning the toolbox itself if it does not already exist."
   returns:
     description: "a specific version of a toolbox on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.ToolboxVersionDetails?alt=com.azure.ai.agents.models.ToolboxVersionDetails&text=ToolboxVersionDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.ai.agents.ToolboxesAsyncClient.createToolboxVersion(java.lang.String,java.util.List<com.azure.ai.agents.models.Tool>,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,java.util.List<com.azure.ai.agents.models.ToolboxSkill>,com.azure.ai.agents.models.ToolboxPolicies)"
-  fullName: "com.azure.ai.agents.ToolboxesAsyncClient.createToolboxVersion(String name, List<Tool> tools, String description, Map<String,String> metadata, List<ToolboxSkill> skills, ToolboxPolicies policies)"
-  name: "createToolboxVersion(String name, List<Tool> tools, String description, Map<String,String> metadata, List<ToolboxSkill> skills, ToolboxPolicies policies)"
-  nameWithType: "ToolboxesAsyncClient.createToolboxVersion(String name, List<Tool> tools, String description, Map<String,String> metadata, List<ToolboxSkill> skills, ToolboxPolicies policies)"
-  summary: "Create a new version of a toolbox."
+- uid: "com.azure.ai.agents.ToolboxesAsyncClient.createToolboxVersion(java.lang.String,java.util.List<com.azure.ai.agents.models.ToolboxTool>,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,java.util.List<com.azure.ai.agents.models.ToolboxSkill>,com.azure.ai.agents.models.ToolboxPolicies)"
+  fullName: "com.azure.ai.agents.ToolboxesAsyncClient.createToolboxVersion(String name, List<ToolboxTool> tools, String description, Map<String,String> metadata, List<ToolboxSkill> skills, ToolboxPolicies policies)"
+  name: "createToolboxVersion(String name, List<ToolboxTool> tools, String description, Map<String,String> metadata, List<ToolboxSkill> skills, ToolboxPolicies policies)"
+  nameWithType: "ToolboxesAsyncClient.createToolboxVersion(String name, List<ToolboxTool> tools, String description, Map<String,String> metadata, List<ToolboxSkill> skills, ToolboxPolicies policies)"
+  summary: "Create a new version of a toolbox Creates a new toolbox version, provisioning the toolbox itself if it does not already exist."
   parameters:
   - description: "The name of the toolbox. If the toolbox does not exist, it will be created."
     name: "name"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The list of tools to include in this version."
     name: "tools"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.agents.models.Tool?alt=com.azure.ai.agents.models.Tool&text=Tool\" data-throw-if-not-resolved=\"False\" />&gt;"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.agents.models.ToolboxTool?alt=com.azure.ai.agents.models.ToolboxTool&text=ToolboxTool\" data-throw-if-not-resolved=\"False\" />&gt;"
   - description: "A human-readable description of the toolbox."
     name: "description"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -63,8 +63,8 @@ methods:
   - description: "Policy configuration for this toolbox version."
     name: "policies"
     type: "<xref href=\"com.azure.ai.agents.models.ToolboxPolicies?alt=com.azure.ai.agents.models.ToolboxPolicies&text=ToolboxPolicies\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public Mono<ToolboxVersionDetails> createToolboxVersion(String name, List<Tool> tools, String description, Map<String,String> metadata, List<ToolboxSkill> skills, ToolboxPolicies policies)"
-  desc: "Create a new version of a toolbox. If the toolbox does not exist, it will be created."
+  syntax: "public Mono<ToolboxVersionDetails> createToolboxVersion(String name, List<ToolboxTool> tools, String description, Map<String,String> metadata, List<ToolboxSkill> skills, ToolboxPolicies policies)"
+  desc: "Create a new version of a toolbox Creates a new toolbox version, provisioning the toolbox itself if it does not already exist."
   returns:
     description: "a specific version of a toolbox on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.ToolboxVersionDetails?alt=com.azure.ai.agents.models.ToolboxVersionDetails&text=ToolboxVersionDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -72,7 +72,7 @@ methods:
   fullName: "com.azure.ai.agents.ToolboxesAsyncClient.createToolboxVersionWithResponse(String name, BinaryData createToolboxVersionRequest, RequestOptions requestOptions)"
   name: "createToolboxVersionWithResponse(String name, BinaryData createToolboxVersionRequest, RequestOptions requestOptions)"
   nameWithType: "ToolboxesAsyncClient.createToolboxVersionWithResponse(String name, BinaryData createToolboxVersionRequest, RequestOptions requestOptions)"
-  summary: "Create a new version of a toolbox."
+  summary: "Create a new version of a toolbox Creates a new toolbox version, provisioning the toolbox itself if it does not already exist."
   parameters:
   - description: "The name of the toolbox. If the toolbox does not exist, it will be created."
     name: "name"
@@ -84,7 +84,7 @@ methods:
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Mono<Response<BinaryData>> createToolboxVersionWithResponse(String name, BinaryData createToolboxVersionRequest, RequestOptions requestOptions)"
-  desc: "Create a new version of a toolbox. If the toolbox does not exist, it will be created.\n\n**Request Body Schema**\n\n```java\n{\n     description: String (Optional)\n     metadata (Optional): {\n         String: String (Required)\n     }\n     tools (Required): [\n          (Required){\n             type: String(function/file_search/computer_use_preview/web_search/mcp/code_interpreter/image_generation/local_shell/shell/custom/web_search_preview/apply_patch/a2a_preview/bing_custom_search_preview/browser_automation_preview/fabric_dataagent_preview/sharepoint_grounding_preview/memory_search_preview/work_iq_preview/fabric_iq_preview/toolbox_search_preview/azure_ai_search/azure_function/bing_grounding/capture_structured_outputs/openapi) (Required)\n         }\n     ]\n     skills (Optional): [\n          (Optional){\n             type: String (Required)\n         }\n     ]\n     policies (Optional): {\n         rai_config (Optional): {\n             rai_policy_name: String (Required)\n         }\n     }\n }\n```\n\n**Response Body Schema**\n\n```java\n{\n     metadata (Required): {\n         String: String (Required)\n     }\n     id: String (Required)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     created_at: long (Required)\n     tools (Required): [\n          (Required){\n             type: String(function/file_search/computer_use_preview/web_search/mcp/code_interpreter/image_generation/local_shell/shell/custom/web_search_preview/apply_patch/a2a_preview/bing_custom_search_preview/browser_automation_preview/fabric_dataagent_preview/sharepoint_grounding_preview/memory_search_preview/work_iq_preview/fabric_iq_preview/toolbox_search_preview/azure_ai_search/azure_function/bing_grounding/capture_structured_outputs/openapi) (Required)\n         }\n     ]\n     skills (Optional): [\n          (Optional){\n             type: String (Required)\n         }\n     ]\n     policies (Optional): {\n         rai_config (Optional): {\n             rai_policy_name: String (Required)\n         }\n     }\n }\n```"
+  desc: "Create a new version of a toolbox Creates a new toolbox version, provisioning the toolbox itself if it does not already exist.\n\n**Request Body Schema**\n\n```java\n{\n     description: String (Optional)\n     metadata (Optional): {\n         String: String (Required)\n     }\n     tools (Required): [\n          (Required){\n             type: String(code_interpreter/file_search/web_search/mcp/azure_ai_search/openapi/a2a_preview/browser_automation_preview/reminder_preview/work_iq_preview/fabric_iq_preview/toolbox_search_preview) (Required)\n             name: String (Optional)\n             description: String (Optional)\n             tool_configs (Optional): {\n                 String (Required): {\n                     pin: Boolean (Optional)\n                     additional_search_text: String (Optional)\n                 }\n             }\n         }\n     ]\n     skills (Optional): [\n          (Optional){\n             type: String (Required)\n         }\n     ]\n     policies (Optional): {\n         rai_config (Optional): {\n             rai_policy_name: String (Required)\n         }\n     }\n }\n```\n\n**Response Body Schema**\n\n```java\n{\n     metadata (Required): {\n         String: String (Required)\n     }\n     id: String (Required)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     created_at: long (Required)\n     tools (Required): [\n          (Required){\n             type: String(code_interpreter/file_search/web_search/mcp/azure_ai_search/openapi/a2a_preview/browser_automation_preview/reminder_preview/work_iq_preview/fabric_iq_preview/toolbox_search_preview) (Required)\n             name: String (Optional)\n             description: String (Optional)\n             tool_configs (Optional): {\n                 String (Required): {\n                     pin: Boolean (Optional)\n                     additional_search_text: String (Optional)\n                 }\n             }\n         }\n     ]\n     skills (Optional): [\n          (Optional){\n             type: String (Required)\n         }\n     ]\n     policies (Optional): {\n         rai_config (Optional): {\n             rai_policy_name: String (Required)\n         }\n     }\n }\n```"
   returns:
     description: "a specific version of a toolbox along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
@@ -92,13 +92,13 @@ methods:
   fullName: "com.azure.ai.agents.ToolboxesAsyncClient.deleteToolbox(String name)"
   name: "deleteToolbox(String name)"
   nameWithType: "ToolboxesAsyncClient.deleteToolbox(String name)"
-  summary: "Delete a toolbox and all its versions."
+  summary: "Delete a toolbox Removes the specified toolbox along with all of its versions."
   parameters:
   - description: "The name of the toolbox to delete."
     name: "name"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public Mono<Void> deleteToolbox(String name)"
-  desc: "Delete a toolbox and all its versions."
+  desc: "Delete a toolbox Removes the specified toolbox along with all of its versions."
   returns:
     description: "A <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref> that completes when a successful response is received."
     type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
@@ -106,7 +106,7 @@ methods:
   fullName: "com.azure.ai.agents.ToolboxesAsyncClient.deleteToolboxVersion(String name, String version)"
   name: "deleteToolboxVersion(String name, String version)"
   nameWithType: "ToolboxesAsyncClient.deleteToolboxVersion(String name, String version)"
-  summary: "Delete a specific version of a toolbox."
+  summary: "Delete a specific version of a toolbox Removes the specified version of a toolbox."
   parameters:
   - description: "The name of the toolbox."
     name: "name"
@@ -115,7 +115,7 @@ methods:
     name: "version"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public Mono<Void> deleteToolboxVersion(String name, String version)"
-  desc: "Delete a specific version of a toolbox."
+  desc: "Delete a specific version of a toolbox Removes the specified version of a toolbox."
   returns:
     description: "A <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref> that completes when a successful response is received."
     type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
@@ -123,7 +123,7 @@ methods:
   fullName: "com.azure.ai.agents.ToolboxesAsyncClient.deleteToolboxVersionWithResponse(String name, String version, RequestOptions requestOptions)"
   name: "deleteToolboxVersionWithResponse(String name, String version, RequestOptions requestOptions)"
   nameWithType: "ToolboxesAsyncClient.deleteToolboxVersionWithResponse(String name, String version, RequestOptions requestOptions)"
-  summary: "Delete a specific version of a toolbox."
+  summary: "Delete a specific version of a toolbox Removes the specified version of a toolbox."
   parameters:
   - description: "The name of the toolbox."
     name: "name"
@@ -135,7 +135,7 @@ methods:
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Mono<Response<Void>> deleteToolboxVersionWithResponse(String name, String version, RequestOptions requestOptions)"
-  desc: "Delete a specific version of a toolbox."
+  desc: "Delete a specific version of a toolbox Removes the specified version of a toolbox."
   returns:
     description: "the <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;&gt;"
@@ -143,7 +143,7 @@ methods:
   fullName: "com.azure.ai.agents.ToolboxesAsyncClient.deleteToolboxWithResponse(String name, RequestOptions requestOptions)"
   name: "deleteToolboxWithResponse(String name, RequestOptions requestOptions)"
   nameWithType: "ToolboxesAsyncClient.deleteToolboxWithResponse(String name, RequestOptions requestOptions)"
-  summary: "Delete a toolbox and all its versions."
+  summary: "Delete a toolbox Removes the specified toolbox along with all of its versions."
   parameters:
   - description: "The name of the toolbox to delete."
     name: "name"
@@ -152,7 +152,7 @@ methods:
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Mono<Response<Void>> deleteToolboxWithResponse(String name, RequestOptions requestOptions)"
-  desc: "Delete a toolbox and all its versions."
+  desc: "Delete a toolbox Removes the specified toolbox along with all of its versions."
   returns:
     description: "the <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;&gt;"
@@ -160,13 +160,13 @@ methods:
   fullName: "com.azure.ai.agents.ToolboxesAsyncClient.getToolbox(String name)"
   name: "getToolbox(String name)"
   nameWithType: "ToolboxesAsyncClient.getToolbox(String name)"
-  summary: "Retrieve a toolbox."
+  summary: "Retrieve a toolbox Retrieves the specified toolbox and its current configuration."
   parameters:
   - description: "The name of the toolbox to retrieve."
     name: "name"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public Mono<ToolboxDetails> getToolbox(String name)"
-  desc: "Retrieve a toolbox."
+  desc: "Retrieve a toolbox Retrieves the specified toolbox and its current configuration."
   returns:
     description: "a toolbox that stores reusable tool definitions for agents on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.ToolboxDetails?alt=com.azure.ai.agents.models.ToolboxDetails&text=ToolboxDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -174,7 +174,7 @@ methods:
   fullName: "com.azure.ai.agents.ToolboxesAsyncClient.getToolboxVersion(String name, String version)"
   name: "getToolboxVersion(String name, String version)"
   nameWithType: "ToolboxesAsyncClient.getToolboxVersion(String name, String version)"
-  summary: "Retrieve a specific version of a toolbox."
+  summary: "Retrieve a specific version of a toolbox Retrieves the specified version of a toolbox by name and version identifier."
   parameters:
   - description: "The name of the toolbox."
     name: "name"
@@ -183,7 +183,7 @@ methods:
     name: "version"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public Mono<ToolboxVersionDetails> getToolboxVersion(String name, String version)"
-  desc: "Retrieve a specific version of a toolbox."
+  desc: "Retrieve a specific version of a toolbox Retrieves the specified version of a toolbox by name and version identifier."
   returns:
     description: "a specific version of a toolbox on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.ToolboxVersionDetails?alt=com.azure.ai.agents.models.ToolboxVersionDetails&text=ToolboxVersionDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -191,7 +191,7 @@ methods:
   fullName: "com.azure.ai.agents.ToolboxesAsyncClient.getToolboxVersionWithResponse(String name, String version, RequestOptions requestOptions)"
   name: "getToolboxVersionWithResponse(String name, String version, RequestOptions requestOptions)"
   nameWithType: "ToolboxesAsyncClient.getToolboxVersionWithResponse(String name, String version, RequestOptions requestOptions)"
-  summary: "Retrieve a specific version of a toolbox."
+  summary: "Retrieve a specific version of a toolbox Retrieves the specified version of a toolbox by name and version identifier."
   parameters:
   - description: "The name of the toolbox."
     name: "name"
@@ -203,7 +203,7 @@ methods:
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Mono<Response<BinaryData>> getToolboxVersionWithResponse(String name, String version, RequestOptions requestOptions)"
-  desc: "Retrieve a specific version of a toolbox.\n\n**Response Body Schema**\n\n```java\n{\n     metadata (Required): {\n         String: String (Required)\n     }\n     id: String (Required)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     created_at: long (Required)\n     tools (Required): [\n          (Required){\n             type: String(function/file_search/computer_use_preview/web_search/mcp/code_interpreter/image_generation/local_shell/shell/custom/web_search_preview/apply_patch/a2a_preview/bing_custom_search_preview/browser_automation_preview/fabric_dataagent_preview/sharepoint_grounding_preview/memory_search_preview/work_iq_preview/fabric_iq_preview/toolbox_search_preview/azure_ai_search/azure_function/bing_grounding/capture_structured_outputs/openapi) (Required)\n         }\n     ]\n     skills (Optional): [\n          (Optional){\n             type: String (Required)\n         }\n     ]\n     policies (Optional): {\n         rai_config (Optional): {\n             rai_policy_name: String (Required)\n         }\n     }\n }\n```"
+  desc: "Retrieve a specific version of a toolbox Retrieves the specified version of a toolbox by name and version identifier.\n\n**Response Body Schema**\n\n```java\n{\n     metadata (Required): {\n         String: String (Required)\n     }\n     id: String (Required)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     created_at: long (Required)\n     tools (Required): [\n          (Required){\n             type: String(code_interpreter/file_search/web_search/mcp/azure_ai_search/openapi/a2a_preview/browser_automation_preview/reminder_preview/work_iq_preview/fabric_iq_preview/toolbox_search_preview) (Required)\n             name: String (Optional)\n             description: String (Optional)\n             tool_configs (Optional): {\n                 String (Required): {\n                     pin: Boolean (Optional)\n                     additional_search_text: String (Optional)\n                 }\n             }\n         }\n     ]\n     skills (Optional): [\n          (Optional){\n             type: String (Required)\n         }\n     ]\n     policies (Optional): {\n         rai_config (Optional): {\n             rai_policy_name: String (Required)\n         }\n     }\n }\n```"
   returns:
     description: "a specific version of a toolbox along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
@@ -211,7 +211,7 @@ methods:
   fullName: "com.azure.ai.agents.ToolboxesAsyncClient.getToolboxWithResponse(String name, RequestOptions requestOptions)"
   name: "getToolboxWithResponse(String name, RequestOptions requestOptions)"
   nameWithType: "ToolboxesAsyncClient.getToolboxWithResponse(String name, RequestOptions requestOptions)"
-  summary: "Retrieve a toolbox."
+  summary: "Retrieve a toolbox Retrieves the specified toolbox and its current configuration."
   parameters:
   - description: "The name of the toolbox to retrieve."
     name: "name"
@@ -220,7 +220,7 @@ methods:
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Mono<Response<BinaryData>> getToolboxWithResponse(String name, RequestOptions requestOptions)"
-  desc: "Retrieve a toolbox.\n\n**Response Body Schema**\n\n```java\n{\n     id: String (Required)\n     name: String (Required)\n     default_version: String (Required)\n }\n```"
+  desc: "Retrieve a toolbox Retrieves the specified toolbox and its current configuration.\n\n**Response Body Schema**\n\n```java\n{\n     id: String (Required)\n     name: String (Required)\n     default_version: String (Required)\n }\n```"
   returns:
     description: "a toolbox that stores reusable tool definitions for agents along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful\n completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
@@ -228,9 +228,9 @@ methods:
   fullName: "com.azure.ai.agents.ToolboxesAsyncClient.listToolboxes()"
   name: "listToolboxes()"
   nameWithType: "ToolboxesAsyncClient.listToolboxes()"
-  summary: "List all toolboxes."
+  summary: "List toolboxes Returns the toolboxes available in the current project."
   syntax: "public PagedFlux<ToolboxDetails> listToolboxes()"
-  desc: "List all toolboxes."
+  desc: "List toolboxes Returns the toolboxes available in the current project."
   returns:
     description: "the response data for a requested list of items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.ToolboxDetails?alt=com.azure.ai.agents.models.ToolboxDetails&text=ToolboxDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -238,7 +238,7 @@ methods:
   fullName: "com.azure.ai.agents.ToolboxesAsyncClient.listToolboxes(Integer limit, PageOrder order, String after, String before)"
   name: "listToolboxes(Integer limit, PageOrder order, String after, String before)"
   nameWithType: "ToolboxesAsyncClient.listToolboxes(Integer limit, PageOrder order, String after, String before)"
-  summary: "List all toolboxes."
+  summary: "List toolboxes Returns the toolboxes available in the current project."
   parameters:
   - description: "A limit on the number of objects to be returned. Limit can range between 1 and 100, and the\n default is 20."
     name: "limit"
@@ -253,7 +253,7 @@ methods:
     name: "before"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public PagedFlux<ToolboxDetails> listToolboxes(Integer limit, PageOrder order, String after, String before)"
-  desc: "List all toolboxes."
+  desc: "List toolboxes Returns the toolboxes available in the current project."
   returns:
     description: "the response data for a requested list of items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.ToolboxDetails?alt=com.azure.ai.agents.models.ToolboxDetails&text=ToolboxDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -261,13 +261,13 @@ methods:
   fullName: "com.azure.ai.agents.ToolboxesAsyncClient.listToolboxes(RequestOptions requestOptions)"
   name: "listToolboxes(RequestOptions requestOptions)"
   nameWithType: "ToolboxesAsyncClient.listToolboxes(RequestOptions requestOptions)"
-  summary: "List all toolboxes."
+  summary: "List toolboxes Returns the toolboxes available in the current project."
   parameters:
   - description: "The options to configure the HTTP request before HTTP client sends it."
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public PagedFlux<BinaryData> listToolboxes(RequestOptions requestOptions)"
-  desc: "List all toolboxes.\n\n**Query Parameters**\n\n    | ------ | ------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n    | Name   | Type    | Required | Description                                                                                                                                                                                                                                                                               |\n    | limit  | Integer | No       | A limit on the number of objects to be returned. Limit can range between 1 and 100, and the default is 20.                                                                                                                                                                                |\n    | order  | String  | No       | Sort order by the \\`created\\_at\\` timestamp of the objects. \\`asc\\` for ascending order and\\`desc\\` for descending order. Allowed values: \"asc\", \"desc\".                                                                                                                                  |\n    | after  | String  | No       | A cursor for use in pagination. \\`after\\` is an object ID that defines your place in the list. For instance, if you make a list request and receive 100 objects, ending with obj\\_foo, your subsequent call can include after=obj\\_foo in order to fetch the next page of the list.       |\n    | before | String  | No       | A cursor for use in pagination. \\`before\\` is an object ID that defines your place in the list. For instance, if you make a list request and receive 100 objects, ending with obj\\_foo, your subsequent call can include before=obj\\_foo in order to fetch the previous page of the list. |\n\nYou can add these to a request with <xref uid=\"com.azure.core.http.rest.RequestOptions.addQueryParam\" data-throw-if-not-resolved=\"false\" data-raw-source=\"RequestOptions#addQueryParam\"></xref>\n\n**Response Body Schema**\n\n```java\n{\n     id: String (Required)\n     name: String (Required)\n     default_version: String (Required)\n }\n```"
+  desc: "List toolboxes Returns the toolboxes available in the current project.\n\n**Query Parameters**\n\n    | ------ | ------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n    | Name   | Type    | Required | Description                                                                                                                                                                                                                                                                               |\n    | limit  | Integer | No       | A limit on the number of objects to be returned. Limit can range between 1 and 100, and the default is 20.                                                                                                                                                                                |\n    | order  | String  | No       | Sort order by the \\`created\\_at\\` timestamp of the objects. \\`asc\\` for ascending order and\\`desc\\` for descending order. Allowed values: \"asc\", \"desc\".                                                                                                                                  |\n    | after  | String  | No       | A cursor for use in pagination. \\`after\\` is an object ID that defines your place in the list. For instance, if you make a list request and receive 100 objects, ending with obj\\_foo, your subsequent call can include after=obj\\_foo in order to fetch the next page of the list.       |\n    | before | String  | No       | A cursor for use in pagination. \\`before\\` is an object ID that defines your place in the list. For instance, if you make a list request and receive 100 objects, ending with obj\\_foo, your subsequent call can include before=obj\\_foo in order to fetch the previous page of the list. |\n\nYou can add these to a request with <xref uid=\"com.azure.core.http.rest.RequestOptions.addQueryParam\" data-throw-if-not-resolved=\"false\" data-raw-source=\"RequestOptions#addQueryParam\"></xref>\n\n**Response Body Schema**\n\n```java\n{\n     id: String (Required)\n     name: String (Required)\n     default_version: String (Required)\n }\n```"
   returns:
     description: "the response data for a requested list of items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -275,13 +275,13 @@ methods:
   fullName: "com.azure.ai.agents.ToolboxesAsyncClient.listToolboxVersions(String name)"
   name: "listToolboxVersions(String name)"
   nameWithType: "ToolboxesAsyncClient.listToolboxVersions(String name)"
-  summary: "List all versions of a toolbox."
+  summary: "List toolbox versions Returns the available versions for the specified toolbox."
   parameters:
   - description: "The name of the toolbox to list versions for."
     name: "name"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public PagedFlux<ToolboxVersionDetails> listToolboxVersions(String name)"
-  desc: "List all versions of a toolbox."
+  desc: "List toolbox versions Returns the available versions for the specified toolbox."
   returns:
     description: "the response data for a requested list of items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.ToolboxVersionDetails?alt=com.azure.ai.agents.models.ToolboxVersionDetails&text=ToolboxVersionDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -289,7 +289,7 @@ methods:
   fullName: "com.azure.ai.agents.ToolboxesAsyncClient.listToolboxVersions(String name, Integer limit, PageOrder order, String after, String before)"
   name: "listToolboxVersions(String name, Integer limit, PageOrder order, String after, String before)"
   nameWithType: "ToolboxesAsyncClient.listToolboxVersions(String name, Integer limit, PageOrder order, String after, String before)"
-  summary: "List all versions of a toolbox."
+  summary: "List toolbox versions Returns the available versions for the specified toolbox."
   parameters:
   - description: "The name of the toolbox to list versions for."
     name: "name"
@@ -307,7 +307,7 @@ methods:
     name: "before"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public PagedFlux<ToolboxVersionDetails> listToolboxVersions(String name, Integer limit, PageOrder order, String after, String before)"
-  desc: "List all versions of a toolbox."
+  desc: "List toolbox versions Returns the available versions for the specified toolbox."
   returns:
     description: "the response data for a requested list of items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.ToolboxVersionDetails?alt=com.azure.ai.agents.models.ToolboxVersionDetails&text=ToolboxVersionDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -315,7 +315,7 @@ methods:
   fullName: "com.azure.ai.agents.ToolboxesAsyncClient.listToolboxVersions(String name, RequestOptions requestOptions)"
   name: "listToolboxVersions(String name, RequestOptions requestOptions)"
   nameWithType: "ToolboxesAsyncClient.listToolboxVersions(String name, RequestOptions requestOptions)"
-  summary: "List all versions of a toolbox."
+  summary: "List toolbox versions Returns the available versions for the specified toolbox."
   parameters:
   - description: "The name of the toolbox to list versions for."
     name: "name"
@@ -324,7 +324,7 @@ methods:
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public PagedFlux<BinaryData> listToolboxVersions(String name, RequestOptions requestOptions)"
-  desc: "List all versions of a toolbox.\n\n**Query Parameters**\n\n    | ------ | ------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n    | Name   | Type    | Required | Description                                                                                                                                                                                                                                                                               |\n    | limit  | Integer | No       | A limit on the number of objects to be returned. Limit can range between 1 and 100, and the default is 20.                                                                                                                                                                                |\n    | order  | String  | No       | Sort order by the \\`created\\_at\\` timestamp of the objects. \\`asc\\` for ascending order and\\`desc\\` for descending order. Allowed values: \"asc\", \"desc\".                                                                                                                                  |\n    | after  | String  | No       | A cursor for use in pagination. \\`after\\` is an object ID that defines your place in the list. For instance, if you make a list request and receive 100 objects, ending with obj\\_foo, your subsequent call can include after=obj\\_foo in order to fetch the next page of the list.       |\n    | before | String  | No       | A cursor for use in pagination. \\`before\\` is an object ID that defines your place in the list. For instance, if you make a list request and receive 100 objects, ending with obj\\_foo, your subsequent call can include before=obj\\_foo in order to fetch the previous page of the list. |\n\nYou can add these to a request with <xref uid=\"com.azure.core.http.rest.RequestOptions.addQueryParam\" data-throw-if-not-resolved=\"false\" data-raw-source=\"RequestOptions#addQueryParam\"></xref>\n\n**Response Body Schema**\n\n```java\n{\n     metadata (Required): {\n         String: String (Required)\n     }\n     id: String (Required)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     created_at: long (Required)\n     tools (Required): [\n          (Required){\n             type: String(function/file_search/computer_use_preview/web_search/mcp/code_interpreter/image_generation/local_shell/shell/custom/web_search_preview/apply_patch/a2a_preview/bing_custom_search_preview/browser_automation_preview/fabric_dataagent_preview/sharepoint_grounding_preview/memory_search_preview/work_iq_preview/fabric_iq_preview/toolbox_search_preview/azure_ai_search/azure_function/bing_grounding/capture_structured_outputs/openapi) (Required)\n         }\n     ]\n     skills (Optional): [\n          (Optional){\n             type: String (Required)\n         }\n     ]\n     policies (Optional): {\n         rai_config (Optional): {\n             rai_policy_name: String (Required)\n         }\n     }\n }\n```"
+  desc: "List toolbox versions Returns the available versions for the specified toolbox.\n\n**Query Parameters**\n\n    | ------ | ------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n    | Name   | Type    | Required | Description                                                                                                                                                                                                                                                                               |\n    | limit  | Integer | No       | A limit on the number of objects to be returned. Limit can range between 1 and 100, and the default is 20.                                                                                                                                                                                |\n    | order  | String  | No       | Sort order by the \\`created\\_at\\` timestamp of the objects. \\`asc\\` for ascending order and\\`desc\\` for descending order. Allowed values: \"asc\", \"desc\".                                                                                                                                  |\n    | after  | String  | No       | A cursor for use in pagination. \\`after\\` is an object ID that defines your place in the list. For instance, if you make a list request and receive 100 objects, ending with obj\\_foo, your subsequent call can include after=obj\\_foo in order to fetch the next page of the list.       |\n    | before | String  | No       | A cursor for use in pagination. \\`before\\` is an object ID that defines your place in the list. For instance, if you make a list request and receive 100 objects, ending with obj\\_foo, your subsequent call can include before=obj\\_foo in order to fetch the previous page of the list. |\n\nYou can add these to a request with <xref uid=\"com.azure.core.http.rest.RequestOptions.addQueryParam\" data-throw-if-not-resolved=\"false\" data-raw-source=\"RequestOptions#addQueryParam\"></xref>\n\n**Response Body Schema**\n\n```java\n{\n     metadata (Required): {\n         String: String (Required)\n     }\n     id: String (Required)\n     name: String (Required)\n     version: String (Required)\n     description: String (Optional)\n     created_at: long (Required)\n     tools (Required): [\n          (Required){\n             type: String(code_interpreter/file_search/web_search/mcp/azure_ai_search/openapi/a2a_preview/browser_automation_preview/reminder_preview/work_iq_preview/fabric_iq_preview/toolbox_search_preview) (Required)\n             name: String (Optional)\n             description: String (Optional)\n             tool_configs (Optional): {\n                 String (Required): {\n                     pin: Boolean (Optional)\n                     additional_search_text: String (Optional)\n                 }\n             }\n         }\n     ]\n     skills (Optional): [\n          (Optional){\n             type: String (Required)\n         }\n     ]\n     policies (Optional): {\n         rai_config (Optional): {\n             rai_policy_name: String (Required)\n         }\n     }\n }\n```"
   returns:
     description: "the response data for a requested list of items as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -332,7 +332,7 @@ methods:
   fullName: "com.azure.ai.agents.ToolboxesAsyncClient.updateToolbox(String name, String defaultVersion)"
   name: "updateToolbox(String name, String defaultVersion)"
   nameWithType: "ToolboxesAsyncClient.updateToolbox(String name, String defaultVersion)"
-  summary: "Update a toolbox to point to a specific version."
+  summary: "Update a toolbox to point to a specific version Updates the toolbox's default version pointer to the specified version."
   parameters:
   - description: "The name of the toolbox to update."
     name: "name"
@@ -341,7 +341,7 @@ methods:
     name: "defaultVersion"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public Mono<ToolboxDetails> updateToolbox(String name, String defaultVersion)"
-  desc: "Update a toolbox to point to a specific version."
+  desc: "Update a toolbox to point to a specific version Updates the toolbox's default version pointer to the specified version."
   returns:
     description: "a toolbox that stores reusable tool definitions for agents on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.ToolboxDetails?alt=com.azure.ai.agents.models.ToolboxDetails&text=ToolboxDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -349,7 +349,7 @@ methods:
   fullName: "com.azure.ai.agents.ToolboxesAsyncClient.updateToolboxWithResponse(String name, BinaryData updateToolboxRequest, RequestOptions requestOptions)"
   name: "updateToolboxWithResponse(String name, BinaryData updateToolboxRequest, RequestOptions requestOptions)"
   nameWithType: "ToolboxesAsyncClient.updateToolboxWithResponse(String name, BinaryData updateToolboxRequest, RequestOptions requestOptions)"
-  summary: "Update a toolbox to point to a specific version."
+  summary: "Update a toolbox to point to a specific version Updates the toolbox's default version pointer to the specified version."
   parameters:
   - description: "The name of the toolbox to update."
     name: "name"
@@ -361,7 +361,7 @@ methods:
     name: "requestOptions"
     type: "<xref href=\"com.azure.core.http.rest.RequestOptions?alt=com.azure.core.http.rest.RequestOptions&text=RequestOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Mono<Response<BinaryData>> updateToolboxWithResponse(String name, BinaryData updateToolboxRequest, RequestOptions requestOptions)"
-  desc: "Update a toolbox to point to a specific version.\n\n**Request Body Schema**\n\n```java\n{\n     default_version: String (Required)\n }\n```\n\n**Response Body Schema**\n\n```java\n{\n     id: String (Required)\n     name: String (Required)\n     default_version: String (Required)\n }\n```"
+  desc: "Update a toolbox to point to a specific version Updates the toolbox's default version pointer to the specified version.\n\n**Request Body Schema**\n\n```java\n{\n     default_version: String (Required)\n }\n```\n\n**Response Body Schema**\n\n```java\n{\n     id: String (Required)\n     name: String (Required)\n     default_version: String (Required)\n }\n```"
   returns:
     description: "a toolbox that stores reusable tool definitions for agents along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful\n completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
@@ -369,4 +369,4 @@ type: "class"
 desc: "Initializes a new instance of the asynchronous AgentsClient type."
 metadata: {}
 package: "com.azure.ai.agents"
-artifact: com.azure:azure-ai-agents:2.1.0
+artifact: com.azure:azure-ai-agents:2.2.0

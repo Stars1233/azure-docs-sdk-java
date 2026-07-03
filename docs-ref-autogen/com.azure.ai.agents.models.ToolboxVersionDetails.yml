@@ -116,11 +116,11 @@ methods:
   name: "getTools()"
   nameWithType: "ToolboxVersionDetails.getTools()"
   summary: "Get the tools property: The list of tools contained in this toolbox version."
-  syntax: "public List<Tool> getTools()"
+  syntax: "public List<ToolboxTool> getTools()"
   desc: "Get the tools property: The list of tools contained in this toolbox version."
   returns:
     description: "the tools value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.agents.models.Tool?alt=com.azure.ai.agents.models.Tool&text=Tool\" data-throw-if-not-resolved=\"False\" />&gt;"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.agents.models.ToolboxTool?alt=com.azure.ai.agents.models.ToolboxTool&text=ToolboxTool\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.ai.agents.models.ToolboxVersionDetails.getVersion()"
   fullName: "com.azure.ai.agents.models.ToolboxVersionDetails.getVersion()"
   name: "getVersion()"
@@ -149,4 +149,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.ToolboxVersionDetails?alt=com.azure.ai.agents.models.ToolboxVersionDetails&text=ToolboxVersionDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.1.0
+artifact: com.azure:azure-ai-agents:2.2.0

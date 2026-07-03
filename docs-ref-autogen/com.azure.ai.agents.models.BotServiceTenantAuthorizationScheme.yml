@@ -1,0 +1,86 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.agents.models.BotServiceTenantAuthorizationScheme"
+fullName: "com.azure.ai.agents.models.BotServiceTenantAuthorizationScheme"
+name: "BotServiceTenantAuthorizationScheme"
+nameWithType: "BotServiceTenantAuthorizationScheme"
+summary: "The Bot<wbr>Service<wbr>Tenant<wbr>Authorization<wbr>Scheme model."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.ai.agents.models.AgentEndpointAuthorizationScheme?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.ai.agents.models.AgentEndpointAuthorizationScheme?alt=com.azure.ai.agents.models.AgentEndpointAuthorizationScheme&text=AgentEndpointAuthorizationScheme\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.ai.agents.models.AgentEndpointAuthorizationScheme.fromJson(com.azure.json.JsonReader)?alt=com.azure.ai.agents.models.AgentEndpointAuthorizationScheme.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.ai.agents.models.AgentEndpointAuthorizationScheme.getType()?alt=com.azure.ai.agents.models.AgentEndpointAuthorizationScheme.getType&text=getType\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.ai.agents.models.AgentEndpointAuthorizationScheme.toJson(com.azure.json.JsonWriter)?alt=com.azure.ai.agents.models.AgentEndpointAuthorizationScheme.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **BotServiceTenantAuthorizationScheme**</br> extends <xref href=\"com.azure.ai.agents.models.AgentEndpointAuthorizationScheme?alt=com.azure.ai.agents.models.AgentEndpointAuthorizationScheme&text=AgentEndpointAuthorizationScheme\" data-throw-if-not-resolved=\"False\" />"
+constructors:
+- uid: "com.azure.ai.agents.models.BotServiceTenantAuthorizationScheme.BotServiceTenantAuthorizationScheme()"
+  fullName: "com.azure.ai.agents.models.BotServiceTenantAuthorizationScheme.BotServiceTenantAuthorizationScheme()"
+  name: "BotServiceTenantAuthorizationScheme()"
+  nameWithType: "BotServiceTenantAuthorizationScheme.BotServiceTenantAuthorizationScheme()"
+  summary: "Creates an instance of Bot<wbr>Service<wbr>Tenant<wbr>Authorization<wbr>Scheme class."
+  syntax: "public BotServiceTenantAuthorizationScheme()"
+  desc: "Creates an instance of BotServiceTenantAuthorizationScheme class."
+methods:
+- uid: "com.azure.ai.agents.models.BotServiceTenantAuthorizationScheme.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.ai.agents.models.BotServiceTenantAuthorizationScheme.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "BotServiceTenantAuthorizationScheme.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Bot<wbr>Service<wbr>Tenant<wbr>Authorization<wbr>Scheme from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static BotServiceTenantAuthorizationScheme fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the BotServiceTenantAuthorizationScheme."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of BotServiceTenantAuthorizationScheme from the JsonReader."
+  returns:
+    description: "An instance of BotServiceTenantAuthorizationScheme if the JsonReader was pointing to an instance of it,\n or null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.ai.agents.models.BotServiceTenantAuthorizationScheme?alt=com.azure.ai.agents.models.BotServiceTenantAuthorizationScheme&text=BotServiceTenantAuthorizationScheme\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.BotServiceTenantAuthorizationScheme.getType()"
+  fullName: "com.azure.ai.agents.models.BotServiceTenantAuthorizationScheme.getType()"
+  name: "getType()"
+  nameWithType: "BotServiceTenantAuthorizationScheme.getType()"
+  summary: "Get the type property: The type property."
+  overridden: "com.azure.ai.agents.models.AgentEndpointAuthorizationScheme.getType()"
+  syntax: "public AgentEndpointAuthorizationSchemeType getType()"
+  desc: "Get the type property: The type property."
+  returns:
+    description: "the type value."
+    type: "<xref href=\"com.azure.ai.agents.models.AgentEndpointAuthorizationSchemeType?alt=com.azure.ai.agents.models.AgentEndpointAuthorizationSchemeType&text=AgentEndpointAuthorizationSchemeType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.BotServiceTenantAuthorizationScheme.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.ai.agents.models.BotServiceTenantAuthorizationScheme.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "BotServiceTenantAuthorizationScheme.toJson(JsonWriter jsonWriter)"
+  overridden: "com.azure.ai.agents.models.AgentEndpointAuthorizationScheme.toJson(com.azure.json.JsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The BotServiceTenantAuthorizationScheme model."
+metadata: {}
+package: "com.azure.ai.agents.models"
+artifact: com.azure:azure-ai-agents:2.2.0

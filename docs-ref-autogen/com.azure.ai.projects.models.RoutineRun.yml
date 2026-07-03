@@ -241,6 +241,16 @@ methods:
   returns:
     description: "the triggeredAt value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.ai.projects.models.RoutineRun.getTriggerEventPayload()"
+  fullName: "com.azure.ai.projects.models.RoutineRun.getTriggerEventPayload()"
+  name: "getTriggerEventPayload()"
+  nameWithType: "RoutineRun.getTriggerEventPayload()"
+  summary: "Get the trigger<wbr>Event<wbr>Payload property: The event payload captured from the event that triggered the routine attempt, when available."
+  syntax: "public Map<String,BinaryData> getTriggerEventPayload()"
+  desc: "Get the triggerEventPayload property: The event payload captured from the event that triggered the routine attempt, when available."
+  returns:
+    description: "the triggerEventPayload value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.ai.projects.models.RoutineRun.getTriggerName()"
   fullName: "com.azure.ai.projects.models.RoutineRun.getTriggerName()"
   name: "getTriggerName()"
@@ -279,4 +289,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.projects.models.RoutineRun?alt=com.azure.ai.projects.models.RoutineRun&text=RoutineRun\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.projects.models"
-artifact: com.azure:azure-ai-projects:2.1.0
+artifact: com.azure:azure-ai-projects:2.2.0

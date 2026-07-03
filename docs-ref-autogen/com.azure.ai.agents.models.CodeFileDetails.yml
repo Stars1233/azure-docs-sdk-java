@@ -33,6 +33,17 @@ constructors:
     type: "<xref href=\"com.azure.core.util.BinaryData?alt=com.azure.core.util.BinaryData&text=BinaryData\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public CodeFileDetails(BinaryData content)"
   desc: "Creates an instance of CodeFileDetails class."
+- uid: "com.azure.ai.agents.models.CodeFileDetails.CodeFileDetails(java.lang.String)"
+  fullName: "com.azure.ai.agents.models.CodeFileDetails.CodeFileDetails(String filePath)"
+  name: "CodeFileDetails(String filePath)"
+  nameWithType: "CodeFileDetails.CodeFileDetails(String filePath)"
+  summary: "Creates an instance of Code<wbr>File<wbr>Details class."
+  parameters:
+  - description: "path to the file on disk to upload."
+    name: "filePath"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public CodeFileDetails(String filePath)"
+  desc: "Creates an instance of CodeFileDetails class."
 methods:
 - uid: "com.azure.ai.agents.models.CodeFileDetails.getContent()"
   fullName: "com.azure.ai.agents.models.CodeFileDetails.getContent()"
@@ -96,4 +107,4 @@ type: "class"
 desc: "The file details for the \"code\" field."
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.1.0
+artifact: com.azure:azure-ai-agents:2.2.0

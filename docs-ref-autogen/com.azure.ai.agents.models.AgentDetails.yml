@@ -121,6 +121,16 @@ methods:
   returns:
     description: "the objectType value."
     type: "<xref href=\"com.azure.ai.agents.models.AgentObjectType?alt=com.azure.ai.agents.models.AgentObjectType&text=AgentObjectType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.AgentDetails.getState()"
+  fullName: "com.azure.ai.agents.models.AgentDetails.getState()"
+  name: "getState()"
+  nameWithType: "AgentDetails.getState()"
+  summary: "Get the state property: The operational state of the agent."
+  syntax: "public AgentState getState()"
+  desc: "Get the state property: The operational state of the agent. Controls whether the agent endpoint accepts or rejects requests."
+  returns:
+    description: "the state value."
+    type: "<xref href=\"com.azure.ai.agents.models.AgentState?alt=com.azure.ai.agents.models.AgentState&text=AgentState\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.AgentDetails.getVersions()"
   fullName: "com.azure.ai.agents.models.AgentDetails.getVersions()"
   name: "getVersions()"
@@ -149,4 +159,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.AgentDetails?alt=com.azure.ai.agents.models.AgentDetails&text=AgentDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.1.0
+artifact: com.azure:azure-ai-agents:2.2.0

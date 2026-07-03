@@ -61,9 +61,11 @@ classes:
 - "com.azure.ai.projects.models.Dimension"
 - "com.azure.ai.projects.models.DispatchRoutineResult"
 - "com.azure.ai.projects.models.EmbeddingConfiguration"
+- "com.azure.ai.projects.models.EndpointBasedEvaluatorDefinition"
 - "com.azure.ai.projects.models.EntraIdCredential"
 - "com.azure.ai.projects.models.EvaluationComparisonInsightRequest"
 - "com.azure.ai.projects.models.EvaluationComparisonInsightResult"
+- "com.azure.ai.projects.models.EvaluationLevel"
 - "com.azure.ai.projects.models.EvaluationResult"
 - "com.azure.ai.projects.models.EvaluationResultSample"
 - "com.azure.ai.projects.models.EvaluationRule"
@@ -174,11 +176,10 @@ classes:
 - "com.azure.ai.projects.models.ScheduleTaskType"
 - "com.azure.ai.projects.models.SimpleQnADataGenerationJobOptions"
 - "com.azure.ai.projects.models.SimpleQnAFineTuningQuestionType"
-- "com.azure.ai.projects.models.Skill"
+- "com.azure.ai.projects.models.SkillDetails"
 - "com.azure.ai.projects.models.SkillFileDetails"
 - "com.azure.ai.projects.models.SkillInlineContent"
 - "com.azure.ai.projects.models.SkillVersion"
-- "com.azure.ai.projects.models.SystemDataV3"
 - "com.azure.ai.projects.models.Target"
 - "com.azure.ai.projects.models.TargetConfig"
 - "com.azure.ai.projects.models.TaxonomyCategory"
@@ -195,9 +196,7 @@ classes:
 - "com.azure.ai.projects.models.TriggerType"
 - "com.azure.ai.projects.models.UpdateModelVersionInput"
 - "com.azure.ai.projects.models.WeeklyRecurrenceSchedule"
-enums:
-- "com.azure.ai.projects.models.FoundryFeaturesOptInKeys"
 desc: "Package containing the data models for AIProjects."
 metadata: {}
 package: "com.azure.ai.projects.models"
-artifact: com.azure:azure-ai-projects:2.1.0
+artifact: com.azure:azure-ai-projects:2.2.0

@@ -145,16 +145,6 @@ methods:
   returns:
     description: "the telemetryConfig value."
     type: "<xref href=\"com.azure.ai.agents.models.TelemetryConfig?alt=com.azure.ai.agents.models.TelemetryConfig&text=TelemetryConfig\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.ai.agents.models.HostedAgentDefinition.getTools()"
-  fullName: "com.azure.ai.agents.models.HostedAgentDefinition.getTools()"
-  name: "getTools()"
-  nameWithType: "HostedAgentDefinition.getTools()"
-  summary: "Get the tools property: An array of tools the hosted agent's model may call while generating a response."
-  syntax: "public List<Tool> getTools()"
-  desc: "Get the tools property: An array of tools the hosted agent's model may call while generating a response. You can specify which tool to use by setting the \\`tool\\_choice\\` parameter."
-  returns:
-    description: "the tools value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.agents.models.Tool?alt=com.azure.ai.agents.models.Tool&text=Tool\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.ai.agents.models.HostedAgentDefinition.setCodeConfiguration(com.azure.ai.agents.models.CodeConfiguration)"
   fullName: "com.azure.ai.agents.models.HostedAgentDefinition.setCodeConfiguration(CodeConfiguration codeConfiguration)"
   name: "setCodeConfiguration(CodeConfiguration codeConfiguration)"
@@ -238,20 +228,6 @@ methods:
   returns:
     description: "the HostedAgentDefinition object itself."
     type: "<xref href=\"com.azure.ai.agents.models.HostedAgentDefinition?alt=com.azure.ai.agents.models.HostedAgentDefinition&text=HostedAgentDefinition\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.ai.agents.models.HostedAgentDefinition.setTools(java.util.List<com.azure.ai.agents.models.Tool>)"
-  fullName: "com.azure.ai.agents.models.HostedAgentDefinition.setTools(List<Tool> tools)"
-  name: "setTools(List<Tool> tools)"
-  nameWithType: "HostedAgentDefinition.setTools(List<Tool> tools)"
-  summary: "Set the tools property: An array of tools the hosted agent's model may call while generating a response."
-  parameters:
-  - description: "the tools value to set."
-    name: "tools"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.ai.agents.models.Tool?alt=com.azure.ai.agents.models.Tool&text=Tool\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public HostedAgentDefinition setTools(List<Tool> tools)"
-  desc: "Set the tools property: An array of tools the hosted agent's model may call while generating a response. You can specify which tool to use by setting the \\`tool\\_choice\\` parameter."
-  returns:
-    description: "the HostedAgentDefinition object itself."
-    type: "<xref href=\"com.azure.ai.agents.models.HostedAgentDefinition?alt=com.azure.ai.agents.models.HostedAgentDefinition&text=HostedAgentDefinition\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.HostedAgentDefinition.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.ai.agents.models.HostedAgentDefinition.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -269,4 +245,4 @@ type: "class"
 desc: "The hosted agent definition."
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.1.0
+artifact: com.azure:azure-ai-agents:2.2.0

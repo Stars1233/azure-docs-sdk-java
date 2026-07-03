@@ -93,6 +93,16 @@ methods:
   returns:
     description: "the metadata value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.ai.agents.models.CreateAgentVersionInput.isDraft()"
+  fullName: "com.azure.ai.agents.models.CreateAgentVersionInput.isDraft()"
+  name: "isDraft()"
+  nameWithType: "CreateAgentVersionInput.isDraft()"
+  summary: "Get the draft property: (Preview) Whether this agent version is a draft (candidate) rather than a release."
+  syntax: "public Boolean isDraft()"
+  desc: "Get the draft property: (Preview) Whether this agent version is a draft (candidate) rather than a release. The service defaults to \\`false\\` if a value is not specified by the caller. Draft versions are recorded but excluded from default 'latest' resolution and are not auto-promoted."
+  returns:
+    description: "the draft value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
 - uid: "com.azure.ai.agents.models.CreateAgentVersionInput.setBlueprintReference(com.azure.ai.agents.models.AgentBlueprintReference)"
   fullName: "com.azure.ai.agents.models.CreateAgentVersionInput.setBlueprintReference(AgentBlueprintReference blueprintReference)"
   name: "setBlueprintReference(AgentBlueprintReference blueprintReference)"
@@ -118,6 +128,20 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public CreateAgentVersionInput setDescription(String description)"
   desc: "Set the description property: A human-readable description of the agent."
+  returns:
+    description: "the CreateAgentVersionInput object itself."
+    type: "<xref href=\"com.azure.ai.agents.models.CreateAgentVersionInput?alt=com.azure.ai.agents.models.CreateAgentVersionInput&text=CreateAgentVersionInput\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.agents.models.CreateAgentVersionInput.setDraft(java.lang.Boolean)"
+  fullName: "com.azure.ai.agents.models.CreateAgentVersionInput.setDraft(Boolean draft)"
+  name: "setDraft(Boolean draft)"
+  nameWithType: "CreateAgentVersionInput.setDraft(Boolean draft)"
+  summary: "Set the draft property: (Preview) Whether this agent version is a draft (candidate) rather than a release."
+  parameters:
+  - description: "the draft value to set."
+    name: "draft"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public CreateAgentVersionInput setDraft(Boolean draft)"
+  desc: "Set the draft property: (Preview) Whether this agent version is a draft (candidate) rather than a release. The service defaults to \\`false\\` if a value is not specified by the caller. Draft versions are recorded but excluded from default 'latest' resolution and are not auto-promoted."
   returns:
     description: "the CreateAgentVersionInput object itself."
     type: "<xref href=\"com.azure.ai.agents.models.CreateAgentVersionInput?alt=com.azure.ai.agents.models.CreateAgentVersionInput&text=CreateAgentVersionInput\" data-throw-if-not-resolved=\"False\" />"
@@ -153,4 +177,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.CreateAgentVersionInput?alt=com.azure.ai.agents.models.CreateAgentVersionInput&text=CreateAgentVersionInput\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.1.0
+artifact: com.azure:azure-ai-agents:2.2.0

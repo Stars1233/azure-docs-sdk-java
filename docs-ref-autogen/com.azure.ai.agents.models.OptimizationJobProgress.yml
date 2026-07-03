@@ -51,15 +51,15 @@ methods:
   returns:
     description: "the bestScore value."
     type: "<xref href=\"double?alt=double&text=double\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.ai.agents.models.OptimizationJobProgress.getCurrentIteration()"
-  fullName: "com.azure.ai.agents.models.OptimizationJobProgress.getCurrentIteration()"
-  name: "getCurrentIteration()"
-  nameWithType: "OptimizationJobProgress.getCurrentIteration()"
-  summary: "Get the current<wbr>Iteration property: 1-based current iteration index."
-  syntax: "public int getCurrentIteration()"
-  desc: "Get the currentIteration property: 1-based current iteration index."
+- uid: "com.azure.ai.agents.models.OptimizationJobProgress.getCandidatesCompleted()"
+  fullName: "com.azure.ai.agents.models.OptimizationJobProgress.getCandidatesCompleted()"
+  name: "getCandidatesCompleted()"
+  nameWithType: "OptimizationJobProgress.getCandidatesCompleted()"
+  summary: "Get the candidates<wbr>Completed property: Number of candidates whose evaluation has completed so far."
+  syntax: "public int getCandidatesCompleted()"
+  desc: "Get the candidatesCompleted property: Number of candidates whose evaluation has completed so far."
   returns:
-    description: "the currentIteration value."
+    description: "the candidatesCompleted value."
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.OptimizationJobProgress.getElapsedSeconds()"
   fullName: "com.azure.ai.agents.models.OptimizationJobProgress.getElapsedSeconds()"
@@ -89,4 +89,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.agents.models.OptimizationJobProgress?alt=com.azure.ai.agents.models.OptimizationJobProgress&text=OptimizationJobProgress\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.1.0
+artifact: com.azure:azure-ai-agents:2.2.0

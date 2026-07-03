@@ -55,16 +55,6 @@ methods:
   returns:
     description: "An instance of EntraAuthorizationScheme if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
     type: "<xref href=\"com.azure.ai.agents.models.EntraAuthorizationScheme?alt=com.azure.ai.agents.models.EntraAuthorizationScheme&text=EntraAuthorizationScheme\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.ai.agents.models.EntraAuthorizationScheme.getIsolationKeySource()"
-  fullName: "com.azure.ai.agents.models.EntraAuthorizationScheme.getIsolationKeySource()"
-  name: "getIsolationKeySource()"
-  nameWithType: "EntraAuthorizationScheme.getIsolationKeySource()"
-  summary: "Get the isolation<wbr>Key<wbr>Source property: The source from which the per-user isolation key is derived for requests authorized via this scheme."
-  syntax: "public IsolationKeySource getIsolationKeySource()"
-  desc: "Get the isolationKeySource property: The source from which the per-user isolation key is derived for requests authorized via this scheme. Defaults to Entra-based isolation when omitted."
-  returns:
-    description: "the isolationKeySource value."
-    type: "<xref href=\"com.azure.ai.agents.models.IsolationKeySource?alt=com.azure.ai.agents.models.IsolationKeySource&text=IsolationKeySource\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.EntraAuthorizationScheme.getType()"
   fullName: "com.azure.ai.agents.models.EntraAuthorizationScheme.getType()"
   name: "getType()"
@@ -76,20 +66,6 @@ methods:
   returns:
     description: "the type value."
     type: "<xref href=\"com.azure.ai.agents.models.AgentEndpointAuthorizationSchemeType?alt=com.azure.ai.agents.models.AgentEndpointAuthorizationSchemeType&text=AgentEndpointAuthorizationSchemeType\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.ai.agents.models.EntraAuthorizationScheme.setIsolationKeySource(com.azure.ai.agents.models.IsolationKeySource)"
-  fullName: "com.azure.ai.agents.models.EntraAuthorizationScheme.setIsolationKeySource(IsolationKeySource isolationKeySource)"
-  name: "setIsolationKeySource(IsolationKeySource isolationKeySource)"
-  nameWithType: "EntraAuthorizationScheme.setIsolationKeySource(IsolationKeySource isolationKeySource)"
-  summary: "Set the isolation<wbr>Key<wbr>Source property: The source from which the per-user isolation key is derived for requests authorized via this scheme."
-  parameters:
-  - description: "the isolationKeySource value to set."
-    name: "isolationKeySource"
-    type: "<xref href=\"com.azure.ai.agents.models.IsolationKeySource?alt=com.azure.ai.agents.models.IsolationKeySource&text=IsolationKeySource\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public EntraAuthorizationScheme setIsolationKeySource(IsolationKeySource isolationKeySource)"
-  desc: "Set the isolationKeySource property: The source from which the per-user isolation key is derived for requests authorized via this scheme. Defaults to Entra-based isolation when omitted."
-  returns:
-    description: "the EntraAuthorizationScheme object itself."
-    type: "<xref href=\"com.azure.ai.agents.models.EntraAuthorizationScheme?alt=com.azure.ai.agents.models.EntraAuthorizationScheme&text=EntraAuthorizationScheme\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.ai.agents.models.EntraAuthorizationScheme.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.ai.agents.models.EntraAuthorizationScheme.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -107,4 +83,4 @@ type: "class"
 desc: "The EntraAuthorizationScheme model."
 metadata: {}
 package: "com.azure.ai.agents.models"
-artifact: com.azure:azure-ai-agents:2.1.0
+artifact: com.azure:azure-ai-agents:2.2.0
