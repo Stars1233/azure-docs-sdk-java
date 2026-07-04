@@ -14,7 +14,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
@@ -23,7 +23,7 @@ methods:
   syntax: "public abstract PagedIterable<ApplicationGatewayPrivateLinkResourceInner> list(String resourceGroupName, String applicationGatewayName)"
   desc: "Lists all private link resources on an application gateway."
   returns:
-    description: "response for ListApplicationGatewayPrivateLinkResources API service call as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "the response of a ApplicationGatewayPrivateLinkResource list operation as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateLinkResourceInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateLinkResourceInner&text=ApplicationGatewayPrivateLinkResourceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.ApplicationGatewayPrivateLinkResourcesClient.list(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.network.fluent.ApplicationGatewayPrivateLinkResourcesClient.list(String resourceGroupName, String applicationGatewayName, Context context)"
@@ -33,7 +33,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
@@ -45,7 +45,7 @@ methods:
   syntax: "public abstract PagedIterable<ApplicationGatewayPrivateLinkResourceInner> list(String resourceGroupName, String applicationGatewayName, Context context)"
   desc: "Lists all private link resources on an application gateway."
   returns:
-    description: "response for ListApplicationGatewayPrivateLinkResources API service call as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "the response of a ApplicationGatewayPrivateLinkResource list operation as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateLinkResourceInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateLinkResourceInner&text=ApplicationGatewayPrivateLinkResourceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.ApplicationGatewayPrivateLinkResourcesClient.listAsync(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.network.fluent.ApplicationGatewayPrivateLinkResourcesClient.listAsync(String resourceGroupName, String applicationGatewayName)"
@@ -55,7 +55,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
@@ -64,10 +64,10 @@ methods:
   syntax: "public abstract PagedFlux<ApplicationGatewayPrivateLinkResourceInner> listAsync(String resourceGroupName, String applicationGatewayName)"
   desc: "Lists all private link resources on an application gateway."
   returns:
-    description: "response for ListApplicationGatewayPrivateLinkResources API service call as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
+    description: "the response of a ApplicationGatewayPrivateLinkResource list operation as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateLinkResourceInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateLinkResourceInner&text=ApplicationGatewayPrivateLinkResourceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 desc: "An instance of this class provides access to all the operations defined in ApplicationGatewayPrivateLinkResourcesClient."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

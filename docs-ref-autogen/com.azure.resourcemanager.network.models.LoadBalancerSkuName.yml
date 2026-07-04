@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.LoadBalancerSkuName.BASIC"
   name: "BASIC"
   nameWithType: "LoadBalancerSkuName.BASIC"
-  summary: "Static value Basic for Load<wbr>Balancer<wbr>Sku<wbr>Name."
+  summary: "Basic."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerSkuName?alt=com.azure.resourcemanager.network.models.LoadBalancerSkuName&text=LoadBalancerSkuName\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final LoadBalancerSkuName BASIC"
-  desc: "Static value Basic for LoadBalancerSkuName."
+  desc: "Basic."
 - uid: "com.azure.resourcemanager.network.models.LoadBalancerSkuName.GATEWAY"
   fullName: "com.azure.resourcemanager.network.models.LoadBalancerSkuName.GATEWAY"
   name: "GATEWAY"
   nameWithType: "LoadBalancerSkuName.GATEWAY"
-  summary: "Static value Gateway for Load<wbr>Balancer<wbr>Sku<wbr>Name."
+  summary: "Gateway."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerSkuName?alt=com.azure.resourcemanager.network.models.LoadBalancerSkuName&text=LoadBalancerSkuName\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final LoadBalancerSkuName GATEWAY"
-  desc: "Static value Gateway for LoadBalancerSkuName."
+  desc: "Gateway."
 - uid: "com.azure.resourcemanager.network.models.LoadBalancerSkuName.STANDARD"
   fullName: "com.azure.resourcemanager.network.models.LoadBalancerSkuName.STANDARD"
   name: "STANDARD"
   nameWithType: "LoadBalancerSkuName.STANDARD"
-  summary: "Static value Standard for Load<wbr>Balancer<wbr>Sku<wbr>Name."
+  summary: "Standard."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerSkuName?alt=com.azure.resourcemanager.network.models.LoadBalancerSkuName&text=LoadBalancerSkuName\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final LoadBalancerSkuName STANDARD"
-  desc: "Static value Standard for LoadBalancerSkuName."
+  desc: "Standard."
 methods:
 - uid: "com.azure.resourcemanager.network.models.LoadBalancerSkuName.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.LoadBalancerSkuName.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "Name of a load balancer SKU."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

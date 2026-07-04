@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.CircuitConnectionStatus.CONNECTED"
   name: "CONNECTED"
   nameWithType: "CircuitConnectionStatus.CONNECTED"
-  summary: "Static value Connected for Circuit<wbr>Connection<wbr>Status."
+  summary: "Connected."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.CircuitConnectionStatus?alt=com.azure.resourcemanager.network.models.CircuitConnectionStatus&text=CircuitConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final CircuitConnectionStatus CONNECTED"
-  desc: "Static value Connected for CircuitConnectionStatus."
+  desc: "Connected."
 - uid: "com.azure.resourcemanager.network.models.CircuitConnectionStatus.CONNECTING"
   fullName: "com.azure.resourcemanager.network.models.CircuitConnectionStatus.CONNECTING"
   name: "CONNECTING"
   nameWithType: "CircuitConnectionStatus.CONNECTING"
-  summary: "Static value Connecting for Circuit<wbr>Connection<wbr>Status."
+  summary: "Connecting."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.CircuitConnectionStatus?alt=com.azure.resourcemanager.network.models.CircuitConnectionStatus&text=CircuitConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final CircuitConnectionStatus CONNECTING"
-  desc: "Static value Connecting for CircuitConnectionStatus."
+  desc: "Connecting."
 - uid: "com.azure.resourcemanager.network.models.CircuitConnectionStatus.DISCONNECTED"
   fullName: "com.azure.resourcemanager.network.models.CircuitConnectionStatus.DISCONNECTED"
   name: "DISCONNECTED"
   nameWithType: "CircuitConnectionStatus.DISCONNECTED"
-  summary: "Static value Disconnected for Circuit<wbr>Connection<wbr>Status."
+  summary: "Disconnected."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.CircuitConnectionStatus?alt=com.azure.resourcemanager.network.models.CircuitConnectionStatus&text=CircuitConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final CircuitConnectionStatus DISCONNECTED"
-  desc: "Static value Disconnected for CircuitConnectionStatus."
+  desc: "Disconnected."
 methods:
 - uid: "com.azure.resourcemanager.network.models.CircuitConnectionStatus.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.CircuitConnectionStatus.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "Express Route Circuit connection state."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

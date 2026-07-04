@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.SharingScope.DELEGATED_SERVICES"
   name: "DELEGATED_SERVICES"
   nameWithType: "SharingScope.DELEGATED_SERVICES"
-  summary: "Static value Delegated<wbr>Services for Sharing<wbr>Scope."
+  summary: "Delegated<wbr>Services."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.SharingScope?alt=com.azure.resourcemanager.network.models.SharingScope&text=SharingScope\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SharingScope DELEGATED_SERVICES"
-  desc: "Static value DelegatedServices for SharingScope."
+  desc: "DelegatedServices."
 - uid: "com.azure.resourcemanager.network.models.SharingScope.TENANT"
   fullName: "com.azure.resourcemanager.network.models.SharingScope.TENANT"
   name: "TENANT"
   nameWithType: "SharingScope.TENANT"
-  summary: "Static value Tenant for Sharing<wbr>Scope."
+  summary: "Tenant."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.SharingScope?alt=com.azure.resourcemanager.network.models.SharingScope&text=SharingScope\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SharingScope TENANT"
-  desc: "Static value Tenant for SharingScope."
+  desc: "Tenant."
 methods:
 - uid: "com.azure.resourcemanager.network.models.SharingScope.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.SharingScope.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Set this property to Tenant to allow sharing subnet with other subscriptions in your AAD tenant. This property can only be set if defaultOutboundAccess is set to false, both properties can only be set if subnet is empty."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

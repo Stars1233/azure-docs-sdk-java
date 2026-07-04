@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayFirewallMode.DETECTION"
   name: "DETECTION"
   nameWithType: "ApplicationGatewayFirewallMode.DETECTION"
-  summary: "Static value Detection for Application<wbr>Gateway<wbr>Firewall<wbr>Mode."
+  summary: "Detection."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayFirewallMode?alt=com.azure.resourcemanager.network.models.ApplicationGatewayFirewallMode&text=ApplicationGatewayFirewallMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayFirewallMode DETECTION"
-  desc: "Static value Detection for ApplicationGatewayFirewallMode."
+  desc: "Detection."
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayFirewallMode.PREVENTION"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayFirewallMode.PREVENTION"
   name: "PREVENTION"
   nameWithType: "ApplicationGatewayFirewallMode.PREVENTION"
-  summary: "Static value Prevention for Application<wbr>Gateway<wbr>Firewall<wbr>Mode."
+  summary: "Prevention."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayFirewallMode?alt=com.azure.resourcemanager.network.models.ApplicationGatewayFirewallMode&text=ApplicationGatewayFirewallMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayFirewallMode PREVENTION"
-  desc: "Static value Prevention for ApplicationGatewayFirewallMode."
+  desc: "Prevention."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayFirewallMode.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayFirewallMode.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Web application firewall mode."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

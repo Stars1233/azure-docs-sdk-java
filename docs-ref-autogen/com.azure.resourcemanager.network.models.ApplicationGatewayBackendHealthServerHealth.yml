@@ -42,62 +42,62 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthServerHealth.DOWN"
   name: "DOWN"
   nameWithType: "ApplicationGatewayBackendHealthServerHealth.DOWN"
-  summary: "Static value Down for Application<wbr>Gateway<wbr>Backend<wbr>Health<wbr>Server<wbr>Health."
+  summary: "Down."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthServerHealth?alt=com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthServerHealth&text=ApplicationGatewayBackendHealthServerHealth\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayBackendHealthServerHealth DOWN"
-  desc: "Static value Down for ApplicationGatewayBackendHealthServerHealth."
+  desc: "Down."
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthServerHealth.DRAINING"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthServerHealth.DRAINING"
   name: "DRAINING"
   nameWithType: "ApplicationGatewayBackendHealthServerHealth.DRAINING"
-  summary: "Static value Draining for Application<wbr>Gateway<wbr>Backend<wbr>Health<wbr>Server<wbr>Health."
+  summary: "Draining."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthServerHealth?alt=com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthServerHealth&text=ApplicationGatewayBackendHealthServerHealth\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayBackendHealthServerHealth DRAINING"
-  desc: "Static value Draining for ApplicationGatewayBackendHealthServerHealth."
+  desc: "Draining."
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthServerHealth.PARTIAL"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthServerHealth.PARTIAL"
   name: "PARTIAL"
   nameWithType: "ApplicationGatewayBackendHealthServerHealth.PARTIAL"
-  summary: "Static value Partial for Application<wbr>Gateway<wbr>Backend<wbr>Health<wbr>Server<wbr>Health."
+  summary: "Partial."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthServerHealth?alt=com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthServerHealth&text=ApplicationGatewayBackendHealthServerHealth\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayBackendHealthServerHealth PARTIAL"
-  desc: "Static value Partial for ApplicationGatewayBackendHealthServerHealth."
+  desc: "Partial."
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthServerHealth.UNKNOWN"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthServerHealth.UNKNOWN"
   name: "UNKNOWN"
   nameWithType: "ApplicationGatewayBackendHealthServerHealth.UNKNOWN"
-  summary: "Static value Unknown for Application<wbr>Gateway<wbr>Backend<wbr>Health<wbr>Server<wbr>Health."
+  summary: "Unknown."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthServerHealth?alt=com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthServerHealth&text=ApplicationGatewayBackendHealthServerHealth\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayBackendHealthServerHealth UNKNOWN"
-  desc: "Static value Unknown for ApplicationGatewayBackendHealthServerHealth."
+  desc: "Unknown."
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthServerHealth.UP"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthServerHealth.UP"
   name: "UP"
   nameWithType: "ApplicationGatewayBackendHealthServerHealth.UP"
-  summary: "Static value Up for Application<wbr>Gateway<wbr>Backend<wbr>Health<wbr>Server<wbr>Health."
+  summary: "Up."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthServerHealth?alt=com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthServerHealth&text=ApplicationGatewayBackendHealthServerHealth\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayBackendHealthServerHealth UP"
-  desc: "Static value Up for ApplicationGatewayBackendHealthServerHealth."
+  desc: "Up."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthServerHealth.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthServerHealth.fromString(String name)"
@@ -131,4 +131,4 @@ type: "class"
 desc: "Health of backend server."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

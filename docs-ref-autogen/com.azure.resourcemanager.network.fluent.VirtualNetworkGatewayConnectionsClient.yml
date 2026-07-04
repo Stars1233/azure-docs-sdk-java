@@ -14,7 +14,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -36,7 +36,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -61,7 +61,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -83,7 +83,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -102,7 +102,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -124,7 +124,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -143,10 +143,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the virtual network gateway Connection."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<String>,String> beginGetIkeSas(String resourceGroupName, String virtualNetworkGatewayConnectionName)"
@@ -162,10 +162,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the virtual network gateway Connection."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -184,10 +184,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the virtual network gateway Connection."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PollerFlux<PollResult<String>,String> beginGetIkeSasAsync(String resourceGroupName, String virtualNetworkGatewayConnectionName)"
@@ -203,10 +203,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the virtual network gateway Connection."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginResetConnection(String resourceGroupName, String virtualNetworkGatewayConnectionName)"
@@ -222,10 +222,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the virtual network gateway Connection."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -244,10 +244,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the virtual network gateway Connection."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PollerFlux<PollResult<Void>,Void> beginResetConnectionAsync(String resourceGroupName, String virtualNetworkGatewayConnectionName)"
@@ -263,10 +263,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The virtual network gateway connection reset shared key Name."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the begin reset virtual network gateway connection shared key operation\n through network resource provider."
@@ -285,10 +285,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The virtual network gateway connection reset shared key Name."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the begin reset virtual network gateway connection shared key operation\n through network resource provider."
@@ -310,10 +310,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The virtual network gateway connection reset shared key Name."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the begin reset virtual network gateway connection shared key operation\n through network resource provider."
@@ -332,10 +332,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The virtual network gateway connection name."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the Begin Set Virtual Network Gateway connection Shared key operation\n throughNetwork resource provider."
@@ -354,10 +354,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The virtual network gateway connection name."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the Begin Set Virtual Network Gateway connection Shared key operation\n throughNetwork resource provider."
@@ -379,10 +379,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The virtual network gateway connection name."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the Begin Set Virtual Network Gateway connection Shared key operation\n throughNetwork resource provider."
@@ -401,7 +401,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -420,7 +420,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -445,7 +445,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -464,7 +464,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -486,10 +486,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the virtual network gateway Connection."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Virtual network gateway packet capture parameters supplied to stop packet capture on gateway\n connection."
@@ -508,10 +508,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the virtual network gateway Connection."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Virtual network gateway packet capture parameters supplied to stop packet capture on gateway\n connection."
@@ -533,10 +533,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the virtual network gateway Connection."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Virtual network gateway packet capture parameters supplied to stop packet capture on gateway\n connection."
@@ -555,7 +555,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -577,7 +577,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -602,7 +602,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -624,7 +624,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -646,7 +646,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -671,7 +671,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -693,7 +693,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -715,7 +715,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -731,7 +731,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -750,7 +750,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -769,7 +769,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -788,7 +788,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -807,7 +807,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -826,7 +826,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -848,7 +848,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -867,10 +867,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the virtual network gateway Connection."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract String getIkeSas(String resourceGroupName, String virtualNetworkGatewayConnectionName)"
@@ -886,10 +886,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the virtual network gateway Connection."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -908,10 +908,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the virtual network gateway Connection."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<String> getIkeSasAsync(String resourceGroupName, String virtualNetworkGatewayConnectionName)"
@@ -927,10 +927,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the virtual network gateway Connection."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> getIkeSasWithResponseAsync(String resourceGroupName, String virtualNetworkGatewayConnectionName)"
@@ -946,10 +946,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The virtual network gateway connection shared key name."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract ConnectionSharedKeyInner getSharedKey(String resourceGroupName, String virtualNetworkGatewayConnectionName)"
@@ -965,10 +965,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The virtual network gateway connection shared key name."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<ConnectionSharedKeyInner> getSharedKeyAsync(String resourceGroupName, String virtualNetworkGatewayConnectionName)"
@@ -984,10 +984,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The virtual network gateway connection shared key name."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -1006,10 +1006,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The virtual network gateway connection shared key name."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<Response<ConnectionSharedKeyInner>> getSharedKeyWithResponseAsync(String resourceGroupName, String virtualNetworkGatewayConnectionName)"
@@ -1025,13 +1025,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<VirtualNetworkGatewayConnectionInner> listByResourceGroup(String resourceGroupName)"
   desc: "The List VirtualNetworkGatewayConnections operation retrieves all the virtual network gateways connections created."
   returns:
-    description: "response for the ListVirtualNetworkGatewayConnections API service call as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "the response of a VirtualNetworkGatewayConnection list operation as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner?alt=com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner&text=VirtualNetworkGatewayConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.VirtualNetworkGatewayConnectionsClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.network.fluent.VirtualNetworkGatewayConnectionsClient.listByResourceGroup(String resourceGroupName, Context context)"
@@ -1041,7 +1041,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -1050,7 +1050,7 @@ methods:
   syntax: "public abstract PagedIterable<VirtualNetworkGatewayConnectionInner> listByResourceGroup(String resourceGroupName, Context context)"
   desc: "The List VirtualNetworkGatewayConnections operation retrieves all the virtual network gateways connections created."
   returns:
-    description: "response for the ListVirtualNetworkGatewayConnections API service call as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "the response of a VirtualNetworkGatewayConnection list operation as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner?alt=com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner&text=VirtualNetworkGatewayConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.VirtualNetworkGatewayConnectionsClient.listByResourceGroupAsync(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.fluent.VirtualNetworkGatewayConnectionsClient.listByResourceGroupAsync(String resourceGroupName)"
@@ -1060,13 +1060,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedFlux<VirtualNetworkGatewayConnectionInner> listByResourceGroupAsync(String resourceGroupName)"
   desc: "The List VirtualNetworkGatewayConnections operation retrieves all the virtual network gateways connections created."
   returns:
-    description: "response for the ListVirtualNetworkGatewayConnections API service call as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
+    description: "the response of a VirtualNetworkGatewayConnection list operation as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner?alt=com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner&text=VirtualNetworkGatewayConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.VirtualNetworkGatewayConnectionsClient.resetConnection(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.network.fluent.VirtualNetworkGatewayConnectionsClient.resetConnection(String resourceGroupName, String virtualNetworkGatewayConnectionName)"
@@ -1076,10 +1076,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the virtual network gateway Connection."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void resetConnection(String resourceGroupName, String virtualNetworkGatewayConnectionName)"
@@ -1092,10 +1092,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the virtual network gateway Connection."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -1111,10 +1111,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the virtual network gateway Connection."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<Void> resetConnectionAsync(String resourceGroupName, String virtualNetworkGatewayConnectionName)"
@@ -1130,10 +1130,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the virtual network gateway Connection."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> resetConnectionWithResponseAsync(String resourceGroupName, String virtualNetworkGatewayConnectionName)"
@@ -1149,10 +1149,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The virtual network gateway connection reset shared key Name."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the begin reset virtual network gateway connection shared key operation\n through network resource provider."
@@ -1171,10 +1171,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The virtual network gateway connection reset shared key Name."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the begin reset virtual network gateway connection shared key operation\n through network resource provider."
@@ -1196,10 +1196,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The virtual network gateway connection reset shared key Name."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the begin reset virtual network gateway connection shared key operation\n through network resource provider."
@@ -1218,10 +1218,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The virtual network gateway connection reset shared key Name."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the begin reset virtual network gateway connection shared key operation\n through network resource provider."
@@ -1240,10 +1240,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The virtual network gateway connection name."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the Begin Set Virtual Network Gateway connection Shared key operation\n throughNetwork resource provider."
@@ -1262,10 +1262,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The virtual network gateway connection name."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the Begin Set Virtual Network Gateway connection Shared key operation\n throughNetwork resource provider."
@@ -1287,10 +1287,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The virtual network gateway connection name."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the Begin Set Virtual Network Gateway connection Shared key operation\n throughNetwork resource provider."
@@ -1309,10 +1309,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The virtual network gateway connection name."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the Begin Set Virtual Network Gateway connection Shared key operation\n throughNetwork resource provider."
@@ -1331,7 +1331,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -1350,7 +1350,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -1375,7 +1375,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -1394,7 +1394,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -1416,7 +1416,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -1438,10 +1438,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the virtual network gateway Connection."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Virtual network gateway packet capture parameters supplied to stop packet capture on gateway\n connection."
@@ -1460,10 +1460,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the virtual network gateway Connection."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Virtual network gateway packet capture parameters supplied to stop packet capture on gateway\n connection."
@@ -1485,10 +1485,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the virtual network gateway Connection."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Virtual network gateway packet capture parameters supplied to stop packet capture on gateway\n connection."
@@ -1507,10 +1507,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the virtual network gateway Connection."
+  - description: "The name of the virtual network gateway connection."
     name: "virtualNetworkGatewayConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Virtual network gateway packet capture parameters supplied to stop packet capture on gateway\n connection."
@@ -1529,7 +1529,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -1551,7 +1551,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -1576,7 +1576,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -1598,7 +1598,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual network gateway connection."
@@ -1619,4 +1619,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet&text=InnerSupportsGet\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner?alt=com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner&text=VirtualNetworkGatewayConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

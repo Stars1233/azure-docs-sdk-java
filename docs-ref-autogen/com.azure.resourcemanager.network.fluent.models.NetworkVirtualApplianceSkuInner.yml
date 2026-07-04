@@ -36,14 +36,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **NetworkVirtualApplianceSkuInner**</br> extends <xref href=\"com.azure.core.management.Resource?alt=com.azure.core.management.Resource&text=Resource\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuInner.NetworkVirtualApplianceSkuInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuInner.NetworkVirtualApplianceSkuInner()"
-  name: "NetworkVirtualApplianceSkuInner()"
-  nameWithType: "NetworkVirtualApplianceSkuInner.NetworkVirtualApplianceSkuInner()"
-  summary: "Creates an instance of Network<wbr>Virtual<wbr>Appliance<wbr>Sku<wbr>Inner class."
-  syntax: "public NetworkVirtualApplianceSkuInner()"
-  desc: "Creates an instance of NetworkVirtualApplianceSkuInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuInner.availableScaleUnits()"
   fullName: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuInner.availableScaleUnits()"
@@ -157,58 +149,8 @@ methods:
   returns:
     description: "the vendor value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuInner.withAvailableScaleUnits(java.util.List<com.azure.resourcemanager.network.models.NetworkVirtualApplianceSkuInstances>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuInner.withAvailableScaleUnits(List<NetworkVirtualApplianceSkuInstances> availableScaleUnits)"
-  name: "withAvailableScaleUnits(List<NetworkVirtualApplianceSkuInstances> availableScaleUnits)"
-  nameWithType: "NetworkVirtualApplianceSkuInner.withAvailableScaleUnits(List<NetworkVirtualApplianceSkuInstances> availableScaleUnits)"
-  summary: "Set the available<wbr>Scale<wbr>Units property: The list of scale units available."
-  parameters:
-  - description: "the availableScaleUnits value to set."
-    name: "availableScaleUnits"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.NetworkVirtualApplianceSkuInstances?alt=com.azure.resourcemanager.network.models.NetworkVirtualApplianceSkuInstances&text=NetworkVirtualApplianceSkuInstances\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public NetworkVirtualApplianceSkuInner withAvailableScaleUnits(List<NetworkVirtualApplianceSkuInstances> availableScaleUnits)"
-  desc: "Set the availableScaleUnits property: The list of scale units available."
-  returns:
-    description: "the NetworkVirtualApplianceSkuInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuInner&text=NetworkVirtualApplianceSkuInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuInner.withId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuInner.withId(String id)"
-  name: "withId(String id)"
-  nameWithType: "NetworkVirtualApplianceSkuInner.withId(String id)"
-  summary: "Set the id property: Resource ID."
-  parameters:
-  - description: "the id value to set."
-    name: "id"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public NetworkVirtualApplianceSkuInner withId(String id)"
-  desc: "Set the id property: Resource ID."
-  returns:
-    description: "the NetworkVirtualApplianceSkuInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuInner&text=NetworkVirtualApplianceSkuInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuInner.withLocation(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuInner.withLocation(String location)"
-  name: "withLocation(String location)"
-  nameWithType: "NetworkVirtualApplianceSkuInner.withLocation(String location)"
-  overridden: "com.azure.core.management.Resource.withLocation(java.lang.String)"
-  parameters:
-  - name: "location"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public NetworkVirtualApplianceSkuInner withLocation(String location)"
-  returns:
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuInner&text=NetworkVirtualApplianceSkuInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuInner.withTags(java.util.Map<java.lang.String,java.lang.String>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuInner.withTags(Map<String,String> tags)"
-  name: "withTags(Map<String,String> tags)"
-  nameWithType: "NetworkVirtualApplianceSkuInner.withTags(Map<String,String> tags)"
-  overridden: "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
-  parameters:
-  - name: "tags"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public NetworkVirtualApplianceSkuInner withTags(Map<String,String> tags)"
-  returns:
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuInner&text=NetworkVirtualApplianceSkuInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Available NetworkVirtualApplianceSkus Definition of the NetworkVirtualApplianceSkus resource."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ExpressRoutePeeringState.DISABLED"
   name: "DISABLED"
   nameWithType: "ExpressRoutePeeringState.DISABLED"
-  summary: "Static value Disabled for Express<wbr>Route<wbr>Peering<wbr>State."
+  summary: "Disabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRoutePeeringState?alt=com.azure.resourcemanager.network.models.ExpressRoutePeeringState&text=ExpressRoutePeeringState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExpressRoutePeeringState DISABLED"
-  desc: "Static value Disabled for ExpressRoutePeeringState."
+  desc: "Disabled."
 - uid: "com.azure.resourcemanager.network.models.ExpressRoutePeeringState.ENABLED"
   fullName: "com.azure.resourcemanager.network.models.ExpressRoutePeeringState.ENABLED"
   name: "ENABLED"
   nameWithType: "ExpressRoutePeeringState.ENABLED"
-  summary: "Static value Enabled for Express<wbr>Route<wbr>Peering<wbr>State."
+  summary: "Enabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRoutePeeringState?alt=com.azure.resourcemanager.network.models.ExpressRoutePeeringState&text=ExpressRoutePeeringState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExpressRoutePeeringState ENABLED"
-  desc: "Static value Enabled for ExpressRoutePeeringState."
+  desc: "Enabled."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ExpressRoutePeeringState.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ExpressRoutePeeringState.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The state of peering."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.GroupMemberType.SUBNET"
   name: "SUBNET"
   nameWithType: "GroupMemberType.SUBNET"
-  summary: "Static value Subnet for Group<wbr>Member<wbr>Type."
+  summary: "Subnet."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.GroupMemberType?alt=com.azure.resourcemanager.network.models.GroupMemberType&text=GroupMemberType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final GroupMemberType SUBNET"
-  desc: "Static value Subnet for GroupMemberType."
+  desc: "Subnet."
 - uid: "com.azure.resourcemanager.network.models.GroupMemberType.VIRTUAL_NETWORK"
   fullName: "com.azure.resourcemanager.network.models.GroupMemberType.VIRTUAL_NETWORK"
   name: "VIRTUAL_NETWORK"
   nameWithType: "GroupMemberType.VIRTUAL_NETWORK"
-  summary: "Static value Virtual<wbr>Network for Group<wbr>Member<wbr>Type."
+  summary: "Virtual<wbr>Network."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.GroupMemberType?alt=com.azure.resourcemanager.network.models.GroupMemberType&text=GroupMemberType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final GroupMemberType VIRTUAL_NETWORK"
-  desc: "Static value VirtualNetwork for GroupMemberType."
+  desc: "VirtualNetwork."
 methods:
 - uid: "com.azure.resourcemanager.network.models.GroupMemberType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.GroupMemberType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Network Group member type."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

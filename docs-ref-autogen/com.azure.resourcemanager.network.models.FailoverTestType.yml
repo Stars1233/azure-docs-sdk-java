@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.FailoverTestType.ALL"
   name: "ALL"
   nameWithType: "FailoverTestType.ALL"
-  summary: "Static value All for Failover<wbr>Test<wbr>Type."
+  summary: "All."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FailoverTestType?alt=com.azure.resourcemanager.network.models.FailoverTestType&text=FailoverTestType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FailoverTestType ALL"
-  desc: "Static value All for FailoverTestType."
+  desc: "All."
 - uid: "com.azure.resourcemanager.network.models.FailoverTestType.MULTI_SITE_FAILOVER"
   fullName: "com.azure.resourcemanager.network.models.FailoverTestType.MULTI_SITE_FAILOVER"
   name: "MULTI_SITE_FAILOVER"
   nameWithType: "FailoverTestType.MULTI_SITE_FAILOVER"
-  summary: "Static value Multi<wbr>Site<wbr>Failover for Failover<wbr>Test<wbr>Type."
+  summary: "Multi<wbr>Site<wbr>Failover."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FailoverTestType?alt=com.azure.resourcemanager.network.models.FailoverTestType&text=FailoverTestType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FailoverTestType MULTI_SITE_FAILOVER"
-  desc: "Static value MultiSiteFailover for FailoverTestType."
+  desc: "MultiSiteFailover."
 - uid: "com.azure.resourcemanager.network.models.FailoverTestType.SINGLE_SITE_FAILOVER"
   fullName: "com.azure.resourcemanager.network.models.FailoverTestType.SINGLE_SITE_FAILOVER"
   name: "SINGLE_SITE_FAILOVER"
   nameWithType: "FailoverTestType.SINGLE_SITE_FAILOVER"
-  summary: "Static value Single<wbr>Site<wbr>Failover for Failover<wbr>Test<wbr>Type."
+  summary: "Single<wbr>Site<wbr>Failover."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FailoverTestType?alt=com.azure.resourcemanager.network.models.FailoverTestType&text=FailoverTestType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FailoverTestType SINGLE_SITE_FAILOVER"
-  desc: "Static value SingleSiteFailover for FailoverTestType."
+  desc: "SingleSiteFailover."
 methods:
 - uid: "com.azure.resourcemanager.network.models.FailoverTestType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.FailoverTestType.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "The type of failover test."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

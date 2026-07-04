@@ -42,50 +42,50 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.DeploymentStatus.DEPLOYED"
   name: "DEPLOYED"
   nameWithType: "DeploymentStatus.DEPLOYED"
-  summary: "Static value Deployed for Deployment<wbr>Status."
+  summary: "Deployed."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.DeploymentStatus?alt=com.azure.resourcemanager.network.models.DeploymentStatus&text=DeploymentStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DeploymentStatus DEPLOYED"
-  desc: "Static value Deployed for DeploymentStatus."
+  desc: "Deployed."
 - uid: "com.azure.resourcemanager.network.models.DeploymentStatus.DEPLOYING"
   fullName: "com.azure.resourcemanager.network.models.DeploymentStatus.DEPLOYING"
   name: "DEPLOYING"
   nameWithType: "DeploymentStatus.DEPLOYING"
-  summary: "Static value Deploying for Deployment<wbr>Status."
+  summary: "Deploying."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.DeploymentStatus?alt=com.azure.resourcemanager.network.models.DeploymentStatus&text=DeploymentStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DeploymentStatus DEPLOYING"
-  desc: "Static value Deploying for DeploymentStatus."
+  desc: "Deploying."
 - uid: "com.azure.resourcemanager.network.models.DeploymentStatus.FAILED"
   fullName: "com.azure.resourcemanager.network.models.DeploymentStatus.FAILED"
   name: "FAILED"
   nameWithType: "DeploymentStatus.FAILED"
-  summary: "Static value Failed for Deployment<wbr>Status."
+  summary: "Failed."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.DeploymentStatus?alt=com.azure.resourcemanager.network.models.DeploymentStatus&text=DeploymentStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DeploymentStatus FAILED"
-  desc: "Static value Failed for DeploymentStatus."
+  desc: "Failed."
 - uid: "com.azure.resourcemanager.network.models.DeploymentStatus.NOT_STARTED"
   fullName: "com.azure.resourcemanager.network.models.DeploymentStatus.NOT_STARTED"
   name: "NOT_STARTED"
   nameWithType: "DeploymentStatus.NOT_STARTED"
-  summary: "Static value Not<wbr>Started for Deployment<wbr>Status."
+  summary: "Not<wbr>Started."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.DeploymentStatus?alt=com.azure.resourcemanager.network.models.DeploymentStatus&text=DeploymentStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DeploymentStatus NOT_STARTED"
-  desc: "Static value NotStarted for DeploymentStatus."
+  desc: "NotStarted."
 methods:
 - uid: "com.azure.resourcemanager.network.models.DeploymentStatus.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.DeploymentStatus.fromString(String name)"
@@ -119,4 +119,4 @@ type: "class"
 desc: "Deployment Status."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

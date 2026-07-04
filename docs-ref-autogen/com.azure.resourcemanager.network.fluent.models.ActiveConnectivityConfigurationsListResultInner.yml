@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ActiveConnectivityConfigurationsListResultInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ActiveConnectivityConfigurationsListResultInner?alt=com.azure.resourcemanager.network.fluent.models.ActiveConnectivityConfigurationsListResultInner&text=ActiveConnectivityConfigurationsListResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.ActiveConnectivityConfigurationsListResultInner.ActiveConnectivityConfigurationsListResultInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ActiveConnectivityConfigurationsListResultInner.ActiveConnectivityConfigurationsListResultInner()"
-  name: "ActiveConnectivityConfigurationsListResultInner()"
-  nameWithType: "ActiveConnectivityConfigurationsListResultInner.ActiveConnectivityConfigurationsListResultInner()"
-  summary: "Creates an instance of Active<wbr>Connectivity<wbr>Configurations<wbr>List<wbr>Result<wbr>Inner class."
-  syntax: "public ActiveConnectivityConfigurationsListResultInner()"
-  desc: "Creates an instance of ActiveConnectivityConfigurationsListResultInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.ActiveConnectivityConfigurationsListResultInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.ActiveConnectivityConfigurationsListResultInner.fromJson(JsonReader jsonReader)"
@@ -88,38 +80,10 @@ methods:
   returns:
     description: "the value value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ActiveConnectivityConfiguration?alt=com.azure.resourcemanager.network.models.ActiveConnectivityConfiguration&text=ActiveConnectivityConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.network.fluent.models.ActiveConnectivityConfigurationsListResultInner.withSkipToken(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ActiveConnectivityConfigurationsListResultInner.withSkipToken(String skipToken)"
-  name: "withSkipToken(String skipToken)"
-  nameWithType: "ActiveConnectivityConfigurationsListResultInner.withSkipToken(String skipToken)"
-  summary: "Set the skip<wbr>Token property: When present, the value can be passed to a subsequent query call (together with the same query and scopes used in the current request) to retrieve the next page of data."
-  parameters:
-  - description: "the skipToken value to set."
-    name: "skipToken"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ActiveConnectivityConfigurationsListResultInner withSkipToken(String skipToken)"
-  desc: "Set the skipToken property: When present, the value can be passed to a subsequent query call (together with the same query and scopes used in the current request) to retrieve the next page of data."
-  returns:
-    description: "the ActiveConnectivityConfigurationsListResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ActiveConnectivityConfigurationsListResultInner?alt=com.azure.resourcemanager.network.fluent.models.ActiveConnectivityConfigurationsListResultInner&text=ActiveConnectivityConfigurationsListResultInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ActiveConnectivityConfigurationsListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.models.ActiveConnectivityConfiguration>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ActiveConnectivityConfigurationsListResultInner.withValue(List<ActiveConnectivityConfiguration> value)"
-  name: "withValue(List<ActiveConnectivityConfiguration> value)"
-  nameWithType: "ActiveConnectivityConfigurationsListResultInner.withValue(List<ActiveConnectivityConfiguration> value)"
-  summary: "Set the value property: Gets a page of active connectivity configurations."
-  parameters:
-  - description: "the value value to set."
-    name: "value"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ActiveConnectivityConfiguration?alt=com.azure.resourcemanager.network.models.ActiveConnectivityConfiguration&text=ActiveConnectivityConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public ActiveConnectivityConfigurationsListResultInner withValue(List<ActiveConnectivityConfiguration> value)"
-  desc: "Set the value property: Gets a page of active connectivity configurations."
-  returns:
-    description: "the ActiveConnectivityConfigurationsListResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ActiveConnectivityConfigurationsListResultInner?alt=com.azure.resourcemanager.network.fluent.models.ActiveConnectivityConfigurationsListResultInner&text=ActiveConnectivityConfigurationsListResultInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Result of the request to list active connectivity configurations. It contains a list of active connectivity configurations and a skiptoken to get the next set of results."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ActiveConnectivityConfigurationsListResultInner?alt=com.azure.resourcemanager.network.fluent.models.ActiveConnectivityConfigurationsListResultInner&text=ActiveConnectivityConfigurationsListResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

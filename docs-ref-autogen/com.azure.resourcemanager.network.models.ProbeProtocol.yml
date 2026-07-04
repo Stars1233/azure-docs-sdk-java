@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ProbeProtocol.HTTP"
   name: "HTTP"
   nameWithType: "ProbeProtocol.HTTP"
-  summary: "Static value Http for Probe<wbr>Protocol."
+  summary: "Http."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ProbeProtocol?alt=com.azure.resourcemanager.network.models.ProbeProtocol&text=ProbeProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ProbeProtocol HTTP"
-  desc: "Static value Http for ProbeProtocol."
+  desc: "Http."
 - uid: "com.azure.resourcemanager.network.models.ProbeProtocol.HTTPS"
   fullName: "com.azure.resourcemanager.network.models.ProbeProtocol.HTTPS"
   name: "HTTPS"
   nameWithType: "ProbeProtocol.HTTPS"
-  summary: "Static value Https for Probe<wbr>Protocol."
+  summary: "Https."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ProbeProtocol?alt=com.azure.resourcemanager.network.models.ProbeProtocol&text=ProbeProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ProbeProtocol HTTPS"
-  desc: "Static value Https for ProbeProtocol."
+  desc: "Https."
 - uid: "com.azure.resourcemanager.network.models.ProbeProtocol.TCP"
   fullName: "com.azure.resourcemanager.network.models.ProbeProtocol.TCP"
   name: "TCP"
   nameWithType: "ProbeProtocol.TCP"
-  summary: "Static value Tcp for Probe<wbr>Protocol."
+  summary: "Tcp."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ProbeProtocol?alt=com.azure.resourcemanager.network.models.ProbeProtocol&text=ProbeProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ProbeProtocol TCP"
-  desc: "Static value Tcp for ProbeProtocol."
+  desc: "Tcp."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ProbeProtocol.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ProbeProtocol.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "The protocol of the end point. If 'Tcp' is specified, a received ACK is required for the probe to be successful. If 'Http' or 'Https' is specified, a 200 OK response from the specifies URI is required for the probe to be successful."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

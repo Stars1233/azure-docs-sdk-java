@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.AutoLearnPrivateRangesMode.DISABLED"
   name: "DISABLED"
   nameWithType: "AutoLearnPrivateRangesMode.DISABLED"
-  summary: "Static value Disabled for Auto<wbr>Learn<wbr>Private<wbr>Ranges<wbr>Mode."
+  summary: "Disabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AutoLearnPrivateRangesMode?alt=com.azure.resourcemanager.network.models.AutoLearnPrivateRangesMode&text=AutoLearnPrivateRangesMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AutoLearnPrivateRangesMode DISABLED"
-  desc: "Static value Disabled for AutoLearnPrivateRangesMode."
+  desc: "Disabled."
 - uid: "com.azure.resourcemanager.network.models.AutoLearnPrivateRangesMode.ENABLED"
   fullName: "com.azure.resourcemanager.network.models.AutoLearnPrivateRangesMode.ENABLED"
   name: "ENABLED"
   nameWithType: "AutoLearnPrivateRangesMode.ENABLED"
-  summary: "Static value Enabled for Auto<wbr>Learn<wbr>Private<wbr>Ranges<wbr>Mode."
+  summary: "Enabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AutoLearnPrivateRangesMode?alt=com.azure.resourcemanager.network.models.AutoLearnPrivateRangesMode&text=AutoLearnPrivateRangesMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AutoLearnPrivateRangesMode ENABLED"
-  desc: "Static value Enabled for AutoLearnPrivateRangesMode."
+  desc: "Enabled."
 methods:
 - uid: "com.azure.resourcemanager.network.models.AutoLearnPrivateRangesMode.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.AutoLearnPrivateRangesMode.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The operation mode for automatically learning private ranges to not be SNAT."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

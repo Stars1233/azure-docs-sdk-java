@@ -40,6 +40,16 @@ methods:
   returns:
     description: "the additionalProperties value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.resourcemanager.network.fluent.models.AzureFirewallPropertiesFormat.afcConfiguration()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.AzureFirewallPropertiesFormat.afcConfiguration()"
+  name: "afcConfiguration()"
+  nameWithType: "AzureFirewallPropertiesFormat.afcConfiguration()"
+  summary: "Get the afc<wbr>Configuration property: AFC configuration for the Azure Firewall."
+  syntax: "public AfcConfiguration afcConfiguration()"
+  desc: "Get the afcConfiguration property: AFC configuration for the Azure Firewall."
+  returns:
+    description: "the afcConfiguration value."
+    type: "<xref href=\"com.azure.resourcemanager.network.models.AfcConfiguration?alt=com.azure.resourcemanager.network.models.AfcConfiguration&text=AfcConfiguration\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.AzureFirewallPropertiesFormat.applicationRuleCollections()"
   fullName: "com.azure.resourcemanager.network.fluent.models.AzureFirewallPropertiesFormat.applicationRuleCollections()"
   name: "applicationRuleCollections()"
@@ -89,15 +99,15 @@ methods:
   returns:
     description: "An instance of AzureFirewallPropertiesFormat if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallPropertiesFormat&text=AzureFirewallPropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.AzureFirewallPropertiesFormat.hubIpAddresses()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.AzureFirewallPropertiesFormat.hubIpAddresses()"
-  name: "hubIpAddresses()"
-  nameWithType: "AzureFirewallPropertiesFormat.hubIpAddresses()"
-  summary: "Get the hub<wbr>IpAddresses property: IP addresses associated with Azure<wbr>Firewall."
-  syntax: "public HubIpAddresses hubIpAddresses()"
-  desc: "Get the hubIpAddresses property: IP addresses associated with AzureFirewall."
+- uid: "com.azure.resourcemanager.network.fluent.models.AzureFirewallPropertiesFormat.hubIPAddresses()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.AzureFirewallPropertiesFormat.hubIPAddresses()"
+  name: "hubIPAddresses()"
+  nameWithType: "AzureFirewallPropertiesFormat.hubIPAddresses()"
+  summary: "Get the hub<wbr>IPAddresses property: IP addresses associated with Azure<wbr>Firewall."
+  syntax: "public HubIpAddresses hubIPAddresses()"
+  desc: "Get the hubIPAddresses property: IP addresses associated with AzureFirewall."
   returns:
-    description: "the hubIpAddresses value."
+    description: "the hubIPAddresses value."
     type: "<xref href=\"com.azure.resourcemanager.network.models.HubIpAddresses?alt=com.azure.resourcemanager.network.models.HubIpAddresses&text=HubIpAddresses\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.AzureFirewallPropertiesFormat.ipConfigurations()"
   fullName: "com.azure.resourcemanager.network.fluent.models.AzureFirewallPropertiesFormat.ipConfigurations()"
@@ -264,17 +274,17 @@ methods:
   returns:
     description: "the AzureFirewallPropertiesFormat object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallPropertiesFormat&text=AzureFirewallPropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.AzureFirewallPropertiesFormat.withHubIpAddresses(com.azure.resourcemanager.network.models.HubIpAddresses)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.AzureFirewallPropertiesFormat.withHubIpAddresses(HubIpAddresses hubIpAddresses)"
-  name: "withHubIpAddresses(HubIpAddresses hubIpAddresses)"
-  nameWithType: "AzureFirewallPropertiesFormat.withHubIpAddresses(HubIpAddresses hubIpAddresses)"
-  summary: "Set the hub<wbr>IpAddresses property: IP addresses associated with Azure<wbr>Firewall."
+- uid: "com.azure.resourcemanager.network.fluent.models.AzureFirewallPropertiesFormat.withHubIPAddresses(com.azure.resourcemanager.network.models.HubIpAddresses)"
+  fullName: "com.azure.resourcemanager.network.fluent.models.AzureFirewallPropertiesFormat.withHubIPAddresses(HubIpAddresses hubIPAddresses)"
+  name: "withHubIPAddresses(HubIpAddresses hubIPAddresses)"
+  nameWithType: "AzureFirewallPropertiesFormat.withHubIPAddresses(HubIpAddresses hubIPAddresses)"
+  summary: "Set the hub<wbr>IPAddresses property: IP addresses associated with Azure<wbr>Firewall."
   parameters:
-  - description: "the hubIpAddresses value to set."
-    name: "hubIpAddresses"
+  - description: "the hubIPAddresses value to set."
+    name: "hubIPAddresses"
     type: "<xref href=\"com.azure.resourcemanager.network.models.HubIpAddresses?alt=com.azure.resourcemanager.network.models.HubIpAddresses&text=HubIpAddresses\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public AzureFirewallPropertiesFormat withHubIpAddresses(HubIpAddresses hubIpAddresses)"
-  desc: "Set the hubIpAddresses property: IP addresses associated with AzureFirewall."
+  syntax: "public AzureFirewallPropertiesFormat withHubIPAddresses(HubIpAddresses hubIPAddresses)"
+  desc: "Set the hubIPAddresses property: IP addresses associated with AzureFirewall."
   returns:
     description: "the AzureFirewallPropertiesFormat object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallPropertiesFormat&text=AzureFirewallPropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
@@ -382,4 +392,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallPropertiesFormat&text=AzureFirewallPropertiesFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

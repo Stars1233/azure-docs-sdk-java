@@ -14,7 +14,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -36,7 +36,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -61,7 +61,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -83,7 +83,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -102,7 +102,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -124,7 +124,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -136,40 +136,40 @@ methods:
     description: "the <xref uid=\"com.azure.core.util.polling.PollerFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PollerFlux\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.PollerFlux?alt=com.azure.core.util.polling.PollerFlux&text=PollerFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.beginDisconnectP2SVpnConnections(java.lang.String,java.lang.String,com.azure.resourcemanager.network.models.P2SVpnConnectionRequest)"
-  fullName: "com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.beginDisconnectP2SVpnConnections(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request)"
-  name: "beginDisconnectP2SVpnConnections(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request)"
-  nameWithType: "P2SVpnGatewaysClient.beginDisconnectP2SVpnConnections(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request)"
+  fullName: "com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.beginDisconnectP2SVpnConnections(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request)"
+  name: "beginDisconnectP2SVpnConnections(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request)"
+  nameWithType: "P2SVpnGatewaysClient.beginDisconnectP2SVpnConnections(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request)"
   summary: "Disconnect P2S vpn connections of the virtual wan P2SVpn<wbr>Gateway in the specified resource group."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the P2S Vpn Gateway."
-    name: "p2SVpnGatewayName"
+    name: "p2sVpnGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The parameters are supplied to disconnect p2s vpn connections."
     name: "request"
     type: "<xref href=\"com.azure.resourcemanager.network.models.P2SVpnConnectionRequest?alt=com.azure.resourcemanager.network.models.P2SVpnConnectionRequest&text=P2SVpnConnectionRequest\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDisconnectP2SVpnConnections(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request)"
+  syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDisconnectP2SVpnConnections(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request)"
   desc: "Disconnect P2S vpn connections of the virtual wan P2SVpnGateway in the specified resource group."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.beginDisconnectP2SVpnConnections(java.lang.String,java.lang.String,com.azure.resourcemanager.network.models.P2SVpnConnectionRequest,com.azure.core.util.Context)"
-  fullName: "com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.beginDisconnectP2SVpnConnections(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request, Context context)"
-  name: "beginDisconnectP2SVpnConnections(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request, Context context)"
-  nameWithType: "P2SVpnGatewaysClient.beginDisconnectP2SVpnConnections(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request, Context context)"
+  fullName: "com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.beginDisconnectP2SVpnConnections(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request, Context context)"
+  name: "beginDisconnectP2SVpnConnections(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request, Context context)"
+  nameWithType: "P2SVpnGatewaysClient.beginDisconnectP2SVpnConnections(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request, Context context)"
   summary: "Disconnect P2S vpn connections of the virtual wan P2SVpn<wbr>Gateway in the specified resource group."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the P2S Vpn Gateway."
-    name: "p2SVpnGatewayName"
+    name: "p2sVpnGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The parameters are supplied to disconnect p2s vpn connections."
     name: "request"
@@ -177,29 +177,29 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDisconnectP2SVpnConnections(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request, Context context)"
+  syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDisconnectP2SVpnConnections(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request, Context context)"
   desc: "Disconnect P2S vpn connections of the virtual wan P2SVpnGateway in the specified resource group."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.beginDisconnectP2SVpnConnectionsAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.models.P2SVpnConnectionRequest)"
-  fullName: "com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.beginDisconnectP2SVpnConnectionsAsync(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request)"
-  name: "beginDisconnectP2SVpnConnectionsAsync(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request)"
-  nameWithType: "P2SVpnGatewaysClient.beginDisconnectP2SVpnConnectionsAsync(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request)"
+  fullName: "com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.beginDisconnectP2SVpnConnectionsAsync(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request)"
+  name: "beginDisconnectP2SVpnConnectionsAsync(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request)"
+  nameWithType: "P2SVpnGatewaysClient.beginDisconnectP2SVpnConnectionsAsync(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request)"
   summary: "Disconnect P2S vpn connections of the virtual wan P2SVpn<wbr>Gateway in the specified resource group."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the P2S Vpn Gateway."
-    name: "p2SVpnGatewayName"
+    name: "p2sVpnGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The parameters are supplied to disconnect p2s vpn connections."
     name: "request"
     type: "<xref href=\"com.azure.resourcemanager.network.models.P2SVpnConnectionRequest?alt=com.azure.resourcemanager.network.models.P2SVpnConnectionRequest&text=P2SVpnConnectionRequest\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract PollerFlux<PollResult<Void>,Void> beginDisconnectP2SVpnConnectionsAsync(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request)"
+  syntax: "public abstract PollerFlux<PollResult<Void>,Void> beginDisconnectP2SVpnConnectionsAsync(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request)"
   desc: "Disconnect P2S vpn connections of the virtual wan P2SVpnGateway in the specified resource group."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.PollerFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PollerFlux\"></xref> for polling of long-running operation."
@@ -212,10 +212,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the P2SVpnGateway."
+  - description: "The name of the gateway."
     name: "gatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the generate P2SVpnGateway VPN client package operation."
@@ -234,10 +234,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the P2SVpnGateway."
+  - description: "The name of the gateway."
     name: "gatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the generate P2SVpnGateway VPN client package operation."
@@ -259,10 +259,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the P2SVpnGateway."
+  - description: "The name of the gateway."
     name: "gatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the generate P2SVpnGateway VPN client package operation."
@@ -281,10 +281,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the P2SVpnGateway."
+  - description: "The name of the gateway."
     name: "gatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<P2SVpnGatewayInner>,P2SVpnGatewayInner> beginGetP2SVpnConnectionHealth(String resourceGroupName, String gatewayName)"
@@ -300,10 +300,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the P2SVpnGateway."
+  - description: "The name of the gateway."
     name: "gatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -322,10 +322,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the P2SVpnGateway."
+  - description: "The name of the gateway."
     name: "gatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PollerFlux<PollResult<P2SVpnGatewayInner>,P2SVpnGatewayInner> beginGetP2SVpnConnectionHealthAsync(String resourceGroupName, String gatewayName)"
@@ -341,10 +341,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the P2SVpnGateway."
+  - description: "The name of the gateway."
     name: "gatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Request parameters supplied to get p2s vpn connections detailed health."
@@ -363,10 +363,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the P2SVpnGateway."
+  - description: "The name of the gateway."
     name: "gatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Request parameters supplied to get p2s vpn connections detailed health."
@@ -388,10 +388,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the P2SVpnGateway."
+  - description: "The name of the gateway."
     name: "gatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Request parameters supplied to get p2s vpn connections detailed health."
@@ -410,7 +410,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -429,7 +429,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -451,7 +451,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -470,7 +470,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -492,7 +492,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -517,7 +517,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -539,7 +539,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -561,7 +561,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -586,7 +586,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -608,7 +608,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -630,7 +630,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -646,7 +646,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -665,7 +665,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -684,7 +684,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -696,37 +696,37 @@ methods:
     description: "the <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"reactor.core.publisher.Flux?alt=reactor.core.publisher.Flux&text=Flux\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/nio/ByteBuffer.html\">ByteBuffer</a>&gt;&gt;&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.disconnectP2SVpnConnections(java.lang.String,java.lang.String,com.azure.resourcemanager.network.models.P2SVpnConnectionRequest)"
-  fullName: "com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.disconnectP2SVpnConnections(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request)"
-  name: "disconnectP2SVpnConnections(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request)"
-  nameWithType: "P2SVpnGatewaysClient.disconnectP2SVpnConnections(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request)"
+  fullName: "com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.disconnectP2SVpnConnections(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request)"
+  name: "disconnectP2SVpnConnections(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request)"
+  nameWithType: "P2SVpnGatewaysClient.disconnectP2SVpnConnections(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request)"
   summary: "Disconnect P2S vpn connections of the virtual wan P2SVpn<wbr>Gateway in the specified resource group."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the P2S Vpn Gateway."
-    name: "p2SVpnGatewayName"
+    name: "p2sVpnGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The parameters are supplied to disconnect p2s vpn connections."
     name: "request"
     type: "<xref href=\"com.azure.resourcemanager.network.models.P2SVpnConnectionRequest?alt=com.azure.resourcemanager.network.models.P2SVpnConnectionRequest&text=P2SVpnConnectionRequest\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract void disconnectP2SVpnConnections(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request)"
+  syntax: "public abstract void disconnectP2SVpnConnections(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request)"
   desc: "Disconnect P2S vpn connections of the virtual wan P2SVpnGateway in the specified resource group."
 - uid: "com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.disconnectP2SVpnConnections(java.lang.String,java.lang.String,com.azure.resourcemanager.network.models.P2SVpnConnectionRequest,com.azure.core.util.Context)"
-  fullName: "com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.disconnectP2SVpnConnections(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request, Context context)"
-  name: "disconnectP2SVpnConnections(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request, Context context)"
-  nameWithType: "P2SVpnGatewaysClient.disconnectP2SVpnConnections(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request, Context context)"
+  fullName: "com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.disconnectP2SVpnConnections(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request, Context context)"
+  name: "disconnectP2SVpnConnections(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request, Context context)"
+  nameWithType: "P2SVpnGatewaysClient.disconnectP2SVpnConnections(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request, Context context)"
   summary: "Disconnect P2S vpn connections of the virtual wan P2SVpn<wbr>Gateway in the specified resource group."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the P2S Vpn Gateway."
-    name: "p2SVpnGatewayName"
+    name: "p2sVpnGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The parameters are supplied to disconnect p2s vpn connections."
     name: "request"
@@ -734,48 +734,48 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract void disconnectP2SVpnConnections(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request, Context context)"
+  syntax: "public abstract void disconnectP2SVpnConnections(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request, Context context)"
   desc: "Disconnect P2S vpn connections of the virtual wan P2SVpnGateway in the specified resource group."
 - uid: "com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.disconnectP2SVpnConnectionsAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.models.P2SVpnConnectionRequest)"
-  fullName: "com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.disconnectP2SVpnConnectionsAsync(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request)"
-  name: "disconnectP2SVpnConnectionsAsync(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request)"
-  nameWithType: "P2SVpnGatewaysClient.disconnectP2SVpnConnectionsAsync(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request)"
+  fullName: "com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.disconnectP2SVpnConnectionsAsync(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request)"
+  name: "disconnectP2SVpnConnectionsAsync(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request)"
+  nameWithType: "P2SVpnGatewaysClient.disconnectP2SVpnConnectionsAsync(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request)"
   summary: "Disconnect P2S vpn connections of the virtual wan P2SVpn<wbr>Gateway in the specified resource group."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the P2S Vpn Gateway."
-    name: "p2SVpnGatewayName"
+    name: "p2sVpnGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The parameters are supplied to disconnect p2s vpn connections."
     name: "request"
     type: "<xref href=\"com.azure.resourcemanager.network.models.P2SVpnConnectionRequest?alt=com.azure.resourcemanager.network.models.P2SVpnConnectionRequest&text=P2SVpnConnectionRequest\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract Mono<Void> disconnectP2SVpnConnectionsAsync(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request)"
+  syntax: "public abstract Mono<Void> disconnectP2SVpnConnectionsAsync(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request)"
   desc: "Disconnect P2S vpn connections of the virtual wan P2SVpnGateway in the specified resource group."
   returns:
     description: "A <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref> that completes when a successful response is received."
     type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.disconnectP2SVpnConnectionsWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.models.P2SVpnConnectionRequest)"
-  fullName: "com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.disconnectP2SVpnConnectionsWithResponseAsync(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request)"
-  name: "disconnectP2SVpnConnectionsWithResponseAsync(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request)"
-  nameWithType: "P2SVpnGatewaysClient.disconnectP2SVpnConnectionsWithResponseAsync(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request)"
+  fullName: "com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.disconnectP2SVpnConnectionsWithResponseAsync(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request)"
+  name: "disconnectP2SVpnConnectionsWithResponseAsync(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request)"
+  nameWithType: "P2SVpnGatewaysClient.disconnectP2SVpnConnectionsWithResponseAsync(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request)"
   summary: "Disconnect P2S vpn connections of the virtual wan P2SVpn<wbr>Gateway in the specified resource group."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the P2S Vpn Gateway."
-    name: "p2SVpnGatewayName"
+    name: "p2sVpnGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The parameters are supplied to disconnect p2s vpn connections."
     name: "request"
     type: "<xref href=\"com.azure.resourcemanager.network.models.P2SVpnConnectionRequest?alt=com.azure.resourcemanager.network.models.P2SVpnConnectionRequest&text=P2SVpnConnectionRequest\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> disconnectP2SVpnConnectionsWithResponseAsync(String resourceGroupName, String p2SVpnGatewayName, P2SVpnConnectionRequest request)"
+  syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> disconnectP2SVpnConnectionsWithResponseAsync(String resourceGroupName, String p2sVpnGatewayName, P2SVpnConnectionRequest request)"
   desc: "Disconnect P2S vpn connections of the virtual wan P2SVpnGateway in the specified resource group."
   returns:
     description: "the <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
@@ -788,10 +788,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the P2SVpnGateway."
+  - description: "The name of the gateway."
     name: "gatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the generate P2SVpnGateway VPN client package operation."
@@ -810,10 +810,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the P2SVpnGateway."
+  - description: "The name of the gateway."
     name: "gatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the generate P2SVpnGateway VPN client package operation."
@@ -835,10 +835,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the P2SVpnGateway."
+  - description: "The name of the gateway."
     name: "gatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the generate P2SVpnGateway VPN client package operation."
@@ -857,10 +857,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the P2SVpnGateway."
+  - description: "The name of the gateway."
     name: "gatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the generate P2SVpnGateway VPN client package operation."
@@ -879,7 +879,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -898,7 +898,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -917,7 +917,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -939,7 +939,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -958,10 +958,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the P2SVpnGateway."
+  - description: "The name of the gateway."
     name: "gatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract P2SVpnGatewayInner getP2SVpnConnectionHealth(String resourceGroupName, String gatewayName)"
@@ -977,10 +977,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the P2SVpnGateway."
+  - description: "The name of the gateway."
     name: "gatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -999,10 +999,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the P2SVpnGateway."
+  - description: "The name of the gateway."
     name: "gatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<P2SVpnGatewayInner> getP2SVpnConnectionHealthAsync(String resourceGroupName, String gatewayName)"
@@ -1018,10 +1018,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the P2SVpnGateway."
+  - description: "The name of the gateway."
     name: "gatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Request parameters supplied to get p2s vpn connections detailed health."
@@ -1040,10 +1040,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the P2SVpnGateway."
+  - description: "The name of the gateway."
     name: "gatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Request parameters supplied to get p2s vpn connections detailed health."
@@ -1065,10 +1065,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the P2SVpnGateway."
+  - description: "The name of the gateway."
     name: "gatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Request parameters supplied to get p2s vpn connections detailed health."
@@ -1087,10 +1087,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the P2SVpnGateway."
+  - description: "The name of the gateway."
     name: "gatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Request parameters supplied to get p2s vpn connections detailed health."
@@ -1109,10 +1109,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the P2SVpnGateway."
+  - description: "The name of the gateway."
     name: "gatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> getP2SVpnConnectionHealthWithResponseAsync(String resourceGroupName, String gatewayName)"
@@ -1168,7 +1168,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<P2SVpnGatewayInner> listByResourceGroup(String resourceGroupName)"
@@ -1184,7 +1184,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -1203,7 +1203,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedFlux<P2SVpnGatewayInner> listByResourceGroupAsync(String resourceGroupName)"
@@ -1219,7 +1219,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -1238,7 +1238,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -1260,7 +1260,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -1279,7 +1279,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -1298,7 +1298,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -1320,7 +1320,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -1345,7 +1345,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -1367,7 +1367,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the P2SVpnGateway."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the gateway."
@@ -1389,4 +1389,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.P2SVpnGatewayInner?alt=com.azure.resourcemanager.network.fluent.models.P2SVpnGatewayInner&text=P2SVpnGatewayInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

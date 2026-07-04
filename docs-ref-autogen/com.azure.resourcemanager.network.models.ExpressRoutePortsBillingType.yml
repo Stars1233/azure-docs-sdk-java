@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ExpressRoutePortsBillingType.METERED_DATA"
   name: "METERED_DATA"
   nameWithType: "ExpressRoutePortsBillingType.METERED_DATA"
-  summary: "Static value Metered<wbr>Data for Express<wbr>Route<wbr>Ports<wbr>Billing<wbr>Type."
+  summary: "Metered<wbr>Data."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRoutePortsBillingType?alt=com.azure.resourcemanager.network.models.ExpressRoutePortsBillingType&text=ExpressRoutePortsBillingType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExpressRoutePortsBillingType METERED_DATA"
-  desc: "Static value MeteredData for ExpressRoutePortsBillingType."
+  desc: "MeteredData."
 - uid: "com.azure.resourcemanager.network.models.ExpressRoutePortsBillingType.UNLIMITED_DATA"
   fullName: "com.azure.resourcemanager.network.models.ExpressRoutePortsBillingType.UNLIMITED_DATA"
   name: "UNLIMITED_DATA"
   nameWithType: "ExpressRoutePortsBillingType.UNLIMITED_DATA"
-  summary: "Static value Unlimited<wbr>Data for Express<wbr>Route<wbr>Ports<wbr>Billing<wbr>Type."
+  summary: "Unlimited<wbr>Data."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRoutePortsBillingType?alt=com.azure.resourcemanager.network.models.ExpressRoutePortsBillingType&text=ExpressRoutePortsBillingType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExpressRoutePortsBillingType UNLIMITED_DATA"
-  desc: "Static value UnlimitedData for ExpressRoutePortsBillingType."
+  desc: "UnlimitedData."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ExpressRoutePortsBillingType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ExpressRoutePortsBillingType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The billing type of the ExpressRoutePort resource."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ExpressRouteLinkMacSecSciState.DISABLED"
   name: "DISABLED"
   nameWithType: "ExpressRouteLinkMacSecSciState.DISABLED"
-  summary: "Static value Disabled for Express<wbr>Route<wbr>Link<wbr>Mac<wbr>Sec<wbr>Sci<wbr>State."
+  summary: "Disabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteLinkMacSecSciState?alt=com.azure.resourcemanager.network.models.ExpressRouteLinkMacSecSciState&text=ExpressRouteLinkMacSecSciState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExpressRouteLinkMacSecSciState DISABLED"
-  desc: "Static value Disabled for ExpressRouteLinkMacSecSciState."
+  desc: "Disabled."
 - uid: "com.azure.resourcemanager.network.models.ExpressRouteLinkMacSecSciState.ENABLED"
   fullName: "com.azure.resourcemanager.network.models.ExpressRouteLinkMacSecSciState.ENABLED"
   name: "ENABLED"
   nameWithType: "ExpressRouteLinkMacSecSciState.ENABLED"
-  summary: "Static value Enabled for Express<wbr>Route<wbr>Link<wbr>Mac<wbr>Sec<wbr>Sci<wbr>State."
+  summary: "Enabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteLinkMacSecSciState?alt=com.azure.resourcemanager.network.models.ExpressRouteLinkMacSecSciState&text=ExpressRouteLinkMacSecSciState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExpressRouteLinkMacSecSciState ENABLED"
-  desc: "Static value Enabled for ExpressRouteLinkMacSecSciState."
+  desc: "Enabled."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ExpressRouteLinkMacSecSciState.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ExpressRouteLinkMacSecSciState.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Sci mode enabled/disabled."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

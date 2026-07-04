@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **MigratedPoolsInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.MigratedPoolsInner?alt=com.azure.resourcemanager.network.fluent.models.MigratedPoolsInner&text=MigratedPoolsInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.MigratedPoolsInner.MigratedPoolsInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.MigratedPoolsInner.MigratedPoolsInner()"
-  name: "MigratedPoolsInner()"
-  nameWithType: "MigratedPoolsInner.MigratedPoolsInner()"
-  summary: "Creates an instance of Migrated<wbr>Pools<wbr>Inner class."
-  syntax: "public MigratedPoolsInner()"
-  desc: "Creates an instance of MigratedPoolsInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.MigratedPoolsInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.MigratedPoolsInner.fromJson(JsonReader jsonReader)"
@@ -78,24 +70,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.MigratedPoolsInner.withMigratedPools(java.util.List<java.lang.String>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.MigratedPoolsInner.withMigratedPools(List<String> migratedPools)"
-  name: "withMigratedPools(List<String> migratedPools)"
-  nameWithType: "MigratedPoolsInner.withMigratedPools(List<String> migratedPools)"
-  summary: "Set the migrated<wbr>Pools property: A list of pools migrated from Nic based to IP based pool."
-  parameters:
-  - description: "the migratedPools value to set."
-    name: "migratedPools"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public MigratedPoolsInner withMigratedPools(List<String> migratedPools)"
-  desc: "Set the migratedPools property: A list of pools migrated from Nic based to IP based pool."
-  returns:
-    description: "the MigratedPoolsInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.MigratedPoolsInner?alt=com.azure.resourcemanager.network.fluent.models.MigratedPoolsInner&text=MigratedPoolsInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The response for a migrateToIpBased API."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.MigratedPoolsInner?alt=com.azure.resourcemanager.network.fluent.models.MigratedPoolsInner&text=MigratedPoolsInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

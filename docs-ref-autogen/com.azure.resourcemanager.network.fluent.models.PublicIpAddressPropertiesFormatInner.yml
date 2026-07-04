@@ -179,15 +179,15 @@ methods:
   returns:
     description: "the publicIpAllocationMethod value."
     type: "<xref href=\"com.azure.resourcemanager.network.models.IpAllocationMethod?alt=com.azure.resourcemanager.network.models.IpAllocationMethod&text=IpAllocationMethod\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.PublicIpAddressPropertiesFormatInner.publicIpPrefix()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.PublicIpAddressPropertiesFormatInner.publicIpPrefix()"
-  name: "publicIpPrefix()"
-  nameWithType: "PublicIpAddressPropertiesFormatInner.publicIpPrefix()"
-  summary: "Get the public<wbr>IpPrefix property: The Public IP Prefix this Public IP Address should be allocated from."
-  syntax: "public SubResource publicIpPrefix()"
-  desc: "Get the publicIpPrefix property: The Public IP Prefix this Public IP Address should be allocated from."
+- uid: "com.azure.resourcemanager.network.fluent.models.PublicIpAddressPropertiesFormatInner.publicIPPrefix()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.PublicIpAddressPropertiesFormatInner.publicIPPrefix()"
+  name: "publicIPPrefix()"
+  nameWithType: "PublicIpAddressPropertiesFormatInner.publicIPPrefix()"
+  summary: "Get the public<wbr>IPPrefix property: The Public IP Prefix this Public IP Address should be allocated from."
+  syntax: "public SubResource publicIPPrefix()"
+  desc: "Get the publicIPPrefix property: The Public IP Prefix this Public IP Address should be allocated from."
   returns:
-    description: "the publicIpPrefix value."
+    description: "the publicIPPrefix value."
     type: "<xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.PublicIpAddressPropertiesFormatInner.resourceGuid()"
   fullName: "com.azure.resourcemanager.network.fluent.models.PublicIpAddressPropertiesFormatInner.resourceGuid()"
@@ -382,17 +382,17 @@ methods:
   returns:
     description: "the PublicIpAddressPropertiesFormatInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.PublicIpAddressPropertiesFormatInner?alt=com.azure.resourcemanager.network.fluent.models.PublicIpAddressPropertiesFormatInner&text=PublicIpAddressPropertiesFormatInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.PublicIpAddressPropertiesFormatInner.withPublicIpPrefix(com.azure.core.management.SubResource)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.PublicIpAddressPropertiesFormatInner.withPublicIpPrefix(SubResource publicIpPrefix)"
-  name: "withPublicIpPrefix(SubResource publicIpPrefix)"
-  nameWithType: "PublicIpAddressPropertiesFormatInner.withPublicIpPrefix(SubResource publicIpPrefix)"
-  summary: "Set the public<wbr>IpPrefix property: The Public IP Prefix this Public IP Address should be allocated from."
+- uid: "com.azure.resourcemanager.network.fluent.models.PublicIpAddressPropertiesFormatInner.withPublicIPPrefix(com.azure.core.management.SubResource)"
+  fullName: "com.azure.resourcemanager.network.fluent.models.PublicIpAddressPropertiesFormatInner.withPublicIPPrefix(SubResource publicIPPrefix)"
+  name: "withPublicIPPrefix(SubResource publicIPPrefix)"
+  nameWithType: "PublicIpAddressPropertiesFormatInner.withPublicIPPrefix(SubResource publicIPPrefix)"
+  summary: "Set the public<wbr>IPPrefix property: The Public IP Prefix this Public IP Address should be allocated from."
   parameters:
-  - description: "the publicIpPrefix value to set."
-    name: "publicIpPrefix"
+  - description: "the publicIPPrefix value to set."
+    name: "publicIPPrefix"
     type: "<xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public PublicIpAddressPropertiesFormatInner withPublicIpPrefix(SubResource publicIpPrefix)"
-  desc: "Set the publicIpPrefix property: The Public IP Prefix this Public IP Address should be allocated from."
+  syntax: "public PublicIpAddressPropertiesFormatInner withPublicIPPrefix(SubResource publicIPPrefix)"
+  desc: "Set the publicIPPrefix property: The Public IP Prefix this Public IP Address should be allocated from."
   returns:
     description: "the PublicIpAddressPropertiesFormatInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.PublicIpAddressPropertiesFormatInner?alt=com.azure.resourcemanager.network.fluent.models.PublicIpAddressPropertiesFormatInner&text=PublicIpAddressPropertiesFormatInner\" data-throw-if-not-resolved=\"False\" />"
@@ -416,4 +416,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.PublicIpAddressPropertiesFormatInner?alt=com.azure.resourcemanager.network.fluent.models.PublicIpAddressPropertiesFormatInner&text=PublicIpAddressPropertiesFormatInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

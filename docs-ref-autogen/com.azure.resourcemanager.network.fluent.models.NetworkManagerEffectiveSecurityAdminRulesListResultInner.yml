@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **NetworkManagerEffectiveSecurityAdminRulesListResultInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkManagerEffectiveSecurityAdminRulesListResultInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkManagerEffectiveSecurityAdminRulesListResultInner&text=NetworkManagerEffectiveSecurityAdminRulesListResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.NetworkManagerEffectiveSecurityAdminRulesListResultInner.NetworkManagerEffectiveSecurityAdminRulesListResultInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NetworkManagerEffectiveSecurityAdminRulesListResultInner.NetworkManagerEffectiveSecurityAdminRulesListResultInner()"
-  name: "NetworkManagerEffectiveSecurityAdminRulesListResultInner()"
-  nameWithType: "NetworkManagerEffectiveSecurityAdminRulesListResultInner.NetworkManagerEffectiveSecurityAdminRulesListResultInner()"
-  summary: "Creates an instance of Network<wbr>Manager<wbr>Effective<wbr>Security<wbr>Admin<wbr>Rules<wbr>List<wbr>Result<wbr>Inner class."
-  syntax: "public NetworkManagerEffectiveSecurityAdminRulesListResultInner()"
-  desc: "Creates an instance of NetworkManagerEffectiveSecurityAdminRulesListResultInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.NetworkManagerEffectiveSecurityAdminRulesListResultInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.NetworkManagerEffectiveSecurityAdminRulesListResultInner.fromJson(JsonReader jsonReader)"
@@ -88,38 +80,10 @@ methods:
   returns:
     description: "the value value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule?alt=com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule&text=EffectiveBaseSecurityAdminRule\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.network.fluent.models.NetworkManagerEffectiveSecurityAdminRulesListResultInner.withSkipToken(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NetworkManagerEffectiveSecurityAdminRulesListResultInner.withSkipToken(String skipToken)"
-  name: "withSkipToken(String skipToken)"
-  nameWithType: "NetworkManagerEffectiveSecurityAdminRulesListResultInner.withSkipToken(String skipToken)"
-  summary: "Set the skip<wbr>Token property: When present, the value can be passed to a subsequent query call (together with the same query and scopes used in the current request) to retrieve the next page of data."
-  parameters:
-  - description: "the skipToken value to set."
-    name: "skipToken"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public NetworkManagerEffectiveSecurityAdminRulesListResultInner withSkipToken(String skipToken)"
-  desc: "Set the skipToken property: When present, the value can be passed to a subsequent query call (together with the same query and scopes used in the current request) to retrieve the next page of data."
-  returns:
-    description: "the NetworkManagerEffectiveSecurityAdminRulesListResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkManagerEffectiveSecurityAdminRulesListResultInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkManagerEffectiveSecurityAdminRulesListResultInner&text=NetworkManagerEffectiveSecurityAdminRulesListResultInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.NetworkManagerEffectiveSecurityAdminRulesListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NetworkManagerEffectiveSecurityAdminRulesListResultInner.withValue(List<EffectiveBaseSecurityAdminRule> value)"
-  name: "withValue(List<EffectiveBaseSecurityAdminRule> value)"
-  nameWithType: "NetworkManagerEffectiveSecurityAdminRulesListResultInner.withValue(List<EffectiveBaseSecurityAdminRule> value)"
-  summary: "Set the value property: Gets a page of Network<wbr>Manager<wbr>Effective<wbr>Security<wbr>Admin<wbr>Rules."
-  parameters:
-  - description: "the value value to set."
-    name: "value"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule?alt=com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule&text=EffectiveBaseSecurityAdminRule\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public NetworkManagerEffectiveSecurityAdminRulesListResultInner withValue(List<EffectiveBaseSecurityAdminRule> value)"
-  desc: "Set the value property: Gets a page of NetworkManagerEffectiveSecurityAdminRules."
-  returns:
-    description: "the NetworkManagerEffectiveSecurityAdminRulesListResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkManagerEffectiveSecurityAdminRulesListResultInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkManagerEffectiveSecurityAdminRulesListResultInner&text=NetworkManagerEffectiveSecurityAdminRulesListResultInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Result of the request to list networkManagerEffectiveSecurityAdminRules. It contains a list of groups and a skiptoken to get the next set of results."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkManagerEffectiveSecurityAdminRulesListResultInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkManagerEffectiveSecurityAdminRulesListResultInner&text=NetworkManagerEffectiveSecurityAdminRulesListResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

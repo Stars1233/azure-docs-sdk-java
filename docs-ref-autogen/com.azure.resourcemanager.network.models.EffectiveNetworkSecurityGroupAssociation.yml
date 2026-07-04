@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **EffectiveNetworkSecurityGroupAssociation**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.EffectiveNetworkSecurityGroupAssociation?alt=com.azure.resourcemanager.network.models.EffectiveNetworkSecurityGroupAssociation&text=EffectiveNetworkSecurityGroupAssociation\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.models.EffectiveNetworkSecurityGroupAssociation.EffectiveNetworkSecurityGroupAssociation()"
-  fullName: "com.azure.resourcemanager.network.models.EffectiveNetworkSecurityGroupAssociation.EffectiveNetworkSecurityGroupAssociation()"
-  name: "EffectiveNetworkSecurityGroupAssociation()"
-  nameWithType: "EffectiveNetworkSecurityGroupAssociation.EffectiveNetworkSecurityGroupAssociation()"
-  summary: "Creates an instance of Effective<wbr>Network<wbr>Security<wbr>Group<wbr>Association class."
-  syntax: "public EffectiveNetworkSecurityGroupAssociation()"
-  desc: "Creates an instance of EffectiveNetworkSecurityGroupAssociation class."
 methods:
 - uid: "com.azure.resourcemanager.network.models.EffectiveNetworkSecurityGroupAssociation.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.models.EffectiveNetworkSecurityGroupAssociation.fromJson(JsonReader jsonReader)"
@@ -98,52 +90,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.models.EffectiveNetworkSecurityGroupAssociation.withNetworkInterface(com.azure.core.management.SubResource)"
-  fullName: "com.azure.resourcemanager.network.models.EffectiveNetworkSecurityGroupAssociation.withNetworkInterface(SubResource networkInterface)"
-  name: "withNetworkInterface(SubResource networkInterface)"
-  nameWithType: "EffectiveNetworkSecurityGroupAssociation.withNetworkInterface(SubResource networkInterface)"
-  summary: "Set the network<wbr>Interface property: The ID of the network interface if assigned."
-  parameters:
-  - description: "the networkInterface value to set."
-    name: "networkInterface"
-    type: "<xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public EffectiveNetworkSecurityGroupAssociation withNetworkInterface(SubResource networkInterface)"
-  desc: "Set the networkInterface property: The ID of the network interface if assigned."
-  returns:
-    description: "the EffectiveNetworkSecurityGroupAssociation object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.EffectiveNetworkSecurityGroupAssociation?alt=com.azure.resourcemanager.network.models.EffectiveNetworkSecurityGroupAssociation&text=EffectiveNetworkSecurityGroupAssociation\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.EffectiveNetworkSecurityGroupAssociation.withNetworkManager(com.azure.core.management.SubResource)"
-  fullName: "com.azure.resourcemanager.network.models.EffectiveNetworkSecurityGroupAssociation.withNetworkManager(SubResource networkManager)"
-  name: "withNetworkManager(SubResource networkManager)"
-  nameWithType: "EffectiveNetworkSecurityGroupAssociation.withNetworkManager(SubResource networkManager)"
-  summary: "Set the network<wbr>Manager property: The ID of the Azure network manager if assigned."
-  parameters:
-  - description: "the networkManager value to set."
-    name: "networkManager"
-    type: "<xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public EffectiveNetworkSecurityGroupAssociation withNetworkManager(SubResource networkManager)"
-  desc: "Set the networkManager property: The ID of the Azure network manager if assigned."
-  returns:
-    description: "the EffectiveNetworkSecurityGroupAssociation object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.EffectiveNetworkSecurityGroupAssociation?alt=com.azure.resourcemanager.network.models.EffectiveNetworkSecurityGroupAssociation&text=EffectiveNetworkSecurityGroupAssociation\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.EffectiveNetworkSecurityGroupAssociation.withSubnet(com.azure.core.management.SubResource)"
-  fullName: "com.azure.resourcemanager.network.models.EffectiveNetworkSecurityGroupAssociation.withSubnet(SubResource subnet)"
-  name: "withSubnet(SubResource subnet)"
-  nameWithType: "EffectiveNetworkSecurityGroupAssociation.withSubnet(SubResource subnet)"
-  summary: "Set the subnet property: The ID of the subnet if assigned."
-  parameters:
-  - description: "the subnet value to set."
-    name: "subnet"
-    type: "<xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public EffectiveNetworkSecurityGroupAssociation withSubnet(SubResource subnet)"
-  desc: "Set the subnet property: The ID of the subnet if assigned."
-  returns:
-    description: "the EffectiveNetworkSecurityGroupAssociation object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.EffectiveNetworkSecurityGroupAssociation?alt=com.azure.resourcemanager.network.models.EffectiveNetworkSecurityGroupAssociation&text=EffectiveNetworkSecurityGroupAssociation\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The effective network security group association."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.EffectiveNetworkSecurityGroupAssociation?alt=com.azure.resourcemanager.network.models.EffectiveNetworkSecurityGroupAssociation&text=EffectiveNetworkSecurityGroupAssociation\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

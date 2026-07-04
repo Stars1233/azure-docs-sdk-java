@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.HubRoutingPreference.ASPATH"
   name: "ASPATH"
   nameWithType: "HubRoutingPreference.ASPATH"
-  summary: "Static value ASPath for Hub<wbr>Routing<wbr>Preference."
+  summary: "ASPath."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.HubRoutingPreference?alt=com.azure.resourcemanager.network.models.HubRoutingPreference&text=HubRoutingPreference\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final HubRoutingPreference ASPATH"
-  desc: "Static value ASPath for HubRoutingPreference."
+  desc: "ASPath."
 - uid: "com.azure.resourcemanager.network.models.HubRoutingPreference.EXPRESS_ROUTE"
   fullName: "com.azure.resourcemanager.network.models.HubRoutingPreference.EXPRESS_ROUTE"
   name: "EXPRESS_ROUTE"
   nameWithType: "HubRoutingPreference.EXPRESS_ROUTE"
-  summary: "Static value Express<wbr>Route for Hub<wbr>Routing<wbr>Preference."
+  summary: "Express<wbr>Route."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.HubRoutingPreference?alt=com.azure.resourcemanager.network.models.HubRoutingPreference&text=HubRoutingPreference\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final HubRoutingPreference EXPRESS_ROUTE"
-  desc: "Static value ExpressRoute for HubRoutingPreference."
+  desc: "ExpressRoute."
 - uid: "com.azure.resourcemanager.network.models.HubRoutingPreference.VPN_GATEWAY"
   fullName: "com.azure.resourcemanager.network.models.HubRoutingPreference.VPN_GATEWAY"
   name: "VPN_GATEWAY"
   nameWithType: "HubRoutingPreference.VPN_GATEWAY"
-  summary: "Static value Vpn<wbr>Gateway for Hub<wbr>Routing<wbr>Preference."
+  summary: "Vpn<wbr>Gateway."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.HubRoutingPreference?alt=com.azure.resourcemanager.network.models.HubRoutingPreference&text=HubRoutingPreference\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final HubRoutingPreference VPN_GATEWAY"
-  desc: "Static value VpnGateway for HubRoutingPreference."
+  desc: "VpnGateway."
 methods:
 - uid: "com.azure.resourcemanager.network.models.HubRoutingPreference.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.HubRoutingPreference.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "The hub routing preference gateway types."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

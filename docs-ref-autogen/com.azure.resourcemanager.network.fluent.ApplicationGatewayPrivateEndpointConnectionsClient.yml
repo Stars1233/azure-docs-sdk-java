@@ -14,13 +14,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
     name: "applicationGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the application gateway private endpoint connection."
+  - description: "Name of the private endpoint connection on an application gateway."
     name: "connectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDelete(String resourceGroupName, String applicationGatewayName, String connectionName)"
@@ -36,13 +36,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
     name: "applicationGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the application gateway private endpoint connection."
+  - description: "Name of the private endpoint connection on an application gateway."
     name: "connectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -61,13 +61,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
     name: "applicationGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the application gateway private endpoint connection."
+  - description: "Name of the private endpoint connection on an application gateway."
     name: "connectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PollerFlux<PollResult<Void>,Void> beginDeleteAsync(String resourceGroupName, String applicationGatewayName, String connectionName)"
@@ -83,13 +83,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
     name: "applicationGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the application gateway private endpoint connection."
+  - description: "Name of the private endpoint connection on an application gateway."
     name: "connectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to update application gateway private endpoint connection operation."
@@ -108,13 +108,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
     name: "applicationGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the application gateway private endpoint connection."
+  - description: "Name of the private endpoint connection on an application gateway."
     name: "connectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to update application gateway private endpoint connection operation."
@@ -136,13 +136,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
     name: "applicationGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the application gateway private endpoint connection."
+  - description: "Name of the private endpoint connection on an application gateway."
     name: "connectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to update application gateway private endpoint connection operation."
@@ -161,13 +161,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
     name: "applicationGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the application gateway private endpoint connection."
+  - description: "Name of the private endpoint connection on an application gateway."
     name: "connectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void delete(String resourceGroupName, String applicationGatewayName, String connectionName)"
@@ -180,13 +180,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
     name: "applicationGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the application gateway private endpoint connection."
+  - description: "Name of the private endpoint connection on an application gateway."
     name: "connectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -202,13 +202,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
     name: "applicationGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the application gateway private endpoint connection."
+  - description: "Name of the private endpoint connection on an application gateway."
     name: "connectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<Void> deleteAsync(String resourceGroupName, String applicationGatewayName, String connectionName)"
@@ -224,13 +224,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
     name: "applicationGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the application gateway private endpoint connection."
+  - description: "Name of the private endpoint connection on an application gateway."
     name: "connectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> deleteWithResponseAsync(String resourceGroupName, String applicationGatewayName, String connectionName)"
@@ -246,13 +246,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
     name: "applicationGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the application gateway private endpoint connection."
+  - description: "Name of the private endpoint connection on an application gateway."
     name: "connectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract ApplicationGatewayPrivateEndpointConnectionInner get(String resourceGroupName, String applicationGatewayName, String connectionName)"
@@ -268,13 +268,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
     name: "applicationGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the application gateway private endpoint connection."
+  - description: "Name of the private endpoint connection on an application gateway."
     name: "connectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<ApplicationGatewayPrivateEndpointConnectionInner> getAsync(String resourceGroupName, String applicationGatewayName, String connectionName)"
@@ -290,13 +290,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
     name: "applicationGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the application gateway private endpoint connection."
+  - description: "Name of the private endpoint connection on an application gateway."
     name: "connectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -315,13 +315,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
     name: "applicationGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the application gateway private endpoint connection."
+  - description: "Name of the private endpoint connection on an application gateway."
     name: "connectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<Response<ApplicationGatewayPrivateEndpointConnectionInner>> getWithResponseAsync(String resourceGroupName, String applicationGatewayName, String connectionName)"
@@ -337,7 +337,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
@@ -346,7 +346,7 @@ methods:
   syntax: "public abstract PagedIterable<ApplicationGatewayPrivateEndpointConnectionInner> list(String resourceGroupName, String applicationGatewayName)"
   desc: "Lists all private endpoint connections on an application gateway."
   returns:
-    description: "response for ListApplicationGatewayPrivateEndpointConnection API service call as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "the response of a ApplicationGatewayPrivateEndpointConnection list operation as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateEndpointConnectionInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateEndpointConnectionInner&text=ApplicationGatewayPrivateEndpointConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.ApplicationGatewayPrivateEndpointConnectionsClient.list(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.network.fluent.ApplicationGatewayPrivateEndpointConnectionsClient.list(String resourceGroupName, String applicationGatewayName, Context context)"
@@ -356,7 +356,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
@@ -368,7 +368,7 @@ methods:
   syntax: "public abstract PagedIterable<ApplicationGatewayPrivateEndpointConnectionInner> list(String resourceGroupName, String applicationGatewayName, Context context)"
   desc: "Lists all private endpoint connections on an application gateway."
   returns:
-    description: "response for ListApplicationGatewayPrivateEndpointConnection API service call as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "the response of a ApplicationGatewayPrivateEndpointConnection list operation as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateEndpointConnectionInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateEndpointConnectionInner&text=ApplicationGatewayPrivateEndpointConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.ApplicationGatewayPrivateEndpointConnectionsClient.listAsync(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.network.fluent.ApplicationGatewayPrivateEndpointConnectionsClient.listAsync(String resourceGroupName, String applicationGatewayName)"
@@ -378,7 +378,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
@@ -387,7 +387,7 @@ methods:
   syntax: "public abstract PagedFlux<ApplicationGatewayPrivateEndpointConnectionInner> listAsync(String resourceGroupName, String applicationGatewayName)"
   desc: "Lists all private endpoint connections on an application gateway."
   returns:
-    description: "response for ListApplicationGatewayPrivateEndpointConnection API service call as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
+    description: "the response of a ApplicationGatewayPrivateEndpointConnection list operation as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateEndpointConnectionInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateEndpointConnectionInner&text=ApplicationGatewayPrivateEndpointConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.ApplicationGatewayPrivateEndpointConnectionsClient.update(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateEndpointConnectionInner)"
   fullName: "com.azure.resourcemanager.network.fluent.ApplicationGatewayPrivateEndpointConnectionsClient.update(String resourceGroupName, String applicationGatewayName, String connectionName, ApplicationGatewayPrivateEndpointConnectionInner parameters)"
@@ -397,13 +397,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
     name: "applicationGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the application gateway private endpoint connection."
+  - description: "Name of the private endpoint connection on an application gateway."
     name: "connectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to update application gateway private endpoint connection operation."
@@ -422,13 +422,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
     name: "applicationGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the application gateway private endpoint connection."
+  - description: "Name of the private endpoint connection on an application gateway."
     name: "connectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to update application gateway private endpoint connection operation."
@@ -450,13 +450,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
     name: "applicationGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the application gateway private endpoint connection."
+  - description: "Name of the private endpoint connection on an application gateway."
     name: "connectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to update application gateway private endpoint connection operation."
@@ -475,13 +475,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application gateway."
     name: "applicationGatewayName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the application gateway private endpoint connection."
+  - description: "Name of the private endpoint connection on an application gateway."
     name: "connectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to update application gateway private endpoint connection operation."
@@ -496,4 +496,4 @@ type: "interface"
 desc: "An instance of this class provides access to all the operations defined in ApplicationGatewayPrivateEndpointConnectionsClient."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

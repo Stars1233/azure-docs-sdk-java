@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.AdminRuleKind.CUSTOM"
   name: "CUSTOM"
   nameWithType: "AdminRuleKind.CUSTOM"
-  summary: "Static value Custom for Admin<wbr>Rule<wbr>Kind."
+  summary: "Custom."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AdminRuleKind?alt=com.azure.resourcemanager.network.models.AdminRuleKind&text=AdminRuleKind\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AdminRuleKind CUSTOM"
-  desc: "Static value Custom for AdminRuleKind."
+  desc: "Custom."
 - uid: "com.azure.resourcemanager.network.models.AdminRuleKind.DEFAULT"
   fullName: "com.azure.resourcemanager.network.models.AdminRuleKind.DEFAULT"
   name: "DEFAULT"
   nameWithType: "AdminRuleKind.DEFAULT"
-  summary: "Static value Default for Admin<wbr>Rule<wbr>Kind."
+  summary: "Default."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AdminRuleKind?alt=com.azure.resourcemanager.network.models.AdminRuleKind&text=AdminRuleKind\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AdminRuleKind DEFAULT"
-  desc: "Static value Default for AdminRuleKind."
+  desc: "Default."
 methods:
 - uid: "com.azure.resourcemanager.network.models.AdminRuleKind.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.AdminRuleKind.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Whether the rule is custom or default."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

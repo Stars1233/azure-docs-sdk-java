@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ContainerNetworkInterfacePropertiesFormat**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ContainerNetworkInterfacePropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ContainerNetworkInterfacePropertiesFormat&text=ContainerNetworkInterfacePropertiesFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.ContainerNetworkInterfacePropertiesFormat.ContainerNetworkInterfacePropertiesFormat()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ContainerNetworkInterfacePropertiesFormat.ContainerNetworkInterfacePropertiesFormat()"
-  name: "ContainerNetworkInterfacePropertiesFormat()"
-  nameWithType: "ContainerNetworkInterfacePropertiesFormat.ContainerNetworkInterfacePropertiesFormat()"
-  summary: "Creates an instance of Container<wbr>Network<wbr>Interface<wbr>Properties<wbr>Format class."
-  syntax: "public ContainerNetworkInterfacePropertiesFormat()"
-  desc: "Creates an instance of ContainerNetworkInterfacePropertiesFormat class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.ContainerNetworkInterfacePropertiesFormat.container()"
   fullName: "com.azure.resourcemanager.network.fluent.models.ContainerNetworkInterfacePropertiesFormat.container()"
@@ -108,24 +100,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.ContainerNetworkInterfacePropertiesFormat.withContainer(com.azure.resourcemanager.network.models.Container)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ContainerNetworkInterfacePropertiesFormat.withContainer(Container container)"
-  name: "withContainer(Container container)"
-  nameWithType: "ContainerNetworkInterfacePropertiesFormat.withContainer(Container container)"
-  summary: "Set the container property: Reference to the container to which this container network interface is attached."
-  parameters:
-  - description: "the container value to set."
-    name: "container"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.Container?alt=com.azure.resourcemanager.network.models.Container&text=Container\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public ContainerNetworkInterfacePropertiesFormat withContainer(Container container)"
-  desc: "Set the container property: Reference to the container to which this container network interface is attached."
-  returns:
-    description: "the ContainerNetworkInterfacePropertiesFormat object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ContainerNetworkInterfacePropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ContainerNetworkInterfacePropertiesFormat&text=ContainerNetworkInterfacePropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Properties of container network interface."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ContainerNetworkInterfacePropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ContainerNetworkInterfacePropertiesFormat&text=ContainerNetworkInterfacePropertiesFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

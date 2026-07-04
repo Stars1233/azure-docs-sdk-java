@@ -484,7 +484,7 @@ methods:
   syntax: "public abstract PagedIterable<RoutingRuleCollectionInner> list(String resourceGroupName, String networkManagerName, String configurationName)"
   desc: "Lists all the rule collections in a routing configuration, in a paginated format."
   returns:
-    description: "routing configuration rule collection list result as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "the response of a RoutingRuleCollection list operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.RoutingRuleCollectionInner?alt=com.azure.resourcemanager.network.fluent.models.RoutingRuleCollectionInner&text=RoutingRuleCollectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.RoutingRuleCollectionsClient.list(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.network.fluent.RoutingRuleCollectionsClient.list(String resourceGroupName, String networkManagerName, String configurationName, Integer top, String skipToken, Context context)"
@@ -515,7 +515,7 @@ methods:
   syntax: "public abstract PagedIterable<RoutingRuleCollectionInner> list(String resourceGroupName, String networkManagerName, String configurationName, Integer top, String skipToken, Context context)"
   desc: "Lists all the rule collections in a routing configuration, in a paginated format."
   returns:
-    description: "routing configuration rule collection list result as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "the response of a RoutingRuleCollection list operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.RoutingRuleCollectionInner?alt=com.azure.resourcemanager.network.fluent.models.RoutingRuleCollectionInner&text=RoutingRuleCollectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.RoutingRuleCollectionsClient.listAsync(java.lang.String,java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.network.fluent.RoutingRuleCollectionsClient.listAsync(String resourceGroupName, String networkManagerName, String configurationName)"
@@ -537,7 +537,7 @@ methods:
   syntax: "public abstract PagedFlux<RoutingRuleCollectionInner> listAsync(String resourceGroupName, String networkManagerName, String configurationName)"
   desc: "Lists all the rule collections in a routing configuration, in a paginated format."
   returns:
-    description: "routing configuration rule collection list result as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
+    description: "the response of a RoutingRuleCollection list operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.RoutingRuleCollectionInner?alt=com.azure.resourcemanager.network.fluent.models.RoutingRuleCollectionInner&text=RoutingRuleCollectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.RoutingRuleCollectionsClient.listAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String)"
   fullName: "com.azure.resourcemanager.network.fluent.RoutingRuleCollectionsClient.listAsync(String resourceGroupName, String networkManagerName, String configurationName, Integer top, String skipToken)"
@@ -565,10 +565,10 @@ methods:
   syntax: "public abstract PagedFlux<RoutingRuleCollectionInner> listAsync(String resourceGroupName, String networkManagerName, String configurationName, Integer top, String skipToken)"
   desc: "Lists all the rule collections in a routing configuration, in a paginated format."
   returns:
-    description: "routing configuration rule collection list result as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
+    description: "the response of a RoutingRuleCollection list operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.RoutingRuleCollectionInner?alt=com.azure.resourcemanager.network.fluent.models.RoutingRuleCollectionInner&text=RoutingRuleCollectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 desc: "An instance of this class provides access to all the operations defined in RoutingRuleCollectionsClient."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

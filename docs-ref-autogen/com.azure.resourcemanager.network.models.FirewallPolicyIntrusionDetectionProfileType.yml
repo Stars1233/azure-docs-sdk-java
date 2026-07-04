@@ -42,50 +42,50 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProfileType.CORE"
   name: "CORE"
   nameWithType: "FirewallPolicyIntrusionDetectionProfileType.CORE"
-  summary: "Static value Core for Firewall<wbr>Policy<wbr>Intrusion<wbr>Detection<wbr>Profile<wbr>Type."
+  summary: "Core."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProfileType?alt=com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProfileType&text=FirewallPolicyIntrusionDetectionProfileType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyIntrusionDetectionProfileType CORE"
-  desc: "Static value Core for FirewallPolicyIntrusionDetectionProfileType."
+  desc: "Core."
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProfileType.EMERGING"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProfileType.EMERGING"
   name: "EMERGING"
   nameWithType: "FirewallPolicyIntrusionDetectionProfileType.EMERGING"
-  summary: "Static value Emerging for Firewall<wbr>Policy<wbr>Intrusion<wbr>Detection<wbr>Profile<wbr>Type."
+  summary: "Emerging."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProfileType?alt=com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProfileType&text=FirewallPolicyIntrusionDetectionProfileType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyIntrusionDetectionProfileType EMERGING"
-  desc: "Static value Emerging for FirewallPolicyIntrusionDetectionProfileType."
+  desc: "Emerging."
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProfileType.EXTENDED"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProfileType.EXTENDED"
   name: "EXTENDED"
   nameWithType: "FirewallPolicyIntrusionDetectionProfileType.EXTENDED"
-  summary: "Static value Extended for Firewall<wbr>Policy<wbr>Intrusion<wbr>Detection<wbr>Profile<wbr>Type."
+  summary: "Extended."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProfileType?alt=com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProfileType&text=FirewallPolicyIntrusionDetectionProfileType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyIntrusionDetectionProfileType EXTENDED"
-  desc: "Static value Extended for FirewallPolicyIntrusionDetectionProfileType."
+  desc: "Extended."
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProfileType.OFF"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProfileType.OFF"
   name: "OFF"
   nameWithType: "FirewallPolicyIntrusionDetectionProfileType.OFF"
-  summary: "Static value Off for Firewall<wbr>Policy<wbr>Intrusion<wbr>Detection<wbr>Profile<wbr>Type."
+  summary: "Off."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProfileType?alt=com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProfileType&text=FirewallPolicyIntrusionDetectionProfileType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyIntrusionDetectionProfileType OFF"
-  desc: "Static value Off for FirewallPolicyIntrusionDetectionProfileType."
+  desc: "Off."
 methods:
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProfileType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProfileType.fromString(String name)"
@@ -119,4 +119,4 @@ type: "class"
 desc: "Specifies the Intrusion Detection signature profile to apply. Values: - Off: IDPS profiles disabled; uses the same signature set that existed before profiles. - Emerging: Signatures of the newest, most recent threats. - Core: Complete, modern, standard set of signatures. - Extended: Core signatures plus older legacy signatures for maximum coverage."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

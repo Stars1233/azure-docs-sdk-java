@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.VpnType.POLICY_BASED"
   name: "POLICY_BASED"
   nameWithType: "VpnType.POLICY_BASED"
-  summary: "Static value Policy<wbr>Based for Vpn<wbr>Type."
+  summary: "Policy<wbr>Based."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VpnType?alt=com.azure.resourcemanager.network.models.VpnType&text=VpnType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VpnType POLICY_BASED"
-  desc: "Static value PolicyBased for VpnType."
+  desc: "PolicyBased."
 - uid: "com.azure.resourcemanager.network.models.VpnType.ROUTE_BASED"
   fullName: "com.azure.resourcemanager.network.models.VpnType.ROUTE_BASED"
   name: "ROUTE_BASED"
   nameWithType: "VpnType.ROUTE_BASED"
-  summary: "Static value Route<wbr>Based for Vpn<wbr>Type."
+  summary: "Route<wbr>Based."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VpnType?alt=com.azure.resourcemanager.network.models.VpnType&text=VpnType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VpnType ROUTE_BASED"
-  desc: "Static value RouteBased for VpnType."
+  desc: "RouteBased."
 methods:
 - uid: "com.azure.resourcemanager.network.models.VpnType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.VpnType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The type of this virtual network gateway."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

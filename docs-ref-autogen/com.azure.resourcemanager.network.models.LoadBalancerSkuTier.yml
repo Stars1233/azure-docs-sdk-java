@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.LoadBalancerSkuTier.GLOBAL"
   name: "GLOBAL"
   nameWithType: "LoadBalancerSkuTier.GLOBAL"
-  summary: "Static value Global for Load<wbr>Balancer<wbr>Sku<wbr>Tier."
+  summary: "Global."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerSkuTier?alt=com.azure.resourcemanager.network.models.LoadBalancerSkuTier&text=LoadBalancerSkuTier\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final LoadBalancerSkuTier GLOBAL"
-  desc: "Static value Global for LoadBalancerSkuTier."
+  desc: "Global."
 - uid: "com.azure.resourcemanager.network.models.LoadBalancerSkuTier.REGIONAL"
   fullName: "com.azure.resourcemanager.network.models.LoadBalancerSkuTier.REGIONAL"
   name: "REGIONAL"
   nameWithType: "LoadBalancerSkuTier.REGIONAL"
-  summary: "Static value Regional for Load<wbr>Balancer<wbr>Sku<wbr>Tier."
+  summary: "Regional."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerSkuTier?alt=com.azure.resourcemanager.network.models.LoadBalancerSkuTier&text=LoadBalancerSkuTier\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final LoadBalancerSkuTier REGIONAL"
-  desc: "Static value Regional for LoadBalancerSkuTier."
+  desc: "Regional."
 methods:
 - uid: "com.azure.resourcemanager.network.models.LoadBalancerSkuTier.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.LoadBalancerSkuTier.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Tier of a load balancer SKU."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

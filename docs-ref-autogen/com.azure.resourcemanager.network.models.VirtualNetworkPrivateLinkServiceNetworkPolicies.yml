@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkPrivateLinkServiceNetworkPolicies.DISABLED"
   name: "DISABLED"
   nameWithType: "VirtualNetworkPrivateLinkServiceNetworkPolicies.DISABLED"
-  summary: "Static value Disabled for Virtual<wbr>Network<wbr>Private<wbr>Link<wbr>Service<wbr>Network<wbr>Policies."
+  summary: "Disabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualNetworkPrivateLinkServiceNetworkPolicies?alt=com.azure.resourcemanager.network.models.VirtualNetworkPrivateLinkServiceNetworkPolicies&text=VirtualNetworkPrivateLinkServiceNetworkPolicies\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualNetworkPrivateLinkServiceNetworkPolicies DISABLED"
-  desc: "Static value Disabled for VirtualNetworkPrivateLinkServiceNetworkPolicies."
+  desc: "Disabled."
 - uid: "com.azure.resourcemanager.network.models.VirtualNetworkPrivateLinkServiceNetworkPolicies.ENABLED"
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkPrivateLinkServiceNetworkPolicies.ENABLED"
   name: "ENABLED"
   nameWithType: "VirtualNetworkPrivateLinkServiceNetworkPolicies.ENABLED"
-  summary: "Static value Enabled for Virtual<wbr>Network<wbr>Private<wbr>Link<wbr>Service<wbr>Network<wbr>Policies."
+  summary: "Enabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualNetworkPrivateLinkServiceNetworkPolicies?alt=com.azure.resourcemanager.network.models.VirtualNetworkPrivateLinkServiceNetworkPolicies&text=VirtualNetworkPrivateLinkServiceNetworkPolicies\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualNetworkPrivateLinkServiceNetworkPolicies ENABLED"
-  desc: "Static value Enabled for VirtualNetworkPrivateLinkServiceNetworkPolicies."
+  desc: "Enabled."
 methods:
 - uid: "com.azure.resourcemanager.network.models.VirtualNetworkPrivateLinkServiceNetworkPolicies.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkPrivateLinkServiceNetworkPolicies.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Enable or Disable apply network policies on private link service in the subnet."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,14 +42,14 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ConnectionMonitorEndpointFilterType.INCLUDE"
   name: "INCLUDE"
   nameWithType: "ConnectionMonitorEndpointFilterType.INCLUDE"
-  summary: "Static value Include for Connection<wbr>Monitor<wbr>Endpoint<wbr>Filter<wbr>Type."
+  summary: "Include."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ConnectionMonitorEndpointFilterType?alt=com.azure.resourcemanager.network.models.ConnectionMonitorEndpointFilterType&text=ConnectionMonitorEndpointFilterType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ConnectionMonitorEndpointFilterType INCLUDE"
-  desc: "Static value Include for ConnectionMonitorEndpointFilterType."
+  desc: "Include."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ConnectionMonitorEndpointFilterType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ConnectionMonitorEndpointFilterType.fromString(String name)"
@@ -83,4 +83,4 @@ type: "class"
 desc: "The behavior of the endpoint filter. Currently only 'Include' is supported."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

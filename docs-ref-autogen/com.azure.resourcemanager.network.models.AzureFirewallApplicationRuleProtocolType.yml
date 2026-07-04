@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.AzureFirewallApplicationRuleProtocolType.HTTP"
   name: "HTTP"
   nameWithType: "AzureFirewallApplicationRuleProtocolType.HTTP"
-  summary: "Static value Http for Azure<wbr>Firewall<wbr>Application<wbr>Rule<wbr>Protocol<wbr>Type."
+  summary: "Http."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AzureFirewallApplicationRuleProtocolType?alt=com.azure.resourcemanager.network.models.AzureFirewallApplicationRuleProtocolType&text=AzureFirewallApplicationRuleProtocolType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AzureFirewallApplicationRuleProtocolType HTTP"
-  desc: "Static value Http for AzureFirewallApplicationRuleProtocolType."
+  desc: "Http."
 - uid: "com.azure.resourcemanager.network.models.AzureFirewallApplicationRuleProtocolType.HTTPS"
   fullName: "com.azure.resourcemanager.network.models.AzureFirewallApplicationRuleProtocolType.HTTPS"
   name: "HTTPS"
   nameWithType: "AzureFirewallApplicationRuleProtocolType.HTTPS"
-  summary: "Static value Https for Azure<wbr>Firewall<wbr>Application<wbr>Rule<wbr>Protocol<wbr>Type."
+  summary: "Https."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AzureFirewallApplicationRuleProtocolType?alt=com.azure.resourcemanager.network.models.AzureFirewallApplicationRuleProtocolType&text=AzureFirewallApplicationRuleProtocolType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AzureFirewallApplicationRuleProtocolType HTTPS"
-  desc: "Static value Https for AzureFirewallApplicationRuleProtocolType."
+  desc: "Https."
 - uid: "com.azure.resourcemanager.network.models.AzureFirewallApplicationRuleProtocolType.MSSQL"
   fullName: "com.azure.resourcemanager.network.models.AzureFirewallApplicationRuleProtocolType.MSSQL"
   name: "MSSQL"
   nameWithType: "AzureFirewallApplicationRuleProtocolType.MSSQL"
-  summary: "Static value Mssql for Azure<wbr>Firewall<wbr>Application<wbr>Rule<wbr>Protocol<wbr>Type."
+  summary: "Mssql."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AzureFirewallApplicationRuleProtocolType?alt=com.azure.resourcemanager.network.models.AzureFirewallApplicationRuleProtocolType&text=AzureFirewallApplicationRuleProtocolType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AzureFirewallApplicationRuleProtocolType MSSQL"
-  desc: "Static value Mssql for AzureFirewallApplicationRuleProtocolType."
+  desc: "Mssql."
 methods:
 - uid: "com.azure.resourcemanager.network.models.AzureFirewallApplicationRuleProtocolType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.AzureFirewallApplicationRuleProtocolType.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "The protocol type of a Application Rule resource."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

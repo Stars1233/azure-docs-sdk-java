@@ -14,7 +14,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -36,7 +36,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -61,7 +61,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -83,7 +83,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -102,7 +102,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -124,7 +124,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -143,13 +143,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The groupName parameter."
     name: "groupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
     name: "loadBalancerName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the load balancer backend address pool."
+  - description: "The name of the backend address pool."
     name: "backendPoolName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Query inbound NAT rule port mapping request."
@@ -168,13 +168,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The groupName parameter."
     name: "groupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
     name: "loadBalancerName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the load balancer backend address pool."
+  - description: "The name of the backend address pool."
     name: "backendPoolName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Query inbound NAT rule port mapping request."
@@ -196,13 +196,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The groupName parameter."
     name: "groupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
     name: "loadBalancerName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the load balancer backend address pool."
+  - description: "The name of the backend address pool."
     name: "backendPoolName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Query inbound NAT rule port mapping request."
@@ -221,10 +221,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The region where load balancers are located at."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Parameters that define which VIPs should be swapped."
+  - description: "The parameters parameter."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerVipSwapRequest?alt=com.azure.resourcemanager.network.models.LoadBalancerVipSwapRequest&text=LoadBalancerVipSwapRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginSwapPublicIpAddresses(String location, LoadBalancerVipSwapRequest parameters)"
@@ -240,10 +240,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The region where load balancers are located at."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Parameters that define which VIPs should be swapped."
+  - description: "The parameters parameter."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerVipSwapRequest?alt=com.azure.resourcemanager.network.models.LoadBalancerVipSwapRequest&text=LoadBalancerVipSwapRequest\" data-throw-if-not-resolved=\"False\" />"
   - description: "The context to associate with this operation."
@@ -262,10 +262,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The region where load balancers are located at."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Parameters that define which VIPs should be swapped."
+  - description: "The parameters parameter."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerVipSwapRequest?alt=com.azure.resourcemanager.network.models.LoadBalancerVipSwapRequest&text=LoadBalancerVipSwapRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PollerFlux<PollResult<Void>,Void> beginSwapPublicIpAddressesAsync(String location, LoadBalancerVipSwapRequest parameters)"
@@ -281,7 +281,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -303,7 +303,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -328,7 +328,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -350,7 +350,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -372,7 +372,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -388,7 +388,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -407,7 +407,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -426,7 +426,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -445,7 +445,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -464,7 +464,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -475,15 +475,15 @@ methods:
   returns:
     description: "the specified load balancer on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.LoadBalancerInner?alt=com.azure.resourcemanager.network.fluent.models.LoadBalancerInner&text=LoadBalancerInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.network.fluent.LoadBalancersClient.getByResourceGroupWithResponse(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
-  fullName: "com.azure.resourcemanager.network.fluent.LoadBalancersClient.getByResourceGroupWithResponse(String resourceGroupName, String loadBalancerName, String expand, Context context)"
-  name: "getByResourceGroupWithResponse(String resourceGroupName, String loadBalancerName, String expand, Context context)"
-  nameWithType: "LoadBalancersClient.getByResourceGroupWithResponse(String resourceGroupName, String loadBalancerName, String expand, Context context)"
+- uid: "com.azure.resourcemanager.network.fluent.LoadBalancersClient.getByResourceGroupWithResponse(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.models.LoadBalancerDetailLevel,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.network.fluent.LoadBalancersClient.getByResourceGroupWithResponse(String resourceGroupName, String loadBalancerName, String expand, LoadBalancerDetailLevel detailLevel, Context context)"
+  name: "getByResourceGroupWithResponse(String resourceGroupName, String loadBalancerName, String expand, LoadBalancerDetailLevel detailLevel, Context context)"
+  nameWithType: "LoadBalancersClient.getByResourceGroupWithResponse(String resourceGroupName, String loadBalancerName, String expand, LoadBalancerDetailLevel detailLevel, Context context)"
   summary: "Gets the specified load balancer."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -492,23 +492,26 @@ methods:
   - description: "Expands referenced resources."
     name: "expand"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "Controls verbosity of the returned load balancer resource. When set to 'Reduced', read-only\n back-reference collections (e.g., rules referencing frontendIPConfigurations) are omitted from the response."
+    name: "detailLevel"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerDetailLevel?alt=com.azure.resourcemanager.network.models.LoadBalancerDetailLevel&text=LoadBalancerDetailLevel\" data-throw-if-not-resolved=\"False\" />"
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract Response<LoadBalancerInner> getByResourceGroupWithResponse(String resourceGroupName, String loadBalancerName, String expand, Context context)"
+  syntax: "public abstract Response<LoadBalancerInner> getByResourceGroupWithResponse(String resourceGroupName, String loadBalancerName, String expand, LoadBalancerDetailLevel detailLevel, Context context)"
   desc: "Gets the specified load balancer."
   returns:
     description: "the specified load balancer along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.LoadBalancerInner?alt=com.azure.resourcemanager.network.fluent.models.LoadBalancerInner&text=LoadBalancerInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.network.fluent.LoadBalancersClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.LoadBalancersClient.getByResourceGroupWithResponseAsync(String resourceGroupName, String loadBalancerName, String expand)"
-  name: "getByResourceGroupWithResponseAsync(String resourceGroupName, String loadBalancerName, String expand)"
-  nameWithType: "LoadBalancersClient.getByResourceGroupWithResponseAsync(String resourceGroupName, String loadBalancerName, String expand)"
+- uid: "com.azure.resourcemanager.network.fluent.LoadBalancersClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.models.LoadBalancerDetailLevel)"
+  fullName: "com.azure.resourcemanager.network.fluent.LoadBalancersClient.getByResourceGroupWithResponseAsync(String resourceGroupName, String loadBalancerName, String expand, LoadBalancerDetailLevel detailLevel)"
+  name: "getByResourceGroupWithResponseAsync(String resourceGroupName, String loadBalancerName, String expand, LoadBalancerDetailLevel detailLevel)"
+  nameWithType: "LoadBalancersClient.getByResourceGroupWithResponseAsync(String resourceGroupName, String loadBalancerName, String expand, LoadBalancerDetailLevel detailLevel)"
   summary: "Gets the specified load balancer."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -517,7 +520,10 @@ methods:
   - description: "Expands referenced resources."
     name: "expand"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract Mono<Response<LoadBalancerInner>> getByResourceGroupWithResponseAsync(String resourceGroupName, String loadBalancerName, String expand)"
+  - description: "Controls verbosity of the returned load balancer resource. When set to 'Reduced', read-only\n back-reference collections (e.g., rules referencing frontendIPConfigurations) are omitted from the response."
+    name: "detailLevel"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerDetailLevel?alt=com.azure.resourcemanager.network.models.LoadBalancerDetailLevel&text=LoadBalancerDetailLevel\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Mono<Response<LoadBalancerInner>> getByResourceGroupWithResponseAsync(String resourceGroupName, String loadBalancerName, String expand, LoadBalancerDetailLevel detailLevel)"
   desc: "Gets the specified load balancer."
   returns:
     description: "the specified load balancer along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
@@ -570,7 +576,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<LoadBalancerInner> listByResourceGroup(String resourceGroupName)"
@@ -586,7 +592,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -605,7 +611,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedFlux<LoadBalancerInner> listByResourceGroupAsync(String resourceGroupName)"
@@ -621,13 +627,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The groupName parameter."
     name: "groupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
     name: "loadBalancerName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the load balancer backend address pool."
+  - description: "The name of the backend address pool."
     name: "backendPoolName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Query inbound NAT rule port mapping request."
@@ -646,13 +652,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The groupName parameter."
     name: "groupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
     name: "loadBalancerName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the load balancer backend address pool."
+  - description: "The name of the backend address pool."
     name: "backendPoolName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Query inbound NAT rule port mapping request."
@@ -674,13 +680,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The groupName parameter."
     name: "groupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
     name: "loadBalancerName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the load balancer backend address pool."
+  - description: "The name of the backend address pool."
     name: "backendPoolName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Query inbound NAT rule port mapping request."
@@ -699,13 +705,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The groupName parameter."
     name: "groupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
     name: "loadBalancerName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the load balancer backend address pool."
+  - description: "The name of the backend address pool."
     name: "backendPoolName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Query inbound NAT rule port mapping request."
@@ -724,7 +730,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The groupName parameter."
     name: "groupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -743,7 +749,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The groupName parameter."
     name: "groupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -762,7 +768,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The groupName parameter."
     name: "groupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -787,7 +793,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The groupName parameter."
     name: "groupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -809,10 +815,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The region where load balancers are located at."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Parameters that define which VIPs should be swapped."
+  - description: "The parameters parameter."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerVipSwapRequest?alt=com.azure.resourcemanager.network.models.LoadBalancerVipSwapRequest&text=LoadBalancerVipSwapRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void swapPublicIpAddresses(String location, LoadBalancerVipSwapRequest parameters)"
@@ -825,10 +831,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The region where load balancers are located at."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Parameters that define which VIPs should be swapped."
+  - description: "The parameters parameter."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerVipSwapRequest?alt=com.azure.resourcemanager.network.models.LoadBalancerVipSwapRequest&text=LoadBalancerVipSwapRequest\" data-throw-if-not-resolved=\"False\" />"
   - description: "The context to associate with this operation."
@@ -844,10 +850,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The region where load balancers are located at."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Parameters that define which VIPs should be swapped."
+  - description: "The parameters parameter."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerVipSwapRequest?alt=com.azure.resourcemanager.network.models.LoadBalancerVipSwapRequest&text=LoadBalancerVipSwapRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Mono<Void> swapPublicIpAddressesAsync(String location, LoadBalancerVipSwapRequest parameters)"
@@ -863,10 +869,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The region where load balancers are located at."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Parameters that define which VIPs should be swapped."
+  - description: "The parameters parameter."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerVipSwapRequest?alt=com.azure.resourcemanager.network.models.LoadBalancerVipSwapRequest&text=LoadBalancerVipSwapRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> swapPublicIpAddressesWithResponseAsync(String location, LoadBalancerVipSwapRequest parameters)"
@@ -882,7 +888,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -904,7 +910,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -926,7 +932,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -951,7 +957,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the load balancer."
@@ -973,4 +979,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.LoadBalancerInner?alt=com.azure.resourcemanager.network.fluent.models.LoadBalancerInner&text=LoadBalancerInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

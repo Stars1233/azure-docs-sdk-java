@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.Access.ALLOW"
   name: "ALLOW"
   nameWithType: "Access.ALLOW"
-  summary: "Static value Allow for Access."
+  summary: "Allow."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.Access?alt=com.azure.resourcemanager.network.models.Access&text=Access\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final Access ALLOW"
-  desc: "Static value Allow for Access."
+  desc: "Allow."
 - uid: "com.azure.resourcemanager.network.models.Access.DENY"
   fullName: "com.azure.resourcemanager.network.models.Access.DENY"
   name: "DENY"
   nameWithType: "Access.DENY"
-  summary: "Static value Deny for Access."
+  summary: "Deny."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.Access?alt=com.azure.resourcemanager.network.models.Access&text=Access\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final Access DENY"
-  desc: "Static value Deny for Access."
+  desc: "Deny."
 methods:
 - uid: "com.azure.resourcemanager.network.models.Access.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.Access.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Access to be allowed or denied."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

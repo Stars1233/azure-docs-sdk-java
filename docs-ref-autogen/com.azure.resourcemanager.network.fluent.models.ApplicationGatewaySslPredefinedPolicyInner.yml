@@ -28,14 +28,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ApplicationGatewaySslPredefinedPolicyInner**</br> extends <xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyInner.ApplicationGatewaySslPredefinedPolicyInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyInner.ApplicationGatewaySslPredefinedPolicyInner()"
-  name: "ApplicationGatewaySslPredefinedPolicyInner()"
-  nameWithType: "ApplicationGatewaySslPredefinedPolicyInner.ApplicationGatewaySslPredefinedPolicyInner()"
-  summary: "Creates an instance of Application<wbr>Gateway<wbr>Ssl<wbr>Predefined<wbr>Policy<wbr>Inner class."
-  syntax: "public ApplicationGatewaySslPredefinedPolicyInner()"
-  desc: "Creates an instance of ApplicationGatewaySslPredefinedPolicyInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyInner.cipherSuites()"
   fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyInner.cipherSuites()"
@@ -106,61 +98,8 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyInner.withCipherSuites(java.util.List<com.azure.resourcemanager.network.models.ApplicationGatewaySslCipherSuite>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyInner.withCipherSuites(List<ApplicationGatewaySslCipherSuite> cipherSuites)"
-  name: "withCipherSuites(List<ApplicationGatewaySslCipherSuite> cipherSuites)"
-  nameWithType: "ApplicationGatewaySslPredefinedPolicyInner.withCipherSuites(List<ApplicationGatewaySslCipherSuite> cipherSuites)"
-  summary: "Set the cipher<wbr>Suites property: Ssl cipher suites to be enabled in the specified order for application gateway."
-  parameters:
-  - description: "the cipherSuites value to set."
-    name: "cipherSuites"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewaySslCipherSuite?alt=com.azure.resourcemanager.network.models.ApplicationGatewaySslCipherSuite&text=ApplicationGatewaySslCipherSuite\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public ApplicationGatewaySslPredefinedPolicyInner withCipherSuites(List<ApplicationGatewaySslCipherSuite> cipherSuites)"
-  desc: "Set the cipherSuites property: Ssl cipher suites to be enabled in the specified order for application gateway."
-  returns:
-    description: "the ApplicationGatewaySslPredefinedPolicyInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyInner&text=ApplicationGatewaySslPredefinedPolicyInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyInner.withId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyInner.withId(String id)"
-  name: "withId(String id)"
-  nameWithType: "ApplicationGatewaySslPredefinedPolicyInner.withId(String id)"
-  overridden: "com.azure.core.management.SubResource.withId(java.lang.String)"
-  parameters:
-  - name: "id"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ApplicationGatewaySslPredefinedPolicyInner withId(String id)"
-  returns:
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyInner&text=ApplicationGatewaySslPredefinedPolicyInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyInner.withMinProtocolVersion(com.azure.resourcemanager.network.models.ApplicationGatewaySslProtocol)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyInner.withMinProtocolVersion(ApplicationGatewaySslProtocol minProtocolVersion)"
-  name: "withMinProtocolVersion(ApplicationGatewaySslProtocol minProtocolVersion)"
-  nameWithType: "ApplicationGatewaySslPredefinedPolicyInner.withMinProtocolVersion(ApplicationGatewaySslProtocol minProtocolVersion)"
-  summary: "Set the min<wbr>Protocol<wbr>Version property: Minimum version of Ssl protocol to be supported on application gateway."
-  parameters:
-  - description: "the minProtocolVersion value to set."
-    name: "minProtocolVersion"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewaySslProtocol?alt=com.azure.resourcemanager.network.models.ApplicationGatewaySslProtocol&text=ApplicationGatewaySslProtocol\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public ApplicationGatewaySslPredefinedPolicyInner withMinProtocolVersion(ApplicationGatewaySslProtocol minProtocolVersion)"
-  desc: "Set the minProtocolVersion property: Minimum version of Ssl protocol to be supported on application gateway."
-  returns:
-    description: "the ApplicationGatewaySslPredefinedPolicyInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyInner&text=ApplicationGatewaySslPredefinedPolicyInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyInner.withName(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyInner.withName(String name)"
-  name: "withName(String name)"
-  nameWithType: "ApplicationGatewaySslPredefinedPolicyInner.withName(String name)"
-  summary: "Set the name property: Name of the Ssl predefined policy."
-  parameters:
-  - description: "the name value to set."
-    name: "name"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ApplicationGatewaySslPredefinedPolicyInner withName(String name)"
-  desc: "Set the name property: Name of the Ssl predefined policy."
-  returns:
-    description: "the ApplicationGatewaySslPredefinedPolicyInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyInner&text=ApplicationGatewaySslPredefinedPolicyInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "An Ssl predefined policy."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

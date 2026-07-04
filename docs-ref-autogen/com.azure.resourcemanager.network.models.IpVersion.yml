@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.IpVersion.IPV4"
   name: "IPV4"
   nameWithType: "IpVersion.IPV4"
-  summary: "Static value IPv4 for Ip<wbr>Version."
+  summary: "IPv4."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.IpVersion?alt=com.azure.resourcemanager.network.models.IpVersion&text=IpVersion\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final IpVersion IPV4"
-  desc: "Static value IPv4 for IpVersion."
+  desc: "IPv4."
 - uid: "com.azure.resourcemanager.network.models.IpVersion.IPV6"
   fullName: "com.azure.resourcemanager.network.models.IpVersion.IPV6"
   name: "IPV6"
   nameWithType: "IpVersion.IPV6"
-  summary: "Static value IPv6 for Ip<wbr>Version."
+  summary: "IPv6."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.IpVersion?alt=com.azure.resourcemanager.network.models.IpVersion&text=IpVersion\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final IpVersion IPV6"
-  desc: "Static value IPv6 for IpVersion."
+  desc: "IPv6."
 methods:
 - uid: "com.azure.resourcemanager.network.models.IpVersion.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.IpVersion.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "IP address version."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

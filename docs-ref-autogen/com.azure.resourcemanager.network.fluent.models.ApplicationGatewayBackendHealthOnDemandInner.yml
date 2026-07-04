@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ApplicationGatewayBackendHealthOnDemandInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayBackendHealthOnDemandInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayBackendHealthOnDemandInner&text=ApplicationGatewayBackendHealthOnDemandInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayBackendHealthOnDemandInner.ApplicationGatewayBackendHealthOnDemandInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayBackendHealthOnDemandInner.ApplicationGatewayBackendHealthOnDemandInner()"
-  name: "ApplicationGatewayBackendHealthOnDemandInner()"
-  nameWithType: "ApplicationGatewayBackendHealthOnDemandInner.ApplicationGatewayBackendHealthOnDemandInner()"
-  summary: "Creates an instance of Application<wbr>Gateway<wbr>Backend<wbr>Health<wbr>OnDemand<wbr>Inner class."
-  syntax: "public ApplicationGatewayBackendHealthOnDemandInner()"
-  desc: "Creates an instance of ApplicationGatewayBackendHealthOnDemandInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayBackendHealthOnDemandInner.backendAddressPool()"
   fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayBackendHealthOnDemandInner.backendAddressPool()"
@@ -88,38 +80,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayBackendHealthOnDemandInner.withBackendAddressPool(com.azure.resourcemanager.network.models.ApplicationGatewayBackendAddressPool)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayBackendHealthOnDemandInner.withBackendAddressPool(ApplicationGatewayBackendAddressPool backendAddressPool)"
-  name: "withBackendAddressPool(ApplicationGatewayBackendAddressPool backendAddressPool)"
-  nameWithType: "ApplicationGatewayBackendHealthOnDemandInner.withBackendAddressPool(ApplicationGatewayBackendAddressPool backendAddressPool)"
-  summary: "Set the backend<wbr>Address<wbr>Pool property: Reference to an Application<wbr>Gateway<wbr>Backend<wbr>Address<wbr>Pool resource."
-  parameters:
-  - description: "the backendAddressPool value to set."
-    name: "backendAddressPool"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayBackendAddressPool?alt=com.azure.resourcemanager.network.models.ApplicationGatewayBackendAddressPool&text=ApplicationGatewayBackendAddressPool\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public ApplicationGatewayBackendHealthOnDemandInner withBackendAddressPool(ApplicationGatewayBackendAddressPool backendAddressPool)"
-  desc: "Set the backendAddressPool property: Reference to an ApplicationGatewayBackendAddressPool resource."
-  returns:
-    description: "the ApplicationGatewayBackendHealthOnDemandInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayBackendHealthOnDemandInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayBackendHealthOnDemandInner&text=ApplicationGatewayBackendHealthOnDemandInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayBackendHealthOnDemandInner.withBackendHealthHttpSettings(com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthHttpSettings)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayBackendHealthOnDemandInner.withBackendHealthHttpSettings(ApplicationGatewayBackendHealthHttpSettings backendHealthHttpSettings)"
-  name: "withBackendHealthHttpSettings(ApplicationGatewayBackendHealthHttpSettings backendHealthHttpSettings)"
-  nameWithType: "ApplicationGatewayBackendHealthOnDemandInner.withBackendHealthHttpSettings(ApplicationGatewayBackendHealthHttpSettings backendHealthHttpSettings)"
-  summary: "Set the backend<wbr>Health<wbr>Http<wbr>Settings property: Application gateway Backend<wbr>Health<wbr>Http settings."
-  parameters:
-  - description: "the backendHealthHttpSettings value to set."
-    name: "backendHealthHttpSettings"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthHttpSettings?alt=com.azure.resourcemanager.network.models.ApplicationGatewayBackendHealthHttpSettings&text=ApplicationGatewayBackendHealthHttpSettings\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public ApplicationGatewayBackendHealthOnDemandInner withBackendHealthHttpSettings(ApplicationGatewayBackendHealthHttpSettings backendHealthHttpSettings)"
-  desc: "Set the backendHealthHttpSettings property: Application gateway BackendHealthHttp settings."
-  returns:
-    description: "the ApplicationGatewayBackendHealthOnDemandInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayBackendHealthOnDemandInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayBackendHealthOnDemandInner&text=ApplicationGatewayBackendHealthOnDemandInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Result of on demand test probe."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayBackendHealthOnDemandInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayBackendHealthOnDemandInner&text=ApplicationGatewayBackendHealthOnDemandInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.HttpConfigurationMethod.GET"
   name: "GET"
   nameWithType: "HttpConfigurationMethod.GET"
-  summary: "Static value Get for Http<wbr>Configuration<wbr>Method."
+  summary: "Get."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.HttpConfigurationMethod?alt=com.azure.resourcemanager.network.models.HttpConfigurationMethod&text=HttpConfigurationMethod\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final HttpConfigurationMethod GET"
-  desc: "Static value Get for HttpConfigurationMethod."
+  desc: "Get."
 - uid: "com.azure.resourcemanager.network.models.HttpConfigurationMethod.POST"
   fullName: "com.azure.resourcemanager.network.models.HttpConfigurationMethod.POST"
   name: "POST"
   nameWithType: "HttpConfigurationMethod.POST"
-  summary: "Static value Post for Http<wbr>Configuration<wbr>Method."
+  summary: "Post."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.HttpConfigurationMethod?alt=com.azure.resourcemanager.network.models.HttpConfigurationMethod&text=HttpConfigurationMethod\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final HttpConfigurationMethod POST"
-  desc: "Static value Post for HttpConfigurationMethod."
+  desc: "Post."
 methods:
 - uid: "com.azure.resourcemanager.network.models.HttpConfigurationMethod.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.HttpConfigurationMethod.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The HTTP method to use."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

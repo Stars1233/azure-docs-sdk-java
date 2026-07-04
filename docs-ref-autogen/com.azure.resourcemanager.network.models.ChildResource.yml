@@ -71,10 +71,10 @@ methods:
   fullName: "com.azure.resourcemanager.network.models.ChildResource.id()"
   name: "id()"
   nameWithType: "ChildResource.id()"
-  summary: "Get the id property: Fully qualified resource Id for the resource."
+  summary: "Get the id property: Resource ID."
   overridden: "com.azure.core.management.ProxyResource.id()"
   syntax: "public String id()"
-  desc: "Get the id property: Fully qualified resource Id for the resource."
+  desc: "Get the id property: Resource ID."
   returns:
     description: "the id value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -120,8 +120,22 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.network.models.ChildResource.withId(java.lang.String)"
+  fullName: "com.azure.resourcemanager.network.models.ChildResource.withId(String id)"
+  name: "withId(String id)"
+  nameWithType: "ChildResource.withId(String id)"
+  summary: "Set the id property: Resource ID."
+  parameters:
+  - description: "the id value to set."
+    name: "id"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public ChildResource withId(String id)"
+  desc: "Set the id property: Resource ID."
+  returns:
+    description: "the ChildResource object itself."
+    type: "<xref href=\"com.azure.resourcemanager.network.models.ChildResource?alt=com.azure.resourcemanager.network.models.ChildResource&text=ChildResource\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Proxy resource representation."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

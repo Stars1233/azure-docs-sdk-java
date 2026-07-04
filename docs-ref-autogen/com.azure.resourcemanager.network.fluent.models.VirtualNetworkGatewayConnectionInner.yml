@@ -306,6 +306,16 @@ methods:
   returns:
     description: "the resourceGuid value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner.routingConfiguration()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner.routingConfiguration()"
+  name: "routingConfiguration()"
+  nameWithType: "VirtualNetworkGatewayConnectionInner.routingConfiguration()"
+  summary: "Get the routing<wbr>Configuration property: The routing configuration indicating the associated and propagated route tables for this connection."
+  syntax: "public RoutingConfiguration routingConfiguration()"
+  desc: "Get the routingConfiguration property: The routing configuration indicating the associated and propagated route tables for this connection."
+  returns:
+    description: "the routingConfiguration value."
+    type: "<xref href=\"com.azure.resourcemanager.network.models.RoutingConfiguration?alt=com.azure.resourcemanager.network.models.RoutingConfiguration&text=RoutingConfiguration\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner.routingWeight()"
   fullName: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner.routingWeight()"
   name: "routingWeight()"
@@ -676,6 +686,20 @@ methods:
   returns:
     description: "the VirtualNetworkGatewayConnectionInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner?alt=com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner&text=VirtualNetworkGatewayConnectionInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner.withRoutingConfiguration(com.azure.resourcemanager.network.models.RoutingConfiguration)"
+  fullName: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner.withRoutingConfiguration(RoutingConfiguration routingConfiguration)"
+  name: "withRoutingConfiguration(RoutingConfiguration routingConfiguration)"
+  nameWithType: "VirtualNetworkGatewayConnectionInner.withRoutingConfiguration(RoutingConfiguration routingConfiguration)"
+  summary: "Set the routing<wbr>Configuration property: The routing configuration indicating the associated and propagated route tables for this connection."
+  parameters:
+  - description: "the routingConfiguration value to set."
+    name: "routingConfiguration"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.RoutingConfiguration?alt=com.azure.resourcemanager.network.models.RoutingConfiguration&text=RoutingConfiguration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public VirtualNetworkGatewayConnectionInner withRoutingConfiguration(RoutingConfiguration routingConfiguration)"
+  desc: "Set the routingConfiguration property: The routing configuration indicating the associated and propagated route tables for this connection."
+  returns:
+    description: "the VirtualNetworkGatewayConnectionInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner?alt=com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner&text=VirtualNetworkGatewayConnectionInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner.withRoutingWeight(java.lang.Integer)"
   fullName: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner.withRoutingWeight(Integer routingWeight)"
   name: "withRoutingWeight(Integer routingWeight)"
@@ -803,4 +827,4 @@ type: "class"
 desc: "A common class for general resource information."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

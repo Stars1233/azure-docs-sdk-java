@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ApplicationGatewaySslPredefinedPolicyPropertiesFormat**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyPropertiesFormat&text=ApplicationGatewaySslPredefinedPolicyPropertiesFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyPropertiesFormat.ApplicationGatewaySslPredefinedPolicyPropertiesFormat()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyPropertiesFormat.ApplicationGatewaySslPredefinedPolicyPropertiesFormat()"
-  name: "ApplicationGatewaySslPredefinedPolicyPropertiesFormat()"
-  nameWithType: "ApplicationGatewaySslPredefinedPolicyPropertiesFormat.ApplicationGatewaySslPredefinedPolicyPropertiesFormat()"
-  summary: "Creates an instance of Application<wbr>Gateway<wbr>Ssl<wbr>Predefined<wbr>Policy<wbr>Properties<wbr>Format class."
-  syntax: "public ApplicationGatewaySslPredefinedPolicyPropertiesFormat()"
-  desc: "Creates an instance of ApplicationGatewaySslPredefinedPolicyPropertiesFormat class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyPropertiesFormat.cipherSuites()"
   fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyPropertiesFormat.cipherSuites()"
@@ -88,38 +80,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyPropertiesFormat.withCipherSuites(java.util.List<com.azure.resourcemanager.network.models.ApplicationGatewaySslCipherSuite>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyPropertiesFormat.withCipherSuites(List<ApplicationGatewaySslCipherSuite> cipherSuites)"
-  name: "withCipherSuites(List<ApplicationGatewaySslCipherSuite> cipherSuites)"
-  nameWithType: "ApplicationGatewaySslPredefinedPolicyPropertiesFormat.withCipherSuites(List<ApplicationGatewaySslCipherSuite> cipherSuites)"
-  summary: "Set the cipher<wbr>Suites property: Ssl cipher suites to be enabled in the specified order for application gateway."
-  parameters:
-  - description: "the cipherSuites value to set."
-    name: "cipherSuites"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewaySslCipherSuite?alt=com.azure.resourcemanager.network.models.ApplicationGatewaySslCipherSuite&text=ApplicationGatewaySslCipherSuite\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public ApplicationGatewaySslPredefinedPolicyPropertiesFormat withCipherSuites(List<ApplicationGatewaySslCipherSuite> cipherSuites)"
-  desc: "Set the cipherSuites property: Ssl cipher suites to be enabled in the specified order for application gateway."
-  returns:
-    description: "the ApplicationGatewaySslPredefinedPolicyPropertiesFormat object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyPropertiesFormat&text=ApplicationGatewaySslPredefinedPolicyPropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyPropertiesFormat.withMinProtocolVersion(com.azure.resourcemanager.network.models.ApplicationGatewaySslProtocol)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyPropertiesFormat.withMinProtocolVersion(ApplicationGatewaySslProtocol minProtocolVersion)"
-  name: "withMinProtocolVersion(ApplicationGatewaySslProtocol minProtocolVersion)"
-  nameWithType: "ApplicationGatewaySslPredefinedPolicyPropertiesFormat.withMinProtocolVersion(ApplicationGatewaySslProtocol minProtocolVersion)"
-  summary: "Set the min<wbr>Protocol<wbr>Version property: Minimum version of Ssl protocol to be supported on application gateway."
-  parameters:
-  - description: "the minProtocolVersion value to set."
-    name: "minProtocolVersion"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewaySslProtocol?alt=com.azure.resourcemanager.network.models.ApplicationGatewaySslProtocol&text=ApplicationGatewaySslProtocol\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public ApplicationGatewaySslPredefinedPolicyPropertiesFormat withMinProtocolVersion(ApplicationGatewaySslProtocol minProtocolVersion)"
-  desc: "Set the minProtocolVersion property: Minimum version of Ssl protocol to be supported on application gateway."
-  returns:
-    description: "the ApplicationGatewaySslPredefinedPolicyPropertiesFormat object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyPropertiesFormat&text=ApplicationGatewaySslPredefinedPolicyPropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Properties of ApplicationGatewaySslPredefinedPolicy."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslPredefinedPolicyPropertiesFormat&text=ApplicationGatewaySslPredefinedPolicyPropertiesFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

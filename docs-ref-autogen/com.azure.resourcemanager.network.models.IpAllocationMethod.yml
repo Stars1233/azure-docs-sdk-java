@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.IpAllocationMethod.DYNAMIC"
   name: "DYNAMIC"
   nameWithType: "IpAllocationMethod.DYNAMIC"
-  summary: "Static value Dynamic for Ip<wbr>Allocation<wbr>Method."
+  summary: "Dynamic."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.IpAllocationMethod?alt=com.azure.resourcemanager.network.models.IpAllocationMethod&text=IpAllocationMethod\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final IpAllocationMethod DYNAMIC"
-  desc: "Static value Dynamic for IpAllocationMethod."
+  desc: "Dynamic."
 - uid: "com.azure.resourcemanager.network.models.IpAllocationMethod.STATIC"
   fullName: "com.azure.resourcemanager.network.models.IpAllocationMethod.STATIC"
   name: "STATIC"
   nameWithType: "IpAllocationMethod.STATIC"
-  summary: "Static value Static for Ip<wbr>Allocation<wbr>Method."
+  summary: "Static."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.IpAllocationMethod?alt=com.azure.resourcemanager.network.models.IpAllocationMethod&text=IpAllocationMethod\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final IpAllocationMethod STATIC"
-  desc: "Static value Static for IpAllocationMethod."
+  desc: "Static."
 methods:
 - uid: "com.azure.resourcemanager.network.models.IpAllocationMethod.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.IpAllocationMethod.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "IP address allocation method."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

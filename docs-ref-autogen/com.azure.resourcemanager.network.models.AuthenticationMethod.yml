@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.AuthenticationMethod.EAPMSCHAPV2"
   name: "EAPMSCHAPV2"
   nameWithType: "AuthenticationMethod.EAPMSCHAPV2"
-  summary: "Static value EAPMSCHAPv2 for Authentication<wbr>Method."
+  summary: "EAPMSCHAPv2."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AuthenticationMethod?alt=com.azure.resourcemanager.network.models.AuthenticationMethod&text=AuthenticationMethod\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AuthenticationMethod EAPMSCHAPV2"
-  desc: "Static value EAPMSCHAPv2 for AuthenticationMethod."
+  desc: "EAPMSCHAPv2."
 - uid: "com.azure.resourcemanager.network.models.AuthenticationMethod.EAPTLS"
   fullName: "com.azure.resourcemanager.network.models.AuthenticationMethod.EAPTLS"
   name: "EAPTLS"
   nameWithType: "AuthenticationMethod.EAPTLS"
-  summary: "Static value EAPTLS for Authentication<wbr>Method."
+  summary: "EAPTLS."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AuthenticationMethod?alt=com.azure.resourcemanager.network.models.AuthenticationMethod&text=AuthenticationMethod\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AuthenticationMethod EAPTLS"
-  desc: "Static value EAPTLS for AuthenticationMethod."
+  desc: "EAPTLS."
 methods:
 - uid: "com.azure.resourcemanager.network.models.AuthenticationMethod.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.AuthenticationMethod.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "VPN client authentication method."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

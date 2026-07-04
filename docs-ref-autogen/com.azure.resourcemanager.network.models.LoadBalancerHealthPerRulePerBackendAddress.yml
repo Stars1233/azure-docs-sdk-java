@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **LoadBalancerHealthPerRulePerBackendAddress**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress?alt=com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress&text=LoadBalancerHealthPerRulePerBackendAddress\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress.LoadBalancerHealthPerRulePerBackendAddress()"
-  fullName: "com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress.LoadBalancerHealthPerRulePerBackendAddress()"
-  name: "LoadBalancerHealthPerRulePerBackendAddress()"
-  nameWithType: "LoadBalancerHealthPerRulePerBackendAddress.LoadBalancerHealthPerRulePerBackendAddress()"
-  summary: "Creates an instance of Load<wbr>Balancer<wbr>Health<wbr>Per<wbr>Rule<wbr>Per<wbr>Backend<wbr>Address class."
-  syntax: "public LoadBalancerHealthPerRulePerBackendAddress()"
-  desc: "Creates an instance of LoadBalancerHealthPerRulePerBackendAddress class."
 methods:
 - uid: "com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress.fromJson(JsonReader jsonReader)"
@@ -108,66 +100,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress.withIpAddress(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress.withIpAddress(String ipAddress)"
-  name: "withIpAddress(String ipAddress)"
-  nameWithType: "LoadBalancerHealthPerRulePerBackendAddress.withIpAddress(String ipAddress)"
-  summary: "Set the ip<wbr>Address property: The IP address belonging to the backend address."
-  parameters:
-  - description: "the ipAddress value to set."
-    name: "ipAddress"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public LoadBalancerHealthPerRulePerBackendAddress withIpAddress(String ipAddress)"
-  desc: "Set the ipAddress property: The IP address belonging to the backend address."
-  returns:
-    description: "the LoadBalancerHealthPerRulePerBackendAddress object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress?alt=com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress&text=LoadBalancerHealthPerRulePerBackendAddress\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress.withNetworkInterfaceIpConfigurationId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress.withNetworkInterfaceIpConfigurationId(String networkInterfaceIpConfigurationId)"
-  name: "withNetworkInterfaceIpConfigurationId(String networkInterfaceIpConfigurationId)"
-  nameWithType: "LoadBalancerHealthPerRulePerBackendAddress.withNetworkInterfaceIpConfigurationId(String networkInterfaceIpConfigurationId)"
-  summary: "Set the network<wbr>Interface<wbr>IpConfiguration<wbr>Id property: Resource ID of the Network Interface IP Configuration."
-  parameters:
-  - description: "the networkInterfaceIpConfigurationId value to set."
-    name: "networkInterfaceIpConfigurationId"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public LoadBalancerHealthPerRulePerBackendAddress withNetworkInterfaceIpConfigurationId(String networkInterfaceIpConfigurationId)"
-  desc: "Set the networkInterfaceIpConfigurationId property: Resource ID of the Network Interface IP Configuration."
-  returns:
-    description: "the LoadBalancerHealthPerRulePerBackendAddress object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress?alt=com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress&text=LoadBalancerHealthPerRulePerBackendAddress\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress.withReason(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress.withReason(String reason)"
-  name: "withReason(String reason)"
-  nameWithType: "LoadBalancerHealthPerRulePerBackendAddress.withReason(String reason)"
-  summary: "Set the reason property: The explanation of the State."
-  parameters:
-  - description: "the reason value to set."
-    name: "reason"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public LoadBalancerHealthPerRulePerBackendAddress withReason(String reason)"
-  desc: "Set the reason property: The explanation of the State."
-  returns:
-    description: "the LoadBalancerHealthPerRulePerBackendAddress object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress?alt=com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress&text=LoadBalancerHealthPerRulePerBackendAddress\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress.withState(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress.withState(String state)"
-  name: "withState(String state)"
-  nameWithType: "LoadBalancerHealthPerRulePerBackendAddress.withState(String state)"
-  summary: "Set the state property: The current health of the backend instances that is associated to the LB rule."
-  parameters:
-  - description: "the state value to set."
-    name: "state"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public LoadBalancerHealthPerRulePerBackendAddress withState(String state)"
-  desc: "Set the state property: The current health of the backend instances that is associated to the LB rule."
-  returns:
-    description: "the LoadBalancerHealthPerRulePerBackendAddress object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress?alt=com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress&text=LoadBalancerHealthPerRulePerBackendAddress\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The information about health per rule per backend address."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress?alt=com.azure.resourcemanager.network.models.LoadBalancerHealthPerRulePerBackendAddress&text=LoadBalancerHealthPerRulePerBackendAddress\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

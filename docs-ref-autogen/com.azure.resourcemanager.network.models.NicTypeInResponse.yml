@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.NicTypeInResponse.ADDITIONAL_NIC"
   name: "ADDITIONAL_NIC"
   nameWithType: "NicTypeInResponse.ADDITIONAL_NIC"
-  summary: "Static value Additional<wbr>Nic for Nic<wbr>Type<wbr>InResponse."
+  summary: "Additional<wbr>Nic."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.NicTypeInResponse?alt=com.azure.resourcemanager.network.models.NicTypeInResponse&text=NicTypeInResponse\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NicTypeInResponse ADDITIONAL_NIC"
-  desc: "Static value AdditionalNic for NicTypeInResponse."
+  desc: "AdditionalNic."
 - uid: "com.azure.resourcemanager.network.models.NicTypeInResponse.PRIVATE_NIC"
   fullName: "com.azure.resourcemanager.network.models.NicTypeInResponse.PRIVATE_NIC"
   name: "PRIVATE_NIC"
   nameWithType: "NicTypeInResponse.PRIVATE_NIC"
-  summary: "Static value Private<wbr>Nic for Nic<wbr>Type<wbr>InResponse."
+  summary: "Private<wbr>Nic."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.NicTypeInResponse?alt=com.azure.resourcemanager.network.models.NicTypeInResponse&text=NicTypeInResponse\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NicTypeInResponse PRIVATE_NIC"
-  desc: "Static value PrivateNic for NicTypeInResponse."
+  desc: "PrivateNic."
 - uid: "com.azure.resourcemanager.network.models.NicTypeInResponse.PUBLIC_NIC"
   fullName: "com.azure.resourcemanager.network.models.NicTypeInResponse.PUBLIC_NIC"
   name: "PUBLIC_NIC"
   nameWithType: "NicTypeInResponse.PUBLIC_NIC"
-  summary: "Static value Public<wbr>Nic for Nic<wbr>Type<wbr>InResponse."
+  summary: "Public<wbr>Nic."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.NicTypeInResponse?alt=com.azure.resourcemanager.network.models.NicTypeInResponse&text=NicTypeInResponse\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NicTypeInResponse PUBLIC_NIC"
-  desc: "Static value PublicNic for NicTypeInResponse."
+  desc: "PublicNic."
 methods:
 - uid: "com.azure.resourcemanager.network.models.NicTypeInResponse.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.NicTypeInResponse.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "NIC type - PublicNic, PrivateNic, or AdditionalNic; AdditionalPrivateNic and AdditionalPublicNic are only supported for NVAs deployed in VNets."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

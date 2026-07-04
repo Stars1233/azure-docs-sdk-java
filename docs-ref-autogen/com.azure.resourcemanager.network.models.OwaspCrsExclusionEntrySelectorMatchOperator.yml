@@ -42,62 +42,62 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.OwaspCrsExclusionEntrySelectorMatchOperator.CONTAINS"
   name: "CONTAINS"
   nameWithType: "OwaspCrsExclusionEntrySelectorMatchOperator.CONTAINS"
-  summary: "Static value Contains for Owasp<wbr>Crs<wbr>Exclusion<wbr>Entry<wbr>Selector<wbr>Match<wbr>Operator."
+  summary: "Contains."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.OwaspCrsExclusionEntrySelectorMatchOperator?alt=com.azure.resourcemanager.network.models.OwaspCrsExclusionEntrySelectorMatchOperator&text=OwaspCrsExclusionEntrySelectorMatchOperator\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final OwaspCrsExclusionEntrySelectorMatchOperator CONTAINS"
-  desc: "Static value Contains for OwaspCrsExclusionEntrySelectorMatchOperator."
+  desc: "Contains."
 - uid: "com.azure.resourcemanager.network.models.OwaspCrsExclusionEntrySelectorMatchOperator.ENDS_WITH"
   fullName: "com.azure.resourcemanager.network.models.OwaspCrsExclusionEntrySelectorMatchOperator.ENDS_WITH"
   name: "ENDS_WITH"
   nameWithType: "OwaspCrsExclusionEntrySelectorMatchOperator.ENDS_WITH"
-  summary: "Static value Ends<wbr>With for Owasp<wbr>Crs<wbr>Exclusion<wbr>Entry<wbr>Selector<wbr>Match<wbr>Operator."
+  summary: "Ends<wbr>With."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.OwaspCrsExclusionEntrySelectorMatchOperator?alt=com.azure.resourcemanager.network.models.OwaspCrsExclusionEntrySelectorMatchOperator&text=OwaspCrsExclusionEntrySelectorMatchOperator\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final OwaspCrsExclusionEntrySelectorMatchOperator ENDS_WITH"
-  desc: "Static value EndsWith for OwaspCrsExclusionEntrySelectorMatchOperator."
+  desc: "EndsWith."
 - uid: "com.azure.resourcemanager.network.models.OwaspCrsExclusionEntrySelectorMatchOperator.EQUALS"
   fullName: "com.azure.resourcemanager.network.models.OwaspCrsExclusionEntrySelectorMatchOperator.EQUALS"
   name: "EQUALS"
   nameWithType: "OwaspCrsExclusionEntrySelectorMatchOperator.EQUALS"
-  summary: "Static value Equals for Owasp<wbr>Crs<wbr>Exclusion<wbr>Entry<wbr>Selector<wbr>Match<wbr>Operator."
+  summary: "Equals."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.OwaspCrsExclusionEntrySelectorMatchOperator?alt=com.azure.resourcemanager.network.models.OwaspCrsExclusionEntrySelectorMatchOperator&text=OwaspCrsExclusionEntrySelectorMatchOperator\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final OwaspCrsExclusionEntrySelectorMatchOperator EQUALS"
-  desc: "Static value Equals for OwaspCrsExclusionEntrySelectorMatchOperator."
+  desc: "Equals."
 - uid: "com.azure.resourcemanager.network.models.OwaspCrsExclusionEntrySelectorMatchOperator.EQUALS_ANY"
   fullName: "com.azure.resourcemanager.network.models.OwaspCrsExclusionEntrySelectorMatchOperator.EQUALS_ANY"
   name: "EQUALS_ANY"
   nameWithType: "OwaspCrsExclusionEntrySelectorMatchOperator.EQUALS_ANY"
-  summary: "Static value Equals<wbr>Any for Owasp<wbr>Crs<wbr>Exclusion<wbr>Entry<wbr>Selector<wbr>Match<wbr>Operator."
+  summary: "Equals<wbr>Any."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.OwaspCrsExclusionEntrySelectorMatchOperator?alt=com.azure.resourcemanager.network.models.OwaspCrsExclusionEntrySelectorMatchOperator&text=OwaspCrsExclusionEntrySelectorMatchOperator\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final OwaspCrsExclusionEntrySelectorMatchOperator EQUALS_ANY"
-  desc: "Static value EqualsAny for OwaspCrsExclusionEntrySelectorMatchOperator."
+  desc: "EqualsAny."
 - uid: "com.azure.resourcemanager.network.models.OwaspCrsExclusionEntrySelectorMatchOperator.STARTS_WITH"
   fullName: "com.azure.resourcemanager.network.models.OwaspCrsExclusionEntrySelectorMatchOperator.STARTS_WITH"
   name: "STARTS_WITH"
   nameWithType: "OwaspCrsExclusionEntrySelectorMatchOperator.STARTS_WITH"
-  summary: "Static value Starts<wbr>With for Owasp<wbr>Crs<wbr>Exclusion<wbr>Entry<wbr>Selector<wbr>Match<wbr>Operator."
+  summary: "Starts<wbr>With."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.OwaspCrsExclusionEntrySelectorMatchOperator?alt=com.azure.resourcemanager.network.models.OwaspCrsExclusionEntrySelectorMatchOperator&text=OwaspCrsExclusionEntrySelectorMatchOperator\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final OwaspCrsExclusionEntrySelectorMatchOperator STARTS_WITH"
-  desc: "Static value StartsWith for OwaspCrsExclusionEntrySelectorMatchOperator."
+  desc: "StartsWith."
 methods:
 - uid: "com.azure.resourcemanager.network.models.OwaspCrsExclusionEntrySelectorMatchOperator.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.OwaspCrsExclusionEntrySelectorMatchOperator.fromString(String name)"
@@ -131,4 +131,4 @@ type: "class"
 desc: "When matchVariable is a collection, operate on the selector to specify which elements in the collection this exclusion applies to."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.LoadBalancerScope.PRIVATE"
   name: "PRIVATE"
   nameWithType: "LoadBalancerScope.PRIVATE"
-  summary: "Static value Private for Load<wbr>Balancer<wbr>Scope."
+  summary: "Private."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerScope?alt=com.azure.resourcemanager.network.models.LoadBalancerScope&text=LoadBalancerScope\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final LoadBalancerScope PRIVATE"
-  desc: "Static value Private for LoadBalancerScope."
+  desc: "Private."
 - uid: "com.azure.resourcemanager.network.models.LoadBalancerScope.PUBLIC"
   fullName: "com.azure.resourcemanager.network.models.LoadBalancerScope.PUBLIC"
   name: "PUBLIC"
   nameWithType: "LoadBalancerScope.PUBLIC"
-  summary: "Static value Public for Load<wbr>Balancer<wbr>Scope."
+  summary: "Public."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerScope?alt=com.azure.resourcemanager.network.models.LoadBalancerScope&text=LoadBalancerScope\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final LoadBalancerScope PUBLIC"
-  desc: "Static value Public for LoadBalancerScope."
+  desc: "Public."
 methods:
 - uid: "com.azure.resourcemanager.network.models.LoadBalancerScope.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.LoadBalancerScope.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Indicates the scope of the load balancer: external (Public) or internal (Private)."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

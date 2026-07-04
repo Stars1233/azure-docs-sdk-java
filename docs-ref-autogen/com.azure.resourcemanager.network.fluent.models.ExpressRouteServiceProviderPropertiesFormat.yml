@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ExpressRouteServiceProviderPropertiesFormat**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRouteServiceProviderPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ExpressRouteServiceProviderPropertiesFormat&text=ExpressRouteServiceProviderPropertiesFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.ExpressRouteServiceProviderPropertiesFormat.ExpressRouteServiceProviderPropertiesFormat()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRouteServiceProviderPropertiesFormat.ExpressRouteServiceProviderPropertiesFormat()"
-  name: "ExpressRouteServiceProviderPropertiesFormat()"
-  nameWithType: "ExpressRouteServiceProviderPropertiesFormat.ExpressRouteServiceProviderPropertiesFormat()"
-  summary: "Creates an instance of Express<wbr>Route<wbr>Service<wbr>Provider<wbr>Properties<wbr>Format class."
-  syntax: "public ExpressRouteServiceProviderPropertiesFormat()"
-  desc: "Creates an instance of ExpressRouteServiceProviderPropertiesFormat class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.ExpressRouteServiceProviderPropertiesFormat.bandwidthsOffered()"
   fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRouteServiceProviderPropertiesFormat.bandwidthsOffered()"
@@ -98,38 +90,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.ExpressRouteServiceProviderPropertiesFormat.withBandwidthsOffered(java.util.List<com.azure.resourcemanager.network.models.ExpressRouteServiceProviderBandwidthsOffered>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRouteServiceProviderPropertiesFormat.withBandwidthsOffered(List<ExpressRouteServiceProviderBandwidthsOffered> bandwidthsOffered)"
-  name: "withBandwidthsOffered(List<ExpressRouteServiceProviderBandwidthsOffered> bandwidthsOffered)"
-  nameWithType: "ExpressRouteServiceProviderPropertiesFormat.withBandwidthsOffered(List<ExpressRouteServiceProviderBandwidthsOffered> bandwidthsOffered)"
-  summary: "Set the bandwidths<wbr>Offered property: A list of bandwidths offered."
-  parameters:
-  - description: "the bandwidthsOffered value to set."
-    name: "bandwidthsOffered"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteServiceProviderBandwidthsOffered?alt=com.azure.resourcemanager.network.models.ExpressRouteServiceProviderBandwidthsOffered&text=ExpressRouteServiceProviderBandwidthsOffered\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public ExpressRouteServiceProviderPropertiesFormat withBandwidthsOffered(List<ExpressRouteServiceProviderBandwidthsOffered> bandwidthsOffered)"
-  desc: "Set the bandwidthsOffered property: A list of bandwidths offered."
-  returns:
-    description: "the ExpressRouteServiceProviderPropertiesFormat object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRouteServiceProviderPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ExpressRouteServiceProviderPropertiesFormat&text=ExpressRouteServiceProviderPropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ExpressRouteServiceProviderPropertiesFormat.withPeeringLocations(java.util.List<java.lang.String>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRouteServiceProviderPropertiesFormat.withPeeringLocations(List<String> peeringLocations)"
-  name: "withPeeringLocations(List<String> peeringLocations)"
-  nameWithType: "ExpressRouteServiceProviderPropertiesFormat.withPeeringLocations(List<String> peeringLocations)"
-  summary: "Set the peering<wbr>Locations property: A list of peering locations."
-  parameters:
-  - description: "the peeringLocations value to set."
-    name: "peeringLocations"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public ExpressRouteServiceProviderPropertiesFormat withPeeringLocations(List<String> peeringLocations)"
-  desc: "Set the peeringLocations property: A list of peering locations."
-  returns:
-    description: "the ExpressRouteServiceProviderPropertiesFormat object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRouteServiceProviderPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ExpressRouteServiceProviderPropertiesFormat&text=ExpressRouteServiceProviderPropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Properties of ExpressRouteServiceProvider."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRouteServiceProviderPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ExpressRouteServiceProviderPropertiesFormat&text=ExpressRouteServiceProviderPropertiesFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.InboundSecurityRuleType.AUTO_EXPIRE"
   name: "AUTO_EXPIRE"
   nameWithType: "InboundSecurityRuleType.AUTO_EXPIRE"
-  summary: "Static value Auto<wbr>Expire for Inbound<wbr>Security<wbr>Rule<wbr>Type."
+  summary: "Auto<wbr>Expire."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.InboundSecurityRuleType?alt=com.azure.resourcemanager.network.models.InboundSecurityRuleType&text=InboundSecurityRuleType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final InboundSecurityRuleType AUTO_EXPIRE"
-  desc: "Static value AutoExpire for InboundSecurityRuleType."
+  desc: "AutoExpire."
 - uid: "com.azure.resourcemanager.network.models.InboundSecurityRuleType.PERMANENT"
   fullName: "com.azure.resourcemanager.network.models.InboundSecurityRuleType.PERMANENT"
   name: "PERMANENT"
   nameWithType: "InboundSecurityRuleType.PERMANENT"
-  summary: "Static value Permanent for Inbound<wbr>Security<wbr>Rule<wbr>Type."
+  summary: "Permanent."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.InboundSecurityRuleType?alt=com.azure.resourcemanager.network.models.InboundSecurityRuleType&text=InboundSecurityRuleType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final InboundSecurityRuleType PERMANENT"
-  desc: "Static value Permanent for InboundSecurityRuleType."
+  desc: "Permanent."
 methods:
 - uid: "com.azure.resourcemanager.network.models.InboundSecurityRuleType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.InboundSecurityRuleType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Rule Type. This should be either AutoExpire or Permanent. Auto Expire Rule only creates NSG rules. Permanent Rule creates NSG rule and SLB LB Rule."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.IsRollback.FALSE"
   name: "FALSE"
   nameWithType: "IsRollback.FALSE"
-  summary: "Static value false for Is<wbr>Rollback."
+  summary: "false."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.IsRollback?alt=com.azure.resourcemanager.network.models.IsRollback&text=IsRollback\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final IsRollback FALSE"
-  desc: "Static value false for IsRollback."
+  desc: "false."
 - uid: "com.azure.resourcemanager.network.models.IsRollback.TRUE"
   fullName: "com.azure.resourcemanager.network.models.IsRollback.TRUE"
   name: "TRUE"
   nameWithType: "IsRollback.TRUE"
-  summary: "Static value true for Is<wbr>Rollback."
+  summary: "true."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.IsRollback?alt=com.azure.resourcemanager.network.models.IsRollback&text=IsRollback\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final IsRollback TRUE"
-  desc: "Static value true for IsRollback."
+  desc: "true."
 methods:
 - uid: "com.azure.resourcemanager.network.models.IsRollback.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.IsRollback.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "When true, reverts from Static to Dynamic allocation (undo reservation)."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

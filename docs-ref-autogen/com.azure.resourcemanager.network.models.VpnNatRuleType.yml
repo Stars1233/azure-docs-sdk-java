@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.VpnNatRuleType.DYNAMIC"
   name: "DYNAMIC"
   nameWithType: "VpnNatRuleType.DYNAMIC"
-  summary: "Static value Dynamic for Vpn<wbr>Nat<wbr>Rule<wbr>Type."
+  summary: "Dynamic."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VpnNatRuleType?alt=com.azure.resourcemanager.network.models.VpnNatRuleType&text=VpnNatRuleType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VpnNatRuleType DYNAMIC"
-  desc: "Static value Dynamic for VpnNatRuleType."
+  desc: "Dynamic."
 - uid: "com.azure.resourcemanager.network.models.VpnNatRuleType.STATIC"
   fullName: "com.azure.resourcemanager.network.models.VpnNatRuleType.STATIC"
   name: "STATIC"
   nameWithType: "VpnNatRuleType.STATIC"
-  summary: "Static value Static for Vpn<wbr>Nat<wbr>Rule<wbr>Type."
+  summary: "Static."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VpnNatRuleType?alt=com.azure.resourcemanager.network.models.VpnNatRuleType&text=VpnNatRuleType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VpnNatRuleType STATIC"
-  desc: "Static value Static for VpnNatRuleType."
+  desc: "Static."
 methods:
 - uid: "com.azure.resourcemanager.network.models.VpnNatRuleType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.VpnNatRuleType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The type of NAT rule for VPN NAT."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

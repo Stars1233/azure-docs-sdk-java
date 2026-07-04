@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.Direction.INBOUND"
   name: "INBOUND"
   nameWithType: "Direction.INBOUND"
-  summary: "Static value Inbound for Direction."
+  summary: "Inbound."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.Direction?alt=com.azure.resourcemanager.network.models.Direction&text=Direction\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final Direction INBOUND"
-  desc: "Static value Inbound for Direction."
+  desc: "Inbound."
 - uid: "com.azure.resourcemanager.network.models.Direction.OUTBOUND"
   fullName: "com.azure.resourcemanager.network.models.Direction.OUTBOUND"
   name: "OUTBOUND"
   nameWithType: "Direction.OUTBOUND"
-  summary: "Static value Outbound for Direction."
+  summary: "Outbound."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.Direction?alt=com.azure.resourcemanager.network.models.Direction&text=Direction\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final Direction OUTBOUND"
-  desc: "Static value Outbound for Direction."
+  desc: "Outbound."
 methods:
 - uid: "com.azure.resourcemanager.network.models.Direction.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.Direction.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The direction of the traffic."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

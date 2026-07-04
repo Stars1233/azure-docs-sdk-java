@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ProcessorArchitecture.AMD64"
   name: "AMD64"
   nameWithType: "ProcessorArchitecture.AMD64"
-  summary: "Static value Amd64 for Processor<wbr>Architecture."
+  summary: "Amd64."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ProcessorArchitecture?alt=com.azure.resourcemanager.network.models.ProcessorArchitecture&text=ProcessorArchitecture\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ProcessorArchitecture AMD64"
-  desc: "Static value Amd64 for ProcessorArchitecture."
+  desc: "Amd64."
 - uid: "com.azure.resourcemanager.network.models.ProcessorArchitecture.X86"
   fullName: "com.azure.resourcemanager.network.models.ProcessorArchitecture.X86"
   name: "X86"
   nameWithType: "ProcessorArchitecture.X86"
-  summary: "Static value X86 for Processor<wbr>Architecture."
+  summary: "X86."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ProcessorArchitecture?alt=com.azure.resourcemanager.network.models.ProcessorArchitecture&text=ProcessorArchitecture\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ProcessorArchitecture X86"
-  desc: "Static value X86 for ProcessorArchitecture."
+  desc: "X86."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ProcessorArchitecture.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ProcessorArchitecture.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "VPN client Processor Architecture."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

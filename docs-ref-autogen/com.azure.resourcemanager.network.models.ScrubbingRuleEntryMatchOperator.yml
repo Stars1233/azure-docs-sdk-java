@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ScrubbingRuleEntryMatchOperator.EQUALS"
   name: "EQUALS"
   nameWithType: "ScrubbingRuleEntryMatchOperator.EQUALS"
-  summary: "Static value Equals for Scrubbing<wbr>Rule<wbr>Entry<wbr>Match<wbr>Operator."
+  summary: "Equals."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ScrubbingRuleEntryMatchOperator?alt=com.azure.resourcemanager.network.models.ScrubbingRuleEntryMatchOperator&text=ScrubbingRuleEntryMatchOperator\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ScrubbingRuleEntryMatchOperator EQUALS"
-  desc: "Static value Equals for ScrubbingRuleEntryMatchOperator."
+  desc: "Equals."
 - uid: "com.azure.resourcemanager.network.models.ScrubbingRuleEntryMatchOperator.EQUALS_ANY"
   fullName: "com.azure.resourcemanager.network.models.ScrubbingRuleEntryMatchOperator.EQUALS_ANY"
   name: "EQUALS_ANY"
   nameWithType: "ScrubbingRuleEntryMatchOperator.EQUALS_ANY"
-  summary: "Static value Equals<wbr>Any for Scrubbing<wbr>Rule<wbr>Entry<wbr>Match<wbr>Operator."
+  summary: "Equals<wbr>Any."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ScrubbingRuleEntryMatchOperator?alt=com.azure.resourcemanager.network.models.ScrubbingRuleEntryMatchOperator&text=ScrubbingRuleEntryMatchOperator\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ScrubbingRuleEntryMatchOperator EQUALS_ANY"
-  desc: "Static value EqualsAny for ScrubbingRuleEntryMatchOperator."
+  desc: "EqualsAny."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ScrubbingRuleEntryMatchOperator.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ScrubbingRuleEntryMatchOperator.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "When matchVariable is a collection, operate on the selector to specify which elements in the collection this rule applies to."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

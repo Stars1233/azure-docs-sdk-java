@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.VpnNatRuleMode.EGRESS_SNAT"
   name: "EGRESS_SNAT"
   nameWithType: "VpnNatRuleMode.EGRESS_SNAT"
-  summary: "Static value Egress<wbr>Snat for Vpn<wbr>Nat<wbr>Rule<wbr>Mode."
+  summary: "Egress<wbr>Snat."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VpnNatRuleMode?alt=com.azure.resourcemanager.network.models.VpnNatRuleMode&text=VpnNatRuleMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VpnNatRuleMode EGRESS_SNAT"
-  desc: "Static value EgressSnat for VpnNatRuleMode."
+  desc: "EgressSnat."
 - uid: "com.azure.resourcemanager.network.models.VpnNatRuleMode.INGRESS_SNAT"
   fullName: "com.azure.resourcemanager.network.models.VpnNatRuleMode.INGRESS_SNAT"
   name: "INGRESS_SNAT"
   nameWithType: "VpnNatRuleMode.INGRESS_SNAT"
-  summary: "Static value Ingress<wbr>Snat for Vpn<wbr>Nat<wbr>Rule<wbr>Mode."
+  summary: "Ingress<wbr>Snat."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VpnNatRuleMode?alt=com.azure.resourcemanager.network.models.VpnNatRuleMode&text=VpnNatRuleMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VpnNatRuleMode INGRESS_SNAT"
-  desc: "Static value IngressSnat for VpnNatRuleMode."
+  desc: "IngressSnat."
 methods:
 - uid: "com.azure.resourcemanager.network.models.VpnNatRuleMode.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.VpnNatRuleMode.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The Source NAT direction of a VPN NAT."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

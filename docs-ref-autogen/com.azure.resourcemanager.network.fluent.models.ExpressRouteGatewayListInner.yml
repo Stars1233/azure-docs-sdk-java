@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ExpressRouteGatewayListInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRouteGatewayListInner?alt=com.azure.resourcemanager.network.fluent.models.ExpressRouteGatewayListInner&text=ExpressRouteGatewayListInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.ExpressRouteGatewayListInner.ExpressRouteGatewayListInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRouteGatewayListInner.ExpressRouteGatewayListInner()"
-  name: "ExpressRouteGatewayListInner()"
-  nameWithType: "ExpressRouteGatewayListInner.ExpressRouteGatewayListInner()"
-  summary: "Creates an instance of Express<wbr>Route<wbr>Gateway<wbr>List<wbr>Inner class."
-  syntax: "public ExpressRouteGatewayListInner()"
-  desc: "Creates an instance of ExpressRouteGatewayListInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.ExpressRouteGatewayListInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRouteGatewayListInner.fromJson(JsonReader jsonReader)"
@@ -78,24 +70,10 @@ methods:
   returns:
     description: "the value value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRouteGatewayInner?alt=com.azure.resourcemanager.network.fluent.models.ExpressRouteGatewayInner&text=ExpressRouteGatewayInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.network.fluent.models.ExpressRouteGatewayListInner.withValue(java.util.List<com.azure.resourcemanager.network.fluent.models.ExpressRouteGatewayInner>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRouteGatewayListInner.withValue(List<ExpressRouteGatewayInner> value)"
-  name: "withValue(List<ExpressRouteGatewayInner> value)"
-  nameWithType: "ExpressRouteGatewayListInner.withValue(List<ExpressRouteGatewayInner> value)"
-  summary: "Set the value property: List of Express<wbr>Route gateways."
-  parameters:
-  - description: "the value value to set."
-    name: "value"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRouteGatewayInner?alt=com.azure.resourcemanager.network.fluent.models.ExpressRouteGatewayInner&text=ExpressRouteGatewayInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public ExpressRouteGatewayListInner withValue(List<ExpressRouteGatewayInner> value)"
-  desc: "Set the value property: List of ExpressRoute gateways."
-  returns:
-    description: "the ExpressRouteGatewayListInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRouteGatewayListInner?alt=com.azure.resourcemanager.network.fluent.models.ExpressRouteGatewayListInner&text=ExpressRouteGatewayListInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "List of ExpressRoute gateways."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRouteGatewayListInner?alt=com.azure.resourcemanager.network.fluent.models.ExpressRouteGatewayListInner&text=ExpressRouteGatewayListInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

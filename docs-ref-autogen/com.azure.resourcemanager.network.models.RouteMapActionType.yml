@@ -42,62 +42,62 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.RouteMapActionType.ADD"
   name: "ADD"
   nameWithType: "RouteMapActionType.ADD"
-  summary: "Static value Add for Route<wbr>Map<wbr>Action<wbr>Type."
+  summary: "Add."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.RouteMapActionType?alt=com.azure.resourcemanager.network.models.RouteMapActionType&text=RouteMapActionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RouteMapActionType ADD"
-  desc: "Static value Add for RouteMapActionType."
+  desc: "Add."
 - uid: "com.azure.resourcemanager.network.models.RouteMapActionType.DROP"
   fullName: "com.azure.resourcemanager.network.models.RouteMapActionType.DROP"
   name: "DROP"
   nameWithType: "RouteMapActionType.DROP"
-  summary: "Static value Drop for Route<wbr>Map<wbr>Action<wbr>Type."
+  summary: "Drop."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.RouteMapActionType?alt=com.azure.resourcemanager.network.models.RouteMapActionType&text=RouteMapActionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RouteMapActionType DROP"
-  desc: "Static value Drop for RouteMapActionType."
+  desc: "Drop."
 - uid: "com.azure.resourcemanager.network.models.RouteMapActionType.REMOVE"
   fullName: "com.azure.resourcemanager.network.models.RouteMapActionType.REMOVE"
   name: "REMOVE"
   nameWithType: "RouteMapActionType.REMOVE"
-  summary: "Static value Remove for Route<wbr>Map<wbr>Action<wbr>Type."
+  summary: "Remove."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.RouteMapActionType?alt=com.azure.resourcemanager.network.models.RouteMapActionType&text=RouteMapActionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RouteMapActionType REMOVE"
-  desc: "Static value Remove for RouteMapActionType."
+  desc: "Remove."
 - uid: "com.azure.resourcemanager.network.models.RouteMapActionType.REPLACE"
   fullName: "com.azure.resourcemanager.network.models.RouteMapActionType.REPLACE"
   name: "REPLACE"
   nameWithType: "RouteMapActionType.REPLACE"
-  summary: "Static value Replace for Route<wbr>Map<wbr>Action<wbr>Type."
+  summary: "Replace."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.RouteMapActionType?alt=com.azure.resourcemanager.network.models.RouteMapActionType&text=RouteMapActionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RouteMapActionType REPLACE"
-  desc: "Static value Replace for RouteMapActionType."
+  desc: "Replace."
 - uid: "com.azure.resourcemanager.network.models.RouteMapActionType.UNKNOWN"
   fullName: "com.azure.resourcemanager.network.models.RouteMapActionType.UNKNOWN"
   name: "UNKNOWN"
   nameWithType: "RouteMapActionType.UNKNOWN"
-  summary: "Static value Unknown for Route<wbr>Map<wbr>Action<wbr>Type."
+  summary: "Unknown."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.RouteMapActionType?alt=com.azure.resourcemanager.network.models.RouteMapActionType&text=RouteMapActionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RouteMapActionType UNKNOWN"
-  desc: "Static value Unknown for RouteMapActionType."
+  desc: "Unknown."
 methods:
 - uid: "com.azure.resourcemanager.network.models.RouteMapActionType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.RouteMapActionType.fromString(String name)"
@@ -131,4 +131,4 @@ type: "class"
 desc: "Kind of actions which can be taken on a matched route. Add, Replace, Remove refer to parameters on the route, like community or prefix."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

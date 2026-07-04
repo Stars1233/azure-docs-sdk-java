@@ -126,6 +126,16 @@ methods:
   returns:
     description: "the provisioningState value."
     type: "<xref href=\"com.azure.resourcemanager.network.models.ProvisioningState?alt=com.azure.resourcemanager.network.models.ProvisioningState&text=ProvisioningState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner.publicIPAddresses()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner.publicIPAddresses()"
+  name: "publicIPAddresses()"
+  nameWithType: "DdosCustomPolicyInner.publicIPAddresses()"
+  summary: "Get the public<wbr>IPAddresses property: The list of public IP addresses associated with the custom policy."
+  syntax: "public List<SubResource> publicIPAddresses()"
+  desc: "Get the publicIPAddresses property: The list of public IP addresses associated with the custom policy. This list is read-only."
+  returns:
+    description: "the publicIPAddresses value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner.resourceGuid()"
   fullName: "com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner.resourceGuid()"
   name: "resourceGuid()"
@@ -235,4 +245,4 @@ type: "class"
 desc: "A DDoS custom policy in a resource group."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

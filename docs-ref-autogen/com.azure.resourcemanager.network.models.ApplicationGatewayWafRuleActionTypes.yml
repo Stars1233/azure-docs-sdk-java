@@ -42,62 +42,62 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayWafRuleActionTypes.ALLOW"
   name: "ALLOW"
   nameWithType: "ApplicationGatewayWafRuleActionTypes.ALLOW"
-  summary: "Static value Allow for Application<wbr>Gateway<wbr>Waf<wbr>Rule<wbr>Action<wbr>Types."
+  summary: "Allow."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayWafRuleActionTypes?alt=com.azure.resourcemanager.network.models.ApplicationGatewayWafRuleActionTypes&text=ApplicationGatewayWafRuleActionTypes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayWafRuleActionTypes ALLOW"
-  desc: "Static value Allow for ApplicationGatewayWafRuleActionTypes."
+  desc: "Allow."
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayWafRuleActionTypes.ANOMALY_SCORING"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayWafRuleActionTypes.ANOMALY_SCORING"
   name: "ANOMALY_SCORING"
   nameWithType: "ApplicationGatewayWafRuleActionTypes.ANOMALY_SCORING"
-  summary: "Static value Anomaly<wbr>Scoring for Application<wbr>Gateway<wbr>Waf<wbr>Rule<wbr>Action<wbr>Types."
+  summary: "Anomaly<wbr>Scoring."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayWafRuleActionTypes?alt=com.azure.resourcemanager.network.models.ApplicationGatewayWafRuleActionTypes&text=ApplicationGatewayWafRuleActionTypes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayWafRuleActionTypes ANOMALY_SCORING"
-  desc: "Static value AnomalyScoring for ApplicationGatewayWafRuleActionTypes."
+  desc: "AnomalyScoring."
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayWafRuleActionTypes.BLOCK"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayWafRuleActionTypes.BLOCK"
   name: "BLOCK"
   nameWithType: "ApplicationGatewayWafRuleActionTypes.BLOCK"
-  summary: "Static value Block for Application<wbr>Gateway<wbr>Waf<wbr>Rule<wbr>Action<wbr>Types."
+  summary: "Block."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayWafRuleActionTypes?alt=com.azure.resourcemanager.network.models.ApplicationGatewayWafRuleActionTypes&text=ApplicationGatewayWafRuleActionTypes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayWafRuleActionTypes BLOCK"
-  desc: "Static value Block for ApplicationGatewayWafRuleActionTypes."
+  desc: "Block."
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayWafRuleActionTypes.LOG"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayWafRuleActionTypes.LOG"
   name: "LOG"
   nameWithType: "ApplicationGatewayWafRuleActionTypes.LOG"
-  summary: "Static value Log for Application<wbr>Gateway<wbr>Waf<wbr>Rule<wbr>Action<wbr>Types."
+  summary: "Log."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayWafRuleActionTypes?alt=com.azure.resourcemanager.network.models.ApplicationGatewayWafRuleActionTypes&text=ApplicationGatewayWafRuleActionTypes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayWafRuleActionTypes LOG"
-  desc: "Static value Log for ApplicationGatewayWafRuleActionTypes."
+  desc: "Log."
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayWafRuleActionTypes.NONE"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayWafRuleActionTypes.NONE"
   name: "NONE"
   nameWithType: "ApplicationGatewayWafRuleActionTypes.NONE"
-  summary: "Static value None for Application<wbr>Gateway<wbr>Waf<wbr>Rule<wbr>Action<wbr>Types."
+  summary: "None."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayWafRuleActionTypes?alt=com.azure.resourcemanager.network.models.ApplicationGatewayWafRuleActionTypes&text=ApplicationGatewayWafRuleActionTypes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayWafRuleActionTypes NONE"
-  desc: "Static value None for ApplicationGatewayWafRuleActionTypes."
+  desc: "None."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayWafRuleActionTypes.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayWafRuleActionTypes.fromString(String name)"
@@ -131,4 +131,4 @@ type: "class"
 desc: "The string representation of the web application firewall rule action."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

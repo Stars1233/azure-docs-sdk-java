@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.PrivateEndpointVNetPolicies.BASIC"
   name: "BASIC"
   nameWithType: "PrivateEndpointVNetPolicies.BASIC"
-  summary: "Static value Basic for Private<wbr>Endpoint<wbr>VNet<wbr>Policies."
+  summary: "Basic."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.PrivateEndpointVNetPolicies?alt=com.azure.resourcemanager.network.models.PrivateEndpointVNetPolicies&text=PrivateEndpointVNetPolicies\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PrivateEndpointVNetPolicies BASIC"
-  desc: "Static value Basic for PrivateEndpointVNetPolicies."
+  desc: "Basic."
 - uid: "com.azure.resourcemanager.network.models.PrivateEndpointVNetPolicies.DISABLED"
   fullName: "com.azure.resourcemanager.network.models.PrivateEndpointVNetPolicies.DISABLED"
   name: "DISABLED"
   nameWithType: "PrivateEndpointVNetPolicies.DISABLED"
-  summary: "Static value Disabled for Private<wbr>Endpoint<wbr>VNet<wbr>Policies."
+  summary: "Disabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.PrivateEndpointVNetPolicies?alt=com.azure.resourcemanager.network.models.PrivateEndpointVNetPolicies&text=PrivateEndpointVNetPolicies\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PrivateEndpointVNetPolicies DISABLED"
-  desc: "Static value Disabled for PrivateEndpointVNetPolicies."
+  desc: "Disabled."
 methods:
 - uid: "com.azure.resourcemanager.network.models.PrivateEndpointVNetPolicies.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.PrivateEndpointVNetPolicies.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Private Endpoint VNet Policies."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

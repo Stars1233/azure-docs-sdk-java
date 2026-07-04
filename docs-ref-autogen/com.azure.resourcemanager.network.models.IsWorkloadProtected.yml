@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.IsWorkloadProtected.FALSE"
   name: "FALSE"
   nameWithType: "IsWorkloadProtected.FALSE"
-  summary: "Static value False for Is<wbr>Workload<wbr>Protected."
+  summary: "False."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.IsWorkloadProtected?alt=com.azure.resourcemanager.network.models.IsWorkloadProtected&text=IsWorkloadProtected\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final IsWorkloadProtected FALSE"
-  desc: "Static value False for IsWorkloadProtected."
+  desc: "False."
 - uid: "com.azure.resourcemanager.network.models.IsWorkloadProtected.TRUE"
   fullName: "com.azure.resourcemanager.network.models.IsWorkloadProtected.TRUE"
   name: "TRUE"
   nameWithType: "IsWorkloadProtected.TRUE"
-  summary: "Static value True for Is<wbr>Workload<wbr>Protected."
+  summary: "True."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.IsWorkloadProtected?alt=com.azure.resourcemanager.network.models.IsWorkloadProtected&text=IsWorkloadProtected\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final IsWorkloadProtected TRUE"
-  desc: "Static value True for IsWorkloadProtected."
+  desc: "True."
 methods:
 - uid: "com.azure.resourcemanager.network.models.IsWorkloadProtected.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.IsWorkloadProtected.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Value indicating whether the IP address is DDoS workload protected or not."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

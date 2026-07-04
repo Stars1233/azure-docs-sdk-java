@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.VpnGatewayTunnelingProtocol.IKE_V2"
   name: "IKE_V2"
   nameWithType: "VpnGatewayTunnelingProtocol.IKE_V2"
-  summary: "Static value IkeV2 for Vpn<wbr>Gateway<wbr>Tunneling<wbr>Protocol."
+  summary: "IkeV2."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VpnGatewayTunnelingProtocol?alt=com.azure.resourcemanager.network.models.VpnGatewayTunnelingProtocol&text=VpnGatewayTunnelingProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VpnGatewayTunnelingProtocol IKE_V2"
-  desc: "Static value IkeV2 for VpnGatewayTunnelingProtocol."
+  desc: "IkeV2."
 - uid: "com.azure.resourcemanager.network.models.VpnGatewayTunnelingProtocol.OPEN_VPN"
   fullName: "com.azure.resourcemanager.network.models.VpnGatewayTunnelingProtocol.OPEN_VPN"
   name: "OPEN_VPN"
   nameWithType: "VpnGatewayTunnelingProtocol.OPEN_VPN"
-  summary: "Static value OpenVPN for Vpn<wbr>Gateway<wbr>Tunneling<wbr>Protocol."
+  summary: "OpenVPN."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VpnGatewayTunnelingProtocol?alt=com.azure.resourcemanager.network.models.VpnGatewayTunnelingProtocol&text=VpnGatewayTunnelingProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VpnGatewayTunnelingProtocol OPEN_VPN"
-  desc: "Static value OpenVPN for VpnGatewayTunnelingProtocol."
+  desc: "OpenVPN."
 methods:
 - uid: "com.azure.resourcemanager.network.models.VpnGatewayTunnelingProtocol.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.VpnGatewayTunnelingProtocol.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "VPN protocol enabled for the VpnServerConfiguration."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

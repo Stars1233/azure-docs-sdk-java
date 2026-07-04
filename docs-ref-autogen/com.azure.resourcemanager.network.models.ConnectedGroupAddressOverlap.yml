@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ConnectedGroupAddressOverlap.ALLOWED"
   name: "ALLOWED"
   nameWithType: "ConnectedGroupAddressOverlap.ALLOWED"
-  summary: "Static value Allowed for Connected<wbr>Group<wbr>Address<wbr>Overlap."
+  summary: "Default."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ConnectedGroupAddressOverlap?alt=com.azure.resourcemanager.network.models.ConnectedGroupAddressOverlap&text=ConnectedGroupAddressOverlap\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ConnectedGroupAddressOverlap ALLOWED"
-  desc: "Static value Allowed for ConnectedGroupAddressOverlap."
+  desc: "Default. Allows connected group members to have overlapping IP address space."
 - uid: "com.azure.resourcemanager.network.models.ConnectedGroupAddressOverlap.DISALLOWED"
   fullName: "com.azure.resourcemanager.network.models.ConnectedGroupAddressOverlap.DISALLOWED"
   name: "DISALLOWED"
   nameWithType: "ConnectedGroupAddressOverlap.DISALLOWED"
-  summary: "Static value Disallowed for Connected<wbr>Group<wbr>Address<wbr>Overlap."
+  summary: "Strictly disallows connected group members from having overlapping IP address space."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ConnectedGroupAddressOverlap?alt=com.azure.resourcemanager.network.models.ConnectedGroupAddressOverlap&text=ConnectedGroupAddressOverlap\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ConnectedGroupAddressOverlap DISALLOWED"
-  desc: "Static value Disallowed for ConnectedGroupAddressOverlap."
+  desc: "Strictly disallows connected group members from having overlapping IP address space. Prevents the addition of a virtual network with overlapping address to the connected group, blocks peering between a virtual network and a connected group member if any connected group member has an overlapping range, and restricts address space modifications that would introduce overlap."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ConnectedGroupAddressOverlap.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ConnectedGroupAddressOverlap.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Behavior to handle overlapped IP address space among members of the connected group of the connectivity configuration."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ExpressRouteFailoverCircuitResourceDetails**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteFailoverCircuitResourceDetails?alt=com.azure.resourcemanager.network.models.ExpressRouteFailoverCircuitResourceDetails&text=ExpressRouteFailoverCircuitResourceDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.models.ExpressRouteFailoverCircuitResourceDetails.ExpressRouteFailoverCircuitResourceDetails()"
-  fullName: "com.azure.resourcemanager.network.models.ExpressRouteFailoverCircuitResourceDetails.ExpressRouteFailoverCircuitResourceDetails()"
-  name: "ExpressRouteFailoverCircuitResourceDetails()"
-  nameWithType: "ExpressRouteFailoverCircuitResourceDetails.ExpressRouteFailoverCircuitResourceDetails()"
-  summary: "Creates an instance of Express<wbr>Route<wbr>Failover<wbr>Circuit<wbr>Resource<wbr>Details class."
-  syntax: "public ExpressRouteFailoverCircuitResourceDetails()"
-  desc: "Creates an instance of ExpressRouteFailoverCircuitResourceDetails class."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ExpressRouteFailoverCircuitResourceDetails.connectionName()"
   fullName: "com.azure.resourcemanager.network.models.ExpressRouteFailoverCircuitResourceDetails.connectionName()"
@@ -98,52 +90,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.models.ExpressRouteFailoverCircuitResourceDetails.withConnectionName(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.ExpressRouteFailoverCircuitResourceDetails.withConnectionName(String connectionName)"
-  name: "withConnectionName(String connectionName)"
-  nameWithType: "ExpressRouteFailoverCircuitResourceDetails.withConnectionName(String connectionName)"
-  summary: "Set the connection<wbr>Name property: Connection name associated with the circuit."
-  parameters:
-  - description: "the connectionName value to set."
-    name: "connectionName"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ExpressRouteFailoverCircuitResourceDetails withConnectionName(String connectionName)"
-  desc: "Set the connectionName property: Connection name associated with the circuit."
-  returns:
-    description: "the ExpressRouteFailoverCircuitResourceDetails object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteFailoverCircuitResourceDetails?alt=com.azure.resourcemanager.network.models.ExpressRouteFailoverCircuitResourceDetails&text=ExpressRouteFailoverCircuitResourceDetails\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.ExpressRouteFailoverCircuitResourceDetails.withName(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.ExpressRouteFailoverCircuitResourceDetails.withName(String name)"
-  name: "withName(String name)"
-  nameWithType: "ExpressRouteFailoverCircuitResourceDetails.withName(String name)"
-  summary: "Set the name property: Circuit Name."
-  parameters:
-  - description: "the name value to set."
-    name: "name"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ExpressRouteFailoverCircuitResourceDetails withName(String name)"
-  desc: "Set the name property: Circuit Name."
-  returns:
-    description: "the ExpressRouteFailoverCircuitResourceDetails object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteFailoverCircuitResourceDetails?alt=com.azure.resourcemanager.network.models.ExpressRouteFailoverCircuitResourceDetails&text=ExpressRouteFailoverCircuitResourceDetails\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.ExpressRouteFailoverCircuitResourceDetails.withNrpResourceUri(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.ExpressRouteFailoverCircuitResourceDetails.withNrpResourceUri(String nrpResourceUri)"
-  name: "withNrpResourceUri(String nrpResourceUri)"
-  nameWithType: "ExpressRouteFailoverCircuitResourceDetails.withNrpResourceUri(String nrpResourceUri)"
-  summary: "Set the nrp<wbr>Resource<wbr>Uri property: NRP Resource URI of the circuit."
-  parameters:
-  - description: "the nrpResourceUri value to set."
-    name: "nrpResourceUri"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ExpressRouteFailoverCircuitResourceDetails withNrpResourceUri(String nrpResourceUri)"
-  desc: "Set the nrpResourceUri property: NRP Resource URI of the circuit."
-  returns:
-    description: "the ExpressRouteFailoverCircuitResourceDetails object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteFailoverCircuitResourceDetails?alt=com.azure.resourcemanager.network.models.ExpressRouteFailoverCircuitResourceDetails&text=ExpressRouteFailoverCircuitResourceDetails\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The ExpressRouteFailoverCircuitResourceDetails model."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteFailoverCircuitResourceDetails?alt=com.azure.resourcemanager.network.models.ExpressRouteFailoverCircuitResourceDetails&text=ExpressRouteFailoverCircuitResourceDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.InboundSecurityRulesProtocol.TCP"
   name: "TCP"
   nameWithType: "InboundSecurityRulesProtocol.TCP"
-  summary: "Static value TCP for Inbound<wbr>Security<wbr>Rules<wbr>Protocol."
+  summary: "TCP."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.InboundSecurityRulesProtocol?alt=com.azure.resourcemanager.network.models.InboundSecurityRulesProtocol&text=InboundSecurityRulesProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final InboundSecurityRulesProtocol TCP"
-  desc: "Static value TCP for InboundSecurityRulesProtocol."
+  desc: "TCP."
 - uid: "com.azure.resourcemanager.network.models.InboundSecurityRulesProtocol.UDP"
   fullName: "com.azure.resourcemanager.network.models.InboundSecurityRulesProtocol.UDP"
   name: "UDP"
   nameWithType: "InboundSecurityRulesProtocol.UDP"
-  summary: "Static value UDP for Inbound<wbr>Security<wbr>Rules<wbr>Protocol."
+  summary: "UDP."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.InboundSecurityRulesProtocol?alt=com.azure.resourcemanager.network.models.InboundSecurityRulesProtocol&text=InboundSecurityRulesProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final InboundSecurityRulesProtocol UDP"
-  desc: "Static value UDP for InboundSecurityRulesProtocol."
+  desc: "UDP."
 methods:
 - uid: "com.azure.resourcemanager.network.models.InboundSecurityRulesProtocol.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.InboundSecurityRulesProtocol.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Protocol. This should be either TCP or UDP."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

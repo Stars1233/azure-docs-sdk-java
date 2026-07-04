@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ResourceNavigationLinkFormat**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ResourceNavigationLinkFormat?alt=com.azure.resourcemanager.network.fluent.models.ResourceNavigationLinkFormat&text=ResourceNavigationLinkFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.ResourceNavigationLinkFormat.ResourceNavigationLinkFormat()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ResourceNavigationLinkFormat.ResourceNavigationLinkFormat()"
-  name: "ResourceNavigationLinkFormat()"
-  nameWithType: "ResourceNavigationLinkFormat.ResourceNavigationLinkFormat()"
-  summary: "Creates an instance of Resource<wbr>Navigation<wbr>Link<wbr>Format class."
-  syntax: "public ResourceNavigationLinkFormat()"
-  desc: "Creates an instance of ResourceNavigationLinkFormat class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.ResourceNavigationLinkFormat.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.ResourceNavigationLinkFormat.fromJson(JsonReader jsonReader)"
@@ -98,38 +90,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.ResourceNavigationLinkFormat.withLink(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ResourceNavigationLinkFormat.withLink(String link)"
-  name: "withLink(String link)"
-  nameWithType: "ResourceNavigationLinkFormat.withLink(String link)"
-  summary: "Set the link property: Link to the external resource."
-  parameters:
-  - description: "the link value to set."
-    name: "link"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ResourceNavigationLinkFormat withLink(String link)"
-  desc: "Set the link property: Link to the external resource."
-  returns:
-    description: "the ResourceNavigationLinkFormat object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ResourceNavigationLinkFormat?alt=com.azure.resourcemanager.network.fluent.models.ResourceNavigationLinkFormat&text=ResourceNavigationLinkFormat\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ResourceNavigationLinkFormat.withLinkedResourceType(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ResourceNavigationLinkFormat.withLinkedResourceType(String linkedResourceType)"
-  name: "withLinkedResourceType(String linkedResourceType)"
-  nameWithType: "ResourceNavigationLinkFormat.withLinkedResourceType(String linkedResourceType)"
-  summary: "Set the linked<wbr>Resource<wbr>Type property: Resource type of the linked resource."
-  parameters:
-  - description: "the linkedResourceType value to set."
-    name: "linkedResourceType"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ResourceNavigationLinkFormat withLinkedResourceType(String linkedResourceType)"
-  desc: "Set the linkedResourceType property: Resource type of the linked resource."
-  returns:
-    description: "the ResourceNavigationLinkFormat object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ResourceNavigationLinkFormat?alt=com.azure.resourcemanager.network.fluent.models.ResourceNavigationLinkFormat&text=ResourceNavigationLinkFormat\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Properties of ResourceNavigationLink."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ResourceNavigationLinkFormat?alt=com.azure.resourcemanager.network.fluent.models.ResourceNavigationLinkFormat&text=ResourceNavigationLinkFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

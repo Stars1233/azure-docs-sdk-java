@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ProbeNoHealthyBackendsBehavior.ALL_PROBED_DOWN"
   name: "ALL_PROBED_DOWN"
   nameWithType: "ProbeNoHealthyBackendsBehavior.ALL_PROBED_DOWN"
-  summary: "Static value All<wbr>Probed<wbr>Down for Probe<wbr>NoHealthy<wbr>Backends<wbr>Behavior."
+  summary: "No new flows will be sent to the backend pool."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ProbeNoHealthyBackendsBehavior?alt=com.azure.resourcemanager.network.models.ProbeNoHealthyBackendsBehavior&text=ProbeNoHealthyBackendsBehavior\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ProbeNoHealthyBackendsBehavior ALL_PROBED_DOWN"
-  desc: "Static value AllProbedDown for ProbeNoHealthyBackendsBehavior."
+  desc: "No new flows will be sent to the backend pool."
 - uid: "com.azure.resourcemanager.network.models.ProbeNoHealthyBackendsBehavior.ALL_PROBED_UP"
   fullName: "com.azure.resourcemanager.network.models.ProbeNoHealthyBackendsBehavior.ALL_PROBED_UP"
   name: "ALL_PROBED_UP"
   nameWithType: "ProbeNoHealthyBackendsBehavior.ALL_PROBED_UP"
-  summary: "Static value All<wbr>Probed<wbr>Up for Probe<wbr>NoHealthy<wbr>Backends<wbr>Behavior."
+  summary: "When all backend instances are probed down, incoming packets will be sent to all instances."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ProbeNoHealthyBackendsBehavior?alt=com.azure.resourcemanager.network.models.ProbeNoHealthyBackendsBehavior&text=ProbeNoHealthyBackendsBehavior\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ProbeNoHealthyBackendsBehavior ALL_PROBED_UP"
-  desc: "Static value AllProbedUp for ProbeNoHealthyBackendsBehavior."
+  desc: "When all backend instances are probed down, incoming packets will be sent to all instances."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ProbeNoHealthyBackendsBehavior.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ProbeNoHealthyBackendsBehavior.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Determines how new connections are handled by the load balancer when all backend instances are probed down."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

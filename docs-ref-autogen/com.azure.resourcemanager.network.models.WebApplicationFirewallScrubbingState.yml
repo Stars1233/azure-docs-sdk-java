@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.WebApplicationFirewallScrubbingState.DISABLED"
   name: "DISABLED"
   nameWithType: "WebApplicationFirewallScrubbingState.DISABLED"
-  summary: "Static value Disabled for Web<wbr>Application<wbr>Firewall<wbr>Scrubbing<wbr>State."
+  summary: "Disabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.WebApplicationFirewallScrubbingState?alt=com.azure.resourcemanager.network.models.WebApplicationFirewallScrubbingState&text=WebApplicationFirewallScrubbingState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final WebApplicationFirewallScrubbingState DISABLED"
-  desc: "Static value Disabled for WebApplicationFirewallScrubbingState."
+  desc: "Disabled."
 - uid: "com.azure.resourcemanager.network.models.WebApplicationFirewallScrubbingState.ENABLED"
   fullName: "com.azure.resourcemanager.network.models.WebApplicationFirewallScrubbingState.ENABLED"
   name: "ENABLED"
   nameWithType: "WebApplicationFirewallScrubbingState.ENABLED"
-  summary: "Static value Enabled for Web<wbr>Application<wbr>Firewall<wbr>Scrubbing<wbr>State."
+  summary: "Enabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.WebApplicationFirewallScrubbingState?alt=com.azure.resourcemanager.network.models.WebApplicationFirewallScrubbingState&text=WebApplicationFirewallScrubbingState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final WebApplicationFirewallScrubbingState ENABLED"
-  desc: "Static value Enabled for WebApplicationFirewallScrubbingState."
+  desc: "Enabled."
 methods:
 - uid: "com.azure.resourcemanager.network.models.WebApplicationFirewallScrubbingState.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.WebApplicationFirewallScrubbingState.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "State of the log scrubbing config. Default value is Enabled."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

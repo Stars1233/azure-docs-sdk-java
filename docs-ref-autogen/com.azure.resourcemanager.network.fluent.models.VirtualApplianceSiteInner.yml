@@ -7,13 +7,20 @@ summary: "Virtual Appliance Site resource."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.core.management.SubResource?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.network.models.SubResourceModel?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
 - classRef: "<xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
   methodsRef:
-  - "<xref href=\"com.azure.core.management.SubResource.fromJson(com.azure.json.JsonReader)?alt=com.azure.core.management.SubResource.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.core.management.SubResource.id()?alt=com.azure.core.management.SubResource.id&text=id\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.core.management.SubResource.toJson(com.azure.json.JsonWriter)?alt=com.azure.core.management.SubResource.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.core.management.SubResource.withId(java.lang.String)?alt=com.azure.core.management.SubResource.withId&text=withId\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "<xref href=\"com.azure.resourcemanager.network.models.SubResourceModel?alt=com.azure.resourcemanager.network.models.SubResourceModel&text=SubResourceModel\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.resourcemanager.network.models.SubResourceModel.fromJson(com.azure.json.JsonReader)?alt=com.azure.resourcemanager.network.models.SubResourceModel.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.resourcemanager.network.models.SubResourceModel.name()?alt=com.azure.resourcemanager.network.models.SubResourceModel.name&text=name\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.resourcemanager.network.models.SubResourceModel.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.network.models.SubResourceModel.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.resourcemanager.network.models.SubResourceModel.type()?alt=com.azure.resourcemanager.network.models.SubResourceModel.type&text=type\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.resourcemanager.network.models.SubResourceModel.validate()?alt=com.azure.resourcemanager.network.models.SubResourceModel.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.resourcemanager.network.models.SubResourceModel.withId(java.lang.String)?alt=com.azure.resourcemanager.network.models.SubResourceModel.withId&text=withId\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.resourcemanager.network.models.SubResourceModel.withName(java.lang.String)?alt=com.azure.resourcemanager.network.models.SubResourceModel.withName&text=withName\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -27,7 +34,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **VirtualApplianceSiteInner**</br> extends <xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public final class **VirtualApplianceSiteInner**</br> extends <xref href=\"com.azure.resourcemanager.network.models.SubResourceModel?alt=com.azure.resourcemanager.network.models.SubResourceModel&text=SubResourceModel\" data-throw-if-not-resolved=\"False\" />"
 constructors:
 - uid: "com.azure.resourcemanager.network.fluent.models.VirtualApplianceSiteInner.VirtualApplianceSiteInner()"
   fullName: "com.azure.resourcemanager.network.fluent.models.VirtualApplianceSiteInner.VirtualApplianceSiteInner()"
@@ -76,16 +83,6 @@ methods:
   returns:
     description: "An instance of VirtualApplianceSiteInner if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualApplianceSiteInner?alt=com.azure.resourcemanager.network.fluent.models.VirtualApplianceSiteInner&text=VirtualApplianceSiteInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.VirtualApplianceSiteInner.name()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.VirtualApplianceSiteInner.name()"
-  name: "name()"
-  nameWithType: "VirtualApplianceSiteInner.name()"
-  summary: "Get the name property: Name of the virtual appliance site."
-  syntax: "public String name()"
-  desc: "Get the name property: Name of the virtual appliance site."
-  returns:
-    description: "the name value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.network.fluent.models.VirtualApplianceSiteInner.o365Policy()"
   fullName: "com.azure.resourcemanager.network.fluent.models.VirtualApplianceSiteInner.o365Policy()"
   name: "o365Policy()"
@@ -110,7 +107,7 @@ methods:
   fullName: "com.azure.resourcemanager.network.fluent.models.VirtualApplianceSiteInner.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
   nameWithType: "VirtualApplianceSiteInner.toJson(JsonWriter jsonWriter)"
-  overridden: "com.azure.core.management.SubResource.toJson(com.azure.json.JsonWriter)"
+  overridden: "com.azure.resourcemanager.network.models.SubResourceModel.toJson(com.azure.json.JsonWriter)"
   parameters:
   - name: "jsonWriter"
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
@@ -123,9 +120,10 @@ methods:
   fullName: "com.azure.resourcemanager.network.fluent.models.VirtualApplianceSiteInner.type()"
   name: "type()"
   nameWithType: "VirtualApplianceSiteInner.type()"
-  summary: "Get the type property: Site type."
+  summary: "Get the type property: Resource type."
+  overridden: "com.azure.resourcemanager.network.models.SubResourceModel.type()"
   syntax: "public String type()"
-  desc: "Get the type property: Site type."
+  desc: "Get the type property: Resource type."
   returns:
     description: "the type value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -134,6 +132,7 @@ methods:
   name: "validate()"
   nameWithType: "VirtualApplianceSiteInner.validate()"
   summary: "Validates the instance."
+  overridden: "com.azure.resourcemanager.network.models.SubResourceModel.validate()"
   syntax: "public void validate()"
   desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.network.fluent.models.VirtualApplianceSiteInner.withAddressPrefix(java.lang.String)"
@@ -154,7 +153,7 @@ methods:
   fullName: "com.azure.resourcemanager.network.fluent.models.VirtualApplianceSiteInner.withId(String id)"
   name: "withId(String id)"
   nameWithType: "VirtualApplianceSiteInner.withId(String id)"
-  overridden: "com.azure.core.management.SubResource.withId(java.lang.String)"
+  overridden: "com.azure.resourcemanager.network.models.SubResourceModel.withId(java.lang.String)"
   parameters:
   - name: "id"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -165,15 +164,14 @@ methods:
   fullName: "com.azure.resourcemanager.network.fluent.models.VirtualApplianceSiteInner.withName(String name)"
   name: "withName(String name)"
   nameWithType: "VirtualApplianceSiteInner.withName(String name)"
-  summary: "Set the name property: Name of the virtual appliance site."
+  summary: "Set the name property: Name of the resource."
+  overridden: "com.azure.resourcemanager.network.models.SubResourceModel.withName(java.lang.String)"
   parameters:
-  - description: "the name value to set."
-    name: "name"
+  - name: "name"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public VirtualApplianceSiteInner withName(String name)"
-  desc: "Set the name property: Name of the virtual appliance site."
+  desc: "Set the name property: Name of the resource."
   returns:
-    description: "the VirtualApplianceSiteInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualApplianceSiteInner?alt=com.azure.resourcemanager.network.fluent.models.VirtualApplianceSiteInner&text=VirtualApplianceSiteInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.VirtualApplianceSiteInner.withO365Policy(com.azure.resourcemanager.network.models.Office365PolicyProperties)"
   fullName: "com.azure.resourcemanager.network.fluent.models.VirtualApplianceSiteInner.withO365Policy(Office365PolicyProperties o365Policy)"
@@ -193,4 +191,4 @@ type: "class"
 desc: "Virtual Appliance Site resource."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

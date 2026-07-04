@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.NextStep.CONTINUE"
   name: "CONTINUE"
   nameWithType: "NextStep.CONTINUE"
-  summary: "Static value Continue for Next<wbr>Step."
+  summary: "Continue."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.NextStep?alt=com.azure.resourcemanager.network.models.NextStep&text=NextStep\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NextStep CONTINUE"
-  desc: "Static value Continue for NextStep."
+  desc: "Continue."
 - uid: "com.azure.resourcemanager.network.models.NextStep.TERMINATE"
   fullName: "com.azure.resourcemanager.network.models.NextStep.TERMINATE"
   name: "TERMINATE"
   nameWithType: "NextStep.TERMINATE"
-  summary: "Static value Terminate for Next<wbr>Step."
+  summary: "Terminate."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.NextStep?alt=com.azure.resourcemanager.network.models.NextStep&text=NextStep\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NextStep TERMINATE"
-  desc: "Static value Terminate for NextStep."
+  desc: "Terminate."
 - uid: "com.azure.resourcemanager.network.models.NextStep.UNKNOWN"
   fullName: "com.azure.resourcemanager.network.models.NextStep.UNKNOWN"
   name: "UNKNOWN"
   nameWithType: "NextStep.UNKNOWN"
-  summary: "Static value Unknown for Next<wbr>Step."
+  summary: "Unknown."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.NextStep?alt=com.azure.resourcemanager.network.models.NextStep&text=NextStep\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NextStep UNKNOWN"
-  desc: "Static value Unknown for NextStep."
+  desc: "Unknown."
 methods:
 - uid: "com.azure.resourcemanager.network.models.NextStep.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.NextStep.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "Supported next step behaviors after a rule is applied to a matched route."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

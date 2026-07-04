@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.PeeringEnforcement.ENFORCED"
   name: "ENFORCED"
   nameWithType: "PeeringEnforcement.ENFORCED"
-  summary: "Static value Enforced for Peering<wbr>Enforcement."
+  summary: "Peerings created by the connectivity configuration will not be modifiable or deletable outside of the network manager."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.PeeringEnforcement?alt=com.azure.resourcemanager.network.models.PeeringEnforcement&text=PeeringEnforcement\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PeeringEnforcement ENFORCED"
-  desc: "Static value Enforced for PeeringEnforcement."
+  desc: "Peerings created by the connectivity configuration will not be modifiable or deletable outside of the network manager."
 - uid: "com.azure.resourcemanager.network.models.PeeringEnforcement.UNENFORCED"
   fullName: "com.azure.resourcemanager.network.models.PeeringEnforcement.UNENFORCED"
   name: "UNENFORCED"
   nameWithType: "PeeringEnforcement.UNENFORCED"
-  summary: "Static value Unenforced for Peering<wbr>Enforcement."
+  summary: "Default."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.PeeringEnforcement?alt=com.azure.resourcemanager.network.models.PeeringEnforcement&text=PeeringEnforcement\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PeeringEnforcement UNENFORCED"
-  desc: "Static value Unenforced for PeeringEnforcement."
+  desc: "Default. Peerings created by the connectivity configuration may be modified or deleted outside of the network manager."
 methods:
 - uid: "com.azure.resourcemanager.network.models.PeeringEnforcement.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.PeeringEnforcement.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Option indicating enforcement of peerings created by the connectivity configuration."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

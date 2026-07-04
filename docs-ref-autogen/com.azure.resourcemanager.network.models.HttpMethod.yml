@@ -42,14 +42,14 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.HttpMethod.GET"
   name: "GET"
   nameWithType: "HttpMethod.GET"
-  summary: "Static value Get for Http<wbr>Method."
+  summary: "Get."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.HttpMethod?alt=com.azure.resourcemanager.network.models.HttpMethod&text=HttpMethod\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final HttpMethod GET"
-  desc: "Static value Get for HttpMethod."
+  desc: "Get."
 methods:
 - uid: "com.azure.resourcemanager.network.models.HttpMethod.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.HttpMethod.fromString(String name)"
@@ -83,4 +83,4 @@ type: "class"
 desc: "HTTP method."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,50 +42,50 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayProtocol.HTTP"
   name: "HTTP"
   nameWithType: "ApplicationGatewayProtocol.HTTP"
-  summary: "Static value Http for Application<wbr>Gateway<wbr>Protocol."
+  summary: "Supported for http<wbr>Listeners and backend<wbr>Http<wbr>Settings<wbr>Collection properties."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayProtocol?alt=com.azure.resourcemanager.network.models.ApplicationGatewayProtocol&text=ApplicationGatewayProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayProtocol HTTP"
-  desc: "Static value Http for ApplicationGatewayProtocol."
+  desc: "Supported for httpListeners and backendHttpSettingsCollection properties."
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayProtocol.HTTPS"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayProtocol.HTTPS"
   name: "HTTPS"
   nameWithType: "ApplicationGatewayProtocol.HTTPS"
-  summary: "Static value Https for Application<wbr>Gateway<wbr>Protocol."
+  summary: "Supported for http<wbr>Listeners and backend<wbr>Http<wbr>Settings<wbr>Collection properties."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayProtocol?alt=com.azure.resourcemanager.network.models.ApplicationGatewayProtocol&text=ApplicationGatewayProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayProtocol HTTPS"
-  desc: "Static value Https for ApplicationGatewayProtocol."
+  desc: "Supported for httpListeners and backendHttpSettingsCollection properties."
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayProtocol.TCP"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayProtocol.TCP"
   name: "TCP"
   nameWithType: "ApplicationGatewayProtocol.TCP"
-  summary: "Static value Tcp for Application<wbr>Gateway<wbr>Protocol."
+  summary: "Supported for listeners and backend<wbr>Settings<wbr>Collection properties."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayProtocol?alt=com.azure.resourcemanager.network.models.ApplicationGatewayProtocol&text=ApplicationGatewayProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayProtocol TCP"
-  desc: "Static value Tcp for ApplicationGatewayProtocol."
+  desc: "Supported for listeners and backendSettingsCollection properties."
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayProtocol.TLS"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayProtocol.TLS"
   name: "TLS"
   nameWithType: "ApplicationGatewayProtocol.TLS"
-  summary: "Static value Tls for Application<wbr>Gateway<wbr>Protocol."
+  summary: "Supported for listeners and backend<wbr>Settings<wbr>Collection properties."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayProtocol?alt=com.azure.resourcemanager.network.models.ApplicationGatewayProtocol&text=ApplicationGatewayProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayProtocol TLS"
-  desc: "Static value Tls for ApplicationGatewayProtocol."
+  desc: "Supported for listeners and backendSettingsCollection properties."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayProtocol.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayProtocol.fromString(String name)"
@@ -119,4 +119,4 @@ type: "class"
 desc: "Application Gateway protocol."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

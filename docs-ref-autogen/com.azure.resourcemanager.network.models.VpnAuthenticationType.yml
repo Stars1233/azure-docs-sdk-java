@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.VpnAuthenticationType.AAD"
   name: "AAD"
   nameWithType: "VpnAuthenticationType.AAD"
-  summary: "Static value AAD for Vpn<wbr>Authentication<wbr>Type."
+  summary: "AAD."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VpnAuthenticationType?alt=com.azure.resourcemanager.network.models.VpnAuthenticationType&text=VpnAuthenticationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VpnAuthenticationType AAD"
-  desc: "Static value AAD for VpnAuthenticationType."
+  desc: "AAD."
 - uid: "com.azure.resourcemanager.network.models.VpnAuthenticationType.CERTIFICATE"
   fullName: "com.azure.resourcemanager.network.models.VpnAuthenticationType.CERTIFICATE"
   name: "CERTIFICATE"
   nameWithType: "VpnAuthenticationType.CERTIFICATE"
-  summary: "Static value Certificate for Vpn<wbr>Authentication<wbr>Type."
+  summary: "Certificate."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VpnAuthenticationType?alt=com.azure.resourcemanager.network.models.VpnAuthenticationType&text=VpnAuthenticationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VpnAuthenticationType CERTIFICATE"
-  desc: "Static value Certificate for VpnAuthenticationType."
+  desc: "Certificate."
 - uid: "com.azure.resourcemanager.network.models.VpnAuthenticationType.RADIUS"
   fullName: "com.azure.resourcemanager.network.models.VpnAuthenticationType.RADIUS"
   name: "RADIUS"
   nameWithType: "VpnAuthenticationType.RADIUS"
-  summary: "Static value Radius for Vpn<wbr>Authentication<wbr>Type."
+  summary: "Radius."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VpnAuthenticationType?alt=com.azure.resourcemanager.network.models.VpnAuthenticationType&text=VpnAuthenticationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VpnAuthenticationType RADIUS"
-  desc: "Static value Radius for VpnAuthenticationType."
+  desc: "Radius."
 methods:
 - uid: "com.azure.resourcemanager.network.models.VpnAuthenticationType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.VpnAuthenticationType.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "VPN authentication types enabled for the virtual network gateway."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

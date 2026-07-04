@@ -42,14 +42,14 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ServiceGatewaySkuTier.REGIONAL"
   name: "REGIONAL"
   nameWithType: "ServiceGatewaySkuTier.REGIONAL"
-  summary: "Static value Regional for Service<wbr>Gateway<wbr>Sku<wbr>Tier."
+  summary: "Regional."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ServiceGatewaySkuTier?alt=com.azure.resourcemanager.network.models.ServiceGatewaySkuTier&text=ServiceGatewaySkuTier\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ServiceGatewaySkuTier REGIONAL"
-  desc: "Static value Regional for ServiceGatewaySkuTier."
+  desc: "Regional."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ServiceGatewaySkuTier.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ServiceGatewaySkuTier.fromString(String name)"
@@ -83,4 +83,4 @@ type: "class"
 desc: "Tier of a service gateway SKU."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.AzureFirewallNatRCActionType.DNAT"
   name: "DNAT"
   nameWithType: "AzureFirewallNatRCActionType.DNAT"
-  summary: "Static value Dnat for Azure<wbr>Firewall<wbr>Nat<wbr>RCAction<wbr>Type."
+  summary: "Dnat."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AzureFirewallNatRCActionType?alt=com.azure.resourcemanager.network.models.AzureFirewallNatRCActionType&text=AzureFirewallNatRCActionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AzureFirewallNatRCActionType DNAT"
-  desc: "Static value Dnat for AzureFirewallNatRCActionType."
+  desc: "Dnat."
 - uid: "com.azure.resourcemanager.network.models.AzureFirewallNatRCActionType.SNAT"
   fullName: "com.azure.resourcemanager.network.models.AzureFirewallNatRCActionType.SNAT"
   name: "SNAT"
   nameWithType: "AzureFirewallNatRCActionType.SNAT"
-  summary: "Static value Snat for Azure<wbr>Firewall<wbr>Nat<wbr>RCAction<wbr>Type."
+  summary: "Snat."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AzureFirewallNatRCActionType?alt=com.azure.resourcemanager.network.models.AzureFirewallNatRCActionType&text=AzureFirewallNatRCActionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AzureFirewallNatRCActionType SNAT"
-  desc: "Static value Snat for AzureFirewallNatRCActionType."
+  desc: "Snat."
 methods:
 - uid: "com.azure.resourcemanager.network.models.AzureFirewallNatRCActionType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.AzureFirewallNatRCActionType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The action type of a NAT rule collection."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

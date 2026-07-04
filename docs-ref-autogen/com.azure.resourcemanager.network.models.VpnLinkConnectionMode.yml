@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.VpnLinkConnectionMode.DEFAULT"
   name: "DEFAULT"
   nameWithType: "VpnLinkConnectionMode.DEFAULT"
-  summary: "Static value Default for Vpn<wbr>Link<wbr>Connection<wbr>Mode."
+  summary: "Default."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VpnLinkConnectionMode?alt=com.azure.resourcemanager.network.models.VpnLinkConnectionMode&text=VpnLinkConnectionMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VpnLinkConnectionMode DEFAULT"
-  desc: "Static value Default for VpnLinkConnectionMode."
+  desc: "Default."
 - uid: "com.azure.resourcemanager.network.models.VpnLinkConnectionMode.INITIATOR_ONLY"
   fullName: "com.azure.resourcemanager.network.models.VpnLinkConnectionMode.INITIATOR_ONLY"
   name: "INITIATOR_ONLY"
   nameWithType: "VpnLinkConnectionMode.INITIATOR_ONLY"
-  summary: "Static value Initiator<wbr>Only for Vpn<wbr>Link<wbr>Connection<wbr>Mode."
+  summary: "Initiator<wbr>Only."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VpnLinkConnectionMode?alt=com.azure.resourcemanager.network.models.VpnLinkConnectionMode&text=VpnLinkConnectionMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VpnLinkConnectionMode INITIATOR_ONLY"
-  desc: "Static value InitiatorOnly for VpnLinkConnectionMode."
+  desc: "InitiatorOnly."
 - uid: "com.azure.resourcemanager.network.models.VpnLinkConnectionMode.RESPONDER_ONLY"
   fullName: "com.azure.resourcemanager.network.models.VpnLinkConnectionMode.RESPONDER_ONLY"
   name: "RESPONDER_ONLY"
   nameWithType: "VpnLinkConnectionMode.RESPONDER_ONLY"
-  summary: "Static value Responder<wbr>Only for Vpn<wbr>Link<wbr>Connection<wbr>Mode."
+  summary: "Responder<wbr>Only."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VpnLinkConnectionMode?alt=com.azure.resourcemanager.network.models.VpnLinkConnectionMode&text=VpnLinkConnectionMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VpnLinkConnectionMode RESPONDER_ONLY"
-  desc: "Static value ResponderOnly for VpnLinkConnectionMode."
+  desc: "ResponderOnly."
 methods:
 - uid: "com.azure.resourcemanager.network.models.VpnLinkConnectionMode.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.VpnLinkConnectionMode.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "Vpn link connection mode."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

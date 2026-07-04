@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **DnsNameAvailabilityResultInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.DnsNameAvailabilityResultInner?alt=com.azure.resourcemanager.network.fluent.models.DnsNameAvailabilityResultInner&text=DnsNameAvailabilityResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.DnsNameAvailabilityResultInner.DnsNameAvailabilityResultInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.DnsNameAvailabilityResultInner.DnsNameAvailabilityResultInner()"
-  name: "DnsNameAvailabilityResultInner()"
-  nameWithType: "DnsNameAvailabilityResultInner.DnsNameAvailabilityResultInner()"
-  summary: "Creates an instance of Dns<wbr>Name<wbr>Availability<wbr>Result<wbr>Inner class."
-  syntax: "public DnsNameAvailabilityResultInner()"
-  desc: "Creates an instance of DnsNameAvailabilityResultInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.DnsNameAvailabilityResultInner.available()"
   fullName: "com.azure.resourcemanager.network.fluent.models.DnsNameAvailabilityResultInner.available()"
@@ -78,24 +70,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.DnsNameAvailabilityResultInner.withAvailable(java.lang.Boolean)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.DnsNameAvailabilityResultInner.withAvailable(Boolean available)"
-  name: "withAvailable(Boolean available)"
-  nameWithType: "DnsNameAvailabilityResultInner.withAvailable(Boolean available)"
-  summary: "Set the available property: Domain availability (True/False)."
-  parameters:
-  - description: "the available value to set."
-    name: "available"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
-  syntax: "public DnsNameAvailabilityResultInner withAvailable(Boolean available)"
-  desc: "Set the available property: Domain availability (True/False)."
-  returns:
-    description: "the DnsNameAvailabilityResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.DnsNameAvailabilityResultInner?alt=com.azure.resourcemanager.network.fluent.models.DnsNameAvailabilityResultInner&text=DnsNameAvailabilityResultInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Response for the CheckDnsNameAvailability API service call."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.DnsNameAvailabilityResultInner?alt=com.azure.resourcemanager.network.fluent.models.DnsNameAvailabilityResultInner&text=DnsNameAvailabilityResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

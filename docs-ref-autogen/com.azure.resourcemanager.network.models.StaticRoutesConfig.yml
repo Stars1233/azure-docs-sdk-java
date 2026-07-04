@@ -88,6 +88,20 @@ methods:
   returns:
     description: "the vnetLocalRouteOverrideCriteria value."
     type: "<xref href=\"com.azure.resourcemanager.network.models.VnetLocalRouteOverrideCriteria?alt=com.azure.resourcemanager.network.models.VnetLocalRouteOverrideCriteria&text=VnetLocalRouteOverrideCriteria\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.StaticRoutesConfig.withPropagateStaticRoutes(java.lang.Boolean)"
+  fullName: "com.azure.resourcemanager.network.models.StaticRoutesConfig.withPropagateStaticRoutes(Boolean propagateStaticRoutes)"
+  name: "withPropagateStaticRoutes(Boolean propagateStaticRoutes)"
+  nameWithType: "StaticRoutesConfig.withPropagateStaticRoutes(Boolean propagateStaticRoutes)"
+  summary: "Set the propagate<wbr>Static<wbr>Routes property: Boolean indicating whether static routes on this connection are automatically propagate to route tables which this connection propagates to."
+  parameters:
+  - description: "the propagateStaticRoutes value to set."
+    name: "propagateStaticRoutes"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public StaticRoutesConfig withPropagateStaticRoutes(Boolean propagateStaticRoutes)"
+  desc: "Set the propagateStaticRoutes property: Boolean indicating whether static routes on this connection are automatically propagate to route tables which this connection propagates to."
+  returns:
+    description: "the StaticRoutesConfig object itself."
+    type: "<xref href=\"com.azure.resourcemanager.network.models.StaticRoutesConfig?alt=com.azure.resourcemanager.network.models.StaticRoutesConfig&text=StaticRoutesConfig\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.models.StaticRoutesConfig.withVnetLocalRouteOverrideCriteria(com.azure.resourcemanager.network.models.VnetLocalRouteOverrideCriteria)"
   fullName: "com.azure.resourcemanager.network.models.StaticRoutesConfig.withVnetLocalRouteOverrideCriteria(VnetLocalRouteOverrideCriteria vnetLocalRouteOverrideCriteria)"
   name: "withVnetLocalRouteOverrideCriteria(VnetLocalRouteOverrideCriteria vnetLocalRouteOverrideCriteria)"
@@ -108,4 +122,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.StaticRoutesConfig?alt=com.azure.resourcemanager.network.models.StaticRoutesConfig&text=StaticRoutesConfig\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

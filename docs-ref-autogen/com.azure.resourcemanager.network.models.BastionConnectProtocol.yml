@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.BastionConnectProtocol.RDP"
   name: "RDP"
   nameWithType: "BastionConnectProtocol.RDP"
-  summary: "Static value RDP for Bastion<wbr>Connect<wbr>Protocol."
+  summary: "RDP."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.BastionConnectProtocol?alt=com.azure.resourcemanager.network.models.BastionConnectProtocol&text=BastionConnectProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final BastionConnectProtocol RDP"
-  desc: "Static value RDP for BastionConnectProtocol."
+  desc: "RDP."
 - uid: "com.azure.resourcemanager.network.models.BastionConnectProtocol.SSH"
   fullName: "com.azure.resourcemanager.network.models.BastionConnectProtocol.SSH"
   name: "SSH"
   nameWithType: "BastionConnectProtocol.SSH"
-  summary: "Static value SSH for Bastion<wbr>Connect<wbr>Protocol."
+  summary: "SSH."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.BastionConnectProtocol?alt=com.azure.resourcemanager.network.models.BastionConnectProtocol&text=BastionConnectProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final BastionConnectProtocol SSH"
-  desc: "Static value SSH for BastionConnectProtocol."
+  desc: "SSH."
 methods:
 - uid: "com.azure.resourcemanager.network.models.BastionConnectProtocol.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.BastionConnectProtocol.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The protocol used to connect to the target."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

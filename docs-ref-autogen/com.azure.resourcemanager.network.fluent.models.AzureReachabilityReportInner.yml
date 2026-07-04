@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **AzureReachabilityReportInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureReachabilityReportInner?alt=com.azure.resourcemanager.network.fluent.models.AzureReachabilityReportInner&text=AzureReachabilityReportInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.AzureReachabilityReportInner.AzureReachabilityReportInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.AzureReachabilityReportInner.AzureReachabilityReportInner()"
-  name: "AzureReachabilityReportInner()"
-  nameWithType: "AzureReachabilityReportInner.AzureReachabilityReportInner()"
-  summary: "Creates an instance of Azure<wbr>Reachability<wbr>Report<wbr>Inner class."
-  syntax: "public AzureReachabilityReportInner()"
-  desc: "Creates an instance of AzureReachabilityReportInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.AzureReachabilityReportInner.aggregationLevel()"
   fullName: "com.azure.resourcemanager.network.fluent.models.AzureReachabilityReportInner.aggregationLevel()"
@@ -98,52 +90,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.AzureReachabilityReportInner.withAggregationLevel(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.AzureReachabilityReportInner.withAggregationLevel(String aggregationLevel)"
-  name: "withAggregationLevel(String aggregationLevel)"
-  nameWithType: "AzureReachabilityReportInner.withAggregationLevel(String aggregationLevel)"
-  summary: "Set the aggregation<wbr>Level property: The aggregation level of Azure reachability report."
-  parameters:
-  - description: "the aggregationLevel value to set."
-    name: "aggregationLevel"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public AzureReachabilityReportInner withAggregationLevel(String aggregationLevel)"
-  desc: "Set the aggregationLevel property: The aggregation level of Azure reachability report. Can be Country, State or City."
-  returns:
-    description: "the AzureReachabilityReportInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureReachabilityReportInner?alt=com.azure.resourcemanager.network.fluent.models.AzureReachabilityReportInner&text=AzureReachabilityReportInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.AzureReachabilityReportInner.withProviderLocation(com.azure.resourcemanager.network.models.AzureReachabilityReportLocation)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.AzureReachabilityReportInner.withProviderLocation(AzureReachabilityReportLocation providerLocation)"
-  name: "withProviderLocation(AzureReachabilityReportLocation providerLocation)"
-  nameWithType: "AzureReachabilityReportInner.withProviderLocation(AzureReachabilityReportLocation providerLocation)"
-  summary: "Set the provider<wbr>Location property: Parameters that define a geographic location."
-  parameters:
-  - description: "the providerLocation value to set."
-    name: "providerLocation"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.AzureReachabilityReportLocation?alt=com.azure.resourcemanager.network.models.AzureReachabilityReportLocation&text=AzureReachabilityReportLocation\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public AzureReachabilityReportInner withProviderLocation(AzureReachabilityReportLocation providerLocation)"
-  desc: "Set the providerLocation property: Parameters that define a geographic location."
-  returns:
-    description: "the AzureReachabilityReportInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureReachabilityReportInner?alt=com.azure.resourcemanager.network.fluent.models.AzureReachabilityReportInner&text=AzureReachabilityReportInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.AzureReachabilityReportInner.withReachabilityReport(java.util.List<com.azure.resourcemanager.network.models.AzureReachabilityReportItem>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.AzureReachabilityReportInner.withReachabilityReport(List<AzureReachabilityReportItem> reachabilityReport)"
-  name: "withReachabilityReport(List<AzureReachabilityReportItem> reachabilityReport)"
-  nameWithType: "AzureReachabilityReportInner.withReachabilityReport(List<AzureReachabilityReportItem> reachabilityReport)"
-  summary: "Set the reachability<wbr>Report property: List of Azure reachability report items."
-  parameters:
-  - description: "the reachabilityReport value to set."
-    name: "reachabilityReport"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.AzureReachabilityReportItem?alt=com.azure.resourcemanager.network.models.AzureReachabilityReportItem&text=AzureReachabilityReportItem\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public AzureReachabilityReportInner withReachabilityReport(List<AzureReachabilityReportItem> reachabilityReport)"
-  desc: "Set the reachabilityReport property: List of Azure reachability report items."
-  returns:
-    description: "the AzureReachabilityReportInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureReachabilityReportInner?alt=com.azure.resourcemanager.network.fluent.models.AzureReachabilityReportInner&text=AzureReachabilityReportInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Azure reachability report details."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureReachabilityReportInner?alt=com.azure.resourcemanager.network.fluent.models.AzureReachabilityReportInner&text=AzureReachabilityReportInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

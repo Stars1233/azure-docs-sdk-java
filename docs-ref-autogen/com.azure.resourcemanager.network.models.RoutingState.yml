@@ -42,50 +42,50 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.RoutingState.FAILED"
   name: "FAILED"
   nameWithType: "RoutingState.FAILED"
-  summary: "Static value Failed for Routing<wbr>State."
+  summary: "Failed."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.RoutingState?alt=com.azure.resourcemanager.network.models.RoutingState&text=RoutingState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RoutingState FAILED"
-  desc: "Static value Failed for RoutingState."
+  desc: "Failed."
 - uid: "com.azure.resourcemanager.network.models.RoutingState.NONE"
   fullName: "com.azure.resourcemanager.network.models.RoutingState.NONE"
   name: "NONE"
   nameWithType: "RoutingState.NONE"
-  summary: "Static value None for Routing<wbr>State."
+  summary: "None."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.RoutingState?alt=com.azure.resourcemanager.network.models.RoutingState&text=RoutingState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RoutingState NONE"
-  desc: "Static value None for RoutingState."
+  desc: "None."
 - uid: "com.azure.resourcemanager.network.models.RoutingState.PROVISIONED"
   fullName: "com.azure.resourcemanager.network.models.RoutingState.PROVISIONED"
   name: "PROVISIONED"
   nameWithType: "RoutingState.PROVISIONED"
-  summary: "Static value Provisioned for Routing<wbr>State."
+  summary: "Provisioned."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.RoutingState?alt=com.azure.resourcemanager.network.models.RoutingState&text=RoutingState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RoutingState PROVISIONED"
-  desc: "Static value Provisioned for RoutingState."
+  desc: "Provisioned."
 - uid: "com.azure.resourcemanager.network.models.RoutingState.PROVISIONING"
   fullName: "com.azure.resourcemanager.network.models.RoutingState.PROVISIONING"
   name: "PROVISIONING"
   nameWithType: "RoutingState.PROVISIONING"
-  summary: "Static value Provisioning for Routing<wbr>State."
+  summary: "Provisioning."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.RoutingState?alt=com.azure.resourcemanager.network.models.RoutingState&text=RoutingState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RoutingState PROVISIONING"
-  desc: "Static value Provisioning for RoutingState."
+  desc: "Provisioning."
 methods:
 - uid: "com.azure.resourcemanager.network.models.RoutingState.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.RoutingState.fromString(String name)"
@@ -119,4 +119,4 @@ type: "class"
 desc: "The current routing state of the VirtualHub."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

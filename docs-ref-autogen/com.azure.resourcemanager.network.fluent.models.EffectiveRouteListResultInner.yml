@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **EffectiveRouteListResultInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.EffectiveRouteListResultInner?alt=com.azure.resourcemanager.network.fluent.models.EffectiveRouteListResultInner&text=EffectiveRouteListResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.EffectiveRouteListResultInner.EffectiveRouteListResultInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.EffectiveRouteListResultInner.EffectiveRouteListResultInner()"
-  name: "EffectiveRouteListResultInner()"
-  nameWithType: "EffectiveRouteListResultInner.EffectiveRouteListResultInner()"
-  summary: "Creates an instance of Effective<wbr>Route<wbr>List<wbr>Result<wbr>Inner class."
-  syntax: "public EffectiveRouteListResultInner()"
-  desc: "Creates an instance of EffectiveRouteListResultInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.EffectiveRouteListResultInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.EffectiveRouteListResultInner.fromJson(JsonReader jsonReader)"
@@ -43,7 +35,7 @@ methods:
     type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static EffectiveRouteListResultInner fromJson(JsonReader jsonReader)"
   exceptions:
-  - description: "If an error occurs while reading the EffectiveRouteListResultInner."
+  - description: "If the deserialized JSON object was missing any required properties."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   desc: "Reads an instance of EffectiveRouteListResultInner from the JsonReader."
   returns:
@@ -53,9 +45,9 @@ methods:
   fullName: "com.azure.resourcemanager.network.fluent.models.EffectiveRouteListResultInner.nextLink()"
   name: "nextLink()"
   nameWithType: "EffectiveRouteListResultInner.nextLink()"
-  summary: "Get the next<wbr>Link property: The URL to get the next set of results."
+  summary: "Get the next<wbr>Link property: The link to the next page of items."
   syntax: "public String nextLink()"
-  desc: "Get the nextLink property: The URL to get the next set of results."
+  desc: "Get the nextLink property: The link to the next page of items."
   returns:
     description: "the nextLink value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -82,30 +74,16 @@ methods:
   fullName: "com.azure.resourcemanager.network.fluent.models.EffectiveRouteListResultInner.value()"
   name: "value()"
   nameWithType: "EffectiveRouteListResultInner.value()"
-  summary: "Get the value property: A list of effective routes."
+  summary: "Get the value property: The Effective<wbr>Route items on this page."
   syntax: "public List<EffectiveRoute> value()"
-  desc: "Get the value property: A list of effective routes."
+  desc: "Get the value property: The EffectiveRoute items on this page."
   returns:
     description: "the value value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.EffectiveRoute?alt=com.azure.resourcemanager.network.models.EffectiveRoute&text=EffectiveRoute\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.network.fluent.models.EffectiveRouteListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.models.EffectiveRoute>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.EffectiveRouteListResultInner.withValue(List<EffectiveRoute> value)"
-  name: "withValue(List<EffectiveRoute> value)"
-  nameWithType: "EffectiveRouteListResultInner.withValue(List<EffectiveRoute> value)"
-  summary: "Set the value property: A list of effective routes."
-  parameters:
-  - description: "the value value to set."
-    name: "value"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.EffectiveRoute?alt=com.azure.resourcemanager.network.models.EffectiveRoute&text=EffectiveRoute\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public EffectiveRouteListResultInner withValue(List<EffectiveRoute> value)"
-  desc: "Set the value property: A list of effective routes."
-  returns:
-    description: "the EffectiveRouteListResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.EffectiveRouteListResultInner?alt=com.azure.resourcemanager.network.fluent.models.EffectiveRouteListResultInner&text=EffectiveRouteListResultInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Response for list effective route API service call."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.EffectiveRouteListResultInner?alt=com.azure.resourcemanager.network.fluent.models.EffectiveRouteListResultInner&text=EffectiveRouteListResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

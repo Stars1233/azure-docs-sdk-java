@@ -59,6 +59,16 @@ methods:
   returns:
     description: "An instance of ApplicationGatewaySslCertificatePropertiesFormat if the JsonReader was pointing to an\n instance of it, or null if it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificatePropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificatePropertiesFormat&text=ApplicationGatewaySslCertificatePropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificatePropertiesFormat.hsm()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificatePropertiesFormat.hsm()"
+  name: "hsm()"
+  nameWithType: "ApplicationGatewaySslCertificatePropertiesFormat.hsm()"
+  summary: "Get the hsm property: Managed HSM properties of the Application Gateway resource."
+  syntax: "public ApplicationGatewayManagedHsm hsm()"
+  desc: "Get the hsm property: Managed HSM properties of the Application Gateway resource."
+  returns:
+    description: "the hsm value."
+    type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayManagedHsm?alt=com.azure.resourcemanager.network.models.ApplicationGatewayManagedHsm&text=ApplicationGatewayManagedHsm\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificatePropertiesFormat.keyVaultSecretId()"
   fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificatePropertiesFormat.keyVaultSecretId()"
   name: "keyVaultSecretId()"
@@ -132,6 +142,20 @@ methods:
   returns:
     description: "the ApplicationGatewaySslCertificatePropertiesFormat object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificatePropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificatePropertiesFormat&text=ApplicationGatewaySslCertificatePropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificatePropertiesFormat.withHsm(com.azure.resourcemanager.network.models.ApplicationGatewayManagedHsm)"
+  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificatePropertiesFormat.withHsm(ApplicationGatewayManagedHsm hsm)"
+  name: "withHsm(ApplicationGatewayManagedHsm hsm)"
+  nameWithType: "ApplicationGatewaySslCertificatePropertiesFormat.withHsm(ApplicationGatewayManagedHsm hsm)"
+  summary: "Set the hsm property: Managed HSM properties of the Application Gateway resource."
+  parameters:
+  - description: "the hsm value to set."
+    name: "hsm"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayManagedHsm?alt=com.azure.resourcemanager.network.models.ApplicationGatewayManagedHsm&text=ApplicationGatewayManagedHsm\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ApplicationGatewaySslCertificatePropertiesFormat withHsm(ApplicationGatewayManagedHsm hsm)"
+  desc: "Set the hsm property: Managed HSM properties of the Application Gateway resource."
+  returns:
+    description: "the ApplicationGatewaySslCertificatePropertiesFormat object itself."
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificatePropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificatePropertiesFormat&text=ApplicationGatewaySslCertificatePropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificatePropertiesFormat.withKeyVaultSecretId(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificatePropertiesFormat.withKeyVaultSecretId(String keyVaultSecretId)"
   name: "withKeyVaultSecretId(String keyVaultSecretId)"
@@ -166,4 +190,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificatePropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificatePropertiesFormat&text=ApplicationGatewaySslCertificatePropertiesFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

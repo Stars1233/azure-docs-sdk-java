@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.PublicIpPrefixSkuTier.GLOBAL"
   name: "GLOBAL"
   nameWithType: "PublicIpPrefixSkuTier.GLOBAL"
-  summary: "Static value Global for Public<wbr>IpPrefix<wbr>Sku<wbr>Tier."
+  summary: "Global."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.PublicIpPrefixSkuTier?alt=com.azure.resourcemanager.network.models.PublicIpPrefixSkuTier&text=PublicIpPrefixSkuTier\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PublicIpPrefixSkuTier GLOBAL"
-  desc: "Static value Global for PublicIpPrefixSkuTier."
+  desc: "Global."
 - uid: "com.azure.resourcemanager.network.models.PublicIpPrefixSkuTier.REGIONAL"
   fullName: "com.azure.resourcemanager.network.models.PublicIpPrefixSkuTier.REGIONAL"
   name: "REGIONAL"
   nameWithType: "PublicIpPrefixSkuTier.REGIONAL"
-  summary: "Static value Regional for Public<wbr>IpPrefix<wbr>Sku<wbr>Tier."
+  summary: "Regional."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.PublicIpPrefixSkuTier?alt=com.azure.resourcemanager.network.models.PublicIpPrefixSkuTier&text=PublicIpPrefixSkuTier\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PublicIpPrefixSkuTier REGIONAL"
-  desc: "Static value Regional for PublicIpPrefixSkuTier."
+  desc: "Regional."
 methods:
 - uid: "com.azure.resourcemanager.network.models.PublicIpPrefixSkuTier.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.PublicIpPrefixSkuTier.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Tier of a public IP prefix SKU."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

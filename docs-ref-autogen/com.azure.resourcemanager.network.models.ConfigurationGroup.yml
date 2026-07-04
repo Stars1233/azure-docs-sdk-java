@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ConfigurationGroup**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.ConfigurationGroup?alt=com.azure.resourcemanager.network.models.ConfigurationGroup&text=ConfigurationGroup\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.models.ConfigurationGroup.ConfigurationGroup()"
-  fullName: "com.azure.resourcemanager.network.models.ConfigurationGroup.ConfigurationGroup()"
-  name: "ConfigurationGroup()"
-  nameWithType: "ConfigurationGroup.ConfigurationGroup()"
-  summary: "Creates an instance of Configuration<wbr>Group class."
-  syntax: "public ConfigurationGroup()"
-  desc: "Creates an instance of ConfigurationGroup class."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ConfigurationGroup.description()"
   fullName: "com.azure.resourcemanager.network.models.ConfigurationGroup.description()"
@@ -118,52 +110,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.models.ConfigurationGroup.withDescription(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.ConfigurationGroup.withDescription(String description)"
-  name: "withDescription(String description)"
-  nameWithType: "ConfigurationGroup.withDescription(String description)"
-  summary: "Set the description property: A description of the network group."
-  parameters:
-  - description: "the description value to set."
-    name: "description"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ConfigurationGroup withDescription(String description)"
-  desc: "Set the description property: A description of the network group."
-  returns:
-    description: "the ConfigurationGroup object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ConfigurationGroup?alt=com.azure.resourcemanager.network.models.ConfigurationGroup&text=ConfigurationGroup\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.ConfigurationGroup.withId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.ConfigurationGroup.withId(String id)"
-  name: "withId(String id)"
-  nameWithType: "ConfigurationGroup.withId(String id)"
-  summary: "Set the id property: Network group ID."
-  parameters:
-  - description: "the id value to set."
-    name: "id"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ConfigurationGroup withId(String id)"
-  desc: "Set the id property: Network group ID."
-  returns:
-    description: "the ConfigurationGroup object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ConfigurationGroup?alt=com.azure.resourcemanager.network.models.ConfigurationGroup&text=ConfigurationGroup\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.ConfigurationGroup.withMemberType(com.azure.resourcemanager.network.models.GroupMemberType)"
-  fullName: "com.azure.resourcemanager.network.models.ConfigurationGroup.withMemberType(GroupMemberType memberType)"
-  name: "withMemberType(GroupMemberType memberType)"
-  nameWithType: "ConfigurationGroup.withMemberType(GroupMemberType memberType)"
-  summary: "Set the member<wbr>Type property: The type of the group member."
-  parameters:
-  - description: "the memberType value to set."
-    name: "memberType"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.GroupMemberType?alt=com.azure.resourcemanager.network.models.GroupMemberType&text=GroupMemberType\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public ConfigurationGroup withMemberType(GroupMemberType memberType)"
-  desc: "Set the memberType property: The type of the group member."
-  returns:
-    description: "the ConfigurationGroup object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ConfigurationGroup?alt=com.azure.resourcemanager.network.models.ConfigurationGroup&text=ConfigurationGroup\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The network configuration group resource."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.ConfigurationGroup?alt=com.azure.resourcemanager.network.models.ConfigurationGroup&text=ConfigurationGroup\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

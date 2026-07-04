@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ExpressRoutePortsEncapsulation.DOT1Q"
   name: "DOT1Q"
   nameWithType: "ExpressRoutePortsEncapsulation.DOT1Q"
-  summary: "Static value Dot1Q for Express<wbr>Route<wbr>Ports<wbr>Encapsulation."
+  summary: "Dot1Q."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRoutePortsEncapsulation?alt=com.azure.resourcemanager.network.models.ExpressRoutePortsEncapsulation&text=ExpressRoutePortsEncapsulation\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExpressRoutePortsEncapsulation DOT1Q"
-  desc: "Static value Dot1Q for ExpressRoutePortsEncapsulation."
+  desc: "Dot1Q."
 - uid: "com.azure.resourcemanager.network.models.ExpressRoutePortsEncapsulation.QINQ"
   fullName: "com.azure.resourcemanager.network.models.ExpressRoutePortsEncapsulation.QINQ"
   name: "QINQ"
   nameWithType: "ExpressRoutePortsEncapsulation.QINQ"
-  summary: "Static value QinQ for Express<wbr>Route<wbr>Ports<wbr>Encapsulation."
+  summary: "QinQ."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRoutePortsEncapsulation?alt=com.azure.resourcemanager.network.models.ExpressRoutePortsEncapsulation&text=ExpressRoutePortsEncapsulation\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExpressRoutePortsEncapsulation QINQ"
-  desc: "Static value QinQ for ExpressRoutePortsEncapsulation."
+  desc: "QinQ."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ExpressRoutePortsEncapsulation.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ExpressRoutePortsEncapsulation.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Encapsulation method on physical ports."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

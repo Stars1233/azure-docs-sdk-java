@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.Origin.INBOUND"
   name: "INBOUND"
   nameWithType: "Origin.INBOUND"
-  summary: "Static value Inbound for Origin."
+  summary: "Inbound."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.Origin?alt=com.azure.resourcemanager.network.models.Origin&text=Origin\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final Origin INBOUND"
-  desc: "Static value Inbound for Origin."
+  desc: "Inbound."
 - uid: "com.azure.resourcemanager.network.models.Origin.LOCAL"
   fullName: "com.azure.resourcemanager.network.models.Origin.LOCAL"
   name: "LOCAL"
   nameWithType: "Origin.LOCAL"
-  summary: "Static value Local for Origin."
+  summary: "Local."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.Origin?alt=com.azure.resourcemanager.network.models.Origin&text=Origin\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final Origin LOCAL"
-  desc: "Static value Local for Origin."
+  desc: "Local."
 - uid: "com.azure.resourcemanager.network.models.Origin.OUTBOUND"
   fullName: "com.azure.resourcemanager.network.models.Origin.OUTBOUND"
   name: "OUTBOUND"
   nameWithType: "Origin.OUTBOUND"
-  summary: "Static value Outbound for Origin."
+  summary: "Outbound."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.Origin?alt=com.azure.resourcemanager.network.models.Origin&text=Origin\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final Origin OUTBOUND"
-  desc: "Static value Outbound for Origin."
+  desc: "Outbound."
 methods:
 - uid: "com.azure.resourcemanager.network.models.Origin.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.Origin.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "The origin of the issue."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.DdosSettingsProtectionMode.DISABLED"
   name: "DISABLED"
   nameWithType: "DdosSettingsProtectionMode.DISABLED"
-  summary: "Static value Disabled for Ddos<wbr>Settings<wbr>Protection<wbr>Mode."
+  summary: "Disabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.DdosSettingsProtectionMode?alt=com.azure.resourcemanager.network.models.DdosSettingsProtectionMode&text=DdosSettingsProtectionMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DdosSettingsProtectionMode DISABLED"
-  desc: "Static value Disabled for DdosSettingsProtectionMode."
+  desc: "Disabled."
 - uid: "com.azure.resourcemanager.network.models.DdosSettingsProtectionMode.ENABLED"
   fullName: "com.azure.resourcemanager.network.models.DdosSettingsProtectionMode.ENABLED"
   name: "ENABLED"
   nameWithType: "DdosSettingsProtectionMode.ENABLED"
-  summary: "Static value Enabled for Ddos<wbr>Settings<wbr>Protection<wbr>Mode."
+  summary: "Enabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.DdosSettingsProtectionMode?alt=com.azure.resourcemanager.network.models.DdosSettingsProtectionMode&text=DdosSettingsProtectionMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DdosSettingsProtectionMode ENABLED"
-  desc: "Static value Enabled for DdosSettingsProtectionMode."
+  desc: "Enabled."
 - uid: "com.azure.resourcemanager.network.models.DdosSettingsProtectionMode.VIRTUAL_NETWORK_INHERITED"
   fullName: "com.azure.resourcemanager.network.models.DdosSettingsProtectionMode.VIRTUAL_NETWORK_INHERITED"
   name: "VIRTUAL_NETWORK_INHERITED"
   nameWithType: "DdosSettingsProtectionMode.VIRTUAL_NETWORK_INHERITED"
-  summary: "Static value Virtual<wbr>Network<wbr>Inherited for Ddos<wbr>Settings<wbr>Protection<wbr>Mode."
+  summary: "Virtual<wbr>Network<wbr>Inherited."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.DdosSettingsProtectionMode?alt=com.azure.resourcemanager.network.models.DdosSettingsProtectionMode&text=DdosSettingsProtectionMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DdosSettingsProtectionMode VIRTUAL_NETWORK_INHERITED"
-  desc: "Static value VirtualNetworkInherited for DdosSettingsProtectionMode."
+  desc: "VirtualNetworkInherited."
 methods:
 - uid: "com.azure.resourcemanager.network.models.DdosSettingsProtectionMode.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.DdosSettingsProtectionMode.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "The DDoS protection mode of the public IP."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

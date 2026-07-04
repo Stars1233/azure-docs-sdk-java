@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.AssociationAccessMode.AUDIT"
   name: "AUDIT"
   nameWithType: "AssociationAccessMode.AUDIT"
-  summary: "Static value Audit for Association<wbr>Access<wbr>Mode."
+  summary: "Audit."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AssociationAccessMode?alt=com.azure.resourcemanager.network.models.AssociationAccessMode&text=AssociationAccessMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AssociationAccessMode AUDIT"
-  desc: "Static value Audit for AssociationAccessMode."
+  desc: "Audit."
 - uid: "com.azure.resourcemanager.network.models.AssociationAccessMode.ENFORCED"
   fullName: "com.azure.resourcemanager.network.models.AssociationAccessMode.ENFORCED"
   name: "ENFORCED"
   nameWithType: "AssociationAccessMode.ENFORCED"
-  summary: "Static value Enforced for Association<wbr>Access<wbr>Mode."
+  summary: "Enforced."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AssociationAccessMode?alt=com.azure.resourcemanager.network.models.AssociationAccessMode&text=AssociationAccessMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AssociationAccessMode ENFORCED"
-  desc: "Static value Enforced for AssociationAccessMode."
+  desc: "Enforced."
 - uid: "com.azure.resourcemanager.network.models.AssociationAccessMode.LEARNING"
   fullName: "com.azure.resourcemanager.network.models.AssociationAccessMode.LEARNING"
   name: "LEARNING"
   nameWithType: "AssociationAccessMode.LEARNING"
-  summary: "Static value Learning for Association<wbr>Access<wbr>Mode."
+  summary: "Learning."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AssociationAccessMode?alt=com.azure.resourcemanager.network.models.AssociationAccessMode&text=AssociationAccessMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AssociationAccessMode LEARNING"
-  desc: "Static value Learning for AssociationAccessMode."
+  desc: "Learning."
 methods:
 - uid: "com.azure.resourcemanager.network.models.AssociationAccessMode.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.AssociationAccessMode.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "Access mode on the association."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

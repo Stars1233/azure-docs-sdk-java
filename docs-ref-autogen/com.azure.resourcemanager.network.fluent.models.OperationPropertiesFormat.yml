@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **OperationPropertiesFormat**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.OperationPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.OperationPropertiesFormat&text=OperationPropertiesFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.OperationPropertiesFormat.OperationPropertiesFormat()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.OperationPropertiesFormat.OperationPropertiesFormat()"
-  name: "OperationPropertiesFormat()"
-  nameWithType: "OperationPropertiesFormat.OperationPropertiesFormat()"
-  summary: "Creates an instance of Operation<wbr>Properties<wbr>Format class."
-  syntax: "public OperationPropertiesFormat()"
-  desc: "Creates an instance of OperationPropertiesFormat class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.OperationPropertiesFormat.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.OperationPropertiesFormat.fromJson(JsonReader jsonReader)"
@@ -78,24 +70,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.OperationPropertiesFormat.withServiceSpecification(com.azure.resourcemanager.network.models.OperationPropertiesFormatServiceSpecification)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.OperationPropertiesFormat.withServiceSpecification(OperationPropertiesFormatServiceSpecification serviceSpecification)"
-  name: "withServiceSpecification(OperationPropertiesFormatServiceSpecification serviceSpecification)"
-  nameWithType: "OperationPropertiesFormat.withServiceSpecification(OperationPropertiesFormatServiceSpecification serviceSpecification)"
-  summary: "Set the service<wbr>Specification property: Specification of the service."
-  parameters:
-  - description: "the serviceSpecification value to set."
-    name: "serviceSpecification"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.OperationPropertiesFormatServiceSpecification?alt=com.azure.resourcemanager.network.models.OperationPropertiesFormatServiceSpecification&text=OperationPropertiesFormatServiceSpecification\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public OperationPropertiesFormat withServiceSpecification(OperationPropertiesFormatServiceSpecification serviceSpecification)"
-  desc: "Set the serviceSpecification property: Specification of the service."
-  returns:
-    description: "the OperationPropertiesFormat object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.OperationPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.OperationPropertiesFormat&text=OperationPropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Description of operation properties format."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.OperationPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.OperationPropertiesFormat&text=OperationPropertiesFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

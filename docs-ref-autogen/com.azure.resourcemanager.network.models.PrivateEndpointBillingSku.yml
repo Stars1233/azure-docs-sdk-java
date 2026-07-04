@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.network.models.PrivateEndpointBillingSku"
+fullName: "com.azure.resourcemanager.network.models.PrivateEndpointBillingSku"
+name: "PrivateEndpointBillingSku"
+nameWithType: "PrivateEndpointBillingSku"
+summary: "The billing sku of the private endpoint."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **PrivateEndpointBillingSku**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.PrivateEndpointBillingSku?alt=com.azure.resourcemanager.network.models.PrivateEndpointBillingSku&text=PrivateEndpointBillingSku\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.network.models.PrivateEndpointBillingSku.PrivateEndpointBillingSku()"
+  fullName: "com.azure.resourcemanager.network.models.PrivateEndpointBillingSku.PrivateEndpointBillingSku()"
+  name: "PrivateEndpointBillingSku()"
+  nameWithType: "PrivateEndpointBillingSku.PrivateEndpointBillingSku()"
+  summary: "Creates a new instance of Private<wbr>Endpoint<wbr>Billing<wbr>Sku value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.network.models.PrivateEndpointBillingSku.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public PrivateEndpointBillingSku()"
+  desc: "Creates a new instance of PrivateEndpointBillingSku value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.network.models.PrivateEndpointBillingSku.FIXED"
+  fullName: "com.azure.resourcemanager.network.models.PrivateEndpointBillingSku.FIXED"
+  name: "FIXED"
+  nameWithType: "PrivateEndpointBillingSku.FIXED"
+  summary: "Fixed sku is best for high data processing private endpoints."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.network.models.PrivateEndpointBillingSku?alt=com.azure.resourcemanager.network.models.PrivateEndpointBillingSku&text=PrivateEndpointBillingSku\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final PrivateEndpointBillingSku FIXED"
+  desc: "Fixed sku is best for high data processing private endpoints."
+- uid: "com.azure.resourcemanager.network.models.PrivateEndpointBillingSku.PAY_AS_YOU_GO"
+  fullName: "com.azure.resourcemanager.network.models.PrivateEndpointBillingSku.PAY_AS_YOU_GO"
+  name: "PAY_AS_YOU_GO"
+  nameWithType: "PrivateEndpointBillingSku.PAY_AS_YOU_GO"
+  summary: "Pay<wbr>AsYou<wbr>Go sku is the default price for private endpoints."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.network.models.PrivateEndpointBillingSku?alt=com.azure.resourcemanager.network.models.PrivateEndpointBillingSku&text=PrivateEndpointBillingSku\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final PrivateEndpointBillingSku PAY_AS_YOU_GO"
+  desc: "PayAsYouGo sku is the default price for private endpoints."
+methods:
+- uid: "com.azure.resourcemanager.network.models.PrivateEndpointBillingSku.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.network.models.PrivateEndpointBillingSku.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "PrivateEndpointBillingSku.fromString(String name)"
+  summary: "Creates or finds a Private<wbr>Endpoint<wbr>Billing<wbr>Sku from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static PrivateEndpointBillingSku fromString(String name)"
+  desc: "Creates or finds a PrivateEndpointBillingSku from its string representation."
+  returns:
+    description: "the corresponding PrivateEndpointBillingSku."
+    type: "<xref href=\"com.azure.resourcemanager.network.models.PrivateEndpointBillingSku?alt=com.azure.resourcemanager.network.models.PrivateEndpointBillingSku&text=PrivateEndpointBillingSku\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.PrivateEndpointBillingSku.values()"
+  fullName: "com.azure.resourcemanager.network.models.PrivateEndpointBillingSku.values()"
+  name: "values()"
+  nameWithType: "PrivateEndpointBillingSku.values()"
+  summary: "Gets known Private<wbr>Endpoint<wbr>Billing<wbr>Sku values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<PrivateEndpointBillingSku> values()"
+  desc: "Gets known PrivateEndpointBillingSku values."
+  returns:
+    description: "known PrivateEndpointBillingSku values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.PrivateEndpointBillingSku?alt=com.azure.resourcemanager.network.models.PrivateEndpointBillingSku&text=PrivateEndpointBillingSku\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The billing sku of the private endpoint."
+metadata: {}
+package: "com.azure.resourcemanager.network.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyRuleType.APPLICATION_RULE"
   name: "APPLICATION_RULE"
   nameWithType: "FirewallPolicyRuleType.APPLICATION_RULE"
-  summary: "Static value Application<wbr>Rule for Firewall<wbr>Policy<wbr>Rule<wbr>Type."
+  summary: "Application<wbr>Rule."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyRuleType?alt=com.azure.resourcemanager.network.models.FirewallPolicyRuleType&text=FirewallPolicyRuleType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyRuleType APPLICATION_RULE"
-  desc: "Static value ApplicationRule for FirewallPolicyRuleType."
+  desc: "ApplicationRule."
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyRuleType.NAT_RULE"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyRuleType.NAT_RULE"
   name: "NAT_RULE"
   nameWithType: "FirewallPolicyRuleType.NAT_RULE"
-  summary: "Static value Nat<wbr>Rule for Firewall<wbr>Policy<wbr>Rule<wbr>Type."
+  summary: "Nat<wbr>Rule."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyRuleType?alt=com.azure.resourcemanager.network.models.FirewallPolicyRuleType&text=FirewallPolicyRuleType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyRuleType NAT_RULE"
-  desc: "Static value NatRule for FirewallPolicyRuleType."
+  desc: "NatRule."
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyRuleType.NETWORK_RULE"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyRuleType.NETWORK_RULE"
   name: "NETWORK_RULE"
   nameWithType: "FirewallPolicyRuleType.NETWORK_RULE"
-  summary: "Static value Network<wbr>Rule for Firewall<wbr>Policy<wbr>Rule<wbr>Type."
+  summary: "Network<wbr>Rule."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyRuleType?alt=com.azure.resourcemanager.network.models.FirewallPolicyRuleType&text=FirewallPolicyRuleType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyRuleType NETWORK_RULE"
-  desc: "Static value NetworkRule for FirewallPolicyRuleType."
+  desc: "NetworkRule."
 methods:
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyRuleType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyRuleType.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "Rule Type."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

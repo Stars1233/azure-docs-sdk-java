@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ExceptionEntryMatchVariable.REMOTE_ADDR"
   name: "REMOTE_ADDR"
   nameWithType: "ExceptionEntryMatchVariable.REMOTE_ADDR"
-  summary: "Static value Remote<wbr>Addr for Exception<wbr>Entry<wbr>Match<wbr>Variable."
+  summary: "Remote<wbr>Addr."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExceptionEntryMatchVariable?alt=com.azure.resourcemanager.network.models.ExceptionEntryMatchVariable&text=ExceptionEntryMatchVariable\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExceptionEntryMatchVariable REMOTE_ADDR"
-  desc: "Static value RemoteAddr for ExceptionEntryMatchVariable."
+  desc: "RemoteAddr."
 - uid: "com.azure.resourcemanager.network.models.ExceptionEntryMatchVariable.REQUEST_HEADER"
   fullName: "com.azure.resourcemanager.network.models.ExceptionEntryMatchVariable.REQUEST_HEADER"
   name: "REQUEST_HEADER"
   nameWithType: "ExceptionEntryMatchVariable.REQUEST_HEADER"
-  summary: "Static value Request<wbr>Header for Exception<wbr>Entry<wbr>Match<wbr>Variable."
+  summary: "Request<wbr>Header."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExceptionEntryMatchVariable?alt=com.azure.resourcemanager.network.models.ExceptionEntryMatchVariable&text=ExceptionEntryMatchVariable\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExceptionEntryMatchVariable REQUEST_HEADER"
-  desc: "Static value RequestHeader for ExceptionEntryMatchVariable."
+  desc: "RequestHeader."
 - uid: "com.azure.resourcemanager.network.models.ExceptionEntryMatchVariable.REQUEST_URI"
   fullName: "com.azure.resourcemanager.network.models.ExceptionEntryMatchVariable.REQUEST_URI"
   name: "REQUEST_URI"
   nameWithType: "ExceptionEntryMatchVariable.REQUEST_URI"
-  summary: "Static value RequestURI for Exception<wbr>Entry<wbr>Match<wbr>Variable."
+  summary: "RequestURI."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExceptionEntryMatchVariable?alt=com.azure.resourcemanager.network.models.ExceptionEntryMatchVariable&text=ExceptionEntryMatchVariable\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExceptionEntryMatchVariable REQUEST_URI"
-  desc: "Static value RequestURI for ExceptionEntryMatchVariable."
+  desc: "RequestURI."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ExceptionEntryMatchVariable.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ExceptionEntryMatchVariable.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "The variable on which we evaluate the exception condition."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

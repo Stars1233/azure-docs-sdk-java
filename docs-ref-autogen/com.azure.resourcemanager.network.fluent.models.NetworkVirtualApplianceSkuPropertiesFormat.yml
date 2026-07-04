@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **NetworkVirtualApplianceSkuPropertiesFormat**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuPropertiesFormat&text=NetworkVirtualApplianceSkuPropertiesFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuPropertiesFormat.NetworkVirtualApplianceSkuPropertiesFormat()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuPropertiesFormat.NetworkVirtualApplianceSkuPropertiesFormat()"
-  name: "NetworkVirtualApplianceSkuPropertiesFormat()"
-  nameWithType: "NetworkVirtualApplianceSkuPropertiesFormat.NetworkVirtualApplianceSkuPropertiesFormat()"
-  summary: "Creates an instance of Network<wbr>Virtual<wbr>Appliance<wbr>Sku<wbr>Properties<wbr>Format class."
-  syntax: "public NetworkVirtualApplianceSkuPropertiesFormat()"
-  desc: "Creates an instance of NetworkVirtualApplianceSkuPropertiesFormat class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuPropertiesFormat.availableScaleUnits()"
   fullName: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuPropertiesFormat.availableScaleUnits()"
@@ -98,24 +90,10 @@ methods:
   returns:
     description: "the vendor value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuPropertiesFormat.withAvailableScaleUnits(java.util.List<com.azure.resourcemanager.network.models.NetworkVirtualApplianceSkuInstances>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuPropertiesFormat.withAvailableScaleUnits(List<NetworkVirtualApplianceSkuInstances> availableScaleUnits)"
-  name: "withAvailableScaleUnits(List<NetworkVirtualApplianceSkuInstances> availableScaleUnits)"
-  nameWithType: "NetworkVirtualApplianceSkuPropertiesFormat.withAvailableScaleUnits(List<NetworkVirtualApplianceSkuInstances> availableScaleUnits)"
-  summary: "Set the available<wbr>Scale<wbr>Units property: The list of scale units available."
-  parameters:
-  - description: "the availableScaleUnits value to set."
-    name: "availableScaleUnits"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.NetworkVirtualApplianceSkuInstances?alt=com.azure.resourcemanager.network.models.NetworkVirtualApplianceSkuInstances&text=NetworkVirtualApplianceSkuInstances\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public NetworkVirtualApplianceSkuPropertiesFormat withAvailableScaleUnits(List<NetworkVirtualApplianceSkuInstances> availableScaleUnits)"
-  desc: "Set the availableScaleUnits property: The list of scale units available."
-  returns:
-    description: "the NetworkVirtualApplianceSkuPropertiesFormat object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuPropertiesFormat&text=NetworkVirtualApplianceSkuPropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Network Virtual Appliance Sku Properties Properties specific to NetworkVirtualApplianceSkus."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceSkuPropertiesFormat&text=NetworkVirtualApplianceSkuPropertiesFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

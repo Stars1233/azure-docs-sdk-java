@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ConnectedGroupPrivateEndpointsScale.HIGH_SCALE"
   name: "HIGH_SCALE"
   nameWithType: "ConnectedGroupPrivateEndpointsScale.HIGH_SCALE"
-  summary: "Static value High<wbr>Scale for Connected<wbr>Group<wbr>Private<wbr>Endpoints<wbr>Scale."
+  summary: "Allows for up to 20K private endpoints in the connected group."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ConnectedGroupPrivateEndpointsScale?alt=com.azure.resourcemanager.network.models.ConnectedGroupPrivateEndpointsScale&text=ConnectedGroupPrivateEndpointsScale\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ConnectedGroupPrivateEndpointsScale HIGH_SCALE"
-  desc: "Static value HighScale for ConnectedGroupPrivateEndpointsScale."
+  desc: "Allows for up to 20K private endpoints in the connected group."
 - uid: "com.azure.resourcemanager.network.models.ConnectedGroupPrivateEndpointsScale.STANDARD"
   fullName: "com.azure.resourcemanager.network.models.ConnectedGroupPrivateEndpointsScale.STANDARD"
   name: "STANDARD"
   nameWithType: "ConnectedGroupPrivateEndpointsScale.STANDARD"
-  summary: "Static value Standard for Connected<wbr>Group<wbr>Private<wbr>Endpoints<wbr>Scale."
+  summary: "Default."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ConnectedGroupPrivateEndpointsScale?alt=com.azure.resourcemanager.network.models.ConnectedGroupPrivateEndpointsScale&text=ConnectedGroupPrivateEndpointsScale\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ConnectedGroupPrivateEndpointsScale STANDARD"
-  desc: "Static value Standard for ConnectedGroupPrivateEndpointsScale."
+  desc: "Default. Allows for up to 2K private endpoints in the connected group."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ConnectedGroupPrivateEndpointsScale.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ConnectedGroupPrivateEndpointsScale.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Option indicating the scale of private endpoints allowed in the connected group of the connectivity configuration."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

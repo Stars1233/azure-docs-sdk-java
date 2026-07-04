@@ -42,50 +42,50 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProtocol.ANY"
   name: "ANY"
   nameWithType: "FirewallPolicyIntrusionDetectionProtocol.ANY"
-  summary: "Static value ANY for Firewall<wbr>Policy<wbr>Intrusion<wbr>Detection<wbr>Protocol."
+  summary: "ANY."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProtocol?alt=com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProtocol&text=FirewallPolicyIntrusionDetectionProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyIntrusionDetectionProtocol ANY"
-  desc: "Static value ANY for FirewallPolicyIntrusionDetectionProtocol."
+  desc: "ANY."
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProtocol.ICMP"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProtocol.ICMP"
   name: "ICMP"
   nameWithType: "FirewallPolicyIntrusionDetectionProtocol.ICMP"
-  summary: "Static value ICMP for Firewall<wbr>Policy<wbr>Intrusion<wbr>Detection<wbr>Protocol."
+  summary: "ICMP."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProtocol?alt=com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProtocol&text=FirewallPolicyIntrusionDetectionProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyIntrusionDetectionProtocol ICMP"
-  desc: "Static value ICMP for FirewallPolicyIntrusionDetectionProtocol."
+  desc: "ICMP."
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProtocol.TCP"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProtocol.TCP"
   name: "TCP"
   nameWithType: "FirewallPolicyIntrusionDetectionProtocol.TCP"
-  summary: "Static value TCP for Firewall<wbr>Policy<wbr>Intrusion<wbr>Detection<wbr>Protocol."
+  summary: "TCP."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProtocol?alt=com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProtocol&text=FirewallPolicyIntrusionDetectionProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyIntrusionDetectionProtocol TCP"
-  desc: "Static value TCP for FirewallPolicyIntrusionDetectionProtocol."
+  desc: "TCP."
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProtocol.UDP"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProtocol.UDP"
   name: "UDP"
   nameWithType: "FirewallPolicyIntrusionDetectionProtocol.UDP"
-  summary: "Static value UDP for Firewall<wbr>Policy<wbr>Intrusion<wbr>Detection<wbr>Protocol."
+  summary: "UDP."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProtocol?alt=com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProtocol&text=FirewallPolicyIntrusionDetectionProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyIntrusionDetectionProtocol UDP"
-  desc: "Static value UDP for FirewallPolicyIntrusionDetectionProtocol."
+  desc: "UDP."
 methods:
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProtocol.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionProtocol.fromString(String name)"
@@ -119,4 +119,4 @@ type: "class"
 desc: "Possible intrusion detection bypass traffic protocols."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

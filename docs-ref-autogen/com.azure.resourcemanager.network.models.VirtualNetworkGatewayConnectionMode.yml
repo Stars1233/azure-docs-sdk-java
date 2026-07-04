@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionMode.DEFAULT"
   name: "DEFAULT"
   nameWithType: "VirtualNetworkGatewayConnectionMode.DEFAULT"
-  summary: "Static value Default for Virtual<wbr>Network<wbr>Gateway<wbr>Connection<wbr>Mode."
+  summary: "Default."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionMode?alt=com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionMode&text=VirtualNetworkGatewayConnectionMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualNetworkGatewayConnectionMode DEFAULT"
-  desc: "Static value Default for VirtualNetworkGatewayConnectionMode."
+  desc: "Default."
 - uid: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionMode.INITIATOR_ONLY"
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionMode.INITIATOR_ONLY"
   name: "INITIATOR_ONLY"
   nameWithType: "VirtualNetworkGatewayConnectionMode.INITIATOR_ONLY"
-  summary: "Static value Initiator<wbr>Only for Virtual<wbr>Network<wbr>Gateway<wbr>Connection<wbr>Mode."
+  summary: "Initiator<wbr>Only."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionMode?alt=com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionMode&text=VirtualNetworkGatewayConnectionMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualNetworkGatewayConnectionMode INITIATOR_ONLY"
-  desc: "Static value InitiatorOnly for VirtualNetworkGatewayConnectionMode."
+  desc: "InitiatorOnly."
 - uid: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionMode.RESPONDER_ONLY"
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionMode.RESPONDER_ONLY"
   name: "RESPONDER_ONLY"
   nameWithType: "VirtualNetworkGatewayConnectionMode.RESPONDER_ONLY"
-  summary: "Static value Responder<wbr>Only for Virtual<wbr>Network<wbr>Gateway<wbr>Connection<wbr>Mode."
+  summary: "Responder<wbr>Only."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionMode?alt=com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionMode&text=VirtualNetworkGatewayConnectionMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualNetworkGatewayConnectionMode RESPONDER_ONLY"
-  desc: "Static value ResponderOnly for VirtualNetworkGatewayConnectionMode."
+  desc: "ResponderOnly."
 methods:
 - uid: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionMode.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionMode.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "Gateway connection type."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

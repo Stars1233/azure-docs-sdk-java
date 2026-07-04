@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **QueryResultsInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.QueryResultsInner?alt=com.azure.resourcemanager.network.fluent.models.QueryResultsInner&text=QueryResultsInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.QueryResultsInner.QueryResultsInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.QueryResultsInner.QueryResultsInner()"
-  name: "QueryResultsInner()"
-  nameWithType: "QueryResultsInner.QueryResultsInner()"
-  summary: "Creates an instance of Query<wbr>Results<wbr>Inner class."
-  syntax: "public QueryResultsInner()"
-  desc: "Creates an instance of QueryResultsInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.QueryResultsInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.QueryResultsInner.fromJson(JsonReader jsonReader)"
@@ -88,38 +80,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.QueryResultsInner.withMatchingRecordsCount(java.lang.Long)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.QueryResultsInner.withMatchingRecordsCount(Long matchingRecordsCount)"
-  name: "withMatchingRecordsCount(Long matchingRecordsCount)"
-  nameWithType: "QueryResultsInner.withMatchingRecordsCount(Long matchingRecordsCount)"
-  summary: "Set the matching<wbr>Records<wbr>Count property: Number of total records matching the query."
-  parameters:
-  - description: "the matchingRecordsCount value to set."
-    name: "matchingRecordsCount"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
-  syntax: "public QueryResultsInner withMatchingRecordsCount(Long matchingRecordsCount)"
-  desc: "Set the matchingRecordsCount property: Number of total records matching the query."
-  returns:
-    description: "the QueryResultsInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.QueryResultsInner?alt=com.azure.resourcemanager.network.fluent.models.QueryResultsInner&text=QueryResultsInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.QueryResultsInner.withSignatures(java.util.List<com.azure.resourcemanager.network.models.SingleQueryResult>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.QueryResultsInner.withSignatures(List<SingleQueryResult> signatures)"
-  name: "withSignatures(List<SingleQueryResult> signatures)"
-  nameWithType: "QueryResultsInner.withSignatures(List<SingleQueryResult> signatures)"
-  summary: "Set the signatures property: Array containing the results of the query."
-  parameters:
-  - description: "the signatures value to set."
-    name: "signatures"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.SingleQueryResult?alt=com.azure.resourcemanager.network.models.SingleQueryResult&text=SingleQueryResult\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public QueryResultsInner withSignatures(List<SingleQueryResult> signatures)"
-  desc: "Set the signatures property: Array containing the results of the query."
-  returns:
-    description: "the QueryResultsInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.QueryResultsInner?alt=com.azure.resourcemanager.network.fluent.models.QueryResultsInner&text=QueryResultsInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Query result."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.QueryResultsInner?alt=com.azure.resourcemanager.network.fluent.models.QueryResultsInner&text=QueryResultsInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

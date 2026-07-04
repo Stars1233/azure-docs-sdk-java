@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **VpnClientConnectionHealth**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.VpnClientConnectionHealth?alt=com.azure.resourcemanager.network.models.VpnClientConnectionHealth&text=VpnClientConnectionHealth\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.models.VpnClientConnectionHealth.VpnClientConnectionHealth()"
-  fullName: "com.azure.resourcemanager.network.models.VpnClientConnectionHealth.VpnClientConnectionHealth()"
-  name: "VpnClientConnectionHealth()"
-  nameWithType: "VpnClientConnectionHealth.VpnClientConnectionHealth()"
-  summary: "Creates an instance of Vpn<wbr>Client<wbr>Connection<wbr>Health class."
-  syntax: "public VpnClientConnectionHealth()"
-  desc: "Creates an instance of VpnClientConnectionHealth class."
 methods:
 - uid: "com.azure.resourcemanager.network.models.VpnClientConnectionHealth.allocatedIpAddresses()"
   fullName: "com.azure.resourcemanager.network.models.VpnClientConnectionHealth.allocatedIpAddresses()"
@@ -108,38 +100,10 @@ methods:
   returns:
     description: "the vpnClientConnectionsCount value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-- uid: "com.azure.resourcemanager.network.models.VpnClientConnectionHealth.withAllocatedIpAddresses(java.util.List<java.lang.String>)"
-  fullName: "com.azure.resourcemanager.network.models.VpnClientConnectionHealth.withAllocatedIpAddresses(List<String> allocatedIpAddresses)"
-  name: "withAllocatedIpAddresses(List<String> allocatedIpAddresses)"
-  nameWithType: "VpnClientConnectionHealth.withAllocatedIpAddresses(List<String> allocatedIpAddresses)"
-  summary: "Set the allocated<wbr>IpAddresses property: List of allocated ip addresses to the connected p2s vpn clients."
-  parameters:
-  - description: "the allocatedIpAddresses value to set."
-    name: "allocatedIpAddresses"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public VpnClientConnectionHealth withAllocatedIpAddresses(List<String> allocatedIpAddresses)"
-  desc: "Set the allocatedIpAddresses property: List of allocated ip addresses to the connected p2s vpn clients."
-  returns:
-    description: "the VpnClientConnectionHealth object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.VpnClientConnectionHealth?alt=com.azure.resourcemanager.network.models.VpnClientConnectionHealth&text=VpnClientConnectionHealth\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.VpnClientConnectionHealth.withVpnClientConnectionsCount(java.lang.Integer)"
-  fullName: "com.azure.resourcemanager.network.models.VpnClientConnectionHealth.withVpnClientConnectionsCount(Integer vpnClientConnectionsCount)"
-  name: "withVpnClientConnectionsCount(Integer vpnClientConnectionsCount)"
-  nameWithType: "VpnClientConnectionHealth.withVpnClientConnectionsCount(Integer vpnClientConnectionsCount)"
-  summary: "Set the vpn<wbr>Client<wbr>Connections<wbr>Count property: The total of p2s vpn clients connected at this time to this P2SVpn<wbr>Gateway."
-  parameters:
-  - description: "the vpnClientConnectionsCount value to set."
-    name: "vpnClientConnectionsCount"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-  syntax: "public VpnClientConnectionHealth withVpnClientConnectionsCount(Integer vpnClientConnectionsCount)"
-  desc: "Set the vpnClientConnectionsCount property: The total of p2s vpn clients connected at this time to this P2SVpnGateway."
-  returns:
-    description: "the VpnClientConnectionHealth object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.VpnClientConnectionHealth?alt=com.azure.resourcemanager.network.models.VpnClientConnectionHealth&text=VpnClientConnectionHealth\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "VpnClientConnectionHealth properties."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.VpnClientConnectionHealth?alt=com.azure.resourcemanager.network.models.VpnClientConnectionHealth&text=VpnClientConnectionHealth\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

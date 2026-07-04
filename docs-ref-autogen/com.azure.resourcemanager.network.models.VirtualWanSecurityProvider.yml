@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **VirtualWanSecurityProvider**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.VirtualWanSecurityProvider?alt=com.azure.resourcemanager.network.models.VirtualWanSecurityProvider&text=VirtualWanSecurityProvider\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.models.VirtualWanSecurityProvider.VirtualWanSecurityProvider()"
-  fullName: "com.azure.resourcemanager.network.models.VirtualWanSecurityProvider.VirtualWanSecurityProvider()"
-  name: "VirtualWanSecurityProvider()"
-  nameWithType: "VirtualWanSecurityProvider.VirtualWanSecurityProvider()"
-  summary: "Creates an instance of Virtual<wbr>Wan<wbr>Security<wbr>Provider class."
-  syntax: "public VirtualWanSecurityProvider()"
-  desc: "Creates an instance of VirtualWanSecurityProvider class."
 methods:
 - uid: "com.azure.resourcemanager.network.models.VirtualWanSecurityProvider.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.models.VirtualWanSecurityProvider.fromJson(JsonReader jsonReader)"
@@ -98,38 +90,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.models.VirtualWanSecurityProvider.withName(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.VirtualWanSecurityProvider.withName(String name)"
-  name: "withName(String name)"
-  nameWithType: "VirtualWanSecurityProvider.withName(String name)"
-  summary: "Set the name property: Name of the security provider."
-  parameters:
-  - description: "the name value to set."
-    name: "name"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public VirtualWanSecurityProvider withName(String name)"
-  desc: "Set the name property: Name of the security provider."
-  returns:
-    description: "the VirtualWanSecurityProvider object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualWanSecurityProvider?alt=com.azure.resourcemanager.network.models.VirtualWanSecurityProvider&text=VirtualWanSecurityProvider\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.VirtualWanSecurityProvider.withUrl(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.VirtualWanSecurityProvider.withUrl(String url)"
-  name: "withUrl(String url)"
-  nameWithType: "VirtualWanSecurityProvider.withUrl(String url)"
-  summary: "Set the url property: Url of the security provider."
-  parameters:
-  - description: "the url value to set."
-    name: "url"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public VirtualWanSecurityProvider withUrl(String url)"
-  desc: "Set the url property: Url of the security provider."
-  returns:
-    description: "the VirtualWanSecurityProvider object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualWanSecurityProvider?alt=com.azure.resourcemanager.network.models.VirtualWanSecurityProvider&text=VirtualWanSecurityProvider\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Collection of SecurityProviders."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.VirtualWanSecurityProvider?alt=com.azure.resourcemanager.network.models.VirtualWanSecurityProvider&text=VirtualWanSecurityProvider\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

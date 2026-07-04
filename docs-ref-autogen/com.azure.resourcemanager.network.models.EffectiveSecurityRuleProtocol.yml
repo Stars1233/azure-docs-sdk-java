@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.EffectiveSecurityRuleProtocol.ALL"
   name: "ALL"
   nameWithType: "EffectiveSecurityRuleProtocol.ALL"
-  summary: "Static value All for Effective<wbr>Security<wbr>Rule<wbr>Protocol."
+  summary: "All."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.EffectiveSecurityRuleProtocol?alt=com.azure.resourcemanager.network.models.EffectiveSecurityRuleProtocol&text=EffectiveSecurityRuleProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final EffectiveSecurityRuleProtocol ALL"
-  desc: "Static value All for EffectiveSecurityRuleProtocol."
+  desc: "All."
 - uid: "com.azure.resourcemanager.network.models.EffectiveSecurityRuleProtocol.TCP"
   fullName: "com.azure.resourcemanager.network.models.EffectiveSecurityRuleProtocol.TCP"
   name: "TCP"
   nameWithType: "EffectiveSecurityRuleProtocol.TCP"
-  summary: "Static value Tcp for Effective<wbr>Security<wbr>Rule<wbr>Protocol."
+  summary: "Tcp."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.EffectiveSecurityRuleProtocol?alt=com.azure.resourcemanager.network.models.EffectiveSecurityRuleProtocol&text=EffectiveSecurityRuleProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final EffectiveSecurityRuleProtocol TCP"
-  desc: "Static value Tcp for EffectiveSecurityRuleProtocol."
+  desc: "Tcp."
 - uid: "com.azure.resourcemanager.network.models.EffectiveSecurityRuleProtocol.UDP"
   fullName: "com.azure.resourcemanager.network.models.EffectiveSecurityRuleProtocol.UDP"
   name: "UDP"
   nameWithType: "EffectiveSecurityRuleProtocol.UDP"
-  summary: "Static value Udp for Effective<wbr>Security<wbr>Rule<wbr>Protocol."
+  summary: "Udp."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.EffectiveSecurityRuleProtocol?alt=com.azure.resourcemanager.network.models.EffectiveSecurityRuleProtocol&text=EffectiveSecurityRuleProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final EffectiveSecurityRuleProtocol UDP"
-  desc: "Static value Udp for EffectiveSecurityRuleProtocol."
+  desc: "Udp."
 methods:
 - uid: "com.azure.resourcemanager.network.models.EffectiveSecurityRuleProtocol.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.EffectiveSecurityRuleProtocol.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "The network protocol this rule applies to."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.VnetLocalRouteOverrideCriteria.CONTAINS"
   name: "CONTAINS"
   nameWithType: "VnetLocalRouteOverrideCriteria.CONTAINS"
-  summary: "Static value Contains for Vnet<wbr>Local<wbr>Route<wbr>Override<wbr>Criteria."
+  summary: "Contains."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VnetLocalRouteOverrideCriteria?alt=com.azure.resourcemanager.network.models.VnetLocalRouteOverrideCriteria&text=VnetLocalRouteOverrideCriteria\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VnetLocalRouteOverrideCriteria CONTAINS"
-  desc: "Static value Contains for VnetLocalRouteOverrideCriteria."
+  desc: "Contains."
 - uid: "com.azure.resourcemanager.network.models.VnetLocalRouteOverrideCriteria.EQUAL"
   fullName: "com.azure.resourcemanager.network.models.VnetLocalRouteOverrideCriteria.EQUAL"
   name: "EQUAL"
   nameWithType: "VnetLocalRouteOverrideCriteria.EQUAL"
-  summary: "Static value Equal for Vnet<wbr>Local<wbr>Route<wbr>Override<wbr>Criteria."
+  summary: "Equal."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VnetLocalRouteOverrideCriteria?alt=com.azure.resourcemanager.network.models.VnetLocalRouteOverrideCriteria&text=VnetLocalRouteOverrideCriteria\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VnetLocalRouteOverrideCriteria EQUAL"
-  desc: "Static value Equal for VnetLocalRouteOverrideCriteria."
+  desc: "Equal."
 methods:
 - uid: "com.azure.resourcemanager.network.models.VnetLocalRouteOverrideCriteria.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.VnetLocalRouteOverrideCriteria.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Parameter determining whether NVA in spoke vnet is bypassed for traffic with destination in spoke vnet."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

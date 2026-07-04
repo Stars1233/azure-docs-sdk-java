@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ExpressRouteFailoverConnectionResourceDetails**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails?alt=com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails&text=ExpressRouteFailoverConnectionResourceDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails.ExpressRouteFailoverConnectionResourceDetails()"
-  fullName: "com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails.ExpressRouteFailoverConnectionResourceDetails()"
-  name: "ExpressRouteFailoverConnectionResourceDetails()"
-  nameWithType: "ExpressRouteFailoverConnectionResourceDetails.ExpressRouteFailoverConnectionResourceDetails()"
-  summary: "Creates an instance of Express<wbr>Route<wbr>Failover<wbr>Connection<wbr>Resource<wbr>Details class."
-  syntax: "public ExpressRouteFailoverConnectionResourceDetails()"
-  desc: "Creates an instance of ExpressRouteFailoverConnectionResourceDetails class."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails.fromJson(JsonReader jsonReader)"
@@ -108,66 +100,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails.withLastUpdatedTime(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails.withLastUpdatedTime(String lastUpdatedTime)"
-  name: "withLastUpdatedTime(String lastUpdatedTime)"
-  nameWithType: "ExpressRouteFailoverConnectionResourceDetails.withLastUpdatedTime(String lastUpdatedTime)"
-  summary: "Set the last<wbr>Updated<wbr>Time property: Time when the connection was last updated."
-  parameters:
-  - description: "the lastUpdatedTime value to set."
-    name: "lastUpdatedTime"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ExpressRouteFailoverConnectionResourceDetails withLastUpdatedTime(String lastUpdatedTime)"
-  desc: "Set the lastUpdatedTime property: Time when the connection was last updated."
-  returns:
-    description: "the ExpressRouteFailoverConnectionResourceDetails object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails?alt=com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails&text=ExpressRouteFailoverConnectionResourceDetails\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails.withName(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails.withName(String name)"
-  name: "withName(String name)"
-  nameWithType: "ExpressRouteFailoverConnectionResourceDetails.withName(String name)"
-  summary: "Set the name property: Connection Name."
-  parameters:
-  - description: "the name value to set."
-    name: "name"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ExpressRouteFailoverConnectionResourceDetails withName(String name)"
-  desc: "Set the name property: Connection Name."
-  returns:
-    description: "the ExpressRouteFailoverConnectionResourceDetails object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails?alt=com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails&text=ExpressRouteFailoverConnectionResourceDetails\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails.withNrpResourceUri(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails.withNrpResourceUri(String nrpResourceUri)"
-  name: "withNrpResourceUri(String nrpResourceUri)"
-  nameWithType: "ExpressRouteFailoverConnectionResourceDetails.withNrpResourceUri(String nrpResourceUri)"
-  summary: "Set the nrp<wbr>Resource<wbr>Uri property: NRP Resource URI of the connection."
-  parameters:
-  - description: "the nrpResourceUri value to set."
-    name: "nrpResourceUri"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ExpressRouteFailoverConnectionResourceDetails withNrpResourceUri(String nrpResourceUri)"
-  desc: "Set the nrpResourceUri property: NRP Resource URI of the connection."
-  returns:
-    description: "the ExpressRouteFailoverConnectionResourceDetails object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails?alt=com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails&text=ExpressRouteFailoverConnectionResourceDetails\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails.withStatus(com.azure.resourcemanager.network.models.FailoverConnectionStatus)"
-  fullName: "com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails.withStatus(FailoverConnectionStatus status)"
-  name: "withStatus(FailoverConnectionStatus status)"
-  nameWithType: "ExpressRouteFailoverConnectionResourceDetails.withStatus(FailoverConnectionStatus status)"
-  summary: "Set the status property: The current status of the connection."
-  parameters:
-  - description: "the status value to set."
-    name: "status"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.FailoverConnectionStatus?alt=com.azure.resourcemanager.network.models.FailoverConnectionStatus&text=FailoverConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public ExpressRouteFailoverConnectionResourceDetails withStatus(FailoverConnectionStatus status)"
-  desc: "Set the status property: The current status of the connection."
-  returns:
-    description: "the ExpressRouteFailoverConnectionResourceDetails object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails?alt=com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails&text=ExpressRouteFailoverConnectionResourceDetails\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The ExpressRouteFailoverConnectionResourceDetails model."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails?alt=com.azure.resourcemanager.network.models.ExpressRouteFailoverConnectionResourceDetails&text=ExpressRouteFailoverConnectionResourceDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.IpAllocationType.HYPERNET"
   name: "HYPERNET"
   nameWithType: "IpAllocationType.HYPERNET"
-  summary: "Static value Hypernet for Ip<wbr>Allocation<wbr>Type."
+  summary: "Hypernet."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.IpAllocationType?alt=com.azure.resourcemanager.network.models.IpAllocationType&text=IpAllocationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final IpAllocationType HYPERNET"
-  desc: "Static value Hypernet for IpAllocationType."
+  desc: "Hypernet."
 - uid: "com.azure.resourcemanager.network.models.IpAllocationType.UNDEFINED"
   fullName: "com.azure.resourcemanager.network.models.IpAllocationType.UNDEFINED"
   name: "UNDEFINED"
   nameWithType: "IpAllocationType.UNDEFINED"
-  summary: "Static value Undefined for Ip<wbr>Allocation<wbr>Type."
+  summary: "Undefined."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.IpAllocationType?alt=com.azure.resourcemanager.network.models.IpAllocationType&text=IpAllocationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final IpAllocationType UNDEFINED"
-  desc: "Static value Undefined for IpAllocationType."
+  desc: "Undefined."
 methods:
 - uid: "com.azure.resourcemanager.network.models.IpAllocationType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.IpAllocationType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "IpAllocation type."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

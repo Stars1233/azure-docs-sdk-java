@@ -99,6 +99,16 @@ methods:
   returns:
     description: "the provisioningState value."
     type: "<xref href=\"com.azure.resourcemanager.network.models.ProvisioningState?alt=com.azure.resourcemanager.network.models.ProvisioningState&text=ProvisioningState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.models.BgpConnectionProperties.routingConfiguration()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.BgpConnectionProperties.routingConfiguration()"
+  name: "routingConfiguration()"
+  nameWithType: "BgpConnectionProperties.routingConfiguration()"
+  summary: "Get the routing<wbr>Configuration property: The routing configuration indicating the associated and propagated route tables for this connection."
+  syntax: "public RoutingConfiguration routingConfiguration()"
+  desc: "Get the routingConfiguration property: The routing configuration indicating the associated and propagated route tables for this connection."
+  returns:
+    description: "the routingConfiguration value."
+    type: "<xref href=\"com.azure.resourcemanager.network.models.RoutingConfiguration?alt=com.azure.resourcemanager.network.models.RoutingConfiguration&text=RoutingConfiguration\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.BgpConnectionProperties.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.network.fluent.models.BgpConnectionProperties.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -160,10 +170,24 @@ methods:
   returns:
     description: "the BgpConnectionProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.BgpConnectionProperties?alt=com.azure.resourcemanager.network.fluent.models.BgpConnectionProperties&text=BgpConnectionProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.models.BgpConnectionProperties.withRoutingConfiguration(com.azure.resourcemanager.network.models.RoutingConfiguration)"
+  fullName: "com.azure.resourcemanager.network.fluent.models.BgpConnectionProperties.withRoutingConfiguration(RoutingConfiguration routingConfiguration)"
+  name: "withRoutingConfiguration(RoutingConfiguration routingConfiguration)"
+  nameWithType: "BgpConnectionProperties.withRoutingConfiguration(RoutingConfiguration routingConfiguration)"
+  summary: "Set the routing<wbr>Configuration property: The routing configuration indicating the associated and propagated route tables for this connection."
+  parameters:
+  - description: "the routingConfiguration value to set."
+    name: "routingConfiguration"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.RoutingConfiguration?alt=com.azure.resourcemanager.network.models.RoutingConfiguration&text=RoutingConfiguration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public BgpConnectionProperties withRoutingConfiguration(RoutingConfiguration routingConfiguration)"
+  desc: "Set the routingConfiguration property: The routing configuration indicating the associated and propagated route tables for this connection."
+  returns:
+    description: "the BgpConnectionProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.BgpConnectionProperties?alt=com.azure.resourcemanager.network.fluent.models.BgpConnectionProperties&text=BgpConnectionProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Properties of the bgp connection."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.BgpConnectionProperties?alt=com.azure.resourcemanager.network.fluent.models.BgpConnectionProperties&text=BgpConnectionProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

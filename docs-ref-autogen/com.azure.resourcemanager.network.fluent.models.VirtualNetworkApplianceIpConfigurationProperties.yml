@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **VirtualNetworkApplianceIpConfigurationProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties?alt=com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties&text=VirtualNetworkApplianceIpConfigurationProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties.VirtualNetworkApplianceIpConfigurationProperties()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties.VirtualNetworkApplianceIpConfigurationProperties()"
-  name: "VirtualNetworkApplianceIpConfigurationProperties()"
-  nameWithType: "VirtualNetworkApplianceIpConfigurationProperties.VirtualNetworkApplianceIpConfigurationProperties()"
-  summary: "Creates an instance of Virtual<wbr>Network<wbr>Appliance<wbr>IpConfiguration<wbr>Properties class."
-  syntax: "public VirtualNetworkApplianceIpConfigurationProperties()"
-  desc: "Creates an instance of VirtualNetworkApplianceIpConfigurationProperties class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties.fromJson(JsonReader jsonReader)"
@@ -118,66 +110,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties.withPrimary(java.lang.Boolean)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties.withPrimary(Boolean primary)"
-  name: "withPrimary(Boolean primary)"
-  nameWithType: "VirtualNetworkApplianceIpConfigurationProperties.withPrimary(Boolean primary)"
-  summary: "Set the primary property: Whether the ip configuration is primary or not."
-  parameters:
-  - description: "the primary value to set."
-    name: "primary"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
-  syntax: "public VirtualNetworkApplianceIpConfigurationProperties withPrimary(Boolean primary)"
-  desc: "Set the primary property: Whether the ip configuration is primary or not."
-  returns:
-    description: "the VirtualNetworkApplianceIpConfigurationProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties?alt=com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties&text=VirtualNetworkApplianceIpConfigurationProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties.withPrivateIpAddress(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties.withPrivateIpAddress(String privateIpAddress)"
-  name: "withPrivateIpAddress(String privateIpAddress)"
-  nameWithType: "VirtualNetworkApplianceIpConfigurationProperties.withPrivateIpAddress(String privateIpAddress)"
-  summary: "Set the private<wbr>IpAddress property: The private IP address of the IP configuration."
-  parameters:
-  - description: "the privateIpAddress value to set."
-    name: "privateIpAddress"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public VirtualNetworkApplianceIpConfigurationProperties withPrivateIpAddress(String privateIpAddress)"
-  desc: "Set the privateIpAddress property: The private IP address of the IP configuration."
-  returns:
-    description: "the VirtualNetworkApplianceIpConfigurationProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties?alt=com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties&text=VirtualNetworkApplianceIpConfigurationProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties.withPrivateIpAddressVersion(com.azure.resourcemanager.network.models.IpVersion)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties.withPrivateIpAddressVersion(IpVersion privateIpAddressVersion)"
-  name: "withPrivateIpAddressVersion(IpVersion privateIpAddressVersion)"
-  nameWithType: "VirtualNetworkApplianceIpConfigurationProperties.withPrivateIpAddressVersion(IpVersion privateIpAddressVersion)"
-  summary: "Set the private<wbr>IpAddress<wbr>Version property: Whether the specific IP configuration is IPv4 or IPv6."
-  parameters:
-  - description: "the privateIpAddressVersion value to set."
-    name: "privateIpAddressVersion"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.IpVersion?alt=com.azure.resourcemanager.network.models.IpVersion&text=IpVersion\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public VirtualNetworkApplianceIpConfigurationProperties withPrivateIpAddressVersion(IpVersion privateIpAddressVersion)"
-  desc: "Set the privateIpAddressVersion property: Whether the specific IP configuration is IPv4 or IPv6. Default is IPv4."
-  returns:
-    description: "the VirtualNetworkApplianceIpConfigurationProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties?alt=com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties&text=VirtualNetworkApplianceIpConfigurationProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties.withPrivateIpAllocationMethod(com.azure.resourcemanager.network.models.IpAllocationMethod)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties.withPrivateIpAllocationMethod(IpAllocationMethod privateIpAllocationMethod)"
-  name: "withPrivateIpAllocationMethod(IpAllocationMethod privateIpAllocationMethod)"
-  nameWithType: "VirtualNetworkApplianceIpConfigurationProperties.withPrivateIpAllocationMethod(IpAllocationMethod privateIpAllocationMethod)"
-  summary: "Set the private<wbr>IpAllocation<wbr>Method property: The private IP address allocation method."
-  parameters:
-  - description: "the privateIpAllocationMethod value to set."
-    name: "privateIpAllocationMethod"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.IpAllocationMethod?alt=com.azure.resourcemanager.network.models.IpAllocationMethod&text=IpAllocationMethod\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public VirtualNetworkApplianceIpConfigurationProperties withPrivateIpAllocationMethod(IpAllocationMethod privateIpAllocationMethod)"
-  desc: "Set the privateIpAllocationMethod property: The private IP address allocation method."
-  returns:
-    description: "the VirtualNetworkApplianceIpConfigurationProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties?alt=com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties&text=VirtualNetworkApplianceIpConfigurationProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Properties of virtual network appliance IP configuration."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties?alt=com.azure.resourcemanager.network.fluent.models.VirtualNetworkApplianceIpConfigurationProperties&text=VirtualNetworkApplianceIpConfigurationProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

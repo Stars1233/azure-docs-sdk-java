@@ -69,6 +69,16 @@ methods:
   returns:
     description: "the hasBgpOverride value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+- uid: "com.azure.resourcemanager.network.fluent.models.RoutePropertiesFormat.nextHop()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.RoutePropertiesFormat.nextHop()"
+  name: "nextHop()"
+  nameWithType: "RoutePropertiesFormat.nextHop()"
+  summary: "Get the next<wbr>Hop property: The next hop definition containing ECMP next hop IP addresses."
+  syntax: "public RouteNextHopEcmp nextHop()"
+  desc: "Get the nextHop property: The next hop definition containing ECMP next hop IP addresses. Only allowed when nextHopType is VirtualApplianceEcmp."
+  returns:
+    description: "the nextHop value."
+    type: "<xref href=\"com.azure.resourcemanager.network.models.RouteNextHopEcmp?alt=com.azure.resourcemanager.network.models.RouteNextHopEcmp&text=RouteNextHopEcmp\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.RoutePropertiesFormat.nextHopIpAddress()"
   fullName: "com.azure.resourcemanager.network.fluent.models.RoutePropertiesFormat.nextHopIpAddress()"
   name: "nextHopIpAddress()"
@@ -132,6 +142,20 @@ methods:
   returns:
     description: "the RoutePropertiesFormat object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.RoutePropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.RoutePropertiesFormat&text=RoutePropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.models.RoutePropertiesFormat.withNextHop(com.azure.resourcemanager.network.models.RouteNextHopEcmp)"
+  fullName: "com.azure.resourcemanager.network.fluent.models.RoutePropertiesFormat.withNextHop(RouteNextHopEcmp nextHop)"
+  name: "withNextHop(RouteNextHopEcmp nextHop)"
+  nameWithType: "RoutePropertiesFormat.withNextHop(RouteNextHopEcmp nextHop)"
+  summary: "Set the next<wbr>Hop property: The next hop definition containing ECMP next hop IP addresses."
+  parameters:
+  - description: "the nextHop value to set."
+    name: "nextHop"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.RouteNextHopEcmp?alt=com.azure.resourcemanager.network.models.RouteNextHopEcmp&text=RouteNextHopEcmp\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public RoutePropertiesFormat withNextHop(RouteNextHopEcmp nextHop)"
+  desc: "Set the nextHop property: The next hop definition containing ECMP next hop IP addresses. Only allowed when nextHopType is VirtualApplianceEcmp."
+  returns:
+    description: "the RoutePropertiesFormat object itself."
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.RoutePropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.RoutePropertiesFormat&text=RoutePropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.RoutePropertiesFormat.withNextHopIpAddress(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.fluent.models.RoutePropertiesFormat.withNextHopIpAddress(String nextHopIpAddress)"
   name: "withNextHopIpAddress(String nextHopIpAddress)"
@@ -166,4 +190,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.RoutePropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.RoutePropertiesFormat&text=RoutePropertiesFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

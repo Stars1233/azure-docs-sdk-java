@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.AzureFirewallSkuName.AZFW_HUB"
   name: "AZFW_HUB"
   nameWithType: "AzureFirewallSkuName.AZFW_HUB"
-  summary: "Static value AZFW\\_Hub for Azure<wbr>Firewall<wbr>Sku<wbr>Name."
+  summary: "AZFW\\_Hub."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AzureFirewallSkuName?alt=com.azure.resourcemanager.network.models.AzureFirewallSkuName&text=AzureFirewallSkuName\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AzureFirewallSkuName AZFW_HUB"
-  desc: "Static value AZFW\\_Hub for AzureFirewallSkuName."
+  desc: "AZFW\\_Hub."
 - uid: "com.azure.resourcemanager.network.models.AzureFirewallSkuName.AZFW_VNET"
   fullName: "com.azure.resourcemanager.network.models.AzureFirewallSkuName.AZFW_VNET"
   name: "AZFW_VNET"
   nameWithType: "AzureFirewallSkuName.AZFW_VNET"
-  summary: "Static value AZFW\\_VNet for Azure<wbr>Firewall<wbr>Sku<wbr>Name."
+  summary: "AZFW\\_VNet."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AzureFirewallSkuName?alt=com.azure.resourcemanager.network.models.AzureFirewallSkuName&text=AzureFirewallSkuName\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AzureFirewallSkuName AZFW_VNET"
-  desc: "Static value AZFW\\_VNet for AzureFirewallSkuName."
+  desc: "AZFW\\_VNet."
 methods:
 - uid: "com.azure.resourcemanager.network.models.AzureFirewallSkuName.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.AzureFirewallSkuName.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Name of an Azure Firewall SKU."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

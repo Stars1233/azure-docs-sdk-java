@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.AssociationType.ASSOCIATED"
   name: "ASSOCIATED"
   nameWithType: "AssociationType.ASSOCIATED"
-  summary: "Static value Associated for Association<wbr>Type."
+  summary: "Associated."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AssociationType?alt=com.azure.resourcemanager.network.models.AssociationType&text=AssociationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AssociationType ASSOCIATED"
-  desc: "Static value Associated for AssociationType."
+  desc: "Associated."
 - uid: "com.azure.resourcemanager.network.models.AssociationType.CONTAINS"
   fullName: "com.azure.resourcemanager.network.models.AssociationType.CONTAINS"
   name: "CONTAINS"
   nameWithType: "AssociationType.CONTAINS"
-  summary: "Static value Contains for Association<wbr>Type."
+  summary: "Contains."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AssociationType?alt=com.azure.resourcemanager.network.models.AssociationType&text=AssociationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AssociationType CONTAINS"
-  desc: "Static value Contains for AssociationType."
+  desc: "Contains."
 methods:
 - uid: "com.azure.resourcemanager.network.models.AssociationType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.AssociationType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The association type of the child resource to the parent resource."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

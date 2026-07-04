@@ -57,6 +57,16 @@ methods:
   returns:
     description: "the allowRemoteVnetToUseHubVnetGateways value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+- uid: "com.azure.resourcemanager.network.fluent.models.HubVirtualNetworkConnectionInner.connectionPolicy()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.HubVirtualNetworkConnectionInner.connectionPolicy()"
+  name: "connectionPolicy()"
+  nameWithType: "HubVirtualNetworkConnectionInner.connectionPolicy()"
+  summary: "Get the connection<wbr>Policy property: The resource id of the Connection<wbr>Policy associated with this Hub<wbr>Virtual<wbr>Network<wbr>Connection."
+  syntax: "public SubResource connectionPolicy()"
+  desc: "Get the connectionPolicy property: The resource id of the ConnectionPolicy associated with this HubVirtualNetworkConnection."
+  returns:
+    description: "the connectionPolicy value."
+    type: "<xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.HubVirtualNetworkConnectionInner.enableInternetSecurity()"
   fullName: "com.azure.resourcemanager.network.fluent.models.HubVirtualNetworkConnectionInner.enableInternetSecurity()"
   name: "enableInternetSecurity()"
@@ -184,6 +194,20 @@ methods:
   returns:
     description: "the HubVirtualNetworkConnectionInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.HubVirtualNetworkConnectionInner?alt=com.azure.resourcemanager.network.fluent.models.HubVirtualNetworkConnectionInner&text=HubVirtualNetworkConnectionInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.models.HubVirtualNetworkConnectionInner.withConnectionPolicy(com.azure.core.management.SubResource)"
+  fullName: "com.azure.resourcemanager.network.fluent.models.HubVirtualNetworkConnectionInner.withConnectionPolicy(SubResource connectionPolicy)"
+  name: "withConnectionPolicy(SubResource connectionPolicy)"
+  nameWithType: "HubVirtualNetworkConnectionInner.withConnectionPolicy(SubResource connectionPolicy)"
+  summary: "Set the connection<wbr>Policy property: The resource id of the Connection<wbr>Policy associated with this Hub<wbr>Virtual<wbr>Network<wbr>Connection."
+  parameters:
+  - description: "the connectionPolicy value to set."
+    name: "connectionPolicy"
+    type: "<xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public HubVirtualNetworkConnectionInner withConnectionPolicy(SubResource connectionPolicy)"
+  desc: "Set the connectionPolicy property: The resource id of the ConnectionPolicy associated with this HubVirtualNetworkConnection."
+  returns:
+    description: "the HubVirtualNetworkConnectionInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.HubVirtualNetworkConnectionInner?alt=com.azure.resourcemanager.network.fluent.models.HubVirtualNetworkConnectionInner&text=HubVirtualNetworkConnectionInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.HubVirtualNetworkConnectionInner.withEnableInternetSecurity(java.lang.Boolean)"
   fullName: "com.azure.resourcemanager.network.fluent.models.HubVirtualNetworkConnectionInner.withEnableInternetSecurity(Boolean enableInternetSecurity)"
   name: "withEnableInternetSecurity(Boolean enableInternetSecurity)"
@@ -255,4 +279,4 @@ type: "class"
 desc: "HubVirtualNetworkConnection Resource."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

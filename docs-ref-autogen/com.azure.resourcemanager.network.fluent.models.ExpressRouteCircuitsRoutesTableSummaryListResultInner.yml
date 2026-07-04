@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ExpressRouteCircuitsRoutesTableSummaryListResultInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitsRoutesTableSummaryListResultInner?alt=com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitsRoutesTableSummaryListResultInner&text=ExpressRouteCircuitsRoutesTableSummaryListResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitsRoutesTableSummaryListResultInner.ExpressRouteCircuitsRoutesTableSummaryListResultInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitsRoutesTableSummaryListResultInner.ExpressRouteCircuitsRoutesTableSummaryListResultInner()"
-  name: "ExpressRouteCircuitsRoutesTableSummaryListResultInner()"
-  nameWithType: "ExpressRouteCircuitsRoutesTableSummaryListResultInner.ExpressRouteCircuitsRoutesTableSummaryListResultInner()"
-  summary: "Creates an instance of Express<wbr>Route<wbr>Circuits<wbr>Routes<wbr>Table<wbr>Summary<wbr>List<wbr>Result<wbr>Inner class."
-  syntax: "public ExpressRouteCircuitsRoutesTableSummaryListResultInner()"
-  desc: "Creates an instance of ExpressRouteCircuitsRoutesTableSummaryListResultInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitsRoutesTableSummaryListResultInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitsRoutesTableSummaryListResultInner.fromJson(JsonReader jsonReader)"
@@ -43,7 +35,7 @@ methods:
     type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static ExpressRouteCircuitsRoutesTableSummaryListResultInner fromJson(JsonReader jsonReader)"
   exceptions:
-  - description: "If an error occurs while reading the ExpressRouteCircuitsRoutesTableSummaryListResultInner."
+  - description: "If the deserialized JSON object was missing any required properties."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   desc: "Reads an instance of ExpressRouteCircuitsRoutesTableSummaryListResultInner from the JsonReader."
   returns:
@@ -53,9 +45,9 @@ methods:
   fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitsRoutesTableSummaryListResultInner.nextLink()"
   name: "nextLink()"
   nameWithType: "ExpressRouteCircuitsRoutesTableSummaryListResultInner.nextLink()"
-  summary: "Get the next<wbr>Link property: The URL to get the next set of results."
+  summary: "Get the next<wbr>Link property: The link to the next page of items."
   syntax: "public String nextLink()"
-  desc: "Get the nextLink property: The URL to get the next set of results."
+  desc: "Get the nextLink property: The link to the next page of items."
   returns:
     description: "the nextLink value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -82,44 +74,16 @@ methods:
   fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitsRoutesTableSummaryListResultInner.value()"
   name: "value()"
   nameWithType: "ExpressRouteCircuitsRoutesTableSummaryListResultInner.value()"
-  summary: "Get the value property: A list of the routes table."
+  summary: "Get the value property: The Express<wbr>Route<wbr>Circuit<wbr>Routes<wbr>Table<wbr>Summary items on this page."
   syntax: "public List<ExpressRouteCircuitRoutesTableSummary> value()"
-  desc: "Get the value property: A list of the routes table."
+  desc: "Get the value property: The ExpressRouteCircuitRoutesTableSummary items on this page."
   returns:
     description: "the value value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTableSummary?alt=com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTableSummary&text=ExpressRouteCircuitRoutesTableSummary\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitsRoutesTableSummaryListResultInner.withNextLink(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitsRoutesTableSummaryListResultInner.withNextLink(String nextLink)"
-  name: "withNextLink(String nextLink)"
-  nameWithType: "ExpressRouteCircuitsRoutesTableSummaryListResultInner.withNextLink(String nextLink)"
-  summary: "Set the next<wbr>Link property: The URL to get the next set of results."
-  parameters:
-  - description: "the nextLink value to set."
-    name: "nextLink"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ExpressRouteCircuitsRoutesTableSummaryListResultInner withNextLink(String nextLink)"
-  desc: "Set the nextLink property: The URL to get the next set of results."
-  returns:
-    description: "the ExpressRouteCircuitsRoutesTableSummaryListResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitsRoutesTableSummaryListResultInner?alt=com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitsRoutesTableSummaryListResultInner&text=ExpressRouteCircuitsRoutesTableSummaryListResultInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitsRoutesTableSummaryListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTableSummary>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitsRoutesTableSummaryListResultInner.withValue(List<ExpressRouteCircuitRoutesTableSummary> value)"
-  name: "withValue(List<ExpressRouteCircuitRoutesTableSummary> value)"
-  nameWithType: "ExpressRouteCircuitsRoutesTableSummaryListResultInner.withValue(List<ExpressRouteCircuitRoutesTableSummary> value)"
-  summary: "Set the value property: A list of the routes table."
-  parameters:
-  - description: "the value value to set."
-    name: "value"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTableSummary?alt=com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTableSummary&text=ExpressRouteCircuitRoutesTableSummary\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public ExpressRouteCircuitsRoutesTableSummaryListResultInner withValue(List<ExpressRouteCircuitRoutesTableSummary> value)"
-  desc: "Set the value property: A list of the routes table."
-  returns:
-    description: "the ExpressRouteCircuitsRoutesTableSummaryListResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitsRoutesTableSummaryListResultInner?alt=com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitsRoutesTableSummaryListResultInner&text=ExpressRouteCircuitsRoutesTableSummaryListResultInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Response for ListRoutesTable associated with the Express Route Circuits API."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitsRoutesTableSummaryListResultInner?alt=com.azure.resourcemanager.network.fluent.models.ExpressRouteCircuitsRoutesTableSummaryListResultInner&text=ExpressRouteCircuitsRoutesTableSummaryListResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

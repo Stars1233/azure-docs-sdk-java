@@ -28,14 +28,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ApplicationGatewayPrivateLinkResourceInner**</br> extends <xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateLinkResourceInner.ApplicationGatewayPrivateLinkResourceInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateLinkResourceInner.ApplicationGatewayPrivateLinkResourceInner()"
-  name: "ApplicationGatewayPrivateLinkResourceInner()"
-  nameWithType: "ApplicationGatewayPrivateLinkResourceInner.ApplicationGatewayPrivateLinkResourceInner()"
-  summary: "Creates an instance of Application<wbr>Gateway<wbr>Private<wbr>Link<wbr>Resource<wbr>Inner class."
-  syntax: "public ApplicationGatewayPrivateLinkResourceInner()"
-  desc: "Creates an instance of ApplicationGatewayPrivateLinkResourceInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateLinkResourceInner.etag()"
   fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateLinkResourceInner.etag()"
@@ -136,47 +128,8 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateLinkResourceInner.withId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateLinkResourceInner.withId(String id)"
-  name: "withId(String id)"
-  nameWithType: "ApplicationGatewayPrivateLinkResourceInner.withId(String id)"
-  overridden: "com.azure.core.management.SubResource.withId(java.lang.String)"
-  parameters:
-  - name: "id"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ApplicationGatewayPrivateLinkResourceInner withId(String id)"
-  returns:
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateLinkResourceInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateLinkResourceInner&text=ApplicationGatewayPrivateLinkResourceInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateLinkResourceInner.withName(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateLinkResourceInner.withName(String name)"
-  name: "withName(String name)"
-  nameWithType: "ApplicationGatewayPrivateLinkResourceInner.withName(String name)"
-  summary: "Set the name property: Name of the private link resource that is unique within an Application Gateway."
-  parameters:
-  - description: "the name value to set."
-    name: "name"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ApplicationGatewayPrivateLinkResourceInner withName(String name)"
-  desc: "Set the name property: Name of the private link resource that is unique within an Application Gateway."
-  returns:
-    description: "the ApplicationGatewayPrivateLinkResourceInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateLinkResourceInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateLinkResourceInner&text=ApplicationGatewayPrivateLinkResourceInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateLinkResourceInner.withRequiredZoneNames(java.util.List<java.lang.String>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateLinkResourceInner.withRequiredZoneNames(List<String> requiredZoneNames)"
-  name: "withRequiredZoneNames(List<String> requiredZoneNames)"
-  nameWithType: "ApplicationGatewayPrivateLinkResourceInner.withRequiredZoneNames(List<String> requiredZoneNames)"
-  summary: "Set the required<wbr>Zone<wbr>Names property: Required DNS zone names of the the private link resource."
-  parameters:
-  - description: "the requiredZoneNames value to set."
-    name: "requiredZoneNames"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public ApplicationGatewayPrivateLinkResourceInner withRequiredZoneNames(List<String> requiredZoneNames)"
-  desc: "Set the requiredZoneNames property: Required DNS zone names of the the private link resource."
-  returns:
-    description: "the ApplicationGatewayPrivateLinkResourceInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateLinkResourceInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPrivateLinkResourceInner&text=ApplicationGatewayPrivateLinkResourceInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "PrivateLink Resource of an application gateway."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

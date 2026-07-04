@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ExpressRouteProviderPortListResultInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRouteProviderPortListResultInner?alt=com.azure.resourcemanager.network.fluent.models.ExpressRouteProviderPortListResultInner&text=ExpressRouteProviderPortListResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.ExpressRouteProviderPortListResultInner.ExpressRouteProviderPortListResultInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRouteProviderPortListResultInner.ExpressRouteProviderPortListResultInner()"
-  name: "ExpressRouteProviderPortListResultInner()"
-  nameWithType: "ExpressRouteProviderPortListResultInner.ExpressRouteProviderPortListResultInner()"
-  summary: "Creates an instance of Express<wbr>Route<wbr>Provider<wbr>Port<wbr>List<wbr>Result<wbr>Inner class."
-  syntax: "public ExpressRouteProviderPortListResultInner()"
-  desc: "Creates an instance of ExpressRouteProviderPortListResultInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.ExpressRouteProviderPortListResultInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRouteProviderPortListResultInner.fromJson(JsonReader jsonReader)"
@@ -43,7 +35,7 @@ methods:
     type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static ExpressRouteProviderPortListResultInner fromJson(JsonReader jsonReader)"
   exceptions:
-  - description: "If an error occurs while reading the ExpressRouteProviderPortListResultInner."
+  - description: "If the deserialized JSON object was missing any required properties."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   desc: "Reads an instance of ExpressRouteProviderPortListResultInner from the JsonReader."
   returns:
@@ -53,9 +45,9 @@ methods:
   fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRouteProviderPortListResultInner.nextLink()"
   name: "nextLink()"
   nameWithType: "ExpressRouteProviderPortListResultInner.nextLink()"
-  summary: "Get the next<wbr>Link property: The URL to get the next set of results."
+  summary: "Get the next<wbr>Link property: The link to the next page of items."
   syntax: "public String nextLink()"
-  desc: "Get the nextLink property: The URL to get the next set of results."
+  desc: "Get the nextLink property: The link to the next page of items."
   returns:
     description: "the nextLink value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -82,30 +74,16 @@ methods:
   fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRouteProviderPortListResultInner.value()"
   name: "value()"
   nameWithType: "ExpressRouteProviderPortListResultInner.value()"
-  summary: "Get the value property: A list of Express<wbr>Route<wbr>Provider<wbr>Port resources."
+  summary: "Get the value property: The Express<wbr>Route<wbr>Provider<wbr>Port items on this page."
   syntax: "public List<ExpressRouteProviderPortInner> value()"
-  desc: "Get the value property: A list of ExpressRouteProviderPort resources."
+  desc: "Get the value property: The ExpressRouteProviderPort items on this page."
   returns:
     description: "the value value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRouteProviderPortInner?alt=com.azure.resourcemanager.network.fluent.models.ExpressRouteProviderPortInner&text=ExpressRouteProviderPortInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.network.fluent.models.ExpressRouteProviderPortListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.fluent.models.ExpressRouteProviderPortInner>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRouteProviderPortListResultInner.withValue(List<ExpressRouteProviderPortInner> value)"
-  name: "withValue(List<ExpressRouteProviderPortInner> value)"
-  nameWithType: "ExpressRouteProviderPortListResultInner.withValue(List<ExpressRouteProviderPortInner> value)"
-  summary: "Set the value property: A list of Express<wbr>Route<wbr>Provider<wbr>Port resources."
-  parameters:
-  - description: "the value value to set."
-    name: "value"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRouteProviderPortInner?alt=com.azure.resourcemanager.network.fluent.models.ExpressRouteProviderPortInner&text=ExpressRouteProviderPortInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public ExpressRouteProviderPortListResultInner withValue(List<ExpressRouteProviderPortInner> value)"
-  desc: "Set the value property: A list of ExpressRouteProviderPort resources."
-  returns:
-    description: "the ExpressRouteProviderPortListResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRouteProviderPortListResultInner?alt=com.azure.resourcemanager.network.fluent.models.ExpressRouteProviderPortListResultInner&text=ExpressRouteProviderPortListResultInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Response for ListExpressRouteProviderPort API service call."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRouteProviderPortListResultInner?alt=com.azure.resourcemanager.network.fluent.models.ExpressRouteProviderPortListResultInner&text=ExpressRouteProviderPortListResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayFirewallRateLimitDuration.FIVE_MINS"
   name: "FIVE_MINS"
   nameWithType: "ApplicationGatewayFirewallRateLimitDuration.FIVE_MINS"
-  summary: "Static value Five<wbr>Mins for Application<wbr>Gateway<wbr>Firewall<wbr>Rate<wbr>Limit<wbr>Duration."
+  summary: "Five<wbr>Mins."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayFirewallRateLimitDuration?alt=com.azure.resourcemanager.network.models.ApplicationGatewayFirewallRateLimitDuration&text=ApplicationGatewayFirewallRateLimitDuration\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayFirewallRateLimitDuration FIVE_MINS"
-  desc: "Static value FiveMins for ApplicationGatewayFirewallRateLimitDuration."
+  desc: "FiveMins."
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayFirewallRateLimitDuration.ONE_MIN"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayFirewallRateLimitDuration.ONE_MIN"
   name: "ONE_MIN"
   nameWithType: "ApplicationGatewayFirewallRateLimitDuration.ONE_MIN"
-  summary: "Static value One<wbr>Min for Application<wbr>Gateway<wbr>Firewall<wbr>Rate<wbr>Limit<wbr>Duration."
+  summary: "One<wbr>Min."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayFirewallRateLimitDuration?alt=com.azure.resourcemanager.network.models.ApplicationGatewayFirewallRateLimitDuration&text=ApplicationGatewayFirewallRateLimitDuration\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayFirewallRateLimitDuration ONE_MIN"
-  desc: "Static value OneMin for ApplicationGatewayFirewallRateLimitDuration."
+  desc: "OneMin."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayFirewallRateLimitDuration.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayFirewallRateLimitDuration.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Duration over which Rate Limit policy will be applied. Applies only when ruleType is RateLimitRule."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

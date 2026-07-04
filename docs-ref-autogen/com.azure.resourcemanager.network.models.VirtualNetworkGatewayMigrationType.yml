@@ -42,14 +42,14 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayMigrationType.UPGRADE_DEPLOYMENT_TO_STANDARD_IP"
   name: "UPGRADE_DEPLOYMENT_TO_STANDARD_IP"
   nameWithType: "VirtualNetworkGatewayMigrationType.UPGRADE_DEPLOYMENT_TO_STANDARD_IP"
-  summary: "Static value Upgrade<wbr>Deployment<wbr>ToStandardIP for Virtual<wbr>Network<wbr>Gateway<wbr>Migration<wbr>Type."
+  summary: "Indicates that it is a migration process from basic IP CSES to standard IP VMSS."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualNetworkGatewayMigrationType?alt=com.azure.resourcemanager.network.models.VirtualNetworkGatewayMigrationType&text=VirtualNetworkGatewayMigrationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualNetworkGatewayMigrationType UPGRADE_DEPLOYMENT_TO_STANDARD_IP"
-  desc: "Static value UpgradeDeploymentToStandardIP for VirtualNetworkGatewayMigrationType."
+  desc: "Indicates that it is a migration process from basic IP CSES to standard IP VMSS."
 methods:
 - uid: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayMigrationType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayMigrationType.fromString(String name)"
@@ -83,4 +83,4 @@ type: "class"
 desc: "MigrationType for the virtual network gateway."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

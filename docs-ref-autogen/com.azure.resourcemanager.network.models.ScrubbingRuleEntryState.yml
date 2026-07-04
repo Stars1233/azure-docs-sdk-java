@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ScrubbingRuleEntryState.DISABLED"
   name: "DISABLED"
   nameWithType: "ScrubbingRuleEntryState.DISABLED"
-  summary: "Static value Disabled for Scrubbing<wbr>Rule<wbr>Entry<wbr>State."
+  summary: "Disabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ScrubbingRuleEntryState?alt=com.azure.resourcemanager.network.models.ScrubbingRuleEntryState&text=ScrubbingRuleEntryState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ScrubbingRuleEntryState DISABLED"
-  desc: "Static value Disabled for ScrubbingRuleEntryState."
+  desc: "Disabled."
 - uid: "com.azure.resourcemanager.network.models.ScrubbingRuleEntryState.ENABLED"
   fullName: "com.azure.resourcemanager.network.models.ScrubbingRuleEntryState.ENABLED"
   name: "ENABLED"
   nameWithType: "ScrubbingRuleEntryState.ENABLED"
-  summary: "Static value Enabled for Scrubbing<wbr>Rule<wbr>Entry<wbr>State."
+  summary: "Enabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ScrubbingRuleEntryState?alt=com.azure.resourcemanager.network.models.ScrubbingRuleEntryState&text=ScrubbingRuleEntryState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ScrubbingRuleEntryState ENABLED"
-  desc: "Static value Enabled for ScrubbingRuleEntryState."
+  desc: "Enabled."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ScrubbingRuleEntryState.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ScrubbingRuleEntryState.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Defines the state of log scrubbing rule. Default value is Enabled."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

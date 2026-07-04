@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **AzureFirewallPacketCaptureResponseInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallPacketCaptureResponseInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallPacketCaptureResponseInner&text=AzureFirewallPacketCaptureResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.AzureFirewallPacketCaptureResponseInner.AzureFirewallPacketCaptureResponseInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.AzureFirewallPacketCaptureResponseInner.AzureFirewallPacketCaptureResponseInner()"
-  name: "AzureFirewallPacketCaptureResponseInner()"
-  nameWithType: "AzureFirewallPacketCaptureResponseInner.AzureFirewallPacketCaptureResponseInner()"
-  summary: "Creates an instance of Azure<wbr>Firewall<wbr>Packet<wbr>Capture<wbr>Response<wbr>Inner class."
-  syntax: "public AzureFirewallPacketCaptureResponseInner()"
-  desc: "Creates an instance of AzureFirewallPacketCaptureResponseInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.AzureFirewallPacketCaptureResponseInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.AzureFirewallPacketCaptureResponseInner.fromJson(JsonReader jsonReader)"
@@ -88,38 +80,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.AzureFirewallPacketCaptureResponseInner.withMessage(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.AzureFirewallPacketCaptureResponseInner.withMessage(String message)"
-  name: "withMessage(String message)"
-  nameWithType: "AzureFirewallPacketCaptureResponseInner.withMessage(String message)"
-  summary: "Set the message property: Localized Message String of The Result Of The Azure Firewall Packet Capture Operation."
-  parameters:
-  - description: "the message value to set."
-    name: "message"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public AzureFirewallPacketCaptureResponseInner withMessage(String message)"
-  desc: "Set the message property: Localized Message String of The Result Of The Azure Firewall Packet Capture Operation."
-  returns:
-    description: "the AzureFirewallPacketCaptureResponseInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallPacketCaptureResponseInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallPacketCaptureResponseInner&text=AzureFirewallPacketCaptureResponseInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.AzureFirewallPacketCaptureResponseInner.withStatusCode(com.azure.resourcemanager.network.models.AzureFirewallPacketCaptureResponseCode)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.AzureFirewallPacketCaptureResponseInner.withStatusCode(AzureFirewallPacketCaptureResponseCode statusCode)"
-  name: "withStatusCode(AzureFirewallPacketCaptureResponseCode statusCode)"
-  nameWithType: "AzureFirewallPacketCaptureResponseInner.withStatusCode(AzureFirewallPacketCaptureResponseCode statusCode)"
-  summary: "Set the status<wbr>Code property: The response code of the performed packet capture operation."
-  parameters:
-  - description: "the statusCode value to set."
-    name: "statusCode"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.AzureFirewallPacketCaptureResponseCode?alt=com.azure.resourcemanager.network.models.AzureFirewallPacketCaptureResponseCode&text=AzureFirewallPacketCaptureResponseCode\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public AzureFirewallPacketCaptureResponseInner withStatusCode(AzureFirewallPacketCaptureResponseCode statusCode)"
-  desc: "Set the statusCode property: The response code of the performed packet capture operation."
-  returns:
-    description: "the AzureFirewallPacketCaptureResponseInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallPacketCaptureResponseInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallPacketCaptureResponseInner&text=AzureFirewallPacketCaptureResponseInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Response of an Azure Firewall Packet Capture Operation."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallPacketCaptureResponseInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallPacketCaptureResponseInner&text=AzureFirewallPacketCaptureResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

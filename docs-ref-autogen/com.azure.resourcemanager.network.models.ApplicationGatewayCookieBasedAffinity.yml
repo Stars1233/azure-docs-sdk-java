@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayCookieBasedAffinity.DISABLED"
   name: "DISABLED"
   nameWithType: "ApplicationGatewayCookieBasedAffinity.DISABLED"
-  summary: "Static value Disabled for Application<wbr>Gateway<wbr>Cookie<wbr>Based<wbr>Affinity."
+  summary: "Disabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayCookieBasedAffinity?alt=com.azure.resourcemanager.network.models.ApplicationGatewayCookieBasedAffinity&text=ApplicationGatewayCookieBasedAffinity\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayCookieBasedAffinity DISABLED"
-  desc: "Static value Disabled for ApplicationGatewayCookieBasedAffinity."
+  desc: "Disabled."
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayCookieBasedAffinity.ENABLED"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayCookieBasedAffinity.ENABLED"
   name: "ENABLED"
   nameWithType: "ApplicationGatewayCookieBasedAffinity.ENABLED"
-  summary: "Static value Enabled for Application<wbr>Gateway<wbr>Cookie<wbr>Based<wbr>Affinity."
+  summary: "Enabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayCookieBasedAffinity?alt=com.azure.resourcemanager.network.models.ApplicationGatewayCookieBasedAffinity&text=ApplicationGatewayCookieBasedAffinity\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayCookieBasedAffinity ENABLED"
-  desc: "Static value Enabled for ApplicationGatewayCookieBasedAffinity."
+  desc: "Enabled."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayCookieBasedAffinity.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayCookieBasedAffinity.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Cookie based affinity."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

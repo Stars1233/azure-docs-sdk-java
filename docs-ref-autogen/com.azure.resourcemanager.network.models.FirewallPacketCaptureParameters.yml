@@ -103,9 +103,9 @@ methods:
   fullName: "com.azure.resourcemanager.network.models.FirewallPacketCaptureParameters.operation()"
   name: "operation()"
   nameWithType: "FirewallPacketCaptureParameters.operation()"
-  summary: "Get the operation property: The Azure Firewall packet capture operation to perform."
+  summary: "Get the operation property: The packet capture operation to perform."
   syntax: "public AzureFirewallPacketCaptureOperationType operation()"
-  desc: "Get the operation property: The Azure Firewall packet capture operation to perform."
+  desc: "Get the operation property: The packet capture operation to perform. If the Start operation is selected, please provide all the fields in the firewallPacketCaptureParameters to successfully initiate the packet capture. If the Status or Stop operation is selected, only the operation field is required; all other fields in the firewallPacketCaptureParameters can be omitted to successfully retrieve the capture status or stop the capture."
   returns:
     description: "the operation value."
     type: "<xref href=\"com.azure.resourcemanager.network.models.AzureFirewallPacketCaptureOperationType?alt=com.azure.resourcemanager.network.models.AzureFirewallPacketCaptureOperationType&text=AzureFirewallPacketCaptureOperationType\" data-throw-if-not-resolved=\"False\" />"
@@ -222,13 +222,13 @@ methods:
   fullName: "com.azure.resourcemanager.network.models.FirewallPacketCaptureParameters.withOperation(AzureFirewallPacketCaptureOperationType operation)"
   name: "withOperation(AzureFirewallPacketCaptureOperationType operation)"
   nameWithType: "FirewallPacketCaptureParameters.withOperation(AzureFirewallPacketCaptureOperationType operation)"
-  summary: "Set the operation property: The Azure Firewall packet capture operation to perform."
+  summary: "Set the operation property: The packet capture operation to perform."
   parameters:
   - description: "the operation value to set."
     name: "operation"
     type: "<xref href=\"com.azure.resourcemanager.network.models.AzureFirewallPacketCaptureOperationType?alt=com.azure.resourcemanager.network.models.AzureFirewallPacketCaptureOperationType&text=AzureFirewallPacketCaptureOperationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public FirewallPacketCaptureParameters withOperation(AzureFirewallPacketCaptureOperationType operation)"
-  desc: "Set the operation property: The Azure Firewall packet capture operation to perform."
+  desc: "Set the operation property: The packet capture operation to perform. If the Start operation is selected, please provide all the fields in the firewallPacketCaptureParameters to successfully initiate the packet capture. If the Status or Stop operation is selected, only the operation field is required; all other fields in the firewallPacketCaptureParameters can be omitted to successfully retrieve the capture status or stop the capture."
   returns:
     description: "the FirewallPacketCaptureParameters object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPacketCaptureParameters?alt=com.azure.resourcemanager.network.models.FirewallPacketCaptureParameters&text=FirewallPacketCaptureParameters\" data-throw-if-not-resolved=\"False\" />"
@@ -266,4 +266,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.FirewallPacketCaptureParameters?alt=com.azure.resourcemanager.network.models.FirewallPacketCaptureParameters&text=FirewallPacketCaptureParameters\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

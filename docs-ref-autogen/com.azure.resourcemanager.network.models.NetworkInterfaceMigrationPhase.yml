@@ -42,62 +42,62 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.NetworkInterfaceMigrationPhase.ABORT"
   name: "ABORT"
   nameWithType: "NetworkInterfaceMigrationPhase.ABORT"
-  summary: "Static value Abort for Network<wbr>Interface<wbr>Migration<wbr>Phase."
+  summary: "Abort."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.NetworkInterfaceMigrationPhase?alt=com.azure.resourcemanager.network.models.NetworkInterfaceMigrationPhase&text=NetworkInterfaceMigrationPhase\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NetworkInterfaceMigrationPhase ABORT"
-  desc: "Static value Abort for NetworkInterfaceMigrationPhase."
+  desc: "Abort."
 - uid: "com.azure.resourcemanager.network.models.NetworkInterfaceMigrationPhase.COMMIT"
   fullName: "com.azure.resourcemanager.network.models.NetworkInterfaceMigrationPhase.COMMIT"
   name: "COMMIT"
   nameWithType: "NetworkInterfaceMigrationPhase.COMMIT"
-  summary: "Static value Commit for Network<wbr>Interface<wbr>Migration<wbr>Phase."
+  summary: "Commit."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.NetworkInterfaceMigrationPhase?alt=com.azure.resourcemanager.network.models.NetworkInterfaceMigrationPhase&text=NetworkInterfaceMigrationPhase\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NetworkInterfaceMigrationPhase COMMIT"
-  desc: "Static value Commit for NetworkInterfaceMigrationPhase."
+  desc: "Commit."
 - uid: "com.azure.resourcemanager.network.models.NetworkInterfaceMigrationPhase.COMMITTED"
   fullName: "com.azure.resourcemanager.network.models.NetworkInterfaceMigrationPhase.COMMITTED"
   name: "COMMITTED"
   nameWithType: "NetworkInterfaceMigrationPhase.COMMITTED"
-  summary: "Static value Committed for Network<wbr>Interface<wbr>Migration<wbr>Phase."
+  summary: "Committed."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.NetworkInterfaceMigrationPhase?alt=com.azure.resourcemanager.network.models.NetworkInterfaceMigrationPhase&text=NetworkInterfaceMigrationPhase\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NetworkInterfaceMigrationPhase COMMITTED"
-  desc: "Static value Committed for NetworkInterfaceMigrationPhase."
+  desc: "Committed."
 - uid: "com.azure.resourcemanager.network.models.NetworkInterfaceMigrationPhase.NONE"
   fullName: "com.azure.resourcemanager.network.models.NetworkInterfaceMigrationPhase.NONE"
   name: "NONE"
   nameWithType: "NetworkInterfaceMigrationPhase.NONE"
-  summary: "Static value None for Network<wbr>Interface<wbr>Migration<wbr>Phase."
+  summary: "None."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.NetworkInterfaceMigrationPhase?alt=com.azure.resourcemanager.network.models.NetworkInterfaceMigrationPhase&text=NetworkInterfaceMigrationPhase\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NetworkInterfaceMigrationPhase NONE"
-  desc: "Static value None for NetworkInterfaceMigrationPhase."
+  desc: "None."
 - uid: "com.azure.resourcemanager.network.models.NetworkInterfaceMigrationPhase.PREPARE"
   fullName: "com.azure.resourcemanager.network.models.NetworkInterfaceMigrationPhase.PREPARE"
   name: "PREPARE"
   nameWithType: "NetworkInterfaceMigrationPhase.PREPARE"
-  summary: "Static value Prepare for Network<wbr>Interface<wbr>Migration<wbr>Phase."
+  summary: "Prepare."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.NetworkInterfaceMigrationPhase?alt=com.azure.resourcemanager.network.models.NetworkInterfaceMigrationPhase&text=NetworkInterfaceMigrationPhase\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NetworkInterfaceMigrationPhase PREPARE"
-  desc: "Static value Prepare for NetworkInterfaceMigrationPhase."
+  desc: "Prepare."
 methods:
 - uid: "com.azure.resourcemanager.network.models.NetworkInterfaceMigrationPhase.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.NetworkInterfaceMigrationPhase.fromString(String name)"
@@ -131,4 +131,4 @@ type: "class"
 desc: "Migration phase of Network Interface resource."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

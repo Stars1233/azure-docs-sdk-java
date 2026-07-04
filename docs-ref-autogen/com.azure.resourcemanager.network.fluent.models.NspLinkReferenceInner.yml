@@ -33,14 +33,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **NspLinkReferenceInner**</br> extends <xref href=\"com.azure.resourcemanager.network.models.SecurityPerimeterProxyResource?alt=com.azure.resourcemanager.network.models.SecurityPerimeterProxyResource&text=SecurityPerimeterProxyResource\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.NspLinkReferenceInner.NspLinkReferenceInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NspLinkReferenceInner.NspLinkReferenceInner()"
-  name: "NspLinkReferenceInner()"
-  nameWithType: "NspLinkReferenceInner.NspLinkReferenceInner()"
-  summary: "Creates an instance of Nsp<wbr>Link<wbr>Reference<wbr>Inner class."
-  syntax: "public NspLinkReferenceInner()"
-  desc: "Creates an instance of NspLinkReferenceInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.NspLinkReferenceInner.description()"
   fullName: "com.azure.resourcemanager.network.fluent.models.NspLinkReferenceInner.description()"
@@ -189,11 +181,11 @@ methods:
   nameWithType: "NspLinkReferenceInner.systemData()"
   summary: "Get the system<wbr>Data property: Azure Resource Manager metadata containing created<wbr>By and modified<wbr>By information."
   overridden: "com.azure.resourcemanager.network.models.SecurityPerimeterProxyResource.systemData()"
-  syntax: "public SecurityPerimeterSystemData systemData()"
+  syntax: "public SystemData systemData()"
   desc: "Get the systemData property: Azure Resource Manager metadata containing createdBy and modifiedBy information."
   returns:
     description: "the systemData value."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.SecurityPerimeterSystemData?alt=com.azure.resourcemanager.network.models.SecurityPerimeterSystemData&text=SecurityPerimeterSystemData\" data-throw-if-not-resolved=\"False\" />"
+    type: "<xref href=\"com.azure.core.management.SystemData?alt=com.azure.core.management.SystemData&text=SystemData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.NspLinkReferenceInner.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.network.fluent.models.NspLinkReferenceInner.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -226,36 +218,8 @@ methods:
   overridden: "com.azure.resourcemanager.network.models.SecurityPerimeterProxyResource.validate()"
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.NspLinkReferenceInner.withLocalInboundProfiles(java.util.List<java.lang.String>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NspLinkReferenceInner.withLocalInboundProfiles(List<String> localInboundProfiles)"
-  name: "withLocalInboundProfiles(List<String> localInboundProfiles)"
-  nameWithType: "NspLinkReferenceInner.withLocalInboundProfiles(List<String> localInboundProfiles)"
-  summary: "Set the local<wbr>Inbound<wbr>Profiles property: Local Inbound profile names to which Inbound is allowed."
-  parameters:
-  - description: "the localInboundProfiles value to set."
-    name: "localInboundProfiles"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public NspLinkReferenceInner withLocalInboundProfiles(List<String> localInboundProfiles)"
-  desc: "Set the localInboundProfiles property: Local Inbound profile names to which Inbound is allowed. Use \\['\\*'\\] to allow inbound to all profiles."
-  returns:
-    description: "the NspLinkReferenceInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NspLinkReferenceInner?alt=com.azure.resourcemanager.network.fluent.models.NspLinkReferenceInner&text=NspLinkReferenceInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.NspLinkReferenceInner.withStatus(com.azure.resourcemanager.network.models.NspLinkStatus)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NspLinkReferenceInner.withStatus(NspLinkStatus status)"
-  name: "withStatus(NspLinkStatus status)"
-  nameWithType: "NspLinkReferenceInner.withStatus(NspLinkStatus status)"
-  summary: "Set the status property: The NSP link<wbr>Reference state."
-  parameters:
-  - description: "the status value to set."
-    name: "status"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.NspLinkStatus?alt=com.azure.resourcemanager.network.models.NspLinkStatus&text=NspLinkStatus\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public NspLinkReferenceInner withStatus(NspLinkStatus status)"
-  desc: "Set the status property: The NSP linkReference state. It cannot be changed if link is created in auto-approval mode."
-  returns:
-    description: "the NspLinkReferenceInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NspLinkReferenceInner?alt=com.azure.resourcemanager.network.fluent.models.NspLinkReferenceInner&text=NspLinkReferenceInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The network security perimeter linkReference resource."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

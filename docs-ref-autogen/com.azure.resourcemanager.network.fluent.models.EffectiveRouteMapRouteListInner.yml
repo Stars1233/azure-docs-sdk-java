@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **EffectiveRouteMapRouteListInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.EffectiveRouteMapRouteListInner?alt=com.azure.resourcemanager.network.fluent.models.EffectiveRouteMapRouteListInner&text=EffectiveRouteMapRouteListInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.EffectiveRouteMapRouteListInner.EffectiveRouteMapRouteListInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.EffectiveRouteMapRouteListInner.EffectiveRouteMapRouteListInner()"
-  name: "EffectiveRouteMapRouteListInner()"
-  nameWithType: "EffectiveRouteMapRouteListInner.EffectiveRouteMapRouteListInner()"
-  summary: "Creates an instance of Effective<wbr>Route<wbr>Map<wbr>Route<wbr>List<wbr>Inner class."
-  syntax: "public EffectiveRouteMapRouteListInner()"
-  desc: "Creates an instance of EffectiveRouteMapRouteListInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.EffectiveRouteMapRouteListInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.EffectiveRouteMapRouteListInner.fromJson(JsonReader jsonReader)"
@@ -78,24 +70,10 @@ methods:
   returns:
     description: "the value value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.EffectiveRouteMapRoute?alt=com.azure.resourcemanager.network.models.EffectiveRouteMapRoute&text=EffectiveRouteMapRoute\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.network.fluent.models.EffectiveRouteMapRouteListInner.withValue(java.util.List<com.azure.resourcemanager.network.models.EffectiveRouteMapRoute>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.EffectiveRouteMapRouteListInner.withValue(List<EffectiveRouteMapRoute> value)"
-  name: "withValue(List<EffectiveRouteMapRoute> value)"
-  nameWithType: "EffectiveRouteMapRouteListInner.withValue(List<EffectiveRouteMapRoute> value)"
-  summary: "Set the value property: The list of Effective Route<wbr>Map Routes configured on the connection resource."
-  parameters:
-  - description: "the value value to set."
-    name: "value"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.EffectiveRouteMapRoute?alt=com.azure.resourcemanager.network.models.EffectiveRouteMapRoute&text=EffectiveRouteMapRoute\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public EffectiveRouteMapRouteListInner withValue(List<EffectiveRouteMapRoute> value)"
-  desc: "Set the value property: The list of Effective RouteMap Routes configured on the connection resource."
-  returns:
-    description: "the EffectiveRouteMapRouteListInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.EffectiveRouteMapRouteListInner?alt=com.azure.resourcemanager.network.fluent.models.EffectiveRouteMapRouteListInner&text=EffectiveRouteMapRouteListInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "EffectiveRouteMapRoute List."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.EffectiveRouteMapRouteListInner?alt=com.azure.resourcemanager.network.fluent.models.EffectiveRouteMapRouteListInner&text=EffectiveRouteMapRouteListInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

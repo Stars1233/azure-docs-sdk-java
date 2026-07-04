@@ -42,50 +42,50 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkPeeringLevel.FULLY_IN_SYNC"
   name: "FULLY_IN_SYNC"
   nameWithType: "VirtualNetworkPeeringLevel.FULLY_IN_SYNC"
-  summary: "Static value Fully<wbr>InSync for Virtual<wbr>Network<wbr>Peering<wbr>Level."
+  summary: "Fully<wbr>InSync."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualNetworkPeeringLevel?alt=com.azure.resourcemanager.network.models.VirtualNetworkPeeringLevel&text=VirtualNetworkPeeringLevel\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualNetworkPeeringLevel FULLY_IN_SYNC"
-  desc: "Static value FullyInSync for VirtualNetworkPeeringLevel."
+  desc: "FullyInSync."
 - uid: "com.azure.resourcemanager.network.models.VirtualNetworkPeeringLevel.LOCAL_AND_REMOTE_NOT_IN_SYNC"
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkPeeringLevel.LOCAL_AND_REMOTE_NOT_IN_SYNC"
   name: "LOCAL_AND_REMOTE_NOT_IN_SYNC"
   nameWithType: "VirtualNetworkPeeringLevel.LOCAL_AND_REMOTE_NOT_IN_SYNC"
-  summary: "Static value Local<wbr>And<wbr>Remote<wbr>Not<wbr>InSync for Virtual<wbr>Network<wbr>Peering<wbr>Level."
+  summary: "Local<wbr>And<wbr>Remote<wbr>Not<wbr>InSync."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualNetworkPeeringLevel?alt=com.azure.resourcemanager.network.models.VirtualNetworkPeeringLevel&text=VirtualNetworkPeeringLevel\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualNetworkPeeringLevel LOCAL_AND_REMOTE_NOT_IN_SYNC"
-  desc: "Static value LocalAndRemoteNotInSync for VirtualNetworkPeeringLevel."
+  desc: "LocalAndRemoteNotInSync."
 - uid: "com.azure.resourcemanager.network.models.VirtualNetworkPeeringLevel.LOCAL_NOT_IN_SYNC"
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkPeeringLevel.LOCAL_NOT_IN_SYNC"
   name: "LOCAL_NOT_IN_SYNC"
   nameWithType: "VirtualNetworkPeeringLevel.LOCAL_NOT_IN_SYNC"
-  summary: "Static value Local<wbr>Not<wbr>InSync for Virtual<wbr>Network<wbr>Peering<wbr>Level."
+  summary: "Local<wbr>Not<wbr>InSync."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualNetworkPeeringLevel?alt=com.azure.resourcemanager.network.models.VirtualNetworkPeeringLevel&text=VirtualNetworkPeeringLevel\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualNetworkPeeringLevel LOCAL_NOT_IN_SYNC"
-  desc: "Static value LocalNotInSync for VirtualNetworkPeeringLevel."
+  desc: "LocalNotInSync."
 - uid: "com.azure.resourcemanager.network.models.VirtualNetworkPeeringLevel.REMOTE_NOT_IN_SYNC"
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkPeeringLevel.REMOTE_NOT_IN_SYNC"
   name: "REMOTE_NOT_IN_SYNC"
   nameWithType: "VirtualNetworkPeeringLevel.REMOTE_NOT_IN_SYNC"
-  summary: "Static value Remote<wbr>Not<wbr>InSync for Virtual<wbr>Network<wbr>Peering<wbr>Level."
+  summary: "Remote<wbr>Not<wbr>InSync."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualNetworkPeeringLevel?alt=com.azure.resourcemanager.network.models.VirtualNetworkPeeringLevel&text=VirtualNetworkPeeringLevel\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualNetworkPeeringLevel REMOTE_NOT_IN_SYNC"
-  desc: "Static value RemoteNotInSync for VirtualNetworkPeeringLevel."
+  desc: "RemoteNotInSync."
 methods:
 - uid: "com.azure.resourcemanager.network.models.VirtualNetworkPeeringLevel.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkPeeringLevel.fromString(String name)"
@@ -119,4 +119,4 @@ type: "class"
 desc: "The peering sync status of the virtual network peering."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

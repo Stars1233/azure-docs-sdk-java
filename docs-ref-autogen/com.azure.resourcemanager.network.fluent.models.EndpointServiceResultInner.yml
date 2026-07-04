@@ -28,14 +28,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **EndpointServiceResultInner**</br> extends <xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.EndpointServiceResultInner.EndpointServiceResultInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.EndpointServiceResultInner.EndpointServiceResultInner()"
-  name: "EndpointServiceResultInner()"
-  nameWithType: "EndpointServiceResultInner.EndpointServiceResultInner()"
-  summary: "Creates an instance of Endpoint<wbr>Service<wbr>Result<wbr>Inner class."
-  syntax: "public EndpointServiceResultInner()"
-  desc: "Creates an instance of EndpointServiceResultInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.EndpointServiceResultInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.EndpointServiceResultInner.fromJson(JsonReader jsonReader)"
@@ -96,19 +88,8 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.EndpointServiceResultInner.withId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.EndpointServiceResultInner.withId(String id)"
-  name: "withId(String id)"
-  nameWithType: "EndpointServiceResultInner.withId(String id)"
-  overridden: "com.azure.core.management.SubResource.withId(java.lang.String)"
-  parameters:
-  - name: "id"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public EndpointServiceResultInner withId(String id)"
-  returns:
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.EndpointServiceResultInner?alt=com.azure.resourcemanager.network.fluent.models.EndpointServiceResultInner&text=EndpointServiceResultInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Endpoint service."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

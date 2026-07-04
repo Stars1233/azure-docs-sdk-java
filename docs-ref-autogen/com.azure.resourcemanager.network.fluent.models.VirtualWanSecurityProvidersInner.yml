@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **VirtualWanSecurityProvidersInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualWanSecurityProvidersInner?alt=com.azure.resourcemanager.network.fluent.models.VirtualWanSecurityProvidersInner&text=VirtualWanSecurityProvidersInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.VirtualWanSecurityProvidersInner.VirtualWanSecurityProvidersInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.VirtualWanSecurityProvidersInner.VirtualWanSecurityProvidersInner()"
-  name: "VirtualWanSecurityProvidersInner()"
-  nameWithType: "VirtualWanSecurityProvidersInner.VirtualWanSecurityProvidersInner()"
-  summary: "Creates an instance of Virtual<wbr>Wan<wbr>Security<wbr>Providers<wbr>Inner class."
-  syntax: "public VirtualWanSecurityProvidersInner()"
-  desc: "Creates an instance of VirtualWanSecurityProvidersInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.VirtualWanSecurityProvidersInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.VirtualWanSecurityProvidersInner.fromJson(JsonReader jsonReader)"
@@ -78,24 +70,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.VirtualWanSecurityProvidersInner.withSupportedProviders(java.util.List<com.azure.resourcemanager.network.models.VirtualWanSecurityProvider>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.VirtualWanSecurityProvidersInner.withSupportedProviders(List<VirtualWanSecurityProvider> supportedProviders)"
-  name: "withSupportedProviders(List<VirtualWanSecurityProvider> supportedProviders)"
-  nameWithType: "VirtualWanSecurityProvidersInner.withSupportedProviders(List<VirtualWanSecurityProvider> supportedProviders)"
-  summary: "Set the supported<wbr>Providers property: List of VirtualWAN security providers."
-  parameters:
-  - description: "the supportedProviders value to set."
-    name: "supportedProviders"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.VirtualWanSecurityProvider?alt=com.azure.resourcemanager.network.models.VirtualWanSecurityProvider&text=VirtualWanSecurityProvider\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public VirtualWanSecurityProvidersInner withSupportedProviders(List<VirtualWanSecurityProvider> supportedProviders)"
-  desc: "Set the supportedProviders property: List of VirtualWAN security providers."
-  returns:
-    description: "the VirtualWanSecurityProvidersInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualWanSecurityProvidersInner?alt=com.azure.resourcemanager.network.fluent.models.VirtualWanSecurityProvidersInner&text=VirtualWanSecurityProvidersInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Collection of SecurityProviders."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualWanSecurityProvidersInner?alt=com.azure.resourcemanager.network.fluent.models.VirtualWanSecurityProvidersInner&text=VirtualWanSecurityProvidersInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

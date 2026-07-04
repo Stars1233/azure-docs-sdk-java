@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **SecurityGroupNetworkInterface**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.SecurityGroupNetworkInterface?alt=com.azure.resourcemanager.network.models.SecurityGroupNetworkInterface&text=SecurityGroupNetworkInterface\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.models.SecurityGroupNetworkInterface.SecurityGroupNetworkInterface()"
-  fullName: "com.azure.resourcemanager.network.models.SecurityGroupNetworkInterface.SecurityGroupNetworkInterface()"
-  name: "SecurityGroupNetworkInterface()"
-  nameWithType: "SecurityGroupNetworkInterface.SecurityGroupNetworkInterface()"
-  summary: "Creates an instance of Security<wbr>Group<wbr>Network<wbr>Interface class."
-  syntax: "public SecurityGroupNetworkInterface()"
-  desc: "Creates an instance of SecurityGroupNetworkInterface class."
 methods:
 - uid: "com.azure.resourcemanager.network.models.SecurityGroupNetworkInterface.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.models.SecurityGroupNetworkInterface.fromJson(JsonReader jsonReader)"
@@ -88,38 +80,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.models.SecurityGroupNetworkInterface.withId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.SecurityGroupNetworkInterface.withId(String id)"
-  name: "withId(String id)"
-  nameWithType: "SecurityGroupNetworkInterface.withId(String id)"
-  summary: "Set the id property: ID of the network interface."
-  parameters:
-  - description: "the id value to set."
-    name: "id"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public SecurityGroupNetworkInterface withId(String id)"
-  desc: "Set the id property: ID of the network interface."
-  returns:
-    description: "the SecurityGroupNetworkInterface object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.SecurityGroupNetworkInterface?alt=com.azure.resourcemanager.network.models.SecurityGroupNetworkInterface&text=SecurityGroupNetworkInterface\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.SecurityGroupNetworkInterface.withSecurityRuleAssociations(com.azure.resourcemanager.network.models.SecurityRuleAssociations)"
-  fullName: "com.azure.resourcemanager.network.models.SecurityGroupNetworkInterface.withSecurityRuleAssociations(SecurityRuleAssociations securityRuleAssociations)"
-  name: "withSecurityRuleAssociations(SecurityRuleAssociations securityRuleAssociations)"
-  nameWithType: "SecurityGroupNetworkInterface.withSecurityRuleAssociations(SecurityRuleAssociations securityRuleAssociations)"
-  summary: "Set the security<wbr>Rule<wbr>Associations property: All security rules associated with the network interface."
-  parameters:
-  - description: "the securityRuleAssociations value to set."
-    name: "securityRuleAssociations"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.SecurityRuleAssociations?alt=com.azure.resourcemanager.network.models.SecurityRuleAssociations&text=SecurityRuleAssociations\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public SecurityGroupNetworkInterface withSecurityRuleAssociations(SecurityRuleAssociations securityRuleAssociations)"
-  desc: "Set the securityRuleAssociations property: All security rules associated with the network interface."
-  returns:
-    description: "the SecurityGroupNetworkInterface object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.SecurityGroupNetworkInterface?alt=com.azure.resourcemanager.network.models.SecurityGroupNetworkInterface&text=SecurityGroupNetworkInterface\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Network interface and all its associated security rules."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.SecurityGroupNetworkInterface?alt=com.azure.resourcemanager.network.models.SecurityGroupNetworkInterface&text=SecurityGroupNetworkInterface\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

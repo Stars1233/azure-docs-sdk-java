@@ -21,15 +21,17 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **PerimeterAssociableResourceProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties?alt=com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties&text=PerimeterAssociableResourceProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties.PerimeterAssociableResourceProperties()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties.PerimeterAssociableResourceProperties()"
-  name: "PerimeterAssociableResourceProperties()"
-  nameWithType: "PerimeterAssociableResourceProperties.PerimeterAssociableResourceProperties()"
-  summary: "Creates an instance of Perimeter<wbr>Associable<wbr>Resource<wbr>Properties class."
-  syntax: "public PerimeterAssociableResourceProperties()"
-  desc: "Creates an instance of PerimeterAssociableResourceProperties class."
 methods:
+- uid: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties.description()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties.description()"
+  name: "description()"
+  nameWithType: "PerimeterAssociableResourceProperties.description()"
+  summary: "Get the description property: Description of the PaaS resource type."
+  syntax: "public String description()"
+  desc: "Get the description property: Description of the PaaS resource type."
+  returns:
+    description: "the description value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties.displayName()"
   fullName: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties.displayName()"
   name: "displayName()"
@@ -59,6 +61,16 @@ methods:
   returns:
     description: "An instance of PerimeterAssociableResourceProperties if the JsonReader was pointing to an instance of it,\n or null if it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties?alt=com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties&text=PerimeterAssociableResourceProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties.outboundSupported()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties.outboundSupported()"
+  name: "outboundSupported()"
+  nameWithType: "PerimeterAssociableResourceProperties.outboundSupported()"
+  summary: "Get the outbound<wbr>Supported property: Indicates whether the resource type supports outbound scenario."
+  syntax: "public Boolean outboundSupported()"
+  desc: "Get the outboundSupported property: Indicates whether the resource type supports outbound scenario."
+  returns:
+    description: "the outboundSupported value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
 - uid: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties.publicDnsZones()"
   fullName: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties.publicDnsZones()"
   name: "publicDnsZones()"
@@ -69,6 +81,16 @@ methods:
   returns:
     description: "the publicDnsZones value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties.readinessState()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties.readinessState()"
+  name: "readinessState()"
+  nameWithType: "PerimeterAssociableResourceProperties.readinessState()"
+  summary: "Get the readiness<wbr>State property: The readiness state of the resource type for NSP support."
+  syntax: "public NspReadinessState readinessState()"
+  desc: "Get the readinessState property: The readiness state of the resource type for NSP support."
+  returns:
+    description: "the readinessState value."
+    type: "<xref href=\"com.azure.resourcemanager.network.models.NspReadinessState?alt=com.azure.resourcemanager.network.models.NspReadinessState&text=NspReadinessState\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties.resourceType()"
   fullName: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties.resourceType()"
   name: "resourceType()"
@@ -79,6 +101,16 @@ methods:
   returns:
     description: "the resourceType value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties.serviceTags()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties.serviceTags()"
+  name: "serviceTags()"
+  nameWithType: "PerimeterAssociableResourceProperties.serviceTags()"
+  summary: "Get the service<wbr>Tags property: Service tags associated with the resource provider."
+  syntax: "public List<String> serviceTags()"
+  desc: "Get the serviceTags property: Service tags associated with the resource provider."
+  returns:
+    description: "the serviceTags value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -104,4 +136,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties?alt=com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceProperties&text=PerimeterAssociableResourceProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

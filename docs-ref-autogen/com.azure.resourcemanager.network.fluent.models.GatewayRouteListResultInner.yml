@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **GatewayRouteListResultInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.GatewayRouteListResultInner?alt=com.azure.resourcemanager.network.fluent.models.GatewayRouteListResultInner&text=GatewayRouteListResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.GatewayRouteListResultInner.GatewayRouteListResultInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.GatewayRouteListResultInner.GatewayRouteListResultInner()"
-  name: "GatewayRouteListResultInner()"
-  nameWithType: "GatewayRouteListResultInner.GatewayRouteListResultInner()"
-  summary: "Creates an instance of Gateway<wbr>Route<wbr>List<wbr>Result<wbr>Inner class."
-  syntax: "public GatewayRouteListResultInner()"
-  desc: "Creates an instance of GatewayRouteListResultInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.GatewayRouteListResultInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.GatewayRouteListResultInner.fromJson(JsonReader jsonReader)"
@@ -78,24 +70,10 @@ methods:
   returns:
     description: "the value value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.GatewayRoute?alt=com.azure.resourcemanager.network.models.GatewayRoute&text=GatewayRoute\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.network.fluent.models.GatewayRouteListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.models.GatewayRoute>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.GatewayRouteListResultInner.withValue(List<GatewayRoute> value)"
-  name: "withValue(List<GatewayRoute> value)"
-  nameWithType: "GatewayRouteListResultInner.withValue(List<GatewayRoute> value)"
-  summary: "Set the value property: List of gateway routes."
-  parameters:
-  - description: "the value value to set."
-    name: "value"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.GatewayRoute?alt=com.azure.resourcemanager.network.models.GatewayRoute&text=GatewayRoute\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public GatewayRouteListResultInner withValue(List<GatewayRoute> value)"
-  desc: "Set the value property: List of gateway routes."
-  returns:
-    description: "the GatewayRouteListResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.GatewayRouteListResultInner?alt=com.azure.resourcemanager.network.fluent.models.GatewayRouteListResultInner&text=GatewayRouteListResultInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "List of virtual network gateway routes."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.GatewayRouteListResultInner?alt=com.azure.resourcemanager.network.fluent.models.GatewayRouteListResultInner&text=GatewayRouteListResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

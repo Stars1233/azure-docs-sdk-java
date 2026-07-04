@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.SecurityConfigurationRuleDirection.INBOUND"
   name: "INBOUND"
   nameWithType: "SecurityConfigurationRuleDirection.INBOUND"
-  summary: "Static value Inbound for Security<wbr>Configuration<wbr>Rule<wbr>Direction."
+  summary: "Inbound."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.SecurityConfigurationRuleDirection?alt=com.azure.resourcemanager.network.models.SecurityConfigurationRuleDirection&text=SecurityConfigurationRuleDirection\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SecurityConfigurationRuleDirection INBOUND"
-  desc: "Static value Inbound for SecurityConfigurationRuleDirection."
+  desc: "Inbound."
 - uid: "com.azure.resourcemanager.network.models.SecurityConfigurationRuleDirection.OUTBOUND"
   fullName: "com.azure.resourcemanager.network.models.SecurityConfigurationRuleDirection.OUTBOUND"
   name: "OUTBOUND"
   nameWithType: "SecurityConfigurationRuleDirection.OUTBOUND"
-  summary: "Static value Outbound for Security<wbr>Configuration<wbr>Rule<wbr>Direction."
+  summary: "Outbound."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.SecurityConfigurationRuleDirection?alt=com.azure.resourcemanager.network.models.SecurityConfigurationRuleDirection&text=SecurityConfigurationRuleDirection\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SecurityConfigurationRuleDirection OUTBOUND"
-  desc: "Static value Outbound for SecurityConfigurationRuleDirection."
+  desc: "Outbound."
 methods:
 - uid: "com.azure.resourcemanager.network.models.SecurityConfigurationRuleDirection.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.SecurityConfigurationRuleDirection.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The direction of the rule. The direction specifies if the rule will be evaluated on incoming or outgoing traffic."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

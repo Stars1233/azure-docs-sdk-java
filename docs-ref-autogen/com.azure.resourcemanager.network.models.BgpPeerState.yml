@@ -42,62 +42,62 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.BgpPeerState.CONNECTED"
   name: "CONNECTED"
   nameWithType: "BgpPeerState.CONNECTED"
-  summary: "Static value Connected for Bgp<wbr>Peer<wbr>State."
+  summary: "Connected."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.BgpPeerState?alt=com.azure.resourcemanager.network.models.BgpPeerState&text=BgpPeerState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final BgpPeerState CONNECTED"
-  desc: "Static value Connected for BgpPeerState."
+  desc: "Connected."
 - uid: "com.azure.resourcemanager.network.models.BgpPeerState.CONNECTING"
   fullName: "com.azure.resourcemanager.network.models.BgpPeerState.CONNECTING"
   name: "CONNECTING"
   nameWithType: "BgpPeerState.CONNECTING"
-  summary: "Static value Connecting for Bgp<wbr>Peer<wbr>State."
+  summary: "Connecting."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.BgpPeerState?alt=com.azure.resourcemanager.network.models.BgpPeerState&text=BgpPeerState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final BgpPeerState CONNECTING"
-  desc: "Static value Connecting for BgpPeerState."
+  desc: "Connecting."
 - uid: "com.azure.resourcemanager.network.models.BgpPeerState.IDLE"
   fullName: "com.azure.resourcemanager.network.models.BgpPeerState.IDLE"
   name: "IDLE"
   nameWithType: "BgpPeerState.IDLE"
-  summary: "Static value Idle for Bgp<wbr>Peer<wbr>State."
+  summary: "Idle."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.BgpPeerState?alt=com.azure.resourcemanager.network.models.BgpPeerState&text=BgpPeerState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final BgpPeerState IDLE"
-  desc: "Static value Idle for BgpPeerState."
+  desc: "Idle."
 - uid: "com.azure.resourcemanager.network.models.BgpPeerState.STOPPED"
   fullName: "com.azure.resourcemanager.network.models.BgpPeerState.STOPPED"
   name: "STOPPED"
   nameWithType: "BgpPeerState.STOPPED"
-  summary: "Static value Stopped for Bgp<wbr>Peer<wbr>State."
+  summary: "Stopped."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.BgpPeerState?alt=com.azure.resourcemanager.network.models.BgpPeerState&text=BgpPeerState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final BgpPeerState STOPPED"
-  desc: "Static value Stopped for BgpPeerState."
+  desc: "Stopped."
 - uid: "com.azure.resourcemanager.network.models.BgpPeerState.UNKNOWN"
   fullName: "com.azure.resourcemanager.network.models.BgpPeerState.UNKNOWN"
   name: "UNKNOWN"
   nameWithType: "BgpPeerState.UNKNOWN"
-  summary: "Static value Unknown for Bgp<wbr>Peer<wbr>State."
+  summary: "Unknown."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.BgpPeerState?alt=com.azure.resourcemanager.network.models.BgpPeerState&text=BgpPeerState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final BgpPeerState UNKNOWN"
-  desc: "Static value Unknown for BgpPeerState."
+  desc: "Unknown."
 methods:
 - uid: "com.azure.resourcemanager.network.models.BgpPeerState.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.BgpPeerState.fromString(String name)"
@@ -131,4 +131,4 @@ type: "class"
 desc: "The BGP peer state."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -36,14 +36,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **AzureFirewallFqdnTagInner**</br> extends <xref href=\"com.azure.core.management.Resource?alt=com.azure.core.management.Resource&text=Resource\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.AzureFirewallFqdnTagInner.AzureFirewallFqdnTagInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.AzureFirewallFqdnTagInner.AzureFirewallFqdnTagInner()"
-  name: "AzureFirewallFqdnTagInner()"
-  nameWithType: "AzureFirewallFqdnTagInner.AzureFirewallFqdnTagInner()"
-  summary: "Creates an instance of Azure<wbr>Firewall<wbr>Fqdn<wbr>Tag<wbr>Inner class."
-  syntax: "public AzureFirewallFqdnTagInner()"
-  desc: "Creates an instance of AzureFirewallFqdnTagInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.AzureFirewallFqdnTagInner.etag()"
   fullName: "com.azure.resourcemanager.network.fluent.models.AzureFirewallFqdnTagInner.etag()"
@@ -147,44 +139,8 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.AzureFirewallFqdnTagInner.withId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.AzureFirewallFqdnTagInner.withId(String id)"
-  name: "withId(String id)"
-  nameWithType: "AzureFirewallFqdnTagInner.withId(String id)"
-  summary: "Set the id property: Resource ID."
-  parameters:
-  - description: "the id value to set."
-    name: "id"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public AzureFirewallFqdnTagInner withId(String id)"
-  desc: "Set the id property: Resource ID."
-  returns:
-    description: "the AzureFirewallFqdnTagInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallFqdnTagInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallFqdnTagInner&text=AzureFirewallFqdnTagInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.AzureFirewallFqdnTagInner.withLocation(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.AzureFirewallFqdnTagInner.withLocation(String location)"
-  name: "withLocation(String location)"
-  nameWithType: "AzureFirewallFqdnTagInner.withLocation(String location)"
-  overridden: "com.azure.core.management.Resource.withLocation(java.lang.String)"
-  parameters:
-  - name: "location"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public AzureFirewallFqdnTagInner withLocation(String location)"
-  returns:
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallFqdnTagInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallFqdnTagInner&text=AzureFirewallFqdnTagInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.AzureFirewallFqdnTagInner.withTags(java.util.Map<java.lang.String,java.lang.String>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.AzureFirewallFqdnTagInner.withTags(Map<String,String> tags)"
-  name: "withTags(Map<String,String> tags)"
-  nameWithType: "AzureFirewallFqdnTagInner.withTags(Map<String,String> tags)"
-  overridden: "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
-  parameters:
-  - name: "tags"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public AzureFirewallFqdnTagInner withTags(Map<String,String> tags)"
-  returns:
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallFqdnTagInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallFqdnTagInner&text=AzureFirewallFqdnTagInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Azure Firewall FQDN Tag Resource."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

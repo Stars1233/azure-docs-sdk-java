@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.FailoverConnectionStatus.CONNECTED"
   name: "CONNECTED"
   nameWithType: "FailoverConnectionStatus.CONNECTED"
-  summary: "Static value Connected for Failover<wbr>Connection<wbr>Status."
+  summary: "Connected."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FailoverConnectionStatus?alt=com.azure.resourcemanager.network.models.FailoverConnectionStatus&text=FailoverConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FailoverConnectionStatus CONNECTED"
-  desc: "Static value Connected for FailoverConnectionStatus."
+  desc: "Connected."
 - uid: "com.azure.resourcemanager.network.models.FailoverConnectionStatus.DISCONNECTED"
   fullName: "com.azure.resourcemanager.network.models.FailoverConnectionStatus.DISCONNECTED"
   name: "DISCONNECTED"
   nameWithType: "FailoverConnectionStatus.DISCONNECTED"
-  summary: "Static value Disconnected for Failover<wbr>Connection<wbr>Status."
+  summary: "Disconnected."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FailoverConnectionStatus?alt=com.azure.resourcemanager.network.models.FailoverConnectionStatus&text=FailoverConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FailoverConnectionStatus DISCONNECTED"
-  desc: "Static value Disconnected for FailoverConnectionStatus."
+  desc: "Disconnected."
 methods:
 - uid: "com.azure.resourcemanager.network.models.FailoverConnectionStatus.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.FailoverConnectionStatus.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The current status of the connection."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

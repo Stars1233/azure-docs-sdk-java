@@ -55,6 +55,16 @@ methods:
   returns:
     description: "the disableBgpRoutePropagation value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+- uid: "com.azure.resourcemanager.network.fluent.models.RouteTableInner.disablePeeringRoute()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.RouteTableInner.disablePeeringRoute()"
+  name: "disablePeeringRoute()"
+  nameWithType: "RouteTableInner.disablePeeringRoute()"
+  summary: "Get the disable<wbr>Peering<wbr>Route property: Whether to disable the routes learned by peering on the route table."
+  syntax: "public DisablePeeringRoute disablePeeringRoute()"
+  desc: "Get the disablePeeringRoute property: Whether to disable the routes learned by peering on the route table. 'None' means peering routes are enabled, 'All' means all peering routes are disabled."
+  returns:
+    description: "the disablePeeringRoute value."
+    type: "<xref href=\"com.azure.resourcemanager.network.models.DisablePeeringRoute?alt=com.azure.resourcemanager.network.models.DisablePeeringRoute&text=DisablePeeringRoute\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.RouteTableInner.etag()"
   fullName: "com.azure.resourcemanager.network.fluent.models.RouteTableInner.etag()"
   name: "etag()"
@@ -191,6 +201,20 @@ methods:
   returns:
     description: "the RouteTableInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.RouteTableInner?alt=com.azure.resourcemanager.network.fluent.models.RouteTableInner&text=RouteTableInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.models.RouteTableInner.withDisablePeeringRoute(com.azure.resourcemanager.network.models.DisablePeeringRoute)"
+  fullName: "com.azure.resourcemanager.network.fluent.models.RouteTableInner.withDisablePeeringRoute(DisablePeeringRoute disablePeeringRoute)"
+  name: "withDisablePeeringRoute(DisablePeeringRoute disablePeeringRoute)"
+  nameWithType: "RouteTableInner.withDisablePeeringRoute(DisablePeeringRoute disablePeeringRoute)"
+  summary: "Set the disable<wbr>Peering<wbr>Route property: Whether to disable the routes learned by peering on the route table."
+  parameters:
+  - description: "the disablePeeringRoute value to set."
+    name: "disablePeeringRoute"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.DisablePeeringRoute?alt=com.azure.resourcemanager.network.models.DisablePeeringRoute&text=DisablePeeringRoute\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public RouteTableInner withDisablePeeringRoute(DisablePeeringRoute disablePeeringRoute)"
+  desc: "Set the disablePeeringRoute property: Whether to disable the routes learned by peering on the route table. 'None' means peering routes are enabled, 'All' means all peering routes are disabled."
+  returns:
+    description: "the RouteTableInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.RouteTableInner?alt=com.azure.resourcemanager.network.fluent.models.RouteTableInner&text=RouteTableInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.RouteTableInner.withId(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.fluent.models.RouteTableInner.withId(String id)"
   name: "withId(String id)"
@@ -245,4 +269,4 @@ type: "class"
 desc: "Route table resource."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.AzureFirewallThreatIntelMode.ALERT"
   name: "ALERT"
   nameWithType: "AzureFirewallThreatIntelMode.ALERT"
-  summary: "Static value Alert for Azure<wbr>Firewall<wbr>Threat<wbr>Intel<wbr>Mode."
+  summary: "Alert."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AzureFirewallThreatIntelMode?alt=com.azure.resourcemanager.network.models.AzureFirewallThreatIntelMode&text=AzureFirewallThreatIntelMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AzureFirewallThreatIntelMode ALERT"
-  desc: "Static value Alert for AzureFirewallThreatIntelMode."
+  desc: "Alert."
 - uid: "com.azure.resourcemanager.network.models.AzureFirewallThreatIntelMode.DENY"
   fullName: "com.azure.resourcemanager.network.models.AzureFirewallThreatIntelMode.DENY"
   name: "DENY"
   nameWithType: "AzureFirewallThreatIntelMode.DENY"
-  summary: "Static value Deny for Azure<wbr>Firewall<wbr>Threat<wbr>Intel<wbr>Mode."
+  summary: "Deny."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AzureFirewallThreatIntelMode?alt=com.azure.resourcemanager.network.models.AzureFirewallThreatIntelMode&text=AzureFirewallThreatIntelMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AzureFirewallThreatIntelMode DENY"
-  desc: "Static value Deny for AzureFirewallThreatIntelMode."
+  desc: "Deny."
 - uid: "com.azure.resourcemanager.network.models.AzureFirewallThreatIntelMode.OFF"
   fullName: "com.azure.resourcemanager.network.models.AzureFirewallThreatIntelMode.OFF"
   name: "OFF"
   nameWithType: "AzureFirewallThreatIntelMode.OFF"
-  summary: "Static value Off for Azure<wbr>Firewall<wbr>Threat<wbr>Intel<wbr>Mode."
+  summary: "Off."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AzureFirewallThreatIntelMode?alt=com.azure.resourcemanager.network.models.AzureFirewallThreatIntelMode&text=AzureFirewallThreatIntelMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AzureFirewallThreatIntelMode OFF"
-  desc: "Static value Off for AzureFirewallThreatIntelMode."
+  desc: "Off."
 methods:
 - uid: "com.azure.resourcemanager.network.models.AzureFirewallThreatIntelMode.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.AzureFirewallThreatIntelMode.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "The operation mode for Threat Intel."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

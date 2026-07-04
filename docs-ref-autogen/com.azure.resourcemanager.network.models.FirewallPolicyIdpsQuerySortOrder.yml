@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyIdpsQuerySortOrder.ASCENDING"
   name: "ASCENDING"
   nameWithType: "FirewallPolicyIdpsQuerySortOrder.ASCENDING"
-  summary: "Static value Ascending for Firewall<wbr>Policy<wbr>Idps<wbr>Query<wbr>Sort<wbr>Order."
+  summary: "Ascending."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyIdpsQuerySortOrder?alt=com.azure.resourcemanager.network.models.FirewallPolicyIdpsQuerySortOrder&text=FirewallPolicyIdpsQuerySortOrder\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyIdpsQuerySortOrder ASCENDING"
-  desc: "Static value Ascending for FirewallPolicyIdpsQuerySortOrder."
+  desc: "Ascending."
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyIdpsQuerySortOrder.DESCENDING"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyIdpsQuerySortOrder.DESCENDING"
   name: "DESCENDING"
   nameWithType: "FirewallPolicyIdpsQuerySortOrder.DESCENDING"
-  summary: "Static value Descending for Firewall<wbr>Policy<wbr>Idps<wbr>Query<wbr>Sort<wbr>Order."
+  summary: "Descending."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyIdpsQuerySortOrder?alt=com.azure.resourcemanager.network.models.FirewallPolicyIdpsQuerySortOrder&text=FirewallPolicyIdpsQuerySortOrder\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyIdpsQuerySortOrder DESCENDING"
-  desc: "Static value Descending for FirewallPolicyIdpsQuerySortOrder."
+  desc: "Descending."
 methods:
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyIdpsQuerySortOrder.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyIdpsQuerySortOrder.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Describes if results should be in ascending/descending order."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

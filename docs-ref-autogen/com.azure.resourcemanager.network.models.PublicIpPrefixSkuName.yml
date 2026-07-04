@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.PublicIpPrefixSkuName.STANDARD"
   name: "STANDARD"
   nameWithType: "PublicIpPrefixSkuName.STANDARD"
-  summary: "Static value Standard for Public<wbr>IpPrefix<wbr>Sku<wbr>Name."
+  summary: "Standard."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.PublicIpPrefixSkuName?alt=com.azure.resourcemanager.network.models.PublicIpPrefixSkuName&text=PublicIpPrefixSkuName\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PublicIpPrefixSkuName STANDARD"
-  desc: "Static value Standard for PublicIpPrefixSkuName."
+  desc: "Standard."
 - uid: "com.azure.resourcemanager.network.models.PublicIpPrefixSkuName.STANDARD_V2"
   fullName: "com.azure.resourcemanager.network.models.PublicIpPrefixSkuName.STANDARD_V2"
   name: "STANDARD_V2"
   nameWithType: "PublicIpPrefixSkuName.STANDARD_V2"
-  summary: "Static value StandardV2 for Public<wbr>IpPrefix<wbr>Sku<wbr>Name."
+  summary: "StandardV2."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.PublicIpPrefixSkuName?alt=com.azure.resourcemanager.network.models.PublicIpPrefixSkuName&text=PublicIpPrefixSkuName\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PublicIpPrefixSkuName STANDARD_V2"
-  desc: "Static value StandardV2 for PublicIpPrefixSkuName."
+  desc: "StandardV2."
 methods:
 - uid: "com.azure.resourcemanager.network.models.PublicIpPrefixSkuName.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.PublicIpPrefixSkuName.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Name of a public IP prefix SKU."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

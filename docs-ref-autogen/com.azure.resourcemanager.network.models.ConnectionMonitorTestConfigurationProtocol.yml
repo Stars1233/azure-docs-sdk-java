@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ConnectionMonitorTestConfigurationProtocol.HTTP"
   name: "HTTP"
   nameWithType: "ConnectionMonitorTestConfigurationProtocol.HTTP"
-  summary: "Static value Http for Connection<wbr>Monitor<wbr>Test<wbr>Configuration<wbr>Protocol."
+  summary: "Http."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ConnectionMonitorTestConfigurationProtocol?alt=com.azure.resourcemanager.network.models.ConnectionMonitorTestConfigurationProtocol&text=ConnectionMonitorTestConfigurationProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ConnectionMonitorTestConfigurationProtocol HTTP"
-  desc: "Static value Http for ConnectionMonitorTestConfigurationProtocol."
+  desc: "Http."
 - uid: "com.azure.resourcemanager.network.models.ConnectionMonitorTestConfigurationProtocol.ICMP"
   fullName: "com.azure.resourcemanager.network.models.ConnectionMonitorTestConfigurationProtocol.ICMP"
   name: "ICMP"
   nameWithType: "ConnectionMonitorTestConfigurationProtocol.ICMP"
-  summary: "Static value Icmp for Connection<wbr>Monitor<wbr>Test<wbr>Configuration<wbr>Protocol."
+  summary: "Icmp."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ConnectionMonitorTestConfigurationProtocol?alt=com.azure.resourcemanager.network.models.ConnectionMonitorTestConfigurationProtocol&text=ConnectionMonitorTestConfigurationProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ConnectionMonitorTestConfigurationProtocol ICMP"
-  desc: "Static value Icmp for ConnectionMonitorTestConfigurationProtocol."
+  desc: "Icmp."
 - uid: "com.azure.resourcemanager.network.models.ConnectionMonitorTestConfigurationProtocol.TCP"
   fullName: "com.azure.resourcemanager.network.models.ConnectionMonitorTestConfigurationProtocol.TCP"
   name: "TCP"
   nameWithType: "ConnectionMonitorTestConfigurationProtocol.TCP"
-  summary: "Static value Tcp for Connection<wbr>Monitor<wbr>Test<wbr>Configuration<wbr>Protocol."
+  summary: "Tcp."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ConnectionMonitorTestConfigurationProtocol?alt=com.azure.resourcemanager.network.models.ConnectionMonitorTestConfigurationProtocol&text=ConnectionMonitorTestConfigurationProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ConnectionMonitorTestConfigurationProtocol TCP"
-  desc: "Static value Tcp for ConnectionMonitorTestConfigurationProtocol."
+  desc: "Tcp."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ConnectionMonitorTestConfigurationProtocol.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ConnectionMonitorTestConfigurationProtocol.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "The protocol to use in test evaluation."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

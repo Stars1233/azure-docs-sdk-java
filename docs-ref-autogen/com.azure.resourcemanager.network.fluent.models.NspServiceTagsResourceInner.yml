@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **NspServiceTagsResourceInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.NspServiceTagsResourceInner?alt=com.azure.resourcemanager.network.fluent.models.NspServiceTagsResourceInner&text=NspServiceTagsResourceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.NspServiceTagsResourceInner.NspServiceTagsResourceInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NspServiceTagsResourceInner.NspServiceTagsResourceInner()"
-  name: "NspServiceTagsResourceInner()"
-  nameWithType: "NspServiceTagsResourceInner.NspServiceTagsResourceInner()"
-  summary: "Creates an instance of Nsp<wbr>Service<wbr>Tags<wbr>Resource<wbr>Inner class."
-  syntax: "public NspServiceTagsResourceInner()"
-  desc: "Creates an instance of NspServiceTagsResourceInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.NspServiceTagsResourceInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.NspServiceTagsResourceInner.fromJson(JsonReader jsonReader)"
@@ -78,24 +70,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.NspServiceTagsResourceInner.withServiceTags(java.util.List<java.lang.String>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NspServiceTagsResourceInner.withServiceTags(List<String> serviceTags)"
-  name: "withServiceTags(List<String> serviceTags)"
-  nameWithType: "NspServiceTagsResourceInner.withServiceTags(List<String> serviceTags)"
-  summary: "Set the service<wbr>Tags property: NSP service tags."
-  parameters:
-  - description: "the serviceTags value to set."
-    name: "serviceTags"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public NspServiceTagsResourceInner withServiceTags(List<String> serviceTags)"
-  desc: "Set the serviceTags property: NSP service tags."
-  returns:
-    description: "the NspServiceTagsResourceInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NspServiceTagsResourceInner?alt=com.azure.resourcemanager.network.fluent.models.NspServiceTagsResourceInner&text=NspServiceTagsResourceInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Resource containing list of NSP service tags."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.NspServiceTagsResourceInner?alt=com.azure.resourcemanager.network.fluent.models.NspServiceTagsResourceInner&text=NspServiceTagsResourceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

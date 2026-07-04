@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayRequestRoutingRuleType.BASIC"
   name: "BASIC"
   nameWithType: "ApplicationGatewayRequestRoutingRuleType.BASIC"
-  summary: "Static value Basic for Application<wbr>Gateway<wbr>Request<wbr>Routing<wbr>Rule<wbr>Type."
+  summary: "Basic."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayRequestRoutingRuleType?alt=com.azure.resourcemanager.network.models.ApplicationGatewayRequestRoutingRuleType&text=ApplicationGatewayRequestRoutingRuleType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayRequestRoutingRuleType BASIC"
-  desc: "Static value Basic for ApplicationGatewayRequestRoutingRuleType."
+  desc: "Basic."
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayRequestRoutingRuleType.PATH_BASED_ROUTING"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayRequestRoutingRuleType.PATH_BASED_ROUTING"
   name: "PATH_BASED_ROUTING"
   nameWithType: "ApplicationGatewayRequestRoutingRuleType.PATH_BASED_ROUTING"
-  summary: "Static value Path<wbr>Based<wbr>Routing for Application<wbr>Gateway<wbr>Request<wbr>Routing<wbr>Rule<wbr>Type."
+  summary: "Path<wbr>Based<wbr>Routing."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayRequestRoutingRuleType?alt=com.azure.resourcemanager.network.models.ApplicationGatewayRequestRoutingRuleType&text=ApplicationGatewayRequestRoutingRuleType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayRequestRoutingRuleType PATH_BASED_ROUTING"
-  desc: "Static value PathBasedRouting for ApplicationGatewayRequestRoutingRuleType."
+  desc: "PathBasedRouting."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayRequestRoutingRuleType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayRequestRoutingRuleType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Rule type."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

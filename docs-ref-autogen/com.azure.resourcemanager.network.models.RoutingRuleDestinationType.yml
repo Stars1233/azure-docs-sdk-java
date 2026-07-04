@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.RoutingRuleDestinationType.ADDRESS_PREFIX"
   name: "ADDRESS_PREFIX"
   nameWithType: "RoutingRuleDestinationType.ADDRESS_PREFIX"
-  summary: "Static value Address<wbr>Prefix for Routing<wbr>Rule<wbr>Destination<wbr>Type."
+  summary: "Destination specified as an IP address prefix (CIDR)."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.RoutingRuleDestinationType?alt=com.azure.resourcemanager.network.models.RoutingRuleDestinationType&text=RoutingRuleDestinationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RoutingRuleDestinationType ADDRESS_PREFIX"
-  desc: "Static value AddressPrefix for RoutingRuleDestinationType."
+  desc: "Destination specified as an IP address prefix (CIDR)."
 - uid: "com.azure.resourcemanager.network.models.RoutingRuleDestinationType.SERVICE_TAG"
   fullName: "com.azure.resourcemanager.network.models.RoutingRuleDestinationType.SERVICE_TAG"
   name: "SERVICE_TAG"
   nameWithType: "RoutingRuleDestinationType.SERVICE_TAG"
-  summary: "Static value Service<wbr>Tag for Routing<wbr>Rule<wbr>Destination<wbr>Type."
+  summary: "Destination specified as an Azure service tag."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.RoutingRuleDestinationType?alt=com.azure.resourcemanager.network.models.RoutingRuleDestinationType&text=RoutingRuleDestinationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RoutingRuleDestinationType SERVICE_TAG"
-  desc: "Static value ServiceTag for RoutingRuleDestinationType."
+  desc: "Destination specified as an Azure service tag."
 methods:
 - uid: "com.azure.resourcemanager.network.models.RoutingRuleDestinationType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.RoutingRuleDestinationType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Routing rule destination type."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

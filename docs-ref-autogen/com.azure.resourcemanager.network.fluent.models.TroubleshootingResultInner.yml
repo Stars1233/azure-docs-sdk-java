@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **TroubleshootingResultInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner?alt=com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner&text=TroubleshootingResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner.TroubleshootingResultInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner.TroubleshootingResultInner()"
-  name: "TroubleshootingResultInner()"
-  nameWithType: "TroubleshootingResultInner.TroubleshootingResultInner()"
-  summary: "Creates an instance of Troubleshooting<wbr>Result<wbr>Inner class."
-  syntax: "public TroubleshootingResultInner()"
-  desc: "Creates an instance of TroubleshootingResultInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner.code()"
   fullName: "com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner.code()"
@@ -108,66 +100,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner.withCode(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner.withCode(String code)"
-  name: "withCode(String code)"
-  nameWithType: "TroubleshootingResultInner.withCode(String code)"
-  summary: "Set the code property: The result code of the troubleshooting."
-  parameters:
-  - description: "the code value to set."
-    name: "code"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public TroubleshootingResultInner withCode(String code)"
-  desc: "Set the code property: The result code of the troubleshooting."
-  returns:
-    description: "the TroubleshootingResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner?alt=com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner&text=TroubleshootingResultInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner.withEndTime(java.time.OffsetDateTime)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner.withEndTime(OffsetDateTime endTime)"
-  name: "withEndTime(OffsetDateTime endTime)"
-  nameWithType: "TroubleshootingResultInner.withEndTime(OffsetDateTime endTime)"
-  summary: "Set the end<wbr>Time property: The end time of the troubleshooting."
-  parameters:
-  - description: "the endTime value to set."
-    name: "endTime"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
-  syntax: "public TroubleshootingResultInner withEndTime(OffsetDateTime endTime)"
-  desc: "Set the endTime property: The end time of the troubleshooting."
-  returns:
-    description: "the TroubleshootingResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner?alt=com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner&text=TroubleshootingResultInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner.withResults(java.util.List<com.azure.resourcemanager.network.models.TroubleshootingDetails>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner.withResults(List<TroubleshootingDetails> results)"
-  name: "withResults(List<TroubleshootingDetails> results)"
-  nameWithType: "TroubleshootingResultInner.withResults(List<TroubleshootingDetails> results)"
-  summary: "Set the results property: Information from troubleshooting."
-  parameters:
-  - description: "the results value to set."
-    name: "results"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.TroubleshootingDetails?alt=com.azure.resourcemanager.network.models.TroubleshootingDetails&text=TroubleshootingDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public TroubleshootingResultInner withResults(List<TroubleshootingDetails> results)"
-  desc: "Set the results property: Information from troubleshooting."
-  returns:
-    description: "the TroubleshootingResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner?alt=com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner&text=TroubleshootingResultInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner.withStartTime(java.time.OffsetDateTime)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner.withStartTime(OffsetDateTime startTime)"
-  name: "withStartTime(OffsetDateTime startTime)"
-  nameWithType: "TroubleshootingResultInner.withStartTime(OffsetDateTime startTime)"
-  summary: "Set the start<wbr>Time property: The start time of the troubleshooting."
-  parameters:
-  - description: "the startTime value to set."
-    name: "startTime"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
-  syntax: "public TroubleshootingResultInner withStartTime(OffsetDateTime startTime)"
-  desc: "Set the startTime property: The start time of the troubleshooting."
-  returns:
-    description: "the TroubleshootingResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner?alt=com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner&text=TroubleshootingResultInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Troubleshooting information gained from specified resource."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner?alt=com.azure.resourcemanager.network.fluent.models.TroubleshootingResultInner&text=TroubleshootingResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -1,0 +1,122 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.network.models.NspReadinessState"
+fullName: "com.azure.resourcemanager.network.models.NspReadinessState"
+name: "NspReadinessState"
+nameWithType: "NspReadinessState"
+summary: "The readiness state of the resource type for NSP support."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **NspReadinessState**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.NspReadinessState?alt=com.azure.resourcemanager.network.models.NspReadinessState&text=NspReadinessState\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.network.models.NspReadinessState.NspReadinessState()"
+  fullName: "com.azure.resourcemanager.network.models.NspReadinessState.NspReadinessState()"
+  name: "NspReadinessState()"
+  nameWithType: "NspReadinessState.NspReadinessState()"
+  summary: "Creates a new instance of Nsp<wbr>Readiness<wbr>State value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.network.models.NspReadinessState.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public NspReadinessState()"
+  desc: "Creates a new instance of NspReadinessState value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.network.models.NspReadinessState.GA"
+  fullName: "com.azure.resourcemanager.network.models.NspReadinessState.GA"
+  name: "GA"
+  nameWithType: "NspReadinessState.GA"
+  summary: "Resource Provider is generally available for NSP Integration."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.network.models.NspReadinessState?alt=com.azure.resourcemanager.network.models.NspReadinessState&text=NspReadinessState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final NspReadinessState GA"
+  desc: "Resource Provider is generally available for NSP Integration."
+- uid: "com.azure.resourcemanager.network.models.NspReadinessState.NOT_READY"
+  fullName: "com.azure.resourcemanager.network.models.NspReadinessState.NOT_READY"
+  name: "NOT_READY"
+  nameWithType: "NspReadinessState.NOT_READY"
+  summary: "NSP Onboarding is not started or not Supported."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.network.models.NspReadinessState?alt=com.azure.resourcemanager.network.models.NspReadinessState&text=NspReadinessState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final NspReadinessState NOT_READY"
+  desc: "NSP Onboarding is not started or not Supported."
+- uid: "com.azure.resourcemanager.network.models.NspReadinessState.ONBOARDING"
+  fullName: "com.azure.resourcemanager.network.models.NspReadinessState.ONBOARDING"
+  name: "ONBOARDING"
+  nameWithType: "NspReadinessState.ONBOARDING"
+  summary: "Resource Provider is actively being onboarded to NSP."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.network.models.NspReadinessState?alt=com.azure.resourcemanager.network.models.NspReadinessState&text=NspReadinessState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final NspReadinessState ONBOARDING"
+  desc: "Resource Provider is actively being onboarded to NSP."
+- uid: "com.azure.resourcemanager.network.models.NspReadinessState.PREVIEW"
+  fullName: "com.azure.resourcemanager.network.models.NspReadinessState.PREVIEW"
+  name: "PREVIEW"
+  nameWithType: "NspReadinessState.PREVIEW"
+  summary: "Resource Provider supports NSP in Preview."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.network.models.NspReadinessState?alt=com.azure.resourcemanager.network.models.NspReadinessState&text=NspReadinessState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final NspReadinessState PREVIEW"
+  desc: "Resource Provider supports NSP in Preview."
+methods:
+- uid: "com.azure.resourcemanager.network.models.NspReadinessState.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.network.models.NspReadinessState.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "NspReadinessState.fromString(String name)"
+  summary: "Creates or finds a Nsp<wbr>Readiness<wbr>State from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static NspReadinessState fromString(String name)"
+  desc: "Creates or finds a NspReadinessState from its string representation."
+  returns:
+    description: "the corresponding NspReadinessState."
+    type: "<xref href=\"com.azure.resourcemanager.network.models.NspReadinessState?alt=com.azure.resourcemanager.network.models.NspReadinessState&text=NspReadinessState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.NspReadinessState.values()"
+  fullName: "com.azure.resourcemanager.network.models.NspReadinessState.values()"
+  name: "values()"
+  nameWithType: "NspReadinessState.values()"
+  summary: "Gets known Nsp<wbr>Readiness<wbr>State values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<NspReadinessState> values()"
+  desc: "Gets known NspReadinessState values."
+  returns:
+    description: "known NspReadinessState values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.NspReadinessState?alt=com.azure.resourcemanager.network.models.NspReadinessState&text=NspReadinessState\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The readiness state of the resource type for NSP support."
+metadata: {}
+package: "com.azure.resourcemanager.network.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

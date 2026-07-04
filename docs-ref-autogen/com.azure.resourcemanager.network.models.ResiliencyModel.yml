@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ResiliencyModel.MULTI_HOMED"
   name: "MULTI_HOMED"
   nameWithType: "ResiliencyModel.MULTI_HOMED"
-  summary: "Static value Multi<wbr>Homed for Resiliency<wbr>Model."
+  summary: "Multi<wbr>Homed."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ResiliencyModel?alt=com.azure.resourcemanager.network.models.ResiliencyModel&text=ResiliencyModel\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ResiliencyModel MULTI_HOMED"
-  desc: "Static value MultiHomed for ResiliencyModel."
+  desc: "MultiHomed."
 - uid: "com.azure.resourcemanager.network.models.ResiliencyModel.SINGLE_HOMED"
   fullName: "com.azure.resourcemanager.network.models.ResiliencyModel.SINGLE_HOMED"
   name: "SINGLE_HOMED"
   nameWithType: "ResiliencyModel.SINGLE_HOMED"
-  summary: "Static value Single<wbr>Homed for Resiliency<wbr>Model."
+  summary: "Single<wbr>Homed."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ResiliencyModel?alt=com.azure.resourcemanager.network.models.ResiliencyModel&text=ResiliencyModel\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ResiliencyModel SINGLE_HOMED"
-  desc: "Static value SingleHomed for ResiliencyModel."
+  desc: "SingleHomed."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ResiliencyModel.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ResiliencyModel.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Property to indicate if the Express Route Gateway has resiliency model of MultiHomed or SingleHomed."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

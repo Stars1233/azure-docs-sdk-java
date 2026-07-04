@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ActiveSecurityAdminRulesListResultInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ActiveSecurityAdminRulesListResultInner?alt=com.azure.resourcemanager.network.fluent.models.ActiveSecurityAdminRulesListResultInner&text=ActiveSecurityAdminRulesListResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.ActiveSecurityAdminRulesListResultInner.ActiveSecurityAdminRulesListResultInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ActiveSecurityAdminRulesListResultInner.ActiveSecurityAdminRulesListResultInner()"
-  name: "ActiveSecurityAdminRulesListResultInner()"
-  nameWithType: "ActiveSecurityAdminRulesListResultInner.ActiveSecurityAdminRulesListResultInner()"
-  summary: "Creates an instance of Active<wbr>Security<wbr>Admin<wbr>Rules<wbr>List<wbr>Result<wbr>Inner class."
-  syntax: "public ActiveSecurityAdminRulesListResultInner()"
-  desc: "Creates an instance of ActiveSecurityAdminRulesListResultInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.ActiveSecurityAdminRulesListResultInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.ActiveSecurityAdminRulesListResultInner.fromJson(JsonReader jsonReader)"
@@ -88,38 +80,10 @@ methods:
   returns:
     description: "the value value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ActiveBaseSecurityAdminRule?alt=com.azure.resourcemanager.network.models.ActiveBaseSecurityAdminRule&text=ActiveBaseSecurityAdminRule\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.network.fluent.models.ActiveSecurityAdminRulesListResultInner.withSkipToken(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ActiveSecurityAdminRulesListResultInner.withSkipToken(String skipToken)"
-  name: "withSkipToken(String skipToken)"
-  nameWithType: "ActiveSecurityAdminRulesListResultInner.withSkipToken(String skipToken)"
-  summary: "Set the skip<wbr>Token property: When present, the value can be passed to a subsequent query call (together with the same query and scopes used in the current request) to retrieve the next page of data."
-  parameters:
-  - description: "the skipToken value to set."
-    name: "skipToken"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ActiveSecurityAdminRulesListResultInner withSkipToken(String skipToken)"
-  desc: "Set the skipToken property: When present, the value can be passed to a subsequent query call (together with the same query and scopes used in the current request) to retrieve the next page of data."
-  returns:
-    description: "the ActiveSecurityAdminRulesListResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ActiveSecurityAdminRulesListResultInner?alt=com.azure.resourcemanager.network.fluent.models.ActiveSecurityAdminRulesListResultInner&text=ActiveSecurityAdminRulesListResultInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ActiveSecurityAdminRulesListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.models.ActiveBaseSecurityAdminRule>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ActiveSecurityAdminRulesListResultInner.withValue(List<ActiveBaseSecurityAdminRule> value)"
-  name: "withValue(List<ActiveBaseSecurityAdminRule> value)"
-  nameWithType: "ActiveSecurityAdminRulesListResultInner.withValue(List<ActiveBaseSecurityAdminRule> value)"
-  summary: "Set the value property: Gets a page of active security admin rules."
-  parameters:
-  - description: "the value value to set."
-    name: "value"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ActiveBaseSecurityAdminRule?alt=com.azure.resourcemanager.network.models.ActiveBaseSecurityAdminRule&text=ActiveBaseSecurityAdminRule\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public ActiveSecurityAdminRulesListResultInner withValue(List<ActiveBaseSecurityAdminRule> value)"
-  desc: "Set the value property: Gets a page of active security admin rules."
-  returns:
-    description: "the ActiveSecurityAdminRulesListResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ActiveSecurityAdminRulesListResultInner?alt=com.azure.resourcemanager.network.fluent.models.ActiveSecurityAdminRulesListResultInner&text=ActiveSecurityAdminRulesListResultInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Result of the request to list active security admin rules. It contains a list of active security admin rules and a skiptoken to get the next set of results."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ActiveSecurityAdminRulesListResultInner?alt=com.azure.resourcemanager.network.fluent.models.ActiveSecurityAdminRulesListResultInner&text=ActiveSecurityAdminRulesListResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

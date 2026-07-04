@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ServiceGatewayAddressLocationResponseInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ServiceGatewayAddressLocationResponseInner?alt=com.azure.resourcemanager.network.fluent.models.ServiceGatewayAddressLocationResponseInner&text=ServiceGatewayAddressLocationResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.ServiceGatewayAddressLocationResponseInner.ServiceGatewayAddressLocationResponseInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ServiceGatewayAddressLocationResponseInner.ServiceGatewayAddressLocationResponseInner()"
-  name: "ServiceGatewayAddressLocationResponseInner()"
-  nameWithType: "ServiceGatewayAddressLocationResponseInner.ServiceGatewayAddressLocationResponseInner()"
-  summary: "Creates an instance of Service<wbr>Gateway<wbr>Address<wbr>Location<wbr>Response<wbr>Inner class."
-  syntax: "public ServiceGatewayAddressLocationResponseInner()"
-  desc: "Creates an instance of ServiceGatewayAddressLocationResponseInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.ServiceGatewayAddressLocationResponseInner.addresses()"
   fullName: "com.azure.resourcemanager.network.fluent.models.ServiceGatewayAddressLocationResponseInner.addresses()"
@@ -88,38 +80,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.ServiceGatewayAddressLocationResponseInner.withAddresses(java.util.List<com.azure.resourcemanager.network.models.ServiceGatewayAddress>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ServiceGatewayAddressLocationResponseInner.withAddresses(List<ServiceGatewayAddress> addresses)"
-  name: "withAddresses(List<ServiceGatewayAddress> addresses)"
-  nameWithType: "ServiceGatewayAddressLocationResponseInner.withAddresses(List<ServiceGatewayAddress> addresses)"
-  summary: "Set the addresses property: An array of addresses to create or update in locations."
-  parameters:
-  - description: "the addresses value to set."
-    name: "addresses"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ServiceGatewayAddress?alt=com.azure.resourcemanager.network.models.ServiceGatewayAddress&text=ServiceGatewayAddress\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public ServiceGatewayAddressLocationResponseInner withAddresses(List<ServiceGatewayAddress> addresses)"
-  desc: "Set the addresses property: An array of addresses to create or update in locations."
-  returns:
-    description: "the ServiceGatewayAddressLocationResponseInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ServiceGatewayAddressLocationResponseInner?alt=com.azure.resourcemanager.network.fluent.models.ServiceGatewayAddressLocationResponseInner&text=ServiceGatewayAddressLocationResponseInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ServiceGatewayAddressLocationResponseInner.withAddressLocation(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ServiceGatewayAddressLocationResponseInner.withAddressLocation(String addressLocation)"
-  name: "withAddressLocation(String addressLocation)"
-  nameWithType: "ServiceGatewayAddressLocationResponseInner.withAddressLocation(String addressLocation)"
-  summary: "Set the address<wbr>Location property: Location to update."
-  parameters:
-  - description: "the addressLocation value to set."
-    name: "addressLocation"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ServiceGatewayAddressLocationResponseInner withAddressLocation(String addressLocation)"
-  desc: "Set the addressLocation property: Location to update."
-  returns:
-    description: "the ServiceGatewayAddressLocationResponseInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ServiceGatewayAddressLocationResponseInner?alt=com.azure.resourcemanager.network.fluent.models.ServiceGatewayAddressLocationResponseInner&text=ServiceGatewayAddressLocationResponseInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Properties of the service gateway address location."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ServiceGatewayAddressLocationResponseInner?alt=com.azure.resourcemanager.network.fluent.models.ServiceGatewayAddressLocationResponseInner&text=ServiceGatewayAddressLocationResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

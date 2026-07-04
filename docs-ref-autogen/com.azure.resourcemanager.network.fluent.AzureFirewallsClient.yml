@@ -14,7 +14,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -28,15 +28,15 @@ methods:
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of azure Firewall resource."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallInner&text=AzureFirewallInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallInner&text=AzureFirewallInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.AzureFirewallInner,com.azure.core.util.Context)"
-  fullName: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginCreateOrUpdate(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Context context)"
-  name: "beginCreateOrUpdate(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Context context)"
-  nameWithType: "AzureFirewallsClient.beginCreateOrUpdate(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Context context)"
+- uid: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.AzureFirewallInner,java.lang.Boolean,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginCreateOrUpdate(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Boolean createAfcControlPlane, Context context)"
+  name: "beginCreateOrUpdate(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Boolean createAfcControlPlane, Context context)"
+  nameWithType: "AzureFirewallsClient.beginCreateOrUpdate(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Boolean createAfcControlPlane, Context context)"
   summary: "Creates or updates the specified Azure Firewall."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -45,10 +45,13 @@ methods:
   - description: "Parameters supplied to the create or update Azure Firewall operation."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallInner&text=AzureFirewallInner\" data-throw-if-not-resolved=\"False\" />"
+  - description: "When set to true, creates an AFC control plane for the Azure Firewall."
+    name: "createAfcControlPlane"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract SyncPoller<PollResult<AzureFirewallInner>,AzureFirewallInner> beginCreateOrUpdate(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Context context)"
+  syntax: "public abstract SyncPoller<PollResult<AzureFirewallInner>,AzureFirewallInner> beginCreateOrUpdate(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Boolean createAfcControlPlane, Context context)"
   desc: "Creates or updates the specified Azure Firewall."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of azure Firewall resource."
@@ -61,7 +64,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -75,6 +78,31 @@ methods:
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.PollerFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PollerFlux\"></xref> for polling of azure Firewall resource."
     type: "<xref href=\"com.azure.core.util.polling.PollerFlux?alt=com.azure.core.util.polling.PollerFlux&text=PollerFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallInner&text=AzureFirewallInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallInner&text=AzureFirewallInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginCreateOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.AzureFirewallInner,java.lang.Boolean)"
+  fullName: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginCreateOrUpdateAsync(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Boolean createAfcControlPlane)"
+  name: "beginCreateOrUpdateAsync(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Boolean createAfcControlPlane)"
+  nameWithType: "AzureFirewallsClient.beginCreateOrUpdateAsync(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Boolean createAfcControlPlane)"
+  summary: "Creates or updates the specified Azure Firewall."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the Azure Firewall."
+    name: "azureFirewallName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "Parameters supplied to the create or update Azure Firewall operation."
+    name: "parameters"
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallInner&text=AzureFirewallInner\" data-throw-if-not-resolved=\"False\" />"
+  - description: "When set to true, creates an AFC control plane for the Azure Firewall."
+    name: "createAfcControlPlane"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public abstract PollerFlux<PollResult<AzureFirewallInner>,AzureFirewallInner> beginCreateOrUpdateAsync(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Boolean createAfcControlPlane)"
+  desc: "Creates or updates the specified Azure Firewall."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.PollerFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PollerFlux\"></xref> for polling of azure Firewall resource."
+    type: "<xref href=\"com.azure.core.util.polling.PollerFlux?alt=com.azure.core.util.polling.PollerFlux&text=PollerFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallInner&text=AzureFirewallInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallInner&text=AzureFirewallInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginDelete(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginDelete(String resourceGroupName, String azureFirewallName)"
   name: "beginDelete(String resourceGroupName, String azureFirewallName)"
@@ -83,7 +111,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -102,7 +130,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -124,7 +152,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -143,10 +171,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the azure firewall."
+  - description: "The name of the Azure Firewall."
     name: "azureFirewallName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<IpPrefixesListInner>,IpPrefixesListInner> beginListLearnedPrefixes(String resourceGroupName, String azureFirewallName)"
@@ -162,10 +190,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the azure firewall."
+  - description: "The name of the Azure Firewall."
     name: "azureFirewallName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -184,10 +212,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the azure firewall."
+  - description: "The name of the Azure Firewall."
     name: "azureFirewallName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PollerFlux<PollResult<IpPrefixesListInner>,IpPrefixesListInner> beginListLearnedPrefixesAsync(String resourceGroupName, String azureFirewallName)"
@@ -203,7 +231,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -225,7 +253,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -250,7 +278,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -272,10 +300,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the azure firewall."
+  - description: "The name of the Azure Firewall."
     name: "azureFirewallName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to run packet capture on azure firewall."
@@ -294,10 +322,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the azure firewall."
+  - description: "The name of the Azure Firewall."
     name: "azureFirewallName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to run packet capture on azure firewall."
@@ -319,10 +347,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the azure firewall."
+  - description: "The name of the Azure Firewall."
     name: "azureFirewallName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to run packet capture on azure firewall."
@@ -341,7 +369,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -363,7 +391,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -388,7 +416,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -410,7 +438,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -424,15 +452,15 @@ methods:
   returns:
     description: "azure Firewall resource."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallInner&text=AzureFirewallInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.AzureFirewallInner,com.azure.core.util.Context)"
-  fullName: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.createOrUpdate(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Context context)"
-  name: "createOrUpdate(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Context context)"
-  nameWithType: "AzureFirewallsClient.createOrUpdate(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Context context)"
+- uid: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.AzureFirewallInner,java.lang.Boolean,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.createOrUpdate(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Boolean createAfcControlPlane, Context context)"
+  name: "createOrUpdate(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Boolean createAfcControlPlane, Context context)"
+  nameWithType: "AzureFirewallsClient.createOrUpdate(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Boolean createAfcControlPlane, Context context)"
   summary: "Creates or updates the specified Azure Firewall."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -441,10 +469,13 @@ methods:
   - description: "Parameters supplied to the create or update Azure Firewall operation."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallInner&text=AzureFirewallInner\" data-throw-if-not-resolved=\"False\" />"
+  - description: "When set to true, creates an AFC control plane for the Azure Firewall."
+    name: "createAfcControlPlane"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract AzureFirewallInner createOrUpdate(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Context context)"
+  syntax: "public abstract AzureFirewallInner createOrUpdate(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Boolean createAfcControlPlane, Context context)"
   desc: "Creates or updates the specified Azure Firewall."
   returns:
     description: "azure Firewall resource."
@@ -457,7 +488,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -471,15 +502,15 @@ methods:
   returns:
     description: "azure Firewall resource on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallInner&text=AzureFirewallInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.AzureFirewallInner)"
-  fullName: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.createOrUpdateWithResponseAsync(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters)"
-  name: "createOrUpdateWithResponseAsync(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters)"
-  nameWithType: "AzureFirewallsClient.createOrUpdateWithResponseAsync(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters)"
+- uid: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.AzureFirewallInner,java.lang.Boolean)"
+  fullName: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.createOrUpdateAsync(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Boolean createAfcControlPlane)"
+  name: "createOrUpdateAsync(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Boolean createAfcControlPlane)"
+  nameWithType: "AzureFirewallsClient.createOrUpdateAsync(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Boolean createAfcControlPlane)"
   summary: "Creates or updates the specified Azure Firewall."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -488,7 +519,35 @@ methods:
   - description: "Parameters supplied to the create or update Azure Firewall operation."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallInner&text=AzureFirewallInner\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> createOrUpdateWithResponseAsync(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters)"
+  - description: "When set to true, creates an AFC control plane for the Azure Firewall."
+    name: "createAfcControlPlane"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public abstract Mono<AzureFirewallInner> createOrUpdateAsync(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Boolean createAfcControlPlane)"
+  desc: "Creates or updates the specified Azure Firewall."
+  returns:
+    description: "azure Firewall resource on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallInner&text=AzureFirewallInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.AzureFirewallInner,java.lang.Boolean)"
+  fullName: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.createOrUpdateWithResponseAsync(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Boolean createAfcControlPlane)"
+  name: "createOrUpdateWithResponseAsync(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Boolean createAfcControlPlane)"
+  nameWithType: "AzureFirewallsClient.createOrUpdateWithResponseAsync(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Boolean createAfcControlPlane)"
+  summary: "Creates or updates the specified Azure Firewall."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the Azure Firewall."
+    name: "azureFirewallName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "Parameters supplied to the create or update Azure Firewall operation."
+    name: "parameters"
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallInner&text=AzureFirewallInner\" data-throw-if-not-resolved=\"False\" />"
+  - description: "When set to true, creates an AFC control plane for the Azure Firewall."
+    name: "createAfcControlPlane"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> createOrUpdateWithResponseAsync(String resourceGroupName, String azureFirewallName, AzureFirewallInner parameters, Boolean createAfcControlPlane)"
   desc: "Creates or updates the specified Azure Firewall."
   returns:
     description: "azure Firewall resource along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
@@ -501,7 +560,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -517,7 +576,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -536,7 +595,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -555,7 +614,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -574,7 +633,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -593,7 +652,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -612,7 +671,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -634,7 +693,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -693,13 +752,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<AzureFirewallInner> listByResourceGroup(String resourceGroupName)"
   desc: "Lists all Azure Firewalls in a resource group."
   returns:
-    description: "response for ListAzureFirewalls API service call as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "the response of a AzureFirewall list operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallInner&text=AzureFirewallInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listByResourceGroup(String resourceGroupName, Context context)"
@@ -709,7 +768,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -718,7 +777,7 @@ methods:
   syntax: "public abstract PagedIterable<AzureFirewallInner> listByResourceGroup(String resourceGroupName, Context context)"
   desc: "Lists all Azure Firewalls in a resource group."
   returns:
-    description: "response for ListAzureFirewalls API service call as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "the response of a AzureFirewall list operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallInner&text=AzureFirewallInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listByResourceGroupAsync(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listByResourceGroupAsync(String resourceGroupName)"
@@ -728,13 +787,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedFlux<AzureFirewallInner> listByResourceGroupAsync(String resourceGroupName)"
   desc: "Lists all Azure Firewalls in a resource group."
   returns:
-    description: "response for ListAzureFirewalls API service call as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
+    description: "the response of a AzureFirewall list operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallInner&text=AzureFirewallInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listLearnedPrefixes(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listLearnedPrefixes(String resourceGroupName, String azureFirewallName)"
@@ -744,10 +803,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the azure firewall."
+  - description: "The name of the Azure Firewall."
     name: "azureFirewallName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract IpPrefixesListInner listLearnedPrefixes(String resourceGroupName, String azureFirewallName)"
@@ -763,10 +822,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the azure firewall."
+  - description: "The name of the Azure Firewall."
     name: "azureFirewallName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -785,10 +844,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the azure firewall."
+  - description: "The name of the Azure Firewall."
     name: "azureFirewallName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<IpPrefixesListInner> listLearnedPrefixesAsync(String resourceGroupName, String azureFirewallName)"
@@ -804,10 +863,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the azure firewall."
+  - description: "The name of the Azure Firewall."
     name: "azureFirewallName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> listLearnedPrefixesWithResponseAsync(String resourceGroupName, String azureFirewallName)"
@@ -823,7 +882,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -842,7 +901,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -864,7 +923,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -886,10 +945,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the azure firewall."
+  - description: "The name of the Azure Firewall."
     name: "azureFirewallName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to run packet capture on azure firewall."
@@ -908,10 +967,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the azure firewall."
+  - description: "The name of the Azure Firewall."
     name: "azureFirewallName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to run packet capture on azure firewall."
@@ -933,10 +992,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the azure firewall."
+  - description: "The name of the Azure Firewall."
     name: "azureFirewallName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to run packet capture on azure firewall."
@@ -955,10 +1014,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the azure firewall."
+  - description: "The name of the Azure Firewall."
     name: "azureFirewallName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to run packet capture on azure firewall."
@@ -977,7 +1036,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -999,7 +1058,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -1021,7 +1080,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -1046,7 +1105,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -1068,7 +1127,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Azure Firewall."
@@ -1090,4 +1149,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.models.AzureFirewallInner&text=AzureFirewallInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

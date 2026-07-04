@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.LoadDistribution.DEFAULT"
   name: "DEFAULT"
   nameWithType: "LoadDistribution.DEFAULT"
-  summary: "Static value Default for Load<wbr>Distribution."
+  summary: "Default."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.LoadDistribution?alt=com.azure.resourcemanager.network.models.LoadDistribution&text=LoadDistribution\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final LoadDistribution DEFAULT"
-  desc: "Static value Default for LoadDistribution."
+  desc: "Default."
 - uid: "com.azure.resourcemanager.network.models.LoadDistribution.SOURCE_IP"
   fullName: "com.azure.resourcemanager.network.models.LoadDistribution.SOURCE_IP"
   name: "SOURCE_IP"
   nameWithType: "LoadDistribution.SOURCE_IP"
-  summary: "Static value SourceIP for Load<wbr>Distribution."
+  summary: "SourceIP."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.LoadDistribution?alt=com.azure.resourcemanager.network.models.LoadDistribution&text=LoadDistribution\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final LoadDistribution SOURCE_IP"
-  desc: "Static value SourceIP for LoadDistribution."
+  desc: "SourceIP."
 - uid: "com.azure.resourcemanager.network.models.LoadDistribution.SOURCE_IPPROTOCOL"
   fullName: "com.azure.resourcemanager.network.models.LoadDistribution.SOURCE_IPPROTOCOL"
   name: "SOURCE_IPPROTOCOL"
   nameWithType: "LoadDistribution.SOURCE_IPPROTOCOL"
-  summary: "Static value Source<wbr>IPProtocol for Load<wbr>Distribution."
+  summary: "Source<wbr>IPProtocol."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.LoadDistribution?alt=com.azure.resourcemanager.network.models.LoadDistribution&text=LoadDistribution\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final LoadDistribution SOURCE_IPPROTOCOL"
-  desc: "Static value SourceIPProtocol for LoadDistribution."
+  desc: "SourceIPProtocol."
 methods:
 - uid: "com.azure.resourcemanager.network.models.LoadDistribution.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.LoadDistribution.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "The load distribution policy for this rule."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

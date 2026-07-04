@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.DdosTrafficType.TCP"
   name: "TCP"
   nameWithType: "DdosTrafficType.TCP"
-  summary: "Static value Tcp for Ddos<wbr>Traffic<wbr>Type."
+  summary: "Tcp."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.DdosTrafficType?alt=com.azure.resourcemanager.network.models.DdosTrafficType&text=DdosTrafficType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DdosTrafficType TCP"
-  desc: "Static value Tcp for DdosTrafficType."
+  desc: "Tcp."
 - uid: "com.azure.resourcemanager.network.models.DdosTrafficType.TCP_SYN"
   fullName: "com.azure.resourcemanager.network.models.DdosTrafficType.TCP_SYN"
   name: "TCP_SYN"
   nameWithType: "DdosTrafficType.TCP_SYN"
-  summary: "Static value Tcp<wbr>Syn for Ddos<wbr>Traffic<wbr>Type."
+  summary: "Tcp<wbr>Syn."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.DdosTrafficType?alt=com.azure.resourcemanager.network.models.DdosTrafficType&text=DdosTrafficType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DdosTrafficType TCP_SYN"
-  desc: "Static value TcpSyn for DdosTrafficType."
+  desc: "TcpSyn."
 - uid: "com.azure.resourcemanager.network.models.DdosTrafficType.UDP"
   fullName: "com.azure.resourcemanager.network.models.DdosTrafficType.UDP"
   name: "UDP"
   nameWithType: "DdosTrafficType.UDP"
-  summary: "Static value Udp for Ddos<wbr>Traffic<wbr>Type."
+  summary: "Udp."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.DdosTrafficType?alt=com.azure.resourcemanager.network.models.DdosTrafficType&text=DdosTrafficType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DdosTrafficType UDP"
-  desc: "Static value Udp for DdosTrafficType."
+  desc: "Udp."
 methods:
 - uid: "com.azure.resourcemanager.network.models.DdosTrafficType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.DdosTrafficType.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "The traffic type (one of Tcp, Udp, TcpSyn) that the detection rule will be applied upon."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewaySslPolicyType.CUSTOM"
   name: "CUSTOM"
   nameWithType: "ApplicationGatewaySslPolicyType.CUSTOM"
-  summary: "Static value Custom for Application<wbr>Gateway<wbr>Ssl<wbr>Policy<wbr>Type."
+  summary: "Custom."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewaySslPolicyType?alt=com.azure.resourcemanager.network.models.ApplicationGatewaySslPolicyType&text=ApplicationGatewaySslPolicyType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewaySslPolicyType CUSTOM"
-  desc: "Static value Custom for ApplicationGatewaySslPolicyType."
+  desc: "Custom."
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewaySslPolicyType.CUSTOM_V2"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewaySslPolicyType.CUSTOM_V2"
   name: "CUSTOM_V2"
   nameWithType: "ApplicationGatewaySslPolicyType.CUSTOM_V2"
-  summary: "Static value CustomV2 for Application<wbr>Gateway<wbr>Ssl<wbr>Policy<wbr>Type."
+  summary: "CustomV2."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewaySslPolicyType?alt=com.azure.resourcemanager.network.models.ApplicationGatewaySslPolicyType&text=ApplicationGatewaySslPolicyType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewaySslPolicyType CUSTOM_V2"
-  desc: "Static value CustomV2 for ApplicationGatewaySslPolicyType."
+  desc: "CustomV2."
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewaySslPolicyType.PREDEFINED"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewaySslPolicyType.PREDEFINED"
   name: "PREDEFINED"
   nameWithType: "ApplicationGatewaySslPolicyType.PREDEFINED"
-  summary: "Static value Predefined for Application<wbr>Gateway<wbr>Ssl<wbr>Policy<wbr>Type."
+  summary: "Predefined."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewaySslPolicyType?alt=com.azure.resourcemanager.network.models.ApplicationGatewaySslPolicyType&text=ApplicationGatewaySslPolicyType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewaySslPolicyType PREDEFINED"
-  desc: "Static value Predefined for ApplicationGatewaySslPolicyType."
+  desc: "Predefined."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewaySslPolicyType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewaySslPolicyType.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "Type of Ssl Policy."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.DestinationPortBehavior.LISTEN_IF_AVAILABLE"
   name: "LISTEN_IF_AVAILABLE"
   nameWithType: "DestinationPortBehavior.LISTEN_IF_AVAILABLE"
-  summary: "Static value Listen<wbr>IfAvailable for Destination<wbr>Port<wbr>Behavior."
+  summary: "Listen<wbr>IfAvailable."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.DestinationPortBehavior?alt=com.azure.resourcemanager.network.models.DestinationPortBehavior&text=DestinationPortBehavior\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DestinationPortBehavior LISTEN_IF_AVAILABLE"
-  desc: "Static value ListenIfAvailable for DestinationPortBehavior."
+  desc: "ListenIfAvailable."
 - uid: "com.azure.resourcemanager.network.models.DestinationPortBehavior.NONE"
   fullName: "com.azure.resourcemanager.network.models.DestinationPortBehavior.NONE"
   name: "NONE"
   nameWithType: "DestinationPortBehavior.NONE"
-  summary: "Static value None for Destination<wbr>Port<wbr>Behavior."
+  summary: "None."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.DestinationPortBehavior?alt=com.azure.resourcemanager.network.models.DestinationPortBehavior&text=DestinationPortBehavior\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DestinationPortBehavior NONE"
-  desc: "Static value None for DestinationPortBehavior."
+  desc: "None."
 methods:
 - uid: "com.azure.resourcemanager.network.models.DestinationPortBehavior.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.DestinationPortBehavior.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Destination port behavior."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

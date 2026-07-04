@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayType.EXPRESS_ROUTE"
   name: "EXPRESS_ROUTE"
   nameWithType: "VirtualNetworkGatewayType.EXPRESS_ROUTE"
-  summary: "Static value Express<wbr>Route for Virtual<wbr>Network<wbr>Gateway<wbr>Type."
+  summary: "Express<wbr>Route."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualNetworkGatewayType?alt=com.azure.resourcemanager.network.models.VirtualNetworkGatewayType&text=VirtualNetworkGatewayType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualNetworkGatewayType EXPRESS_ROUTE"
-  desc: "Static value ExpressRoute for VirtualNetworkGatewayType."
+  desc: "ExpressRoute."
 - uid: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayType.LOCAL_GATEWAY"
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayType.LOCAL_GATEWAY"
   name: "LOCAL_GATEWAY"
   nameWithType: "VirtualNetworkGatewayType.LOCAL_GATEWAY"
-  summary: "Static value Local<wbr>Gateway for Virtual<wbr>Network<wbr>Gateway<wbr>Type."
+  summary: "Local<wbr>Gateway."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualNetworkGatewayType?alt=com.azure.resourcemanager.network.models.VirtualNetworkGatewayType&text=VirtualNetworkGatewayType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualNetworkGatewayType LOCAL_GATEWAY"
-  desc: "Static value LocalGateway for VirtualNetworkGatewayType."
+  desc: "LocalGateway."
 - uid: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayType.VPN"
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayType.VPN"
   name: "VPN"
   nameWithType: "VirtualNetworkGatewayType.VPN"
-  summary: "Static value Vpn for Virtual<wbr>Network<wbr>Gateway<wbr>Type."
+  summary: "Vpn."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualNetworkGatewayType?alt=com.azure.resourcemanager.network.models.VirtualNetworkGatewayType&text=VirtualNetworkGatewayType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualNetworkGatewayType VPN"
-  desc: "Static value Vpn for VirtualNetworkGatewayType."
+  desc: "Vpn."
 methods:
 - uid: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayType.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "The type of this virtual network gateway."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

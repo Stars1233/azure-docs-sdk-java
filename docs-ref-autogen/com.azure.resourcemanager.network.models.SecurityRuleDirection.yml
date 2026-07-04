@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.SecurityRuleDirection.INBOUND"
   name: "INBOUND"
   nameWithType: "SecurityRuleDirection.INBOUND"
-  summary: "Static value Inbound for Security<wbr>Rule<wbr>Direction."
+  summary: "Inbound."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.SecurityRuleDirection?alt=com.azure.resourcemanager.network.models.SecurityRuleDirection&text=SecurityRuleDirection\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SecurityRuleDirection INBOUND"
-  desc: "Static value Inbound for SecurityRuleDirection."
+  desc: "Inbound."
 - uid: "com.azure.resourcemanager.network.models.SecurityRuleDirection.OUTBOUND"
   fullName: "com.azure.resourcemanager.network.models.SecurityRuleDirection.OUTBOUND"
   name: "OUTBOUND"
   nameWithType: "SecurityRuleDirection.OUTBOUND"
-  summary: "Static value Outbound for Security<wbr>Rule<wbr>Direction."
+  summary: "Outbound."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.SecurityRuleDirection?alt=com.azure.resourcemanager.network.models.SecurityRuleDirection&text=SecurityRuleDirection\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SecurityRuleDirection OUTBOUND"
-  desc: "Static value Outbound for SecurityRuleDirection."
+  desc: "Outbound."
 methods:
 - uid: "com.azure.resourcemanager.network.models.SecurityRuleDirection.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.SecurityRuleDirection.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The direction of the rule. The direction specifies if rule will be evaluated on incoming or outgoing traffic."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

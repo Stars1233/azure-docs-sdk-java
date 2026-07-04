@@ -14,7 +14,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location that will be used as a reference for cloud (not as a filter based on location, you\n will get the list of service tags with prefix details across all regions but limited to the cloud that your\n subscription belongs to)."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<ServiceTagInformationInner> list(String location)"
@@ -30,7 +30,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location that will be used as a reference for cloud (not as a filter based on location, you\n will get the list of service tags with prefix details across all regions but limited to the cloud that your\n subscription belongs to)."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Do not return address prefixes for the tag(s)."
@@ -55,7 +55,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location that will be used as a reference for cloud (not as a filter based on location, you\n will get the list of service tags with prefix details across all regions but limited to the cloud that your\n subscription belongs to)."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedFlux<ServiceTagInformationInner> listAsync(String location)"
@@ -71,7 +71,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location that will be used as a reference for cloud (not as a filter based on location, you\n will get the list of service tags with prefix details across all regions but limited to the cloud that your\n subscription belongs to)."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Do not return address prefixes for the tag(s)."
@@ -89,4 +89,4 @@ type: "interface"
 desc: "An instance of this class provides access to all the operations defined in ServiceTagInformationsClient."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

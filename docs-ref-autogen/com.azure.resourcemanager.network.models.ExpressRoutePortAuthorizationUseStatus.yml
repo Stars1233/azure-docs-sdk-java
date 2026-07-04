@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ExpressRoutePortAuthorizationUseStatus.AVAILABLE"
   name: "AVAILABLE"
   nameWithType: "ExpressRoutePortAuthorizationUseStatus.AVAILABLE"
-  summary: "Static value Available for Express<wbr>Route<wbr>Port<wbr>Authorization<wbr>Use<wbr>Status."
+  summary: "Available."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRoutePortAuthorizationUseStatus?alt=com.azure.resourcemanager.network.models.ExpressRoutePortAuthorizationUseStatus&text=ExpressRoutePortAuthorizationUseStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExpressRoutePortAuthorizationUseStatus AVAILABLE"
-  desc: "Static value Available for ExpressRoutePortAuthorizationUseStatus."
+  desc: "Available."
 - uid: "com.azure.resourcemanager.network.models.ExpressRoutePortAuthorizationUseStatus.IN_USE"
   fullName: "com.azure.resourcemanager.network.models.ExpressRoutePortAuthorizationUseStatus.IN_USE"
   name: "IN_USE"
   nameWithType: "ExpressRoutePortAuthorizationUseStatus.IN_USE"
-  summary: "Static value In<wbr>Use for Express<wbr>Route<wbr>Port<wbr>Authorization<wbr>Use<wbr>Status."
+  summary: "In<wbr>Use."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRoutePortAuthorizationUseStatus?alt=com.azure.resourcemanager.network.models.ExpressRoutePortAuthorizationUseStatus&text=ExpressRoutePortAuthorizationUseStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExpressRoutePortAuthorizationUseStatus IN_USE"
-  desc: "Static value InUse for ExpressRoutePortAuthorizationUseStatus."
+  desc: "InUse."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ExpressRoutePortAuthorizationUseStatus.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ExpressRoutePortAuthorizationUseStatus.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The authorization use status."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

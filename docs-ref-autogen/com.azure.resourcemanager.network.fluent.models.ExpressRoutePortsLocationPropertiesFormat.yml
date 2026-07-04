@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ExpressRoutePortsLocationPropertiesFormat**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationPropertiesFormat&text=ExpressRoutePortsLocationPropertiesFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationPropertiesFormat.ExpressRoutePortsLocationPropertiesFormat()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationPropertiesFormat.ExpressRoutePortsLocationPropertiesFormat()"
-  name: "ExpressRoutePortsLocationPropertiesFormat()"
-  nameWithType: "ExpressRoutePortsLocationPropertiesFormat.ExpressRoutePortsLocationPropertiesFormat()"
-  summary: "Creates an instance of Express<wbr>Route<wbr>Ports<wbr>Location<wbr>Properties<wbr>Format class."
-  syntax: "public ExpressRoutePortsLocationPropertiesFormat()"
-  desc: "Creates an instance of ExpressRoutePortsLocationPropertiesFormat class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationPropertiesFormat.address()"
   fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationPropertiesFormat.address()"
@@ -108,24 +100,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationPropertiesFormat.withAvailableBandwidths(java.util.List<com.azure.resourcemanager.network.models.ExpressRoutePortsLocationBandwidths>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationPropertiesFormat.withAvailableBandwidths(List<ExpressRoutePortsLocationBandwidths> availableBandwidths)"
-  name: "withAvailableBandwidths(List<ExpressRoutePortsLocationBandwidths> availableBandwidths)"
-  nameWithType: "ExpressRoutePortsLocationPropertiesFormat.withAvailableBandwidths(List<ExpressRoutePortsLocationBandwidths> availableBandwidths)"
-  summary: "Set the available<wbr>Bandwidths property: The inventory of available Express<wbr>Route<wbr>Port bandwidths."
-  parameters:
-  - description: "the availableBandwidths value to set."
-    name: "availableBandwidths"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ExpressRoutePortsLocationBandwidths?alt=com.azure.resourcemanager.network.models.ExpressRoutePortsLocationBandwidths&text=ExpressRoutePortsLocationBandwidths\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public ExpressRoutePortsLocationPropertiesFormat withAvailableBandwidths(List<ExpressRoutePortsLocationBandwidths> availableBandwidths)"
-  desc: "Set the availableBandwidths property: The inventory of available ExpressRoutePort bandwidths."
-  returns:
-    description: "the ExpressRoutePortsLocationPropertiesFormat object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationPropertiesFormat&text=ExpressRoutePortsLocationPropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "ExpressRoutePorts Location Properties Properties specific to ExpressRoutePorts peering location resources."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationPropertiesFormat&text=ExpressRoutePortsLocationPropertiesFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

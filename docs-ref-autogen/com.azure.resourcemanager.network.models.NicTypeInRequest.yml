@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.NicTypeInRequest.PRIVATE_NIC"
   name: "PRIVATE_NIC"
   nameWithType: "NicTypeInRequest.PRIVATE_NIC"
-  summary: "Static value Private<wbr>Nic for Nic<wbr>Type<wbr>InRequest."
+  summary: "Private<wbr>Nic."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.NicTypeInRequest?alt=com.azure.resourcemanager.network.models.NicTypeInRequest&text=NicTypeInRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NicTypeInRequest PRIVATE_NIC"
-  desc: "Static value PrivateNic for NicTypeInRequest."
+  desc: "PrivateNic."
 - uid: "com.azure.resourcemanager.network.models.NicTypeInRequest.PUBLIC_NIC"
   fullName: "com.azure.resourcemanager.network.models.NicTypeInRequest.PUBLIC_NIC"
   name: "PUBLIC_NIC"
   nameWithType: "NicTypeInRequest.PUBLIC_NIC"
-  summary: "Static value Public<wbr>Nic for Nic<wbr>Type<wbr>InRequest."
+  summary: "Public<wbr>Nic."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.NicTypeInRequest?alt=com.azure.resourcemanager.network.models.NicTypeInRequest&text=NicTypeInRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NicTypeInRequest PUBLIC_NIC"
-  desc: "Static value PublicNic for NicTypeInRequest."
+  desc: "PublicNic."
 methods:
 - uid: "com.azure.resourcemanager.network.models.NicTypeInRequest.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.NicTypeInRequest.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "NIC type. This should be either PublicNic or PrivateNic."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ConnectionAuthenticationType.CERTIFICATE"
   name: "CERTIFICATE"
   nameWithType: "ConnectionAuthenticationType.CERTIFICATE"
-  summary: "Static value Certificate for Connection<wbr>Authentication<wbr>Type."
+  summary: "Certificate-based authentication method for VPN gateway connections."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ConnectionAuthenticationType?alt=com.azure.resourcemanager.network.models.ConnectionAuthenticationType&text=ConnectionAuthenticationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ConnectionAuthenticationType CERTIFICATE"
-  desc: "Static value Certificate for ConnectionAuthenticationType."
+  desc: "Certificate-based authentication method for VPN gateway connections."
 - uid: "com.azure.resourcemanager.network.models.ConnectionAuthenticationType.PSK"
   fullName: "com.azure.resourcemanager.network.models.ConnectionAuthenticationType.PSK"
   name: "PSK"
   nameWithType: "ConnectionAuthenticationType.PSK"
-  summary: "Static value PSK for Connection<wbr>Authentication<wbr>Type."
+  summary: "Pre-shared key authentication method for VPN gateway connections."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ConnectionAuthenticationType?alt=com.azure.resourcemanager.network.models.ConnectionAuthenticationType&text=ConnectionAuthenticationType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ConnectionAuthenticationType PSK"
-  desc: "Static value PSK for ConnectionAuthenticationType."
+  desc: "Pre-shared key authentication method for VPN gateway connections."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ConnectionAuthenticationType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ConnectionAuthenticationType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Gateway connection authentication type."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

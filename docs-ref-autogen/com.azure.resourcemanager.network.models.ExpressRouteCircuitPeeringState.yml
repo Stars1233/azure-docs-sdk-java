@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ExpressRouteCircuitPeeringState.DISABLED"
   name: "DISABLED"
   nameWithType: "ExpressRouteCircuitPeeringState.DISABLED"
-  summary: "Static value Disabled for Express<wbr>Route<wbr>Circuit<wbr>Peering<wbr>State."
+  summary: "Disabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteCircuitPeeringState?alt=com.azure.resourcemanager.network.models.ExpressRouteCircuitPeeringState&text=ExpressRouteCircuitPeeringState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExpressRouteCircuitPeeringState DISABLED"
-  desc: "Static value Disabled for ExpressRouteCircuitPeeringState."
+  desc: "Disabled."
 - uid: "com.azure.resourcemanager.network.models.ExpressRouteCircuitPeeringState.ENABLED"
   fullName: "com.azure.resourcemanager.network.models.ExpressRouteCircuitPeeringState.ENABLED"
   name: "ENABLED"
   nameWithType: "ExpressRouteCircuitPeeringState.ENABLED"
-  summary: "Static value Enabled for Express<wbr>Route<wbr>Circuit<wbr>Peering<wbr>State."
+  summary: "Enabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteCircuitPeeringState?alt=com.azure.resourcemanager.network.models.ExpressRouteCircuitPeeringState&text=ExpressRouteCircuitPeeringState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExpressRouteCircuitPeeringState ENABLED"
-  desc: "Static value Enabled for ExpressRouteCircuitPeeringState."
+  desc: "Enabled."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ExpressRouteCircuitPeeringState.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ExpressRouteCircuitPeeringState.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The state of peering."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -14,13 +14,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the VirtualHub."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the VirtualHub."
     name: "virtualHubName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the RouteTable."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "routeTableName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to create or update RouteTable."
@@ -39,13 +39,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the VirtualHub."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the VirtualHub."
     name: "virtualHubName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the RouteTable."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "routeTableName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to create or update RouteTable."
@@ -67,13 +67,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the VirtualHub."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the VirtualHub."
     name: "virtualHubName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the RouteTable."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "routeTableName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to create or update RouteTable."
@@ -92,13 +92,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the RouteTable."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the VirtualHub."
     name: "virtualHubName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the RouteTable."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "routeTableName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDelete(String resourceGroupName, String virtualHubName, String routeTableName)"
@@ -114,13 +114,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the RouteTable."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the VirtualHub."
     name: "virtualHubName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the RouteTable."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "routeTableName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -139,13 +139,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the RouteTable."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the VirtualHub."
     name: "virtualHubName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the RouteTable."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "routeTableName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PollerFlux<PollResult<Void>,Void> beginDeleteAsync(String resourceGroupName, String virtualHubName, String routeTableName)"
@@ -161,13 +161,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the VirtualHub."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the VirtualHub."
     name: "virtualHubName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the RouteTable."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "routeTableName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to create or update RouteTable."
@@ -186,13 +186,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the VirtualHub."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the VirtualHub."
     name: "virtualHubName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the RouteTable."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "routeTableName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to create or update RouteTable."
@@ -214,13 +214,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the VirtualHub."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the VirtualHub."
     name: "virtualHubName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the RouteTable."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "routeTableName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to create or update RouteTable."
@@ -239,13 +239,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the VirtualHub."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the VirtualHub."
     name: "virtualHubName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the RouteTable."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "routeTableName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to create or update RouteTable."
@@ -264,13 +264,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the RouteTable."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the VirtualHub."
     name: "virtualHubName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the RouteTable."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "routeTableName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void delete(String resourceGroupName, String virtualHubName, String routeTableName)"
@@ -283,13 +283,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the RouteTable."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the VirtualHub."
     name: "virtualHubName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the RouteTable."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "routeTableName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -305,13 +305,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the RouteTable."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the VirtualHub."
     name: "virtualHubName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the RouteTable."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "routeTableName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<Void> deleteAsync(String resourceGroupName, String virtualHubName, String routeTableName)"
@@ -327,13 +327,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the RouteTable."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the VirtualHub."
     name: "virtualHubName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the RouteTable."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "routeTableName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> deleteWithResponseAsync(String resourceGroupName, String virtualHubName, String routeTableName)"
@@ -349,13 +349,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the VirtualHub."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the VirtualHub."
     name: "virtualHubName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the RouteTable."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "routeTableName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract HubRouteTableInner get(String resourceGroupName, String virtualHubName, String routeTableName)"
@@ -371,13 +371,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the VirtualHub."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the VirtualHub."
     name: "virtualHubName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the RouteTable."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "routeTableName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<HubRouteTableInner> getAsync(String resourceGroupName, String virtualHubName, String routeTableName)"
@@ -393,13 +393,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the VirtualHub."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the VirtualHub."
     name: "virtualHubName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the RouteTable."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "routeTableName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -418,13 +418,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the VirtualHub."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the VirtualHub."
     name: "virtualHubName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the RouteTable."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "routeTableName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<Response<HubRouteTableInner>> getWithResponseAsync(String resourceGroupName, String virtualHubName, String routeTableName)"
@@ -440,7 +440,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the VirtualHub."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the VirtualHub."
@@ -459,7 +459,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the VirtualHub."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the VirtualHub."
@@ -481,7 +481,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The resource group name of the VirtualHub."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the VirtualHub."
@@ -496,4 +496,4 @@ type: "interface"
 desc: "An instance of this class provides access to all the operations defined in HubRouteTablesClient."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -18,6 +18,7 @@ inheritedClassMethods:
   - "<xref href=\"com.azure.resourcemanager.network.models.ChildResource.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.network.models.ChildResource.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.network.models.ChildResource.type()?alt=com.azure.resourcemanager.network.models.ChildResource.type&text=type\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.network.models.ChildResource.validate()?alt=com.azure.resourcemanager.network.models.ChildResource.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.resourcemanager.network.models.ChildResource.withId(java.lang.String)?alt=com.azure.resourcemanager.network.models.ChildResource.withId&text=withId\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -81,17 +82,6 @@ methods:
   returns:
     description: "An instance of NetworkManagerRoutingConfigurationInner if the JsonReader was pointing to an instance of\n it, or null if it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkManagerRoutingConfigurationInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkManagerRoutingConfigurationInner&text=NetworkManagerRoutingConfigurationInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.NetworkManagerRoutingConfigurationInner.id()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NetworkManagerRoutingConfigurationInner.id()"
-  name: "id()"
-  nameWithType: "NetworkManagerRoutingConfigurationInner.id()"
-  summary: "Get the id property: Fully qualified resource Id for the resource."
-  overridden: "com.azure.resourcemanager.network.models.ChildResource.id()"
-  syntax: "public String id()"
-  desc: "Get the id property: Fully qualified resource Id for the resource."
-  returns:
-    description: "the id value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.network.fluent.models.NetworkManagerRoutingConfigurationInner.name()"
   fullName: "com.azure.resourcemanager.network.fluent.models.NetworkManagerRoutingConfigurationInner.name()"
   name: "name()"
@@ -189,6 +179,19 @@ methods:
   returns:
     description: "the NetworkManagerRoutingConfigurationInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkManagerRoutingConfigurationInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkManagerRoutingConfigurationInner&text=NetworkManagerRoutingConfigurationInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.models.NetworkManagerRoutingConfigurationInner.withId(java.lang.String)"
+  fullName: "com.azure.resourcemanager.network.fluent.models.NetworkManagerRoutingConfigurationInner.withId(String id)"
+  name: "withId(String id)"
+  nameWithType: "NetworkManagerRoutingConfigurationInner.withId(String id)"
+  summary: "Set the id property: Resource ID."
+  overridden: "com.azure.resourcemanager.network.models.ChildResource.withId(java.lang.String)"
+  parameters:
+  - name: "id"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public NetworkManagerRoutingConfigurationInner withId(String id)"
+  desc: "Set the id property: Resource ID."
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkManagerRoutingConfigurationInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkManagerRoutingConfigurationInner&text=NetworkManagerRoutingConfigurationInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.NetworkManagerRoutingConfigurationInner.withRouteTableUsageMode(com.azure.resourcemanager.network.models.RouteTableUsageMode)"
   fullName: "com.azure.resourcemanager.network.fluent.models.NetworkManagerRoutingConfigurationInner.withRouteTableUsageMode(RouteTableUsageMode routeTableUsageMode)"
   name: "withRouteTableUsageMode(RouteTableUsageMode routeTableUsageMode)"
@@ -207,4 +210,4 @@ type: "class"
 desc: "Defines the routing configuration."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

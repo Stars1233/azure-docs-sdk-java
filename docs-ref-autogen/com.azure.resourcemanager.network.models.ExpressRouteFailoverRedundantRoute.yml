@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ExpressRouteFailoverRedundantRoute**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteFailoverRedundantRoute?alt=com.azure.resourcemanager.network.models.ExpressRouteFailoverRedundantRoute&text=ExpressRouteFailoverRedundantRoute\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.models.ExpressRouteFailoverRedundantRoute.ExpressRouteFailoverRedundantRoute()"
-  fullName: "com.azure.resourcemanager.network.models.ExpressRouteFailoverRedundantRoute.ExpressRouteFailoverRedundantRoute()"
-  name: "ExpressRouteFailoverRedundantRoute()"
-  nameWithType: "ExpressRouteFailoverRedundantRoute.ExpressRouteFailoverRedundantRoute()"
-  summary: "Creates an instance of Express<wbr>Route<wbr>Failover<wbr>Redundant<wbr>Route class."
-  syntax: "public ExpressRouteFailoverRedundantRoute()"
-  desc: "Creates an instance of ExpressRouteFailoverRedundantRoute class."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ExpressRouteFailoverRedundantRoute.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.models.ExpressRouteFailoverRedundantRoute.fromJson(JsonReader jsonReader)"
@@ -88,38 +80,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.models.ExpressRouteFailoverRedundantRoute.withPeeringLocations(java.util.List<java.lang.String>)"
-  fullName: "com.azure.resourcemanager.network.models.ExpressRouteFailoverRedundantRoute.withPeeringLocations(List<String> peeringLocations)"
-  name: "withPeeringLocations(List<String> peeringLocations)"
-  nameWithType: "ExpressRouteFailoverRedundantRoute.withPeeringLocations(List<String> peeringLocations)"
-  summary: "Set the peering<wbr>Locations property: A list of all the peering locations for the redundant routes."
-  parameters:
-  - description: "the peeringLocations value to set."
-    name: "peeringLocations"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public ExpressRouteFailoverRedundantRoute withPeeringLocations(List<String> peeringLocations)"
-  desc: "Set the peeringLocations property: A list of all the peering locations for the redundant routes."
-  returns:
-    description: "the ExpressRouteFailoverRedundantRoute object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteFailoverRedundantRoute?alt=com.azure.resourcemanager.network.models.ExpressRouteFailoverRedundantRoute&text=ExpressRouteFailoverRedundantRoute\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.ExpressRouteFailoverRedundantRoute.withRoutes(java.util.List<java.lang.String>)"
-  fullName: "com.azure.resourcemanager.network.models.ExpressRouteFailoverRedundantRoute.withRoutes(List<String> routes)"
-  name: "withRoutes(List<String> routes)"
-  nameWithType: "ExpressRouteFailoverRedundantRoute.withRoutes(List<String> routes)"
-  summary: "Set the routes property: A list of all the redundant routes in the peering locations."
-  parameters:
-  - description: "the routes value to set."
-    name: "routes"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public ExpressRouteFailoverRedundantRoute withRoutes(List<String> routes)"
-  desc: "Set the routes property: A list of all the redundant routes in the peering locations."
-  returns:
-    description: "the ExpressRouteFailoverRedundantRoute object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteFailoverRedundantRoute?alt=com.azure.resourcemanager.network.models.ExpressRouteFailoverRedundantRoute&text=ExpressRouteFailoverRedundantRoute\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The ExpressRouteFailoverRedundantRoute model."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteFailoverRedundantRoute?alt=com.azure.resourcemanager.network.models.ExpressRouteFailoverRedundantRoute&text=ExpressRouteFailoverRedundantRoute\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayClientRevocationOptions.NONE"
   name: "NONE"
   nameWithType: "ApplicationGatewayClientRevocationOptions.NONE"
-  summary: "Static value None for Application<wbr>Gateway<wbr>Client<wbr>Revocation<wbr>Options."
+  summary: "None."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayClientRevocationOptions?alt=com.azure.resourcemanager.network.models.ApplicationGatewayClientRevocationOptions&text=ApplicationGatewayClientRevocationOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayClientRevocationOptions NONE"
-  desc: "Static value None for ApplicationGatewayClientRevocationOptions."
+  desc: "None."
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayClientRevocationOptions.OCSP"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayClientRevocationOptions.OCSP"
   name: "OCSP"
   nameWithType: "ApplicationGatewayClientRevocationOptions.OCSP"
-  summary: "Static value OCSP for Application<wbr>Gateway<wbr>Client<wbr>Revocation<wbr>Options."
+  summary: "OCSP."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayClientRevocationOptions?alt=com.azure.resourcemanager.network.models.ApplicationGatewayClientRevocationOptions&text=ApplicationGatewayClientRevocationOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayClientRevocationOptions OCSP"
-  desc: "Static value OCSP for ApplicationGatewayClientRevocationOptions."
+  desc: "OCSP."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayClientRevocationOptions.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayClientRevocationOptions.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Verify client certificate revocation status."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

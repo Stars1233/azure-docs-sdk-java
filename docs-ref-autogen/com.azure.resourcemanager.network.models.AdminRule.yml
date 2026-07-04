@@ -14,13 +14,16 @@ inheritedClassMethods:
   methodsRef:
   - "<xref href=\"com.azure.resourcemanager.network.fluent.models.BaseAdminRuleInner.etag()?alt=com.azure.resourcemanager.network.fluent.models.BaseAdminRuleInner.etag&text=etag\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.network.fluent.models.BaseAdminRuleInner.fromJson(com.azure.json.JsonReader)?alt=com.azure.resourcemanager.network.fluent.models.BaseAdminRuleInner.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.resourcemanager.network.fluent.models.BaseAdminRuleInner.id()?alt=com.azure.resourcemanager.network.fluent.models.BaseAdminRuleInner.id&text=id\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.network.fluent.models.BaseAdminRuleInner.kind()?alt=com.azure.resourcemanager.network.fluent.models.BaseAdminRuleInner.kind&text=kind\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.network.fluent.models.BaseAdminRuleInner.name()?alt=com.azure.resourcemanager.network.fluent.models.BaseAdminRuleInner.name&text=name\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.network.fluent.models.BaseAdminRuleInner.systemData()?alt=com.azure.resourcemanager.network.fluent.models.BaseAdminRuleInner.systemData&text=systemData\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.network.fluent.models.BaseAdminRuleInner.toJson(com.azure.json.JsonWriter)?alt=com.azure.resourcemanager.network.fluent.models.BaseAdminRuleInner.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.network.fluent.models.BaseAdminRuleInner.type()?alt=com.azure.resourcemanager.network.fluent.models.BaseAdminRuleInner.type&text=type\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.azure.resourcemanager.network.fluent.models.BaseAdminRuleInner.validate()?alt=com.azure.resourcemanager.network.fluent.models.BaseAdminRuleInner.validate&text=validate\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.resourcemanager.network.fluent.models.BaseAdminRuleInner.withId(java.lang.String)?alt=com.azure.resourcemanager.network.fluent.models.BaseAdminRuleInner.withId&text=withId\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "<xref href=\"com.azure.resourcemanager.network.models.ChildResource?alt=com.azure.resourcemanager.network.models.ChildResource&text=ChildResource\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.resourcemanager.network.models.ChildResource.id()?alt=com.azure.resourcemanager.network.models.ChildResource.id&text=id\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -124,17 +127,6 @@ methods:
   returns:
     description: "An instance of AdminRule if the JsonReader was pointing to an instance of it, or null if it was pointing\n to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.network.models.AdminRule?alt=com.azure.resourcemanager.network.models.AdminRule&text=AdminRule\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.AdminRule.id()"
-  fullName: "com.azure.resourcemanager.network.models.AdminRule.id()"
-  name: "id()"
-  nameWithType: "AdminRule.id()"
-  summary: "Get the id property: Fully qualified resource Id for the resource."
-  overridden: "com.azure.resourcemanager.network.fluent.models.BaseAdminRuleInner.id()"
-  syntax: "public String id()"
-  desc: "Get the id property: Fully qualified resource Id for the resource."
-  returns:
-    description: "the id value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.network.models.AdminRule.kind()"
   fullName: "com.azure.resourcemanager.network.models.AdminRule.kind()"
   name: "kind()"
@@ -330,6 +322,19 @@ methods:
   returns:
     description: "the AdminRule object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.models.AdminRule?alt=com.azure.resourcemanager.network.models.AdminRule&text=AdminRule\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.AdminRule.withId(java.lang.String)"
+  fullName: "com.azure.resourcemanager.network.models.AdminRule.withId(String id)"
+  name: "withId(String id)"
+  nameWithType: "AdminRule.withId(String id)"
+  summary: "Set the id property: Resource ID."
+  overridden: "com.azure.resourcemanager.network.fluent.models.BaseAdminRuleInner.withId(java.lang.String)"
+  parameters:
+  - name: "id"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public AdminRule withId(String id)"
+  desc: "Set the id property: Resource ID."
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.network.models.AdminRule?alt=com.azure.resourcemanager.network.models.AdminRule&text=AdminRule\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.models.AdminRule.withPriority(java.lang.Integer)"
   fullName: "com.azure.resourcemanager.network.models.AdminRule.withPriority(Integer priority)"
   name: "withPriority(Integer priority)"
@@ -390,4 +395,4 @@ type: "class"
 desc: "Network admin rule."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

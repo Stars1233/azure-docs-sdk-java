@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyRuleCollectionType.FIREWALL_POLICY_FILTER_RULE_COLLECTION"
   name: "FIREWALL_POLICY_FILTER_RULE_COLLECTION"
   nameWithType: "FirewallPolicyRuleCollectionType.FIREWALL_POLICY_FILTER_RULE_COLLECTION"
-  summary: "Static value Firewall<wbr>Policy<wbr>Filter<wbr>Rule<wbr>Collection for Firewall<wbr>Policy<wbr>Rule<wbr>Collection<wbr>Type."
+  summary: "Firewall<wbr>Policy<wbr>Filter<wbr>Rule<wbr>Collection."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyRuleCollectionType?alt=com.azure.resourcemanager.network.models.FirewallPolicyRuleCollectionType&text=FirewallPolicyRuleCollectionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyRuleCollectionType FIREWALL_POLICY_FILTER_RULE_COLLECTION"
-  desc: "Static value FirewallPolicyFilterRuleCollection for FirewallPolicyRuleCollectionType."
+  desc: "FirewallPolicyFilterRuleCollection."
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyRuleCollectionType.FIREWALL_POLICY_NAT_RULE_COLLECTION"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyRuleCollectionType.FIREWALL_POLICY_NAT_RULE_COLLECTION"
   name: "FIREWALL_POLICY_NAT_RULE_COLLECTION"
   nameWithType: "FirewallPolicyRuleCollectionType.FIREWALL_POLICY_NAT_RULE_COLLECTION"
-  summary: "Static value Firewall<wbr>Policy<wbr>Nat<wbr>Rule<wbr>Collection for Firewall<wbr>Policy<wbr>Rule<wbr>Collection<wbr>Type."
+  summary: "Firewall<wbr>Policy<wbr>Nat<wbr>Rule<wbr>Collection."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyRuleCollectionType?alt=com.azure.resourcemanager.network.models.FirewallPolicyRuleCollectionType&text=FirewallPolicyRuleCollectionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyRuleCollectionType FIREWALL_POLICY_NAT_RULE_COLLECTION"
-  desc: "Static value FirewallPolicyNatRuleCollection for FirewallPolicyRuleCollectionType."
+  desc: "FirewallPolicyNatRuleCollection."
 methods:
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyRuleCollectionType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyRuleCollectionType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The type of the rule collection."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

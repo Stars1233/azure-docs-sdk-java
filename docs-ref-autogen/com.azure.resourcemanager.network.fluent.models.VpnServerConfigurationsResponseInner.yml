@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **VpnServerConfigurationsResponseInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.VpnServerConfigurationsResponseInner?alt=com.azure.resourcemanager.network.fluent.models.VpnServerConfigurationsResponseInner&text=VpnServerConfigurationsResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.VpnServerConfigurationsResponseInner.VpnServerConfigurationsResponseInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.VpnServerConfigurationsResponseInner.VpnServerConfigurationsResponseInner()"
-  name: "VpnServerConfigurationsResponseInner()"
-  nameWithType: "VpnServerConfigurationsResponseInner.VpnServerConfigurationsResponseInner()"
-  summary: "Creates an instance of Vpn<wbr>Server<wbr>Configurations<wbr>Response<wbr>Inner class."
-  syntax: "public VpnServerConfigurationsResponseInner()"
-  desc: "Creates an instance of VpnServerConfigurationsResponseInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.VpnServerConfigurationsResponseInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.VpnServerConfigurationsResponseInner.fromJson(JsonReader jsonReader)"
@@ -78,24 +70,10 @@ methods:
   returns:
     description: "the vpnServerConfigurationResourceIds value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-- uid: "com.azure.resourcemanager.network.fluent.models.VpnServerConfigurationsResponseInner.withVpnServerConfigurationResourceIds(java.util.List<java.lang.String>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.VpnServerConfigurationsResponseInner.withVpnServerConfigurationResourceIds(List<String> vpnServerConfigurationResourceIds)"
-  name: "withVpnServerConfigurationResourceIds(List<String> vpnServerConfigurationResourceIds)"
-  nameWithType: "VpnServerConfigurationsResponseInner.withVpnServerConfigurationResourceIds(List<String> vpnServerConfigurationResourceIds)"
-  summary: "Set the vpn<wbr>Server<wbr>Configuration<wbr>Resource<wbr>Ids property: List of Vpn<wbr>Server<wbr>Configurations associated with Virtual<wbr>Wan."
-  parameters:
-  - description: "the vpnServerConfigurationResourceIds value to set."
-    name: "vpnServerConfigurationResourceIds"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public VpnServerConfigurationsResponseInner withVpnServerConfigurationResourceIds(List<String> vpnServerConfigurationResourceIds)"
-  desc: "Set the vpnServerConfigurationResourceIds property: List of VpnServerConfigurations associated with VirtualWan."
-  returns:
-    description: "the VpnServerConfigurationsResponseInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.VpnServerConfigurationsResponseInner?alt=com.azure.resourcemanager.network.fluent.models.VpnServerConfigurationsResponseInner&text=VpnServerConfigurationsResponseInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "VpnServerConfigurations list associated with VirtualWan Response."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.VpnServerConfigurationsResponseInner?alt=com.azure.resourcemanager.network.fluent.models.VpnServerConfigurationsResponseInner&text=VpnServerConfigurationsResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

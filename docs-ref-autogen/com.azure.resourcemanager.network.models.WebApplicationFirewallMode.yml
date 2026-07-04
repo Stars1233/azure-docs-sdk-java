@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.WebApplicationFirewallMode.DETECTION"
   name: "DETECTION"
   nameWithType: "WebApplicationFirewallMode.DETECTION"
-  summary: "Static value Detection for Web<wbr>Application<wbr>Firewall<wbr>Mode."
+  summary: "Detection."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.WebApplicationFirewallMode?alt=com.azure.resourcemanager.network.models.WebApplicationFirewallMode&text=WebApplicationFirewallMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final WebApplicationFirewallMode DETECTION"
-  desc: "Static value Detection for WebApplicationFirewallMode."
+  desc: "Detection."
 - uid: "com.azure.resourcemanager.network.models.WebApplicationFirewallMode.PREVENTION"
   fullName: "com.azure.resourcemanager.network.models.WebApplicationFirewallMode.PREVENTION"
   name: "PREVENTION"
   nameWithType: "WebApplicationFirewallMode.PREVENTION"
-  summary: "Static value Prevention for Web<wbr>Application<wbr>Firewall<wbr>Mode."
+  summary: "Prevention."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.WebApplicationFirewallMode?alt=com.azure.resourcemanager.network.models.WebApplicationFirewallMode&text=WebApplicationFirewallMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final WebApplicationFirewallMode PREVENTION"
-  desc: "Static value Prevention for WebApplicationFirewallMode."
+  desc: "Prevention."
 methods:
 - uid: "com.azure.resourcemanager.network.models.WebApplicationFirewallMode.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.WebApplicationFirewallMode.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The mode of the policy."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

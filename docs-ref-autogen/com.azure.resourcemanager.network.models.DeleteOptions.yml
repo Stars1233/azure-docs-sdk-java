@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.DeleteOptions.DELETE"
   name: "DELETE"
   nameWithType: "DeleteOptions.DELETE"
-  summary: "Static value Delete for Delete<wbr>Options."
+  summary: "Delete."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.DeleteOptions?alt=com.azure.resourcemanager.network.models.DeleteOptions&text=DeleteOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DeleteOptions DELETE"
-  desc: "Static value Delete for DeleteOptions."
+  desc: "Delete."
 - uid: "com.azure.resourcemanager.network.models.DeleteOptions.DETACH"
   fullName: "com.azure.resourcemanager.network.models.DeleteOptions.DETACH"
   name: "DETACH"
   nameWithType: "DeleteOptions.DETACH"
-  summary: "Static value Detach for Delete<wbr>Options."
+  summary: "Detach."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.DeleteOptions?alt=com.azure.resourcemanager.network.models.DeleteOptions&text=DeleteOptions\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DeleteOptions DETACH"
-  desc: "Static value Detach for DeleteOptions."
+  desc: "Detach."
 methods:
 - uid: "com.azure.resourcemanager.network.models.DeleteOptions.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.DeleteOptions.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Specify what happens to the public IP address when the VM using it is deleted."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

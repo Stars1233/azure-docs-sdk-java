@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.UseHubGateway.FALSE"
   name: "FALSE"
   nameWithType: "UseHubGateway.FALSE"
-  summary: "Static value False for Use<wbr>Hub<wbr>Gateway."
+  summary: "False."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.UseHubGateway?alt=com.azure.resourcemanager.network.models.UseHubGateway&text=UseHubGateway\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final UseHubGateway FALSE"
-  desc: "Static value False for UseHubGateway."
+  desc: "False."
 - uid: "com.azure.resourcemanager.network.models.UseHubGateway.TRUE"
   fullName: "com.azure.resourcemanager.network.models.UseHubGateway.TRUE"
   name: "TRUE"
   nameWithType: "UseHubGateway.TRUE"
-  summary: "Static value True for Use<wbr>Hub<wbr>Gateway."
+  summary: "True."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.UseHubGateway?alt=com.azure.resourcemanager.network.models.UseHubGateway&text=UseHubGateway\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final UseHubGateway TRUE"
-  desc: "Static value True for UseHubGateway."
+  desc: "True."
 methods:
 - uid: "com.azure.resourcemanager.network.models.UseHubGateway.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.UseHubGateway.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Flag if need to use hub gateway."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

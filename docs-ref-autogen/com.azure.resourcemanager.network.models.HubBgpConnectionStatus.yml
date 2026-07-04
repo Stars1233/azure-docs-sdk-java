@@ -42,50 +42,50 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.HubBgpConnectionStatus.CONNECTED"
   name: "CONNECTED"
   nameWithType: "HubBgpConnectionStatus.CONNECTED"
-  summary: "Static value Connected for Hub<wbr>Bgp<wbr>Connection<wbr>Status."
+  summary: "Connected."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.HubBgpConnectionStatus?alt=com.azure.resourcemanager.network.models.HubBgpConnectionStatus&text=HubBgpConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final HubBgpConnectionStatus CONNECTED"
-  desc: "Static value Connected for HubBgpConnectionStatus."
+  desc: "Connected."
 - uid: "com.azure.resourcemanager.network.models.HubBgpConnectionStatus.CONNECTING"
   fullName: "com.azure.resourcemanager.network.models.HubBgpConnectionStatus.CONNECTING"
   name: "CONNECTING"
   nameWithType: "HubBgpConnectionStatus.CONNECTING"
-  summary: "Static value Connecting for Hub<wbr>Bgp<wbr>Connection<wbr>Status."
+  summary: "Connecting."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.HubBgpConnectionStatus?alt=com.azure.resourcemanager.network.models.HubBgpConnectionStatus&text=HubBgpConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final HubBgpConnectionStatus CONNECTING"
-  desc: "Static value Connecting for HubBgpConnectionStatus."
+  desc: "Connecting."
 - uid: "com.azure.resourcemanager.network.models.HubBgpConnectionStatus.NOT_CONNECTED"
   fullName: "com.azure.resourcemanager.network.models.HubBgpConnectionStatus.NOT_CONNECTED"
   name: "NOT_CONNECTED"
   nameWithType: "HubBgpConnectionStatus.NOT_CONNECTED"
-  summary: "Static value Not<wbr>Connected for Hub<wbr>Bgp<wbr>Connection<wbr>Status."
+  summary: "Not<wbr>Connected."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.HubBgpConnectionStatus?alt=com.azure.resourcemanager.network.models.HubBgpConnectionStatus&text=HubBgpConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final HubBgpConnectionStatus NOT_CONNECTED"
-  desc: "Static value NotConnected for HubBgpConnectionStatus."
+  desc: "NotConnected."
 - uid: "com.azure.resourcemanager.network.models.HubBgpConnectionStatus.UNKNOWN"
   fullName: "com.azure.resourcemanager.network.models.HubBgpConnectionStatus.UNKNOWN"
   name: "UNKNOWN"
   nameWithType: "HubBgpConnectionStatus.UNKNOWN"
-  summary: "Static value Unknown for Hub<wbr>Bgp<wbr>Connection<wbr>Status."
+  summary: "Unknown."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.HubBgpConnectionStatus?alt=com.azure.resourcemanager.network.models.HubBgpConnectionStatus&text=HubBgpConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final HubBgpConnectionStatus UNKNOWN"
-  desc: "Static value Unknown for HubBgpConnectionStatus."
+  desc: "Unknown."
 methods:
 - uid: "com.azure.resourcemanager.network.models.HubBgpConnectionStatus.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.HubBgpConnectionStatus.fromString(String name)"
@@ -119,4 +119,4 @@ type: "class"
 desc: "The current state of the VirtualHub to Peer."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

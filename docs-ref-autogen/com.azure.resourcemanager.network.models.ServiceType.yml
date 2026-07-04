@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ServiceType.INBOUND"
   name: "INBOUND"
   nameWithType: "ServiceType.INBOUND"
-  summary: "Static value Inbound for Service<wbr>Type."
+  summary: "Inbound."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ServiceType?alt=com.azure.resourcemanager.network.models.ServiceType&text=ServiceType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ServiceType INBOUND"
-  desc: "Static value Inbound for ServiceType."
+  desc: "Inbound."
 - uid: "com.azure.resourcemanager.network.models.ServiceType.INBOUND_OUTBOUND"
   fullName: "com.azure.resourcemanager.network.models.ServiceType.INBOUND_OUTBOUND"
   name: "INBOUND_OUTBOUND"
   nameWithType: "ServiceType.INBOUND_OUTBOUND"
-  summary: "Static value Inbound<wbr>Outbound for Service<wbr>Type."
+  summary: "Inbound<wbr>Outbound."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ServiceType?alt=com.azure.resourcemanager.network.models.ServiceType&text=ServiceType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ServiceType INBOUND_OUTBOUND"
-  desc: "Static value InboundOutbound for ServiceType."
+  desc: "InboundOutbound."
 - uid: "com.azure.resourcemanager.network.models.ServiceType.OUTBOUND"
   fullName: "com.azure.resourcemanager.network.models.ServiceType.OUTBOUND"
   name: "OUTBOUND"
   nameWithType: "ServiceType.OUTBOUND"
-  summary: "Static value Outbound for Service<wbr>Type."
+  summary: "Outbound."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ServiceType?alt=com.azure.resourcemanager.network.models.ServiceType&text=ServiceType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ServiceType OUTBOUND"
-  desc: "Static value Outbound for ServiceType."
+  desc: "Outbound."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ServiceType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ServiceType.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "Name of the service."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

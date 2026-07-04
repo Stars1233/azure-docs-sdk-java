@@ -14,10 +14,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location of the domain name."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The request body of CheckPrivateLinkService API call."
+  - description: "The request body."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest?alt=com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest&text=CheckPrivateLinkServiceVisibilityRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<PrivateLinkServiceVisibilityInner>,PrivateLinkServiceVisibilityInner> beginCheckPrivateLinkServiceVisibility(String location, CheckPrivateLinkServiceVisibilityRequest parameters)"
@@ -33,10 +33,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location of the domain name."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The request body of CheckPrivateLinkService API call."
+  - description: "The request body."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest?alt=com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest&text=CheckPrivateLinkServiceVisibilityRequest\" data-throw-if-not-resolved=\"False\" />"
   - description: "The context to associate with this operation."
@@ -55,10 +55,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location of the domain name."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The request body of CheckPrivateLinkService API call."
+  - description: "The request body."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest?alt=com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest&text=CheckPrivateLinkServiceVisibilityRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PollerFlux<PollResult<PrivateLinkServiceVisibilityInner>,PrivateLinkServiceVisibilityInner> beginCheckPrivateLinkServiceVisibilityAsync(String location, CheckPrivateLinkServiceVisibilityRequest parameters)"
@@ -74,13 +74,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location of the domain name."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The request body of CheckPrivateLinkService API call."
+  - description: "The request body."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest?alt=com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest&text=CheckPrivateLinkServiceVisibilityRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<PrivateLinkServiceVisibilityInner>,PrivateLinkServiceVisibilityInner> beginCheckPrivateLinkServiceVisibilityByResourceGroup(String location, String resourceGroupName, CheckPrivateLinkServiceVisibilityRequest parameters)"
@@ -96,13 +96,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location of the domain name."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The request body of CheckPrivateLinkService API call."
+  - description: "The request body."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest?alt=com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest&text=CheckPrivateLinkServiceVisibilityRequest\" data-throw-if-not-resolved=\"False\" />"
   - description: "The context to associate with this operation."
@@ -121,13 +121,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location of the domain name."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The request body of CheckPrivateLinkService API call."
+  - description: "The request body."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest?alt=com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest&text=CheckPrivateLinkServiceVisibilityRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PollerFlux<PollResult<PrivateLinkServiceVisibilityInner>,PrivateLinkServiceVisibilityInner> beginCheckPrivateLinkServiceVisibilityByResourceGroupAsync(String location, String resourceGroupName, CheckPrivateLinkServiceVisibilityRequest parameters)"
@@ -143,7 +143,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
@@ -165,7 +165,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
@@ -190,7 +190,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
@@ -212,7 +212,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
@@ -231,7 +231,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
@@ -253,7 +253,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
@@ -272,13 +272,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
     name: "serviceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the private end point connection."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "peConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDeletePrivateEndpointConnection(String resourceGroupName, String serviceName, String peConnectionName)"
@@ -294,13 +294,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
     name: "serviceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the private end point connection."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "peConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -319,13 +319,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
     name: "serviceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the private end point connection."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "peConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PollerFlux<PollResult<Void>,Void> beginDeletePrivateEndpointConnectionAsync(String resourceGroupName, String serviceName, String peConnectionName)"
@@ -341,10 +341,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location of the domain name."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The request body of CheckPrivateLinkService API call."
+  - description: "The request body."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest?alt=com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest&text=CheckPrivateLinkServiceVisibilityRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PrivateLinkServiceVisibilityInner checkPrivateLinkServiceVisibility(String location, CheckPrivateLinkServiceVisibilityRequest parameters)"
@@ -360,10 +360,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location of the domain name."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The request body of CheckPrivateLinkService API call."
+  - description: "The request body."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest?alt=com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest&text=CheckPrivateLinkServiceVisibilityRequest\" data-throw-if-not-resolved=\"False\" />"
   - description: "The context to associate with this operation."
@@ -382,10 +382,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location of the domain name."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The request body of CheckPrivateLinkService API call."
+  - description: "The request body."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest?alt=com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest&text=CheckPrivateLinkServiceVisibilityRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Mono<PrivateLinkServiceVisibilityInner> checkPrivateLinkServiceVisibilityAsync(String location, CheckPrivateLinkServiceVisibilityRequest parameters)"
@@ -401,13 +401,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location of the domain name."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The request body of CheckPrivateLinkService API call."
+  - description: "The request body."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest?alt=com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest&text=CheckPrivateLinkServiceVisibilityRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PrivateLinkServiceVisibilityInner checkPrivateLinkServiceVisibilityByResourceGroup(String location, String resourceGroupName, CheckPrivateLinkServiceVisibilityRequest parameters)"
@@ -423,13 +423,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location of the domain name."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The request body of CheckPrivateLinkService API call."
+  - description: "The request body."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest?alt=com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest&text=CheckPrivateLinkServiceVisibilityRequest\" data-throw-if-not-resolved=\"False\" />"
   - description: "The context to associate with this operation."
@@ -448,13 +448,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location of the domain name."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The request body of CheckPrivateLinkService API call."
+  - description: "The request body."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest?alt=com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest&text=CheckPrivateLinkServiceVisibilityRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Mono<PrivateLinkServiceVisibilityInner> checkPrivateLinkServiceVisibilityByResourceGroupAsync(String location, String resourceGroupName, CheckPrivateLinkServiceVisibilityRequest parameters)"
@@ -470,13 +470,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location of the domain name."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The request body of CheckPrivateLinkService API call."
+  - description: "The request body."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest?alt=com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest&text=CheckPrivateLinkServiceVisibilityRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> checkPrivateLinkServiceVisibilityByResourceGroupWithResponseAsync(String location, String resourceGroupName, CheckPrivateLinkServiceVisibilityRequest parameters)"
@@ -492,10 +492,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location of the domain name."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The request body of CheckPrivateLinkService API call."
+  - description: "The request body."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest?alt=com.azure.resourcemanager.network.models.CheckPrivateLinkServiceVisibilityRequest&text=CheckPrivateLinkServiceVisibilityRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> checkPrivateLinkServiceVisibilityWithResponseAsync(String location, CheckPrivateLinkServiceVisibilityRequest parameters)"
@@ -511,7 +511,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
@@ -533,7 +533,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
@@ -558,7 +558,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
@@ -580,7 +580,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
@@ -602,7 +602,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
@@ -618,7 +618,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
@@ -637,7 +637,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
@@ -656,13 +656,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
     name: "serviceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the private end point connection."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "peConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void deletePrivateEndpointConnection(String resourceGroupName, String serviceName, String peConnectionName)"
@@ -675,13 +675,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
     name: "serviceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the private end point connection."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "peConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -697,13 +697,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
     name: "serviceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the private end point connection."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "peConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<Void> deletePrivateEndpointConnectionAsync(String resourceGroupName, String serviceName, String peConnectionName)"
@@ -719,13 +719,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
     name: "serviceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the private end point connection."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "peConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> deletePrivateEndpointConnectionWithResponseAsync(String resourceGroupName, String serviceName, String peConnectionName)"
@@ -741,7 +741,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
@@ -760,7 +760,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
@@ -779,7 +779,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
@@ -798,7 +798,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
@@ -823,7 +823,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
@@ -845,13 +845,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
     name: "serviceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the private end point connection."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "peConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PrivateEndpointConnectionInner getPrivateEndpointConnection(String resourceGroupName, String serviceName, String peConnectionName)"
@@ -867,13 +867,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
     name: "serviceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the private end point connection."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "peConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<PrivateEndpointConnectionInner> getPrivateEndpointConnectionAsync(String resourceGroupName, String serviceName, String peConnectionName)"
@@ -889,13 +889,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
     name: "serviceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the private end point connection."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "peConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Expands referenced resources."
@@ -917,13 +917,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
     name: "serviceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the private end point connection."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "peConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Expands referenced resources."
@@ -982,7 +982,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location of the domain name."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<AutoApprovedPrivateLinkServiceInner> listAutoApprovedPrivateLinkServices(String location)"
@@ -998,7 +998,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location of the domain name."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -1017,7 +1017,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location of the domain name."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedFlux<AutoApprovedPrivateLinkServiceInner> listAutoApprovedPrivateLinkServicesAsync(String location)"
@@ -1033,10 +1033,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location of the domain name."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<AutoApprovedPrivateLinkServiceInner> listAutoApprovedPrivateLinkServicesByResourceGroup(String location, String resourceGroupName)"
@@ -1052,10 +1052,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location of the domain name."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -1074,10 +1074,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location of the domain name."
+  - description: "The location name."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedFlux<AutoApprovedPrivateLinkServiceInner> listAutoApprovedPrivateLinkServicesByResourceGroupAsync(String location, String resourceGroupName)"
@@ -1093,7 +1093,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<PrivateLinkServiceInner> listByResourceGroup(String resourceGroupName)"
@@ -1109,7 +1109,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -1128,7 +1128,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedFlux<PrivateLinkServiceInner> listByResourceGroupAsync(String resourceGroupName)"
@@ -1144,7 +1144,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
@@ -1163,7 +1163,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
@@ -1185,7 +1185,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
@@ -1204,13 +1204,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
     name: "serviceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the private end point connection."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "peConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to approve or reject the private end point connection."
@@ -1229,13 +1229,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
     name: "serviceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the private end point connection."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "peConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to approve or reject the private end point connection."
@@ -1254,13 +1254,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
     name: "serviceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the private end point connection."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "peConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to approve or reject the private end point connection."
@@ -1282,13 +1282,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the private link service."
     name: "serviceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the private end point connection."
+  - description: "The name of the resource that is unique within a resource group. This name can be used to\n access the resource."
     name: "peConnectionName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to approve or reject the private end point connection."
@@ -1307,4 +1307,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.PrivateLinkServiceInner?alt=com.azure.resourcemanager.network.fluent.models.PrivateLinkServiceInner&text=PrivateLinkServiceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

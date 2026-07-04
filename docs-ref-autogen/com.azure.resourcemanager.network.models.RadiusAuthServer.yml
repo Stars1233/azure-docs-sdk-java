@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **RadiusAuthServer**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.RadiusAuthServer?alt=com.azure.resourcemanager.network.models.RadiusAuthServer&text=RadiusAuthServer\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.models.RadiusAuthServer.RadiusAuthServer()"
-  fullName: "com.azure.resourcemanager.network.models.RadiusAuthServer.RadiusAuthServer()"
-  name: "RadiusAuthServer()"
-  nameWithType: "RadiusAuthServer.RadiusAuthServer()"
-  summary: "Creates an instance of Radius<wbr>Auth<wbr>Server class."
-  syntax: "public RadiusAuthServer()"
-  desc: "Creates an instance of RadiusAuthServer class."
 methods:
 - uid: "com.azure.resourcemanager.network.models.RadiusAuthServer.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.models.RadiusAuthServer.fromJson(JsonReader jsonReader)"
@@ -88,38 +80,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.models.RadiusAuthServer.withRadiusServerAddress(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.RadiusAuthServer.withRadiusServerAddress(String radiusServerAddress)"
-  name: "withRadiusServerAddress(String radiusServerAddress)"
-  nameWithType: "RadiusAuthServer.withRadiusServerAddress(String radiusServerAddress)"
-  summary: "Set the radius<wbr>Server<wbr>Address property: Radius server IPAddress."
-  parameters:
-  - description: "the radiusServerAddress value to set."
-    name: "radiusServerAddress"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public RadiusAuthServer withRadiusServerAddress(String radiusServerAddress)"
-  desc: "Set the radiusServerAddress property: Radius server IPAddress."
-  returns:
-    description: "the RadiusAuthServer object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.RadiusAuthServer?alt=com.azure.resourcemanager.network.models.RadiusAuthServer&text=RadiusAuthServer\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.RadiusAuthServer.withRadiusServerSecret(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.RadiusAuthServer.withRadiusServerSecret(String radiusServerSecret)"
-  name: "withRadiusServerSecret(String radiusServerSecret)"
-  nameWithType: "RadiusAuthServer.withRadiusServerSecret(String radiusServerSecret)"
-  summary: "Set the radius<wbr>Server<wbr>Secret property: Radius server secret."
-  parameters:
-  - description: "the radiusServerSecret value to set."
-    name: "radiusServerSecret"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public RadiusAuthServer withRadiusServerSecret(String radiusServerSecret)"
-  desc: "Set the radiusServerSecret property: Radius server secret."
-  returns:
-    description: "the RadiusAuthServer object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.RadiusAuthServer?alt=com.azure.resourcemanager.network.models.RadiusAuthServer&text=RadiusAuthServer\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Gateway or VpnServerConfiguration Radius server with radius secret details."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.RadiusAuthServer?alt=com.azure.resourcemanager.network.models.RadiusAuthServer&text=RadiusAuthServer\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

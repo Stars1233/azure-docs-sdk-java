@@ -31,6 +31,18 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public enum **CryptographyServiceVersion**</br> extends <a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html\">Enum</a>&lt;<xref href=\"com.azure.security.keyvault.keys.cryptography.CryptographyServiceVersion?alt=com.azure.security.keyvault.keys.cryptography.CryptographyServiceVersion&text=CryptographyServiceVersion\" data-throw-if-not-resolved=\"False\" />&gt;</br> implements <xref href=\"com.azure.core.util.ServiceVersion?alt=com.azure.core.util.ServiceVersion&text=ServiceVersion\" data-throw-if-not-resolved=\"False\" />"
 fields:
+- uid: "com.azure.security.keyvault.keys.cryptography.CryptographyServiceVersion.V2025_07_01"
+  fullName: "com.azure.security.keyvault.keys.cryptography.CryptographyServiceVersion.V2025_07_01"
+  name: "V2025_07_01"
+  nameWithType: "CryptographyServiceVersion.V2025_07_01"
+  summary: "Service version `2025-07-01`."
+  desc: "Service version `2025-07-01`."
+- uid: "com.azure.security.keyvault.keys.cryptography.CryptographyServiceVersion.V2026_01_01_PREVIEW"
+  fullName: "com.azure.security.keyvault.keys.cryptography.CryptographyServiceVersion.V2026_01_01_PREVIEW"
+  name: "V2026_01_01_PREVIEW"
+  nameWithType: "CryptographyServiceVersion.V2026_01_01_PREVIEW"
+  summary: "Service version `2026-01-01-preview`."
+  desc: "Service version `2026-01-01-preview`."
 - uid: "com.azure.security.keyvault.keys.cryptography.CryptographyServiceVersion.V7_0"
   fullName: "com.azure.security.keyvault.keys.cryptography.CryptographyServiceVersion.V7_0"
   name: "V7_0"
@@ -67,12 +79,12 @@ fields:
   nameWithType: "CryptographyServiceVersion.V7_5"
   summary: "Service version `7.5`."
   desc: "Service version `7.5`."
-- uid: "com.azure.security.keyvault.keys.cryptography.CryptographyServiceVersion.V7_6_PREVIEW_2"
-  fullName: "com.azure.security.keyvault.keys.cryptography.CryptographyServiceVersion.V7_6_PREVIEW_2"
-  name: "V7_6_PREVIEW_2"
-  nameWithType: "CryptographyServiceVersion.V7_6_PREVIEW_2"
-  summary: "Service version `7.6-preview.2`."
-  desc: "Service version `7.6-preview.2`."
+- uid: "com.azure.security.keyvault.keys.cryptography.CryptographyServiceVersion.V7_6"
+  fullName: "com.azure.security.keyvault.keys.cryptography.CryptographyServiceVersion.V7_6"
+  name: "V7_6"
+  nameWithType: "CryptographyServiceVersion.V7_6"
+  summary: "Service version `7.6`."
+  desc: "Service version `7.6`."
 methods:
 - uid: "com.azure.security.keyvault.keys.cryptography.CryptographyServiceVersion.getLatest()"
   fullName: "com.azure.security.keyvault.keys.cryptography.CryptographyServiceVersion.getLatest()"
@@ -119,4 +131,4 @@ implements:
 - "<xref href=\"com.azure.core.util.ServiceVersion?alt=com.azure.core.util.ServiceVersion&text=ServiceVersion\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.security.keyvault.keys.cryptography"
-artifact: com.azure:azure-security-keyvault-keys:4.10.0-beta.1
+artifact: com.azure:azure-security-keyvault-keys:4.12.0-beta.1

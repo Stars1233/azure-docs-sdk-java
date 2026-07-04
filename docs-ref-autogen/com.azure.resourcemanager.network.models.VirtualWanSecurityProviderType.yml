@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.VirtualWanSecurityProviderType.EXTERNAL"
   name: "EXTERNAL"
   nameWithType: "VirtualWanSecurityProviderType.EXTERNAL"
-  summary: "Static value External for Virtual<wbr>Wan<wbr>Security<wbr>Provider<wbr>Type."
+  summary: "External."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualWanSecurityProviderType?alt=com.azure.resourcemanager.network.models.VirtualWanSecurityProviderType&text=VirtualWanSecurityProviderType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualWanSecurityProviderType EXTERNAL"
-  desc: "Static value External for VirtualWanSecurityProviderType."
+  desc: "External."
 - uid: "com.azure.resourcemanager.network.models.VirtualWanSecurityProviderType.NATIVE"
   fullName: "com.azure.resourcemanager.network.models.VirtualWanSecurityProviderType.NATIVE"
   name: "NATIVE"
   nameWithType: "VirtualWanSecurityProviderType.NATIVE"
-  summary: "Static value Native for Virtual<wbr>Wan<wbr>Security<wbr>Provider<wbr>Type."
+  summary: "Native."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualWanSecurityProviderType?alt=com.azure.resourcemanager.network.models.VirtualWanSecurityProviderType&text=VirtualWanSecurityProviderType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualWanSecurityProviderType NATIVE"
-  desc: "Static value Native for VirtualWanSecurityProviderType."
+  desc: "Native."
 methods:
 - uid: "com.azure.resourcemanager.network.models.VirtualWanSecurityProviderType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.VirtualWanSecurityProviderType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The virtual wan security provider type."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

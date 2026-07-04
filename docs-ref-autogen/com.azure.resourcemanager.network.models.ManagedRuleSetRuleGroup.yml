@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ManagedRuleSetRuleGroup**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.ManagedRuleSetRuleGroup?alt=com.azure.resourcemanager.network.models.ManagedRuleSetRuleGroup&text=ManagedRuleSetRuleGroup\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.models.ManagedRuleSetRuleGroup.ManagedRuleSetRuleGroup()"
-  fullName: "com.azure.resourcemanager.network.models.ManagedRuleSetRuleGroup.ManagedRuleSetRuleGroup()"
-  name: "ManagedRuleSetRuleGroup()"
-  nameWithType: "ManagedRuleSetRuleGroup.ManagedRuleSetRuleGroup()"
-  summary: "Creates an instance of Managed<wbr>Rule<wbr>Set<wbr>Rule<wbr>Group class."
-  syntax: "public ManagedRuleSetRuleGroup()"
-  desc: "Creates an instance of ManagedRuleSetRuleGroup class."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ManagedRuleSetRuleGroup.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.models.ManagedRuleSetRuleGroup.fromJson(JsonReader jsonReader)"
@@ -88,38 +80,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.models.ManagedRuleSetRuleGroup.withRuleGroupName(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.ManagedRuleSetRuleGroup.withRuleGroupName(String ruleGroupName)"
-  name: "withRuleGroupName(String ruleGroupName)"
-  nameWithType: "ManagedRuleSetRuleGroup.withRuleGroupName(String ruleGroupName)"
-  summary: "Set the rule<wbr>Group<wbr>Name property: Name of the rule group."
-  parameters:
-  - description: "the ruleGroupName value to set."
-    name: "ruleGroupName"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ManagedRuleSetRuleGroup withRuleGroupName(String ruleGroupName)"
-  desc: "Set the ruleGroupName property: Name of the rule group."
-  returns:
-    description: "the ManagedRuleSetRuleGroup object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ManagedRuleSetRuleGroup?alt=com.azure.resourcemanager.network.models.ManagedRuleSetRuleGroup&text=ManagedRuleSetRuleGroup\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.ManagedRuleSetRuleGroup.withRules(java.util.List<java.lang.String>)"
-  fullName: "com.azure.resourcemanager.network.models.ManagedRuleSetRuleGroup.withRules(List<String> rules)"
-  name: "withRules(List<String> rules)"
-  nameWithType: "ManagedRuleSetRuleGroup.withRules(List<String> rules)"
-  summary: "Set the rules property: List of rules within the rule group."
-  parameters:
-  - description: "the rules value to set."
-    name: "rules"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public ManagedRuleSetRuleGroup withRules(List<String> rules)"
-  desc: "Set the rules property: List of rules within the rule group."
-  returns:
-    description: "the ManagedRuleSetRuleGroup object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ManagedRuleSetRuleGroup?alt=com.azure.resourcemanager.network.models.ManagedRuleSetRuleGroup&text=ManagedRuleSetRuleGroup\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Defines a managed rule set rule group."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.ManagedRuleSetRuleGroup?alt=com.azure.resourcemanager.network.models.ManagedRuleSetRuleGroup&text=ManagedRuleSetRuleGroup\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

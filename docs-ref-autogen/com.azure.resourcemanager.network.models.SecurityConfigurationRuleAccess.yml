@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.SecurityConfigurationRuleAccess.ALLOW"
   name: "ALLOW"
   nameWithType: "SecurityConfigurationRuleAccess.ALLOW"
-  summary: "Static value Allow for Security<wbr>Configuration<wbr>Rule<wbr>Access."
+  summary: "Allow."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.SecurityConfigurationRuleAccess?alt=com.azure.resourcemanager.network.models.SecurityConfigurationRuleAccess&text=SecurityConfigurationRuleAccess\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SecurityConfigurationRuleAccess ALLOW"
-  desc: "Static value Allow for SecurityConfigurationRuleAccess."
+  desc: "Allow."
 - uid: "com.azure.resourcemanager.network.models.SecurityConfigurationRuleAccess.ALWAYS_ALLOW"
   fullName: "com.azure.resourcemanager.network.models.SecurityConfigurationRuleAccess.ALWAYS_ALLOW"
   name: "ALWAYS_ALLOW"
   nameWithType: "SecurityConfigurationRuleAccess.ALWAYS_ALLOW"
-  summary: "Static value Always<wbr>Allow for Security<wbr>Configuration<wbr>Rule<wbr>Access."
+  summary: "Always<wbr>Allow."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.SecurityConfigurationRuleAccess?alt=com.azure.resourcemanager.network.models.SecurityConfigurationRuleAccess&text=SecurityConfigurationRuleAccess\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SecurityConfigurationRuleAccess ALWAYS_ALLOW"
-  desc: "Static value AlwaysAllow for SecurityConfigurationRuleAccess."
+  desc: "AlwaysAllow."
 - uid: "com.azure.resourcemanager.network.models.SecurityConfigurationRuleAccess.DENY"
   fullName: "com.azure.resourcemanager.network.models.SecurityConfigurationRuleAccess.DENY"
   name: "DENY"
   nameWithType: "SecurityConfigurationRuleAccess.DENY"
-  summary: "Static value Deny for Security<wbr>Configuration<wbr>Rule<wbr>Access."
+  summary: "Deny."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.SecurityConfigurationRuleAccess?alt=com.azure.resourcemanager.network.models.SecurityConfigurationRuleAccess&text=SecurityConfigurationRuleAccess\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SecurityConfigurationRuleAccess DENY"
-  desc: "Static value Deny for SecurityConfigurationRuleAccess."
+  desc: "Deny."
 methods:
 - uid: "com.azure.resourcemanager.network.models.SecurityConfigurationRuleAccess.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.SecurityConfigurationRuleAccess.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "Whether network traffic is allowed or denied."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

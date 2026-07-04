@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.Severity.ERROR"
   name: "ERROR"
   nameWithType: "Severity.ERROR"
-  summary: "Static value Error for Severity."
+  summary: "Error."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.Severity?alt=com.azure.resourcemanager.network.models.Severity&text=Severity\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final Severity ERROR"
-  desc: "Static value Error for Severity."
+  desc: "Error."
 - uid: "com.azure.resourcemanager.network.models.Severity.WARNING"
   fullName: "com.azure.resourcemanager.network.models.Severity.WARNING"
   name: "WARNING"
   nameWithType: "Severity.WARNING"
-  summary: "Static value Warning for Severity."
+  summary: "Warning."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.Severity?alt=com.azure.resourcemanager.network.models.Severity&text=Severity\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final Severity WARNING"
-  desc: "Static value Warning for Severity."
+  desc: "Warning."
 methods:
 - uid: "com.azure.resourcemanager.network.models.Severity.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.Severity.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The severity of the issue."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

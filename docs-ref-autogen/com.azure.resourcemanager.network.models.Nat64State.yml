@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.network.models.Nat64State"
+fullName: "com.azure.resourcemanager.network.models.Nat64State"
+name: "Nat64State"
+nameWithType: "Nat64State"
+summary: "Whether Nat64 is enabled for the NAT gateway resource."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **Nat64State**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.Nat64State?alt=com.azure.resourcemanager.network.models.Nat64State&text=Nat64State\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.network.models.Nat64State.Nat64State()"
+  fullName: "com.azure.resourcemanager.network.models.Nat64State.Nat64State()"
+  name: "Nat64State()"
+  nameWithType: "Nat64State.Nat64State()"
+  summary: "Creates a new instance of Nat64State value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.network.models.Nat64State.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public Nat64State()"
+  desc: "Creates a new instance of Nat64State value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.network.models.Nat64State.DISABLED"
+  fullName: "com.azure.resourcemanager.network.models.Nat64State.DISABLED"
+  name: "DISABLED"
+  nameWithType: "Nat64State.DISABLED"
+  summary: "Nat64 is disabled."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.network.models.Nat64State?alt=com.azure.resourcemanager.network.models.Nat64State&text=Nat64State\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final Nat64State DISABLED"
+  desc: "Nat64 is disabled."
+- uid: "com.azure.resourcemanager.network.models.Nat64State.ENABLED"
+  fullName: "com.azure.resourcemanager.network.models.Nat64State.ENABLED"
+  name: "ENABLED"
+  nameWithType: "Nat64State.ENABLED"
+  summary: "Nat64 is enabled."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.network.models.Nat64State?alt=com.azure.resourcemanager.network.models.Nat64State&text=Nat64State\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final Nat64State ENABLED"
+  desc: "Nat64 is enabled."
+- uid: "com.azure.resourcemanager.network.models.Nat64State.NONE"
+  fullName: "com.azure.resourcemanager.network.models.Nat64State.NONE"
+  name: "NONE"
+  nameWithType: "Nat64State.NONE"
+  summary: "Nat64 Property is not set."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.network.models.Nat64State?alt=com.azure.resourcemanager.network.models.Nat64State&text=Nat64State\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final Nat64State NONE"
+  desc: "Nat64 Property is not set."
+methods:
+- uid: "com.azure.resourcemanager.network.models.Nat64State.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.network.models.Nat64State.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "Nat64State.fromString(String name)"
+  summary: "Creates or finds a Nat64State from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static Nat64State fromString(String name)"
+  desc: "Creates or finds a Nat64State from its string representation."
+  returns:
+    description: "the corresponding Nat64State."
+    type: "<xref href=\"com.azure.resourcemanager.network.models.Nat64State?alt=com.azure.resourcemanager.network.models.Nat64State&text=Nat64State\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.Nat64State.values()"
+  fullName: "com.azure.resourcemanager.network.models.Nat64State.values()"
+  name: "values()"
+  nameWithType: "Nat64State.values()"
+  summary: "Gets known Nat64State values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<Nat64State> values()"
+  desc: "Gets known Nat64State values."
+  returns:
+    description: "known Nat64State values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.Nat64State?alt=com.azure.resourcemanager.network.models.Nat64State&text=Nat64State\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Whether Nat64 is enabled for the NAT gateway resource."
+metadata: {}
+package: "com.azure.resourcemanager.network.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

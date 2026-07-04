@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **BastionActiveSessionInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.BastionActiveSessionInner?alt=com.azure.resourcemanager.network.fluent.models.BastionActiveSessionInner&text=BastionActiveSessionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.BastionActiveSessionInner.BastionActiveSessionInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.BastionActiveSessionInner.BastionActiveSessionInner()"
-  name: "BastionActiveSessionInner()"
-  nameWithType: "BastionActiveSessionInner.BastionActiveSessionInner()"
-  summary: "Creates an instance of Bastion<wbr>Active<wbr>Session<wbr>Inner class."
-  syntax: "public BastionActiveSessionInner()"
-  desc: "Creates an instance of BastionActiveSessionInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.BastionActiveSessionInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.BastionActiveSessionInner.fromJson(JsonReader jsonReader)"
@@ -99,15 +91,15 @@ methods:
   returns:
     description: "the startTime value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
-- uid: "com.azure.resourcemanager.network.fluent.models.BastionActiveSessionInner.targetHostname()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.BastionActiveSessionInner.targetHostname()"
-  name: "targetHostname()"
-  nameWithType: "BastionActiveSessionInner.targetHostname()"
-  summary: "Get the target<wbr>Hostname property: The host name of the target."
-  syntax: "public String targetHostname()"
-  desc: "Get the targetHostname property: The host name of the target."
+- uid: "com.azure.resourcemanager.network.fluent.models.BastionActiveSessionInner.targetHostName()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.BastionActiveSessionInner.targetHostName()"
+  name: "targetHostName()"
+  nameWithType: "BastionActiveSessionInner.targetHostName()"
+  summary: "Get the target<wbr>Host<wbr>Name property: The host name of the target."
+  syntax: "public String targetHostName()"
+  desc: "Get the targetHostName property: The host name of the target."
   returns:
-    description: "the targetHostname value."
+    description: "the targetHostName value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.network.fluent.models.BastionActiveSessionInner.targetIpAddress()"
   fullName: "com.azure.resourcemanager.network.fluent.models.BastionActiveSessionInner.targetIpAddress()"
@@ -184,4 +176,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.BastionActiveSessionInner?alt=com.azure.resourcemanager.network.fluent.models.BastionActiveSessionInner&text=BastionActiveSessionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

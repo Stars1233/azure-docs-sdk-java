@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **NetworkVirtualApplianceInstanceIdInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceInstanceIdInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceInstanceIdInner&text=NetworkVirtualApplianceInstanceIdInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceInstanceIdInner.NetworkVirtualApplianceInstanceIdInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceInstanceIdInner.NetworkVirtualApplianceInstanceIdInner()"
-  name: "NetworkVirtualApplianceInstanceIdInner()"
-  nameWithType: "NetworkVirtualApplianceInstanceIdInner.NetworkVirtualApplianceInstanceIdInner()"
-  summary: "Creates an instance of Network<wbr>Virtual<wbr>Appliance<wbr>Instance<wbr>IdInner class."
-  syntax: "public NetworkVirtualApplianceInstanceIdInner()"
-  desc: "Creates an instance of NetworkVirtualApplianceInstanceIdInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceInstanceIdInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceInstanceIdInner.fromJson(JsonReader jsonReader)"
@@ -78,24 +70,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceInstanceIdInner.withInstanceId(java.lang.Integer)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceInstanceIdInner.withInstanceId(Integer instanceId)"
-  name: "withInstanceId(Integer instanceId)"
-  nameWithType: "NetworkVirtualApplianceInstanceIdInner.withInstanceId(Integer instanceId)"
-  summary: "Set the instance<wbr>Id property: The network virtual appliance instance id for which boot diagnostic logs is being requested."
-  parameters:
-  - description: "the instanceId value to set."
-    name: "instanceId"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-  syntax: "public NetworkVirtualApplianceInstanceIdInner withInstanceId(Integer instanceId)"
-  desc: "Set the instanceId property: The network virtual appliance instance id for which boot diagnostic logs is being requested."
-  returns:
-    description: "the NetworkVirtualApplianceInstanceIdInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceInstanceIdInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceInstanceIdInner&text=NetworkVirtualApplianceInstanceIdInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The NetworkVirtualApplianceInstanceId model."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceInstanceIdInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkVirtualApplianceInstanceIdInner&text=NetworkVirtualApplianceInstanceIdInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -36,14 +36,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **BgpServiceCommunityInner**</br> extends <xref href=\"com.azure.core.management.Resource?alt=com.azure.core.management.Resource&text=Resource\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner.BgpServiceCommunityInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner.BgpServiceCommunityInner()"
-  name: "BgpServiceCommunityInner()"
-  nameWithType: "BgpServiceCommunityInner.BgpServiceCommunityInner()"
-  summary: "Creates an instance of Bgp<wbr>Service<wbr>Community<wbr>Inner class."
-  syntax: "public BgpServiceCommunityInner()"
-  desc: "Creates an instance of BgpServiceCommunityInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner.bgpCommunities()"
   fullName: "com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner.bgpCommunities()"
@@ -137,72 +129,8 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner.withBgpCommunities(java.util.List<com.azure.resourcemanager.network.models.BgpCommunity>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner.withBgpCommunities(List<BgpCommunity> bgpCommunities)"
-  name: "withBgpCommunities(List<BgpCommunity> bgpCommunities)"
-  nameWithType: "BgpServiceCommunityInner.withBgpCommunities(List<BgpCommunity> bgpCommunities)"
-  summary: "Set the bgp<wbr>Communities property: A list of bgp communities."
-  parameters:
-  - description: "the bgpCommunities value to set."
-    name: "bgpCommunities"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.BgpCommunity?alt=com.azure.resourcemanager.network.models.BgpCommunity&text=BgpCommunity\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public BgpServiceCommunityInner withBgpCommunities(List<BgpCommunity> bgpCommunities)"
-  desc: "Set the bgpCommunities property: A list of bgp communities."
-  returns:
-    description: "the BgpServiceCommunityInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner?alt=com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner&text=BgpServiceCommunityInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner.withId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner.withId(String id)"
-  name: "withId(String id)"
-  nameWithType: "BgpServiceCommunityInner.withId(String id)"
-  summary: "Set the id property: Resource ID."
-  parameters:
-  - description: "the id value to set."
-    name: "id"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public BgpServiceCommunityInner withId(String id)"
-  desc: "Set the id property: Resource ID."
-  returns:
-    description: "the BgpServiceCommunityInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner?alt=com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner&text=BgpServiceCommunityInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner.withLocation(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner.withLocation(String location)"
-  name: "withLocation(String location)"
-  nameWithType: "BgpServiceCommunityInner.withLocation(String location)"
-  overridden: "com.azure.core.management.Resource.withLocation(java.lang.String)"
-  parameters:
-  - name: "location"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public BgpServiceCommunityInner withLocation(String location)"
-  returns:
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner?alt=com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner&text=BgpServiceCommunityInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner.withServiceName(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner.withServiceName(String serviceName)"
-  name: "withServiceName(String serviceName)"
-  nameWithType: "BgpServiceCommunityInner.withServiceName(String serviceName)"
-  summary: "Set the service<wbr>Name property: The name of the bgp community."
-  parameters:
-  - description: "the serviceName value to set."
-    name: "serviceName"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public BgpServiceCommunityInner withServiceName(String serviceName)"
-  desc: "Set the serviceName property: The name of the bgp community. e.g. Skype."
-  returns:
-    description: "the BgpServiceCommunityInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner?alt=com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner&text=BgpServiceCommunityInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner.withTags(java.util.Map<java.lang.String,java.lang.String>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner.withTags(Map<String,String> tags)"
-  name: "withTags(Map<String,String> tags)"
-  nameWithType: "BgpServiceCommunityInner.withTags(Map<String,String> tags)"
-  overridden: "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
-  parameters:
-  - name: "tags"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public BgpServiceCommunityInner withTags(Map<String,String> tags)"
-  returns:
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner?alt=com.azure.resourcemanager.network.fluent.models.BgpServiceCommunityInner&text=BgpServiceCommunityInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Service Community Properties."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleCollectionActionType.ALLOW"
   name: "ALLOW"
   nameWithType: "FirewallPolicyFilterRuleCollectionActionType.ALLOW"
-  summary: "Static value Allow for Firewall<wbr>Policy<wbr>Filter<wbr>Rule<wbr>Collection<wbr>Action<wbr>Type."
+  summary: "Allow."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleCollectionActionType?alt=com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleCollectionActionType&text=FirewallPolicyFilterRuleCollectionActionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyFilterRuleCollectionActionType ALLOW"
-  desc: "Static value Allow for FirewallPolicyFilterRuleCollectionActionType."
+  desc: "Allow."
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleCollectionActionType.DENY"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleCollectionActionType.DENY"
   name: "DENY"
   nameWithType: "FirewallPolicyFilterRuleCollectionActionType.DENY"
-  summary: "Static value Deny for Firewall<wbr>Policy<wbr>Filter<wbr>Rule<wbr>Collection<wbr>Action<wbr>Type."
+  summary: "Deny."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleCollectionActionType?alt=com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleCollectionActionType&text=FirewallPolicyFilterRuleCollectionActionType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyFilterRuleCollectionActionType DENY"
-  desc: "Static value Deny for FirewallPolicyFilterRuleCollectionActionType."
+  desc: "Deny."
 methods:
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleCollectionActionType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleCollectionActionType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The action type of a rule."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

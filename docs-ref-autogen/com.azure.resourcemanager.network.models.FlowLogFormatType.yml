@@ -42,14 +42,14 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.FlowLogFormatType.JSON"
   name: "JSON"
   nameWithType: "FlowLogFormatType.JSON"
-  summary: "Static value JSON for Flow<wbr>Log<wbr>Format<wbr>Type."
+  summary: "JSON."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FlowLogFormatType?alt=com.azure.resourcemanager.network.models.FlowLogFormatType&text=FlowLogFormatType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FlowLogFormatType JSON"
-  desc: "Static value JSON for FlowLogFormatType."
+  desc: "JSON."
 methods:
 - uid: "com.azure.resourcemanager.network.models.FlowLogFormatType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.FlowLogFormatType.fromString(String name)"
@@ -83,4 +83,4 @@ type: "class"
 desc: "The file type of flow log."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

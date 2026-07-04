@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.AddressSpaceAggregationOption.MANUAL"
   name: "MANUAL"
   nameWithType: "AddressSpaceAggregationOption.MANUAL"
-  summary: "Static value Manual for Address<wbr>Space<wbr>Aggregation<wbr>Option."
+  summary: "Manual."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AddressSpaceAggregationOption?alt=com.azure.resourcemanager.network.models.AddressSpaceAggregationOption&text=AddressSpaceAggregationOption\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AddressSpaceAggregationOption MANUAL"
-  desc: "Static value Manual for AddressSpaceAggregationOption."
+  desc: "Manual."
 - uid: "com.azure.resourcemanager.network.models.AddressSpaceAggregationOption.NONE"
   fullName: "com.azure.resourcemanager.network.models.AddressSpaceAggregationOption.NONE"
   name: "NONE"
   nameWithType: "AddressSpaceAggregationOption.NONE"
-  summary: "Static value None for Address<wbr>Space<wbr>Aggregation<wbr>Option."
+  summary: "None."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AddressSpaceAggregationOption?alt=com.azure.resourcemanager.network.models.AddressSpaceAggregationOption&text=AddressSpaceAggregationOption\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AddressSpaceAggregationOption NONE"
-  desc: "Static value None for AddressSpaceAggregationOption."
+  desc: "None."
 methods:
 - uid: "com.azure.resourcemanager.network.models.AddressSpaceAggregationOption.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.AddressSpaceAggregationOption.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Option indicating the update behavior of a resource's address prefixes referenced within a network manager configuration."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

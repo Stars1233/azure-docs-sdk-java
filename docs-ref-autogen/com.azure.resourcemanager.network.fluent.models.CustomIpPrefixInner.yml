@@ -481,13 +481,13 @@ methods:
   fullName: "com.azure.resourcemanager.network.fluent.models.CustomIpPrefixInner.withZones(List<String> zones)"
   name: "withZones(List<String> zones)"
   nameWithType: "CustomIpPrefixInner.withZones(List<String> zones)"
-  summary: "Set the zones property: A list of availability zones denoting the IP allocated for the resource needs to come from."
+  summary: "Set the zones property: A list of availability zones denoting where the resource needs to come from."
   parameters:
   - description: "the zones value to set."
     name: "zones"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
   syntax: "public CustomIpPrefixInner withZones(List<String> zones)"
-  desc: "Set the zones property: A list of availability zones denoting the IP allocated for the resource needs to come from."
+  desc: "Set the zones property: A list of availability zones denoting where the resource needs to come from."
   returns:
     description: "the CustomIpPrefixInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.CustomIpPrefixInner?alt=com.azure.resourcemanager.network.fluent.models.CustomIpPrefixInner&text=CustomIpPrefixInner\" data-throw-if-not-resolved=\"False\" />"
@@ -495,9 +495,9 @@ methods:
   fullName: "com.azure.resourcemanager.network.fluent.models.CustomIpPrefixInner.zones()"
   name: "zones()"
   nameWithType: "CustomIpPrefixInner.zones()"
-  summary: "Get the zones property: A list of availability zones denoting the IP allocated for the resource needs to come from."
+  summary: "Get the zones property: A list of availability zones denoting where the resource needs to come from."
   syntax: "public List<String> zones()"
-  desc: "Get the zones property: A list of availability zones denoting the IP allocated for the resource needs to come from."
+  desc: "Get the zones property: A list of availability zones denoting where the resource needs to come from."
   returns:
     description: "the zones value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
@@ -505,4 +505,4 @@ type: "class"
 desc: "Custom IP prefix resource."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

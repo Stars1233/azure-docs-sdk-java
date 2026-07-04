@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelProtocol.NATIVE"
   name: "NATIVE"
   nameWithType: "GatewayLoadBalancerTunnelProtocol.NATIVE"
-  summary: "Static value Native for Gateway<wbr>Load<wbr>Balancer<wbr>Tunnel<wbr>Protocol."
+  summary: "Native."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelProtocol?alt=com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelProtocol&text=GatewayLoadBalancerTunnelProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final GatewayLoadBalancerTunnelProtocol NATIVE"
-  desc: "Static value Native for GatewayLoadBalancerTunnelProtocol."
+  desc: "Native."
 - uid: "com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelProtocol.NONE"
   fullName: "com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelProtocol.NONE"
   name: "NONE"
   nameWithType: "GatewayLoadBalancerTunnelProtocol.NONE"
-  summary: "Static value None for Gateway<wbr>Load<wbr>Balancer<wbr>Tunnel<wbr>Protocol."
+  summary: "None."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelProtocol?alt=com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelProtocol&text=GatewayLoadBalancerTunnelProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final GatewayLoadBalancerTunnelProtocol NONE"
-  desc: "Static value None for GatewayLoadBalancerTunnelProtocol."
+  desc: "None."
 - uid: "com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelProtocol.VXLAN"
   fullName: "com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelProtocol.VXLAN"
   name: "VXLAN"
   nameWithType: "GatewayLoadBalancerTunnelProtocol.VXLAN"
-  summary: "Static value VXLAN for Gateway<wbr>Load<wbr>Balancer<wbr>Tunnel<wbr>Protocol."
+  summary: "VXLAN."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelProtocol?alt=com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelProtocol&text=GatewayLoadBalancerTunnelProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final GatewayLoadBalancerTunnelProtocol VXLAN"
-  desc: "Static value VXLAN for GatewayLoadBalancerTunnelProtocol."
+  desc: "VXLAN."
 methods:
 - uid: "com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelProtocol.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelProtocol.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "Protocol of gateway load balancer tunnel interface."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

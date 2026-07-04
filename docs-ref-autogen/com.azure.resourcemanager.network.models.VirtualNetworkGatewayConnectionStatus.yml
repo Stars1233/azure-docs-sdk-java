@@ -42,50 +42,50 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionStatus.CONNECTED"
   name: "CONNECTED"
   nameWithType: "VirtualNetworkGatewayConnectionStatus.CONNECTED"
-  summary: "Static value Connected for Virtual<wbr>Network<wbr>Gateway<wbr>Connection<wbr>Status."
+  summary: "Connected."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionStatus?alt=com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionStatus&text=VirtualNetworkGatewayConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualNetworkGatewayConnectionStatus CONNECTED"
-  desc: "Static value Connected for VirtualNetworkGatewayConnectionStatus."
+  desc: "Connected."
 - uid: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionStatus.CONNECTING"
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionStatus.CONNECTING"
   name: "CONNECTING"
   nameWithType: "VirtualNetworkGatewayConnectionStatus.CONNECTING"
-  summary: "Static value Connecting for Virtual<wbr>Network<wbr>Gateway<wbr>Connection<wbr>Status."
+  summary: "Connecting."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionStatus?alt=com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionStatus&text=VirtualNetworkGatewayConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualNetworkGatewayConnectionStatus CONNECTING"
-  desc: "Static value Connecting for VirtualNetworkGatewayConnectionStatus."
+  desc: "Connecting."
 - uid: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionStatus.NOT_CONNECTED"
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionStatus.NOT_CONNECTED"
   name: "NOT_CONNECTED"
   nameWithType: "VirtualNetworkGatewayConnectionStatus.NOT_CONNECTED"
-  summary: "Static value Not<wbr>Connected for Virtual<wbr>Network<wbr>Gateway<wbr>Connection<wbr>Status."
+  summary: "Not<wbr>Connected."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionStatus?alt=com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionStatus&text=VirtualNetworkGatewayConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualNetworkGatewayConnectionStatus NOT_CONNECTED"
-  desc: "Static value NotConnected for VirtualNetworkGatewayConnectionStatus."
+  desc: "NotConnected."
 - uid: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionStatus.UNKNOWN"
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionStatus.UNKNOWN"
   name: "UNKNOWN"
   nameWithType: "VirtualNetworkGatewayConnectionStatus.UNKNOWN"
-  summary: "Static value Unknown for Virtual<wbr>Network<wbr>Gateway<wbr>Connection<wbr>Status."
+  summary: "Unknown."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionStatus?alt=com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionStatus&text=VirtualNetworkGatewayConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualNetworkGatewayConnectionStatus UNKNOWN"
-  desc: "Static value Unknown for VirtualNetworkGatewayConnectionStatus."
+  desc: "Unknown."
 methods:
 - uid: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionStatus.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkGatewayConnectionStatus.fromString(String name)"
@@ -119,4 +119,4 @@ type: "class"
 desc: "Virtual Network Gateway connection status."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

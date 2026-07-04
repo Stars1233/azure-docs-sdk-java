@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ServiceUpdateAction.FULL_UPDATE"
   name: "FULL_UPDATE"
   nameWithType: "ServiceUpdateAction.FULL_UPDATE"
-  summary: "Static value Full<wbr>Update for Service<wbr>Update<wbr>Action."
+  summary: "Full<wbr>Update."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ServiceUpdateAction?alt=com.azure.resourcemanager.network.models.ServiceUpdateAction&text=ServiceUpdateAction\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ServiceUpdateAction FULL_UPDATE"
-  desc: "Static value FullUpdate for ServiceUpdateAction."
+  desc: "FullUpdate."
 - uid: "com.azure.resourcemanager.network.models.ServiceUpdateAction.PARTIAL_UPDATE"
   fullName: "com.azure.resourcemanager.network.models.ServiceUpdateAction.PARTIAL_UPDATE"
   name: "PARTIAL_UPDATE"
   nameWithType: "ServiceUpdateAction.PARTIAL_UPDATE"
-  summary: "Static value Partial<wbr>Update for Service<wbr>Update<wbr>Action."
+  summary: "Partial<wbr>Update."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ServiceUpdateAction?alt=com.azure.resourcemanager.network.models.ServiceUpdateAction&text=ServiceUpdateAction\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ServiceUpdateAction PARTIAL_UPDATE"
-  desc: "Static value PartialUpdate for ServiceUpdateAction."
+  desc: "PartialUpdate."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ServiceUpdateAction.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ServiceUpdateAction.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Specifies the type of update operation to perform on services within the service gateway. - FullUpdate: Replaces all existing services with the new list provided in the request. Any previously defined services not included will be removed. - PartialUpdate: Updates only the specified services."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

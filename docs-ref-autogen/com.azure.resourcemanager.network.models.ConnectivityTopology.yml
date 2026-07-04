@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ConnectivityTopology.HUB_AND_SPOKE"
   name: "HUB_AND_SPOKE"
   nameWithType: "ConnectivityTopology.HUB_AND_SPOKE"
-  summary: "Static value Hub<wbr>And<wbr>Spoke for Connectivity<wbr>Topology."
+  summary: "Hub<wbr>And<wbr>Spoke."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ConnectivityTopology?alt=com.azure.resourcemanager.network.models.ConnectivityTopology&text=ConnectivityTopology\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ConnectivityTopology HUB_AND_SPOKE"
-  desc: "Static value HubAndSpoke for ConnectivityTopology."
+  desc: "HubAndSpoke."
 - uid: "com.azure.resourcemanager.network.models.ConnectivityTopology.MESH"
   fullName: "com.azure.resourcemanager.network.models.ConnectivityTopology.MESH"
   name: "MESH"
   nameWithType: "ConnectivityTopology.MESH"
-  summary: "Static value Mesh for Connectivity<wbr>Topology."
+  summary: "Mesh."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ConnectivityTopology?alt=com.azure.resourcemanager.network.models.ConnectivityTopology&text=ConnectivityTopology\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ConnectivityTopology MESH"
-  desc: "Static value Mesh for ConnectivityTopology."
+  desc: "Mesh."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ConnectivityTopology.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ConnectivityTopology.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Connectivity topology type."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

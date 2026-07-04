@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **AzureReachabilityReportLatencyInfo**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.AzureReachabilityReportLatencyInfo?alt=com.azure.resourcemanager.network.models.AzureReachabilityReportLatencyInfo&text=AzureReachabilityReportLatencyInfo\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.models.AzureReachabilityReportLatencyInfo.AzureReachabilityReportLatencyInfo()"
-  fullName: "com.azure.resourcemanager.network.models.AzureReachabilityReportLatencyInfo.AzureReachabilityReportLatencyInfo()"
-  name: "AzureReachabilityReportLatencyInfo()"
-  nameWithType: "AzureReachabilityReportLatencyInfo.AzureReachabilityReportLatencyInfo()"
-  summary: "Creates an instance of Azure<wbr>Reachability<wbr>Report<wbr>Latency<wbr>Info class."
-  syntax: "public AzureReachabilityReportLatencyInfo()"
-  desc: "Creates an instance of AzureReachabilityReportLatencyInfo class."
 methods:
 - uid: "com.azure.resourcemanager.network.models.AzureReachabilityReportLatencyInfo.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.models.AzureReachabilityReportLatencyInfo.fromJson(JsonReader jsonReader)"
@@ -88,38 +80,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.models.AzureReachabilityReportLatencyInfo.withScore(java.lang.Integer)"
-  fullName: "com.azure.resourcemanager.network.models.AzureReachabilityReportLatencyInfo.withScore(Integer score)"
-  name: "withScore(Integer score)"
-  nameWithType: "AzureReachabilityReportLatencyInfo.withScore(Integer score)"
-  summary: "Set the score property: The relative latency score between 1 and 100, higher values indicating a faster connection."
-  parameters:
-  - description: "the score value to set."
-    name: "score"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-  syntax: "public AzureReachabilityReportLatencyInfo withScore(Integer score)"
-  desc: "Set the score property: The relative latency score between 1 and 100, higher values indicating a faster connection."
-  returns:
-    description: "the AzureReachabilityReportLatencyInfo object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.AzureReachabilityReportLatencyInfo?alt=com.azure.resourcemanager.network.models.AzureReachabilityReportLatencyInfo&text=AzureReachabilityReportLatencyInfo\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.AzureReachabilityReportLatencyInfo.withTimestamp(java.time.OffsetDateTime)"
-  fullName: "com.azure.resourcemanager.network.models.AzureReachabilityReportLatencyInfo.withTimestamp(OffsetDateTime timestamp)"
-  name: "withTimestamp(OffsetDateTime timestamp)"
-  nameWithType: "AzureReachabilityReportLatencyInfo.withTimestamp(OffsetDateTime timestamp)"
-  summary: "Set the timestamp property: The time stamp."
-  parameters:
-  - description: "the timestamp value to set."
-    name: "timestamp"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
-  syntax: "public AzureReachabilityReportLatencyInfo withTimestamp(OffsetDateTime timestamp)"
-  desc: "Set the timestamp property: The time stamp."
-  returns:
-    description: "the AzureReachabilityReportLatencyInfo object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.AzureReachabilityReportLatencyInfo?alt=com.azure.resourcemanager.network.models.AzureReachabilityReportLatencyInfo&text=AzureReachabilityReportLatencyInfo\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Details on latency for a time series."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.AzureReachabilityReportLatencyInfo?alt=com.azure.resourcemanager.network.models.AzureReachabilityReportLatencyInfo&text=AzureReachabilityReportLatencyInfo\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

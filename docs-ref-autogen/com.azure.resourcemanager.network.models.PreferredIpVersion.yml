@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.PreferredIpVersion.IPV4"
   name: "IPV4"
   nameWithType: "PreferredIpVersion.IPV4"
-  summary: "Static value IPv4 for Preferred<wbr>IpVersion."
+  summary: "IPv4."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.PreferredIpVersion?alt=com.azure.resourcemanager.network.models.PreferredIpVersion&text=PreferredIpVersion\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PreferredIpVersion IPV4"
-  desc: "Static value IPv4 for PreferredIpVersion."
+  desc: "IPv4."
 - uid: "com.azure.resourcemanager.network.models.PreferredIpVersion.IPV6"
   fullName: "com.azure.resourcemanager.network.models.PreferredIpVersion.IPV6"
   name: "IPV6"
   nameWithType: "PreferredIpVersion.IPV6"
-  summary: "Static value IPv6 for Preferred<wbr>IpVersion."
+  summary: "IPv6."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.PreferredIpVersion?alt=com.azure.resourcemanager.network.models.PreferredIpVersion&text=PreferredIpVersion\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PreferredIpVersion IPV6"
-  desc: "Static value IPv6 for PreferredIpVersion."
+  desc: "IPv6."
 methods:
 - uid: "com.azure.resourcemanager.network.models.PreferredIpVersion.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.PreferredIpVersion.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The preferred IP version to use in test evaluation. The connection monitor may choose to use a different version depending on other parameters."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

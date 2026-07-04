@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **RouteSourceDetails**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.RouteSourceDetails?alt=com.azure.resourcemanager.network.models.RouteSourceDetails&text=RouteSourceDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.models.RouteSourceDetails.RouteSourceDetails()"
-  fullName: "com.azure.resourcemanager.network.models.RouteSourceDetails.RouteSourceDetails()"
-  name: "RouteSourceDetails()"
-  nameWithType: "RouteSourceDetails.RouteSourceDetails()"
-  summary: "Creates an instance of Route<wbr>Source<wbr>Details class."
-  syntax: "public RouteSourceDetails()"
-  desc: "Creates an instance of RouteSourceDetails class."
 methods:
 - uid: "com.azure.resourcemanager.network.models.RouteSourceDetails.circuit()"
   fullName: "com.azure.resourcemanager.network.models.RouteSourceDetails.circuit()"
@@ -98,52 +90,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.models.RouteSourceDetails.withCircuit(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.RouteSourceDetails.withCircuit(String circuit)"
-  name: "withCircuit(String circuit)"
-  nameWithType: "RouteSourceDetails.withCircuit(String circuit)"
-  summary: "Set the circuit property: Express Route Circuit identifier."
-  parameters:
-  - description: "the circuit value to set."
-    name: "circuit"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public RouteSourceDetails withCircuit(String circuit)"
-  desc: "Set the circuit property: Express Route Circuit identifier."
-  returns:
-    description: "the RouteSourceDetails object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.RouteSourceDetails?alt=com.azure.resourcemanager.network.models.RouteSourceDetails&text=RouteSourceDetails\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.RouteSourceDetails.withPri(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.RouteSourceDetails.withPri(String pri)"
-  name: "withPri(String pri)"
-  nameWithType: "RouteSourceDetails.withPri(String pri)"
-  summary: "Set the pri property: Flag to indicate if the route learned from the primary device is active or passive."
-  parameters:
-  - description: "the pri value to set."
-    name: "pri"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public RouteSourceDetails withPri(String pri)"
-  desc: "Set the pri property: Flag to indicate if the route learned from the primary device is active or passive."
-  returns:
-    description: "the RouteSourceDetails object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.RouteSourceDetails?alt=com.azure.resourcemanager.network.models.RouteSourceDetails&text=RouteSourceDetails\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.RouteSourceDetails.withSec(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.RouteSourceDetails.withSec(String sec)"
-  name: "withSec(String sec)"
-  nameWithType: "RouteSourceDetails.withSec(String sec)"
-  summary: "Set the sec property: Flag to indicate if the route learned from the secondary device is active or passive."
-  parameters:
-  - description: "the sec value to set."
-    name: "sec"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public RouteSourceDetails withSec(String sec)"
-  desc: "Set the sec property: Flag to indicate if the route learned from the secondary device is active or passive."
-  returns:
-    description: "the RouteSourceDetails object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.RouteSourceDetails?alt=com.azure.resourcemanager.network.models.RouteSourceDetails&text=RouteSourceDetails\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The RouteSourceDetails model."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.RouteSourceDetails?alt=com.azure.resourcemanager.network.models.RouteSourceDetails&text=RouteSourceDetails\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

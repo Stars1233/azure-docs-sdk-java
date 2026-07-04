@@ -50,9 +50,9 @@ methods:
   fullName: "com.azure.resourcemanager.network.fluent.models.IpamPoolInner.etag()"
   name: "etag()"
   nameWithType: "IpamPoolInner.etag()"
-  summary: "Get the etag property: String representing unique etag for the resource document."
+  summary: "Get the etag property: A unique read-only string that changes whenever the resource is updated."
   syntax: "public String etag()"
-  desc: "Get the etag property: String representing unique etag for the resource document."
+  desc: "Get the etag property: A unique read-only string that changes whenever the resource is updated."
   returns:
     description: "the etag value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -194,4 +194,4 @@ type: "class"
 desc: "Instance of Pool resource."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

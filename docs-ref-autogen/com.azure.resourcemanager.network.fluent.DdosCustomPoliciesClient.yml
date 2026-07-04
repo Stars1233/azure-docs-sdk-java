@@ -4,7 +4,7 @@ fullName: "com.azure.resourcemanager.network.fluent.DdosCustomPoliciesClient"
 name: "DdosCustomPoliciesClient"
 nameWithType: "DdosCustomPoliciesClient"
 summary: "An instance of this class provides access to all the operations defined in Ddos<wbr>Custom<wbr>Policies<wbr>Client."
-syntax: "public interface **DdosCustomPoliciesClient**</br> extends <xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet&text=InnerSupportsGet\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner?alt=com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner&text=DdosCustomPolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
+syntax: "public interface **DdosCustomPoliciesClient**</br> extends <xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet&text=InnerSupportsGet\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner?alt=com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner&text=DdosCustomPolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner?alt=com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner&text=DdosCustomPolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.DdosCustomPoliciesClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner)"
   fullName: "com.azure.resourcemanager.network.fluent.DdosCustomPoliciesClient.beginCreateOrUpdate(String resourceGroupName, String ddosCustomPolicyName, DdosCustomPolicyInner parameters)"
@@ -14,7 +14,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the DDoS custom policy."
@@ -36,7 +36,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the DDoS custom policy."
@@ -61,7 +61,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the DDoS custom policy."
@@ -83,7 +83,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the DDoS custom policy."
@@ -102,7 +102,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the DDoS custom policy."
@@ -124,7 +124,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the DDoS custom policy."
@@ -143,7 +143,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the DDoS custom policy."
@@ -165,7 +165,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the DDoS custom policy."
@@ -190,7 +190,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the DDoS custom policy."
@@ -212,7 +212,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the DDoS custom policy."
@@ -234,7 +234,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the DDoS custom policy."
@@ -250,7 +250,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the DDoS custom policy."
@@ -269,7 +269,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the DDoS custom policy."
@@ -288,7 +288,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the DDoS custom policy."
@@ -307,7 +307,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the DDoS custom policy."
@@ -326,7 +326,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the DDoS custom policy."
@@ -345,7 +345,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the DDoS custom policy."
@@ -367,7 +367,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the DDoS custom policy."
@@ -378,6 +378,97 @@ methods:
   returns:
     description: "information about the specified DDoS custom policy along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion\n of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner?alt=com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner&text=DdosCustomPolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- uid: "com.azure.resourcemanager.network.fluent.DdosCustomPoliciesClient.list()"
+  fullName: "com.azure.resourcemanager.network.fluent.DdosCustomPoliciesClient.list()"
+  name: "list()"
+  nameWithType: "DdosCustomPoliciesClient.list()"
+  summary: "Gets all the DDoS custom policies in a subscription."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PagedIterable<DdosCustomPolicyInner> list()"
+  desc: "Gets all the DDoS custom policies in a subscription."
+  returns:
+    description: "all the DDoS custom policies in a subscription as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner?alt=com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner&text=DdosCustomPolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.network.fluent.DdosCustomPoliciesClient.list(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.network.fluent.DdosCustomPoliciesClient.list(Context context)"
+  name: "list(Context context)"
+  nameWithType: "DdosCustomPoliciesClient.list(Context context)"
+  summary: "Gets all the DDoS custom policies in a subscription."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PagedIterable<DdosCustomPolicyInner> list(Context context)"
+  desc: "Gets all the DDoS custom policies in a subscription."
+  returns:
+    description: "all the DDoS custom policies in a subscription as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner?alt=com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner&text=DdosCustomPolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.network.fluent.DdosCustomPoliciesClient.listAsync()"
+  fullName: "com.azure.resourcemanager.network.fluent.DdosCustomPoliciesClient.listAsync()"
+  name: "listAsync()"
+  nameWithType: "DdosCustomPoliciesClient.listAsync()"
+  summary: "Gets all the DDoS custom policies in a subscription."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PagedFlux<DdosCustomPolicyInner> listAsync()"
+  desc: "Gets all the DDoS custom policies in a subscription."
+  returns:
+    description: "all the DDoS custom policies in a subscription as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner?alt=com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner&text=DdosCustomPolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.network.fluent.DdosCustomPoliciesClient.listByResourceGroup(java.lang.String)"
+  fullName: "com.azure.resourcemanager.network.fluent.DdosCustomPoliciesClient.listByResourceGroup(String resourceGroupName)"
+  name: "listByResourceGroup(String resourceGroupName)"
+  nameWithType: "DdosCustomPoliciesClient.listByResourceGroup(String resourceGroupName)"
+  summary: "Gets all the DDoS custom policies in a resource group."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract PagedIterable<DdosCustomPolicyInner> listByResourceGroup(String resourceGroupName)"
+  desc: "Gets all the DDoS custom policies in a resource group."
+  returns:
+    description: "all the DDoS custom policies in a resource group as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner?alt=com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner&text=DdosCustomPolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.network.fluent.DdosCustomPoliciesClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.network.fluent.DdosCustomPoliciesClient.listByResourceGroup(String resourceGroupName, Context context)"
+  name: "listByResourceGroup(String resourceGroupName, Context context)"
+  nameWithType: "DdosCustomPoliciesClient.listByResourceGroup(String resourceGroupName, Context context)"
+  summary: "Gets all the DDoS custom policies in a resource group."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PagedIterable<DdosCustomPolicyInner> listByResourceGroup(String resourceGroupName, Context context)"
+  desc: "Gets all the DDoS custom policies in a resource group."
+  returns:
+    description: "all the DDoS custom policies in a resource group as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner?alt=com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner&text=DdosCustomPolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.network.fluent.DdosCustomPoliciesClient.listByResourceGroupAsync(java.lang.String)"
+  fullName: "com.azure.resourcemanager.network.fluent.DdosCustomPoliciesClient.listByResourceGroupAsync(String resourceGroupName)"
+  name: "listByResourceGroupAsync(String resourceGroupName)"
+  nameWithType: "DdosCustomPoliciesClient.listByResourceGroupAsync(String resourceGroupName)"
+  summary: "Gets all the DDoS custom policies in a resource group."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract PagedFlux<DdosCustomPolicyInner> listByResourceGroupAsync(String resourceGroupName)"
+  desc: "Gets all the DDoS custom policies in a resource group."
+  returns:
+    description: "all the DDoS custom policies in a resource group as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
+    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner?alt=com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner&text=DdosCustomPolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.DdosCustomPoliciesClient.updateTags(java.lang.String,java.lang.String,com.azure.resourcemanager.network.models.TagsObject)"
   fullName: "com.azure.resourcemanager.network.fluent.DdosCustomPoliciesClient.updateTags(String resourceGroupName, String ddosCustomPolicyName, TagsObject parameters)"
   name: "updateTags(String resourceGroupName, String ddosCustomPolicyName, TagsObject parameters)"
@@ -386,7 +477,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the DDoS custom policy."
@@ -408,7 +499,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the DDoS custom policy."
@@ -430,7 +521,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the DDoS custom policy."
@@ -455,7 +546,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the DDoS custom policy."
@@ -474,6 +565,7 @@ desc: "An instance of this class provides access to all the operations defined i
 implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet&text=InnerSupportsGet\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner?alt=com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner&text=DdosCustomPolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner?alt=com.azure.resourcemanager.network.fluent.models.DdosCustomPolicyInner&text=DdosCustomPolicyInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

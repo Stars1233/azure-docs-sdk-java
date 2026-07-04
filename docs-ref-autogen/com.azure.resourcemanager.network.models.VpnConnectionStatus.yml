@@ -42,50 +42,50 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.VpnConnectionStatus.CONNECTED"
   name: "CONNECTED"
   nameWithType: "VpnConnectionStatus.CONNECTED"
-  summary: "Static value Connected for Vpn<wbr>Connection<wbr>Status."
+  summary: "Connected."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VpnConnectionStatus?alt=com.azure.resourcemanager.network.models.VpnConnectionStatus&text=VpnConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VpnConnectionStatus CONNECTED"
-  desc: "Static value Connected for VpnConnectionStatus."
+  desc: "Connected."
 - uid: "com.azure.resourcemanager.network.models.VpnConnectionStatus.CONNECTING"
   fullName: "com.azure.resourcemanager.network.models.VpnConnectionStatus.CONNECTING"
   name: "CONNECTING"
   nameWithType: "VpnConnectionStatus.CONNECTING"
-  summary: "Static value Connecting for Vpn<wbr>Connection<wbr>Status."
+  summary: "Connecting."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VpnConnectionStatus?alt=com.azure.resourcemanager.network.models.VpnConnectionStatus&text=VpnConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VpnConnectionStatus CONNECTING"
-  desc: "Static value Connecting for VpnConnectionStatus."
+  desc: "Connecting."
 - uid: "com.azure.resourcemanager.network.models.VpnConnectionStatus.NOT_CONNECTED"
   fullName: "com.azure.resourcemanager.network.models.VpnConnectionStatus.NOT_CONNECTED"
   name: "NOT_CONNECTED"
   nameWithType: "VpnConnectionStatus.NOT_CONNECTED"
-  summary: "Static value Not<wbr>Connected for Vpn<wbr>Connection<wbr>Status."
+  summary: "Not<wbr>Connected."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VpnConnectionStatus?alt=com.azure.resourcemanager.network.models.VpnConnectionStatus&text=VpnConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VpnConnectionStatus NOT_CONNECTED"
-  desc: "Static value NotConnected for VpnConnectionStatus."
+  desc: "NotConnected."
 - uid: "com.azure.resourcemanager.network.models.VpnConnectionStatus.UNKNOWN"
   fullName: "com.azure.resourcemanager.network.models.VpnConnectionStatus.UNKNOWN"
   name: "UNKNOWN"
   nameWithType: "VpnConnectionStatus.UNKNOWN"
-  summary: "Static value Unknown for Vpn<wbr>Connection<wbr>Status."
+  summary: "Unknown."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VpnConnectionStatus?alt=com.azure.resourcemanager.network.models.VpnConnectionStatus&text=VpnConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VpnConnectionStatus UNKNOWN"
-  desc: "Static value Unknown for VpnConnectionStatus."
+  desc: "Unknown."
 methods:
 - uid: "com.azure.resourcemanager.network.models.VpnConnectionStatus.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.VpnConnectionStatus.fromString(String name)"
@@ -119,4 +119,4 @@ type: "class"
 desc: "The current state of the vpn connection."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

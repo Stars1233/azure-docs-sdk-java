@@ -42,50 +42,50 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ExceptionEntrySelectorMatchOperator.CONTAINS"
   name: "CONTAINS"
   nameWithType: "ExceptionEntrySelectorMatchOperator.CONTAINS"
-  summary: "Static value Contains for Exception<wbr>Entry<wbr>Selector<wbr>Match<wbr>Operator."
+  summary: "Contains."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExceptionEntrySelectorMatchOperator?alt=com.azure.resourcemanager.network.models.ExceptionEntrySelectorMatchOperator&text=ExceptionEntrySelectorMatchOperator\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExceptionEntrySelectorMatchOperator CONTAINS"
-  desc: "Static value Contains for ExceptionEntrySelectorMatchOperator."
+  desc: "Contains."
 - uid: "com.azure.resourcemanager.network.models.ExceptionEntrySelectorMatchOperator.ENDS_WITH"
   fullName: "com.azure.resourcemanager.network.models.ExceptionEntrySelectorMatchOperator.ENDS_WITH"
   name: "ENDS_WITH"
   nameWithType: "ExceptionEntrySelectorMatchOperator.ENDS_WITH"
-  summary: "Static value Ends<wbr>With for Exception<wbr>Entry<wbr>Selector<wbr>Match<wbr>Operator."
+  summary: "Ends<wbr>With."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExceptionEntrySelectorMatchOperator?alt=com.azure.resourcemanager.network.models.ExceptionEntrySelectorMatchOperator&text=ExceptionEntrySelectorMatchOperator\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExceptionEntrySelectorMatchOperator ENDS_WITH"
-  desc: "Static value EndsWith for ExceptionEntrySelectorMatchOperator."
+  desc: "EndsWith."
 - uid: "com.azure.resourcemanager.network.models.ExceptionEntrySelectorMatchOperator.EQUALS"
   fullName: "com.azure.resourcemanager.network.models.ExceptionEntrySelectorMatchOperator.EQUALS"
   name: "EQUALS"
   nameWithType: "ExceptionEntrySelectorMatchOperator.EQUALS"
-  summary: "Static value Equals for Exception<wbr>Entry<wbr>Selector<wbr>Match<wbr>Operator."
+  summary: "Equals."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExceptionEntrySelectorMatchOperator?alt=com.azure.resourcemanager.network.models.ExceptionEntrySelectorMatchOperator&text=ExceptionEntrySelectorMatchOperator\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExceptionEntrySelectorMatchOperator EQUALS"
-  desc: "Static value Equals for ExceptionEntrySelectorMatchOperator."
+  desc: "Equals."
 - uid: "com.azure.resourcemanager.network.models.ExceptionEntrySelectorMatchOperator.STARTS_WITH"
   fullName: "com.azure.resourcemanager.network.models.ExceptionEntrySelectorMatchOperator.STARTS_WITH"
   name: "STARTS_WITH"
   nameWithType: "ExceptionEntrySelectorMatchOperator.STARTS_WITH"
-  summary: "Static value Starts<wbr>With for Exception<wbr>Entry<wbr>Selector<wbr>Match<wbr>Operator."
+  summary: "Starts<wbr>With."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExceptionEntrySelectorMatchOperator?alt=com.azure.resourcemanager.network.models.ExceptionEntrySelectorMatchOperator&text=ExceptionEntrySelectorMatchOperator\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExceptionEntrySelectorMatchOperator STARTS_WITH"
-  desc: "Static value StartsWith for ExceptionEntrySelectorMatchOperator."
+  desc: "StartsWith."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ExceptionEntrySelectorMatchOperator.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ExceptionEntrySelectorMatchOperator.fromString(String name)"
@@ -119,4 +119,4 @@ type: "class"
 desc: "When the matchVariable points to a key-value pair (e.g, RequestHeader), this operates on the selector."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

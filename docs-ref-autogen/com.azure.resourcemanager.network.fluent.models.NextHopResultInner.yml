@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **NextHopResultInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.NextHopResultInner?alt=com.azure.resourcemanager.network.fluent.models.NextHopResultInner&text=NextHopResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.NextHopResultInner.NextHopResultInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NextHopResultInner.NextHopResultInner()"
-  name: "NextHopResultInner()"
-  nameWithType: "NextHopResultInner.NextHopResultInner()"
-  summary: "Creates an instance of Next<wbr>Hop<wbr>Result<wbr>Inner class."
-  syntax: "public NextHopResultInner()"
-  desc: "Creates an instance of NextHopResultInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.NextHopResultInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.NextHopResultInner.fromJson(JsonReader jsonReader)"
@@ -98,52 +90,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.NextHopResultInner.withNextHopIpAddress(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NextHopResultInner.withNextHopIpAddress(String nextHopIpAddress)"
-  name: "withNextHopIpAddress(String nextHopIpAddress)"
-  nameWithType: "NextHopResultInner.withNextHopIpAddress(String nextHopIpAddress)"
-  summary: "Set the next<wbr>Hop<wbr>IpAddress property: Next hop IP Address."
-  parameters:
-  - description: "the nextHopIpAddress value to set."
-    name: "nextHopIpAddress"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public NextHopResultInner withNextHopIpAddress(String nextHopIpAddress)"
-  desc: "Set the nextHopIpAddress property: Next hop IP Address."
-  returns:
-    description: "the NextHopResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NextHopResultInner?alt=com.azure.resourcemanager.network.fluent.models.NextHopResultInner&text=NextHopResultInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.NextHopResultInner.withNextHopType(com.azure.resourcemanager.network.models.NextHopType)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NextHopResultInner.withNextHopType(NextHopType nextHopType)"
-  name: "withNextHopType(NextHopType nextHopType)"
-  nameWithType: "NextHopResultInner.withNextHopType(NextHopType nextHopType)"
-  summary: "Set the next<wbr>Hop<wbr>Type property: Next hop type."
-  parameters:
-  - description: "the nextHopType value to set."
-    name: "nextHopType"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.NextHopType?alt=com.azure.resourcemanager.network.models.NextHopType&text=NextHopType\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public NextHopResultInner withNextHopType(NextHopType nextHopType)"
-  desc: "Set the nextHopType property: Next hop type."
-  returns:
-    description: "the NextHopResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NextHopResultInner?alt=com.azure.resourcemanager.network.fluent.models.NextHopResultInner&text=NextHopResultInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.NextHopResultInner.withRouteTableId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NextHopResultInner.withRouteTableId(String routeTableId)"
-  name: "withRouteTableId(String routeTableId)"
-  nameWithType: "NextHopResultInner.withRouteTableId(String routeTableId)"
-  summary: "Set the route<wbr>Table<wbr>Id property: The resource identifier for the route table associated with the route being returned."
-  parameters:
-  - description: "the routeTableId value to set."
-    name: "routeTableId"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public NextHopResultInner withRouteTableId(String routeTableId)"
-  desc: "Set the routeTableId property: The resource identifier for the route table associated with the route being returned. If the route being returned does not correspond to any user created routes then this field will be the string 'System Route'."
-  returns:
-    description: "the NextHopResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NextHopResultInner?alt=com.azure.resourcemanager.network.fluent.models.NextHopResultInner&text=NextHopResultInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The information about next hop from the specified VM."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.NextHopResultInner?alt=com.azure.resourcemanager.network.fluent.models.NextHopResultInner&text=NextHopResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

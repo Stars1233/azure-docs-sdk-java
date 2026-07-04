@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **VpnGatewayIpConfiguration**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.VpnGatewayIpConfiguration?alt=com.azure.resourcemanager.network.models.VpnGatewayIpConfiguration&text=VpnGatewayIpConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.models.VpnGatewayIpConfiguration.VpnGatewayIpConfiguration()"
-  fullName: "com.azure.resourcemanager.network.models.VpnGatewayIpConfiguration.VpnGatewayIpConfiguration()"
-  name: "VpnGatewayIpConfiguration()"
-  nameWithType: "VpnGatewayIpConfiguration.VpnGatewayIpConfiguration()"
-  summary: "Creates an instance of Vpn<wbr>Gateway<wbr>IpConfiguration class."
-  syntax: "public VpnGatewayIpConfiguration()"
-  desc: "Creates an instance of VpnGatewayIpConfiguration class."
 methods:
 - uid: "com.azure.resourcemanager.network.models.VpnGatewayIpConfiguration.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.models.VpnGatewayIpConfiguration.fromJson(JsonReader jsonReader)"
@@ -98,52 +90,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.models.VpnGatewayIpConfiguration.withId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.VpnGatewayIpConfiguration.withId(String id)"
-  name: "withId(String id)"
-  nameWithType: "VpnGatewayIpConfiguration.withId(String id)"
-  summary: "Set the id property: The identifier of the IP configuration for a VPN Gateway."
-  parameters:
-  - description: "the id value to set."
-    name: "id"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public VpnGatewayIpConfiguration withId(String id)"
-  desc: "Set the id property: The identifier of the IP configuration for a VPN Gateway."
-  returns:
-    description: "the VpnGatewayIpConfiguration object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.VpnGatewayIpConfiguration?alt=com.azure.resourcemanager.network.models.VpnGatewayIpConfiguration&text=VpnGatewayIpConfiguration\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.VpnGatewayIpConfiguration.withPrivateIpAddress(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.VpnGatewayIpConfiguration.withPrivateIpAddress(String privateIpAddress)"
-  name: "withPrivateIpAddress(String privateIpAddress)"
-  nameWithType: "VpnGatewayIpConfiguration.withPrivateIpAddress(String privateIpAddress)"
-  summary: "Set the private<wbr>IpAddress property: The private IP address of this IP configuration."
-  parameters:
-  - description: "the privateIpAddress value to set."
-    name: "privateIpAddress"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public VpnGatewayIpConfiguration withPrivateIpAddress(String privateIpAddress)"
-  desc: "Set the privateIpAddress property: The private IP address of this IP configuration."
-  returns:
-    description: "the VpnGatewayIpConfiguration object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.VpnGatewayIpConfiguration?alt=com.azure.resourcemanager.network.models.VpnGatewayIpConfiguration&text=VpnGatewayIpConfiguration\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.VpnGatewayIpConfiguration.withPublicIpAddress(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.VpnGatewayIpConfiguration.withPublicIpAddress(String publicIpAddress)"
-  name: "withPublicIpAddress(String publicIpAddress)"
-  nameWithType: "VpnGatewayIpConfiguration.withPublicIpAddress(String publicIpAddress)"
-  summary: "Set the public<wbr>IpAddress property: The public IP address of this IP configuration."
-  parameters:
-  - description: "the publicIpAddress value to set."
-    name: "publicIpAddress"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public VpnGatewayIpConfiguration withPublicIpAddress(String publicIpAddress)"
-  desc: "Set the publicIpAddress property: The public IP address of this IP configuration."
-  returns:
-    description: "the VpnGatewayIpConfiguration object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.VpnGatewayIpConfiguration?alt=com.azure.resourcemanager.network.models.VpnGatewayIpConfiguration&text=VpnGatewayIpConfiguration\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "IP Configuration of a VPN Gateway Resource."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.VpnGatewayIpConfiguration?alt=com.azure.resourcemanager.network.models.VpnGatewayIpConfiguration&text=VpnGatewayIpConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

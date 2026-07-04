@@ -21,15 +21,17 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **PerimeterAssociableResourceInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner?alt=com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner&text=PerimeterAssociableResourceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner.PerimeterAssociableResourceInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner.PerimeterAssociableResourceInner()"
-  name: "PerimeterAssociableResourceInner()"
-  nameWithType: "PerimeterAssociableResourceInner.PerimeterAssociableResourceInner()"
-  summary: "Creates an instance of Perimeter<wbr>Associable<wbr>Resource<wbr>Inner class."
-  syntax: "public PerimeterAssociableResourceInner()"
-  desc: "Creates an instance of PerimeterAssociableResourceInner class."
 methods:
+- uid: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner.description()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner.description()"
+  name: "description()"
+  nameWithType: "PerimeterAssociableResourceInner.description()"
+  summary: "Get the description property: Description of the PaaS resource type."
+  syntax: "public String description()"
+  desc: "Get the description property: Description of the PaaS resource type."
+  returns:
+    description: "the description value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner.displayName()"
   fullName: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner.displayName()"
   name: "displayName()"
@@ -79,6 +81,16 @@ methods:
   returns:
     description: "the name value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner.outboundSupported()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner.outboundSupported()"
+  name: "outboundSupported()"
+  nameWithType: "PerimeterAssociableResourceInner.outboundSupported()"
+  summary: "Get the outbound<wbr>Supported property: Indicates whether the resource type supports outbound scenario."
+  syntax: "public Boolean outboundSupported()"
+  desc: "Get the outboundSupported property: Indicates whether the resource type supports outbound scenario."
+  returns:
+    description: "the outboundSupported value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
 - uid: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner.publicDnsZones()"
   fullName: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner.publicDnsZones()"
   name: "publicDnsZones()"
@@ -89,6 +101,16 @@ methods:
   returns:
     description: "the publicDnsZones value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner.readinessState()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner.readinessState()"
+  name: "readinessState()"
+  nameWithType: "PerimeterAssociableResourceInner.readinessState()"
+  summary: "Get the readiness<wbr>State property: The readiness state of the resource type for NSP support."
+  syntax: "public NspReadinessState readinessState()"
+  desc: "Get the readinessState property: The readiness state of the resource type for NSP support."
+  returns:
+    description: "the readinessState value."
+    type: "<xref href=\"com.azure.resourcemanager.network.models.NspReadinessState?alt=com.azure.resourcemanager.network.models.NspReadinessState&text=NspReadinessState\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner.resourceType()"
   fullName: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner.resourceType()"
   name: "resourceType()"
@@ -99,6 +121,16 @@ methods:
   returns:
     description: "the resourceType value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner.serviceTags()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner.serviceTags()"
+  name: "serviceTags()"
+  nameWithType: "PerimeterAssociableResourceInner.serviceTags()"
+  summary: "Get the service<wbr>Tags property: Service tags associated with the resource provider."
+  syntax: "public List<String> serviceTags()"
+  desc: "Get the serviceTags property: Service tags associated with the resource provider."
+  returns:
+    description: "the serviceTags value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -128,24 +160,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner.withName(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner.withName(String name)"
-  name: "withName(String name)"
-  nameWithType: "PerimeterAssociableResourceInner.withName(String name)"
-  summary: "Set the name property: The name of the resource that is unique within a resource group."
-  parameters:
-  - description: "the name value to set."
-    name: "name"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public PerimeterAssociableResourceInner withName(String name)"
-  desc: "Set the name property: The name of the resource that is unique within a resource group. This name can be used to access the resource."
-  returns:
-    description: "the PerimeterAssociableResourceInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner?alt=com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner&text=PerimeterAssociableResourceInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Resource that is onboarded to use network security perimeter. Also referred as perimeter associable resource."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner?alt=com.azure.resourcemanager.network.fluent.models.PerimeterAssociableResourceInner&text=PerimeterAssociableResourceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

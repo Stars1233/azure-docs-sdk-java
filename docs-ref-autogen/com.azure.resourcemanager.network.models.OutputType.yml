@@ -42,14 +42,14 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.OutputType.WORKSPACE"
   name: "WORKSPACE"
   nameWithType: "OutputType.WORKSPACE"
-  summary: "Static value Workspace for Output<wbr>Type."
+  summary: "Workspace."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.OutputType?alt=com.azure.resourcemanager.network.models.OutputType&text=OutputType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final OutputType WORKSPACE"
-  desc: "Static value Workspace for OutputType."
+  desc: "Workspace."
 methods:
 - uid: "com.azure.resourcemanager.network.models.OutputType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.OutputType.fromString(String name)"
@@ -83,4 +83,4 @@ type: "class"
 desc: "Connection monitor output destination type. Currently, only \"Workspace\" is supported."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

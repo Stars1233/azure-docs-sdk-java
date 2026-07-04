@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ResourceBasics**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.ResourceBasics?alt=com.azure.resourcemanager.network.models.ResourceBasics&text=ResourceBasics\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.models.ResourceBasics.ResourceBasics()"
-  fullName: "com.azure.resourcemanager.network.models.ResourceBasics.ResourceBasics()"
-  name: "ResourceBasics()"
-  nameWithType: "ResourceBasics.ResourceBasics()"
-  summary: "Creates an instance of Resource<wbr>Basics class."
-  syntax: "public ResourceBasics()"
-  desc: "Creates an instance of ResourceBasics class."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ResourceBasics.addressPrefixes()"
   fullName: "com.azure.resourcemanager.network.models.ResourceBasics.addressPrefixes()"
@@ -88,38 +80,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.models.ResourceBasics.withAddressPrefixes(java.util.List<java.lang.String>)"
-  fullName: "com.azure.resourcemanager.network.models.ResourceBasics.withAddressPrefixes(List<String> addressPrefixes)"
-  name: "withAddressPrefixes(List<String> addressPrefixes)"
-  nameWithType: "ResourceBasics.withAddressPrefixes(List<String> addressPrefixes)"
-  summary: "Set the address<wbr>Prefixes property: List of IP address prefixes of the resource."
-  parameters:
-  - description: "the addressPrefixes value to set."
-    name: "addressPrefixes"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public ResourceBasics withAddressPrefixes(List<String> addressPrefixes)"
-  desc: "Set the addressPrefixes property: List of IP address prefixes of the resource."
-  returns:
-    description: "the ResourceBasics object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ResourceBasics?alt=com.azure.resourcemanager.network.models.ResourceBasics&text=ResourceBasics\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.ResourceBasics.withResourceId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.ResourceBasics.withResourceId(String resourceId)"
-  name: "withResourceId(String resourceId)"
-  nameWithType: "ResourceBasics.withResourceId(String resourceId)"
-  summary: "Set the resource<wbr>Id property: Resource<wbr>Id of the Azure resource."
-  parameters:
-  - description: "the resourceId value to set."
-    name: "resourceId"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ResourceBasics withResourceId(String resourceId)"
-  desc: "Set the resourceId property: ResourceId of the Azure resource."
-  returns:
-    description: "the ResourceBasics object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ResourceBasics?alt=com.azure.resourcemanager.network.models.ResourceBasics&text=ResourceBasics\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Representation of basic resource information."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.ResourceBasics?alt=com.azure.resourcemanager.network.models.ResourceBasics&text=ResourceBasics\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

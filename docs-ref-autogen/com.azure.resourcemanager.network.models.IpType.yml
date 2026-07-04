@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.IpType.IPV4"
   name: "IPV4"
   nameWithType: "IpType.IPV4"
-  summary: "Static value IPv4 for Ip<wbr>Type."
+  summary: "IPv4."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.IpType?alt=com.azure.resourcemanager.network.models.IpType&text=IpType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final IpType IPV4"
-  desc: "Static value IPv4 for IpType."
+  desc: "IPv4."
 - uid: "com.azure.resourcemanager.network.models.IpType.IPV6"
   fullName: "com.azure.resourcemanager.network.models.IpType.IPV6"
   name: "IPV6"
   nameWithType: "IpType.IPV6"
-  summary: "Static value IPv6 for Ip<wbr>Type."
+  summary: "IPv6."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.IpType?alt=com.azure.resourcemanager.network.models.IpType&text=IpType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final IpType IPV6"
-  desc: "Static value IPv6 for IpType."
+  desc: "IPv6."
 methods:
 - uid: "com.azure.resourcemanager.network.models.IpType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.IpType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Enumeration to indicate the IP type."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

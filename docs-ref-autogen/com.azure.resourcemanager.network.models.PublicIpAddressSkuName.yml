@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.PublicIpAddressSkuName.BASIC"
   name: "BASIC"
   nameWithType: "PublicIpAddressSkuName.BASIC"
-  summary: "Static value Basic for Public<wbr>IpAddress<wbr>Sku<wbr>Name."
+  summary: "Basic."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.PublicIpAddressSkuName?alt=com.azure.resourcemanager.network.models.PublicIpAddressSkuName&text=PublicIpAddressSkuName\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PublicIpAddressSkuName BASIC"
-  desc: "Static value Basic for PublicIpAddressSkuName."
+  desc: "Basic."
 - uid: "com.azure.resourcemanager.network.models.PublicIpAddressSkuName.STANDARD"
   fullName: "com.azure.resourcemanager.network.models.PublicIpAddressSkuName.STANDARD"
   name: "STANDARD"
   nameWithType: "PublicIpAddressSkuName.STANDARD"
-  summary: "Static value Standard for Public<wbr>IpAddress<wbr>Sku<wbr>Name."
+  summary: "Standard."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.PublicIpAddressSkuName?alt=com.azure.resourcemanager.network.models.PublicIpAddressSkuName&text=PublicIpAddressSkuName\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PublicIpAddressSkuName STANDARD"
-  desc: "Static value Standard for PublicIpAddressSkuName."
+  desc: "Standard."
 - uid: "com.azure.resourcemanager.network.models.PublicIpAddressSkuName.STANDARD_V2"
   fullName: "com.azure.resourcemanager.network.models.PublicIpAddressSkuName.STANDARD_V2"
   name: "STANDARD_V2"
   nameWithType: "PublicIpAddressSkuName.STANDARD_V2"
-  summary: "Static value StandardV2 for Public<wbr>IpAddress<wbr>Sku<wbr>Name."
+  summary: "StandardV2."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.PublicIpAddressSkuName?alt=com.azure.resourcemanager.network.models.PublicIpAddressSkuName&text=PublicIpAddressSkuName\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final PublicIpAddressSkuName STANDARD_V2"
-  desc: "Static value StandardV2 for PublicIpAddressSkuName."
+  desc: "StandardV2."
 methods:
 - uid: "com.azure.resourcemanager.network.models.PublicIpAddressSkuName.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.PublicIpAddressSkuName.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "Name of a public IP address SKU."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -1,0 +1,101 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.network.models.RouteNextHopEcmp"
+fullName: "com.azure.resourcemanager.network.models.RouteNextHopEcmp"
+name: "RouteNextHopEcmp"
+nameWithType: "RouteNextHopEcmp"
+summary: "The next hop definition for ECMP routes containing multiple next hop IP addresses."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **RouteNextHopEcmp**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.RouteNextHopEcmp?alt=com.azure.resourcemanager.network.models.RouteNextHopEcmp&text=RouteNextHopEcmp\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.network.models.RouteNextHopEcmp.RouteNextHopEcmp()"
+  fullName: "com.azure.resourcemanager.network.models.RouteNextHopEcmp.RouteNextHopEcmp()"
+  name: "RouteNextHopEcmp()"
+  nameWithType: "RouteNextHopEcmp.RouteNextHopEcmp()"
+  summary: "Creates an instance of Route<wbr>Next<wbr>Hop<wbr>Ecmp class."
+  syntax: "public RouteNextHopEcmp()"
+  desc: "Creates an instance of RouteNextHopEcmp class."
+methods:
+- uid: "com.azure.resourcemanager.network.models.RouteNextHopEcmp.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.network.models.RouteNextHopEcmp.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "RouteNextHopEcmp.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Route<wbr>Next<wbr>Hop<wbr>Ecmp from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static RouteNextHopEcmp fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of RouteNextHopEcmp from the JsonReader."
+  returns:
+    description: "An instance of RouteNextHopEcmp if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.network.models.RouteNextHopEcmp?alt=com.azure.resourcemanager.network.models.RouteNextHopEcmp&text=RouteNextHopEcmp\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.RouteNextHopEcmp.nextHopIpAddresses()"
+  fullName: "com.azure.resourcemanager.network.models.RouteNextHopEcmp.nextHopIpAddresses()"
+  name: "nextHopIpAddresses()"
+  nameWithType: "RouteNextHopEcmp.nextHopIpAddresses()"
+  summary: "Get the next<wbr>Hop<wbr>IpAddresses property: List of next hop IP addresses for ECMP routing."
+  syntax: "public List<String> nextHopIpAddresses()"
+  desc: "Get the nextHopIpAddresses property: List of next hop IP addresses for ECMP routing. Must contain between 2 and 64 IP addresses."
+  returns:
+    description: "the nextHopIpAddresses value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.resourcemanager.network.models.RouteNextHopEcmp.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.network.models.RouteNextHopEcmp.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "RouteNextHopEcmp.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.RouteNextHopEcmp.validate()"
+  fullName: "com.azure.resourcemanager.network.models.RouteNextHopEcmp.validate()"
+  name: "validate()"
+  nameWithType: "RouteNextHopEcmp.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.network.models.RouteNextHopEcmp.withNextHopIpAddresses(java.util.List<java.lang.String>)"
+  fullName: "com.azure.resourcemanager.network.models.RouteNextHopEcmp.withNextHopIpAddresses(List<String> nextHopIpAddresses)"
+  name: "withNextHopIpAddresses(List<String> nextHopIpAddresses)"
+  nameWithType: "RouteNextHopEcmp.withNextHopIpAddresses(List<String> nextHopIpAddresses)"
+  summary: "Set the next<wbr>Hop<wbr>IpAddresses property: List of next hop IP addresses for ECMP routing."
+  parameters:
+  - description: "the nextHopIpAddresses value to set."
+    name: "nextHopIpAddresses"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public RouteNextHopEcmp withNextHopIpAddresses(List<String> nextHopIpAddresses)"
+  desc: "Set the nextHopIpAddresses property: List of next hop IP addresses for ECMP routing. Must contain between 2 and 64 IP addresses."
+  returns:
+    description: "the RouteNextHopEcmp object itself."
+    type: "<xref href=\"com.azure.resourcemanager.network.models.RouteNextHopEcmp?alt=com.azure.resourcemanager.network.models.RouteNextHopEcmp&text=RouteNextHopEcmp\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The next hop definition for ECMP routes containing multiple next hop IP addresses."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.RouteNextHopEcmp?alt=com.azure.resourcemanager.network.models.RouteNextHopEcmp&text=RouteNextHopEcmp\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.network.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

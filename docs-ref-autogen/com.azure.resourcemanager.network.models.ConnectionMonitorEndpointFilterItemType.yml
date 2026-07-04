@@ -42,14 +42,14 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ConnectionMonitorEndpointFilterItemType.AGENT_ADDRESS"
   name: "AGENT_ADDRESS"
   nameWithType: "ConnectionMonitorEndpointFilterItemType.AGENT_ADDRESS"
-  summary: "Static value Agent<wbr>Address for Connection<wbr>Monitor<wbr>Endpoint<wbr>Filter<wbr>Item<wbr>Type."
+  summary: "Agent<wbr>Address."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ConnectionMonitorEndpointFilterItemType?alt=com.azure.resourcemanager.network.models.ConnectionMonitorEndpointFilterItemType&text=ConnectionMonitorEndpointFilterItemType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ConnectionMonitorEndpointFilterItemType AGENT_ADDRESS"
-  desc: "Static value AgentAddress for ConnectionMonitorEndpointFilterItemType."
+  desc: "AgentAddress."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ConnectionMonitorEndpointFilterItemType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ConnectionMonitorEndpointFilterItemType.fromString(String name)"
@@ -83,4 +83,4 @@ type: "class"
 desc: "The type of item included in the filter. Currently only 'AgentAddress' is supported."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

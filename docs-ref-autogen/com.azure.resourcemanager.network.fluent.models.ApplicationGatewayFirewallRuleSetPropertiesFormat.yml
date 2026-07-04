@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ApplicationGatewayFirewallRuleSetPropertiesFormat**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat&text=ApplicationGatewayFirewallRuleSetPropertiesFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat.ApplicationGatewayFirewallRuleSetPropertiesFormat()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat.ApplicationGatewayFirewallRuleSetPropertiesFormat()"
-  name: "ApplicationGatewayFirewallRuleSetPropertiesFormat()"
-  nameWithType: "ApplicationGatewayFirewallRuleSetPropertiesFormat.ApplicationGatewayFirewallRuleSetPropertiesFormat()"
-  summary: "Creates an instance of Application<wbr>Gateway<wbr>Firewall<wbr>Rule<wbr>Set<wbr>Properties<wbr>Format class."
-  syntax: "public ApplicationGatewayFirewallRuleSetPropertiesFormat()"
-  desc: "Creates an instance of ApplicationGatewayFirewallRuleSetPropertiesFormat class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat.fromJson(JsonReader jsonReader)"
@@ -118,66 +110,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat.withRuleGroups(java.util.List<com.azure.resourcemanager.network.models.ApplicationGatewayFirewallRuleGroup>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat.withRuleGroups(List<ApplicationGatewayFirewallRuleGroup> ruleGroups)"
-  name: "withRuleGroups(List<ApplicationGatewayFirewallRuleGroup> ruleGroups)"
-  nameWithType: "ApplicationGatewayFirewallRuleSetPropertiesFormat.withRuleGroups(List<ApplicationGatewayFirewallRuleGroup> ruleGroups)"
-  summary: "Set the rule<wbr>Groups property: The rule groups of the web application firewall rule set."
-  parameters:
-  - description: "the ruleGroups value to set."
-    name: "ruleGroups"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayFirewallRuleGroup?alt=com.azure.resourcemanager.network.models.ApplicationGatewayFirewallRuleGroup&text=ApplicationGatewayFirewallRuleGroup\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public ApplicationGatewayFirewallRuleSetPropertiesFormat withRuleGroups(List<ApplicationGatewayFirewallRuleGroup> ruleGroups)"
-  desc: "Set the ruleGroups property: The rule groups of the web application firewall rule set."
-  returns:
-    description: "the ApplicationGatewayFirewallRuleSetPropertiesFormat object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat&text=ApplicationGatewayFirewallRuleSetPropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat.withRuleSetType(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat.withRuleSetType(String ruleSetType)"
-  name: "withRuleSetType(String ruleSetType)"
-  nameWithType: "ApplicationGatewayFirewallRuleSetPropertiesFormat.withRuleSetType(String ruleSetType)"
-  summary: "Set the rule<wbr>Set<wbr>Type property: The type of the web application firewall rule set."
-  parameters:
-  - description: "the ruleSetType value to set."
-    name: "ruleSetType"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ApplicationGatewayFirewallRuleSetPropertiesFormat withRuleSetType(String ruleSetType)"
-  desc: "Set the ruleSetType property: The type of the web application firewall rule set."
-  returns:
-    description: "the ApplicationGatewayFirewallRuleSetPropertiesFormat object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat&text=ApplicationGatewayFirewallRuleSetPropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat.withRuleSetVersion(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat.withRuleSetVersion(String ruleSetVersion)"
-  name: "withRuleSetVersion(String ruleSetVersion)"
-  nameWithType: "ApplicationGatewayFirewallRuleSetPropertiesFormat.withRuleSetVersion(String ruleSetVersion)"
-  summary: "Set the rule<wbr>Set<wbr>Version property: The version of the web application firewall rule set type."
-  parameters:
-  - description: "the ruleSetVersion value to set."
-    name: "ruleSetVersion"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ApplicationGatewayFirewallRuleSetPropertiesFormat withRuleSetVersion(String ruleSetVersion)"
-  desc: "Set the ruleSetVersion property: The version of the web application firewall rule set type."
-  returns:
-    description: "the ApplicationGatewayFirewallRuleSetPropertiesFormat object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat&text=ApplicationGatewayFirewallRuleSetPropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat.withTiers(java.util.List<com.azure.resourcemanager.network.models.ApplicationGatewayTierTypes>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat.withTiers(List<ApplicationGatewayTierTypes> tiers)"
-  name: "withTiers(List<ApplicationGatewayTierTypes> tiers)"
-  nameWithType: "ApplicationGatewayFirewallRuleSetPropertiesFormat.withTiers(List<ApplicationGatewayTierTypes> tiers)"
-  summary: "Set the tiers property: Tier of an application gateway that support the rule set."
-  parameters:
-  - description: "the tiers value to set."
-    name: "tiers"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayTierTypes?alt=com.azure.resourcemanager.network.models.ApplicationGatewayTierTypes&text=ApplicationGatewayTierTypes\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public ApplicationGatewayFirewallRuleSetPropertiesFormat withTiers(List<ApplicationGatewayTierTypes> tiers)"
-  desc: "Set the tiers property: Tier of an application gateway that support the rule set."
-  returns:
-    description: "the ApplicationGatewayFirewallRuleSetPropertiesFormat object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat&text=ApplicationGatewayFirewallRuleSetPropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Properties of the web application firewall rule set."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayFirewallRuleSetPropertiesFormat&text=ApplicationGatewayFirewallRuleSetPropertiesFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

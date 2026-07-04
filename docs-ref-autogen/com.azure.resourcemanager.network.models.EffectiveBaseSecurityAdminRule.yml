@@ -27,7 +27,9 @@ constructors:
   name: "EffectiveBaseSecurityAdminRule()"
   nameWithType: "EffectiveBaseSecurityAdminRule.EffectiveBaseSecurityAdminRule()"
   summary: "Creates an instance of Effective<wbr>Base<wbr>Security<wbr>Admin<wbr>Rule class."
-  syntax: "public EffectiveBaseSecurityAdminRule()"
+  modifiers:
+  - "protected"
+  syntax: "protected EffectiveBaseSecurityAdminRule()"
   desc: "Creates an instance of EffectiveBaseSecurityAdminRule class."
 methods:
 - uid: "com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule.configurationDescription()"
@@ -128,80 +130,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule.withConfigurationDescription(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule.withConfigurationDescription(String configurationDescription)"
-  name: "withConfigurationDescription(String configurationDescription)"
-  nameWithType: "EffectiveBaseSecurityAdminRule.withConfigurationDescription(String configurationDescription)"
-  summary: "Set the configuration<wbr>Description property: A description of the security admin configuration."
-  parameters:
-  - description: "the configurationDescription value to set."
-    name: "configurationDescription"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public EffectiveBaseSecurityAdminRule withConfigurationDescription(String configurationDescription)"
-  desc: "Set the configurationDescription property: A description of the security admin configuration."
-  returns:
-    description: "the EffectiveBaseSecurityAdminRule object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule?alt=com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule&text=EffectiveBaseSecurityAdminRule\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule.withId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule.withId(String id)"
-  name: "withId(String id)"
-  nameWithType: "EffectiveBaseSecurityAdminRule.withId(String id)"
-  summary: "Set the id property: Resource ID."
-  parameters:
-  - description: "the id value to set."
-    name: "id"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public EffectiveBaseSecurityAdminRule withId(String id)"
-  desc: "Set the id property: Resource ID."
-  returns:
-    description: "the EffectiveBaseSecurityAdminRule object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule?alt=com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule&text=EffectiveBaseSecurityAdminRule\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule.withRuleCollectionAppliesToGroups(java.util.List<com.azure.resourcemanager.network.models.NetworkManagerSecurityGroupItem>)"
-  fullName: "com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule.withRuleCollectionAppliesToGroups(List<NetworkManagerSecurityGroupItem> ruleCollectionAppliesToGroups)"
-  name: "withRuleCollectionAppliesToGroups(List<NetworkManagerSecurityGroupItem> ruleCollectionAppliesToGroups)"
-  nameWithType: "EffectiveBaseSecurityAdminRule.withRuleCollectionAppliesToGroups(List<NetworkManagerSecurityGroupItem> ruleCollectionAppliesToGroups)"
-  summary: "Set the rule<wbr>Collection<wbr>Applies<wbr>ToGroups property: Groups for rule collection."
-  parameters:
-  - description: "the ruleCollectionAppliesToGroups value to set."
-    name: "ruleCollectionAppliesToGroups"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.NetworkManagerSecurityGroupItem?alt=com.azure.resourcemanager.network.models.NetworkManagerSecurityGroupItem&text=NetworkManagerSecurityGroupItem\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public EffectiveBaseSecurityAdminRule withRuleCollectionAppliesToGroups(List<NetworkManagerSecurityGroupItem> ruleCollectionAppliesToGroups)"
-  desc: "Set the ruleCollectionAppliesToGroups property: Groups for rule collection."
-  returns:
-    description: "the EffectiveBaseSecurityAdminRule object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule?alt=com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule&text=EffectiveBaseSecurityAdminRule\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule.withRuleCollectionDescription(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule.withRuleCollectionDescription(String ruleCollectionDescription)"
-  name: "withRuleCollectionDescription(String ruleCollectionDescription)"
-  nameWithType: "EffectiveBaseSecurityAdminRule.withRuleCollectionDescription(String ruleCollectionDescription)"
-  summary: "Set the rule<wbr>Collection<wbr>Description property: A description of the rule collection."
-  parameters:
-  - description: "the ruleCollectionDescription value to set."
-    name: "ruleCollectionDescription"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public EffectiveBaseSecurityAdminRule withRuleCollectionDescription(String ruleCollectionDescription)"
-  desc: "Set the ruleCollectionDescription property: A description of the rule collection."
-  returns:
-    description: "the EffectiveBaseSecurityAdminRule object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule?alt=com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule&text=EffectiveBaseSecurityAdminRule\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule.withRuleGroups(java.util.List<com.azure.resourcemanager.network.models.ConfigurationGroup>)"
-  fullName: "com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule.withRuleGroups(List<ConfigurationGroup> ruleGroups)"
-  name: "withRuleGroups(List<ConfigurationGroup> ruleGroups)"
-  nameWithType: "EffectiveBaseSecurityAdminRule.withRuleGroups(List<ConfigurationGroup> ruleGroups)"
-  summary: "Set the rule<wbr>Groups property: Effective configuration groups."
-  parameters:
-  - description: "the ruleGroups value to set."
-    name: "ruleGroups"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ConfigurationGroup?alt=com.azure.resourcemanager.network.models.ConfigurationGroup&text=ConfigurationGroup\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public EffectiveBaseSecurityAdminRule withRuleGroups(List<ConfigurationGroup> ruleGroups)"
-  desc: "Set the ruleGroups property: Effective configuration groups."
-  returns:
-    description: "the EffectiveBaseSecurityAdminRule object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule?alt=com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule&text=EffectiveBaseSecurityAdminRule\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Network base admin rule."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule?alt=com.azure.resourcemanager.network.models.EffectiveBaseSecurityAdminRule&text=EffectiveBaseSecurityAdminRule\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **NetworkConfigurationDiagnosticResult**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticResult?alt=com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticResult&text=NetworkConfigurationDiagnosticResult\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticResult.NetworkConfigurationDiagnosticResult()"
-  fullName: "com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticResult.NetworkConfigurationDiagnosticResult()"
-  name: "NetworkConfigurationDiagnosticResult()"
-  nameWithType: "NetworkConfigurationDiagnosticResult.NetworkConfigurationDiagnosticResult()"
-  summary: "Creates an instance of Network<wbr>Configuration<wbr>Diagnostic<wbr>Result class."
-  syntax: "public NetworkConfigurationDiagnosticResult()"
-  desc: "Creates an instance of NetworkConfigurationDiagnosticResult class."
 methods:
 - uid: "com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticResult.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticResult.fromJson(JsonReader jsonReader)"
@@ -88,38 +80,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticResult.withNetworkSecurityGroupResult(com.azure.resourcemanager.network.models.NetworkSecurityGroupResult)"
-  fullName: "com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticResult.withNetworkSecurityGroupResult(NetworkSecurityGroupResult networkSecurityGroupResult)"
-  name: "withNetworkSecurityGroupResult(NetworkSecurityGroupResult networkSecurityGroupResult)"
-  nameWithType: "NetworkConfigurationDiagnosticResult.withNetworkSecurityGroupResult(NetworkSecurityGroupResult networkSecurityGroupResult)"
-  summary: "Set the network<wbr>Security<wbr>Group<wbr>Result property: Network security group result."
-  parameters:
-  - description: "the networkSecurityGroupResult value to set."
-    name: "networkSecurityGroupResult"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.NetworkSecurityGroupResult?alt=com.azure.resourcemanager.network.models.NetworkSecurityGroupResult&text=NetworkSecurityGroupResult\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public NetworkConfigurationDiagnosticResult withNetworkSecurityGroupResult(NetworkSecurityGroupResult networkSecurityGroupResult)"
-  desc: "Set the networkSecurityGroupResult property: Network security group result."
-  returns:
-    description: "the NetworkConfigurationDiagnosticResult object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticResult?alt=com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticResult&text=NetworkConfigurationDiagnosticResult\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticResult.withProfile(com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticProfile)"
-  fullName: "com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticResult.withProfile(NetworkConfigurationDiagnosticProfile profile)"
-  name: "withProfile(NetworkConfigurationDiagnosticProfile profile)"
-  nameWithType: "NetworkConfigurationDiagnosticResult.withProfile(NetworkConfigurationDiagnosticProfile profile)"
-  summary: "Set the profile property: Network configuration diagnostic profile."
-  parameters:
-  - description: "the profile value to set."
-    name: "profile"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticProfile?alt=com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticProfile&text=NetworkConfigurationDiagnosticProfile\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public NetworkConfigurationDiagnosticResult withProfile(NetworkConfigurationDiagnosticProfile profile)"
-  desc: "Set the profile property: Network configuration diagnostic profile."
-  returns:
-    description: "the NetworkConfigurationDiagnosticResult object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticResult?alt=com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticResult&text=NetworkConfigurationDiagnosticResult\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Network configuration diagnostic result corresponded to provided traffic query."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticResult?alt=com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticResult&text=NetworkConfigurationDiagnosticResult\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

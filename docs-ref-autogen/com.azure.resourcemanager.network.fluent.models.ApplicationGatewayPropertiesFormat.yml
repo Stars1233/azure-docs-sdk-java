@@ -120,15 +120,15 @@ methods:
   returns:
     description: "the enableHttp2 value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPropertiesFormat.entraJwtValidationConfigs()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPropertiesFormat.entraJwtValidationConfigs()"
-  name: "entraJwtValidationConfigs()"
-  nameWithType: "ApplicationGatewayPropertiesFormat.entraJwtValidationConfigs()"
-  summary: "Get the entra<wbr>Jwt<wbr>Validation<wbr>Configs property: Entra JWT validation configurations for the application gateway resource."
-  syntax: "public List<ApplicationGatewayEntraJwtValidationConfig> entraJwtValidationConfigs()"
-  desc: "Get the entraJwtValidationConfigs property: Entra JWT validation configurations for the application gateway resource. For default limits, see \\[Application Gateway limits\\](https://docs.microsoft.com/azure/azure-subscription-service-limits\\#application-gateway-limits)."
+- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPropertiesFormat.entraJWTValidationConfigs()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPropertiesFormat.entraJWTValidationConfigs()"
+  name: "entraJWTValidationConfigs()"
+  nameWithType: "ApplicationGatewayPropertiesFormat.entraJWTValidationConfigs()"
+  summary: "Get the entra<wbr>JWTValidation<wbr>Configs property: Entra JWT validation configurations for the application gateway resource."
+  syntax: "public List<ApplicationGatewayEntraJwtValidationConfig> entraJWTValidationConfigs()"
+  desc: "Get the entraJWTValidationConfigs property: Entra JWT validation configurations for the application gateway resource. For default limits, see \\[Application Gateway limits\\](https://docs.microsoft.com/azure/azure-subscription-service-limits\\#application-gateway-limits)."
   returns:
-    description: "the entraJwtValidationConfigs value."
+    description: "the entraJWTValidationConfigs value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayEntraJwtValidationConfig?alt=com.azure.resourcemanager.network.models.ApplicationGatewayEntraJwtValidationConfig&text=ApplicationGatewayEntraJwtValidationConfig\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPropertiesFormat.firewallPolicy()"
   fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPropertiesFormat.firewallPolicy()"
@@ -550,17 +550,17 @@ methods:
   returns:
     description: "the ApplicationGatewayPropertiesFormat object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPropertiesFormat&text=ApplicationGatewayPropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPropertiesFormat.withEntraJwtValidationConfigs(java.util.List<com.azure.resourcemanager.network.models.ApplicationGatewayEntraJwtValidationConfig>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPropertiesFormat.withEntraJwtValidationConfigs(List<ApplicationGatewayEntraJwtValidationConfig> entraJwtValidationConfigs)"
-  name: "withEntraJwtValidationConfigs(List<ApplicationGatewayEntraJwtValidationConfig> entraJwtValidationConfigs)"
-  nameWithType: "ApplicationGatewayPropertiesFormat.withEntraJwtValidationConfigs(List<ApplicationGatewayEntraJwtValidationConfig> entraJwtValidationConfigs)"
-  summary: "Set the entra<wbr>Jwt<wbr>Validation<wbr>Configs property: Entra JWT validation configurations for the application gateway resource."
+- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPropertiesFormat.withEntraJWTValidationConfigs(java.util.List<com.azure.resourcemanager.network.models.ApplicationGatewayEntraJwtValidationConfig>)"
+  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPropertiesFormat.withEntraJWTValidationConfigs(List<ApplicationGatewayEntraJwtValidationConfig> entraJWTValidationConfigs)"
+  name: "withEntraJWTValidationConfigs(List<ApplicationGatewayEntraJwtValidationConfig> entraJWTValidationConfigs)"
+  nameWithType: "ApplicationGatewayPropertiesFormat.withEntraJWTValidationConfigs(List<ApplicationGatewayEntraJwtValidationConfig> entraJWTValidationConfigs)"
+  summary: "Set the entra<wbr>JWTValidation<wbr>Configs property: Entra JWT validation configurations for the application gateway resource."
   parameters:
-  - description: "the entraJwtValidationConfigs value to set."
-    name: "entraJwtValidationConfigs"
+  - description: "the entraJWTValidationConfigs value to set."
+    name: "entraJWTValidationConfigs"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayEntraJwtValidationConfig?alt=com.azure.resourcemanager.network.models.ApplicationGatewayEntraJwtValidationConfig&text=ApplicationGatewayEntraJwtValidationConfig\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public ApplicationGatewayPropertiesFormat withEntraJwtValidationConfigs(List<ApplicationGatewayEntraJwtValidationConfig> entraJwtValidationConfigs)"
-  desc: "Set the entraJwtValidationConfigs property: Entra JWT validation configurations for the application gateway resource. For default limits, see \\[Application Gateway limits\\](https://docs.microsoft.com/azure/azure-subscription-service-limits\\#application-gateway-limits)."
+  syntax: "public ApplicationGatewayPropertiesFormat withEntraJWTValidationConfigs(List<ApplicationGatewayEntraJwtValidationConfig> entraJWTValidationConfigs)"
+  desc: "Set the entraJWTValidationConfigs property: Entra JWT validation configurations for the application gateway resource. For default limits, see \\[Application Gateway limits\\](https://docs.microsoft.com/azure/azure-subscription-service-limits\\#application-gateway-limits)."
   returns:
     description: "the ApplicationGatewayPropertiesFormat object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPropertiesFormat&text=ApplicationGatewayPropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
@@ -892,4 +892,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayPropertiesFormat&text=ApplicationGatewayPropertiesFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

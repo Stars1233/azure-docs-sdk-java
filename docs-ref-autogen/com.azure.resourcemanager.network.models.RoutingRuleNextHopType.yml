@@ -42,62 +42,62 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.RoutingRuleNextHopType.INTERNET"
   name: "INTERNET"
   nameWithType: "RoutingRuleNextHopType.INTERNET"
-  summary: "Static value Internet for Routing<wbr>Rule<wbr>Next<wbr>Hop<wbr>Type."
+  summary: "Forward traffic to the Internet."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.RoutingRuleNextHopType?alt=com.azure.resourcemanager.network.models.RoutingRuleNextHopType&text=RoutingRuleNextHopType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RoutingRuleNextHopType INTERNET"
-  desc: "Static value Internet for RoutingRuleNextHopType."
+  desc: "Forward traffic to the Internet."
 - uid: "com.azure.resourcemanager.network.models.RoutingRuleNextHopType.NO_NEXT_HOP"
   fullName: "com.azure.resourcemanager.network.models.RoutingRuleNextHopType.NO_NEXT_HOP"
   name: "NO_NEXT_HOP"
   nameWithType: "RoutingRuleNextHopType.NO_NEXT_HOP"
-  summary: "Static value No<wbr>Next<wbr>Hop for Routing<wbr>Rule<wbr>Next<wbr>Hop<wbr>Type."
+  summary: "No next hop will be used."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.RoutingRuleNextHopType?alt=com.azure.resourcemanager.network.models.RoutingRuleNextHopType&text=RoutingRuleNextHopType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RoutingRuleNextHopType NO_NEXT_HOP"
-  desc: "Static value NoNextHop for RoutingRuleNextHopType."
+  desc: "No next hop will be used."
 - uid: "com.azure.resourcemanager.network.models.RoutingRuleNextHopType.VIRTUAL_APPLIANCE"
   fullName: "com.azure.resourcemanager.network.models.RoutingRuleNextHopType.VIRTUAL_APPLIANCE"
   name: "VIRTUAL_APPLIANCE"
   nameWithType: "RoutingRuleNextHopType.VIRTUAL_APPLIANCE"
-  summary: "Static value Virtual<wbr>Appliance for Routing<wbr>Rule<wbr>Next<wbr>Hop<wbr>Type."
+  summary: "Forward traffic to a specified virtual appliance IP address."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.RoutingRuleNextHopType?alt=com.azure.resourcemanager.network.models.RoutingRuleNextHopType&text=RoutingRuleNextHopType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RoutingRuleNextHopType VIRTUAL_APPLIANCE"
-  desc: "Static value VirtualAppliance for RoutingRuleNextHopType."
+  desc: "Forward traffic to a specified virtual appliance IP address."
 - uid: "com.azure.resourcemanager.network.models.RoutingRuleNextHopType.VIRTUAL_NETWORK_GATEWAY"
   fullName: "com.azure.resourcemanager.network.models.RoutingRuleNextHopType.VIRTUAL_NETWORK_GATEWAY"
   name: "VIRTUAL_NETWORK_GATEWAY"
   nameWithType: "RoutingRuleNextHopType.VIRTUAL_NETWORK_GATEWAY"
-  summary: "Static value Virtual<wbr>Network<wbr>Gateway for Routing<wbr>Rule<wbr>Next<wbr>Hop<wbr>Type."
+  summary: "Forward traffic to the virtual network gateway."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.RoutingRuleNextHopType?alt=com.azure.resourcemanager.network.models.RoutingRuleNextHopType&text=RoutingRuleNextHopType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RoutingRuleNextHopType VIRTUAL_NETWORK_GATEWAY"
-  desc: "Static value VirtualNetworkGateway for RoutingRuleNextHopType."
+  desc: "Forward traffic to the virtual network gateway."
 - uid: "com.azure.resourcemanager.network.models.RoutingRuleNextHopType.VNET_LOCAL"
   fullName: "com.azure.resourcemanager.network.models.RoutingRuleNextHopType.VNET_LOCAL"
   name: "VNET_LOCAL"
   nameWithType: "RoutingRuleNextHopType.VNET_LOCAL"
-  summary: "Static value Vnet<wbr>Local for Routing<wbr>Rule<wbr>Next<wbr>Hop<wbr>Type."
+  summary: "Keep traffic within the local virtual network."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.RoutingRuleNextHopType?alt=com.azure.resourcemanager.network.models.RoutingRuleNextHopType&text=RoutingRuleNextHopType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final RoutingRuleNextHopType VNET_LOCAL"
-  desc: "Static value VnetLocal for RoutingRuleNextHopType."
+  desc: "Keep traffic within the local virtual network."
 methods:
 - uid: "com.azure.resourcemanager.network.models.RoutingRuleNextHopType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.RoutingRuleNextHopType.fromString(String name)"
@@ -131,4 +131,4 @@ type: "class"
 desc: "Routing rule next hop type."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

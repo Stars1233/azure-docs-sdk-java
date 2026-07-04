@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.AddressPrefixType.IPPREFIX"
   name: "IPPREFIX"
   nameWithType: "AddressPrefixType.IPPREFIX"
-  summary: "Static value IPPrefix for Address<wbr>Prefix<wbr>Type."
+  summary: "IPPrefix."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AddressPrefixType?alt=com.azure.resourcemanager.network.models.AddressPrefixType&text=AddressPrefixType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AddressPrefixType IPPREFIX"
-  desc: "Static value IPPrefix for AddressPrefixType."
+  desc: "IPPrefix."
 - uid: "com.azure.resourcemanager.network.models.AddressPrefixType.NETWORK_GROUP"
   fullName: "com.azure.resourcemanager.network.models.AddressPrefixType.NETWORK_GROUP"
   name: "NETWORK_GROUP"
   nameWithType: "AddressPrefixType.NETWORK_GROUP"
-  summary: "Static value Network<wbr>Group for Address<wbr>Prefix<wbr>Type."
+  summary: "Network<wbr>Group."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AddressPrefixType?alt=com.azure.resourcemanager.network.models.AddressPrefixType&text=AddressPrefixType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AddressPrefixType NETWORK_GROUP"
-  desc: "Static value NetworkGroup for AddressPrefixType."
+  desc: "NetworkGroup."
 - uid: "com.azure.resourcemanager.network.models.AddressPrefixType.SERVICE_TAG"
   fullName: "com.azure.resourcemanager.network.models.AddressPrefixType.SERVICE_TAG"
   name: "SERVICE_TAG"
   nameWithType: "AddressPrefixType.SERVICE_TAG"
-  summary: "Static value Service<wbr>Tag for Address<wbr>Prefix<wbr>Type."
+  summary: "Service<wbr>Tag."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AddressPrefixType?alt=com.azure.resourcemanager.network.models.AddressPrefixType&text=AddressPrefixType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AddressPrefixType SERVICE_TAG"
-  desc: "Static value ServiceTag for AddressPrefixType."
+  desc: "ServiceTag."
 methods:
 - uid: "com.azure.resourcemanager.network.models.AddressPrefixType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.AddressPrefixType.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "Address prefix type."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

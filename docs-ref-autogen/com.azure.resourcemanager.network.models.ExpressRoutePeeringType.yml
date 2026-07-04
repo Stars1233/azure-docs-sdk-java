@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ExpressRoutePeeringType.AZURE_PRIVATE_PEERING"
   name: "AZURE_PRIVATE_PEERING"
   nameWithType: "ExpressRoutePeeringType.AZURE_PRIVATE_PEERING"
-  summary: "Static value Azure<wbr>Private<wbr>Peering for Express<wbr>Route<wbr>Peering<wbr>Type."
+  summary: "Azure<wbr>Private<wbr>Peering."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRoutePeeringType?alt=com.azure.resourcemanager.network.models.ExpressRoutePeeringType&text=ExpressRoutePeeringType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExpressRoutePeeringType AZURE_PRIVATE_PEERING"
-  desc: "Static value AzurePrivatePeering for ExpressRoutePeeringType."
+  desc: "AzurePrivatePeering."
 - uid: "com.azure.resourcemanager.network.models.ExpressRoutePeeringType.AZURE_PUBLIC_PEERING"
   fullName: "com.azure.resourcemanager.network.models.ExpressRoutePeeringType.AZURE_PUBLIC_PEERING"
   name: "AZURE_PUBLIC_PEERING"
   nameWithType: "ExpressRoutePeeringType.AZURE_PUBLIC_PEERING"
-  summary: "Static value Azure<wbr>Public<wbr>Peering for Express<wbr>Route<wbr>Peering<wbr>Type."
+  summary: "Azure<wbr>Public<wbr>Peering."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRoutePeeringType?alt=com.azure.resourcemanager.network.models.ExpressRoutePeeringType&text=ExpressRoutePeeringType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExpressRoutePeeringType AZURE_PUBLIC_PEERING"
-  desc: "Static value AzurePublicPeering for ExpressRoutePeeringType."
+  desc: "AzurePublicPeering."
 - uid: "com.azure.resourcemanager.network.models.ExpressRoutePeeringType.MICROSOFT_PEERING"
   fullName: "com.azure.resourcemanager.network.models.ExpressRoutePeeringType.MICROSOFT_PEERING"
   name: "MICROSOFT_PEERING"
   nameWithType: "ExpressRoutePeeringType.MICROSOFT_PEERING"
-  summary: "Static value Microsoft<wbr>Peering for Express<wbr>Route<wbr>Peering<wbr>Type."
+  summary: "Microsoft<wbr>Peering."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRoutePeeringType?alt=com.azure.resourcemanager.network.models.ExpressRoutePeeringType&text=ExpressRoutePeeringType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExpressRoutePeeringType MICROSOFT_PEERING"
-  desc: "Static value MicrosoftPeering for ExpressRoutePeeringType."
+  desc: "MicrosoftPeering."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ExpressRoutePeeringType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ExpressRoutePeeringType.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "The peering type."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

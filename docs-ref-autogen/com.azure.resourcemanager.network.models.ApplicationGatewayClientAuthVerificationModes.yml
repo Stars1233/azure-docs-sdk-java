@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayClientAuthVerificationModes.PASSTHROUGH"
   name: "PASSTHROUGH"
   nameWithType: "ApplicationGatewayClientAuthVerificationModes.PASSTHROUGH"
-  summary: "Static value Passthrough for Application<wbr>Gateway<wbr>Client<wbr>Auth<wbr>Verification<wbr>Modes."
+  summary: "Passthrough."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayClientAuthVerificationModes?alt=com.azure.resourcemanager.network.models.ApplicationGatewayClientAuthVerificationModes&text=ApplicationGatewayClientAuthVerificationModes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayClientAuthVerificationModes PASSTHROUGH"
-  desc: "Static value Passthrough for ApplicationGatewayClientAuthVerificationModes."
+  desc: "Passthrough."
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayClientAuthVerificationModes.STRICT"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayClientAuthVerificationModes.STRICT"
   name: "STRICT"
   nameWithType: "ApplicationGatewayClientAuthVerificationModes.STRICT"
-  summary: "Static value Strict for Application<wbr>Gateway<wbr>Client<wbr>Auth<wbr>Verification<wbr>Modes."
+  summary: "Strict."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayClientAuthVerificationModes?alt=com.azure.resourcemanager.network.models.ApplicationGatewayClientAuthVerificationModes&text=ApplicationGatewayClientAuthVerificationModes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ApplicationGatewayClientAuthVerificationModes STRICT"
-  desc: "Static value Strict for ApplicationGatewayClientAuthVerificationModes."
+  desc: "Strict."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ApplicationGatewayClientAuthVerificationModes.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayClientAuthVerificationModes.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Verify client Authentication mode."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

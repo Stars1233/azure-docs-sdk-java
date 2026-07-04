@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkEncryptionEnforcement.ALLOW_UNENCRYPTED"
   name: "ALLOW_UNENCRYPTED"
   nameWithType: "VirtualNetworkEncryptionEnforcement.ALLOW_UNENCRYPTED"
-  summary: "Static value Allow<wbr>Unencrypted for Virtual<wbr>Network<wbr>Encryption<wbr>Enforcement."
+  summary: "Allow<wbr>Unencrypted."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualNetworkEncryptionEnforcement?alt=com.azure.resourcemanager.network.models.VirtualNetworkEncryptionEnforcement&text=VirtualNetworkEncryptionEnforcement\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualNetworkEncryptionEnforcement ALLOW_UNENCRYPTED"
-  desc: "Static value AllowUnencrypted for VirtualNetworkEncryptionEnforcement."
+  desc: "AllowUnencrypted."
 - uid: "com.azure.resourcemanager.network.models.VirtualNetworkEncryptionEnforcement.DROP_UNENCRYPTED"
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkEncryptionEnforcement.DROP_UNENCRYPTED"
   name: "DROP_UNENCRYPTED"
   nameWithType: "VirtualNetworkEncryptionEnforcement.DROP_UNENCRYPTED"
-  summary: "Static value Drop<wbr>Unencrypted for Virtual<wbr>Network<wbr>Encryption<wbr>Enforcement."
+  summary: "Drop<wbr>Unencrypted."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualNetworkEncryptionEnforcement?alt=com.azure.resourcemanager.network.models.VirtualNetworkEncryptionEnforcement&text=VirtualNetworkEncryptionEnforcement\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualNetworkEncryptionEnforcement DROP_UNENCRYPTED"
-  desc: "Static value DropUnencrypted for VirtualNetworkEncryptionEnforcement."
+  desc: "DropUnencrypted."
 methods:
 - uid: "com.azure.resourcemanager.network.models.VirtualNetworkEncryptionEnforcement.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkEncryptionEnforcement.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "If the encrypted VNet allows VM that does not support encryption. This field is for future support, AllowUnencrypted is the only supported value at general availability."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

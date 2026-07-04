@@ -55,6 +55,16 @@ methods:
   returns:
     description: "the applicationSecurityGroups value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationSecurityGroupInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationSecurityGroupInner&text=ApplicationSecurityGroupInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.network.fluent.models.PrivateEndpointInner.billingSku()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.PrivateEndpointInner.billingSku()"
+  name: "billingSku()"
+  nameWithType: "PrivateEndpointInner.billingSku()"
+  summary: "Get the billing<wbr>Sku property: The billing sku of the private endpoint."
+  syntax: "public PrivateEndpointBillingSku billingSku()"
+  desc: "Get the billingSku property: The billing sku of the private endpoint."
+  returns:
+    description: "the billingSku value."
+    type: "<xref href=\"com.azure.resourcemanager.network.models.PrivateEndpointBillingSku?alt=com.azure.resourcemanager.network.models.PrivateEndpointBillingSku&text=PrivateEndpointBillingSku\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.PrivateEndpointInner.customDnsConfigs()"
   fullName: "com.azure.resourcemanager.network.fluent.models.PrivateEndpointInner.customDnsConfigs()"
   name: "customDnsConfigs()"
@@ -251,6 +261,20 @@ methods:
   returns:
     description: "the PrivateEndpointInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.PrivateEndpointInner?alt=com.azure.resourcemanager.network.fluent.models.PrivateEndpointInner&text=PrivateEndpointInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.models.PrivateEndpointInner.withBillingSku(com.azure.resourcemanager.network.models.PrivateEndpointBillingSku)"
+  fullName: "com.azure.resourcemanager.network.fluent.models.PrivateEndpointInner.withBillingSku(PrivateEndpointBillingSku billingSku)"
+  name: "withBillingSku(PrivateEndpointBillingSku billingSku)"
+  nameWithType: "PrivateEndpointInner.withBillingSku(PrivateEndpointBillingSku billingSku)"
+  summary: "Set the billing<wbr>Sku property: The billing sku of the private endpoint."
+  parameters:
+  - description: "the billingSku value to set."
+    name: "billingSku"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.PrivateEndpointBillingSku?alt=com.azure.resourcemanager.network.models.PrivateEndpointBillingSku&text=PrivateEndpointBillingSku\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public PrivateEndpointInner withBillingSku(PrivateEndpointBillingSku billingSku)"
+  desc: "Set the billingSku property: The billing sku of the private endpoint."
+  returns:
+    description: "the PrivateEndpointInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.PrivateEndpointInner?alt=com.azure.resourcemanager.network.fluent.models.PrivateEndpointInner&text=PrivateEndpointInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.PrivateEndpointInner.withCustomDnsConfigs(java.util.List<com.azure.resourcemanager.network.models.CustomDnsConfigPropertiesFormat>)"
   fullName: "com.azure.resourcemanager.network.fluent.models.PrivateEndpointInner.withCustomDnsConfigs(List<CustomDnsConfigPropertiesFormat> customDnsConfigs)"
   name: "withCustomDnsConfigs(List<CustomDnsConfigPropertiesFormat> customDnsConfigs)"
@@ -403,4 +427,4 @@ type: "class"
 desc: "Private endpoint resource."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.AdminState.DISABLED"
   name: "DISABLED"
   nameWithType: "AdminState.DISABLED"
-  summary: "Static value Disabled for Admin<wbr>State."
+  summary: "Disabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AdminState?alt=com.azure.resourcemanager.network.models.AdminState&text=AdminState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AdminState DISABLED"
-  desc: "Static value Disabled for AdminState."
+  desc: "Disabled."
 - uid: "com.azure.resourcemanager.network.models.AdminState.ENABLED"
   fullName: "com.azure.resourcemanager.network.models.AdminState.ENABLED"
   name: "ENABLED"
   nameWithType: "AdminState.ENABLED"
-  summary: "Static value Enabled for Admin<wbr>State."
+  summary: "Enabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AdminState?alt=com.azure.resourcemanager.network.models.AdminState&text=AdminState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AdminState ENABLED"
-  desc: "Static value Enabled for AdminState."
+  desc: "Enabled."
 methods:
 - uid: "com.azure.resourcemanager.network.models.AdminState.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.AdminState.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Property to indicate if the Express Route Gateway serves traffic when there are multiple Express Route Gateways in the vnet."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

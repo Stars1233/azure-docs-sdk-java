@@ -62,18 +62,6 @@ fields:
     type: "<xref href=\"com.azure.security.keyvault.keys.models.KeyOperation?alt=com.azure.security.keyvault.keys.models.KeyOperation&text=KeyOperation\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final KeyOperation ENCRYPT"
   desc: "Indicates that the key can be used to encrypt."
-- uid: "com.azure.security.keyvault.keys.models.KeyOperation.EXPORT"
-  fullName: "com.azure.security.keyvault.keys.models.KeyOperation.EXPORT"
-  name: "EXPORT"
-  nameWithType: "KeyOperation.EXPORT"
-  summary: "Indicates that the private component of the key can be exported."
-  modifiers:
-  - "static"
-  - "final"
-  field:
-    type: "<xref href=\"com.azure.security.keyvault.keys.models.KeyOperation?alt=com.azure.security.keyvault.keys.models.KeyOperation&text=KeyOperation\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static final KeyOperation EXPORT"
-  desc: "Indicates that the private component of the key can be exported."
 - uid: "com.azure.security.keyvault.keys.models.KeyOperation.IMPORT"
   fullName: "com.azure.security.keyvault.keys.models.KeyOperation.IMPORT"
   name: "IMPORT"
@@ -167,4 +155,4 @@ type: "class"
 desc: "JSON web key operations. For more information, see JsonWebKeyOperation."
 metadata: {}
 package: "com.azure.security.keyvault.keys.models"
-artifact: com.azure:azure-security-keyvault-keys:4.10.0-beta.1
+artifact: com.azure:azure-security-keyvault-keys:4.12.0-beta.1

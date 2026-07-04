@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.SensitivityType.HIGH"
   name: "HIGH"
   nameWithType: "SensitivityType.HIGH"
-  summary: "Static value High for Sensitivity<wbr>Type."
+  summary: "High."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.SensitivityType?alt=com.azure.resourcemanager.network.models.SensitivityType&text=SensitivityType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SensitivityType HIGH"
-  desc: "Static value High for SensitivityType."
+  desc: "High."
 - uid: "com.azure.resourcemanager.network.models.SensitivityType.LOW"
   fullName: "com.azure.resourcemanager.network.models.SensitivityType.LOW"
   name: "LOW"
   nameWithType: "SensitivityType.LOW"
-  summary: "Static value Low for Sensitivity<wbr>Type."
+  summary: "Low."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.SensitivityType?alt=com.azure.resourcemanager.network.models.SensitivityType&text=SensitivityType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SensitivityType LOW"
-  desc: "Static value Low for SensitivityType."
+  desc: "Low."
 - uid: "com.azure.resourcemanager.network.models.SensitivityType.MEDIUM"
   fullName: "com.azure.resourcemanager.network.models.SensitivityType.MEDIUM"
   name: "MEDIUM"
   nameWithType: "SensitivityType.MEDIUM"
-  summary: "Static value Medium for Sensitivity<wbr>Type."
+  summary: "Medium."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.SensitivityType?alt=com.azure.resourcemanager.network.models.SensitivityType&text=SensitivityType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SensitivityType MEDIUM"
-  desc: "Static value Medium for SensitivityType."
+  desc: "Medium."
 methods:
 - uid: "com.azure.resourcemanager.network.models.SensitivityType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.SensitivityType.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "Defines the sensitivity for the rule."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

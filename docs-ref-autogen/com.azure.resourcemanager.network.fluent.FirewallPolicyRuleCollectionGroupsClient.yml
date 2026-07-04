@@ -14,13 +14,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Firewall Policy."
     name: "firewallPolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the FirewallPolicyRuleCollectionGroup."
+  - description: "The name of the resource that is unique within a resource group. This name can be\n used to access the resource."
     name: "ruleCollectionGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the create or update FirewallPolicyRuleCollectionGroup operation."
@@ -39,13 +39,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Firewall Policy."
     name: "firewallPolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the FirewallPolicyRuleCollectionGroup."
+  - description: "The name of the resource that is unique within a resource group. This name can be\n used to access the resource."
     name: "ruleCollectionGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the create or update FirewallPolicyRuleCollectionGroup operation."
@@ -67,13 +67,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Firewall Policy."
     name: "firewallPolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the FirewallPolicyRuleCollectionGroup."
+  - description: "The name of the resource that is unique within a resource group. This name can be\n used to access the resource."
     name: "ruleCollectionGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the create or update FirewallPolicyRuleCollectionGroup operation."
@@ -92,13 +92,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Firewall Policy."
     name: "firewallPolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the FirewallPolicyRuleCollectionGroup."
+  - description: "The name of the resource that is unique within a resource group. This name can be\n used to access the resource."
     name: "ruleCollectionGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDelete(String resourceGroupName, String firewallPolicyName, String ruleCollectionGroupName)"
@@ -114,13 +114,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Firewall Policy."
     name: "firewallPolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the FirewallPolicyRuleCollectionGroup."
+  - description: "The name of the resource that is unique within a resource group. This name can be\n used to access the resource."
     name: "ruleCollectionGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -139,13 +139,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Firewall Policy."
     name: "firewallPolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the FirewallPolicyRuleCollectionGroup."
+  - description: "The name of the resource that is unique within a resource group. This name can be\n used to access the resource."
     name: "ruleCollectionGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PollerFlux<PollResult<Void>,Void> beginDeleteAsync(String resourceGroupName, String firewallPolicyName, String ruleCollectionGroupName)"
@@ -161,13 +161,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Firewall Policy."
     name: "firewallPolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the FirewallPolicyRuleCollectionGroup."
+  - description: "The name of the resource that is unique within a resource group. This name can be\n used to access the resource."
     name: "ruleCollectionGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the create or update FirewallPolicyRuleCollectionGroup operation."
@@ -186,13 +186,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Firewall Policy."
     name: "firewallPolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the FirewallPolicyRuleCollectionGroup."
+  - description: "The name of the resource that is unique within a resource group. This name can be\n used to access the resource."
     name: "ruleCollectionGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the create or update FirewallPolicyRuleCollectionGroup operation."
@@ -214,13 +214,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Firewall Policy."
     name: "firewallPolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the FirewallPolicyRuleCollectionGroup."
+  - description: "The name of the resource that is unique within a resource group. This name can be\n used to access the resource."
     name: "ruleCollectionGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the create or update FirewallPolicyRuleCollectionGroup operation."
@@ -239,13 +239,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Firewall Policy."
     name: "firewallPolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the FirewallPolicyRuleCollectionGroup."
+  - description: "The name of the resource that is unique within a resource group. This name can be\n used to access the resource."
     name: "ruleCollectionGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Parameters supplied to the create or update FirewallPolicyRuleCollectionGroup operation."
@@ -264,13 +264,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Firewall Policy."
     name: "firewallPolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the FirewallPolicyRuleCollectionGroup."
+  - description: "The name of the resource that is unique within a resource group. This name can be\n used to access the resource."
     name: "ruleCollectionGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void delete(String resourceGroupName, String firewallPolicyName, String ruleCollectionGroupName)"
@@ -283,13 +283,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Firewall Policy."
     name: "firewallPolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the FirewallPolicyRuleCollectionGroup."
+  - description: "The name of the resource that is unique within a resource group. This name can be\n used to access the resource."
     name: "ruleCollectionGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -305,13 +305,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Firewall Policy."
     name: "firewallPolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the FirewallPolicyRuleCollectionGroup."
+  - description: "The name of the resource that is unique within a resource group. This name can be\n used to access the resource."
     name: "ruleCollectionGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<Void> deleteAsync(String resourceGroupName, String firewallPolicyName, String ruleCollectionGroupName)"
@@ -327,13 +327,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Firewall Policy."
     name: "firewallPolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the FirewallPolicyRuleCollectionGroup."
+  - description: "The name of the resource that is unique within a resource group. This name can be\n used to access the resource."
     name: "ruleCollectionGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> deleteWithResponseAsync(String resourceGroupName, String firewallPolicyName, String ruleCollectionGroupName)"
@@ -349,13 +349,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Firewall Policy."
     name: "firewallPolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the FirewallPolicyRuleCollectionGroup."
+  - description: "The name of the resource that is unique within a resource group. This name can be\n used to access the resource."
     name: "ruleCollectionGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract FirewallPolicyRuleCollectionGroupInner get(String resourceGroupName, String firewallPolicyName, String ruleCollectionGroupName)"
@@ -371,13 +371,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Firewall Policy."
     name: "firewallPolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the FirewallPolicyRuleCollectionGroup."
+  - description: "The name of the resource that is unique within a resource group. This name can be\n used to access the resource."
     name: "ruleCollectionGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<FirewallPolicyRuleCollectionGroupInner> getAsync(String resourceGroupName, String firewallPolicyName, String ruleCollectionGroupName)"
@@ -393,13 +393,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Firewall Policy."
     name: "firewallPolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the FirewallPolicyRuleCollectionGroup."
+  - description: "The name of the resource that is unique within a resource group. This name can be\n used to access the resource."
     name: "ruleCollectionGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -418,13 +418,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Firewall Policy."
     name: "firewallPolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the FirewallPolicyRuleCollectionGroup."
+  - description: "The name of the resource that is unique within a resource group. This name can be\n used to access the resource."
     name: "ruleCollectionGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<Response<FirewallPolicyRuleCollectionGroupInner>> getWithResponseAsync(String resourceGroupName, String firewallPolicyName, String ruleCollectionGroupName)"
@@ -440,7 +440,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Firewall Policy."
@@ -449,7 +449,7 @@ methods:
   syntax: "public abstract PagedIterable<FirewallPolicyRuleCollectionGroupInner> list(String resourceGroupName, String firewallPolicyName)"
   desc: "Lists all FirewallPolicyRuleCollectionGroups in a FirewallPolicy resource."
   returns:
-    description: "response for ListFirewallPolicyRuleCollectionGroups API service call as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "the response of a FirewallPolicyRuleCollectionGroup list operation as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.FirewallPolicyRuleCollectionGroupInner?alt=com.azure.resourcemanager.network.fluent.models.FirewallPolicyRuleCollectionGroupInner&text=FirewallPolicyRuleCollectionGroupInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.FirewallPolicyRuleCollectionGroupsClient.list(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.network.fluent.FirewallPolicyRuleCollectionGroupsClient.list(String resourceGroupName, String firewallPolicyName, Context context)"
@@ -459,7 +459,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Firewall Policy."
@@ -471,7 +471,7 @@ methods:
   syntax: "public abstract PagedIterable<FirewallPolicyRuleCollectionGroupInner> list(String resourceGroupName, String firewallPolicyName, Context context)"
   desc: "Lists all FirewallPolicyRuleCollectionGroups in a FirewallPolicy resource."
   returns:
-    description: "response for ListFirewallPolicyRuleCollectionGroups API service call as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "the response of a FirewallPolicyRuleCollectionGroup list operation as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.FirewallPolicyRuleCollectionGroupInner?alt=com.azure.resourcemanager.network.fluent.models.FirewallPolicyRuleCollectionGroupInner&text=FirewallPolicyRuleCollectionGroupInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.FirewallPolicyRuleCollectionGroupsClient.listAsync(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.network.fluent.FirewallPolicyRuleCollectionGroupsClient.listAsync(String resourceGroupName, String firewallPolicyName)"
@@ -481,7 +481,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the Firewall Policy."
@@ -490,10 +490,10 @@ methods:
   syntax: "public abstract PagedFlux<FirewallPolicyRuleCollectionGroupInner> listAsync(String resourceGroupName, String firewallPolicyName)"
   desc: "Lists all FirewallPolicyRuleCollectionGroups in a FirewallPolicy resource."
   returns:
-    description: "response for ListFirewallPolicyRuleCollectionGroups API service call as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
+    description: "the response of a FirewallPolicyRuleCollectionGroup list operation as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.FirewallPolicyRuleCollectionGroupInner?alt=com.azure.resourcemanager.network.fluent.models.FirewallPolicyRuleCollectionGroupInner&text=FirewallPolicyRuleCollectionGroupInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 desc: "An instance of this class provides access to all the operations defined in FirewallPolicyRuleCollectionGroupsClient."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

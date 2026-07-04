@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **CircuitMetadataMap**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.CircuitMetadataMap?alt=com.azure.resourcemanager.network.models.CircuitMetadataMap&text=CircuitMetadataMap\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.models.CircuitMetadataMap.CircuitMetadataMap()"
-  fullName: "com.azure.resourcemanager.network.models.CircuitMetadataMap.CircuitMetadataMap()"
-  name: "CircuitMetadataMap()"
-  nameWithType: "CircuitMetadataMap.CircuitMetadataMap()"
-  summary: "Creates an instance of Circuit<wbr>Metadata<wbr>Map class."
-  syntax: "public CircuitMetadataMap()"
-  desc: "Creates an instance of CircuitMetadataMap class."
 methods:
 - uid: "com.azure.resourcemanager.network.models.CircuitMetadataMap.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.models.CircuitMetadataMap.fromJson(JsonReader jsonReader)"
@@ -98,52 +90,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.models.CircuitMetadataMap.withLink(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.CircuitMetadataMap.withLink(String link)"
-  name: "withLink(String link)"
-  nameWithType: "CircuitMetadataMap.withLink(String link)"
-  summary: "Set the link property: Link to the Express Route circuit."
-  parameters:
-  - description: "the link value to set."
-    name: "link"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public CircuitMetadataMap withLink(String link)"
-  desc: "Set the link property: Link to the Express Route circuit."
-  returns:
-    description: "the CircuitMetadataMap object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.CircuitMetadataMap?alt=com.azure.resourcemanager.network.models.CircuitMetadataMap&text=CircuitMetadataMap\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.CircuitMetadataMap.withLocation(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.CircuitMetadataMap.withLocation(String location)"
-  name: "withLocation(String location)"
-  nameWithType: "CircuitMetadataMap.withLocation(String location)"
-  summary: "Set the location property: Peering location of the Express Route Circuit."
-  parameters:
-  - description: "the location value to set."
-    name: "location"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public CircuitMetadataMap withLocation(String location)"
-  desc: "Set the location property: Peering location of the Express Route Circuit."
-  returns:
-    description: "the CircuitMetadataMap object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.CircuitMetadataMap?alt=com.azure.resourcemanager.network.models.CircuitMetadataMap&text=CircuitMetadataMap\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.CircuitMetadataMap.withName(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.CircuitMetadataMap.withName(String name)"
-  name: "withName(String name)"
-  nameWithType: "CircuitMetadataMap.withName(String name)"
-  summary: "Set the name property: Express Route Circuit Name."
-  parameters:
-  - description: "the name value to set."
-    name: "name"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public CircuitMetadataMap withName(String name)"
-  desc: "Set the name property: Express Route Circuit Name."
-  returns:
-    description: "the CircuitMetadataMap object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.CircuitMetadataMap?alt=com.azure.resourcemanager.network.models.CircuitMetadataMap&text=CircuitMetadataMap\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The CircuitMetadataMap model."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.CircuitMetadataMap?alt=com.azure.resourcemanager.network.models.CircuitMetadataMap&text=CircuitMetadataMap\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -42,50 +42,50 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.TransportProtocol.ALL"
   name: "ALL"
   nameWithType: "TransportProtocol.ALL"
-  summary: "Static value All for Transport<wbr>Protocol."
+  summary: "All."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.TransportProtocol?alt=com.azure.resourcemanager.network.models.TransportProtocol&text=TransportProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final TransportProtocol ALL"
-  desc: "Static value All for TransportProtocol."
+  desc: "All."
 - uid: "com.azure.resourcemanager.network.models.TransportProtocol.QUIC"
   fullName: "com.azure.resourcemanager.network.models.TransportProtocol.QUIC"
   name: "QUIC"
   nameWithType: "TransportProtocol.QUIC"
-  summary: "Static value Quic for Transport<wbr>Protocol."
+  summary: "Quic."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.TransportProtocol?alt=com.azure.resourcemanager.network.models.TransportProtocol&text=TransportProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final TransportProtocol QUIC"
-  desc: "Static value Quic for TransportProtocol."
+  desc: "Quic."
 - uid: "com.azure.resourcemanager.network.models.TransportProtocol.TCP"
   fullName: "com.azure.resourcemanager.network.models.TransportProtocol.TCP"
   name: "TCP"
   nameWithType: "TransportProtocol.TCP"
-  summary: "Static value Tcp for Transport<wbr>Protocol."
+  summary: "Tcp."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.TransportProtocol?alt=com.azure.resourcemanager.network.models.TransportProtocol&text=TransportProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final TransportProtocol TCP"
-  desc: "Static value Tcp for TransportProtocol."
+  desc: "Tcp."
 - uid: "com.azure.resourcemanager.network.models.TransportProtocol.UDP"
   fullName: "com.azure.resourcemanager.network.models.TransportProtocol.UDP"
   name: "UDP"
   nameWithType: "TransportProtocol.UDP"
-  summary: "Static value Udp for Transport<wbr>Protocol."
+  summary: "Udp."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.TransportProtocol?alt=com.azure.resourcemanager.network.models.TransportProtocol&text=TransportProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final TransportProtocol UDP"
-  desc: "Static value Udp for TransportProtocol."
+  desc: "Udp."
 methods:
 - uid: "com.azure.resourcemanager.network.models.TransportProtocol.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.TransportProtocol.fromString(String name)"
@@ -119,4 +119,4 @@ type: "class"
 desc: "The transport protocol for the endpoint."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

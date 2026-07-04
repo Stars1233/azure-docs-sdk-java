@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.AuthorizationUseStatus.AVAILABLE"
   name: "AVAILABLE"
   nameWithType: "AuthorizationUseStatus.AVAILABLE"
-  summary: "Static value Available for Authorization<wbr>Use<wbr>Status."
+  summary: "Available."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AuthorizationUseStatus?alt=com.azure.resourcemanager.network.models.AuthorizationUseStatus&text=AuthorizationUseStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AuthorizationUseStatus AVAILABLE"
-  desc: "Static value Available for AuthorizationUseStatus."
+  desc: "Available."
 - uid: "com.azure.resourcemanager.network.models.AuthorizationUseStatus.IN_USE"
   fullName: "com.azure.resourcemanager.network.models.AuthorizationUseStatus.IN_USE"
   name: "IN_USE"
   nameWithType: "AuthorizationUseStatus.IN_USE"
-  summary: "Static value In<wbr>Use for Authorization<wbr>Use<wbr>Status."
+  summary: "In<wbr>Use."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AuthorizationUseStatus?alt=com.azure.resourcemanager.network.models.AuthorizationUseStatus&text=AuthorizationUseStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AuthorizationUseStatus IN_USE"
-  desc: "Static value InUse for AuthorizationUseStatus."
+  desc: "InUse."
 methods:
 - uid: "com.azure.resourcemanager.network.models.AuthorizationUseStatus.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.AuthorizationUseStatus.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The authorization use status."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

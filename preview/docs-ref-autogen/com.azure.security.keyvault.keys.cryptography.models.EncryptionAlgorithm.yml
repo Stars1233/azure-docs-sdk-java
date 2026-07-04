@@ -91,13 +91,15 @@ fields:
   name: "A128KW"
   nameWithType: "EncryptionAlgorithm.A128KW"
   summary: "128-bit AES key wrap."
+  deprecatedTag: "This value is not supported for encrypt/decrypt operations. For key wrapping/unwrapping, use <xref uid=\"com.azure.security.keyvault.keys.cryptography.models.KeyWrapAlgorithm.A128KW\" data-throw-if-not-resolved=\"false\" data-raw-source=\"KeyWrapAlgorithm#A128KW\"></xref> in <xref uid=\"com.azure.security.keyvault.keys.cryptography.models.KeyWrapAlgorithm\" data-throw-if-not-resolved=\"false\" data-raw-source=\"KeyWrapAlgorithm\"></xref> instead."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm?alt=com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm&text=EncryptionAlgorithm\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static final EncryptionAlgorithm A128KW"
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public static final EncryptionAlgorithm A128KW"
   desc: "128-bit AES key wrap."
+  hasDeprecatedTag: true
 - uid: "com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm.A192CBC"
   fullName: "com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm.A192CBC"
   name: "A192CBC"
@@ -151,13 +153,15 @@ fields:
   name: "A192KW"
   nameWithType: "EncryptionAlgorithm.A192KW"
   summary: "192-bit AES key wrap."
+  deprecatedTag: "This value is not supported for encrypt/decrypt operations. For key wrapping/unwrapping, use <xref uid=\"com.azure.security.keyvault.keys.cryptography.models.KeyWrapAlgorithm.A192KW\" data-throw-if-not-resolved=\"false\" data-raw-source=\"KeyWrapAlgorithm#A192KW\"></xref> in <xref uid=\"com.azure.security.keyvault.keys.cryptography.models.KeyWrapAlgorithm\" data-throw-if-not-resolved=\"false\" data-raw-source=\"KeyWrapAlgorithm\"></xref> instead."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm?alt=com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm&text=EncryptionAlgorithm\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static final EncryptionAlgorithm A192KW"
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public static final EncryptionAlgorithm A192KW"
   desc: "192-bit AES key wrap."
+  hasDeprecatedTag: true
 - uid: "com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm.A256CBC"
   fullName: "com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm.A256CBC"
   name: "A256CBC"
@@ -211,37 +215,15 @@ fields:
   name: "A256KW"
   nameWithType: "EncryptionAlgorithm.A256KW"
   summary: "256-bit AES key wrap."
+  deprecatedTag: "This value is not supported for encrypt/decrypt operations. For key wrapping/unwrapping, use <xref uid=\"com.azure.security.keyvault.keys.cryptography.models.KeyWrapAlgorithm.A256KW\" data-throw-if-not-resolved=\"false\" data-raw-source=\"KeyWrapAlgorithm#A256KW\"></xref> in <xref uid=\"com.azure.security.keyvault.keys.cryptography.models.KeyWrapAlgorithm\" data-throw-if-not-resolved=\"false\" data-raw-source=\"KeyWrapAlgorithm\"></xref> instead."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm?alt=com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm&text=EncryptionAlgorithm\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static final EncryptionAlgorithm A256KW"
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public static final EncryptionAlgorithm A256KW"
   desc: "256-bit AES key wrap."
-- uid: "com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm.CKM_AES_KEY_WRAP"
-  fullName: "com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm.CKM_AES_KEY_WRAP"
-  name: "CKM_AES_KEY_WRAP"
-  nameWithType: "EncryptionAlgorithm.CKM_AES_KEY_WRAP"
-  summary: "CKM AES key wrap."
-  modifiers:
-  - "static"
-  - "final"
-  field:
-    type: "<xref href=\"com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm?alt=com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm&text=EncryptionAlgorithm\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static final EncryptionAlgorithm CKM_AES_KEY_WRAP"
-  desc: "CKM AES key wrap."
-- uid: "com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm.CKM_AES_KEY_WRAP_PAD"
-  fullName: "com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm.CKM_AES_KEY_WRAP_PAD"
-  name: "CKM_AES_KEY_WRAP_PAD"
-  nameWithType: "EncryptionAlgorithm.CKM_AES_KEY_WRAP_PAD"
-  summary: "CKM AES key wrap with padding."
-  modifiers:
-  - "static"
-  - "final"
-  field:
-    type: "<xref href=\"com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm?alt=com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm&text=EncryptionAlgorithm\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static final EncryptionAlgorithm CKM_AES_KEY_WRAP_PAD"
-  desc: "CKM AES key wrap with padding."
+  hasDeprecatedTag: true
 - uid: "com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm.RSA1_5"
   fullName: "com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm.RSA1_5"
   name: "RSA1_5"
@@ -311,4 +293,4 @@ type: "class"
 desc: "Defines values for EncryptionAlgorithm."
 metadata: {}
 package: "com.azure.security.keyvault.keys.cryptography.models"
-artifact: com.azure:azure-security-keyvault-keys:4.10.0-beta.1
+artifact: com.azure:azure-security-keyvault-keys:4.12.0-beta.1

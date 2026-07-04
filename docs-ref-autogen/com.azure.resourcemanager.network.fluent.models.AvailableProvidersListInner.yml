@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **AvailableProvidersListInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.AvailableProvidersListInner?alt=com.azure.resourcemanager.network.fluent.models.AvailableProvidersListInner&text=AvailableProvidersListInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.AvailableProvidersListInner.AvailableProvidersListInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.AvailableProvidersListInner.AvailableProvidersListInner()"
-  name: "AvailableProvidersListInner()"
-  nameWithType: "AvailableProvidersListInner.AvailableProvidersListInner()"
-  summary: "Creates an instance of Available<wbr>Providers<wbr>List<wbr>Inner class."
-  syntax: "public AvailableProvidersListInner()"
-  desc: "Creates an instance of AvailableProvidersListInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.AvailableProvidersListInner.countries()"
   fullName: "com.azure.resourcemanager.network.fluent.models.AvailableProvidersListInner.countries()"
@@ -78,24 +70,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.AvailableProvidersListInner.withCountries(java.util.List<com.azure.resourcemanager.network.models.AvailableProvidersListCountry>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.AvailableProvidersListInner.withCountries(List<AvailableProvidersListCountry> countries)"
-  name: "withCountries(List<AvailableProvidersListCountry> countries)"
-  nameWithType: "AvailableProvidersListInner.withCountries(List<AvailableProvidersListCountry> countries)"
-  summary: "Set the countries property: List of available countries."
-  parameters:
-  - description: "the countries value to set."
-    name: "countries"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.AvailableProvidersListCountry?alt=com.azure.resourcemanager.network.models.AvailableProvidersListCountry&text=AvailableProvidersListCountry\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public AvailableProvidersListInner withCountries(List<AvailableProvidersListCountry> countries)"
-  desc: "Set the countries property: List of available countries."
-  returns:
-    description: "the AvailableProvidersListInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.AvailableProvidersListInner?alt=com.azure.resourcemanager.network.fluent.models.AvailableProvidersListInner&text=AvailableProvidersListInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "List of available countries with details."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.AvailableProvidersListInner?alt=com.azure.resourcemanager.network.fluent.models.AvailableProvidersListInner&text=AvailableProvidersListInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

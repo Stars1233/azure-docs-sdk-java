@@ -42,50 +42,50 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.NvaNicType.ADDITIONAL_PRIVATE_NIC"
   name: "ADDITIONAL_PRIVATE_NIC"
   nameWithType: "NvaNicType.ADDITIONAL_PRIVATE_NIC"
-  summary: "Static value Additional<wbr>Private<wbr>Nic for Nva<wbr>Nic<wbr>Type."
+  summary: "An additional private NIC type."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.NvaNicType?alt=com.azure.resourcemanager.network.models.NvaNicType&text=NvaNicType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NvaNicType ADDITIONAL_PRIVATE_NIC"
-  desc: "Static value AdditionalPrivateNic for NvaNicType."
+  desc: "An additional private NIC type."
 - uid: "com.azure.resourcemanager.network.models.NvaNicType.ADDITIONAL_PUBLIC_NIC"
   fullName: "com.azure.resourcemanager.network.models.NvaNicType.ADDITIONAL_PUBLIC_NIC"
   name: "ADDITIONAL_PUBLIC_NIC"
   nameWithType: "NvaNicType.ADDITIONAL_PUBLIC_NIC"
-  summary: "Static value Additional<wbr>Public<wbr>Nic for Nva<wbr>Nic<wbr>Type."
+  summary: "An additional public NIC type."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.NvaNicType?alt=com.azure.resourcemanager.network.models.NvaNicType&text=NvaNicType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NvaNicType ADDITIONAL_PUBLIC_NIC"
-  desc: "Static value AdditionalPublicNic for NvaNicType."
+  desc: "An additional public NIC type."
 - uid: "com.azure.resourcemanager.network.models.NvaNicType.PRIVATE_NIC"
   fullName: "com.azure.resourcemanager.network.models.NvaNicType.PRIVATE_NIC"
   name: "PRIVATE_NIC"
   nameWithType: "NvaNicType.PRIVATE_NIC"
-  summary: "Static value Private<wbr>Nic for Nva<wbr>Nic<wbr>Type."
+  summary: "The private NIC type."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.NvaNicType?alt=com.azure.resourcemanager.network.models.NvaNicType&text=NvaNicType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NvaNicType PRIVATE_NIC"
-  desc: "Static value PrivateNic for NvaNicType."
+  desc: "The private NIC type."
 - uid: "com.azure.resourcemanager.network.models.NvaNicType.PUBLIC_NIC"
   fullName: "com.azure.resourcemanager.network.models.NvaNicType.PUBLIC_NIC"
   name: "PUBLIC_NIC"
   nameWithType: "NvaNicType.PUBLIC_NIC"
-  summary: "Static value Public<wbr>Nic for Nva<wbr>Nic<wbr>Type."
+  summary: "The public NIC type."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.NvaNicType?alt=com.azure.resourcemanager.network.models.NvaNicType&text=NvaNicType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NvaNicType PUBLIC_NIC"
-  desc: "Static value PublicNic for NvaNicType."
+  desc: "The public NIC type."
 methods:
 - uid: "com.azure.resourcemanager.network.models.NvaNicType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.NvaNicType.fromString(String name)"
@@ -119,4 +119,4 @@ type: "class"
 desc: "Defines values for NvaNicType."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

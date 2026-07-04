@@ -42,50 +42,50 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ConnectionStatus.CONNECTED"
   name: "CONNECTED"
   nameWithType: "ConnectionStatus.CONNECTED"
-  summary: "Static value Connected for Connection<wbr>Status."
+  summary: "Connected."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ConnectionStatus?alt=com.azure.resourcemanager.network.models.ConnectionStatus&text=ConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ConnectionStatus CONNECTED"
-  desc: "Static value Connected for ConnectionStatus."
+  desc: "Connected."
 - uid: "com.azure.resourcemanager.network.models.ConnectionStatus.DEGRADED"
   fullName: "com.azure.resourcemanager.network.models.ConnectionStatus.DEGRADED"
   name: "DEGRADED"
   nameWithType: "ConnectionStatus.DEGRADED"
-  summary: "Static value Degraded for Connection<wbr>Status."
+  summary: "Degraded."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ConnectionStatus?alt=com.azure.resourcemanager.network.models.ConnectionStatus&text=ConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ConnectionStatus DEGRADED"
-  desc: "Static value Degraded for ConnectionStatus."
+  desc: "Degraded."
 - uid: "com.azure.resourcemanager.network.models.ConnectionStatus.DISCONNECTED"
   fullName: "com.azure.resourcemanager.network.models.ConnectionStatus.DISCONNECTED"
   name: "DISCONNECTED"
   nameWithType: "ConnectionStatus.DISCONNECTED"
-  summary: "Static value Disconnected for Connection<wbr>Status."
+  summary: "Disconnected."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ConnectionStatus?alt=com.azure.resourcemanager.network.models.ConnectionStatus&text=ConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ConnectionStatus DISCONNECTED"
-  desc: "Static value Disconnected for ConnectionStatus."
+  desc: "Disconnected."
 - uid: "com.azure.resourcemanager.network.models.ConnectionStatus.UNKNOWN"
   fullName: "com.azure.resourcemanager.network.models.ConnectionStatus.UNKNOWN"
   name: "UNKNOWN"
   nameWithType: "ConnectionStatus.UNKNOWN"
-  summary: "Static value Unknown for Connection<wbr>Status."
+  summary: "Unknown."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ConnectionStatus?alt=com.azure.resourcemanager.network.models.ConnectionStatus&text=ConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ConnectionStatus UNKNOWN"
-  desc: "Static value Unknown for ConnectionStatus."
+  desc: "Unknown."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ConnectionStatus.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ConnectionStatus.fromString(String name)"
@@ -119,4 +119,4 @@ type: "class"
 desc: "The connection status."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

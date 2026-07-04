@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelInterfaceType.EXTERNAL"
   name: "EXTERNAL"
   nameWithType: "GatewayLoadBalancerTunnelInterfaceType.EXTERNAL"
-  summary: "Static value External for Gateway<wbr>Load<wbr>Balancer<wbr>Tunnel<wbr>Interface<wbr>Type."
+  summary: "External."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelInterfaceType?alt=com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelInterfaceType&text=GatewayLoadBalancerTunnelInterfaceType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final GatewayLoadBalancerTunnelInterfaceType EXTERNAL"
-  desc: "Static value External for GatewayLoadBalancerTunnelInterfaceType."
+  desc: "External."
 - uid: "com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelInterfaceType.INTERNAL"
   fullName: "com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelInterfaceType.INTERNAL"
   name: "INTERNAL"
   nameWithType: "GatewayLoadBalancerTunnelInterfaceType.INTERNAL"
-  summary: "Static value Internal for Gateway<wbr>Load<wbr>Balancer<wbr>Tunnel<wbr>Interface<wbr>Type."
+  summary: "Internal."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelInterfaceType?alt=com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelInterfaceType&text=GatewayLoadBalancerTunnelInterfaceType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final GatewayLoadBalancerTunnelInterfaceType INTERNAL"
-  desc: "Static value Internal for GatewayLoadBalancerTunnelInterfaceType."
+  desc: "Internal."
 - uid: "com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelInterfaceType.NONE"
   fullName: "com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelInterfaceType.NONE"
   name: "NONE"
   nameWithType: "GatewayLoadBalancerTunnelInterfaceType.NONE"
-  summary: "Static value None for Gateway<wbr>Load<wbr>Balancer<wbr>Tunnel<wbr>Interface<wbr>Type."
+  summary: "None."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelInterfaceType?alt=com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelInterfaceType&text=GatewayLoadBalancerTunnelInterfaceType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final GatewayLoadBalancerTunnelInterfaceType NONE"
-  desc: "Static value None for GatewayLoadBalancerTunnelInterfaceType."
+  desc: "None."
 methods:
 - uid: "com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelInterfaceType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.GatewayLoadBalancerTunnelInterfaceType.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "Traffic type of gateway load balancer tunnel interface."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

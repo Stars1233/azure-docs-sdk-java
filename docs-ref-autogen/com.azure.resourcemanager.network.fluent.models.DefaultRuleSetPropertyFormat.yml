@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **DefaultRuleSetPropertyFormat**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.DefaultRuleSetPropertyFormat?alt=com.azure.resourcemanager.network.fluent.models.DefaultRuleSetPropertyFormat&text=DefaultRuleSetPropertyFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.DefaultRuleSetPropertyFormat.DefaultRuleSetPropertyFormat()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.DefaultRuleSetPropertyFormat.DefaultRuleSetPropertyFormat()"
-  name: "DefaultRuleSetPropertyFormat()"
-  nameWithType: "DefaultRuleSetPropertyFormat.DefaultRuleSetPropertyFormat()"
-  summary: "Creates an instance of Default<wbr>Rule<wbr>Set<wbr>Property<wbr>Format class."
-  syntax: "public DefaultRuleSetPropertyFormat()"
-  desc: "Creates an instance of DefaultRuleSetPropertyFormat class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.DefaultRuleSetPropertyFormat.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.DefaultRuleSetPropertyFormat.fromJson(JsonReader jsonReader)"
@@ -88,38 +80,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.DefaultRuleSetPropertyFormat.withRuleSetType(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.DefaultRuleSetPropertyFormat.withRuleSetType(String ruleSetType)"
-  name: "withRuleSetType(String ruleSetType)"
-  nameWithType: "DefaultRuleSetPropertyFormat.withRuleSetType(String ruleSetType)"
-  summary: "Set the rule<wbr>Set<wbr>Type property: The type of the web application firewall rule set."
-  parameters:
-  - description: "the ruleSetType value to set."
-    name: "ruleSetType"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public DefaultRuleSetPropertyFormat withRuleSetType(String ruleSetType)"
-  desc: "Set the ruleSetType property: The type of the web application firewall rule set."
-  returns:
-    description: "the DefaultRuleSetPropertyFormat object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.DefaultRuleSetPropertyFormat?alt=com.azure.resourcemanager.network.fluent.models.DefaultRuleSetPropertyFormat&text=DefaultRuleSetPropertyFormat\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.DefaultRuleSetPropertyFormat.withRuleSetVersion(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.DefaultRuleSetPropertyFormat.withRuleSetVersion(String ruleSetVersion)"
-  name: "withRuleSetVersion(String ruleSetVersion)"
-  nameWithType: "DefaultRuleSetPropertyFormat.withRuleSetVersion(String ruleSetVersion)"
-  summary: "Set the rule<wbr>Set<wbr>Version property: The version of the web application firewall rule set type."
-  parameters:
-  - description: "the ruleSetVersion value to set."
-    name: "ruleSetVersion"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public DefaultRuleSetPropertyFormat withRuleSetVersion(String ruleSetVersion)"
-  desc: "Set the ruleSetVersion property: The version of the web application firewall rule set type."
-  returns:
-    description: "the DefaultRuleSetPropertyFormat object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.DefaultRuleSetPropertyFormat?alt=com.azure.resourcemanager.network.fluent.models.DefaultRuleSetPropertyFormat&text=DefaultRuleSetPropertyFormat\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "the default web application firewall rule set."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.DefaultRuleSetPropertyFormat?alt=com.azure.resourcemanager.network.fluent.models.DefaultRuleSetPropertyFormat&text=DefaultRuleSetPropertyFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

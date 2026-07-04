@@ -97,10 +97,10 @@ methods:
   fullName: "com.azure.resourcemanager.network.fluent.models.ReachabilityAnalysisRunInner.systemData()"
   name: "systemData()"
   nameWithType: "ReachabilityAnalysisRunInner.systemData()"
-  summary: "Get the system<wbr>Data property: Azure Resource Manager metadata containing created<wbr>By and modified<wbr>By information."
+  summary: "Get the system<wbr>Data property: The system metadata related to this resource."
   overridden: "com.azure.resourcemanager.network.models.CommonProxyResource.systemData()"
   syntax: "public SystemData systemData()"
-  desc: "Get the systemData property: Azure Resource Manager metadata containing createdBy and modifiedBy information."
+  desc: "Get the systemData property: The system metadata related to this resource."
   returns:
     description: "the systemData value."
     type: "<xref href=\"com.azure.core.management.SystemData?alt=com.azure.core.management.SystemData&text=SystemData\" data-throw-if-not-resolved=\"False\" />"
@@ -154,4 +154,4 @@ type: "class"
 desc: "Configuration information for analysis run."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

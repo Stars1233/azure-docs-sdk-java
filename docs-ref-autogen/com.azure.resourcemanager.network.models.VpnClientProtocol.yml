@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.VpnClientProtocol.IKE_V2"
   name: "IKE_V2"
   nameWithType: "VpnClientProtocol.IKE_V2"
-  summary: "Static value IkeV2 for Vpn<wbr>Client<wbr>Protocol."
+  summary: "IkeV2."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VpnClientProtocol?alt=com.azure.resourcemanager.network.models.VpnClientProtocol&text=VpnClientProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VpnClientProtocol IKE_V2"
-  desc: "Static value IkeV2 for VpnClientProtocol."
+  desc: "IkeV2."
 - uid: "com.azure.resourcemanager.network.models.VpnClientProtocol.OPEN_VPN"
   fullName: "com.azure.resourcemanager.network.models.VpnClientProtocol.OPEN_VPN"
   name: "OPEN_VPN"
   nameWithType: "VpnClientProtocol.OPEN_VPN"
-  summary: "Static value OpenVPN for Vpn<wbr>Client<wbr>Protocol."
+  summary: "OpenVPN."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VpnClientProtocol?alt=com.azure.resourcemanager.network.models.VpnClientProtocol&text=VpnClientProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VpnClientProtocol OPEN_VPN"
-  desc: "Static value OpenVPN for VpnClientProtocol."
+  desc: "OpenVPN."
 - uid: "com.azure.resourcemanager.network.models.VpnClientProtocol.SSTP"
   fullName: "com.azure.resourcemanager.network.models.VpnClientProtocol.SSTP"
   name: "SSTP"
   nameWithType: "VpnClientProtocol.SSTP"
-  summary: "Static value SSTP for Vpn<wbr>Client<wbr>Protocol."
+  summary: "SSTP."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VpnClientProtocol?alt=com.azure.resourcemanager.network.models.VpnClientProtocol&text=VpnClientProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VpnClientProtocol SSTP"
-  desc: "Static value SSTP for VpnClientProtocol."
+  desc: "SSTP."
 methods:
 - uid: "com.azure.resourcemanager.network.models.VpnClientProtocol.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.VpnClientProtocol.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "VPN client protocol enabled for the virtual network gateway."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

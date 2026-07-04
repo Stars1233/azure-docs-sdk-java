@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **NetworkManagerDeploymentStatusListResultInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkManagerDeploymentStatusListResultInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkManagerDeploymentStatusListResultInner&text=NetworkManagerDeploymentStatusListResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.NetworkManagerDeploymentStatusListResultInner.NetworkManagerDeploymentStatusListResultInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NetworkManagerDeploymentStatusListResultInner.NetworkManagerDeploymentStatusListResultInner()"
-  name: "NetworkManagerDeploymentStatusListResultInner()"
-  nameWithType: "NetworkManagerDeploymentStatusListResultInner.NetworkManagerDeploymentStatusListResultInner()"
-  summary: "Creates an instance of Network<wbr>Manager<wbr>Deployment<wbr>Status<wbr>List<wbr>Result<wbr>Inner class."
-  syntax: "public NetworkManagerDeploymentStatusListResultInner()"
-  desc: "Creates an instance of NetworkManagerDeploymentStatusListResultInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.NetworkManagerDeploymentStatusListResultInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.fluent.models.NetworkManagerDeploymentStatusListResultInner.fromJson(JsonReader jsonReader)"
@@ -88,38 +80,10 @@ methods:
   returns:
     description: "the value value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.NetworkManagerDeploymentStatus?alt=com.azure.resourcemanager.network.models.NetworkManagerDeploymentStatus&text=NetworkManagerDeploymentStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.network.fluent.models.NetworkManagerDeploymentStatusListResultInner.withSkipToken(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NetworkManagerDeploymentStatusListResultInner.withSkipToken(String skipToken)"
-  name: "withSkipToken(String skipToken)"
-  nameWithType: "NetworkManagerDeploymentStatusListResultInner.withSkipToken(String skipToken)"
-  summary: "Set the skip<wbr>Token property: When present, the value can be passed to a subsequent query call (together with the same query and scopes used in the current request) to retrieve the next page of data."
-  parameters:
-  - description: "the skipToken value to set."
-    name: "skipToken"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public NetworkManagerDeploymentStatusListResultInner withSkipToken(String skipToken)"
-  desc: "Set the skipToken property: When present, the value can be passed to a subsequent query call (together with the same query and scopes used in the current request) to retrieve the next page of data."
-  returns:
-    description: "the NetworkManagerDeploymentStatusListResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkManagerDeploymentStatusListResultInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkManagerDeploymentStatusListResultInner&text=NetworkManagerDeploymentStatusListResultInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.NetworkManagerDeploymentStatusListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.models.NetworkManagerDeploymentStatus>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NetworkManagerDeploymentStatusListResultInner.withValue(List<NetworkManagerDeploymentStatus> value)"
-  name: "withValue(List<NetworkManagerDeploymentStatus> value)"
-  nameWithType: "NetworkManagerDeploymentStatusListResultInner.withValue(List<NetworkManagerDeploymentStatus> value)"
-  summary: "Set the value property: Gets a page of Network Manager Deployment Status."
-  parameters:
-  - description: "the value value to set."
-    name: "value"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.NetworkManagerDeploymentStatus?alt=com.azure.resourcemanager.network.models.NetworkManagerDeploymentStatus&text=NetworkManagerDeploymentStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public NetworkManagerDeploymentStatusListResultInner withValue(List<NetworkManagerDeploymentStatus> value)"
-  desc: "Set the value property: Gets a page of Network Manager Deployment Status."
-  returns:
-    description: "the NetworkManagerDeploymentStatusListResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkManagerDeploymentStatusListResultInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkManagerDeploymentStatusListResultInner&text=NetworkManagerDeploymentStatusListResultInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "A list of Network Manager Deployment Status."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkManagerDeploymentStatusListResultInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkManagerDeploymentStatusListResultInner&text=NetworkManagerDeploymentStatusListResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

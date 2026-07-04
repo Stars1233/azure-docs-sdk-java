@@ -42,50 +42,50 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.NetworkProtocol.ANY"
   name: "ANY"
   nameWithType: "NetworkProtocol.ANY"
-  summary: "Static value Any for Network<wbr>Protocol."
+  summary: "Any."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.NetworkProtocol?alt=com.azure.resourcemanager.network.models.NetworkProtocol&text=NetworkProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NetworkProtocol ANY"
-  desc: "Static value Any for NetworkProtocol."
+  desc: "Any."
 - uid: "com.azure.resourcemanager.network.models.NetworkProtocol.ICMP"
   fullName: "com.azure.resourcemanager.network.models.NetworkProtocol.ICMP"
   name: "ICMP"
   nameWithType: "NetworkProtocol.ICMP"
-  summary: "Static value ICMP for Network<wbr>Protocol."
+  summary: "ICMP."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.NetworkProtocol?alt=com.azure.resourcemanager.network.models.NetworkProtocol&text=NetworkProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NetworkProtocol ICMP"
-  desc: "Static value ICMP for NetworkProtocol."
+  desc: "ICMP."
 - uid: "com.azure.resourcemanager.network.models.NetworkProtocol.TCP"
   fullName: "com.azure.resourcemanager.network.models.NetworkProtocol.TCP"
   name: "TCP"
   nameWithType: "NetworkProtocol.TCP"
-  summary: "Static value TCP for Network<wbr>Protocol."
+  summary: "TCP."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.NetworkProtocol?alt=com.azure.resourcemanager.network.models.NetworkProtocol&text=NetworkProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NetworkProtocol TCP"
-  desc: "Static value TCP for NetworkProtocol."
+  desc: "TCP."
 - uid: "com.azure.resourcemanager.network.models.NetworkProtocol.UDP"
   fullName: "com.azure.resourcemanager.network.models.NetworkProtocol.UDP"
   name: "UDP"
   nameWithType: "NetworkProtocol.UDP"
-  summary: "Static value UDP for Network<wbr>Protocol."
+  summary: "UDP."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.NetworkProtocol?alt=com.azure.resourcemanager.network.models.NetworkProtocol&text=NetworkProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final NetworkProtocol UDP"
-  desc: "Static value UDP for NetworkProtocol."
+  desc: "UDP."
 methods:
 - uid: "com.azure.resourcemanager.network.models.NetworkProtocol.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.NetworkProtocol.fromString(String name)"
@@ -119,4 +119,4 @@ type: "class"
 desc: "Network Protocol."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

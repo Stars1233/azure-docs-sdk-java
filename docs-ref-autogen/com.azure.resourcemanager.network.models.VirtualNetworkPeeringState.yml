@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkPeeringState.CONNECTED"
   name: "CONNECTED"
   nameWithType: "VirtualNetworkPeeringState.CONNECTED"
-  summary: "Static value Connected for Virtual<wbr>Network<wbr>Peering<wbr>State."
+  summary: "Connected."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualNetworkPeeringState?alt=com.azure.resourcemanager.network.models.VirtualNetworkPeeringState&text=VirtualNetworkPeeringState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualNetworkPeeringState CONNECTED"
-  desc: "Static value Connected for VirtualNetworkPeeringState."
+  desc: "Connected."
 - uid: "com.azure.resourcemanager.network.models.VirtualNetworkPeeringState.DISCONNECTED"
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkPeeringState.DISCONNECTED"
   name: "DISCONNECTED"
   nameWithType: "VirtualNetworkPeeringState.DISCONNECTED"
-  summary: "Static value Disconnected for Virtual<wbr>Network<wbr>Peering<wbr>State."
+  summary: "Disconnected."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualNetworkPeeringState?alt=com.azure.resourcemanager.network.models.VirtualNetworkPeeringState&text=VirtualNetworkPeeringState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualNetworkPeeringState DISCONNECTED"
-  desc: "Static value Disconnected for VirtualNetworkPeeringState."
+  desc: "Disconnected."
 - uid: "com.azure.resourcemanager.network.models.VirtualNetworkPeeringState.INITIATED"
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkPeeringState.INITIATED"
   name: "INITIATED"
   nameWithType: "VirtualNetworkPeeringState.INITIATED"
-  summary: "Static value Initiated for Virtual<wbr>Network<wbr>Peering<wbr>State."
+  summary: "Initiated."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.VirtualNetworkPeeringState?alt=com.azure.resourcemanager.network.models.VirtualNetworkPeeringState&text=VirtualNetworkPeeringState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final VirtualNetworkPeeringState INITIATED"
-  desc: "Static value Initiated for VirtualNetworkPeeringState."
+  desc: "Initiated."
 methods:
 - uid: "com.azure.resourcemanager.network.models.VirtualNetworkPeeringState.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.VirtualNetworkPeeringState.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "The status of the virtual network peering."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

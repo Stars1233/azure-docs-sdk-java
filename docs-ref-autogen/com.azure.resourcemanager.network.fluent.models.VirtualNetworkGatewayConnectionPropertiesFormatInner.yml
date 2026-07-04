@@ -259,6 +259,16 @@ methods:
   returns:
     description: "the resourceGuid value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionPropertiesFormatInner.routingConfiguration()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionPropertiesFormatInner.routingConfiguration()"
+  name: "routingConfiguration()"
+  nameWithType: "VirtualNetworkGatewayConnectionPropertiesFormatInner.routingConfiguration()"
+  summary: "Get the routing<wbr>Configuration property: The routing configuration indicating the associated and propagated route tables for this connection."
+  syntax: "public RoutingConfiguration routingConfiguration()"
+  desc: "Get the routingConfiguration property: The routing configuration indicating the associated and propagated route tables for this connection."
+  returns:
+    description: "the routingConfiguration value."
+    type: "<xref href=\"com.azure.resourcemanager.network.models.RoutingConfiguration?alt=com.azure.resourcemanager.network.models.RoutingConfiguration&text=RoutingConfiguration\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionPropertiesFormatInner.routingWeight()"
   fullName: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionPropertiesFormatInner.routingWeight()"
   name: "routingWeight()"
@@ -592,6 +602,20 @@ methods:
   returns:
     description: "the VirtualNetworkGatewayConnectionPropertiesFormatInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionPropertiesFormatInner?alt=com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionPropertiesFormatInner&text=VirtualNetworkGatewayConnectionPropertiesFormatInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionPropertiesFormatInner.withRoutingConfiguration(com.azure.resourcemanager.network.models.RoutingConfiguration)"
+  fullName: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionPropertiesFormatInner.withRoutingConfiguration(RoutingConfiguration routingConfiguration)"
+  name: "withRoutingConfiguration(RoutingConfiguration routingConfiguration)"
+  nameWithType: "VirtualNetworkGatewayConnectionPropertiesFormatInner.withRoutingConfiguration(RoutingConfiguration routingConfiguration)"
+  summary: "Set the routing<wbr>Configuration property: The routing configuration indicating the associated and propagated route tables for this connection."
+  parameters:
+  - description: "the routingConfiguration value to set."
+    name: "routingConfiguration"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.RoutingConfiguration?alt=com.azure.resourcemanager.network.models.RoutingConfiguration&text=RoutingConfiguration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public VirtualNetworkGatewayConnectionPropertiesFormatInner withRoutingConfiguration(RoutingConfiguration routingConfiguration)"
+  desc: "Set the routingConfiguration property: The routing configuration indicating the associated and propagated route tables for this connection."
+  returns:
+    description: "the VirtualNetworkGatewayConnectionPropertiesFormatInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionPropertiesFormatInner?alt=com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionPropertiesFormatInner&text=VirtualNetworkGatewayConnectionPropertiesFormatInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionPropertiesFormatInner.withRoutingWeight(java.lang.Integer)"
   fullName: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionPropertiesFormatInner.withRoutingWeight(Integer routingWeight)"
   name: "withRoutingWeight(Integer routingWeight)"
@@ -710,4 +734,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionPropertiesFormatInner?alt=com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionPropertiesFormatInner&text=VirtualNetworkGatewayConnectionPropertiesFormatInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

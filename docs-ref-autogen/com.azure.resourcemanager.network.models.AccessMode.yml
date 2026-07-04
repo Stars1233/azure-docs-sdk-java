@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.AccessMode.DEFAULT"
   name: "DEFAULT"
   nameWithType: "AccessMode.DEFAULT"
-  summary: "Static value Default for Access<wbr>Mode."
+  summary: "Allows unrestricted access to the private link service."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AccessMode?alt=com.azure.resourcemanager.network.models.AccessMode&text=AccessMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AccessMode DEFAULT"
-  desc: "Static value Default for AccessMode."
+  desc: "Allows unrestricted access to the private link service."
 - uid: "com.azure.resourcemanager.network.models.AccessMode.RESTRICTED"
   fullName: "com.azure.resourcemanager.network.models.AccessMode.RESTRICTED"
   name: "RESTRICTED"
   nameWithType: "AccessMode.RESTRICTED"
-  summary: "Static value Restricted for Access<wbr>Mode."
+  summary: "Limits access to subscriptions which are inside visibility list only."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.AccessMode?alt=com.azure.resourcemanager.network.models.AccessMode&text=AccessMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final AccessMode RESTRICTED"
-  desc: "Static value Restricted for AccessMode."
+  desc: "Limits access to subscriptions which are inside visibility list only."
 methods:
 - uid: "com.azure.resourcemanager.network.models.AccessMode.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.AccessMode.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The access mode of the private link service."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

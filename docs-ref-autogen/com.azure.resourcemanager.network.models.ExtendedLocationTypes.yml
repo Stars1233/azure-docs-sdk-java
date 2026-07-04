@@ -42,14 +42,14 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ExtendedLocationTypes.EDGE_ZONE"
   name: "EDGE_ZONE"
   nameWithType: "ExtendedLocationTypes.EDGE_ZONE"
-  summary: "Static value Edge<wbr>Zone for Extended<wbr>Location<wbr>Types."
+  summary: "Edge<wbr>Zone."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExtendedLocationTypes?alt=com.azure.resourcemanager.network.models.ExtendedLocationTypes&text=ExtendedLocationTypes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExtendedLocationTypes EDGE_ZONE"
-  desc: "Static value EdgeZone for ExtendedLocationTypes."
+  desc: "EdgeZone."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ExtendedLocationTypes.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ExtendedLocationTypes.fromString(String name)"
@@ -83,4 +83,4 @@ type: "class"
 desc: "The supported ExtendedLocation types. Currently only EdgeZone is supported in Microsoft.Network resources."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

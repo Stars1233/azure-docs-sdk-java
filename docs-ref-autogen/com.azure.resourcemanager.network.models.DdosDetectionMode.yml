@@ -42,14 +42,14 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.DdosDetectionMode.TRAFFIC_THRESHOLD"
   name: "TRAFFIC_THRESHOLD"
   nameWithType: "DdosDetectionMode.TRAFFIC_THRESHOLD"
-  summary: "Static value Traffic<wbr>Threshold for Ddos<wbr>Detection<wbr>Mode."
+  summary: "Traffic<wbr>Threshold."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.DdosDetectionMode?alt=com.azure.resourcemanager.network.models.DdosDetectionMode&text=DdosDetectionMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DdosDetectionMode TRAFFIC_THRESHOLD"
-  desc: "Static value TrafficThreshold for DdosDetectionMode."
+  desc: "TrafficThreshold."
 methods:
 - uid: "com.azure.resourcemanager.network.models.DdosDetectionMode.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.DdosDetectionMode.fromString(String name)"
@@ -83,4 +83,4 @@ type: "class"
 desc: "The detection mode for the DDoS detection rule."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

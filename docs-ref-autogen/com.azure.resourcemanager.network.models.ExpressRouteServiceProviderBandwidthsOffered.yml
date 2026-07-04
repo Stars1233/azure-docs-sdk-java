@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ExpressRouteServiceProviderBandwidthsOffered**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteServiceProviderBandwidthsOffered?alt=com.azure.resourcemanager.network.models.ExpressRouteServiceProviderBandwidthsOffered&text=ExpressRouteServiceProviderBandwidthsOffered\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.models.ExpressRouteServiceProviderBandwidthsOffered.ExpressRouteServiceProviderBandwidthsOffered()"
-  fullName: "com.azure.resourcemanager.network.models.ExpressRouteServiceProviderBandwidthsOffered.ExpressRouteServiceProviderBandwidthsOffered()"
-  name: "ExpressRouteServiceProviderBandwidthsOffered()"
-  nameWithType: "ExpressRouteServiceProviderBandwidthsOffered.ExpressRouteServiceProviderBandwidthsOffered()"
-  summary: "Creates an instance of Express<wbr>Route<wbr>Service<wbr>Provider<wbr>Bandwidths<wbr>Offered class."
-  syntax: "public ExpressRouteServiceProviderBandwidthsOffered()"
-  desc: "Creates an instance of ExpressRouteServiceProviderBandwidthsOffered class."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ExpressRouteServiceProviderBandwidthsOffered.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.models.ExpressRouteServiceProviderBandwidthsOffered.fromJson(JsonReader jsonReader)"
@@ -88,38 +80,10 @@ methods:
   returns:
     description: "the valueInMbps value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-- uid: "com.azure.resourcemanager.network.models.ExpressRouteServiceProviderBandwidthsOffered.withOfferName(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.ExpressRouteServiceProviderBandwidthsOffered.withOfferName(String offerName)"
-  name: "withOfferName(String offerName)"
-  nameWithType: "ExpressRouteServiceProviderBandwidthsOffered.withOfferName(String offerName)"
-  summary: "Set the offer<wbr>Name property: The Offer<wbr>Name."
-  parameters:
-  - description: "the offerName value to set."
-    name: "offerName"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ExpressRouteServiceProviderBandwidthsOffered withOfferName(String offerName)"
-  desc: "Set the offerName property: The OfferName."
-  returns:
-    description: "the ExpressRouteServiceProviderBandwidthsOffered object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteServiceProviderBandwidthsOffered?alt=com.azure.resourcemanager.network.models.ExpressRouteServiceProviderBandwidthsOffered&text=ExpressRouteServiceProviderBandwidthsOffered\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.ExpressRouteServiceProviderBandwidthsOffered.withValueInMbps(java.lang.Integer)"
-  fullName: "com.azure.resourcemanager.network.models.ExpressRouteServiceProviderBandwidthsOffered.withValueInMbps(Integer valueInMbps)"
-  name: "withValueInMbps(Integer valueInMbps)"
-  nameWithType: "ExpressRouteServiceProviderBandwidthsOffered.withValueInMbps(Integer valueInMbps)"
-  summary: "Set the value<wbr>InMbps property: The Value<wbr>InMbps."
-  parameters:
-  - description: "the valueInMbps value to set."
-    name: "valueInMbps"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-  syntax: "public ExpressRouteServiceProviderBandwidthsOffered withValueInMbps(Integer valueInMbps)"
-  desc: "Set the valueInMbps property: The ValueInMbps."
-  returns:
-    description: "the ExpressRouteServiceProviderBandwidthsOffered object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteServiceProviderBandwidthsOffered?alt=com.azure.resourcemanager.network.models.ExpressRouteServiceProviderBandwidthsOffered&text=ExpressRouteServiceProviderBandwidthsOffered\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Contains bandwidths offered in ExpressRouteServiceProvider resources."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteServiceProviderBandwidthsOffered?alt=com.azure.resourcemanager.network.models.ExpressRouteServiceProviderBandwidthsOffered&text=ExpressRouteServiceProviderBandwidthsOffered\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

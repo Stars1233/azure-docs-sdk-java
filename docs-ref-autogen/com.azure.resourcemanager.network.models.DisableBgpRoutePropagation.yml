@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.DisableBgpRoutePropagation.FALSE"
   name: "FALSE"
   nameWithType: "DisableBgpRoutePropagation.FALSE"
-  summary: "Static value False for Disable<wbr>Bgp<wbr>Route<wbr>Propagation."
+  summary: "BGP route propagation is enabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.DisableBgpRoutePropagation?alt=com.azure.resourcemanager.network.models.DisableBgpRoutePropagation&text=DisableBgpRoutePropagation\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DisableBgpRoutePropagation FALSE"
-  desc: "Static value False for DisableBgpRoutePropagation."
+  desc: "BGP route propagation is enabled."
 - uid: "com.azure.resourcemanager.network.models.DisableBgpRoutePropagation.TRUE"
   fullName: "com.azure.resourcemanager.network.models.DisableBgpRoutePropagation.TRUE"
   name: "TRUE"
   nameWithType: "DisableBgpRoutePropagation.TRUE"
-  summary: "Static value True for Disable<wbr>Bgp<wbr>Route<wbr>Propagation."
+  summary: "BGP route propagation is disabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.DisableBgpRoutePropagation?alt=com.azure.resourcemanager.network.models.DisableBgpRoutePropagation&text=DisableBgpRoutePropagation\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final DisableBgpRoutePropagation TRUE"
-  desc: "Static value True for DisableBgpRoutePropagation."
+  desc: "BGP route propagation is disabled."
 methods:
 - uid: "com.azure.resourcemanager.network.models.DisableBgpRoutePropagation.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.DisableBgpRoutePropagation.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Determines whether BGP route propagation is enabled. Defaults to true."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

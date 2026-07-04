@@ -6,7 +6,14 @@ nameWithType: "ApplicationGatewayWafDynamicManifestResultInner"
 summary: "Response for Application<wbr>Gateway<wbr>Waf<wbr>Dynamic<wbr>Manifest API service call."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.SubResource?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.management.SubResource.fromJson(com.azure.json.JsonReader)?alt=com.azure.core.management.SubResource.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.management.SubResource.id()?alt=com.azure.core.management.SubResource.id&text=id\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.management.SubResource.toJson(com.azure.json.JsonWriter)?alt=com.azure.core.management.SubResource.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.management.SubResource.withId(java.lang.String)?alt=com.azure.core.management.SubResource.withId&text=withId\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -20,15 +27,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **ApplicationGatewayWafDynamicManifestResultInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner&text=ApplicationGatewayWafDynamicManifestResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner.ApplicationGatewayWafDynamicManifestResultInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner.ApplicationGatewayWafDynamicManifestResultInner()"
-  name: "ApplicationGatewayWafDynamicManifestResultInner()"
-  nameWithType: "ApplicationGatewayWafDynamicManifestResultInner.ApplicationGatewayWafDynamicManifestResultInner()"
-  summary: "Creates an instance of Application<wbr>Gateway<wbr>Waf<wbr>Dynamic<wbr>Manifest<wbr>Result<wbr>Inner class."
-  syntax: "public ApplicationGatewayWafDynamicManifestResultInner()"
-  desc: "Creates an instance of ApplicationGatewayWafDynamicManifestResultInner class."
+syntax: "public final class **ApplicationGatewayWafDynamicManifestResultInner**</br> extends <xref href=\"com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource\" data-throw-if-not-resolved=\"False\" />"
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner.availableRuleSets()"
   fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner.availableRuleSets()"
@@ -59,16 +58,6 @@ methods:
   returns:
     description: "An instance of ApplicationGatewayWafDynamicManifestResultInner if the JsonReader was pointing to an\n instance of it, or null if it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner&text=ApplicationGatewayWafDynamicManifestResultInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner.id()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner.id()"
-  name: "id()"
-  nameWithType: "ApplicationGatewayWafDynamicManifestResultInner.id()"
-  summary: "Get the id property: Resource ID."
-  syntax: "public String id()"
-  desc: "Get the id property: Resource ID."
-  returns:
-    description: "the id value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner.name()"
   fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner.name()"
   name: "name()"
@@ -103,6 +92,7 @@ methods:
   fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
   nameWithType: "ApplicationGatewayWafDynamicManifestResultInner.toJson(JsonWriter jsonWriter)"
+  overridden: "com.azure.core.management.SubResource.toJson(com.azure.json.JsonWriter)"
   parameters:
   - name: "jsonWriter"
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
@@ -128,66 +118,8 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner.withAvailableRuleSets(java.util.List<com.azure.resourcemanager.network.models.ApplicationGatewayFirewallManifestRuleSet>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner.withAvailableRuleSets(List<ApplicationGatewayFirewallManifestRuleSet> availableRuleSets)"
-  name: "withAvailableRuleSets(List<ApplicationGatewayFirewallManifestRuleSet> availableRuleSets)"
-  nameWithType: "ApplicationGatewayWafDynamicManifestResultInner.withAvailableRuleSets(List<ApplicationGatewayFirewallManifestRuleSet> availableRuleSets)"
-  summary: "Set the available<wbr>Rule<wbr>Sets property: The available rulesets."
-  parameters:
-  - description: "the availableRuleSets value to set."
-    name: "availableRuleSets"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayFirewallManifestRuleSet?alt=com.azure.resourcemanager.network.models.ApplicationGatewayFirewallManifestRuleSet&text=ApplicationGatewayFirewallManifestRuleSet\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public ApplicationGatewayWafDynamicManifestResultInner withAvailableRuleSets(List<ApplicationGatewayFirewallManifestRuleSet> availableRuleSets)"
-  desc: "Set the availableRuleSets property: The available rulesets."
-  returns:
-    description: "the ApplicationGatewayWafDynamicManifestResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner&text=ApplicationGatewayWafDynamicManifestResultInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner.withId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner.withId(String id)"
-  name: "withId(String id)"
-  nameWithType: "ApplicationGatewayWafDynamicManifestResultInner.withId(String id)"
-  summary: "Set the id property: Resource ID."
-  parameters:
-  - description: "the id value to set."
-    name: "id"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ApplicationGatewayWafDynamicManifestResultInner withId(String id)"
-  desc: "Set the id property: Resource ID."
-  returns:
-    description: "the ApplicationGatewayWafDynamicManifestResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner&text=ApplicationGatewayWafDynamicManifestResultInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner.withRuleSetType(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner.withRuleSetType(String ruleSetType)"
-  name: "withRuleSetType(String ruleSetType)"
-  nameWithType: "ApplicationGatewayWafDynamicManifestResultInner.withRuleSetType(String ruleSetType)"
-  summary: "Set the rule<wbr>Set<wbr>Type property: The type of the web application firewall rule set."
-  parameters:
-  - description: "the ruleSetType value to set."
-    name: "ruleSetType"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ApplicationGatewayWafDynamicManifestResultInner withRuleSetType(String ruleSetType)"
-  desc: "Set the ruleSetType property: The type of the web application firewall rule set."
-  returns:
-    description: "the ApplicationGatewayWafDynamicManifestResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner&text=ApplicationGatewayWafDynamicManifestResultInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner.withRuleSetVersion(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner.withRuleSetVersion(String ruleSetVersion)"
-  name: "withRuleSetVersion(String ruleSetVersion)"
-  nameWithType: "ApplicationGatewayWafDynamicManifestResultInner.withRuleSetVersion(String ruleSetVersion)"
-  summary: "Set the rule<wbr>Set<wbr>Version property: The version of the web application firewall rule set type."
-  parameters:
-  - description: "the ruleSetVersion value to set."
-    name: "ruleSetVersion"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ApplicationGatewayWafDynamicManifestResultInner withRuleSetVersion(String ruleSetVersion)"
-  desc: "Set the ruleSetVersion property: The version of the web application firewall rule set type."
-  returns:
-    description: "the ApplicationGatewayWafDynamicManifestResultInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner&text=ApplicationGatewayWafDynamicManifestResultInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Response for ApplicationGatewayWafDynamicManifest API service call."
-implements:
-- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayWafDynamicManifestResultInner&text=ApplicationGatewayWafDynamicManifestResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

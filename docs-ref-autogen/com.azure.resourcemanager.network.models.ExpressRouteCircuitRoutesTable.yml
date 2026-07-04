@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ExpressRouteCircuitRoutesTable**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable?alt=com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable&text=ExpressRouteCircuitRoutesTable\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable.ExpressRouteCircuitRoutesTable()"
-  fullName: "com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable.ExpressRouteCircuitRoutesTable()"
-  name: "ExpressRouteCircuitRoutesTable()"
-  nameWithType: "ExpressRouteCircuitRoutesTable.ExpressRouteCircuitRoutesTable()"
-  summary: "Creates an instance of Express<wbr>Route<wbr>Circuit<wbr>Routes<wbr>Table class."
-  syntax: "public ExpressRouteCircuitRoutesTable()"
-  desc: "Creates an instance of ExpressRouteCircuitRoutesTable class."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable.fromJson(JsonReader jsonReader)"
@@ -118,80 +110,10 @@ methods:
   returns:
     description: "the weight value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-- uid: "com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable.withLocPrf(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable.withLocPrf(String locPrf)"
-  name: "withLocPrf(String locPrf)"
-  nameWithType: "ExpressRouteCircuitRoutesTable.withLocPrf(String locPrf)"
-  summary: "Set the loc<wbr>Prf property: Local preference value as set with the set local-preference route-map configuration command."
-  parameters:
-  - description: "the locPrf value to set."
-    name: "locPrf"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ExpressRouteCircuitRoutesTable withLocPrf(String locPrf)"
-  desc: "Set the locPrf property: Local preference value as set with the set local-preference route-map configuration command."
-  returns:
-    description: "the ExpressRouteCircuitRoutesTable object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable?alt=com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable&text=ExpressRouteCircuitRoutesTable\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable.withNetwork(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable.withNetwork(String network)"
-  name: "withNetwork(String network)"
-  nameWithType: "ExpressRouteCircuitRoutesTable.withNetwork(String network)"
-  summary: "Set the network property: IP address of a network entity."
-  parameters:
-  - description: "the network value to set."
-    name: "network"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ExpressRouteCircuitRoutesTable withNetwork(String network)"
-  desc: "Set the network property: IP address of a network entity."
-  returns:
-    description: "the ExpressRouteCircuitRoutesTable object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable?alt=com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable&text=ExpressRouteCircuitRoutesTable\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable.withNextHop(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable.withNextHop(String nextHop)"
-  name: "withNextHop(String nextHop)"
-  nameWithType: "ExpressRouteCircuitRoutesTable.withNextHop(String nextHop)"
-  summary: "Set the next<wbr>Hop property: Next<wbr>Hop address."
-  parameters:
-  - description: "the nextHop value to set."
-    name: "nextHop"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ExpressRouteCircuitRoutesTable withNextHop(String nextHop)"
-  desc: "Set the nextHop property: NextHop address."
-  returns:
-    description: "the ExpressRouteCircuitRoutesTable object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable?alt=com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable&text=ExpressRouteCircuitRoutesTable\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable.withPath(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable.withPath(String path)"
-  name: "withPath(String path)"
-  nameWithType: "ExpressRouteCircuitRoutesTable.withPath(String path)"
-  summary: "Set the path property: Autonomous system paths to the destination network."
-  parameters:
-  - description: "the path value to set."
-    name: "path"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ExpressRouteCircuitRoutesTable withPath(String path)"
-  desc: "Set the path property: Autonomous system paths to the destination network."
-  returns:
-    description: "the ExpressRouteCircuitRoutesTable object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable?alt=com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable&text=ExpressRouteCircuitRoutesTable\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable.withWeight(java.lang.Integer)"
-  fullName: "com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable.withWeight(Integer weight)"
-  name: "withWeight(Integer weight)"
-  nameWithType: "ExpressRouteCircuitRoutesTable.withWeight(Integer weight)"
-  summary: "Set the weight property: Route Weight."
-  parameters:
-  - description: "the weight value to set."
-    name: "weight"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-  syntax: "public ExpressRouteCircuitRoutesTable withWeight(Integer weight)"
-  desc: "Set the weight property: Route Weight."
-  returns:
-    description: "the ExpressRouteCircuitRoutesTable object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable?alt=com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable&text=ExpressRouteCircuitRoutesTable\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The routes table associated with the ExpressRouteCircuit."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable?alt=com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable&text=ExpressRouteCircuitRoutesTable\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

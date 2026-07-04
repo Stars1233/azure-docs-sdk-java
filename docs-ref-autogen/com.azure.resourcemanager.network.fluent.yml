@@ -2,7 +2,7 @@
 uid: "com.azure.resourcemanager.network.fluent"
 fullName: "com.azure.resourcemanager.network.fluent"
 name: "com.azure.resourcemanager.network.fluent"
-summary: "Package containing the service clients for Network<wbr>Management<wbr>Client."
+summary: "Package containing the service clients for Network."
 interfaces:
 - "com.azure.resourcemanager.network.fluent.AdminRuleCollectionsClient"
 - "com.azure.resourcemanager.network.fluent.AdminRulesClient"
@@ -21,8 +21,10 @@ interfaces:
 - "com.azure.resourcemanager.network.fluent.AzureFirewallsClient"
 - "com.azure.resourcemanager.network.fluent.BastionHostsClient"
 - "com.azure.resourcemanager.network.fluent.BgpServiceCommunitiesClient"
+- "com.azure.resourcemanager.network.fluent.CommitsClient"
 - "com.azure.resourcemanager.network.fluent.ConfigurationPolicyGroupsClient"
 - "com.azure.resourcemanager.network.fluent.ConnectionMonitorsClient"
+- "com.azure.resourcemanager.network.fluent.ConnectionPoliciesClient"
 - "com.azure.resourcemanager.network.fluent.ConnectivityConfigurationsClient"
 - "com.azure.resourcemanager.network.fluent.CustomIpPrefixesClient"
 - "com.azure.resourcemanager.network.fluent.DdosCustomPoliciesClient"
@@ -56,6 +58,7 @@ interfaces:
 - "com.azure.resourcemanager.network.fluent.HubVirtualNetworkConnectionsClient"
 - "com.azure.resourcemanager.network.fluent.InboundNatRulesClient"
 - "com.azure.resourcemanager.network.fluent.InboundSecurityRuleOperationsClient"
+- "com.azure.resourcemanager.network.fluent.InterconnectGroupsClient"
 - "com.azure.resourcemanager.network.fluent.IpAllocationsClient"
 - "com.azure.resourcemanager.network.fluent.IpGroupsClient"
 - "com.azure.resourcemanager.network.fluent.IpamPoolsClient"
@@ -130,6 +133,7 @@ interfaces:
 - "com.azure.resourcemanager.network.fluent.ServiceTagsClient"
 - "com.azure.resourcemanager.network.fluent.StaticCidrsClient"
 - "com.azure.resourcemanager.network.fluent.StaticMembersClient"
+- "com.azure.resourcemanager.network.fluent.SubgroupsClient"
 - "com.azure.resourcemanager.network.fluent.SubnetsClient"
 - "com.azure.resourcemanager.network.fluent.SubscriptionNetworkManagerConnectionsClient"
 - "com.azure.resourcemanager.network.fluent.UsagesClient"
@@ -162,7 +166,7 @@ interfaces:
 - "com.azure.resourcemanager.network.fluent.VpnSitesConfigurationsClient"
 - "com.azure.resourcemanager.network.fluent.WebApplicationFirewallPoliciesClient"
 - "com.azure.resourcemanager.network.fluent.WebCategoriesClient"
-desc: "Package containing the service clients for NetworkManagementClient. Network Client."
+desc: "Package containing the service clients for Network. APIs to manage web application firewall rules."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

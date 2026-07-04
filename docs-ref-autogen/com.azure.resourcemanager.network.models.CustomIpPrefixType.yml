@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.CustomIpPrefixType.CHILD"
   name: "CHILD"
   nameWithType: "CustomIpPrefixType.CHILD"
-  summary: "Static value Child for Custom<wbr>IpPrefix<wbr>Type."
+  summary: "Child."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.CustomIpPrefixType?alt=com.azure.resourcemanager.network.models.CustomIpPrefixType&text=CustomIpPrefixType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final CustomIpPrefixType CHILD"
-  desc: "Static value Child for CustomIpPrefixType."
+  desc: "Child."
 - uid: "com.azure.resourcemanager.network.models.CustomIpPrefixType.PARENT"
   fullName: "com.azure.resourcemanager.network.models.CustomIpPrefixType.PARENT"
   name: "PARENT"
   nameWithType: "CustomIpPrefixType.PARENT"
-  summary: "Static value Parent for Custom<wbr>IpPrefix<wbr>Type."
+  summary: "Parent."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.CustomIpPrefixType?alt=com.azure.resourcemanager.network.models.CustomIpPrefixType&text=CustomIpPrefixType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final CustomIpPrefixType PARENT"
-  desc: "Static value Parent for CustomIpPrefixType."
+  desc: "Parent."
 - uid: "com.azure.resourcemanager.network.models.CustomIpPrefixType.SINGULAR"
   fullName: "com.azure.resourcemanager.network.models.CustomIpPrefixType.SINGULAR"
   name: "SINGULAR"
   nameWithType: "CustomIpPrefixType.SINGULAR"
-  summary: "Static value Singular for Custom<wbr>IpPrefix<wbr>Type."
+  summary: "Singular."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.CustomIpPrefixType?alt=com.azure.resourcemanager.network.models.CustomIpPrefixType&text=CustomIpPrefixType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final CustomIpPrefixType SINGULAR"
-  desc: "Static value Singular for CustomIpPrefixType."
+  desc: "Singular."
 methods:
 - uid: "com.azure.resourcemanager.network.models.CustomIpPrefixType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.CustomIpPrefixType.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "Type of custom IP prefix. Should be Singular, Parent, or Child."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

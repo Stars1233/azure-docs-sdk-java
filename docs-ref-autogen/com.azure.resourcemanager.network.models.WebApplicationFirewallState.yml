@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.WebApplicationFirewallState.DISABLED"
   name: "DISABLED"
   nameWithType: "WebApplicationFirewallState.DISABLED"
-  summary: "Static value Disabled for Web<wbr>Application<wbr>Firewall<wbr>State."
+  summary: "Disabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.WebApplicationFirewallState?alt=com.azure.resourcemanager.network.models.WebApplicationFirewallState&text=WebApplicationFirewallState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final WebApplicationFirewallState DISABLED"
-  desc: "Static value Disabled for WebApplicationFirewallState."
+  desc: "Disabled."
 - uid: "com.azure.resourcemanager.network.models.WebApplicationFirewallState.ENABLED"
   fullName: "com.azure.resourcemanager.network.models.WebApplicationFirewallState.ENABLED"
   name: "ENABLED"
   nameWithType: "WebApplicationFirewallState.ENABLED"
-  summary: "Static value Enabled for Web<wbr>Application<wbr>Firewall<wbr>State."
+  summary: "Enabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.WebApplicationFirewallState?alt=com.azure.resourcemanager.network.models.WebApplicationFirewallState&text=WebApplicationFirewallState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final WebApplicationFirewallState ENABLED"
-  desc: "Static value Enabled for WebApplicationFirewallState."
+  desc: "Enabled."
 methods:
 - uid: "com.azure.resourcemanager.network.models.WebApplicationFirewallState.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.WebApplicationFirewallState.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Describes if the custom rule is in enabled or disabled state. Defaults to Enabled if not specified."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

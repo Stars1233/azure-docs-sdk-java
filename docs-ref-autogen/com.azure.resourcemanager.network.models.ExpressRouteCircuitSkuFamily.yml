@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ExpressRouteCircuitSkuFamily.METERED_DATA"
   name: "METERED_DATA"
   nameWithType: "ExpressRouteCircuitSkuFamily.METERED_DATA"
-  summary: "Static value Metered<wbr>Data for Express<wbr>Route<wbr>Circuit<wbr>Sku<wbr>Family."
+  summary: "Metered<wbr>Data."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteCircuitSkuFamily?alt=com.azure.resourcemanager.network.models.ExpressRouteCircuitSkuFamily&text=ExpressRouteCircuitSkuFamily\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExpressRouteCircuitSkuFamily METERED_DATA"
-  desc: "Static value MeteredData for ExpressRouteCircuitSkuFamily."
+  desc: "MeteredData."
 - uid: "com.azure.resourcemanager.network.models.ExpressRouteCircuitSkuFamily.UNLIMITED_DATA"
   fullName: "com.azure.resourcemanager.network.models.ExpressRouteCircuitSkuFamily.UNLIMITED_DATA"
   name: "UNLIMITED_DATA"
   nameWithType: "ExpressRouteCircuitSkuFamily.UNLIMITED_DATA"
-  summary: "Static value Unlimited<wbr>Data for Express<wbr>Route<wbr>Circuit<wbr>Sku<wbr>Family."
+  summary: "Unlimited<wbr>Data."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteCircuitSkuFamily?alt=com.azure.resourcemanager.network.models.ExpressRouteCircuitSkuFamily&text=ExpressRouteCircuitSkuFamily\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExpressRouteCircuitSkuFamily UNLIMITED_DATA"
-  desc: "Static value UnlimitedData for ExpressRouteCircuitSkuFamily."
+  desc: "UnlimitedData."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ExpressRouteCircuitSkuFamily.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ExpressRouteCircuitSkuFamily.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The family of the SKU."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

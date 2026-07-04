@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.ExpressRouteLinkAdminState.DISABLED"
   name: "DISABLED"
   nameWithType: "ExpressRouteLinkAdminState.DISABLED"
-  summary: "Static value Disabled for Express<wbr>Route<wbr>Link<wbr>Admin<wbr>State."
+  summary: "Disabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteLinkAdminState?alt=com.azure.resourcemanager.network.models.ExpressRouteLinkAdminState&text=ExpressRouteLinkAdminState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExpressRouteLinkAdminState DISABLED"
-  desc: "Static value Disabled for ExpressRouteLinkAdminState."
+  desc: "Disabled."
 - uid: "com.azure.resourcemanager.network.models.ExpressRouteLinkAdminState.ENABLED"
   fullName: "com.azure.resourcemanager.network.models.ExpressRouteLinkAdminState.ENABLED"
   name: "ENABLED"
   nameWithType: "ExpressRouteLinkAdminState.ENABLED"
-  summary: "Static value Enabled for Express<wbr>Route<wbr>Link<wbr>Admin<wbr>State."
+  summary: "Enabled."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.ExpressRouteLinkAdminState?alt=com.azure.resourcemanager.network.models.ExpressRouteLinkAdminState&text=ExpressRouteLinkAdminState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ExpressRouteLinkAdminState ENABLED"
-  desc: "Static value Enabled for ExpressRouteLinkAdminState."
+  desc: "Enabled."
 methods:
 - uid: "com.azure.resourcemanager.network.models.ExpressRouteLinkAdminState.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.ExpressRouteLinkAdminState.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "Administrative state of the physical port."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

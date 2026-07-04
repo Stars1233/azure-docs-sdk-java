@@ -14,7 +14,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The management group Id which uniquely identify the Microsoft Azure management group."
+  - description: "The management group ID."
     name: "managementGroupId"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Name for the network manager connection."
@@ -36,7 +36,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The management group Id which uniquely identify the Microsoft Azure management group."
+  - description: "The management group ID."
     name: "managementGroupId"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Name for the network manager connection."
@@ -58,7 +58,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The management group Id which uniquely identify the Microsoft Azure management group."
+  - description: "The management group ID."
     name: "managementGroupId"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Name for the network manager connection."
@@ -83,7 +83,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The management group Id which uniquely identify the Microsoft Azure management group."
+  - description: "The management group ID."
     name: "managementGroupId"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Name for the network manager connection."
@@ -105,7 +105,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The management group Id which uniquely identify the Microsoft Azure management group."
+  - description: "The management group ID."
     name: "managementGroupId"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Name for the network manager connection."
@@ -121,7 +121,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The management group Id which uniquely identify the Microsoft Azure management group."
+  - description: "The management group ID."
     name: "managementGroupId"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Name for the network manager connection."
@@ -140,7 +140,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The management group Id which uniquely identify the Microsoft Azure management group."
+  - description: "The management group ID."
     name: "managementGroupId"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Name for the network manager connection."
@@ -162,7 +162,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The management group Id which uniquely identify the Microsoft Azure management group."
+  - description: "The management group ID."
     name: "managementGroupId"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Name for the network manager connection."
@@ -181,7 +181,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The management group Id which uniquely identify the Microsoft Azure management group."
+  - description: "The management group ID."
     name: "managementGroupId"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Name for the network manager connection."
@@ -200,7 +200,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The management group Id which uniquely identify the Microsoft Azure management group."
+  - description: "The management group ID."
     name: "managementGroupId"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Name for the network manager connection."
@@ -219,7 +219,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The management group Id which uniquely identify the Microsoft Azure management group."
+  - description: "The management group ID."
     name: "managementGroupId"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Name for the network manager connection."
@@ -241,7 +241,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The management group Id which uniquely identify the Microsoft Azure management group."
+  - description: "The management group ID."
     name: "managementGroupId"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Name for the network manager connection."
@@ -260,13 +260,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The management group Id which uniquely identify the Microsoft Azure management group."
+  - description: "The management group ID."
     name: "managementGroupId"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<NetworkManagerConnectionInner> list(String managementGroupId)"
   desc: "List all network manager connections created by this management group."
   returns:
-    description: "list of network manager connections as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "the response of a NetworkManagerConnection list operation as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkManagerConnectionInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkManagerConnectionInner&text=NetworkManagerConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.ManagementGroupNetworkManagerConnectionsClient.list(java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.network.fluent.ManagementGroupNetworkManagerConnectionsClient.list(String managementGroupId, Integer top, String skipToken, Context context)"
@@ -276,7 +276,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The management group Id which uniquely identify the Microsoft Azure management group."
+  - description: "The management group ID."
     name: "managementGroupId"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "An optional query parameter which specifies the maximum number of records to be returned by the\n server."
@@ -291,7 +291,7 @@ methods:
   syntax: "public abstract PagedIterable<NetworkManagerConnectionInner> list(String managementGroupId, Integer top, String skipToken, Context context)"
   desc: "List all network manager connections created by this management group."
   returns:
-    description: "list of network manager connections as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
+    description: "the response of a NetworkManagerConnection list operation as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkManagerConnectionInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkManagerConnectionInner&text=NetworkManagerConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.ManagementGroupNetworkManagerConnectionsClient.listAsync(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.fluent.ManagementGroupNetworkManagerConnectionsClient.listAsync(String managementGroupId)"
@@ -301,13 +301,13 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The management group Id which uniquely identify the Microsoft Azure management group."
+  - description: "The management group ID."
     name: "managementGroupId"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedFlux<NetworkManagerConnectionInner> listAsync(String managementGroupId)"
   desc: "List all network manager connections created by this management group."
   returns:
-    description: "list of network manager connections as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
+    description: "the response of a NetworkManagerConnection list operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkManagerConnectionInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkManagerConnectionInner&text=NetworkManagerConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.network.fluent.ManagementGroupNetworkManagerConnectionsClient.listAsync(java.lang.String,java.lang.Integer,java.lang.String)"
   fullName: "com.azure.resourcemanager.network.fluent.ManagementGroupNetworkManagerConnectionsClient.listAsync(String managementGroupId, Integer top, String skipToken)"
@@ -317,7 +317,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The management group Id which uniquely identify the Microsoft Azure management group."
+  - description: "The management group ID."
     name: "managementGroupId"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "An optional query parameter which specifies the maximum number of records to be returned by the\n server."
@@ -329,7 +329,7 @@ methods:
   syntax: "public abstract PagedFlux<NetworkManagerConnectionInner> listAsync(String managementGroupId, Integer top, String skipToken)"
   desc: "List all network manager connections created by this management group."
   returns:
-    description: "list of network manager connections as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
+    description: "the response of a NetworkManagerConnection list operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkManagerConnectionInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkManagerConnectionInner&text=NetworkManagerConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 desc: "An instance of this class provides access to all the operations defined in ManagementGroupNetworkManagerConnectionsClient."
@@ -337,4 +337,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

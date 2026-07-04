@@ -42,50 +42,50 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyRuleNetworkProtocol.ANY"
   name: "ANY"
   nameWithType: "FirewallPolicyRuleNetworkProtocol.ANY"
-  summary: "Static value Any for Firewall<wbr>Policy<wbr>Rule<wbr>Network<wbr>Protocol."
+  summary: "Any."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyRuleNetworkProtocol?alt=com.azure.resourcemanager.network.models.FirewallPolicyRuleNetworkProtocol&text=FirewallPolicyRuleNetworkProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyRuleNetworkProtocol ANY"
-  desc: "Static value Any for FirewallPolicyRuleNetworkProtocol."
+  desc: "Any."
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyRuleNetworkProtocol.ICMP"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyRuleNetworkProtocol.ICMP"
   name: "ICMP"
   nameWithType: "FirewallPolicyRuleNetworkProtocol.ICMP"
-  summary: "Static value ICMP for Firewall<wbr>Policy<wbr>Rule<wbr>Network<wbr>Protocol."
+  summary: "ICMP."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyRuleNetworkProtocol?alt=com.azure.resourcemanager.network.models.FirewallPolicyRuleNetworkProtocol&text=FirewallPolicyRuleNetworkProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyRuleNetworkProtocol ICMP"
-  desc: "Static value ICMP for FirewallPolicyRuleNetworkProtocol."
+  desc: "ICMP."
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyRuleNetworkProtocol.TCP"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyRuleNetworkProtocol.TCP"
   name: "TCP"
   nameWithType: "FirewallPolicyRuleNetworkProtocol.TCP"
-  summary: "Static value TCP for Firewall<wbr>Policy<wbr>Rule<wbr>Network<wbr>Protocol."
+  summary: "TCP."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyRuleNetworkProtocol?alt=com.azure.resourcemanager.network.models.FirewallPolicyRuleNetworkProtocol&text=FirewallPolicyRuleNetworkProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyRuleNetworkProtocol TCP"
-  desc: "Static value TCP for FirewallPolicyRuleNetworkProtocol."
+  desc: "TCP."
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyRuleNetworkProtocol.UDP"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyRuleNetworkProtocol.UDP"
   name: "UDP"
   nameWithType: "FirewallPolicyRuleNetworkProtocol.UDP"
-  summary: "Static value UDP for Firewall<wbr>Policy<wbr>Rule<wbr>Network<wbr>Protocol."
+  summary: "UDP."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyRuleNetworkProtocol?alt=com.azure.resourcemanager.network.models.FirewallPolicyRuleNetworkProtocol&text=FirewallPolicyRuleNetworkProtocol\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyRuleNetworkProtocol UDP"
-  desc: "Static value UDP for FirewallPolicyRuleNetworkProtocol."
+  desc: "UDP."
 methods:
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyRuleNetworkProtocol.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyRuleNetworkProtocol.fromString(String name)"
@@ -119,4 +119,4 @@ type: "class"
 desc: "The Network protocol of a Rule."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

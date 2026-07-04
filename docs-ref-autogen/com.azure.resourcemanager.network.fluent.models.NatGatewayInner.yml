@@ -106,6 +106,16 @@ methods:
   returns:
     description: "the name value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.network.fluent.models.NatGatewayInner.nat64()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.NatGatewayInner.nat64()"
+  name: "nat64()"
+  nameWithType: "NatGatewayInner.nat64()"
+  summary: "Get the nat64 property: Whether Nat64 is enabled for the NAT gateway resource."
+  syntax: "public Nat64State nat64()"
+  desc: "Get the nat64 property: Whether Nat64 is enabled for the NAT gateway resource."
+  returns:
+    description: "the nat64 value."
+    type: "<xref href=\"com.azure.resourcemanager.network.models.Nat64State?alt=com.azure.resourcemanager.network.models.Nat64State&text=Nat64State\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.NatGatewayInner.provisioningState()"
   fullName: "com.azure.resourcemanager.network.fluent.models.NatGatewayInner.provisioningState()"
   name: "provisioningState()"
@@ -276,6 +286,20 @@ methods:
   syntax: "public NatGatewayInner withLocation(String location)"
   returns:
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NatGatewayInner?alt=com.azure.resourcemanager.network.fluent.models.NatGatewayInner&text=NatGatewayInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.models.NatGatewayInner.withNat64(com.azure.resourcemanager.network.models.Nat64State)"
+  fullName: "com.azure.resourcemanager.network.fluent.models.NatGatewayInner.withNat64(Nat64State nat64)"
+  name: "withNat64(Nat64State nat64)"
+  nameWithType: "NatGatewayInner.withNat64(Nat64State nat64)"
+  summary: "Set the nat64 property: Whether Nat64 is enabled for the NAT gateway resource."
+  parameters:
+  - description: "the nat64 value to set."
+    name: "nat64"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.Nat64State?alt=com.azure.resourcemanager.network.models.Nat64State&text=Nat64State\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public NatGatewayInner withNat64(Nat64State nat64)"
+  desc: "Set the nat64 property: Whether Nat64 is enabled for the NAT gateway resource."
+  returns:
+    description: "the NatGatewayInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NatGatewayInner?alt=com.azure.resourcemanager.network.fluent.models.NatGatewayInner&text=NatGatewayInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.NatGatewayInner.withPublicIpAddresses(java.util.List<com.azure.core.management.SubResource>)"
   fullName: "com.azure.resourcemanager.network.fluent.models.NatGatewayInner.withPublicIpAddresses(List<SubResource> publicIpAddresses)"
   name: "withPublicIpAddresses(List<SubResource> publicIpAddresses)"
@@ -413,4 +437,4 @@ type: "class"
 desc: "Nat Gateway resource."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -199,6 +199,16 @@ methods:
   returns:
     description: "the subnets value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.SubnetInner?alt=com.azure.resourcemanager.network.fluent.models.SubnetInner&text=SubnetInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkPropertiesFormat.summarizedGatewayPrefixes()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkPropertiesFormat.summarizedGatewayPrefixes()"
+  name: "summarizedGatewayPrefixes()"
+  nameWithType: "VirtualNetworkPropertiesFormat.summarizedGatewayPrefixes()"
+  summary: "Get the summarized<wbr>Gateway<wbr>Prefixes property: A configurable list of summarized gateway prefixes advertised for the virtual network."
+  syntax: "public AddressSpace summarizedGatewayPrefixes()"
+  desc: "Get the summarizedGatewayPrefixes property: A configurable list of summarized gateway prefixes advertised for the virtual network."
+  returns:
+    description: "the summarizedGatewayPrefixes value."
+    type: "<xref href=\"com.azure.resourcemanager.network.models.AddressSpace?alt=com.azure.resourcemanager.network.models.AddressSpace&text=AddressSpace\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkPropertiesFormat.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkPropertiesFormat.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -382,6 +392,20 @@ methods:
   returns:
     description: "the VirtualNetworkPropertiesFormat object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualNetworkPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.VirtualNetworkPropertiesFormat&text=VirtualNetworkPropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkPropertiesFormat.withSummarizedGatewayPrefixes(com.azure.resourcemanager.network.models.AddressSpace)"
+  fullName: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkPropertiesFormat.withSummarizedGatewayPrefixes(AddressSpace summarizedGatewayPrefixes)"
+  name: "withSummarizedGatewayPrefixes(AddressSpace summarizedGatewayPrefixes)"
+  nameWithType: "VirtualNetworkPropertiesFormat.withSummarizedGatewayPrefixes(AddressSpace summarizedGatewayPrefixes)"
+  summary: "Set the summarized<wbr>Gateway<wbr>Prefixes property: A configurable list of summarized gateway prefixes advertised for the virtual network."
+  parameters:
+  - description: "the summarizedGatewayPrefixes value to set."
+    name: "summarizedGatewayPrefixes"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.AddressSpace?alt=com.azure.resourcemanager.network.models.AddressSpace&text=AddressSpace\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public VirtualNetworkPropertiesFormat withSummarizedGatewayPrefixes(AddressSpace summarizedGatewayPrefixes)"
+  desc: "Set the summarizedGatewayPrefixes property: A configurable list of summarized gateway prefixes advertised for the virtual network."
+  returns:
+    description: "the VirtualNetworkPropertiesFormat object itself."
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualNetworkPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.VirtualNetworkPropertiesFormat&text=VirtualNetworkPropertiesFormat\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkPropertiesFormat.withVirtualNetworkPeerings(java.util.List<com.azure.resourcemanager.network.fluent.models.VirtualNetworkPeeringInner>)"
   fullName: "com.azure.resourcemanager.network.fluent.models.VirtualNetworkPropertiesFormat.withVirtualNetworkPeerings(List<VirtualNetworkPeeringInner> virtualNetworkPeerings)"
   name: "withVirtualNetworkPeerings(List<VirtualNetworkPeeringInner> virtualNetworkPeerings)"
@@ -402,4 +426,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualNetworkPropertiesFormat?alt=com.azure.resourcemanager.network.fluent.models.VirtualNetworkPropertiesFormat&text=VirtualNetworkPropertiesFormat\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

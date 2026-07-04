@@ -42,38 +42,38 @@ fields:
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionStateType.ALERT"
   name: "ALERT"
   nameWithType: "FirewallPolicyIntrusionDetectionStateType.ALERT"
-  summary: "Static value Alert for Firewall<wbr>Policy<wbr>Intrusion<wbr>Detection<wbr>State<wbr>Type."
+  summary: "Alert."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionStateType?alt=com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionStateType&text=FirewallPolicyIntrusionDetectionStateType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyIntrusionDetectionStateType ALERT"
-  desc: "Static value Alert for FirewallPolicyIntrusionDetectionStateType."
+  desc: "Alert."
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionStateType.DENY"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionStateType.DENY"
   name: "DENY"
   nameWithType: "FirewallPolicyIntrusionDetectionStateType.DENY"
-  summary: "Static value Deny for Firewall<wbr>Policy<wbr>Intrusion<wbr>Detection<wbr>State<wbr>Type."
+  summary: "Deny."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionStateType?alt=com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionStateType&text=FirewallPolicyIntrusionDetectionStateType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyIntrusionDetectionStateType DENY"
-  desc: "Static value Deny for FirewallPolicyIntrusionDetectionStateType."
+  desc: "Deny."
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionStateType.OFF"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionStateType.OFF"
   name: "OFF"
   nameWithType: "FirewallPolicyIntrusionDetectionStateType.OFF"
-  summary: "Static value Off for Firewall<wbr>Policy<wbr>Intrusion<wbr>Detection<wbr>State<wbr>Type."
+  summary: "Off."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionStateType?alt=com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionStateType&text=FirewallPolicyIntrusionDetectionStateType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final FirewallPolicyIntrusionDetectionStateType OFF"
-  desc: "Static value Off for FirewallPolicyIntrusionDetectionStateType."
+  desc: "Off."
 methods:
 - uid: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionStateType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.models.FirewallPolicyIntrusionDetectionStateType.fromString(String name)"
@@ -107,4 +107,4 @@ type: "class"
 desc: "Possible state values."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

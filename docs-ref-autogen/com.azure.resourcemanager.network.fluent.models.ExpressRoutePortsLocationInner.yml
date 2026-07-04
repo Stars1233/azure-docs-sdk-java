@@ -36,14 +36,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ExpressRoutePortsLocationInner**</br> extends <xref href=\"com.azure.core.management.Resource?alt=com.azure.core.management.Resource&text=Resource\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationInner.ExpressRoutePortsLocationInner()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationInner.ExpressRoutePortsLocationInner()"
-  name: "ExpressRoutePortsLocationInner()"
-  nameWithType: "ExpressRoutePortsLocationInner.ExpressRoutePortsLocationInner()"
-  summary: "Creates an instance of Express<wbr>Route<wbr>Ports<wbr>Location<wbr>Inner class."
-  syntax: "public ExpressRoutePortsLocationInner()"
-  desc: "Creates an instance of ExpressRoutePortsLocationInner class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationInner.address()"
   fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationInner.address()"
@@ -157,58 +149,8 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationInner.withAvailableBandwidths(java.util.List<com.azure.resourcemanager.network.models.ExpressRoutePortsLocationBandwidths>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationInner.withAvailableBandwidths(List<ExpressRoutePortsLocationBandwidths> availableBandwidths)"
-  name: "withAvailableBandwidths(List<ExpressRoutePortsLocationBandwidths> availableBandwidths)"
-  nameWithType: "ExpressRoutePortsLocationInner.withAvailableBandwidths(List<ExpressRoutePortsLocationBandwidths> availableBandwidths)"
-  summary: "Set the available<wbr>Bandwidths property: The inventory of available Express<wbr>Route<wbr>Port bandwidths."
-  parameters:
-  - description: "the availableBandwidths value to set."
-    name: "availableBandwidths"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.ExpressRoutePortsLocationBandwidths?alt=com.azure.resourcemanager.network.models.ExpressRoutePortsLocationBandwidths&text=ExpressRoutePortsLocationBandwidths\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public ExpressRoutePortsLocationInner withAvailableBandwidths(List<ExpressRoutePortsLocationBandwidths> availableBandwidths)"
-  desc: "Set the availableBandwidths property: The inventory of available ExpressRoutePort bandwidths."
-  returns:
-    description: "the ExpressRoutePortsLocationInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationInner?alt=com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationInner&text=ExpressRoutePortsLocationInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationInner.withId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationInner.withId(String id)"
-  name: "withId(String id)"
-  nameWithType: "ExpressRoutePortsLocationInner.withId(String id)"
-  summary: "Set the id property: Resource ID."
-  parameters:
-  - description: "the id value to set."
-    name: "id"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ExpressRoutePortsLocationInner withId(String id)"
-  desc: "Set the id property: Resource ID."
-  returns:
-    description: "the ExpressRoutePortsLocationInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationInner?alt=com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationInner&text=ExpressRoutePortsLocationInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationInner.withLocation(java.lang.String)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationInner.withLocation(String location)"
-  name: "withLocation(String location)"
-  nameWithType: "ExpressRoutePortsLocationInner.withLocation(String location)"
-  overridden: "com.azure.core.management.Resource.withLocation(java.lang.String)"
-  parameters:
-  - name: "location"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public ExpressRoutePortsLocationInner withLocation(String location)"
-  returns:
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationInner?alt=com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationInner&text=ExpressRoutePortsLocationInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationInner.withTags(java.util.Map<java.lang.String,java.lang.String>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationInner.withTags(Map<String,String> tags)"
-  name: "withTags(Map<String,String> tags)"
-  nameWithType: "ExpressRoutePortsLocationInner.withTags(Map<String,String> tags)"
-  overridden: "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
-  parameters:
-  - name: "tags"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public ExpressRoutePortsLocationInner withTags(Map<String,String> tags)"
-  returns:
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationInner?alt=com.azure.resourcemanager.network.fluent.models.ExpressRoutePortsLocationInner&text=ExpressRoutePortsLocationInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "ExpressRoutePorts Peering Location Definition of the ExpressRoutePorts peering location resource."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

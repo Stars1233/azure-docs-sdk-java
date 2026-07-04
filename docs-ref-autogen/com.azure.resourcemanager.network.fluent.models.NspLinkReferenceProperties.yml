@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **NspLinkReferenceProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.NspLinkReferenceProperties?alt=com.azure.resourcemanager.network.fluent.models.NspLinkReferenceProperties&text=NspLinkReferenceProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.network.fluent.models.NspLinkReferenceProperties.NspLinkReferenceProperties()"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NspLinkReferenceProperties.NspLinkReferenceProperties()"
-  name: "NspLinkReferenceProperties()"
-  nameWithType: "NspLinkReferenceProperties.NspLinkReferenceProperties()"
-  summary: "Creates an instance of Nsp<wbr>Link<wbr>Reference<wbr>Properties class."
-  syntax: "public NspLinkReferenceProperties()"
-  desc: "Creates an instance of NspLinkReferenceProperties class."
 methods:
 - uid: "com.azure.resourcemanager.network.fluent.models.NspLinkReferenceProperties.description()"
   fullName: "com.azure.resourcemanager.network.fluent.models.NspLinkReferenceProperties.description()"
@@ -168,38 +160,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.network.fluent.models.NspLinkReferenceProperties.withLocalInboundProfiles(java.util.List<java.lang.String>)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NspLinkReferenceProperties.withLocalInboundProfiles(List<String> localInboundProfiles)"
-  name: "withLocalInboundProfiles(List<String> localInboundProfiles)"
-  nameWithType: "NspLinkReferenceProperties.withLocalInboundProfiles(List<String> localInboundProfiles)"
-  summary: "Set the local<wbr>Inbound<wbr>Profiles property: Local Inbound profile names to which Inbound is allowed."
-  parameters:
-  - description: "the localInboundProfiles value to set."
-    name: "localInboundProfiles"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public NspLinkReferenceProperties withLocalInboundProfiles(List<String> localInboundProfiles)"
-  desc: "Set the localInboundProfiles property: Local Inbound profile names to which Inbound is allowed. Use \\['\\*'\\] to allow inbound to all profiles."
-  returns:
-    description: "the NspLinkReferenceProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NspLinkReferenceProperties?alt=com.azure.resourcemanager.network.fluent.models.NspLinkReferenceProperties&text=NspLinkReferenceProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.network.fluent.models.NspLinkReferenceProperties.withStatus(com.azure.resourcemanager.network.models.NspLinkStatus)"
-  fullName: "com.azure.resourcemanager.network.fluent.models.NspLinkReferenceProperties.withStatus(NspLinkStatus status)"
-  name: "withStatus(NspLinkStatus status)"
-  nameWithType: "NspLinkReferenceProperties.withStatus(NspLinkStatus status)"
-  summary: "Set the status property: The NSP link<wbr>Reference state."
-  parameters:
-  - description: "the status value to set."
-    name: "status"
-    type: "<xref href=\"com.azure.resourcemanager.network.models.NspLinkStatus?alt=com.azure.resourcemanager.network.models.NspLinkStatus&text=NspLinkStatus\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public NspLinkReferenceProperties withStatus(NspLinkStatus status)"
-  desc: "Set the status property: The NSP linkReference state. It cannot be changed if link is created in auto-approval mode."
-  returns:
-    description: "the NspLinkReferenceProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.NspLinkReferenceProperties?alt=com.azure.resourcemanager.network.fluent.models.NspLinkReferenceProperties&text=NspLinkReferenceProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Properties of NSP LinkReference resource."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.NspLinkReferenceProperties?alt=com.azure.resourcemanager.network.fluent.models.NspLinkReferenceProperties&text=NspLinkReferenceProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0

@@ -76,6 +76,16 @@ methods:
   returns:
     description: "An instance of ApplicationGatewaySslCertificateInner if the JsonReader was pointing to an instance of it,\n or null if it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificateInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificateInner&text=ApplicationGatewaySslCertificateInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificateInner.hsm()"
+  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificateInner.hsm()"
+  name: "hsm()"
+  nameWithType: "ApplicationGatewaySslCertificateInner.hsm()"
+  summary: "Get the hsm property: Managed HSM properties of the Application Gateway resource."
+  syntax: "public ApplicationGatewayManagedHsm hsm()"
+  desc: "Get the hsm property: Managed HSM properties of the Application Gateway resource."
+  returns:
+    description: "the hsm value."
+    type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayManagedHsm?alt=com.azure.resourcemanager.network.models.ApplicationGatewayManagedHsm&text=ApplicationGatewayManagedHsm\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificateInner.keyVaultSecretId()"
   fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificateInner.keyVaultSecretId()"
   name: "keyVaultSecretId()"
@@ -170,6 +180,20 @@ methods:
   returns:
     description: "the ApplicationGatewaySslCertificateInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificateInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificateInner&text=ApplicationGatewaySslCertificateInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificateInner.withHsm(com.azure.resourcemanager.network.models.ApplicationGatewayManagedHsm)"
+  fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificateInner.withHsm(ApplicationGatewayManagedHsm hsm)"
+  name: "withHsm(ApplicationGatewayManagedHsm hsm)"
+  nameWithType: "ApplicationGatewaySslCertificateInner.withHsm(ApplicationGatewayManagedHsm hsm)"
+  summary: "Set the hsm property: Managed HSM properties of the Application Gateway resource."
+  parameters:
+  - description: "the hsm value to set."
+    name: "hsm"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayManagedHsm?alt=com.azure.resourcemanager.network.models.ApplicationGatewayManagedHsm&text=ApplicationGatewayManagedHsm\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ApplicationGatewaySslCertificateInner withHsm(ApplicationGatewayManagedHsm hsm)"
+  desc: "Set the hsm property: Managed HSM properties of the Application Gateway resource."
+  returns:
+    description: "the ApplicationGatewaySslCertificateInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificateInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificateInner&text=ApplicationGatewaySslCertificateInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificateInner.withId(java.lang.String)"
   fullName: "com.azure.resourcemanager.network.fluent.models.ApplicationGatewaySslCertificateInner.withId(String id)"
   name: "withId(String id)"
@@ -227,4 +251,4 @@ type: "class"
 desc: "SSL certificates of an application gateway."
 metadata: {}
 package: "com.azure.resourcemanager.network.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.58.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.59.0
