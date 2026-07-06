@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-storage",
-  "Version": "2.56.0",
+  "Version": "2.57.0",
   "DevVersion": null,
   "DirectoryPath": "sdk/storage/azure-resourcemanager-storage",
   "ServiceDirectory": "storage/azure-resourcemanager-storage",
@@ -10,17 +10,17 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-storage",
-  "ReleaseStatus": "2026-05-07",
+  "ReleaseStatus": "2026-06-01",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "groupId": "com.azure.resourcemanager",
-    "safeName": "azureresourcemanagerstorage",
     "releaseInBatch": "${{ parameters.release_azureresourcemanagerstorage }}",
+    "name": "azure-resourcemanager-storage",
+    "groupId": "com.azure.resourcemanager",
     "triggeringPaths": [
       "/sdk/storage/azure-resourcemanager-storage/ci.yml"
     ],
-    "name": "azure-resourcemanager-storage"
+    "safeName": "azureresourcemanagerstorage"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
