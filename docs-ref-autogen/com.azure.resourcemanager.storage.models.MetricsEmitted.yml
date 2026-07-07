@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.storage.models.MetricsEmitted"
+fullName: "com.azure.resourcemanager.storage.models.MetricsEmitted"
+name: "MetricsEmitted"
+nameWithType: "MetricsEmitted"
+summary: "The metrics emitted by the advanced platform metrics rule."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **MetricsEmitted**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.storage.models.MetricsEmitted?alt=com.azure.resourcemanager.storage.models.MetricsEmitted&text=MetricsEmitted\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.storage.models.MetricsEmitted.MetricsEmitted()"
+  fullName: "com.azure.resourcemanager.storage.models.MetricsEmitted.MetricsEmitted()"
+  name: "MetricsEmitted()"
+  nameWithType: "MetricsEmitted.MetricsEmitted()"
+  summary: "Creates a new instance of Metrics<wbr>Emitted value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.storage.models.MetricsEmitted.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public MetricsEmitted()"
+  desc: "Creates a new instance of MetricsEmitted value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.storage.models.MetricsEmitted.CONTAINER_BLOB_COUNT"
+  fullName: "com.azure.resourcemanager.storage.models.MetricsEmitted.CONTAINER_BLOB_COUNT"
+  name: "CONTAINER_BLOB_COUNT"
+  nameWithType: "MetricsEmitted.CONTAINER_BLOB_COUNT"
+  summary: "Container blob count metric."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.storage.models.MetricsEmitted?alt=com.azure.resourcemanager.storage.models.MetricsEmitted&text=MetricsEmitted\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final MetricsEmitted CONTAINER_BLOB_COUNT"
+  desc: "Container blob count metric."
+- uid: "com.azure.resourcemanager.storage.models.MetricsEmitted.CONTAINER_USED_SIZE"
+  fullName: "com.azure.resourcemanager.storage.models.MetricsEmitted.CONTAINER_USED_SIZE"
+  name: "CONTAINER_USED_SIZE"
+  nameWithType: "MetricsEmitted.CONTAINER_USED_SIZE"
+  summary: "Container used size metric."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.storage.models.MetricsEmitted?alt=com.azure.resourcemanager.storage.models.MetricsEmitted&text=MetricsEmitted\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final MetricsEmitted CONTAINER_USED_SIZE"
+  desc: "Container used size metric."
+methods:
+- uid: "com.azure.resourcemanager.storage.models.MetricsEmitted.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.storage.models.MetricsEmitted.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "MetricsEmitted.fromString(String name)"
+  summary: "Creates or finds a Metrics<wbr>Emitted from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static MetricsEmitted fromString(String name)"
+  desc: "Creates or finds a MetricsEmitted from its string representation."
+  returns:
+    description: "the corresponding MetricsEmitted."
+    type: "<xref href=\"com.azure.resourcemanager.storage.models.MetricsEmitted?alt=com.azure.resourcemanager.storage.models.MetricsEmitted&text=MetricsEmitted\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.storage.models.MetricsEmitted.values()"
+  fullName: "com.azure.resourcemanager.storage.models.MetricsEmitted.values()"
+  name: "values()"
+  nameWithType: "MetricsEmitted.values()"
+  summary: "Gets known Metrics<wbr>Emitted values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<MetricsEmitted> values()"
+  desc: "Gets known MetricsEmitted values."
+  returns:
+    description: "known MetricsEmitted values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.storage.models.MetricsEmitted?alt=com.azure.resourcemanager.storage.models.MetricsEmitted&text=MetricsEmitted\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The metrics emitted by the advanced platform metrics rule."
+metadata: {}
+package: "com.azure.resourcemanager.storage.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.57.0

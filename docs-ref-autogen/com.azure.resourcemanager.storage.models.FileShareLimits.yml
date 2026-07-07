@@ -41,6 +41,26 @@ methods:
   returns:
     description: "An instance of FileShareLimits if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.storage.models.FileShareLimits?alt=com.azure.resourcemanager.storage.models.FileShareLimits&text=FileShareLimits\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.storage.models.FileShareLimits.guardrailBandwidthScalar()"
+  fullName: "com.azure.resourcemanager.storage.models.FileShareLimits.guardrailBandwidthScalar()"
+  name: "guardrailBandwidthScalar()"
+  nameWithType: "FileShareLimits.guardrailBandwidthScalar()"
+  summary: "Get the guardrail<wbr>Bandwidth<wbr>Scalar property: The bandwidth scalar used for guardrail calculations for a file share in the storage account."
+  syntax: "public Double guardrailBandwidthScalar()"
+  desc: "Get the guardrailBandwidthScalar property: The bandwidth scalar used for guardrail calculations for a file share in the storage account."
+  returns:
+    description: "the guardrailBandwidthScalar value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html\">Double</a>"
+- uid: "com.azure.resourcemanager.storage.models.FileShareLimits.guardrailIOScalar()"
+  fullName: "com.azure.resourcemanager.storage.models.FileShareLimits.guardrailIOScalar()"
+  name: "guardrailIOScalar()"
+  nameWithType: "FileShareLimits.guardrailIOScalar()"
+  summary: "Get the guardrail<wbr>IOScalar property: The IO scalar used for guardrail calculations for a file share in the storage account."
+  syntax: "public Double guardrailIOScalar()"
+  desc: "Get the guardrailIOScalar property: The IO scalar used for guardrail calculations for a file share in the storage account."
+  returns:
+    description: "the guardrailIOScalar value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html\">Double</a>"
 - uid: "com.azure.resourcemanager.storage.models.FileShareLimits.maxProvisionedBandwidthMiBPerSec()"
   fullName: "com.azure.resourcemanager.storage.models.FileShareLimits.maxProvisionedBandwidthMiBPerSec()"
   name: "maxProvisionedBandwidthMiBPerSec()"
@@ -126,4 +146,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.storage.models.FileShareLimits?alt=com.azure.resourcemanager.storage.models.FileShareLimits&text=FileShareLimits\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.storage.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.56.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.57.0

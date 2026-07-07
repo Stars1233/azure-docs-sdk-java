@@ -6,6 +6,18 @@ nameWithType: "StorageManagementClient"
 summary: "The interface for Storage<wbr>Management<wbr>Client class."
 syntax: "public interface **StorageManagementClient**"
 methods:
+- uid: "com.azure.resourcemanager.storage.fluent.StorageManagementClient.getAdvancedPlatformMetrics()"
+  fullName: "com.azure.resourcemanager.storage.fluent.StorageManagementClient.getAdvancedPlatformMetrics()"
+  name: "getAdvancedPlatformMetrics()"
+  nameWithType: "StorageManagementClient.getAdvancedPlatformMetrics()"
+  summary: "Gets the Advanced<wbr>Platform<wbr>Metrics<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract AdvancedPlatformMetricsClient getAdvancedPlatformMetrics()"
+  desc: "Gets the AdvancedPlatformMetricsClient object to access its operations."
+  returns:
+    description: "the AdvancedPlatformMetricsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.storage.fluent.AdvancedPlatformMetricsClient?alt=com.azure.resourcemanager.storage.fluent.AdvancedPlatformMetricsClient&text=AdvancedPlatformMetricsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.storage.fluent.StorageManagementClient.getApiVersion()"
   fullName: "com.azure.resourcemanager.storage.fluent.StorageManagementClient.getApiVersion()"
   name: "getApiVersion()"
@@ -382,4 +394,4 @@ type: "interface"
 desc: "The interface for StorageManagementClient class."
 metadata: {}
 package: "com.azure.resourcemanager.storage.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.56.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.57.0

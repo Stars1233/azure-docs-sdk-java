@@ -1,0 +1,86 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsRuleType"
+fullName: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsRuleType"
+name: "AdvancedPlatformMetricsRuleType"
+nameWithType: "AdvancedPlatformMetricsRuleType"
+summary: "The type of the advanced platform metrics rule."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AdvancedPlatformMetricsRuleType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsRuleType?alt=com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsRuleType&text=AdvancedPlatformMetricsRuleType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsRuleType.AdvancedPlatformMetricsRuleType()"
+  fullName: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsRuleType.AdvancedPlatformMetricsRuleType()"
+  name: "AdvancedPlatformMetricsRuleType()"
+  nameWithType: "AdvancedPlatformMetricsRuleType.AdvancedPlatformMetricsRuleType()"
+  summary: "Creates a new instance of Advanced<wbr>Platform<wbr>Metrics<wbr>Rule<wbr>Type value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsRuleType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public AdvancedPlatformMetricsRuleType()"
+  desc: "Creates a new instance of AdvancedPlatformMetricsRuleType value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsRuleType.CONTAINER_LEVEL_CAPACITY_METRICS"
+  fullName: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsRuleType.CONTAINER_LEVEL_CAPACITY_METRICS"
+  name: "CONTAINER_LEVEL_CAPACITY_METRICS"
+  nameWithType: "AdvancedPlatformMetricsRuleType.CONTAINER_LEVEL_CAPACITY_METRICS"
+  summary: "Container level capacity metrics rule type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsRuleType?alt=com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsRuleType&text=AdvancedPlatformMetricsRuleType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AdvancedPlatformMetricsRuleType CONTAINER_LEVEL_CAPACITY_METRICS"
+  desc: "Container level capacity metrics rule type."
+methods:
+- uid: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsRuleType.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsRuleType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "AdvancedPlatformMetricsRuleType.fromString(String name)"
+  summary: "Creates or finds a Advanced<wbr>Platform<wbr>Metrics<wbr>Rule<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static AdvancedPlatformMetricsRuleType fromString(String name)"
+  desc: "Creates or finds a AdvancedPlatformMetricsRuleType from its string representation."
+  returns:
+    description: "the corresponding AdvancedPlatformMetricsRuleType."
+    type: "<xref href=\"com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsRuleType?alt=com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsRuleType&text=AdvancedPlatformMetricsRuleType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsRuleType.values()"
+  fullName: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsRuleType.values()"
+  name: "values()"
+  nameWithType: "AdvancedPlatformMetricsRuleType.values()"
+  summary: "Gets known Advanced<wbr>Platform<wbr>Metrics<wbr>Rule<wbr>Type values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<AdvancedPlatformMetricsRuleType> values()"
+  desc: "Gets known AdvancedPlatformMetricsRuleType values."
+  returns:
+    description: "known AdvancedPlatformMetricsRuleType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsRuleType?alt=com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsRuleType&text=AdvancedPlatformMetricsRuleType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The type of the advanced platform metrics rule."
+metadata: {}
+package: "com.azure.resourcemanager.storage.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.57.0

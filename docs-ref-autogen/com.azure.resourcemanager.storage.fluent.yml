@@ -4,6 +4,7 @@ fullName: "com.azure.resourcemanager.storage.fluent"
 name: "com.azure.resourcemanager.storage.fluent"
 summary: "Package containing the service clients for Storage."
 interfaces:
+- "com.azure.resourcemanager.storage.fluent.AdvancedPlatformMetricsClient"
 - "com.azure.resourcemanager.storage.fluent.BlobContainersClient"
 - "com.azure.resourcemanager.storage.fluent.BlobInventoryPoliciesClient"
 - "com.azure.resourcemanager.storage.fluent.BlobServicesClient"
@@ -34,4 +35,4 @@ interfaces:
 desc: "Package containing the service clients for Storage. The Azure Storage Management API."
 metadata: {}
 package: "com.azure.resourcemanager.storage.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.56.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.57.0

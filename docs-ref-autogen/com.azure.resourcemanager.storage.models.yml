@@ -14,6 +14,10 @@ classes:
 - "com.azure.resourcemanager.storage.models.AccountUsageElements"
 - "com.azure.resourcemanager.storage.models.ActiveDirectoryProperties"
 - "com.azure.resourcemanager.storage.models.ActiveDirectoryPropertiesAccountType"
+- "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType"
+- "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsRuleConfig"
+- "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsRuleProperties"
+- "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsRuleType"
 - "com.azure.resourcemanager.storage.models.AllowedCopyScope"
 - "com.azure.resourcemanager.storage.models.AzureEntityResource"
 - "com.azure.resourcemanager.storage.models.AzureFilesIdentityBasedAuthentication"
@@ -126,6 +130,7 @@ classes:
 - "com.azure.resourcemanager.storage.models.ManagementPolicySnapShot"
 - "com.azure.resourcemanager.storage.models.ManagementPolicyVersion"
 - "com.azure.resourcemanager.storage.models.MetricSpecification"
+- "com.azure.resourcemanager.storage.models.MetricsEmitted"
 - "com.azure.resourcemanager.storage.models.MigrationName"
 - "com.azure.resourcemanager.storage.models.MigrationState"
 - "com.azure.resourcemanager.storage.models.MigrationStatus"
@@ -389,4 +394,4 @@ interfaces:
 desc: "Package containing the data models for Storage. The Azure Storage Management API."
 metadata: {}
 package: "com.azure.resourcemanager.storage.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.56.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.57.0

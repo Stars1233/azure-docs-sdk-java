@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType"
+fullName: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType"
+name: "AdvancedPlatformMetricsFilterType"
+nameWithType: "AdvancedPlatformMetricsFilterType"
+summary: "The type of filter applied to the advanced platform metrics rule."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AdvancedPlatformMetricsFilterType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType?alt=com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType&text=AdvancedPlatformMetricsFilterType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType.AdvancedPlatformMetricsFilterType()"
+  fullName: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType.AdvancedPlatformMetricsFilterType()"
+  name: "AdvancedPlatformMetricsFilterType()"
+  nameWithType: "AdvancedPlatformMetricsFilterType.AdvancedPlatformMetricsFilterType()"
+  summary: "Creates a new instance of Advanced<wbr>Platform<wbr>Metrics<wbr>Filter<wbr>Type value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public AdvancedPlatformMetricsFilterType()"
+  desc: "Creates a new instance of AdvancedPlatformMetricsFilterType value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType.ALL_CONTAINERS_FILTER"
+  fullName: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType.ALL_CONTAINERS_FILTER"
+  name: "ALL_CONTAINERS_FILTER"
+  nameWithType: "AdvancedPlatformMetricsFilterType.ALL_CONTAINERS_FILTER"
+  summary: "Filter applies to all containers."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType?alt=com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType&text=AdvancedPlatformMetricsFilterType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AdvancedPlatformMetricsFilterType ALL_CONTAINERS_FILTER"
+  desc: "Filter applies to all containers."
+- uid: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType.CONTAINER_LIST_FILTER"
+  fullName: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType.CONTAINER_LIST_FILTER"
+  name: "CONTAINER_LIST_FILTER"
+  nameWithType: "AdvancedPlatformMetricsFilterType.CONTAINER_LIST_FILTER"
+  summary: "Filter applies to a specific list of containers."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType?alt=com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType&text=AdvancedPlatformMetricsFilterType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AdvancedPlatformMetricsFilterType CONTAINER_LIST_FILTER"
+  desc: "Filter applies to a specific list of containers."
+- uid: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType.CONTAINER_PREFIX_FILTER"
+  fullName: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType.CONTAINER_PREFIX_FILTER"
+  name: "CONTAINER_PREFIX_FILTER"
+  nameWithType: "AdvancedPlatformMetricsFilterType.CONTAINER_PREFIX_FILTER"
+  summary: "Filter applies to containers matching a prefix."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType?alt=com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType&text=AdvancedPlatformMetricsFilterType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final AdvancedPlatformMetricsFilterType CONTAINER_PREFIX_FILTER"
+  desc: "Filter applies to containers matching a prefix."
+methods:
+- uid: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "AdvancedPlatformMetricsFilterType.fromString(String name)"
+  summary: "Creates or finds a Advanced<wbr>Platform<wbr>Metrics<wbr>Filter<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static AdvancedPlatformMetricsFilterType fromString(String name)"
+  desc: "Creates or finds a AdvancedPlatformMetricsFilterType from its string representation."
+  returns:
+    description: "the corresponding AdvancedPlatformMetricsFilterType."
+    type: "<xref href=\"com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType?alt=com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType&text=AdvancedPlatformMetricsFilterType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType.values()"
+  fullName: "com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType.values()"
+  name: "values()"
+  nameWithType: "AdvancedPlatformMetricsFilterType.values()"
+  summary: "Gets known Advanced<wbr>Platform<wbr>Metrics<wbr>Filter<wbr>Type values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<AdvancedPlatformMetricsFilterType> values()"
+  desc: "Gets known AdvancedPlatformMetricsFilterType values."
+  returns:
+    description: "known AdvancedPlatformMetricsFilterType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType?alt=com.azure.resourcemanager.storage.models.AdvancedPlatformMetricsFilterType&text=AdvancedPlatformMetricsFilterType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The type of filter applied to the advanced platform metrics rule."
+metadata: {}
+package: "com.azure.resourcemanager.storage.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.57.0
