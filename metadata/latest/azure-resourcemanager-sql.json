@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-sql",
-  "Version": "2.53.7",
+  "Version": "2.53.10",
   "DevVersion": null,
   "DirectoryPath": "sdk/sql/azure-resourcemanager-sql",
   "ServiceDirectory": "sql",
@@ -10,17 +10,17 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-sql",
-  "ReleaseStatus": "2026-03-30",
+  "ReleaseStatus": "2026-07-07",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "releaseInBatch": "${{ parameters.release_azureresourcemanagersql }}",
-    "safeName": "azureresourcemanagersql",
-    "groupId": "com.azure.resourcemanager",
+    "name": "azure-resourcemanager-sql",
     "triggeringPaths": [
       "/sdk/sql/ci.yml"
     ],
-    "name": "azure-resourcemanager-sql"
+    "safeName": "azureresourcemanagersql",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagersql }}",
+    "groupId": "com.azure.resourcemanager"
   },
   "CIParameters": {
     "CIMatrixConfigs": []

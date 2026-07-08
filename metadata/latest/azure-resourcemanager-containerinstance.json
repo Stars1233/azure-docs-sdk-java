@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-containerinstance",
-  "Version": "2.53.9",
+  "Version": "2.53.12",
   "DevVersion": null,
   "DirectoryPath": "sdk/containerinstance/azure-resourcemanager-containerinstance",
   "ServiceDirectory": "containerinstance",
@@ -10,17 +10,17 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-containerinstance",
-  "ReleaseStatus": "2026-03-30",
+  "ReleaseStatus": "2026-07-07",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "releaseInBatch": "${{ parameters.release_azureresourcemanagercontainerinstance }}",
-    "safeName": "azureresourcemanagercontainerinstance",
-    "groupId": "com.azure.resourcemanager",
+    "name": "azure-resourcemanager-containerinstance",
     "triggeringPaths": [
       "/sdk/containerinstance/ci.yml"
     ],
-    "name": "azure-resourcemanager-containerinstance"
+    "safeName": "azureresourcemanagercontainerinstance",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagercontainerinstance }}",
+    "groupId": "com.azure.resourcemanager"
   },
   "CIParameters": {
     "CIMatrixConfigs": []

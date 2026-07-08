@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-compute",
-  "Version": "2.58.0",
+  "Version": "2.58.2",
   "DevVersion": null,
   "DirectoryPath": "sdk/compute/azure-resourcemanager-compute",
   "ServiceDirectory": "compute",
@@ -10,7 +10,7 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-compute",
-  "ReleaseStatus": "2026-06-17",
+  "ReleaseStatus": "2026-07-07",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
@@ -18,9 +18,9 @@
     "triggeringPaths": [
       "/sdk/compute/ci.yml"
     ],
-    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagercompute",
     "releaseInBatch": "${{ parameters.release_azureresourcemanagercompute }}",
-    "safeName": "azureresourcemanagercompute"
+    "groupId": "com.azure.resourcemanager"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
