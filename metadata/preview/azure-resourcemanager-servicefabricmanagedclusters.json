@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-servicefabricmanagedclusters",
-  "Version": "1.1.0-beta.3",
+  "Version": "1.2.0-beta.1",
   "DevVersion": null,
   "DirectoryPath": "sdk/servicefabricmanagedclusters/azure-resourcemanager-servicefabricmanagedclusters",
   "ServiceDirectory": "servicefabricmanagedclusters",
@@ -10,14 +10,14 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-servicefabricmanagedclusters",
-  "ReleaseStatus": "2025-11-10",
+  "ReleaseStatus": "2026-05-19",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "groupId": "com.azure.resourcemanager",
     "releaseInBatch": "${{ parameters.release_azureresourcemanagerservicefabricmanagedclusters }}",
     "safeName": "azureresourcemanagerservicefabricmanagedclusters",
     "name": "azure-resourcemanager-servicefabricmanagedclusters",
+    "groupId": "com.azure.resourcemanager",
     "triggeringPaths": [
       "/sdk/servicefabricmanagedclusters/ci.yml"
     ]
@@ -25,6 +25,7 @@
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": "specification/servicefabricmanagedclusters/resource-manager/Microsoft.ServiceFabric/ServiceFabricManagedClusters",
   "Namespaces": [
     "com.azure.resourcemanager.servicefabricmanagedclusters",
     "com.azure.resourcemanager.servicefabricmanagedclusters.fluent",
