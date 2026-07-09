@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-mongodbatlas",
-  "Version": "1.0.0-beta.1",
+  "Version": "1.1.0-beta.1",
   "DevVersion": null,
   "DirectoryPath": "sdk/mongodbatlas/azure-resourcemanager-mongodbatlas",
   "ServiceDirectory": "mongodbatlas",
@@ -10,21 +10,22 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-mongodbatlas",
-  "ReleaseStatus": "2025-05-09",
+  "ReleaseStatus": "2026-06-20",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
+    "name": "azure-resourcemanager-mongodbatlas",
     "safeName": "azureresourcemanagermongodbatlas",
+    "groupId": "com.azure.resourcemanager",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagermongodbatlas }}",
     "triggeringPaths": [
       "/sdk/mongodbatlas/ci.yml"
-    ],
-    "name": "azure-resourcemanager-mongodbatlas",
-    "releaseInBatch": "${{ parameters.release_azureresourcemanagermongodbatlas }}",
-    "groupId": "com.azure.resourcemanager"
+    ]
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": "specification/liftrmongodb/MongoDB.Atlas.Management",
   "Namespaces": [
     "com.azure.resourcemanager.mongodbatlas",
     "com.azure.resourcemanager.mongodbatlas.fluent",
