@@ -1,17 +1,17 @@
 ---
 title: Azure Resource Manager Batch client library for Java
 keywords: Azure, java, SDK, API, azure-resourcemanager-batch, batch
-ms.date: 09/26/2024
+ms.date: 07/09/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: batch
 ---
-# Azure Resource Manager Batch client library for Java - version 2.0.0 
+# Azure Resource Manager Batch client library for Java - version 3.0.0 
 
 
 Azure Resource Manager Batch client library for Java.
 
-This package contains Microsoft Azure SDK for Batch Management SDK. Batch Client. Package tag package-2024-07. For documentation on how to use this package, please see [Azure Management Libraries for Java](https://aka.ms/azsdk/java/mgmt).
+This package contains Microsoft Azure SDK for Batch Management SDK. The Batch Management Client. Package api-version 2025-06-01. For documentation on how to use this package, please see [Azure Management Libraries for Java](https://aka.ms/azsdk/java/mgmt).
 
 ## We'd love to hear your feedback
 
@@ -41,7 +41,7 @@ Various documentation is available to help you get started
 <dependency>
     <groupId>com.azure.resourcemanager</groupId>
     <artifactId>azure-resourcemanager-batch</artifactId>
-    <version>2.0.0</version>
+    <version>3.0.0</version>
 </dependency>
 ```
 [//]: # ({x-version-update-end})
@@ -61,7 +61,7 @@ Azure subscription ID can be configured via `AZURE_SUBSCRIPTION_ID` environment 
 Assuming the use of the `DefaultAzureCredential` credential class, the client can be authenticated using the following code:
 
 ```java
-AzureProfile profile = new AzureProfile(AzureEnvironment.AZURE);
+AzureProfile profile = new AzureProfile(AzureCloud.AZURE_PUBLIC_CLOUD);
 TokenCredential credential = new DefaultAzureCredentialBuilder()
     .authorityHost(profile.getEnvironment().getActiveDirectoryEndpoint())
     .build();
@@ -69,7 +69,7 @@ BatchManager manager = BatchManager
     .authenticate(credential, profile);
 ```
 
-The sample code assumes global Azure. Please change `AzureEnvironment.AZURE` variable if otherwise.
+The sample code assumes global Azure. Please change the `AzureCloud.AZURE_PUBLIC_CLOUD` variable if otherwise.
 
 See [Authentication][authenticate] for more options.
 
@@ -81,8 +81,7 @@ See [API design][design] for general introduction on design and key concepts on 
 
 ```java
 // batch account
-account = batchManager
-    .batchAccounts()
+account = batchManager.batchAccounts()
     .define(batchAccountName)
     .withRegion(REGION)
     .withExistingResourceGroup(resourceGroup)
@@ -93,25 +92,20 @@ pool = batchManager.pools()
     .define(poolName)
     .withExistingBatchAccount(resourceGroup, batchAccountName)
     .withDisplayName(poolDisplayName)
-    .withDeploymentConfiguration(
-        new DeploymentConfiguration()
-            .withVirtualMachineConfiguration(
-                new VirtualMachineConfiguration()
-                    .withImageReference(new ImageReference().withPublisher("Canonical")
-                        .withOffer("UbuntuServer").withSku("18.04-LTS").withVersion("latest"))
-                    .withNodeAgentSkuId("batch.node.ubuntu 18.04")))
-    .withScaleSettings(
-        new ScaleSettings()
-            .withFixedScale(
-                new FixedScaleSettings()
-                    .withResizeTimeout(Duration.parse("PT8M"))
-                    .withTargetDedicatedNodes(1)
-                    .withTargetLowPriorityNodes(1)
-                    .withNodeDeallocationOption(ComputeNodeDeallocationOption.TASK_COMPLETION)))
+    .withDeploymentConfiguration(new DeploymentConfiguration().withVirtualMachineConfiguration(
+        new VirtualMachineConfiguration().withImageReference(new ImageReference().withPublisher("Canonical")
+            .withOffer("UbuntuServer")
+            .withSku("18.04-LTS")
+            .withVersion("latest")).withNodeAgentSkuId("batch.node.ubuntu 18.04")))
+    .withScaleSettings(new ScaleSettings()
+        .withFixedScale(new FixedScaleSettings().withResizeTimeout(Duration.parse("PT8M"))
+            .withTargetDedicatedNodes(1)
+            .withTargetLowPriorityNodes(1)
+            .withNodeDeallocationOption(ComputeNodeDeallocationOption.TASK_COMPLETION)))
     .withVmSize("Standard_D1")
     .create();
 ```
-[Code snippets and samples](https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-batch_2.0.0/sdk/batch/azure-resourcemanager-batch/SAMPLE.md)
+[Code snippets and samples](https://github.com/Azure/azure-sdk-for-java/blob/com.azure.resourcemanager+azure-resourcemanager-batch_3.0.0/sdk/batch/azure-resourcemanager-batch/SAMPLE.md)
 
 
 ## Troubleshooting
@@ -133,14 +127,12 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
 [azure_subscription]: https://azure.microsoft.com/free/
-[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-batch_2.0.0/sdk/identity/azure-identity
-[azure_identity_credentials]: https://github.com/Azure/azure-sdk-for-java/tree/azure-resourcemanager-batch_2.0.0/sdk/identity/azure-identity#credentials
-[azure_core_http_netty]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-batch_2.0.0/sdk/core/azure-core-http-netty
-[authenticate]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-batch_2.0.0/sdk/resourcemanager/docs/AUTH.md
-[design]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-batch_2.0.0/sdk/resourcemanager/docs/DESIGN.md
-[cg]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-batch_2.0.0/CONTRIBUTING.md
+[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure.resourcemanager+azure-resourcemanager-batch_3.0.0/sdk/identity/azure-identity
+[azure_identity_credentials]: https://github.com/Azure/azure-sdk-for-java/tree/com.azure.resourcemanager+azure-resourcemanager-batch_3.0.0/sdk/identity/azure-identity#credentials
+[azure_core_http_netty]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure.resourcemanager+azure-resourcemanager-batch_3.0.0/sdk/core/azure-core-http-netty
+[authenticate]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure.resourcemanager+azure-resourcemanager-batch_3.0.0/sdk/resourcemanager/docs/AUTH.md
+[design]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure.resourcemanager+azure-resourcemanager-batch_3.0.0/sdk/resourcemanager/docs/DESIGN.md
+[cg]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure.resourcemanager+azure-resourcemanager-batch_3.0.0/CONTRIBUTING.md
 [coc]: https://opensource.microsoft.com/codeofconduct/
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/
-
-
 
