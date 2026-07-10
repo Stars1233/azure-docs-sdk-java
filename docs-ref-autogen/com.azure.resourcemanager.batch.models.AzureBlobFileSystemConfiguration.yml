@@ -34,9 +34,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration.accountKey()"
   name: "accountKey()"
   nameWithType: "AzureBlobFileSystemConfiguration.accountKey()"
-  summary: "Get the account<wbr>Key property: This property is mutually exclusive with both sas<wbr>Key and identity; exactly one must be specified."
+  summary: "Get the account<wbr>Key property: The Azure Storage Account key."
   syntax: "public String accountKey()"
-  desc: "Get the accountKey property: This property is mutually exclusive with both sasKey and identity; exactly one must be specified."
+  desc: "Get the accountKey property: The Azure Storage Account key. This property is mutually exclusive with both sasKey and identity; exactly one must be specified."
   returns:
     description: "the accountKey value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -54,9 +54,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration.blobfuseOptions()"
   name: "blobfuseOptions()"
   nameWithType: "AzureBlobFileSystemConfiguration.blobfuseOptions()"
-  summary: "Get the blobfuse<wbr>Options property: These are 'net use' options in Windows and 'mount' options in Linux."
+  summary: "Get the blobfuse<wbr>Options property: Additional command line options to pass to the mount command."
   syntax: "public String blobfuseOptions()"
-  desc: "Get the blobfuseOptions property: These are 'net use' options in Windows and 'mount' options in Linux."
+  desc: "Get the blobfuseOptions property: Additional command line options to pass to the mount command. These are 'net use' options in Windows and 'mount' options in Linux."
   returns:
     description: "the blobfuseOptions value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -93,9 +93,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration.identityReference()"
   name: "identityReference()"
   nameWithType: "AzureBlobFileSystemConfiguration.identityReference()"
-  summary: "Get the identity<wbr>Reference property: This property is mutually exclusive with both account<wbr>Key and sas<wbr>Key; exactly one must be specified."
+  summary: "Get the identity<wbr>Reference property: The reference to the user assigned identity to use to access container<wbr>Name This property is mutually exclusive with both account<wbr>Key and sas<wbr>Key; exactly one must be specified."
   syntax: "public ComputeNodeIdentityReference identityReference()"
-  desc: "Get the identityReference property: This property is mutually exclusive with both accountKey and sasKey; exactly one must be specified."
+  desc: "Get the identityReference property: The reference to the user assigned identity to use to access containerName This property is mutually exclusive with both accountKey and sasKey; exactly one must be specified."
   returns:
     description: "the identityReference value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.ComputeNodeIdentityReference?alt=com.azure.resourcemanager.batch.models.ComputeNodeIdentityReference&text=ComputeNodeIdentityReference\" data-throw-if-not-resolved=\"False\" />"
@@ -103,9 +103,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration.relativeMountPath()"
   name: "relativeMountPath()"
   nameWithType: "AzureBlobFileSystemConfiguration.relativeMountPath()"
-  summary: "Get the relative<wbr>Mount<wbr>Path property: All file systems are mounted relative to the Batch mounts directory, accessible via the AZ\\_BATCH\\_NODE\\_MOUNTS\\_DIR environment variable."
+  summary: "Get the relative<wbr>Mount<wbr>Path property: The relative path on the compute node where the file system will be mounted All file systems are mounted relative to the Batch mounts directory, accessible via the AZ\\_BATCH\\_NODE\\_MOUNTS\\_DIR environment variable."
   syntax: "public String relativeMountPath()"
-  desc: "Get the relativeMountPath property: All file systems are mounted relative to the Batch mounts directory, accessible via the AZ\\_BATCH\\_NODE\\_MOUNTS\\_DIR environment variable."
+  desc: "Get the relativeMountPath property: The relative path on the compute node where the file system will be mounted All file systems are mounted relative to the Batch mounts directory, accessible via the AZ\\_BATCH\\_NODE\\_MOUNTS\\_DIR environment variable."
   returns:
     description: "the relativeMountPath value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -113,9 +113,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration.sasKey()"
   name: "sasKey()"
   nameWithType: "AzureBlobFileSystemConfiguration.sasKey()"
-  summary: "Get the sas<wbr>Key property: This property is mutually exclusive with both account<wbr>Key and identity; exactly one must be specified."
+  summary: "Get the sas<wbr>Key property: The Azure Storage SAS token."
   syntax: "public String sasKey()"
-  desc: "Get the sasKey property: This property is mutually exclusive with both accountKey and identity; exactly one must be specified."
+  desc: "Get the sasKey property: The Azure Storage SAS token. This property is mutually exclusive with both accountKey and identity; exactly one must be specified."
   returns:
     description: "the sasKey value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -142,13 +142,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration.withAccountKey(String accountKey)"
   name: "withAccountKey(String accountKey)"
   nameWithType: "AzureBlobFileSystemConfiguration.withAccountKey(String accountKey)"
-  summary: "Set the account<wbr>Key property: This property is mutually exclusive with both sas<wbr>Key and identity; exactly one must be specified."
+  summary: "Set the account<wbr>Key property: The Azure Storage Account key."
   parameters:
   - description: "the accountKey value to set."
     name: "accountKey"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public AzureBlobFileSystemConfiguration withAccountKey(String accountKey)"
-  desc: "Set the accountKey property: This property is mutually exclusive with both sasKey and identity; exactly one must be specified."
+  desc: "Set the accountKey property: The Azure Storage Account key. This property is mutually exclusive with both sasKey and identity; exactly one must be specified."
   returns:
     description: "the AzureBlobFileSystemConfiguration object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration?alt=com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration&text=AzureBlobFileSystemConfiguration\" data-throw-if-not-resolved=\"False\" />"
@@ -170,13 +170,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration.withBlobfuseOptions(String blobfuseOptions)"
   name: "withBlobfuseOptions(String blobfuseOptions)"
   nameWithType: "AzureBlobFileSystemConfiguration.withBlobfuseOptions(String blobfuseOptions)"
-  summary: "Set the blobfuse<wbr>Options property: These are 'net use' options in Windows and 'mount' options in Linux."
+  summary: "Set the blobfuse<wbr>Options property: Additional command line options to pass to the mount command."
   parameters:
   - description: "the blobfuseOptions value to set."
     name: "blobfuseOptions"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public AzureBlobFileSystemConfiguration withBlobfuseOptions(String blobfuseOptions)"
-  desc: "Set the blobfuseOptions property: These are 'net use' options in Windows and 'mount' options in Linux."
+  desc: "Set the blobfuseOptions property: Additional command line options to pass to the mount command. These are 'net use' options in Windows and 'mount' options in Linux."
   returns:
     description: "the AzureBlobFileSystemConfiguration object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration?alt=com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration&text=AzureBlobFileSystemConfiguration\" data-throw-if-not-resolved=\"False\" />"
@@ -198,13 +198,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration.withIdentityReference(ComputeNodeIdentityReference identityReference)"
   name: "withIdentityReference(ComputeNodeIdentityReference identityReference)"
   nameWithType: "AzureBlobFileSystemConfiguration.withIdentityReference(ComputeNodeIdentityReference identityReference)"
-  summary: "Set the identity<wbr>Reference property: This property is mutually exclusive with both account<wbr>Key and sas<wbr>Key; exactly one must be specified."
+  summary: "Set the identity<wbr>Reference property: The reference to the user assigned identity to use to access container<wbr>Name This property is mutually exclusive with both account<wbr>Key and sas<wbr>Key; exactly one must be specified."
   parameters:
   - description: "the identityReference value to set."
     name: "identityReference"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.ComputeNodeIdentityReference?alt=com.azure.resourcemanager.batch.models.ComputeNodeIdentityReference&text=ComputeNodeIdentityReference\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public AzureBlobFileSystemConfiguration withIdentityReference(ComputeNodeIdentityReference identityReference)"
-  desc: "Set the identityReference property: This property is mutually exclusive with both accountKey and sasKey; exactly one must be specified."
+  desc: "Set the identityReference property: The reference to the user assigned identity to use to access containerName This property is mutually exclusive with both accountKey and sasKey; exactly one must be specified."
   returns:
     description: "the AzureBlobFileSystemConfiguration object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration?alt=com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration&text=AzureBlobFileSystemConfiguration\" data-throw-if-not-resolved=\"False\" />"
@@ -212,13 +212,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration.withRelativeMountPath(String relativeMountPath)"
   name: "withRelativeMountPath(String relativeMountPath)"
   nameWithType: "AzureBlobFileSystemConfiguration.withRelativeMountPath(String relativeMountPath)"
-  summary: "Set the relative<wbr>Mount<wbr>Path property: All file systems are mounted relative to the Batch mounts directory, accessible via the AZ\\_BATCH\\_NODE\\_MOUNTS\\_DIR environment variable."
+  summary: "Set the relative<wbr>Mount<wbr>Path property: The relative path on the compute node where the file system will be mounted All file systems are mounted relative to the Batch mounts directory, accessible via the AZ\\_BATCH\\_NODE\\_MOUNTS\\_DIR environment variable."
   parameters:
   - description: "the relativeMountPath value to set."
     name: "relativeMountPath"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public AzureBlobFileSystemConfiguration withRelativeMountPath(String relativeMountPath)"
-  desc: "Set the relativeMountPath property: All file systems are mounted relative to the Batch mounts directory, accessible via the AZ\\_BATCH\\_NODE\\_MOUNTS\\_DIR environment variable."
+  desc: "Set the relativeMountPath property: The relative path on the compute node where the file system will be mounted All file systems are mounted relative to the Batch mounts directory, accessible via the AZ\\_BATCH\\_NODE\\_MOUNTS\\_DIR environment variable."
   returns:
     description: "the AzureBlobFileSystemConfiguration object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration?alt=com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration&text=AzureBlobFileSystemConfiguration\" data-throw-if-not-resolved=\"False\" />"
@@ -226,13 +226,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration.withSasKey(String sasKey)"
   name: "withSasKey(String sasKey)"
   nameWithType: "AzureBlobFileSystemConfiguration.withSasKey(String sasKey)"
-  summary: "Set the sas<wbr>Key property: This property is mutually exclusive with both account<wbr>Key and identity; exactly one must be specified."
+  summary: "Set the sas<wbr>Key property: The Azure Storage SAS token."
   parameters:
   - description: "the sasKey value to set."
     name: "sasKey"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public AzureBlobFileSystemConfiguration withSasKey(String sasKey)"
-  desc: "Set the sasKey property: This property is mutually exclusive with both accountKey and identity; exactly one must be specified."
+  desc: "Set the sasKey property: The Azure Storage SAS token. This property is mutually exclusive with both accountKey and identity; exactly one must be specified."
   returns:
     description: "the AzureBlobFileSystemConfiguration object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration?alt=com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration&text=AzureBlobFileSystemConfiguration\" data-throw-if-not-resolved=\"False\" />"
@@ -242,4 +242,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration?alt=com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration&text=AzureBlobFileSystemConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

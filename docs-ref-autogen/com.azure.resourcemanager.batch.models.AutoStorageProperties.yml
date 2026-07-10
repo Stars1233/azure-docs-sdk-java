@@ -33,14 +33,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **AutoStorageProperties**</br> extends <xref href=\"com.azure.resourcemanager.batch.models.AutoStorageBaseProperties?alt=com.azure.resourcemanager.batch.models.AutoStorageBaseProperties&text=AutoStorageBaseProperties\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.resourcemanager.batch.models.AutoStorageProperties.AutoStorageProperties()"
-  fullName: "com.azure.resourcemanager.batch.models.AutoStorageProperties.AutoStorageProperties()"
-  name: "AutoStorageProperties()"
-  nameWithType: "AutoStorageProperties.AutoStorageProperties()"
-  summary: "Creates an instance of Auto<wbr>Storage<wbr>Properties class."
-  syntax: "public AutoStorageProperties()"
-  desc: "Creates an instance of AutoStorageProperties class."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.AutoStorageProperties.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.batch.models.AutoStorageProperties.fromJson(JsonReader jsonReader)"
@@ -92,61 +84,8 @@ methods:
   overridden: "com.azure.resourcemanager.batch.models.AutoStorageBaseProperties.validate()"
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.batch.models.AutoStorageProperties.withAuthenticationMode(com.azure.resourcemanager.batch.models.AutoStorageAuthenticationMode)"
-  fullName: "com.azure.resourcemanager.batch.models.AutoStorageProperties.withAuthenticationMode(AutoStorageAuthenticationMode authenticationMode)"
-  name: "withAuthenticationMode(AutoStorageAuthenticationMode authenticationMode)"
-  nameWithType: "AutoStorageProperties.withAuthenticationMode(AutoStorageAuthenticationMode authenticationMode)"
-  summary: "Set the authentication<wbr>Mode property: The authentication mode which the Batch service will use to manage the auto-storage account."
-  overridden: "com.azure.resourcemanager.batch.models.AutoStorageBaseProperties.withAuthenticationMode(com.azure.resourcemanager.batch.models.AutoStorageAuthenticationMode)"
-  parameters:
-  - name: "authenticationMode"
-    type: "<xref href=\"com.azure.resourcemanager.batch.models.AutoStorageAuthenticationMode?alt=com.azure.resourcemanager.batch.models.AutoStorageAuthenticationMode&text=AutoStorageAuthenticationMode\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public AutoStorageProperties withAuthenticationMode(AutoStorageAuthenticationMode authenticationMode)"
-  desc: "Set the authenticationMode property: The authentication mode which the Batch service will use to manage the auto-storage account."
-  returns:
-    type: "<xref href=\"com.azure.resourcemanager.batch.models.AutoStorageProperties?alt=com.azure.resourcemanager.batch.models.AutoStorageProperties&text=AutoStorageProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.batch.models.AutoStorageProperties.withLastKeySync(java.time.OffsetDateTime)"
-  fullName: "com.azure.resourcemanager.batch.models.AutoStorageProperties.withLastKeySync(OffsetDateTime lastKeySync)"
-  name: "withLastKeySync(OffsetDateTime lastKeySync)"
-  nameWithType: "AutoStorageProperties.withLastKeySync(OffsetDateTime lastKeySync)"
-  summary: "Set the last<wbr>Key<wbr>Sync property: The UTC time at which storage keys were last synchronized with the Batch account."
-  parameters:
-  - description: "the lastKeySync value to set."
-    name: "lastKeySync"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
-  syntax: "public AutoStorageProperties withLastKeySync(OffsetDateTime lastKeySync)"
-  desc: "Set the lastKeySync property: The UTC time at which storage keys were last synchronized with the Batch account."
-  returns:
-    description: "the AutoStorageProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.batch.models.AutoStorageProperties?alt=com.azure.resourcemanager.batch.models.AutoStorageProperties&text=AutoStorageProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.batch.models.AutoStorageProperties.withNodeIdentityReference(com.azure.resourcemanager.batch.models.ComputeNodeIdentityReference)"
-  fullName: "com.azure.resourcemanager.batch.models.AutoStorageProperties.withNodeIdentityReference(ComputeNodeIdentityReference nodeIdentityReference)"
-  name: "withNodeIdentityReference(ComputeNodeIdentityReference nodeIdentityReference)"
-  nameWithType: "AutoStorageProperties.withNodeIdentityReference(ComputeNodeIdentityReference nodeIdentityReference)"
-  summary: "Set the node<wbr>Identity<wbr>Reference property: The identity referenced here must be assigned to pools which have compute nodes that need access to auto-storage."
-  overridden: "com.azure.resourcemanager.batch.models.AutoStorageBaseProperties.withNodeIdentityReference(com.azure.resourcemanager.batch.models.ComputeNodeIdentityReference)"
-  parameters:
-  - name: "nodeIdentityReference"
-    type: "<xref href=\"com.azure.resourcemanager.batch.models.ComputeNodeIdentityReference?alt=com.azure.resourcemanager.batch.models.ComputeNodeIdentityReference&text=ComputeNodeIdentityReference\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public AutoStorageProperties withNodeIdentityReference(ComputeNodeIdentityReference nodeIdentityReference)"
-  desc: "Set the nodeIdentityReference property: The identity referenced here must be assigned to pools which have compute nodes that need access to auto-storage."
-  returns:
-    type: "<xref href=\"com.azure.resourcemanager.batch.models.AutoStorageProperties?alt=com.azure.resourcemanager.batch.models.AutoStorageProperties&text=AutoStorageProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.batch.models.AutoStorageProperties.withStorageAccountId(java.lang.String)"
-  fullName: "com.azure.resourcemanager.batch.models.AutoStorageProperties.withStorageAccountId(String storageAccountId)"
-  name: "withStorageAccountId(String storageAccountId)"
-  nameWithType: "AutoStorageProperties.withStorageAccountId(String storageAccountId)"
-  summary: "Set the storage<wbr>Account<wbr>Id property: The resource ID of the storage account to be used for auto-storage account."
-  overridden: "com.azure.resourcemanager.batch.models.AutoStorageBaseProperties.withStorageAccountId(java.lang.String)"
-  parameters:
-  - name: "storageAccountId"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public AutoStorageProperties withStorageAccountId(String storageAccountId)"
-  desc: "Set the storageAccountId property: The resource ID of the storage account to be used for auto-storage account."
-  returns:
-    type: "<xref href=\"com.azure.resourcemanager.batch.models.AutoStorageProperties?alt=com.azure.resourcemanager.batch.models.AutoStorageProperties&text=AutoStorageProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Contains information about the auto-storage account associated with a Batch account."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

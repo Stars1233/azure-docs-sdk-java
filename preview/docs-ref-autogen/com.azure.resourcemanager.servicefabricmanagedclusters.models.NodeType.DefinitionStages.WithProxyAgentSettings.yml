@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.NodeType.DefinitionStages.WithProxyAgentSettings"
+fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.NodeType.DefinitionStages.WithProxyAgentSettings"
+name: "NodeType.DefinitionStages.WithProxyAgentSettings"
+nameWithType: "NodeType.DefinitionStages.WithProxyAgentSettings"
+summary: "The stage of the Node<wbr>Type definition allowing to specify proxy<wbr>Agent<wbr>Settings."
+syntax: "public static interface **NodeType.DefinitionStages.WithProxyAgentSettings**"
+methods:
+- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.NodeType.DefinitionStages.WithProxyAgentSettings.withProxyAgentSettings(com.azure.resourcemanager.servicefabricmanagedclusters.models.ProxyAgentSettings)"
+  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.NodeType.DefinitionStages.WithProxyAgentSettings.withProxyAgentSettings(ProxyAgentSettings proxyAgentSettings)"
+  name: "withProxyAgentSettings(ProxyAgentSettings proxyAgentSettings)"
+  nameWithType: "NodeType.DefinitionStages.WithProxyAgentSettings.withProxyAgentSettings(ProxyAgentSettings proxyAgentSettings)"
+  summary: "Specifies the proxy<wbr>Agent<wbr>Settings property: Specifies the settings for the proxy agent on the node type.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Specifies the settings for the proxy agent on the node type."
+    name: "proxyAgentSettings"
+    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.models.ProxyAgentSettings?alt=com.azure.resourcemanager.servicefabricmanagedclusters.models.ProxyAgentSettings&text=ProxyAgentSettings\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NodeType.DefinitionStages.WithCreate withProxyAgentSettings(ProxyAgentSettings proxyAgentSettings)"
+  desc: "Specifies the proxyAgentSettings property: Specifies the settings for the proxy agent on the node type.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.models.NodeType.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.servicefabricmanagedclusters.models.NodeType.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NodeType definition allowing to specify proxyAgentSettings."
+metadata: {}
+package: "com.azure.resourcemanager.servicefabricmanagedclusters.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabricmanagedclusters:1.2.0-beta.1

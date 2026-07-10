@@ -35,14 +35,14 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.NameAvailabilityReason.ALREADY_EXISTS"
   name: "ALREADY_EXISTS"
   nameWithType: "NameAvailabilityReason.ALREADY_EXISTS"
-  summary: "Enum value Already<wbr>Exists."
-  desc: "Enum value AlreadyExists."
+  summary: "The requested name is already in use."
+  desc: "The requested name is already in use."
 - uid: "com.azure.resourcemanager.batch.models.NameAvailabilityReason.INVALID"
   fullName: "com.azure.resourcemanager.batch.models.NameAvailabilityReason.INVALID"
   name: "INVALID"
   nameWithType: "NameAvailabilityReason.INVALID"
-  summary: "Enum value Invalid."
-  desc: "Enum value Invalid."
+  summary: "The requested name is invalid."
+  desc: "The requested name is invalid."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.NameAvailabilityReason.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.NameAvailabilityReason.fromString(String value)"
@@ -92,4 +92,4 @@ methods:
 desc: "Gets the reason that a Batch account name could not be used. The Reason element is only returned if NameAvailable is false."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

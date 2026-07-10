@@ -35,20 +35,20 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.UpgradeMode.AUTOMATIC"
   name: "AUTOMATIC"
   nameWithType: "UpgradeMode.AUTOMATIC"
-  summary: "Enum value automatic."
-  desc: "Enum value automatic."
+  summary: "All virtual machines in the scale set are automatically updated at the same time."
+  desc: "All virtual machines in the scale set are automatically updated at the same time."
 - uid: "com.azure.resourcemanager.batch.models.UpgradeMode.MANUAL"
   fullName: "com.azure.resourcemanager.batch.models.UpgradeMode.MANUAL"
   name: "MANUAL"
   nameWithType: "UpgradeMode.MANUAL"
-  summary: "Enum value manual."
-  desc: "Enum value manual."
+  summary: "You control the application of updates to virtual machines in the scale set."
+  desc: "You control the application of updates to virtual machines in the scale set. You do this by using the manualUpgrade action."
 - uid: "com.azure.resourcemanager.batch.models.UpgradeMode.ROLLING"
   fullName: "com.azure.resourcemanager.batch.models.UpgradeMode.ROLLING"
   name: "ROLLING"
   nameWithType: "UpgradeMode.ROLLING"
-  summary: "Enum value rolling."
-  desc: "Enum value rolling."
+  summary: "The existing instances in a scale set are brought down in batches to be upgraded."
+  desc: "The existing instances in a scale set are brought down in batches to be upgraded. Once the upgraded batch is complete, the instances will begin taking traffic again and the next batch will begin. This continues until all instances brought up-to-date."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.UpgradeMode.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.UpgradeMode.fromString(String value)"
@@ -98,4 +98,4 @@ methods:
 desc: "Specifies the mode of an upgrade to virtual machines in the scale set.<br /><br /> Possible values are:<br /><br /> \\*\\*Manual\\*\\* - You control the application of updates to virtual machines in the scale set. You do this by using the manualUpgrade action.<br /><br /> \\*\\*Automatic\\*\\* - All virtual machines in the scale set are automatically updated at the same time.<br /><br /> \\*\\*Rolling\\*\\* - Scale set performs updates in batches with an optional pause time in between."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

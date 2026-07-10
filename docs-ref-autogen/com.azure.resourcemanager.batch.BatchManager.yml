@@ -90,16 +90,6 @@ methods:
   returns:
     description: "Resource collection API of BatchAccounts."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.BatchAccounts?alt=com.azure.resourcemanager.batch.models.BatchAccounts&text=BatchAccounts\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.batch.BatchManager.certificates()"
-  fullName: "com.azure.resourcemanager.batch.BatchManager.certificates()"
-  name: "certificates()"
-  nameWithType: "BatchManager.certificates()"
-  summary: "Gets the resource collection API of Certificates."
-  syntax: "public Certificates certificates()"
-  desc: "Gets the resource collection API of Certificates. It manages Certificate."
-  returns:
-    description: "Resource collection API of Certificates."
-    type: "<xref href=\"com.azure.resourcemanager.batch.models.Certificates?alt=com.azure.resourcemanager.batch.models.Certificates&text=Certificates\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.batch.BatchManager.configure()"
   fullName: "com.azure.resourcemanager.batch.BatchManager.configure()"
   name: "configure()"
@@ -183,7 +173,7 @@ methods:
     description: "Wrapped service client BatchManagementClient."
     type: "<xref href=\"com.azure.resourcemanager.batch.fluent.BatchManagementClient?alt=com.azure.resourcemanager.batch.fluent.BatchManagementClient&text=BatchManagementClient\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "Entry point to BatchManager. Batch Client."
+desc: "Entry point to BatchManager. The Batch Management Client."
 metadata: {}
 package: "com.azure.resourcemanager.batch"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

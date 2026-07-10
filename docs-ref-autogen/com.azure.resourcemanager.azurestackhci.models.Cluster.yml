@@ -66,6 +66,18 @@ methods:
   returns:
     description: "the billingModel value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.azurestackhci.models.Cluster.billingProperties()"
+  fullName: "com.azure.resourcemanager.azurestackhci.models.Cluster.billingProperties()"
+  name: "billingProperties()"
+  nameWithType: "Cluster.billingProperties()"
+  summary: "Gets the billing<wbr>Properties property: Billing properties of the cluster, including upcoming billing model details."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ClusterBillingProperties billingProperties()"
+  desc: "Gets the billingProperties property: Billing properties of the cluster, including upcoming billing model details."
+  returns:
+    description: "the billingProperties value."
+    type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.ClusterBillingProperties?alt=com.azure.resourcemanager.azurestackhci.models.ClusterBillingProperties&text=ClusterBillingProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.models.Cluster.cloudId()"
   fullName: "com.azure.resourcemanager.azurestackhci.models.Cluster.cloudId()"
   name: "cloudId()"
@@ -116,7 +128,7 @@ methods:
   syntax: "public abstract Cluster configureRemoteSupport(RemoteSupportRequest remoteSupportRequest)"
   desc: "Configure RemoteSupport on a cluster."
   returns:
-    description: "the response."
+    description: "cluster details."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.Cluster?alt=com.azure.resourcemanager.azurestackhci.models.Cluster&text=Cluster\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.models.Cluster.configureRemoteSupport(com.azure.resourcemanager.azurestackhci.models.RemoteSupportRequest,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.azurestackhci.models.Cluster.configureRemoteSupport(RemoteSupportRequest remoteSupportRequest, Context context)"
@@ -135,7 +147,7 @@ methods:
   syntax: "public abstract Cluster configureRemoteSupport(RemoteSupportRequest remoteSupportRequest, Context context)"
   desc: "Configure RemoteSupport on a cluster."
   returns:
-    description: "the response."
+    description: "cluster details."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.Cluster?alt=com.azure.resourcemanager.azurestackhci.models.Cluster&text=Cluster\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.models.Cluster.connectivityStatus()"
   fullName: "com.azure.resourcemanager.azurestackhci.models.Cluster.connectivityStatus()"
@@ -203,7 +215,7 @@ methods:
   syntax: "public abstract Cluster extendSoftwareAssuranceBenefit(SoftwareAssuranceChangeRequest softwareAssuranceChangeRequest)"
   desc: "Extends Software Assurance Benefit to a cluster."
   returns:
-    description: "the response."
+    description: "cluster details."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.Cluster?alt=com.azure.resourcemanager.azurestackhci.models.Cluster&text=Cluster\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.models.Cluster.extendSoftwareAssuranceBenefit(com.azure.resourcemanager.azurestackhci.models.SoftwareAssuranceChangeRequest,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.azurestackhci.models.Cluster.extendSoftwareAssuranceBenefit(SoftwareAssuranceChangeRequest softwareAssuranceChangeRequest, Context context)"
@@ -222,7 +234,7 @@ methods:
   syntax: "public abstract Cluster extendSoftwareAssuranceBenefit(SoftwareAssuranceChangeRequest softwareAssuranceChangeRequest, Context context)"
   desc: "Extends Software Assurance Benefit to a cluster."
   returns:
-    description: "the response."
+    description: "cluster details."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.Cluster?alt=com.azure.resourcemanager.azurestackhci.models.Cluster&text=Cluster\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.models.Cluster.id()"
   fullName: "com.azure.resourcemanager.azurestackhci.models.Cluster.id()"
@@ -284,6 +296,18 @@ methods:
   returns:
     description: "the isolatedVmAttestationConfiguration value."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.IsolatedVmAttestationConfiguration?alt=com.azure.resourcemanager.azurestackhci.models.IsolatedVmAttestationConfiguration&text=IsolatedVmAttestationConfiguration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.azurestackhci.models.Cluster.kind()"
+  fullName: "com.azure.resourcemanager.azurestackhci.models.Cluster.kind()"
+  name: "kind()"
+  nameWithType: "Cluster.kind()"
+  summary: "Gets the kind property: This property identifies the purpose of the Cluster deployment."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String kind()"
+  desc: "Gets the kind property: This property identifies the purpose of the Cluster deployment. For example, a valid value is AzureLocal."
+  returns:
+    description: "the kind value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.azurestackhci.models.Cluster.lastBillingTimestamp()"
   fullName: "com.azure.resourcemanager.azurestackhci.models.Cluster.lastBillingTimestamp()"
   name: "lastBillingTimestamp()"
@@ -540,6 +564,18 @@ methods:
   returns:
     description: "the status value."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.Status?alt=com.azure.resourcemanager.azurestackhci.models.Status&text=Status\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.azurestackhci.models.Cluster.storageType()"
+  fullName: "com.azure.resourcemanager.azurestackhci.models.Cluster.storageType()"
+  name: "storageType()"
+  nameWithType: "Cluster.storageType()"
+  summary: "Gets the storage<wbr>Type property: Storage type of the cluster."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract StorageType storageType()"
+  desc: "Gets the storageType property: Storage type of the cluster. Indicates whether the cluster uses S2D, SAN, or a combination."
+  returns:
+    description: "the storageType value."
+    type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.StorageType?alt=com.azure.resourcemanager.azurestackhci.models.StorageType&text=StorageType\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.models.Cluster.systemData()"
   fullName: "com.azure.resourcemanager.azurestackhci.models.Cluster.systemData()"
   name: "systemData()"
@@ -602,7 +638,7 @@ methods:
   syntax: "public abstract Cluster triggerLogCollection(LogCollectionRequest logCollectionRequest)"
   desc: "Trigger Log Collection on a cluster."
   returns:
-    description: "the response."
+    description: "cluster details."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.Cluster?alt=com.azure.resourcemanager.azurestackhci.models.Cluster&text=Cluster\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.models.Cluster.triggerLogCollection(com.azure.resourcemanager.azurestackhci.models.LogCollectionRequest,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.azurestackhci.models.Cluster.triggerLogCollection(LogCollectionRequest logCollectionRequest, Context context)"
@@ -621,7 +657,7 @@ methods:
   syntax: "public abstract Cluster triggerLogCollection(LogCollectionRequest logCollectionRequest, Context context)"
   desc: "Trigger Log Collection on a cluster."
   returns:
-    description: "the response."
+    description: "cluster details."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.Cluster?alt=com.azure.resourcemanager.azurestackhci.models.Cluster&text=Cluster\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.models.Cluster.type()"
   fullName: "com.azure.resourcemanager.azurestackhci.models.Cluster.type()"
@@ -673,7 +709,7 @@ methods:
   syntax: "public abstract Cluster updateSecretsLocations(SecretsLocationsChangeRequest body)"
   desc: "Update cluster secrets locations."
   returns:
-    description: "the response."
+    description: "cluster details."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.Cluster?alt=com.azure.resourcemanager.azurestackhci.models.Cluster&text=Cluster\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.models.Cluster.updateSecretsLocations(com.azure.resourcemanager.azurestackhci.models.SecretsLocationsChangeRequest,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.azurestackhci.models.Cluster.updateSecretsLocations(SecretsLocationsChangeRequest body, Context context)"
@@ -692,7 +728,7 @@ methods:
   syntax: "public abstract Cluster updateSecretsLocations(SecretsLocationsChangeRequest body, Context context)"
   desc: "Update cluster secrets locations."
   returns:
-    description: "the response."
+    description: "cluster details."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.Cluster?alt=com.azure.resourcemanager.azurestackhci.models.Cluster&text=Cluster\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.models.Cluster.uploadCertificate(com.azure.resourcemanager.azurestackhci.models.UploadCertificateRequest)"
   fullName: "com.azure.resourcemanager.azurestackhci.models.Cluster.uploadCertificate(UploadCertificateRequest uploadCertificateRequest)"
@@ -739,4 +775,4 @@ type: "interface"
 desc: "An immutable client-side representation of Cluster."
 metadata: {}
 package: "com.azure.resourcemanager.azurestackhci.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-azurestackhci:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-azurestackhci:1.1.0

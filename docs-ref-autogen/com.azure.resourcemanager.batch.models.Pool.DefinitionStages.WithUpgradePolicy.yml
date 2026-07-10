@@ -10,15 +10,15 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.Pool.DefinitionStages.WithUpgradePolicy.withUpgradePolicy(UpgradePolicy upgradePolicy)"
   name: "withUpgradePolicy(UpgradePolicy upgradePolicy)"
   nameWithType: "Pool.DefinitionStages.WithUpgradePolicy.withUpgradePolicy(UpgradePolicy upgradePolicy)"
-  summary: "Specifies the upgrade<wbr>Policy property: Describes an upgrade policy - automatic, manual, or rolling.."
+  summary: "Specifies the upgrade<wbr>Policy property: The upgrade policy for the pool."
   modifiers:
   - "abstract"
   parameters:
-  - description: "Describes an upgrade policy - automatic, manual, or rolling."
+  - description: "The upgrade policy for the pool.\n \n Describes an upgrade policy - automatic, manual, or rolling."
     name: "upgradePolicy"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.UpgradePolicy?alt=com.azure.resourcemanager.batch.models.UpgradePolicy&text=UpgradePolicy\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Pool.DefinitionStages.WithCreate withUpgradePolicy(UpgradePolicy upgradePolicy)"
-  desc: "Specifies the upgradePolicy property: Describes an upgrade policy - automatic, manual, or rolling.."
+  desc: "Specifies the upgradePolicy property: The upgrade policy for the pool. Describes an upgrade policy - automatic, manual, or rolling.."
   returns:
     description: "the next definition stage."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.Pool.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.batch.models.Pool.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the Pool definition allowing to specify upgradePolicy."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

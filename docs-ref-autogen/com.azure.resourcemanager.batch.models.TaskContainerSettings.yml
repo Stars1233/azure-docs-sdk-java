@@ -34,9 +34,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.TaskContainerSettings.containerHostBatchBindMounts()"
   name: "containerHostBatchBindMounts()"
   nameWithType: "TaskContainerSettings.containerHostBatchBindMounts()"
-  summary: "Get the container<wbr>Host<wbr>Batch<wbr>Bind<wbr>Mounts property: If this array is null or be not present, container task will mount entire temporary disk drive in windows (or AZ\\_BATCH\\_NODE\\_ROOT\\_DIR in Linux)."
+  summary: "Get the container<wbr>Host<wbr>Batch<wbr>Bind<wbr>Mounts property: The paths you want to mounted to container task."
   syntax: "public List<ContainerHostBatchBindMountEntry> containerHostBatchBindMounts()"
-  desc: "Get the containerHostBatchBindMounts property: If this array is null or be not present, container task will mount entire temporary disk drive in windows (or AZ\\_BATCH\\_NODE\\_ROOT\\_DIR in Linux). It won't' mount any data paths into container if this array is set as empty."
+  desc: "Get the containerHostBatchBindMounts property: The paths you want to mounted to container task. If this array is null or be not present, container task will mount entire temporary disk drive in windows (or AZ\\_BATCH\\_NODE\\_ROOT\\_DIR in Linux). It won't' mount any data paths into container if this array is set as empty."
   returns:
     description: "the containerHostBatchBindMounts value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.batch.models.ContainerHostBatchBindMountEntry?alt=com.azure.resourcemanager.batch.models.ContainerHostBatchBindMountEntry&text=ContainerHostBatchBindMountEntry\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -44,9 +44,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.TaskContainerSettings.containerRunOptions()"
   name: "containerRunOptions()"
   nameWithType: "TaskContainerSettings.containerRunOptions()"
-  summary: "Get the container<wbr>Run<wbr>Options property: These additional options are supplied as arguments to the \"docker create\" command, in addition to those controlled by the Batch Service."
+  summary: "Get the container<wbr>Run<wbr>Options property: Additional options to the container create command."
   syntax: "public String containerRunOptions()"
-  desc: "Get the containerRunOptions property: These additional options are supplied as arguments to the \"docker create\" command, in addition to those controlled by the Batch Service."
+  desc: "Get the containerRunOptions property: Additional options to the container create command. These additional options are supplied as arguments to the \"docker create\" command, in addition to those controlled by the Batch Service."
   returns:
     description: "the containerRunOptions value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -73,9 +73,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.TaskContainerSettings.imageName()"
   name: "imageName()"
   nameWithType: "TaskContainerSettings.imageName()"
-  summary: "Get the image<wbr>Name property: This is the full image reference, as would be specified to \"docker pull\"."
+  summary: "Get the image<wbr>Name property: The image to use to create the container in which the task will run."
   syntax: "public String imageName()"
-  desc: "Get the imageName property: This is the full image reference, as would be specified to \"docker pull\". If no tag is provided as part of the image name, the tag \":latest\" is used as a default."
+  desc: "Get the imageName property: The image to use to create the container in which the task will run. This is the full image reference, as would be specified to \"docker pull\". If no tag is provided as part of the image name, the tag \":latest\" is used as a default."
   returns:
     description: "the imageName value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -83,9 +83,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.TaskContainerSettings.registry()"
   name: "registry()"
   nameWithType: "TaskContainerSettings.registry()"
-  summary: "Get the registry property: This setting can be omitted if was already provided at pool creation."
+  summary: "Get the registry property: The private registry which contains the container image."
   syntax: "public ContainerRegistry registry()"
-  desc: "Get the registry property: This setting can be omitted if was already provided at pool creation."
+  desc: "Get the registry property: The private registry which contains the container image. This setting can be omitted if was already provided at pool creation."
   returns:
     description: "the registry value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.ContainerRegistry?alt=com.azure.resourcemanager.batch.models.ContainerRegistry&text=ContainerRegistry\" data-throw-if-not-resolved=\"False\" />"
@@ -112,13 +112,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.TaskContainerSettings.withContainerHostBatchBindMounts(List<ContainerHostBatchBindMountEntry> containerHostBatchBindMounts)"
   name: "withContainerHostBatchBindMounts(List<ContainerHostBatchBindMountEntry> containerHostBatchBindMounts)"
   nameWithType: "TaskContainerSettings.withContainerHostBatchBindMounts(List<ContainerHostBatchBindMountEntry> containerHostBatchBindMounts)"
-  summary: "Set the container<wbr>Host<wbr>Batch<wbr>Bind<wbr>Mounts property: If this array is null or be not present, container task will mount entire temporary disk drive in windows (or AZ\\_BATCH\\_NODE\\_ROOT\\_DIR in Linux)."
+  summary: "Set the container<wbr>Host<wbr>Batch<wbr>Bind<wbr>Mounts property: The paths you want to mounted to container task."
   parameters:
   - description: "the containerHostBatchBindMounts value to set."
     name: "containerHostBatchBindMounts"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.batch.models.ContainerHostBatchBindMountEntry?alt=com.azure.resourcemanager.batch.models.ContainerHostBatchBindMountEntry&text=ContainerHostBatchBindMountEntry\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public TaskContainerSettings withContainerHostBatchBindMounts(List<ContainerHostBatchBindMountEntry> containerHostBatchBindMounts)"
-  desc: "Set the containerHostBatchBindMounts property: If this array is null or be not present, container task will mount entire temporary disk drive in windows (or AZ\\_BATCH\\_NODE\\_ROOT\\_DIR in Linux). It won't' mount any data paths into container if this array is set as empty."
+  desc: "Set the containerHostBatchBindMounts property: The paths you want to mounted to container task. If this array is null or be not present, container task will mount entire temporary disk drive in windows (or AZ\\_BATCH\\_NODE\\_ROOT\\_DIR in Linux). It won't' mount any data paths into container if this array is set as empty."
   returns:
     description: "the TaskContainerSettings object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.TaskContainerSettings?alt=com.azure.resourcemanager.batch.models.TaskContainerSettings&text=TaskContainerSettings\" data-throw-if-not-resolved=\"False\" />"
@@ -126,13 +126,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.TaskContainerSettings.withContainerRunOptions(String containerRunOptions)"
   name: "withContainerRunOptions(String containerRunOptions)"
   nameWithType: "TaskContainerSettings.withContainerRunOptions(String containerRunOptions)"
-  summary: "Set the container<wbr>Run<wbr>Options property: These additional options are supplied as arguments to the \"docker create\" command, in addition to those controlled by the Batch Service."
+  summary: "Set the container<wbr>Run<wbr>Options property: Additional options to the container create command."
   parameters:
   - description: "the containerRunOptions value to set."
     name: "containerRunOptions"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public TaskContainerSettings withContainerRunOptions(String containerRunOptions)"
-  desc: "Set the containerRunOptions property: These additional options are supplied as arguments to the \"docker create\" command, in addition to those controlled by the Batch Service."
+  desc: "Set the containerRunOptions property: Additional options to the container create command. These additional options are supplied as arguments to the \"docker create\" command, in addition to those controlled by the Batch Service."
   returns:
     description: "the TaskContainerSettings object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.TaskContainerSettings?alt=com.azure.resourcemanager.batch.models.TaskContainerSettings&text=TaskContainerSettings\" data-throw-if-not-resolved=\"False\" />"
@@ -140,13 +140,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.TaskContainerSettings.withImageName(String imageName)"
   name: "withImageName(String imageName)"
   nameWithType: "TaskContainerSettings.withImageName(String imageName)"
-  summary: "Set the image<wbr>Name property: This is the full image reference, as would be specified to \"docker pull\"."
+  summary: "Set the image<wbr>Name property: The image to use to create the container in which the task will run."
   parameters:
   - description: "the imageName value to set."
     name: "imageName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public TaskContainerSettings withImageName(String imageName)"
-  desc: "Set the imageName property: This is the full image reference, as would be specified to \"docker pull\". If no tag is provided as part of the image name, the tag \":latest\" is used as a default."
+  desc: "Set the imageName property: The image to use to create the container in which the task will run. This is the full image reference, as would be specified to \"docker pull\". If no tag is provided as part of the image name, the tag \":latest\" is used as a default."
   returns:
     description: "the TaskContainerSettings object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.TaskContainerSettings?alt=com.azure.resourcemanager.batch.models.TaskContainerSettings&text=TaskContainerSettings\" data-throw-if-not-resolved=\"False\" />"
@@ -154,13 +154,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.TaskContainerSettings.withRegistry(ContainerRegistry registry)"
   name: "withRegistry(ContainerRegistry registry)"
   nameWithType: "TaskContainerSettings.withRegistry(ContainerRegistry registry)"
-  summary: "Set the registry property: This setting can be omitted if was already provided at pool creation."
+  summary: "Set the registry property: The private registry which contains the container image."
   parameters:
   - description: "the registry value to set."
     name: "registry"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.ContainerRegistry?alt=com.azure.resourcemanager.batch.models.ContainerRegistry&text=ContainerRegistry\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public TaskContainerSettings withRegistry(ContainerRegistry registry)"
-  desc: "Set the registry property: This setting can be omitted if was already provided at pool creation."
+  desc: "Set the registry property: The private registry which contains the container image. This setting can be omitted if was already provided at pool creation."
   returns:
     description: "the TaskContainerSettings object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.TaskContainerSettings?alt=com.azure.resourcemanager.batch.models.TaskContainerSettings&text=TaskContainerSettings\" data-throw-if-not-resolved=\"False\" />"
@@ -194,4 +194,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.TaskContainerSettings?alt=com.azure.resourcemanager.batch.models.TaskContainerSettings&text=TaskContainerSettings\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

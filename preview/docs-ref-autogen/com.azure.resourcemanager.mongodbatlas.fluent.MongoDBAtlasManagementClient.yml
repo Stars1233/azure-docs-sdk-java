@@ -18,6 +18,18 @@ methods:
   returns:
     description: "the apiVersion value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.mongodbatlas.fluent.MongoDBAtlasManagementClient.getClusters()"
+  fullName: "com.azure.resourcemanager.mongodbatlas.fluent.MongoDBAtlasManagementClient.getClusters()"
+  name: "getClusters()"
+  nameWithType: "MongoDBAtlasManagementClient.getClusters()"
+  summary: "Gets the Clusters<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ClustersClient getClusters()"
+  desc: "Gets the ClustersClient object to access its operations."
+  returns:
+    description: "the ClustersClient object."
+    type: "<xref href=\"com.azure.resourcemanager.mongodbatlas.fluent.ClustersClient?alt=com.azure.resourcemanager.mongodbatlas.fluent.ClustersClient&text=ClustersClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.mongodbatlas.fluent.MongoDBAtlasManagementClient.getDefaultPollInterval()"
   fullName: "com.azure.resourcemanager.mongodbatlas.fluent.MongoDBAtlasManagementClient.getDefaultPollInterval()"
   name: "getDefaultPollInterval()"
@@ -78,6 +90,18 @@ methods:
   returns:
     description: "the OrganizationsClient object."
     type: "<xref href=\"com.azure.resourcemanager.mongodbatlas.fluent.OrganizationsClient?alt=com.azure.resourcemanager.mongodbatlas.fluent.OrganizationsClient&text=OrganizationsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mongodbatlas.fluent.MongoDBAtlasManagementClient.getProjects()"
+  fullName: "com.azure.resourcemanager.mongodbatlas.fluent.MongoDBAtlasManagementClient.getProjects()"
+  name: "getProjects()"
+  nameWithType: "MongoDBAtlasManagementClient.getProjects()"
+  summary: "Gets the Projects<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ProjectsClient getProjects()"
+  desc: "Gets the ProjectsClient object to access its operations."
+  returns:
+    description: "the ProjectsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.mongodbatlas.fluent.ProjectsClient?alt=com.azure.resourcemanager.mongodbatlas.fluent.ProjectsClient&text=ProjectsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.mongodbatlas.fluent.MongoDBAtlasManagementClient.getSubscriptionId()"
   fullName: "com.azure.resourcemanager.mongodbatlas.fluent.MongoDBAtlasManagementClient.getSubscriptionId()"
   name: "getSubscriptionId()"
@@ -94,4 +118,4 @@ type: "interface"
 desc: "The interface for MongoDBAtlasManagementClient class."
 metadata: {}
 package: "com.azure.resourcemanager.mongodbatlas.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-mongodbatlas:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-mongodbatlas:1.1.0-beta.1

@@ -1,0 +1,37 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mongodbatlas.models.TierLimitReachedResponse"
+fullName: "com.azure.resourcemanager.mongodbatlas.models.TierLimitReachedResponse"
+name: "TierLimitReachedResponse"
+nameWithType: "TierLimitReachedResponse"
+summary: "An immutable client-side representation of Tier<wbr>Limit<wbr>Reached<wbr>Response."
+syntax: "public interface **TierLimitReachedResponse**"
+methods:
+- uid: "com.azure.resourcemanager.mongodbatlas.models.TierLimitReachedResponse.innerModel()"
+  fullName: "com.azure.resourcemanager.mongodbatlas.models.TierLimitReachedResponse.innerModel()"
+  name: "innerModel()"
+  nameWithType: "TierLimitReachedResponse.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>mongodbatlas.<wbr>fluent.<wbr>models.<wbr>Tier<wbr>Limit<wbr>Reached<wbr>Response<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract TierLimitReachedResponseInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.mongodbatlas.fluent.models.TierLimitReachedResponseInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.mongodbatlas.fluent.models.TierLimitReachedResponseInner?alt=com.azure.resourcemanager.mongodbatlas.fluent.models.TierLimitReachedResponseInner&text=TierLimitReachedResponseInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mongodbatlas.models.TierLimitReachedResponse.limits()"
+  fullName: "com.azure.resourcemanager.mongodbatlas.models.TierLimitReachedResponse.limits()"
+  name: "limits()"
+  nameWithType: "TierLimitReachedResponse.limits()"
+  summary: "Gets the limits property: List of project limit statuses."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<ProjectLimitStatus> limits()"
+  desc: "Gets the limits property: List of project limit statuses."
+  returns:
+    description: "the limits value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.mongodbatlas.models.ProjectLimitStatus?alt=com.azure.resourcemanager.mongodbatlas.models.ProjectLimitStatus&text=ProjectLimitStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
+desc: "An immutable client-side representation of TierLimitReachedResponse."
+metadata: {}
+package: "com.azure.resourcemanager.mongodbatlas.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mongodbatlas:1.1.0-beta.1

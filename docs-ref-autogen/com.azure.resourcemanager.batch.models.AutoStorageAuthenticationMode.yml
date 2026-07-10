@@ -35,14 +35,14 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.AutoStorageAuthenticationMode.BATCH_ACCOUNT_MANAGED_IDENTITY"
   name: "BATCH_ACCOUNT_MANAGED_IDENTITY"
   nameWithType: "AutoStorageAuthenticationMode.BATCH_ACCOUNT_MANAGED_IDENTITY"
-  summary: "Enum value Batch<wbr>Account<wbr>Managed<wbr>Identity."
-  desc: "Enum value BatchAccountManagedIdentity."
+  summary: "The Batch service will authenticate requests to auto-storage using the managed identity assigned to the Batch account."
+  desc: "The Batch service will authenticate requests to auto-storage using the managed identity assigned to the Batch account."
 - uid: "com.azure.resourcemanager.batch.models.AutoStorageAuthenticationMode.STORAGE_KEYS"
   fullName: "com.azure.resourcemanager.batch.models.AutoStorageAuthenticationMode.STORAGE_KEYS"
   name: "STORAGE_KEYS"
   nameWithType: "AutoStorageAuthenticationMode.STORAGE_KEYS"
-  summary: "Enum value Storage<wbr>Keys."
-  desc: "Enum value StorageKeys."
+  summary: "The Batch service will authenticate requests to auto-storage using storage account keys."
+  desc: "The Batch service will authenticate requests to auto-storage using storage account keys."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.AutoStorageAuthenticationMode.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.AutoStorageAuthenticationMode.fromString(String value)"
@@ -92,4 +92,4 @@ methods:
 desc: "The authentication mode which the Batch service will use to manage the auto-storage account."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

@@ -14,10 +14,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Batch account."
+  - description: "A name for the Batch account which must be unique within the region. Batch account\n names must be between 3 and 24 characters in length and must use only numbers and lowercase letters. This\n name is used as part of the DNS name that is used to access the Batch service in the region in which the\n account is created. For example: http://accountname.region.batch.azure.com/."
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the application. This must be unique within the account."
@@ -32,4 +32,4 @@ type: "interface"
 desc: "The stage of the ApplicationPackage definition allowing to specify parent resource."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

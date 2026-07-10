@@ -10,15 +10,15 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.BatchAccount.DefinitionStages.WithNetworkProfile.withNetworkProfile(NetworkProfile networkProfile)"
   name: "withNetworkProfile(NetworkProfile networkProfile)"
   nameWithType: "BatchAccount.DefinitionStages.WithNetworkProfile.withNetworkProfile(NetworkProfile networkProfile)"
-  summary: "Specifies the network<wbr>Profile property: The network profile only takes effect when public<wbr>Network<wbr>Access is enabled.."
+  summary: "Specifies the network<wbr>Profile property: Network profile for Batch account, which contains network rule settings for each endpoint."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The network profile only takes effect when publicNetworkAccess is enabled."
+  - description: "Network profile for Batch account, which contains network rule settings for each\n endpoint.\n \n The network profile only takes effect when publicNetworkAccess is enabled."
     name: "networkProfile"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.NetworkProfile?alt=com.azure.resourcemanager.batch.models.NetworkProfile&text=NetworkProfile\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract BatchAccount.DefinitionStages.WithCreate withNetworkProfile(NetworkProfile networkProfile)"
-  desc: "Specifies the networkProfile property: The network profile only takes effect when publicNetworkAccess is enabled.."
+  desc: "Specifies the networkProfile property: Network profile for Batch account, which contains network rule settings for each endpoint. The network profile only takes effect when publicNetworkAccess is enabled.."
   returns:
     description: "the next definition stage."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.BatchAccount.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.batch.models.BatchAccount.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the BatchAccount definition allowing to specify networkProfile."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

@@ -10,15 +10,15 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.BatchAccount.DefinitionStages.WithPoolAllocationMode.withPoolAllocationMode(PoolAllocationMode poolAllocationMode)"
   name: "withPoolAllocationMode(PoolAllocationMode poolAllocationMode)"
   nameWithType: "BatchAccount.DefinitionStages.WithPoolAllocationMode.withPoolAllocationMode(PoolAllocationMode poolAllocationMode)"
-  summary: "Specifies the pool<wbr>Allocation<wbr>Mode property: The pool allocation mode also affects how clients may authenticate to the Batch Service API."
+  summary: "Specifies the pool<wbr>Allocation<wbr>Mode property: The allocation mode to use for creating pools in the Batch account."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The pool allocation mode also affects how clients may authenticate to the Batch\n Service API. If the mode is BatchService, clients may authenticate using access keys or Microsoft Entra\n ID. If the mode is UserSubscription, clients must use Microsoft Entra ID. The default is BatchService."
+  - description: "The allocation mode to use for creating pools in the Batch account.\n \n The pool allocation mode also affects how clients may authenticate to the Batch Service API. If the mode\n is BatchService, clients may authenticate using access keys or Microsoft Entra ID. If the mode is\n UserSubscription, clients must use Microsoft Entra ID. The default is BatchService."
     name: "poolAllocationMode"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.PoolAllocationMode?alt=com.azure.resourcemanager.batch.models.PoolAllocationMode&text=PoolAllocationMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract BatchAccount.DefinitionStages.WithCreate withPoolAllocationMode(PoolAllocationMode poolAllocationMode)"
-  desc: "Specifies the poolAllocationMode property: The pool allocation mode also affects how clients may authenticate to the Batch Service API. If the mode is BatchService, clients may authenticate using access keys or Microsoft Entra ID. If the mode is UserSubscription, clients must use Microsoft Entra ID. The default is BatchService.."
+  desc: "Specifies the poolAllocationMode property: The allocation mode to use for creating pools in the Batch account. The pool allocation mode also affects how clients may authenticate to the Batch Service API. If the mode is BatchService, clients may authenticate using access keys or Microsoft Entra ID. If the mode is UserSubscription, clients must use Microsoft Entra ID. The default is BatchService.."
   returns:
     description: "the next definition stage."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.BatchAccount.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.batch.models.BatchAccount.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the BatchAccount definition allowing to specify poolAllocationMode."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

@@ -35,14 +35,14 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.InboundEndpointProtocol.TCP"
   name: "TCP"
   nameWithType: "InboundEndpointProtocol.TCP"
-  summary: "Enum value TCP."
-  desc: "Enum value TCP."
+  summary: "Use TCP for the endpoint."
+  desc: "Use TCP for the endpoint."
 - uid: "com.azure.resourcemanager.batch.models.InboundEndpointProtocol.UDP"
   fullName: "com.azure.resourcemanager.batch.models.InboundEndpointProtocol.UDP"
   name: "UDP"
   nameWithType: "InboundEndpointProtocol.UDP"
-  summary: "Enum value UDP."
-  desc: "Enum value UDP."
+  summary: "Use UDP for the endpoint."
+  desc: "Use UDP for the endpoint."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.InboundEndpointProtocol.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.InboundEndpointProtocol.fromString(String value)"
@@ -92,4 +92,4 @@ methods:
 desc: "The protocol of the endpoint."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

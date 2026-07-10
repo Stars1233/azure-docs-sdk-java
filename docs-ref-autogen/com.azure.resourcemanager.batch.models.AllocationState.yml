@@ -35,20 +35,20 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.AllocationState.RESIZING"
   name: "RESIZING"
   nameWithType: "AllocationState.RESIZING"
-  summary: "Enum value Resizing."
-  desc: "Enum value Resizing."
+  summary: "The pool is resizing; that is, compute nodes are being added to or removed from the pool."
+  desc: "The pool is resizing; that is, compute nodes are being added to or removed from the pool."
 - uid: "com.azure.resourcemanager.batch.models.AllocationState.STEADY"
   fullName: "com.azure.resourcemanager.batch.models.AllocationState.STEADY"
   name: "STEADY"
   nameWithType: "AllocationState.STEADY"
-  summary: "Enum value Steady."
-  desc: "Enum value Steady."
+  summary: "The pool is not resizing."
+  desc: "The pool is not resizing. There are no changes to the number of nodes in the pool in progress. A pool enters this state when it is created and when no operations are being performed on the pool to change the number of nodes."
 - uid: "com.azure.resourcemanager.batch.models.AllocationState.STOPPING"
   fullName: "com.azure.resourcemanager.batch.models.AllocationState.STOPPING"
   name: "STOPPING"
   nameWithType: "AllocationState.STOPPING"
-  summary: "Enum value Stopping."
-  desc: "Enum value Stopping."
+  summary: "The pool was resizing, but the user has requested that the resize be stopped, but the stop request has not yet been completed."
+  desc: "The pool was resizing, but the user has requested that the resize be stopped, but the stop request has not yet been completed."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.AllocationState.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.AllocationState.fromString(String value)"
@@ -98,4 +98,4 @@ methods:
 desc: "Whether the pool is resizing."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

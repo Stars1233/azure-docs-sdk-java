@@ -35,11 +35,11 @@ methods:
   name: "action()"
   nameWithType: "IpRule.action()"
   summary: "Get the action property: Action when client IP address is matched."
-  syntax: "public String action()"
+  syntax: "public IpRuleAction action()"
   desc: "Get the action property: Action when client IP address is matched."
   returns:
     description: "the action value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.IpRuleAction?alt=com.azure.resourcemanager.batch.models.IpRuleAction&text=IpRuleAction\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.batch.models.IpRule.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.batch.models.IpRule.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -82,22 +82,22 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.IpRule.value()"
   name: "value()"
   nameWithType: "IpRule.value()"
-  summary: "Get the value property: IPv4 address, or IPv4 address range in CIDR format."
+  summary: "Get the value property: The IP address or IP address range to filter IPv4 address, or IPv4 address range in CIDR format."
   syntax: "public String value()"
-  desc: "Get the value property: IPv4 address, or IPv4 address range in CIDR format."
+  desc: "Get the value property: The IP address or IP address range to filter IPv4 address, or IPv4 address range in CIDR format."
   returns:
     description: "the value value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.batch.models.IpRule.withAction(java.lang.String)"
-  fullName: "com.azure.resourcemanager.batch.models.IpRule.withAction(String action)"
-  name: "withAction(String action)"
-  nameWithType: "IpRule.withAction(String action)"
+- uid: "com.azure.resourcemanager.batch.models.IpRule.withAction(com.azure.resourcemanager.batch.models.IpRuleAction)"
+  fullName: "com.azure.resourcemanager.batch.models.IpRule.withAction(IpRuleAction action)"
+  name: "withAction(IpRuleAction action)"
+  nameWithType: "IpRule.withAction(IpRuleAction action)"
   summary: "Set the action property: Action when client IP address is matched."
   parameters:
   - description: "the action value to set."
     name: "action"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public IpRule withAction(String action)"
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.IpRuleAction?alt=com.azure.resourcemanager.batch.models.IpRuleAction&text=IpRuleAction\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public IpRule withAction(IpRuleAction action)"
   desc: "Set the action property: Action when client IP address is matched."
   returns:
     description: "the IpRule object itself."
@@ -106,13 +106,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.IpRule.withValue(String value)"
   name: "withValue(String value)"
   nameWithType: "IpRule.withValue(String value)"
-  summary: "Set the value property: IPv4 address, or IPv4 address range in CIDR format."
+  summary: "Set the value property: The IP address or IP address range to filter IPv4 address, or IPv4 address range in CIDR format."
   parameters:
   - description: "the value value to set."
     name: "value"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public IpRule withValue(String value)"
-  desc: "Set the value property: IPv4 address, or IPv4 address range in CIDR format."
+  desc: "Set the value property: The IP address or IP address range to filter IPv4 address, or IPv4 address range in CIDR format."
   returns:
     description: "the IpRule object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.IpRule?alt=com.azure.resourcemanager.batch.models.IpRule&text=IpRule\" data-throw-if-not-resolved=\"False\" />"
@@ -122,4 +122,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.IpRule?alt=com.azure.resourcemanager.batch.models.IpRule&text=IpRule\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

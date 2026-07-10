@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.batch.models.LoginMode"
 fullName: "com.azure.resourcemanager.batch.models.LoginMode"
 name: "LoginMode"
 nameWithType: "LoginMode"
-summary: "Login mode for user Specifies login mode for the user."
+summary: "Specifies login mode for the user."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -35,14 +35,14 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.LoginMode.BATCH"
   name: "BATCH"
   nameWithType: "LoginMode.BATCH"
-  summary: "Enum value Batch."
-  desc: "Enum value Batch."
+  summary: "The LOGON32\\_LOGON\\_BATCH Win32 login mode."
+  desc: "The LOGON32\\_LOGON\\_BATCH Win32 login mode. The batch login mode is recommended for long running parallel processes."
 - uid: "com.azure.resourcemanager.batch.models.LoginMode.INTERACTIVE"
   fullName: "com.azure.resourcemanager.batch.models.LoginMode.INTERACTIVE"
   name: "INTERACTIVE"
   nameWithType: "LoginMode.INTERACTIVE"
-  summary: "Enum value Interactive."
-  desc: "Enum value Interactive."
+  summary: "The LOGON32\\_LOGON\\_INTERACTIVE Win32 login mode."
+  desc: "The LOGON32\\_LOGON\\_INTERACTIVE Win32 login mode. Some applications require having permissions associated with the interactive login mode. If this is the case for an application used in your task, then this option is recommended."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.LoginMode.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.LoginMode.fromString(String value)"
@@ -89,7 +89,7 @@ methods:
   syntax: "public static LoginMode[] values()"
   returns:
     type: "<xref href=\"com.azure.resourcemanager.batch.models.LoginMode?alt=com.azure.resourcemanager.batch.models.LoginMode&text=LoginMode\" data-throw-if-not-resolved=\"False\" />[]"
-desc: "Login mode for user Specifies login mode for the user. The default value is Interactive."
+desc: "Specifies login mode for the user. The default value is Interactive."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

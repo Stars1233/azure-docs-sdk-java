@@ -98,6 +98,18 @@ fields:
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.State?alt=com.azure.resourcemanager.azurestackhci.models.State&text=State\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final State HEALTH_CHECKING"
   desc: "A health check is being performed before applying the update."
+- uid: "com.azure.resourcemanager.azurestackhci.models.State.HEALTH_CHECK_EXPIRED"
+  fullName: "com.azure.resourcemanager.azurestackhci.models.State.HEALTH_CHECK_EXPIRED"
+  name: "HEALTH_CHECK_EXPIRED"
+  nameWithType: "State.HEALTH_CHECK_EXPIRED"
+  summary: "The health check has expired and needs to be redone."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.State?alt=com.azure.resourcemanager.azurestackhci.models.State&text=State\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final State HEALTH_CHECK_EXPIRED"
+  desc: "The health check has expired and needs to be redone."
 - uid: "com.azure.resourcemanager.azurestackhci.models.State.HEALTH_CHECK_FAILED"
   fullName: "com.azure.resourcemanager.azurestackhci.models.State.HEALTH_CHECK_FAILED"
   name: "HEALTH_CHECK_FAILED"
@@ -182,6 +194,18 @@ fields:
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.State?alt=com.azure.resourcemanager.azurestackhci.models.State&text=State\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final State OBSOLETE"
   desc: "The update is obsolete and no longer applicable."
+- uid: "com.azure.resourcemanager.azurestackhci.models.State.PENDING_OEMVALIDATION"
+  fullName: "com.azure.resourcemanager.azurestackhci.models.State.PENDING_OEMVALIDATION"
+  name: "PENDING_OEMVALIDATION"
+  nameWithType: "State.PENDING_OEMVALIDATION"
+  summary: "The update is pending OEM validation before it can proceed."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.State?alt=com.azure.resourcemanager.azurestackhci.models.State&text=State\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final State PENDING_OEMVALIDATION"
+  desc: "The update is pending OEM validation before it can proceed."
 - uid: "com.azure.resourcemanager.azurestackhci.models.State.PREPARATION_FAILED"
   fullName: "com.azure.resourcemanager.azurestackhci.models.State.PREPARATION_FAILED"
   name: "PREPARATION_FAILED"
@@ -299,4 +323,4 @@ type: "class"
 desc: "Represents the current state of the update as it relates to this stamp. This includes phases such as preparation, installation, scanning, and error handling, providing insight into the update's progress and any issues encountered."
 metadata: {}
 package: "com.azure.resourcemanager.azurestackhci.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-azurestackhci:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-azurestackhci:1.1.0

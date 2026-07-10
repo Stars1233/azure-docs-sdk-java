@@ -60,6 +60,16 @@ methods:
   returns:
     description: "the Mongo DB Atlas service API instance."
     type: "<xref href=\"com.azure.resourcemanager.mongodbatlas.MongoDBAtlasManager?alt=com.azure.resourcemanager.mongodbatlas.MongoDBAtlasManager&text=MongoDBAtlasManager\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mongodbatlas.MongoDBAtlasManager.clusters()"
+  fullName: "com.azure.resourcemanager.mongodbatlas.MongoDBAtlasManager.clusters()"
+  name: "clusters()"
+  nameWithType: "MongoDBAtlasManager.clusters()"
+  summary: "Gets the resource collection API of Clusters."
+  syntax: "public Clusters clusters()"
+  desc: "Gets the resource collection API of Clusters. It manages Cluster."
+  returns:
+    description: "Resource collection API of Clusters."
+    type: "<xref href=\"com.azure.resourcemanager.mongodbatlas.models.Clusters?alt=com.azure.resourcemanager.mongodbatlas.models.Clusters&text=Clusters\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.mongodbatlas.MongoDBAtlasManager.configure()"
   fullName: "com.azure.resourcemanager.mongodbatlas.MongoDBAtlasManager.configure()"
   name: "configure()"
@@ -92,6 +102,16 @@ methods:
   returns:
     description: "Resource collection API of Organizations."
     type: "<xref href=\"com.azure.resourcemanager.mongodbatlas.models.Organizations?alt=com.azure.resourcemanager.mongodbatlas.models.Organizations&text=Organizations\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mongodbatlas.MongoDBAtlasManager.projects()"
+  fullName: "com.azure.resourcemanager.mongodbatlas.MongoDBAtlasManager.projects()"
+  name: "projects()"
+  nameWithType: "MongoDBAtlasManager.projects()"
+  summary: "Gets the resource collection API of Projects."
+  syntax: "public Projects projects()"
+  desc: "Gets the resource collection API of Projects. It manages Project."
+  returns:
+    description: "Resource collection API of Projects."
+    type: "<xref href=\"com.azure.resourcemanager.mongodbatlas.models.Projects?alt=com.azure.resourcemanager.mongodbatlas.models.Projects&text=Projects\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.mongodbatlas.MongoDBAtlasManager.serviceClient()"
   fullName: "com.azure.resourcemanager.mongodbatlas.MongoDBAtlasManager.serviceClient()"
   name: "serviceClient()"
@@ -106,4 +126,4 @@ type: "class"
 desc: "Entry point to MongoDBAtlasManager."
 metadata: {}
 package: "com.azure.resourcemanager.mongodbatlas"
-artifact: com.azure.resourcemanager:azure-resourcemanager-mongodbatlas:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-mongodbatlas:1.1.0-beta.1

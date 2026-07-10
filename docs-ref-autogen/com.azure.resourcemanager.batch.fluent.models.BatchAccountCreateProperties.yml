@@ -54,9 +54,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.fluent.models.BatchAccountCreateProperties.encryption()"
   name: "encryption()"
   nameWithType: "BatchAccountCreateProperties.encryption()"
-  summary: "Get the encryption property: Configures how customer data is encrypted inside the Batch account."
+  summary: "Get the encryption property: The encryption configuration for the Batch account."
   syntax: "public EncryptionProperties encryption()"
-  desc: "Get the encryption property: Configures how customer data is encrypted inside the Batch account. By default, accounts are encrypted using a Microsoft managed key. For additional control, a customer-managed key can be used instead."
+  desc: "Get the encryption property: The encryption configuration for the Batch account. Configures how customer data is encrypted inside the Batch account. By default, accounts are encrypted using a Microsoft managed key. For additional control, a customer-managed key can be used instead."
   returns:
     description: "the encryption value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.EncryptionProperties?alt=com.azure.resourcemanager.batch.models.EncryptionProperties&text=EncryptionProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -93,9 +93,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.fluent.models.BatchAccountCreateProperties.networkProfile()"
   name: "networkProfile()"
   nameWithType: "BatchAccountCreateProperties.networkProfile()"
-  summary: "Get the network<wbr>Profile property: The network profile only takes effect when public<wbr>Network<wbr>Access is enabled."
+  summary: "Get the network<wbr>Profile property: Network profile for Batch account, which contains network rule settings for each endpoint."
   syntax: "public NetworkProfile networkProfile()"
-  desc: "Get the networkProfile property: The network profile only takes effect when publicNetworkAccess is enabled."
+  desc: "Get the networkProfile property: Network profile for Batch account, which contains network rule settings for each endpoint. The network profile only takes effect when publicNetworkAccess is enabled."
   returns:
     description: "the networkProfile value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.NetworkProfile?alt=com.azure.resourcemanager.batch.models.NetworkProfile&text=NetworkProfile\" data-throw-if-not-resolved=\"False\" />"
@@ -103,9 +103,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.fluent.models.BatchAccountCreateProperties.poolAllocationMode()"
   name: "poolAllocationMode()"
   nameWithType: "BatchAccountCreateProperties.poolAllocationMode()"
-  summary: "Get the pool<wbr>Allocation<wbr>Mode property: The pool allocation mode also affects how clients may authenticate to the Batch Service API."
+  summary: "Get the pool<wbr>Allocation<wbr>Mode property: The allocation mode to use for creating pools in the Batch account."
   syntax: "public PoolAllocationMode poolAllocationMode()"
-  desc: "Get the poolAllocationMode property: The pool allocation mode also affects how clients may authenticate to the Batch Service API. If the mode is BatchService, clients may authenticate using access keys or Microsoft Entra ID. If the mode is UserSubscription, clients must use Microsoft Entra ID. The default is BatchService."
+  desc: "Get the poolAllocationMode property: The allocation mode to use for creating pools in the Batch account. The pool allocation mode also affects how clients may authenticate to the Batch Service API. If the mode is BatchService, clients may authenticate using access keys or Microsoft Entra ID. If the mode is UserSubscription, clients must use Microsoft Entra ID. The default is BatchService."
   returns:
     description: "the poolAllocationMode value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.PoolAllocationMode?alt=com.azure.resourcemanager.batch.models.PoolAllocationMode&text=PoolAllocationMode\" data-throw-if-not-resolved=\"False\" />"
@@ -113,9 +113,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.fluent.models.BatchAccountCreateProperties.publicNetworkAccess()"
   name: "publicNetworkAccess()"
   nameWithType: "BatchAccountCreateProperties.publicNetworkAccess()"
-  summary: "Get the public<wbr>Network<wbr>Access property: If not specified, the default value is 'enabled'."
+  summary: "Get the public<wbr>Network<wbr>Access property: The network access type for accessing Azure Batch account."
   syntax: "public PublicNetworkAccessType publicNetworkAccess()"
-  desc: "Get the publicNetworkAccess property: If not specified, the default value is 'enabled'."
+  desc: "Get the publicNetworkAccess property: The network access type for accessing Azure Batch account. The network access type for operating on the resources in the Batch account."
   returns:
     description: "the publicNetworkAccess value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.PublicNetworkAccessType?alt=com.azure.resourcemanager.batch.models.PublicNetworkAccessType&text=PublicNetworkAccessType\" data-throw-if-not-resolved=\"False\" />"
@@ -170,13 +170,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.fluent.models.BatchAccountCreateProperties.withEncryption(EncryptionProperties encryption)"
   name: "withEncryption(EncryptionProperties encryption)"
   nameWithType: "BatchAccountCreateProperties.withEncryption(EncryptionProperties encryption)"
-  summary: "Set the encryption property: Configures how customer data is encrypted inside the Batch account."
+  summary: "Set the encryption property: The encryption configuration for the Batch account."
   parameters:
   - description: "the encryption value to set."
     name: "encryption"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.EncryptionProperties?alt=com.azure.resourcemanager.batch.models.EncryptionProperties&text=EncryptionProperties\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public BatchAccountCreateProperties withEncryption(EncryptionProperties encryption)"
-  desc: "Set the encryption property: Configures how customer data is encrypted inside the Batch account. By default, accounts are encrypted using a Microsoft managed key. For additional control, a customer-managed key can be used instead."
+  desc: "Set the encryption property: The encryption configuration for the Batch account. Configures how customer data is encrypted inside the Batch account. By default, accounts are encrypted using a Microsoft managed key. For additional control, a customer-managed key can be used instead."
   returns:
     description: "the BatchAccountCreateProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.fluent.models.BatchAccountCreateProperties?alt=com.azure.resourcemanager.batch.fluent.models.BatchAccountCreateProperties&text=BatchAccountCreateProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -198,13 +198,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.fluent.models.BatchAccountCreateProperties.withNetworkProfile(NetworkProfile networkProfile)"
   name: "withNetworkProfile(NetworkProfile networkProfile)"
   nameWithType: "BatchAccountCreateProperties.withNetworkProfile(NetworkProfile networkProfile)"
-  summary: "Set the network<wbr>Profile property: The network profile only takes effect when public<wbr>Network<wbr>Access is enabled."
+  summary: "Set the network<wbr>Profile property: Network profile for Batch account, which contains network rule settings for each endpoint."
   parameters:
   - description: "the networkProfile value to set."
     name: "networkProfile"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.NetworkProfile?alt=com.azure.resourcemanager.batch.models.NetworkProfile&text=NetworkProfile\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public BatchAccountCreateProperties withNetworkProfile(NetworkProfile networkProfile)"
-  desc: "Set the networkProfile property: The network profile only takes effect when publicNetworkAccess is enabled."
+  desc: "Set the networkProfile property: Network profile for Batch account, which contains network rule settings for each endpoint. The network profile only takes effect when publicNetworkAccess is enabled."
   returns:
     description: "the BatchAccountCreateProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.fluent.models.BatchAccountCreateProperties?alt=com.azure.resourcemanager.batch.fluent.models.BatchAccountCreateProperties&text=BatchAccountCreateProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -212,13 +212,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.fluent.models.BatchAccountCreateProperties.withPoolAllocationMode(PoolAllocationMode poolAllocationMode)"
   name: "withPoolAllocationMode(PoolAllocationMode poolAllocationMode)"
   nameWithType: "BatchAccountCreateProperties.withPoolAllocationMode(PoolAllocationMode poolAllocationMode)"
-  summary: "Set the pool<wbr>Allocation<wbr>Mode property: The pool allocation mode also affects how clients may authenticate to the Batch Service API."
+  summary: "Set the pool<wbr>Allocation<wbr>Mode property: The allocation mode to use for creating pools in the Batch account."
   parameters:
   - description: "the poolAllocationMode value to set."
     name: "poolAllocationMode"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.PoolAllocationMode?alt=com.azure.resourcemanager.batch.models.PoolAllocationMode&text=PoolAllocationMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public BatchAccountCreateProperties withPoolAllocationMode(PoolAllocationMode poolAllocationMode)"
-  desc: "Set the poolAllocationMode property: The pool allocation mode also affects how clients may authenticate to the Batch Service API. If the mode is BatchService, clients may authenticate using access keys or Microsoft Entra ID. If the mode is UserSubscription, clients must use Microsoft Entra ID. The default is BatchService."
+  desc: "Set the poolAllocationMode property: The allocation mode to use for creating pools in the Batch account. The pool allocation mode also affects how clients may authenticate to the Batch Service API. If the mode is BatchService, clients may authenticate using access keys or Microsoft Entra ID. If the mode is UserSubscription, clients must use Microsoft Entra ID. The default is BatchService."
   returns:
     description: "the BatchAccountCreateProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.fluent.models.BatchAccountCreateProperties?alt=com.azure.resourcemanager.batch.fluent.models.BatchAccountCreateProperties&text=BatchAccountCreateProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -226,13 +226,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.fluent.models.BatchAccountCreateProperties.withPublicNetworkAccess(PublicNetworkAccessType publicNetworkAccess)"
   name: "withPublicNetworkAccess(PublicNetworkAccessType publicNetworkAccess)"
   nameWithType: "BatchAccountCreateProperties.withPublicNetworkAccess(PublicNetworkAccessType publicNetworkAccess)"
-  summary: "Set the public<wbr>Network<wbr>Access property: If not specified, the default value is 'enabled'."
+  summary: "Set the public<wbr>Network<wbr>Access property: The network access type for accessing Azure Batch account."
   parameters:
   - description: "the publicNetworkAccess value to set."
     name: "publicNetworkAccess"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.PublicNetworkAccessType?alt=com.azure.resourcemanager.batch.models.PublicNetworkAccessType&text=PublicNetworkAccessType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public BatchAccountCreateProperties withPublicNetworkAccess(PublicNetworkAccessType publicNetworkAccess)"
-  desc: "Set the publicNetworkAccess property: If not specified, the default value is 'enabled'."
+  desc: "Set the publicNetworkAccess property: The network access type for accessing Azure Batch account. The network access type for operating on the resources in the Batch account."
   returns:
     description: "the BatchAccountCreateProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.fluent.models.BatchAccountCreateProperties?alt=com.azure.resourcemanager.batch.fluent.models.BatchAccountCreateProperties&text=BatchAccountCreateProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -242,4 +242,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.fluent.models.BatchAccountCreateProperties?alt=com.azure.resourcemanager.batch.fluent.models.BatchAccountCreateProperties&text=BatchAccountCreateProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

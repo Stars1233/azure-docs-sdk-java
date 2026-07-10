@@ -35,14 +35,14 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.NetworkSecurityGroupRuleAccess.ALLOW"
   name: "ALLOW"
   nameWithType: "NetworkSecurityGroupRuleAccess.ALLOW"
-  summary: "Enum value Allow."
-  desc: "Enum value Allow."
+  summary: "Allow access."
+  desc: "Allow access."
 - uid: "com.azure.resourcemanager.batch.models.NetworkSecurityGroupRuleAccess.DENY"
   fullName: "com.azure.resourcemanager.batch.models.NetworkSecurityGroupRuleAccess.DENY"
   name: "DENY"
   nameWithType: "NetworkSecurityGroupRuleAccess.DENY"
-  summary: "Enum value Deny."
-  desc: "Enum value Deny."
+  summary: "Deny access."
+  desc: "Deny access."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.NetworkSecurityGroupRuleAccess.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.NetworkSecurityGroupRuleAccess.fromString(String value)"
@@ -92,4 +92,4 @@ methods:
 desc: "The action that should be taken for a specified IP address, subnet range or tag."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

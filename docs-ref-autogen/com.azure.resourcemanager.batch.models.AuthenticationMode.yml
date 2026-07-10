@@ -35,20 +35,20 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.AuthenticationMode.AAD"
   name: "AAD"
   nameWithType: "AuthenticationMode.AAD"
-  summary: "Enum value AAD."
-  desc: "Enum value AAD."
+  summary: "The authentication mode using Microsoft Entra ID."
+  desc: "The authentication mode using Microsoft Entra ID."
 - uid: "com.azure.resourcemanager.batch.models.AuthenticationMode.SHARED_KEY"
   fullName: "com.azure.resourcemanager.batch.models.AuthenticationMode.SHARED_KEY"
   name: "SHARED_KEY"
   nameWithType: "AuthenticationMode.SHARED_KEY"
-  summary: "Enum value Shared<wbr>Key."
-  desc: "Enum value SharedKey."
+  summary: "The authentication mode using shared keys."
+  desc: "The authentication mode using shared keys."
 - uid: "com.azure.resourcemanager.batch.models.AuthenticationMode.TASK_AUTHENTICATION_TOKEN"
   fullName: "com.azure.resourcemanager.batch.models.AuthenticationMode.TASK_AUTHENTICATION_TOKEN"
   name: "TASK_AUTHENTICATION_TOKEN"
   nameWithType: "AuthenticationMode.TASK_AUTHENTICATION_TOKEN"
-  summary: "Enum value Task<wbr>Authentication<wbr>Token."
-  desc: "Enum value TaskAuthenticationToken."
+  summary: "The authentication mode using task authentication tokens."
+  desc: "The authentication mode using task authentication tokens."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.AuthenticationMode.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.AuthenticationMode.fromString(String value)"
@@ -98,4 +98,4 @@ methods:
 desc: "The authentication mode for the Batch account."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

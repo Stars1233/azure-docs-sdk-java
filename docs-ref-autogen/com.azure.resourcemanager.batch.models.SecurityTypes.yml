@@ -35,14 +35,14 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.SecurityTypes.CONFIDENTIAL_VM"
   name: "CONFIDENTIAL_VM"
   nameWithType: "SecurityTypes.CONFIDENTIAL_VM"
-  summary: "Enum value confidentialVM."
-  desc: "Enum value confidentialVM."
+  summary: "Azure confidential computing offers confidential VMs are for tenants with high security and confidentiality requirements."
+  desc: "Azure confidential computing offers confidential VMs are for tenants with high security and confidentiality requirements. These VMs provide a strong, hardware-enforced boundary to help meet your security needs. You can use confidential VMs for migrations without making changes to your code, with the platform protecting your VM's state from being read or modified."
 - uid: "com.azure.resourcemanager.batch.models.SecurityTypes.TRUSTED_LAUNCH"
   fullName: "com.azure.resourcemanager.batch.models.SecurityTypes.TRUSTED_LAUNCH"
   name: "TRUSTED_LAUNCH"
   nameWithType: "SecurityTypes.TRUSTED_LAUNCH"
-  summary: "Enum value trusted<wbr>Launch."
-  desc: "Enum value trustedLaunch."
+  summary: "Trusted launch protects against advanced and persistent attack techniques."
+  desc: "Trusted launch protects against advanced and persistent attack techniques."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.SecurityTypes.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.SecurityTypes.fromString(String value)"
@@ -92,4 +92,4 @@ methods:
 desc: "Specifies the SecurityType of the virtual machine. It has to be set to any specified value to enable UefiSettings."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

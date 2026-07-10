@@ -1,0 +1,35 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mongodbatlas.models.Cluster.DefinitionStages.WithParentResource"
+fullName: "com.azure.resourcemanager.mongodbatlas.models.Cluster.DefinitionStages.WithParentResource"
+name: "Cluster.DefinitionStages.WithParentResource"
+nameWithType: "Cluster.DefinitionStages.WithParentResource"
+summary: "The stage of the Cluster definition allowing to specify parent resource."
+syntax: "public static interface **Cluster.DefinitionStages.WithParentResource**"
+methods:
+- uid: "com.azure.resourcemanager.mongodbatlas.models.Cluster.DefinitionStages.WithParentResource.withExistingProject(java.lang.String,java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.mongodbatlas.models.Cluster.DefinitionStages.WithParentResource.withExistingProject(String resourceGroupName, String organizationName, String projectName)"
+  name: "withExistingProject(String resourceGroupName, String organizationName, String projectName)"
+  nameWithType: "Cluster.DefinitionStages.WithParentResource.withExistingProject(String resourceGroupName, String organizationName, String projectName)"
+  summary: "Specifies resource<wbr>Group<wbr>Name, organization<wbr>Name, project<wbr>Name."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "Name of the Organization resource."
+    name: "organizationName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "Name of the MongoDB Atlas Project resource."
+    name: "projectName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract Cluster.DefinitionStages.WithCreate withExistingProject(String resourceGroupName, String organizationName, String projectName)"
+  desc: "Specifies resourceGroupName, organizationName, projectName."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.mongodbatlas.models.Cluster.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.mongodbatlas.models.Cluster.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the Cluster definition allowing to specify parent resource."
+metadata: {}
+package: "com.azure.resourcemanager.mongodbatlas.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mongodbatlas:1.1.0-beta.1

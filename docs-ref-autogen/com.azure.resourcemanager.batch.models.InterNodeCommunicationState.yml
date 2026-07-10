@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.batch.models.InterNodeCommunicationState"
 fullName: "com.azure.resourcemanager.batch.models.InterNodeCommunicationState"
 name: "InterNodeCommunicationState"
 nameWithType: "InterNodeCommunicationState"
-summary: "Whether the pool permits direct communication between nodes."
+summary: "This imposes restrictions on which nodes can be assigned to the pool."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -35,14 +35,14 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.InterNodeCommunicationState.DISABLED"
   name: "DISABLED"
   nameWithType: "InterNodeCommunicationState.DISABLED"
-  summary: "Enum value Disabled."
-  desc: "Enum value Disabled."
+  summary: "Disable network communication between virtual machines."
+  desc: "Disable network communication between virtual machines."
 - uid: "com.azure.resourcemanager.batch.models.InterNodeCommunicationState.ENABLED"
   fullName: "com.azure.resourcemanager.batch.models.InterNodeCommunicationState.ENABLED"
   name: "ENABLED"
   nameWithType: "InterNodeCommunicationState.ENABLED"
-  summary: "Enum value Enabled."
-  desc: "Enum value Enabled."
+  summary: "Enable network communication between virtual machines."
+  desc: "Enable network communication between virtual machines."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.InterNodeCommunicationState.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.InterNodeCommunicationState.fromString(String value)"
@@ -89,7 +89,7 @@ methods:
   syntax: "public static InterNodeCommunicationState[] values()"
   returns:
     type: "<xref href=\"com.azure.resourcemanager.batch.models.InterNodeCommunicationState?alt=com.azure.resourcemanager.batch.models.InterNodeCommunicationState&text=InterNodeCommunicationState\" data-throw-if-not-resolved=\"False\" />[]"
-desc: "Whether the pool permits direct communication between nodes. This imposes restrictions on which nodes can be assigned to the pool. Enabling this value can reduce the chance of the requested number of nodes to be allocated in the pool. If not specified, this value defaults to 'Disabled'."
+desc: "This imposes restrictions on which nodes can be assigned to the pool. Enabling this value can reduce the chance of the requested number of nodes to be allocated in the pool. If not specified, this value defaults to 'Disabled'."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

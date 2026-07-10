@@ -35,14 +35,14 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.DynamicVNetAssignmentScope.JOB"
   name: "JOB"
   nameWithType: "DynamicVNetAssignmentScope.JOB"
-  summary: "Enum value job."
-  desc: "Enum value job."
+  summary: "Dynamic VNet assignment is done per-job."
+  desc: "Dynamic VNet assignment is done per-job. If this value is set, the network configuration subnet ID must also be set. This feature requires approval before use, please contact support."
 - uid: "com.azure.resourcemanager.batch.models.DynamicVNetAssignmentScope.NONE"
   fullName: "com.azure.resourcemanager.batch.models.DynamicVNetAssignmentScope.NONE"
   name: "NONE"
   nameWithType: "DynamicVNetAssignmentScope.NONE"
-  summary: "Enum value none."
-  desc: "Enum value none."
+  summary: "No dynamic VNet assignment is enabled."
+  desc: "No dynamic VNet assignment is enabled."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.DynamicVNetAssignmentScope.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.DynamicVNetAssignmentScope.fromString(String value)"
@@ -92,4 +92,4 @@ methods:
 desc: "The scope of dynamic vnet assignment."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

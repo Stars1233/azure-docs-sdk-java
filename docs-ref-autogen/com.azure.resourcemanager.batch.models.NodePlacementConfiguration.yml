@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.batch.models.NodePlacementConfiguration"
 fullName: "com.azure.resourcemanager.batch.models.NodePlacementConfiguration"
 name: "NodePlacementConfiguration"
 nameWithType: "NodePlacementConfiguration"
-summary: "Node placement configuration for batch pools."
+summary: "Node placement configuration for Batch pools."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -53,9 +53,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.NodePlacementConfiguration.policy()"
   name: "policy()"
   nameWithType: "NodePlacementConfiguration.policy()"
-  summary: "Get the policy property: Allocation policy used by Batch Service to provision the nodes."
+  summary: "Get the policy property: Node placement Policy type on Batch pools."
   syntax: "public NodePlacementPolicyType policy()"
-  desc: "Get the policy property: Allocation policy used by Batch Service to provision the nodes. If not specified, Batch will use the regional policy."
+  desc: "Get the policy property: Node placement Policy type on Batch pools. Allocation policy used by Batch Service to provision the nodes. If not specified, Batch will use the regional policy."
   returns:
     description: "the policy value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.NodePlacementPolicyType?alt=com.azure.resourcemanager.batch.models.NodePlacementPolicyType&text=NodePlacementPolicyType\" data-throw-if-not-resolved=\"False\" />"
@@ -82,20 +82,20 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.NodePlacementConfiguration.withPolicy(NodePlacementPolicyType policy)"
   name: "withPolicy(NodePlacementPolicyType policy)"
   nameWithType: "NodePlacementConfiguration.withPolicy(NodePlacementPolicyType policy)"
-  summary: "Set the policy property: Allocation policy used by Batch Service to provision the nodes."
+  summary: "Set the policy property: Node placement Policy type on Batch pools."
   parameters:
   - description: "the policy value to set."
     name: "policy"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.NodePlacementPolicyType?alt=com.azure.resourcemanager.batch.models.NodePlacementPolicyType&text=NodePlacementPolicyType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public NodePlacementConfiguration withPolicy(NodePlacementPolicyType policy)"
-  desc: "Set the policy property: Allocation policy used by Batch Service to provision the nodes. If not specified, Batch will use the regional policy."
+  desc: "Set the policy property: Node placement Policy type on Batch pools. Allocation policy used by Batch Service to provision the nodes. If not specified, Batch will use the regional policy."
   returns:
     description: "the NodePlacementConfiguration object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.NodePlacementConfiguration?alt=com.azure.resourcemanager.batch.models.NodePlacementConfiguration&text=NodePlacementConfiguration\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "Node placement configuration for batch pools. Allocation configuration used by Batch Service to provision the nodes."
+desc: "Node placement configuration for Batch pools. Allocation configuration used by Batch Service to provision the nodes."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.NodePlacementConfiguration?alt=com.azure.resourcemanager.batch.models.NodePlacementConfiguration&text=NodePlacementConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

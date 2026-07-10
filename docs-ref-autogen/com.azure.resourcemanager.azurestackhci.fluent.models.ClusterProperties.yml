@@ -80,6 +80,16 @@ methods:
   returns:
     description: "the billingModel value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterProperties.billingProperties()"
+  fullName: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterProperties.billingProperties()"
+  name: "billingProperties()"
+  nameWithType: "ClusterProperties.billingProperties()"
+  summary: "Get the billing<wbr>Properties property: Billing properties of the cluster, including upcoming billing model details."
+  syntax: "public ClusterBillingProperties billingProperties()"
+  desc: "Get the billingProperties property: Billing properties of the cluster, including upcoming billing model details."
+  returns:
+    description: "the billingProperties value."
+    type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.ClusterBillingProperties?alt=com.azure.resourcemanager.azurestackhci.models.ClusterBillingProperties&text=ClusterBillingProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterProperties.cloudId()"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterProperties.cloudId()"
   name: "cloudId()"
@@ -309,6 +319,16 @@ methods:
   returns:
     description: "the status value."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.Status?alt=com.azure.resourcemanager.azurestackhci.models.Status&text=Status\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterProperties.storageType()"
+  fullName: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterProperties.storageType()"
+  name: "storageType()"
+  nameWithType: "ClusterProperties.storageType()"
+  summary: "Get the storage<wbr>Type property: Storage type of the cluster."
+  syntax: "public StorageType storageType()"
+  desc: "Get the storageType property: Storage type of the cluster. Indicates whether the cluster uses S2D, SAN, or a combination."
+  returns:
+    description: "the storageType value."
+    type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.StorageType?alt=com.azure.resourcemanager.azurestackhci.models.StorageType&text=StorageType\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterProperties.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterProperties.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -491,4 +511,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterProperties?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterProperties&text=ClusterProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.azurestackhci.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-azurestackhci:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-azurestackhci:1.1.0

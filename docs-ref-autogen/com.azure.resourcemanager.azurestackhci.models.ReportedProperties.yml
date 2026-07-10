@@ -71,6 +71,16 @@ methods:
   returns:
     description: "An instance of ReportedProperties if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.ReportedProperties?alt=com.azure.resourcemanager.azurestackhci.models.ReportedProperties&text=ReportedProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.azurestackhci.models.ReportedProperties.lastSyncTimestamp()"
+  fullName: "com.azure.resourcemanager.azurestackhci.models.ReportedProperties.lastSyncTimestamp()"
+  name: "lastSyncTimestamp()"
+  nameWithType: "ReportedProperties.lastSyncTimestamp()"
+  summary: "Get the last<wbr>Sync<wbr>Timestamp property: Most recent edge device sync timestamp in UTC."
+  syntax: "public OffsetDateTime lastSyncTimestamp()"
+  desc: "Get the lastSyncTimestamp property: Most recent edge device sync timestamp in UTC."
+  returns:
+    description: "the lastSyncTimestamp value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
 - uid: "com.azure.resourcemanager.azurestackhci.models.ReportedProperties.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.azurestackhci.models.ReportedProperties.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -89,4 +99,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.azurestackhci.models.ReportedProperties?alt=com.azure.resourcemanager.azurestackhci.models.ReportedProperties&text=ReportedProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.azurestackhci.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-azurestackhci:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-azurestackhci:1.1.0

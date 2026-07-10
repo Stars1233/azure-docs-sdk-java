@@ -244,6 +244,28 @@ methods:
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void post(Context context)"
   desc: "Apply Update."
+- uid: "com.azure.resourcemanager.azurestackhci.models.HciUpdate.prepare()"
+  fullName: "com.azure.resourcemanager.azurestackhci.models.HciUpdate.prepare()"
+  name: "prepare()"
+  nameWithType: "HciUpdate.prepare()"
+  summary: "Prepare Update."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract void prepare()"
+  desc: "Prepare Update."
+- uid: "com.azure.resourcemanager.azurestackhci.models.HciUpdate.prepare(com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.azurestackhci.models.HciUpdate.prepare(Context context)"
+  name: "prepare(Context context)"
+  nameWithType: "HciUpdate.prepare(Context context)"
+  summary: "Prepare Update."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract void prepare(Context context)"
+  desc: "Prepare Update."
 - uid: "com.azure.resourcemanager.azurestackhci.models.HciUpdate.prerequisites()"
   fullName: "com.azure.resourcemanager.azurestackhci.models.HciUpdate.prerequisites()"
   name: "prerequisites()"
@@ -444,4 +466,4 @@ type: "interface"
 desc: "An immutable client-side representation of HciUpdate."
 metadata: {}
 package: "com.azure.resourcemanager.azurestackhci.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-azurestackhci:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-azurestackhci:1.1.0

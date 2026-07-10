@@ -10,15 +10,15 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.Pool.UpdateStages.WithTaskSchedulingPolicy.withTaskSchedulingPolicy(TaskSchedulingPolicy taskSchedulingPolicy)"
   name: "withTaskSchedulingPolicy(TaskSchedulingPolicy taskSchedulingPolicy)"
   nameWithType: "Pool.UpdateStages.WithTaskSchedulingPolicy.withTaskSchedulingPolicy(TaskSchedulingPolicy taskSchedulingPolicy)"
-  summary: "Specifies the task<wbr>Scheduling<wbr>Policy property: If not specified, the default is spread.."
+  summary: "Specifies the task<wbr>Scheduling<wbr>Policy property: How tasks are distributed across compute nodes in a pool."
   modifiers:
   - "abstract"
   parameters:
-  - description: "If not specified, the default is spread."
+  - description: "How tasks are distributed across compute nodes in a pool.\n \n If not specified, the default is spread."
     name: "taskSchedulingPolicy"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.TaskSchedulingPolicy?alt=com.azure.resourcemanager.batch.models.TaskSchedulingPolicy&text=TaskSchedulingPolicy\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Pool.Update withTaskSchedulingPolicy(TaskSchedulingPolicy taskSchedulingPolicy)"
-  desc: "Specifies the taskSchedulingPolicy property: If not specified, the default is spread.."
+  desc: "Specifies the taskSchedulingPolicy property: How tasks are distributed across compute nodes in a pool. If not specified, the default is spread.."
   returns:
     description: "the next definition stage."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.Pool.Update?alt=com.azure.resourcemanager.batch.models.Pool.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the Pool update allowing to specify taskSchedulingPolicy."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

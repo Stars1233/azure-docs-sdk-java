@@ -10,15 +10,15 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.BatchAccount.UpdateStages.WithPublicNetworkAccess.withPublicNetworkAccess(PublicNetworkAccessType publicNetworkAccess)"
   name: "withPublicNetworkAccess(PublicNetworkAccessType publicNetworkAccess)"
   nameWithType: "BatchAccount.UpdateStages.WithPublicNetworkAccess.withPublicNetworkAccess(PublicNetworkAccessType publicNetworkAccess)"
-  summary: "Specifies the public<wbr>Network<wbr>Access property: If not specified, the default value is 'enabled'.."
+  summary: "Specifies the public<wbr>Network<wbr>Access property: The network access type for accessing Azure Batch account."
   modifiers:
   - "abstract"
   parameters:
-  - description: "If not specified, the default value is 'enabled'."
+  - description: "The network access type for accessing Azure Batch account.\n \n The network access type for operating on the resources in the Batch account."
     name: "publicNetworkAccess"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.PublicNetworkAccessType?alt=com.azure.resourcemanager.batch.models.PublicNetworkAccessType&text=PublicNetworkAccessType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract BatchAccount.Update withPublicNetworkAccess(PublicNetworkAccessType publicNetworkAccess)"
-  desc: "Specifies the publicNetworkAccess property: If not specified, the default value is 'enabled'.."
+  desc: "Specifies the publicNetworkAccess property: The network access type for accessing Azure Batch account. The network access type for operating on the resources in the Batch account.."
   returns:
     description: "the next definition stage."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.BatchAccount.Update?alt=com.azure.resourcemanager.batch.models.BatchAccount.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the BatchAccount update allowing to specify publicNetworkAccess."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

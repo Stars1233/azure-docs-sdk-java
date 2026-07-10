@@ -35,14 +35,14 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.PackageState.ACTIVE"
   name: "ACTIVE"
   nameWithType: "PackageState.ACTIVE"
-  summary: "Enum value Active."
-  desc: "Enum value Active."
+  summary: "The application package is ready for use."
+  desc: "The application package is ready for use."
 - uid: "com.azure.resourcemanager.batch.models.PackageState.PENDING"
   fullName: "com.azure.resourcemanager.batch.models.PackageState.PENDING"
   name: "PENDING"
   nameWithType: "PackageState.PENDING"
-  summary: "Enum value Pending."
-  desc: "Enum value Pending."
+  summary: "The application package has been created but has not yet been activated."
+  desc: "The application package has been created but has not yet been activated."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.PackageState.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.PackageState.fromString(String value)"
@@ -92,4 +92,4 @@ methods:
 desc: "The current state of the application package."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

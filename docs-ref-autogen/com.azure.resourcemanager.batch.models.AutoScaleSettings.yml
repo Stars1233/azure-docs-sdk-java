@@ -34,9 +34,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.AutoScaleSettings.evaluationInterval()"
   name: "evaluationInterval()"
   nameWithType: "AutoScaleSettings.evaluationInterval()"
-  summary: "Get the evaluation<wbr>Interval property: If omitted, the default value is 15 minutes (PT15M)."
+  summary: "Get the evaluation<wbr>Interval property: The time interval at which to automatically adjust the pool size according to the autoscale formula."
   syntax: "public Duration evaluationInterval()"
-  desc: "Get the evaluationInterval property: If omitted, the default value is 15 minutes (PT15M)."
+  desc: "Get the evaluationInterval property: The time interval at which to automatically adjust the pool size according to the autoscale formula. If omitted, the default value is 15 minutes (PT15M)."
   returns:
     description: "the evaluationInterval value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html\">Duration</a>"
@@ -92,13 +92,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.AutoScaleSettings.withEvaluationInterval(Duration evaluationInterval)"
   name: "withEvaluationInterval(Duration evaluationInterval)"
   nameWithType: "AutoScaleSettings.withEvaluationInterval(Duration evaluationInterval)"
-  summary: "Set the evaluation<wbr>Interval property: If omitted, the default value is 15 minutes (PT15M)."
+  summary: "Set the evaluation<wbr>Interval property: The time interval at which to automatically adjust the pool size according to the autoscale formula."
   parameters:
   - description: "the evaluationInterval value to set."
     name: "evaluationInterval"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html\">Duration</a>"
   syntax: "public AutoScaleSettings withEvaluationInterval(Duration evaluationInterval)"
-  desc: "Set the evaluationInterval property: If omitted, the default value is 15 minutes (PT15M)."
+  desc: "Set the evaluationInterval property: The time interval at which to automatically adjust the pool size according to the autoscale formula. If omitted, the default value is 15 minutes (PT15M)."
   returns:
     description: "the AutoScaleSettings object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.AutoScaleSettings?alt=com.azure.resourcemanager.batch.models.AutoScaleSettings&text=AutoScaleSettings\" data-throw-if-not-resolved=\"False\" />"
@@ -122,4 +122,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.AutoScaleSettings?alt=com.azure.resourcemanager.batch.models.AutoScaleSettings&text=AutoScaleSettings\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

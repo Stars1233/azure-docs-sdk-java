@@ -1,0 +1,61 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mongodbatlas.models.RegionsByTierResponse"
+fullName: "com.azure.resourcemanager.mongodbatlas.models.RegionsByTierResponse"
+name: "RegionsByTierResponse"
+nameWithType: "RegionsByTierResponse"
+summary: "An immutable client-side representation of Regions<wbr>ByTier<wbr>Response."
+syntax: "public interface **RegionsByTierResponse**"
+methods:
+- uid: "com.azure.resourcemanager.mongodbatlas.models.RegionsByTierResponse.innerModel()"
+  fullName: "com.azure.resourcemanager.mongodbatlas.models.RegionsByTierResponse.innerModel()"
+  name: "innerModel()"
+  nameWithType: "RegionsByTierResponse.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>mongodbatlas.<wbr>fluent.<wbr>models.<wbr>Regions<wbr>ByTier<wbr>Response<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract RegionsByTierResponseInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.mongodbatlas.fluent.models.RegionsByTierResponseInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.mongodbatlas.fluent.models.RegionsByTierResponseInner?alt=com.azure.resourcemanager.mongodbatlas.fluent.models.RegionsByTierResponseInner&text=RegionsByTierResponseInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mongodbatlas.models.RegionsByTierResponse.organizationId()"
+  fullName: "com.azure.resourcemanager.mongodbatlas.models.RegionsByTierResponse.organizationId()"
+  name: "organizationId()"
+  nameWithType: "RegionsByTierResponse.organizationId()"
+  summary: "Gets the organization<wbr>Id property: Atlas organization id."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String organizationId()"
+  desc: "Gets the organizationId property: Atlas organization id."
+  returns:
+    description: "the organizationId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.mongodbatlas.models.RegionsByTierResponse.projectId()"
+  fullName: "com.azure.resourcemanager.mongodbatlas.models.RegionsByTierResponse.projectId()"
+  name: "projectId()"
+  nameWithType: "RegionsByTierResponse.projectId()"
+  summary: "Gets the project<wbr>Id property: Atlas project id."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String projectId()"
+  desc: "Gets the projectId property: Atlas project id."
+  returns:
+    description: "the projectId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.mongodbatlas.models.RegionsByTierResponse.regionsByTier()"
+  fullName: "com.azure.resourcemanager.mongodbatlas.models.RegionsByTierResponse.regionsByTier()"
+  name: "regionsByTier()"
+  nameWithType: "RegionsByTierResponse.regionsByTier()"
+  summary: "Gets the regions<wbr>ByTier property: List of cluster tiers and their supported regions."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<TierRegions> regionsByTier()"
+  desc: "Gets the regionsByTier property: List of cluster tiers and their supported regions."
+  returns:
+    description: "the regionsByTier value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.mongodbatlas.models.TierRegions?alt=com.azure.resourcemanager.mongodbatlas.models.TierRegions&text=TierRegions\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
+desc: "An immutable client-side representation of RegionsByTierResponse."
+metadata: {}
+package: "com.azure.resourcemanager.mongodbatlas.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mongodbatlas:1.1.0-beta.1

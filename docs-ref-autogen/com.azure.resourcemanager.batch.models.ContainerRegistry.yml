@@ -53,9 +53,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.ContainerRegistry.identityReference()"
   name: "identityReference()"
   nameWithType: "ContainerRegistry.identityReference()"
-  summary: "Get the identity<wbr>Reference property: The reference to a user assigned identity associated with the Batch pool which a compute node will use."
+  summary: "Get the identity<wbr>Reference property: The reference to the user assigned identity to use to access an Azure Container Registry instead of username and password."
   syntax: "public ComputeNodeIdentityReference identityReference()"
-  desc: "Get the identityReference property: The reference to a user assigned identity associated with the Batch pool which a compute node will use."
+  desc: "Get the identityReference property: The reference to the user assigned identity to use to access an Azure Container Registry instead of username and password. The reference to a user assigned identity associated with the Batch pool which a compute node will use."
   returns:
     description: "the identityReference value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.ComputeNodeIdentityReference?alt=com.azure.resourcemanager.batch.models.ComputeNodeIdentityReference&text=ComputeNodeIdentityReference\" data-throw-if-not-resolved=\"False\" />"
@@ -73,9 +73,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.ContainerRegistry.registryServer()"
   name: "registryServer()"
   nameWithType: "ContainerRegistry.registryServer()"
-  summary: "Get the registry<wbr>Server property: If omitted, the default is \"docker.<wbr>io\"."
+  summary: "Get the registry<wbr>Server property: The registry URL."
   syntax: "public String registryServer()"
-  desc: "Get the registryServer property: If omitted, the default is \"docker.io\"."
+  desc: "Get the registryServer property: The registry URL. If omitted, the default is \"docker.io\"."
   returns:
     description: "the registryServer value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -112,13 +112,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.ContainerRegistry.withIdentityReference(ComputeNodeIdentityReference identityReference)"
   name: "withIdentityReference(ComputeNodeIdentityReference identityReference)"
   nameWithType: "ContainerRegistry.withIdentityReference(ComputeNodeIdentityReference identityReference)"
-  summary: "Set the identity<wbr>Reference property: The reference to a user assigned identity associated with the Batch pool which a compute node will use."
+  summary: "Set the identity<wbr>Reference property: The reference to the user assigned identity to use to access an Azure Container Registry instead of username and password."
   parameters:
   - description: "the identityReference value to set."
     name: "identityReference"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.ComputeNodeIdentityReference?alt=com.azure.resourcemanager.batch.models.ComputeNodeIdentityReference&text=ComputeNodeIdentityReference\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ContainerRegistry withIdentityReference(ComputeNodeIdentityReference identityReference)"
-  desc: "Set the identityReference property: The reference to a user assigned identity associated with the Batch pool which a compute node will use."
+  desc: "Set the identityReference property: The reference to the user assigned identity to use to access an Azure Container Registry instead of username and password. The reference to a user assigned identity associated with the Batch pool which a compute node will use."
   returns:
     description: "the ContainerRegistry object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.ContainerRegistry?alt=com.azure.resourcemanager.batch.models.ContainerRegistry&text=ContainerRegistry\" data-throw-if-not-resolved=\"False\" />"
@@ -140,13 +140,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.ContainerRegistry.withRegistryServer(String registryServer)"
   name: "withRegistryServer(String registryServer)"
   nameWithType: "ContainerRegistry.withRegistryServer(String registryServer)"
-  summary: "Set the registry<wbr>Server property: If omitted, the default is \"docker.<wbr>io\"."
+  summary: "Set the registry<wbr>Server property: The registry URL."
   parameters:
   - description: "the registryServer value to set."
     name: "registryServer"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public ContainerRegistry withRegistryServer(String registryServer)"
-  desc: "Set the registryServer property: If omitted, the default is \"docker.io\"."
+  desc: "Set the registryServer property: The registry URL. If omitted, the default is \"docker.io\"."
   returns:
     description: "the ContainerRegistry object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.ContainerRegistry?alt=com.azure.resourcemanager.batch.models.ContainerRegistry&text=ContainerRegistry\" data-throw-if-not-resolved=\"False\" />"
@@ -170,4 +170,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.ContainerRegistry?alt=com.azure.resourcemanager.batch.models.ContainerRegistry&text=ContainerRegistry\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

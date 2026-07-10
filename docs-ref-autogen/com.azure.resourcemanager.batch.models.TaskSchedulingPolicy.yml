@@ -49,6 +49,16 @@ methods:
   returns:
     description: "An instance of TaskSchedulingPolicy if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.TaskSchedulingPolicy?alt=com.azure.resourcemanager.batch.models.TaskSchedulingPolicy&text=TaskSchedulingPolicy\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.batch.models.TaskSchedulingPolicy.jobDefaultOrder()"
+  fullName: "com.azure.resourcemanager.batch.models.TaskSchedulingPolicy.jobDefaultOrder()"
+  name: "jobDefaultOrder()"
+  nameWithType: "TaskSchedulingPolicy.jobDefaultOrder()"
+  summary: "Get the job<wbr>Default<wbr>Order property: If not specified, the default is none."
+  syntax: "public JobDefaultOrder jobDefaultOrder()"
+  desc: "Get the jobDefaultOrder property: If not specified, the default is none. The order for scheduling tasks from different jobs with the same priority."
+  returns:
+    description: "the jobDefaultOrder value."
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.JobDefaultOrder?alt=com.azure.resourcemanager.batch.models.JobDefaultOrder&text=JobDefaultOrder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.batch.models.TaskSchedulingPolicy.nodeFillType()"
   fullName: "com.azure.resourcemanager.batch.models.TaskSchedulingPolicy.nodeFillType()"
   name: "nodeFillType()"
@@ -78,6 +88,20 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.batch.models.TaskSchedulingPolicy.withJobDefaultOrder(com.azure.resourcemanager.batch.models.JobDefaultOrder)"
+  fullName: "com.azure.resourcemanager.batch.models.TaskSchedulingPolicy.withJobDefaultOrder(JobDefaultOrder jobDefaultOrder)"
+  name: "withJobDefaultOrder(JobDefaultOrder jobDefaultOrder)"
+  nameWithType: "TaskSchedulingPolicy.withJobDefaultOrder(JobDefaultOrder jobDefaultOrder)"
+  summary: "Set the job<wbr>Default<wbr>Order property: If not specified, the default is none."
+  parameters:
+  - description: "the jobDefaultOrder value to set."
+    name: "jobDefaultOrder"
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.JobDefaultOrder?alt=com.azure.resourcemanager.batch.models.JobDefaultOrder&text=JobDefaultOrder\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public TaskSchedulingPolicy withJobDefaultOrder(JobDefaultOrder jobDefaultOrder)"
+  desc: "Set the jobDefaultOrder property: If not specified, the default is none. The order for scheduling tasks from different jobs with the same priority."
+  returns:
+    description: "the TaskSchedulingPolicy object itself."
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.TaskSchedulingPolicy?alt=com.azure.resourcemanager.batch.models.TaskSchedulingPolicy&text=TaskSchedulingPolicy\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.batch.models.TaskSchedulingPolicy.withNodeFillType(com.azure.resourcemanager.batch.models.ComputeNodeFillType)"
   fullName: "com.azure.resourcemanager.batch.models.TaskSchedulingPolicy.withNodeFillType(ComputeNodeFillType nodeFillType)"
   name: "withNodeFillType(ComputeNodeFillType nodeFillType)"
@@ -98,4 +122,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.TaskSchedulingPolicy?alt=com.azure.resourcemanager.batch.models.TaskSchedulingPolicy&text=TaskSchedulingPolicy\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

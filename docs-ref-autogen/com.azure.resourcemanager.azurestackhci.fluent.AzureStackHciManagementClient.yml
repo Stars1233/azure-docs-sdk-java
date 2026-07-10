@@ -210,6 +210,18 @@ methods:
   returns:
     description: "the UpdatesClient object."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.UpdatesClient?alt=com.azure.resourcemanager.azurestackhci.fluent.UpdatesClient&text=UpdatesClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.azurestackhci.fluent.AzureStackHciManagementClient.getUpdateSummariesOperationGroups()"
+  fullName: "com.azure.resourcemanager.azurestackhci.fluent.AzureStackHciManagementClient.getUpdateSummariesOperationGroups()"
+  name: "getUpdateSummariesOperationGroups()"
+  nameWithType: "AzureStackHciManagementClient.getUpdateSummariesOperationGroups()"
+  summary: "Gets the Update<wbr>Summaries<wbr>Operation<wbr>Groups<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract UpdateSummariesOperationGroupsClient getUpdateSummariesOperationGroups()"
+  desc: "Gets the UpdateSummariesOperationGroupsClient object to access its operations."
+  returns:
+    description: "the UpdateSummariesOperationGroupsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.UpdateSummariesOperationGroupsClient?alt=com.azure.resourcemanager.azurestackhci.fluent.UpdateSummariesOperationGroupsClient&text=UpdateSummariesOperationGroupsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.AzureStackHciManagementClient.getUpdateSummariesOperations()"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.AzureStackHciManagementClient.getUpdateSummariesOperations()"
   name: "getUpdateSummariesOperations()"
@@ -238,4 +250,4 @@ type: "interface"
 desc: "The interface for AzureStackHciManagementClient class."
 metadata: {}
 package: "com.azure.resourcemanager.azurestackhci.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-azurestackhci:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-azurestackhci:1.1.0

@@ -54,9 +54,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.BatchAccountUpdateParameters.encryption()"
   name: "encryption()"
   nameWithType: "BatchAccountUpdateParameters.encryption()"
-  summary: "Get the encryption property: Configures how customer data is encrypted inside the Batch account."
+  summary: "Get the encryption property: The encryption configuration for the Batch account."
   syntax: "public EncryptionProperties encryption()"
-  desc: "Get the encryption property: Configures how customer data is encrypted inside the Batch account. By default, accounts are encrypted using a Microsoft managed key. For additional control, a customer-managed key can be used instead."
+  desc: "Get the encryption property: The encryption configuration for the Batch account. Configures how customer data is encrypted inside the Batch account. By default, accounts are encrypted using a Microsoft managed key. For additional control, a customer-managed key can be used instead."
   returns:
     description: "the encryption value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.EncryptionProperties?alt=com.azure.resourcemanager.batch.models.EncryptionProperties&text=EncryptionProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -93,9 +93,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.BatchAccountUpdateParameters.networkProfile()"
   name: "networkProfile()"
   nameWithType: "BatchAccountUpdateParameters.networkProfile()"
-  summary: "Get the network<wbr>Profile property: The network profile only takes effect when public<wbr>Network<wbr>Access is enabled."
+  summary: "Get the network<wbr>Profile property: Network profile for Batch account, which contains network rule settings for each endpoint."
   syntax: "public NetworkProfile networkProfile()"
-  desc: "Get the networkProfile property: The network profile only takes effect when publicNetworkAccess is enabled."
+  desc: "Get the networkProfile property: Network profile for Batch account, which contains network rule settings for each endpoint. The network profile only takes effect when publicNetworkAccess is enabled."
   returns:
     description: "the networkProfile value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.NetworkProfile?alt=com.azure.resourcemanager.batch.models.NetworkProfile&text=NetworkProfile\" data-throw-if-not-resolved=\"False\" />"
@@ -103,9 +103,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.BatchAccountUpdateParameters.publicNetworkAccess()"
   name: "publicNetworkAccess()"
   nameWithType: "BatchAccountUpdateParameters.publicNetworkAccess()"
-  summary: "Get the public<wbr>Network<wbr>Access property: If not specified, the default value is 'enabled'."
+  summary: "Get the public<wbr>Network<wbr>Access property: The network access type for accessing Azure Batch account."
   syntax: "public PublicNetworkAccessType publicNetworkAccess()"
-  desc: "Get the publicNetworkAccess property: If not specified, the default value is 'enabled'."
+  desc: "Get the publicNetworkAccess property: The network access type for accessing Azure Batch account. The network access type for operating on the resources in the Batch account."
   returns:
     description: "the publicNetworkAccess value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.PublicNetworkAccessType?alt=com.azure.resourcemanager.batch.models.PublicNetworkAccessType&text=PublicNetworkAccessType\" data-throw-if-not-resolved=\"False\" />"
@@ -170,13 +170,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.BatchAccountUpdateParameters.withEncryption(EncryptionProperties encryption)"
   name: "withEncryption(EncryptionProperties encryption)"
   nameWithType: "BatchAccountUpdateParameters.withEncryption(EncryptionProperties encryption)"
-  summary: "Set the encryption property: Configures how customer data is encrypted inside the Batch account."
+  summary: "Set the encryption property: The encryption configuration for the Batch account."
   parameters:
   - description: "the encryption value to set."
     name: "encryption"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.EncryptionProperties?alt=com.azure.resourcemanager.batch.models.EncryptionProperties&text=EncryptionProperties\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public BatchAccountUpdateParameters withEncryption(EncryptionProperties encryption)"
-  desc: "Set the encryption property: Configures how customer data is encrypted inside the Batch account. By default, accounts are encrypted using a Microsoft managed key. For additional control, a customer-managed key can be used instead."
+  desc: "Set the encryption property: The encryption configuration for the Batch account. Configures how customer data is encrypted inside the Batch account. By default, accounts are encrypted using a Microsoft managed key. For additional control, a customer-managed key can be used instead."
   returns:
     description: "the BatchAccountUpdateParameters object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.BatchAccountUpdateParameters?alt=com.azure.resourcemanager.batch.models.BatchAccountUpdateParameters&text=BatchAccountUpdateParameters\" data-throw-if-not-resolved=\"False\" />"
@@ -198,13 +198,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.BatchAccountUpdateParameters.withNetworkProfile(NetworkProfile networkProfile)"
   name: "withNetworkProfile(NetworkProfile networkProfile)"
   nameWithType: "BatchAccountUpdateParameters.withNetworkProfile(NetworkProfile networkProfile)"
-  summary: "Set the network<wbr>Profile property: The network profile only takes effect when public<wbr>Network<wbr>Access is enabled."
+  summary: "Set the network<wbr>Profile property: Network profile for Batch account, which contains network rule settings for each endpoint."
   parameters:
   - description: "the networkProfile value to set."
     name: "networkProfile"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.NetworkProfile?alt=com.azure.resourcemanager.batch.models.NetworkProfile&text=NetworkProfile\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public BatchAccountUpdateParameters withNetworkProfile(NetworkProfile networkProfile)"
-  desc: "Set the networkProfile property: The network profile only takes effect when publicNetworkAccess is enabled."
+  desc: "Set the networkProfile property: Network profile for Batch account, which contains network rule settings for each endpoint. The network profile only takes effect when publicNetworkAccess is enabled."
   returns:
     description: "the BatchAccountUpdateParameters object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.BatchAccountUpdateParameters?alt=com.azure.resourcemanager.batch.models.BatchAccountUpdateParameters&text=BatchAccountUpdateParameters\" data-throw-if-not-resolved=\"False\" />"
@@ -212,13 +212,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.BatchAccountUpdateParameters.withPublicNetworkAccess(PublicNetworkAccessType publicNetworkAccess)"
   name: "withPublicNetworkAccess(PublicNetworkAccessType publicNetworkAccess)"
   nameWithType: "BatchAccountUpdateParameters.withPublicNetworkAccess(PublicNetworkAccessType publicNetworkAccess)"
-  summary: "Set the public<wbr>Network<wbr>Access property: If not specified, the default value is 'enabled'."
+  summary: "Set the public<wbr>Network<wbr>Access property: The network access type for accessing Azure Batch account."
   parameters:
   - description: "the publicNetworkAccess value to set."
     name: "publicNetworkAccess"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.PublicNetworkAccessType?alt=com.azure.resourcemanager.batch.models.PublicNetworkAccessType&text=PublicNetworkAccessType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public BatchAccountUpdateParameters withPublicNetworkAccess(PublicNetworkAccessType publicNetworkAccess)"
-  desc: "Set the publicNetworkAccess property: If not specified, the default value is 'enabled'."
+  desc: "Set the publicNetworkAccess property: The network access type for accessing Azure Batch account. The network access type for operating on the resources in the Batch account."
   returns:
     description: "the BatchAccountUpdateParameters object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.BatchAccountUpdateParameters?alt=com.azure.resourcemanager.batch.models.BatchAccountUpdateParameters&text=BatchAccountUpdateParameters\" data-throw-if-not-resolved=\"False\" />"
@@ -242,4 +242,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.BatchAccountUpdateParameters?alt=com.azure.resourcemanager.batch.models.BatchAccountUpdateParameters&text=BatchAccountUpdateParameters\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

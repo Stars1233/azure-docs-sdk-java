@@ -4,10 +4,12 @@ fullName: "com.azure.resourcemanager.mongodbatlas.fluent"
 name: "com.azure.resourcemanager.mongodbatlas.fluent"
 summary: "Package containing the service clients for Mongo<wbr>DBAtlas."
 interfaces:
+- "com.azure.resourcemanager.mongodbatlas.fluent.ClustersClient"
 - "com.azure.resourcemanager.mongodbatlas.fluent.MongoDBAtlasManagementClient"
 - "com.azure.resourcemanager.mongodbatlas.fluent.OperationsClient"
 - "com.azure.resourcemanager.mongodbatlas.fluent.OrganizationsClient"
+- "com.azure.resourcemanager.mongodbatlas.fluent.ProjectsClient"
 desc: "Package containing the service clients for MongoDBAtlas."
 metadata: {}
 package: "com.azure.resourcemanager.mongodbatlas.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-mongodbatlas:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-mongodbatlas:1.1.0-beta.1

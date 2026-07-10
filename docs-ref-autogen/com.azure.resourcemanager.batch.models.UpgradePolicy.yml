@@ -34,9 +34,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.UpgradePolicy.automaticOSUpgradePolicy()"
   name: "automaticOSUpgradePolicy()"
   nameWithType: "UpgradePolicy.automaticOSUpgradePolicy()"
-  summary: "Get the automatic<wbr>OSUpgrade<wbr>Policy property: The configuration parameters used for performing automatic OS upgrade."
+  summary: "Get the automatic<wbr>OSUpgrade<wbr>Policy property: Configuration parameters used for performing automatic OS Upgrade."
   syntax: "public AutomaticOSUpgradePolicy automaticOSUpgradePolicy()"
-  desc: "Get the automaticOSUpgradePolicy property: The configuration parameters used for performing automatic OS upgrade."
+  desc: "Get the automaticOSUpgradePolicy property: Configuration parameters used for performing automatic OS Upgrade. The configuration parameters used for performing automatic OS upgrade."
   returns:
     description: "the automaticOSUpgradePolicy value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.AutomaticOSUpgradePolicy?alt=com.azure.resourcemanager.batch.models.AutomaticOSUpgradePolicy&text=AutomaticOSUpgradePolicy\" data-throw-if-not-resolved=\"False\" />"
@@ -102,13 +102,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.UpgradePolicy.withAutomaticOSUpgradePolicy(AutomaticOSUpgradePolicy automaticOSUpgradePolicy)"
   name: "withAutomaticOSUpgradePolicy(AutomaticOSUpgradePolicy automaticOSUpgradePolicy)"
   nameWithType: "UpgradePolicy.withAutomaticOSUpgradePolicy(AutomaticOSUpgradePolicy automaticOSUpgradePolicy)"
-  summary: "Set the automatic<wbr>OSUpgrade<wbr>Policy property: The configuration parameters used for performing automatic OS upgrade."
+  summary: "Set the automatic<wbr>OSUpgrade<wbr>Policy property: Configuration parameters used for performing automatic OS Upgrade."
   parameters:
   - description: "the automaticOSUpgradePolicy value to set."
     name: "automaticOSUpgradePolicy"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.AutomaticOSUpgradePolicy?alt=com.azure.resourcemanager.batch.models.AutomaticOSUpgradePolicy&text=AutomaticOSUpgradePolicy\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public UpgradePolicy withAutomaticOSUpgradePolicy(AutomaticOSUpgradePolicy automaticOSUpgradePolicy)"
-  desc: "Set the automaticOSUpgradePolicy property: The configuration parameters used for performing automatic OS upgrade."
+  desc: "Set the automaticOSUpgradePolicy property: Configuration parameters used for performing automatic OS Upgrade. The configuration parameters used for performing automatic OS upgrade."
   returns:
     description: "the UpgradePolicy object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.UpgradePolicy?alt=com.azure.resourcemanager.batch.models.UpgradePolicy&text=UpgradePolicy\" data-throw-if-not-resolved=\"False\" />"
@@ -146,4 +146,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.UpgradePolicy?alt=com.azure.resourcemanager.batch.models.UpgradePolicy&text=UpgradePolicy\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

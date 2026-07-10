@@ -63,9 +63,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.AutoStorageBaseProperties.nodeIdentityReference()"
   name: "nodeIdentityReference()"
   nameWithType: "AutoStorageBaseProperties.nodeIdentityReference()"
-  summary: "Get the node<wbr>Identity<wbr>Reference property: The identity referenced here must be assigned to pools which have compute nodes that need access to auto-storage."
+  summary: "Get the node<wbr>Identity<wbr>Reference property: The reference to the user assigned identity which compute nodes will use to access auto-storage."
   syntax: "public ComputeNodeIdentityReference nodeIdentityReference()"
-  desc: "Get the nodeIdentityReference property: The identity referenced here must be assigned to pools which have compute nodes that need access to auto-storage."
+  desc: "Get the nodeIdentityReference property: The reference to the user assigned identity which compute nodes will use to access auto-storage. The identity referenced here must be assigned to pools which have compute nodes that need access to auto-storage."
   returns:
     description: "the nodeIdentityReference value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.ComputeNodeIdentityReference?alt=com.azure.resourcemanager.batch.models.ComputeNodeIdentityReference&text=ComputeNodeIdentityReference\" data-throw-if-not-resolved=\"False\" />"
@@ -116,13 +116,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.AutoStorageBaseProperties.withNodeIdentityReference(ComputeNodeIdentityReference nodeIdentityReference)"
   name: "withNodeIdentityReference(ComputeNodeIdentityReference nodeIdentityReference)"
   nameWithType: "AutoStorageBaseProperties.withNodeIdentityReference(ComputeNodeIdentityReference nodeIdentityReference)"
-  summary: "Set the node<wbr>Identity<wbr>Reference property: The identity referenced here must be assigned to pools which have compute nodes that need access to auto-storage."
+  summary: "Set the node<wbr>Identity<wbr>Reference property: The reference to the user assigned identity which compute nodes will use to access auto-storage."
   parameters:
   - description: "the nodeIdentityReference value to set."
     name: "nodeIdentityReference"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.ComputeNodeIdentityReference?alt=com.azure.resourcemanager.batch.models.ComputeNodeIdentityReference&text=ComputeNodeIdentityReference\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public AutoStorageBaseProperties withNodeIdentityReference(ComputeNodeIdentityReference nodeIdentityReference)"
-  desc: "Set the nodeIdentityReference property: The identity referenced here must be assigned to pools which have compute nodes that need access to auto-storage."
+  desc: "Set the nodeIdentityReference property: The reference to the user assigned identity which compute nodes will use to access auto-storage. The identity referenced here must be assigned to pools which have compute nodes that need access to auto-storage."
   returns:
     description: "the AutoStorageBaseProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.AutoStorageBaseProperties?alt=com.azure.resourcemanager.batch.models.AutoStorageBaseProperties&text=AutoStorageBaseProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -146,4 +146,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.AutoStorageBaseProperties?alt=com.azure.resourcemanager.batch.models.AutoStorageBaseProperties&text=AutoStorageBaseProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

@@ -95,6 +95,16 @@ methods:
   returns:
     description: "the billingModel value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner.billingProperties()"
+  fullName: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner.billingProperties()"
+  name: "billingProperties()"
+  nameWithType: "ClusterInner.billingProperties()"
+  summary: "Get the billing<wbr>Properties property: Billing properties of the cluster, including upcoming billing model details."
+  syntax: "public ClusterBillingProperties billingProperties()"
+  desc: "Get the billingProperties property: Billing properties of the cluster, including upcoming billing model details."
+  returns:
+    description: "the billingProperties value."
+    type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.ClusterBillingProperties?alt=com.azure.resourcemanager.azurestackhci.models.ClusterBillingProperties&text=ClusterBillingProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner.cloudId()"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner.cloudId()"
   name: "cloudId()"
@@ -205,6 +215,16 @@ methods:
   returns:
     description: "the isolatedVmAttestationConfiguration value."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.IsolatedVmAttestationConfiguration?alt=com.azure.resourcemanager.azurestackhci.models.IsolatedVmAttestationConfiguration&text=IsolatedVmAttestationConfiguration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner.kind()"
+  fullName: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner.kind()"
+  name: "kind()"
+  nameWithType: "ClusterInner.kind()"
+  summary: "Get the kind property: This property identifies the purpose of the Cluster deployment."
+  syntax: "public String kind()"
+  desc: "Get the kind property: This property identifies the purpose of the Cluster deployment. For example, a valid value is AzureLocal."
+  returns:
+    description: "the kind value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner.lastBillingTimestamp()"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner.lastBillingTimestamp()"
   name: "lastBillingTimestamp()"
@@ -356,6 +376,16 @@ methods:
   returns:
     description: "the status value."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.Status?alt=com.azure.resourcemanager.azurestackhci.models.Status&text=Status\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner.storageType()"
+  fullName: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner.storageType()"
+  name: "storageType()"
+  nameWithType: "ClusterInner.storageType()"
+  summary: "Get the storage<wbr>Type property: Storage type of the cluster."
+  syntax: "public StorageType storageType()"
+  desc: "Get the storageType property: Storage type of the cluster. Indicates whether the cluster uses S2D, SAN, or a combination."
+  returns:
+    description: "the storageType value."
+    type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.StorageType?alt=com.azure.resourcemanager.azurestackhci.models.StorageType&text=StorageType\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner.systemData()"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner.systemData()"
   name: "systemData()"
@@ -514,6 +544,20 @@ methods:
   returns:
     description: "the ClusterInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner.withKind(java.lang.String)"
+  fullName: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner.withKind(String kind)"
+  name: "withKind(String kind)"
+  nameWithType: "ClusterInner.withKind(String kind)"
+  summary: "Set the kind property: This property identifies the purpose of the Cluster deployment."
+  parameters:
+  - description: "the kind value to set."
+    name: "kind"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public ClusterInner withKind(String kind)"
+  desc: "Set the kind property: This property identifies the purpose of the Cluster deployment. For example, a valid value is AzureLocal."
+  returns:
+    description: "the ClusterInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner.withLocalAvailabilityZones(java.util.List<com.azure.resourcemanager.azurestackhci.models.LocalAvailabilityZones>)"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner.withLocalAvailabilityZones(List<LocalAvailabilityZones> localAvailabilityZones)"
   name: "withLocalAvailabilityZones(List<LocalAvailabilityZones> localAvailabilityZones)"
@@ -638,4 +682,4 @@ type: "class"
 desc: "Cluster details."
 metadata: {}
 package: "com.azure.resourcemanager.azurestackhci.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-azurestackhci:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-azurestackhci:1.1.0

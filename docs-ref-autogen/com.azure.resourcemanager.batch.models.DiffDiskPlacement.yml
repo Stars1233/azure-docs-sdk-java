@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.batch.models.DiffDiskPlacement"
 fullName: "com.azure.resourcemanager.batch.models.DiffDiskPlacement"
 name: "DiffDiskPlacement"
 nameWithType: "DiffDiskPlacement"
-summary: "Specifies the ephemeral disk placement for operating system disk for all VMs in the pool."
+summary: "The location where the OS disk should be placed."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -35,8 +35,8 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.DiffDiskPlacement.CACHE_DISK"
   name: "CACHE_DISK"
   nameWithType: "DiffDiskPlacement.CACHE_DISK"
-  summary: "Enum value Cache<wbr>Disk."
-  desc: "Enum value CacheDisk."
+  summary: "The OS disk will be placed on the cache disk of the VM."
+  desc: "The OS disk will be placed on the cache disk of the VM."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.DiffDiskPlacement.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.DiffDiskPlacement.fromString(String value)"
@@ -83,7 +83,7 @@ methods:
   syntax: "public static DiffDiskPlacement[] values()"
   returns:
     type: "<xref href=\"com.azure.resourcemanager.batch.models.DiffDiskPlacement?alt=com.azure.resourcemanager.batch.models.DiffDiskPlacement&text=DiffDiskPlacement\" data-throw-if-not-resolved=\"False\" />[]"
-desc: "Specifies the ephemeral disk placement for operating system disk for all VMs in the pool. This property can be used by user in the request to choose which location the operating system should be in. e.g., cache disk space for Ephemeral OS disk provisioning. For more information on Ephemeral OS disk size requirements, please refer to Ephemeral OS disk size requirements for Windows VMs at https://docs.microsoft.com/en-us/azure/virtual-machines/windows/ephemeral-os-disks\\#size-requirements and Linux VMs at https://docs.microsoft.com/en-us/azure/virtual-machines/linux/ephemeral-os-disks\\#size-requirements."
+desc: "The location where the OS disk should be placed."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

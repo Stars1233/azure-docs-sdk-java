@@ -93,9 +93,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.VMExtension.provisionAfterExtensions()"
   name: "provisionAfterExtensions()"
   nameWithType: "VMExtension.provisionAfterExtensions()"
-  summary: "Get the provision<wbr>After<wbr>Extensions property: Collection of extension names after which this extension needs to be provisioned."
+  summary: "Get the provision<wbr>After<wbr>Extensions property: The collection of extension names."
   syntax: "public List<String> provisionAfterExtensions()"
-  desc: "Get the provisionAfterExtensions property: Collection of extension names after which this extension needs to be provisioned."
+  desc: "Get the provisionAfterExtensions property: The collection of extension names. Collection of extension names after which this extension needs to be provisioned."
   returns:
     description: "the provisionAfterExtensions value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
@@ -218,13 +218,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.VMExtension.withProvisionAfterExtensions(List<String> provisionAfterExtensions)"
   name: "withProvisionAfterExtensions(List<String> provisionAfterExtensions)"
   nameWithType: "VMExtension.withProvisionAfterExtensions(List<String> provisionAfterExtensions)"
-  summary: "Set the provision<wbr>After<wbr>Extensions property: Collection of extension names after which this extension needs to be provisioned."
+  summary: "Set the provision<wbr>After<wbr>Extensions property: The collection of extension names."
   parameters:
   - description: "the provisionAfterExtensions value to set."
     name: "provisionAfterExtensions"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
   syntax: "public VMExtension withProvisionAfterExtensions(List<String> provisionAfterExtensions)"
-  desc: "Set the provisionAfterExtensions property: Collection of extension names after which this extension needs to be provisioned."
+  desc: "Set the provisionAfterExtensions property: The collection of extension names. Collection of extension names after which this extension needs to be provisioned."
   returns:
     description: "the VMExtension object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.VMExtension?alt=com.azure.resourcemanager.batch.models.VMExtension&text=VMExtension\" data-throw-if-not-resolved=\"False\" />"
@@ -290,4 +290,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.VMExtension?alt=com.azure.resourcemanager.batch.models.VMExtension&text=VMExtension\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

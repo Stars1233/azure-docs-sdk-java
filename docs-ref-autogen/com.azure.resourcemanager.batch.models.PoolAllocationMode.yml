@@ -35,14 +35,14 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.PoolAllocationMode.BATCH_SERVICE"
   name: "BATCH_SERVICE"
   nameWithType: "PoolAllocationMode.BATCH_SERVICE"
-  summary: "Enum value Batch<wbr>Service."
-  desc: "Enum value BatchService."
+  summary: "Pools will be allocated in subscriptions owned by the Batch service."
+  desc: "Pools will be allocated in subscriptions owned by the Batch service."
 - uid: "com.azure.resourcemanager.batch.models.PoolAllocationMode.USER_SUBSCRIPTION"
   fullName: "com.azure.resourcemanager.batch.models.PoolAllocationMode.USER_SUBSCRIPTION"
   name: "USER_SUBSCRIPTION"
   nameWithType: "PoolAllocationMode.USER_SUBSCRIPTION"
-  summary: "Enum value User<wbr>Subscription."
-  desc: "Enum value UserSubscription."
+  summary: "Pools will be allocated in a subscription owned by the user."
+  desc: "Pools will be allocated in a subscription owned by the user."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.PoolAllocationMode.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.PoolAllocationMode.fromString(String value)"
@@ -92,4 +92,4 @@ methods:
 desc: "The allocation mode for creating pools in the Batch account."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

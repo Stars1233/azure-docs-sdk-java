@@ -177,6 +177,18 @@ methods:
   returns:
     description: "the storageUrlExpiry value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.batch.models.ApplicationPackage.systemData()"
+  fullName: "com.azure.resourcemanager.batch.models.ApplicationPackage.systemData()"
+  name: "systemData()"
+  nameWithType: "ApplicationPackage.systemData()"
+  summary: "Gets the system<wbr>Data property: Azure Resource Manager metadata containing created<wbr>By and modified<wbr>By information."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SystemData systemData()"
+  desc: "Gets the systemData property: Azure Resource Manager metadata containing createdBy and modifiedBy information."
+  returns:
+    description: "the systemData value."
+    type: "<xref href=\"com.azure.core.management.SystemData?alt=com.azure.core.management.SystemData&text=SystemData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.batch.models.ApplicationPackage.tags()"
   fullName: "com.azure.resourcemanager.batch.models.ApplicationPackage.tags()"
   name: "tags()"
@@ -205,4 +217,4 @@ type: "interface"
 desc: "An immutable client-side representation of ApplicationPackage."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

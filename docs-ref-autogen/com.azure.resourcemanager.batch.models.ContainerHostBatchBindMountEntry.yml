@@ -53,9 +53,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.ContainerHostBatchBindMountEntry.isReadOnly()"
   name: "isReadOnly()"
   nameWithType: "ContainerHostBatchBindMountEntry.isReadOnly()"
-  summary: "Get the is<wbr>Read<wbr>Only property: For Linux, if you mount this path as a read/write mode, this does not mean that all users in container have the read/write access for the path, it depends on the access in host VM."
+  summary: "Get the is<wbr>Read<wbr>Only property: Mount this source path as read-only mode or not."
   syntax: "public Boolean isReadOnly()"
-  desc: "Get the isReadOnly property: For Linux, if you mount this path as a read/write mode, this does not mean that all users in container have the read/write access for the path, it depends on the access in host VM. If this path is mounted read-only, all users within the container will not be able to modify the path."
+  desc: "Get the isReadOnly property: Mount this source path as read-only mode or not. Default value is false (read/write mode). For Linux, if you mount this path as a read/write mode, this does not mean that all users in container have the read/write access for the path, it depends on the access in host VM. If this path is mounted read-only, all users within the container will not be able to modify the path."
   returns:
     description: "the isReadOnly value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
@@ -92,13 +92,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.ContainerHostBatchBindMountEntry.withIsReadOnly(Boolean isReadOnly)"
   name: "withIsReadOnly(Boolean isReadOnly)"
   nameWithType: "ContainerHostBatchBindMountEntry.withIsReadOnly(Boolean isReadOnly)"
-  summary: "Set the is<wbr>Read<wbr>Only property: For Linux, if you mount this path as a read/write mode, this does not mean that all users in container have the read/write access for the path, it depends on the access in host VM."
+  summary: "Set the is<wbr>Read<wbr>Only property: Mount this source path as read-only mode or not."
   parameters:
   - description: "the isReadOnly value to set."
     name: "isReadOnly"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
   syntax: "public ContainerHostBatchBindMountEntry withIsReadOnly(Boolean isReadOnly)"
-  desc: "Set the isReadOnly property: For Linux, if you mount this path as a read/write mode, this does not mean that all users in container have the read/write access for the path, it depends on the access in host VM. If this path is mounted read-only, all users within the container will not be able to modify the path."
+  desc: "Set the isReadOnly property: Mount this source path as read-only mode or not. Default value is false (read/write mode). For Linux, if you mount this path as a read/write mode, this does not mean that all users in container have the read/write access for the path, it depends on the access in host VM. If this path is mounted read-only, all users within the container will not be able to modify the path."
   returns:
     description: "the ContainerHostBatchBindMountEntry object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.ContainerHostBatchBindMountEntry?alt=com.azure.resourcemanager.batch.models.ContainerHostBatchBindMountEntry&text=ContainerHostBatchBindMountEntry\" data-throw-if-not-resolved=\"False\" />"
@@ -122,4 +122,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.ContainerHostBatchBindMountEntry?alt=com.azure.resourcemanager.batch.models.ContainerHostBatchBindMountEntry&text=ContainerHostBatchBindMountEntry\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

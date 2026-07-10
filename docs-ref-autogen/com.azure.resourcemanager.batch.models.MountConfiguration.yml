@@ -34,9 +34,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.MountConfiguration.azureBlobFileSystemConfiguration()"
   name: "azureBlobFileSystemConfiguration()"
   nameWithType: "MountConfiguration.azureBlobFileSystemConfiguration()"
-  summary: "Get the azure<wbr>Blob<wbr>File<wbr>System<wbr>Configuration property: This property is mutually exclusive with all other properties."
+  summary: "Get the azure<wbr>Blob<wbr>File<wbr>System<wbr>Configuration property: The Azure Storage Container to mount using blob FUSE on each node."
   syntax: "public AzureBlobFileSystemConfiguration azureBlobFileSystemConfiguration()"
-  desc: "Get the azureBlobFileSystemConfiguration property: This property is mutually exclusive with all other properties."
+  desc: "Get the azureBlobFileSystemConfiguration property: The Azure Storage Container to mount using blob FUSE on each node. This property is mutually exclusive with all other properties."
   returns:
     description: "the azureBlobFileSystemConfiguration value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration?alt=com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration&text=AzureBlobFileSystemConfiguration\" data-throw-if-not-resolved=\"False\" />"
@@ -44,9 +44,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.MountConfiguration.azureFileShareConfiguration()"
   name: "azureFileShareConfiguration()"
   nameWithType: "MountConfiguration.azureFileShareConfiguration()"
-  summary: "Get the azure<wbr>File<wbr>Share<wbr>Configuration property: This property is mutually exclusive with all other properties."
+  summary: "Get the azure<wbr>File<wbr>Share<wbr>Configuration property: The Azure File Share to mount on each node."
   syntax: "public AzureFileShareConfiguration azureFileShareConfiguration()"
-  desc: "Get the azureFileShareConfiguration property: This property is mutually exclusive with all other properties."
+  desc: "Get the azureFileShareConfiguration property: The Azure File Share to mount on each node. This property is mutually exclusive with all other properties."
   returns:
     description: "the azureFileShareConfiguration value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.AzureFileShareConfiguration?alt=com.azure.resourcemanager.batch.models.AzureFileShareConfiguration&text=AzureFileShareConfiguration\" data-throw-if-not-resolved=\"False\" />"
@@ -54,9 +54,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.MountConfiguration.cifsMountConfiguration()"
   name: "cifsMountConfiguration()"
   nameWithType: "MountConfiguration.cifsMountConfiguration()"
-  summary: "Get the cifs<wbr>Mount<wbr>Configuration property: This property is mutually exclusive with all other properties."
+  summary: "Get the cifs<wbr>Mount<wbr>Configuration property: The CIFS/SMB file system to mount on each node."
   syntax: "public CifsMountConfiguration cifsMountConfiguration()"
-  desc: "Get the cifsMountConfiguration property: This property is mutually exclusive with all other properties."
+  desc: "Get the cifsMountConfiguration property: The CIFS/SMB file system to mount on each node. This property is mutually exclusive with all other properties."
   returns:
     description: "the cifsMountConfiguration value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.CifsMountConfiguration?alt=com.azure.resourcemanager.batch.models.CifsMountConfiguration&text=CifsMountConfiguration\" data-throw-if-not-resolved=\"False\" />"
@@ -83,9 +83,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.MountConfiguration.nfsMountConfiguration()"
   name: "nfsMountConfiguration()"
   nameWithType: "MountConfiguration.nfsMountConfiguration()"
-  summary: "Get the nfs<wbr>Mount<wbr>Configuration property: This property is mutually exclusive with all other properties."
+  summary: "Get the nfs<wbr>Mount<wbr>Configuration property: The NFS file system to mount on each node."
   syntax: "public NfsMountConfiguration nfsMountConfiguration()"
-  desc: "Get the nfsMountConfiguration property: This property is mutually exclusive with all other properties."
+  desc: "Get the nfsMountConfiguration property: The NFS file system to mount on each node. This property is mutually exclusive with all other properties."
   returns:
     description: "the nfsMountConfiguration value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.NfsMountConfiguration?alt=com.azure.resourcemanager.batch.models.NfsMountConfiguration&text=NfsMountConfiguration\" data-throw-if-not-resolved=\"False\" />"
@@ -112,13 +112,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.MountConfiguration.withAzureBlobFileSystemConfiguration(AzureBlobFileSystemConfiguration azureBlobFileSystemConfiguration)"
   name: "withAzureBlobFileSystemConfiguration(AzureBlobFileSystemConfiguration azureBlobFileSystemConfiguration)"
   nameWithType: "MountConfiguration.withAzureBlobFileSystemConfiguration(AzureBlobFileSystemConfiguration azureBlobFileSystemConfiguration)"
-  summary: "Set the azure<wbr>Blob<wbr>File<wbr>System<wbr>Configuration property: This property is mutually exclusive with all other properties."
+  summary: "Set the azure<wbr>Blob<wbr>File<wbr>System<wbr>Configuration property: The Azure Storage Container to mount using blob FUSE on each node."
   parameters:
   - description: "the azureBlobFileSystemConfiguration value to set."
     name: "azureBlobFileSystemConfiguration"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration?alt=com.azure.resourcemanager.batch.models.AzureBlobFileSystemConfiguration&text=AzureBlobFileSystemConfiguration\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public MountConfiguration withAzureBlobFileSystemConfiguration(AzureBlobFileSystemConfiguration azureBlobFileSystemConfiguration)"
-  desc: "Set the azureBlobFileSystemConfiguration property: This property is mutually exclusive with all other properties."
+  desc: "Set the azureBlobFileSystemConfiguration property: The Azure Storage Container to mount using blob FUSE on each node. This property is mutually exclusive with all other properties."
   returns:
     description: "the MountConfiguration object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.MountConfiguration?alt=com.azure.resourcemanager.batch.models.MountConfiguration&text=MountConfiguration\" data-throw-if-not-resolved=\"False\" />"
@@ -126,13 +126,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.MountConfiguration.withAzureFileShareConfiguration(AzureFileShareConfiguration azureFileShareConfiguration)"
   name: "withAzureFileShareConfiguration(AzureFileShareConfiguration azureFileShareConfiguration)"
   nameWithType: "MountConfiguration.withAzureFileShareConfiguration(AzureFileShareConfiguration azureFileShareConfiguration)"
-  summary: "Set the azure<wbr>File<wbr>Share<wbr>Configuration property: This property is mutually exclusive with all other properties."
+  summary: "Set the azure<wbr>File<wbr>Share<wbr>Configuration property: The Azure File Share to mount on each node."
   parameters:
   - description: "the azureFileShareConfiguration value to set."
     name: "azureFileShareConfiguration"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.AzureFileShareConfiguration?alt=com.azure.resourcemanager.batch.models.AzureFileShareConfiguration&text=AzureFileShareConfiguration\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public MountConfiguration withAzureFileShareConfiguration(AzureFileShareConfiguration azureFileShareConfiguration)"
-  desc: "Set the azureFileShareConfiguration property: This property is mutually exclusive with all other properties."
+  desc: "Set the azureFileShareConfiguration property: The Azure File Share to mount on each node. This property is mutually exclusive with all other properties."
   returns:
     description: "the MountConfiguration object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.MountConfiguration?alt=com.azure.resourcemanager.batch.models.MountConfiguration&text=MountConfiguration\" data-throw-if-not-resolved=\"False\" />"
@@ -140,13 +140,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.MountConfiguration.withCifsMountConfiguration(CifsMountConfiguration cifsMountConfiguration)"
   name: "withCifsMountConfiguration(CifsMountConfiguration cifsMountConfiguration)"
   nameWithType: "MountConfiguration.withCifsMountConfiguration(CifsMountConfiguration cifsMountConfiguration)"
-  summary: "Set the cifs<wbr>Mount<wbr>Configuration property: This property is mutually exclusive with all other properties."
+  summary: "Set the cifs<wbr>Mount<wbr>Configuration property: The CIFS/SMB file system to mount on each node."
   parameters:
   - description: "the cifsMountConfiguration value to set."
     name: "cifsMountConfiguration"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.CifsMountConfiguration?alt=com.azure.resourcemanager.batch.models.CifsMountConfiguration&text=CifsMountConfiguration\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public MountConfiguration withCifsMountConfiguration(CifsMountConfiguration cifsMountConfiguration)"
-  desc: "Set the cifsMountConfiguration property: This property is mutually exclusive with all other properties."
+  desc: "Set the cifsMountConfiguration property: The CIFS/SMB file system to mount on each node. This property is mutually exclusive with all other properties."
   returns:
     description: "the MountConfiguration object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.MountConfiguration?alt=com.azure.resourcemanager.batch.models.MountConfiguration&text=MountConfiguration\" data-throw-if-not-resolved=\"False\" />"
@@ -154,13 +154,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.MountConfiguration.withNfsMountConfiguration(NfsMountConfiguration nfsMountConfiguration)"
   name: "withNfsMountConfiguration(NfsMountConfiguration nfsMountConfiguration)"
   nameWithType: "MountConfiguration.withNfsMountConfiguration(NfsMountConfiguration nfsMountConfiguration)"
-  summary: "Set the nfs<wbr>Mount<wbr>Configuration property: This property is mutually exclusive with all other properties."
+  summary: "Set the nfs<wbr>Mount<wbr>Configuration property: The NFS file system to mount on each node."
   parameters:
   - description: "the nfsMountConfiguration value to set."
     name: "nfsMountConfiguration"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.NfsMountConfiguration?alt=com.azure.resourcemanager.batch.models.NfsMountConfiguration&text=NfsMountConfiguration\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public MountConfiguration withNfsMountConfiguration(NfsMountConfiguration nfsMountConfiguration)"
-  desc: "Set the nfsMountConfiguration property: This property is mutually exclusive with all other properties."
+  desc: "Set the nfsMountConfiguration property: The NFS file system to mount on each node. This property is mutually exclusive with all other properties."
   returns:
     description: "the MountConfiguration object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.MountConfiguration?alt=com.azure.resourcemanager.batch.models.MountConfiguration&text=MountConfiguration\" data-throw-if-not-resolved=\"False\" />"
@@ -170,4 +170,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.MountConfiguration?alt=com.azure.resourcemanager.batch.models.MountConfiguration&text=MountConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

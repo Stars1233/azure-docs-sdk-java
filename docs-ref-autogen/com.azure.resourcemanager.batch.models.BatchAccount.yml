@@ -46,11 +46,11 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.BatchAccount.autoStorage()"
   name: "autoStorage()"
   nameWithType: "BatchAccount.autoStorage()"
-  summary: "Gets the auto<wbr>Storage property: Contains information about the auto-storage account associated with a Batch account."
+  summary: "Gets the auto<wbr>Storage property: The properties and status of any auto-storage account associated with the Batch account."
   modifiers:
   - "abstract"
   syntax: "public abstract AutoStorageProperties autoStorage()"
-  desc: "Gets the autoStorage property: Contains information about the auto-storage account associated with a Batch account."
+  desc: "Gets the autoStorage property: The properties and status of any auto-storage account associated with the Batch account. Contains information about the auto-storage account associated with a Batch account."
   returns:
     description: "the autoStorage value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.AutoStorageProperties?alt=com.azure.resourcemanager.batch.models.AutoStorageProperties&text=AutoStorageProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -58,11 +58,11 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.BatchAccount.dedicatedCoreQuota()"
   name: "dedicatedCoreQuota()"
   nameWithType: "BatchAccount.dedicatedCoreQuota()"
-  summary: "Gets the dedicated<wbr>Core<wbr>Quota property: For accounts with Pool<wbr>Allocation<wbr>Mode set to User<wbr>Subscription, quota is managed on the subscription so this value is not returned."
+  summary: "Gets the dedicated<wbr>Core<wbr>Quota property: The dedicated core quota for the Batch account."
   modifiers:
   - "abstract"
   syntax: "public abstract Integer dedicatedCoreQuota()"
-  desc: "Gets the dedicatedCoreQuota property: For accounts with PoolAllocationMode set to UserSubscription, quota is managed on the subscription so this value is not returned."
+  desc: "Gets the dedicatedCoreQuota property: The dedicated core quota for the Batch account. For accounts with PoolAllocationMode set to UserSubscription, quota is managed on the subscription so this value is not returned."
   returns:
     description: "the dedicatedCoreQuota value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
@@ -82,11 +82,11 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.BatchAccount.dedicatedCoreQuotaPerVMFamilyEnforced()"
   name: "dedicatedCoreQuotaPerVMFamilyEnforced()"
   nameWithType: "BatchAccount.dedicatedCoreQuotaPerVMFamilyEnforced()"
-  summary: "Gets the dedicated<wbr>Core<wbr>Quota<wbr>Per<wbr>VMFamily<wbr>Enforced property: If this flag is true, dedicated core quota is enforced via both the dedicated<wbr>Core<wbr>Quota<wbr>Per<wbr>VMFamily and dedicated<wbr>Core<wbr>Quota properties on the account."
+  summary: "Gets the dedicated<wbr>Core<wbr>Quota<wbr>Per<wbr>VMFamily<wbr>Enforced property: A value indicating whether core quotas per Virtual Machine family are enforced for this account If this flag is true, dedicated core quota is enforced via both the dedicated<wbr>Core<wbr>Quota<wbr>Per<wbr>VMFamily and dedicated<wbr>Core<wbr>Quota properties on the account."
   modifiers:
   - "abstract"
   syntax: "public abstract Boolean dedicatedCoreQuotaPerVMFamilyEnforced()"
-  desc: "Gets the dedicatedCoreQuotaPerVMFamilyEnforced property: If this flag is true, dedicated core quota is enforced via both the dedicatedCoreQuotaPerVMFamily and dedicatedCoreQuota properties on the account. If this flag is false, dedicated core quota is enforced only via the dedicatedCoreQuota property on the account and does not consider Virtual Machine family."
+  desc: "Gets the dedicatedCoreQuotaPerVMFamilyEnforced property: A value indicating whether core quotas per Virtual Machine family are enforced for this account If this flag is true, dedicated core quota is enforced via both the dedicatedCoreQuotaPerVMFamily and dedicatedCoreQuota properties on the account. If this flag is false, dedicated core quota is enforced only via the dedicatedCoreQuota property on the account and does not consider Virtual Machine family."
   returns:
     description: "the dedicatedCoreQuotaPerVMFamilyEnforced value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
@@ -94,11 +94,11 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.BatchAccount.encryption()"
   name: "encryption()"
   nameWithType: "BatchAccount.encryption()"
-  summary: "Gets the encryption property: Configures how customer data is encrypted inside the Batch account."
+  summary: "Gets the encryption property: The encryption configuration for the Batch account."
   modifiers:
   - "abstract"
   syntax: "public abstract EncryptionProperties encryption()"
-  desc: "Gets the encryption property: Configures how customer data is encrypted inside the Batch account. By default, accounts are encrypted using a Microsoft managed key. For additional control, a customer-managed key can be used instead."
+  desc: "Gets the encryption property: The encryption configuration for the Batch account. Configures how customer data is encrypted inside the Batch account. By default, accounts are encrypted using a Microsoft managed key. For additional control, a customer-managed key can be used instead."
   returns:
     description: "the encryption value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.EncryptionProperties?alt=com.azure.resourcemanager.batch.models.EncryptionProperties&text=EncryptionProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -112,7 +112,7 @@ methods:
   syntax: "public abstract BatchAccountKeys getKeys()"
   desc: "Gets the account keys for the specified Batch account. This operation applies only to Batch accounts with allowedAuthenticationModes containing 'SharedKey'. If the Batch account doesn't contain 'SharedKey' in its allowedAuthenticationMode, clients cannot use shared keys to authenticate, and must use another allowedAuthenticationModes instead. In this case, getting the keys will fail."
   returns:
-    description: "a set of Azure Batch account keys."
+    description: "the account keys for the specified Batch account.\n \n This operation applies only to Batch accounts with allowedAuthenticationModes containing 'SharedKey'."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.BatchAccountKeys?alt=com.azure.resourcemanager.batch.models.BatchAccountKeys&text=BatchAccountKeys\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.batch.models.BatchAccount.getKeysWithResponse(com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.batch.models.BatchAccount.getKeysWithResponse(Context context)"
@@ -128,7 +128,7 @@ methods:
   syntax: "public abstract Response<BatchAccountKeys> getKeysWithResponse(Context context)"
   desc: "Gets the account keys for the specified Batch account. This operation applies only to Batch accounts with allowedAuthenticationModes containing 'SharedKey'. If the Batch account doesn't contain 'SharedKey' in its allowedAuthenticationMode, clients cannot use shared keys to authenticate, and must use another allowedAuthenticationModes instead. In this case, getting the keys will fail."
   returns:
-    description: "a set of Azure Batch account keys along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    description: "the account keys for the specified Batch account.\n \n This operation applies only to Batch accounts with allowedAuthenticationModes containing 'SharedKey' along with\n <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.BatchAccountKeys?alt=com.azure.resourcemanager.batch.models.BatchAccountKeys&text=BatchAccountKeys\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.batch.models.BatchAccount.id()"
   fullName: "com.azure.resourcemanager.batch.models.BatchAccount.id()"
@@ -170,11 +170,11 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.BatchAccount.keyVaultReference()"
   name: "keyVaultReference()"
   nameWithType: "BatchAccount.keyVaultReference()"
-  summary: "Gets the key<wbr>Vault<wbr>Reference property: Identifies the Azure key vault associated with a Batch account."
+  summary: "Gets the key<wbr>Vault<wbr>Reference property: A reference to the Azure key vault associated with the Batch account."
   modifiers:
   - "abstract"
   syntax: "public abstract KeyVaultReference keyVaultReference()"
-  desc: "Gets the keyVaultReference property: Identifies the Azure key vault associated with a Batch account."
+  desc: "Gets the keyVaultReference property: A reference to the Azure key vault associated with the Batch account. Identifies the Azure key vault associated with a Batch account."
   returns:
     description: "the keyVaultReference value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.KeyVaultReference?alt=com.azure.resourcemanager.batch.models.KeyVaultReference&text=KeyVaultReference\" data-throw-if-not-resolved=\"False\" />"
@@ -194,11 +194,11 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.BatchAccount.lowPriorityCoreQuota()"
   name: "lowPriorityCoreQuota()"
   nameWithType: "BatchAccount.lowPriorityCoreQuota()"
-  summary: "Gets the low<wbr>Priority<wbr>Core<wbr>Quota property: For accounts with Pool<wbr>Allocation<wbr>Mode set to User<wbr>Subscription, quota is managed on the subscription so this value is not returned."
+  summary: "Gets the low<wbr>Priority<wbr>Core<wbr>Quota property: The Spot/low-priority core quota for the Batch account."
   modifiers:
   - "abstract"
   syntax: "public abstract Integer lowPriorityCoreQuota()"
-  desc: "Gets the lowPriorityCoreQuota property: For accounts with PoolAllocationMode set to UserSubscription, quota is managed on the subscription so this value is not returned."
+  desc: "Gets the lowPriorityCoreQuota property: The Spot/low-priority core quota for the Batch account. For accounts with PoolAllocationMode set to UserSubscription, quota is managed on the subscription so this value is not returned."
   returns:
     description: "the lowPriorityCoreQuota value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
@@ -218,11 +218,11 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.BatchAccount.networkProfile()"
   name: "networkProfile()"
   nameWithType: "BatchAccount.networkProfile()"
-  summary: "Gets the network<wbr>Profile property: The network profile only takes effect when public<wbr>Network<wbr>Access is enabled."
+  summary: "Gets the network<wbr>Profile property: Network profile for Batch account, which contains network rule settings for each endpoint."
   modifiers:
   - "abstract"
   syntax: "public abstract NetworkProfile networkProfile()"
-  desc: "Gets the networkProfile property: The network profile only takes effect when publicNetworkAccess is enabled."
+  desc: "Gets the networkProfile property: Network profile for Batch account, which contains network rule settings for each endpoint. The network profile only takes effect when publicNetworkAccess is enabled."
   returns:
     description: "the networkProfile value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.NetworkProfile?alt=com.azure.resourcemanager.batch.models.NetworkProfile&text=NetworkProfile\" data-throw-if-not-resolved=\"False\" />"
@@ -242,11 +242,11 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.BatchAccount.poolAllocationMode()"
   name: "poolAllocationMode()"
   nameWithType: "BatchAccount.poolAllocationMode()"
-  summary: "Gets the pool<wbr>Allocation<wbr>Mode property: The allocation mode for creating pools in the Batch account."
+  summary: "Gets the pool<wbr>Allocation<wbr>Mode property: The allocation mode to use for creating pools in the Batch account."
   modifiers:
   - "abstract"
   syntax: "public abstract PoolAllocationMode poolAllocationMode()"
-  desc: "Gets the poolAllocationMode property: The allocation mode for creating pools in the Batch account."
+  desc: "Gets the poolAllocationMode property: The allocation mode to use for creating pools in the Batch account. The allocation mode for creating pools in the Batch account."
   returns:
     description: "the poolAllocationMode value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.PoolAllocationMode?alt=com.azure.resourcemanager.batch.models.PoolAllocationMode&text=PoolAllocationMode\" data-throw-if-not-resolved=\"False\" />"
@@ -290,11 +290,11 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.BatchAccount.publicNetworkAccess()"
   name: "publicNetworkAccess()"
   nameWithType: "BatchAccount.publicNetworkAccess()"
-  summary: "Gets the public<wbr>Network<wbr>Access property: If not specified, the default value is 'enabled'."
+  summary: "Gets the public<wbr>Network<wbr>Access property: The network interface type for accessing Azure Batch service and Batch account operations."
   modifiers:
   - "abstract"
   syntax: "public abstract PublicNetworkAccessType publicNetworkAccess()"
-  desc: "Gets the publicNetworkAccess property: If not specified, the default value is 'enabled'."
+  desc: "Gets the publicNetworkAccess property: The network interface type for accessing Azure Batch service and Batch account operations. The network access type for operating on the resources in the Batch account."
   returns:
     description: "the publicNetworkAccess value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.PublicNetworkAccessType?alt=com.azure.resourcemanager.batch.models.PublicNetworkAccessType&text=PublicNetworkAccessType\" data-throw-if-not-resolved=\"False\" />"
@@ -422,6 +422,18 @@ methods:
   returns:
     description: "the <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
+- uid: "com.azure.resourcemanager.batch.models.BatchAccount.systemData()"
+  fullName: "com.azure.resourcemanager.batch.models.BatchAccount.systemData()"
+  name: "systemData()"
+  nameWithType: "BatchAccount.systemData()"
+  summary: "Gets the system<wbr>Data property: Azure Resource Manager metadata containing created<wbr>By and modified<wbr>By information."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SystemData systemData()"
+  desc: "Gets the systemData property: Azure Resource Manager metadata containing createdBy and modifiedBy information."
+  returns:
+    description: "the systemData value."
+    type: "<xref href=\"com.azure.core.management.SystemData?alt=com.azure.core.management.SystemData&text=SystemData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.batch.models.BatchAccount.tags()"
   fullName: "com.azure.resourcemanager.batch.models.BatchAccount.tags()"
   name: "tags()"
@@ -462,4 +474,4 @@ type: "interface"
 desc: "An immutable client-side representation of BatchAccount."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

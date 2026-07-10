@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **DetectorResponseProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.fluent.models.DetectorResponseProperties?alt=com.azure.resourcemanager.batch.fluent.models.DetectorResponseProperties&text=DetectorResponseProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.batch.fluent.models.DetectorResponseProperties.DetectorResponseProperties()"
-  fullName: "com.azure.resourcemanager.batch.fluent.models.DetectorResponseProperties.DetectorResponseProperties()"
-  name: "DetectorResponseProperties()"
-  nameWithType: "DetectorResponseProperties.DetectorResponseProperties()"
-  summary: "Creates an instance of Detector<wbr>Response<wbr>Properties class."
-  syntax: "public DetectorResponseProperties()"
-  desc: "Creates an instance of DetectorResponseProperties class."
 methods:
 - uid: "com.azure.resourcemanager.batch.fluent.models.DetectorResponseProperties.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.batch.fluent.models.DetectorResponseProperties.fromJson(JsonReader jsonReader)"
@@ -78,24 +70,10 @@ methods:
   returns:
     description: "the value value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.batch.fluent.models.DetectorResponseProperties.withValue(java.lang.String)"
-  fullName: "com.azure.resourcemanager.batch.fluent.models.DetectorResponseProperties.withValue(String value)"
-  name: "withValue(String value)"
-  nameWithType: "DetectorResponseProperties.withValue(String value)"
-  summary: "Set the value property: A base64 encoded string that represents the content of a detector."
-  parameters:
-  - description: "the value value to set."
-    name: "value"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public DetectorResponseProperties withValue(String value)"
-  desc: "Set the value property: A base64 encoded string that represents the content of a detector."
-  returns:
-    description: "the DetectorResponseProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.batch.fluent.models.DetectorResponseProperties?alt=com.azure.resourcemanager.batch.fluent.models.DetectorResponseProperties&text=DetectorResponseProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Detector response properties."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.fluent.models.DetectorResponseProperties?alt=com.azure.resourcemanager.batch.fluent.models.DetectorResponseProperties&text=DetectorResponseProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

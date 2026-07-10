@@ -53,9 +53,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.WindowsUserConfiguration.loginMode()"
   name: "loginMode()"
   nameWithType: "WindowsUserConfiguration.loginMode()"
-  summary: "Get the login<wbr>Mode property: Specifies login mode for the user."
+  summary: "Get the login<wbr>Mode property: Login mode for user Specifies login mode for the user."
   syntax: "public LoginMode loginMode()"
-  desc: "Get the loginMode property: Specifies login mode for the user. The default value is Interactive."
+  desc: "Get the loginMode property: Login mode for user Specifies login mode for the user. The default value is Interactive."
   returns:
     description: "the loginMode value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.LoginMode?alt=com.azure.resourcemanager.batch.models.LoginMode&text=LoginMode\" data-throw-if-not-resolved=\"False\" />"
@@ -82,13 +82,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.WindowsUserConfiguration.withLoginMode(LoginMode loginMode)"
   name: "withLoginMode(LoginMode loginMode)"
   nameWithType: "WindowsUserConfiguration.withLoginMode(LoginMode loginMode)"
-  summary: "Set the login<wbr>Mode property: Specifies login mode for the user."
+  summary: "Set the login<wbr>Mode property: Login mode for user Specifies login mode for the user."
   parameters:
   - description: "the loginMode value to set."
     name: "loginMode"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.LoginMode?alt=com.azure.resourcemanager.batch.models.LoginMode&text=LoginMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public WindowsUserConfiguration withLoginMode(LoginMode loginMode)"
-  desc: "Set the loginMode property: Specifies login mode for the user. The default value is Interactive."
+  desc: "Set the loginMode property: Login mode for user Specifies login mode for the user. The default value is Interactive."
   returns:
     description: "the WindowsUserConfiguration object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.WindowsUserConfiguration?alt=com.azure.resourcemanager.batch.models.WindowsUserConfiguration&text=WindowsUserConfiguration\" data-throw-if-not-resolved=\"False\" />"
@@ -98,4 +98,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.WindowsUserConfiguration?alt=com.azure.resourcemanager.batch.models.WindowsUserConfiguration&text=WindowsUserConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

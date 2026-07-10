@@ -35,20 +35,20 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.StorageAccountType.PREMIUM_LRS"
   name: "PREMIUM_LRS"
   nameWithType: "StorageAccountType.PREMIUM_LRS"
-  summary: "Enum value Premium\\_LRS."
-  desc: "Enum value Premium\\_LRS."
+  summary: "The data disk / OS disk should use premium locally redundant storage."
+  desc: "The data disk / OS disk should use premium locally redundant storage."
 - uid: "com.azure.resourcemanager.batch.models.StorageAccountType.STANDARD_LRS"
   fullName: "com.azure.resourcemanager.batch.models.StorageAccountType.STANDARD_LRS"
   name: "STANDARD_LRS"
   nameWithType: "StorageAccountType.STANDARD_LRS"
-  summary: "Enum value Standard\\_LRS."
-  desc: "Enum value Standard\\_LRS."
+  summary: "The data disk / OS disk should use standard locally redundant storage."
+  desc: "The data disk / OS disk should use standard locally redundant storage."
 - uid: "com.azure.resourcemanager.batch.models.StorageAccountType.STANDARD_SSD_LRS"
   fullName: "com.azure.resourcemanager.batch.models.StorageAccountType.STANDARD_SSD_LRS"
   name: "STANDARD_SSD_LRS"
   nameWithType: "StorageAccountType.STANDARD_SSD_LRS"
-  summary: "Enum value StandardSSD\\_LRS."
-  desc: "Enum value StandardSSD\\_LRS."
+  summary: "The data disk / OS disk should use standard SSD locally redundant storage."
+  desc: "The data disk / OS disk should use standard SSD locally redundant storage."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.StorageAccountType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.StorageAccountType.fromString(String value)"
@@ -98,4 +98,4 @@ methods:
 desc: "The storage account type for use in creating data disks or OS disk."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

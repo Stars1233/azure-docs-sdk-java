@@ -69,6 +69,16 @@ methods:
   returns:
     description: "the intents value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.azurestackhci.models.DeploymentSettingIntents?alt=com.azure.resourcemanager.azurestackhci.models.DeploymentSettingIntents&text=DeploymentSettingIntents\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.azurestackhci.models.DeploymentSettingHostNetwork.sanNetworks()"
+  fullName: "com.azure.resourcemanager.azurestackhci.models.DeploymentSettingHostNetwork.sanNetworks()"
+  name: "sanNetworks()"
+  nameWithType: "DeploymentSettingHostNetwork.sanNetworks()"
+  summary: "Get the san<wbr>Networks property: SAN network configuration for the host network."
+  syntax: "public SanNetworks sanNetworks()"
+  desc: "Get the sanNetworks property: SAN network configuration for the host network. Applicable when StorageType is 'SAN' or 'SANS2D'."
+  returns:
+    description: "the sanNetworks value."
+    type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.SanNetworks?alt=com.azure.resourcemanager.azurestackhci.models.SanNetworks&text=SanNetworks\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.models.DeploymentSettingHostNetwork.storageConnectivitySwitchless()"
   fullName: "com.azure.resourcemanager.azurestackhci.models.DeploymentSettingHostNetwork.storageConnectivitySwitchless()"
   name: "storageConnectivitySwitchless()"
@@ -129,6 +139,20 @@ methods:
   returns:
     description: "the DeploymentSettingHostNetwork object itself."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.DeploymentSettingHostNetwork?alt=com.azure.resourcemanager.azurestackhci.models.DeploymentSettingHostNetwork&text=DeploymentSettingHostNetwork\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.azurestackhci.models.DeploymentSettingHostNetwork.withSanNetworks(com.azure.resourcemanager.azurestackhci.models.SanNetworks)"
+  fullName: "com.azure.resourcemanager.azurestackhci.models.DeploymentSettingHostNetwork.withSanNetworks(SanNetworks sanNetworks)"
+  name: "withSanNetworks(SanNetworks sanNetworks)"
+  nameWithType: "DeploymentSettingHostNetwork.withSanNetworks(SanNetworks sanNetworks)"
+  summary: "Set the san<wbr>Networks property: SAN network configuration for the host network."
+  parameters:
+  - description: "the sanNetworks value to set."
+    name: "sanNetworks"
+    type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.SanNetworks?alt=com.azure.resourcemanager.azurestackhci.models.SanNetworks&text=SanNetworks\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public DeploymentSettingHostNetwork withSanNetworks(SanNetworks sanNetworks)"
+  desc: "Set the sanNetworks property: SAN network configuration for the host network. Applicable when StorageType is 'SAN' or 'SANS2D'."
+  returns:
+    description: "the DeploymentSettingHostNetwork object itself."
+    type: "<xref href=\"com.azure.resourcemanager.azurestackhci.models.DeploymentSettingHostNetwork?alt=com.azure.resourcemanager.azurestackhci.models.DeploymentSettingHostNetwork&text=DeploymentSettingHostNetwork\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.models.DeploymentSettingHostNetwork.withStorageConnectivitySwitchless(java.lang.Boolean)"
   fullName: "com.azure.resourcemanager.azurestackhci.models.DeploymentSettingHostNetwork.withStorageConnectivitySwitchless(Boolean storageConnectivitySwitchless)"
   name: "withStorageConnectivitySwitchless(Boolean storageConnectivitySwitchless)"
@@ -163,4 +187,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.azurestackhci.models.DeploymentSettingHostNetwork?alt=com.azure.resourcemanager.azurestackhci.models.DeploymentSettingHostNetwork&text=DeploymentSettingHostNetwork\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.azurestackhci.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-azurestackhci:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-azurestackhci:1.1.0

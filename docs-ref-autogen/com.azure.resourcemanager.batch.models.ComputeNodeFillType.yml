@@ -35,14 +35,14 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.ComputeNodeFillType.PACK"
   name: "PACK"
   nameWithType: "ComputeNodeFillType.PACK"
-  summary: "Enum value Pack."
-  desc: "Enum value Pack."
+  summary: "As many tasks as possible (task<wbr>Slots<wbr>Per<wbr>Node) should be assigned to each node in the pool before any tasks are assigned to the next node in the pool."
+  desc: "As many tasks as possible (taskSlotsPerNode) should be assigned to each node in the pool before any tasks are assigned to the next node in the pool."
 - uid: "com.azure.resourcemanager.batch.models.ComputeNodeFillType.SPREAD"
   fullName: "com.azure.resourcemanager.batch.models.ComputeNodeFillType.SPREAD"
   name: "SPREAD"
   nameWithType: "ComputeNodeFillType.SPREAD"
-  summary: "Enum value Spread."
-  desc: "Enum value Spread."
+  summary: "Tasks should be assigned evenly across all nodes in the pool."
+  desc: "Tasks should be assigned evenly across all nodes in the pool."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.ComputeNodeFillType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.ComputeNodeFillType.fromString(String value)"
@@ -92,4 +92,4 @@ methods:
 desc: "How tasks should be distributed across compute nodes."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

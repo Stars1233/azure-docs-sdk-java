@@ -63,9 +63,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.NetworkSecurityGroupRule.priority()"
   name: "priority()"
   nameWithType: "NetworkSecurityGroupRule.priority()"
-  summary: "Get the priority property: Priorities within a pool must be unique and are evaluated in order of priority."
+  summary: "Get the priority property: The priority for this rule."
   syntax: "public int priority()"
-  desc: "Get the priority property: Priorities within a pool must be unique and are evaluated in order of priority. The lower the number the higher the priority. For example, rules could be specified with order numbers of 150, 250, and 350. The rule with the order number of 150 takes precedence over the rule that has an order of 250. Allowed priorities are 150 to 4096. If any reserved or duplicate values are provided the request fails with HTTP status code 400."
+  desc: "Get the priority property: The priority for this rule. Priorities within a pool must be unique and are evaluated in order of priority. The lower the number the higher the priority. For example, rules could be specified with order numbers of 150, 250, and 350. The rule with the order number of 150 takes precedence over the rule that has an order of 250. Allowed priorities are 150 to 4096. If any reserved or duplicate values are provided the request fails with HTTP status code 400."
   returns:
     description: "the priority value."
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
@@ -73,9 +73,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.NetworkSecurityGroupRule.sourceAddressPrefix()"
   name: "sourceAddressPrefix()"
   nameWithType: "NetworkSecurityGroupRule.sourceAddressPrefix()"
-  summary: "Get the source<wbr>Address<wbr>Prefix property: Valid values are a single IP address (i.<wbr>e."
+  summary: "Get the source<wbr>Address<wbr>Prefix property: The source address prefix or tag to match for the rule."
   syntax: "public String sourceAddressPrefix()"
-  desc: "Get the sourceAddressPrefix property: Valid values are a single IP address (i.e. 10.10.10.10), IP subnet (i.e. 192.168.1.0/24), default tag, or \\* (for all addresses). If any other values are provided the request fails with HTTP status code 400."
+  desc: "Get the sourceAddressPrefix property: The source address prefix or tag to match for the rule. Valid values are a single IP address (i.e. 10.10.10.10), IP subnet (i.e. 192.168.1.0/24), default tag, or \\* (for all addresses). If any other values are provided the request fails with HTTP status code 400."
   returns:
     description: "the sourceAddressPrefix value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -83,9 +83,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.NetworkSecurityGroupRule.sourcePortRanges()"
   name: "sourcePortRanges()"
   nameWithType: "NetworkSecurityGroupRule.sourcePortRanges()"
-  summary: "Get the source<wbr>Port<wbr>Ranges property: Valid values are '\\*' (for all ports 0 - 65535) or arrays of ports or port ranges (i.<wbr>e."
+  summary: "Get the source<wbr>Port<wbr>Ranges property: The source port ranges to match for the rule."
   syntax: "public List<String> sourcePortRanges()"
-  desc: "Get the sourcePortRanges property: Valid values are '\\*' (for all ports 0 - 65535) or arrays of ports or port ranges (i.e. 100-200). The ports should in the range of 0 to 65535 and the port ranges or ports can't overlap. If any other values are provided the request fails with HTTP status code 400. Default value will be \\*."
+  desc: "Get the sourcePortRanges property: The source port ranges to match for the rule. Valid values are '\\*' (for all ports 0 - 65535) or arrays of ports or port ranges (i.e. 100-200). The ports should in the range of 0 to 65535 and the port ranges or ports can't overlap. If any other values are provided the request fails with HTTP status code 400. Default value will be \\*."
   returns:
     description: "the sourcePortRanges value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
@@ -126,13 +126,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.NetworkSecurityGroupRule.withPriority(int priority)"
   name: "withPriority(int priority)"
   nameWithType: "NetworkSecurityGroupRule.withPriority(int priority)"
-  summary: "Set the priority property: Priorities within a pool must be unique and are evaluated in order of priority."
+  summary: "Set the priority property: The priority for this rule."
   parameters:
   - description: "the priority value to set."
     name: "priority"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public NetworkSecurityGroupRule withPriority(int priority)"
-  desc: "Set the priority property: Priorities within a pool must be unique and are evaluated in order of priority. The lower the number the higher the priority. For example, rules could be specified with order numbers of 150, 250, and 350. The rule with the order number of 150 takes precedence over the rule that has an order of 250. Allowed priorities are 150 to 4096. If any reserved or duplicate values are provided the request fails with HTTP status code 400."
+  desc: "Set the priority property: The priority for this rule. Priorities within a pool must be unique and are evaluated in order of priority. The lower the number the higher the priority. For example, rules could be specified with order numbers of 150, 250, and 350. The rule with the order number of 150 takes precedence over the rule that has an order of 250. Allowed priorities are 150 to 4096. If any reserved or duplicate values are provided the request fails with HTTP status code 400."
   returns:
     description: "the NetworkSecurityGroupRule object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.NetworkSecurityGroupRule?alt=com.azure.resourcemanager.batch.models.NetworkSecurityGroupRule&text=NetworkSecurityGroupRule\" data-throw-if-not-resolved=\"False\" />"
@@ -140,13 +140,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.NetworkSecurityGroupRule.withSourceAddressPrefix(String sourceAddressPrefix)"
   name: "withSourceAddressPrefix(String sourceAddressPrefix)"
   nameWithType: "NetworkSecurityGroupRule.withSourceAddressPrefix(String sourceAddressPrefix)"
-  summary: "Set the source<wbr>Address<wbr>Prefix property: Valid values are a single IP address (i.<wbr>e."
+  summary: "Set the source<wbr>Address<wbr>Prefix property: The source address prefix or tag to match for the rule."
   parameters:
   - description: "the sourceAddressPrefix value to set."
     name: "sourceAddressPrefix"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public NetworkSecurityGroupRule withSourceAddressPrefix(String sourceAddressPrefix)"
-  desc: "Set the sourceAddressPrefix property: Valid values are a single IP address (i.e. 10.10.10.10), IP subnet (i.e. 192.168.1.0/24), default tag, or \\* (for all addresses). If any other values are provided the request fails with HTTP status code 400."
+  desc: "Set the sourceAddressPrefix property: The source address prefix or tag to match for the rule. Valid values are a single IP address (i.e. 10.10.10.10), IP subnet (i.e. 192.168.1.0/24), default tag, or \\* (for all addresses). If any other values are provided the request fails with HTTP status code 400."
   returns:
     description: "the NetworkSecurityGroupRule object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.NetworkSecurityGroupRule?alt=com.azure.resourcemanager.batch.models.NetworkSecurityGroupRule&text=NetworkSecurityGroupRule\" data-throw-if-not-resolved=\"False\" />"
@@ -154,13 +154,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.NetworkSecurityGroupRule.withSourcePortRanges(List<String> sourcePortRanges)"
   name: "withSourcePortRanges(List<String> sourcePortRanges)"
   nameWithType: "NetworkSecurityGroupRule.withSourcePortRanges(List<String> sourcePortRanges)"
-  summary: "Set the source<wbr>Port<wbr>Ranges property: Valid values are '\\*' (for all ports 0 - 65535) or arrays of ports or port ranges (i.<wbr>e."
+  summary: "Set the source<wbr>Port<wbr>Ranges property: The source port ranges to match for the rule."
   parameters:
   - description: "the sourcePortRanges value to set."
     name: "sourcePortRanges"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
   syntax: "public NetworkSecurityGroupRule withSourcePortRanges(List<String> sourcePortRanges)"
-  desc: "Set the sourcePortRanges property: Valid values are '\\*' (for all ports 0 - 65535) or arrays of ports or port ranges (i.e. 100-200). The ports should in the range of 0 to 65535 and the port ranges or ports can't overlap. If any other values are provided the request fails with HTTP status code 400. Default value will be \\*."
+  desc: "Set the sourcePortRanges property: The source port ranges to match for the rule. Valid values are '\\*' (for all ports 0 - 65535) or arrays of ports or port ranges (i.e. 100-200). The ports should in the range of 0 to 65535 and the port ranges or ports can't overlap. If any other values are provided the request fails with HTTP status code 400. Default value will be \\*."
   returns:
     description: "the NetworkSecurityGroupRule object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.NetworkSecurityGroupRule?alt=com.azure.resourcemanager.batch.models.NetworkSecurityGroupRule&text=NetworkSecurityGroupRule\" data-throw-if-not-resolved=\"False\" />"
@@ -170,4 +170,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.NetworkSecurityGroupRule?alt=com.azure.resourcemanager.batch.models.NetworkSecurityGroupRule&text=NetworkSecurityGroupRule\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

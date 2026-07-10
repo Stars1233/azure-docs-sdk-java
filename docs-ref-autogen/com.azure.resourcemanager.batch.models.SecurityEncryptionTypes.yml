@@ -38,30 +38,42 @@ constructors:
   desc: "Creates a new instance of SecurityEncryptionTypes value."
   hasDeprecatedTag: true
 fields:
+- uid: "com.azure.resourcemanager.batch.models.SecurityEncryptionTypes.DISK_WITH_VMGUEST_STATE"
+  fullName: "com.azure.resourcemanager.batch.models.SecurityEncryptionTypes.DISK_WITH_VMGUEST_STATE"
+  name: "DISK_WITH_VMGUEST_STATE"
+  nameWithType: "SecurityEncryptionTypes.DISK_WITH_VMGUEST_STATE"
+  summary: "Encryption<wbr>Type of the managed disk is set to Disk<wbr>With<wbr>VMGuest<wbr>State for encryption of the managed disk along with VMGuest<wbr>State blob."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.SecurityEncryptionTypes?alt=com.azure.resourcemanager.batch.models.SecurityEncryptionTypes&text=SecurityEncryptionTypes\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final SecurityEncryptionTypes DISK_WITH_VMGUEST_STATE"
+  desc: "EncryptionType of the managed disk is set to DiskWithVMGuestState for encryption of the managed disk along with VMGuestState blob. It is not supported in data disks."
 - uid: "com.azure.resourcemanager.batch.models.SecurityEncryptionTypes.NON_PERSISTED_TPM"
   fullName: "com.azure.resourcemanager.batch.models.SecurityEncryptionTypes.NON_PERSISTED_TPM"
   name: "NON_PERSISTED_TPM"
   nameWithType: "SecurityEncryptionTypes.NON_PERSISTED_TPM"
-  summary: "Static value Non<wbr>PersistedTPM for Security<wbr>Encryption<wbr>Types."
+  summary: "Encryption<wbr>Type of the managed disk is set to Non<wbr>PersistedTPM for not persisting firmware state in the VMGuest<wbr>State blob."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.batch.models.SecurityEncryptionTypes?alt=com.azure.resourcemanager.batch.models.SecurityEncryptionTypes&text=SecurityEncryptionTypes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SecurityEncryptionTypes NON_PERSISTED_TPM"
-  desc: "Static value NonPersistedTPM for SecurityEncryptionTypes."
+  desc: "EncryptionType of the managed disk is set to NonPersistedTPM for not persisting firmware state in the VMGuestState blob."
 - uid: "com.azure.resourcemanager.batch.models.SecurityEncryptionTypes.VMGUEST_STATE_ONLY"
   fullName: "com.azure.resourcemanager.batch.models.SecurityEncryptionTypes.VMGUEST_STATE_ONLY"
   name: "VMGUEST_STATE_ONLY"
   nameWithType: "SecurityEncryptionTypes.VMGUEST_STATE_ONLY"
-  summary: "Static value VMGuest<wbr>State<wbr>Only for Security<wbr>Encryption<wbr>Types."
+  summary: "Encryption<wbr>Type of the managed disk is set to VMGuest<wbr>State<wbr>Only for encryption of just the VMGuest<wbr>State blob."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.batch.models.SecurityEncryptionTypes?alt=com.azure.resourcemanager.batch.models.SecurityEncryptionTypes&text=SecurityEncryptionTypes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SecurityEncryptionTypes VMGUEST_STATE_ONLY"
-  desc: "Static value VMGuestStateOnly for SecurityEncryptionTypes."
+  desc: "EncryptionType of the managed disk is set to VMGuestStateOnly for encryption of just the VMGuestState blob."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.SecurityEncryptionTypes.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.SecurityEncryptionTypes.fromString(String name)"
@@ -92,7 +104,7 @@ methods:
     description: "known SecurityEncryptionTypes values."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.batch.models.SecurityEncryptionTypes?alt=com.azure.resourcemanager.batch.models.SecurityEncryptionTypes&text=SecurityEncryptionTypes\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
-desc: "Specifies the EncryptionType of the managed disk. It is set to VMGuestStateOnly for encryption of just the VMGuestState blob, and NonPersistedTPM for not persisting firmware state in the VMGuestState blob. \\*\\*Note\\*\\*: It can be set for only Confidential VMs and required when using Confidential VMs."
+desc: "Specifies the EncryptionType of the managed disk. It is set to DiskWithVMGuestState for encryption of the managed disk along with VMGuestState blob, VMGuestStateOnly for encryption of just the VMGuestState blob, and NonPersistedTPM for not persisting firmware state in the VMGuestState blob. \\*\\*Note\\*\\*: It can be set for only Confidential VMs and required when using Confidential VMs."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.batch.models.ManagedDisk"
 fullName: "com.azure.resourcemanager.batch.models.ManagedDisk"
 name: "ManagedDisk"
 nameWithType: "ManagedDisk"
-summary: "The Managed<wbr>Disk model."
+summary: "The managed disk parameters."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -30,6 +30,16 @@ constructors:
   syntax: "public ManagedDisk()"
   desc: "Creates an instance of ManagedDisk class."
 methods:
+- uid: "com.azure.resourcemanager.batch.models.ManagedDisk.diskEncryptionSet()"
+  fullName: "com.azure.resourcemanager.batch.models.ManagedDisk.diskEncryptionSet()"
+  name: "diskEncryptionSet()"
+  nameWithType: "ManagedDisk.diskEncryptionSet()"
+  summary: "Get the disk<wbr>Encryption<wbr>Set property: Specifies the customer managed disk encryption set resource id for the managed disk."
+  syntax: "public DiskEncryptionSetParameters diskEncryptionSet()"
+  desc: "Get the diskEncryptionSet property: Specifies the customer managed disk encryption set resource id for the managed disk. It can be set only in UserSubscription mode."
+  returns:
+    description: "the diskEncryptionSet value."
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.DiskEncryptionSetParameters?alt=com.azure.resourcemanager.batch.models.DiskEncryptionSetParameters&text=DiskEncryptionSetParameters\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.batch.models.ManagedDisk.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.batch.models.ManagedDisk.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -53,9 +63,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.ManagedDisk.securityProfile()"
   name: "securityProfile()"
   nameWithType: "ManagedDisk.securityProfile()"
-  summary: "Get the security<wbr>Profile property: Specifies the security profile settings for the managed disk."
+  summary: "Get the security<wbr>Profile property: Specifies the security profile for the managed disk."
   syntax: "public VMDiskSecurityProfile securityProfile()"
-  desc: "Get the securityProfile property: Specifies the security profile settings for the managed disk. \\*\\*Note\\*\\*: It can only be set for Confidential VMs and is required when using Confidential VMs."
+  desc: "Get the securityProfile property: Specifies the security profile for the managed disk. Specifies the security profile settings for the managed disk. \\*\\*Note\\*\\*: It can only be set for Confidential VMs and is required when using Confidential VMs."
   returns:
     description: "the securityProfile value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.VMDiskSecurityProfile?alt=com.azure.resourcemanager.batch.models.VMDiskSecurityProfile&text=VMDiskSecurityProfile\" data-throw-if-not-resolved=\"False\" />"
@@ -88,17 +98,31 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.batch.models.ManagedDisk.withDiskEncryptionSet(com.azure.resourcemanager.batch.models.DiskEncryptionSetParameters)"
+  fullName: "com.azure.resourcemanager.batch.models.ManagedDisk.withDiskEncryptionSet(DiskEncryptionSetParameters diskEncryptionSet)"
+  name: "withDiskEncryptionSet(DiskEncryptionSetParameters diskEncryptionSet)"
+  nameWithType: "ManagedDisk.withDiskEncryptionSet(DiskEncryptionSetParameters diskEncryptionSet)"
+  summary: "Set the disk<wbr>Encryption<wbr>Set property: Specifies the customer managed disk encryption set resource id for the managed disk."
+  parameters:
+  - description: "the diskEncryptionSet value to set."
+    name: "diskEncryptionSet"
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.DiskEncryptionSetParameters?alt=com.azure.resourcemanager.batch.models.DiskEncryptionSetParameters&text=DiskEncryptionSetParameters\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ManagedDisk withDiskEncryptionSet(DiskEncryptionSetParameters diskEncryptionSet)"
+  desc: "Set the diskEncryptionSet property: Specifies the customer managed disk encryption set resource id for the managed disk. It can be set only in UserSubscription mode."
+  returns:
+    description: "the ManagedDisk object itself."
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.ManagedDisk?alt=com.azure.resourcemanager.batch.models.ManagedDisk&text=ManagedDisk\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.batch.models.ManagedDisk.withSecurityProfile(com.azure.resourcemanager.batch.models.VMDiskSecurityProfile)"
   fullName: "com.azure.resourcemanager.batch.models.ManagedDisk.withSecurityProfile(VMDiskSecurityProfile securityProfile)"
   name: "withSecurityProfile(VMDiskSecurityProfile securityProfile)"
   nameWithType: "ManagedDisk.withSecurityProfile(VMDiskSecurityProfile securityProfile)"
-  summary: "Set the security<wbr>Profile property: Specifies the security profile settings for the managed disk."
+  summary: "Set the security<wbr>Profile property: Specifies the security profile for the managed disk."
   parameters:
   - description: "the securityProfile value to set."
     name: "securityProfile"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.VMDiskSecurityProfile?alt=com.azure.resourcemanager.batch.models.VMDiskSecurityProfile&text=VMDiskSecurityProfile\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ManagedDisk withSecurityProfile(VMDiskSecurityProfile securityProfile)"
-  desc: "Set the securityProfile property: Specifies the security profile settings for the managed disk. \\*\\*Note\\*\\*: It can only be set for Confidential VMs and is required when using Confidential VMs."
+  desc: "Set the securityProfile property: Specifies the security profile for the managed disk. Specifies the security profile settings for the managed disk. \\*\\*Note\\*\\*: It can only be set for Confidential VMs and is required when using Confidential VMs."
   returns:
     description: "the ManagedDisk object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.ManagedDisk?alt=com.azure.resourcemanager.batch.models.ManagedDisk&text=ManagedDisk\" data-throw-if-not-resolved=\"False\" />"
@@ -117,9 +141,9 @@ methods:
     description: "the ManagedDisk object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.ManagedDisk?alt=com.azure.resourcemanager.batch.models.ManagedDisk&text=ManagedDisk\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "The ManagedDisk model."
+desc: "The managed disk parameters."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.ManagedDisk?alt=com.azure.resourcemanager.batch.models.ManagedDisk&text=ManagedDisk\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

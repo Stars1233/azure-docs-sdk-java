@@ -35,14 +35,14 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.ContainerWorkingDirectory.CONTAINER_IMAGE_DEFAULT"
   name: "CONTAINER_IMAGE_DEFAULT"
   nameWithType: "ContainerWorkingDirectory.CONTAINER_IMAGE_DEFAULT"
-  summary: "Enum value Container<wbr>Image<wbr>Default."
-  desc: "Enum value ContainerImageDefault."
+  summary: "Using container image defined working directory."
+  desc: "Using container image defined working directory. Beware that this directory will not contain the resource files downloaded by Batch."
 - uid: "com.azure.resourcemanager.batch.models.ContainerWorkingDirectory.TASK_WORKING_DIRECTORY"
   fullName: "com.azure.resourcemanager.batch.models.ContainerWorkingDirectory.TASK_WORKING_DIRECTORY"
   name: "TASK_WORKING_DIRECTORY"
   nameWithType: "ContainerWorkingDirectory.TASK_WORKING_DIRECTORY"
-  summary: "Enum value Task<wbr>Working<wbr>Directory."
-  desc: "Enum value TaskWorkingDirectory."
+  summary: "Use the standard Batch service task working directory, which will contain the Task resource files populated by Batch."
+  desc: "Use the standard Batch service task working directory, which will contain the Task resource files populated by Batch."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.ContainerWorkingDirectory.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.ContainerWorkingDirectory.fromString(String value)"
@@ -92,4 +92,4 @@ methods:
 desc: "A flag to indicate where the container task working directory is. The default is 'taskWorkingDirectory'."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

@@ -14,7 +14,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
@@ -36,7 +36,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
@@ -61,10 +61,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Batch account."
+  - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginDelete(String resourceGroupName, String accountName)"
@@ -80,10 +80,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Batch account."
+  - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -102,7 +102,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
@@ -124,7 +124,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
@@ -149,10 +149,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Batch account."
+  - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void delete(String resourceGroupName, String accountName)"
@@ -165,10 +165,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Batch account."
+  - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -184,10 +184,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Batch account."
+  - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract BatchAccountInner getByResourceGroup(String resourceGroupName, String accountName)"
@@ -203,10 +203,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Batch account."
+  - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -225,10 +225,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Batch account."
+  - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the detector."
@@ -247,10 +247,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Batch account."
+  - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the detector."
@@ -272,16 +272,16 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Batch account."
+  - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract BatchAccountKeysInner getKeys(String resourceGroupName, String accountName)"
   desc: "Gets the account keys for the specified Batch account. This operation applies only to Batch accounts with allowedAuthenticationModes containing 'SharedKey'. If the Batch account doesn't contain 'SharedKey' in its allowedAuthenticationMode, clients cannot use shared keys to authenticate, and must use another allowedAuthenticationModes instead. In this case, getting the keys will fail."
   returns:
-    description: "a set of Azure Batch account keys."
+    description: "the account keys for the specified Batch account.\n \n This operation applies only to Batch accounts with allowedAuthenticationModes containing 'SharedKey'."
     type: "<xref href=\"com.azure.resourcemanager.batch.fluent.models.BatchAccountKeysInner?alt=com.azure.resourcemanager.batch.fluent.models.BatchAccountKeysInner&text=BatchAccountKeysInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.batch.fluent.BatchAccountsClient.getKeysWithResponse(java.lang.String,java.lang.String,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.batch.fluent.BatchAccountsClient.getKeysWithResponse(String resourceGroupName, String accountName, Context context)"
@@ -291,10 +291,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Batch account."
+  - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -303,7 +303,7 @@ methods:
   syntax: "public abstract Response<BatchAccountKeysInner> getKeysWithResponse(String resourceGroupName, String accountName, Context context)"
   desc: "Gets the account keys for the specified Batch account. This operation applies only to Batch accounts with allowedAuthenticationModes containing 'SharedKey'. If the Batch account doesn't contain 'SharedKey' in its allowedAuthenticationMode, clients cannot use shared keys to authenticate, and must use another allowedAuthenticationModes instead. In this case, getting the keys will fail."
   returns:
-    description: "a set of Azure Batch account keys along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
+    description: "the account keys for the specified Batch account.\n \n This operation applies only to Batch accounts with allowedAuthenticationModes containing 'SharedKey' along with\n <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.fluent.models.BatchAccountKeysInner?alt=com.azure.resourcemanager.batch.fluent.models.BatchAccountKeysInner&text=BatchAccountKeysInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.batch.fluent.BatchAccountsClient.list()"
   fullName: "com.azure.resourcemanager.batch.fluent.BatchAccountsClient.list()"
@@ -341,7 +341,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<BatchAccountInner> listByResourceGroup(String resourceGroupName)"
@@ -357,7 +357,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -376,10 +376,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Batch account."
+  - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<DetectorResponseInner> listDetectors(String resourceGroupName, String accountName)"
@@ -395,10 +395,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Batch account."
+  - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -417,14 +417,14 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Batch account."
+  - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<OutboundEnvironmentEndpointInner> listOutboundNetworkDependenciesEndpoints(String resourceGroupName, String accountName)"
-  desc: "Lists the endpoints that a Batch Compute Node under this Batch Account may call as part of Batch service administration. If you are deploying a Pool inside of a virtual network that you specify, you must make sure your network allows outbound access to these endpoints. Failure to allow access to these endpoints may cause Batch to mark the affected nodes as unusable. For more information about creating a pool inside of a virtual network, see https://docs.microsoft.com/en-us/azure/batch/batch-virtual-network."
+  desc: "Lists the endpoints that a Batch Compute Node under this Batch Account may call as part of Batch service administration. If you are deploying a Pool inside of a virtual network that you specify, you must make sure your network allows outbound access to these endpoints. Failure to allow access to these endpoints may cause Batch to mark the affected nodes as unusable. For more information about creating a pool inside of a virtual network, see https://learn.microsoft.com/azure/batch/batch-virtual-network."
   returns:
     description: "values returned by the List operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.fluent.models.OutboundEnvironmentEndpointInner?alt=com.azure.resourcemanager.batch.fluent.models.OutboundEnvironmentEndpointInner&text=OutboundEnvironmentEndpointInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -436,17 +436,17 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Batch account."
+  - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<OutboundEnvironmentEndpointInner> listOutboundNetworkDependenciesEndpoints(String resourceGroupName, String accountName, Context context)"
-  desc: "Lists the endpoints that a Batch Compute Node under this Batch Account may call as part of Batch service administration. If you are deploying a Pool inside of a virtual network that you specify, you must make sure your network allows outbound access to these endpoints. Failure to allow access to these endpoints may cause Batch to mark the affected nodes as unusable. For more information about creating a pool inside of a virtual network, see https://docs.microsoft.com/en-us/azure/batch/batch-virtual-network."
+  desc: "Lists the endpoints that a Batch Compute Node under this Batch Account may call as part of Batch service administration. If you are deploying a Pool inside of a virtual network that you specify, you must make sure your network allows outbound access to these endpoints. Failure to allow access to these endpoints may cause Batch to mark the affected nodes as unusable. For more information about creating a pool inside of a virtual network, see https://learn.microsoft.com/azure/batch/batch-virtual-network."
   returns:
     description: "values returned by the List operation as paginated response with <xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedIterable\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.fluent.models.OutboundEnvironmentEndpointInner?alt=com.azure.resourcemanager.batch.fluent.models.OutboundEnvironmentEndpointInner&text=OutboundEnvironmentEndpointInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -458,10 +458,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Batch account."
+  - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The type of key to regenerate."
@@ -480,10 +480,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Batch account."
+  - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The type of key to regenerate."
@@ -505,10 +505,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Batch account."
+  - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void synchronizeAutoStorageKeys(String resourceGroupName, String accountName)"
@@ -521,10 +521,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Batch account."
+  - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -543,10 +543,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Batch account."
+  - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Additional parameters for account update."
@@ -565,10 +565,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the Batch account."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the Batch account."
+  - description: "A name for the Batch account which must be unique within the region. Batch account names must\n be between 3 and 24 characters in length and must use only numbers and lowercase letters. This name is used as\n part of the DNS name that is used to access the Batch service in the region in which the account is created. For\n example: http://accountname.region.batch.azure.com/."
     name: "accountName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Additional parameters for account update."
@@ -586,4 +586,4 @@ type: "interface"
 desc: "An instance of this class provides access to all the operations defined in BatchAccountsClient."
 metadata: {}
 package: "com.azure.resourcemanager.batch.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

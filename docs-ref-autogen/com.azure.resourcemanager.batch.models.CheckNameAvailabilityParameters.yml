@@ -76,11 +76,11 @@ methods:
   name: "type()"
   nameWithType: "CheckNameAvailabilityParameters.type()"
   summary: "Get the type property: The resource type."
-  syntax: "public String type()"
+  syntax: "public ResourceType type()"
   desc: "Get the type property: The resource type."
   returns:
     description: "the type value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.ResourceType?alt=com.azure.resourcemanager.batch.models.ResourceType&text=ResourceType\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.batch.models.CheckNameAvailabilityParameters.validate()"
   fullName: "com.azure.resourcemanager.batch.models.CheckNameAvailabilityParameters.validate()"
   name: "validate()"
@@ -102,16 +102,16 @@ methods:
   returns:
     description: "the CheckNameAvailabilityParameters object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.CheckNameAvailabilityParameters?alt=com.azure.resourcemanager.batch.models.CheckNameAvailabilityParameters&text=CheckNameAvailabilityParameters\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.batch.models.CheckNameAvailabilityParameters.withType(java.lang.String)"
-  fullName: "com.azure.resourcemanager.batch.models.CheckNameAvailabilityParameters.withType(String type)"
-  name: "withType(String type)"
-  nameWithType: "CheckNameAvailabilityParameters.withType(String type)"
+- uid: "com.azure.resourcemanager.batch.models.CheckNameAvailabilityParameters.withType(com.azure.resourcemanager.batch.models.ResourceType)"
+  fullName: "com.azure.resourcemanager.batch.models.CheckNameAvailabilityParameters.withType(ResourceType type)"
+  name: "withType(ResourceType type)"
+  nameWithType: "CheckNameAvailabilityParameters.withType(ResourceType type)"
   summary: "Set the type property: The resource type."
   parameters:
   - description: "the type value to set."
     name: "type"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public CheckNameAvailabilityParameters withType(String type)"
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.ResourceType?alt=com.azure.resourcemanager.batch.models.ResourceType&text=ResourceType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public CheckNameAvailabilityParameters withType(ResourceType type)"
   desc: "Set the type property: The resource type."
   returns:
     description: "the CheckNameAvailabilityParameters object itself."
@@ -122,4 +122,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.CheckNameAvailabilityParameters?alt=com.azure.resourcemanager.batch.models.CheckNameAvailabilityParameters&text=CheckNameAvailabilityParameters\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

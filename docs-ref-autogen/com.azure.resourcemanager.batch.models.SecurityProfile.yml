@@ -59,6 +59,16 @@ methods:
   returns:
     description: "An instance of SecurityProfile if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.SecurityProfile?alt=com.azure.resourcemanager.batch.models.SecurityProfile&text=SecurityProfile\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.batch.models.SecurityProfile.proxyAgentSettings()"
+  fullName: "com.azure.resourcemanager.batch.models.SecurityProfile.proxyAgentSettings()"
+  name: "proxyAgentSettings()"
+  nameWithType: "SecurityProfile.proxyAgentSettings()"
+  summary: "Get the proxy<wbr>Agent<wbr>Settings property: Specifies Proxy<wbr>Agent settings while creating the virtual machine."
+  syntax: "public ProxyAgentSettings proxyAgentSettings()"
+  desc: "Get the proxyAgentSettings property: Specifies ProxyAgent settings while creating the virtual machine."
+  returns:
+    description: "the proxyAgentSettings value."
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.ProxyAgentSettings?alt=com.azure.resourcemanager.batch.models.ProxyAgentSettings&text=ProxyAgentSettings\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.batch.models.SecurityProfile.securityType()"
   fullName: "com.azure.resourcemanager.batch.models.SecurityProfile.securityType()"
   name: "securityType()"
@@ -112,6 +122,20 @@ methods:
   returns:
     description: "the SecurityProfile object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.SecurityProfile?alt=com.azure.resourcemanager.batch.models.SecurityProfile&text=SecurityProfile\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.batch.models.SecurityProfile.withProxyAgentSettings(com.azure.resourcemanager.batch.models.ProxyAgentSettings)"
+  fullName: "com.azure.resourcemanager.batch.models.SecurityProfile.withProxyAgentSettings(ProxyAgentSettings proxyAgentSettings)"
+  name: "withProxyAgentSettings(ProxyAgentSettings proxyAgentSettings)"
+  nameWithType: "SecurityProfile.withProxyAgentSettings(ProxyAgentSettings proxyAgentSettings)"
+  summary: "Set the proxy<wbr>Agent<wbr>Settings property: Specifies Proxy<wbr>Agent settings while creating the virtual machine."
+  parameters:
+  - description: "the proxyAgentSettings value to set."
+    name: "proxyAgentSettings"
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.ProxyAgentSettings?alt=com.azure.resourcemanager.batch.models.ProxyAgentSettings&text=ProxyAgentSettings\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SecurityProfile withProxyAgentSettings(ProxyAgentSettings proxyAgentSettings)"
+  desc: "Set the proxyAgentSettings property: Specifies ProxyAgent settings while creating the virtual machine."
+  returns:
+    description: "the SecurityProfile object itself."
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.SecurityProfile?alt=com.azure.resourcemanager.batch.models.SecurityProfile&text=SecurityProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.batch.models.SecurityProfile.withSecurityType(com.azure.resourcemanager.batch.models.SecurityTypes)"
   fullName: "com.azure.resourcemanager.batch.models.SecurityProfile.withSecurityType(SecurityTypes securityType)"
   name: "withSecurityType(SecurityTypes securityType)"
@@ -146,4 +170,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.SecurityProfile?alt=com.azure.resourcemanager.batch.models.SecurityProfile&text=SecurityProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

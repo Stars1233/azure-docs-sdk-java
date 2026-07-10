@@ -30,6 +30,16 @@ constructors:
   syntax: "public DiskEncryptionConfiguration()"
   desc: "Creates an instance of DiskEncryptionConfiguration class."
 methods:
+- uid: "com.azure.resourcemanager.batch.models.DiskEncryptionConfiguration.customerManagedKey()"
+  fullName: "com.azure.resourcemanager.batch.models.DiskEncryptionConfiguration.customerManagedKey()"
+  name: "customerManagedKey()"
+  nameWithType: "DiskEncryptionConfiguration.customerManagedKey()"
+  summary: "Get the customer<wbr>Managed<wbr>Key property: The Customer Managed Key reference to encrypt the OS Disk."
+  syntax: "public DiskCustomerManagedKey customerManagedKey()"
+  desc: "Get the customerManagedKey property: The Customer Managed Key reference to encrypt the OS Disk. Customer Managed Key will encrypt OS Disk by EncryptionAtRest, and by default we will encrypt the data disk as well. It can be used only when the pool is configured with an identity and OsDisk is set as one of the targets of DiskEncryption."
+  returns:
+    description: "the customerManagedKey value."
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.DiskCustomerManagedKey?alt=com.azure.resourcemanager.batch.models.DiskCustomerManagedKey&text=DiskCustomerManagedKey\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.batch.models.DiskEncryptionConfiguration.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.batch.models.DiskEncryptionConfiguration.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -53,9 +63,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.DiskEncryptionConfiguration.targets()"
   name: "targets()"
   nameWithType: "DiskEncryptionConfiguration.targets()"
-  summary: "Get the targets property: On Linux pool, only \"Temporary<wbr>Disk\" is supported; on Windows pool, \"Os<wbr>Disk\" and \"Temporary<wbr>Disk\" must be specified."
+  summary: "Get the targets property: The list of disk targets Batch Service will encrypt on the compute node On Linux pool, only \"Temporary<wbr>Disk\" is supported; on Windows pool, \"Os<wbr>Disk\" and \"Temporary<wbr>Disk\" must be specified."
   syntax: "public List<DiskEncryptionTarget> targets()"
-  desc: "Get the targets property: On Linux pool, only \"TemporaryDisk\" is supported; on Windows pool, \"OsDisk\" and \"TemporaryDisk\" must be specified."
+  desc: "Get the targets property: The list of disk targets Batch Service will encrypt on the compute node On Linux pool, only \"TemporaryDisk\" is supported; on Windows pool, \"OsDisk\" and \"TemporaryDisk\" must be specified."
   returns:
     description: "the targets value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.batch.models.DiskEncryptionTarget?alt=com.azure.resourcemanager.batch.models.DiskEncryptionTarget&text=DiskEncryptionTarget\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -78,17 +88,31 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.batch.models.DiskEncryptionConfiguration.withCustomerManagedKey(com.azure.resourcemanager.batch.models.DiskCustomerManagedKey)"
+  fullName: "com.azure.resourcemanager.batch.models.DiskEncryptionConfiguration.withCustomerManagedKey(DiskCustomerManagedKey customerManagedKey)"
+  name: "withCustomerManagedKey(DiskCustomerManagedKey customerManagedKey)"
+  nameWithType: "DiskEncryptionConfiguration.withCustomerManagedKey(DiskCustomerManagedKey customerManagedKey)"
+  summary: "Set the customer<wbr>Managed<wbr>Key property: The Customer Managed Key reference to encrypt the OS Disk."
+  parameters:
+  - description: "the customerManagedKey value to set."
+    name: "customerManagedKey"
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.DiskCustomerManagedKey?alt=com.azure.resourcemanager.batch.models.DiskCustomerManagedKey&text=DiskCustomerManagedKey\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public DiskEncryptionConfiguration withCustomerManagedKey(DiskCustomerManagedKey customerManagedKey)"
+  desc: "Set the customerManagedKey property: The Customer Managed Key reference to encrypt the OS Disk. Customer Managed Key will encrypt OS Disk by EncryptionAtRest, and by default we will encrypt the data disk as well. It can be used only when the pool is configured with an identity and OsDisk is set as one of the targets of DiskEncryption."
+  returns:
+    description: "the DiskEncryptionConfiguration object itself."
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.DiskEncryptionConfiguration?alt=com.azure.resourcemanager.batch.models.DiskEncryptionConfiguration&text=DiskEncryptionConfiguration\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.batch.models.DiskEncryptionConfiguration.withTargets(java.util.List<com.azure.resourcemanager.batch.models.DiskEncryptionTarget>)"
   fullName: "com.azure.resourcemanager.batch.models.DiskEncryptionConfiguration.withTargets(List<DiskEncryptionTarget> targets)"
   name: "withTargets(List<DiskEncryptionTarget> targets)"
   nameWithType: "DiskEncryptionConfiguration.withTargets(List<DiskEncryptionTarget> targets)"
-  summary: "Set the targets property: On Linux pool, only \"Temporary<wbr>Disk\" is supported; on Windows pool, \"Os<wbr>Disk\" and \"Temporary<wbr>Disk\" must be specified."
+  summary: "Set the targets property: The list of disk targets Batch Service will encrypt on the compute node On Linux pool, only \"Temporary<wbr>Disk\" is supported; on Windows pool, \"Os<wbr>Disk\" and \"Temporary<wbr>Disk\" must be specified."
   parameters:
   - description: "the targets value to set."
     name: "targets"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.batch.models.DiskEncryptionTarget?alt=com.azure.resourcemanager.batch.models.DiskEncryptionTarget&text=DiskEncryptionTarget\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public DiskEncryptionConfiguration withTargets(List<DiskEncryptionTarget> targets)"
-  desc: "Set the targets property: On Linux pool, only \"TemporaryDisk\" is supported; on Windows pool, \"OsDisk\" and \"TemporaryDisk\" must be specified."
+  desc: "Set the targets property: The list of disk targets Batch Service will encrypt on the compute node On Linux pool, only \"TemporaryDisk\" is supported; on Windows pool, \"OsDisk\" and \"TemporaryDisk\" must be specified."
   returns:
     description: "the DiskEncryptionConfiguration object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.DiskEncryptionConfiguration?alt=com.azure.resourcemanager.batch.models.DiskEncryptionConfiguration&text=DiskEncryptionConfiguration\" data-throw-if-not-resolved=\"False\" />"
@@ -98,4 +122,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.DiskEncryptionConfiguration?alt=com.azure.resourcemanager.batch.models.DiskEncryptionConfiguration&text=DiskEncryptionConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

@@ -10,15 +10,15 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.Pool.UpdateStages.WithNetworkConfiguration.withNetworkConfiguration(NetworkConfiguration networkConfiguration)"
   name: "withNetworkConfiguration(NetworkConfiguration networkConfiguration)"
   nameWithType: "Pool.UpdateStages.WithNetworkConfiguration.withNetworkConfiguration(NetworkConfiguration networkConfiguration)"
-  summary: "Specifies the network<wbr>Configuration property: The network configuration for a pool.."
+  summary: "Specifies the network<wbr>Configuration property: The network configuration for the pool."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The network configuration for a pool."
+  - description: "The network configuration for the pool.\n \n The network configuration for a pool."
     name: "networkConfiguration"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.NetworkConfiguration?alt=com.azure.resourcemanager.batch.models.NetworkConfiguration&text=NetworkConfiguration\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Pool.Update withNetworkConfiguration(NetworkConfiguration networkConfiguration)"
-  desc: "Specifies the networkConfiguration property: The network configuration for a pool.."
+  desc: "Specifies the networkConfiguration property: The network configuration for the pool. The network configuration for a pool.."
   returns:
     description: "the next definition stage."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.Pool.Update?alt=com.azure.resourcemanager.batch.models.Pool.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the Pool update allowing to specify networkConfiguration."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

@@ -1,0 +1,102 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mongodbatlas.models.ProjectLimitStatus"
+fullName: "com.azure.resourcemanager.mongodbatlas.models.ProjectLimitStatus"
+name: "ProjectLimitStatus"
+nameWithType: "ProjectLimitStatus"
+summary: "Usage and limit status for a resource quota in a MongoDB Atlas project."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ProjectLimitStatus**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.mongodbatlas.models.ProjectLimitStatus?alt=com.azure.resourcemanager.mongodbatlas.models.ProjectLimitStatus&text=ProjectLimitStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.mongodbatlas.models.ProjectLimitStatus.current()"
+  fullName: "com.azure.resourcemanager.mongodbatlas.models.ProjectLimitStatus.current()"
+  name: "current()"
+  nameWithType: "ProjectLimitStatus.current()"
+  summary: "Get the current property: Current value."
+  syntax: "public int current()"
+  desc: "Get the current property: Current value."
+  returns:
+    description: "the current value."
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mongodbatlas.models.ProjectLimitStatus.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.mongodbatlas.models.ProjectLimitStatus.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ProjectLimitStatus.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Project<wbr>Limit<wbr>Status from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ProjectLimitStatus fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ProjectLimitStatus from the JsonReader."
+  returns:
+    description: "An instance of ProjectLimitStatus if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.mongodbatlas.models.ProjectLimitStatus?alt=com.azure.resourcemanager.mongodbatlas.models.ProjectLimitStatus&text=ProjectLimitStatus\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mongodbatlas.models.ProjectLimitStatus.isReached()"
+  fullName: "com.azure.resourcemanager.mongodbatlas.models.ProjectLimitStatus.isReached()"
+  name: "isReached()"
+  nameWithType: "ProjectLimitStatus.isReached()"
+  summary: "Get the is<wbr>Reached property: Whether the limit has been reached."
+  syntax: "public boolean isReached()"
+  desc: "Get the isReached property: Whether the limit has been reached."
+  returns:
+    description: "the isReached value."
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mongodbatlas.models.ProjectLimitStatus.maximum()"
+  fullName: "com.azure.resourcemanager.mongodbatlas.models.ProjectLimitStatus.maximum()"
+  name: "maximum()"
+  nameWithType: "ProjectLimitStatus.maximum()"
+  summary: "Get the maximum property: Maximum allowed value."
+  syntax: "public int maximum()"
+  desc: "Get the maximum property: Maximum allowed value."
+  returns:
+    description: "the maximum value."
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mongodbatlas.models.ProjectLimitStatus.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.mongodbatlas.models.ProjectLimitStatus.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ProjectLimitStatus.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mongodbatlas.models.ProjectLimitStatus.type()"
+  fullName: "com.azure.resourcemanager.mongodbatlas.models.ProjectLimitStatus.type()"
+  name: "type()"
+  nameWithType: "ProjectLimitStatus.type()"
+  summary: "Get the type property: Type of the limit."
+  syntax: "public ClusterTier type()"
+  desc: "Get the type property: Type of the limit."
+  returns:
+    description: "the type value."
+    type: "<xref href=\"com.azure.resourcemanager.mongodbatlas.models.ClusterTier?alt=com.azure.resourcemanager.mongodbatlas.models.ClusterTier&text=ClusterTier\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Usage and limit status for a resource quota in a MongoDB Atlas project."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.mongodbatlas.models.ProjectLimitStatus?alt=com.azure.resourcemanager.mongodbatlas.models.ProjectLimitStatus&text=ProjectLimitStatus\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.mongodbatlas.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mongodbatlas:1.1.0-beta.1

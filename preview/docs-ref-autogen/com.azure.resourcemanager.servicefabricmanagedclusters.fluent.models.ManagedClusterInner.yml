@@ -466,6 +466,16 @@ methods:
   returns:
     description: "the serviceEndpoints value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.models.ServiceEndpoint?alt=com.azure.resourcemanager.servicefabricmanagedclusters.models.ServiceEndpoint&text=ServiceEndpoint\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.models.ManagedClusterInner.skipManagedNsgAssignment()"
+  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.models.ManagedClusterInner.skipManagedNsgAssignment()"
+  name: "skipManagedNsgAssignment()"
+  nameWithType: "ManagedClusterInner.skipManagedNsgAssignment()"
+  summary: "Get the skip<wbr>Managed<wbr>Nsg<wbr>Assignment property: Determines whether to skip the assignment of the managed network security group (SF-NSG) to the cluster subnet when using a bring-your-own virtual network (BYOVNET) configuration."
+  syntax: "public Boolean skipManagedNsgAssignment()"
+  desc: "Get the skipManagedNsgAssignment property: Determines whether to skip the assignment of the managed network security group (SF-NSG) to the cluster subnet when using a bring-your-own virtual network (BYOVNET) configuration. The default value is false."
+  returns:
+    description: "the skipManagedNsgAssignment value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
 - uid: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.models.ManagedClusterInner.sku()"
   fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.models.ManagedClusterInner.sku()"
   name: "sku()"
@@ -981,6 +991,20 @@ methods:
   returns:
     description: "the ManagedClusterInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.fluent.models.ManagedClusterInner?alt=com.azure.resourcemanager.servicefabricmanagedclusters.fluent.models.ManagedClusterInner&text=ManagedClusterInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.models.ManagedClusterInner.withSkipManagedNsgAssignment(java.lang.Boolean)"
+  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.models.ManagedClusterInner.withSkipManagedNsgAssignment(Boolean skipManagedNsgAssignment)"
+  name: "withSkipManagedNsgAssignment(Boolean skipManagedNsgAssignment)"
+  nameWithType: "ManagedClusterInner.withSkipManagedNsgAssignment(Boolean skipManagedNsgAssignment)"
+  summary: "Set the skip<wbr>Managed<wbr>Nsg<wbr>Assignment property: Determines whether to skip the assignment of the managed network security group (SF-NSG) to the cluster subnet when using a bring-your-own virtual network (BYOVNET) configuration."
+  parameters:
+  - description: "the skipManagedNsgAssignment value to set."
+    name: "skipManagedNsgAssignment"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public ManagedClusterInner withSkipManagedNsgAssignment(Boolean skipManagedNsgAssignment)"
+  desc: "Set the skipManagedNsgAssignment property: Determines whether to skip the assignment of the managed network security group (SF-NSG) to the cluster subnet when using a bring-your-own virtual network (BYOVNET) configuration. The default value is false."
+  returns:
+    description: "the ManagedClusterInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.fluent.models.ManagedClusterInner?alt=com.azure.resourcemanager.servicefabricmanagedclusters.fluent.models.ManagedClusterInner&text=ManagedClusterInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.models.ManagedClusterInner.withSku(com.azure.resourcemanager.servicefabricmanagedclusters.models.Sku)"
   fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.models.ManagedClusterInner.withSku(Sku sku)"
   name: "withSku(Sku sku)"
@@ -1114,4 +1138,4 @@ type: "class"
 desc: "The managed cluster resource."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabricmanagedclusters.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabricmanagedclusters:1.1.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabricmanagedclusters:1.2.0-beta.1

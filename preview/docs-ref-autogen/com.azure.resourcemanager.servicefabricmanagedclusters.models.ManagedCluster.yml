@@ -637,6 +637,18 @@ methods:
   returns:
     description: "the serviceEndpoints value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.models.ServiceEndpoint?alt=com.azure.resourcemanager.servicefabricmanagedclusters.models.ServiceEndpoint&text=ServiceEndpoint\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ManagedCluster.skipManagedNsgAssignment()"
+  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ManagedCluster.skipManagedNsgAssignment()"
+  name: "skipManagedNsgAssignment()"
+  nameWithType: "ManagedCluster.skipManagedNsgAssignment()"
+  summary: "Gets the skip<wbr>Managed<wbr>Nsg<wbr>Assignment property: Determines whether to skip the assignment of the managed network security group (SF-NSG) to the cluster subnet when using a bring-your-own virtual network (BYOVNET) configuration."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Boolean skipManagedNsgAssignment()"
+  desc: "Gets the skipManagedNsgAssignment property: Determines whether to skip the assignment of the managed network security group (SF-NSG) to the cluster subnet when using a bring-your-own virtual network (BYOVNET) configuration. The default value is false."
+  returns:
+    description: "the skipManagedNsgAssignment value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
 - uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ManagedCluster.sku()"
   fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ManagedCluster.sku()"
   name: "sku()"
@@ -660,8 +672,11 @@ methods:
   - description: "parameters describing the fault simulation."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.models.FaultSimulationContentWrapper?alt=com.azure.resourcemanager.servicefabricmanagedclusters.models.FaultSimulationContentWrapper&text=FaultSimulationContentWrapper\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract void startFaultSimulation(FaultSimulationContentWrapper parameters)"
+  syntax: "public abstract FaultSimulation startFaultSimulation(FaultSimulationContentWrapper parameters)"
   desc: "Starts a fault simulation on the cluster."
+  returns:
+    description: "the response."
+    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.models.FaultSimulation?alt=com.azure.resourcemanager.servicefabricmanagedclusters.models.FaultSimulation&text=FaultSimulation\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ManagedCluster.startFaultSimulation(com.azure.resourcemanager.servicefabricmanagedclusters.models.FaultSimulationContentWrapper,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ManagedCluster.startFaultSimulation(FaultSimulationContentWrapper parameters, Context context)"
   name: "startFaultSimulation(FaultSimulationContentWrapper parameters, Context context)"
@@ -676,8 +691,11 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract void startFaultSimulation(FaultSimulationContentWrapper parameters, Context context)"
+  syntax: "public abstract FaultSimulation startFaultSimulation(FaultSimulationContentWrapper parameters, Context context)"
   desc: "Starts a fault simulation on the cluster."
+  returns:
+    description: "the response."
+    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.models.FaultSimulation?alt=com.azure.resourcemanager.servicefabricmanagedclusters.models.FaultSimulation&text=FaultSimulation\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ManagedCluster.stopFaultSimulation(com.azure.resourcemanager.servicefabricmanagedclusters.models.FaultSimulationIdContent)"
   fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ManagedCluster.stopFaultSimulation(FaultSimulationIdContent parameters)"
   name: "stopFaultSimulation(FaultSimulationIdContent parameters)"
@@ -689,8 +707,11 @@ methods:
   - description: "parameter with fault simulation id."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.models.FaultSimulationIdContent?alt=com.azure.resourcemanager.servicefabricmanagedclusters.models.FaultSimulationIdContent&text=FaultSimulationIdContent\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract void stopFaultSimulation(FaultSimulationIdContent parameters)"
+  syntax: "public abstract FaultSimulation stopFaultSimulation(FaultSimulationIdContent parameters)"
   desc: "Stops a fault simulation on the cluster."
+  returns:
+    description: "the response."
+    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.models.FaultSimulation?alt=com.azure.resourcemanager.servicefabricmanagedclusters.models.FaultSimulation&text=FaultSimulation\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ManagedCluster.stopFaultSimulation(com.azure.resourcemanager.servicefabricmanagedclusters.models.FaultSimulationIdContent,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ManagedCluster.stopFaultSimulation(FaultSimulationIdContent parameters, Context context)"
   name: "stopFaultSimulation(FaultSimulationIdContent parameters, Context context)"
@@ -705,8 +726,11 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract void stopFaultSimulation(FaultSimulationIdContent parameters, Context context)"
+  syntax: "public abstract FaultSimulation stopFaultSimulation(FaultSimulationIdContent parameters, Context context)"
   desc: "Stops a fault simulation on the cluster."
+  returns:
+    description: "the response."
+    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.models.FaultSimulation?alt=com.azure.resourcemanager.servicefabricmanagedclusters.models.FaultSimulation&text=FaultSimulation\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ManagedCluster.subnetId()"
   fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ManagedCluster.subnetId()"
   name: "subnetId()"
@@ -831,4 +855,4 @@ type: "interface"
 desc: "An immutable client-side representation of ManagedCluster."
 metadata: {}
 package: "com.azure.resourcemanager.servicefabricmanagedclusters.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabricmanagedclusters:1.1.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabricmanagedclusters:1.2.0-beta.1

@@ -34,9 +34,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.UserAccount.elevationLevel()"
   name: "elevationLevel()"
   nameWithType: "UserAccount.elevationLevel()"
-  summary: "Get the elevation<wbr>Level property: non<wbr>Admin - The auto user is a standard user without elevated access."
+  summary: "Get the elevation<wbr>Level property: The elevation level of the user."
   syntax: "public ElevationLevel elevationLevel()"
-  desc: "Get the elevationLevel property: nonAdmin - The auto user is a standard user without elevated access. admin - The auto user is a user with elevated access and operates with full Administrator permissions. The default value is nonAdmin."
+  desc: "Get the elevationLevel property: The elevation level of the user. nonAdmin - The auto user is a standard user without elevated access. admin - The auto user is a user with elevated access and operates with full Administrator permissions. The default value is nonAdmin."
   returns:
     description: "the elevationLevel value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.ElevationLevel?alt=com.azure.resourcemanager.batch.models.ElevationLevel&text=ElevationLevel\" data-throw-if-not-resolved=\"False\" />"
@@ -63,9 +63,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.UserAccount.linuxUserConfiguration()"
   name: "linuxUserConfiguration()"
   nameWithType: "UserAccount.linuxUserConfiguration()"
-  summary: "Get the linux<wbr>User<wbr>Configuration property: This property is ignored if specified on a Windows pool."
+  summary: "Get the linux<wbr>User<wbr>Configuration property: The Linux-specific user configuration for the user account."
   syntax: "public LinuxUserConfiguration linuxUserConfiguration()"
-  desc: "Get the linuxUserConfiguration property: This property is ignored if specified on a Windows pool. If not specified, the user is created with the default options."
+  desc: "Get the linuxUserConfiguration property: The Linux-specific user configuration for the user account. This property is ignored if specified on a Windows pool. If not specified, the user is created with the default options."
   returns:
     description: "the linuxUserConfiguration value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.LinuxUserConfiguration?alt=com.azure.resourcemanager.batch.models.LinuxUserConfiguration&text=LinuxUserConfiguration\" data-throw-if-not-resolved=\"False\" />"
@@ -112,9 +112,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.UserAccount.windowsUserConfiguration()"
   name: "windowsUserConfiguration()"
   nameWithType: "UserAccount.windowsUserConfiguration()"
-  summary: "Get the windows<wbr>User<wbr>Configuration property: This property can only be specified if the user is on a Windows pool."
+  summary: "Get the windows<wbr>User<wbr>Configuration property: The Windows-specific user configuration for the user account."
   syntax: "public WindowsUserConfiguration windowsUserConfiguration()"
-  desc: "Get the windowsUserConfiguration property: This property can only be specified if the user is on a Windows pool. If not specified and on a Windows pool, the user is created with the default options."
+  desc: "Get the windowsUserConfiguration property: The Windows-specific user configuration for the user account. This property can only be specified if the user is on a Windows pool. If not specified and on a Windows pool, the user is created with the default options."
   returns:
     description: "the windowsUserConfiguration value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.WindowsUserConfiguration?alt=com.azure.resourcemanager.batch.models.WindowsUserConfiguration&text=WindowsUserConfiguration\" data-throw-if-not-resolved=\"False\" />"
@@ -122,13 +122,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.UserAccount.withElevationLevel(ElevationLevel elevationLevel)"
   name: "withElevationLevel(ElevationLevel elevationLevel)"
   nameWithType: "UserAccount.withElevationLevel(ElevationLevel elevationLevel)"
-  summary: "Set the elevation<wbr>Level property: non<wbr>Admin - The auto user is a standard user without elevated access."
+  summary: "Set the elevation<wbr>Level property: The elevation level of the user."
   parameters:
   - description: "the elevationLevel value to set."
     name: "elevationLevel"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.ElevationLevel?alt=com.azure.resourcemanager.batch.models.ElevationLevel&text=ElevationLevel\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public UserAccount withElevationLevel(ElevationLevel elevationLevel)"
-  desc: "Set the elevationLevel property: nonAdmin - The auto user is a standard user without elevated access. admin - The auto user is a user with elevated access and operates with full Administrator permissions. The default value is nonAdmin."
+  desc: "Set the elevationLevel property: The elevation level of the user. nonAdmin - The auto user is a standard user without elevated access. admin - The auto user is a user with elevated access and operates with full Administrator permissions. The default value is nonAdmin."
   returns:
     description: "the UserAccount object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.UserAccount?alt=com.azure.resourcemanager.batch.models.UserAccount&text=UserAccount\" data-throw-if-not-resolved=\"False\" />"
@@ -136,13 +136,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.UserAccount.withLinuxUserConfiguration(LinuxUserConfiguration linuxUserConfiguration)"
   name: "withLinuxUserConfiguration(LinuxUserConfiguration linuxUserConfiguration)"
   nameWithType: "UserAccount.withLinuxUserConfiguration(LinuxUserConfiguration linuxUserConfiguration)"
-  summary: "Set the linux<wbr>User<wbr>Configuration property: This property is ignored if specified on a Windows pool."
+  summary: "Set the linux<wbr>User<wbr>Configuration property: The Linux-specific user configuration for the user account."
   parameters:
   - description: "the linuxUserConfiguration value to set."
     name: "linuxUserConfiguration"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.LinuxUserConfiguration?alt=com.azure.resourcemanager.batch.models.LinuxUserConfiguration&text=LinuxUserConfiguration\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public UserAccount withLinuxUserConfiguration(LinuxUserConfiguration linuxUserConfiguration)"
-  desc: "Set the linuxUserConfiguration property: This property is ignored if specified on a Windows pool. If not specified, the user is created with the default options."
+  desc: "Set the linuxUserConfiguration property: The Linux-specific user configuration for the user account. This property is ignored if specified on a Windows pool. If not specified, the user is created with the default options."
   returns:
     description: "the UserAccount object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.UserAccount?alt=com.azure.resourcemanager.batch.models.UserAccount&text=UserAccount\" data-throw-if-not-resolved=\"False\" />"
@@ -178,13 +178,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.UserAccount.withWindowsUserConfiguration(WindowsUserConfiguration windowsUserConfiguration)"
   name: "withWindowsUserConfiguration(WindowsUserConfiguration windowsUserConfiguration)"
   nameWithType: "UserAccount.withWindowsUserConfiguration(WindowsUserConfiguration windowsUserConfiguration)"
-  summary: "Set the windows<wbr>User<wbr>Configuration property: This property can only be specified if the user is on a Windows pool."
+  summary: "Set the windows<wbr>User<wbr>Configuration property: The Windows-specific user configuration for the user account."
   parameters:
   - description: "the windowsUserConfiguration value to set."
     name: "windowsUserConfiguration"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.WindowsUserConfiguration?alt=com.azure.resourcemanager.batch.models.WindowsUserConfiguration&text=WindowsUserConfiguration\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public UserAccount withWindowsUserConfiguration(WindowsUserConfiguration windowsUserConfiguration)"
-  desc: "Set the windowsUserConfiguration property: This property can only be specified if the user is on a Windows pool. If not specified and on a Windows pool, the user is created with the default options."
+  desc: "Set the windowsUserConfiguration property: The Windows-specific user configuration for the user account. This property can only be specified if the user is on a Windows pool. If not specified and on a Windows pool, the user is created with the default options."
   returns:
     description: "the UserAccount object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.UserAccount?alt=com.azure.resourcemanager.batch.models.UserAccount&text=UserAccount\" data-throw-if-not-resolved=\"False\" />"
@@ -194,4 +194,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.UserAccount?alt=com.azure.resourcemanager.batch.models.UserAccount&text=UserAccount\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

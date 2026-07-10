@@ -1,0 +1,122 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.mongodbatlas.models.ClusterTier"
+fullName: "com.azure.resourcemanager.mongodbatlas.models.ClusterTier"
+name: "ClusterTier"
+nameWithType: "ClusterTier"
+summary: "Cluster tier options for MongoDB Atlas."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ClusterTier**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.mongodbatlas.models.ClusterTier?alt=com.azure.resourcemanager.mongodbatlas.models.ClusterTier&text=ClusterTier\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.mongodbatlas.models.ClusterTier.ClusterTier()"
+  fullName: "com.azure.resourcemanager.mongodbatlas.models.ClusterTier.ClusterTier()"
+  name: "ClusterTier()"
+  nameWithType: "ClusterTier.ClusterTier()"
+  summary: "Creates a new instance of Cluster<wbr>Tier value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.mongodbatlas.models.ClusterTier.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public ClusterTier()"
+  desc: "Creates a new instance of ClusterTier value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.mongodbatlas.models.ClusterTier.FLEX"
+  fullName: "com.azure.resourcemanager.mongodbatlas.models.ClusterTier.FLEX"
+  name: "FLEX"
+  nameWithType: "ClusterTier.FLEX"
+  summary: "Flex tier cluster."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.mongodbatlas.models.ClusterTier?alt=com.azure.resourcemanager.mongodbatlas.models.ClusterTier&text=ClusterTier\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ClusterTier FLEX"
+  desc: "Flex tier cluster."
+- uid: "com.azure.resourcemanager.mongodbatlas.models.ClusterTier.FREE"
+  fullName: "com.azure.resourcemanager.mongodbatlas.models.ClusterTier.FREE"
+  name: "FREE"
+  nameWithType: "ClusterTier.FREE"
+  summary: "Free tier cluster."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.mongodbatlas.models.ClusterTier?alt=com.azure.resourcemanager.mongodbatlas.models.ClusterTier&text=ClusterTier\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ClusterTier FREE"
+  desc: "Free tier cluster."
+- uid: "com.azure.resourcemanager.mongodbatlas.models.ClusterTier.M10"
+  fullName: "com.azure.resourcemanager.mongodbatlas.models.ClusterTier.M10"
+  name: "M10"
+  nameWithType: "ClusterTier.M10"
+  summary: "M10 tier cluster."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.mongodbatlas.models.ClusterTier?alt=com.azure.resourcemanager.mongodbatlas.models.ClusterTier&text=ClusterTier\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ClusterTier M10"
+  desc: "M10 tier cluster."
+- uid: "com.azure.resourcemanager.mongodbatlas.models.ClusterTier.M30"
+  fullName: "com.azure.resourcemanager.mongodbatlas.models.ClusterTier.M30"
+  name: "M30"
+  nameWithType: "ClusterTier.M30"
+  summary: "M30 tier cluster."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.mongodbatlas.models.ClusterTier?alt=com.azure.resourcemanager.mongodbatlas.models.ClusterTier&text=ClusterTier\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ClusterTier M30"
+  desc: "M30 tier cluster."
+methods:
+- uid: "com.azure.resourcemanager.mongodbatlas.models.ClusterTier.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.mongodbatlas.models.ClusterTier.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "ClusterTier.fromString(String name)"
+  summary: "Creates or finds a Cluster<wbr>Tier from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static ClusterTier fromString(String name)"
+  desc: "Creates or finds a ClusterTier from its string representation."
+  returns:
+    description: "the corresponding ClusterTier."
+    type: "<xref href=\"com.azure.resourcemanager.mongodbatlas.models.ClusterTier?alt=com.azure.resourcemanager.mongodbatlas.models.ClusterTier&text=ClusterTier\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.mongodbatlas.models.ClusterTier.values()"
+  fullName: "com.azure.resourcemanager.mongodbatlas.models.ClusterTier.values()"
+  name: "values()"
+  nameWithType: "ClusterTier.values()"
+  summary: "Gets known Cluster<wbr>Tier values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<ClusterTier> values()"
+  desc: "Gets known ClusterTier values."
+  returns:
+    description: "known ClusterTier values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.mongodbatlas.models.ClusterTier?alt=com.azure.resourcemanager.mongodbatlas.models.ClusterTier&text=ClusterTier\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Cluster tier options for MongoDB Atlas."
+metadata: {}
+package: "com.azure.resourcemanager.mongodbatlas.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-mongodbatlas:1.1.0-beta.1

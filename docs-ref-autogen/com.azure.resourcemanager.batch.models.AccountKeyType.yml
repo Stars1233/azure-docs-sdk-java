@@ -35,14 +35,14 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.AccountKeyType.PRIMARY"
   name: "PRIMARY"
   nameWithType: "AccountKeyType.PRIMARY"
-  summary: "Enum value Primary."
-  desc: "Enum value Primary."
+  summary: "The primary account key."
+  desc: "The primary account key."
 - uid: "com.azure.resourcemanager.batch.models.AccountKeyType.SECONDARY"
   fullName: "com.azure.resourcemanager.batch.models.AccountKeyType.SECONDARY"
   name: "SECONDARY"
   nameWithType: "AccountKeyType.SECONDARY"
-  summary: "Enum value Secondary."
-  desc: "Enum value Secondary."
+  summary: "The secondary account key."
+  desc: "The secondary account key."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.AccountKeyType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.AccountKeyType.fromString(String value)"
@@ -92,4 +92,4 @@ methods:
 desc: "The type of account key to regenerate."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

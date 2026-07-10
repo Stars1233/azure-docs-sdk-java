@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.batch.models.EndpointAccessDefaultAction"
 fullName: "com.azure.resourcemanager.batch.models.EndpointAccessDefaultAction"
 name: "EndpointAccessDefaultAction"
 nameWithType: "EndpointAccessDefaultAction"
-summary: "The default action when there is no IPRule matched."
+summary: "Default action for endpoint access."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -35,14 +35,14 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.EndpointAccessDefaultAction.ALLOW"
   name: "ALLOW"
   nameWithType: "EndpointAccessDefaultAction.ALLOW"
-  summary: "Enum value Allow."
-  desc: "Enum value Allow."
+  summary: "Allow client access."
+  desc: "Allow client access."
 - uid: "com.azure.resourcemanager.batch.models.EndpointAccessDefaultAction.DENY"
   fullName: "com.azure.resourcemanager.batch.models.EndpointAccessDefaultAction.DENY"
   name: "DENY"
   nameWithType: "EndpointAccessDefaultAction.DENY"
-  summary: "Enum value Deny."
-  desc: "Enum value Deny."
+  summary: "Deny client access."
+  desc: "Deny client access."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.EndpointAccessDefaultAction.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.EndpointAccessDefaultAction.fromString(String value)"
@@ -89,7 +89,7 @@ methods:
   syntax: "public static EndpointAccessDefaultAction[] values()"
   returns:
     type: "<xref href=\"com.azure.resourcemanager.batch.models.EndpointAccessDefaultAction?alt=com.azure.resourcemanager.batch.models.EndpointAccessDefaultAction&text=EndpointAccessDefaultAction\" data-throw-if-not-resolved=\"False\" />[]"
-desc: "The default action when there is no IPRule matched. Default action for endpoint access. It is only applicable when publicNetworkAccess is enabled."
+desc: "Default action for endpoint access. It is only applicable when publicNetworkAccess is enabled."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

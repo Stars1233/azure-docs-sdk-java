@@ -35,20 +35,20 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.IpAddressProvisioningType.BATCH_MANAGED"
   name: "BATCH_MANAGED"
   nameWithType: "IpAddressProvisioningType.BATCH_MANAGED"
-  summary: "Enum value Batch<wbr>Managed."
-  desc: "Enum value BatchManaged."
+  summary: "A public IP will be created and managed by Batch."
+  desc: "A public IP will be created and managed by Batch. There may be multiple public IPs depending on the size of the Pool."
 - uid: "com.azure.resourcemanager.batch.models.IpAddressProvisioningType.NO_PUBLIC_IPADDRESSES"
   fullName: "com.azure.resourcemanager.batch.models.IpAddressProvisioningType.NO_PUBLIC_IPADDRESSES"
   name: "NO_PUBLIC_IPADDRESSES"
   nameWithType: "IpAddressProvisioningType.NO_PUBLIC_IPADDRESSES"
-  summary: "Enum value No<wbr>Public<wbr>IPAddresses."
-  desc: "Enum value NoPublicIPAddresses."
+  summary: "No public IP Address will be created for the Compute Nodes in the Pool."
+  desc: "No public IP Address will be created for the Compute Nodes in the Pool."
 - uid: "com.azure.resourcemanager.batch.models.IpAddressProvisioningType.USER_MANAGED"
   fullName: "com.azure.resourcemanager.batch.models.IpAddressProvisioningType.USER_MANAGED"
   name: "USER_MANAGED"
   nameWithType: "IpAddressProvisioningType.USER_MANAGED"
-  summary: "Enum value User<wbr>Managed."
-  desc: "Enum value UserManaged."
+  summary: "Public IPs are provided by the user and will be used to provision the Compute Nodes."
+  desc: "Public IPs are provided by the user and will be used to provision the Compute Nodes."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.IpAddressProvisioningType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.IpAddressProvisioningType.fromString(String value)"
@@ -98,4 +98,4 @@ methods:
 desc: "The provisioning type for Public IP Addresses for the Batch Pool."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

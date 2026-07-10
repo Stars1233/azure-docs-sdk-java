@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.batch.models.JobDefaultOrder"
+fullName: "com.azure.resourcemanager.batch.models.JobDefaultOrder"
+name: "JobDefaultOrder"
+nameWithType: "JobDefaultOrder"
+summary: "The order for scheduling tasks from different jobs with the same priority."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **JobDefaultOrder**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.JobDefaultOrder?alt=com.azure.resourcemanager.batch.models.JobDefaultOrder&text=JobDefaultOrder\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.batch.models.JobDefaultOrder.JobDefaultOrder()"
+  fullName: "com.azure.resourcemanager.batch.models.JobDefaultOrder.JobDefaultOrder()"
+  name: "JobDefaultOrder()"
+  nameWithType: "JobDefaultOrder.JobDefaultOrder()"
+  summary: "Creates a new instance of Job<wbr>Default<wbr>Order value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.batch.models.JobDefaultOrder.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public JobDefaultOrder()"
+  desc: "Creates a new instance of JobDefaultOrder value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.batch.models.JobDefaultOrder.CREATION_TIME"
+  fullName: "com.azure.resourcemanager.batch.models.JobDefaultOrder.CREATION_TIME"
+  name: "CREATION_TIME"
+  nameWithType: "JobDefaultOrder.CREATION_TIME"
+  summary: "If jobs have equal priority, tasks from jobs that were created earlier should be scheduled first."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.JobDefaultOrder?alt=com.azure.resourcemanager.batch.models.JobDefaultOrder&text=JobDefaultOrder\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final JobDefaultOrder CREATION_TIME"
+  desc: "If jobs have equal priority, tasks from jobs that were created earlier should be scheduled first."
+- uid: "com.azure.resourcemanager.batch.models.JobDefaultOrder.NONE"
+  fullName: "com.azure.resourcemanager.batch.models.JobDefaultOrder.NONE"
+  name: "NONE"
+  nameWithType: "JobDefaultOrder.NONE"
+  summary: "Tasks should be scheduled uniformly from all equal-priority jobs for the pool."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.JobDefaultOrder?alt=com.azure.resourcemanager.batch.models.JobDefaultOrder&text=JobDefaultOrder\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final JobDefaultOrder NONE"
+  desc: "Tasks should be scheduled uniformly from all equal-priority jobs for the pool."
+methods:
+- uid: "com.azure.resourcemanager.batch.models.JobDefaultOrder.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.batch.models.JobDefaultOrder.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "JobDefaultOrder.fromString(String name)"
+  summary: "Creates or finds a Job<wbr>Default<wbr>Order from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static JobDefaultOrder fromString(String name)"
+  desc: "Creates or finds a JobDefaultOrder from its string representation."
+  returns:
+    description: "the corresponding JobDefaultOrder."
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.JobDefaultOrder?alt=com.azure.resourcemanager.batch.models.JobDefaultOrder&text=JobDefaultOrder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.batch.models.JobDefaultOrder.values()"
+  fullName: "com.azure.resourcemanager.batch.models.JobDefaultOrder.values()"
+  name: "values()"
+  nameWithType: "JobDefaultOrder.values()"
+  summary: "Gets known Job<wbr>Default<wbr>Order values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<JobDefaultOrder> values()"
+  desc: "Gets known JobDefaultOrder values."
+  returns:
+    description: "known JobDefaultOrder values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.batch.models.JobDefaultOrder?alt=com.azure.resourcemanager.batch.models.JobDefaultOrder&text=JobDefaultOrder\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The order for scheduling tasks from different jobs with the same priority."
+metadata: {}
+package: "com.azure.resourcemanager.batch.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

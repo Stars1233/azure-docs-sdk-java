@@ -1,0 +1,89 @@
+### YamlMime:JavaEnum
+uid: "com.azure.resourcemanager.batch.models.IpRuleAction"
+fullName: "com.azure.resourcemanager.batch.models.IpRuleAction"
+name: "IpRuleAction"
+nameWithType: "IpRuleAction"
+summary: "The action when client IP address is matched."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html\">Enum</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#valueOf-java.lang.Class-java.lang.String-\">valueOf</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#compareTo-E-\">compareTo</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#describeConstable--\">describeConstable</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#getDeclaringClass--\">getDeclaringClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#name--\">name</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#ordinal--\">ordinal</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#toString--\">toString</a>"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public enum **IpRuleAction**</br> extends <a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html\">Enum</a>&lt;<xref href=\"com.azure.resourcemanager.batch.models.IpRuleAction?alt=com.azure.resourcemanager.batch.models.IpRuleAction&text=IpRuleAction\" data-throw-if-not-resolved=\"False\" />&gt;"
+fields:
+- uid: "com.azure.resourcemanager.batch.models.IpRuleAction.ALLOW"
+  fullName: "com.azure.resourcemanager.batch.models.IpRuleAction.ALLOW"
+  name: "ALLOW"
+  nameWithType: "IpRuleAction.ALLOW"
+  summary: "Allow access for the matched client IP address."
+  desc: "Allow access for the matched client IP address."
+methods:
+- uid: "com.azure.resourcemanager.batch.models.IpRuleAction.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.batch.models.IpRuleAction.fromString(String value)"
+  name: "fromString(String value)"
+  nameWithType: "IpRuleAction.fromString(String value)"
+  summary: "Parses a serialized value to a Ip<wbr>Rule<wbr>Action instance."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "the serialized value to parse."
+    name: "value"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static IpRuleAction fromString(String value)"
+  desc: "Parses a serialized value to a IpRuleAction instance."
+  returns:
+    description: "the parsed IpRuleAction object, or null if unable to parse."
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.IpRuleAction?alt=com.azure.resourcemanager.batch.models.IpRuleAction&text=IpRuleAction\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.batch.models.IpRuleAction.toString()"
+  fullName: "com.azure.resourcemanager.batch.models.IpRuleAction.toString()"
+  name: "toString()"
+  nameWithType: "IpRuleAction.toString()"
+  overridden: "java.lang.Enum.toString()"
+  syntax: "public String toString()"
+  returns:
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.batch.models.IpRuleAction.valueOf(java.lang.String)"
+  fullName: "com.azure.resourcemanager.batch.models.IpRuleAction.valueOf(String name)"
+  name: "valueOf(String name)"
+  nameWithType: "IpRuleAction.valueOf(String name)"
+  modifiers:
+  - "static"
+  parameters:
+  - name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static IpRuleAction valueOf(String name)"
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.IpRuleAction?alt=com.azure.resourcemanager.batch.models.IpRuleAction&text=IpRuleAction\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.batch.models.IpRuleAction.values()"
+  fullName: "com.azure.resourcemanager.batch.models.IpRuleAction.values()"
+  name: "values()"
+  nameWithType: "IpRuleAction.values()"
+  modifiers:
+  - "static"
+  syntax: "public static IpRuleAction[] values()"
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.batch.models.IpRuleAction?alt=com.azure.resourcemanager.batch.models.IpRuleAction&text=IpRuleAction\" data-throw-if-not-resolved=\"False\" />[]"
+desc: "The action when client IP address is matched."
+metadata: {}
+package: "com.azure.resourcemanager.batch.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

@@ -35,14 +35,14 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.ElevationLevel.ADMIN"
   name: "ADMIN"
   nameWithType: "ElevationLevel.ADMIN"
-  summary: "Enum value Admin."
-  desc: "Enum value Admin."
+  summary: "The user is a user with elevated access and operates with full Administrator permissions."
+  desc: "The user is a user with elevated access and operates with full Administrator permissions."
 - uid: "com.azure.resourcemanager.batch.models.ElevationLevel.NON_ADMIN"
   fullName: "com.azure.resourcemanager.batch.models.ElevationLevel.NON_ADMIN"
   name: "NON_ADMIN"
   nameWithType: "ElevationLevel.NON_ADMIN"
-  summary: "Enum value Non<wbr>Admin."
-  desc: "Enum value NonAdmin."
+  summary: "The user is a standard user without elevated access."
+  desc: "The user is a standard user without elevated access."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.ElevationLevel.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.ElevationLevel.fromString(String value)"
@@ -92,4 +92,4 @@ methods:
 desc: "The elevation level of the user."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

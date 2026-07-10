@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.NodeType.DefinitionStages.WithScaleInPolicy"
+fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.NodeType.DefinitionStages.WithScaleInPolicy"
+name: "NodeType.DefinitionStages.WithScaleInPolicy"
+nameWithType: "NodeType.DefinitionStages.WithScaleInPolicy"
+summary: "The stage of the Node<wbr>Type definition allowing to specify scale<wbr>InPolicy."
+syntax: "public static interface **NodeType.DefinitionStages.WithScaleInPolicy**"
+methods:
+- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.NodeType.DefinitionStages.WithScaleInPolicy.withScaleInPolicy(com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicy)"
+  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.NodeType.DefinitionStages.WithScaleInPolicy.withScaleInPolicy(ScaleInPolicy scaleInPolicy)"
+  name: "withScaleInPolicy(ScaleInPolicy scaleInPolicy)"
+  nameWithType: "NodeType.DefinitionStages.WithScaleInPolicy.withScaleInPolicy(ScaleInPolicy scaleInPolicy)"
+  summary: "Specifies the scale<wbr>InPolicy property: Specifies the scale in policy for the node type, which will be used when scale in happens on the cluster."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Specifies the scale in policy for the node type, which will be used when scale in\n happens on the cluster. If not specified, the default is Default which means the platform will decide\n which nodes to remove during scale in."
+    name: "scaleInPolicy"
+    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicy?alt=com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicy&text=ScaleInPolicy\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract NodeType.DefinitionStages.WithCreate withScaleInPolicy(ScaleInPolicy scaleInPolicy)"
+  desc: "Specifies the scaleInPolicy property: Specifies the scale in policy for the node type, which will be used when scale in happens on the cluster. If not specified, the default is Default which means the platform will decide which nodes to remove during scale in.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.models.NodeType.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.servicefabricmanagedclusters.models.NodeType.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the NodeType definition allowing to specify scaleInPolicy."
+metadata: {}
+package: "com.azure.resourcemanager.servicefabricmanagedclusters.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabricmanagedclusters:1.2.0-beta.1

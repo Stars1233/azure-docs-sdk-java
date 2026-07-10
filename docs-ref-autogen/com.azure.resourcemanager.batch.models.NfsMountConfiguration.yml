@@ -53,9 +53,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.NfsMountConfiguration.mountOptions()"
   name: "mountOptions()"
   nameWithType: "NfsMountConfiguration.mountOptions()"
-  summary: "Get the mount<wbr>Options property: These are 'net use' options in Windows and 'mount' options in Linux."
+  summary: "Get the mount<wbr>Options property: Additional command line options to pass to the mount command."
   syntax: "public String mountOptions()"
-  desc: "Get the mountOptions property: These are 'net use' options in Windows and 'mount' options in Linux."
+  desc: "Get the mountOptions property: Additional command line options to pass to the mount command. These are 'net use' options in Windows and 'mount' options in Linux."
   returns:
     description: "the mountOptions value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -63,9 +63,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.NfsMountConfiguration.relativeMountPath()"
   name: "relativeMountPath()"
   nameWithType: "NfsMountConfiguration.relativeMountPath()"
-  summary: "Get the relative<wbr>Mount<wbr>Path property: All file systems are mounted relative to the Batch mounts directory, accessible via the AZ\\_BATCH\\_NODE\\_MOUNTS\\_DIR environment variable."
+  summary: "Get the relative<wbr>Mount<wbr>Path property: The relative path on the compute node where the file system will be mounted All file systems are mounted relative to the Batch mounts directory, accessible via the AZ\\_BATCH\\_NODE\\_MOUNTS\\_DIR environment variable."
   syntax: "public String relativeMountPath()"
-  desc: "Get the relativeMountPath property: All file systems are mounted relative to the Batch mounts directory, accessible via the AZ\\_BATCH\\_NODE\\_MOUNTS\\_DIR environment variable."
+  desc: "Get the relativeMountPath property: The relative path on the compute node where the file system will be mounted All file systems are mounted relative to the Batch mounts directory, accessible via the AZ\\_BATCH\\_NODE\\_MOUNTS\\_DIR environment variable."
   returns:
     description: "the relativeMountPath value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -102,13 +102,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.NfsMountConfiguration.withMountOptions(String mountOptions)"
   name: "withMountOptions(String mountOptions)"
   nameWithType: "NfsMountConfiguration.withMountOptions(String mountOptions)"
-  summary: "Set the mount<wbr>Options property: These are 'net use' options in Windows and 'mount' options in Linux."
+  summary: "Set the mount<wbr>Options property: Additional command line options to pass to the mount command."
   parameters:
   - description: "the mountOptions value to set."
     name: "mountOptions"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public NfsMountConfiguration withMountOptions(String mountOptions)"
-  desc: "Set the mountOptions property: These are 'net use' options in Windows and 'mount' options in Linux."
+  desc: "Set the mountOptions property: Additional command line options to pass to the mount command. These are 'net use' options in Windows and 'mount' options in Linux."
   returns:
     description: "the NfsMountConfiguration object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.NfsMountConfiguration?alt=com.azure.resourcemanager.batch.models.NfsMountConfiguration&text=NfsMountConfiguration\" data-throw-if-not-resolved=\"False\" />"
@@ -116,13 +116,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.NfsMountConfiguration.withRelativeMountPath(String relativeMountPath)"
   name: "withRelativeMountPath(String relativeMountPath)"
   nameWithType: "NfsMountConfiguration.withRelativeMountPath(String relativeMountPath)"
-  summary: "Set the relative<wbr>Mount<wbr>Path property: All file systems are mounted relative to the Batch mounts directory, accessible via the AZ\\_BATCH\\_NODE\\_MOUNTS\\_DIR environment variable."
+  summary: "Set the relative<wbr>Mount<wbr>Path property: The relative path on the compute node where the file system will be mounted All file systems are mounted relative to the Batch mounts directory, accessible via the AZ\\_BATCH\\_NODE\\_MOUNTS\\_DIR environment variable."
   parameters:
   - description: "the relativeMountPath value to set."
     name: "relativeMountPath"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public NfsMountConfiguration withRelativeMountPath(String relativeMountPath)"
-  desc: "Set the relativeMountPath property: All file systems are mounted relative to the Batch mounts directory, accessible via the AZ\\_BATCH\\_NODE\\_MOUNTS\\_DIR environment variable."
+  desc: "Set the relativeMountPath property: The relative path on the compute node where the file system will be mounted All file systems are mounted relative to the Batch mounts directory, accessible via the AZ\\_BATCH\\_NODE\\_MOUNTS\\_DIR environment variable."
   returns:
     description: "the NfsMountConfiguration object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.NfsMountConfiguration?alt=com.azure.resourcemanager.batch.models.NfsMountConfiguration&text=NfsMountConfiguration\" data-throw-if-not-resolved=\"False\" />"
@@ -146,4 +146,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.NfsMountConfiguration?alt=com.azure.resourcemanager.batch.models.NfsMountConfiguration&text=NfsMountConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

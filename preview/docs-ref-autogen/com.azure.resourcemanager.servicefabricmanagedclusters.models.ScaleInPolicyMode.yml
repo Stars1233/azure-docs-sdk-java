@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode"
+fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode"
+name: "ScaleInPolicyMode"
+nameWithType: "ScaleInPolicyMode"
+summary: "Specifies the scale in policy mode for a node type."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ScaleInPolicyMode**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode?alt=com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode&text=ScaleInPolicyMode\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode.ScaleInPolicyMode()"
+  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode.ScaleInPolicyMode()"
+  name: "ScaleInPolicyMode()"
+  nameWithType: "ScaleInPolicyMode.ScaleInPolicyMode()"
+  summary: "Creates a new instance of Scale<wbr>InPolicy<wbr>Mode value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public ScaleInPolicyMode()"
+  desc: "Creates a new instance of ScaleInPolicyMode value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode.DEFAULT"
+  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode.DEFAULT"
+  name: "DEFAULT"
+  nameWithType: "ScaleInPolicyMode.DEFAULT"
+  summary: "Default scale in policy mode where the system will choose which nodes to remove when scaling in."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode?alt=com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode&text=ScaleInPolicyMode\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ScaleInPolicyMode DEFAULT"
+  desc: "Default scale in policy mode where the system will choose which nodes to remove when scaling in."
+- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode.NEWEST_NODE_FIRST"
+  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode.NEWEST_NODE_FIRST"
+  name: "NEWEST_NODE_FIRST"
+  nameWithType: "ScaleInPolicyMode.NEWEST_NODE_FIRST"
+  summary: "Newest<wbr>Node<wbr>First scale in policy mode where the newest node in the node type will be removed first when scaling in."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode?alt=com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode&text=ScaleInPolicyMode\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ScaleInPolicyMode NEWEST_NODE_FIRST"
+  desc: "NewestNodeFirst scale in policy mode where the newest node in the node type will be removed first when scaling in."
+- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode.OLDEST_NODE_FIRST"
+  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode.OLDEST_NODE_FIRST"
+  name: "OLDEST_NODE_FIRST"
+  nameWithType: "ScaleInPolicyMode.OLDEST_NODE_FIRST"
+  summary: "Oldest<wbr>Node<wbr>First scale in policy mode where the oldest node in the node type will be removed first when scaling in."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode?alt=com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode&text=ScaleInPolicyMode\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ScaleInPolicyMode OLDEST_NODE_FIRST"
+  desc: "OldestNodeFirst scale in policy mode where the oldest node in the node type will be removed first when scaling in."
+methods:
+- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "ScaleInPolicyMode.fromString(String name)"
+  summary: "Creates or finds a Scale<wbr>InPolicy<wbr>Mode from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static ScaleInPolicyMode fromString(String name)"
+  desc: "Creates or finds a ScaleInPolicyMode from its string representation."
+  returns:
+    description: "the corresponding ScaleInPolicyMode."
+    type: "<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode?alt=com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode&text=ScaleInPolicyMode\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode.values()"
+  fullName: "com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode.values()"
+  name: "values()"
+  nameWithType: "ScaleInPolicyMode.values()"
+  summary: "Gets known Scale<wbr>InPolicy<wbr>Mode values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<ScaleInPolicyMode> values()"
+  desc: "Gets known ScaleInPolicyMode values."
+  returns:
+    description: "known ScaleInPolicyMode values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode?alt=com.azure.resourcemanager.servicefabricmanagedclusters.models.ScaleInPolicyMode&text=ScaleInPolicyMode\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Specifies the scale in policy mode for a node type."
+metadata: {}
+package: "com.azure.resourcemanager.servicefabricmanagedclusters.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicefabricmanagedclusters:1.2.0-beta.1

@@ -35,14 +35,14 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.KeySource.MICROSOFT_BATCH"
   name: "MICROSOFT_BATCH"
   nameWithType: "KeySource.MICROSOFT_BATCH"
-  summary: "Enum value Microsoft.<wbr>Batch."
-  desc: "Enum value Microsoft.Batch."
+  summary: "Batch creates and manages the encryption keys used to protect the account data."
+  desc: "Batch creates and manages the encryption keys used to protect the account data."
 - uid: "com.azure.resourcemanager.batch.models.KeySource.MICROSOFT_KEY_VAULT"
   fullName: "com.azure.resourcemanager.batch.models.KeySource.MICROSOFT_KEY_VAULT"
   name: "MICROSOFT_KEY_VAULT"
   nameWithType: "KeySource.MICROSOFT_KEY_VAULT"
-  summary: "Enum value Microsoft.<wbr>Key<wbr>Vault."
-  desc: "Enum value Microsoft.KeyVault."
+  summary: "The encryption keys used to protect the account data are stored in an external key vault."
+  desc: "The encryption keys used to protect the account data are stored in an external key vault. If this is set then the Batch Account identity must be set to \\`SystemAssigned\\` and a valid Key Identifier must also be supplied under the keyVaultProperties."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.KeySource.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.KeySource.fromString(String value)"
@@ -92,4 +92,4 @@ methods:
 desc: "Type of the key source."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

@@ -53,9 +53,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.ServiceArtifactReference.id()"
   name: "id()"
   nameWithType: "ServiceArtifactReference.id()"
-  summary: "Get the id property: The service artifact reference id in the form of /subscriptions/\\{subscription<wbr>Id\\}/resource<wbr>Groups/\\{resource<wbr>Group\\}/providers/Microsoft.<wbr>Compute/galleries/\\{gallery<wbr>Name\\}/service<wbr>Artifacts/\\{service<wbr>Artifact<wbr>Name\\}/vm<wbr>Artifacts<wbr>Profiles/\\{vm<wbr>Artifacts<wbr>Profiles<wbr>Name\\}."
+  summary: "Get the id property: The service artifact reference id of Service<wbr>Artifact<wbr>Reference The service artifact reference id in the form of /subscriptions/\\{subscription<wbr>Id\\}/resource<wbr>Groups/\\{resource<wbr>Group\\}/providers/Microsoft.<wbr>Compute/galleries/\\{gallery<wbr>Name\\}/service<wbr>Artifacts/\\{service<wbr>Artifact<wbr>Name\\}/vm<wbr>Artifacts<wbr>Profiles/\\{vm<wbr>Artifacts<wbr>Profiles<wbr>Name\\}."
   syntax: "public String id()"
-  desc: "Get the id property: The service artifact reference id in the form of /subscriptions/\\{subscriptionId\\}/resourceGroups/\\{resourceGroup\\}/providers/Microsoft.Compute/galleries/\\{galleryName\\}/serviceArtifacts/\\{serviceArtifactName\\}/vmArtifactsProfiles/\\{vmArtifactsProfilesName\\}."
+  desc: "Get the id property: The service artifact reference id of ServiceArtifactReference The service artifact reference id in the form of /subscriptions/\\{subscriptionId\\}/resourceGroups/\\{resourceGroup\\}/providers/Microsoft.Compute/galleries/\\{galleryName\\}/serviceArtifacts/\\{serviceArtifactName\\}/vmArtifactsProfiles/\\{vmArtifactsProfilesName\\}."
   returns:
     description: "the id value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -82,13 +82,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.ServiceArtifactReference.withId(String id)"
   name: "withId(String id)"
   nameWithType: "ServiceArtifactReference.withId(String id)"
-  summary: "Set the id property: The service artifact reference id in the form of /subscriptions/\\{subscription<wbr>Id\\}/resource<wbr>Groups/\\{resource<wbr>Group\\}/providers/Microsoft.<wbr>Compute/galleries/\\{gallery<wbr>Name\\}/service<wbr>Artifacts/\\{service<wbr>Artifact<wbr>Name\\}/vm<wbr>Artifacts<wbr>Profiles/\\{vm<wbr>Artifacts<wbr>Profiles<wbr>Name\\}."
+  summary: "Set the id property: The service artifact reference id of Service<wbr>Artifact<wbr>Reference The service artifact reference id in the form of /subscriptions/\\{subscription<wbr>Id\\}/resource<wbr>Groups/\\{resource<wbr>Group\\}/providers/Microsoft.<wbr>Compute/galleries/\\{gallery<wbr>Name\\}/service<wbr>Artifacts/\\{service<wbr>Artifact<wbr>Name\\}/vm<wbr>Artifacts<wbr>Profiles/\\{vm<wbr>Artifacts<wbr>Profiles<wbr>Name\\}."
   parameters:
   - description: "the id value to set."
     name: "id"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public ServiceArtifactReference withId(String id)"
-  desc: "Set the id property: The service artifact reference id in the form of /subscriptions/\\{subscriptionId\\}/resourceGroups/\\{resourceGroup\\}/providers/Microsoft.Compute/galleries/\\{galleryName\\}/serviceArtifacts/\\{serviceArtifactName\\}/vmArtifactsProfiles/\\{vmArtifactsProfilesName\\}."
+  desc: "Set the id property: The service artifact reference id of ServiceArtifactReference The service artifact reference id in the form of /subscriptions/\\{subscriptionId\\}/resourceGroups/\\{resourceGroup\\}/providers/Microsoft.Compute/galleries/\\{galleryName\\}/serviceArtifacts/\\{serviceArtifactName\\}/vmArtifactsProfiles/\\{vmArtifactsProfilesName\\}."
   returns:
     description: "the ServiceArtifactReference object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.ServiceArtifactReference?alt=com.azure.resourcemanager.batch.models.ServiceArtifactReference&text=ServiceArtifactReference\" data-throw-if-not-resolved=\"False\" />"
@@ -98,4 +98,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.ServiceArtifactReference?alt=com.azure.resourcemanager.batch.models.ServiceArtifactReference&text=ServiceArtifactReference\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

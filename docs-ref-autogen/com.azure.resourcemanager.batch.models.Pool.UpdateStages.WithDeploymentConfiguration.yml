@@ -10,15 +10,15 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.Pool.UpdateStages.WithDeploymentConfiguration.withDeploymentConfiguration(DeploymentConfiguration deploymentConfiguration)"
   name: "withDeploymentConfiguration(DeploymentConfiguration deploymentConfiguration)"
   nameWithType: "Pool.UpdateStages.WithDeploymentConfiguration.withDeploymentConfiguration(DeploymentConfiguration deploymentConfiguration)"
-  summary: "Specifies the deployment<wbr>Configuration property: Deployment configuration properties.."
+  summary: "Specifies the deployment<wbr>Configuration property: This property describes the virtual machines that the pool nodes will be deployed on."
   modifiers:
   - "abstract"
   parameters:
-  - description: "Deployment configuration properties."
+  - description: "This property describes the virtual machines that the pool nodes will be\n deployed on.\n \n Deployment configuration properties."
     name: "deploymentConfiguration"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.DeploymentConfiguration?alt=com.azure.resourcemanager.batch.models.DeploymentConfiguration&text=DeploymentConfiguration\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Pool.Update withDeploymentConfiguration(DeploymentConfiguration deploymentConfiguration)"
-  desc: "Specifies the deploymentConfiguration property: Deployment configuration properties.."
+  desc: "Specifies the deploymentConfiguration property: This property describes the virtual machines that the pool nodes will be deployed on. Deployment configuration properties.."
   returns:
     description: "the next definition stage."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.Pool.Update?alt=com.azure.resourcemanager.batch.models.Pool.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the Pool update allowing to specify deploymentConfiguration."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

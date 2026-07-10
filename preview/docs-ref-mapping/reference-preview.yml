@@ -271,10 +271,6 @@
         - com.azure.resourcemanager.azurestackhci.fluent
         - com.azure.resourcemanager.azurestackhci.fluent.models
         - com.azure.resourcemanager.azurestackhci.models
-        - com.azure.resourcemanager.azurestackhci
-        - com.azure.resourcemanager.azurestackhci.fluent
-        - com.azure.resourcemanager.azurestackhci.fluent.models
-        - com.azure.resourcemanager.azurestackhci.models
   - name: Azure VMware Solution
     href: ~/docs-ref-services/preview/azure-vmware-solution.md
     landingPageType: Service
@@ -1419,6 +1415,8 @@
       children:
       - com.azure.messaging.eventgrid.systemevents
       - com.azure.messaging.eventgrid.systemevents.models
+      - com.azure.messaging.eventgrid.systemevents
+      - com.azure.messaging.eventgrid.systemevents.models
     - name: Management
       items:
       - name: Resource Management - Event Grid
@@ -1918,6 +1916,8 @@
       children:
       - com.azure.security.keyvault.administration
       - com.azure.security.keyvault.administration.models
+      - com.azure.security.keyvault.administration
+      - com.azure.security.keyvault.administration.models
     - name: Key Vault - Certificates
       href: ~/docs-ref-services/preview/security-keyvault-certificates-readme.md
       children:
@@ -1928,6 +1928,10 @@
     - name: Key Vault - Keys
       href: ~/docs-ref-services/preview/security-keyvault-keys-readme.md
       children:
+      - com.azure.security.keyvault.keys
+      - com.azure.security.keyvault.keys.cryptography
+      - com.azure.security.keyvault.keys.cryptography.models
+      - com.azure.security.keyvault.keys.models
       - com.azure.security.keyvault.keys
       - com.azure.security.keyvault.keys.cryptography
       - com.azure.security.keyvault.keys.cryptography.models
@@ -2288,10 +2292,6 @@
         - com.azure.resourcemanager.mongocluster.fluent
         - com.azure.resourcemanager.mongocluster.fluent.models
         - com.azure.resourcemanager.mongocluster.models
-        - com.azure.resourcemanager.mongocluster
-        - com.azure.resourcemanager.mongocluster.fluent
-        - com.azure.resourcemanager.mongocluster.fluent.models
-        - com.azure.resourcemanager.mongocluster.models
   - name: Mongodbatlas
     href: ~/docs-ref-services/preview/mongodbatlas.md
     landingPageType: Service
@@ -2301,6 +2301,10 @@
       - name: Resource Management - Mongodbatlas
         href: ~/docs-ref-services/preview/resourcemanager-mongodbatlas-readme.md
         children:
+        - com.azure.resourcemanager.mongodbatlas
+        - com.azure.resourcemanager.mongodbatlas.fluent
+        - com.azure.resourcemanager.mongodbatlas.fluent.models
+        - com.azure.resourcemanager.mongodbatlas.models
         - com.azure.resourcemanager.mongodbatlas
         - com.azure.resourcemanager.mongodbatlas.fluent
         - com.azure.resourcemanager.mongodbatlas.fluent.models
@@ -2543,6 +2547,10 @@
         - com.azure.resourcemanager.networkcloud.fluent
         - com.azure.resourcemanager.networkcloud.fluent.models
         - com.azure.resourcemanager.networkcloud.models
+        - com.azure.resourcemanager.networkcloud
+        - com.azure.resourcemanager.networkcloud.fluent
+        - com.azure.resourcemanager.networkcloud.fluent.models
+        - com.azure.resourcemanager.networkcloud.models
   - name: Oracle Database
     href: ~/docs-ref-services/preview/oracle-database.md
     landingPageType: Service
@@ -2685,6 +2693,19 @@
         - com.azure.resourcemanager.powerbidedicated.fluent
         - com.azure.resourcemanager.powerbidedicated.fluent.models
         - com.azure.resourcemanager.powerbidedicated.models
+  - name: Programenrollment
+    href: ~/docs-ref-services/preview/programenrollment.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Programenrollment
+        href: ~/docs-ref-services/preview/resourcemanager-programenrollment-readme.md
+        children:
+        - com.azure.resourcemanager.programenrollment
+        - com.azure.resourcemanager.programenrollment.fluent
+        - com.azure.resourcemanager.programenrollment.fluent.models
+        - com.azure.resourcemanager.programenrollment.models
   - name: Purestorageblock
     href: ~/docs-ref-services/preview/purestorageblock.md
     landingPageType: Service
@@ -3100,6 +3121,10 @@
       - name: Resource Management - Service Fabric Managed Clusters
         href: ~/docs-ref-services/preview/resourcemanager-servicefabricmanagedclusters-readme.md
         children:
+        - com.azure.resourcemanager.servicefabricmanagedclusters
+        - com.azure.resourcemanager.servicefabricmanagedclusters.fluent
+        - com.azure.resourcemanager.servicefabricmanagedclusters.fluent.models
+        - com.azure.resourcemanager.servicefabricmanagedclusters.models
         - com.azure.resourcemanager.servicefabricmanagedclusters
         - com.azure.resourcemanager.servicefabricmanagedclusters.fluent
         - com.azure.resourcemanager.servicefabricmanagedclusters.fluent.models

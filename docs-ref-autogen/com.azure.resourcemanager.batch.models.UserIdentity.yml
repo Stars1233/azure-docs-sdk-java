@@ -34,9 +34,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.UserIdentity.autoUser()"
   name: "autoUser()"
   nameWithType: "UserIdentity.autoUser()"
-  summary: "Get the auto<wbr>User property: The user<wbr>Name and auto<wbr>User properties are mutually exclusive; you must specify one but not both."
+  summary: "Get the auto<wbr>User property: The auto user under which the task is run."
   syntax: "public AutoUserSpecification autoUser()"
-  desc: "Get the autoUser property: The userName and autoUser properties are mutually exclusive; you must specify one but not both."
+  desc: "Get the autoUser property: The auto user under which the task is run. The userName and autoUser properties are mutually exclusive; you must specify one but not both."
   returns:
     description: "the autoUser value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.AutoUserSpecification?alt=com.azure.resourcemanager.batch.models.AutoUserSpecification&text=AutoUserSpecification\" data-throw-if-not-resolved=\"False\" />"
@@ -75,9 +75,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.UserIdentity.username()"
   name: "username()"
   nameWithType: "UserIdentity.username()"
-  summary: "Get the username property: The user<wbr>Name and auto<wbr>User properties are mutually exclusive; you must specify one but not both."
+  summary: "Get the username property: The name of the user identity under which the task is run."
   syntax: "public String username()"
-  desc: "Get the username property: The userName and autoUser properties are mutually exclusive; you must specify one but not both."
+  desc: "Get the username property: The name of the user identity under which the task is run. The userName and autoUser properties are mutually exclusive; you must specify one but not both."
   returns:
     description: "the username value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -92,13 +92,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.UserIdentity.withAutoUser(AutoUserSpecification autoUser)"
   name: "withAutoUser(AutoUserSpecification autoUser)"
   nameWithType: "UserIdentity.withAutoUser(AutoUserSpecification autoUser)"
-  summary: "Set the auto<wbr>User property: The user<wbr>Name and auto<wbr>User properties are mutually exclusive; you must specify one but not both."
+  summary: "Set the auto<wbr>User property: The auto user under which the task is run."
   parameters:
   - description: "the autoUser value to set."
     name: "autoUser"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.AutoUserSpecification?alt=com.azure.resourcemanager.batch.models.AutoUserSpecification&text=AutoUserSpecification\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public UserIdentity withAutoUser(AutoUserSpecification autoUser)"
-  desc: "Set the autoUser property: The userName and autoUser properties are mutually exclusive; you must specify one but not both."
+  desc: "Set the autoUser property: The auto user under which the task is run. The userName and autoUser properties are mutually exclusive; you must specify one but not both."
   returns:
     description: "the UserIdentity object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.UserIdentity?alt=com.azure.resourcemanager.batch.models.UserIdentity&text=UserIdentity\" data-throw-if-not-resolved=\"False\" />"
@@ -106,13 +106,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.UserIdentity.withUsername(String username)"
   name: "withUsername(String username)"
   nameWithType: "UserIdentity.withUsername(String username)"
-  summary: "Set the username property: The user<wbr>Name and auto<wbr>User properties are mutually exclusive; you must specify one but not both."
+  summary: "Set the username property: The name of the user identity under which the task is run."
   parameters:
   - description: "the username value to set."
     name: "username"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public UserIdentity withUsername(String username)"
-  desc: "Set the username property: The userName and autoUser properties are mutually exclusive; you must specify one but not both."
+  desc: "Set the username property: The name of the user identity under which the task is run. The userName and autoUser properties are mutually exclusive; you must specify one but not both."
   returns:
     description: "the UserIdentity object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.UserIdentity?alt=com.azure.resourcemanager.batch.models.UserIdentity&text=UserIdentity\" data-throw-if-not-resolved=\"False\" />"
@@ -122,4 +122,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.UserIdentity?alt=com.azure.resourcemanager.batch.models.UserIdentity&text=UserIdentity\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

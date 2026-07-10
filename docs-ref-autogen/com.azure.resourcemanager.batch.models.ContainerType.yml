@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.ContainerType.CRI_COMPATIBLE"
   name: "CRI_COMPATIBLE"
   nameWithType: "ContainerType.CRI_COMPATIBLE"
-  summary: "Static value Cri<wbr>Compatible for Container<wbr>Type."
+  summary: "A CRI based technology will be used to launch the containers."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.batch.models.ContainerType?alt=com.azure.resourcemanager.batch.models.ContainerType&text=ContainerType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ContainerType CRI_COMPATIBLE"
-  desc: "Static value CriCompatible for ContainerType."
+  desc: "A CRI based technology will be used to launch the containers."
 - uid: "com.azure.resourcemanager.batch.models.ContainerType.DOCKER_COMPATIBLE"
   fullName: "com.azure.resourcemanager.batch.models.ContainerType.DOCKER_COMPATIBLE"
   name: "DOCKER_COMPATIBLE"
   nameWithType: "ContainerType.DOCKER_COMPATIBLE"
-  summary: "Static value Docker<wbr>Compatible for Container<wbr>Type."
+  summary: "A Docker compatible container technology will be used to launch the containers."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.batch.models.ContainerType?alt=com.azure.resourcemanager.batch.models.ContainerType&text=ContainerType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final ContainerType DOCKER_COMPATIBLE"
-  desc: "Static value DockerCompatible for ContainerType."
+  desc: "A Docker compatible container technology will be used to launch the containers."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.ContainerType.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.ContainerType.fromString(String name)"
@@ -95,4 +95,4 @@ type: "class"
 desc: "The container technology to be used."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

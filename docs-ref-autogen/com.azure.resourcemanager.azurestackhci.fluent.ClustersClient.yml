@@ -26,7 +26,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<ClusterInner>,ClusterInner> beginConfigureRemoteSupport(String resourceGroupName, String clusterName, RemoteSupportRequest remoteSupportRequest)"
   desc: "Configure RemoteSupport on a cluster."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of cluster details."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.beginConfigureRemoteSupport(java.lang.String,java.lang.String,com.azure.resourcemanager.azurestackhci.models.RemoteSupportRequest,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.beginConfigureRemoteSupport(String resourceGroupName, String clusterName, RemoteSupportRequest remoteSupportRequest, Context context)"
@@ -51,7 +51,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<ClusterInner>,ClusterInner> beginConfigureRemoteSupport(String resourceGroupName, String clusterName, RemoteSupportRequest remoteSupportRequest, Context context)"
   desc: "Configure RemoteSupport on a cluster."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of cluster details."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.beginCreateIdentity(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.beginCreateIdentity(String resourceGroupName, String clusterName)"
@@ -155,7 +155,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<ClusterInner>,ClusterInner> beginExtendSoftwareAssuranceBenefit(String resourceGroupName, String clusterName, SoftwareAssuranceChangeRequest softwareAssuranceChangeRequest)"
   desc: "Extends Software Assurance Benefit to a cluster."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of cluster details."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.beginExtendSoftwareAssuranceBenefit(java.lang.String,java.lang.String,com.azure.resourcemanager.azurestackhci.models.SoftwareAssuranceChangeRequest,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.beginExtendSoftwareAssuranceBenefit(String resourceGroupName, String clusterName, SoftwareAssuranceChangeRequest softwareAssuranceChangeRequest, Context context)"
@@ -180,7 +180,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<ClusterInner>,ClusterInner> beginExtendSoftwareAssuranceBenefit(String resourceGroupName, String clusterName, SoftwareAssuranceChangeRequest softwareAssuranceChangeRequest, Context context)"
   desc: "Extends Software Assurance Benefit to a cluster."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of cluster details."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.beginTriggerLogCollection(java.lang.String,java.lang.String,com.azure.resourcemanager.azurestackhci.models.LogCollectionRequest)"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.beginTriggerLogCollection(String resourceGroupName, String clusterName, LogCollectionRequest logCollectionRequest)"
@@ -202,7 +202,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<ClusterInner>,ClusterInner> beginTriggerLogCollection(String resourceGroupName, String clusterName, LogCollectionRequest logCollectionRequest)"
   desc: "Trigger Log Collection on a cluster."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of cluster details."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.beginTriggerLogCollection(java.lang.String,java.lang.String,com.azure.resourcemanager.azurestackhci.models.LogCollectionRequest,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.beginTriggerLogCollection(String resourceGroupName, String clusterName, LogCollectionRequest logCollectionRequest, Context context)"
@@ -227,7 +227,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<ClusterInner>,ClusterInner> beginTriggerLogCollection(String resourceGroupName, String clusterName, LogCollectionRequest logCollectionRequest, Context context)"
   desc: "Trigger Log Collection on a cluster."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of cluster details."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.beginUpdateSecretsLocations(java.lang.String,java.lang.String,com.azure.resourcemanager.azurestackhci.models.SecretsLocationsChangeRequest)"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.beginUpdateSecretsLocations(String resourceGroupName, String clusterName, SecretsLocationsChangeRequest body)"
@@ -249,7 +249,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<ClusterInner>,ClusterInner> beginUpdateSecretsLocations(String resourceGroupName, String clusterName, SecretsLocationsChangeRequest body)"
   desc: "Update cluster secrets locations."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of cluster details."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.beginUpdateSecretsLocations(java.lang.String,java.lang.String,com.azure.resourcemanager.azurestackhci.models.SecretsLocationsChangeRequest,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.beginUpdateSecretsLocations(String resourceGroupName, String clusterName, SecretsLocationsChangeRequest body, Context context)"
@@ -274,7 +274,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<ClusterInner>,ClusterInner> beginUpdateSecretsLocations(String resourceGroupName, String clusterName, SecretsLocationsChangeRequest body, Context context)"
   desc: "Update cluster secrets locations."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of cluster details."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.beginUploadCertificate(java.lang.String,java.lang.String,com.azure.resourcemanager.azurestackhci.models.UploadCertificateRequest)"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.beginUploadCertificate(String resourceGroupName, String clusterName, UploadCertificateRequest uploadCertificateRequest)"
@@ -343,7 +343,7 @@ methods:
   syntax: "public abstract ClusterInner configureRemoteSupport(String resourceGroupName, String clusterName, RemoteSupportRequest remoteSupportRequest)"
   desc: "Configure RemoteSupport on a cluster."
   returns:
-    description: "the response."
+    description: "cluster details."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.configureRemoteSupport(java.lang.String,java.lang.String,com.azure.resourcemanager.azurestackhci.models.RemoteSupportRequest,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.configureRemoteSupport(String resourceGroupName, String clusterName, RemoteSupportRequest remoteSupportRequest, Context context)"
@@ -368,7 +368,7 @@ methods:
   syntax: "public abstract ClusterInner configureRemoteSupport(String resourceGroupName, String clusterName, RemoteSupportRequest remoteSupportRequest, Context context)"
   desc: "Configure RemoteSupport on a cluster."
   returns:
-    description: "the response."
+    description: "cluster details."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.create(java.lang.String,java.lang.String,com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner)"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.create(String resourceGroupName, String clusterName, ClusterInner cluster)"
@@ -513,7 +513,7 @@ methods:
   syntax: "public abstract ClusterInner extendSoftwareAssuranceBenefit(String resourceGroupName, String clusterName, SoftwareAssuranceChangeRequest softwareAssuranceChangeRequest)"
   desc: "Extends Software Assurance Benefit to a cluster."
   returns:
-    description: "the response."
+    description: "cluster details."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.extendSoftwareAssuranceBenefit(java.lang.String,java.lang.String,com.azure.resourcemanager.azurestackhci.models.SoftwareAssuranceChangeRequest,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.extendSoftwareAssuranceBenefit(String resourceGroupName, String clusterName, SoftwareAssuranceChangeRequest softwareAssuranceChangeRequest, Context context)"
@@ -538,7 +538,7 @@ methods:
   syntax: "public abstract ClusterInner extendSoftwareAssuranceBenefit(String resourceGroupName, String clusterName, SoftwareAssuranceChangeRequest softwareAssuranceChangeRequest, Context context)"
   desc: "Extends Software Assurance Benefit to a cluster."
   returns:
-    description: "the response."
+    description: "cluster details."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.getByResourceGroup(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.getByResourceGroup(String resourceGroupName, String clusterName)"
@@ -664,7 +664,7 @@ methods:
   syntax: "public abstract ClusterInner triggerLogCollection(String resourceGroupName, String clusterName, LogCollectionRequest logCollectionRequest)"
   desc: "Trigger Log Collection on a cluster."
   returns:
-    description: "the response."
+    description: "cluster details."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.triggerLogCollection(java.lang.String,java.lang.String,com.azure.resourcemanager.azurestackhci.models.LogCollectionRequest,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.triggerLogCollection(String resourceGroupName, String clusterName, LogCollectionRequest logCollectionRequest, Context context)"
@@ -689,7 +689,7 @@ methods:
   syntax: "public abstract ClusterInner triggerLogCollection(String resourceGroupName, String clusterName, LogCollectionRequest logCollectionRequest, Context context)"
   desc: "Trigger Log Collection on a cluster."
   returns:
-    description: "the response."
+    description: "cluster details."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.update(java.lang.String,java.lang.String,com.azure.resourcemanager.azurestackhci.models.ClusterPatch)"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.update(String resourceGroupName, String clusterName, ClusterPatch cluster)"
@@ -733,7 +733,7 @@ methods:
   syntax: "public abstract ClusterInner updateSecretsLocations(String resourceGroupName, String clusterName, SecretsLocationsChangeRequest body)"
   desc: "Update cluster secrets locations."
   returns:
-    description: "the response."
+    description: "cluster details."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.updateSecretsLocations(java.lang.String,java.lang.String,com.azure.resourcemanager.azurestackhci.models.SecretsLocationsChangeRequest,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.updateSecretsLocations(String resourceGroupName, String clusterName, SecretsLocationsChangeRequest body, Context context)"
@@ -758,7 +758,7 @@ methods:
   syntax: "public abstract ClusterInner updateSecretsLocations(String resourceGroupName, String clusterName, SecretsLocationsChangeRequest body, Context context)"
   desc: "Update cluster secrets locations."
   returns:
-    description: "the response."
+    description: "cluster details."
     type: "<xref href=\"com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner?alt=com.azure.resourcemanager.azurestackhci.fluent.models.ClusterInner&text=ClusterInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.updateWithResponse(java.lang.String,java.lang.String,com.azure.resourcemanager.azurestackhci.models.ClusterPatch,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.azurestackhci.fluent.ClustersClient.updateWithResponse(String resourceGroupName, String clusterName, ClusterPatch cluster, Context context)"
@@ -830,4 +830,4 @@ type: "interface"
 desc: "An instance of this class provides access to all the operations defined in ClustersClient."
 metadata: {}
 package: "com.azure.resourcemanager.azurestackhci.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-azurestackhci:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-azurestackhci:1.1.0

@@ -34,9 +34,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.EndpointAccessProfile.defaultAction()"
   name: "defaultAction()"
   nameWithType: "EndpointAccessProfile.defaultAction()"
-  summary: "Get the default<wbr>Action property: Default action for endpoint access."
+  summary: "Get the default<wbr>Action property: The default action when there is no IPRule matched."
   syntax: "public EndpointAccessDefaultAction defaultAction()"
-  desc: "Get the defaultAction property: Default action for endpoint access. It is only applicable when publicNetworkAccess is enabled."
+  desc: "Get the defaultAction property: The default action when there is no IPRule matched. Default action for endpoint access. It is only applicable when publicNetworkAccess is enabled."
   returns:
     description: "the defaultAction value."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.EndpointAccessDefaultAction?alt=com.azure.resourcemanager.batch.models.EndpointAccessDefaultAction&text=EndpointAccessDefaultAction\" data-throw-if-not-resolved=\"False\" />"
@@ -92,13 +92,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.EndpointAccessProfile.withDefaultAction(EndpointAccessDefaultAction defaultAction)"
   name: "withDefaultAction(EndpointAccessDefaultAction defaultAction)"
   nameWithType: "EndpointAccessProfile.withDefaultAction(EndpointAccessDefaultAction defaultAction)"
-  summary: "Set the default<wbr>Action property: Default action for endpoint access."
+  summary: "Set the default<wbr>Action property: The default action when there is no IPRule matched."
   parameters:
   - description: "the defaultAction value to set."
     name: "defaultAction"
     type: "<xref href=\"com.azure.resourcemanager.batch.models.EndpointAccessDefaultAction?alt=com.azure.resourcemanager.batch.models.EndpointAccessDefaultAction&text=EndpointAccessDefaultAction\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public EndpointAccessProfile withDefaultAction(EndpointAccessDefaultAction defaultAction)"
-  desc: "Set the defaultAction property: Default action for endpoint access. It is only applicable when publicNetworkAccess is enabled."
+  desc: "Set the defaultAction property: The default action when there is no IPRule matched. Default action for endpoint access. It is only applicable when publicNetworkAccess is enabled."
   returns:
     description: "the EndpointAccessProfile object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.EndpointAccessProfile?alt=com.azure.resourcemanager.batch.models.EndpointAccessProfile&text=EndpointAccessProfile\" data-throw-if-not-resolved=\"False\" />"
@@ -122,4 +122,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.EndpointAccessProfile?alt=com.azure.resourcemanager.batch.models.EndpointAccessProfile&text=EndpointAccessProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

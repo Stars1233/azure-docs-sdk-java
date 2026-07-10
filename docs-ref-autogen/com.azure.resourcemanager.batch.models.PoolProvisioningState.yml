@@ -35,14 +35,14 @@ fields:
   fullName: "com.azure.resourcemanager.batch.models.PoolProvisioningState.DELETING"
   name: "DELETING"
   nameWithType: "PoolProvisioningState.DELETING"
-  summary: "Enum value Deleting."
-  desc: "Enum value Deleting."
+  summary: "The user has requested that the pool be deleted, but the delete operation has not yet completed."
+  desc: "The user has requested that the pool be deleted, but the delete operation has not yet completed."
 - uid: "com.azure.resourcemanager.batch.models.PoolProvisioningState.SUCCEEDED"
   fullName: "com.azure.resourcemanager.batch.models.PoolProvisioningState.SUCCEEDED"
   name: "SUCCEEDED"
   nameWithType: "PoolProvisioningState.SUCCEEDED"
-  summary: "Enum value Succeeded."
-  desc: "Enum value Succeeded."
+  summary: "The pool is available to run tasks subject to the availability of compute nodes."
+  desc: "The pool is available to run tasks subject to the availability of compute nodes."
 methods:
 - uid: "com.azure.resourcemanager.batch.models.PoolProvisioningState.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.batch.models.PoolProvisioningState.fromString(String value)"
@@ -92,4 +92,4 @@ methods:
 desc: "The current state of the pool."
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0

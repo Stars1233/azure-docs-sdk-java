@@ -53,9 +53,9 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.PoolEndpointConfiguration.inboundNatPools()"
   name: "inboundNatPools()"
   nameWithType: "PoolEndpointConfiguration.inboundNatPools()"
-  summary: "Get the inbound<wbr>Nat<wbr>Pools property: The maximum number of inbound NAT pools per Batch pool is 5."
+  summary: "Get the inbound<wbr>Nat<wbr>Pools property: A list of inbound NAT pools that can be used to address specific ports on an individual compute node externally."
   syntax: "public List<InboundNatPool> inboundNatPools()"
-  desc: "Get the inboundNatPools property: The maximum number of inbound NAT pools per Batch pool is 5. If the maximum number of inbound NAT pools is exceeded the request fails with HTTP status code 400. This cannot be specified if the IPAddressProvisioningType is NoPublicIPAddresses."
+  desc: "Get the inboundNatPools property: A list of inbound NAT pools that can be used to address specific ports on an individual compute node externally. The maximum number of inbound NAT pools per Batch pool is 5. If the maximum number of inbound NAT pools is exceeded the request fails with HTTP status code 400. This cannot be specified if the IPAddressProvisioningType is NoPublicIPAddresses."
   returns:
     description: "the inboundNatPools value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.batch.models.InboundNatPool?alt=com.azure.resourcemanager.batch.models.InboundNatPool&text=InboundNatPool\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -82,13 +82,13 @@ methods:
   fullName: "com.azure.resourcemanager.batch.models.PoolEndpointConfiguration.withInboundNatPools(List<InboundNatPool> inboundNatPools)"
   name: "withInboundNatPools(List<InboundNatPool> inboundNatPools)"
   nameWithType: "PoolEndpointConfiguration.withInboundNatPools(List<InboundNatPool> inboundNatPools)"
-  summary: "Set the inbound<wbr>Nat<wbr>Pools property: The maximum number of inbound NAT pools per Batch pool is 5."
+  summary: "Set the inbound<wbr>Nat<wbr>Pools property: A list of inbound NAT pools that can be used to address specific ports on an individual compute node externally."
   parameters:
   - description: "the inboundNatPools value to set."
     name: "inboundNatPools"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.batch.models.InboundNatPool?alt=com.azure.resourcemanager.batch.models.InboundNatPool&text=InboundNatPool\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public PoolEndpointConfiguration withInboundNatPools(List<InboundNatPool> inboundNatPools)"
-  desc: "Set the inboundNatPools property: The maximum number of inbound NAT pools per Batch pool is 5. If the maximum number of inbound NAT pools is exceeded the request fails with HTTP status code 400. This cannot be specified if the IPAddressProvisioningType is NoPublicIPAddresses."
+  desc: "Set the inboundNatPools property: A list of inbound NAT pools that can be used to address specific ports on an individual compute node externally. The maximum number of inbound NAT pools per Batch pool is 5. If the maximum number of inbound NAT pools is exceeded the request fails with HTTP status code 400. This cannot be specified if the IPAddressProvisioningType is NoPublicIPAddresses."
   returns:
     description: "the PoolEndpointConfiguration object itself."
     type: "<xref href=\"com.azure.resourcemanager.batch.models.PoolEndpointConfiguration?alt=com.azure.resourcemanager.batch.models.PoolEndpointConfiguration&text=PoolEndpointConfiguration\" data-throw-if-not-resolved=\"False\" />"
@@ -98,4 +98,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.batch.models.PoolEndpointConfiguration?alt=com.azure.resourcemanager.batch.models.PoolEndpointConfiguration&text=PoolEndpointConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.batch.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-batch:2.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-batch:3.0.0
