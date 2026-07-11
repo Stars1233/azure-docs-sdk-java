@@ -10,15 +10,15 @@ methods:
   fullName: "com.azure.resourcemanager.recoveryservices.models.Vault.DefinitionStages.WithEtag.withEtag(String etag)"
   name: "withEtag(String etag)"
   nameWithType: "Vault.DefinitionStages.WithEtag.withEtag(String etag)"
-  summary: "Specifies the etag property: Optional ETag.."
+  summary: "Specifies the etag property: etag for the resource.."
   modifiers:
   - "abstract"
   parameters:
-  - description: "Optional ETag."
+  - description: "etag for the resource."
     name: "etag"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Vault.DefinitionStages.WithCreate withEtag(String etag)"
-  desc: "Specifies the etag property: Optional ETag.."
+  desc: "Specifies the etag property: etag for the resource.."
   returns:
     description: "the next definition stage."
     type: "<xref href=\"com.azure.resourcemanager.recoveryservices.models.Vault.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.recoveryservices.models.Vault.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the Vault definition allowing to specify etag."
 metadata: {}
 package: "com.azure.resourcemanager.recoveryservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.5.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.7.0

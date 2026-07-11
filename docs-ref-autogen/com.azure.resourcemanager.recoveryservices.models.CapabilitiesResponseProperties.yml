@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **CapabilitiesResponseProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservices.models.CapabilitiesResponseProperties?alt=com.azure.resourcemanager.recoveryservices.models.CapabilitiesResponseProperties&text=CapabilitiesResponseProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.recoveryservices.models.CapabilitiesResponseProperties.CapabilitiesResponseProperties()"
-  fullName: "com.azure.resourcemanager.recoveryservices.models.CapabilitiesResponseProperties.CapabilitiesResponseProperties()"
-  name: "CapabilitiesResponseProperties()"
-  nameWithType: "CapabilitiesResponseProperties.CapabilitiesResponseProperties()"
-  summary: "Creates an instance of Capabilities<wbr>Response<wbr>Properties class."
-  syntax: "public CapabilitiesResponseProperties()"
-  desc: "Creates an instance of CapabilitiesResponseProperties class."
 methods:
 - uid: "com.azure.resourcemanager.recoveryservices.models.CapabilitiesResponseProperties.dnsZones()"
   fullName: "com.azure.resourcemanager.recoveryservices.models.CapabilitiesResponseProperties.dnsZones()"
@@ -71,31 +63,10 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.recoveryservices.models.CapabilitiesResponseProperties.validate()"
-  fullName: "com.azure.resourcemanager.recoveryservices.models.CapabilitiesResponseProperties.validate()"
-  name: "validate()"
-  nameWithType: "CapabilitiesResponseProperties.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.recoveryservices.models.CapabilitiesResponseProperties.withDnsZones(java.util.List<com.azure.resourcemanager.recoveryservices.models.DnsZoneResponse>)"
-  fullName: "com.azure.resourcemanager.recoveryservices.models.CapabilitiesResponseProperties.withDnsZones(List<DnsZoneResponse> dnsZones)"
-  name: "withDnsZones(List<DnsZoneResponse> dnsZones)"
-  nameWithType: "CapabilitiesResponseProperties.withDnsZones(List<DnsZoneResponse> dnsZones)"
-  summary: "Set the dns<wbr>Zones property: The dns<wbr>Zones property."
-  parameters:
-  - description: "the dnsZones value to set."
-    name: "dnsZones"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.recoveryservices.models.DnsZoneResponse?alt=com.azure.resourcemanager.recoveryservices.models.DnsZoneResponse&text=DnsZoneResponse\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public CapabilitiesResponseProperties withDnsZones(List<DnsZoneResponse> dnsZones)"
-  desc: "Set the dnsZones property: The dnsZones property."
-  returns:
-    description: "the CapabilitiesResponseProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.recoveryservices.models.CapabilitiesResponseProperties?alt=com.azure.resourcemanager.recoveryservices.models.CapabilitiesResponseProperties&text=CapabilitiesResponseProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Capabilities properties in response."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservices.models.CapabilitiesResponseProperties?alt=com.azure.resourcemanager.recoveryservices.models.CapabilitiesResponseProperties&text=CapabilitiesResponseProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.recoveryservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.5.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.7.0

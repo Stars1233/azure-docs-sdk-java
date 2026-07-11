@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.netapp.fluent.models.AccountPropertiesPatch"
 fullName: "com.azure.resourcemanager.netapp.fluent.models.AccountPropertiesPatch"
 name: "AccountPropertiesPatch"
 nameWithType: "AccountPropertiesPatch"
-summary: "Net<wbr>App account properties for PATCH operations."
+summary: "Net<wbr>App account patch properties."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -89,16 +89,6 @@ methods:
   returns:
     description: "the ldapConfiguration value."
     type: "<xref href=\"com.azure.resourcemanager.netapp.models.LdapConfigurationPatch?alt=com.azure.resourcemanager.netapp.models.LdapConfigurationPatch&text=LdapConfigurationPatch\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.netapp.fluent.models.AccountPropertiesPatch.multiAdStatus()"
-  fullName: "com.azure.resourcemanager.netapp.fluent.models.AccountPropertiesPatch.multiAdStatus()"
-  name: "multiAdStatus()"
-  nameWithType: "AccountPropertiesPatch.multiAdStatus()"
-  summary: "Get the multi<wbr>AdStatus property: MultiAD Status for the account."
-  syntax: "public MultiAdStatus multiAdStatus()"
-  desc: "Get the multiAdStatus property: MultiAD Status for the account."
-  returns:
-    description: "the multiAdStatus value."
-    type: "<xref href=\"com.azure.resourcemanager.netapp.models.MultiAdStatus?alt=com.azure.resourcemanager.netapp.models.MultiAdStatus&text=MultiAdStatus\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.netapp.fluent.models.AccountPropertiesPatch.nfsV4IdDomain()"
   fullName: "com.azure.resourcemanager.netapp.fluent.models.AccountPropertiesPatch.nfsV4IdDomain()"
   name: "nfsV4IdDomain()"
@@ -184,20 +174,6 @@ methods:
   returns:
     description: "the AccountPropertiesPatch object itself."
     type: "<xref href=\"com.azure.resourcemanager.netapp.fluent.models.AccountPropertiesPatch?alt=com.azure.resourcemanager.netapp.fluent.models.AccountPropertiesPatch&text=AccountPropertiesPatch\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.netapp.fluent.models.AccountPropertiesPatch.withMultiAdStatus(com.azure.resourcemanager.netapp.models.MultiAdStatus)"
-  fullName: "com.azure.resourcemanager.netapp.fluent.models.AccountPropertiesPatch.withMultiAdStatus(MultiAdStatus multiAdStatus)"
-  name: "withMultiAdStatus(MultiAdStatus multiAdStatus)"
-  nameWithType: "AccountPropertiesPatch.withMultiAdStatus(MultiAdStatus multiAdStatus)"
-  summary: "Set the multi<wbr>AdStatus property: MultiAD Status for the account."
-  parameters:
-  - description: "the multiAdStatus value to set."
-    name: "multiAdStatus"
-    type: "<xref href=\"com.azure.resourcemanager.netapp.models.MultiAdStatus?alt=com.azure.resourcemanager.netapp.models.MultiAdStatus&text=MultiAdStatus\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public AccountPropertiesPatch withMultiAdStatus(MultiAdStatus multiAdStatus)"
-  desc: "Set the multiAdStatus property: MultiAD Status for the account."
-  returns:
-    description: "the AccountPropertiesPatch object itself."
-    type: "<xref href=\"com.azure.resourcemanager.netapp.fluent.models.AccountPropertiesPatch?alt=com.azure.resourcemanager.netapp.fluent.models.AccountPropertiesPatch&text=AccountPropertiesPatch\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.netapp.fluent.models.AccountPropertiesPatch.withNfsV4IdDomain(java.lang.String)"
   fullName: "com.azure.resourcemanager.netapp.fluent.models.AccountPropertiesPatch.withNfsV4IdDomain(String nfsV4IdDomain)"
   name: "withNfsV4IdDomain(String nfsV4IdDomain)"
@@ -213,9 +189,9 @@ methods:
     description: "the AccountPropertiesPatch object itself."
     type: "<xref href=\"com.azure.resourcemanager.netapp.fluent.models.AccountPropertiesPatch?alt=com.azure.resourcemanager.netapp.fluent.models.AccountPropertiesPatch&text=AccountPropertiesPatch\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "NetApp account properties for PATCH operations."
+desc: "NetApp account patch properties."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.netapp.fluent.models.AccountPropertiesPatch?alt=com.azure.resourcemanager.netapp.fluent.models.AccountPropertiesPatch&text=AccountPropertiesPatch\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.netapp.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-netapp:2.2.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-netapp:2.4.0-beta.1

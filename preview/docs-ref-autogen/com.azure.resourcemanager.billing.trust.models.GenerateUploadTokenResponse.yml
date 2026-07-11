@@ -1,0 +1,37 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.billing.trust.models.GenerateUploadTokenResponse"
+fullName: "com.azure.resourcemanager.billing.trust.models.GenerateUploadTokenResponse"
+name: "GenerateUploadTokenResponse"
+nameWithType: "GenerateUploadTokenResponse"
+summary: "An immutable client-side representation of Generate<wbr>Upload<wbr>Token<wbr>Response."
+syntax: "public interface **GenerateUploadTokenResponse**"
+methods:
+- uid: "com.azure.resourcemanager.billing.trust.models.GenerateUploadTokenResponse.innerModel()"
+  fullName: "com.azure.resourcemanager.billing.trust.models.GenerateUploadTokenResponse.innerModel()"
+  name: "innerModel()"
+  nameWithType: "GenerateUploadTokenResponse.innerModel()"
+  summary: "Gets the inner com.<wbr>azure.<wbr>resourcemanager.<wbr>billing.<wbr>trust.<wbr>fluent.<wbr>models.<wbr>Generate<wbr>Upload<wbr>Token<wbr>Response<wbr>Inner object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract GenerateUploadTokenResponseInner innerModel()"
+  desc: "Gets the inner com.azure.resourcemanager.billing.trust.fluent.models.GenerateUploadTokenResponseInner object."
+  returns:
+    description: "the inner object."
+    type: "<xref href=\"com.azure.resourcemanager.billing.trust.fluent.models.GenerateUploadTokenResponseInner?alt=com.azure.resourcemanager.billing.trust.fluent.models.GenerateUploadTokenResponseInner&text=GenerateUploadTokenResponseInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.billing.trust.models.GenerateUploadTokenResponse.token()"
+  fullName: "com.azure.resourcemanager.billing.trust.models.GenerateUploadTokenResponse.token()"
+  name: "token()"
+  nameWithType: "GenerateUploadTokenResponse.token()"
+  summary: "Gets the token property: The time-bound, principal-bound upload token."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String token()"
+  desc: "Gets the token property: The time-bound, principal-bound upload token."
+  returns:
+    description: "the token value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "interface"
+desc: "An immutable client-side representation of GenerateUploadTokenResponse."
+metadata: {}
+package: "com.azure.resourcemanager.billing.trust.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-billing-trust:1.0.0-beta.1

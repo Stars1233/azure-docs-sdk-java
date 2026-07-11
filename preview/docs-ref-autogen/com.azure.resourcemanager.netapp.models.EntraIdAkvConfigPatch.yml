@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.netapp.models.EntraIdAkvConfigPatch"
 fullName: "com.azure.resourcemanager.netapp.models.EntraIdAkvConfigPatch"
 name: "EntraIdAkvConfigPatch"
 nameWithType: "EntraIdAkvConfigPatch"
-summary: "Using AKV config, certificate will be fetched, which will contain private key & public certificate, that correspond to the public certificate which is uploaded on the application created by customer."
+summary: "Entra ID Patch configuration for the account."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -141,9 +141,9 @@ methods:
     description: "the EntraIdAkvConfigPatch object itself."
     type: "<xref href=\"com.azure.resourcemanager.netapp.models.EntraIdAkvConfigPatch?alt=com.azure.resourcemanager.netapp.models.EntraIdAkvConfigPatch&text=EntraIdAkvConfigPatch\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "Using AKV config, certificate will be fetched, which will contain private key & public certificate, that correspond to the public certificate which is uploaded on the application created by customer. This will be used further for authentication."
+desc: "Entra ID Patch configuration for the account."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.netapp.models.EntraIdAkvConfigPatch?alt=com.azure.resourcemanager.netapp.models.EntraIdAkvConfigPatch&text=EntraIdAkvConfigPatch\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.netapp.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-netapp:2.2.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-netapp:2.4.0-beta.1

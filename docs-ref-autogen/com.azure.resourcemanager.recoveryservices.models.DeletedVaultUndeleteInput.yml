@@ -1,0 +1,94 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInput"
+fullName: "com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInput"
+name: "DeletedVaultUndeleteInput"
+nameWithType: "DeletedVaultUndeleteInput"
+summary: "Input definition for Deleted<wbr>Vault undelete."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **DeletedVaultUndeleteInput**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInput?alt=com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInput&text=DeletedVaultUndeleteInput\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInput.DeletedVaultUndeleteInput()"
+  fullName: "com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInput.DeletedVaultUndeleteInput()"
+  name: "DeletedVaultUndeleteInput()"
+  nameWithType: "DeletedVaultUndeleteInput.DeletedVaultUndeleteInput()"
+  summary: "Creates an instance of Deleted<wbr>Vault<wbr>Undelete<wbr>Input class."
+  syntax: "public DeletedVaultUndeleteInput()"
+  desc: "Creates an instance of DeletedVaultUndeleteInput class."
+methods:
+- uid: "com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInput.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInput.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "DeletedVaultUndeleteInput.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Deleted<wbr>Vault<wbr>Undelete<wbr>Input from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static DeletedVaultUndeleteInput fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of DeletedVaultUndeleteInput from the JsonReader."
+  returns:
+    description: "An instance of DeletedVaultUndeleteInput if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInput?alt=com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInput&text=DeletedVaultUndeleteInput\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInput.properties()"
+  fullName: "com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInput.properties()"
+  name: "properties()"
+  nameWithType: "DeletedVaultUndeleteInput.properties()"
+  summary: "Get the properties property: Undelete input properties."
+  syntax: "public DeletedVaultUndeleteInputProperties properties()"
+  desc: "Get the properties property: Undelete input properties."
+  returns:
+    description: "the properties value."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInputProperties?alt=com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInputProperties&text=DeletedVaultUndeleteInputProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInput.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInput.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "DeletedVaultUndeleteInput.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInput.withProperties(com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInputProperties)"
+  fullName: "com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInput.withProperties(DeletedVaultUndeleteInputProperties properties)"
+  name: "withProperties(DeletedVaultUndeleteInputProperties properties)"
+  nameWithType: "DeletedVaultUndeleteInput.withProperties(DeletedVaultUndeleteInputProperties properties)"
+  summary: "Set the properties property: Undelete input properties."
+  parameters:
+  - description: "the properties value to set."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInputProperties?alt=com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInputProperties&text=DeletedVaultUndeleteInputProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public DeletedVaultUndeleteInput withProperties(DeletedVaultUndeleteInputProperties properties)"
+  desc: "Set the properties property: Undelete input properties."
+  returns:
+    description: "the DeletedVaultUndeleteInput object itself."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInput?alt=com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInput&text=DeletedVaultUndeleteInput\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Input definition for DeletedVault undelete."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInput?alt=com.azure.resourcemanager.recoveryservices.models.DeletedVaultUndeleteInput&text=DeletedVaultUndeleteInput\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.recoveryservices.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.7.0

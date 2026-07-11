@@ -649,7 +649,7 @@ methods:
   syntax: "public abstract GetGroupIdListForLdapUserResponse listGetGroupIdListForLdapUser(GetGroupIdListForLdapUserRequest body)"
   desc: "Returns the list of group Ids for a specific LDAP User."
   returns:
-    description: "the response."
+    description: "group Id list for Ldap user."
     type: "<xref href=\"com.azure.resourcemanager.netapp.models.GetGroupIdListForLdapUserResponse?alt=com.azure.resourcemanager.netapp.models.GetGroupIdListForLdapUserResponse&text=GetGroupIdListForLdapUserResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.netapp.models.Volume.listGetGroupIdListForLdapUser(com.azure.resourcemanager.netapp.models.GetGroupIdListForLdapUserRequest,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.netapp.models.Volume.listGetGroupIdListForLdapUser(GetGroupIdListForLdapUserRequest body, Context context)"
@@ -668,7 +668,7 @@ methods:
   syntax: "public abstract GetGroupIdListForLdapUserResponse listGetGroupIdListForLdapUser(GetGroupIdListForLdapUserRequest body, Context context)"
   desc: "Returns the list of group Ids for a specific LDAP User."
   returns:
-    description: "the response."
+    description: "group Id list for Ldap user."
     type: "<xref href=\"com.azure.resourcemanager.netapp.models.GetGroupIdListForLdapUserResponse?alt=com.azure.resourcemanager.netapp.models.GetGroupIdListForLdapUserResponse&text=GetGroupIdListForLdapUserResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.netapp.models.Volume.listQuotaReport()"
   fullName: "com.azure.resourcemanager.netapp.models.Volume.listQuotaReport()"
@@ -924,7 +924,7 @@ methods:
   syntax: "public abstract Volume populateAvailabilityZone()"
   desc: "This operation will populate availability zone information for a volume."
   returns:
-    description: "the response."
+    description: "volume resource."
     type: "<xref href=\"com.azure.resourcemanager.netapp.models.Volume?alt=com.azure.resourcemanager.netapp.models.Volume&text=Volume\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.netapp.models.Volume.populateAvailabilityZone(com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.netapp.models.Volume.populateAvailabilityZone(Context context)"
@@ -940,7 +940,7 @@ methods:
   syntax: "public abstract Volume populateAvailabilityZone(Context context)"
   desc: "This operation will populate availability zone information for a volume."
   returns:
-    description: "the response."
+    description: "volume resource."
     type: "<xref href=\"com.azure.resourcemanager.netapp.models.Volume?alt=com.azure.resourcemanager.netapp.models.Volume&text=Volume\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.netapp.models.Volume.protocolTypes()"
   fullName: "com.azure.resourcemanager.netapp.models.Volume.protocolTypes()"
@@ -1331,7 +1331,7 @@ methods:
   syntax: "public abstract Volume splitCloneFromParent()"
   desc: "Split operation to convert clone volume to an independent volume."
   returns:
-    description: "the response."
+    description: "volume resource."
     type: "<xref href=\"com.azure.resourcemanager.netapp.models.Volume?alt=com.azure.resourcemanager.netapp.models.Volume&text=Volume\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.netapp.models.Volume.splitCloneFromParent(com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.netapp.models.Volume.splitCloneFromParent(Context context)"
@@ -1347,7 +1347,7 @@ methods:
   syntax: "public abstract Volume splitCloneFromParent(Context context)"
   desc: "Split operation to convert clone volume to an independent volume."
   returns:
-    description: "the response."
+    description: "volume resource."
     type: "<xref href=\"com.azure.resourcemanager.netapp.models.Volume?alt=com.azure.resourcemanager.netapp.models.Volume&text=Volume\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.netapp.models.Volume.storageToNetworkProximity()"
   fullName: "com.azure.resourcemanager.netapp.models.Volume.storageToNetworkProximity()"
@@ -1521,4 +1521,4 @@ type: "interface"
 desc: "An immutable client-side representation of Volume."
 metadata: {}
 package: "com.azure.resourcemanager.netapp.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-netapp:2.2.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-netapp:2.4.0-beta.1

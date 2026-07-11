@@ -14,7 +14,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location name."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The request body."
@@ -23,7 +23,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<NetworkSiblingSetInner>,NetworkSiblingSetInner> beginUpdateNetworkSiblingSet(String location, UpdateNetworkSiblingSetRequest body)"
   desc: "Update the network features of a network sibling set Update the network features of the specified network sibling set."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of describes the contents of a network sibling set."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.netapp.fluent.models.NetworkSiblingSetInner?alt=com.azure.resourcemanager.netapp.fluent.models.NetworkSiblingSetInner&text=NetworkSiblingSetInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.netapp.fluent.models.NetworkSiblingSetInner?alt=com.azure.resourcemanager.netapp.fluent.models.NetworkSiblingSetInner&text=NetworkSiblingSetInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.netapp.fluent.NetAppResourcesClient.beginUpdateNetworkSiblingSet(java.lang.String,com.azure.resourcemanager.netapp.models.UpdateNetworkSiblingSetRequest,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.netapp.fluent.NetAppResourcesClient.beginUpdateNetworkSiblingSet(String location, UpdateNetworkSiblingSetRequest body, Context context)"
@@ -33,7 +33,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location name."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The request body."
@@ -45,7 +45,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<NetworkSiblingSetInner>,NetworkSiblingSetInner> beginUpdateNetworkSiblingSet(String location, UpdateNetworkSiblingSetRequest body, Context context)"
   desc: "Update the network features of a network sibling set Update the network features of the specified network sibling set."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of describes the contents of a network sibling set."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.netapp.fluent.models.NetworkSiblingSetInner?alt=com.azure.resourcemanager.netapp.fluent.models.NetworkSiblingSetInner&text=NetworkSiblingSetInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.netapp.fluent.models.NetworkSiblingSetInner?alt=com.azure.resourcemanager.netapp.fluent.models.NetworkSiblingSetInner&text=NetworkSiblingSetInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.netapp.fluent.NetAppResourcesClient.checkFilePathAvailability(java.lang.String,com.azure.resourcemanager.netapp.models.FilePathAvailabilityRequest)"
   fullName: "com.azure.resourcemanager.netapp.fluent.NetAppResourcesClient.checkFilePathAvailability(String location, FilePathAvailabilityRequest body)"
@@ -55,7 +55,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location name."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The request body."
@@ -74,7 +74,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location name."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The request body."
@@ -96,7 +96,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location name."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The request body."
@@ -115,7 +115,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location name."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The request body."
@@ -137,7 +137,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location name."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The request body."
@@ -156,7 +156,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location name."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The request body."
@@ -178,7 +178,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location name."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The request body."
@@ -197,7 +197,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location name."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The request body."
@@ -219,7 +219,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location name."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract RegionInfoInner queryRegionInfo(String location)"
@@ -235,7 +235,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location name."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -254,7 +254,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location name."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The request body."
@@ -263,7 +263,7 @@ methods:
   syntax: "public abstract NetworkSiblingSetInner updateNetworkSiblingSet(String location, UpdateNetworkSiblingSetRequest body)"
   desc: "Update the network features of a network sibling set Update the network features of the specified network sibling set."
   returns:
-    description: "the response."
+    description: "describes the contents of a network sibling set."
     type: "<xref href=\"com.azure.resourcemanager.netapp.fluent.models.NetworkSiblingSetInner?alt=com.azure.resourcemanager.netapp.fluent.models.NetworkSiblingSetInner&text=NetworkSiblingSetInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.netapp.fluent.NetAppResourcesClient.updateNetworkSiblingSet(java.lang.String,com.azure.resourcemanager.netapp.models.UpdateNetworkSiblingSetRequest,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.netapp.fluent.NetAppResourcesClient.updateNetworkSiblingSet(String location, UpdateNetworkSiblingSetRequest body, Context context)"
@@ -273,7 +273,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The location name."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The request body."
@@ -285,10 +285,10 @@ methods:
   syntax: "public abstract NetworkSiblingSetInner updateNetworkSiblingSet(String location, UpdateNetworkSiblingSetRequest body, Context context)"
   desc: "Update the network features of a network sibling set Update the network features of the specified network sibling set."
   returns:
-    description: "the response."
+    description: "describes the contents of a network sibling set."
     type: "<xref href=\"com.azure.resourcemanager.netapp.fluent.models.NetworkSiblingSetInner?alt=com.azure.resourcemanager.netapp.fluent.models.NetworkSiblingSetInner&text=NetworkSiblingSetInner\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "An instance of this class provides access to all the operations defined in NetAppResourcesClient."
 metadata: {}
 package: "com.azure.resourcemanager.netapp.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-netapp:2.2.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-netapp:2.4.0-beta.1

@@ -72,9 +72,9 @@ methods:
   fullName: "com.azure.resourcemanager.recoveryservices.fluent.models.VaultExtendedInfoResourceInner.etag()"
   name: "etag()"
   nameWithType: "VaultExtendedInfoResourceInner.etag()"
-  summary: "Get the etag property: Optional ETag."
+  summary: "Get the etag property: etag for the resource."
   syntax: "public String etag()"
-  desc: "Get the etag property: Optional ETag."
+  desc: "Get the etag property: etag for the resource."
   returns:
     description: "the etag value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -129,6 +129,16 @@ methods:
   returns:
     description: "the name value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.recoveryservices.fluent.models.VaultExtendedInfoResourceInner.systemData()"
+  fullName: "com.azure.resourcemanager.recoveryservices.fluent.models.VaultExtendedInfoResourceInner.systemData()"
+  name: "systemData()"
+  nameWithType: "VaultExtendedInfoResourceInner.systemData()"
+  summary: "Get the system<wbr>Data property: Azure Resource Manager metadata containing created<wbr>By and modified<wbr>By information."
+  syntax: "public SystemData systemData()"
+  desc: "Get the systemData property: Azure Resource Manager metadata containing createdBy and modifiedBy information."
+  returns:
+    description: "the systemData value."
+    type: "<xref href=\"com.azure.core.management.SystemData?alt=com.azure.core.management.SystemData&text=SystemData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.recoveryservices.fluent.models.VaultExtendedInfoResourceInner.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.recoveryservices.fluent.models.VaultExtendedInfoResourceInner.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -153,13 +163,6 @@ methods:
   returns:
     description: "the type value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.recoveryservices.fluent.models.VaultExtendedInfoResourceInner.validate()"
-  fullName: "com.azure.resourcemanager.recoveryservices.fluent.models.VaultExtendedInfoResourceInner.validate()"
-  name: "validate()"
-  nameWithType: "VaultExtendedInfoResourceInner.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.recoveryservices.fluent.models.VaultExtendedInfoResourceInner.withAlgorithm(java.lang.String)"
   fullName: "com.azure.resourcemanager.recoveryservices.fluent.models.VaultExtendedInfoResourceInner.withAlgorithm(String algorithm)"
   name: "withAlgorithm(String algorithm)"
@@ -206,13 +209,13 @@ methods:
   fullName: "com.azure.resourcemanager.recoveryservices.fluent.models.VaultExtendedInfoResourceInner.withEtag(String etag)"
   name: "withEtag(String etag)"
   nameWithType: "VaultExtendedInfoResourceInner.withEtag(String etag)"
-  summary: "Set the etag property: Optional ETag."
+  summary: "Set the etag property: etag for the resource."
   parameters:
   - description: "the etag value to set."
     name: "etag"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public VaultExtendedInfoResourceInner withEtag(String etag)"
-  desc: "Set the etag property: Optional ETag."
+  desc: "Set the etag property: etag for the resource."
   returns:
     description: "the VaultExtendedInfoResourceInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.recoveryservices.fluent.models.VaultExtendedInfoResourceInner?alt=com.azure.resourcemanager.recoveryservices.fluent.models.VaultExtendedInfoResourceInner&text=VaultExtendedInfoResourceInner\" data-throw-if-not-resolved=\"False\" />"
@@ -234,4 +237,4 @@ type: "class"
 desc: "Vault extended information."
 metadata: {}
 package: "com.azure.resourcemanager.recoveryservices.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.5.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.7.0

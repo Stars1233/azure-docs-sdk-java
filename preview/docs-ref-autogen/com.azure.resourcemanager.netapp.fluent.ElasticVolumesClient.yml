@@ -144,7 +144,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<ElasticVolumeInner>,ElasticVolumeInner> beginRevert(String resourceGroupName, String accountName, String poolName, String volumeName, ElasticVolumeRevert body)"
   desc: "Revert an Elastic Volume to the snapshot specified in the body."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of netApp Elastic Volume resource."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.netapp.fluent.models.ElasticVolumeInner?alt=com.azure.resourcemanager.netapp.fluent.models.ElasticVolumeInner&text=ElasticVolumeInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.netapp.fluent.models.ElasticVolumeInner?alt=com.azure.resourcemanager.netapp.fluent.models.ElasticVolumeInner&text=ElasticVolumeInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.netapp.fluent.ElasticVolumesClient.beginRevert(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.netapp.models.ElasticVolumeRevert,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.netapp.fluent.ElasticVolumesClient.beginRevert(String resourceGroupName, String accountName, String poolName, String volumeName, ElasticVolumeRevert body, Context context)"
@@ -175,7 +175,7 @@ methods:
   syntax: "public abstract SyncPoller<PollResult<ElasticVolumeInner>,ElasticVolumeInner> beginRevert(String resourceGroupName, String accountName, String poolName, String volumeName, ElasticVolumeRevert body, Context context)"
   desc: "Revert an Elastic Volume to the snapshot specified in the body."
   returns:
-    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of netApp Elastic Volume resource."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.netapp.fluent.models.ElasticVolumeInner?alt=com.azure.resourcemanager.netapp.fluent.models.ElasticVolumeInner&text=ElasticVolumeInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.netapp.fluent.models.ElasticVolumeInner?alt=com.azure.resourcemanager.netapp.fluent.models.ElasticVolumeInner&text=ElasticVolumeInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.netapp.fluent.ElasticVolumesClient.beginUpdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.netapp.models.ElasticVolumeUpdate)"
   fullName: "com.azure.resourcemanager.netapp.fluent.ElasticVolumesClient.beginUpdate(String resourceGroupName, String accountName, String poolName, String volumeName, ElasticVolumeUpdate body)"
@@ -468,7 +468,7 @@ methods:
   syntax: "public abstract ElasticVolumeInner revert(String resourceGroupName, String accountName, String poolName, String volumeName, ElasticVolumeRevert body)"
   desc: "Revert an Elastic Volume to the snapshot specified in the body."
   returns:
-    description: "the response."
+    description: "netApp Elastic Volume resource."
     type: "<xref href=\"com.azure.resourcemanager.netapp.fluent.models.ElasticVolumeInner?alt=com.azure.resourcemanager.netapp.fluent.models.ElasticVolumeInner&text=ElasticVolumeInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.netapp.fluent.ElasticVolumesClient.revert(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.netapp.models.ElasticVolumeRevert,com.azure.core.util.Context)"
   fullName: "com.azure.resourcemanager.netapp.fluent.ElasticVolumesClient.revert(String resourceGroupName, String accountName, String poolName, String volumeName, ElasticVolumeRevert body, Context context)"
@@ -499,7 +499,7 @@ methods:
   syntax: "public abstract ElasticVolumeInner revert(String resourceGroupName, String accountName, String poolName, String volumeName, ElasticVolumeRevert body, Context context)"
   desc: "Revert an Elastic Volume to the snapshot specified in the body."
   returns:
-    description: "the response."
+    description: "netApp Elastic Volume resource."
     type: "<xref href=\"com.azure.resourcemanager.netapp.fluent.models.ElasticVolumeInner?alt=com.azure.resourcemanager.netapp.fluent.models.ElasticVolumeInner&text=ElasticVolumeInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.netapp.fluent.ElasticVolumesClient.update(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.netapp.models.ElasticVolumeUpdate)"
   fullName: "com.azure.resourcemanager.netapp.fluent.ElasticVolumesClient.update(String resourceGroupName, String accountName, String poolName, String volumeName, ElasticVolumeUpdate body)"
@@ -564,4 +564,4 @@ type: "interface"
 desc: "An instance of this class provides access to all the operations defined in ElasticVolumesClient."
 metadata: {}
 package: "com.azure.resourcemanager.netapp.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-netapp:2.2.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-netapp:2.4.0-beta.1

@@ -4,6 +4,7 @@ fullName: "com.azure.resourcemanager.recoveryservices.fluent"
 name: "com.azure.resourcemanager.recoveryservices.fluent"
 summary: "Package containing the service clients for Recovery<wbr>Services<wbr>Management<wbr>Client."
 interfaces:
+- "com.azure.resourcemanager.recoveryservices.fluent.DeletedVaultsClient"
 - "com.azure.resourcemanager.recoveryservices.fluent.OperationsClient"
 - "com.azure.resourcemanager.recoveryservices.fluent.PrivateLinkResourcesOperationsClient"
 - "com.azure.resourcemanager.recoveryservices.fluent.RecoveryServicesClient"
@@ -15,7 +16,7 @@ interfaces:
 - "com.azure.resourcemanager.recoveryservices.fluent.VaultCertificatesClient"
 - "com.azure.resourcemanager.recoveryservices.fluent.VaultExtendedInfoesClient"
 - "com.azure.resourcemanager.recoveryservices.fluent.VaultsClient"
-desc: "Package containing the service clients for RecoveryServicesManagementClient. Recovery Services Client."
+desc: "Package containing the service clients for RecoveryServicesManagementClient."
 metadata: {}
 package: "com.azure.resourcemanager.recoveryservices.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.5.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.7.0

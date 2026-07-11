@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.billing.trust.models.Rule.DefinitionStages.WithProperties"
+fullName: "com.azure.resourcemanager.billing.trust.models.Rule.DefinitionStages.WithProperties"
+name: "Rule.DefinitionStages.WithProperties"
+nameWithType: "Rule.DefinitionStages.WithProperties"
+summary: "The stage of the Rule definition allowing to specify properties."
+syntax: "public static interface **Rule.DefinitionStages.WithProperties**"
+methods:
+- uid: "com.azure.resourcemanager.billing.trust.models.Rule.DefinitionStages.WithProperties.withProperties(com.azure.resourcemanager.billing.trust.models.RuleProperties)"
+  fullName: "com.azure.resourcemanager.billing.trust.models.Rule.DefinitionStages.WithProperties.withProperties(RuleProperties properties)"
+  name: "withProperties(RuleProperties properties)"
+  nameWithType: "Rule.DefinitionStages.WithProperties.withProperties(RuleProperties properties)"
+  summary: "Specifies the properties property: The resource-specific properties for this resource.."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The resource-specific properties for this resource."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.billing.trust.models.RuleProperties?alt=com.azure.resourcemanager.billing.trust.models.RuleProperties&text=RuleProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Rule.DefinitionStages.WithCreate withProperties(RuleProperties properties)"
+  desc: "Specifies the properties property: The resource-specific properties for this resource.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.billing.trust.models.Rule.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.billing.trust.models.Rule.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the Rule definition allowing to specify properties."
+metadata: {}
+package: "com.azure.resourcemanager.billing.trust.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-billing-trust:1.0.0-beta.1

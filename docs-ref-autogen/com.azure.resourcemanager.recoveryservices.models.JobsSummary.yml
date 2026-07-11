@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **JobsSummary**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservices.models.JobsSummary?alt=com.azure.resourcemanager.recoveryservices.models.JobsSummary&text=JobsSummary\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.recoveryservices.models.JobsSummary.JobsSummary()"
-  fullName: "com.azure.resourcemanager.recoveryservices.models.JobsSummary.JobsSummary()"
-  name: "JobsSummary()"
-  nameWithType: "JobsSummary.JobsSummary()"
-  summary: "Creates an instance of Jobs<wbr>Summary class."
-  syntax: "public JobsSummary()"
-  desc: "Creates an instance of JobsSummary class."
 methods:
 - uid: "com.azure.resourcemanager.recoveryservices.models.JobsSummary.failedJobs()"
   fullName: "com.azure.resourcemanager.recoveryservices.models.JobsSummary.failedJobs()"
@@ -91,59 +83,10 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.recoveryservices.models.JobsSummary.validate()"
-  fullName: "com.azure.resourcemanager.recoveryservices.models.JobsSummary.validate()"
-  name: "validate()"
-  nameWithType: "JobsSummary.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.recoveryservices.models.JobsSummary.withFailedJobs(java.lang.Integer)"
-  fullName: "com.azure.resourcemanager.recoveryservices.models.JobsSummary.withFailedJobs(Integer failedJobs)"
-  name: "withFailedJobs(Integer failedJobs)"
-  nameWithType: "JobsSummary.withFailedJobs(Integer failedJobs)"
-  summary: "Set the failed<wbr>Jobs property: Count of failed jobs."
-  parameters:
-  - description: "the failedJobs value to set."
-    name: "failedJobs"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-  syntax: "public JobsSummary withFailedJobs(Integer failedJobs)"
-  desc: "Set the failedJobs property: Count of failed jobs."
-  returns:
-    description: "the JobsSummary object itself."
-    type: "<xref href=\"com.azure.resourcemanager.recoveryservices.models.JobsSummary?alt=com.azure.resourcemanager.recoveryservices.models.JobsSummary&text=JobsSummary\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.recoveryservices.models.JobsSummary.withInProgressJobs(java.lang.Integer)"
-  fullName: "com.azure.resourcemanager.recoveryservices.models.JobsSummary.withInProgressJobs(Integer inProgressJobs)"
-  name: "withInProgressJobs(Integer inProgressJobs)"
-  nameWithType: "JobsSummary.withInProgressJobs(Integer inProgressJobs)"
-  summary: "Set the in<wbr>Progress<wbr>Jobs property: Count of in-progress jobs."
-  parameters:
-  - description: "the inProgressJobs value to set."
-    name: "inProgressJobs"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-  syntax: "public JobsSummary withInProgressJobs(Integer inProgressJobs)"
-  desc: "Set the inProgressJobs property: Count of in-progress jobs."
-  returns:
-    description: "the JobsSummary object itself."
-    type: "<xref href=\"com.azure.resourcemanager.recoveryservices.models.JobsSummary?alt=com.azure.resourcemanager.recoveryservices.models.JobsSummary&text=JobsSummary\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.recoveryservices.models.JobsSummary.withSuspendedJobs(java.lang.Integer)"
-  fullName: "com.azure.resourcemanager.recoveryservices.models.JobsSummary.withSuspendedJobs(Integer suspendedJobs)"
-  name: "withSuspendedJobs(Integer suspendedJobs)"
-  nameWithType: "JobsSummary.withSuspendedJobs(Integer suspendedJobs)"
-  summary: "Set the suspended<wbr>Jobs property: Count of suspended jobs."
-  parameters:
-  - description: "the suspendedJobs value to set."
-    name: "suspendedJobs"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-  syntax: "public JobsSummary withSuspendedJobs(Integer suspendedJobs)"
-  desc: "Set the suspendedJobs property: Count of suspended jobs."
-  returns:
-    description: "the JobsSummary object itself."
-    type: "<xref href=\"com.azure.resourcemanager.recoveryservices.models.JobsSummary?alt=com.azure.resourcemanager.recoveryservices.models.JobsSummary&text=JobsSummary\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Summary of the replication job data for this vault."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservices.models.JobsSummary?alt=com.azure.resourcemanager.recoveryservices.models.JobsSummary&text=JobsSummary\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.recoveryservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.5.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.7.0

@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.billing.trust.models.ExternalId"
+fullName: "com.azure.resourcemanager.billing.trust.models.ExternalId"
+name: "ExternalId"
+nameWithType: "ExternalId"
+summary: "External-registry identifier (e.<wbr>g."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ExternalId**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.billing.trust.models.ExternalId?alt=com.azure.resourcemanager.billing.trust.models.ExternalId&text=ExternalId\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.billing.trust.models.ExternalId.ExternalId()"
+  fullName: "com.azure.resourcemanager.billing.trust.models.ExternalId.ExternalId()"
+  name: "ExternalId()"
+  nameWithType: "ExternalId.ExternalId()"
+  summary: "Creates an instance of External<wbr>Id class."
+  syntax: "public ExternalId()"
+  desc: "Creates an instance of ExternalId class."
+methods:
+- uid: "com.azure.resourcemanager.billing.trust.models.ExternalId.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.billing.trust.models.ExternalId.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ExternalId.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of External<wbr>Id from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ExternalId fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ExternalId from the JsonReader."
+  returns:
+    description: "An instance of ExternalId if the JsonReader was pointing to an instance of it, or null if it was pointing\n to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.billing.trust.models.ExternalId?alt=com.azure.resourcemanager.billing.trust.models.ExternalId&text=ExternalId\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.billing.trust.models.ExternalId.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.billing.trust.models.ExternalId.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ExternalId.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.billing.trust.models.ExternalId.type()"
+  fullName: "com.azure.resourcemanager.billing.trust.models.ExternalId.type()"
+  name: "type()"
+  nameWithType: "ExternalId.type()"
+  summary: "Get the type property: Identifier type."
+  syntax: "public String type()"
+  desc: "Get the type property: Identifier type. Currently \\`DUNS\\` is supported."
+  returns:
+    description: "the type value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.billing.trust.models.ExternalId.value()"
+  fullName: "com.azure.resourcemanager.billing.trust.models.ExternalId.value()"
+  name: "value()"
+  nameWithType: "ExternalId.value()"
+  summary: "Get the value property: Identifier value (e.<wbr>g."
+  syntax: "public String value()"
+  desc: "Get the value property: Identifier value (e.g. the DUNS number string)."
+  returns:
+    description: "the value value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.billing.trust.models.ExternalId.withType(java.lang.String)"
+  fullName: "com.azure.resourcemanager.billing.trust.models.ExternalId.withType(String type)"
+  name: "withType(String type)"
+  nameWithType: "ExternalId.withType(String type)"
+  summary: "Set the type property: Identifier type."
+  parameters:
+  - description: "the type value to set."
+    name: "type"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public ExternalId withType(String type)"
+  desc: "Set the type property: Identifier type. Currently \\`DUNS\\` is supported."
+  returns:
+    description: "the ExternalId object itself."
+    type: "<xref href=\"com.azure.resourcemanager.billing.trust.models.ExternalId?alt=com.azure.resourcemanager.billing.trust.models.ExternalId&text=ExternalId\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.billing.trust.models.ExternalId.withValue(java.lang.String)"
+  fullName: "com.azure.resourcemanager.billing.trust.models.ExternalId.withValue(String value)"
+  name: "withValue(String value)"
+  nameWithType: "ExternalId.withValue(String value)"
+  summary: "Set the value property: Identifier value (e.<wbr>g."
+  parameters:
+  - description: "the value value to set."
+    name: "value"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public ExternalId withValue(String value)"
+  desc: "Set the value property: Identifier value (e.g. the DUNS number string)."
+  returns:
+    description: "the ExternalId object itself."
+    type: "<xref href=\"com.azure.resourcemanager.billing.trust.models.ExternalId?alt=com.azure.resourcemanager.billing.trust.models.ExternalId&text=ExternalId\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "External-registry identifier (e.g. DUNS) used to disambiguate ambiguous verification matches."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.billing.trust.models.ExternalId?alt=com.azure.resourcemanager.billing.trust.models.ExternalId&text=ExternalId\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.billing.trust.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-billing-trust:1.0.0-beta.1

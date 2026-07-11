@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **PrivateEndpointConnectionVaultProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservices.models.PrivateEndpointConnectionVaultProperties?alt=com.azure.resourcemanager.recoveryservices.models.PrivateEndpointConnectionVaultProperties&text=PrivateEndpointConnectionVaultProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.recoveryservices.models.PrivateEndpointConnectionVaultProperties.PrivateEndpointConnectionVaultProperties()"
-  fullName: "com.azure.resourcemanager.recoveryservices.models.PrivateEndpointConnectionVaultProperties.PrivateEndpointConnectionVaultProperties()"
-  name: "PrivateEndpointConnectionVaultProperties()"
-  nameWithType: "PrivateEndpointConnectionVaultProperties.PrivateEndpointConnectionVaultProperties()"
-  summary: "Creates an instance of Private<wbr>Endpoint<wbr>Connection<wbr>Vault<wbr>Properties class."
-  syntax: "public PrivateEndpointConnectionVaultProperties()"
-  desc: "Creates an instance of PrivateEndpointConnectionVaultProperties class."
 methods:
 - uid: "com.azure.resourcemanager.recoveryservices.models.PrivateEndpointConnectionVaultProperties.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.recoveryservices.models.PrivateEndpointConnectionVaultProperties.fromJson(JsonReader jsonReader)"
@@ -111,17 +103,10 @@ methods:
   returns:
     description: "the type value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.recoveryservices.models.PrivateEndpointConnectionVaultProperties.validate()"
-  fullName: "com.azure.resourcemanager.recoveryservices.models.PrivateEndpointConnectionVaultProperties.validate()"
-  name: "validate()"
-  nameWithType: "PrivateEndpointConnectionVaultProperties.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 type: "class"
 desc: "Information to be stored in Vault properties as an element of privateEndpointConnections List."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservices.models.PrivateEndpointConnectionVaultProperties?alt=com.azure.resourcemanager.recoveryservices.models.PrivateEndpointConnectionVaultProperties&text=PrivateEndpointConnectionVaultProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.recoveryservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.5.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.7.0

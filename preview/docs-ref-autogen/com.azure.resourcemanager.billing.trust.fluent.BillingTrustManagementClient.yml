@@ -1,0 +1,97 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.billing.trust.fluent.BillingTrustManagementClient"
+fullName: "com.azure.resourcemanager.billing.trust.fluent.BillingTrustManagementClient"
+name: "BillingTrustManagementClient"
+nameWithType: "BillingTrustManagementClient"
+summary: "The interface for Billing<wbr>Trust<wbr>Management<wbr>Client class."
+syntax: "public interface **BillingTrustManagementClient**"
+methods:
+- uid: "com.azure.resourcemanager.billing.trust.fluent.BillingTrustManagementClient.getApiVersion()"
+  fullName: "com.azure.resourcemanager.billing.trust.fluent.BillingTrustManagementClient.getApiVersion()"
+  name: "getApiVersion()"
+  nameWithType: "BillingTrustManagementClient.getApiVersion()"
+  summary: "Gets Version parameter."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String getApiVersion()"
+  desc: "Gets Version parameter."
+  returns:
+    description: "the apiVersion value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.billing.trust.fluent.BillingTrustManagementClient.getAssessments()"
+  fullName: "com.azure.resourcemanager.billing.trust.fluent.BillingTrustManagementClient.getAssessments()"
+  name: "getAssessments()"
+  nameWithType: "BillingTrustManagementClient.getAssessments()"
+  summary: "Gets the Assessments<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract AssessmentsClient getAssessments()"
+  desc: "Gets the AssessmentsClient object to access its operations."
+  returns:
+    description: "the AssessmentsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.billing.trust.fluent.AssessmentsClient?alt=com.azure.resourcemanager.billing.trust.fluent.AssessmentsClient&text=AssessmentsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.billing.trust.fluent.BillingTrustManagementClient.getDefaultPollInterval()"
+  fullName: "com.azure.resourcemanager.billing.trust.fluent.BillingTrustManagementClient.getDefaultPollInterval()"
+  name: "getDefaultPollInterval()"
+  nameWithType: "BillingTrustManagementClient.getDefaultPollInterval()"
+  summary: "Gets The default poll interval for long-running operation."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Duration getDefaultPollInterval()"
+  desc: "Gets The default poll interval for long-running operation."
+  returns:
+    description: "the defaultPollInterval value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html\">Duration</a>"
+- uid: "com.azure.resourcemanager.billing.trust.fluent.BillingTrustManagementClient.getEndpoint()"
+  fullName: "com.azure.resourcemanager.billing.trust.fluent.BillingTrustManagementClient.getEndpoint()"
+  name: "getEndpoint()"
+  nameWithType: "BillingTrustManagementClient.getEndpoint()"
+  summary: "Gets Service host."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String getEndpoint()"
+  desc: "Gets Service host."
+  returns:
+    description: "the endpoint value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.billing.trust.fluent.BillingTrustManagementClient.getHttpPipeline()"
+  fullName: "com.azure.resourcemanager.billing.trust.fluent.BillingTrustManagementClient.getHttpPipeline()"
+  name: "getHttpPipeline()"
+  nameWithType: "BillingTrustManagementClient.getHttpPipeline()"
+  summary: "Gets The HTTP pipeline to send requests through."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract HttpPipeline getHttpPipeline()"
+  desc: "Gets The HTTP pipeline to send requests through."
+  returns:
+    description: "the httpPipeline value."
+    type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.billing.trust.fluent.BillingTrustManagementClient.getOperations()"
+  fullName: "com.azure.resourcemanager.billing.trust.fluent.BillingTrustManagementClient.getOperations()"
+  name: "getOperations()"
+  nameWithType: "BillingTrustManagementClient.getOperations()"
+  summary: "Gets the Operations<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract OperationsClient getOperations()"
+  desc: "Gets the OperationsClient object to access its operations."
+  returns:
+    description: "the OperationsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.billing.trust.fluent.OperationsClient?alt=com.azure.resourcemanager.billing.trust.fluent.OperationsClient&text=OperationsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.billing.trust.fluent.BillingTrustManagementClient.getRules()"
+  fullName: "com.azure.resourcemanager.billing.trust.fluent.BillingTrustManagementClient.getRules()"
+  name: "getRules()"
+  nameWithType: "BillingTrustManagementClient.getRules()"
+  summary: "Gets the Rules<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract RulesClient getRules()"
+  desc: "Gets the RulesClient object to access its operations."
+  returns:
+    description: "the RulesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.billing.trust.fluent.RulesClient?alt=com.azure.resourcemanager.billing.trust.fluent.RulesClient&text=RulesClient\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The interface for BillingTrustManagementClient class."
+metadata: {}
+package: "com.azure.resourcemanager.billing.trust.fluent"
+artifact: com.azure.resourcemanager:azure-resourcemanager-billing-trust:1.0.0-beta.1

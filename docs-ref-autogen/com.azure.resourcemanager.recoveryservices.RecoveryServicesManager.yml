@@ -72,6 +72,16 @@ methods:
   returns:
     description: "the Configurable instance allowing configurations."
     type: "<xref href=\"com.azure.resourcemanager.recoveryservices.RecoveryServicesManager.Configurable?alt=com.azure.resourcemanager.recoveryservices.RecoveryServicesManager.Configurable&text=Configurable\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservices.RecoveryServicesManager.deletedVaults()"
+  fullName: "com.azure.resourcemanager.recoveryservices.RecoveryServicesManager.deletedVaults()"
+  name: "deletedVaults()"
+  nameWithType: "RecoveryServicesManager.deletedVaults()"
+  summary: "Gets the resource collection API of Deleted<wbr>Vaults."
+  syntax: "public DeletedVaults deletedVaults()"
+  desc: "Gets the resource collection API of DeletedVaults."
+  returns:
+    description: "Resource collection API of DeletedVaults."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservices.models.DeletedVaults?alt=com.azure.resourcemanager.recoveryservices.models.DeletedVaults&text=DeletedVaults\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.recoveryservices.RecoveryServicesManager.operations()"
   fullName: "com.azure.resourcemanager.recoveryservices.RecoveryServicesManager.operations()"
   name: "operations()"
@@ -183,7 +193,7 @@ methods:
     description: "Resource collection API of Vaults."
     type: "<xref href=\"com.azure.resourcemanager.recoveryservices.models.Vaults?alt=com.azure.resourcemanager.recoveryservices.models.Vaults&text=Vaults\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "Entry point to RecoveryServicesManager. Recovery Services Client."
+desc: "Entry point to RecoveryServicesManager."
 metadata: {}
 package: "com.azure.resourcemanager.recoveryservices"
-artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.5.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.7.0

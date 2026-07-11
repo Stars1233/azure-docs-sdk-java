@@ -14,10 +14,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Location of the resource."
+  - description: "The location of the resource."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Contains information about Resource type and properties to get capabilities."
+  - description: "The request body."
     name: "input"
     type: "<xref href=\"com.azure.resourcemanager.recoveryservices.models.ResourceCapabilities?alt=com.azure.resourcemanager.recoveryservices.models.ResourceCapabilities&text=ResourceCapabilities\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract CapabilitiesResponse capabilities(String location, ResourceCapabilities input)"
@@ -33,10 +33,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "Location of the resource."
+  - description: "The location of the resource."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Contains information about Resource type and properties to get capabilities."
+  - description: "The request body."
     name: "input"
     type: "<xref href=\"com.azure.resourcemanager.recoveryservices.models.ResourceCapabilities?alt=com.azure.resourcemanager.recoveryservices.models.ResourceCapabilities&text=ResourceCapabilities\" data-throw-if-not-resolved=\"False\" />"
   - description: "The context to associate with this operation."
@@ -58,7 +58,7 @@ methods:
   - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Location of the resource."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Contains information about Resource type and Resource name."
@@ -80,7 +80,7 @@ methods:
   - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "Location of the resource."
+  - description: "The name of the Azure region."
     name: "location"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "Contains information about Resource type and Resource name."
@@ -98,4 +98,4 @@ type: "interface"
 desc: "Resource collection API of RecoveryServices."
 metadata: {}
 package: "com.azure.resourcemanager.recoveryservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.5.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.7.0

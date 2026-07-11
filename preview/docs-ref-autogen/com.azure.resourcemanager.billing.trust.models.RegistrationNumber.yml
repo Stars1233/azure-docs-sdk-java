@@ -1,0 +1,92 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.billing.trust.models.RegistrationNumber"
+fullName: "com.azure.resourcemanager.billing.trust.models.RegistrationNumber"
+name: "RegistrationNumber"
+nameWithType: "RegistrationNumber"
+summary: "Registration number context for business verification."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **RegistrationNumber**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.billing.trust.models.RegistrationNumber?alt=com.azure.resourcemanager.billing.trust.models.RegistrationNumber&text=RegistrationNumber\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.billing.trust.models.RegistrationNumber.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.billing.trust.models.RegistrationNumber.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "RegistrationNumber.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Registration<wbr>Number from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static RegistrationNumber fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the RegistrationNumber."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of RegistrationNumber from the JsonReader."
+  returns:
+    description: "An instance of RegistrationNumber if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.billing.trust.models.RegistrationNumber?alt=com.azure.resourcemanager.billing.trust.models.RegistrationNumber&text=RegistrationNumber\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.billing.trust.models.RegistrationNumber.registrationRequirement()"
+  fullName: "com.azure.resourcemanager.billing.trust.models.RegistrationNumber.registrationRequirement()"
+  name: "registrationRequirement()"
+  nameWithType: "RegistrationNumber.registrationRequirement()"
+  summary: "Get the registration<wbr>Requirement property: Whether a registration number is required for the sold-to country."
+  syntax: "public RegistrationRequirement registrationRequirement()"
+  desc: "Get the registrationRequirement property: Whether a registration number is required for the sold-to country."
+  returns:
+    description: "the registrationRequirement value."
+    type: "<xref href=\"com.azure.resourcemanager.billing.trust.models.RegistrationRequirement?alt=com.azure.resourcemanager.billing.trust.models.RegistrationRequirement&text=RegistrationRequirement\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.billing.trust.models.RegistrationNumber.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.billing.trust.models.RegistrationNumber.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "RegistrationNumber.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.billing.trust.models.RegistrationNumber.type()"
+  fullName: "com.azure.resourcemanager.billing.trust.models.RegistrationNumber.type()"
+  name: "type()"
+  nameWithType: "RegistrationNumber.type()"
+  summary: "Get the type property: Allowed registration-number types based on the billing-account country (e.<wbr>g."
+  syntax: "public List<String> type()"
+  desc: "Get the type property: Allowed registration-number types based on the billing-account country (e.g. \\`VAT\\`, \\`GST\\`, \\`EIN\\`)."
+  returns:
+    description: "the type value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.resourcemanager.billing.trust.models.RegistrationNumber.value()"
+  fullName: "com.azure.resourcemanager.billing.trust.models.RegistrationNumber.value()"
+  name: "value()"
+  nameWithType: "RegistrationNumber.value()"
+  summary: "Get the value property: Registration number value (e.<wbr>g."
+  syntax: "public String value()"
+  desc: "Get the value property: Registration number value (e.g. the VAT / GST / EIN identifier string)."
+  returns:
+    description: "the value value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "class"
+desc: "Registration number context for business verification."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.billing.trust.models.RegistrationNumber?alt=com.azure.resourcemanager.billing.trust.models.RegistrationNumber&text=RegistrationNumber\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.billing.trust.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-billing-trust:1.0.0-beta.1

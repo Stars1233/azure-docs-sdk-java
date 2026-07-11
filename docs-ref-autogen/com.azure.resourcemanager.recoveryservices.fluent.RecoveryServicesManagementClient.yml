@@ -10,11 +10,11 @@ methods:
   fullName: "com.azure.resourcemanager.recoveryservices.fluent.RecoveryServicesManagementClient.getApiVersion()"
   name: "getApiVersion()"
   nameWithType: "RecoveryServicesManagementClient.getApiVersion()"
-  summary: "Gets Api Version."
+  summary: "Gets Version parameter."
   modifiers:
   - "abstract"
   syntax: "public abstract String getApiVersion()"
-  desc: "Gets Api Version."
+  desc: "Gets Version parameter."
   returns:
     description: "the apiVersion value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -30,15 +30,27 @@ methods:
   returns:
     description: "the defaultPollInterval value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html\">Duration</a>"
+- uid: "com.azure.resourcemanager.recoveryservices.fluent.RecoveryServicesManagementClient.getDeletedVaults()"
+  fullName: "com.azure.resourcemanager.recoveryservices.fluent.RecoveryServicesManagementClient.getDeletedVaults()"
+  name: "getDeletedVaults()"
+  nameWithType: "RecoveryServicesManagementClient.getDeletedVaults()"
+  summary: "Gets the Deleted<wbr>Vaults<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract DeletedVaultsClient getDeletedVaults()"
+  desc: "Gets the DeletedVaultsClient object to access its operations."
+  returns:
+    description: "the DeletedVaultsClient object."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservices.fluent.DeletedVaultsClient?alt=com.azure.resourcemanager.recoveryservices.fluent.DeletedVaultsClient&text=DeletedVaultsClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.recoveryservices.fluent.RecoveryServicesManagementClient.getEndpoint()"
   fullName: "com.azure.resourcemanager.recoveryservices.fluent.RecoveryServicesManagementClient.getEndpoint()"
   name: "getEndpoint()"
   nameWithType: "RecoveryServicesManagementClient.getEndpoint()"
-  summary: "Gets server parameter."
+  summary: "Gets Service host."
   modifiers:
   - "abstract"
   syntax: "public abstract String getEndpoint()"
-  desc: "Gets server parameter."
+  desc: "Gets Service host."
   returns:
     description: "the endpoint value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -134,7 +146,7 @@ methods:
   modifiers:
   - "abstract"
   syntax: "public abstract String getSubscriptionId()"
-  desc: "Gets The ID of the target subscription."
+  desc: "Gets The ID of the target subscription. The value must be an UUID."
   returns:
     description: "the subscriptionId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -190,4 +202,4 @@ type: "interface"
 desc: "The interface for RecoveryServicesManagementClient class."
 metadata: {}
 package: "com.azure.resourcemanager.recoveryservices.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.5.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.7.0

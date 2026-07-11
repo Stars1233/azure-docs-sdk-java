@@ -50,6 +50,16 @@ methods:
   returns:
     description: "the bcdrSecurityLevel value."
     type: "<xref href=\"com.azure.resourcemanager.recoveryservices.models.BcdrSecurityLevel?alt=com.azure.resourcemanager.recoveryservices.models.BcdrSecurityLevel&text=BcdrSecurityLevel\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservices.models.VaultProperties.costManagementSettings()"
+  fullName: "com.azure.resourcemanager.recoveryservices.models.VaultProperties.costManagementSettings()"
+  name: "costManagementSettings()"
+  nameWithType: "VaultProperties.costManagementSettings()"
+  summary: "Get the cost<wbr>Management<wbr>Settings property: Cost Management Settings of the vault."
+  syntax: "public CostManagementSettings costManagementSettings()"
+  desc: "Get the costManagementSettings property: Cost Management Settings of the vault."
+  returns:
+    description: "the costManagementSettings value."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservices.models.CostManagementSettings?alt=com.azure.resourcemanager.recoveryservices.models.CostManagementSettings&text=CostManagementSettings\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.recoveryservices.models.VaultProperties.encryption()"
   fullName: "com.azure.resourcemanager.recoveryservices.models.VaultProperties.encryption()"
   name: "encryption()"
@@ -231,13 +241,20 @@ methods:
   returns:
     description: "the upgradeDetails value."
     type: "<xref href=\"com.azure.resourcemanager.recoveryservices.models.UpgradeDetails?alt=com.azure.resourcemanager.recoveryservices.models.UpgradeDetails&text=UpgradeDetails\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.recoveryservices.models.VaultProperties.validate()"
-  fullName: "com.azure.resourcemanager.recoveryservices.models.VaultProperties.validate()"
-  name: "validate()"
-  nameWithType: "VaultProperties.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.recoveryservices.models.VaultProperties.withCostManagementSettings(com.azure.resourcemanager.recoveryservices.models.CostManagementSettings)"
+  fullName: "com.azure.resourcemanager.recoveryservices.models.VaultProperties.withCostManagementSettings(CostManagementSettings costManagementSettings)"
+  name: "withCostManagementSettings(CostManagementSettings costManagementSettings)"
+  nameWithType: "VaultProperties.withCostManagementSettings(CostManagementSettings costManagementSettings)"
+  summary: "Set the cost<wbr>Management<wbr>Settings property: Cost Management Settings of the vault."
+  parameters:
+  - description: "the costManagementSettings value to set."
+    name: "costManagementSettings"
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservices.models.CostManagementSettings?alt=com.azure.resourcemanager.recoveryservices.models.CostManagementSettings&text=CostManagementSettings\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public VaultProperties withCostManagementSettings(CostManagementSettings costManagementSettings)"
+  desc: "Set the costManagementSettings property: Cost Management Settings of the vault."
+  returns:
+    description: "the VaultProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservices.models.VaultProperties?alt=com.azure.resourcemanager.recoveryservices.models.VaultProperties&text=VaultProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.recoveryservices.models.VaultProperties.withEncryption(com.azure.resourcemanager.recoveryservices.models.VaultPropertiesEncryption)"
   fullName: "com.azure.resourcemanager.recoveryservices.models.VaultProperties.withEncryption(VaultPropertiesEncryption encryption)"
   name: "withEncryption(VaultPropertiesEncryption encryption)"
@@ -370,4 +387,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservices.models.VaultProperties?alt=com.azure.resourcemanager.recoveryservices.models.VaultProperties&text=VaultProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.recoveryservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.5.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.7.0

@@ -30,6 +30,16 @@ constructors:
   syntax: "public ImmutabilitySettings()"
   desc: "Creates an instance of ImmutabilitySettings class."
 methods:
+- uid: "com.azure.resourcemanager.recoveryservices.models.ImmutabilitySettings.configuration()"
+  fullName: "com.azure.resourcemanager.recoveryservices.models.ImmutabilitySettings.configuration()"
+  name: "configuration()"
+  nameWithType: "ImmutabilitySettings.configuration()"
+  summary: "Get the configuration property: Immutability configuration of the vault — selects whether immutability is inherited from the backup policy (As<wbr>Per<wbr>Policy) or fixed for a specific duration (Time<wbr>Based)."
+  syntax: "public ImmutabilityConfiguration configuration()"
+  desc: "Get the configuration property: Immutability configuration of the vault — selects whether immutability is inherited from the backup policy (AsPerPolicy) or fixed for a specific duration (TimeBased)."
+  returns:
+    description: "the configuration value."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservices.models.ImmutabilityConfiguration?alt=com.azure.resourcemanager.recoveryservices.models.ImmutabilityConfiguration&text=ImmutabilityConfiguration\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.recoveryservices.models.ImmutabilitySettings.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.recoveryservices.models.ImmutabilitySettings.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -71,13 +81,20 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.recoveryservices.models.ImmutabilitySettings.validate()"
-  fullName: "com.azure.resourcemanager.recoveryservices.models.ImmutabilitySettings.validate()"
-  name: "validate()"
-  nameWithType: "ImmutabilitySettings.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.recoveryservices.models.ImmutabilitySettings.withConfiguration(com.azure.resourcemanager.recoveryservices.models.ImmutabilityConfiguration)"
+  fullName: "com.azure.resourcemanager.recoveryservices.models.ImmutabilitySettings.withConfiguration(ImmutabilityConfiguration configuration)"
+  name: "withConfiguration(ImmutabilityConfiguration configuration)"
+  nameWithType: "ImmutabilitySettings.withConfiguration(ImmutabilityConfiguration configuration)"
+  summary: "Set the configuration property: Immutability configuration of the vault — selects whether immutability is inherited from the backup policy (As<wbr>Per<wbr>Policy) or fixed for a specific duration (Time<wbr>Based)."
+  parameters:
+  - description: "the configuration value to set."
+    name: "configuration"
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservices.models.ImmutabilityConfiguration?alt=com.azure.resourcemanager.recoveryservices.models.ImmutabilityConfiguration&text=ImmutabilityConfiguration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ImmutabilitySettings withConfiguration(ImmutabilityConfiguration configuration)"
+  desc: "Set the configuration property: Immutability configuration of the vault — selects whether immutability is inherited from the backup policy (AsPerPolicy) or fixed for a specific duration (TimeBased)."
+  returns:
+    description: "the ImmutabilitySettings object itself."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservices.models.ImmutabilitySettings?alt=com.azure.resourcemanager.recoveryservices.models.ImmutabilitySettings&text=ImmutabilitySettings\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.recoveryservices.models.ImmutabilitySettings.withState(com.azure.resourcemanager.recoveryservices.models.ImmutabilityState)"
   fullName: "com.azure.resourcemanager.recoveryservices.models.ImmutabilitySettings.withState(ImmutabilityState state)"
   name: "withState(ImmutabilityState state)"
@@ -98,4 +115,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservices.models.ImmutabilitySettings?alt=com.azure.resourcemanager.recoveryservices.models.ImmutabilitySettings&text=ImmutabilitySettings\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.recoveryservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.5.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.7.0

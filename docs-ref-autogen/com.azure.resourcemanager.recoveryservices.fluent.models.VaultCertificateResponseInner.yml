@@ -6,15 +6,7 @@ nameWithType: "VaultCertificateResponseInner"
 summary: "Certificate corresponding to a vault that can be used by clients to register themselves with the vault."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.azure.core.management.ProxyResource?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
-- classRef: "<xref href=\"com.azure.core.management.ProxyResource?alt=com.azure.core.management.ProxyResource&text=ProxyResource\" data-throw-if-not-resolved=\"False\" />"
-  methodsRef:
-  - "<xref href=\"com.azure.core.management.ProxyResource.fromJson(com.azure.json.JsonReader)?alt=com.azure.core.management.ProxyResource.fromJson&text=fromJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.core.management.ProxyResource.id()?alt=com.azure.core.management.ProxyResource.id&text=id\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.core.management.ProxyResource.name()?alt=com.azure.core.management.ProxyResource.name&text=name\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.core.management.ProxyResource.toJson(com.azure.json.JsonWriter)?alt=com.azure.core.management.ProxyResource.toJson&text=toJson\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.azure.core.management.ProxyResource.type()?alt=com.azure.core.management.ProxyResource.type&text=type\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
@@ -28,15 +20,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "public final class **VaultCertificateResponseInner**</br> extends <xref href=\"com.azure.core.management.ProxyResource?alt=com.azure.core.management.ProxyResource&text=ProxyResource\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.resourcemanager.recoveryservices.fluent.models.VaultCertificateResponseInner.VaultCertificateResponseInner()"
-  fullName: "com.azure.resourcemanager.recoveryservices.fluent.models.VaultCertificateResponseInner.VaultCertificateResponseInner()"
-  name: "VaultCertificateResponseInner()"
-  nameWithType: "VaultCertificateResponseInner.VaultCertificateResponseInner()"
-  summary: "Creates an instance of Vault<wbr>Certificate<wbr>Response<wbr>Inner class."
-  syntax: "public VaultCertificateResponseInner()"
-  desc: "Creates an instance of VaultCertificateResponseInner class."
+syntax: "public final class **VaultCertificateResponseInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservices.fluent.models.VaultCertificateResponseInner?alt=com.azure.resourcemanager.recoveryservices.fluent.models.VaultCertificateResponseInner&text=VaultCertificateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 methods:
 - uid: "com.azure.resourcemanager.recoveryservices.fluent.models.VaultCertificateResponseInner.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.recoveryservices.fluent.models.VaultCertificateResponseInner.fromJson(JsonReader jsonReader)"
@@ -51,7 +35,7 @@ methods:
     type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static VaultCertificateResponseInner fromJson(JsonReader jsonReader)"
   exceptions:
-  - description: "If the deserialized JSON object was missing any required properties."
+  - description: "If an error occurs while reading the VaultCertificateResponseInner."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   desc: "Reads an instance of VaultCertificateResponseInner from the JsonReader."
   returns:
@@ -61,10 +45,9 @@ methods:
   fullName: "com.azure.resourcemanager.recoveryservices.fluent.models.VaultCertificateResponseInner.id()"
   name: "id()"
   nameWithType: "VaultCertificateResponseInner.id()"
-  summary: "Get the id property: Fully qualified resource Id for the resource."
-  overridden: "com.azure.core.management.ProxyResource.id()"
+  summary: "Get the id property: Resource Id represents the complete path to the resource."
   syntax: "public String id()"
-  desc: "Get the id property: Fully qualified resource Id for the resource."
+  desc: "Get the id property: Resource Id represents the complete path to the resource."
   returns:
     description: "the id value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -72,10 +55,9 @@ methods:
   fullName: "com.azure.resourcemanager.recoveryservices.fluent.models.VaultCertificateResponseInner.name()"
   name: "name()"
   nameWithType: "VaultCertificateResponseInner.name()"
-  summary: "Get the name property: The name of the resource."
-  overridden: "com.azure.core.management.ProxyResource.name()"
+  summary: "Get the name property: Resource name associated with the resource."
   syntax: "public String name()"
-  desc: "Get the name property: The name of the resource."
+  desc: "Get the name property: Resource name associated with the resource."
   returns:
     description: "the name value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -93,7 +75,6 @@ methods:
   fullName: "com.azure.resourcemanager.recoveryservices.fluent.models.VaultCertificateResponseInner.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
   nameWithType: "VaultCertificateResponseInner.toJson(JsonWriter jsonWriter)"
-  overridden: "com.azure.core.management.ProxyResource.toJson(com.azure.json.JsonWriter)"
   parameters:
   - name: "jsonWriter"
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
@@ -106,36 +87,16 @@ methods:
   fullName: "com.azure.resourcemanager.recoveryservices.fluent.models.VaultCertificateResponseInner.type()"
   name: "type()"
   nameWithType: "VaultCertificateResponseInner.type()"
-  summary: "Get the type property: The type of the resource."
-  overridden: "com.azure.core.management.ProxyResource.type()"
+  summary: "Get the type property: Resource type represents the complete path of the form Namespace/Resource<wbr>Type/Resource<wbr>Type/..."
   syntax: "public String type()"
-  desc: "Get the type property: The type of the resource."
+  desc: "Get the type property: Resource type represents the complete path of the form Namespace/ResourceType/ResourceType/..."
   returns:
     description: "the type value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.recoveryservices.fluent.models.VaultCertificateResponseInner.validate()"
-  fullName: "com.azure.resourcemanager.recoveryservices.fluent.models.VaultCertificateResponseInner.validate()"
-  name: "validate()"
-  nameWithType: "VaultCertificateResponseInner.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.recoveryservices.fluent.models.VaultCertificateResponseInner.withProperties(com.azure.resourcemanager.recoveryservices.models.ResourceCertificateDetails)"
-  fullName: "com.azure.resourcemanager.recoveryservices.fluent.models.VaultCertificateResponseInner.withProperties(ResourceCertificateDetails properties)"
-  name: "withProperties(ResourceCertificateDetails properties)"
-  nameWithType: "VaultCertificateResponseInner.withProperties(ResourceCertificateDetails properties)"
-  summary: "Set the properties property: Certificate details representing the Vault credentials."
-  parameters:
-  - description: "the properties value to set."
-    name: "properties"
-    type: "<xref href=\"com.azure.resourcemanager.recoveryservices.models.ResourceCertificateDetails?alt=com.azure.resourcemanager.recoveryservices.models.ResourceCertificateDetails&text=ResourceCertificateDetails\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public VaultCertificateResponseInner withProperties(ResourceCertificateDetails properties)"
-  desc: "Set the properties property: Certificate details representing the Vault credentials."
-  returns:
-    description: "the VaultCertificateResponseInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.recoveryservices.fluent.models.VaultCertificateResponseInner?alt=com.azure.resourcemanager.recoveryservices.fluent.models.VaultCertificateResponseInner&text=VaultCertificateResponseInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Certificate corresponding to a vault that can be used by clients to register themselves with the vault."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservices.fluent.models.VaultCertificateResponseInner?alt=com.azure.resourcemanager.recoveryservices.fluent.models.VaultCertificateResponseInner&text=VaultCertificateResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.recoveryservices.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.5.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservices:1.7.0

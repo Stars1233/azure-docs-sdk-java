@@ -1,0 +1,80 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.billing.trust.models.InitialRuleValueBase"
+fullName: "com.azure.resourcemanager.billing.trust.models.InitialRuleValueBase"
+name: "InitialRuleValueBase"
+nameWithType: "InitialRuleValueBase"
+summary: "Base type for write-only initial values supplied when creating an assessment."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public class **InitialRuleValueBase**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.billing.trust.models.InitialRuleValueBase?alt=com.azure.resourcemanager.billing.trust.models.InitialRuleValueBase&text=InitialRuleValueBase\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.billing.trust.models.InitialRuleValueBase.InitialRuleValueBase()"
+  fullName: "com.azure.resourcemanager.billing.trust.models.InitialRuleValueBase.InitialRuleValueBase()"
+  name: "InitialRuleValueBase()"
+  nameWithType: "InitialRuleValueBase.InitialRuleValueBase()"
+  summary: "Creates an instance of Initial<wbr>Rule<wbr>Value<wbr>Base class."
+  syntax: "public InitialRuleValueBase()"
+  desc: "Creates an instance of InitialRuleValueBase class."
+methods:
+- uid: "com.azure.resourcemanager.billing.trust.models.InitialRuleValueBase.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.billing.trust.models.InitialRuleValueBase.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "InitialRuleValueBase.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Initial<wbr>Rule<wbr>Value<wbr>Base from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static InitialRuleValueBase fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the InitialRuleValueBase."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of InitialRuleValueBase from the JsonReader."
+  returns:
+    description: "An instance of InitialRuleValueBase if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.billing.trust.models.InitialRuleValueBase?alt=com.azure.resourcemanager.billing.trust.models.InitialRuleValueBase&text=InitialRuleValueBase\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.billing.trust.models.InitialRuleValueBase.kind()"
+  fullName: "com.azure.resourcemanager.billing.trust.models.InitialRuleValueBase.kind()"
+  name: "kind()"
+  nameWithType: "InitialRuleValueBase.kind()"
+  summary: "Get the kind property: The kind of rule to initialize."
+  syntax: "public RuleKind kind()"
+  desc: "Get the kind property: The kind of rule to initialize."
+  returns:
+    description: "the kind value."
+    type: "<xref href=\"com.azure.resourcemanager.billing.trust.models.RuleKind?alt=com.azure.resourcemanager.billing.trust.models.RuleKind&text=RuleKind\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.billing.trust.models.InitialRuleValueBase.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.billing.trust.models.InitialRuleValueBase.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "InitialRuleValueBase.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Base type for write-only initial values supplied when creating an assessment. Polymorphic by \\`kind\\`; per-kind initial values forward into the corresponding rule."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.billing.trust.models.InitialRuleValueBase?alt=com.azure.resourcemanager.billing.trust.models.InitialRuleValueBase&text=InitialRuleValueBase\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.billing.trust.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-billing-trust:1.0.0-beta.1
