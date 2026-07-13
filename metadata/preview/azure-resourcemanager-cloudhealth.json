@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-cloudhealth",
-  "Version": "1.0.0-beta.1",
+  "Version": "1.0.0-beta.3",
   "DevVersion": null,
   "DirectoryPath": "sdk/cloudhealth/azure-resourcemanager-cloudhealth",
   "ServiceDirectory": "cloudhealth",
@@ -10,21 +10,22 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-cloudhealth",
-  "ReleaseStatus": "2025-06-04",
+  "ReleaseStatus": "2026-07-12",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagercloudhealth }}",
     "groupId": "com.azure.resourcemanager",
+    "name": "azure-resourcemanager-cloudhealth",
     "triggeringPaths": [
       "/sdk/cloudhealth/ci.yml"
     ],
-    "releaseInBatch": "${{ parameters.release_azureresourcemanagercloudhealth }}",
-    "name": "azure-resourcemanager-cloudhealth",
     "safeName": "azureresourcemanagercloudhealth"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": "specification/cloudhealth/CloudHealth.Management",
   "Namespaces": [
     "com.azure.resourcemanager.cloudhealth",
     "com.azure.resourcemanager.cloudhealth.fluent",
