@@ -50,6 +50,18 @@ fields:
     type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.SignalKind?alt=com.azure.resourcemanager.cloudhealth.models.SignalKind&text=SignalKind\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final SignalKind AZURE_RESOURCE_METRIC"
   desc: "Static value AzureResourceMetric for SignalKind."
+- uid: "com.azure.resourcemanager.cloudhealth.models.SignalKind.EXTERNAL_SIGNAL"
+  fullName: "com.azure.resourcemanager.cloudhealth.models.SignalKind.EXTERNAL_SIGNAL"
+  name: "EXTERNAL_SIGNAL"
+  nameWithType: "SignalKind.EXTERNAL_SIGNAL"
+  summary: "Static value External for Signal<wbr>Kind."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.SignalKind?alt=com.azure.resourcemanager.cloudhealth.models.SignalKind&text=SignalKind\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final SignalKind EXTERNAL_SIGNAL"
+  desc: "Static value External for SignalKind."
 - uid: "com.azure.resourcemanager.cloudhealth.models.SignalKind.LOG_ANALYTICS_QUERY"
   fullName: "com.azure.resourcemanager.cloudhealth.models.SignalKind.LOG_ANALYTICS_QUERY"
   name: "LOG_ANALYTICS_QUERY"
@@ -107,4 +119,4 @@ type: "class"
 desc: "Supported signal kinds as discriminator."
 metadata: {}
 package: "com.azure.resourcemanager.cloudhealth.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-cloudhealth:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-cloudhealth:1.0.0-beta.3

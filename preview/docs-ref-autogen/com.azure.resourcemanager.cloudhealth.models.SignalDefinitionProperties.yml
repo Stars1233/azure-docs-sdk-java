@@ -40,16 +40,6 @@ methods:
   returns:
     description: "the dataUnit value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties.deletionDate()"
-  fullName: "com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties.deletionDate()"
-  name: "deletionDate()"
-  nameWithType: "SignalDefinitionProperties.deletionDate()"
-  summary: "Get the deletion<wbr>Date property: Date when the signal definition was (soft-)deleted."
-  syntax: "public OffsetDateTime deletionDate()"
-  desc: "Get the deletionDate property: Date when the signal definition was (soft-)deleted."
-  returns:
-    description: "the deletionDate value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
 - uid: "com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties.displayName()"
   fullName: "com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties.displayName()"
   name: "displayName()"
@@ -89,16 +79,6 @@ methods:
   returns:
     description: "An instance of SignalDefinitionProperties if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties?alt=com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties&text=SignalDefinitionProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties.labels()"
-  fullName: "com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties.labels()"
-  name: "labels()"
-  nameWithType: "SignalDefinitionProperties.labels()"
-  summary: "Get the labels property: Optional set of labels (key-value pairs)."
-  syntax: "public Map<String,String> labels()"
-  desc: "Get the labels property: Optional set of labels (key-value pairs)."
-  returns:
-    description: "the labels value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties.provisioningState()"
   fullName: "com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties.provisioningState()"
   name: "provisioningState()"
@@ -129,6 +109,16 @@ methods:
   returns:
     description: "the signalKind value."
     type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.SignalKind?alt=com.azure.resourcemanager.cloudhealth.models.SignalKind&text=SignalKind\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties.tags()"
+  fullName: "com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties.tags()"
+  name: "tags()"
+  nameWithType: "SignalDefinitionProperties.tags()"
+  summary: "Get the tags property: Optional set of tags (key-value pairs)."
+  syntax: "public Map<String,String> tags()"
+  desc: "Get the tags property: Optional set of tags (key-value pairs)."
+  returns:
+    description: "the tags value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -141,13 +131,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties.validate()"
-  fullName: "com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties.validate()"
-  name: "validate()"
-  nameWithType: "SignalDefinitionProperties.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties.withDataUnit(java.lang.String)"
   fullName: "com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties.withDataUnit(String dataUnit)"
   name: "withDataUnit(String dataUnit)"
@@ -190,20 +173,6 @@ methods:
   returns:
     description: "the SignalDefinitionProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties?alt=com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties&text=SignalDefinitionProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties.withLabels(java.util.Map<java.lang.String,java.lang.String>)"
-  fullName: "com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties.withLabels(Map<String,String> labels)"
-  name: "withLabels(Map<String,String> labels)"
-  nameWithType: "SignalDefinitionProperties.withLabels(Map<String,String> labels)"
-  summary: "Set the labels property: Optional set of labels (key-value pairs)."
-  parameters:
-  - description: "the labels value to set."
-    name: "labels"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public SignalDefinitionProperties withLabels(Map<String,String> labels)"
-  desc: "Set the labels property: Optional set of labels (key-value pairs)."
-  returns:
-    description: "the SignalDefinitionProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties?alt=com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties&text=SignalDefinitionProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties.withRefreshInterval(com.azure.resourcemanager.cloudhealth.models.RefreshInterval)"
   fullName: "com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties.withRefreshInterval(RefreshInterval refreshInterval)"
   name: "withRefreshInterval(RefreshInterval refreshInterval)"
@@ -218,10 +187,24 @@ methods:
   returns:
     description: "the SignalDefinitionProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties?alt=com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties&text=SignalDefinitionProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+  fullName: "com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties.withTags(Map<String,String> tags)"
+  name: "withTags(Map<String,String> tags)"
+  nameWithType: "SignalDefinitionProperties.withTags(Map<String,String> tags)"
+  summary: "Set the tags property: Optional set of tags (key-value pairs)."
+  parameters:
+  - description: "the tags value to set."
+    name: "tags"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public SignalDefinitionProperties withTags(Map<String,String> tags)"
+  desc: "Set the tags property: Optional set of tags (key-value pairs)."
+  returns:
+    description: "the SignalDefinitionProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties?alt=com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties&text=SignalDefinitionProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "SignalDefinition properties."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties?alt=com.azure.resourcemanager.cloudhealth.models.SignalDefinitionProperties&text=SignalDefinitionProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.cloudhealth.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-cloudhealth:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-cloudhealth:1.0.0-beta.3

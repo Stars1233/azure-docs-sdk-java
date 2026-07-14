@@ -59,16 +59,6 @@ methods:
   returns:
     description: "the identity value."
     type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.ManagedServiceIdentity?alt=com.azure.resourcemanager.cloudhealth.models.ManagedServiceIdentity&text=ManagedServiceIdentity\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.cloudhealth.models.HealthModelUpdate.properties()"
-  fullName: "com.azure.resourcemanager.cloudhealth.models.HealthModelUpdate.properties()"
-  name: "properties()"
-  nameWithType: "HealthModelUpdate.properties()"
-  summary: "Get the properties property: The resource-specific properties for this resource."
-  syntax: "public HealthModelUpdateProperties properties()"
-  desc: "Get the properties property: The resource-specific properties for this resource."
-  returns:
-    description: "the properties value."
-    type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.HealthModelUpdateProperties?alt=com.azure.resourcemanager.cloudhealth.models.HealthModelUpdateProperties&text=HealthModelUpdateProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.cloudhealth.models.HealthModelUpdate.tags()"
   fullName: "com.azure.resourcemanager.cloudhealth.models.HealthModelUpdate.tags()"
   name: "tags()"
@@ -91,13 +81,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.cloudhealth.models.HealthModelUpdate.validate()"
-  fullName: "com.azure.resourcemanager.cloudhealth.models.HealthModelUpdate.validate()"
-  name: "validate()"
-  nameWithType: "HealthModelUpdate.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.cloudhealth.models.HealthModelUpdate.withIdentity(com.azure.resourcemanager.cloudhealth.models.ManagedServiceIdentity)"
   fullName: "com.azure.resourcemanager.cloudhealth.models.HealthModelUpdate.withIdentity(ManagedServiceIdentity identity)"
   name: "withIdentity(ManagedServiceIdentity identity)"
@@ -109,20 +92,6 @@ methods:
     type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.ManagedServiceIdentity?alt=com.azure.resourcemanager.cloudhealth.models.ManagedServiceIdentity&text=ManagedServiceIdentity\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public HealthModelUpdate withIdentity(ManagedServiceIdentity identity)"
   desc: "Set the identity property: The managed service identities assigned to this resource."
-  returns:
-    description: "the HealthModelUpdate object itself."
-    type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.HealthModelUpdate?alt=com.azure.resourcemanager.cloudhealth.models.HealthModelUpdate&text=HealthModelUpdate\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.cloudhealth.models.HealthModelUpdate.withProperties(com.azure.resourcemanager.cloudhealth.models.HealthModelUpdateProperties)"
-  fullName: "com.azure.resourcemanager.cloudhealth.models.HealthModelUpdate.withProperties(HealthModelUpdateProperties properties)"
-  name: "withProperties(HealthModelUpdateProperties properties)"
-  nameWithType: "HealthModelUpdate.withProperties(HealthModelUpdateProperties properties)"
-  summary: "Set the properties property: The resource-specific properties for this resource."
-  parameters:
-  - description: "the properties value to set."
-    name: "properties"
-    type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.HealthModelUpdateProperties?alt=com.azure.resourcemanager.cloudhealth.models.HealthModelUpdateProperties&text=HealthModelUpdateProperties\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public HealthModelUpdate withProperties(HealthModelUpdateProperties properties)"
-  desc: "Set the properties property: The resource-specific properties for this resource."
   returns:
     description: "the HealthModelUpdate object itself."
     type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.HealthModelUpdate?alt=com.azure.resourcemanager.cloudhealth.models.HealthModelUpdate&text=HealthModelUpdate\" data-throw-if-not-resolved=\"False\" />"
@@ -146,4 +115,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.cloudhealth.models.HealthModelUpdate?alt=com.azure.resourcemanager.cloudhealth.models.HealthModelUpdate&text=HealthModelUpdate\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.cloudhealth.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-cloudhealth:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-cloudhealth:1.0.0-beta.3

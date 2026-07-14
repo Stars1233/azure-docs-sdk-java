@@ -40,16 +40,6 @@ methods:
   returns:
     description: "the childEntityName value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.cloudhealth.models.RelationshipProperties.deletionDate()"
-  fullName: "com.azure.resourcemanager.cloudhealth.models.RelationshipProperties.deletionDate()"
-  name: "deletionDate()"
-  nameWithType: "RelationshipProperties.deletionDate()"
-  summary: "Get the deletion<wbr>Date property: Date when the relationship was (soft-)deleted."
-  syntax: "public OffsetDateTime deletionDate()"
-  desc: "Get the deletionDate property: Date when the relationship was (soft-)deleted."
-  returns:
-    description: "the deletionDate value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
 - uid: "com.azure.resourcemanager.cloudhealth.models.RelationshipProperties.discoveredBy()"
   fullName: "com.azure.resourcemanager.cloudhealth.models.RelationshipProperties.discoveredBy()"
   name: "discoveredBy()"
@@ -89,16 +79,6 @@ methods:
   returns:
     description: "An instance of RelationshipProperties if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.RelationshipProperties?alt=com.azure.resourcemanager.cloudhealth.models.RelationshipProperties&text=RelationshipProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.cloudhealth.models.RelationshipProperties.labels()"
-  fullName: "com.azure.resourcemanager.cloudhealth.models.RelationshipProperties.labels()"
-  name: "labels()"
-  nameWithType: "RelationshipProperties.labels()"
-  summary: "Get the labels property: Optional set of labels (key-value pairs)."
-  syntax: "public Map<String,String> labels()"
-  desc: "Get the labels property: Optional set of labels (key-value pairs)."
-  returns:
-    description: "the labels value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.cloudhealth.models.RelationshipProperties.parentEntityName()"
   fullName: "com.azure.resourcemanager.cloudhealth.models.RelationshipProperties.parentEntityName()"
   name: "parentEntityName()"
@@ -119,6 +99,16 @@ methods:
   returns:
     description: "the provisioningState value."
     type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.HealthModelProvisioningState?alt=com.azure.resourcemanager.cloudhealth.models.HealthModelProvisioningState&text=HealthModelProvisioningState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.cloudhealth.models.RelationshipProperties.tags()"
+  fullName: "com.azure.resourcemanager.cloudhealth.models.RelationshipProperties.tags()"
+  name: "tags()"
+  nameWithType: "RelationshipProperties.tags()"
+  summary: "Get the tags property: Optional set of tags (key-value pairs)."
+  syntax: "public Map<String,String> tags()"
+  desc: "Get the tags property: Optional set of tags (key-value pairs)."
+  returns:
+    description: "the tags value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.cloudhealth.models.RelationshipProperties.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.cloudhealth.models.RelationshipProperties.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -131,13 +121,6 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.cloudhealth.models.RelationshipProperties.validate()"
-  fullName: "com.azure.resourcemanager.cloudhealth.models.RelationshipProperties.validate()"
-  name: "validate()"
-  nameWithType: "RelationshipProperties.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.cloudhealth.models.RelationshipProperties.withChildEntityName(java.lang.String)"
   fullName: "com.azure.resourcemanager.cloudhealth.models.RelationshipProperties.withChildEntityName(String childEntityName)"
   name: "withChildEntityName(String childEntityName)"
@@ -166,20 +149,6 @@ methods:
   returns:
     description: "the RelationshipProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.RelationshipProperties?alt=com.azure.resourcemanager.cloudhealth.models.RelationshipProperties&text=RelationshipProperties\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.cloudhealth.models.RelationshipProperties.withLabels(java.util.Map<java.lang.String,java.lang.String>)"
-  fullName: "com.azure.resourcemanager.cloudhealth.models.RelationshipProperties.withLabels(Map<String,String> labels)"
-  name: "withLabels(Map<String,String> labels)"
-  nameWithType: "RelationshipProperties.withLabels(Map<String,String> labels)"
-  summary: "Set the labels property: Optional set of labels (key-value pairs)."
-  parameters:
-  - description: "the labels value to set."
-    name: "labels"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public RelationshipProperties withLabels(Map<String,String> labels)"
-  desc: "Set the labels property: Optional set of labels (key-value pairs)."
-  returns:
-    description: "the RelationshipProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.RelationshipProperties?alt=com.azure.resourcemanager.cloudhealth.models.RelationshipProperties&text=RelationshipProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.cloudhealth.models.RelationshipProperties.withParentEntityName(java.lang.String)"
   fullName: "com.azure.resourcemanager.cloudhealth.models.RelationshipProperties.withParentEntityName(String parentEntityName)"
   name: "withParentEntityName(String parentEntityName)"
@@ -194,10 +163,24 @@ methods:
   returns:
     description: "the RelationshipProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.RelationshipProperties?alt=com.azure.resourcemanager.cloudhealth.models.RelationshipProperties&text=RelationshipProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.cloudhealth.models.RelationshipProperties.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+  fullName: "com.azure.resourcemanager.cloudhealth.models.RelationshipProperties.withTags(Map<String,String> tags)"
+  name: "withTags(Map<String,String> tags)"
+  nameWithType: "RelationshipProperties.withTags(Map<String,String> tags)"
+  summary: "Set the tags property: Optional set of tags (key-value pairs)."
+  parameters:
+  - description: "the tags value to set."
+    name: "tags"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public RelationshipProperties withTags(Map<String,String> tags)"
+  desc: "Set the tags property: Optional set of tags (key-value pairs)."
+  returns:
+    description: "the RelationshipProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.RelationshipProperties?alt=com.azure.resourcemanager.cloudhealth.models.RelationshipProperties&text=RelationshipProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Relationship properties."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.cloudhealth.models.RelationshipProperties?alt=com.azure.resourcemanager.cloudhealth.models.RelationshipProperties&text=RelationshipProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.cloudhealth.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-cloudhealth:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-cloudhealth:1.0.0-beta.3

@@ -30,26 +30,6 @@ constructors:
   syntax: "public HealthModelProperties()"
   desc: "Creates an instance of HealthModelProperties class."
 methods:
-- uid: "com.azure.resourcemanager.cloudhealth.models.HealthModelProperties.dataplaneEndpoint()"
-  fullName: "com.azure.resourcemanager.cloudhealth.models.HealthModelProperties.dataplaneEndpoint()"
-  name: "dataplaneEndpoint()"
-  nameWithType: "HealthModelProperties.dataplaneEndpoint()"
-  summary: "Get the dataplane<wbr>Endpoint property: The data plane endpoint for interacting with health data."
-  syntax: "public String dataplaneEndpoint()"
-  desc: "Get the dataplaneEndpoint property: The data plane endpoint for interacting with health data."
-  returns:
-    description: "the dataplaneEndpoint value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-- uid: "com.azure.resourcemanager.cloudhealth.models.HealthModelProperties.discovery()"
-  fullName: "com.azure.resourcemanager.cloudhealth.models.HealthModelProperties.discovery()"
-  name: "discovery()"
-  nameWithType: "HealthModelProperties.discovery()"
-  summary: "Get the discovery property: Configure to automatically discover entities from a given scope, such as a Service Group."
-  syntax: "public ModelDiscoverySettings discovery()"
-  desc: "Get the discovery property: Configure to automatically discover entities from a given scope, such as a Service Group. The discovered entities will be linked to the root entity of the health model."
-  returns:
-    description: "the discovery value."
-    type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.ModelDiscoverySettings?alt=com.azure.resourcemanager.cloudhealth.models.ModelDiscoverySettings&text=ModelDiscoverySettings\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.cloudhealth.models.HealthModelProperties.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.cloudhealth.models.HealthModelProperties.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -91,31 +71,10 @@ methods:
   - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
   returns:
     type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.cloudhealth.models.HealthModelProperties.validate()"
-  fullName: "com.azure.resourcemanager.cloudhealth.models.HealthModelProperties.validate()"
-  name: "validate()"
-  nameWithType: "HealthModelProperties.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.cloudhealth.models.HealthModelProperties.withDiscovery(com.azure.resourcemanager.cloudhealth.models.ModelDiscoverySettings)"
-  fullName: "com.azure.resourcemanager.cloudhealth.models.HealthModelProperties.withDiscovery(ModelDiscoverySettings discovery)"
-  name: "withDiscovery(ModelDiscoverySettings discovery)"
-  nameWithType: "HealthModelProperties.withDiscovery(ModelDiscoverySettings discovery)"
-  summary: "Set the discovery property: Configure to automatically discover entities from a given scope, such as a Service Group."
-  parameters:
-  - description: "the discovery value to set."
-    name: "discovery"
-    type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.ModelDiscoverySettings?alt=com.azure.resourcemanager.cloudhealth.models.ModelDiscoverySettings&text=ModelDiscoverySettings\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public HealthModelProperties withDiscovery(ModelDiscoverySettings discovery)"
-  desc: "Set the discovery property: Configure to automatically discover entities from a given scope, such as a Service Group. The discovered entities will be linked to the root entity of the health model."
-  returns:
-    description: "the HealthModelProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.HealthModelProperties?alt=com.azure.resourcemanager.cloudhealth.models.HealthModelProperties&text=HealthModelProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "HealthModel properties."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.cloudhealth.models.HealthModelProperties?alt=com.azure.resourcemanager.cloudhealth.models.HealthModelProperties&text=HealthModelProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.cloudhealth.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-cloudhealth:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-cloudhealth:1.0.0-beta.3

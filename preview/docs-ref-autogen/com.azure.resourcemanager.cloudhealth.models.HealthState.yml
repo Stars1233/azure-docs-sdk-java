@@ -62,18 +62,6 @@ fields:
     type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.HealthState?alt=com.azure.resourcemanager.cloudhealth.models.HealthState&text=HealthState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final HealthState DELETED"
   desc: "Deleted status."
-- uid: "com.azure.resourcemanager.cloudhealth.models.HealthState.ERROR"
-  fullName: "com.azure.resourcemanager.cloudhealth.models.HealthState.ERROR"
-  name: "ERROR"
-  nameWithType: "HealthState.ERROR"
-  summary: "Error status (Unhealthy)."
-  modifiers:
-  - "static"
-  - "final"
-  field:
-    type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.HealthState?alt=com.azure.resourcemanager.cloudhealth.models.HealthState&text=HealthState\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static final HealthState ERROR"
-  desc: "Error status (Unhealthy)."
 - uid: "com.azure.resourcemanager.cloudhealth.models.HealthState.HEALTHY"
   fullName: "com.azure.resourcemanager.cloudhealth.models.HealthState.HEALTHY"
   name: "HEALTHY"
@@ -86,6 +74,18 @@ fields:
     type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.HealthState?alt=com.azure.resourcemanager.cloudhealth.models.HealthState&text=HealthState\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final HealthState HEALTHY"
   desc: "Healthy status."
+- uid: "com.azure.resourcemanager.cloudhealth.models.HealthState.UNHEALTHY"
+  fullName: "com.azure.resourcemanager.cloudhealth.models.HealthState.UNHEALTHY"
+  name: "UNHEALTHY"
+  nameWithType: "HealthState.UNHEALTHY"
+  summary: "Unhealthy status."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.cloudhealth.models.HealthState?alt=com.azure.resourcemanager.cloudhealth.models.HealthState&text=HealthState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final HealthState UNHEALTHY"
+  desc: "Unhealthy status."
 - uid: "com.azure.resourcemanager.cloudhealth.models.HealthState.UNKNOWN"
   fullName: "com.azure.resourcemanager.cloudhealth.models.HealthState.UNKNOWN"
   name: "UNKNOWN"
@@ -131,4 +131,4 @@ type: "class"
 desc: "Health state of an entity."
 metadata: {}
 package: "com.azure.resourcemanager.cloudhealth.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-cloudhealth:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-cloudhealth:1.0.0-beta.3
