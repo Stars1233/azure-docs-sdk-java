@@ -1,7 +1,7 @@
 ---
 title: Azure Managed Ops SDK for Java
 description: Reference for Azure Managed Ops SDK for Java
-ms.date: 07/14/2026
+ms.date: 07/15/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: managedops
