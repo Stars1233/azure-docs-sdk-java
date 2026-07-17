@@ -35,11 +35,11 @@ methods:
   name: "details()"
   nameWithType: "RecommendedActionProperties.details()"
   summary: "Get the details property: Gets additional details specific to this recommended action."
-  syntax: "public Map<String,Object> details()"
+  syntax: "public Map<String,String> details()"
   desc: "Get the details property: Gets additional details specific to this recommended action."
   returns:
     description: "the details value."
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>&gt;"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
 - uid: "com.azure.resourcemanager.sql.fluent.models.RecommendedActionProperties.errorDetails()"
   fullName: "com.azure.resourcemanager.sql.fluent.models.RecommendedActionProperties.errorDetails()"
   name: "errorDetails()"
@@ -318,4 +318,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.RecommendedActionProperties?alt=com.azure.resourcemanager.sql.fluent.models.RecommendedActionProperties&text=RecommendedActionProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.sql.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.53.10
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.54.0

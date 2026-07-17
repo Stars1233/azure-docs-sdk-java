@@ -14,7 +14,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -36,7 +36,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -61,7 +61,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -83,7 +83,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -102,7 +102,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -124,7 +124,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -143,10 +143,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the managed instance to failover."
+  - description: "The name of the managed instance."
     name: "managedInstanceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginFailover(String resourceGroupName, String managedInstanceName)"
@@ -162,10 +162,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the managed instance to failover."
+  - description: "The name of the managed instance."
     name: "managedInstanceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The type of replica to be failed over."
@@ -187,10 +187,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the managed instance to failover."
+  - description: "The name of the managed instance."
     name: "managedInstanceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PollerFlux<PollResult<Void>,Void> beginFailoverAsync(String resourceGroupName, String managedInstanceName)"
@@ -206,10 +206,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the managed instance to failover."
+  - description: "The name of the managed instance."
     name: "managedInstanceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The type of replica to be failed over."
@@ -220,6 +220,246 @@ methods:
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.PollerFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PollerFlux\"></xref> for polling of long-running operation."
     type: "<xref href=\"com.azure.core.util.polling.PollerFlux?alt=com.azure.core.util.polling.PollerFlux&text=PollerFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginReevaluateInaccessibleDatabaseState(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginReevaluateInaccessibleDatabaseState(String resourceGroupName, String managedInstanceName)"
+  name: "beginReevaluateInaccessibleDatabaseState(String resourceGroupName, String managedInstanceName)"
+  nameWithType: "ManagedInstancesClient.beginReevaluateInaccessibleDatabaseState(String resourceGroupName, String managedInstanceName)"
+  summary: "Reevaluates the inaccessibility state of all managed databases."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginReevaluateInaccessibleDatabaseState(String resourceGroupName, String managedInstanceName)"
+  desc: "Reevaluates the inaccessibility state of all managed databases."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginReevaluateInaccessibleDatabaseState(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginReevaluateInaccessibleDatabaseState(String resourceGroupName, String managedInstanceName, Context context)"
+  name: "beginReevaluateInaccessibleDatabaseState(String resourceGroupName, String managedInstanceName, Context context)"
+  nameWithType: "ManagedInstancesClient.beginReevaluateInaccessibleDatabaseState(String resourceGroupName, String managedInstanceName, Context context)"
+  summary: "Reevaluates the inaccessibility state of all managed databases."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginReevaluateInaccessibleDatabaseState(String resourceGroupName, String managedInstanceName, Context context)"
+  desc: "Reevaluates the inaccessibility state of all managed databases."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginReevaluateInaccessibleDatabaseStateAsync(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginReevaluateInaccessibleDatabaseStateAsync(String resourceGroupName, String managedInstanceName)"
+  name: "beginReevaluateInaccessibleDatabaseStateAsync(String resourceGroupName, String managedInstanceName)"
+  nameWithType: "ManagedInstancesClient.beginReevaluateInaccessibleDatabaseStateAsync(String resourceGroupName, String managedInstanceName)"
+  summary: "Reevaluates the inaccessibility state of all managed databases."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract PollerFlux<PollResult<Void>,Void> beginReevaluateInaccessibleDatabaseStateAsync(String resourceGroupName, String managedInstanceName)"
+  desc: "Reevaluates the inaccessibility state of all managed databases."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.PollerFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PollerFlux\"></xref> for polling of long-running operation."
+    type: "<xref href=\"com.azure.core.util.polling.PollerFlux?alt=com.azure.core.util.polling.PollerFlux&text=PollerFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginRefreshStatus(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginRefreshStatus(String resourceGroupName, String managedInstanceName)"
+  name: "beginRefreshStatus(String resourceGroupName, String managedInstanceName)"
+  nameWithType: "ManagedInstancesClient.beginRefreshStatus(String resourceGroupName, String managedInstanceName)"
+  summary: "Refresh external governance enablement status."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract SyncPoller<PollResult<RefreshExternalGovernanceStatusOperationResultMIInner>,RefreshExternalGovernanceStatusOperationResultMIInner> beginRefreshStatus(String resourceGroupName, String managedInstanceName)"
+  desc: "Refresh external governance enablement status."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of an RefreshExternalGovernanceStatus operation result resource."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultMIInner?alt=com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultMIInner&text=RefreshExternalGovernanceStatusOperationResultMIInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultMIInner?alt=com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultMIInner&text=RefreshExternalGovernanceStatusOperationResultMIInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginRefreshStatus(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginRefreshStatus(String resourceGroupName, String managedInstanceName, Context context)"
+  name: "beginRefreshStatus(String resourceGroupName, String managedInstanceName, Context context)"
+  nameWithType: "ManagedInstancesClient.beginRefreshStatus(String resourceGroupName, String managedInstanceName, Context context)"
+  summary: "Refresh external governance enablement status."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract SyncPoller<PollResult<RefreshExternalGovernanceStatusOperationResultMIInner>,RefreshExternalGovernanceStatusOperationResultMIInner> beginRefreshStatus(String resourceGroupName, String managedInstanceName, Context context)"
+  desc: "Refresh external governance enablement status."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of an RefreshExternalGovernanceStatus operation result resource."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultMIInner?alt=com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultMIInner&text=RefreshExternalGovernanceStatusOperationResultMIInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultMIInner?alt=com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultMIInner&text=RefreshExternalGovernanceStatusOperationResultMIInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginRefreshStatusAsync(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginRefreshStatusAsync(String resourceGroupName, String managedInstanceName)"
+  name: "beginRefreshStatusAsync(String resourceGroupName, String managedInstanceName)"
+  nameWithType: "ManagedInstancesClient.beginRefreshStatusAsync(String resourceGroupName, String managedInstanceName)"
+  summary: "Refresh external governance enablement status."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract PollerFlux<PollResult<RefreshExternalGovernanceStatusOperationResultMIInner>,RefreshExternalGovernanceStatusOperationResultMIInner> beginRefreshStatusAsync(String resourceGroupName, String managedInstanceName)"
+  desc: "Refresh external governance enablement status."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.PollerFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PollerFlux\"></xref> for polling of an RefreshExternalGovernanceStatus operation result resource."
+    type: "<xref href=\"com.azure.core.util.polling.PollerFlux?alt=com.azure.core.util.polling.PollerFlux&text=PollerFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultMIInner?alt=com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultMIInner&text=RefreshExternalGovernanceStatusOperationResultMIInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultMIInner?alt=com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultMIInner&text=RefreshExternalGovernanceStatusOperationResultMIInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginStart(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginStart(String resourceGroupName, String managedInstanceName)"
+  name: "beginStart(String resourceGroupName, String managedInstanceName)"
+  nameWithType: "ManagedInstancesClient.beginStart(String resourceGroupName, String managedInstanceName)"
+  summary: "Starts the managed instance."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract SyncPoller<PollResult<ManagedInstanceInner>,ManagedInstanceInner> beginStart(String resourceGroupName, String managedInstanceName)"
+  desc: "Starts the managed instance."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of an Azure SQL managed instance."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner?alt=com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner&text=ManagedInstanceInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner?alt=com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner&text=ManagedInstanceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginStart(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginStart(String resourceGroupName, String managedInstanceName, Context context)"
+  name: "beginStart(String resourceGroupName, String managedInstanceName, Context context)"
+  nameWithType: "ManagedInstancesClient.beginStart(String resourceGroupName, String managedInstanceName, Context context)"
+  summary: "Starts the managed instance."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract SyncPoller<PollResult<ManagedInstanceInner>,ManagedInstanceInner> beginStart(String resourceGroupName, String managedInstanceName, Context context)"
+  desc: "Starts the managed instance."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of an Azure SQL managed instance."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner?alt=com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner&text=ManagedInstanceInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner?alt=com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner&text=ManagedInstanceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginStartAsync(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginStartAsync(String resourceGroupName, String managedInstanceName)"
+  name: "beginStartAsync(String resourceGroupName, String managedInstanceName)"
+  nameWithType: "ManagedInstancesClient.beginStartAsync(String resourceGroupName, String managedInstanceName)"
+  summary: "Starts the managed instance."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract PollerFlux<PollResult<ManagedInstanceInner>,ManagedInstanceInner> beginStartAsync(String resourceGroupName, String managedInstanceName)"
+  desc: "Starts the managed instance."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.PollerFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PollerFlux\"></xref> for polling of an Azure SQL managed instance."
+    type: "<xref href=\"com.azure.core.util.polling.PollerFlux?alt=com.azure.core.util.polling.PollerFlux&text=PollerFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner?alt=com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner&text=ManagedInstanceInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner?alt=com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner&text=ManagedInstanceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginStop(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginStop(String resourceGroupName, String managedInstanceName)"
+  name: "beginStop(String resourceGroupName, String managedInstanceName)"
+  nameWithType: "ManagedInstancesClient.beginStop(String resourceGroupName, String managedInstanceName)"
+  summary: "Stops the managed instance."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract SyncPoller<PollResult<ManagedInstanceInner>,ManagedInstanceInner> beginStop(String resourceGroupName, String managedInstanceName)"
+  desc: "Stops the managed instance."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of an Azure SQL managed instance."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner?alt=com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner&text=ManagedInstanceInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner?alt=com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner&text=ManagedInstanceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginStop(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginStop(String resourceGroupName, String managedInstanceName, Context context)"
+  name: "beginStop(String resourceGroupName, String managedInstanceName, Context context)"
+  nameWithType: "ManagedInstancesClient.beginStop(String resourceGroupName, String managedInstanceName, Context context)"
+  summary: "Stops the managed instance."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract SyncPoller<PollResult<ManagedInstanceInner>,ManagedInstanceInner> beginStop(String resourceGroupName, String managedInstanceName, Context context)"
+  desc: "Stops the managed instance."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of an Azure SQL managed instance."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner?alt=com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner&text=ManagedInstanceInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner?alt=com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner&text=ManagedInstanceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginStopAsync(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginStopAsync(String resourceGroupName, String managedInstanceName)"
+  name: "beginStopAsync(String resourceGroupName, String managedInstanceName)"
+  nameWithType: "ManagedInstancesClient.beginStopAsync(String resourceGroupName, String managedInstanceName)"
+  summary: "Stops the managed instance."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract PollerFlux<PollResult<ManagedInstanceInner>,ManagedInstanceInner> beginStopAsync(String resourceGroupName, String managedInstanceName)"
+  desc: "Stops the managed instance."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.PollerFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PollerFlux\"></xref> for polling of an Azure SQL managed instance."
+    type: "<xref href=\"com.azure.core.util.polling.PollerFlux?alt=com.azure.core.util.polling.PollerFlux&text=PollerFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner?alt=com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner&text=ManagedInstanceInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner?alt=com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner&text=ManagedInstanceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.ManagedInstanceUpdate)"
   fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginUpdate(String resourceGroupName, String managedInstanceName, ManagedInstanceUpdate parameters)"
   name: "beginUpdate(String resourceGroupName, String managedInstanceName, ManagedInstanceUpdate parameters)"
@@ -228,7 +468,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -250,7 +490,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -275,7 +515,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -289,6 +529,75 @@ methods:
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.PollerFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PollerFlux\"></xref> for polling of an Azure SQL managed instance."
     type: "<xref href=\"com.azure.core.util.polling.PollerFlux?alt=com.azure.core.util.polling.PollerFlux&text=PollerFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner?alt=com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner&text=ManagedInstanceInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner?alt=com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner&text=ManagedInstanceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginValidateAzureKeyVaultEncryptionKey(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginValidateAzureKeyVaultEncryptionKey(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters)"
+  name: "beginValidateAzureKeyVaultEncryptionKey(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters)"
+  nameWithType: "ManagedInstancesClient.beginValidateAzureKeyVaultEncryptionKey(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters)"
+  summary: "Validates customer managed key."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The validate azure key vault encryption key parameters."
+    name: "parameters"
+    type: "<xref href=\"com.azure.resourcemanager.sql.models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest?alt=com.azure.resourcemanager.sql.models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest&text=ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginValidateAzureKeyVaultEncryptionKey(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters)"
+  desc: "Validates customer managed key."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginValidateAzureKeyVaultEncryptionKey(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginValidateAzureKeyVaultEncryptionKey(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters, Context context)"
+  name: "beginValidateAzureKeyVaultEncryptionKey(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters, Context context)"
+  nameWithType: "ManagedInstancesClient.beginValidateAzureKeyVaultEncryptionKey(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters, Context context)"
+  summary: "Validates customer managed key."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The validate azure key vault encryption key parameters."
+    name: "parameters"
+    type: "<xref href=\"com.azure.resourcemanager.sql.models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest?alt=com.azure.resourcemanager.sql.models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest&text=ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract SyncPoller<PollResult<Void>,Void> beginValidateAzureKeyVaultEncryptionKey(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters, Context context)"
+  desc: "Validates customer managed key."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of long-running operation."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginValidateAzureKeyVaultEncryptionKeyAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.beginValidateAzureKeyVaultEncryptionKeyAsync(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters)"
+  name: "beginValidateAzureKeyVaultEncryptionKeyAsync(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters)"
+  nameWithType: "ManagedInstancesClient.beginValidateAzureKeyVaultEncryptionKeyAsync(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters)"
+  summary: "Validates customer managed key."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The validate azure key vault encryption key parameters."
+    name: "parameters"
+    type: "<xref href=\"com.azure.resourcemanager.sql.models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest?alt=com.azure.resourcemanager.sql.models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest&text=ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PollerFlux<PollResult<Void>,Void> beginValidateAzureKeyVaultEncryptionKeyAsync(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters)"
+  desc: "Validates customer managed key."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.PollerFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PollerFlux\"></xref> for polling of long-running operation."
+    type: "<xref href=\"com.azure.core.util.polling.PollerFlux?alt=com.azure.core.util.polling.PollerFlux&text=PollerFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
 - uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner)"
   fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.createOrUpdate(String resourceGroupName, String managedInstanceName, ManagedInstanceInner parameters)"
   name: "createOrUpdate(String resourceGroupName, String managedInstanceName, ManagedInstanceInner parameters)"
@@ -297,7 +606,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -319,7 +628,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -344,7 +653,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -366,7 +675,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -388,7 +697,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -404,7 +713,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -423,7 +732,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -442,7 +751,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -461,10 +770,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the managed instance to failover."
+  - description: "The name of the managed instance."
     name: "managedInstanceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract void failover(String resourceGroupName, String managedInstanceName)"
@@ -477,10 +786,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the managed instance to failover."
+  - description: "The name of the managed instance."
     name: "managedInstanceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The type of replica to be failed over."
@@ -499,10 +808,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the managed instance to failover."
+  - description: "The name of the managed instance."
     name: "managedInstanceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract Mono<Void> failoverAsync(String resourceGroupName, String managedInstanceName)"
@@ -518,10 +827,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the managed instance to failover."
+  - description: "The name of the managed instance."
     name: "managedInstanceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The type of replica to be failed over."
@@ -540,10 +849,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the managed instance to failover."
+  - description: "The name of the managed instance."
     name: "managedInstanceName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The type of replica to be failed over."
@@ -562,7 +871,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -581,7 +890,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -600,7 +909,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -625,7 +934,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -706,10 +1015,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The instance pool name."
+  - description: "The name of the instance pool to be retrieved."
     name: "instancePoolName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<ManagedInstanceInner> listByInstancePool(String resourceGroupName, String instancePoolName)"
@@ -725,10 +1034,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The instance pool name."
+  - description: "The name of the instance pool to be retrieved."
     name: "instancePoolName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The child resources to include in the response."
@@ -750,10 +1059,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The instance pool name."
+  - description: "The name of the instance pool to be retrieved."
     name: "instancePoolName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedFlux<ManagedInstanceInner> listByInstancePoolAsync(String resourceGroupName, String instancePoolName)"
@@ -769,10 +1078,10 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The instance pool name."
+  - description: "The name of the instance pool to be retrieved."
     name: "instancePoolName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The child resources to include in the response."
@@ -791,7 +1100,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -810,7 +1119,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -853,7 +1162,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -872,7 +1181,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -912,7 +1221,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<ManagedInstanceInner> listByResourceGroup(String resourceGroupName)"
@@ -928,7 +1237,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The child resources to include in the response."
@@ -950,7 +1259,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedFlux<ManagedInstanceInner> listByResourceGroupAsync(String resourceGroupName)"
@@ -966,7 +1275,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The child resources to include in the response."
@@ -985,7 +1294,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -1004,7 +1313,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -1026,7 +1335,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -1037,6 +1346,316 @@ methods:
   returns:
     description: "the collection of outbound network dependencies for the given managed instance as paginated response with\n <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.OutboundEnvironmentEndpointInner?alt=com.azure.resourcemanager.sql.fluent.models.OutboundEnvironmentEndpointInner&text=OutboundEnvironmentEndpointInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.reevaluateInaccessibleDatabaseState(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.reevaluateInaccessibleDatabaseState(String resourceGroupName, String managedInstanceName)"
+  name: "reevaluateInaccessibleDatabaseState(String resourceGroupName, String managedInstanceName)"
+  nameWithType: "ManagedInstancesClient.reevaluateInaccessibleDatabaseState(String resourceGroupName, String managedInstanceName)"
+  summary: "Reevaluates the inaccessibility state of all managed databases."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract void reevaluateInaccessibleDatabaseState(String resourceGroupName, String managedInstanceName)"
+  desc: "Reevaluates the inaccessibility state of all managed databases."
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.reevaluateInaccessibleDatabaseState(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.reevaluateInaccessibleDatabaseState(String resourceGroupName, String managedInstanceName, Context context)"
+  name: "reevaluateInaccessibleDatabaseState(String resourceGroupName, String managedInstanceName, Context context)"
+  nameWithType: "ManagedInstancesClient.reevaluateInaccessibleDatabaseState(String resourceGroupName, String managedInstanceName, Context context)"
+  summary: "Reevaluates the inaccessibility state of all managed databases."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract void reevaluateInaccessibleDatabaseState(String resourceGroupName, String managedInstanceName, Context context)"
+  desc: "Reevaluates the inaccessibility state of all managed databases."
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.reevaluateInaccessibleDatabaseStateAsync(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.reevaluateInaccessibleDatabaseStateAsync(String resourceGroupName, String managedInstanceName)"
+  name: "reevaluateInaccessibleDatabaseStateAsync(String resourceGroupName, String managedInstanceName)"
+  nameWithType: "ManagedInstancesClient.reevaluateInaccessibleDatabaseStateAsync(String resourceGroupName, String managedInstanceName)"
+  summary: "Reevaluates the inaccessibility state of all managed databases."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract Mono<Void> reevaluateInaccessibleDatabaseStateAsync(String resourceGroupName, String managedInstanceName)"
+  desc: "Reevaluates the inaccessibility state of all managed databases."
+  returns:
+    description: "A <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref> that completes when a successful response is received."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.reevaluateInaccessibleDatabaseStateWithResponseAsync(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.reevaluateInaccessibleDatabaseStateWithResponseAsync(String resourceGroupName, String managedInstanceName)"
+  name: "reevaluateInaccessibleDatabaseStateWithResponseAsync(String resourceGroupName, String managedInstanceName)"
+  nameWithType: "ManagedInstancesClient.reevaluateInaccessibleDatabaseStateWithResponseAsync(String resourceGroupName, String managedInstanceName)"
+  summary: "Reevaluates the inaccessibility state of all managed databases."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> reevaluateInaccessibleDatabaseStateWithResponseAsync(String resourceGroupName, String managedInstanceName)"
+  desc: "Reevaluates the inaccessibility state of all managed databases."
+  returns:
+    description: "the <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"reactor.core.publisher.Flux?alt=reactor.core.publisher.Flux&text=Flux\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/nio/ByteBuffer.html\">ByteBuffer</a>&gt;&gt;&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.refreshStatus(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.refreshStatus(String resourceGroupName, String managedInstanceName)"
+  name: "refreshStatus(String resourceGroupName, String managedInstanceName)"
+  nameWithType: "ManagedInstancesClient.refreshStatus(String resourceGroupName, String managedInstanceName)"
+  summary: "Refresh external governance enablement status."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract RefreshExternalGovernanceStatusOperationResultMIInner refreshStatus(String resourceGroupName, String managedInstanceName)"
+  desc: "Refresh external governance enablement status."
+  returns:
+    description: "an RefreshExternalGovernanceStatus operation result resource."
+    type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultMIInner?alt=com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultMIInner&text=RefreshExternalGovernanceStatusOperationResultMIInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.refreshStatus(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.refreshStatus(String resourceGroupName, String managedInstanceName, Context context)"
+  name: "refreshStatus(String resourceGroupName, String managedInstanceName, Context context)"
+  nameWithType: "ManagedInstancesClient.refreshStatus(String resourceGroupName, String managedInstanceName, Context context)"
+  summary: "Refresh external governance enablement status."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract RefreshExternalGovernanceStatusOperationResultMIInner refreshStatus(String resourceGroupName, String managedInstanceName, Context context)"
+  desc: "Refresh external governance enablement status."
+  returns:
+    description: "an RefreshExternalGovernanceStatus operation result resource."
+    type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultMIInner?alt=com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultMIInner&text=RefreshExternalGovernanceStatusOperationResultMIInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.refreshStatusAsync(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.refreshStatusAsync(String resourceGroupName, String managedInstanceName)"
+  name: "refreshStatusAsync(String resourceGroupName, String managedInstanceName)"
+  nameWithType: "ManagedInstancesClient.refreshStatusAsync(String resourceGroupName, String managedInstanceName)"
+  summary: "Refresh external governance enablement status."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract Mono<RefreshExternalGovernanceStatusOperationResultMIInner> refreshStatusAsync(String resourceGroupName, String managedInstanceName)"
+  desc: "Refresh external governance enablement status."
+  returns:
+    description: "an RefreshExternalGovernanceStatus operation result resource on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultMIInner?alt=com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultMIInner&text=RefreshExternalGovernanceStatusOperationResultMIInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.refreshStatusWithResponseAsync(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.refreshStatusWithResponseAsync(String resourceGroupName, String managedInstanceName)"
+  name: "refreshStatusWithResponseAsync(String resourceGroupName, String managedInstanceName)"
+  nameWithType: "ManagedInstancesClient.refreshStatusWithResponseAsync(String resourceGroupName, String managedInstanceName)"
+  summary: "Refresh external governance enablement status."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> refreshStatusWithResponseAsync(String resourceGroupName, String managedInstanceName)"
+  desc: "Refresh external governance enablement status."
+  returns:
+    description: "an RefreshExternalGovernanceStatus operation result resource along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful\n completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"reactor.core.publisher.Flux?alt=reactor.core.publisher.Flux&text=Flux\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/nio/ByteBuffer.html\">ByteBuffer</a>&gt;&gt;&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.start(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.start(String resourceGroupName, String managedInstanceName)"
+  name: "start(String resourceGroupName, String managedInstanceName)"
+  nameWithType: "ManagedInstancesClient.start(String resourceGroupName, String managedInstanceName)"
+  summary: "Starts the managed instance."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract ManagedInstanceInner start(String resourceGroupName, String managedInstanceName)"
+  desc: "Starts the managed instance."
+  returns:
+    description: "an Azure SQL managed instance."
+    type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner?alt=com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner&text=ManagedInstanceInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.start(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.start(String resourceGroupName, String managedInstanceName, Context context)"
+  name: "start(String resourceGroupName, String managedInstanceName, Context context)"
+  nameWithType: "ManagedInstancesClient.start(String resourceGroupName, String managedInstanceName, Context context)"
+  summary: "Starts the managed instance."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ManagedInstanceInner start(String resourceGroupName, String managedInstanceName, Context context)"
+  desc: "Starts the managed instance."
+  returns:
+    description: "an Azure SQL managed instance."
+    type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner?alt=com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner&text=ManagedInstanceInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.startAsync(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.startAsync(String resourceGroupName, String managedInstanceName)"
+  name: "startAsync(String resourceGroupName, String managedInstanceName)"
+  nameWithType: "ManagedInstancesClient.startAsync(String resourceGroupName, String managedInstanceName)"
+  summary: "Starts the managed instance."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract Mono<ManagedInstanceInner> startAsync(String resourceGroupName, String managedInstanceName)"
+  desc: "Starts the managed instance."
+  returns:
+    description: "an Azure SQL managed instance on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner?alt=com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner&text=ManagedInstanceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.startWithResponseAsync(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.startWithResponseAsync(String resourceGroupName, String managedInstanceName)"
+  name: "startWithResponseAsync(String resourceGroupName, String managedInstanceName)"
+  nameWithType: "ManagedInstancesClient.startWithResponseAsync(String resourceGroupName, String managedInstanceName)"
+  summary: "Starts the managed instance."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> startWithResponseAsync(String resourceGroupName, String managedInstanceName)"
+  desc: "Starts the managed instance."
+  returns:
+    description: "an Azure SQL managed instance along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"reactor.core.publisher.Flux?alt=reactor.core.publisher.Flux&text=Flux\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/nio/ByteBuffer.html\">ByteBuffer</a>&gt;&gt;&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.stop(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.stop(String resourceGroupName, String managedInstanceName)"
+  name: "stop(String resourceGroupName, String managedInstanceName)"
+  nameWithType: "ManagedInstancesClient.stop(String resourceGroupName, String managedInstanceName)"
+  summary: "Stops the managed instance."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract ManagedInstanceInner stop(String resourceGroupName, String managedInstanceName)"
+  desc: "Stops the managed instance."
+  returns:
+    description: "an Azure SQL managed instance."
+    type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner?alt=com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner&text=ManagedInstanceInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.stop(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.stop(String resourceGroupName, String managedInstanceName, Context context)"
+  name: "stop(String resourceGroupName, String managedInstanceName, Context context)"
+  nameWithType: "ManagedInstancesClient.stop(String resourceGroupName, String managedInstanceName, Context context)"
+  summary: "Stops the managed instance."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ManagedInstanceInner stop(String resourceGroupName, String managedInstanceName, Context context)"
+  desc: "Stops the managed instance."
+  returns:
+    description: "an Azure SQL managed instance."
+    type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner?alt=com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner&text=ManagedInstanceInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.stopAsync(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.stopAsync(String resourceGroupName, String managedInstanceName)"
+  name: "stopAsync(String resourceGroupName, String managedInstanceName)"
+  nameWithType: "ManagedInstancesClient.stopAsync(String resourceGroupName, String managedInstanceName)"
+  summary: "Stops the managed instance."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract Mono<ManagedInstanceInner> stopAsync(String resourceGroupName, String managedInstanceName)"
+  desc: "Stops the managed instance."
+  returns:
+    description: "an Azure SQL managed instance on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner?alt=com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner&text=ManagedInstanceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.stopWithResponseAsync(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.stopWithResponseAsync(String resourceGroupName, String managedInstanceName)"
+  name: "stopWithResponseAsync(String resourceGroupName, String managedInstanceName)"
+  nameWithType: "ManagedInstancesClient.stopWithResponseAsync(String resourceGroupName, String managedInstanceName)"
+  summary: "Stops the managed instance."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> stopWithResponseAsync(String resourceGroupName, String managedInstanceName)"
+  desc: "Stops the managed instance."
+  returns:
+    description: "an Azure SQL managed instance along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"reactor.core.publisher.Flux?alt=reactor.core.publisher.Flux&text=Flux\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/nio/ByteBuffer.html\">ByteBuffer</a>&gt;&gt;&gt;"
 - uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.update(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.ManagedInstanceUpdate)"
   fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.update(String resourceGroupName, String managedInstanceName, ManagedInstanceUpdate parameters)"
   name: "update(String resourceGroupName, String managedInstanceName, ManagedInstanceUpdate parameters)"
@@ -1045,7 +1664,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -1067,7 +1686,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -1092,7 +1711,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -1114,7 +1733,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the managed instance."
@@ -1128,6 +1747,91 @@ methods:
   returns:
     description: "an Azure SQL managed instance along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"reactor.core.publisher.Flux?alt=reactor.core.publisher.Flux&text=Flux\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/nio/ByteBuffer.html\">ByteBuffer</a>&gt;&gt;&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.validateAzureKeyVaultEncryptionKey(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.validateAzureKeyVaultEncryptionKey(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters)"
+  name: "validateAzureKeyVaultEncryptionKey(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters)"
+  nameWithType: "ManagedInstancesClient.validateAzureKeyVaultEncryptionKey(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters)"
+  summary: "Validates customer managed key."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The validate azure key vault encryption key parameters."
+    name: "parameters"
+    type: "<xref href=\"com.azure.resourcemanager.sql.models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest?alt=com.azure.resourcemanager.sql.models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest&text=ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract void validateAzureKeyVaultEncryptionKey(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters)"
+  desc: "Validates customer managed key."
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.validateAzureKeyVaultEncryptionKey(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.validateAzureKeyVaultEncryptionKey(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters, Context context)"
+  name: "validateAzureKeyVaultEncryptionKey(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters, Context context)"
+  nameWithType: "ManagedInstancesClient.validateAzureKeyVaultEncryptionKey(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters, Context context)"
+  summary: "Validates customer managed key."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The validate azure key vault encryption key parameters."
+    name: "parameters"
+    type: "<xref href=\"com.azure.resourcemanager.sql.models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest?alt=com.azure.resourcemanager.sql.models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest&text=ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract void validateAzureKeyVaultEncryptionKey(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters, Context context)"
+  desc: "Validates customer managed key."
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.validateAzureKeyVaultEncryptionKeyAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.validateAzureKeyVaultEncryptionKeyAsync(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters)"
+  name: "validateAzureKeyVaultEncryptionKeyAsync(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters)"
+  nameWithType: "ManagedInstancesClient.validateAzureKeyVaultEncryptionKeyAsync(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters)"
+  summary: "Validates customer managed key."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The validate azure key vault encryption key parameters."
+    name: "parameters"
+    type: "<xref href=\"com.azure.resourcemanager.sql.models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest?alt=com.azure.resourcemanager.sql.models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest&text=ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Mono<Void> validateAzureKeyVaultEncryptionKeyAsync(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters)"
+  desc: "Validates customer managed key."
+  returns:
+    description: "A <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref> that completes when a successful response is received."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.validateAzureKeyVaultEncryptionKeyWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstancesClient.validateAzureKeyVaultEncryptionKeyWithResponseAsync(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters)"
+  name: "validateAzureKeyVaultEncryptionKeyWithResponseAsync(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters)"
+  nameWithType: "ManagedInstancesClient.validateAzureKeyVaultEncryptionKeyWithResponseAsync(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters)"
+  summary: "Validates customer managed key."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the managed instance."
+    name: "managedInstanceName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The validate azure key vault encryption key parameters."
+    name: "parameters"
+    type: "<xref href=\"com.azure.resourcemanager.sql.models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest?alt=com.azure.resourcemanager.sql.models.ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest&text=ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> validateAzureKeyVaultEncryptionKeyWithResponseAsync(String resourceGroupName, String managedInstanceName, ManagedInstanceValidateAzureKeyVaultEncryptionKeyRequest parameters)"
+  desc: "Validates customer managed key."
+  returns:
+    description: "the <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"reactor.core.publisher.Flux?alt=reactor.core.publisher.Flux&text=Flux\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/nio/ByteBuffer.html\">ByteBuffer</a>&gt;&gt;&gt;"
 type: "interface"
 desc: "An instance of this class provides access to all the operations defined in ManagedInstancesClient."
 implements:
@@ -1136,4 +1840,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner?alt=com.azure.resourcemanager.sql.fluent.models.ManagedInstanceInner&text=ManagedInstanceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.sql.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.53.10
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.54.0

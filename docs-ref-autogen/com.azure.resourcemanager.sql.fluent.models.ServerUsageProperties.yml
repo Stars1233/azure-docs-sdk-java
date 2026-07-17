@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **ServerUsageProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.ServerUsageProperties?alt=com.azure.resourcemanager.sql.fluent.models.ServerUsageProperties&text=ServerUsageProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.sql.fluent.models.ServerUsageProperties.ServerUsageProperties()"
-  fullName: "com.azure.resourcemanager.sql.fluent.models.ServerUsageProperties.ServerUsageProperties()"
-  name: "ServerUsageProperties()"
-  nameWithType: "ServerUsageProperties.ServerUsageProperties()"
-  summary: "Creates an instance of Server<wbr>Usage<wbr>Properties class."
-  syntax: "public ServerUsageProperties()"
-  desc: "Creates an instance of ServerUsageProperties class."
 methods:
 - uid: "com.azure.resourcemanager.sql.fluent.models.ServerUsageProperties.currentValue()"
   fullName: "com.azure.resourcemanager.sql.fluent.models.ServerUsageProperties.currentValue()"
@@ -79,6 +71,26 @@ methods:
   returns:
     description: "the limit value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html\">Double</a>"
+- uid: "com.azure.resourcemanager.sql.fluent.models.ServerUsageProperties.nextResetTime()"
+  fullName: "com.azure.resourcemanager.sql.fluent.models.ServerUsageProperties.nextResetTime()"
+  name: "nextResetTime()"
+  nameWithType: "ServerUsageProperties.nextResetTime()"
+  summary: "Get the next<wbr>Reset<wbr>Time property: The next reset time for the metric (ISO8601 format)."
+  syntax: "public OffsetDateTime nextResetTime()"
+  desc: "Get the nextResetTime property: The next reset time for the metric (ISO8601 format)."
+  returns:
+    description: "the nextResetTime value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.resourcemanager.sql.fluent.models.ServerUsageProperties.resourceName()"
+  fullName: "com.azure.resourcemanager.sql.fluent.models.ServerUsageProperties.resourceName()"
+  name: "resourceName()"
+  nameWithType: "ServerUsageProperties.resourceName()"
+  summary: "Get the resource<wbr>Name property: The name of the resource."
+  syntax: "public String resourceName()"
+  desc: "Get the resourceName property: The name of the resource."
+  returns:
+    description: "the resourceName value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.sql.fluent.models.ServerUsageProperties.toJson(com.azure.json.JsonWriter)"
   fullName: "com.azure.resourcemanager.sql.fluent.models.ServerUsageProperties.toJson(JsonWriter jsonWriter)"
   name: "toJson(JsonWriter jsonWriter)"
@@ -114,4 +126,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.ServerUsageProperties?alt=com.azure.resourcemanager.sql.fluent.models.ServerUsageProperties&text=ServerUsageProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.sql.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.53.10
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.54.0

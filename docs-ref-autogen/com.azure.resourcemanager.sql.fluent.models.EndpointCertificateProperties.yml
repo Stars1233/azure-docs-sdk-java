@@ -21,14 +21,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **EndpointCertificateProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.EndpointCertificateProperties?alt=com.azure.resourcemanager.sql.fluent.models.EndpointCertificateProperties&text=EndpointCertificateProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
-constructors:
-- uid: "com.azure.resourcemanager.sql.fluent.models.EndpointCertificateProperties.EndpointCertificateProperties()"
-  fullName: "com.azure.resourcemanager.sql.fluent.models.EndpointCertificateProperties.EndpointCertificateProperties()"
-  name: "EndpointCertificateProperties()"
-  nameWithType: "EndpointCertificateProperties.EndpointCertificateProperties()"
-  summary: "Creates an instance of Endpoint<wbr>Certificate<wbr>Properties class."
-  syntax: "public EndpointCertificateProperties()"
-  desc: "Creates an instance of EndpointCertificateProperties class."
 methods:
 - uid: "com.azure.resourcemanager.sql.fluent.models.EndpointCertificateProperties.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.sql.fluent.models.EndpointCertificateProperties.fromJson(JsonReader jsonReader)"
@@ -78,24 +70,10 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.sql.fluent.models.EndpointCertificateProperties.withPublicBlob(java.lang.String)"
-  fullName: "com.azure.resourcemanager.sql.fluent.models.EndpointCertificateProperties.withPublicBlob(String publicBlob)"
-  name: "withPublicBlob(String publicBlob)"
-  nameWithType: "EndpointCertificateProperties.withPublicBlob(String publicBlob)"
-  summary: "Set the public<wbr>Blob property: The certificate public blob."
-  parameters:
-  - description: "the publicBlob value to set."
-    name: "publicBlob"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public EndpointCertificateProperties withPublicBlob(String publicBlob)"
-  desc: "Set the publicBlob property: The certificate public blob."
-  returns:
-    description: "the EndpointCertificateProperties object itself."
-    type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.EndpointCertificateProperties?alt=com.azure.resourcemanager.sql.fluent.models.EndpointCertificateProperties&text=EndpointCertificateProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The properties of an endpoint certificate."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.EndpointCertificateProperties?alt=com.azure.resourcemanager.sql.fluent.models.EndpointCertificateProperties&text=EndpointCertificateProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.sql.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.53.10
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.54.0

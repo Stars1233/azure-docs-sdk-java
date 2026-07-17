@@ -14,7 +14,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -36,7 +36,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -61,7 +61,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -83,7 +83,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -102,7 +102,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -124,7 +124,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -143,7 +143,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -165,7 +165,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -190,7 +190,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -204,6 +204,66 @@ methods:
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.PollerFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PollerFlux\"></xref> for polling of an ImportExport operation result resource."
     type: "<xref href=\"com.azure.core.util.polling.PollerFlux?alt=com.azure.core.util.polling.PollerFlux&text=PollerFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.ImportExportOperationResultInner?alt=com.azure.resourcemanager.sql.fluent.models.ImportExportOperationResultInner&text=ImportExportOperationResultInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.ImportExportOperationResultInner?alt=com.azure.resourcemanager.sql.fluent.models.ImportExportOperationResultInner&text=ImportExportOperationResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ServersClient.beginRefreshStatus(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ServersClient.beginRefreshStatus(String resourceGroupName, String serverName)"
+  name: "beginRefreshStatus(String resourceGroupName, String serverName)"
+  nameWithType: "ServersClient.beginRefreshStatus(String resourceGroupName, String serverName)"
+  summary: "Refresh external governance enablement status."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the server."
+    name: "serverName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract SyncPoller<PollResult<RefreshExternalGovernanceStatusOperationResultInner>,RefreshExternalGovernanceStatusOperationResultInner> beginRefreshStatus(String resourceGroupName, String serverName)"
+  desc: "Refresh external governance enablement status."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of an RefreshExternalGovernanceStatus operation result resource."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultInner?alt=com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultInner&text=RefreshExternalGovernanceStatusOperationResultInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultInner?alt=com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultInner&text=RefreshExternalGovernanceStatusOperationResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ServersClient.beginRefreshStatus(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ServersClient.beginRefreshStatus(String resourceGroupName, String serverName, Context context)"
+  name: "beginRefreshStatus(String resourceGroupName, String serverName, Context context)"
+  nameWithType: "ServersClient.beginRefreshStatus(String resourceGroupName, String serverName, Context context)"
+  summary: "Refresh external governance enablement status."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the server."
+    name: "serverName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract SyncPoller<PollResult<RefreshExternalGovernanceStatusOperationResultInner>,RefreshExternalGovernanceStatusOperationResultInner> beginRefreshStatus(String resourceGroupName, String serverName, Context context)"
+  desc: "Refresh external governance enablement status."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of an RefreshExternalGovernanceStatus operation result resource."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultInner?alt=com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultInner&text=RefreshExternalGovernanceStatusOperationResultInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultInner?alt=com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultInner&text=RefreshExternalGovernanceStatusOperationResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ServersClient.beginRefreshStatusAsync(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ServersClient.beginRefreshStatusAsync(String resourceGroupName, String serverName)"
+  name: "beginRefreshStatusAsync(String resourceGroupName, String serverName)"
+  nameWithType: "ServersClient.beginRefreshStatusAsync(String resourceGroupName, String serverName)"
+  summary: "Refresh external governance enablement status."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the server."
+    name: "serverName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract PollerFlux<PollResult<RefreshExternalGovernanceStatusOperationResultInner>,RefreshExternalGovernanceStatusOperationResultInner> beginRefreshStatusAsync(String resourceGroupName, String serverName)"
+  desc: "Refresh external governance enablement status."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.PollerFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PollerFlux\"></xref> for polling of an RefreshExternalGovernanceStatus operation result resource."
+    type: "<xref href=\"com.azure.core.util.polling.PollerFlux?alt=com.azure.core.util.polling.PollerFlux&text=PollerFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultInner?alt=com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultInner&text=RefreshExternalGovernanceStatusOperationResultInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultInner?alt=com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultInner&text=RefreshExternalGovernanceStatusOperationResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.sql.fluent.ServersClient.beginUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.ServerUpdate)"
   fullName: "com.azure.resourcemanager.sql.fluent.ServersClient.beginUpdate(String resourceGroupName, String serverName, ServerUpdate parameters)"
   name: "beginUpdate(String resourceGroupName, String serverName, ServerUpdate parameters)"
@@ -212,7 +272,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -234,7 +294,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -259,7 +319,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -281,7 +341,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name availability request parameters."
+  - description: "The request body."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.sql.models.CheckNameAvailabilityRequest?alt=com.azure.resourcemanager.sql.models.CheckNameAvailabilityRequest&text=CheckNameAvailabilityRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract CheckNameAvailabilityResponseInner checkNameAvailability(CheckNameAvailabilityRequest parameters)"
@@ -297,7 +357,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name availability request parameters."
+  - description: "The request body."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.sql.models.CheckNameAvailabilityRequest?alt=com.azure.resourcemanager.sql.models.CheckNameAvailabilityRequest&text=CheckNameAvailabilityRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Mono<CheckNameAvailabilityResponseInner> checkNameAvailabilityAsync(CheckNameAvailabilityRequest parameters)"
@@ -313,7 +373,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name availability request parameters."
+  - description: "The request body."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.sql.models.CheckNameAvailabilityRequest?alt=com.azure.resourcemanager.sql.models.CheckNameAvailabilityRequest&text=CheckNameAvailabilityRequest\" data-throw-if-not-resolved=\"False\" />"
   - description: "The context to associate with this operation."
@@ -332,7 +392,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name availability request parameters."
+  - description: "The request body."
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.sql.models.CheckNameAvailabilityRequest?alt=com.azure.resourcemanager.sql.models.CheckNameAvailabilityRequest&text=CheckNameAvailabilityRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Mono<Response<CheckNameAvailabilityResponseInner>> checkNameAvailabilityWithResponseAsync(CheckNameAvailabilityRequest parameters)"
@@ -348,7 +408,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -370,7 +430,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -395,7 +455,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -417,7 +477,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -439,7 +499,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -455,7 +515,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -474,7 +534,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -493,7 +553,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -512,7 +572,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -531,7 +591,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -550,7 +610,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -575,7 +635,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -597,7 +657,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -619,7 +679,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -644,7 +704,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -666,7 +726,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -747,7 +807,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<ServerInner> listByResourceGroup(String resourceGroupName)"
@@ -763,7 +823,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The child resources to include in the response."
@@ -785,7 +845,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedFlux<ServerInner> listByResourceGroupAsync(String resourceGroupName)"
@@ -801,7 +861,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The child resources to include in the response."
@@ -812,6 +872,85 @@ methods:
   returns:
     description: "a list of servers in a resource groups as paginated response with <xref uid=\"com.azure.core.http.rest.PagedFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PagedFlux\"></xref>."
     type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.ServerInner?alt=com.azure.resourcemanager.sql.fluent.models.ServerInner&text=ServerInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ServersClient.refreshStatus(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ServersClient.refreshStatus(String resourceGroupName, String serverName)"
+  name: "refreshStatus(String resourceGroupName, String serverName)"
+  nameWithType: "ServersClient.refreshStatus(String resourceGroupName, String serverName)"
+  summary: "Refresh external governance enablement status."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the server."
+    name: "serverName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract RefreshExternalGovernanceStatusOperationResultInner refreshStatus(String resourceGroupName, String serverName)"
+  desc: "Refresh external governance enablement status."
+  returns:
+    description: "an RefreshExternalGovernanceStatus operation result resource."
+    type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultInner?alt=com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultInner&text=RefreshExternalGovernanceStatusOperationResultInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.sql.fluent.ServersClient.refreshStatus(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ServersClient.refreshStatus(String resourceGroupName, String serverName, Context context)"
+  name: "refreshStatus(String resourceGroupName, String serverName, Context context)"
+  nameWithType: "ServersClient.refreshStatus(String resourceGroupName, String serverName, Context context)"
+  summary: "Refresh external governance enablement status."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the server."
+    name: "serverName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract RefreshExternalGovernanceStatusOperationResultInner refreshStatus(String resourceGroupName, String serverName, Context context)"
+  desc: "Refresh external governance enablement status."
+  returns:
+    description: "an RefreshExternalGovernanceStatus operation result resource."
+    type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultInner?alt=com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultInner&text=RefreshExternalGovernanceStatusOperationResultInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.sql.fluent.ServersClient.refreshStatusAsync(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ServersClient.refreshStatusAsync(String resourceGroupName, String serverName)"
+  name: "refreshStatusAsync(String resourceGroupName, String serverName)"
+  nameWithType: "ServersClient.refreshStatusAsync(String resourceGroupName, String serverName)"
+  summary: "Refresh external governance enablement status."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the server."
+    name: "serverName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract Mono<RefreshExternalGovernanceStatusOperationResultInner> refreshStatusAsync(String resourceGroupName, String serverName)"
+  desc: "Refresh external governance enablement status."
+  returns:
+    description: "an RefreshExternalGovernanceStatus operation result resource on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultInner?alt=com.azure.resourcemanager.sql.fluent.models.RefreshExternalGovernanceStatusOperationResultInner&text=RefreshExternalGovernanceStatusOperationResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.ServersClient.refreshStatusWithResponseAsync(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.ServersClient.refreshStatusWithResponseAsync(String resourceGroupName, String serverName)"
+  name: "refreshStatusWithResponseAsync(String resourceGroupName, String serverName)"
+  nameWithType: "ServersClient.refreshStatusWithResponseAsync(String resourceGroupName, String serverName)"
+  summary: "Refresh external governance enablement status."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the server."
+    name: "serverName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> refreshStatusWithResponseAsync(String resourceGroupName, String serverName)"
+  desc: "Refresh external governance enablement status."
+  returns:
+    description: "an RefreshExternalGovernanceStatus operation result resource along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful\n completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"reactor.core.publisher.Flux?alt=reactor.core.publisher.Flux&text=Flux\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/nio/ByteBuffer.html\">ByteBuffer</a>&gt;&gt;&gt;"
 - uid: "com.azure.resourcemanager.sql.fluent.ServersClient.update(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.ServerUpdate)"
   fullName: "com.azure.resourcemanager.sql.fluent.ServersClient.update(String resourceGroupName, String serverName, ServerUpdate parameters)"
   name: "update(String resourceGroupName, String serverName, ServerUpdate parameters)"
@@ -820,7 +959,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -842,7 +981,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -867,7 +1006,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -889,7 +1028,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -911,4 +1050,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.ServerInner?alt=com.azure.resourcemanager.sql.fluent.models.ServerInner&text=ServerInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.sql.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.53.10
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.54.0

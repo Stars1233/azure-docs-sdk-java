@@ -29,14 +29,6 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
 syntax: "public final class **SystemAssignedIdentityInner**</br> extends <xref href=\"com.azure.core.management.ProxyResource?alt=com.azure.core.management.ProxyResource&text=ProxyResource\" data-throw-if-not-resolved=\"False\" />"
-constructors:
-- uid: "com.azure.resourcemanager.msi.fluent.models.SystemAssignedIdentityInner.SystemAssignedIdentityInner()"
-  fullName: "com.azure.resourcemanager.msi.fluent.models.SystemAssignedIdentityInner.SystemAssignedIdentityInner()"
-  name: "SystemAssignedIdentityInner()"
-  nameWithType: "SystemAssignedIdentityInner.SystemAssignedIdentityInner()"
-  summary: "Creates an instance of System<wbr>Assigned<wbr>Identity<wbr>Inner class."
-  syntax: "public SystemAssignedIdentityInner()"
-  desc: "Creates an instance of SystemAssignedIdentityInner class."
 methods:
 - uid: "com.azure.resourcemanager.msi.fluent.models.SystemAssignedIdentityInner.clientId()"
   fullName: "com.azure.resourcemanager.msi.fluent.models.SystemAssignedIdentityInner.clientId()"
@@ -92,9 +84,9 @@ methods:
   fullName: "com.azure.resourcemanager.msi.fluent.models.SystemAssignedIdentityInner.location()"
   name: "location()"
   nameWithType: "SystemAssignedIdentityInner.location()"
-  summary: "Get the location property: The geo-location where the resource lives."
+  summary: "Get the location property: The location property."
   syntax: "public String location()"
-  desc: "Get the location property: The geo-location where the resource lives."
+  desc: "Get the location property: The location property."
   returns:
     description: "the location value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -133,9 +125,9 @@ methods:
   fullName: "com.azure.resourcemanager.msi.fluent.models.SystemAssignedIdentityInner.tags()"
   name: "tags()"
   nameWithType: "SystemAssignedIdentityInner.tags()"
-  summary: "Get the tags property: Resource tags."
+  summary: "Get the tags property: The tags property."
   syntax: "public Map<String,String> tags()"
-  desc: "Get the tags property: Resource tags."
+  desc: "Get the tags property: The tags property."
   returns:
     description: "the tags value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
@@ -180,36 +172,8 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
-- uid: "com.azure.resourcemanager.msi.fluent.models.SystemAssignedIdentityInner.withLocation(java.lang.String)"
-  fullName: "com.azure.resourcemanager.msi.fluent.models.SystemAssignedIdentityInner.withLocation(String location)"
-  name: "withLocation(String location)"
-  nameWithType: "SystemAssignedIdentityInner.withLocation(String location)"
-  summary: "Set the location property: The geo-location where the resource lives."
-  parameters:
-  - description: "the location value to set."
-    name: "location"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public SystemAssignedIdentityInner withLocation(String location)"
-  desc: "Set the location property: The geo-location where the resource lives."
-  returns:
-    description: "the SystemAssignedIdentityInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.msi.fluent.models.SystemAssignedIdentityInner?alt=com.azure.resourcemanager.msi.fluent.models.SystemAssignedIdentityInner&text=SystemAssignedIdentityInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.msi.fluent.models.SystemAssignedIdentityInner.withTags(java.util.Map<java.lang.String,java.lang.String>)"
-  fullName: "com.azure.resourcemanager.msi.fluent.models.SystemAssignedIdentityInner.withTags(Map<String,String> tags)"
-  name: "withTags(Map<String,String> tags)"
-  nameWithType: "SystemAssignedIdentityInner.withTags(Map<String,String> tags)"
-  summary: "Set the tags property: Resource tags."
-  parameters:
-  - description: "the tags value to set."
-    name: "tags"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
-  syntax: "public SystemAssignedIdentityInner withTags(Map<String,String> tags)"
-  desc: "Set the tags property: Resource tags."
-  returns:
-    description: "the SystemAssignedIdentityInner object itself."
-    type: "<xref href=\"com.azure.resourcemanager.msi.fluent.models.SystemAssignedIdentityInner?alt=com.azure.resourcemanager.msi.fluent.models.SystemAssignedIdentityInner&text=SystemAssignedIdentityInner\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Describes a system assigned identity resource."
 metadata: {}
 package: "com.azure.resourcemanager.msi.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-msi:2.53.7
+artifact: com.azure.resourcemanager:azure-resourcemanager-msi:2.54.0

@@ -14,7 +14,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -45,7 +45,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -76,7 +76,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -110,7 +110,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -141,7 +141,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -150,7 +150,7 @@ methods:
   - description: "The name of the database."
     name: "databaseName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the database for which the data masking rule applies."
+  - description: "The name of the database for which the data masking policy applies."
     name: "dataMaskingPolicyName"
     type: "<xref href=\"com.azure.resourcemanager.sql.models.DataMaskingPolicyName?alt=com.azure.resourcemanager.sql.models.DataMaskingPolicyName&text=DataMaskingPolicyName\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedIterable<DataMaskingRuleInner> listByDatabase(String resourceGroupName, String serverName, String databaseName, DataMaskingPolicyName dataMaskingPolicyName)"
@@ -166,7 +166,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -175,7 +175,7 @@ methods:
   - description: "The name of the database."
     name: "databaseName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the database for which the data masking rule applies."
+  - description: "The name of the database for which the data masking policy applies."
     name: "dataMaskingPolicyName"
     type: "<xref href=\"com.azure.resourcemanager.sql.models.DataMaskingPolicyName?alt=com.azure.resourcemanager.sql.models.DataMaskingPolicyName&text=DataMaskingPolicyName\" data-throw-if-not-resolved=\"False\" />"
   - description: "The context to associate with this operation."
@@ -194,7 +194,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the server."
@@ -203,7 +203,7 @@ methods:
   - description: "The name of the database."
     name: "databaseName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the database for which the data masking rule applies."
+  - description: "The name of the database for which the data masking policy applies."
     name: "dataMaskingPolicyName"
     type: "<xref href=\"com.azure.resourcemanager.sql.models.DataMaskingPolicyName?alt=com.azure.resourcemanager.sql.models.DataMaskingPolicyName&text=DataMaskingPolicyName\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PagedFlux<DataMaskingRuleInner> listByDatabaseAsync(String resourceGroupName, String serverName, String databaseName, DataMaskingPolicyName dataMaskingPolicyName)"
@@ -215,4 +215,4 @@ type: "interface"
 desc: "An instance of this class provides access to all the operations defined in DataMaskingRulesClient."
 metadata: {}
 package: "com.azure.resourcemanager.sql.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.53.10
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.54.0

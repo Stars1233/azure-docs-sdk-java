@@ -14,7 +14,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Resource Group to which the identity belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the identity resource."
@@ -36,7 +36,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Resource Group to which the identity belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the identity resource."
@@ -58,7 +58,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Resource Group to which the identity belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the identity resource."
@@ -83,7 +83,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Resource Group to which the identity belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the identity resource."
@@ -105,7 +105,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Resource Group to which the identity belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the identity resource."
@@ -121,7 +121,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Resource Group to which the identity belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the identity resource."
@@ -140,7 +140,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Resource Group to which the identity belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the identity resource."
@@ -162,7 +162,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Resource Group to which the identity belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the identity resource."
@@ -181,7 +181,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Resource Group to which the identity belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the identity resource."
@@ -200,7 +200,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Resource Group to which the identity belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the identity resource."
@@ -219,7 +219,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Resource Group to which the identity belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the identity resource."
@@ -241,7 +241,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Resource Group to which the identity belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the identity resource."
@@ -300,7 +300,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Resource Group to which the identity belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<IdentityInner> listByResourceGroup(String resourceGroupName)"
@@ -316,7 +316,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Resource Group to which the identity belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -335,7 +335,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Resource Group to which the identity belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedFlux<IdentityInner> listByResourceGroupAsync(String resourceGroupName)"
@@ -351,7 +351,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Resource Group to which the identity belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the identity resource."
@@ -373,7 +373,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Resource Group to which the identity belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the identity resource."
@@ -395,7 +395,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Resource Group to which the identity belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the identity resource."
@@ -420,7 +420,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the Resource Group to which the identity belongs."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the identity resource."
@@ -442,4 +442,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.msi.fluent.models.IdentityInner?alt=com.azure.resourcemanager.msi.fluent.models.IdentityInner&text=IdentityInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.msi.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-msi:2.53.7
+artifact: com.azure.resourcemanager:azure-resourcemanager-msi:2.54.0

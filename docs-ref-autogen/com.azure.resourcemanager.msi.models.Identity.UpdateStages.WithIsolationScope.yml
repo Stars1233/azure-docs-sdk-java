@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.msi.models.Identity.UpdateStages.WithIsolationScope"
+fullName: "com.azure.resourcemanager.msi.models.Identity.UpdateStages.WithIsolationScope"
+name: "Identity.UpdateStages.WithIsolationScope"
+nameWithType: "Identity.UpdateStages.WithIsolationScope"
+summary: "The stage of the identity update allowing to specify the isolation scope."
+syntax: "public static interface **Identity.UpdateStages.WithIsolationScope**"
+methods:
+- uid: "com.azure.resourcemanager.msi.models.Identity.UpdateStages.WithIsolationScope.withIsolationScope(com.azure.resourcemanager.msi.models.IsolationScope)"
+  fullName: "com.azure.resourcemanager.msi.models.Identity.UpdateStages.WithIsolationScope.withIsolationScope(IsolationScope isolationScope)"
+  name: "withIsolationScope(IsolationScope isolationScope)"
+  nameWithType: "Identity.UpdateStages.WithIsolationScope.withIsolationScope(IsolationScope isolationScope)"
+  summary: "Specifies the isolation scope of the identity, which configures regional restrictions on identity assignment."
+  modifiers:
+  - "default"
+  parameters:
+  - description: "the isolation scope of the identity"
+    name: "isolationScope"
+    type: "<xref href=\"com.azure.resourcemanager.msi.models.IsolationScope?alt=com.azure.resourcemanager.msi.models.IsolationScope&text=IsolationScope\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public default Identity.Update withIsolationScope(IsolationScope isolationScope)"
+  desc: "Specifies the isolation scope of the identity, which configures regional restrictions on identity assignment."
+  returns:
+    description: "the next stage of the update"
+    type: "<xref href=\"com.azure.resourcemanager.msi.models.Identity.Update?alt=com.azure.resourcemanager.msi.models.Identity.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the identity update allowing to specify the isolation scope."
+metadata: {}
+package: "com.azure.resourcemanager.msi.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-msi:2.54.0

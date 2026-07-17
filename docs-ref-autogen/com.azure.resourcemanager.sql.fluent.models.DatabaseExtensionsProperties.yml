@@ -36,7 +36,7 @@ methods:
   nameWithType: "DatabaseExtensionsProperties.administratorLogin()"
   summary: "Get the administrator<wbr>Login property: Administrator login name."
   syntax: "public String administratorLogin()"
-  desc: "Get the administratorLogin property: Administrator login name."
+  desc: "Get the administratorLogin property: Administrator login name. If AuthenticationType is ManagedIdentity, this field should specify the Managed Identity's resource ID."
   returns:
     description: "the administratorLogin value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -46,7 +46,7 @@ methods:
   nameWithType: "DatabaseExtensionsProperties.administratorLoginPassword()"
   summary: "Get the administrator<wbr>Login<wbr>Password property: Administrator login password."
   syntax: "public String administratorLoginPassword()"
-  desc: "Get the administratorLoginPassword property: Administrator login password."
+  desc: "Get the administratorLoginPassword property: Administrator login password. If AuthenticationType is ManagedIdentity, this field should not be specified."
   returns:
     description: "the administratorLoginPassword value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -54,9 +54,9 @@ methods:
   fullName: "com.azure.resourcemanager.sql.fluent.models.DatabaseExtensionsProperties.authenticationType()"
   name: "authenticationType()"
   nameWithType: "DatabaseExtensionsProperties.authenticationType()"
-  summary: "Get the authentication<wbr>Type property: Authentication type: SQL authentication or AD password."
+  summary: "Get the authentication<wbr>Type property: Authentication type used to access the SQL: Sql, ADPassword or Managed<wbr>Identity."
   syntax: "public String authenticationType()"
-  desc: "Get the authenticationType property: Authentication type: SQL authentication or AD password."
+  desc: "Get the authenticationType property: Authentication type used to access the SQL: Sql, ADPassword or ManagedIdentity."
   returns:
     description: "the authenticationType value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -135,7 +135,7 @@ methods:
   nameWithType: "DatabaseExtensionsProperties.storageKey()"
   summary: "Get the storage<wbr>Key property: Storage key for the storage account."
   syntax: "public String storageKey()"
-  desc: "Get the storageKey property: Storage key for the storage account."
+  desc: "Get the storageKey property: Storage key for the storage account. If StorageKeyType is ManagedIdentity, this field should specify the Managed Identity's resource ID."
   returns:
     description: "the storageKey value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -143,9 +143,9 @@ methods:
   fullName: "com.azure.resourcemanager.sql.fluent.models.DatabaseExtensionsProperties.storageKeyType()"
   name: "storageKeyType()"
   nameWithType: "DatabaseExtensionsProperties.storageKeyType()"
-  summary: "Get the storage<wbr>Key<wbr>Type property: Storage key type: Storage<wbr>Access<wbr>Key or Shared<wbr>Access<wbr>Key."
+  summary: "Get the storage<wbr>Key<wbr>Type property: Storage key type: Storage<wbr>Access<wbr>Key, Shared<wbr>Access<wbr>Key or Managed<wbr>Identity."
   syntax: "public StorageKeyType storageKeyType()"
-  desc: "Get the storageKeyType property: Storage key type: StorageAccessKey or SharedAccessKey."
+  desc: "Get the storageKeyType property: Storage key type: StorageAccessKey, SharedAccessKey or ManagedIdentity."
   returns:
     description: "the storageKeyType value."
     type: "<xref href=\"com.azure.resourcemanager.sql.models.StorageKeyType?alt=com.azure.resourcemanager.sql.models.StorageKeyType&text=StorageKeyType\" data-throw-if-not-resolved=\"False\" />"
@@ -188,7 +188,7 @@ methods:
     name: "administratorLogin"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public DatabaseExtensionsProperties withAdministratorLogin(String administratorLogin)"
-  desc: "Set the administratorLogin property: Administrator login name."
+  desc: "Set the administratorLogin property: Administrator login name. If AuthenticationType is ManagedIdentity, this field should specify the Managed Identity's resource ID."
   returns:
     description: "the DatabaseExtensionsProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.DatabaseExtensionsProperties?alt=com.azure.resourcemanager.sql.fluent.models.DatabaseExtensionsProperties&text=DatabaseExtensionsProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -202,7 +202,7 @@ methods:
     name: "administratorLoginPassword"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public DatabaseExtensionsProperties withAdministratorLoginPassword(String administratorLoginPassword)"
-  desc: "Set the administratorLoginPassword property: Administrator login password."
+  desc: "Set the administratorLoginPassword property: Administrator login password. If AuthenticationType is ManagedIdentity, this field should not be specified."
   returns:
     description: "the DatabaseExtensionsProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.DatabaseExtensionsProperties?alt=com.azure.resourcemanager.sql.fluent.models.DatabaseExtensionsProperties&text=DatabaseExtensionsProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -210,13 +210,13 @@ methods:
   fullName: "com.azure.resourcemanager.sql.fluent.models.DatabaseExtensionsProperties.withAuthenticationType(String authenticationType)"
   name: "withAuthenticationType(String authenticationType)"
   nameWithType: "DatabaseExtensionsProperties.withAuthenticationType(String authenticationType)"
-  summary: "Set the authentication<wbr>Type property: Authentication type: SQL authentication or AD password."
+  summary: "Set the authentication<wbr>Type property: Authentication type used to access the SQL: Sql, ADPassword or Managed<wbr>Identity."
   parameters:
   - description: "the authenticationType value to set."
     name: "authenticationType"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public DatabaseExtensionsProperties withAuthenticationType(String authenticationType)"
-  desc: "Set the authenticationType property: Authentication type: SQL authentication or AD password."
+  desc: "Set the authenticationType property: Authentication type used to access the SQL: Sql, ADPassword or ManagedIdentity."
   returns:
     description: "the DatabaseExtensionsProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.DatabaseExtensionsProperties?alt=com.azure.resourcemanager.sql.fluent.models.DatabaseExtensionsProperties&text=DatabaseExtensionsProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -300,7 +300,7 @@ methods:
     name: "storageKey"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public DatabaseExtensionsProperties withStorageKey(String storageKey)"
-  desc: "Set the storageKey property: Storage key for the storage account."
+  desc: "Set the storageKey property: Storage key for the storage account. If StorageKeyType is ManagedIdentity, this field should specify the Managed Identity's resource ID."
   returns:
     description: "the DatabaseExtensionsProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.DatabaseExtensionsProperties?alt=com.azure.resourcemanager.sql.fluent.models.DatabaseExtensionsProperties&text=DatabaseExtensionsProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -308,13 +308,13 @@ methods:
   fullName: "com.azure.resourcemanager.sql.fluent.models.DatabaseExtensionsProperties.withStorageKeyType(StorageKeyType storageKeyType)"
   name: "withStorageKeyType(StorageKeyType storageKeyType)"
   nameWithType: "DatabaseExtensionsProperties.withStorageKeyType(StorageKeyType storageKeyType)"
-  summary: "Set the storage<wbr>Key<wbr>Type property: Storage key type: Storage<wbr>Access<wbr>Key or Shared<wbr>Access<wbr>Key."
+  summary: "Set the storage<wbr>Key<wbr>Type property: Storage key type: Storage<wbr>Access<wbr>Key, Shared<wbr>Access<wbr>Key or Managed<wbr>Identity."
   parameters:
   - description: "the storageKeyType value to set."
     name: "storageKeyType"
     type: "<xref href=\"com.azure.resourcemanager.sql.models.StorageKeyType?alt=com.azure.resourcemanager.sql.models.StorageKeyType&text=StorageKeyType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public DatabaseExtensionsProperties withStorageKeyType(StorageKeyType storageKeyType)"
-  desc: "Set the storageKeyType property: Storage key type: StorageAccessKey or SharedAccessKey."
+  desc: "Set the storageKeyType property: Storage key type: StorageAccessKey, SharedAccessKey or ManagedIdentity."
   returns:
     description: "the DatabaseExtensionsProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.DatabaseExtensionsProperties?alt=com.azure.resourcemanager.sql.fluent.models.DatabaseExtensionsProperties&text=DatabaseExtensionsProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -338,4 +338,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.DatabaseExtensionsProperties?alt=com.azure.resourcemanager.sql.fluent.models.DatabaseExtensionsProperties&text=DatabaseExtensionsProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.sql.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.53.10
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.54.0

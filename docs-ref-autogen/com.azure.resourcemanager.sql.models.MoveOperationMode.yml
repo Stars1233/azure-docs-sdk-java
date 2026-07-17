@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.sql.models.MoveOperationMode"
 fullName: "com.azure.resourcemanager.sql.models.MoveOperationMode"
 name: "MoveOperationMode"
 nameWithType: "MoveOperationMode"
-summary: "The move operation mode."
+summary: "Operation mode."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -42,26 +42,26 @@ fields:
   fullName: "com.azure.resourcemanager.sql.models.MoveOperationMode.COPY"
   name: "COPY"
   nameWithType: "MoveOperationMode.COPY"
-  summary: "Static value Copy for Move<wbr>Operation<wbr>Mode."
+  summary: "Copy."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.sql.models.MoveOperationMode?alt=com.azure.resourcemanager.sql.models.MoveOperationMode&text=MoveOperationMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final MoveOperationMode COPY"
-  desc: "Static value Copy for MoveOperationMode."
+  desc: "Copy."
 - uid: "com.azure.resourcemanager.sql.models.MoveOperationMode.MOVE"
   fullName: "com.azure.resourcemanager.sql.models.MoveOperationMode.MOVE"
   name: "MOVE"
   nameWithType: "MoveOperationMode.MOVE"
-  summary: "Static value Move for Move<wbr>Operation<wbr>Mode."
+  summary: "Move."
   modifiers:
   - "static"
   - "final"
   field:
     type: "<xref href=\"com.azure.resourcemanager.sql.models.MoveOperationMode?alt=com.azure.resourcemanager.sql.models.MoveOperationMode&text=MoveOperationMode\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static final MoveOperationMode MOVE"
-  desc: "Static value Move for MoveOperationMode."
+  desc: "Move."
 methods:
 - uid: "com.azure.resourcemanager.sql.models.MoveOperationMode.fromString(java.lang.String)"
   fullName: "com.azure.resourcemanager.sql.models.MoveOperationMode.fromString(String name)"
@@ -92,7 +92,7 @@ methods:
     description: "known MoveOperationMode values."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.sql.models.MoveOperationMode?alt=com.azure.resourcemanager.sql.models.MoveOperationMode&text=MoveOperationMode\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
-desc: "The move operation mode."
+desc: "Operation mode."
 metadata: {}
 package: "com.azure.resourcemanager.sql.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.53.10
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.54.0

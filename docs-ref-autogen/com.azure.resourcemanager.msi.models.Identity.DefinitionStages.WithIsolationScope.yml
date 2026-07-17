@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.msi.models.Identity.DefinitionStages.WithIsolationScope"
+fullName: "com.azure.resourcemanager.msi.models.Identity.DefinitionStages.WithIsolationScope"
+name: "Identity.DefinitionStages.WithIsolationScope"
+nameWithType: "Identity.DefinitionStages.WithIsolationScope"
+summary: "The stage of the identity definition allowing to specify the isolation scope."
+syntax: "public static interface **Identity.DefinitionStages.WithIsolationScope**"
+methods:
+- uid: "com.azure.resourcemanager.msi.models.Identity.DefinitionStages.WithIsolationScope.withIsolationScope(com.azure.resourcemanager.msi.models.IsolationScope)"
+  fullName: "com.azure.resourcemanager.msi.models.Identity.DefinitionStages.WithIsolationScope.withIsolationScope(IsolationScope isolationScope)"
+  name: "withIsolationScope(IsolationScope isolationScope)"
+  nameWithType: "Identity.DefinitionStages.WithIsolationScope.withIsolationScope(IsolationScope isolationScope)"
+  summary: "Specifies the isolation scope of the identity, which configures regional restrictions on identity assignment."
+  modifiers:
+  - "default"
+  parameters:
+  - description: "the isolation scope of the identity"
+    name: "isolationScope"
+    type: "<xref href=\"com.azure.resourcemanager.msi.models.IsolationScope?alt=com.azure.resourcemanager.msi.models.IsolationScope&text=IsolationScope\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public default Identity.DefinitionStages.WithCreate withIsolationScope(IsolationScope isolationScope)"
+  desc: "Specifies the isolation scope of the identity, which configures regional restrictions on identity assignment."
+  returns:
+    description: "the next stage of the definition"
+    type: "<xref href=\"com.azure.resourcemanager.msi.models.Identity.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.msi.models.Identity.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the identity definition allowing to specify the isolation scope."
+metadata: {}
+package: "com.azure.resourcemanager.msi.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-msi:2.54.0

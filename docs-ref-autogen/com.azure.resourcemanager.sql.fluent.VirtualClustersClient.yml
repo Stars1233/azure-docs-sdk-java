@@ -6,6 +6,75 @@ nameWithType: "VirtualClustersClient"
 summary: "An instance of this class provides access to all the operations defined in Virtual<wbr>Clusters<wbr>Client."
 syntax: "public interface **VirtualClustersClient**</br> extends <xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet&text=InnerSupportsGet\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Void.html\">Void</a>&gt;"
 methods:
+- uid: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner)"
+  fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginCreateOrUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters)"
+  name: "beginCreateOrUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters)"
+  nameWithType: "VirtualClustersClient.beginCreateOrUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters)"
+  summary: "Creates virtual cluster."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the virtual cluster."
+    name: "virtualClusterName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The requested virtual cluster resource state."
+    name: "parameters"
+    type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract SyncPoller<PollResult<VirtualClusterInner>,VirtualClusterInner> beginCreateOrUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters)"
+  desc: "Creates virtual cluster."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of an Azure SQL virtual cluster."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginCreateOrUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters, Context context)"
+  name: "beginCreateOrUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters, Context context)"
+  nameWithType: "VirtualClustersClient.beginCreateOrUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters, Context context)"
+  summary: "Creates virtual cluster."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the virtual cluster."
+    name: "virtualClusterName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The requested virtual cluster resource state."
+    name: "parameters"
+    type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract SyncPoller<PollResult<VirtualClusterInner>,VirtualClusterInner> beginCreateOrUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters, Context context)"
+  desc: "Creates virtual cluster."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of an Azure SQL virtual cluster."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginCreateOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner)"
+  fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginCreateOrUpdateAsync(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters)"
+  name: "beginCreateOrUpdateAsync(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters)"
+  nameWithType: "VirtualClustersClient.beginCreateOrUpdateAsync(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters)"
+  summary: "Creates virtual cluster."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the virtual cluster."
+    name: "virtualClusterName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The requested virtual cluster resource state."
+    name: "parameters"
+    type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract PollerFlux<PollResult<VirtualClusterInner>,VirtualClusterInner> beginCreateOrUpdateAsync(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters)"
+  desc: "Creates virtual cluster."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.PollerFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PollerFlux\"></xref> for polling of an Azure SQL virtual cluster."
+    type: "<xref href=\"com.azure.core.util.polling.PollerFlux?alt=com.azure.core.util.polling.PollerFlux&text=PollerFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginDelete(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginDelete(String resourceGroupName, String virtualClusterName)"
   name: "beginDelete(String resourceGroupName, String virtualClusterName)"
@@ -14,7 +83,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual cluster."
@@ -33,7 +102,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual cluster."
@@ -55,7 +124,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual cluster."
@@ -70,11 +139,11 @@ methods:
   fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters)"
   name: "beginUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters)"
   nameWithType: "VirtualClustersClient.beginUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters)"
-  summary: "Updates a virtual cluster."
+  summary: "Updates an existing virtual cluster."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual cluster."
@@ -84,7 +153,7 @@ methods:
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.sql.models.VirtualClusterUpdate?alt=com.azure.resourcemanager.sql.models.VirtualClusterUpdate&text=VirtualClusterUpdate\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<VirtualClusterInner>,VirtualClusterInner> beginUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters)"
-  desc: "Updates a virtual cluster."
+  desc: "Updates an existing virtual cluster."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of an Azure SQL virtual cluster."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -92,11 +161,11 @@ methods:
   fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters, Context context)"
   name: "beginUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters, Context context)"
   nameWithType: "VirtualClustersClient.beginUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters, Context context)"
-  summary: "Updates a virtual cluster."
+  summary: "Updates an existing virtual cluster."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual cluster."
@@ -109,7 +178,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SyncPoller<PollResult<VirtualClusterInner>,VirtualClusterInner> beginUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters, Context context)"
-  desc: "Updates a virtual cluster."
+  desc: "Updates an existing virtual cluster."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of an Azure SQL virtual cluster."
     type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -117,11 +186,11 @@ methods:
   fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdateAsync(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters)"
   name: "beginUpdateAsync(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters)"
   nameWithType: "VirtualClustersClient.beginUpdateAsync(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters)"
-  summary: "Updates a virtual cluster."
+  summary: "Updates an existing virtual cluster."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual cluster."
@@ -131,10 +200,161 @@ methods:
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.sql.models.VirtualClusterUpdate?alt=com.azure.resourcemanager.sql.models.VirtualClusterUpdate&text=VirtualClusterUpdate\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract PollerFlux<PollResult<VirtualClusterInner>,VirtualClusterInner> beginUpdateAsync(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters)"
-  desc: "Updates a virtual cluster."
+  desc: "Updates an existing virtual cluster."
   returns:
     description: "the <xref uid=\"com.azure.core.util.polling.PollerFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PollerFlux\"></xref> for polling of an Azure SQL virtual cluster."
     type: "<xref href=\"com.azure.core.util.polling.PollerFlux?alt=com.azure.core.util.polling.PollerFlux&text=PollerFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdateDnsServers(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdateDnsServers(String resourceGroupName, String virtualClusterName)"
+  name: "beginUpdateDnsServers(String resourceGroupName, String virtualClusterName)"
+  nameWithType: "VirtualClustersClient.beginUpdateDnsServers(String resourceGroupName, String virtualClusterName)"
+  summary: "Synchronizes the DNS server settings used by the managed instances inside the given virtual cluster."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the virtual cluster."
+    name: "virtualClusterName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract SyncPoller<PollResult<UpdateVirtualClusterDnsServersOperationInner>,UpdateVirtualClusterDnsServersOperationInner> beginUpdateDnsServers(String resourceGroupName, String virtualClusterName)"
+  desc: "Synchronizes the DNS server settings used by the managed instances inside the given virtual cluster."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of a refresh DNS servers operation."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.UpdateVirtualClusterDnsServersOperationInner?alt=com.azure.resourcemanager.sql.fluent.models.UpdateVirtualClusterDnsServersOperationInner&text=UpdateVirtualClusterDnsServersOperationInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.UpdateVirtualClusterDnsServersOperationInner?alt=com.azure.resourcemanager.sql.fluent.models.UpdateVirtualClusterDnsServersOperationInner&text=UpdateVirtualClusterDnsServersOperationInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdateDnsServers(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdateDnsServers(String resourceGroupName, String virtualClusterName, Context context)"
+  name: "beginUpdateDnsServers(String resourceGroupName, String virtualClusterName, Context context)"
+  nameWithType: "VirtualClustersClient.beginUpdateDnsServers(String resourceGroupName, String virtualClusterName, Context context)"
+  summary: "Synchronizes the DNS server settings used by the managed instances inside the given virtual cluster."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the virtual cluster."
+    name: "virtualClusterName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract SyncPoller<PollResult<UpdateVirtualClusterDnsServersOperationInner>,UpdateVirtualClusterDnsServersOperationInner> beginUpdateDnsServers(String resourceGroupName, String virtualClusterName, Context context)"
+  desc: "Synchronizes the DNS server settings used by the managed instances inside the given virtual cluster."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SyncPoller\"></xref> for polling of a refresh DNS servers operation."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.UpdateVirtualClusterDnsServersOperationInner?alt=com.azure.resourcemanager.sql.fluent.models.UpdateVirtualClusterDnsServersOperationInner&text=UpdateVirtualClusterDnsServersOperationInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.UpdateVirtualClusterDnsServersOperationInner?alt=com.azure.resourcemanager.sql.fluent.models.UpdateVirtualClusterDnsServersOperationInner&text=UpdateVirtualClusterDnsServersOperationInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdateDnsServersAsync(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdateDnsServersAsync(String resourceGroupName, String virtualClusterName)"
+  name: "beginUpdateDnsServersAsync(String resourceGroupName, String virtualClusterName)"
+  nameWithType: "VirtualClustersClient.beginUpdateDnsServersAsync(String resourceGroupName, String virtualClusterName)"
+  summary: "Synchronizes the DNS server settings used by the managed instances inside the given virtual cluster."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the virtual cluster."
+    name: "virtualClusterName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract PollerFlux<PollResult<UpdateVirtualClusterDnsServersOperationInner>,UpdateVirtualClusterDnsServersOperationInner> beginUpdateDnsServersAsync(String resourceGroupName, String virtualClusterName)"
+  desc: "Synchronizes the DNS server settings used by the managed instances inside the given virtual cluster."
+  returns:
+    description: "the <xref uid=\"com.azure.core.util.polling.PollerFlux\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PollerFlux\"></xref> for polling of a refresh DNS servers operation."
+    type: "<xref href=\"com.azure.core.util.polling.PollerFlux?alt=com.azure.core.util.polling.PollerFlux&text=PollerFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.UpdateVirtualClusterDnsServersOperationInner?alt=com.azure.resourcemanager.sql.fluent.models.UpdateVirtualClusterDnsServersOperationInner&text=UpdateVirtualClusterDnsServersOperationInner\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"com.azure.resourcemanager.sql.fluent.models.UpdateVirtualClusterDnsServersOperationInner?alt=com.azure.resourcemanager.sql.fluent.models.UpdateVirtualClusterDnsServersOperationInner&text=UpdateVirtualClusterDnsServersOperationInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner)"
+  fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.createOrUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters)"
+  name: "createOrUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters)"
+  nameWithType: "VirtualClustersClient.createOrUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters)"
+  summary: "Creates virtual cluster."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the virtual cluster."
+    name: "virtualClusterName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The requested virtual cluster resource state."
+    name: "parameters"
+    type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract VirtualClusterInner createOrUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters)"
+  desc: "Creates virtual cluster."
+  returns:
+    description: "an Azure SQL virtual cluster."
+    type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.createOrUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters, Context context)"
+  name: "createOrUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters, Context context)"
+  nameWithType: "VirtualClustersClient.createOrUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters, Context context)"
+  summary: "Creates virtual cluster."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the virtual cluster."
+    name: "virtualClusterName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The requested virtual cluster resource state."
+    name: "parameters"
+    type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The context to associate with this operation."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract VirtualClusterInner createOrUpdate(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters, Context context)"
+  desc: "Creates virtual cluster."
+  returns:
+    description: "an Azure SQL virtual cluster."
+    type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner)"
+  fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.createOrUpdateAsync(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters)"
+  name: "createOrUpdateAsync(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters)"
+  nameWithType: "VirtualClustersClient.createOrUpdateAsync(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters)"
+  summary: "Creates virtual cluster."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the virtual cluster."
+    name: "virtualClusterName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The requested virtual cluster resource state."
+    name: "parameters"
+    type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Mono<VirtualClusterInner> createOrUpdateAsync(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters)"
+  desc: "Creates virtual cluster."
+  returns:
+    description: "an Azure SQL virtual cluster on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner)"
+  fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.createOrUpdateWithResponseAsync(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters)"
+  name: "createOrUpdateWithResponseAsync(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters)"
+  nameWithType: "VirtualClustersClient.createOrUpdateWithResponseAsync(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters)"
+  summary: "Creates virtual cluster."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the virtual cluster."
+    name: "virtualClusterName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The requested virtual cluster resource state."
+    name: "parameters"
+    type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> createOrUpdateWithResponseAsync(String resourceGroupName, String virtualClusterName, VirtualClusterInner parameters)"
+  desc: "Creates virtual cluster."
+  returns:
+    description: "an Azure SQL virtual cluster along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"reactor.core.publisher.Flux?alt=reactor.core.publisher.Flux&text=Flux\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/nio/ByteBuffer.html\">ByteBuffer</a>&gt;&gt;&gt;"
 - uid: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.delete(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.delete(String resourceGroupName, String virtualClusterName)"
   name: "delete(String resourceGroupName, String virtualClusterName)"
@@ -143,7 +363,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual cluster."
@@ -159,7 +379,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual cluster."
@@ -178,7 +398,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual cluster."
@@ -197,7 +417,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual cluster."
@@ -216,7 +436,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual cluster."
@@ -235,7 +455,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual cluster."
@@ -254,7 +474,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual cluster."
@@ -276,7 +496,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual cluster."
@@ -335,7 +555,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedIterable<VirtualClusterInner> listByResourceGroup(String resourceGroupName)"
@@ -351,7 +571,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The context to associate with this operation."
@@ -370,7 +590,7 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract PagedFlux<VirtualClusterInner> listByResourceGroupAsync(String resourceGroupName)"
@@ -382,11 +602,11 @@ methods:
   fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.update(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters)"
   name: "update(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters)"
   nameWithType: "VirtualClustersClient.update(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters)"
-  summary: "Updates a virtual cluster."
+  summary: "Updates an existing virtual cluster."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual cluster."
@@ -396,7 +616,7 @@ methods:
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.sql.models.VirtualClusterUpdate?alt=com.azure.resourcemanager.sql.models.VirtualClusterUpdate&text=VirtualClusterUpdate\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract VirtualClusterInner update(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters)"
-  desc: "Updates a virtual cluster."
+  desc: "Updates an existing virtual cluster."
   returns:
     description: "an Azure SQL virtual cluster."
     type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />"
@@ -404,11 +624,11 @@ methods:
   fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.update(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters, Context context)"
   name: "update(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters, Context context)"
   nameWithType: "VirtualClustersClient.update(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters, Context context)"
-  summary: "Updates a virtual cluster."
+  summary: "Updates an existing virtual cluster."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual cluster."
@@ -421,7 +641,7 @@ methods:
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract VirtualClusterInner update(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters, Context context)"
-  desc: "Updates a virtual cluster."
+  desc: "Updates an existing virtual cluster."
   returns:
     description: "an Azure SQL virtual cluster."
     type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />"
@@ -429,11 +649,11 @@ methods:
   fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.updateAsync(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters)"
   name: "updateAsync(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters)"
   nameWithType: "VirtualClustersClient.updateAsync(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters)"
-  summary: "Updates a virtual cluster."
+  summary: "Updates an existing virtual cluster."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual cluster."
@@ -443,7 +663,7 @@ methods:
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.sql.models.VirtualClusterUpdate?alt=com.azure.resourcemanager.sql.models.VirtualClusterUpdate&text=VirtualClusterUpdate\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Mono<VirtualClusterInner> updateAsync(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters)"
-  desc: "Updates a virtual cluster."
+  desc: "Updates an existing virtual cluster."
   returns:
     description: "an Azure SQL virtual cluster on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -455,45 +675,26 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual cluster."
     name: "virtualClusterName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract UpdateManagedInstanceDnsServersOperationInner updateDnsServers(String resourceGroupName, String virtualClusterName)"
+  syntax: "public abstract UpdateVirtualClusterDnsServersOperationInner updateDnsServers(String resourceGroupName, String virtualClusterName)"
   desc: "Synchronizes the DNS server settings used by the managed instances inside the given virtual cluster."
   returns:
-    description: "a recoverable managed database resource."
-    type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.UpdateManagedInstanceDnsServersOperationInner?alt=com.azure.resourcemanager.sql.fluent.models.UpdateManagedInstanceDnsServersOperationInner&text=UpdateManagedInstanceDnsServersOperationInner\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.updateDnsServersAsync(java.lang.String,java.lang.String)"
-  fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.updateDnsServersAsync(String resourceGroupName, String virtualClusterName)"
-  name: "updateDnsServersAsync(String resourceGroupName, String virtualClusterName)"
-  nameWithType: "VirtualClustersClient.updateDnsServersAsync(String resourceGroupName, String virtualClusterName)"
+    description: "a refresh DNS servers operation."
+    type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.UpdateVirtualClusterDnsServersOperationInner?alt=com.azure.resourcemanager.sql.fluent.models.UpdateVirtualClusterDnsServersOperationInner&text=UpdateVirtualClusterDnsServersOperationInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.updateDnsServers(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.updateDnsServers(String resourceGroupName, String virtualClusterName, Context context)"
+  name: "updateDnsServers(String resourceGroupName, String virtualClusterName, Context context)"
+  nameWithType: "VirtualClustersClient.updateDnsServers(String resourceGroupName, String virtualClusterName, Context context)"
   summary: "Synchronizes the DNS server settings used by the managed instances inside the given virtual cluster."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
-    name: "resourceGroupName"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  - description: "The name of the virtual cluster."
-    name: "virtualClusterName"
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract Mono<UpdateManagedInstanceDnsServersOperationInner> updateDnsServersAsync(String resourceGroupName, String virtualClusterName)"
-  desc: "Synchronizes the DNS server settings used by the managed instances inside the given virtual cluster."
-  returns:
-    description: "a recoverable managed database resource on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
-    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.UpdateManagedInstanceDnsServersOperationInner?alt=com.azure.resourcemanager.sql.fluent.models.UpdateManagedInstanceDnsServersOperationInner&text=UpdateManagedInstanceDnsServersOperationInner\" data-throw-if-not-resolved=\"False\" />&gt;"
-- uid: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.updateDnsServersWithResponse(java.lang.String,java.lang.String,com.azure.core.util.Context)"
-  fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.updateDnsServersWithResponse(String resourceGroupName, String virtualClusterName, Context context)"
-  name: "updateDnsServersWithResponse(String resourceGroupName, String virtualClusterName, Context context)"
-  nameWithType: "VirtualClustersClient.updateDnsServersWithResponse(String resourceGroupName, String virtualClusterName, Context context)"
-  summary: "Synchronizes the DNS server settings used by the managed instances inside the given virtual cluster."
-  modifiers:
-  - "abstract"
-  parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual cluster."
@@ -502,11 +703,30 @@ methods:
   - description: "The context to associate with this operation."
     name: "context"
     type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract Response<UpdateManagedInstanceDnsServersOperationInner> updateDnsServersWithResponse(String resourceGroupName, String virtualClusterName, Context context)"
+  syntax: "public abstract UpdateVirtualClusterDnsServersOperationInner updateDnsServers(String resourceGroupName, String virtualClusterName, Context context)"
   desc: "Synchronizes the DNS server settings used by the managed instances inside the given virtual cluster."
   returns:
-    description: "a recoverable managed database resource along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref>."
-    type: "<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.UpdateManagedInstanceDnsServersOperationInner?alt=com.azure.resourcemanager.sql.fluent.models.UpdateManagedInstanceDnsServersOperationInner&text=UpdateManagedInstanceDnsServersOperationInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+    description: "a refresh DNS servers operation."
+    type: "<xref href=\"com.azure.resourcemanager.sql.fluent.models.UpdateVirtualClusterDnsServersOperationInner?alt=com.azure.resourcemanager.sql.fluent.models.UpdateVirtualClusterDnsServersOperationInner&text=UpdateVirtualClusterDnsServersOperationInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.updateDnsServersAsync(java.lang.String,java.lang.String)"
+  fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.updateDnsServersAsync(String resourceGroupName, String virtualClusterName)"
+  name: "updateDnsServersAsync(String resourceGroupName, String virtualClusterName)"
+  nameWithType: "VirtualClustersClient.updateDnsServersAsync(String resourceGroupName, String virtualClusterName)"
+  summary: "Synchronizes the DNS server settings used by the managed instances inside the given virtual cluster."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The name of the resource group. The name is case insensitive."
+    name: "resourceGroupName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "The name of the virtual cluster."
+    name: "virtualClusterName"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract Mono<UpdateVirtualClusterDnsServersOperationInner> updateDnsServersAsync(String resourceGroupName, String virtualClusterName)"
+  desc: "Synchronizes the DNS server settings used by the managed instances inside the given virtual cluster."
+  returns:
+    description: "a refresh DNS servers operation on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.UpdateVirtualClusterDnsServersOperationInner?alt=com.azure.resourcemanager.sql.fluent.models.UpdateVirtualClusterDnsServersOperationInner&text=UpdateVirtualClusterDnsServersOperationInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.updateDnsServersWithResponseAsync(java.lang.String,java.lang.String)"
   fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.updateDnsServersWithResponseAsync(String resourceGroupName, String virtualClusterName)"
   name: "updateDnsServersWithResponseAsync(String resourceGroupName, String virtualClusterName)"
@@ -515,26 +735,26 @@ methods:
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual cluster."
     name: "virtualClusterName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract Mono<Response<UpdateManagedInstanceDnsServersOperationInner>> updateDnsServersWithResponseAsync(String resourceGroupName, String virtualClusterName)"
+  syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> updateDnsServersWithResponseAsync(String resourceGroupName, String virtualClusterName)"
   desc: "Synchronizes the DNS server settings used by the managed instances inside the given virtual cluster."
   returns:
-    description: "a recoverable managed database resource along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of\n <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
-    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.UpdateManagedInstanceDnsServersOperationInner?alt=com.azure.resourcemanager.sql.fluent.models.UpdateManagedInstanceDnsServersOperationInner&text=UpdateManagedInstanceDnsServersOperationInner\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+    description: "a refresh DNS servers operation along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"reactor.core.publisher.Flux?alt=reactor.core.publisher.Flux&text=Flux\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/nio/ByteBuffer.html\">ByteBuffer</a>&gt;&gt;&gt;"
 - uid: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.updateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate)"
   fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.updateWithResponseAsync(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters)"
   name: "updateWithResponseAsync(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters)"
   nameWithType: "VirtualClustersClient.updateWithResponseAsync(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters)"
-  summary: "Updates a virtual cluster."
+  summary: "Updates an existing virtual cluster."
   modifiers:
   - "abstract"
   parameters:
-  - description: "The name of the resource group that contains the resource. You can obtain this value\n from the Azure Resource Manager API or the portal."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - description: "The name of the virtual cluster."
@@ -544,7 +764,7 @@ methods:
     name: "parameters"
     type: "<xref href=\"com.azure.resourcemanager.sql.models.VirtualClusterUpdate?alt=com.azure.resourcemanager.sql.models.VirtualClusterUpdate&text=VirtualClusterUpdate\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Mono<Response<Flux<ByteBuffer>>> updateWithResponseAsync(String resourceGroupName, String virtualClusterName, VirtualClusterUpdate parameters)"
-  desc: "Updates a virtual cluster."
+  desc: "Updates an existing virtual cluster."
   returns:
     description: "an Azure SQL virtual cluster along with <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Response\"></xref> on successful completion of <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Mono\"></xref>."
     type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"reactor.core.publisher.Flux?alt=reactor.core.publisher.Flux&text=Flux\" data-throw-if-not-resolved=\"False\" />&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/nio/ByteBuffer.html\">ByteBuffer</a>&gt;&gt;&gt;"
@@ -556,4 +776,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.models.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.sql.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.53.10
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.54.0
