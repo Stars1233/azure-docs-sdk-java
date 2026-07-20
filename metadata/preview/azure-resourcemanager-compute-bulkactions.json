@@ -1,0 +1,35 @@
+{
+  "Name": "azure-resourcemanager-compute-bulkactions",
+  "Version": "1.0.0-beta.1",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/compute/azure-resourcemanager-compute-bulkactions",
+  "ServiceDirectory": "compute",
+  "ReadMePath": "sdk/compute/azure-resourcemanager-compute-bulkactions/README.md",
+  "ChangeLogPath": "sdk/compute/azure-resourcemanager-compute-bulkactions/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-compute-bulkactions",
+  "ReleaseStatus": "2026-07-01",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagercomputebulkactions }}",
+    "safeName": "azureresourcemanagercomputebulkactions",
+    "groupId": "com.azure.resourcemanager",
+    "name": "azure-resourcemanager-compute-bulkactions",
+    "triggeringPaths": [
+      "/sdk/compute/ci.yml"
+    ]
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": "specification/compute/resource-manager/Microsoft.Compute/Bulkactions",
+  "Namespaces": [
+    "com.azure.resourcemanager.compute.bulkactions",
+    "com.azure.resourcemanager.compute.bulkactions.fluent",
+    "com.azure.resourcemanager.compute.bulkactions.fluent.models",
+    "com.azure.resourcemanager.compute.bulkactions.models"
+  ]
+}
