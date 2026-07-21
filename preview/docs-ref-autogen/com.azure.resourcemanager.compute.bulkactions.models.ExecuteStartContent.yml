@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent"
+fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent"
+name: "ExecuteStartContent"
+nameWithType: "ExecuteStartContent"
+summary: "The Execute<wbr>Start<wbr>Request request for execute<wbr>Start operations."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ExecuteStartContent**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent&text=ExecuteStartContent\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent.ExecuteStartContent()"
+  fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent.ExecuteStartContent()"
+  name: "ExecuteStartContent()"
+  nameWithType: "ExecuteStartContent.ExecuteStartContent()"
+  summary: "Creates an instance of Execute<wbr>Start<wbr>Content class."
+  syntax: "public ExecuteStartContent()"
+  desc: "Creates an instance of ExecuteStartContent class."
+methods:
+- uid: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent.executionParameters()"
+  fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent.executionParameters()"
+  name: "executionParameters()"
+  nameWithType: "ExecuteStartContent.executionParameters()"
+  summary: "Get the execution<wbr>Parameters property: The execution parameters for the request."
+  syntax: "public ExecutionParameters executionParameters()"
+  desc: "Get the executionParameters property: The execution parameters for the request."
+  returns:
+    description: "the executionParameters value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters&text=ExecutionParameters\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ExecuteStartContent.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Execute<wbr>Start<wbr>Content from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ExecuteStartContent fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ExecuteStartContent from the JsonReader."
+  returns:
+    description: "An instance of ExecuteStartContent if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent&text=ExecuteStartContent\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent.resources()"
+  fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent.resources()"
+  name: "resources()"
+  nameWithType: "ExecuteStartContent.resources()"
+  summary: "Get the resources property: The resources for the request."
+  syntax: "public Resources resources()"
+  desc: "Get the resources property: The resources for the request."
+  returns:
+    description: "the resources value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.Resources?alt=com.azure.resourcemanager.compute.bulkactions.models.Resources&text=Resources\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ExecuteStartContent.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent.withExecutionParameters(com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters)"
+  fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent.withExecutionParameters(ExecutionParameters executionParameters)"
+  name: "withExecutionParameters(ExecutionParameters executionParameters)"
+  nameWithType: "ExecuteStartContent.withExecutionParameters(ExecutionParameters executionParameters)"
+  summary: "Set the execution<wbr>Parameters property: The execution parameters for the request."
+  parameters:
+  - description: "the executionParameters value to set."
+    name: "executionParameters"
+    type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecutionParameters&text=ExecutionParameters\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ExecuteStartContent withExecutionParameters(ExecutionParameters executionParameters)"
+  desc: "Set the executionParameters property: The execution parameters for the request."
+  returns:
+    description: "the ExecuteStartContent object itself."
+    type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent&text=ExecuteStartContent\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent.withResources(com.azure.resourcemanager.compute.bulkactions.models.Resources)"
+  fullName: "com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent.withResources(Resources resources)"
+  name: "withResources(Resources resources)"
+  nameWithType: "ExecuteStartContent.withResources(Resources resources)"
+  summary: "Set the resources property: The resources for the request."
+  parameters:
+  - description: "the resources value to set."
+    name: "resources"
+    type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.Resources?alt=com.azure.resourcemanager.compute.bulkactions.models.Resources&text=Resources\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ExecuteStartContent withResources(Resources resources)"
+  desc: "Set the resources property: The resources for the request."
+  returns:
+    description: "the ExecuteStartContent object itself."
+    type: "<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent&text=ExecuteStartContent\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The ExecuteStartRequest request for executeStart operations."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent?alt=com.azure.resourcemanager.compute.bulkactions.models.ExecuteStartContent&text=ExecuteStartContent\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.compute.bulkactions.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute-bulkactions:1.0.0-beta.1
