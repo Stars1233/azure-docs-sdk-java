@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-cosmos",
-  "Version": "2.54.2",
+  "Version": "2.55.0",
   "DevVersion": null,
   "DirectoryPath": "sdk/cosmos/azure-resourcemanager-cosmos",
   "ServiceDirectory": "cosmos/azure-resourcemanager-cosmos",
@@ -10,22 +10,22 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-cosmos",
-  "ReleaseStatus": "2026-03-30",
+  "ReleaseStatus": "2026-07-01",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "releaseInBatch": "${{ parameters.release_azureresourcemanagercosmos }}",
-    "safeName": "azureresourcemanagercosmos",
-    "groupId": "com.azure.resourcemanager",
+    "name": "azure-resourcemanager-cosmos",
     "triggeringPaths": [
       "/sdk/cosmos/azure-resourcemanager-cosmos/ci.yml"
     ],
-    "name": "azure-resourcemanager-cosmos"
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagercosmos",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagercosmos }}"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
-  "SpecProjectPath": null,
+  "SpecProjectPath": "specification/cosmos-db/resource-manager/Microsoft.DocumentDB/DocumentDB",
   "Namespaces": [
     "com.azure.resourcemanager.cosmos",
     "com.azure.resourcemanager.cosmos.fluent",
