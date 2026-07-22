@@ -1,6 +1,6 @@
 {
   "Name": "azure-resourcemanager-containerregistry",
-  "Version": "2.56.0-beta.1",
+  "Version": "2.56.0-beta.2",
   "DevVersion": null,
   "DirectoryPath": "sdk/containerregistry/azure-resourcemanager-containerregistry",
   "ServiceDirectory": "containerregistry",
@@ -10,20 +10,20 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-containerregistry",
-  "ReleaseStatus": "2026-03-20",
+  "ReleaseStatus": "2026-07-01",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": [
     "com.azure:azure-containers-containerregistry-perf",
     "com.azure:perf-test-core"
   ],
   "ArtifactDetails": {
-    "releaseInBatch": "${{ parameters.release_azureresourcemanagercontainerregistry }}",
     "triggeringPaths": [
       "/sdk/containerregistry/ci.yml"
     ],
-    "name": "azure-resourcemanager-containerregistry",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagercontainerregistry }}",
+    "safeName": "azureresourcemanagercontainerregistry",
     "groupId": "com.azure.resourcemanager",
-    "safeName": "azureresourcemanagercontainerregistry"
+    "name": "azure-resourcemanager-containerregistry"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
