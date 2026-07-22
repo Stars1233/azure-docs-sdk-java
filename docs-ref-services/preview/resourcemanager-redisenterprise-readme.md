@@ -1,17 +1,17 @@
 ---
-title: Azure Resource Manager RedisEnterprise client library for Java
+title: Azure Resource Manager Redis Enterprise client library for Java
 keywords: Azure, java, SDK, API, azure-resourcemanager-redisenterprise, redisenterprise
-ms.date: 05/06/2025
+ms.date: 07/22/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: redisenterprise
 ---
-# Azure Resource Manager RedisEnterprise client library for Java - version 2.1.0-beta.3 
+# Azure Resource Manager Redis Enterprise client library for Java - version 2.2.0-beta.1 
 
 
-Azure Resource Manager RedisEnterprise client library for Java.
+Azure Resource Manager Redis Enterprise client library for Java.
 
-This package contains Microsoft Azure SDK for RedisEnterprise Management SDK. REST API for managing Redis Enterprise resources in Azure. Package tag package-preview-2025-05-01. For documentation on how to use this package, please see [Azure Management Libraries for Java](https://aka.ms/azsdk/java/mgmt).
+This package contains Microsoft Azure SDK for Redis Enterprise Management SDK. REST API for managing Redis Enterprise resources in Azure. Package api-version 2026-06-01-preview. For documentation on how to use this package, please see [Azure Management Libraries for Java](https://aka.ms/azsdk/java/mgmt).
 
 ## We'd love to hear your feedback
 
@@ -41,7 +41,7 @@ Various documentation is available to help you get started
 <dependency>
     <groupId>com.azure.resourcemanager</groupId>
     <artifactId>azure-resourcemanager-redisenterprise</artifactId>
-    <version>2.1.0-beta.3</version>
+    <version>2.2.0-beta.1</version>
 </dependency>
 ```
 [//]: # ({x-version-update-end})
@@ -89,7 +89,7 @@ cluster = redisEnterpriseManager.redisEnterprises()
     .withMinimumTlsVersion(TlsVersion.ONE_TWO)
     .create();
 ```
-[Code snippets and samples](https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-redisenterprise_2.1.0-beta.3/sdk/redisenterprise/azure-resourcemanager-redisenterprise/SAMPLE.md)
+[Code snippets and samples](https://github.com/Azure/azure-sdk-for-java/blob/com.azure.resourcemanager+azure-resourcemanager-redisenterprise_2.2.0-beta.1/sdk/redisenterprise/azure-resourcemanager-redisenterprise/SAMPLE.md)
 
 
 ## Troubleshooting
@@ -111,12 +111,12 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
 [azure_subscription]: https://azure.microsoft.com/free/
-[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-redisenterprise_2.1.0-beta.3/sdk/identity/azure-identity
-[azure_identity_credentials]: https://github.com/Azure/azure-sdk-for-java/tree/azure-resourcemanager-redisenterprise_2.1.0-beta.3/sdk/identity/azure-identity#credentials
-[azure_core_http_netty]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-redisenterprise_2.1.0-beta.3/sdk/core/azure-core-http-netty
-[authenticate]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-redisenterprise_2.1.0-beta.3/sdk/resourcemanager/docs/AUTH.md
-[design]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-redisenterprise_2.1.0-beta.3/sdk/resourcemanager/docs/DESIGN.md
-[cg]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-redisenterprise_2.1.0-beta.3/CONTRIBUTING.md
+[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure.resourcemanager+azure-resourcemanager-redisenterprise_2.2.0-beta.1/sdk/identity/azure-identity
+[azure_identity_credentials]: https://github.com/Azure/azure-sdk-for-java/tree/com.azure.resourcemanager+azure-resourcemanager-redisenterprise_2.2.0-beta.1/sdk/identity/azure-identity#credentials
+[azure_core_http_netty]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure.resourcemanager+azure-resourcemanager-redisenterprise_2.2.0-beta.1/sdk/core/azure-core-http-netty
+[authenticate]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure.resourcemanager+azure-resourcemanager-redisenterprise_2.2.0-beta.1/sdk/resourcemanager/docs/AUTH.md
+[design]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure.resourcemanager+azure-resourcemanager-redisenterprise_2.2.0-beta.1/sdk/resourcemanager/docs/DESIGN.md
+[cg]: https://github.com/Azure/azure-sdk-for-java/blob/com.azure.resourcemanager+azure-resourcemanager-redisenterprise_2.2.0-beta.1/CONTRIBUTING.md
 [coc]: https://opensource.microsoft.com/codeofconduct/
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/
 
