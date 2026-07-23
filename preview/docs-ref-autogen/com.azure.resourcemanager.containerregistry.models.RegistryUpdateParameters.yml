@@ -452,10 +452,34 @@ methods:
   returns:
     description: "the RegistryUpdateParameters object itself."
     type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.RegistryUpdateParameters?alt=com.azure.resourcemanager.containerregistry.models.RegistryUpdateParameters&text=RegistryUpdateParameters\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerregistry.models.RegistryUpdateParameters.withWritableCacheRepos(com.azure.resourcemanager.containerregistry.models.WritableCacheRepos)"
+  fullName: "com.azure.resourcemanager.containerregistry.models.RegistryUpdateParameters.withWritableCacheRepos(WritableCacheRepos writableCacheRepos)"
+  name: "withWritableCacheRepos(WritableCacheRepos writableCacheRepos)"
+  nameWithType: "RegistryUpdateParameters.withWritableCacheRepos(WritableCacheRepos writableCacheRepos)"
+  summary: "Set the writable<wbr>Cache<wbr>Repos property: Whether to allow cache operations that write to repositories in this registry."
+  parameters:
+  - description: "the writableCacheRepos value to set."
+    name: "writableCacheRepos"
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.WritableCacheRepos?alt=com.azure.resourcemanager.containerregistry.models.WritableCacheRepos&text=WritableCacheRepos\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public RegistryUpdateParameters withWritableCacheRepos(WritableCacheRepos writableCacheRepos)"
+  desc: "Set the writableCacheRepos property: Whether to allow cache operations that write to repositories in this registry."
+  returns:
+    description: "the RegistryUpdateParameters object itself."
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.RegistryUpdateParameters?alt=com.azure.resourcemanager.containerregistry.models.RegistryUpdateParameters&text=RegistryUpdateParameters\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerregistry.models.RegistryUpdateParameters.writableCacheRepos()"
+  fullName: "com.azure.resourcemanager.containerregistry.models.RegistryUpdateParameters.writableCacheRepos()"
+  name: "writableCacheRepos()"
+  nameWithType: "RegistryUpdateParameters.writableCacheRepos()"
+  summary: "Get the writable<wbr>Cache<wbr>Repos property: Whether to allow cache operations that write to repositories in this registry."
+  syntax: "public WritableCacheRepos writableCacheRepos()"
+  desc: "Get the writableCacheRepos property: Whether to allow cache operations that write to repositories in this registry."
+  returns:
+    description: "the writableCacheRepos value."
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.WritableCacheRepos?alt=com.azure.resourcemanager.containerregistry.models.WritableCacheRepos&text=WritableCacheRepos\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "The parameters for updating a container registry."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.containerregistry.models.RegistryUpdateParameters?alt=com.azure.resourcemanager.containerregistry.models.RegistryUpdateParameters&text=RegistryUpdateParameters\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.containerregistry.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.56.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.56.0-beta.2

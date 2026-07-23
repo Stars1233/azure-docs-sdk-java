@@ -29,6 +29,7 @@ classes:
 - "com.azure.resourcemanager.containerservice.models.AgentPoolUpgradeSettings"
 - "com.azure.resourcemanager.containerservice.models.AgentPoolWindowsProfile"
 - "com.azure.resourcemanager.containerservice.models.ArtifactSource"
+- "com.azure.resourcemanager.containerservice.models.AutoScaleProfile"
 - "com.azure.resourcemanager.containerservice.models.AzureKeyVaultKms"
 - "com.azure.resourcemanager.containerservice.models.BackendPoolType"
 - "com.azure.resourcemanager.containerservice.models.ClusterUpgradeSettings"
@@ -138,6 +139,8 @@ classes:
 - "com.azure.resourcemanager.containerservice.models.ManagedClusterPropertiesAutoScalerProfile"
 - "com.azure.resourcemanager.containerservice.models.ManagedClusterSecurityProfile"
 - "com.azure.resourcemanager.containerservice.models.ManagedClusterSecurityProfileDefender"
+- "com.azure.resourcemanager.containerservice.models.ManagedClusterSecurityProfileDefenderSecurityGating"
+- "com.azure.resourcemanager.containerservice.models.ManagedClusterSecurityProfileDefenderSecurityGatingIdentity"
 - "com.azure.resourcemanager.containerservice.models.ManagedClusterSecurityProfileDefenderSecurityMonitoring"
 - "com.azure.resourcemanager.containerservice.models.ManagedClusterSecurityProfileImageCleaner"
 - "com.azure.resourcemanager.containerservice.models.ManagedClusterSecurityProfileWorkloadIdentity"
@@ -215,6 +218,9 @@ classes:
 - "com.azure.resourcemanager.containerservice.models.ScaleSetEvictionPolicy"
 - "com.azure.resourcemanager.containerservice.models.ScaleSetPriority"
 - "com.azure.resourcemanager.containerservice.models.Schedule"
+- "com.azure.resourcemanager.containerservice.models.SchedulerConfigMode"
+- "com.azure.resourcemanager.containerservice.models.SchedulerInstanceProfile"
+- "com.azure.resourcemanager.containerservice.models.SchedulerProfile"
 - "com.azure.resourcemanager.containerservice.models.ServiceMeshMode"
 - "com.azure.resourcemanager.containerservice.models.ServiceMeshProfile"
 - "com.azure.resourcemanager.containerservice.models.SnapshotType"
@@ -322,4 +328,4 @@ interfaces:
 desc: "Package containing the data models for ContainerService. The Container Service Client."
 metadata: {}
 package: "com.azure.resourcemanager.containerservice.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.61.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.62.0

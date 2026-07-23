@@ -10,13 +10,25 @@ methods:
   fullName: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.accessPolicyName()"
   name: "accessPolicyName()"
   nameWithType: "AccessPolicyAssignment.accessPolicyName()"
-  summary: "Gets the access<wbr>Policy<wbr>Name property: Name of access policy under specific access policy assignment."
+  summary: "Gets the access<wbr>Policy<wbr>Name property: \\*\\*Deprecated.\\*\\* This property always returns \"default\"."
   modifiers:
   - "abstract"
   syntax: "public abstract String accessPolicyName()"
-  desc: "Gets the accessPolicyName property: Name of access policy under specific access policy assignment. Only \"default\" policy is supported for now."
+  desc: "Gets the accessPolicyName property: \\*\\*Deprecated.\\*\\* This property always returns \"default\". Use \\`accessString\\` to configure custom Redis ACL permissions instead."
   returns:
     description: "the accessPolicyName value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.accessString()"
+  fullName: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.accessString()"
+  name: "accessString()"
+  nameWithType: "AccessPolicyAssignment.accessString()"
+  summary: "Gets the access<wbr>String property: The Redis ACL permissions string applied to this assignment, for example \\`+@read ~cache:\\*\\`."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String accessString()"
+  desc: "Gets the accessString property: The Redis ACL permissions string applied to this assignment, for example \\`+@read ~cache:\\*\\`. Defaults to \\`+@all ~\\*\\` if not specified."
+  returns:
+    description: "the accessString value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.id()"
   fullName: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.id()"
@@ -54,6 +66,18 @@ methods:
   returns:
     description: "the name value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.provisioningError()"
+  fullName: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.provisioningError()"
+  name: "provisioningError()"
+  nameWithType: "AccessPolicyAssignment.provisioningError()"
+  summary: "Gets the provisioning<wbr>Error property: Provisioning error details when the access string failed to apply (e.<wbr>g., invalid ACL syntax)."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract AccessPolicyAssignmentProvisioningError provisioningError()"
+  desc: "Gets the provisioningError property: Provisioning error details when the access string failed to apply (e.g., invalid ACL syntax). Null when provisioning succeeded."
+  returns:
+    description: "the provisioningError value."
+    type: "<xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentProvisioningError?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentProvisioningError&text=AccessPolicyAssignmentProvisioningError\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.provisioningState()"
   fullName: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.provisioningState()"
   name: "provisioningState()"
@@ -106,6 +130,18 @@ methods:
   returns:
     description: "the name of the resource group."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.systemData()"
+  fullName: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.systemData()"
+  name: "systemData()"
+  nameWithType: "AccessPolicyAssignment.systemData()"
+  summary: "Gets the system<wbr>Data property: Azure Resource Manager metadata containing created<wbr>By and modified<wbr>By information."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SystemData systemData()"
+  desc: "Gets the systemData property: Azure Resource Manager metadata containing createdBy and modifiedBy information."
+  returns:
+    description: "the systemData value."
+    type: "<xref href=\"com.azure.core.management.SystemData?alt=com.azure.core.management.SystemData&text=SystemData\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.type()"
   fullName: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.type()"
   name: "type()"
@@ -146,4 +182,4 @@ type: "interface"
 desc: "An immutable client-side representation of AccessPolicyAssignment."
 metadata: {}
 package: "com.azure.resourcemanager.redisenterprise.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-redisenterprise:2.1.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-redisenterprise:2.2.0-beta.1

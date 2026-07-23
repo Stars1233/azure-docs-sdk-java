@@ -159,6 +159,16 @@ methods:
   returns:
     description: "the hyperVGeneration value."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.HyperVGeneration?alt=com.azure.resourcemanager.compute.models.HyperVGeneration&text=HyperVGeneration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.fluent.models.SnapshotProperties.immutabilityPolicy()"
+  fullName: "com.azure.resourcemanager.compute.fluent.models.SnapshotProperties.immutabilityPolicy()"
+  name: "immutabilityPolicy()"
+  nameWithType: "SnapshotProperties.immutabilityPolicy()"
+  summary: "Get the immutability<wbr>Policy property: The immutability policy currently applied to this snapshot."
+  syntax: "public ImmutabilityPolicy immutabilityPolicy()"
+  desc: "Get the immutabilityPolicy property: The immutability policy currently applied to this snapshot. Present only when an immutability policy has been configured."
+  returns:
+    description: "the immutabilityPolicy value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.ImmutabilityPolicy?alt=com.azure.resourcemanager.compute.models.ImmutabilityPolicy&text=ImmutabilityPolicy\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.models.SnapshotProperties.incremental()"
   fullName: "com.azure.resourcemanager.compute.fluent.models.SnapshotProperties.incremental()"
   name: "incremental()"
@@ -552,4 +562,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.SnapshotProperties?alt=com.azure.resourcemanager.compute.fluent.models.SnapshotProperties&text=SnapshotProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.59.0

@@ -1,0 +1,29 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.UpdateStages.WithAccessString"
+fullName: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.UpdateStages.WithAccessString"
+name: "AccessPolicyAssignment.UpdateStages.WithAccessString"
+nameWithType: "AccessPolicyAssignment.UpdateStages.WithAccessString"
+summary: "The stage of the Access<wbr>Policy<wbr>Assignment update allowing to specify access<wbr>String."
+syntax: "public static interface **AccessPolicyAssignment.UpdateStages.WithAccessString**"
+methods:
+- uid: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.UpdateStages.WithAccessString.withAccessString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.UpdateStages.WithAccessString.withAccessString(String accessString)"
+  name: "withAccessString(String accessString)"
+  nameWithType: "AccessPolicyAssignment.UpdateStages.WithAccessString.withAccessString(String accessString)"
+  summary: "Specifies the access<wbr>String property: The Redis ACL permissions string applied to this assignment, for example \\`+@read ~cache:\\*\\`."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The Redis ACL permissions string applied to this assignment, for example `+&#064;read\n ~cache:*`. Defaults to `+&#064;all ~*` if not specified."
+    name: "accessString"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public abstract AccessPolicyAssignment.Update withAccessString(String accessString)"
+  desc: "Specifies the accessString property: The Redis ACL permissions string applied to this assignment, for example \\`+@read ~cache:\\*\\`. Defaults to \\`+@all ~\\*\\` if not specified.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.Update?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of the AccessPolicyAssignment update allowing to specify accessString."
+metadata: {}
+package: "com.azure.resourcemanager.redisenterprise.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-redisenterprise:2.2.0-beta.1

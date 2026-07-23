@@ -603,6 +603,20 @@ methods:
   syntax: "public RegistryInner withTags(Map<String,String> tags)"
   returns:
     type: "<xref href=\"com.azure.resourcemanager.containerregistry.fluent.models.RegistryInner?alt=com.azure.resourcemanager.containerregistry.fluent.models.RegistryInner&text=RegistryInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerregistry.fluent.models.RegistryInner.withWritableCacheRepos(com.azure.resourcemanager.containerregistry.models.WritableCacheRepos)"
+  fullName: "com.azure.resourcemanager.containerregistry.fluent.models.RegistryInner.withWritableCacheRepos(WritableCacheRepos writableCacheRepos)"
+  name: "withWritableCacheRepos(WritableCacheRepos writableCacheRepos)"
+  nameWithType: "RegistryInner.withWritableCacheRepos(WritableCacheRepos writableCacheRepos)"
+  summary: "Set the writable<wbr>Cache<wbr>Repos property: Whether to allow cache operations that write to repositories in this registry."
+  parameters:
+  - description: "the writableCacheRepos value to set."
+    name: "writableCacheRepos"
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.WritableCacheRepos?alt=com.azure.resourcemanager.containerregistry.models.WritableCacheRepos&text=WritableCacheRepos\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public RegistryInner withWritableCacheRepos(WritableCacheRepos writableCacheRepos)"
+  desc: "Set the writableCacheRepos property: Whether to allow cache operations that write to repositories in this registry."
+  returns:
+    description: "the RegistryInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.fluent.models.RegistryInner?alt=com.azure.resourcemanager.containerregistry.fluent.models.RegistryInner&text=RegistryInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerregistry.fluent.models.RegistryInner.withZoneRedundancy(com.azure.resourcemanager.containerregistry.models.ZoneRedundancy)"
   fullName: "com.azure.resourcemanager.containerregistry.fluent.models.RegistryInner.withZoneRedundancy(ZoneRedundancy zoneRedundancy)"
   name: "withZoneRedundancy(ZoneRedundancy zoneRedundancy)"
@@ -617,6 +631,16 @@ methods:
   returns:
     description: "the RegistryInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.containerregistry.fluent.models.RegistryInner?alt=com.azure.resourcemanager.containerregistry.fluent.models.RegistryInner&text=RegistryInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerregistry.fluent.models.RegistryInner.writableCacheRepos()"
+  fullName: "com.azure.resourcemanager.containerregistry.fluent.models.RegistryInner.writableCacheRepos()"
+  name: "writableCacheRepos()"
+  nameWithType: "RegistryInner.writableCacheRepos()"
+  summary: "Get the writable<wbr>Cache<wbr>Repos property: Whether to allow cache operations that write to repositories in this registry."
+  syntax: "public WritableCacheRepos writableCacheRepos()"
+  desc: "Get the writableCacheRepos property: Whether to allow cache operations that write to repositories in this registry."
+  returns:
+    description: "the writableCacheRepos value."
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.WritableCacheRepos?alt=com.azure.resourcemanager.containerregistry.models.WritableCacheRepos&text=WritableCacheRepos\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerregistry.fluent.models.RegistryInner.zoneRedundancy()"
   fullName: "com.azure.resourcemanager.containerregistry.fluent.models.RegistryInner.zoneRedundancy()"
   name: "zoneRedundancy()"
@@ -631,4 +655,4 @@ type: "class"
 desc: "An object that represents a container registry."
 metadata: {}
 package: "com.azure.resourcemanager.containerregistry.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.56.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.56.0-beta.2

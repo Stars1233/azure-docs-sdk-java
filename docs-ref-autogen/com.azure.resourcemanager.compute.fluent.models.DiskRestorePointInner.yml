@@ -191,6 +191,16 @@ methods:
   returns:
     description: "the securityProfile value."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskSecurityProfile?alt=com.azure.resourcemanager.compute.models.DiskSecurityProfile&text=DiskSecurityProfile\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.fluent.models.DiskRestorePointInner.snapshotAccessState()"
+  fullName: "com.azure.resourcemanager.compute.fluent.models.DiskRestorePointInner.snapshotAccessState()"
+  name: "snapshotAccessState()"
+  nameWithType: "DiskRestorePointInner.snapshotAccessState()"
+  summary: "Get the snapshot<wbr>Access<wbr>State property: The state of snapshot which determines the access availability of the snapshot."
+  syntax: "public SnapshotAccessState snapshotAccessState()"
+  desc: "Get the snapshotAccessState property: The state of snapshot which determines the access availability of the snapshot."
+  returns:
+    description: "the snapshotAccessState value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.SnapshotAccessState?alt=com.azure.resourcemanager.compute.models.SnapshotAccessState&text=SnapshotAccessState\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.models.DiskRestorePointInner.sourceResourceId()"
   fullName: "com.azure.resourcemanager.compute.fluent.models.DiskRestorePointInner.sourceResourceId()"
   name: "sourceResourceId()"
@@ -296,4 +306,4 @@ type: "class"
 desc: "Properties of disk restore point."
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.59.0

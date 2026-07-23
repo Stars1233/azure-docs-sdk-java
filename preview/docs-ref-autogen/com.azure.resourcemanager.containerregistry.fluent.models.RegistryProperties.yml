@@ -474,6 +474,20 @@ methods:
   returns:
     description: "the RegistryProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.containerregistry.fluent.models.RegistryProperties?alt=com.azure.resourcemanager.containerregistry.fluent.models.RegistryProperties&text=RegistryProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerregistry.fluent.models.RegistryProperties.withWritableCacheRepos(com.azure.resourcemanager.containerregistry.models.WritableCacheRepos)"
+  fullName: "com.azure.resourcemanager.containerregistry.fluent.models.RegistryProperties.withWritableCacheRepos(WritableCacheRepos writableCacheRepos)"
+  name: "withWritableCacheRepos(WritableCacheRepos writableCacheRepos)"
+  nameWithType: "RegistryProperties.withWritableCacheRepos(WritableCacheRepos writableCacheRepos)"
+  summary: "Set the writable<wbr>Cache<wbr>Repos property: Whether to allow cache operations that write to repositories in this registry."
+  parameters:
+  - description: "the writableCacheRepos value to set."
+    name: "writableCacheRepos"
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.WritableCacheRepos?alt=com.azure.resourcemanager.containerregistry.models.WritableCacheRepos&text=WritableCacheRepos\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public RegistryProperties withWritableCacheRepos(WritableCacheRepos writableCacheRepos)"
+  desc: "Set the writableCacheRepos property: Whether to allow cache operations that write to repositories in this registry."
+  returns:
+    description: "the RegistryProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.fluent.models.RegistryProperties?alt=com.azure.resourcemanager.containerregistry.fluent.models.RegistryProperties&text=RegistryProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerregistry.fluent.models.RegistryProperties.withZoneRedundancy(com.azure.resourcemanager.containerregistry.models.ZoneRedundancy)"
   fullName: "com.azure.resourcemanager.containerregistry.fluent.models.RegistryProperties.withZoneRedundancy(ZoneRedundancy zoneRedundancy)"
   name: "withZoneRedundancy(ZoneRedundancy zoneRedundancy)"
@@ -488,6 +502,16 @@ methods:
   returns:
     description: "the RegistryProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.containerregistry.fluent.models.RegistryProperties?alt=com.azure.resourcemanager.containerregistry.fluent.models.RegistryProperties&text=RegistryProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerregistry.fluent.models.RegistryProperties.writableCacheRepos()"
+  fullName: "com.azure.resourcemanager.containerregistry.fluent.models.RegistryProperties.writableCacheRepos()"
+  name: "writableCacheRepos()"
+  nameWithType: "RegistryProperties.writableCacheRepos()"
+  summary: "Get the writable<wbr>Cache<wbr>Repos property: Whether to allow cache operations that write to repositories in this registry."
+  syntax: "public WritableCacheRepos writableCacheRepos()"
+  desc: "Get the writableCacheRepos property: Whether to allow cache operations that write to repositories in this registry."
+  returns:
+    description: "the writableCacheRepos value."
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.WritableCacheRepos?alt=com.azure.resourcemanager.containerregistry.models.WritableCacheRepos&text=WritableCacheRepos\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerregistry.fluent.models.RegistryProperties.zoneRedundancy()"
   fullName: "com.azure.resourcemanager.containerregistry.fluent.models.RegistryProperties.zoneRedundancy()"
   name: "zoneRedundancy()"
@@ -504,4 +528,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.containerregistry.fluent.models.RegistryProperties?alt=com.azure.resourcemanager.containerregistry.fluent.models.RegistryProperties&text=RegistryProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.containerregistry.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.56.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.56.0-beta.2

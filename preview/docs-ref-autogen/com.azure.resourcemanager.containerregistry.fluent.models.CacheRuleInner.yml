@@ -38,6 +38,16 @@ constructors:
   syntax: "public CacheRuleInner()"
   desc: "Creates an instance of CacheRuleInner class."
 methods:
+- uid: "com.azure.resourcemanager.containerregistry.fluent.models.CacheRuleInner.additionalAuthenticationProperties()"
+  fullName: "com.azure.resourcemanager.containerregistry.fluent.models.CacheRuleInner.additionalAuthenticationProperties()"
+  name: "additionalAuthenticationProperties()"
+  nameWithType: "CacheRuleInner.additionalAuthenticationProperties()"
+  summary: "Get the additional<wbr>Authentication<wbr>Properties property: Authentication configuration used by the cache rule to access the upstream source repository."
+  syntax: "public AdditionalAuthenticationProperties additionalAuthenticationProperties()"
+  desc: "Get the additionalAuthenticationProperties property: Authentication configuration used by the cache rule to access the upstream source repository."
+  returns:
+    description: "the additionalAuthenticationProperties value."
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.AdditionalAuthenticationProperties?alt=com.azure.resourcemanager.containerregistry.models.AdditionalAuthenticationProperties&text=AdditionalAuthenticationProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerregistry.fluent.models.CacheRuleInner.creationDate()"
   fullName: "com.azure.resourcemanager.containerregistry.fluent.models.CacheRuleInner.creationDate()"
   name: "creationDate()"
@@ -180,6 +190,20 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.containerregistry.fluent.models.CacheRuleInner.withAdditionalAuthenticationProperties(com.azure.resourcemanager.containerregistry.models.AdditionalAuthenticationProperties)"
+  fullName: "com.azure.resourcemanager.containerregistry.fluent.models.CacheRuleInner.withAdditionalAuthenticationProperties(AdditionalAuthenticationProperties additionalAuthenticationProperties)"
+  name: "withAdditionalAuthenticationProperties(AdditionalAuthenticationProperties additionalAuthenticationProperties)"
+  nameWithType: "CacheRuleInner.withAdditionalAuthenticationProperties(AdditionalAuthenticationProperties additionalAuthenticationProperties)"
+  summary: "Set the additional<wbr>Authentication<wbr>Properties property: Authentication configuration used by the cache rule to access the upstream source repository."
+  parameters:
+  - description: "the additionalAuthenticationProperties value to set."
+    name: "additionalAuthenticationProperties"
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.AdditionalAuthenticationProperties?alt=com.azure.resourcemanager.containerregistry.models.AdditionalAuthenticationProperties&text=AdditionalAuthenticationProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public CacheRuleInner withAdditionalAuthenticationProperties(AdditionalAuthenticationProperties additionalAuthenticationProperties)"
+  desc: "Set the additionalAuthenticationProperties property: Authentication configuration used by the cache rule to access the upstream source repository."
+  returns:
+    description: "the CacheRuleInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.fluent.models.CacheRuleInner?alt=com.azure.resourcemanager.containerregistry.fluent.models.CacheRuleInner&text=CacheRuleInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerregistry.fluent.models.CacheRuleInner.withCredentialSetResourceId(java.lang.String)"
   fullName: "com.azure.resourcemanager.containerregistry.fluent.models.CacheRuleInner.withCredentialSetResourceId(String credentialSetResourceId)"
   name: "withCredentialSetResourceId(String credentialSetResourceId)"
@@ -240,4 +264,4 @@ type: "class"
 desc: "An object that represents a cache rule for a container registry."
 metadata: {}
 package: "com.azure.resourcemanager.containerregistry.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.56.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.56.0-beta.2

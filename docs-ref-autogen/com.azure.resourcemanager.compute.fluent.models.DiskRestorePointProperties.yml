@@ -161,6 +161,16 @@ methods:
   returns:
     description: "the securityProfile value."
     type: "<xref href=\"com.azure.resourcemanager.compute.models.DiskSecurityProfile?alt=com.azure.resourcemanager.compute.models.DiskSecurityProfile&text=DiskSecurityProfile\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.fluent.models.DiskRestorePointProperties.snapshotAccessState()"
+  fullName: "com.azure.resourcemanager.compute.fluent.models.DiskRestorePointProperties.snapshotAccessState()"
+  name: "snapshotAccessState()"
+  nameWithType: "DiskRestorePointProperties.snapshotAccessState()"
+  summary: "Get the snapshot<wbr>Access<wbr>State property: The state of snapshot which determines the access availability of the snapshot."
+  syntax: "public SnapshotAccessState snapshotAccessState()"
+  desc: "Get the snapshotAccessState property: The state of snapshot which determines the access availability of the snapshot."
+  returns:
+    description: "the snapshotAccessState value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.SnapshotAccessState?alt=com.azure.resourcemanager.compute.models.SnapshotAccessState&text=SnapshotAccessState\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.models.DiskRestorePointProperties.sourceResourceId()"
   fullName: "com.azure.resourcemanager.compute.fluent.models.DiskRestorePointProperties.sourceResourceId()"
   name: "sourceResourceId()"
@@ -246,4 +256,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.DiskRestorePointProperties?alt=com.azure.resourcemanager.compute.fluent.models.DiskRestorePointProperties&text=DiskRestorePointProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.59.0

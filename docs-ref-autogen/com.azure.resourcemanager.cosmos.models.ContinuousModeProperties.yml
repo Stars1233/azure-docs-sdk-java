@@ -53,9 +53,9 @@ methods:
   fullName: "com.azure.resourcemanager.cosmos.models.ContinuousModeProperties.tier()"
   name: "tier()"
   nameWithType: "ContinuousModeProperties.tier()"
-  summary: "Get the tier property: Enum to indicate type of Continuous backup mode."
+  summary: "Get the tier property: Enum to indicate type of Continuos backup mode."
   syntax: "public ContinuousTier tier()"
-  desc: "Get the tier property: Enum to indicate type of Continuous backup mode."
+  desc: "Get the tier property: Enum to indicate type of Continuos backup mode."
   returns:
     description: "the tier value."
     type: "<xref href=\"com.azure.resourcemanager.cosmos.models.ContinuousTier?alt=com.azure.resourcemanager.cosmos.models.ContinuousTier&text=ContinuousTier\" data-throw-if-not-resolved=\"False\" />"
@@ -82,13 +82,13 @@ methods:
   fullName: "com.azure.resourcemanager.cosmos.models.ContinuousModeProperties.withTier(ContinuousTier tier)"
   name: "withTier(ContinuousTier tier)"
   nameWithType: "ContinuousModeProperties.withTier(ContinuousTier tier)"
-  summary: "Set the tier property: Enum to indicate type of Continuous backup mode."
+  summary: "Set the tier property: Enum to indicate type of Continuos backup mode."
   parameters:
   - description: "the tier value to set."
     name: "tier"
     type: "<xref href=\"com.azure.resourcemanager.cosmos.models.ContinuousTier?alt=com.azure.resourcemanager.cosmos.models.ContinuousTier&text=ContinuousTier\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ContinuousModeProperties withTier(ContinuousTier tier)"
-  desc: "Set the tier property: Enum to indicate type of Continuous backup mode."
+  desc: "Set the tier property: Enum to indicate type of Continuos backup mode."
   returns:
     description: "the ContinuousModeProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.cosmos.models.ContinuousModeProperties?alt=com.azure.resourcemanager.cosmos.models.ContinuousModeProperties&text=ContinuousModeProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -98,4 +98,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.cosmos.models.ContinuousModeProperties?alt=com.azure.resourcemanager.cosmos.models.ContinuousModeProperties&text=ContinuousModeProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.cosmos.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.54.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.55.0

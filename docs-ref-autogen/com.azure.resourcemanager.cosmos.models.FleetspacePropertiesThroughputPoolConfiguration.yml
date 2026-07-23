@@ -30,6 +30,16 @@ constructors:
   syntax: "public FleetspacePropertiesThroughputPoolConfiguration()"
   desc: "Creates an instance of FleetspacePropertiesThroughputPoolConfiguration class."
 methods:
+- uid: "com.azure.resourcemanager.cosmos.models.FleetspacePropertiesThroughputPoolConfiguration.dedicatedRUs()"
+  fullName: "com.azure.resourcemanager.cosmos.models.FleetspacePropertiesThroughputPoolConfiguration.dedicatedRUs()"
+  name: "dedicatedRUs()"
+  nameWithType: "FleetspacePropertiesThroughputPoolConfiguration.dedicatedRUs()"
+  summary: "Get the dedicated<wbr>RUs property: Total dedicated throughput (RU/s) for fleetspace."
+  syntax: "public Long dedicatedRUs()"
+  desc: "Get the dedicatedRUs property: Total dedicated throughput (RU/s) for fleetspace. Represents the sum of all manual provisioned throughput and all autoscale max RU/s across all shared throughput databases and dedicated throughput containers across all accounts in the fleetspace for 1 region."
+  returns:
+    description: "the dedicatedRUs value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
 - uid: "com.azure.resourcemanager.cosmos.models.FleetspacePropertiesThroughputPoolConfiguration.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.cosmos.models.FleetspacePropertiesThroughputPoolConfiguration.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -49,6 +59,16 @@ methods:
   returns:
     description: "An instance of FleetspacePropertiesThroughputPoolConfiguration if the JsonReader was pointing to an\n instance of it, or null if it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.cosmos.models.FleetspacePropertiesThroughputPoolConfiguration?alt=com.azure.resourcemanager.cosmos.models.FleetspacePropertiesThroughputPoolConfiguration&text=FleetspacePropertiesThroughputPoolConfiguration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.cosmos.models.FleetspacePropertiesThroughputPoolConfiguration.maxConsumableRUs()"
+  fullName: "com.azure.resourcemanager.cosmos.models.FleetspacePropertiesThroughputPoolConfiguration.maxConsumableRUs()"
+  name: "maxConsumableRUs()"
+  nameWithType: "FleetspacePropertiesThroughputPoolConfiguration.maxConsumableRUs()"
+  summary: "Get the max<wbr>Consumable<wbr>RUs property: Maximum consumable throughput (RU/s) for fleetspace."
+  syntax: "public Long maxConsumableRUs()"
+  desc: "Get the maxConsumableRUs property: Maximum consumable throughput (RU/s) for fleetspace. Represents the maximum throughput that resources in the fleetspace can consume from the fleetspace's pool in 1 region."
+  returns:
+    description: "the maxConsumableRUs value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
 - uid: "com.azure.resourcemanager.cosmos.models.FleetspacePropertiesThroughputPoolConfiguration.maxThroughput()"
   fullName: "com.azure.resourcemanager.cosmos.models.FleetspacePropertiesThroughputPoolConfiguration.maxThroughput()"
   name: "maxThroughput()"
@@ -88,6 +108,34 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.cosmos.models.FleetspacePropertiesThroughputPoolConfiguration.withDedicatedRUs(java.lang.Long)"
+  fullName: "com.azure.resourcemanager.cosmos.models.FleetspacePropertiesThroughputPoolConfiguration.withDedicatedRUs(Long dedicatedRUs)"
+  name: "withDedicatedRUs(Long dedicatedRUs)"
+  nameWithType: "FleetspacePropertiesThroughputPoolConfiguration.withDedicatedRUs(Long dedicatedRUs)"
+  summary: "Set the dedicated<wbr>RUs property: Total dedicated throughput (RU/s) for fleetspace."
+  parameters:
+  - description: "the dedicatedRUs value to set."
+    name: "dedicatedRUs"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
+  syntax: "public FleetspacePropertiesThroughputPoolConfiguration withDedicatedRUs(Long dedicatedRUs)"
+  desc: "Set the dedicatedRUs property: Total dedicated throughput (RU/s) for fleetspace. Represents the sum of all manual provisioned throughput and all autoscale max RU/s across all shared throughput databases and dedicated throughput containers across all accounts in the fleetspace for 1 region."
+  returns:
+    description: "the FleetspacePropertiesThroughputPoolConfiguration object itself."
+    type: "<xref href=\"com.azure.resourcemanager.cosmos.models.FleetspacePropertiesThroughputPoolConfiguration?alt=com.azure.resourcemanager.cosmos.models.FleetspacePropertiesThroughputPoolConfiguration&text=FleetspacePropertiesThroughputPoolConfiguration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.cosmos.models.FleetspacePropertiesThroughputPoolConfiguration.withMaxConsumableRUs(java.lang.Long)"
+  fullName: "com.azure.resourcemanager.cosmos.models.FleetspacePropertiesThroughputPoolConfiguration.withMaxConsumableRUs(Long maxConsumableRUs)"
+  name: "withMaxConsumableRUs(Long maxConsumableRUs)"
+  nameWithType: "FleetspacePropertiesThroughputPoolConfiguration.withMaxConsumableRUs(Long maxConsumableRUs)"
+  summary: "Set the max<wbr>Consumable<wbr>RUs property: Maximum consumable throughput (RU/s) for fleetspace."
+  parameters:
+  - description: "the maxConsumableRUs value to set."
+    name: "maxConsumableRUs"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html\">Long</a>"
+  syntax: "public FleetspacePropertiesThroughputPoolConfiguration withMaxConsumableRUs(Long maxConsumableRUs)"
+  desc: "Set the maxConsumableRUs property: Maximum consumable throughput (RU/s) for fleetspace. Represents the maximum throughput that resources in the fleetspace can consume from the fleetspace's pool in 1 region."
+  returns:
+    description: "the FleetspacePropertiesThroughputPoolConfiguration object itself."
+    type: "<xref href=\"com.azure.resourcemanager.cosmos.models.FleetspacePropertiesThroughputPoolConfiguration?alt=com.azure.resourcemanager.cosmos.models.FleetspacePropertiesThroughputPoolConfiguration&text=FleetspacePropertiesThroughputPoolConfiguration\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.cosmos.models.FleetspacePropertiesThroughputPoolConfiguration.withMaxThroughput(java.lang.Integer)"
   fullName: "com.azure.resourcemanager.cosmos.models.FleetspacePropertiesThroughputPoolConfiguration.withMaxThroughput(Integer maxThroughput)"
   name: "withMaxThroughput(Integer maxThroughput)"
@@ -122,4 +170,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.cosmos.models.FleetspacePropertiesThroughputPoolConfiguration?alt=com.azure.resourcemanager.cosmos.models.FleetspacePropertiesThroughputPoolConfiguration&text=FleetspacePropertiesThroughputPoolConfiguration\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.cosmos.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.54.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.55.0

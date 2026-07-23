@@ -11,10 +11,12 @@ methods:
   name: "withUnmanagedDisks()"
   nameWithType: "VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManagedOrUnmanaged.withUnmanagedDisks()"
   summary: "Enables unmanaged disks."
+  deprecatedTag: "Unmanaged disks are deprecated by Azure and being retired. Use managed disks instead. See [Unmanaged disks deprecation][].\n\n\n[Unmanaged disks deprecation]: https://learn.microsoft.com/azure/virtual-machines/unmanaged-disks-deprecation"
   modifiers:
   - "abstract"
-  syntax: "public abstract VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateUnmanaged withUnmanagedDisks()"
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public abstract VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateUnmanaged withUnmanagedDisks()"
   desc: "Enables unmanaged disks."
+  hasDeprecatedTag: true
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateUnmanaged?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateUnmanaged&text=WithWindowsCreateUnmanaged\" data-throw-if-not-resolved=\"False\" />"
@@ -24,4 +26,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged&text=WithWindowsCreateManaged\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.59.0

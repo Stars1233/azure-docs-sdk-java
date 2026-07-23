@@ -74,6 +74,7 @@ classes:
 - "com.azure.resourcemanager.compute.models.ComputeSkuTier"
 - "com.azure.resourcemanager.compute.models.ComputeUsageUnit"
 - "com.azure.resourcemanager.compute.models.ConfidentialVMEncryptionType"
+- "com.azure.resourcemanager.compute.models.ConfidentialVMVersion"
 - "com.azure.resourcemanager.compute.models.ConsistencyModeTypes"
 - "com.azure.resourcemanager.compute.models.ConvertToVirtualMachineScaleSetInput"
 - "com.azure.resourcemanager.compute.models.CopyCompletionError"
@@ -212,6 +213,10 @@ classes:
 - "com.azure.resourcemanager.compute.models.ImageStorageProfile"
 - "com.azure.resourcemanager.compute.models.ImageUpdate"
 - "com.azure.resourcemanager.compute.models.ImageVersionSecurityProfile"
+- "com.azure.resourcemanager.compute.models.ImmutabilityPolicy"
+- "com.azure.resourcemanager.compute.models.ImmutabilityPolicyData"
+- "com.azure.resourcemanager.compute.models.ImmutabilityPolicyLockData"
+- "com.azure.resourcemanager.compute.models.ImmutabilityPolicyType"
 - "com.azure.resourcemanager.compute.models.InnerError"
 - "com.azure.resourcemanager.compute.models.InstanceSku"
 - "com.azure.resourcemanager.compute.models.InstanceViewStatus"
@@ -1086,4 +1091,4 @@ interfaces:
 desc: "Package containing the data models for Compute. Compute Client."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.59.0

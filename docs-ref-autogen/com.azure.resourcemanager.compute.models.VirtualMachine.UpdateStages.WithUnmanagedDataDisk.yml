@@ -11,14 +11,16 @@ methods:
   name: "defineUnmanagedDataDisk(String name)"
   nameWithType: "VirtualMachine.UpdateStages.WithUnmanagedDataDisk.defineUnmanagedDataDisk(String name)"
   summary: "Begins the definition of a blank unmanaged data disk to be attached to the virtual machine along with its configuration."
+  deprecatedTag: "Unmanaged disks are deprecated by Azure and being retired. Use managed disks instead. See [Unmanaged disks deprecation][].\n\n\n[Unmanaged disks deprecation]: https://learn.microsoft.com/azure/virtual-machines/unmanaged-disks-deprecation"
   modifiers:
   - "abstract"
   parameters:
   - description: "the name for the data disk"
     name: "name"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract VirtualMachineUnmanagedDataDisk.UpdateDefinitionStages.Blank<VirtualMachine.Update> defineUnmanagedDataDisk(String name)"
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public abstract VirtualMachineUnmanagedDataDisk.UpdateDefinitionStages.Blank<VirtualMachine.Update> defineUnmanagedDataDisk(String name)"
   desc: "Begins the definition of a blank unmanaged data disk to be attached to the virtual machine along with its configuration."
+  hasDeprecatedTag: true
   returns:
     description: "the first stage of the data disk definition"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineUnmanagedDataDisk.UpdateDefinitionStages.Blank?alt=com.azure.resourcemanager.compute.models.VirtualMachineUnmanagedDataDisk.UpdateDefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachine.Update?alt=com.azure.resourcemanager.compute.models.VirtualMachine.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -43,6 +45,7 @@ methods:
   name: "withExistingUnmanagedDataDisk(String storageAccountName, String containerName, String vhdName)"
   nameWithType: "VirtualMachine.UpdateStages.WithUnmanagedDataDisk.withExistingUnmanagedDataDisk(String storageAccountName, String containerName, String vhdName)"
   summary: "Specifies an existing VHD that needs to be attached to the virtual machine as data disk."
+  deprecatedTag: "Unmanaged disks are deprecated by Azure and being retired. Use managed disks instead. See [Unmanaged disks deprecation][].\n\n\n[Unmanaged disks deprecation]: https://learn.microsoft.com/azure/virtual-machines/unmanaged-disks-deprecation"
   modifiers:
   - "abstract"
   parameters:
@@ -55,8 +58,9 @@ methods:
   - description: "the name for the VHD file"
     name: "vhdName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
-  syntax: "public abstract VirtualMachine.Update withExistingUnmanagedDataDisk(String storageAccountName, String containerName, String vhdName)"
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public abstract VirtualMachine.Update withExistingUnmanagedDataDisk(String storageAccountName, String containerName, String vhdName)"
   desc: "Specifies an existing VHD that needs to be attached to the virtual machine as data disk."
+  hasDeprecatedTag: true
   returns:
     description: "the stage representing creatable VM definition"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachine.Update?alt=com.azure.resourcemanager.compute.models.VirtualMachine.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
@@ -65,14 +69,16 @@ methods:
   name: "withNewUnmanagedDataDisk(Integer sizeInGB)"
   nameWithType: "VirtualMachine.UpdateStages.WithUnmanagedDataDisk.withNewUnmanagedDataDisk(Integer sizeInGB)"
   summary: "Specifies that a new blank unmanaged data disk needs to be attached to virtual machine."
+  deprecatedTag: "Unmanaged disks are deprecated by Azure and being retired. Use managed disks instead. See [Unmanaged disks deprecation][].\n\n\n[Unmanaged disks deprecation]: https://learn.microsoft.com/azure/virtual-machines/unmanaged-disks-deprecation"
   modifiers:
   - "abstract"
   parameters:
   - description: "the disk size in GB"
     name: "sizeInGB"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>"
-  syntax: "public abstract VirtualMachine.Update withNewUnmanagedDataDisk(Integer sizeInGB)"
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public abstract VirtualMachine.Update withNewUnmanagedDataDisk(Integer sizeInGB)"
   desc: "Specifies that a new blank unmanaged data disk needs to be attached to virtual machine."
+  hasDeprecatedTag: true
   returns:
     description: "the stage representing creatable VM definition"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachine.Update?alt=com.azure.resourcemanager.compute.models.VirtualMachine.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
@@ -112,4 +118,4 @@ type: "interface"
 desc: "The stage of a virtual machine definition allowing to specify unmanaged data disk configuration."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.59.0

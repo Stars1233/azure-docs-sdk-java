@@ -4,7 +4,7 @@ fullName: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignme
 name: "AccessPolicyAssignment.Update"
 nameWithType: "AccessPolicyAssignment.Update"
 summary: "The template for Access<wbr>Policy<wbr>Assignment update."
-syntax: "public static interface **AccessPolicyAssignment.Update**</br> extends <xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.UpdateStages.WithAccessPolicyName?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.UpdateStages.WithAccessPolicyName&text=WithAccessPolicyName\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.UpdateStages.WithUser?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.UpdateStages.WithUser&text=WithUser\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public static interface **AccessPolicyAssignment.Update**</br> extends <xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.UpdateStages.WithAccessPolicyName?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.UpdateStages.WithAccessPolicyName&text=WithAccessPolicyName\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.UpdateStages.WithAccessString?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.UpdateStages.WithAccessString&text=WithAccessString\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.UpdateStages.WithUser?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.UpdateStages.WithUser&text=WithUser\" data-throw-if-not-resolved=\"False\" />"
 methods:
 - uid: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.Update.apply()"
   fullName: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.Update.apply()"
@@ -38,7 +38,8 @@ type: "interface"
 desc: "The template for AccessPolicyAssignment update."
 implements:
 - "<xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.UpdateStages.WithAccessPolicyName?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.UpdateStages.WithAccessPolicyName&text=WithAccessPolicyName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.UpdateStages.WithAccessString?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.UpdateStages.WithAccessString&text=WithAccessString\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.UpdateStages.WithUser?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.UpdateStages.WithUser&text=WithUser\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.redisenterprise.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-redisenterprise:2.1.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-redisenterprise:2.2.0-beta.1

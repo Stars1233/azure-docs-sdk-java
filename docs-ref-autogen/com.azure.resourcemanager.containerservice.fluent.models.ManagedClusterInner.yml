@@ -496,6 +496,16 @@ methods:
   returns:
     description: "the resourceUID value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterInner.schedulerProfile()"
+  fullName: "com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterInner.schedulerProfile()"
+  name: "schedulerProfile()"
+  nameWithType: "ManagedClusterInner.schedulerProfile()"
+  summary: "Get the scheduler<wbr>Profile property: Profile with scheduler-related settings, like the configuration mode for each scheduler managed by AKS."
+  syntax: "public SchedulerProfile schedulerProfile()"
+  desc: "Get the schedulerProfile property: Profile with scheduler-related settings, like the configuration mode for each scheduler managed by AKS. See https://aka.ms/aks/scheduler-profile."
+  returns:
+    description: "the schedulerProfile value."
+    type: "<xref href=\"com.azure.resourcemanager.containerservice.models.SchedulerProfile?alt=com.azure.resourcemanager.containerservice.models.SchedulerProfile&text=SchedulerProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterInner.securityProfile()"
   fullName: "com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterInner.securityProfile()"
   name: "securityProfile()"
@@ -1086,6 +1096,20 @@ methods:
   returns:
     description: "the ManagedClusterInner object itself."
     type: "<xref href=\"com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterInner?alt=com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterInner&text=ManagedClusterInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterInner.withSchedulerProfile(com.azure.resourcemanager.containerservice.models.SchedulerProfile)"
+  fullName: "com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterInner.withSchedulerProfile(SchedulerProfile schedulerProfile)"
+  name: "withSchedulerProfile(SchedulerProfile schedulerProfile)"
+  nameWithType: "ManagedClusterInner.withSchedulerProfile(SchedulerProfile schedulerProfile)"
+  summary: "Set the scheduler<wbr>Profile property: Profile with scheduler-related settings, like the configuration mode for each scheduler managed by AKS."
+  parameters:
+  - description: "the schedulerProfile value to set."
+    name: "schedulerProfile"
+    type: "<xref href=\"com.azure.resourcemanager.containerservice.models.SchedulerProfile?alt=com.azure.resourcemanager.containerservice.models.SchedulerProfile&text=SchedulerProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ManagedClusterInner withSchedulerProfile(SchedulerProfile schedulerProfile)"
+  desc: "Set the schedulerProfile property: Profile with scheduler-related settings, like the configuration mode for each scheduler managed by AKS. See https://aka.ms/aks/scheduler-profile."
+  returns:
+    description: "the ManagedClusterInner object itself."
+    type: "<xref href=\"com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterInner?alt=com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterInner&text=ManagedClusterInner\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterInner.withSecurityProfile(com.azure.resourcemanager.containerservice.models.ManagedClusterSecurityProfile)"
   fullName: "com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterInner.withSecurityProfile(ManagedClusterSecurityProfile securityProfile)"
   name: "withSecurityProfile(ManagedClusterSecurityProfile securityProfile)"
@@ -1251,4 +1275,4 @@ type: "class"
 desc: "Managed cluster."
 metadata: {}
 package: "com.azure.resourcemanager.containerservice.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.61.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.62.0

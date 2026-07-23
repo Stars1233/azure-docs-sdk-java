@@ -30,6 +30,16 @@ constructors:
   syntax: "public CacheRuleUpdateParameters()"
   desc: "Creates an instance of CacheRuleUpdateParameters class."
 methods:
+- uid: "com.azure.resourcemanager.containerregistry.models.CacheRuleUpdateParameters.additionalAuthenticationProperties()"
+  fullName: "com.azure.resourcemanager.containerregistry.models.CacheRuleUpdateParameters.additionalAuthenticationProperties()"
+  name: "additionalAuthenticationProperties()"
+  nameWithType: "CacheRuleUpdateParameters.additionalAuthenticationProperties()"
+  summary: "Get the additional<wbr>Authentication<wbr>Properties property: Authentication configuration used by the cache rule to access the upstream source repository."
+  syntax: "public AdditionalAuthenticationProperties additionalAuthenticationProperties()"
+  desc: "Get the additionalAuthenticationProperties property: Authentication configuration used by the cache rule to access the upstream source repository."
+  returns:
+    description: "the additionalAuthenticationProperties value."
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.AdditionalAuthenticationProperties?alt=com.azure.resourcemanager.containerregistry.models.AdditionalAuthenticationProperties&text=AdditionalAuthenticationProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerregistry.models.CacheRuleUpdateParameters.credentialSetResourceId()"
   fullName: "com.azure.resourcemanager.containerregistry.models.CacheRuleUpdateParameters.credentialSetResourceId()"
   name: "credentialSetResourceId()"
@@ -88,6 +98,20 @@ methods:
   summary: "Validates the instance."
   syntax: "public void validate()"
   desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.containerregistry.models.CacheRuleUpdateParameters.withAdditionalAuthenticationProperties(com.azure.resourcemanager.containerregistry.models.AdditionalAuthenticationProperties)"
+  fullName: "com.azure.resourcemanager.containerregistry.models.CacheRuleUpdateParameters.withAdditionalAuthenticationProperties(AdditionalAuthenticationProperties additionalAuthenticationProperties)"
+  name: "withAdditionalAuthenticationProperties(AdditionalAuthenticationProperties additionalAuthenticationProperties)"
+  nameWithType: "CacheRuleUpdateParameters.withAdditionalAuthenticationProperties(AdditionalAuthenticationProperties additionalAuthenticationProperties)"
+  summary: "Set the additional<wbr>Authentication<wbr>Properties property: Authentication configuration used by the cache rule to access the upstream source repository."
+  parameters:
+  - description: "the additionalAuthenticationProperties value to set."
+    name: "additionalAuthenticationProperties"
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.AdditionalAuthenticationProperties?alt=com.azure.resourcemanager.containerregistry.models.AdditionalAuthenticationProperties&text=AdditionalAuthenticationProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public CacheRuleUpdateParameters withAdditionalAuthenticationProperties(AdditionalAuthenticationProperties additionalAuthenticationProperties)"
+  desc: "Set the additionalAuthenticationProperties property: Authentication configuration used by the cache rule to access the upstream source repository."
+  returns:
+    description: "the CacheRuleUpdateParameters object itself."
+    type: "<xref href=\"com.azure.resourcemanager.containerregistry.models.CacheRuleUpdateParameters?alt=com.azure.resourcemanager.containerregistry.models.CacheRuleUpdateParameters&text=CacheRuleUpdateParameters\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerregistry.models.CacheRuleUpdateParameters.withCredentialSetResourceId(java.lang.String)"
   fullName: "com.azure.resourcemanager.containerregistry.models.CacheRuleUpdateParameters.withCredentialSetResourceId(String credentialSetResourceId)"
   name: "withCredentialSetResourceId(String credentialSetResourceId)"
@@ -122,4 +146,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.containerregistry.models.CacheRuleUpdateParameters?alt=com.azure.resourcemanager.containerregistry.models.CacheRuleUpdateParameters&text=CacheRuleUpdateParameters\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.containerregistry.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.56.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.56.0-beta.2

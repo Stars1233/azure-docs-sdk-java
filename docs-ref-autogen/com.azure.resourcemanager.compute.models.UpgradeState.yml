@@ -49,6 +49,12 @@ fields:
   nameWithType: "UpgradeState.FAULTED"
   summary: "Enum value Faulted."
   desc: "Enum value Faulted."
+- uid: "com.azure.resourcemanager.compute.models.UpgradeState.ROLLING_BACK"
+  fullName: "com.azure.resourcemanager.compute.models.UpgradeState.ROLLING_BACK"
+  name: "ROLLING_BACK"
+  nameWithType: "UpgradeState.ROLLING_BACK"
+  summary: "Enum value Rolling<wbr>Back."
+  desc: "Enum value RollingBack."
 - uid: "com.azure.resourcemanager.compute.models.UpgradeState.ROLLING_FORWARD"
   fullName: "com.azure.resourcemanager.compute.models.UpgradeState.ROLLING_FORWARD"
   name: "ROLLING_FORWARD"
@@ -104,4 +110,4 @@ methods:
 desc: "Code indicating the current status of the upgrade."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.59.0

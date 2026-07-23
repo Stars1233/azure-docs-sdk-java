@@ -11,10 +11,12 @@ methods:
   name: "withUnmanagedDisks()"
   nameWithType: "VirtualMachine.DefinitionStages.WithFromImageCreateOptionsManagedOrUnmanaged.withUnmanagedDisks()"
   summary: "Specifies that unmanaged disks will be used."
+  deprecatedTag: "Unmanaged disks are deprecated by Azure and being retired. Use managed disks instead. See [Unmanaged disks deprecation][].\n\n\n[Unmanaged disks deprecation]: https://learn.microsoft.com/azure/virtual-machines/unmanaged-disks-deprecation"
   modifiers:
   - "abstract"
-  syntax: "public abstract VirtualMachine.DefinitionStages.WithFromImageCreateOptionsUnmanaged withUnmanagedDisks()"
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public abstract VirtualMachine.DefinitionStages.WithFromImageCreateOptionsUnmanaged withUnmanagedDisks()"
   desc: "Specifies that unmanaged disks will be used."
+  hasDeprecatedTag: true
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithFromImageCreateOptionsUnmanaged?alt=com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithFromImageCreateOptionsUnmanaged&text=WithFromImageCreateOptionsUnmanaged\" data-throw-if-not-resolved=\"False\" />"
@@ -24,4 +26,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithFromImageCreateOptionsManaged?alt=com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithFromImageCreateOptionsManaged&text=WithFromImageCreateOptionsManaged\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.59.0

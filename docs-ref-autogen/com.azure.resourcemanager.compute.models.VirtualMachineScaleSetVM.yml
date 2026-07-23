@@ -457,10 +457,12 @@ methods:
   name: "osUnmanagedDiskVhdUri()"
   nameWithType: "VirtualMachineScaleSetVM.osUnmanagedDiskVhdUri()"
   summary: "Gets VHD URI to the operating system disk."
+  deprecatedTag: "Unmanaged disks are deprecated by Azure and being retired. Use managed disks instead. See [Unmanaged disks deprecation][].\n\n\n[Unmanaged disks deprecation]: https://learn.microsoft.com/azure/virtual-machines/unmanaged-disks-deprecation"
   modifiers:
   - "abstract"
-  syntax: "public abstract String osUnmanagedDiskVhdUri()"
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public abstract String osUnmanagedDiskVhdUri()"
   desc: "Gets VHD URI to the operating system disk."
+  hasDeprecatedTag: true
   returns:
     description: "VHD URI to the operating system disk"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -711,10 +713,12 @@ methods:
   name: "storedImageUnmanagedVhdUri()"
   nameWithType: "VirtualMachineScaleSetVM.storedImageUnmanagedVhdUri()"
   summary: "Gets VHD URI of the custom image."
+  deprecatedTag: "Unmanaged disks are deprecated by Azure and being retired. Use managed disks instead. See [Unmanaged disks deprecation][].\n\n\n[Unmanaged disks deprecation]: https://learn.microsoft.com/azure/virtual-machines/unmanaged-disks-deprecation"
   modifiers:
   - "abstract"
-  syntax: "public abstract String storedImageUnmanagedVhdUri()"
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public abstract String storedImageUnmanagedVhdUri()"
   desc: "Gets VHD URI of the custom image."
+  hasDeprecatedTag: true
   returns:
     description: "VHD URI of the custom image that the virtual machine instance operating system is based on, null will be\n     returned if the operating system is based on platform image"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -764,4 +768,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.Updatable?alt=com.azure.resourcemanager.resources.fluentcore.model.Updatable&text=Updatable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVM.Update?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVM.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.59.0

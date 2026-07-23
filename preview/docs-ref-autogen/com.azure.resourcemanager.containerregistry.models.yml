@@ -10,6 +10,8 @@ classes:
 - "com.azure.resourcemanager.containerregistry.models.ActivationProperties"
 - "com.azure.resourcemanager.containerregistry.models.ActivationStatus"
 - "com.azure.resourcemanager.containerregistry.models.Actor"
+- "com.azure.resourcemanager.containerregistry.models.AdditionalAuthenticationProperties"
+- "com.azure.resourcemanager.containerregistry.models.AdditionalAuthenticationType"
 - "com.azure.resourcemanager.containerregistry.models.AgentPoolListResult"
 - "com.azure.resourcemanager.containerregistry.models.AgentPoolUpdateParameters"
 - "com.azure.resourcemanager.containerregistry.models.AgentProperties"
@@ -60,6 +62,7 @@ classes:
 - "com.azure.resourcemanager.containerregistry.models.FileTaskRunRequest"
 - "com.azure.resourcemanager.containerregistry.models.FileTaskStep"
 - "com.azure.resourcemanager.containerregistry.models.FileTaskStepUpdateParameters"
+- "com.azure.resourcemanager.containerregistry.models.GarAuthenticationProperties"
 - "com.azure.resourcemanager.containerregistry.models.GarbageCollectionProperties"
 - "com.azure.resourcemanager.containerregistry.models.GenerateCredentialsParameters"
 - "com.azure.resourcemanager.containerregistry.models.IdentityProperties"
@@ -184,10 +187,12 @@ classes:
 - "com.azure.resourcemanager.containerregistry.models.UpdateTriggerPayloadType"
 - "com.azure.resourcemanager.containerregistry.models.UserIdentityProperties"
 - "com.azure.resourcemanager.containerregistry.models.Variant"
+- "com.azure.resourcemanager.containerregistry.models.VirtualNetworkRule"
 - "com.azure.resourcemanager.containerregistry.models.WebhookAction"
 - "com.azure.resourcemanager.containerregistry.models.WebhookCreateParameters"
 - "com.azure.resourcemanager.containerregistry.models.WebhookStatus"
 - "com.azure.resourcemanager.containerregistry.models.WebhookUpdateParameters"
+- "com.azure.resourcemanager.containerregistry.models.WritableCacheRepos"
 - "com.azure.resourcemanager.containerregistry.models.ZoneRedundancy"
 enums:
 - "com.azure.resourcemanager.containerregistry.models.PasswordName"
@@ -368,7 +373,7 @@ interfaces:
 - "com.azure.resourcemanager.containerregistry.models.Webhook.WebhookDefinition"
 - "com.azure.resourcemanager.containerregistry.models.WebhookEventInfo"
 - "com.azure.resourcemanager.containerregistry.models.WebhookOperations"
-desc: "Package containing the data models for ContainerRegistry. The Microsoft Azure Container Registry management API provides create, read, update, and delete functionality for Azure Container Registry resources including registries, replications, webhooks, tasks, runs, and other registry components."
+desc: "Package containing the data models for ContainerRegistry."
 metadata: {}
 package: "com.azure.resourcemanager.containerregistry.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.56.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.56.0-beta.2

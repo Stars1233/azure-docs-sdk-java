@@ -4,7 +4,7 @@ fullName: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignme
 name: "AccessPolicyAssignment.DefinitionStages.WithCreate"
 nameWithType: "AccessPolicyAssignment.DefinitionStages.WithCreate"
 summary: "The stage of the Access<wbr>Policy<wbr>Assignment definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
-syntax: "public static interface **AccessPolicyAssignment.DefinitionStages.WithCreate**</br> extends <xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.DefinitionStages.WithAccessPolicyName?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.DefinitionStages.WithAccessPolicyName&text=WithAccessPolicyName\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.DefinitionStages.WithUser?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.DefinitionStages.WithUser&text=WithUser\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public static interface **AccessPolicyAssignment.DefinitionStages.WithCreate**</br> extends <xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.DefinitionStages.WithAccessPolicyName?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.DefinitionStages.WithAccessPolicyName&text=WithAccessPolicyName\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.DefinitionStages.WithAccessString?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.DefinitionStages.WithAccessString&text=WithAccessString\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.DefinitionStages.WithUser?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.DefinitionStages.WithUser&text=WithUser\" data-throw-if-not-resolved=\"False\" />"
 methods:
 - uid: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.DefinitionStages.WithCreate.create()"
   fullName: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.DefinitionStages.WithCreate.create()"
@@ -38,7 +38,8 @@ type: "interface"
 desc: "The stage of the AccessPolicyAssignment definition which contains all the minimum required properties for the resource to be created, but also allows for any other optional properties to be specified."
 implements:
 - "<xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.DefinitionStages.WithAccessPolicyName?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.DefinitionStages.WithAccessPolicyName&text=WithAccessPolicyName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.DefinitionStages.WithAccessString?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.DefinitionStages.WithAccessString&text=WithAccessString\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.DefinitionStages.WithUser?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.DefinitionStages.WithUser&text=WithUser\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.redisenterprise.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-redisenterprise:2.1.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-redisenterprise:2.2.0-beta.1

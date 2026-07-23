@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.compute.models.ConfidentialVMVersion"
+fullName: "com.azure.resourcemanager.compute.models.ConfidentialVMVersion"
+name: "ConfidentialVMVersion"
+nameWithType: "ConfidentialVMVersion"
+summary: "Indicates the version of Confidential VM for the resource."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ConfidentialVMVersion**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.ConfidentialVMVersion?alt=com.azure.resourcemanager.compute.models.ConfidentialVMVersion&text=ConfidentialVMVersion\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.compute.models.ConfidentialVMVersion.ConfidentialVMVersion()"
+  fullName: "com.azure.resourcemanager.compute.models.ConfidentialVMVersion.ConfidentialVMVersion()"
+  name: "ConfidentialVMVersion()"
+  nameWithType: "ConfidentialVMVersion.ConfidentialVMVersion()"
+  summary: "Creates a new instance of Confidential<wbr>VMVersion value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.compute.models.ConfidentialVMVersion.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public ConfidentialVMVersion()"
+  desc: "Creates a new instance of ConfidentialVMVersion value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.compute.models.ConfidentialVMVersion.V1"
+  fullName: "com.azure.resourcemanager.compute.models.ConfidentialVMVersion.V1"
+  name: "V1"
+  nameWithType: "ConfidentialVMVersion.V1"
+  summary: "V1 indicates the resource does not have an associated Virtual Machine Metadata."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.ConfidentialVMVersion?alt=com.azure.resourcemanager.compute.models.ConfidentialVMVersion&text=ConfidentialVMVersion\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ConfidentialVMVersion V1"
+  desc: "V1 indicates the resource does not have an associated Virtual Machine Metadata."
+- uid: "com.azure.resourcemanager.compute.models.ConfidentialVMVersion.V2"
+  fullName: "com.azure.resourcemanager.compute.models.ConfidentialVMVersion.V2"
+  name: "V2"
+  nameWithType: "ConfidentialVMVersion.V2"
+  summary: "V2 indicates the resource has an associated Virtual Machine Metadata."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.ConfidentialVMVersion?alt=com.azure.resourcemanager.compute.models.ConfidentialVMVersion&text=ConfidentialVMVersion\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ConfidentialVMVersion V2"
+  desc: "V2 indicates the resource has an associated Virtual Machine Metadata."
+methods:
+- uid: "com.azure.resourcemanager.compute.models.ConfidentialVMVersion.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.compute.models.ConfidentialVMVersion.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "ConfidentialVMVersion.fromString(String name)"
+  summary: "Creates or finds a Confidential<wbr>VMVersion from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static ConfidentialVMVersion fromString(String name)"
+  desc: "Creates or finds a ConfidentialVMVersion from its string representation."
+  returns:
+    description: "the corresponding ConfidentialVMVersion."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.ConfidentialVMVersion?alt=com.azure.resourcemanager.compute.models.ConfidentialVMVersion&text=ConfidentialVMVersion\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.ConfidentialVMVersion.values()"
+  fullName: "com.azure.resourcemanager.compute.models.ConfidentialVMVersion.values()"
+  name: "values()"
+  nameWithType: "ConfidentialVMVersion.values()"
+  summary: "Gets known Confidential<wbr>VMVersion values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<ConfidentialVMVersion> values()"
+  desc: "Gets known ConfidentialVMVersion values."
+  returns:
+    description: "known ConfidentialVMVersion values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.ConfidentialVMVersion?alt=com.azure.resourcemanager.compute.models.ConfidentialVMVersion&text=ConfidentialVMVersion\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Indicates the version of Confidential VM for the resource."
+metadata: {}
+package: "com.azure.resourcemanager.compute.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.59.0

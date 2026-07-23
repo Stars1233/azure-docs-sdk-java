@@ -419,6 +419,16 @@ methods:
   returns:
     description: "the resourceUID value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterProperties.schedulerProfile()"
+  fullName: "com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterProperties.schedulerProfile()"
+  name: "schedulerProfile()"
+  nameWithType: "ManagedClusterProperties.schedulerProfile()"
+  summary: "Get the scheduler<wbr>Profile property: Profile with scheduler-related settings, like the configuration mode for each scheduler managed by AKS."
+  syntax: "public SchedulerProfile schedulerProfile()"
+  desc: "Get the schedulerProfile property: Profile with scheduler-related settings, like the configuration mode for each scheduler managed by AKS. See https://aka.ms/aks/scheduler-profile."
+  returns:
+    description: "the schedulerProfile value."
+    type: "<xref href=\"com.azure.resourcemanager.containerservice.models.SchedulerProfile?alt=com.azure.resourcemanager.containerservice.models.SchedulerProfile&text=SchedulerProfile\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterProperties.securityProfile()"
   fullName: "com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterProperties.securityProfile()"
   name: "securityProfile()"
@@ -924,6 +934,20 @@ methods:
   returns:
     description: "the ManagedClusterProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterProperties?alt=com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterProperties&text=ManagedClusterProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterProperties.withSchedulerProfile(com.azure.resourcemanager.containerservice.models.SchedulerProfile)"
+  fullName: "com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterProperties.withSchedulerProfile(SchedulerProfile schedulerProfile)"
+  name: "withSchedulerProfile(SchedulerProfile schedulerProfile)"
+  nameWithType: "ManagedClusterProperties.withSchedulerProfile(SchedulerProfile schedulerProfile)"
+  summary: "Set the scheduler<wbr>Profile property: Profile with scheduler-related settings, like the configuration mode for each scheduler managed by AKS."
+  parameters:
+  - description: "the schedulerProfile value to set."
+    name: "schedulerProfile"
+    type: "<xref href=\"com.azure.resourcemanager.containerservice.models.SchedulerProfile?alt=com.azure.resourcemanager.containerservice.models.SchedulerProfile&text=SchedulerProfile\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ManagedClusterProperties withSchedulerProfile(SchedulerProfile schedulerProfile)"
+  desc: "Set the schedulerProfile property: Profile with scheduler-related settings, like the configuration mode for each scheduler managed by AKS. See https://aka.ms/aks/scheduler-profile."
+  returns:
+    description: "the ManagedClusterProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterProperties?alt=com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterProperties&text=ManagedClusterProperties\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterProperties.withSecurityProfile(com.azure.resourcemanager.containerservice.models.ManagedClusterSecurityProfile)"
   fullName: "com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterProperties.withSecurityProfile(ManagedClusterSecurityProfile securityProfile)"
   name: "withSecurityProfile(ManagedClusterSecurityProfile securityProfile)"
@@ -1066,4 +1090,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterProperties?alt=com.azure.resourcemanager.containerservice.fluent.models.ManagedClusterProperties&text=ManagedClusterProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.containerservice.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.61.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.62.0

@@ -202,6 +202,7 @@ methods:
   name: "withSpecializedOSUnmanagedDisk(String osDiskUrl, OperatingSystemTypes osType)"
   nameWithType: "VirtualMachine.DefinitionStages.WithOS.withSpecializedOSUnmanagedDisk(String osDiskUrl, OperatingSystemTypes osType)"
   summary: "Specifies a specialized operating system unmanaged disk to be attached to the virtual machine."
+  deprecatedTag: "Unmanaged disks are deprecated by Azure and being retired. Use managed disks instead. See [Unmanaged disks deprecation][].\n\n\n[Unmanaged disks deprecation]: https://learn.microsoft.com/azure/virtual-machines/unmanaged-disks-deprecation"
   modifiers:
   - "abstract"
   parameters:
@@ -211,8 +212,9 @@ methods:
   - description: "the OS type"
     name: "osType"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.OperatingSystemTypes?alt=com.azure.resourcemanager.compute.models.OperatingSystemTypes&text=OperatingSystemTypes\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public abstract VirtualMachine.DefinitionStages.WithUnmanagedCreate withSpecializedOSUnmanagedDisk(String osDiskUrl, OperatingSystemTypes osType)"
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public abstract VirtualMachine.DefinitionStages.WithUnmanagedCreate withSpecializedOSUnmanagedDisk(String osDiskUrl, OperatingSystemTypes osType)"
   desc: "Specifies a specialized operating system unmanaged disk to be attached to the virtual machine."
+  hasDeprecatedTag: true
   returns:
     description: "the next stage of the definition"
     type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithUnmanagedCreate?alt=com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithUnmanagedCreate&text=WithUnmanagedCreate\" data-throw-if-not-resolved=\"False\" />"
@@ -316,4 +318,4 @@ type: "interface"
 desc: "The stage of a virtual machine definition allowing to specify the operating system image."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.59.0

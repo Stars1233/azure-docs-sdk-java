@@ -1,0 +1,92 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentProvisioningError"
+fullName: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentProvisioningError"
+name: "AccessPolicyAssignmentProvisioningError"
+nameWithType: "AccessPolicyAssignmentProvisioningError"
+summary: "Error details for access policy assignment provisioning failures."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AccessPolicyAssignmentProvisioningError**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentProvisioningError?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentProvisioningError&text=AccessPolicyAssignmentProvisioningError\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentProvisioningError.code()"
+  fullName: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentProvisioningError.code()"
+  name: "code()"
+  nameWithType: "AccessPolicyAssignmentProvisioningError.code()"
+  summary: "Get the code property: Machine-readable error code (e.<wbr>g., \"Invalid<wbr>Access<wbr>String\")."
+  syntax: "public String code()"
+  desc: "Get the code property: Machine-readable error code (e.g., \"InvalidAccessString\")."
+  returns:
+    description: "the code value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentProvisioningError.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentProvisioningError.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "AccessPolicyAssignmentProvisioningError.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Access<wbr>Policy<wbr>Assignment<wbr>Provisioning<wbr>Error from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static AccessPolicyAssignmentProvisioningError fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of AccessPolicyAssignmentProvisioningError from the JsonReader."
+  returns:
+    description: "An instance of AccessPolicyAssignmentProvisioningError if the JsonReader was pointing to an instance of\n it, or null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentProvisioningError?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentProvisioningError&text=AccessPolicyAssignmentProvisioningError\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentProvisioningError.message()"
+  fullName: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentProvisioningError.message()"
+  name: "message()"
+  nameWithType: "AccessPolicyAssignmentProvisioningError.message()"
+  summary: "Get the message property: Human-readable error message describing the failure."
+  syntax: "public String message()"
+  desc: "Get the message property: Human-readable error message describing the failure."
+  returns:
+    description: "the message value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentProvisioningError.target()"
+  fullName: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentProvisioningError.target()"
+  name: "target()"
+  nameWithType: "AccessPolicyAssignmentProvisioningError.target()"
+  summary: "Get the target property: The property that caused the error (e.<wbr>g., \"properties.<wbr>access<wbr>String\")."
+  syntax: "public String target()"
+  desc: "Get the target property: The property that caused the error (e.g., \"properties.accessString\")."
+  returns:
+    description: "the target value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentProvisioningError.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentProvisioningError.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "AccessPolicyAssignmentProvisioningError.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Error details for access policy assignment provisioning failures."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentProvisioningError?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentProvisioningError&text=AccessPolicyAssignmentProvisioningError\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.redisenterprise.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-redisenterprise:2.2.0-beta.1

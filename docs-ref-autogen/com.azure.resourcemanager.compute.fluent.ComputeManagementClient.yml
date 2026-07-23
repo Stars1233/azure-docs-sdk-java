@@ -438,6 +438,18 @@ methods:
   returns:
     description: "the SharedGalleryImageVersionsClient object."
     type: "<xref href=\"com.azure.resourcemanager.compute.fluent.SharedGalleryImageVersionsClient?alt=com.azure.resourcemanager.compute.fluent.SharedGalleryImageVersionsClient&text=SharedGalleryImageVersionsClient\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getSharedGalleryInvites()"
+  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getSharedGalleryInvites()"
+  name: "getSharedGalleryInvites()"
+  nameWithType: "ComputeManagementClient.getSharedGalleryInvites()"
+  summary: "Gets the Shared<wbr>Gallery<wbr>Invites<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SharedGalleryInvitesClient getSharedGalleryInvites()"
+  desc: "Gets the SharedGalleryInvitesClient object to access its operations."
+  returns:
+    description: "the SharedGalleryInvitesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.SharedGalleryInvitesClient?alt=com.azure.resourcemanager.compute.fluent.SharedGalleryInvitesClient&text=SharedGalleryInvitesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getSnapshots()"
   fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getSnapshots()"
   name: "getSnapshots()"
@@ -486,6 +498,18 @@ methods:
   returns:
     description: "the subscriptionId value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getTenantLevelSharedGalleryInvites()"
+  fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getTenantLevelSharedGalleryInvites()"
+  name: "getTenantLevelSharedGalleryInvites()"
+  nameWithType: "ComputeManagementClient.getTenantLevelSharedGalleryInvites()"
+  summary: "Gets the Tenant<wbr>Level<wbr>Shared<wbr>Gallery<wbr>Invites<wbr>Client object to access its operations."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract TenantLevelSharedGalleryInvitesClient getTenantLevelSharedGalleryInvites()"
+  desc: "Gets the TenantLevelSharedGalleryInvitesClient object to access its operations."
+  returns:
+    description: "the TenantLevelSharedGalleryInvitesClient object."
+    type: "<xref href=\"com.azure.resourcemanager.compute.fluent.TenantLevelSharedGalleryInvitesClient?alt=com.azure.resourcemanager.compute.fluent.TenantLevelSharedGalleryInvitesClient&text=TenantLevelSharedGalleryInvitesClient\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getUsages()"
   fullName: "com.azure.resourcemanager.compute.fluent.ComputeManagementClient.getUsages()"
   name: "getUsages()"
@@ -670,4 +694,4 @@ type: "interface"
 desc: "The interface for ComputeManagementClient class."
 metadata: {}
 package: "com.azure.resourcemanager.compute.fluent"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.59.0

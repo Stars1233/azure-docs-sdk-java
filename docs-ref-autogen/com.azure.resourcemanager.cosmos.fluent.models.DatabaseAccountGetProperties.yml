@@ -214,9 +214,9 @@ methods:
   fullName: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties.enableBurstCapacity()"
   name: "enableBurstCapacity()"
   nameWithType: "DatabaseAccountGetProperties.enableBurstCapacity()"
-  summary: "Get the enable<wbr>Burst<wbr>Capacity property: Flag to indicate enabling/disabling of Burst Capacity feature on the account."
+  summary: "Get the enable<wbr>Burst<wbr>Capacity property: Flag to indicate enabling/disabling of Burst Capacity Preview feature on the account."
   syntax: "public Boolean enableBurstCapacity()"
-  desc: "Get the enableBurstCapacity property: Flag to indicate enabling/disabling of Burst Capacity feature on the account."
+  desc: "Get the enableBurstCapacity property: Flag to indicate enabling/disabling of Burst Capacity Preview feature on the account."
   returns:
     description: "the enableBurstCapacity value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
@@ -264,9 +264,9 @@ methods:
   fullName: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties.enablePerRegionPerPartitionAutoscale()"
   name: "enablePerRegionPerPartitionAutoscale()"
   nameWithType: "DatabaseAccountGetProperties.enablePerRegionPerPartitionAutoscale()"
-  summary: "Get the enable<wbr>Per<wbr>Region<wbr>Per<wbr>Partition<wbr>Autoscale property: Flag to indicate enabling/disabling of Per<wbr>Region<wbr>Per<wbr>Partition<wbr>Autoscale feature on the account."
+  summary: "Get the enable<wbr>Per<wbr>Region<wbr>Per<wbr>Partition<wbr>Autoscale property: Flag to indicate enabling/disabling of Per-Region Per-partition autoscale Preview feature on the account."
   syntax: "public Boolean enablePerRegionPerPartitionAutoscale()"
-  desc: "Get the enablePerRegionPerPartitionAutoscale property: Flag to indicate enabling/disabling of PerRegionPerPartitionAutoscale feature on the account."
+  desc: "Get the enablePerRegionPerPartitionAutoscale property: Flag to indicate enabling/disabling of Per-Region Per-partition autoscale Preview feature on the account."
   returns:
     description: "the enablePerRegionPerPartitionAutoscale value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
@@ -279,6 +279,16 @@ methods:
   desc: "Get the enablePriorityBasedExecution property: Flag to indicate enabling/disabling of Priority Based Execution Preview feature on the account."
   returns:
     description: "the enablePriorityBasedExecution value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+- uid: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties.enforceHierarchicalPartitionKeyIdLastLevel()"
+  fullName: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties.enforceHierarchicalPartitionKeyIdLastLevel()"
+  name: "enforceHierarchicalPartitionKeyIdLastLevel()"
+  nameWithType: "DatabaseAccountGetProperties.enforceHierarchicalPartitionKeyIdLastLevel()"
+  summary: "Get the enforce<wbr>Hierarchical<wbr>Partition<wbr>Key<wbr>IdLast<wbr>Level property: Flag to indicate enabling/disabling of hierarchical partition key ID last level enforcement on the account."
+  syntax: "public Boolean enforceHierarchicalPartitionKeyIdLastLevel()"
+  desc: "Get the enforceHierarchicalPartitionKeyIdLastLevel property: Flag to indicate enabling/disabling of hierarchical partition key ID last level enforcement on the account."
+  returns:
+    description: "the enforceHierarchicalPartitionKeyIdLastLevel value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
 - uid: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties.failoverPolicies()"
   fullName: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties.failoverPolicies()"
@@ -385,7 +395,7 @@ methods:
   nameWithType: "DatabaseAccountGetProperties.minimalTlsVersion()"
   summary: "Get the minimal<wbr>Tls<wbr>Version property: Indicates the minimum allowed Tls version."
   syntax: "public MinimalTlsVersion minimalTlsVersion()"
-  desc: "Get the minimalTlsVersion property: Indicates the minimum allowed Tls version. The default value is Tls 1.2. Cassandra and Mongo APIs only work with Tls 1.2."
+  desc: "Get the minimalTlsVersion property: Indicates the minimum allowed Tls version. The default is Tls 1.0, except for Cassandra and Mongo API's, which only work with Tls 1.2."
   returns:
     description: "the minimalTlsVersion value."
     type: "<xref href=\"com.azure.resourcemanager.cosmos.models.MinimalTlsVersion?alt=com.azure.resourcemanager.cosmos.models.MinimalTlsVersion&text=MinimalTlsVersion\" data-throw-if-not-resolved=\"False\" />"
@@ -423,9 +433,9 @@ methods:
   fullName: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties.provisioningState()"
   name: "provisioningState()"
   nameWithType: "DatabaseAccountGetProperties.provisioningState()"
-  summary: "Get the provisioning<wbr>State property: The status of the Cosmos DB account at the time the operation was called."
+  summary: "Get the provisioning<wbr>State property: The provisioning state of the resource."
   syntax: "public String provisioningState()"
-  desc: "Get the provisioningState property: The status of the Cosmos DB account at the time the operation was called. The status can be one of following. 'Creating' – the Cosmos DB account is being created. When an account is in Creating state, only properties that are specified as input for the Create Cosmos DB account operation are returned. 'Succeeded' – the Cosmos DB account is active for use. 'Updating' – the Cosmos DB account is being updated. 'Deleting' – the Cosmos DB account is being deleted. 'Failed' – the Cosmos DB account failed creation. 'DeletionFailed' – the Cosmos DB account deletion failed."
+  desc: "Get the provisioningState property: The provisioning state of the resource."
   returns:
     description: "the provisioningState value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -716,13 +726,13 @@ methods:
   fullName: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties.withEnableBurstCapacity(Boolean enableBurstCapacity)"
   name: "withEnableBurstCapacity(Boolean enableBurstCapacity)"
   nameWithType: "DatabaseAccountGetProperties.withEnableBurstCapacity(Boolean enableBurstCapacity)"
-  summary: "Set the enable<wbr>Burst<wbr>Capacity property: Flag to indicate enabling/disabling of Burst Capacity feature on the account."
+  summary: "Set the enable<wbr>Burst<wbr>Capacity property: Flag to indicate enabling/disabling of Burst Capacity Preview feature on the account."
   parameters:
   - description: "the enableBurstCapacity value to set."
     name: "enableBurstCapacity"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
   syntax: "public DatabaseAccountGetProperties withEnableBurstCapacity(Boolean enableBurstCapacity)"
-  desc: "Set the enableBurstCapacity property: Flag to indicate enabling/disabling of Burst Capacity feature on the account."
+  desc: "Set the enableBurstCapacity property: Flag to indicate enabling/disabling of Burst Capacity Preview feature on the account."
   returns:
     description: "the DatabaseAccountGetProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties?alt=com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties&text=DatabaseAccountGetProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -786,13 +796,13 @@ methods:
   fullName: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties.withEnablePerRegionPerPartitionAutoscale(Boolean enablePerRegionPerPartitionAutoscale)"
   name: "withEnablePerRegionPerPartitionAutoscale(Boolean enablePerRegionPerPartitionAutoscale)"
   nameWithType: "DatabaseAccountGetProperties.withEnablePerRegionPerPartitionAutoscale(Boolean enablePerRegionPerPartitionAutoscale)"
-  summary: "Set the enable<wbr>Per<wbr>Region<wbr>Per<wbr>Partition<wbr>Autoscale property: Flag to indicate enabling/disabling of Per<wbr>Region<wbr>Per<wbr>Partition<wbr>Autoscale feature on the account."
+  summary: "Set the enable<wbr>Per<wbr>Region<wbr>Per<wbr>Partition<wbr>Autoscale property: Flag to indicate enabling/disabling of Per-Region Per-partition autoscale Preview feature on the account."
   parameters:
   - description: "the enablePerRegionPerPartitionAutoscale value to set."
     name: "enablePerRegionPerPartitionAutoscale"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
   syntax: "public DatabaseAccountGetProperties withEnablePerRegionPerPartitionAutoscale(Boolean enablePerRegionPerPartitionAutoscale)"
-  desc: "Set the enablePerRegionPerPartitionAutoscale property: Flag to indicate enabling/disabling of PerRegionPerPartitionAutoscale feature on the account."
+  desc: "Set the enablePerRegionPerPartitionAutoscale property: Flag to indicate enabling/disabling of Per-Region Per-partition autoscale Preview feature on the account."
   returns:
     description: "the DatabaseAccountGetProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties?alt=com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties&text=DatabaseAccountGetProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -807,6 +817,20 @@ methods:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
   syntax: "public DatabaseAccountGetProperties withEnablePriorityBasedExecution(Boolean enablePriorityBasedExecution)"
   desc: "Set the enablePriorityBasedExecution property: Flag to indicate enabling/disabling of Priority Based Execution Preview feature on the account."
+  returns:
+    description: "the DatabaseAccountGetProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties?alt=com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties&text=DatabaseAccountGetProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties.withEnforceHierarchicalPartitionKeyIdLastLevel(java.lang.Boolean)"
+  fullName: "com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties.withEnforceHierarchicalPartitionKeyIdLastLevel(Boolean enforceHierarchicalPartitionKeyIdLastLevel)"
+  name: "withEnforceHierarchicalPartitionKeyIdLastLevel(Boolean enforceHierarchicalPartitionKeyIdLastLevel)"
+  nameWithType: "DatabaseAccountGetProperties.withEnforceHierarchicalPartitionKeyIdLastLevel(Boolean enforceHierarchicalPartitionKeyIdLastLevel)"
+  summary: "Set the enforce<wbr>Hierarchical<wbr>Partition<wbr>Key<wbr>IdLast<wbr>Level property: Flag to indicate enabling/disabling of hierarchical partition key ID last level enforcement on the account."
+  parameters:
+  - description: "the enforceHierarchicalPartitionKeyIdLastLevel value to set."
+    name: "enforceHierarchicalPartitionKeyIdLastLevel"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+  syntax: "public DatabaseAccountGetProperties withEnforceHierarchicalPartitionKeyIdLastLevel(Boolean enforceHierarchicalPartitionKeyIdLastLevel)"
+  desc: "Set the enforceHierarchicalPartitionKeyIdLastLevel property: Flag to indicate enabling/disabling of hierarchical partition key ID last level enforcement on the account."
   returns:
     description: "the DatabaseAccountGetProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties?alt=com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties&text=DatabaseAccountGetProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -862,7 +886,7 @@ methods:
     name: "minimalTlsVersion"
     type: "<xref href=\"com.azure.resourcemanager.cosmos.models.MinimalTlsVersion?alt=com.azure.resourcemanager.cosmos.models.MinimalTlsVersion&text=MinimalTlsVersion\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public DatabaseAccountGetProperties withMinimalTlsVersion(MinimalTlsVersion minimalTlsVersion)"
-  desc: "Set the minimalTlsVersion property: Indicates the minimum allowed Tls version. The default value is Tls 1.2. Cassandra and Mongo APIs only work with Tls 1.2."
+  desc: "Set the minimalTlsVersion property: Indicates the minimum allowed Tls version. The default is Tls 1.0, except for Cassandra and Mongo API's, which only work with Tls 1.2."
   returns:
     description: "the DatabaseAccountGetProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties?alt=com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties&text=DatabaseAccountGetProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -952,4 +976,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties?alt=com.azure.resourcemanager.cosmos.fluent.models.DatabaseAccountGetProperties&text=DatabaseAccountGetProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.cosmos.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.54.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.55.0

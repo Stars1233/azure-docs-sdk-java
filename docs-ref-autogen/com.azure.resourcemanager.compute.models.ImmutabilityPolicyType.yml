@@ -1,0 +1,98 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.compute.models.ImmutabilityPolicyType"
+fullName: "com.azure.resourcemanager.compute.models.ImmutabilityPolicyType"
+name: "ImmutabilityPolicyType"
+nameWithType: "ImmutabilityPolicyType"
+summary: "The type of the immutability policy."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ImmutabilityPolicyType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.ImmutabilityPolicyType?alt=com.azure.resourcemanager.compute.models.ImmutabilityPolicyType&text=ImmutabilityPolicyType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.compute.models.ImmutabilityPolicyType.ImmutabilityPolicyType()"
+  fullName: "com.azure.resourcemanager.compute.models.ImmutabilityPolicyType.ImmutabilityPolicyType()"
+  name: "ImmutabilityPolicyType()"
+  nameWithType: "ImmutabilityPolicyType.ImmutabilityPolicyType()"
+  summary: "Creates a new instance of Immutability<wbr>Policy<wbr>Type value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.resourcemanager.compute.models.ImmutabilityPolicyType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public ImmutabilityPolicyType()"
+  desc: "Creates a new instance of ImmutabilityPolicyType value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.resourcemanager.compute.models.ImmutabilityPolicyType.LOCKED"
+  fullName: "com.azure.resourcemanager.compute.models.ImmutabilityPolicyType.LOCKED"
+  name: "LOCKED"
+  nameWithType: "ImmutabilityPolicyType.LOCKED"
+  summary: "The snapshot immutability policy duration cannot be reduced but can be extended."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.ImmutabilityPolicyType?alt=com.azure.resourcemanager.compute.models.ImmutabilityPolicyType&text=ImmutabilityPolicyType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ImmutabilityPolicyType LOCKED"
+  desc: "The snapshot immutability policy duration cannot be reduced but can be extended. The policy cannot be removed until the lock period expires."
+- uid: "com.azure.resourcemanager.compute.models.ImmutabilityPolicyType.UNLOCKED"
+  fullName: "com.azure.resourcemanager.compute.models.ImmutabilityPolicyType.UNLOCKED"
+  name: "UNLOCKED"
+  nameWithType: "ImmutabilityPolicyType.UNLOCKED"
+  summary: "Privileged users can modify the snapshot's immutability policy, if it is unlocked type."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.ImmutabilityPolicyType?alt=com.azure.resourcemanager.compute.models.ImmutabilityPolicyType&text=ImmutabilityPolicyType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final ImmutabilityPolicyType UNLOCKED"
+  desc: "Privileged users can modify the snapshot's immutability policy, if it is unlocked type."
+methods:
+- uid: "com.azure.resourcemanager.compute.models.ImmutabilityPolicyType.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.compute.models.ImmutabilityPolicyType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "ImmutabilityPolicyType.fromString(String name)"
+  summary: "Creates or finds a Immutability<wbr>Policy<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static ImmutabilityPolicyType fromString(String name)"
+  desc: "Creates or finds a ImmutabilityPolicyType from its string representation."
+  returns:
+    description: "the corresponding ImmutabilityPolicyType."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.ImmutabilityPolicyType?alt=com.azure.resourcemanager.compute.models.ImmutabilityPolicyType&text=ImmutabilityPolicyType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.ImmutabilityPolicyType.values()"
+  fullName: "com.azure.resourcemanager.compute.models.ImmutabilityPolicyType.values()"
+  name: "values()"
+  nameWithType: "ImmutabilityPolicyType.values()"
+  summary: "Gets known Immutability<wbr>Policy<wbr>Type values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<ImmutabilityPolicyType> values()"
+  desc: "Gets known ImmutabilityPolicyType values."
+  returns:
+    description: "known ImmutabilityPolicyType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.ImmutabilityPolicyType?alt=com.azure.resourcemanager.compute.models.ImmutabilityPolicyType&text=ImmutabilityPolicyType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The type of the immutability policy. 'Unlocked' allows the policy to be modified by privileged users; 'Locked' prevents reduction of the immutability duration but allows extension of the lock period."
+metadata: {}
+package: "com.azure.resourcemanager.compute.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.59.0

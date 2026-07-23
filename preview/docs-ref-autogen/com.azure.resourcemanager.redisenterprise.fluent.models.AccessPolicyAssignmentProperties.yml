@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssign
 fullName: "com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties"
 name: "AccessPolicyAssignmentProperties"
 nameWithType: "AccessPolicyAssignmentProperties"
-summary: "Redis Enterprise database access policy assignment properties Properties of Redis Enterprise database access policy assignment."
+summary: "Properties of Redis Enterprise database access policy assignment."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -34,11 +34,21 @@ methods:
   fullName: "com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties.accessPolicyName()"
   name: "accessPolicyName()"
   nameWithType: "AccessPolicyAssignmentProperties.accessPolicyName()"
-  summary: "Get the access<wbr>Policy<wbr>Name property: Name of access policy under specific access policy assignment."
+  summary: "Get the access<wbr>Policy<wbr>Name property: \\*\\*Deprecated.\\*\\* This property always returns \"default\"."
   syntax: "public String accessPolicyName()"
-  desc: "Get the accessPolicyName property: Name of access policy under specific access policy assignment. Only \"default\" policy is supported for now."
+  desc: "Get the accessPolicyName property: \\*\\*Deprecated.\\*\\* This property always returns \"default\". Use \\`accessString\\` to configure custom Redis ACL permissions instead."
   returns:
     description: "the accessPolicyName value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties.accessString()"
+  fullName: "com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties.accessString()"
+  name: "accessString()"
+  nameWithType: "AccessPolicyAssignmentProperties.accessString()"
+  summary: "Get the access<wbr>String property: The Redis ACL permissions string applied to this assignment, for example \\`+@read ~cache:\\*\\`."
+  syntax: "public String accessString()"
+  desc: "Get the accessString property: The Redis ACL permissions string applied to this assignment, for example \\`+@read ~cache:\\*\\`. Defaults to \\`+@all ~\\*\\` if not specified."
+  returns:
+    description: "the accessString value."
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties.fromJson(JsonReader jsonReader)"
@@ -59,6 +69,16 @@ methods:
   returns:
     description: "An instance of AccessPolicyAssignmentProperties if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
     type: "<xref href=\"com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties?alt=com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties&text=AccessPolicyAssignmentProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties.provisioningError()"
+  fullName: "com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties.provisioningError()"
+  name: "provisioningError()"
+  nameWithType: "AccessPolicyAssignmentProperties.provisioningError()"
+  summary: "Get the provisioning<wbr>Error property: Provisioning error details when the access string failed to apply (e.<wbr>g., invalid ACL syntax)."
+  syntax: "public AccessPolicyAssignmentProvisioningError provisioningError()"
+  desc: "Get the provisioningError property: Provisioning error details when the access string failed to apply (e.g., invalid ACL syntax). Null when provisioning succeeded."
+  returns:
+    description: "the provisioningError value."
+    type: "<xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentProvisioningError?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentProvisioningError&text=AccessPolicyAssignmentProvisioningError\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties.provisioningState()"
   fullName: "com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties.provisioningState()"
   name: "provisioningState()"
@@ -91,24 +111,31 @@ methods:
   returns:
     description: "the user value."
     type: "<xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentPropertiesUser?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignmentPropertiesUser&text=AccessPolicyAssignmentPropertiesUser\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties.validate()"
-  fullName: "com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties.validate()"
-  name: "validate()"
-  nameWithType: "AccessPolicyAssignmentProperties.validate()"
-  summary: "Validates the instance."
-  syntax: "public void validate()"
-  desc: "Validates the instance."
 - uid: "com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties.withAccessPolicyName(java.lang.String)"
   fullName: "com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties.withAccessPolicyName(String accessPolicyName)"
   name: "withAccessPolicyName(String accessPolicyName)"
   nameWithType: "AccessPolicyAssignmentProperties.withAccessPolicyName(String accessPolicyName)"
-  summary: "Set the access<wbr>Policy<wbr>Name property: Name of access policy under specific access policy assignment."
+  summary: "Set the access<wbr>Policy<wbr>Name property: \\*\\*Deprecated.\\*\\* This property always returns \"default\"."
   parameters:
   - description: "the accessPolicyName value to set."
     name: "accessPolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public AccessPolicyAssignmentProperties withAccessPolicyName(String accessPolicyName)"
-  desc: "Set the accessPolicyName property: Name of access policy under specific access policy assignment. Only \"default\" policy is supported for now."
+  desc: "Set the accessPolicyName property: \\*\\*Deprecated.\\*\\* This property always returns \"default\". Use \\`accessString\\` to configure custom Redis ACL permissions instead."
+  returns:
+    description: "the AccessPolicyAssignmentProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties?alt=com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties&text=AccessPolicyAssignmentProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties.withAccessString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties.withAccessString(String accessString)"
+  name: "withAccessString(String accessString)"
+  nameWithType: "AccessPolicyAssignmentProperties.withAccessString(String accessString)"
+  summary: "Set the access<wbr>String property: The Redis ACL permissions string applied to this assignment, for example \\`+@read ~cache:\\*\\`."
+  parameters:
+  - description: "the accessString value to set."
+    name: "accessString"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public AccessPolicyAssignmentProperties withAccessString(String accessString)"
+  desc: "Set the accessString property: The Redis ACL permissions string applied to this assignment, for example \\`+@read ~cache:\\*\\`. Defaults to \\`+@all ~\\*\\` if not specified."
   returns:
     description: "the AccessPolicyAssignmentProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties?alt=com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties&text=AccessPolicyAssignmentProperties\" data-throw-if-not-resolved=\"False\" />"
@@ -127,9 +154,9 @@ methods:
     description: "the AccessPolicyAssignmentProperties object itself."
     type: "<xref href=\"com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties?alt=com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties&text=AccessPolicyAssignmentProperties\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "Redis Enterprise database access policy assignment properties Properties of Redis Enterprise database access policy assignment."
+desc: "Properties of Redis Enterprise database access policy assignment."
 implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties?alt=com.azure.resourcemanager.redisenterprise.fluent.models.AccessPolicyAssignmentProperties&text=AccessPolicyAssignmentProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.redisenterprise.fluent.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-redisenterprise:2.1.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-redisenterprise:2.2.0-beta.1

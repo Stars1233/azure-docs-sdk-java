@@ -595,10 +595,12 @@ methods:
   name: "osUnmanagedDiskVhdUri()"
   nameWithType: "VirtualMachine.osUnmanagedDiskVhdUri()"
   summary: "Gets the URI to the VHD file backing this virtual machine's operating system disk."
+  deprecatedTag: "Unmanaged disks are deprecated by Azure and being retired. Use managed disks instead. See [Unmanaged disks deprecation][].\n\n\n[Unmanaged disks deprecation]: https://learn.microsoft.com/azure/virtual-machines/unmanaged-disks-deprecation"
   modifiers:
   - "abstract"
-  syntax: "public abstract String osUnmanagedDiskVhdUri()"
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public abstract String osUnmanagedDiskVhdUri()"
   desc: "Gets the URI to the VHD file backing this virtual machine's operating system disk."
+  hasDeprecatedTag: true
   returns:
     description: "the URI to the VHD file backing this virtual machine's operating system disk"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
@@ -1017,10 +1019,12 @@ methods:
   name: "unmanagedDataDisks()"
   nameWithType: "VirtualMachine.unmanagedDataDisks()"
   summary: "Gets the unmanaged data disks associated with this virtual machine, indexed by LUN number."
+  deprecatedTag: "Unmanaged disks are deprecated by Azure and being retired. Use managed disks instead. See [Unmanaged disks deprecation][].\n\n\n[Unmanaged disks deprecation]: https://learn.microsoft.com/azure/virtual-machines/unmanaged-disks-deprecation"
   modifiers:
   - "abstract"
-  syntax: "public abstract Map<Integer,VirtualMachineUnmanagedDataDisk> unmanagedDataDisks()"
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public abstract Map<Integer,VirtualMachineUnmanagedDataDisk> unmanagedDataDisks()"
   desc: "Gets the unmanaged data disks associated with this virtual machine, indexed by LUN number."
+  hasDeprecatedTag: true
   returns:
     description: "the unmanaged data disks associated with this virtual machine, indexed by LUN number"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html\">Integer</a>,<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineUnmanagedDataDisk?alt=com.azure.resourcemanager.compute.models.VirtualMachineUnmanagedDataDisk&text=VirtualMachineUnmanagedDataDisk\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -1081,4 +1085,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.Updatable?alt=com.azure.resourcemanager.resources.fluentcore.model.Updatable&text=Updatable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachine.Update?alt=com.azure.resourcemanager.compute.models.VirtualMachine.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.59.0

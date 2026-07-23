@@ -30,6 +30,16 @@ constructors:
   syntax: "public DiskSecurityProfile()"
   desc: "Creates an instance of DiskSecurityProfile class."
 methods:
+- uid: "com.azure.resourcemanager.compute.models.DiskSecurityProfile.confidentialVMVersion()"
+  fullName: "com.azure.resourcemanager.compute.models.DiskSecurityProfile.confidentialVMVersion()"
+  name: "confidentialVMVersion()"
+  nameWithType: "DiskSecurityProfile.confidentialVMVersion()"
+  summary: "Get the confidential<wbr>VMVersion property: Indicates the version of Confidential VM for the resource."
+  syntax: "public ConfidentialVMVersion confidentialVMVersion()"
+  desc: "Get the confidentialVMVersion property: Indicates the version of Confidential VM for the resource."
+  returns:
+    description: "the confidentialVMVersion value."
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.ConfidentialVMVersion?alt=com.azure.resourcemanager.compute.models.ConfidentialVMVersion&text=ConfidentialVMVersion\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.compute.models.DiskSecurityProfile.fromJson(com.azure.json.JsonReader)"
   fullName: "com.azure.resourcemanager.compute.models.DiskSecurityProfile.fromJson(JsonReader jsonReader)"
   name: "fromJson(JsonReader jsonReader)"
@@ -122,4 +132,4 @@ implements:
 - "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.models.DiskSecurityProfile?alt=com.azure.resourcemanager.compute.models.DiskSecurityProfile&text=DiskSecurityProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.58.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.59.0

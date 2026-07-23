@@ -10,15 +10,15 @@ methods:
   fullName: "com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.UpdateStages.WithAccessPolicyName.withAccessPolicyName(String accessPolicyName)"
   name: "withAccessPolicyName(String accessPolicyName)"
   nameWithType: "AccessPolicyAssignment.UpdateStages.WithAccessPolicyName.withAccessPolicyName(String accessPolicyName)"
-  summary: "Specifies the access<wbr>Policy<wbr>Name property: Name of access policy under specific access policy assignment."
+  summary: "Specifies the access<wbr>Policy<wbr>Name property: \\*\\*Deprecated.\\*\\* This property always returns \"default\"."
   modifiers:
   - "abstract"
   parameters:
-  - description: "Name of access policy under specific access policy assignment. Only \"default\"\n policy is supported for now."
+  - description: "**Deprecated.** This property always returns \"default\". Use `accessString` to\n configure custom Redis ACL permissions instead."
     name: "accessPolicyName"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public abstract AccessPolicyAssignment.Update withAccessPolicyName(String accessPolicyName)"
-  desc: "Specifies the accessPolicyName property: Name of access policy under specific access policy assignment. Only \"default\" policy is supported for now.."
+  desc: "Specifies the accessPolicyName property: \\*\\*Deprecated.\\*\\* This property always returns \"default\". Use \\`accessString\\` to configure custom Redis ACL permissions instead.."
   returns:
     description: "the next definition stage."
     type: "<xref href=\"com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.Update?alt=com.azure.resourcemanager.redisenterprise.models.AccessPolicyAssignment.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
@@ -26,4 +26,4 @@ type: "interface"
 desc: "The stage of the AccessPolicyAssignment update allowing to specify accessPolicyName."
 metadata: {}
 package: "com.azure.resourcemanager.redisenterprise.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-redisenterprise:2.1.0-beta.3
+artifact: com.azure.resourcemanager:azure-resourcemanager-redisenterprise:2.2.0-beta.1
